@@ -1,0 +1,28 @@
+
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix odp: <http://opendiscovery.org/Data/Person/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+
+<http://opendiscovery.org/Data/People/> a owl:Ontology ;
+   rdfs:label "OD People Database" ;
+   cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
+   cc:attributionURL <http://opendiscovery.org> ;
+   cc:attributionName "The Open Discovery Project" ;
+   rdfs:label "Open Discovery Bibliographical Data" ;
+   rdfs:comment "Bibliography of the Open Discovery Project" .
+
+odp:Petrov_VM a foaf:Person ;
+   foaf:name "Vladimir Michailovich Petrov"@en,
+   	     "Vladimir Michailovich Petrov"@ru  .
+
+odp:Graebe_HG a foaf:Person ;
+   foaf:name "Hans-Gert Gräbe"@de  .
+
+odp:Hiltmann_K a foaf:Person ;
+   foaf:name "Kai Hiltmann"@de  .
+
