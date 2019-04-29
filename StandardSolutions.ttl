@@ -1,0 +1,342 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+
+<http://opendiscovery.org/rdf/StandardSolutions/>
+    a owl:Ontology ;
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;	
+    dcterms:source <http://triz-online.de/index.php?id=5577> ;
+    rdfs:comment "Extracted and transformed by HGG, 2019-04-30" ;
+    rdfs:label "TRIZ Database - The 76 Standard Solutions" .
+
+<http://opendiscovery.org/Data/StandardSolution/S_1> a od:StandardSolutionDomain ;
+ rdfs:label "Aufbau und Zerlegung vollständiger Stoff-Feld-Modelle"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_1.1> a od:StandardSolutionSubdomain ;
+ rdfs:label "Aufbau von Stoff-Feld-Modellen"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_1.1.1> a od:StandardSolution ;
+ rdfs:label "Vervollständige ein unvollständiges Stoff-Feld-Modell"@de ; 
+ od:explanation "Um Luft oder Wasser (S1) von festen Partikeln (S2) abzutrennen, wird zentrifugiert (F, Zentrifugalkraft)."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_1.1.2> a od:StandardSolution ;
+ rdfs:label "Wenn sich Additive intern zufügen lassen, vervollständige"@de ; 
+ od:explanation "Kleine Flüssigkeitstropfen lassen sich leicht durch Zugabe eines Fluoreszenzfarbstoffes detektieren."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_1.1.3> a od:StandardSolution ;
+ rdfs:label "Wenn sich Additive extern zufügen lassen, vervollständige damit"@de ; 
+ od:explanation "Gasleck-Detektion durch Seifenspray von außen auf ein Rohr."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_1.1.4> a od:StandardSolution ;
+ rdfs:label "Nutze Ressourcen zur Vervollständigung"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_1.1.5> a od:StandardSolution ;
+ rdfs:label "Erzeuge weitere Ressourcen durch Veränderung der Systemumgebung"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_1.1.6> a od:StandardSolution ;
+ rdfs:label "Nutze überschüssige Aktionen zur Vervollständigung und eliminiere den Überschuß"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_1.1.7> a od:StandardSolution ;
+ rdfs:label "Ist die überschüssige Aktion schädlich, dann versuche sie auf eine andere Komponente im System zu lenken"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_1.1.8> a od:StandardSolution ;
+ rdfs:label "Führe zur Komplettierung lokal schützende Substanzen ein"@de ; 
+ od:explanation "Glasampullen werden beim Zuschmelzen in einem Wasserbad von unten her gekühlt, um Überhitzung des thermisch empfindlichen Inhalts zu vermeiden."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_1.2> a od:StandardSolutionSubdomain ;
+ rdfs:label "Zerlegung von Stoff-Feld-Modellen"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_1.2.1> a od:StandardSolution ;
+ rdfs:label "Eliminiere schädliche Interaktionen durch Einführung eines dritten Stoffes S3"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_1.2.2> a od:StandardSolution ;
+ rdfs:label "Eliminiere schädliche Interaktionen durch Einführung eines dritten Stoffes S3, wobei S3 eine Modifikation der beiden vorhandenen Stoffe S1 und/oder S2 sein kann"@de ; 
+ od:explanation "Die oberflächliche Zerstörung von Rümpfen bei Schnellbooten durch Kavitation des Wassers kann durch Kühlung des Rumpfes und Ausbildung einer Eisschicht vermieden werden."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_1.2.3> a od:StandardSolution ;
+ rdfs:label "Lenke die schädliche Wirkung auf einen weniger wichtigen Stoff S3 z.B.: Wände von Behältern (S1), in denen Wasser (S2) gefriert, werden mit elastischen Materialien (S3) ausgekleidet, um die thermische Ausdehnung abzufangen und ein Beschädigen der Behälterwand auszuschließen."@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_1.2.4> a od:StandardSolution ;
+ rdfs:label "Führe ein neues Feld zur Kompensation schädlicher Effekte ein"@de ; 
+ od:explanation "Zur Bestäubung von Blumen wird eine Luftströmung eingesetzt, die leider auch zum Schließen der Blüten führt. Diesen negativen Effekt eliminiert man durch elektrostatische Aufladung der Blüten, wodurch sie offen bleiben."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_1.2.5> a od:StandardSolution ;
+ rdfs:label "Nutze die Möglichkeit, Magnetfelder ein- und ausschalten zu können"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2> a od:StandardSolutionDomain ;
+ rdfs:label "Verbesserung von Stoff-Feld-Modellen"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.1> a od:StandardSolutionSubdomain ;
+ rdfs:label "Übergang zu komplexeren Stoff-Feld-Modellen"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.1.1> a od:StandardSolution ;
+ rdfs:label "Verkette mehrere Stoff-Feld-Modelle"@de ; 
+ od:explanation "Hilti-Prinzip, Antrieb schlägt auf schweren Zwischenmeißel, dieser auf den eigentlichen Meißel, dieser auf den zu zerschlagenden Fels (= Impuls-Übertragung und -Verstärkung über mehrere Stufen)."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.1.2> a od:StandardSolution ;
+ rdfs:label "Verdopple ein Stoff-Feld-Modell"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.2> a od:StandardSolutionSubdomain ;
+ rdfs:label "Weiterentwicklung eines Stoff-Feld-Modells"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.2.1> a od:StandardSolution ;
+ rdfs:label "Setze besser steuerbare Felder ein"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.2.2> a od:StandardSolution ;
+ rdfs:label "Fragmentiere S2"@de ; 
+ od:explanation "Messer - Messer mit Zahnung - Mirkowellenschliff - gezielt angerauhte Klinge."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.2.3> a od:StandardSolution ;
+ rdfs:label "Setze Kapillaren und poröse Stoffe ein"@de ; 
+ od:explanation "Mehrere kleine Düsen dosieren Klebstoff präziser als eine große Öffnung."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.2.4> a od:StandardSolution ;
+ rdfs:label "Erhöhe den Grad der Dynamik"@de ; 
+ od:explanation "Unterteilen eines Türblattes in mehrere flexibel verbundene Segmente, Rolltor, Rolladen."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.2.5> a od:StandardSolution ;
+ rdfs:label "Strukturierte Felder"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.2.6> a od:StandardSolution ;
+ rdfs:label "Strukturierte Stoffe"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.3> a od:StandardSolutionSubdomain ;
+ rdfs:label "Rhythmus-Koordination"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.3.1> a od:StandardSolution ;
+ rdfs:label "Bringe den Rhythmus (die Frequenz) des einwirkenden Feldes in Übereinstimmung (oder gezielte Nicht-Übereinstimmung mit einem der beiden Stoffe)"@de ; 
+ od:explanation "Bei der Massage versucht man, den Rhythmus der äußeren Einwirkung mit dem Puls des Patienten in Übereinstimmung zu bringen."@de, "Gezielte Asymmetrie in Getrieben verhindert laute Geräusche bzw. starke Eigenresonanz."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.3.2> a od:StandardSolution ;
+ rdfs:label "Synchronisiere den Rhythmus, die Frequenz von Feldern"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.3.3> a od:StandardSolution ;
+ rdfs:label "Bringe unabhängige Aktionen in rhythmischen Zusammenhang"@de ; 
+ od:explanation "Nutze die Pausen im Ablauf einer nützlichen Funktion, um eine andere Funktion auszuführen, beispielsweise eine Mess- oder Regelaktion."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.4> a od:StandardSolutionSubdomain ;
+ rdfs:label "Komplex verbesserte Stoff-Feld-Modelle"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.4.1> a od:StandardSolution ;
+ rdfs:label "Nutze ferromagnetische Stoffe und Magnetfelder"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.4.2> a od:StandardSolution ;
+ rdfs:label "Nutze ferromagnetische Partikel, Granulate, Pulver"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.4.3> a od:StandardSolution ;
+ rdfs:label "Nutze ferromagnetische Flüssigkeiten"@de ; 
+ od:explanation "Ferromagnetische Partikel, die in Wasser, Kerosion etc. suspendiert sind."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.4.4> a od:StandardSolution ;
+ rdfs:label "Nutze Kapillar-Strukturen in Zusammensetzung mit Ferromagnetismus"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.4.5> a od:StandardSolution ;
+ rdfs:label "Nutze komplexe ferromagnetische SFM, beispielsweise externe Magnetfelder, ferromagnetische Additive etc."@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.4.6> a od:StandardSolution ;
+ rdfs:label "Führe Ferromagnetismus in das Systemumfeld ein und nutze daraus resultierende Effekte."@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.4.7> a od:StandardSolution ;
+ rdfs:label "Verbessere die Kontrollierbarkeit ferromagnetischer Systeme durch Nutzen der Effekte-Datenbank"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.4.8> a od:StandardSolution ;
+ rdfs:label "Erhöhe den Grad an Dynamik in einem komplexen Stoff-Feld-Modell"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.4.9> a od:StandardSolution ;
+ rdfs:label "Strukturiere und unterteile Felder und Stoffe in komplexe Stoff-Feld-Modelle"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.4.10> a od:StandardSolution ;
+ rdfs:label "Stimme die Rhythmen ab"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.4.11> a od:StandardSolution ;
+ rdfs:label "Nutzen elektrische Felder"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_2.4.12> a od:StandardSolution ;
+ rdfs:label "Nutze Elektrorheologie"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_3> a od:StandardSolutionDomain ;
+ rdfs:label "Übergang ins Super- und Subsystem (Makro- und Mikro-level)"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_3.1> a od:StandardSolutionSubdomain ;
+ rdfs:label "Übergang zu Bi- und Poly-Systemen"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_3.1.1> a od:StandardSolution ;
+ rdfs:label "Kombiniere Systeme zu Bi- und Poly-Systemen"@de ; 
+ od:explanation "Um die Kanten dünner Glasplatten zu bearbeiten, werden mehrere Platten übereinander zu einem stabilen Stapel zusammengefügt."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_3.1.2> a od:StandardSolution ;
+ rdfs:label "Schaffe oder intensiviere die Verbindungen zwischen den Einzelelementen in Bi- und Poly-Systemen"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_3.1.3> a od:StandardSolution ;
+ rdfs:label "Verbessere die Effizienz von Bi- und Poly-Systemen durch Vergrößerung des Unterschiedes einzelner Komponenten"@de ; 
+ od:explanation "Ähnliche Komponenten (einzelne Bleistifte verschiedener Farben) werden verbessert zu verschiedenen Komponenten (ein Satz an Zeicheninstrumenten) und werden schließlich zu Kombinationen gegensätzlicher Funktionen (Bleistift mit Radierer)."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_3.1.4> a od:StandardSolution ;
+ rdfs:label "Vereinfache Bi- und Poly-Systeme durch Elimination überflüssiger, redundanter oder ähnlicher Komponenten"@de ; 
+ od:explanation "Viele Geräte besitzen heutzutage nur noch ein LED, das grünleuchtend EIN anzeigt und rotleuchtend AUS bedeutet, früher waren zwei Lämpchen für diese Information notwendig."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_3.1.5> a od:StandardSolution ;
+ rdfs:label "Verbessere die Effizienz von Bi- und Poly-Systemen durch Verteilen sich behindernder oder schädlicher Effekte auf verschiedene Komponenten"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_3.2> a od:StandardSolutionSubdomain ;
+ rdfs:label "Übergang zu Mikro-Systemen"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_3.2.1> a od:StandardSolution ;
+ rdfs:label "Miniaturisiere Komponenten oder ganze Systeme"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_4> a od:StandardSolutionDomain ;
+ rdfs:label "Erkennen und Messen"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_4.1> a od:StandardSolutionSubdomain ;
+ rdfs:label "Indirekte Methoden"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_4.1.1> a od:StandardSolution ;
+ rdfs:label "Umgehe Erkennen und Messen"@de ; 
+ od:explanation "Um einen Elektromotor vor Überhitzung zu schützen, muss ein Temperatursensor die Temperatur messen und Aktionen initiieren. Fertigt man die Pole des Motors aus einer Legierung mit Curie-Punkt genau bei der Temperatur, wo die Überhitzung beginnt, dann stoppt sich der Motor von selbst."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_4.1.2> a od:StandardSolution ;
+ rdfs:label "Führe Erkennen und Messen an einer Kopie aus"@de ; 
+ od:explanation "Schlangen der Länge nach zu vermessen ist gefährlich. Besser geht das mit einem maßstabsgerechten Foto der Schlange."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_4.1.3> a od:StandardSolution ;
+ rdfs:label "Ersetze Messen durch zwei aufeinanderfolgende Erkennungsvorgänge"@de ; 
+ od:explanation "Um Temperatur zu messen, kann man thermochrome Substanzen einsetzen, die je nach Temperatur eine andere Farbe haben. Interessiert jedoch nur das Überschreiten einer Temperaturgrenze, dann sind ausschließlich zwei sicher unterscheidbare Farbzustände der effizientere Weg."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_4.2> a od:StandardSolutionSubdomain ;
+ rdfs:label "Aufbau von Mess-Stoff-Feld-Modellen"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_4.2.1> a od:StandardSolution ;
+ rdfs:label "Detektiere oder messe mittels eines zusätzlichen Feldes"@de ; 
+ od:explanation "Um das Kochen von Wasser zu detektieren, wird ein elektrischer Strom hindurchgeleitet. Bei beginnendem Sieden steigt durch die Dampfblasenbildung der elektrische Widerstand deutlich an."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_4.2.2> a od:StandardSolution ;
+ rdfs:label "Füge einfach zu detektierende oder zu messende Additive oder Stoffe hinzu"@de ; 
+ od:explanation "Um ein Leck im Kühlkreislauf eines Kühlschrankes zu entdecken, wird dem Kühlmittel ein Lumineszenz-Farbstoff zugemischt."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_4.2.3> a od:StandardSolution ;
+ rdfs:label "Füge einfach zu detektierende oder zu messende Felder in die Systemumgebung hinzu"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_4.2.4> a od:StandardSolution ;
+ rdfs:label "Füge einfach zu detektierende oder zu messende Additive oder Stoffe in die Systemumgebung hinzu"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_4.3> a od:StandardSolutionSubDomain ;
+ rdfs:label "Verbesserung von Mess-Systemen"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_4.3.1> a od:StandardSolution ;
+ rdfs:label "Nutze die Effekte-Datenbank zur Verbesserung von Mess-Systemen"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_4.3.2> a od:StandardSolution ;
+ rdfs:label "Nutze Resonanzphänomene zur Messung z.B.: Um die Masse eines Festkörpers in einem geschlossen Behälter zu ermitteln, werden mechanische Schwingungen angeregt, deren Frequenz von der Masse abhängt."@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_4.3.3> a od:StandardSolution ;
+ rdfs:label "Nutze Resonanzphänomene verknüpfter Objekte zur (indirekten) Messung"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_4.4> a od:StandardSolutionSubdomain ;
+ rdfs:label "Übergang zu ferromagnetischen Mess-Systemen"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_4.4.1> a od:StandardSolution ;
+ rdfs:label "Setze ferromagnetische Stoffe und Magnetfelder ein"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_4.4.2> a od:StandardSolution ;
+ rdfs:label "Ersetze Stoffe durch ferromagnetische Stoffe und detektiere oder messe via Magnetfeld"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_4.4.3> a od:StandardSolution ;
+ rdfs:label "Erzeuge komplexe, verknüpfte Stoff-Feld-Modelle mit ferromagnetischen Bestandteilen"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_4.4.4> a od:StandardSolution ;
+ rdfs:label "Führe ferromagnetische Materialien in die Systemumgebung ein"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_4.4.5> a od:StandardSolution ;
+ rdfs:label "Nutze die Effekte-Datenbank (Curie-Punkt, Hopkins- und Barkhausen-Effekt), magnetoelastische Effekte, etc.)."@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_4.5> a od:StandardSolutionSubdomain ;
+ rdfs:label "Evolution von Erkenn und Messen"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_4.5.1> a od:StandardSolution ;
+ rdfs:label "Erzeuge Bi- und Poly-Systeme"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_4.5.2> a od:StandardSolution ;
+ rdfs:label "Erkenne und messe die (mathematische) Ableitung anstatt der Originalfunktion"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_5> a od:StandardSolutionDomain ;
+ rdfs:label "Hilfen"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_5.1> a od:StandardSolutionSubdomain ;
+ rdfs:label "Einführen von Stoffen"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_5.1.1> a od:StandardSolution ;
+ rdfs:label "Indirekte Methoden"@de ; 
+ od:explanation "Führe Leerräume oder Hohlräume als Stoff ein, benutze hochaktive Additive in kleinen Mengen oder nur lokal, erzeuge den benötigten Stoff erst bei Bedarf (\"in situ\", beispielsweise durch Elektrolyse, Katalyse, ....)."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_5.1.2> a od:StandardSolution ;
+ rdfs:label "Zerteile Stoffe, nutze Fragmente"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_5.1.3> a od:StandardSolution ;
+ rdfs:label "Nutze die Selbstelimination von Stoffen"@de ; 
+ od:explanation "Der temporär eingeführte Stoff erfällt nach erfolgreicher Aktion oder wird chemisch zersetzt."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_5.1.4> a od:StandardSolution ;
+ rdfs:label "Nutze Stoffe im Überschuss"@de ; 
+ od:explanation "Lässt sich durch Nutzung von Schaumstoffen beiden Forderungen nach wenig Masse und viel Stoffmenge (Volumen) Rechnung tragen (Hohlräume im Überschuss)."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_5.2> a od:StandardSolutionSubdomain ;
+ rdfs:label "Einführung von Feldern"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_5.2.1> a od:StandardSolution ;
+ rdfs:label "Nutze im Sinne von Ressourcen alle vorhandenen Felder"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_5.2.2> a od:StandardSolution ;
+ rdfs:label "Nutze Felder aus der Systemumgebung"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_5.2.3> a od:StandardSolution ;
+ rdfs:label "Nutze felderzeugende Stoffe"@de ; 
+ od:explanation "magnetische Stoffe."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_5.3> a od:StandardSolutionSubdomain ;
+ rdfs:label "Phasenübergänge"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_5.3.1> a od:StandardSolution ;
+ rdfs:label "Verändere den Aggregatzustand oder die Phase von Stoffen"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_5.3.2> a od:StandardSolution ;
+ rdfs:label "Nutze zwei Aggregatzustände oder Phasen eines Stoffes"@de ; 
+ od:explanation "Wasser und Eis zusammen fixieren die Temperatur auf genau 0° Celsius."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_5.3.3> a od:StandardSolution ;
+ rdfs:label "Nutze die einen Phasenübergang begleitenden physikalischen Effekte z.B.: Verdunstungskälte."@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_5.3.4> a od:StandardSolution ;
+ rdfs:label "Nutze Effekte, die aus dem gleichzeitigen Vorliegen zweier Phasen resultieren"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_5.3.5> a od:StandardSolution ;
+ rdfs:label "Verbessere die Interaktion zwischen zwei Phasen"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_5.4> a od:StandardSolutionSubdomain ;
+ rdfs:label "Einsatz der Effekte-Datenbank"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_5.4.1> a od:StandardSolution ;
+ rdfs:label "Nutze eigengesteuerte reversible physikalische Transformationen"@de ; 
+ od:explanation "Phasenübergänge, Dissoziation und Assoziation, Ionisation und Rekombination."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_5.4.2> a od:StandardSolution ;
+ rdfs:label "Nutze Speicher- und Verstärkungseffekte"@de ; 
+ od:explanation "Katalysatoren, Enzyme."@de .
+
+<http://opendiscovery.org/Data/StandardSolution/S_5.5> a od:StandardSolutionSubdomain ;
+ rdfs:label "Stoffpartikel"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_5.5.1> a od:StandardSolution ;
+ rdfs:label "Erzeuge Stoffpartikel (z. B. Ionen) durch Zerlegung eines höher organisierten Stoffes (z. B. Moleküle)."@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_5.5.2> a od:StandardSolution ;
+ rdfs:label "Erzeuge Stoffpartikel (z. B. Atome) durch Kombination niedriger organisierter Stoffe (z. B. Elementarteilchen)"@de  .
+
+<http://opendiscovery.org/Data/StandardSolution/S_5.5.3> a od:StandardSolution ;
+ rdfs:label "Setze beim Zerlegen oder Kombinieren von Stoffpartikeln einen vom Unterteilungsgrad her ähnlichen Stoff ein (\"kleine Schritte tun\")"@de  .
+

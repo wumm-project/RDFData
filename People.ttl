@@ -17,12 +17,25 @@
    rdfs:comment "Bibliography of the Open Discovery Project" .
 
 odp:Petrov_VM a foaf:Person ;
-   foaf:name "Vladimir Michailovich Petrov"@en,
-   	     "Vladimir Michailovich Petrov"@ru  .
+   foaf:name "Vladimir Michailovich Petrov"@en ;
+   od:affiliation "International TRIZ Association (MATRIZ)" .
 
 odp:Graebe_HG a foaf:Person ;
-   foaf:name "Hans-Gert Gräbe"@de  .
+   foaf:name "Hans-Gert Gräbe"@de ;
+   od:affiliation "Leipzig University, Germany" .
 
 odp:Hiltmann_K a foaf:Person ;
-   foaf:name "Kai Hiltmann"@de  .
+   foaf:name "Kai Hiltmann"@de ;
+   od:affiliation "FH Coburg, Germany" .
 
+odp:Litvin_S a foaf:Person ;
+   foaf:name "Simon Litvin"@en ;
+   od:affiliation "International TRIZ Association (MATRIZ)"
+
+odp:Rubin_M a foaf:Person ;
+   foaf:name "Mikhail Rubin "@en ;
+   od:affiliation "International TRIZ Association (MATRIZ)"
+
+odp:Fey_V a foaf:Person ;
+   foaf:name "Victor Fey"@en ;
+   od:affiliation "Altshuller Institute for TRIZ Studies" .
