@@ -1,3 +1,4 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -5,254 +6,256 @@
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix odp: <http://opendiscovery.org/rdf/Principle/> .
 
 <http://opendiscovery.org/rdf/ThePrinciples/>
-    a owl:Ontology ;
     cc:attributionName "The Open Discovery Project" ;
     cc:attributionURL <http://opendiscovery.org> ;
-    cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;	
+    cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
     dcterms:source <http://triz-online.de/index.php?id=5593> ;
-    rdfs:comment "Extracted and transformed by HGG, 2018-01-10" ;
+    a owl:Ontology ;
+    rdfs:comment "Extracted and transformed by HGG, 2019-01-10" ;
     rdfs:label "TRIZ Database - The 40 Principles" .
 
-<http://opendiscovery.org/Data/Principle/P01>     
-  a od:Principle ;
-  od:hasPrincipleNumber "01" ; 
-  rdfs:label "Prinzip der Zerlegung bzw. Segmentierung"@de ;
-  od:description "Das Objekt ist in unabhängige, gleiche Teile zu zerlegen."@de, "Das Objekt ist zerlegbar auszuführen."@de, "Der Grad der Zerlegung des Objektes ist zu erhöhen."@de .
+od:Principle a owl:Class; rdfs:label "A TRIZ Principle" . 
 
-<http://opendiscovery.org/Data/Principle/P02>     
-  a od:Principle ;
-  od:hasPrincipleNumber "02" ; 
-  rdfs:label "Prinzip der Abtrennung"@de ;
-  od:description "Vom Objekt ist das \"störende\" Teil, die \"störende\" Eigenschaft, abzutrennen."@de, "Im Unterschied zum Prinzip 01, in dem es um die Zerlegung des Objektes in gleiche Teile ging, wird hier vorgeschlagen, das Objekt in unterschiedliche Teile zu zerlegen."@de .
+odp:P01
+    od:description "Das Objekt ist in unabhängige, gleiche Teile zu zerlegen."@de, "Das Objekt ist zerlegbar auszuführen."@de, "Der Grad der Zerlegung des Objektes ist zu erhöhen."@de ;
+    od:hasPrincipleNumber "01" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Zerlegung bzw. Segmentierung"@de .
 
-<http://opendiscovery.org/Data/Principle/P03>     
-  a od:Principle ;
-  od:hasPrincipleNumber "03" ; 
-  rdfs:label "Prinzip der örtlichen Qualität"@de ;
-  od:description "Von der homogenen Struktur des Objektes oder des umgebenden Mediums ist zu einer ... "@de .
+odp:P02
+    od:description "Im Unterschied zum Prinzip 01, in dem es um die Zerlegung des Objektes in gleiche Teile ging, wird hier vorgeschlagen, das Objekt in unterschiedliche Teile zu zerlegen."@de, "Vom Objekt ist das \"störende\" Teil, die \"störende\" Eigenschaft, abzutrennen."@de ;
+    od:hasPrincipleNumber "02" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Abtrennung"@de .
 
-<http://opendiscovery.org/Data/Principle/P04>     
-  a od:Principle ;
-  od:hasPrincipleNumber "04" ; 
-  rdfs:label "Prinzip der Asymmetrie"@de ;
-  od:description "Von der symmetrischen Form des Objektes ist zur asymmetrischen überzugehen."@de, "Der Grad der Asymmetrie ist zu erhöhen, wenn das Objekt bereits asymmetrisch ist."@de .
+odp:P03
+    od:description "Jedes Teil des Objektes soll sich unter solchen Bedingungen befinden, die seiner Arbeit am zuträglichsten sind."@de, "Von der homogenen Struktur des Objektes oder des umgebenden Mediums ist zu einer inhomogenen Struktur überzugehen."@de ;
+    od:hasPrincipleNumber "03" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der örtlichen Qualität"@de .
 
-<http://opendiscovery.org/Data/Principle/P05>     
-  a od:Principle ;
-  od:hasPrincipleNumber "05" ; 
-  rdfs:label "Prinzip der Kopplung"@de ;
-  od:description "Gleichartige oder zur Koordinierung bestimmte Systeme oder Operationen sind zu koppeln."@de .
+odp:P04
+    od:description "Der Grad der Asymmetrie ist zu erhöhen, wenn das Objekt bereits asymmetrisch ist."@de, "Von der symmetrischen Form des Objektes ist zur asymmetrischen überzugehen."@de ;
+    od:hasPrincipleNumber "04" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Asymmetrie"@de .
 
-<http://opendiscovery.org/Data/Principle/P06>     
-  a od:Principle ;
-  od:hasPrincipleNumber "06" ; 
-  rdfs:label "Prinzip der Universalität"@de ;
-  od:description "Das Objekt erfüllt mehrere unterschiedliche Funktionen, wodurch weitere gesonderte Objekte überflüssig werden."@de .
+odp:P05
+    od:description "Gleichartige oder zur Koordinierung bestimmte Systeme oder Operationen sind zu koppeln."@de ;
+    od:hasPrincipleNumber "05" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Kopplung"@de .
 
-<http://opendiscovery.org/Data/Principle/P07>     
-  a od:Principle ;
-  od:hasPrincipleNumber "07" ; 
-  rdfs:label "Prinzip der \"Steckpuppe\" (Matrjoschka)"@de ;
-  od:description "Ein Objekt ist im Inneren eines anderen untergebracht, das sich wiederum im Inneren eines dritten befindet usw. Ein Objekt durchläuft oder füllt den Hohlraum eines anderen Objektes."@de .
+odp:P06
+    od:description "Das Objekt erfüllt mehrere unterschiedliche Funktionen, wodurch weitere gesonderte Objekte überflüssig werden."@de ;
+    od:hasPrincipleNumber "06" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Universalität"@de .
 
-<http://opendiscovery.org/Data/Principle/P08>     
-  a od:Principle ;
-  od:hasPrincipleNumber "08" ; 
-  rdfs:label "Prinzip der Gegenmasse"@de ;
-  od:description "Die Masse des Objektes ist durch Kopplung mit einem anderen Objekt, das Tragkraft besitzt, zu kompensieren."@de, "Die Masse des Objektes ist durch Wechselwirkung mit einem Medium zu kompensieren."@de .
+odp:P07
+    od:description "Ein Objekt ist im Inneren eines anderen untergebracht, das sich wiederum im Inneren eines dritten befindet usw. Ein Objekt durchläuft oder füllt den Hohlraum eines anderen Objektes."@de ;
+    od:hasPrincipleNumber "07" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der \"Steckpuppe\" (Matrjoschka)"@de .
 
-<http://opendiscovery.org/Data/Principle/P09>     
-  a od:Principle ;
-  od:hasPrincipleNumber "09" ; 
-  rdfs:label "Prinzip der vorgezogenen Gegenwirkung"@de ;
-  od:description "Wenn gemäß den Bedingungen der Aufgabe eine bestimmte Wirkung erzielt werden soll, muss zuvor die Gegenwirkung erzeugt werden."@de .
+odp:P08
+    od:description "Die Masse des Objektes ist durch Kopplung mit einem anderen Objekt, das Tragkraft besitzt, zu kompensieren."@de, "Die Masse des Objektes ist durch Wechselwirkung mit einem Medium zu kompensieren."@de ;
+    od:hasPrincipleNumber "08" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Gegenmasse"@de .
 
-<http://opendiscovery.org/Data/Principle/P10>     
-  a od:Principle ;
-  od:hasPrincipleNumber "10" ; 
-  rdfs:label "Prinzip der vorgezogenen Wirkung"@de ;
-  od:description "Die erforderliche Wirkung ist vorher zu erzielen (vollständig oder auch teilweise)."@de, "Die Objekte sind vorher so aufzustellen bzw. einzusetzen, dass sie ohne Zeitverlust für ihr Herbeischaffen vom geeignetsten Ort aus wirken können."@de .
+odp:P09
+    od:description "Wenn gemäß den Bedingungen der Aufgabe eine bestimmte Wirkung erzielt werden soll, muss zuvor die Gegenwirkung erzeugt werden."@de ;
+    od:hasPrincipleNumber "09" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der vorgezogenen Gegenwirkung"@de .
 
-<http://opendiscovery.org/Data/Principle/P11>     
-  a od:Principle ;
-  od:hasPrincipleNumber "11" ; 
-  rdfs:label "Prinzip des \"vorher untergelegten Kissens\" (Prävention)"@de ;
-  od:description "Eine relativ geringe Zuverlässigkeit des Objektes wird durch vorher bereitgestellte Hilfsmittel ausgeglichen."@de .
+odp:P10
+    od:description "Die Objekte sind vorher so aufzustellen bzw. einzusetzen, dass sie ohne Zeitverlust für ihr Herbeischaffen vom geeignetsten Ort aus wirken können."@de, "Die erforderliche Wirkung ist vorher zu erzielen (vollständig oder auch teilweise)."@de ;
+    od:hasPrincipleNumber "10" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der vorgezogenen Wirkung"@de .
 
-<http://opendiscovery.org/Data/Principle/P12>     
-  a od:Principle ;
-  od:hasPrincipleNumber "12" ; 
-  rdfs:label "Prinzip des Äquipotenzials"@de ;
-  od:description "Die Arbeitsbedingungen sind so zu verändern, dass das Objekt mit konstantem Energiepotenzial arbeiten kann, z.B. nicht angehoben oder herabgelassen werden muss."@de .
+odp:P11
+    od:description "Eine relativ geringe Zuverlässigkeit des Objektes wird durch vorher bereitgestellte Hilfsmittel ausgeglichen."@de ;
+    od:hasPrincipleNumber "11" ;
+    a od:Principle ;
+    rdfs:label "Prinzip des \"vorher untergelegten Kissens\" (Prävention)"@de .
 
-<http://opendiscovery.org/Data/Principle/P13>     
-  a od:Principle ;
-  od:hasPrincipleNumber "13" ; 
-  rdfs:label "Prinzip der Funktionsumkehr"@de ;
-  od:description "Statt der Wirkung, die durch die Bedingungen der Aufgabe vorgeschrieben wird, ist die umgekehrte Wirkung zu erzielen."@de, "Der bewegliche Teil des Objektes oder des umgebenden Mediums ist unbeweglich, und der unbewegliche ist beweglich zu gestalten."@de, "Das Objekt ist \"auf den Kopf zu stellen\" bzw. umzukehren."@de .
+odp:P12
+    od:description "Die Arbeitsbedingungen sind so zu verändern, dass das Objekt mit konstantem Energiepotenzial arbeiten kann, z.B. nicht angehoben oder herabgelassen werden muss."@de ;
+    od:hasPrincipleNumber "12" ;
+    a od:Principle ;
+    rdfs:label "Prinzip des Äquipotenzials"@de .
 
-<http://opendiscovery.org/Data/Principle/P14>     
-  a od:Principle ;
-  od:hasPrincipleNumber "14" ; 
-  rdfs:label "Prinzip der Kugelähnlichkeit"@de ;
-  od:description "Von geradlinigen Konturen ist zu gekrümmten, von ebenen Flächen ist zu sphärischen überzugehen."@de, "Zu verwenden sind Rollen, Kugeln, Spiralen."@de, "Von der geradlinigen Bewegung ist zur Rotation überzugehen."@de .
+odp:P13
+    od:description "Das Objekt ist \"auf den Kopf zu stellen\" bzw. umzukehren."@de, "Der bewegliche Teil des Objektes oder des umgebenden Mediums ist unbeweglich, und der unbewegliche ist beweglich zu gestalten."@de, "Statt der Wirkung, die durch die Bedingungen der Aufgabe vorgeschrieben wird, ist die umgekehrte Wirkung zu erzielen."@de ;
+    od:hasPrincipleNumber "13" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Funktionsumkehr"@de .
 
-<http://opendiscovery.org/Data/Principle/P15>     
-  a od:Principle ;
-  od:hasPrincipleNumber "15" ; 
-  rdfs:label "Prinzip der Dynamisierung"@de ;
-  od:description "Die Kennwerte des Objektes (oder des umgebenden Mediums) müssen sich so verändern, dass sie in jeder Arbeitsetappe optimal sind (Anpassung)."@de, "Das Objekt ist in Teile zu zerlegen, die sich zueinander verstellen oder verschieben lassen."@de, "Falls das Objekt insgesamt unbeweglich ist, ist es beweglich (verstellbar) zu gestalten."@de .
+odp:P14
+    od:description "Von der geradlinigen Bewegung ist zur Rotation überzugehen."@de, "Von geradlinigen Konturen ist zu gekrümmten, von ebenen Flächen ist zu sphärischen überzugehen."@de, "Zu verwenden sind Rollen, Kugeln, Spiralen."@de ;
+    od:hasPrincipleNumber "14" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Kugelähnlichkeit"@de .
 
-<http://opendiscovery.org/Data/Principle/P16>     
-  a od:Principle ;
-  od:hasPrincipleNumber "16" ; 
-  rdfs:label "Prinzip der partiellen oder überschüssigen Wirkung"@de ;
-  od:description "Wenn 100 % des erforderlichen Effekts schwer zu erzielen sind, muss \"ein bisschen weniger\" oder \"ein bisschen mehr\" erzielt werden."@de .
+odp:P15
+    od:description "Das Objekt ist in Teile zu zerlegen, die sich zueinander verstellen oder verschieben lassen."@de, "Die Kennwerte des Objektes (oder des umgebenden Mediums) müssen sich so verändern, dass sie in jeder Arbeitsetappe optimal sind (Anpassung)."@de, "Falls das Objekt insgesamt unbeweglich ist, ist es beweglich (verstellbar) zu gestalten."@de ;
+    od:hasPrincipleNumber "15" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Dynamisierung"@de .
 
-<http://opendiscovery.org/Data/Principle/P17>     
-  a od:Principle ;
-  od:hasPrincipleNumber "17" ; 
-  rdfs:label "Prinzip des Übergangs zu höheren Dimensionen"@de ;
-  od:description "Schwierigkeiten, die aus der Bindung der Bewegung eines Objektes an eine Linie resultieren, werden beseitigt, wenn das Objekt die Möglichkeit erhält, sich in zwei Dimensionen, d. h. in einer Ebene, zu bewegen. Analog werden auch die Schwierigkeiten, die mit der Bewegung von Objekten auf einer Ebene verbunden sind, beim Übergang zum dreidimensionalen Raum beseitigt."@de, "Statt Anordnung in nur einer Ebene werden Objekte in mehreren Ebenen angeordnet."@de, "Das Objekt ist geneigt aufzustellen."@de, "Die Rückseite des gegebenen Objektes ist auszunutzen."@de .
+odp:P16
+    od:description "Wenn 100 % des erforderlichen Effekts schwer zu erzielen sind, muss „ein bisschen weniger“ oder „ein bisschen mehr“  erzielt werden."@de ;
+    od:hasPrincipleNumber "16" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der partiellen oder überschüssigen Wirkung"@de .
 
-<http://opendiscovery.org/Data/Principle/P18>     
-  a od:Principle ;
-  od:hasPrincipleNumber "18" ; 
-  rdfs:label "Prinzip der Ausnutzung mechanischer Schwingungen"@de ;
-  od:description "Das Objekt ist in Schwingungen zu versetzen."@de, "Falls eine solche Bewegung bereits vorliegt, ist ihre Frequenz zu erhöhen, bis hin zur Ultaschallfrequenz."@de, "Die Eigenfrequenz ist auszunutzen."@de, "Anstelle von mechanischen Vibratoren sind Piezovibratoren anzuwenden."@de, "Auszunutzen sind Ultraschallschwingungen in Verbindung mit elektromagnetischen Feldern."@de .
+odp:P17
+    od:description "Das Objekt ist geneigt aufzustellen."@de, "Die Rückseite des gegebenen Objektes ist auszunutzen."@de, "Schwierigkeiten, die aus der Bindung der Bewegung eines Objektes an eine Linie resultieren, werden beseitigt, wenn das Objekt die Möglichkeit erhält, sich in zwei Dimensionen, d. h. in einer Ebene, zu bewegen. Analog werden auch die Schwierigkeiten, die mit der Bewegung von Objekten auf einer Ebene verbunden sind, beim Übergang zum dreidimensionalen Raum beseitigt."@de, "Statt Anordnung in nur einer Ebene werden Objekte in mehreren Ebenen angeordnet."@de ;
+    od:hasPrincipleNumber "17" ;
+    a od:Principle ;
+    rdfs:label "Prinzip des Übergangs zu höheren Dimensionen"@de .
 
-<http://opendiscovery.org/Data/Principle/P19>     
-  a od:Principle ;
-  od:hasPrincipleNumber "19" ; 
-  rdfs:label "Prinzip der periodischen Wirkung"@de ;
-  od:description "Von der kontinuierlichen Wirkung ist zur periodischen (Impulswirkung) überzugehen."@de, "Wenn die Wirkung bereits periodisch erfolgt, ist die Periodizität zu verändern."@de, "Die Pausen zwischen den Impulsen sind für eine andere Wirkung auszunutzen."@de .
+odp:P18
+    od:description "Anstelle von mechanischen Vibratoren sind Piezovibratoren anzuwenden."@de, "Auszunutzen sind Ultraschallschwingungen in Verbindung mit elektromagnetischen Feldern."@de, "Das Objekt ist in Schwingungen zu versetzen."@de, "Die Eigenfrequenz ist auszunutzen."@de, "Falls eine solche Bewegung bereits vorliegt, ist ihre Frequenz zu erhöhen, bis hin zur Ultaschallfrequenz."@de ;
+    od:hasPrincipleNumber "18" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Ausnutzung mechanischer Schwingungen"@de .
 
-<http://opendiscovery.org/Data/Principle/P20>     
-  a od:Principle ;
-  od:hasPrincipleNumber "20" ; 
-  rdfs:label "Prinzip der Kontinuität der Wirkprozesse"@de ;
-  od:description "Die Funktion soll kontinuierlich erfolgen (alle Teile des Objektes sollen ständig mit gleichmäßiger Belastung arbeiten)."@de, "Leerläufe und Unterbrechungen sind auszuschalten."@de .
+odp:P19
+    od:description "Die Pausen zwischen den Impulsen sind für eine andere Wirkung auszunutzen."@de, "Von der kontinuierlichen Wirkung ist zur periodischen (Impulswirkung) überzugehen."@de, "Wenn die Wirkung bereits periodisch erfolgt, ist die Periodizität zu verändern."@de ;
+    od:hasPrincipleNumber "19" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der periodischen Wirkung"@de .
 
-<http://opendiscovery.org/Data/Principle/P21>     
-  a od:Principle ;
-  od:hasPrincipleNumber "21" ; 
-  rdfs:label "Prinzip des Durcheilens"@de ;
-  od:description "Der Prozess oder einzelne seiner Etappen, z. B. schädliche oder gefährliche, sind mit hoher Geschwindigkeit zu durchlaufen."@de .
+odp:P20
+    od:description "Die Funktion soll kontinuierlich erfolgen (alle Teile des Objektes sollen ständig mit gleichmäßiger Belastung arbeiten)."@de, "Leerläufe und Unterbrechungen sind auszuschalten."@de ;
+    od:hasPrincipleNumber "20" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Kontinuität der Wirkprozesse"@de .
 
-<http://opendiscovery.org/Data/Principle/P22>     
-  a od:Principle ;
-  od:hasPrincipleNumber "22" ; 
-  rdfs:label "Prinzip der Umwandlung von Schädlichem in Nützliches"@de ;
-  od:description "Schädliche Faktoren – insbesondere die schädliche Einwirkung des Mediums – sind für die Erzielung eines positiven Effektes zu nutzen."@de, "Ein schädlicher Faktor ist durch Überlagerung mit anderen schädlichen Faktoren zu beseitigen."@de, "Ein schädlicher Faktor ist bis zu einem solchen Grade zu verstärken, dass er aufhört, schädlich zu sein."@de .
+odp:P21
+    od:description "Der Prozess oder einzelne seiner Etappen, z. B. schädliche oder gefährliche, sind mit hoher Geschwindigkeit zu durchlaufen."@de ;
+    od:hasPrincipleNumber "21" ;
+    a od:Principle ;
+    rdfs:label "Prinzip des Durcheilens"@de .
 
-<http://opendiscovery.org/Data/Principle/P23>     
-  a od:Principle ;
-  od:hasPrincipleNumber "23" ; 
-  rdfs:label "Prinzip der Rückkopplung"@de ;
-  od:description "Es ist eine Rückkopplung einzuführen."@de, "Falls eine Rückkopplung vorhanden ist, ist sie zu verändern."@de .
+odp:P22
+    od:description "Ein schädlicher Faktor ist bis zu einem solchen Grade zu verstärken, dass er aufhört, schädlich zu sein."@de, "Ein schädlicher Faktor ist durch Überlagerung mit anderen schädlichen Faktoren zu beseitigen."@de, "Schädliche Faktoren – insbesondere die schädliche Einwirkung des Mediums – sind für die Erzielung eines positiven Effektes zu nutzen."@de ;
+    od:hasPrincipleNumber "22" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Umwandlung von Schädlichem in Nützliches"@de .
 
-<http://opendiscovery.org/Data/Principle/P24>     
-  a od:Principle ;
-  od:hasPrincipleNumber "24" ; 
-  rdfs:label "Prinzip des \"Vermittlers\""@de ;
-  od:description "Es ist ein Zwischenobjekt zu benutzen, das die Wirkung überträgt, weitergibt oder auf sich nimmt."@de, "Zeitweilig ist an das Objekt ein anderes leicht zu entfernendes Objekt anzuschließen."@de .
+odp:P23
+    od:description "Es ist eine Rückkopplung einzuführen."@de, "Falls eine Rückkopplung vorhanden ist, ist sie zu verändern."@de ;
+    od:hasPrincipleNumber "23" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Rückkopplung"@de .
 
-<http://opendiscovery.org/Data/Principle/P25>     
-  a od:Principle ;
-  od:hasPrincipleNumber "25" ; 
-  rdfs:label "Prinzip der Selbstbedienung"@de ;
-  od:description "Das Objekt soll sich selbst bedienen sowie Hilfs- und Reparaturmaßnahmen selbst ausführen."@de, "Abprodukte, z. B. Energie und Stoff sind zu nutzen."@de .
+odp:P24
+    od:description "Es ist ein Zwischenobjekt zu benutzen, das die Wirkung überträgt, weitergibt oder auf sich nimmt."@de, "Zeitweilig ist an das Objekt ein anderes leicht zu entfernendes Objekt anzuschließen."@de ;
+    od:hasPrincipleNumber "24" ;
+    a od:Principle ;
+    rdfs:label "Prinzip des „Vermittlers“"@de .
 
-<http://opendiscovery.org/Data/Principle/P26>     
-  a od:Principle ;
-  od:hasPrincipleNumber "26" ; 
-  rdfs:label "Prinzip des Kopierens"@de ;
-  od:description "Anstelle eines unzugänglichen, komplizierten, kostspieligen, schlecht handhabbaren oder zerbrechlichen Objektes sind vereinfachte und billige Kopien zu benutzen."@de, "Das Objekt oder das System von Objekten ist durch seine optischen Kopien (Abbildungen) zu ersetzen."@de .
+odp:P25
+    od:description "Abprodukte, z. B. Energie und Stoff sind zu nutzen."@de, "Das Objekt soll sich selbst bedienen sowie Hilfs- und Reparaturmaßnahmen selbst ausführen."@de ;
+    od:hasPrincipleNumber "25" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Selbstbedienung"@de .
 
-<http://opendiscovery.org/Data/Principle/P27>     
-  a od:Principle ;
-  od:hasPrincipleNumber "27" ; 
-  rdfs:label "Prinzip der billigen Kurzlebigkeit anstelle teurer Langlebigkeit"@de ;
-  od:description "Das teure Objekt ist durch ein Sortiment billiger Objekte zu ersetzen, wobei auf einige Qualitätseigenschaften, z. B. Langlebigkeit, verzichtet wird."@de .
+odp:P26
+    od:description "Anstelle eines unzugänglichen, komplizierten, kostspieligen, schlecht handhabbaren oder zerbrechlichen Objektes sind vereinfachte und billige Kopien zu benutzen."@de, "Das Objekt oder das System von Objekten ist durch seine optischen Kopien (Abbildungen) zu ersetzen."@de ;
+    od:hasPrincipleNumber "26" ;
+    a od:Principle ;
+    rdfs:label "Prinzip des Kopierens"@de .
 
-<http://opendiscovery.org/Data/Principle/P28>     
-  a od:Principle ;
-  od:hasPrincipleNumber "28" ; 
-  rdfs:label "Prinzip des Ersatzes mechanischer Wirkprinzipien"@de ;
-  od:description "Elektrische, magnetische bzw. elektromagnetische Felder sind für eine Wechselwirkung mit dem Objekt auszunutzen."@de, "Von unbeweglichen Feldern ist zu bewegten Feldern, von konstanten zu veränderlichen, von strukturlosen zu strukturierten Felder überzugehen."@de, "Die Felder sind in Kombination mit Ferromangetteilchen zu benutzen."@de .
+odp:P27
+    od:description "Das teure Objekt ist durch ein Sortiment billiger Objekte zu ersetzen, wobei auf einige Qualitätseigenschaften, z. B. Langlebigkeit, verzichtet wird."@de ;
+    od:hasPrincipleNumber "27" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der billigen Kurzlebigkeit anstelle teurer Langlebigkeit"@de .
 
-<http://opendiscovery.org/Data/Principle/P29>     
-  a od:Principle ;
-  od:hasPrincipleNumber "29" ; 
-  rdfs:label "Prinzip der Anwendung von Pneumo- und Hydrokonstruktionen"@de ;
-  od:description "Anstatt der schweren Teile des Objektes sind gasförmige oder flüssige zu benutzen, wie aufgeblasene oder mit Flüssigkeit gefüllte Teile, Luftkissen, hydrostatische oder hydroreaktive Teile."@de .
+odp:P28
+    od:description "Die Felder sind in Kombination mit Ferromangetteilchen zu benutzen."@de, "Elektrische, magnetische bzw. elektromagnetische Felder sind für eine Wechselwirkung mit dem Objekt auszunutzen."@de, "Von unbeweglichen Feldern ist zu bewegten Feldern, von konstanten zu veränderlichen, von strukturlosen zu strukturierten Felder überzugehen."@de ;
+    od:hasPrincipleNumber "28" ;
+    a od:Principle ;
+    rdfs:label "Prinzip des Ersatzes mechanischer Wirkprinzipien"@de .
 
-<http://opendiscovery.org/Data/Principle/P30>     
-  a od:Principle ;
-  od:hasPrincipleNumber "30" ; 
-  rdfs:label "Prinzip der Anwendung biegsamer Hüllen und dünner Folien"@de ;
-  od:description "Anstelle der üblichen Konstruktionen sind biegsame Hüllen und dünne Folien zu benutzen."@de, "Das Objekt ist mit Hilfe biegsamer Hüllen und dünner Folie vom umgebenden Medium zu isolieren."@de .
+odp:P29
+    od:description "Anstatt der schweren Teile des Objektes sind gasförmige oder flüssige zu benutzen, wie aufgeblasene oder mit Flüssigkeit gefüllte Teile, Luftkissen, hydrostatische oder hydroreaktive Teile."@de ;
+    od:hasPrincipleNumber "29" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Anwendung von Pneumo- und Hydrokonstruktionen"@de .
 
-<http://opendiscovery.org/Data/Principle/P31>     
-  a od:Principle ;
-  od:hasPrincipleNumber "31" ; 
-  rdfs:label "Prinzip der Verwendung poröser Werkstoffe"@de ;
-  od:description "Das Objekt ist porös auszuführen, oder es sind zusätzlich poröse Elemente (Einsatzstücke, Überzüge usw.) zu benutzen."@de, "Wenn das Objekt bereits porös ausgeführt ist, sind die Poren mit einem geeigneten Stoff zu füllen."@de .
+odp:P30
+    od:description "Anstelle der üblichen Konstruktionen sind biegsame Hüllen und dünne Folien zu benutzen."@de, "Das Objekt ist mit Hilfe biegsamer Hüllen und dünner Folie vom umgebenden Medium zu isolieren."@de ;
+    od:hasPrincipleNumber "30" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Anwendung biegsamer Hüllen und dünner Folien"@de .
 
-<http://opendiscovery.org/Data/Principle/P32>     
-  a od:Principle ;
-  od:hasPrincipleNumber "32" ; 
-  rdfs:label "Prinzip der Farbveränderung"@de ;
-  od:description "Die Farbe des Objektes oder des umgebenden Mediums ist zu verändern."@de, "Der Grad der Durchsichtigkeit des Objektes oder des umgebenden Mediums ist zu verändern."@de, "Zur Beobachtung schlecht sichtbarer Objekte oder Prozesse sind färbende Zuschläge zu nutzen."@de, "Wenn solche Zustände bereits angewandt werden, sind Leuchtstoffe zu verwenden."@de .
+odp:P31
+    od:description "Das Objekt ist porös auszuführen, oder es sind zusätzlich poröse Elemente (Einsatzstücke, Überzüge usw.) zu benutzen."@de, "Wenn das Objekt bereits porös ausgeführt ist, sind die Poren mit einem geeigneten Stoff zu füllen."@de ;
+    od:hasPrincipleNumber "31" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Verwendung poröser Werkstoffe"@de .
 
-<http://opendiscovery.org/Data/Principle/P33>     
-  a od:Principle ;
-  od:hasPrincipleNumber "33" ; 
-  rdfs:label "Prinzip der Gleichartigkeit bzw. Homogenität"@de ;
-  od:description "Objekte, die mit dem gegebenen Objekt zusammenwirken, müssen aus demselben Werkstoff oder einem Werkstoff mit annähernd gleichen Eigenschaften gefertigt sein."@de .
+odp:P32
+    od:description "Der Grad der Durchsichtigkeit des Objektes oder des umgebenden Mediums ist zu verändern."@de, "Die Farbe des Objektes oder des umgebenden Mediums ist zu verändern."@de, "Wenn solche Zustände bereits angewandt werden, sind Leuchtstoffe zu verwenden."@de, "Zur Beobachtung schlecht sichtbarer Objekte oder Prozesse sind färbende Zuschläge zu nutzen."@de ;
+    od:hasPrincipleNumber "32" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Farbveränderung"@de .
 
-<http://opendiscovery.org/Data/Principle/P34>     
-  a od:Principle ;
-  od:hasPrincipleNumber "34" ; 
-  rdfs:label "Prinzip der Beseitigung und Regenerierung von Teilen"@de ;
-  od:description "Teil eines Objektes, das seinen Zweck erfüllt hat oder unbrauchbar geworden ist, wird beseitigt (aufgelöst, verdampft o. ä.) oder unmittelbar im Arbeitsgang umgewandelt."@de, "Verbrauchte Teile eines Objektes werden unmittelbar im Arbeitsgang wieder hergestellt."@de .
+odp:P33
+    od:description "Objekte, die mit dem gegebenen Objekt zusammenwirken, müssen aus demselben Werkstoff oder einem Werkstoff mit annähernd gleichen Eigenschaften gefertigt sein."@de ;
+    od:hasPrincipleNumber "33" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Gleichartigkeit bzw. Homogenität"@de .
 
-<http://opendiscovery.org/Data/Principle/P35>     
-  a od:Principle ;
-  od:hasPrincipleNumber "35" ; 
-  rdfs:label "Prinzip der Veränderung des Aggregatzustandes"@de ;
-  od:description "Hierzu gehören nicht nur einfache Übergänge, z. B. vom festen in den flüssigen Zustand, sondern auch die Übergänge in \"Pseudo- oder Quasizustände\", z. B. die Quasiflüssigkeit und in Zwischenzustände, z. B. die Verwendung elastisch fester Körper."@de .
+odp:P34
+    od:description "Teil eines Objektes, das seinen Zweck erfüllt hat oder unbrauchbar geworden ist, wird beseitigt (aufgelöst, verdampft o. ä.) oder unmittelbar im Arbeitsgang umgewandelt."@de, "Verbrauchte Teile eines Objektes werden unmittelbar im Arbeitsgang wieder hergestellt."@de ;
+    od:hasPrincipleNumber "34" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Beseitigung und Regenerierung von Teilen"@de .
 
-<http://opendiscovery.org/Data/Principle/P36>     
-  a od:Principle ;
-  od:hasPrincipleNumber "36" ; 
-  rdfs:label "Prinzip der Anwendung von Phasenübergängen"@de ;
-  od:description "Die bei Phasenübergängen auftretenden Erscheinungen sind auszunutzen, z. B. Volumenveränderung, Wärmeentwicklung oder -absorption usw."@de .
+odp:P35
+    od:description "Hierzu gehören nicht nur einfache Übergänge, z. B. vom festen in den flüssigen Zustand, sondern auch die Übergänge in „Pseudo- oder Quasizustände“, z. B. die Quasiflüssigkeit und in Zwischenzustände, z. B. die Verwendung elastisch fester Körper."@de ;
+    od:hasPrincipleNumber "35" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Veränderung des Aggregatzustandes"@de .
 
-<http://opendiscovery.org/Data/Principle/P37>     
-  a od:Principle ;
-  od:hasPrincipleNumber "37" ; 
-  rdfs:label "Prinzip der Anwendung von Wärmedehnung"@de ;
-  od:description "Die Wärmedehnung oder -verdichtung von Werkstoffen ist auszunutzen."@de, "Es sind mehrere Werkstoffe mit unterschiedlicher Wärmedehnungszahl zu benutzen."@de .
+odp:P36
+    od:description "Die bei Phasenübergängen auftretenden Erscheinungen sind auszunutzen, z. B. Volumenveränderung, Wärmeentwicklung oder -absorption usw."@de ;
+    od:hasPrincipleNumber "36" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Anwendung von Phasenübergängen"@de .
 
-<http://opendiscovery.org/Data/Principle/P38>     
-  a od:Principle ;
-  od:hasPrincipleNumber "38" ; 
-  rdfs:label "Prinzip der Anwendung starker Oxidationsmittel"@de ;
-  od:description "Die normale atmosphärische Luft ist durch aktivierte zu ersetzen."@de, "Die aktivierte Luft ist durch Sauerstoff zu ersetzen."@de, "Die Luft oder der Sauerstoff ist der Einwirkung ionisierender Strahlung auszusetzen."@de, "Es ist ozonierter Sauerstoff zu benutzen."@de, "Ozonierter oder ionisierter Sauerstoff ist durch Ozon zu ersetzen."@de .
+odp:P37
+    od:description "Die Wärmedehnung oder -verdichtung von Werkstoffen ist auszunutzen."@de, "Es sind mehrere Werkstoffe mit unterschiedlicher Wärmedehnungszahl zu benutzen."@de ;
+    od:hasPrincipleNumber "37" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Anwendung von Wärmedehnung"@de .
 
-<http://opendiscovery.org/Data/Principle/P39>     
-  a od:Principle ;
-  od:hasPrincipleNumber "39" ; 
-  rdfs:label "Prinzip der Verwendung eines inerten Mediums"@de ;
-  od:description "Das übliche Medium ist durch ein reaktionsträgeres zu ersehtzen."@de, "Der Prozess ist im Vakuum durchzuführen."@de .
+odp:P38
+    od:description "Die Luft oder der Sauerstoff ist der Einwirkung ionisierender Strahlung auszusetzen."@de, "Die aktivierte Luft ist durch Sauerstoff zu ersetzen."@de, "Die normale atmosphärische Luft ist durch aktivierte zu ersetzen."@de, "Es ist ozonierter Sauerstoff zu benutzen."@de, "Ozonierter oder ionisierter Sauerstoff ist durch Ozon zu ersetzen."@de ;
+    od:hasPrincipleNumber "38" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Anwendung starker Oxidationsmittel"@de .
 
-<http://opendiscovery.org/Data/Principle/P40>     
-  a od:Principle ;
-  od:hasPrincipleNumber "40" ; 
-  rdfs:label "Prinzip der Anwendung zusammengesetzter Stoffe"@de ;
-  od:description "Von gleichen Stoffen ist zu zusammengesetzten Stoffen überzugehen."@de .
+odp:P39
+    od:description "Das übliche Medium ist durch ein reaktionsträgeres zu ersehtzen."@de, "Der Prozess ist im Vakuum durchzuführen."@de ;
+    od:hasPrincipleNumber "39" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Verwendung eines inerten Mediums"@de .
 
+odp:P40
+    od:description "Von gleichen Stoffen ist zu zusammengesetzten Stoffen überzugehen."@de ;
+    od:hasPrincipleNumber "40" ;
+    a od:Principle ;
+    rdfs:label "Prinzip der Anwendung zusammengesetzter Stoffe"@de .
 
