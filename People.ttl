@@ -1,41 +1,261 @@
-
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
-@prefix odp: <http://opendiscovery.org/Data/Person/> .
+@prefix odp: <http://opendiscovery.org/rdf/Person/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix cc: <http://creativecommons.org/ns#> .
 
-<http://opendiscovery.org/Data/People/> a owl:Ontology ;
-   rdfs:label "OD People Database" ;
-   cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
-   cc:attributionURL <http://opendiscovery.org> ;
-   cc:attributionName "The Open Discovery Project" ;
-   rdfs:label "Open Discovery Bibliographical Data" ;
-   rdfs:comment "Bibliography of the Open Discovery Project" .
+<http://opendiscovery.org/rdf/People/>
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
+    a owl:Ontology ;
+    rdfs:label "People in the TRIZ Community" .
 
-odp:Petrov_VM a foaf:Person ;
-   foaf:name "Vladimir Michailovich Petrov"@en ;
-   od:affiliation "International TRIZ Association (MATRIZ)" .
+odp:Ageed_S
+    a foaf:Person ;
+    foaf:name "Sharaf Ageed" .
 
-odp:Graebe_HG a foaf:Person ;
-   foaf:name "Hans-Gert Gräbe"@de ;
-   od:affiliation "Leipzig University, Germany" .
+odp:Amnuel_P
+    a foaf:Person ;
+    foaf:affil "художественно-публицистический журнал \"Млечный Путь\" и одноименное издательство, редактор"@ru ;
+    foaf:name "Pavel Amnuel'" .
 
-odp:Hiltmann_K a foaf:Person ;
-   foaf:name "Kai Hiltmann"@de ;
-   od:affiliation "FH Coburg, Germany" .
+odp:Arutyunov_Y
+    a foaf:Person ;
+    foaf:name "Yurij Arutyunov" .
 
-odp:Litvin_S a foaf:Person ;
-   foaf:name "Simon Litvin"@en ;
-   od:affiliation "International TRIZ Association (MATRIZ)"
+odp:Arutyunova_E
+    a foaf:Person ;
+    foaf:name "Ekaterina Arutyunova" .
 
-odp:Rubin_M a foaf:Person ;
-   foaf:name "Mikhail Rubin "@en ;
-   od:affiliation "International TRIZ Association (MATRIZ)"
+odp:Bezdel_Z
+    a foaf:Person ;
+    foaf:affil "IPMA, Менеджер проектов"@ru ;
+    foaf:name "Zoya Bezdel'" .
 
-odp:Fey_V a foaf:Person ;
-   foaf:name "Victor Fey"@en ;
-   od:affiliation "Altshuller Institute for TRIZ Studies" .
+odp:Borisevich_S
+    a foaf:Person ;
+    foaf:affil "EPAM Systems, Director, User Experience Desing"@en ;
+    foaf:name "Stanislav Borisevich" .
+
+odp:Chizhevskaya_N
+    a foaf:Person ;
+    foaf:affil "Преподаватель БГАИ, педагог дополнительного образования «ГУО ЦДОДиМ «Виктория» г. Минска, Педагог дополнительного образования"@ru ;
+    foaf:name "Nataliya Chizhevskaya" .
+
+odp:Chuang_CT
+    a foaf:Person ;
+    foaf:affil "Minghsin University, Research Assistant, Innovative method teacher"@en ;
+    foaf:name "Chuang, Cheng Tai" .
+
+odp:Curikov_V
+    a foaf:Person ;
+    foaf:affil "True Machina, Главный архитектор интеллектульных систем"@ru ;
+    foaf:name "Valerij Curikov" .
+
+odp:Devojno_I
+    a foaf:Person ;
+    foaf:affil "IHS Markit, Product Analysis and Design Associate Director"@en ;
+    foaf:name "Igor Devojno" .
+
+odp:Domkin_K
+    a foaf:Person ;
+    foaf:affil "Компания АО \"Научно-промышленные консультанты\", Руководитель проекта"@ru ;
+    foaf:name "Kirill Domkin" .
+
+odp:Dusmikeev_A
+    a foaf:Person ;
+    foaf:affil "Компания МедиуМ, бренд SolarEnrg, Директор"@ru ;
+    foaf:name "Andrei Dusmikeev" .
+
+odp:Eckardt_O
+    a foaf:Person ;
+    foaf:affil "Sparkling Spring GmbH (Director), Wilo SE (Senior Business Consultant, Project Manager)"@en ;
+    foaf:name "Olga Eckardt" .
+
+odp:Falkov_D
+    a foaf:Person ;
+    foaf:name "Dmitrij Falkov" .
+
+odp:Fey_V
+    foaf:affil "Altshuller Institute for TRIZ Studies" ;
+    a foaf:Person ;
+    foaf:name "Victor Fey"@en .
+
+odp:Fomenko_A
+    a foaf:Person ;
+    foaf:affil "Группа ГАЗ, Директор Департамента ТРИЗ"@ru ;
+    foaf:name "Aleksej Fomenko" .
+
+odp:Gerasimov_O
+    a foaf:Person ;
+    foaf:name "Oleg Gerasimov" .
+
+odp:Graebe_HG
+    foaf:affil "Leipzig University, Germany" ;
+    a foaf:Person ;
+    foaf:affil "Leipzig University, Germany"@en ;
+    foaf:name "Hans-Gert Gräbe" .
+
+odp:Han_B
+    a foaf:Person ;
+    foaf:affil "Tianjin Innovation and Development Institute, TRIZ trainer"@en ;
+    foaf:name "Bing Han" .
+
+odp:Hiltmann_K
+    foaf:affil "FH Coburg, Germany" ;
+    a foaf:Person ;
+    foaf:name "Kai Hiltmann" .
+
+odp:Horenyan_R
+    a foaf:Person ;
+    foaf:affil "EPAM Systems, Проектный менеджер"@ru ;
+    foaf:name "Rostislav Horenyan" .
+
+odp:Hovanov_S
+    a foaf:Person ;
+    foaf:name "Sergej Hovanov" .
+
+odp:Koblenc_P
+    a foaf:Person ;
+    foaf:affil "EPAM Systems, Проектный менеджер"@ru ;
+    foaf:name "Pavel Koblenc" .
+
+odp:Korotkih_S
+    a foaf:Person ;
+    foaf:affil "Красноярский техникум промышленного сервиса, преподаватель"@ru ;
+    foaf:name "Svetlana Korotkih" .
+
+odp:Kozhemyako_A
+    a foaf:Person ;
+    foaf:affil "Бизнес-ассоциация ТРИЗ (БА ТРИЗ), Учредитель"@ru ;
+    foaf:name "Anton Kozhemyako" .
+
+odp:Kucharavy_D
+    a foaf:Person ;
+    foaf:affil "SeeCore Project, исследователь, преподаватель, консультант"@ru ;
+    foaf:name "Dmitry Kucharavy" .
+
+odp:Kuryan_A
+    a foaf:Person ;
+    foaf:affil "EPAM Systems, TRIZ trainer, Innovation consultant"@en ;
+    foaf:name "Andrei Kuryan" .
+
+odp:Li_H
+    a foaf:Person ;
+    foaf:affil "Санкт-Петербургский государственный инженерно-экономический университет, технический директор IMA-InnoCloud (Пекин) Technology Co., Ltd"@ru ;
+    foaf:name "Huangye Li" .
+
+odp:Lin_YJ
+    a foaf:Person ;
+    foaf:affil "Minghsin University, Professor, TRIZ trainer"@en ;
+    foaf:name "Lin, Youn Jan" .
+
+odp:Litvin_S
+    foaf:affil "International TRIZ Association (MATRIZ)" ;
+    a foaf:Person ;
+    foaf:name "Simon Litvin"@en .
+
+odp:Mann_D
+    a foaf:Person ;
+    foaf:affil "Systematic Innovation Ltd, CEO"@en ;
+    foaf:name "Darell Mann" .
+
+odp:Martinovskij_G
+    a foaf:Person ;
+    foaf:affil "EPAM Systems, Главный бизнес консультант"@ru ;
+    foaf:name "Georgij Martinovskij" .
+
+odp:Nesterenko_A
+    a foaf:Person ;
+    foaf:affil "ПКИРО (Владивосток), ГБОУ г. Москвы «Школа № 2101 «Филевский образовательный центр», доцент, методист"@ru ;
+    foaf:name "Alla Nesterenko" .
+
+odp:Nikitin_V
+    a foaf:Person ;
+    foaf:affil "Компания АО \"Научно-промышленные консультанты\", Руководитель проекта"@ru ;
+    foaf:name "Vladimir Nikitin" .
+
+odp:Ogievich_D
+    a foaf:Person ;
+    foaf:affil "Banuba, exp(capital), CEO"@en ;
+    foaf:name "Dmitrij Ogievich" .
+
+odp:Petrov_D
+    a foaf:Person ;
+    foaf:name "Dmitrij Petrov" .
+
+odp:Petrov_VM
+    foaf:affil "Innovation Technology"@en ;
+    foaf:affil "International TRIZ Association (MATRIZ)" ;
+    a foaf:Person ;
+    foaf:name "Vladimir Michailovich Petrov"@en .
+
+odp:Podobed_I
+    a foaf:Person ;
+    foaf:affil "@ Awem Games, Technical Fellow"@en ;
+    foaf:name "Ivan Podobed" .
+
+odp:Prosvetova_N
+    a foaf:Person ;
+    foaf:affil "\"Спинакер\""@ru ;
+    foaf:name "Natalya Prosvetova" .
+
+odp:Redkolis_E
+    a foaf:Person ;
+    foaf:affil "АО \"Научно-промышленные консультанты\", Руководитель проекта"@ru ;
+    foaf:name "Elena Redkolis" .
+
+odp:Rubin_M
+    foaf:affil "International TRIZ Association (MATRIZ)" ;
+    a foaf:Person ;
+    foaf:affil "РУСАЛ Глобал Менеджмент, Руководитель группы проектов Дирекции по ТРИЗ"@ru ;
+    foaf:name "Mihail Rubin", "Mikhail Rubin "@en .
+
+odp:Rubina_N
+    a foaf:Person ;
+    foaf:affil "ОО \"Саммит разработчиков ТРИЗ\", Руководитель проекта \"Кубок ТРИЗ Саммита\""@ru ;
+    foaf:name "Nataliya Rubina" .
+
+odp:Saunin_N
+    a foaf:Person ;
+    foaf:affil "АО «НПК», Руководитель направления, Дирекция по ТРИЗ"@ru ;
+    foaf:name "Nikolaj Saunin" .
+
+odp:Severinec_G
+    a foaf:Person ;
+    foaf:affil "Компания АО \"Научно-промышленные консультанты\", Руководитель проекта"@ru ;
+    foaf:name "Georgij Severinec" .
+
+odp:Shpakovskij_N
+    a foaf:Person ;
+    foaf:affil "Target Invention, Ведущий эксперт"@ru ;
+    foaf:name "Nikolaj Shpakovskij" .
+
+odp:Skuratovich_А
+    a foaf:Person ;
+    foaf:affil "ОАО «АМКОДОР - управляющая компания холдинга», Руководитель проекта по оптимизации бизнес-процессов"@ru ;
+    foaf:name "Alexander Skuratovich", "Александр Скуратович"@ru .
+
+odp:Sokolov_S
+    a foaf:Person ;
+    foaf:affil "Преподаватель ТРИЗ"@ru ;
+    foaf:name "Sergej Sokolov" .
+
+odp:Sushkov_V
+    a foaf:Person ;
+    foaf:affil "ICG Training & Consulting, Управляющий Директор"@ru ;
+    foaf:name "Valerij Sushkov" .
+
+odp:Sysoev_S
+    a foaf:Person ;
+    foaf:name "Sergej Sysoev" .
+
+odp:Terekhova_G
+    a foaf:Person ;
+    foaf:affil "ЮУрГГПУ, Челябинск, Доцент кафедры теоретической и прикладной психологии"@ru ;
+    foaf:name "Galina Terekhova" .
+
