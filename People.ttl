@@ -213,12 +213,12 @@ odp:Rubin_M
     foaf:affil "International TRIZ Association (MATRIZ)" ;
     a foaf:Person ;
     foaf:affil "РУСАЛ Глобал Менеджмент, Руководитель группы проектов Дирекции по ТРИЗ"@ru ;
-    foaf:name "Mihail Rubin", "Mikhail Rubin "@en .
+    foaf:name "Mikhail Rubin "@en .
 
-odp:Rubina_N
+odp:Rubina_NV
     a foaf:Person ;
     foaf:affil "ОО \"Саммит разработчиков ТРИЗ\", Руководитель проекта \"Кубок ТРИЗ Саммита\""@ru ;
-    foaf:name "Nataliya Rubina" .
+    foaf:name "Nataliya Viktorovna Rubina", "Рубина Наталия Викторовна"@ru .
 
 odp:Saunin_N
     a foaf:Person ;
