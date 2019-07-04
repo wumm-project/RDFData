@@ -138,6 +138,8 @@
     dcterms:abstract "In the lecture, I analyze the working conditions and contribution to the development of the theory of TRIZ movement of inventor schools (\"Erfinderschulen\") in the GDR. Based on the report (RT 1994), I use an ARIZ like approach to develop a theoretical framework to tell the \"true story\" about the movement of inventor schools in the GDR. The text is addressed to both historians of social and technological development and people discussing aspects of expanding the scope of TRIZ to other areas of knowledge production. "@en, "В докладe я анализирую условия труда и вклад в развитие теории ТРИЗ движения школ изобретательeй («Erfinderschulen») в ГДР. Основываясь на отчете (RT 1994), я использую АРИЗ-подобный подход для разработки теоретической основы, чтобы рассказать «правдивую историю» о движении школ изобретательeй в ГДР. Текст адресован как историкам социально-технического развития, так и людям, обсуждающих аспекты расширения сферы применения ТРИЗ на другие области производства знаний."@ru ;
     dcterms:creator odp:Graebe_HG ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/576> ;
+    od:urlPaper <https://hg-graebe.de/EigeneTexte/Minsk-2019.pdf>;
+    od:urlSlides <https://hg-graebe.de/EigeneTexte/Minsk-2019-Slides.pdf> ; 
     dcterms:title "The influence of the movement of inventor schools in the GDR on the development of TRIZ"@en, "Влияние движения школ изобретателeй в ГДР на развитие ТРИЗ"@ru ;
     a od:Talk .
 
