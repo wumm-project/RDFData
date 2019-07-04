@@ -49,7 +49,7 @@ odp:Chizhevskaya_N
 odp:Chuang_CT
     a foaf:Person ;
     foaf:affil "Minghsin University, Research Assistant, Innovative method teacher"@en ;
-    foaf:name "Chuang, Cheng Tai" .
+    foaf:name "Cheng Tai Chuang" .
 
 odp:Curikov_V
     a foaf:Person ;
@@ -83,7 +83,7 @@ odp:Falkov_D
 odp:Fey_V
     foaf:affil "Altshuller Institute for TRIZ Studies" ;
     a foaf:Person ;
-    foaf:name "Victor Fey"@en .
+    foaf:name "Victor Fey" .
 
 odp:Fomenko_A
     a foaf:Person ;
@@ -95,7 +95,6 @@ odp:Gerasimov_O
     foaf:name "Oleg Gerasimov" .
 
 odp:Graebe_HG
-    foaf:affil "Leipzig University, Germany" ;
     a foaf:Person ;
     foaf:affil "Leipzig University, Germany"@en ;
     foaf:name "Hans-Gert Gräbe" .
@@ -152,7 +151,7 @@ odp:Li_H
 odp:Lin_YJ
     a foaf:Person ;
     foaf:affil "Minghsin University, Professor, TRIZ trainer"@en ;
-    foaf:name "Lin, Youn Jan" .
+    foaf:name "Youn Jan Lin" .
 
 odp:Litvin_S
     foaf:affil "International TRIZ Association (MATRIZ)" ;
@@ -192,7 +191,7 @@ odp:Petrov_VM
     foaf:affil "Innovation Technology"@en ;
     foaf:affil "International TRIZ Association (MATRIZ)" ;
     a foaf:Person ;
-    foaf:name "Vladimir Michailovich Petrov"@en .
+    foaf:name "Vladimir Petrov" .
 
 odp:Podobed_I
     a foaf:Person ;
@@ -218,7 +217,7 @@ odp:Rubin_M
 odp:Rubina_NV
     a foaf:Person ;
     foaf:affil "ОО \"Саммит разработчиков ТРИЗ\", Руководитель проекта \"Кубок ТРИЗ Саммита\""@ru ;
-    foaf:name "Nataliya Viktorovna Rubina", "Рубина Наталия Викторовна"@ru .
+    foaf:name "Nataliya Rubina", "Рубина Наталия Викторовна"@ru .
 
 odp:Saunin_N
     a foaf:Person ;
