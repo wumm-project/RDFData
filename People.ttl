@@ -96,6 +96,7 @@ odp:Gerasimov_O
 
 odp:Graebe_HG
     a foaf:Person ;
+    owl:sameAs <https://orcid.org/0000-0002-3934-413X>, <http://viaf.org/viaf/7966504>, <http://d-nb.info/gnd/109790235>, <https://www.researchgate.net/profile/Hans_Gert_Graebe> ; 
     foaf:affil "Leipzig University, Germany"@en ;
     foaf:name "Hans-Gert Gräbe" .
 
