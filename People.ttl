@@ -99,7 +99,7 @@ odp:Eckardt_O
 
 odp:Falkov_D
     a foaf:Person ;
-    foaf:name "Dmitrij Falkov" .
+    foaf:name "Dmitrii Falkov", "Dmitrij Falkov" .
 
 odp:Fey_V
     a foaf:Person ;
@@ -164,6 +164,10 @@ odp:Izmikov_K
     a foaf:Person ;
     foaf:name "Kirill Izmikov" .
 
+odp:Khorenyan_R
+    a foaf:Person ;
+    foaf:name "Rostislav Khorenyan" .
+
 odp:Kleemann_KP
     a foaf:Person ;
     foaf:affil "Leipzig University, Germany" ;
@@ -173,6 +177,10 @@ odp:Koblenc_P
     a foaf:Person ;
     foaf:affil "EPAM Systems, Проектный менеджер"@ru ;
     foaf:name "Pavel Koblenc" .
+
+odp:Koblents_P
+    a foaf:Person ;
+    foaf:name "Pavel Koblents" .
 
 odp:Koltze_K
     a foaf:Person ;
@@ -245,6 +253,10 @@ odp:Martinovskij_G
     a foaf:Person ;
     foaf:affil "EPAM Systems, Главный бизнес консультант"@ru ;
     foaf:name "Georgij Martinovskij" .
+
+odp:Martsinovskii_G
+    a foaf:Person ;
+    foaf:name "Georgii Martsinovskii" .
 
 odp:Naehler_T
     a foaf:Person ;
@@ -386,8 +398,8 @@ odp:Thurnes_C
 
 odp:Weber_O
     a foaf:Person ;
-    foaf:homepage <https://somales.de/> ; 
     foaf:affil "„Next Generation Education”, Berlin" ;
+    foaf:homepage <https://somales.de/> ;
     foaf:name "Olaf Weber" .
 
 odp:Zobel_D
