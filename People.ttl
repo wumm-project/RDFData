@@ -14,6 +14,12 @@
     a owl:Ontology ;
     rdfs:label "People in the TRIZ Community" .
 
+odp:Adunka_R
+    a foaf:Person ;
+    foaf:affil "LB at Uni Erlangen, Germany" ;
+    foaf:homepage <http://www.adunka.de/> ;
+    foaf:name "Robert Adunka" .
+
 odp:Ageed_S
     a foaf:Person ;
     foaf:name "Sharaf Ageed" .
@@ -46,6 +52,11 @@ odp:Bozhkov_V
     foaf:affil "EPAM, Minsk, Belarus" ;
     foaf:name "Vitaliy Bozhkov" .
 
+odp:Bukhman_I
+    a foaf:Person ;
+    foaf:affil "The Altshuller Institute for TRIZ Studies, Inc." ;
+    foaf:name "Isak Bukhman" .
+
 odp:Chizhevskaya_N
     a foaf:Person ;
     foaf:affil "Преподаватель БГАИ, педагог дополнительного образования «ГУО ЦДОДиМ Виктория» г. Минска, Педагог дополнительного образования"@ru ;
@@ -65,6 +76,11 @@ odp:Devojno_I
     a foaf:Person ;
     foaf:affil "IHS Markit, Product Analysis and Design Associate Director"@en ;
     foaf:name "Igor Devojno" .
+
+odp:Dobrusskin_C
+    a foaf:Person ;
+    foaf:homepage <https://innovationorigins.com/nl/tag/christoph-dobrusskin/> ;
+    foaf:name "Christoph Dobrusskin" .
 
 odp:Domkin_K
     a foaf:Person ;
@@ -105,10 +121,25 @@ odp:Graebe_HG
     foaf:homepage <http://bis.informatik.uni-leipzig.de/HansGertGraebe>, <https://www.facebook.com/hg.graebe> ;
     foaf:name "Hans-Gert Gräbe" .
 
+odp:Gronauer_B
+    a foaf:Person ;
+    foaf:affil "StrategieInnovation, Hünfeld, Germany" ;
+    foaf:name "Barbara Gronauer" .
+
 odp:Han_B
     a foaf:Person ;
     foaf:affil "Tianjin Innovation and Development Institute"@en ;
     foaf:name "Bing Han" .
+
+odp:Hentschel_C
+    a foaf:Person ;
+    foaf:affil "HS Berlin, Germany" ;
+    foaf:name "Claudia Hentschel" .
+
+odp:Herrlich_M
+    a foaf:Person ;
+    foaf:affil "Erfinder-Akademie, Leipzig, Germany" ;
+    foaf:name "Michael Herrlich" .
 
 odp:Hiltmann_K
     a foaf:Person ;
@@ -124,6 +155,11 @@ odp:Hovanov_S
     a foaf:Person ;
     foaf:name "Sergej Hovanov" .
 
+odp:Huber_N
+    a foaf:Person ;
+    foaf:affil "HS Weihenstephan-Triesdorf" ;
+    foaf:name "Norbert Huber" .
+
 odp:Izmikov_K
     a foaf:Person ;
     foaf:name "Kirill Izmikov" .
@@ -138,6 +174,11 @@ odp:Koblenc_P
     foaf:affil "EPAM Systems, Проектный менеджер"@ru ;
     foaf:name "Pavel Koblenc" .
 
+odp:Koltze_K
+    a foaf:Person ;
+    foaf:affil "HS Niederrhein, Germany" ;
+    foaf:name "Karl Koltze" .
+
 odp:Korotkih_S
     a foaf:Person ;
     foaf:affil "Красноярский техникум промышленного сервиса, преподаватель"@ru ;
@@ -145,7 +186,7 @@ odp:Korotkih_S
 
 odp:Kozhemyako_A
     a foaf:Person ;
-    foaf:affil "Business Association TRIZ", "Бизнес-ассоциация ТРИЗ (БА ТРИЗ), Учредитель"@ru ;
+    foaf:affil "Business Association TRIZ" ;
     foaf:homepage <http://batriz.ru/>, <http://bmtriz.ru/> ;
     foaf:name "Anton Kozhemyako", "Антон Кожемяко"@ru .
 
@@ -190,6 +231,11 @@ odp:Litvin_S
     foaf:affil "International TRIZ Association (MATRIZ)" ;
     foaf:name "Simon Litvin"@en .
 
+odp:Livotov_P
+    a foaf:Person ;
+    foaf:affil "HS Offenburg, Germany" ;
+    foaf:name "Pavel Livotov" .
+
 odp:Mann_D
     a foaf:Person ;
     foaf:affil "Systematic Innovation Ltd, CEO"@en ;
@@ -199,6 +245,11 @@ odp:Martinovskij_G
     a foaf:Person ;
     foaf:affil "EPAM Systems, Главный бизнес консультант"@ru ;
     foaf:name "Georgij Martinovskij" .
+
+odp:Naehler_T
+    a foaf:Person ;
+    foaf:affil "c4pi – Center for Product-Innovation, Hünfeld, Germany" ;
+    foaf:name "Horst Thomas Nähler" .
 
 odp:Nesterenko_A
     a foaf:Person ;
@@ -322,4 +373,25 @@ odp:Terekhova_G
     a foaf:Person ;
     foaf:affil "ЮУрГГПУ, Челябинск, Доцент кафедры теоретической и прикладной психологии"@ru ;
     foaf:name "Galina Terekhova" .
+
+odp:Thiel_R
+    a foaf:Person ;
+    foaf:affil "LIFIS, Bugk bei Storkow, Germany" ;
+    foaf:name "Rainer Thiel" .
+
+odp:Thurnes_C
+    a foaf:Person ;
+    foaf:affil "HS Kaiserslautern, Germany" ;
+    foaf:name "Christian Thurnes" .
+
+odp:Weber_O
+    a foaf:Person ;
+    foaf:homepage <https://somales.de/> ; 
+    foaf:affil "„Next Generation Education”, Berlin" ;
+    foaf:name "Olaf Weber" .
+
+odp:Zobel_D
+    a foaf:Person ;
+    foaf:affil "Ingenieurbüro für Systemtechnik, Wittenberg" ;
+    foaf:name "Dietmar Zobel" .
 
