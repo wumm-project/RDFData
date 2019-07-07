@@ -13,10 +13,9 @@
     cc:attributionName "The Open Discovery Project" ;
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
-    dcterms:source <https://www.triz-consulting.de/triz-matrix> ;
-    dcterms:source <http://www.i-sim.org/Altshuller_Matrix.xls> ;
+    dcterms:source <http://www.i-sim.org/Altshuller_Matrix.xls>, <https://www.triz-consulting.de/triz-matrix> ;
     a owl:Ontology ;
-    rdfs:comment "Extracted and transformed by HGG, 2019-06-24" ;
+    rdfs:comment "2019-06-24 graebe: Extracted and transformed from the source", "2019-07-08 graebe: english and russian language versions added" ;
     rdfs:label "TRIZ Matrix - The Old Version" .
 
 <http://opendiscovery.org/rdf/Matrix/E.01.02>
@@ -8923,235 +8922,235 @@ odm:P01
     od:description "Masse des beweglichen Objekts"@de ;
     od:hasParameterNumber "01" ;
     a od:Parameter ;
-    rdfs:label "Masse des beweglichen Objekts"@de .
+    rdfs:label "Mass of moving object"@en, "Masse des beweglichen Objekts"@de, "Масса движущегося объекта"@ru .
 
 odm:P02
     od:description "Masse des unbeweglichen Objekts"@de ;
     od:hasParameterNumber "02" ;
     a od:Parameter ;
-    rdfs:label "Masse des unbeweglichen Objekts"@de .
+    rdfs:label "Mass of immovable object"@en, "Masse des unbeweglichen Objekts"@de, "Масса недвижимого объекта"@ru .
 
 odm:P03
     od:description "Länge des beweglichen Objekts"@de ;
     od:hasParameterNumber "03" ;
     a od:Parameter ;
-    rdfs:label "Länge des beweglichen Objekts"@de .
+    rdfs:label "Length of moving object"@en, "Länge des beweglichen Objekts"@de, "Длина движущегося объекта"@ru .
 
 odm:P04
     od:description "Länge des unbeweglichen Objekts"@de ;
     od:hasParameterNumber "04" ;
     a od:Parameter ;
-    rdfs:label "Länge des unbeweglichen Objekts"@de .
+    rdfs:label "Length of immovable object"@en, "Länge des unbeweglichen Objekts"@de, "Длина недвижимого объекта"@ru .
 
 odm:P05
     od:description "Fläche des beweglichen Objekts"@de ;
     od:hasParameterNumber "05" ;
     a od:Parameter ;
-    rdfs:label "Fläche des beweglichen Objekts"@de .
+    rdfs:label "Area of ​​moving object"@en, "Fläche des beweglichen Objekts"@de, "Площадь движущегося объекта"@ru .
 
 odm:P06
     od:description "Fläche des unbeweglichen Objekts"@de ;
     od:hasParameterNumber "06" ;
     a od:Parameter ;
-    rdfs:label "Fläche des unbeweglichen Objekts"@de .
+    rdfs:label "Area of ​​immovable object"@en, "Fläche des unbeweglichen Objekts"@de, "Площадь недвижимого объекта"@ru .
 
 odm:P07
     od:description "Volumen des beweglichen Objekts"@de ;
     od:hasParameterNumber "07" ;
     a od:Parameter ;
-    rdfs:label "Volumen des beweglichen Objekts"@de .
+    rdfs:label "Volume of moving object"@en, "Volumen des beweglichen Objekts"@de, "Объем движущегося объекта"@ru .
 
 odm:P08
     od:description "Volumen des unbeweglichen Objekts"@de ;
     od:hasParameterNumber "08" ;
     a od:Parameter ;
-    rdfs:label "Volumen des unbeweglichen Objekts"@de .
+    rdfs:label "Volume of immovable object"@en, "Volumen des unbeweglichen Objekts"@de, "Объем недвижимого объекта"@ru .
 
 odm:P09
     od:description "Geschwindigkeit"@de ;
     od:hasParameterNumber "09" ;
     a od:Parameter ;
-    rdfs:label "Geschwindigkeit"@de .
+    rdfs:label "Geschwindigkeit"@de, "Speed"@en, "Скорость"@ru .
 
 odm:P10
     od:description "Kraft"@de ;
     od:hasParameterNumber "10" ;
     a od:Parameter ;
-    rdfs:label "Kraft"@de .
+    rdfs:label "Force"@en, "Kraft"@de, "Сила"@ru .
 
 odm:P11
     od:description "Spannung oder Druck"@de ;
     od:hasParameterNumber "11" ;
     a od:Parameter ;
-    rdfs:label "Spannung oder Druck"@de .
+    rdfs:label "Spannung oder Druck"@de, "Tension or Pressure"@en, "Напряжение или давление"@ru .
 
 odm:P12
     od:description "Form"@de ;
     od:hasParameterNumber "12" ;
     a od:Parameter ;
-    rdfs:label "Form"@de .
+    rdfs:label "Form"@de, "Form"@en, "Форма"@ru .
 
 odm:P13
     od:description "Stabilität der Zusammensetzung des Objekts"@de ;
     od:hasParameterNumber "13" ;
     a od:Parameter ;
-    rdfs:label "Stabilität der Zusammensetzung des Objekts"@de .
+    rdfs:label "Stability of composition of the object"@en, "Stabilität der Zusammensetzung des Objekts"@de, "Устойчивость композиции объекта"@ru .
 
 odm:P14
     od:description "Festigkeit"@de ;
     od:hasParameterNumber "14" ;
     a od:Parameter ;
-    rdfs:label "Festigkeit"@de .
+    rdfs:label "Festigkeit"@de, "Strength"@en, "Сила"@ru .
 
 odm:P15
     od:description "Haltbarkeit des beweglichen Objekts"@de ;
     od:hasParameterNumber "15" ;
     a od:Parameter ;
-    rdfs:label "Haltbarkeit des beweglichen Objekts"@de .
+    rdfs:label "Durability of moving object"@en, "Haltbarkeit des beweglichen Objekts"@de, "Долговечность движущегося объекта"@ru .
 
 odm:P16
     od:description "Haltbarkeit des unbeweglichen Objekts"@de ;
     od:hasParameterNumber "16" ;
     a od:Parameter ;
-    rdfs:label "Haltbarkeit des unbeweglichen Objekts"@de .
+    rdfs:label "Durability of immovable object"@en, "Haltbarkeit des unbeweglichen Objekts"@de, "Долговечность недвижимого объекта"@ru .
 
 odm:P17
     od:description "Temperatur"@de ;
     od:hasParameterNumber "17" ;
     a od:Parameter ;
-    rdfs:label "Temperatur"@de .
+    rdfs:label "Temperatur"@de, "Temperature"@en, "Температура"@ru .
 
 odm:P18
     od:description "Sichtverhältnisse"@de ;
     od:hasParameterNumber "18" ;
     a od:Parameter ;
-    rdfs:label "Sichtverhältnisse"@de .
+    rdfs:label "Sichtverhältnisse"@de, "Visibility"@en, "Видимость"@ru .
 
 odm:P19
     od:description "Energieverbrauch des beweglichen Objekts"@de ;
     od:hasParameterNumber "19" ;
     a od:Parameter ;
-    rdfs:label "Energieverbrauch des beweglichen Objekts"@de .
+    rdfs:label "Energieverbrauch des beweglichen Objekts"@de, "Energy consumption of moving object"@en, "Энергопотребление движущегося объекта"@ru .
 
 odm:P20
     od:description "Energieverbrauch des unbeweglichen Objekts"@de ;
     od:hasParameterNumber "20" ;
     a od:Parameter ;
-    rdfs:label "Energieverbrauch des unbeweglichen Objekts"@de .
+    rdfs:label "Energieverbrauch des unbeweglichen Objekts"@de, "Energy consumption of immovable object"@en, "Энергопотребление недвижимого объекта"@ru .
 
 odm:P21
     od:description "Leistung, Kapazität"@de ;
     od:hasParameterNumber "21" ;
     a od:Parameter ;
-    rdfs:label "Leistung, Kapazität"@de .
+    rdfs:label "Leistung, Kapazität"@de, "Performance, Capacity"@en, "Производительность, производительность"@ru .
 
 odm:P22
     od:description "Energieverluste"@de ;
     od:hasParameterNumber "22" ;
     a od:Parameter ;
-    rdfs:label "Energieverluste"@de .
+    rdfs:label "Energieverluste"@de, "Energy losses"@en, "Потери энергии"@ru .
 
 odm:P23
     od:description "Materialverluste"@de ;
     od:hasParameterNumber "23" ;
     a od:Parameter ;
-    rdfs:label "Materialverluste"@de .
+    rdfs:label "Material losses"@en, "Materialverluste"@de, "Материальные потери"@ru .
 
 odm:P24
     od:description "Informationsverluste"@de ;
     od:hasParameterNumber "24" ;
     a od:Parameter ;
-    rdfs:label "Informationsverluste"@de .
+    rdfs:label "Information loss"@en, "Informationsverluste"@de, "Потеря информации"@ru .
 
 odm:P25
     od:description "Zeitverluste"@de ;
     od:hasParameterNumber "25" ;
     a od:Parameter ;
-    rdfs:label "Zeitverluste"@de .
+    rdfs:label "Time losses"@en, "Zeitverluste"@de, "Потери времени"@ru .
 
 odm:P26
     od:description "Materialmenge"@de ;
     od:hasParameterNumber "26" ;
     a od:Parameter ;
-    rdfs:label "Materialmenge"@de .
+    rdfs:label "Material quantity"@en, "Materialmenge"@de, "Количество материала"@ru .
 
 odm:P27
     od:description "Zuverlässigkeit"@de ;
     od:hasParameterNumber "27" ;
     a od:Parameter ;
-    rdfs:label "Zuverlässigkeit"@de .
+    rdfs:label "Reliability"@en, "Zuverlässigkeit"@de, "Надежность"@ru .
 
 odm:P28
     od:description "Messgenauigkeit"@de ;
     od:hasParameterNumber "28" ;
     a od:Parameter ;
-    rdfs:label "Messgenauigkeit"@de .
+    rdfs:label "Measurement Accuracy"@en, "Messgenauigkeit"@de, "Точность измерений"@ru .
 
 odm:P29
     od:description "Fertigungsgenauigkeit"@de ;
     od:hasParameterNumber "29" ;
     a od:Parameter ;
-    rdfs:label "Fertigungsgenauigkeit"@de .
+    rdfs:label "Fertigungsgenauigkeit"@de, "Manufacturing accuracy"@en, "Точность производства"@ru .
 
 odm:P30
     od:description "Von außen auf das Objekt wirkende schädliche Faktoren"@de ;
     od:hasParameterNumber "30" ;
     a od:Parameter ;
-    rdfs:label "Von außen auf das Objekt wirkende schädliche Faktoren"@de .
+    rdfs:label "Harmful factors acting on the object from outside"@en, "Von außen auf das Objekt wirkende schädliche Faktoren"@de, "Вредные факторы, действующие на объект извне"@ru .
 
 odm:P31
     od:description "Vom Objekt selbst erzeugt schädliche Faktoren"@de ;
     od:hasParameterNumber "31" ;
     a od:Parameter ;
-    rdfs:label "Vom Objekt selbst erzeugt schädliche Faktoren"@de .
+    rdfs:label "Harmful factors generated by the object itself"@en, "Vom Objekt selbst erzeugt schädliche Faktoren"@de, "Вредные факторы, создаваемые самим объектом"@ru .
 
 odm:P32
     od:description "Fertigungsfreundlichkeit"@de ;
     od:hasParameterNumber "32" ;
     a od:Parameter ;
-    rdfs:label "Fertigungsfreundlichkeit"@de .
+    rdfs:label "Fertigungsfreundlichkeit"@de, "Manufacturing friendliness"@en, "Удобство изготовления"@ru .
 
 odm:P33
     od:description "Bedienkomfort"@de ;
     od:hasParameterNumber "33" ;
     a od:Parameter ;
-    rdfs:label "Bedienkomfort"@de .
+    rdfs:label "Bedienkomfort"@de, "Ease of Use"@en, "Простота использования"@ru .
 
 odm:P34
     od:description "Instandsetzungsfreundlichkeit"@de ;
     od:hasParameterNumber "34" ;
     a od:Parameter ;
-    rdfs:label "Instandsetzungsfreundlichkeit"@de .
+    rdfs:label "Instandsetzungsfreundlichkeit"@de, "Serviceability"@en, "Удобство обслуживания"@ru .
 
 odm:P35
     od:description "Adaptionsfähigkeit, Universalität"@de ;
     od:hasParameterNumber "35" ;
     a od:Parameter ;
-    rdfs:label "Adaptionsfähigkeit, Universalität"@de .
+    rdfs:label "Adaptability, universality"@en, "Adaptionsfähigkeit, Universalität"@de, "Адаптивность, универсальность"@ru .
 
 odm:P36
     od:description "Kompliziertheit der Struktur"@de ;
     od:hasParameterNumber "36" ;
     a od:Parameter ;
-    rdfs:label "Kompliziertheit der Struktur"@de .
+    rdfs:label "Intricacy of Structure"@en, "Kompliziertheit der Struktur"@de, "Сложность структуры"@ru .
 
 odm:P37
     od:description "Kompliziertheit der Kontrolle und Messung"@de ;
     od:hasParameterNumber "37" ;
     a od:Parameter ;
-    rdfs:label "Kompliziertheit der Kontrolle und Messung"@de .
+    rdfs:label "Complexity of Control and Measurement"@en, "Kompliziertheit der Kontrolle und Messung"@de, "Сложность контроля и измерений"@ru .
 
 odm:P38
     od:description "Automatisierungsgrad"@de ;
     od:hasParameterNumber "38" ;
     a od:Parameter ;
-    rdfs:label "Automatisierungsgrad"@de .
+    rdfs:label "Automation level"@en, "Automatisierungsgrad"@de, "Уровень автоматизации"@ru .
 
 odm:P39
     od:description "Produktivität"@de ;
     od:hasParameterNumber "39" ;
     a od:Parameter ;
-    rdfs:label "Produktivität"@de .
+    rdfs:label "Productivity"@en, "Produktivität"@de, "Производительность"@ru .
 
 odp:P99
     od:description "Special UID to indicate that there is no principle assigned to that matrix entry"@en ;

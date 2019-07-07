@@ -1,3 +1,4 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -8,542 +9,642 @@
 @prefix : <http://opendiscovery.org/rdf/Standard/> .
 
 <http://opendiscovery.org/rdf/76-Standards/>
-    a owl:Ontology ;
     cc:attributionName "The Open Discovery Project" ;
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     dcterms:source <http://triz-online.de/index.php?id=5577> ;
-    rdfs:comment "Extracted and transformed by HGG, 2019-07-06" ;
+    a owl:Ontology ;
+    rdfs:comment "2019-07-06 graebe: Extracted and transformed from the source", "2019-07-08 graebe: english and russian versions added" ;
     rdfs:label "TRIZ Database - The 76 Standard Solutions" .
 
-
-:theTRIZStandards a skos:ConceptScheme ;
-  skos:prefLabel "The 76 TRIZ Standards"@de .
-
-:S_0 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Das Wurzelkonzept"@de ;
-  skos:inScheme :theTRIZStandards .
-
-:S_1 a skos:Concept, od:StandardSolution ;
-  skos:broader :S_0; 
-  skos:prefLabel "Aufbau und Zerlegung vollständiger Stoff-Feld-Modelle"@de ;
-  skos:inScheme :theTRIZStandards .
-
-:S_1.1 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Aufbau von Stoff-Feld-Modellen"@de ;
-  skos:broader :S_1 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_1.1.1 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Vervollständige ein unvollständiges Stoff-Feld-Modell"@de ;
-  skos:broader :S_1.1 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Um Luft oder Wasser (S1) von festen Partikeln (S2) abzutrennen, wird zentrifugiert (F, Zentrifugalkraft)."@de .
-
-:S_1.1.2 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Wenn sich Additive intern zufügen lassen, vervollständige"@de ;
-  skos:broader :S_1.1 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Kleine Flüssigkeitstropfen lassen sich leicht durch Zugabe eines Fluoreszenzfarbstoffes detektieren."@de .
-
-:S_1.1.3 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Wenn sich Additive extern zufügen lassen, vervollständige damit"@de ;
-  skos:broader :S_1.1 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Gasleck-Detektion durch Seifenspray von außen auf ein Rohr."@de .
-
-:S_1.1.4 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze Ressourcen zur Vervollständigung"@de ;
-  skos:broader :S_1.1 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_1.1.5 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Erzeuge weitere Ressourcen durch Veränderung der Systemumgebung"@de ;
-  skos:broader :S_1.1 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_1.1.6 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze überschüssige Aktionen zur Vervollständigung und eliminiere den Überschuß"@de ;
-  skos:broader :S_1.1 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_1.1.7 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Ist die überschüssige Aktion schädlich, dann versuche sie auf eine andere Komponente im System zu lenken"@de ;
-  skos:broader :S_1.1 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_1.1.8 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Führe zur Komplettierung lokal schützende Substanzen ein"@de ;
-  skos:broader :S_1.1 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Glasampullen werden beim Zuschmelzen in einem Wasserbad von unten her gekühlt, um Überhitzung des thermisch empfindlichen Inhalts zu vermeiden."@de .
-
-:S_1.2 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Zerlegung von Stoff-Feld-Modellen"@de ;
-  skos:broader :S_1 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_1.2.1 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Eliminiere schädliche Interaktionen durch Einführung eines dritten Stoffes S3"@de ;
-  skos:broader :S_1.2 ; 
-  skos:inScheme :theTRIZStandards  .
-
-:S_1.2.2 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Eliminiere schädliche Interaktionen durch Einführung eines dritten Stoffes S3, wobei S3 eine Modifikation der beiden vorhandenen Stoffe S1 und/oder S2 sein kann"@de ;
-  skos:broader :S_1.2 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Die oberflächliche Zerstörung von Rümpfen bei Schnellbooten durch Kavitation des Wassers kann durch Kühlung des Rumpfes und Ausbildung einer Eisschicht vermieden werden."@de .
-
-:S_1.2.3 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Lenke die schädliche Wirkung auf einen weniger wichtigen Stoff S3 z.B.: Wände von Behältern (S1), in denen Wasser (S2) gefriert, werden mit elastischen Materialien (S3) ausgekleidet, um die thermische Ausdehnung abzufangen und ein Beschädigen der Behälterwand auszuschließen."@de ;
-  skos:broader :S_1.2 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_1.2.4 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Führe ein neues Feld zur Kompensation schädlicher Effekte ein"@de ;
-  skos:broader :S_1.2 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Zur Bestäubung von Blumen wird eine Luftströmung eingesetzt, die leider auch zum Schließen der Blüten führt. Diesen negativen Effekt eliminiert man durch elektrostatische Aufladung der Blüten, wodurch sie offen bleiben."@de .
-
-:S_1.2.5 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze die Möglichkeit, Magnetfelder ein- und ausschalten zu können"@de ;
-  skos:broader :S_1.2 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_2 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Verbesserung von Stoff-Feld-Modellen"@de ;
-  skos:broader :S_0; 
-  skos:inScheme :theTRIZStandards .
-
-:S_2.1 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Übergang zu komplexeren Stoff-Feld-Modellen"@de ;
-  skos:broader :S_2 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_2.1.1 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Verkette mehrere Stoff-Feld-Modelle"@de ;
-  skos:broader :S_2.1 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Hilti-Prinzip, Antrieb schlägt auf schweren Zwischenmeißel, dieser auf den eigentlichen Meißel, dieser auf den zu zerschlagenden Fels (= Impuls-Übertragung und -Verstärkung über mehrere Stufen)."@de .
-
-:S_2.1.2 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Verdopple ein Stoff-Feld-Modell"@de ;
-  skos:broader :S_2.1 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_2.2 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Weiterentwicklung eines Stoff-Feld-Modells"@de ;
-  skos:broader :S_2 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_2.2.1 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Setze besser steuerbare Felder ein"@de ;
-  skos:broader :S_2.2 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_2.2.2 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Fragmentiere S2"@de ;
-  skos:broader :S_2.2 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Messer - Messer mit Zahnung - Mirkowellenschliff - gezielt angerauhte Klinge."@de .
-
-:S_2.2.3 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Setze Kapillaren und poröse Stoffe ein"@de ;
-  skos:broader :S_2.2 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Mehrere kleine Düsen dosieren Klebstoff präziser als eine große Öffnung."@de .
-
-:S_2.2.4 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Erhöhe den Grad der Dynamik"@de ;
-  skos:broader :S_2.2 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Unterteilen eines Türblattes in mehrere flexibel verbundene Segmente, Rolltor, Rolladen."@de .
-
-:S_2.2.5 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Strukturierte Felder"@de ;
-  skos:broader :S_2.2 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_2.2.6 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Strukturierte Stoffe"@de ;
-  skos:broader :S_2.2 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_2.3 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Rhythmus-Koordination"@de ;
-  skos:broader :S_2 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_2.3.1 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Bringe den Rhythmus (die Frequenz) des einwirkenden Feldes in Übereinstimmung (oder gezielte Nicht-Übereinstimmung mit einem der beiden Stoffe)"@de ;
-  skos:broader :S_2.3 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Bei der Massage versucht man, den Rhythmus der äußeren Einwirkung mit dem Puls des Patienten in Übereinstimmung zu bringen.z. B.: Gezielte Asymmetrie in Getrieben verhindert laute Geräusche bzw. starke Eigenresonanz."@de .
-
-:S_2.3.2 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Synchronisiere den Rhythmus, die Frequenz von Feldern"@de ;
-  skos:broader :S_2.3 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_2.3.3 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Bringe unabhängige Aktionen in rhythmischen Zusammenhang"@de ;
-  skos:broader :S_2.3 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Nutze die Pausen im Ablauf einer nützlichen Funktion, um eine andere Funktion auszuführen, beispielsweise eine Mess- oder Regelaktion."@de .
-
-:S_2.4 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Komplex verbesserte Stoff-Feld-Modelle"@de ;
-  skos:broader :S_2 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_2.4.1 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze ferromagnetische Stoffe und Magnetfelder"@de ;
-  skos:broader :S_2.4 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_2.4.2 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze ferromagnetische Partikel, Granulate, Pulver"@de ;
-  skos:broader :S_2.4 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_2.4.3 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze ferromagnetische Flüssigkeiten"@de ;
-  skos:broader :S_2.4 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Ferromagnetische Partikel, die in Wasser, Kerosion etc. suspendiert sind."@de .
-
-:S_2.4.4 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze Kapillar-Strukturen in Zusammensetzung mit Ferromagnetismus"@de ;
-  skos:broader :S_2.4 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_2.4.5 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze komplexe ferromagnetische SFM, beispielsweise externe Magnetfelder, ferromagnetische Additive etc."@de ;
-  skos:broader :S_2.4 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_2.4.6 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Führe Ferromagnetismus in das Systemumfeld ein und nutze daraus resultierende Effekte."@de ;
-  skos:broader :S_2.4 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_2.4.7 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Verbessere die Kontrollierbarkeit ferromagnetischer Systeme durch Nutzen der Effekte-Datenbank"@de ;
-  skos:broader :S_2.4 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_2.4.8 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Erhöhe den Grad an Dynamik in einem komplexen Stoff-Feld-Modell"@de ;
-  skos:broader :S_2.4 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_2.4.9 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Strukturiere und unterteile Felder und Stoffe in komplexe Stoff-Feld-Modelle"@de ;
-  skos:broader :S_2.4 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_2.4.10 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Stimme die Rhythmen ab"@de ;
-  skos:broader :S_2.4 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_2.4.11 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze elektrische Felder"@de ;
-  skos:broader :S_2.4 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_2.4.12 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze Elektrorheologie"@de ;
-  skos:broader :S_2.4 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_3 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Übergang ins Super- und Subsystem (Makro- und Mikrolevel)"@de ;
-  skos:broader :S_0 ; 
-  skos:inScheme :theTRIZStandards  .
-
-:S_3.1 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Übergang zu Bi- und Poly-Systemen"@de ;
-  skos:broader :S_3 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_3.1.1 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Kombiniere Systeme zu Bi- und Poly-Systemen"@de ;
-  skos:broader :S_3.1 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Um die Kanten dünner Glasplatten zu bearbeiten, werden mehrere Platten übereinander zu einem stabilen Stapel zusammengefügt."@de .
-
-:S_3.1.2 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Schaffe oder intensiviere die Verbindungen zwischen den Einzelelementen in Bi- und Poly-Systemen"@de ;
-  skos:broader :S_3.1.2 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_3.1.3 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Verbessere die Effizienz von Bi- und Poly-Systemen durch Vergrößerung des Unterschiedes einzelner Komponenten"@de ;
-  skos:broader :S_3.1 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Ähnliche Komponenten (einzelne Bleistifte verschiedener Farben) werden verbessert zu verschiedenen Komponenten (ein Satz an Zeicheninstrumenten) und werden schließlich zu Kombinationen gegensätzlicher Funktionen (Bleistift mit Radierer)."@de .
-
-:S_3.1.4 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Vereinfache Bi- und Poly-Systeme durch Elimination überflüssiger, redundanter oder ähnlicher Komponenten"@de ;
-  skos:broader :S_3.1 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Viele Geräte besitzen heutzutage nur noch ein LED, das grünleuchtend EIN anzeigt und rotleuchtend AUS bedeutet, früher waren zwei Lämpchen für diese Information notwendig."@de .
-
-:S_3.1.5 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Verbessere die Effizienz von Bi- und Poly-Systemen durch Verteilen sich behindernder oder schädlicher Effekte auf verschiedene Komponenten"@de ;
-  skos:broader :S_3.1 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_3.2 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Übergang zu Mikro-Systemen"@de ;
-  skos:broader :S_3 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_3.2.1 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Miniaturisiere Komponenten oder ganze Systeme"@de ;
-  skos:broader :S_3.2 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_4 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Erkennen und Messen"@de ;
-  skos:broader :S_0 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_4.1 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Indirekte Methoden"@de ;
-  skos:broader :S_4 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_4.1.1 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Umgehe Erkennen und Messen"@de ;
-  skos:broader :S_4.1 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Um einen Elektromotor vor Überhitzung zu schützen, muß ein Temperatursensor die Temperatur messen und Aktionen initiieren. Fertigt man die Pole des Motors aus einer Legierung mit Curie-Punkt genau bei der Temperatur, wo die Überhitzung beginnt, dann stoppt sich der Motor von selbst."@de .
-
-:S_4.1.2 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Führe Erkennen und Messen an einer Kopie aus"@de ;
-  skos:broader :S_4.1 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Schlangen der Länge nach zu vermessen ist gefährlich. Besser geht das mit einem maßstabsgerechten Foto der Schlange."@de .
-
-:S_4.1.3 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Ersetze Messen durch zwei aufeinanderfolgende Erkennungsvorgänge"@de ;
-  skos:broader :S_4.1 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Um Temperatur zu messen, kann man thermochrome Substanzen einsetzen, die je nach Temperatur eine andere Farbe haben. Interessiert jedoch nur das Überschreiten einer Temperaturgrenze, dann sind ausschließlich zwei sicher unterscheidbare Farbzustände der effizientere Weg."@de .
-
-:S_4.2 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Aufbau von Mess-Stoff-Feld-Modellen"@de ;
-  skos:broader :S_4 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_4.2.1 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Detektiere oder messe mittels eines zusätzlichen Feldes"@de ;
-  skos:broader :S_4.2 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Um das Kochen von Wasser zu detektieren, wird ein elektrischer Strom hindurchgeleitet. Bei beginnendem Sieden steigt durch die Dampfblasenbildung der elektrische Widerstand deutlich an."@de .
-
-:S_4.2.2 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Füge einfach zu detektierende oder zu messende Additive oder Stoffe hinzu"@de ;
-  skos:broader :S_4.2 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Um ein Leck im Kühlkreislauf eines Kühlschrankes zu entdecken, wird dem Kühlmittel ein Lumineszenz-Farbstoff zugemischt."@de .
-
-:S_4.2.3 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Füge einfach zu detektierende oder zu messende Felder in die Systemumgebung hinzu"@de ;
-  skos:broader :S_4.2 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_4.2.4 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Füge einfach zu detektierende oder zu messende Additive oder Stoffe in die Systemumgebung hinzu"@de ;
-  skos:broader :S_4.2 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_4.3 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Verbesserung von Mess-Systemen"@de ;
-  skos:broader :S_4 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_4.3.1 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze die Effekte-Datenbank zur Verbesserung von Mess-Systemen"@de ;
-  skos:broader :S_4.3 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_4.3.2 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze Resonanzphänomene zur Messung z.B.: Um die Masse eines Festkörpers in einem geschlossen Behälter zu ermitteln, werden mechanische Schwingungen angeregt, deren Frequenz von der Masse abhängt."@de ;
-  skos:broader :S_4.3 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_4.3.3 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze Resonanzphänomene verknüpfter Objekte zur (indirekten) Messung"@de ;
-  skos:broader :S_4.3 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_4.4 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Übergang zu ferromagnetischen Mess-Systemen"@de ;
-  skos:broader :S_4 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_4.4.1 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Setze ferromagnetische Stoffe und Magnetfelder ein"@de ;
-  skos:broader :S_4.4 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_4.4.2 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Ersetze Stoffe durch ferromagnetische Stoffe und detektiere oder messe via Magnetfeld"@de ;
-  skos:broader :S_4.4 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_4.4.3 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Erzeuge komplexe, verknüpfte Stoff-Feld-Modelle mit ferromagnetischen Bestandteilen"@de ;
-  skos:broader :S_4.4 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_4.4.4 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Führe ferromagnetische Materialien in die Systemumgebung ein"@de ;
-  skos:broader :S_4.4 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_4.4.5 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze die Effekte-Datenbank (Curie-Punkt, Hopkins- und Barkhausen-Effekt), magnetoelastische Effekte, etc.)."@de ;
-  skos:broader :S_4.4 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_4.5 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Evolution von Erkenn und Messen"@de ;
-  skos:broader :S_4 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_4.5.1 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Erzeuge Bi- und Poly-Systeme"@de ;
-  skos:broader :S_4.5 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_4.5.2 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Erkenne und messe die (mathematische) Ableitung anstatt der Originalfunktion"@de ;
-  skos:broader :S_4.5 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_5 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Hilfen"@de ;
-  skos:broader :S_0 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_5.1 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Einführen von Stoffen"@de ;
-  skos:broader :S_5 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_5.1.1 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Indirekte Methoden"@de ;
-  skos:broader :S_5.1 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Führe Leerräume oder Hohlräume als Stoff ein, benutze hochaktive Additive in kleinen Mengen oder nur lokal, erzeuge den benötigten Stoff erst bei Bedarf (\"in situ\", beispielsweise durch Elektrolyse, Katalyse, ....)."@de .
-
-:S_5.1.2 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Zerteile Stoffe, nutze Fragmente"@de ;
-  skos:broader :S_5.1 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_5.1.3 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze die Selbstelimination von Stoffen"@de ;
-  skos:broader :S_5.1 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Der temporär eingeführte Stoff erfällt nach erfolgreicher Aktion oder wird chemisch zersetzt."@de .
-
-:S_5.1.4 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze Stoffe im Überschuss"@de ;
-  skos:broader :S_5.1 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Lässt sich durch Nutzung von Schaumstoffen beiden Forderungen nach wenig Masse und viel Stoffmenge (Volumen) Rechnung tragen (Hohlräume im Überschuss)."@de .
-
-:S_5.2 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Einführung von Feldern"@de ;
-  skos:broader :S_5 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_5.2.1 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze im Sinne von Ressourcen alle vorhandenen Felder"@de ;
-  skos:broader :S_5.2 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_5.2.2 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze Felder aus der Systemumgebung"@de ;
-  skos:broader :S_5.2 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_5.2.3 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze felderzeugende Stoffe"@de ;
-  skos:broader :S_5.2 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "magnetische Stoffe."@de .
-
-:S_5.3 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Phasenübergänge"@de ;
-  skos:broader :S_5 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_5.3.1 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Verändere den Aggregatzustand oder die Phase von Stoffen"@de ;
-  skos:broader :S_5.3 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_5.3.2 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze zwei Aggregatzustände oder Phasen eines Stoffes"@de ;
-  skos:broader :S_5.3 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Wasser und Eis zusammen fixieren die Temperatur auf genau 0° Celsius."@de .
-
-:S_5.3.3 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze die einen Phasenübergang begleitenden physikalischen Effekte z.B.: Verdunstungskälte."@de ;
-  skos:broader :S_5.3 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_5.3.4 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze Effekte, die aus dem gleichzeitigen Vorliegen zweier Phasen resultieren"@de ;
-  skos:broader :S_5.3 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_5.3.5 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Verbessere die Interaktion zwischen zwei Phasen"@de ;
-  skos:broader :S_5.3 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_5.4 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Einsatz der Effekte-Datenbank"@de ;
-  skos:broader :S_5 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_5.4.1 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze eigengesteuerte reversible physikalische Transformationen"@de ;
-  skos:broader :S_5.4 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Phasenübergänge, Dissoziation und Assoziation, Ionisation und Rekombination."@de .
-
-:S_5.4.2 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Nutze Speicher- und Verstärkungseffekte"@de ;
-  skos:broader :S_5.4 ; 
-  skos:inScheme :theTRIZStandards ;  
-  skos:example "Katalysatoren, Enzyme."@de .
-
-:S_5.5 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Stoffpartikel"@de ;
-  skos:broader :S_5 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_5.5.1 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Erzeuge Stoffpartikel (z. B. Ionen) durch Zerlegung eines höher organisierten Stoffes (z. B. Moleküle)."@de ;
-  skos:broader :S_5.5 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_5.5.2 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Erzeuge Stoffpartikel (z. B. Atome) durch Kombination niedriger organisierter Stoffe (z. B. Elementarteilchen)"@de ;
-  skos:broader :S_5.5 ; 
-  skos:inScheme :theTRIZStandards .
-
-:S_5.5.3 a skos:Concept, od:StandardSolution ;
-  skos:prefLabel "Setze beim Zerlegen oder Kombinieren von Stoffpartikeln einen vom Unterteilungsgrad her ähnlichen Stoff ein (\"kleine Schritte tun\")"@de ;
-  skos:broader :S_5.5 ; 
-  skos:inScheme :theTRIZStandards .
+:S_0
+    a od:StandardSolution, skos:Concept ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Das Wurzelkonzept"@de, "The Root Concept"@en, "Концепция корня"@ru .
+
+:S_1
+    a od:StandardSolution, skos:Concept ;
+    skos:broader :S_0 ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Aufbau und Zerlegung vollständiger Stoff-Feld-Modelle"@de, "Construction and decomposition of complete matter-field models"@en, "Построение и разложение полных моделей поля материи"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_1.1>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader :S_1 ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Aufbau von Stoff-Feld-Modellen"@de, "Building substance-field models"@en, "Построение полевых моделей"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_1.1.1>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_1.1> ;
+    skos:example "To separate air or water (S1) from solid particles (S2), centrifuge (F, centrifugal force)."@en, "Um Luft oder Wasser (S1) von festen Partikeln (S2) abzutrennen, wird zentrifugiert (F, Zentrifugalkraft)."@de, "Для отделения воздуха или воды (S1) от твердых частиц (S2), центрифуга (F, центробежная сила)."@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Complete an Incomplete Substance Field Model"@en, "Vervollständige ein unvollständiges Stoff-Feld-Modell"@de, "Заполнить модель поля неполного вещества"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_1.1.2>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_1.1> ;
+    skos:example "Kleine Flüssigkeitstropfen lassen sich leicht durch Zugabe eines Fluoreszenzfarbstoffes detektieren."@de, "Small drops of liquid are easily detected by adding a fluorescent dye."@en, "Маленькие капли жидкости легко обнаруживаются при добавлении флуоресцентного красителя."@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "If additives can be added internally, complete"@en, "Wenn sich Additive intern zufügen lassen, vervollständige"@de, "Если добавки можно добавлять изнутри, заполните"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_1.1.3>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_1.1> ;
+    skos:example "Gas leak detection by soap spray from the outside onto a pipe."@en, "Gasleck-Detektion durch Seifenspray von außen auf ein Rohr."@de, "Обнаружение утечки газа с помощью мыльного спрея снаружи на трубу."@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "If additives can be added externally, complete it with"@en, "Wenn sich Additive extern zufügen lassen, vervollständige damit"@de, "Если добавки можно добавлять извне, дополните их словом"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_1.1.4>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_1.1> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze Ressourcen zur Vervollständigung"@de, "Use resources to complete"@en, "Использовать ресурсы для завершения"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_1.1.5>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_1.1> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Create more resources by changing the system environment"@en, "Erzeuge weitere Ressourcen durch Veränderung der Systemumgebung"@de, "Создавать больше ресурсов путем изменения системной среды"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_1.1.6>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_1.1> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze überschüssige Aktionen zur Vervollständigung und eliminiere den Überschuß"@de, "Use Excessive Action to Complete and Eliminate Excess"@en, "Использовать чрезмерное действие для завершения и устранения избыточного"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_1.1.7>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_1.1> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "If the excess action is harmful, try to redirect it to another component in the system"@en, "Ist die überschüssige Aktion schädlich, dann versuche sie auf eine andere Komponente im System zu lenken"@de, "Если избыточное действие вредно, попробуйте перенаправить его на другой компонент в системе"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_1.1.8>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_1.1> ;
+    skos:example "Glasampullen werden beim Zuschmelzen in einem Wasserbad von unten her gekühlt, um Überhitzung des thermisch empfindlichen Inhalts zu vermeiden."@de, "Glass ampoules are cooled from below when melted in a water bath to avoid overheating the thermally sensitive contents."@en, "Стеклянные ампулы охлаждают снизу при расплавлении на водяной бане, чтобы избежать перегрева термочувствительного содержимого."@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Führe zur Komplettierung lokal schützende Substanzen ein"@de, "Implement local protective substances for completion"@en, "Внедрить местные защитные вещества для завершения"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_1.2>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader :S_1 ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Dissecting Fabric Field Models"@en, "Zerlegung von Stoff-Feld-Modellen"@de, "Рассеяние полевых моделей ткани"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_1.2.1>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_1.2> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Eliminate Adverse Interactions by Introducing a Third Substance S3"@en, "Eliminiere schädliche Interaktionen durch Einführung eines dritten Stoffes S3"@de, "Устранить нежелательные взаимодействия путем введения третьего вещества S3"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_1.2.2>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_1.2> ;
+    skos:example "Die oberflächliche Zerstörung von Rümpfen bei Schnellbooten durch Kavitation des Wassers kann durch Kühlung des Rumpfes und Ausbildung einer Eisschicht vermieden werden."@de, "The superficial destruction of hulls in speedboats by cavitation of the water can be avoided by cooling the hull and forming a layer of ice."@en, "Поверхностного разрушения корпусов скоростных катеров путем кавитации воды можно избежать, охлаждая корпус и формируя слой льда."@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Eliminate harmful interactions by introducing a third substance S3, where S3 can be a modification of the two substances S1 and / or S2 present"@en, "Eliminiere schädliche Interaktionen durch Einführung eines dritten Stoffes S3, wobei S3 eine Modifikation der beiden vorhandenen Stoffe S1 und/oder S2 sein kann"@de, "Устранить вредные взаимодействия путем введения третьего вещества S3, где S3 может быть модификацией двух присутствующих веществ S1 и / или S2"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_1.2.3>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_1.2> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Lenke die schädliche Wirkung auf einen weniger wichtigen Stoff S3 z.B.: Wände von Behältern (S1), in denen Wasser (S2) gefriert, werden mit elastischen Materialien (S3) ausgekleidet, um die thermische Ausdehnung abzufangen und ein Beschädigen der Behälterwand auszuschließen."@de, "Reduce the harmful effect on a less important substance S3 eg: Walls of containers (S1) where water (S2) freezes lined with elastic materials (S3) to absorb the thermal expansion and to prevent damaging the container wall. "@en, "Уменьшить вредное воздействие на менее важное вещество S3, например: стены контейнеров (S1), где вода (S2) замерзает облицованы эластичными материалами (S3) для поглощения теплового расширения и предотвращения повреждения стенки контейнера. "@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_1.2.4>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_1.2> ;
+    skos:example "For pollination of flowers an air current is used, which unfortunately also causes the flowers to close, eliminating this negative effect by electrostatically charging the flowers which keeps them open. "@en, "Zur Bestäubung von Blumen wird eine Luftströmung eingesetzt, die leider auch zum Schließen der Blüten führt. Diesen negativen Effekt eliminiert man durch elektrostatische Aufladung der Blüten, wodurch sie offen bleiben."@de, "Для опыления цветов используется воздушный поток, который, к сожалению, также вызывает закрытие цветов, устраняя этот негативный эффект за счет электростатической зарядки цветов который держит их открытыми. "@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Führe ein neues Feld zur Kompensation schädlicher Effekte ein"@de, "Introduce a new field to compensate for harmful effects"@en, "Введите новое поле для компенсации вредных воздействий"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_1.2.5>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_1.2> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze die Möglichkeit, Magnetfelder ein- und ausschalten zu können"@de, "Take the opportunity to turn magnetic fields on and off"@en, "Воспользуйтесь возможностью включать и выключать магнитные поля"@ru .
+
+:S_2
+    a od:StandardSolution, skos:Concept ;
+    skos:broader :S_0 ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Enhancing Fabric Field Models"@en, "Verbesserung von Stoff-Feld-Modellen"@de, "Улучшение полевых моделей тканей"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.1>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader :S_2 ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Transitioning to More Complex Fabric Field Models"@en, "Übergang zu komplexeren Stoff-Feld-Modellen"@de, "Переход к более сложным моделям полевых структур"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.1.1>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_2.1> ;
+    skos:example "Hilti principle, drive beats on heavy intermediate chisel, this on the actual chisel, this on the rock to be smashed (= impulse transmission and Reinforcement over several stages). "@en, "Hilti-Prinzip, Antrieb schlägt auf schweren Zwischenmeißel, dieser auf den eigentlichen Meißel, dieser auf den zu zerschlagenden Fels (= Impuls-Übertragung und -Verstärkung über mehrere Stufen)."@de, "Принцип Hilti, приводные удары по тяжелому промежуточному долоту, это на фактическом долоте, это на скале, которая будет разбита (= импульсная передача и Армирование в несколько этапов). "@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Link Multiple Fabric Field Models"@en, "Verkette mehrere Stoff-Feld-Modelle"@de, "Связать несколько полевых моделей матрицы"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.1.2>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_2.1> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Double a Cloth-Field Model"@en, "Verdopple ein Stoff-Feld-Modell"@de, "Двойная модель поля ткани"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.2>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader :S_2 ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Further Development of a Substance Field Model"@en, "Weiterentwicklung eines Stoff-Feld-Modells"@de, "Дальнейшая разработка модели поля вещества"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.2.1>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_2.2> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Put in better taxable fields"@en, "Setze besser steuerbare Felder ein"@de, "Поместите в более облагаемые налогом поля"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.2.2>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_2.2> ;
+    skos:example "Knife - Knife with serration - Mirkowellenschliff - targeted roughened blade."@en, "Messer - Messer mit Zahnung - Mirkowellenschliff - gezielt angerauhte Klinge."@de, "Нож - нож с зазубринами - Mirkowellenschliff - направленный шероховатый клинок."@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Fragment S2"@en, "Fragmentiere S2"@de, "Фрагмент S2"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.2.3>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_2.2> ;
+    skos:example "Mehrere kleine Düsen dosieren Klebstoff präziser als eine große Öffnung."@de, "Several small nozzles dose glue more precisely than a large opening."@en, "Несколько маленьких насадок дозируют клей более точно, чем большое отверстие"@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Setze Kapillaren und poröse Stoffe ein"@de, "Use Capillaries and Porous Substances"@en, "Использование капилляров и пористых веществ"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.2.4>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_2.2> ;
+    skos:example "Dividing a door leaf into several flexibly connected segments, roller shutter, shutters."@en, "Unterteilen eines Türblattes in mehrere flexibel verbundene Segmente, Rolltor, Rolladen."@de, "Разделение полотна ворот на несколько гибко соединенных сегментов, рольставни, жалюзи."@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Erhöhe den Grad der Dynamik"@de, "Increase the degree of dynamism"@en, "Увеличить степень динамизма"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.2.5>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_2.2> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Structured Fields"@en, "Strukturierte Felder"@de, "Структурированные поля"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.2.6>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_2.2> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Structured fabrics"@en, "Strukturierte Stoffe"@de, "Структурированные ткани"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.3>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader :S_2 ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Rhythm Coordination"@en, "Rhythmus-Koordination"@de, "Координация ритма"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.3.1>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_2.3> ;
+    skos:example "Bei der Massage versucht man, den Rhythmus der äußeren Einwirkung mit dem Puls des Patienten in Übereinstimmung zu bringen.z. B.: Gezielte Asymmetrie in Getrieben verhindert laute Geräusche bzw. starke Eigenresonanz."@de, "During the massage, you try to match the rhythm of the external impact with the pulse of the patient, such as: targeted asymmetry in gears prevents loud noises or strong self-resonance. "@en, "Во время массажа вы пытаетесь согласовать ритм внешнего воздействия с пульсом пациента, например: целевая асимметрия в передачах предотвращает громкие шумы или сильный резонанс. "@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Bringe den Rhythmus (die Frequenz) des einwirkenden Feldes in Übereinstimmung (oder gezielte Nicht-Übereinstimmung mit einem der beiden Stoffe)"@de, "Match the rhythm (frequency) of the applied field (or deliberate non-conformity with either of the two substances)"@en, "Сопоставить ритм (частоту) прикладного поля (или преднамеренное несоответствие с любым из двух веществ)"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.3.2>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_2.3> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Synchronisiere den Rhythmus, die Frequenz von Feldern"@de, "Synchronize the rhythm, the frequency of fields"@en, "Синхронизировать ритм, частоту полей"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.3.3>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_2.3> ;
+    skos:example "Nutze die Pausen im Ablauf einer nützlichen Funktion, um eine andere Funktion auszuführen, beispielsweise eine Mess- oder Regelaktion."@de, "Use the pauses in a useful function to perform another function, such as a measurement or rule action."@en, "Используйте паузы в полезной функции для выполнения другой функции, такой как измерение или действие правила."@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Bring independent actions into rhythmic connection"@en, "Bringe unabhängige Aktionen in rhythmischen Zusammenhang"@de, "Ввести независимые действия в ритмическую связь"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.4>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader :S_2 ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Complex Enhanced Fabric Field Models"@en, "Komplex verbesserte Stoff-Feld-Modelle"@de, "Сложные усовершенствованные полевые модели матрицы"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.4.1>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_2.4> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze ferromagnetische Stoffe und Magnetfelder"@de, "Use ferromagnetic materials and magnetic fields"@en, "Использовать ферромагнитные материалы и магнитные поля"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.4.10>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_2.4> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Stimme die Rhythmen ab"@de, "Void the rhythms"@en, "Пустые ритмы"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.4.11>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_2.4> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze elektrische Felder"@de, "Use Electric Fields"@en, "Использовать электрические поля"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.4.12>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_2.4> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze Elektrorheologie"@de, "Use Electrorheology"@en, "Использовать электрореологию"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.4.2>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_2.4> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze ferromagnetische Partikel, Granulate, Pulver"@de, "Use ferromagnetic particles, granules, powders"@en, "Используйте ферромагнитные частицы, гранулы, порошки"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.4.3>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_2.4> ;
+    skos:example "Ferromagnetic particles suspended in water, kerosene, etc."@en, "Ferromagnetische Partikel, die in Wasser, Kerosion etc. suspendiert sind."@de, "Ферромагнитные частицы, взвешенные в воде, керосине и т. д."@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze ferromagnetische Flüssigkeiten"@de, "Use ferromagnetic fluids"@en, "Использовать ферромагнитные жидкости"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.4.4>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_2.4> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze Kapillar-Strukturen in Zusammensetzung mit Ferromagnetismus"@de, "Use Capillary Structures in Composition with Ferromagnetism"@en, "Использование капиллярных структур в сочетании с ферромагнетизмом"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.4.5>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_2.4> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze komplexe ferromagnetische SFM, beispielsweise externe Magnetfelder, ferromagnetische Additive etc."@de, "Use complex ferromagnetic SFMs, such as external magnetic fields, ferromagnetic additives, etc."@en, "Используйте сложные ферромагнитные SFM, такие как внешние магнитные поля, ферромагнитные добавки и т. д."@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.4.6>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_2.4> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Führe Ferromagnetismus in das Systemumfeld ein und nutze daraus resultierende Effekte."@de, "Introduce ferromagnetism into the system environment and exploit the resulting effects."@en, "Внедрить ферромагнетизм в системную среду и использовать полученные эффекты"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.4.7>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_2.4> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Improve the controllability of ferromagnetic systems by using the effects database"@en, "Verbessere die Kontrollierbarkeit ferromagnetischer Systeme durch Nutzen der Effekte-Datenbank"@de, "Улучшить управляемость ферромагнитных систем с помощью базы данных эффектов"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.4.8>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_2.4> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Erhöhe den Grad an Dynamik in einem komplexen Stoff-Feld-Modell"@de, "Increase the level of dynamics in a complex fabric-field model"@en, "Повышение уровня динамики в сложной модели поля ткани"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_2.4.9>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_2.4> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Structure and Subdivide Fields and Substances into Complex Fabric Field Models"@en, "Strukturiere und unterteile Felder und Stoffe in komplexe Stoff-Feld-Modelle"@de, "Структурировать и подразделять поля и вещества на сложные полевые модели тканей"@ru .
+
+:S_3
+    a od:StandardSolution, skos:Concept ;
+    skos:broader :S_0 ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Transition to Super and Subsystem (Macro and Microlevel)"@en, "Übergang ins Super- und Subsystem (Makro- und Mikrolevel)"@de, "Переход на супер и подсистему (макро- и микроуровень)"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_3.1>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader :S_3 ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Transition to Bi- and Poly-Systems"@en, "Übergang zu Bi- und Poly-Systemen"@de, "Переход на би- и поли-системы"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_3.1.1>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_3.1> ;
+    skos:example "To process the edges of thin glass plates, several plates are stacked together to form a stable stack."@en, "Um die Kanten dünner Glasplatten zu bearbeiten, werden mehrere Platten übereinander zu einem stabilen Stapel zusammengefügt."@de, "Для обработки краев тонких стеклянных пластин несколько пластин складываются вместе, образуя устойчивую стопку."@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Combine Systems with Bi- and Poly Systems"@en, "Kombiniere Systeme zu Bi- und Poly-Systemen"@de, "Объединение систем с двух- и поли-системами"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_3.1.2>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_3.1.2> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Create or intensify the links between the individual elements in bi and poly systems"@en, "Schaffe oder intensiviere die Verbindungen zwischen den Einzelelementen in Bi- und Poly-Systemen"@de, "Создание или усиление связей между отдельными элементами в двух- и поли-системах"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_3.1.3>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_3.1> ;
+    skos:example "Similar components (individual pencils of different colors) are enhanced into different components (a set of drawing instruments) and eventually become combinations of conflicting functions (pencil with eraser). "@en, "Ähnliche Komponenten (einzelne Bleistifte verschiedener Farben) werden verbessert zu verschiedenen Komponenten (ein Satz an Zeicheninstrumenten) und werden schließlich zu Kombinationen gegensätzlicher Funktionen (Bleistift mit Radierer)."@de, "Подобные компоненты (отдельные карандаши разных цветов) превращаются в разные компоненты (набор инструментов для рисования) и в конечном итоге становятся комбинациями конфликтующих функций (карандаш с ластиком). "@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Improve the Efficiency of Bi- and Poly Systems by Increasing the Distinction of Individual Components"@en, "Verbessere die Effizienz von Bi- und Poly-Systemen durch Vergrößerung des Unterschiedes einzelner Komponenten"@de, "Повышение эффективности би- и поли-систем путем увеличения различий отдельных компонентов"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_3.1.4>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_3.1> ;
+    skos:example "Many devices today only have one LED, which indicates green ON, and red off means OFF, in the past two lights were needed for this information."@en, "Viele Geräte besitzen heutzutage nur noch ein LED, das grünleuchtend EIN anzeigt und rotleuchtend AUS bedeutet, früher waren zwei Lämpchen für diese Information notwendig."@de, "На многих устройствах в настоящее время имеется только один светодиод, который указывает на зеленый свет, а красный на выключенный означает выключение, в прошлых двух источниках для этой информации требовалось"@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Simplifying Bi and Poly Systems by Eliminating Superfluous, Redundant or Similar Components"@en, "Vereinfache Bi- und Poly-Systeme durch Elimination überflüssiger, redundanter oder ähnlicher Komponenten"@de, "Упрощение двух- и полисистем за счет устранения избыточных, избыточных или аналогичных компонентов"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_3.1.5>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_3.1> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Improve the Efficiency of Bi- and Poly Systems by Distributing Disruptive or Harmful Effects on Different Components"@en, "Verbessere die Effizienz von Bi- und Poly-Systemen durch Verteilen sich behindernder oder schädlicher Effekte auf verschiedene Komponenten"@de, "Повышение эффективности двух- и поли-систем путем распределения разрушительного или вредного воздействия на различные компоненты"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_3.2>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader :S_3 ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Transition to Microsystems"@en, "Übergang zu Mikro-Systemen"@de, "Переход на микросистемы"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_3.2.1>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_3.2> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Miniaturisiere Komponenten oder ganze Systeme"@de, "Miniaturize components or whole systems"@en, "Миниатюризация компонентов или целых систем"@ru .
+
+:S_4
+    a od:StandardSolution, skos:Concept ;
+    skos:broader :S_0 ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Erkennen und Messen"@de, "Recognize and Measure"@en, "Распознать и измерить"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_4.1>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader :S_4 ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Indirect Methods"@en, "Indirekte Methoden"@de, "Косвенные методы"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_4.1.1>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_4.1> ;
+    skos:example "To protect an electric motor from overheating, a temperature sensor must measure the temperature and initiate actions, and make the poles of the engine from an alloy Curie point just at the temperature where the overheating begins, then the engine stops by itself. "@en, "Um einen Elektromotor vor Überhitzung zu schützen, muß ein Temperatursensor die Temperatur messen und Aktionen initiieren. Fertigt man die Pole des Motors aus einer Legierung mit Curie-Punkt genau bei der Temperatur, wo die Überhitzung beginnt, dann stoppt sich der Motor von selbst."@de, "Чтобы защитить электродвигатель от перегрева, датчик температуры должен измерять температуру и инициировать действия, а также изготавливать опоры двигателя из сплава. Кюри указывает только на температуру, где начинается перегрев, а затем двигатель останавливается сам по себе. "@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Learn Detect and Measure"@en, "Umgehe Erkennen und Messen"@de, "Учиться обнаруживать и измерять"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_4.1.2>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_4.1> ;
+    skos:example "Measuring snakes lengthwise is dangerous, but better with a true-to-scale photo of the snake."@en, "Schlangen der Länge nach zu vermessen ist gefährlich. Besser geht das mit einem maßstabsgerechten Foto der Schlange."@de, "Измерять змей по длине опасно, но лучше с реалистичной фотографией змеи."@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Führe Erkennen und Messen an einer Kopie aus"@de, "Perform Cognition and Measurement on a Copy"@en, "Выполнять распознавание и измерение на копии"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_4.1.3>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_4.1> ;
+    skos:example "To measure temperature, you can use thermochromic substances that have a different color depending on the temperature, but are only interested in exceeding a temperature limit, then only two distinct color states are the more efficient way. "@en, "Um Temperatur zu messen, kann man thermochrome Substanzen einsetzen, die je nach Temperatur eine andere Farbe haben. Interessiert jedoch nur das Überschreiten einer Temperaturgrenze, dann sind ausschließlich zwei sicher unterscheidbare Farbzustände der effizientere Weg."@de, "Для измерения температуры можно использовать термохромные вещества, которые имеют разные цвета в зависимости от температуры, но заинтересованы только в превышении температурного предела, тогда только два различных цветовых состояния являются более эффективным способом. "@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Ersetze Messen durch zwei aufeinanderfolgende Erkennungsvorgänge"@de, "Replace measurement with two consecutive detection processes"@en, "Заменить измерение двумя последовательными процессами обнаружения"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_4.2>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader :S_4 ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Aufbau von Mess-Stoff-Feld-Modellen"@de, "Building Measured Substance Field Models"@en, "Создание полевых моделей измеряемых веществ"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_4.2.1>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_4.2> ;
+    skos:example "To detect the boiling of water, an electrical current is passed through it, and as it begins to boil, vapor formation increases electrical resistance significantly."@en, "Um das Kochen von Wasser zu detektieren, wird ein elektrischer Strom hindurchgeleitet. Bei beginnendem Sieden steigt durch die Dampfblasenbildung der elektrische Widerstand deutlich an."@de, "Чтобы обнаружить кипение воды, через нее пропускают электрический ток, и, когда он начинает кипеть, образование пара значительно увеличивает электрическое сопротивление"@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Detect or measure by means of an additional field"@en, "Detektiere oder messe mittels eines zusätzlichen Feldes"@de, "Обнаружение или измерение с помощью дополнительного поля"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_4.2.2>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_4.2> ;
+    skos:example "To detect a leak in the refrigeration circuit of a refrigerator, a luminescent dye is added to the refrigerant."@en, "Um ein Leck im Kühlkreislauf eines Kühlschrankes zu entdecken, wird dem Kühlmittel ein Lumineszenz-Farbstoff zugemischt."@de, "Чтобы обнаружить утечку в контуре охлаждения холодильника, в хладагент добавляется люминесцентный краситель."@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Add easily detectable or measurable additives or substances"@en, "Füge einfach zu detektierende oder zu messende Additive oder Stoffe hinzu"@de, "Добавить легко обнаружимые или измеримые добавки или вещества"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_4.2.3>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_4.2> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Füge einfach zu detektierende oder zu messende Felder in die Systemumgebung hinzu"@de, "Simply add fields to be detected or measured to the system environment"@en, "Просто добавьте поля, которые будут обнаружены или измерены в системной среде"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_4.2.4>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_4.2> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Add easily detectable or measurable additives or substances into the system environment"@en, "Füge einfach zu detektierende oder zu messende Additive oder Stoffe in die Systemumgebung hinzu"@de, "Добавить легко обнаруживаемые или измеримые добавки или вещества в системную среду"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_4.3>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader :S_4 ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Improving Measurement Systems"@en, "Verbesserung von Mess-Systemen"@de, "Совершенствование измерительных систем"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_4.3.1>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_4.3> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze die Effekte-Datenbank zur Verbesserung von Mess-Systemen"@de, "Use the Effects Database to Improve Measurement Systems"@en, "Использовать базу данных эффектов для улучшения измерительных систем"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_4.3.2>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_4.3> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze Resonanzphänomene zur Messung z.B.: Um die Masse eines Festkörpers in einem geschlossen Behälter zu ermitteln, werden mechanische Schwingungen angeregt, deren Frequenz von der Masse abhängt."@de, "Use resonance phenomena to measure, for example: To determine the mass of a solid in a closed container, mechanical vibrations are excited, their frequency from the mass depends. "@en, "Используйте резонансные явления для измерения, например: для определения массы твердого тела в закрытом контейнере возбуждаются механические колебания, их частота зависит от массы зависит. "@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_4.3.3>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_4.3> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze Resonanzphänomene verknüpfter Objekte zur (indirekten) Messung"@de, "Use resonant phenomena of linked objects for (indirect) measurement"@en, "Использование резонансных явлений связанных объектов для (косвенного) измерения"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_4.4>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader :S_4 ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Transition to Ferromagnetic Measurement Systems"@en, "Übergang zu ferromagnetischen Mess-Systemen"@de, "Переход к ферромагнитным измерительным системам"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_4.4.1>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_4.4> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Setze ferromagnetische Stoffe und Magnetfelder ein"@de, "Use ferromagnetic materials and magnetic fields"@en, "Использовать ферромагнитные материалы и магнитные поля"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_4.4.2>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_4.4> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Ersetze Stoffe durch ferromagnetische Stoffe und detektiere oder messe via Magnetfeld"@de, "Substitute substances through ferromagnetic materials and detect or measure via magnetic field"@en, "Заменить вещества с помощью ферромагнитных материалов и обнаружить или измерить с помощью магнитного поля"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_4.4.3>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_4.4> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Create Complex, Linked Fibrous-Field Models with Ferromagnetic Components"@en, "Erzeuge komplexe, verknüpfte Stoff-Feld-Modelle mit ferromagnetischen Bestandteilen"@de, "Создание сложных моделей связанных волокнистых полей с ферромагнитными компонентами"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_4.4.4>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_4.4> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Führe ferromagnetische Materialien in die Systemumgebung ein"@de, "Introduce ferromagnetic materials into the system environment"@en, "Вводить ферромагнитные материалы в среду системы"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_4.4.5>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_4.4> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze die Effekte-Datenbank (Curie-Punkt, Hopkins- und Barkhausen-Effekt), magnetoelastische Effekte, etc.)."@de, "Use the effects database (Curie point, Hopkins and Barkhausen effect), magnetoelastic effects, etc.)."@en, "Используйте базу данных эффектов (точка Кюри, эффект Хопкинса и Баркгаузена), магнитоупругие эффекты и т. д.)."@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_4.5>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader :S_4 ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Evolution of Recognize and Measure"@en, "Evolution von Erkenn und Messen"@de, "Эволюция распознавания и измерения"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_4.5.1>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_4.5> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Create Bi and Poly Systems"@en, "Erzeuge Bi- und Poly-Systeme"@de, "Создание би и поли систем"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_4.5.2>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_4.5> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Erkenne und messe die (mathematische) Ableitung anstatt der Originalfunktion"@de, "Recognize and measure the (mathematical) derivative instead of the original function"@en, "Распознавать и измерять (математическую) производную вместо исходной функции"@ru .
+
+:S_5
+    a od:StandardSolution, skos:Concept ;
+    skos:broader :S_0 ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Help"@en, "Hilfen"@de, "Помощь"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_5.1>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader :S_5 ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Einführen von Stoffen"@de, "Introducing fabrics"@en, "Представляем ткани"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_5.1.1>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_5.1> ;
+    skos:example "Führe Leerräume oder Hohlräume als Stoff ein, benutze hochaktive Additive in kleinen Mengen oder nur lokal, erzeuge den benötigten Stoff erst bei Bedarf (\"in situ\", beispielsweise durch Elektrolyse, Katalyse, ....)."@de, "Introduce voids or voids as a substance, use highly active additives in small amounts or only locally, do not produce the required substance until needed (in situ, for example by electrolysis, catalysis, ....). "@en, "Вводить пустоты или пустоты в качестве вещества, использовать высокоактивные добавки в небольших количествах или только локально, не производить необходимое вещество до тех пор, пока оно не потребуется (на месте, например, электролизом, катализом, ....). "@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Indirect Methods"@en, "Indirekte Methoden"@de, "Косвенные методы"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_5.1.2>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_5.1> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Parts of fabrics, use fragments"@en, "Zerteile Stoffe, nutze Fragmente"@de, "Части тканей, используйте фрагменты"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_5.1.3>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_5.1> ;
+    skos:example "Der temporär eingeführte Stoff erfällt nach erfolgreicher Aktion oder wird chemisch zersetzt."@de, "The temporarily introduced substance will fail after a successful action or will be chemically decomposed."@en, "Временно введенное вещество выйдет из строя после успешного действия или будет химически разложено."@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze die Selbstelimination von Stoffen"@de, "Use self-elimination of substances"@en, "Используйте самоликвидацию веществ"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_5.1.4>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_5.1> ;
+    skos:example "By using foams, it is possible to meet both demands for low mass and high volume of material (volume) (voids in excess)."@en, "Lässt sich durch Nutzung von Schaumstoffen beiden Forderungen nach wenig Masse und viel Stoffmenge (Volumen) Rechnung tragen (Hohlräume im Überschuss)."@de, "Используя пенопласт, можно удовлетворить как потребности в малой массе и большом объеме материала (объем) (пустоты в избытке)."@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze Stoffe im Überschuss"@de, "Use substances in excess"@en, "Используйте вещества в избытке"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_5.2>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader :S_5 ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Einführung von Feldern"@de, "Introduction of Fields"@en, "Введение полей"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_5.2.1>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_5.2> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze im Sinne von Ressourcen alle vorhandenen Felder"@de, "Utilize all existing fields in the sense of resources"@en, "Использовать все существующие поля в смысле ресурсов."@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_5.2.2>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_5.2> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze Felder aus der Systemumgebung"@de, "Use Fields from System Environment"@en, "Использовать поля из системного окружения"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_5.2.3>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_5.2> ;
+    skos:example "magnetic materials."@en, "magnetische Stoffe."@de, "магнитные материалы"@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze felderzeugende Stoffe"@de, "Use field-generating substances"@en, "Использовать вещества, генерирующие поле"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_5.3>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader :S_5 ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Phase transitions"@en, "Phasenübergänge"@de, "Фазовые переходы"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_5.3.1>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_5.3> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Change the state of matter or the phase of substances"@en, "Verändere den Aggregatzustand oder die Phase von Stoffen"@de, "Изменение состояния вещества или фазы веществ"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_5.3.2>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_5.3> ;
+    skos:example "Wasser und Eis zusammen fixieren die Temperatur auf genau 0° Celsius."@de, "Water and ice together fix the temperature at exactly 0 ° Celsius."@en, "Вода и лед вместе устанавливают температуру ровно 0 ° по Цельсию."@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze zwei Aggregatzustände oder Phasen eines Stoffes"@de, "Use two states of matter or phases of a substance"@en, "Использовать два состояния вещества или фазы вещества"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_5.3.3>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_5.3> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze die einen Phasenübergang begleitenden physikalischen Effekte z.B.: Verdunstungskälte."@de, "Use the physical effects accompanying a phase transition, such as evaporative coldness."@en, "Используйте физические эффекты, сопровождающие фазовый переход, такие как испарительный холод"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_5.3.4>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_5.3> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze Effekte, die aus dem gleichzeitigen Vorliegen zweier Phasen resultieren"@de, "Use effects that result from the simultaneous presence of two phases"@en, "Использовать эффекты, возникающие в результате одновременного присутствия двух фаз"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_5.3.5>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_5.3> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Improving the interaction between two phases"@en, "Verbessere die Interaktion zwischen zwei Phasen"@de, "Улучшение взаимодействия между двумя фазами"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_5.4>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader :S_5 ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Einsatz der Effekte-Datenbank"@de, "Using the Effects Database"@en, "Использование базы данных эффектов"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_5.4.1>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_5.4> ;
+    skos:example "Phase transitions, dissociation and association, ionization and recombination."@en, "Phasenübergänge, Dissoziation und Assoziation, Ionisation und Rekombination."@de, "Фазовые переходы, диссоциация и ассоциация, ионизация и рекомбинация."@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze eigengesteuerte reversible physikalische Transformationen"@de, "Use self-directed reversible physical transformations"@en, "Использовать самонаправленные обратимые физические преобразования"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_5.4.2>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_5.4> ;
+    skos:example "Catalysts, enzymes."@en, "Katalysatoren, Enzyme."@de, "Катализаторы, ферменты"@ru ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Nutze Speicher- und Verstärkungseffekte"@de, "Use storage and reinforcement effects"@en, "Использовать эффекты хранения и усиления"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_5.5>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader :S_5 ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Cloth particles"@en, "Stoffpartikel"@de, "Частицы ткани"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_5.5.1>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_5.5> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Erzeuge Stoffpartikel (z. B. Ionen) durch Zerlegung eines höher organisierten Stoffes (z. B. Moleküle)."@de, "Produce material particles (eg ions) by decomposing a more highly organized substance (eg molecules)."@en, "Производите материальные частицы (например, ионы), разлагая более высокоорганизованное вещество (например, молекулы)."@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_5.5.2>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_5.5> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Create material particles (eg atoms) by combining lower organized substances (eg elementary particles)"@en, "Erzeuge Stoffpartikel (z. B. Atome) durch Kombination niedriger organisierter Stoffe (z. B. Elementarteilchen)"@de, "Создайте материальные частицы (например, атомы) путем объединения низкоорганизованных веществ (например, элементарных частиц)"@ru .
+
+<http://opendiscovery.org/rdf/Standard/S_5.5.3>
+    a od:StandardSolution, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/Standard/S_5.5> ;
+    skos:inScheme :theTRIZStandards ;
+    skos:prefLabel "Setze beim Zerlegen oder Kombinieren von Stoffpartikeln einen vom Unterteilungsgrad her ähnlichen Stoff ein (\"kleine Schritte tun\")"@de, "When cutting or combining fabric particles, use a similar level of subdivision «do small steps»"@en, "При разрезании или комбинировании частиц ткани используйте аналогичный уровень подразделения («делайте маленькие шаги»)"@ru .
+
+:theTRIZStandards
+    a skos:ConceptScheme ;
+    skos:prefLabel "The 76 TRIZ Standards"@de .
 
