@@ -13,8 +13,8 @@
    cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
    cc:attributionURL <http://opendiscovery.org> ;
    cc:attributionName "The Open Discovery Project" ;
-   rdfs:label "Open Discovery Bibliographical Data" ;
-   rdfs:comment "Bibliography of the Open Discovery Project" .
+   rdfs:label "TRIZ People" ;
+   rdfs:comment "Collection of TRIZ People for the Bibliography of the Open Discovery Project" .
 
 odp:Petrov_VM a foaf:Person ;
    foaf:name "Vladimir Michailovich Petrov"@en ;
