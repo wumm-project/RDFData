@@ -73,7 +73,7 @@
     a od:GlossaryEntry, skos:Concept ;
     skos:definition "Situation, in der zwei konträre Anforderungen an ein System erfüllt werden müssen."@de, "Situation at which two contrary demands to a system have to be met."@en, "Ситуация, когда необходимо выполнить два противоположных требования к системе."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:note "TRIZ assumes that inventory problems use to be caused by contradictions. TRIZ knows three types of contradictions: <ul><li>administrative</li> <li>engineering</li> <li>physical</li></ul>"@en, "TRIZ geht davon aus, dass erfinderische Probleme in der Regel auf Widersprüche zurückgehen. TRIZ kennt drei Typen von Widersprüchen: <ul> <li>administrative</li> <li>technische</li> <li>physikalische</li></ul> "@de, "ТРИЗ предполагает, что изобретательские задачи возникают из-за противоречий. ТРИЗ знает три типа противоречий: <ul> <li> административные </li> <li> технические </li> <li> физические </li> </ul> "@ru 
+    skos:note "TRIZ assumes that inventory problems use to be caused by contradictions. TRIZ knows three types of contradictions: <ul><li>administrative</li> <li>engineering</li> <li>physical</li></ul>"@en, "TRIZ geht davon aus, dass erfinderische Probleme in der Regel auf Widersprüche zurückgehen. TRIZ kennt drei Typen von Widersprüchen: <ul> <li>administrative</li> <li>technische</li> <li>physikalische</li></ul> "@de, "ТРИЗ предполагает, что изобретательские задачи возникают из-за противоречий. ТРИЗ знает три типа противоречий: <ul> <li> административные </li> <li> технические </li> <li> физические </li> </ul> "@ru ;
     skos:prefLabel "Widerspruch"@de, "contradiction"@en, "противоречие"@ru .
 
 :contradiction_matrix

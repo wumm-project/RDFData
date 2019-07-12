@@ -24,6 +24,8 @@
     dcterms:abstract "- The author’s experience in using various TRIZ tools in IT companies is outlined. <br/> - Traditional TRIZ tools adapted for information technology are outlined. <br/> - Most from the materials are described in different books of the author. "@en, "- Излагается опыт автора в использовании различных инструментов ТРИЗ в компаниях ИТ.<br/>- Излагаются традиционные и адаптированные под информационные технологии инструменты ТРИЗ.<br/>- Большинство из метериалов изложены в разных книгах автора."@ru ;
     dcterms:creator odp:Petrov_VM ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/519> ;
+    od:urlPaper <http://triz-summit.ru/file.php/id/f304863-file-original.pdf> ;
+    od:urlPaper <http://triz-summit.ru/file.php/id/f304862-file-original.pdf> ;
     dcterms:title "Using TRIZ tools in IT"@en, "Использование инструментов ТРИЗ в IT"@ru ;
     a od:Talk .
 
@@ -32,6 +34,7 @@
     dcterms:abstract "We will get acquainted with the approach to solving inventive problems developed during the Samsung Advanced Institute of Technology. Taking into account the experience of practical consulting, an algorithm for correcting problem situations has been developed and repeatedly tested which turned out to be very effective for solving real problems of the company. The report will show the analysis of the problems solved for the SAMSUNG Group. "@en, "Мы познакомимся с подходом к решению изобретательских заадч, выработанном за время работы на Samsung Advanced Institute of Technology. С учетом опыта практического консалтинга был разработан и многократно проверен алгоритм исправления проблемных ситуаций, оказавшийся весьма эффективным именно для решения реальных задач компании. В докладе будут показаны разборы задач, решенных для SAMSUNG Group."@ru ;
     dcterms:creator odp:Shpakovskij_N ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/520> ;
+    od:urlVideo <https://www.youtube.com/watch?v=QtPhiRp8sk8> ;
     dcterms:title "OTSM-TRIZ approach to solving inventive problems. SAMSUNG SAIT experience"@en, "Подход ОТСМ-ТРИЗ к решению изобретательских задач. Опыт SAMSUNG SAIT"@ru ;
     a od:Talk .
 
@@ -40,6 +43,7 @@
     dcterms:abstract "The mechanisms for saturation of technical systems with information will be presented. These mechanisms are universal and will manifest themselves in both hardware systems and software. During the master class there will be shown how practically apply these mechanisms to improve systems. "@en, "Будут представлены механизмы насыщения технических систем информацией. Эти механизмы - универсальны и проявляются как в \"железячных\" системах, так и в программном обеспечении. Во время мастер класса будет показано, как практически применять эти механизмы для совершенствания систем."@ru ;
     dcterms:creator odp:Devojno_I ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/521> ;
+    od:urlPaper <http://triz-summit.ru/file.php/id/f304811-file-original.pdf> ;
     dcterms:title "Informatization of technical systems"@en, "Информатизация технических систем"@ru ;
     a od:Talk .
 
@@ -99,6 +103,7 @@
     swc:relatedToEvent track:PT ;
     dcterms:creator odp:Sushkov_V ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/529> ;
+    od:urlPaper <http://triz-summit.ru/file.php/id/f304798-file-original.pdf> ;
     dcterms:title "TRIZ for business and management: the current state"@en, "ТРИЗ для бизнеса и управления: современное состояние"@ru ;
     a od:Talk .
 
@@ -123,6 +128,7 @@
     dcterms:abstract "The system of assessment and improvement of the level of assimilation of TRIZ tools \"IKAR and DEDAL\" is intended for self-evaluation of specialists of their level of TRIZ knowledge, provides objective information about the qualification of a TRIZ specialist and recommendations to raise it. The report presents the components of the system, in particular, the classification of TRIZ tools, the register of issued certificates, the methodology for assessing the level of knowledge of TRIZ. The system involves certification in the following areas: engineering, business, information technology, aktika (teachers), juniors. Will be presented the development of a referral system «IKAR and DEDAL» "@en, "Система оценки и повышения уровня усвоения инструментов ТРИЗ «ИКАР и ДЕДАЛ» предназначена для самооценки специалистов их уровня знаний по ТРИЗ, предоставляет объективную информацию о квалификации специалиста в области ТРИЗ и рекомендации по ее повышению. В докладе будут представлены составляющие системы, в частности, классификация инструментов ТРИЗ, реестр выданных сертификатов, методика оценки уровня знания по ТРИЗ. Система предполагает сертификацию по направлениям: техника, бизнес, информационные технологии, дидактика (преподаватели), юниоры. Будут представлены направления развития системы «ИКАР и ДЕДАЛ»"@ru ;
     dcterms:creator odp:Gerasimov_O, odp:Rubin_M ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/574> ;
+    od:urlPaper <http://triz-summit.ru/file.php/id/f304861-file-original.pdf> ;
     dcterms:title "On the development of a system for evaluating and improving the level of assimilation of TRIZ“ ICAR and DEDAL ”tools"@en, "О развитии системы оценки и повышения уровня усвоения инструментов ТРИЗ «ИКАР и ДЕДАЛ»"@ru ;
     a od:Talk .
 
@@ -311,10 +317,11 @@
     a od:Talk .
 
 :Talk_606
-    swc:relatedToEvent track:Business ;
+    swc:relatedToEvent track:PT ;
     dcterms:abstract "In most cases, customers do not want to own products, but rather are trying to get jobs done. This universal phenomenon means that nearly every industry is embarking on a shift from product to service. Currently service innovation is done predominantly by trial and error. This presentation will exhibit the new SI toolkit designed specifically for the service sector, and will describe a number of real-life case studies from leading-edge service enterprises in the tourism, automotive, aerospace and ICT sectors."@en ;
     dcterms:creator odp:Mann_D ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/606> ;
+    od:urlPaper <http://triz-summit.ru/file.php/id/f304797-file-original.pdf> ;
     dcterms:title "System innovations in the service"@en, "Системные инновации в сервисе"@ru ;
     a od:Talk .
 
@@ -510,13 +517,13 @@ track:PT
 :Talk_1001
     dcterms:creator odp:Mann_D ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304816-file-original.pdf> ; 
-    dcterms:title "COBRA+: A Systematic (Service) Innovation Process" ;
-    dcterms:abstract "Additional material, not presented at the conference" ;  
+    dcterms:title "COBRA+: A Systematic (Service) Innovation Process"@en ;
+    dcterms:abstract "Additional material, not presented at the conference"@en ;  
     a od:Talk .
 
 :Talk_1002
     dcterms:creator odp:Khorenyan_R, odp:Koblents_P, odp:Falkov_D, odp:Martsinovskii_G ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304818-file-original.pdf> ;
-    dcterms:title "Solving non-digital problems for digital transformation" ;
-    dcterms:abstract "Additional material, not presented at the conference" ;  
+    dcterms:title "Solving non-digital problems for digital transformation"@en ;
+    dcterms:abstract "Additional material, not presented at the conference"@en ;  
     a od:Talk .
