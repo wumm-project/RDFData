@@ -43,7 +43,6 @@
     dcterms:abstract "The mechanisms for saturation of technical systems with information will be presented. These mechanisms are universal and will manifest themselves in both hardware systems and software. During the master class there will be shown how practically apply these mechanisms to improve systems. "@en, "Будут представлены механизмы насыщения технических систем информацией. Эти механизмы - универсальны и проявляются как в \"железячных\" системах, так и в программном обеспечении. Во время мастер класса будет показано, как практически применять эти механизмы для совершенствания систем."@ru ;
     dcterms:creator odp:Devojno_I ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/521> ;
-    od:urlPaper <http://triz-summit.ru/file.php/id/f304811-file-original.pdf> ;
     dcterms:title "Informatization of technical systems"@en, "Информатизация технических систем"@ru ;
     a od:Talk .
 
@@ -61,7 +60,6 @@
     dcterms:abstract "Why TRIZ can be successfully applied to solving business and management problems. Categories of business innovation. Basic TRIZ tools that are used to solve business and management problems."@en, "Почему ТРИЗ можно успешно применять к решению проблем бизнеса и управления. Категории бизнес-инноваций. Основные инструменты ТРИЗ, которые применяются для решения проблем бизнеса и управления."@ru ;
     dcterms:creator odp:Sushkov_V ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/523> ;
-    od:urlPaper <http://triz-summit.ru/file.php/id/f304798-file-original.pdf> ;
     dcterms:title "TRIZ for solving business problems and innovations in business and management"@en, "ТРИЗ для решения бизнес проблем и инноваций в бизнесе и управлении"@ru ;
     a od:Talk .
 
@@ -234,7 +232,6 @@
     dcterms:abstract "Authors V. Petrov, P. Amnuel. Master class and report. <br/> The book deals with situations in which Alice from Carroll's fairy tales falls from the point of view of TRIZ explanations that are given by the boy from the future Alik, who accompanies Alice in all her adventures. <br/> The report explains how to use this book more efficiently. The book consists of three parts: <br/> 1. The main book \"book for children \". <br/> 2. A notebook for recording children's decisions. <br/> 3. A book for parents and teachers."@en, "Авторы В. Петров, П. Амнуэль. Мастер класс и доклад.<br/>В книге разбираются ситуации, в которые попадает Алиса из сказок Кэрролла с точки зрения ТРИЗ. Пояснения дает мальчик из будущего Алик, который сопровождает Алису во всех ее приключения.<br/>В докладе поясняется, как эффективнее использовать эту книгу. Книга состоит из трех частей:<br/>1. Основная книга \"книга для детей\".<br/>2. Тетрадь для записей решений детей.<br/>3. Книга для родителей и педагогов."@ru ;
     dcterms:creator odp:Amnuel_P, odp:Petrov_VM ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/586> ;
-    od:urlPaper <http://triz-summit.ru/file.php/id/f304840-file-original.pdf> ;
     dcterms:title "Teaching children of TRIZ based on the book \"Alice and Alik's Adventures\""@en, "Обучение детей ТРИЗ по книге \"Приключение Алисы и Алика\""@ru ;
     a od:Talk .
 
@@ -321,7 +318,6 @@
     dcterms:abstract "In most cases, customers do not want to own products, but rather are trying to get jobs done. This universal phenomenon means that nearly every industry is embarking on a shift from product to service. Currently service innovation is done predominantly by trial and error. This presentation will exhibit the new SI toolkit designed specifically for the service sector, and will describe a number of real-life case studies from leading-edge service enterprises in the tourism, automotive, aerospace and ICT sectors."@en ;
     dcterms:creator odp:Mann_D ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/606> ;
-    od:urlPaper <http://triz-summit.ru/file.php/id/f304797-file-original.pdf> ;
     dcterms:title "System innovations in the service"@en, "Системные инновации в сервисе"@ru ;
     a od:Talk .
 
