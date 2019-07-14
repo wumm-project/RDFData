@@ -37,6 +37,11 @@ odp:Arutyunova_E
     a foaf:Person ;
     foaf:name "Ekaterina Arutyunova" .
 
+odp:Bakhturin_D
+    a foaf:Person ;
+    foaf:homepage <https://www.facebook.com/dmitriy.bakhturin> ;
+    foaf:name "Dmitri Bakhturin" .
+
 odp:Bezdel_Z
     a foaf:Person ;
     foaf:affil "IPMA, Менеджер проектов"@ru ;
@@ -70,7 +75,7 @@ odp:Chuang_CT
 odp:Curikov_V
     a foaf:Person ;
     foaf:affil "True Machina, Главный архитектор интеллектульных систем"@ru ;
-    foaf:name "Valerij Curikov" .
+    foaf:name "Valerij Tsourikov" .
 
 odp:Devojno_I
     a foaf:Person ;

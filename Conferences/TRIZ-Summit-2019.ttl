@@ -35,6 +35,7 @@
     dcterms:creator odp:Shpakovskij_N ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/520> ;
     od:urlVideo <https://www.youtube.com/watch?v=QtPhiRp8sk8> ;
+    od:urlSlides <http://wumm.uni-leipzig.de/Presentations/Shpakovskij-20190713b.pdf> ;
     dcterms:title "OTSM-TRIZ approach to solving inventive problems. SAMSUNG SAIT experience"@en, "Подход ОТСМ-ТРИЗ к решению изобретательских задач. Опыт SAMSUNG SAIT"@ru ;
     a od:Talk .
 
