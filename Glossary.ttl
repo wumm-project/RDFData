@@ -140,91 +140,91 @@
 
 :ideal_final_result
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "Modell der besten Lösung eines Inventarproblems"@de, "model of the best solution of an inventory problem"@en, "модель наилучшего решения проблемы инвентаризации"@ru ;
+    skos:definition "Modell der besten Lösung eines erfinderischen Problems"@de, "Model of the best solution of an inventory problem"@en, "Модель наилучшего решения изобретательской проблемы"@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:note "Das ideale Endergebnis löst das Problem vollständig mit minimalen Änderungen des Systems und ohne Verschlechterung der Systemeigenschaften."@de, "The ideal final result completely solves the problem with minimal changes of the system and without deterioration of system properties."@en, "Идеальный конечный результат полностью решает проблему с минимальными изменениями системы и без ухудшения свойств системы."@ru ;
-    skos:prefLabel "Ideales Endresultat (IER)"@de, "ideal final result (ifr)"@en, "идеальный конечный результат (ifr)"@ru .
+    skos:note "Das ideale Endergebnis löst das Problem vollständig unter minimalen Änderungen am System und ohne Verschlechterung der Systemeigenschaften."@de, "The ideal final result completely solves the problem with minimal changes of the system and without deterioration of system properties."@en, "Идеальный конечный результат полностью решает проблему с минимальными изменениями системы и без ухудшения свойств системы."@ru ;
+    skos:prefLabel "Ideales Endresultat (IER)"@de, "Ideal Final Result (IFR)"@en, "идеальный конечный результат (ИКР)"@ru .
 
 :ideal_technical_system
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "technical system which fulfils the main useful function without existing by itself and without any harmful side effects"@en, "technisches System, das die Hauptnutzfunktion erfüllt, ohne für sich zu existieren und ohne schädliche Nebenwirkungen"@de, "техническая система, которая выполняет основную полезную функцию, не существуя сама по себе и без каких-либо вредных побочных эффектов"@ru ;
+    skos:definition "Technical system which fulfils the main useful function without existing by itself and without any harmful side effects."@en, "Technisches System, das die nützliche Hauptfunktion zur Verfüung stellt, ohne selbst zu existieren und ohne schädliche Nebenwirkungen."@de, "Техническая система, которая выполняет основную полезную функцию, не существуя сама по себе и без каких-либо вредных побочных эффектов."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:note "If the technical system is a machine, it is also called «ideal machine»."@en, "Wenn das technische System eine Maschine ist, wird es auch als \"ideale Maschine\" bezeichnet."@de, "Если техническая система представляет собой машину, ее также называют \"идеальной машиной\"."@ru ;
+    skos:note "If the technical system is a machine, it is also called «ideal machine»."@en, "Handelt es sich bei dem technischen System um eine Maschine, wird auch von idealer Maschine gesprochen."@de, "Если техническая система представляет собой машину, ее также называют «идеальной машиной»."@ru ;
     skos:prefLabel "Ideales technisches System"@de, "ideal technical system"@en, "идеальная техническая система"@ru .
 
 :ideality
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "dimensionless ratio of benefit and expenses"@en, "dimensionsloses Verhältnis von Nutzen und Kosten"@de, "безразмерное соотношение выгод и расходов"@ru ;
+    skos:definition "dimensionless ratio of benefit and expenses"@en, "dimensionsloser Quotient aus Nutzen und Aufwand"@de, "безразмерное соотношение выгод и расходов"@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:note "Die Ausgaben umfassen unerwünschte Effekte, Kosten, Probleme oder andere Faktoren."@de, "The expenses comprise undesired effects, costs, problems or other factors."@en, "Расходы включают нежелательные эффекты, затраты, проблемы или другие факторы."@ru ;
+    skos:note "Der Aufwand ist bestimmt aus unerwünschten Effekte, Kosten, Problemen oder anderen Faktoren."@de, "The expenses comprise undesired effects, costs, problems or other factors."@en, "Расходы включают нежелательные эффекты, затраты, проблемы или другие факторы."@ru ;
     skos:prefLabel "Idealität"@de, "ideality"@en, "идеальность"@ru .
 
 :innovation_checklist
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "Sammlung von Fragen und Richtlinien, die helfen, die Situation des Innovationsproblems zu analysieren"@de, "collection of questions and directives which help to analyse the situation of the innovation problem"@en, "сборник вопросов и директив, помогающих проанализировать ситуацию с инновационной проблемой"@ru ;
+    skos:definition "Sammlung von Fragen und Anweisungen, um die Innovationssituation kennen zu lernen."@de, "Collection of questions and directives which help to analyse the situation of the innovation problem."@en, "Сборник вопросов и директив, помогающих проанализировать ситуацию с инновационной проблемой."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:note "Bezogen auf den Fragebogen zur Innovationssituation ^ TM erfinderische Prinzipien"@de, "Related to Innovation Situation Questionnaire^TM inventive principles"@en, "Относительно вопросника по инновационной ситуации изобретательские принципы"@ru ;
-    skos:prefLabel "Innovationscheckliste"@de, "innovation checklist"@en, "контрольный список инноваций"@ru .
+    skos:note "In Anlehnung an Innovation Situation Questionnaire^TM formuliert."@de, "Related to Innovation Situation Questionnaire^TM."@en, "Сформулировано со ссылкой на Innovation Situation Questionnaire^TM."@ru ;
+    skos:prefLabel "Innovations-Checkliste"@de, "innovation checklist"@en, "контрольный список инноваций"@ru .
 
 :inventive_principles
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "Grundlegende Lösungen für technische Probleme"@de, "basic solutions for technical problems"@en, "основные решения технических проблем"@ru ;
+    skos:definition "Prinzipien zur Lösungen technischer Probleme."@de, "Basic solutions for technical problems."@en, "Основы решения технических проблем."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:note "Die Prinzipien wurden aus der Analyse bestehender Patente abgeleitet."@de, "The principles were derived from the analysis of existing patents."@en, "Принципы были получены на основе анализа существующих патентов."@ru ;
+    skos:note "Die Prinzipien sind aus der Analyse von Patenten entstanden."@de, "The principles were derived from the analysis of existing patents."@en, "Принципы были получены на основе анализа существующих патентов."@ru ;
     skos:prefLabel "erfinderische Prinzipien"@de, "inventive principles"@en, "изобретательские принципы"@ru .
 
 :inventive_problem
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "Problem, das die Konzeption eines vollständig oder teilweise neuen Systems erfordert, um eine Struktur zu implementieren oder eine Funktion zu erfüllen"@de, "problem requiring the conception of a completely or partially new system in order to implement a structure or fulfil a function"@en, "проблема, требующая концепции полностью или частично новой системы для реализации структуры или выполнения функции"@ru ;
+    skos:definition "Aufgabenstellung, welche die Konzeption eines neuartigen technischen Systems verlangt, um eine Struktur zu realisieren oder eine Funktion zu erfüllen."@de, "Problem requiring the conception of a completely or partially new system in order to implement a structure or fulfil a function."@en, "Проблема, требующая концепции полностью или частично новой системы для реализации структуры или выполнения функции."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:note "Das System muss nach dem Stand der Wissenschaft neu sein und Technologie. "@de, "Die Konzeption enthält eine erfinderische Tätigkeit."@de, "The conception contains an inventive step or activity."@en, "The system must be new regarding the known state of the art in science and technology."@en, "Концепция содержит изобретательский уровень или действие."@ru, "Система должна быть новой в отношении известного уровня техники в науке и технологии. "@ru ;
+    skos:note "Das System muss neuartig in Bezug auf den aus Wissenschaft und Technik bekannten Stand sein. "@de, "Die Konzeption muss einen erfinderischen Schritt oder eine erfinderische Tätigkeit enthalten."@de, "The conception contains an inventive step or activity."@en, "The system must be new regarding the known state of the art in science and technology."@en, "Концепция содержит изобретательский шаг или действие."@ru, "Система должна быть новой в отношении известного уровня науки и техники. "@ru ;
     skos:prefLabel "erfinderisches Problem"@de, "inventive problem"@en, "изобретательская проблема"@ru .
 
 :inventive_problem_solving
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "Problemlösungsprozess, der neuartige Lösungen hervorbringt, die für den Fachmann nach dem Stand der Technik nicht erkennbar sind und die als Neuheit angesehen werden"@de, "process of problem solving which produces novel solutions not apparent to the expert by the state of the art and which are considered as novelty"@en, "процесс решения проблем, который приводит к новым решениям, не очевидным для специалиста в данной области техники и которые рассматриваются как новизна"@ru ;
+    skos:definition "Vorgehen zum Lösen eines Problems unter Entwicklung von Lösungen hervorbringt, die sich für den Fachmann nicht in naheliegender Weise aus dem Stand der Technik ergeben und damit als neuartig gelten."@de, "Process of problem solving which produces novel solutions not apparent to the expert by the state of the art and which are considered as novelty."@en, "Процесс решения проблем, который приводит к новым решениям, не очевидным для специалиста в данной области техники и которые рассматриваются как новизна."@ru ;
     skos:inScheme :theTRIZGlossary ;
     skos:prefLabel "erfinderische Problemlösung"@de, "inventive problem solving"@en, "решение изобретательских задач"@ru .
 
 :inventive_standard
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "Allgemeine Richtlinie zur Änderung einer Substanzfeldstruktur zur Problemlösung"@de, "general directive for the modification of a substance-field structure for problem solution"@en, "общая директива для модификации структуры вещества-поля для решения проблемы"@ru ;
+    skos:definition "Allgemeines Muster zur Änderung der Stoff-Feld-Struktur eines technischen Systems zur Problemlösung."@de, "General directive for the modification of a substance-field structure for problem solution"@en, "Общая директива для модификации структуры вещества-поля для решения проблемы."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:prefLabel "erfinderischer Standard"@de, "inventive standard"@en, "изобретательский стандарт"@ru .
+    skos:prefLabel "Standardlösung"@de, "inventive standard"@en, "изобретательский стандарт"@ru .
 
 :level_of_invention
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "Kennzahl für die Beurteilung des intellektuellen Niveaus einer Erfindung im Vergleich zum Stand der Technik zum Zeitpunkt der Erfindung"@de, "characteristic number for the assessment of the intellectual level of an invention compared to the state of the art at the time of the invention"@en, "характерное число для оценки интеллектуального уровня изобретения по сравнению с современным уровнем на момент изобретения"@ru ;
+    skos:definition "Kennzahl zur Bewertung der Erfindungshöhe auf Basis des zum Zeitpunkt der Erfindung existierenden Stands der Technik."@de, "Characteristic number for the assessment of the intellectual level of an invention compared to the state of the art at the time of the invention."@en, "Характерное число для оценки интеллектуального уровня изобретения по сравнению с современным уровнем на момент изобретения."@ru ;
     skos:inScheme :theTRIZGlossary ;
     skos:prefLabel "Erfindungsgrad"@de, "level of invention"@en, "уровень изобретательности"@ru .
 
 :operator
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "Direktive zur Erzeugung oder Spezifikation einer Lösung"@de, "directive for generation or specification of a solution"@en, "директива для генерации или спецификации решения"@ru ;
+    skos:definition "Handlungsanweisung zum Generieren oder Konkretisieren einer Lösung."@de, "Directive for generation or specification of a solution."@en, "Директива для генерации или спецификации решения."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:prefLabel "operator"@de, "operator"@en, "оператор"@ru .
+    skos:prefLabel "Operator"@de, "operator"@en, "оператор"@ru .
 
 :physical_contradiction
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "Situation, in der ein Parameter entgegengesetzte Werte annehmen muss, um widersprüchliche Anforderungen an ein System zu erfüllen"@de, "situation which requires a parameter to take opposing values in order to meet contradictory demands to a system"@en, "ситуация, в которой требуется, чтобы параметр принимал противоположные значения для удовлетворения противоречивых требований к системе"@ru ;
+    skos:definition "Situation, in der ein Parameter entgegengesetzte Werte annehmen muss, um widersprüchliche Anforderungen an das System zu erfüllen."@de, "Situation which requires a parameter to take opposing values in order to meet contradictory demands to a system."@en, "Ситуация, в которой требуется, чтобы параметр принимал противоположные значения для удовлетворения противоречивых требований к системе."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:prefLabel "physical contradiction"@en, "physischer Widerspruch"@de, "физическое противоречие"@ru .
+    skos:prefLabel "physical contradiction"@en, "physikalischer Widerspruch"@de, "физическое противоречие"@ru .
 
 :principles_of_separating_contradictory_demands
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "Prinzipien zur Lösung physikalischer Widersprüche, die durch ihre Trennung den widersprüchlichen Anforderungen genügen"@de, "principles for the solution of physical contradictions which meet the contradictory demands by their separation"@en, "принципы решения физических противоречий, которые удовлетворяют противоречивые требования путем их разделения"@ru ;
+    skos:definition "Lösungprinzipien für physikalische Widersprüche, die die geforderten widersprüchlichen Anforderungen durch deren Aufteilung (Separation) erfüllen."@de, "Principles for the solution of physical contradictions which meet the contradictory demands by their separation."@en, "Принципы решения физических противоречий, которые удовлетворяют противоречивые требования путем их разделения."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:prefLabel "Prinzipien der Trennung widersprüchlicher Forderungen"@de, "principles of separating contradictory demands"@en, "принципы разделения противоречивых требований"@ru .
+    skos:prefLabel "Separationsprinzipien"@de, "principles of separating contradictory demands"@en, "принципы разделения противоречивых требований"@ru .
 
 :problem_formulation
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "TRIZ method for analysing a system and its environment by means of a special cause-and-effect chain model"@en, "TRIZ-Methode zur Analyse eines Systems und seiner Umgebung mittels eines speziellen Ursache-Wirkungs-Kettenmodells"@de, "Метод ТРИЗ для анализа системы и ее среды с помощью специальной модели причинно-следственной цепочки"@ru ;
+    skos:definition "TRIZ method for analysing a system and its environment by means of a special cause-and-effect chain model."@en, "TRIZ-Methode zur Analyse eines Systems und seiner Umgebung mittels eines speziellen Ursache-Wirkungs-Ketten-Modells."@de, "Метод ТРИЗ для анализа системы и ее среды с помощью специальной модели причинно-следственной цепочки."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:prefLabel "Problem Formulierung"@de, "problem formulation"@en, "постановка проблемы"@ru .
+    skos:prefLabel "Problemformulierung"@de, "problem formulation"@en, "постановка проблемы"@ru .
 
 :psychological_inertia
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "Die Unfähigkeit einer Person, eine Lösung für ein Problem zu finden, das außerhalb ihrer mentalen Konzentration liegt und von persönlichen Erfahrungen, Kenntnissen, Assoziationen usw. betroffen ist."@de, "a person's inability to find a solution to a problem outside of his mental focusing affected by personal experience, knowledge, associations, etc."@en, "неспособность человека найти решение проблемы вне его психической сосредоточенности, на которую влияют личный опыт, знания, ассоциации и т. д."@ru ;
+    skos:definition "Unfähigkeit einer Person, außerhalb ihrer mentalen Ausrichtung (geprägt durch persönliche Erfahrungen, Wissen und Assoziationen usw.) eine Lösung für eine Aufgabe zu finden."@de, "A person's inability to find a solution to a problem outside of his mental focusing affected by personal experience, knowledge, associations, etc."@en, "Неспособность человека найти решение проблемы вне его психической сосредоточенности, на которую влияют личный опыт, знания, ассоциации и т. д."@ru ;
     skos:inScheme :theTRIZGlossary ;
     skos:prefLabel "psychological inertia"@en, "psychologische Trägheit"@de, "психологическая инерция"@ru .
 
