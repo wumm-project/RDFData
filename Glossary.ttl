@@ -8,7 +8,19 @@
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
 @prefix : <http://opendiscovery.org/rdf/Glossary/> .
 
-<http://opendiscovery.org/rdf/Glossary/40_inventive_principles>
+<http://opendiscovery.org/rdf/TheGlossary/>
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    a owl:Ontology ;
+    rdfs:comment "2019-07-08 graebe: Extracted and transformed from the VDI standard" ;
+    rdfs:label "TRIZ Glossary" .
+
+:theTRIZGlossary
+    a skos:ConceptScheme ;
+    skos:prefLabel "Das TRIZ-Glossar"@de, "The TRIZ Glossary"@en, "Глоссарий ТРИЗ"@ru .
+
+:40_inventive_principles
     a od:GlossaryEntry, skos:Concept ;
     skos:definition "Last collection of Inventive Principles authorised by G. Altshuller as published in (Altshuller,Sludyak,Rodman 1997)."@en, "Letzte von G. Altshuller autorisierte Sammlung von Erfindungsgrundsätzen, wie in (Altshuller, Sludyak, Rodman 1997) veröffentlicht."@de, "Последняя коллекция изобретательских принципов, утвержденных Г. Альтшуллером, как опубликовано в (Altshuller, Sludyak, Rodman 1997)."@ru ;
     skos:inScheme :theTRIZGlossary ;
@@ -230,133 +242,120 @@
 
 :resource
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "mean suitable for the solution of a problem"@en, "zur Lösung eines Problems geeignet"@de, "означает подходящее для решения проблемы"@ru ;
-    skos:example "time, space, substance, information, and functions with their respective properties"@en ;
+    skos:definition "Mean suitable for the solution of a problem."@en, "Mittel, das zur Lösung eines Problems geeignet ist."@de, "Средство, подходящее для решения проблемы."@ru ;
+    skos:example "Time, space, substance, fields, information, and functions with their respective properties."@en, "Время, пространство, вещества, поля, иинформация и функции с соответствующими свойствами."@ru, "Zeit, Raum, Stoffe, Felder, Information und Funktionen mit ihren jeweiligen Eigenschaften."@de ;
     skos:inScheme :theTRIZGlossary ;
-    skos:prefLabel "resource"@de, "resource"@en, "ресурс"@ru .
+    skos:prefLabel "Ressource"@de, "resource"@en, "ресурс"@ru .
 
 :resource_analysis
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "Suche und Beschreibung der verfügbaren und entwickelbaren Ressourcen im System selbst und in seiner Umgebung"@de, "search for and description of available and developable resources in the system itself and its environment"@en, "поиск и описание доступных и доступных ресурсов в самой системе и ее среде"@ru ;
+    skos:definition "Suche nach und Beschreibung von vorhandenen und entwickelbaren Ressourcen im System und in seiner Umgebung."@de, "Search for and description of available and developable resources in the system itself and its environment."@en, "Поиск и описание доступных и развиваемых ресурсов в самой системе и ее среде."@ru ;
     skos:inScheme :theTRIZGlossary ;
     skos:prefLabel "Ressourcenanalyse"@de, "resource analysis"@en, "анализ ресурсов"@ru .
 
 :root-conflict-analysis
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "Ursachen-Wirkungsketten-Analyse, die die vollständige Identifizierung von Widersprüchen ermöglicht"@de, "cause-effect-chains analysis which permits complete identification of contradictions"@en, "анализ причинно-следственных связей, который позволяет полностью выявить противоречия"@ru ;
+    skos:definition "Ursachen-Wirkungsketten-Analyse, die die vollständige Identifikation von Widersprüchen erlaubt."@de, "Cause-effect-chains analysis which permits complete identification of contradictions."@en, "Анализ причинно-следственных связей, который позволяет полностью выявить противоречия."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:prefLabel "root-conflict-analysis"@de, "root-conflict-analysis"@en, "анализ корневых конфликтов"@ru .
+    skos:prefLabel "Root-Conflict-Analysis"@de, "root-conflict-analysis"@en, "анализ корневых конфликтов"@ru .
 
 :s-curve_analysis
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "Einschätzung der potenziellen zukünftigen Entwicklung eines Systems oder einer Technologie durch Bestimmung ihrer aktuellen Position und der S-Kurve der technischen Entwicklung"@de, "estimation of the potential future evolution of a system or a technology by determining its current position an the S curve of technical evolution"@en, "оценка потенциального будущего развития системы или технологии путем определения ее текущего положения и S-кривой технического развития"@ru ;
+    skos:definition "Abschätzung des Weiterentwicklungspotenzials eines technischen Systems oder einer Technologie durch Bestimmen seiner/ihrer aktuellen Position auf der S-Kurve der technischen Evolution."@de, "Estimation of the potential future evolution of a system or a technology by determining its current position on the S curve of technical evolution."@en, "Оценка потенциального будущего развития технической системы или технологии путем определения ее текущего положения на S-кривой технического развития."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:prefLabel "s-curve analysis"@de, "s-curve analysis"@en, "анализ s-кривой"@ru .
+    skos:prefLabel "S-Kurven-Analyse"@de, "s-curve analysis"@en, "анализ s-кривой"@ru .
 
 :s-curve_of_technical_evolution
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "S-förmige Kurve, die den Trend eines nützlichen Systemparameters über die Zeit darstellt und typische Entwicklungsphasen aufweist"@de, "S-shaped curve which depicts the trend of a useful system parameter over time and features typical development phases"@en, "S-образная кривая, которая отображает тенденцию изменения полезного параметра системы во времени и имеет типичные фазы разработки"@ru ;
-    skos:example "system creation, growth, maturity, and decline"@en ;
+    skos:definition "S-förmige Kurve, die den Verlauf eines nützlichen Systemparameters über die Zeit darstellt und typische Entwicklungsphasen beinhaltet."@de, "S-shaped curve which depicts the trend of a useful system parameter over time and features typical development phases."@en, "S-образная кривая, которая отображает тенденцию изменения полезного параметра системы во времени и имеет типичные фазы развития."@ru ;
+    skos:example "System creation, growth, maturity, and decline."@en, "Развитие системы, рост, зрелость и упадок."@ru, "Systementstehung, Wachstum, Reife und Verfall."@de ;
     skos:inScheme :theTRIZGlossary ;
-    skos:prefLabel "S-образная кривая технического развития"@ru, "s-curve of technical evolution"@de, "s-curve of technical evolution"@en .
+    skos:prefLabel "S-образная кривая технического развития"@ru, "S-Kurve der technischen Entwicklung"@de, "s-curve of technical evolution"@en .
 
 :size-time-cost_operator
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "TRIZ method for overcoming the inventor's psychological bias by means of a thought experiment which varies system properties related to dimensions, time, and tost to their extremes"@en, "TRIZ-Methode zur Überwindung der psychologischen Vorurteile des Erfinders durch ein Gedankenexperiment, das die Systemeigenschaften in Bezug auf Dimensionen, Zeit und Stärke variiert Extreme "@de, "Метод ТРИЗ для преодоления психологического смещения изобретателя с помощью мысленного эксперимента, который изменяет свойства системы, связанные с размерами, временем и их соответствием крайности "@ru ;
+    skos:definition "TRIZ method for overcoming the inventor's psychological bias by means of a thought experiment which varies system properties related to dimensions, time, and tost to their extremes."@en, "TRIZ-Methode, die die mentale Voreingenommenheit durch ein Gedankenexperiment mit extremer Variation der System- oder Prozesseigenschaften Maße, Zeit und Kosten überwindet."@de, "Метод ТРИЗ для преодоления психологического смещения изобретателя с помощью мысленного эксперимента, который изменяет свойства системы, связанные с размерами, временем и стоимостью крайным способом "@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:prefLabel "Größe-Zeit-Kosten-Operator"@de, "size-time-cost operator"@en, "оператор размера-времени-стоимости"@ru .
+    skos:prefLabel "Operator MZK"@de, "size-time-cost operator"@en, "оператор размера-времени-стоимости"@ru .
 
 :smart-little-people_model
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "Modell zur Systemanalyse und zur Ideenfindung, bei dem das System und mögliche Lösungen durch die Handlungen von Elementen (sogenannte kleine Leute, auch Zwerge genannt), die jede Fähigkeit besitzen und jedes gewünschte Verhalten ausführen können "@de, "model for system analysis and for idea creation in which the system and possible solutions are represented by the actions of elements (so called little people, also known as dwarfs) who can possess any ability and perform any desired behaviour"@en, "модель для системного анализа и создания идеи, в которой система и возможные решения представлены действиями элементов (так называемые маленькие люди, также известный как гномы), который может обладать любой способностью и выполнять любое желаемое поведение "@ru ;
+    skos:definition "Modell zur Systemanalyse und zur Ideenfindung, bei dem das System und mögliche Lösungen durch die Handlungen von Elementen (sogenannte kleine Leute, auch Zwerge genannt), die jede Fähigkeit besitzen und jedes gewünschte Verhalten ausführen können "@de, "Model for system analysis and for idea creation in which the system and possible solutions are represented by the actions of elements (so called little people, also known as dwarfs) who can possess any ability and perform any desired behaviour."@en, "Модель для системного анализа и создания идеи, в которой система и возможные решения представлены действиями элементов (так называемые маленькие люди, также известный как гномы), которые могут обладать любой способностью и показать любое желаемое поведение."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:prefLabel "smart-little-people model"@de, "smart-little-people model"@en, "модель умных маленьких людей"@ru .
+    skos:prefLabel "Zwergemodell"@de, "smart-little-people model"@en, "модель умных маленьких людей"@ru .
 
 :substance
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "mass-bound object"@en, "massengebundenes Objekt"@de, "объект, связанный с массой"@ru ;
-    skos:example "gas, liquid, solid body, or plasma"@en ;
+    skos:definition "mass-bound object"@en, "massebehaftetes Objekt"@de, "объект с массой"@ru ;
+    skos:example "Gas, liquid, solid body, or plasma"@en, "Газ, жидкость, твердое тело или плазма"@ru, "Gas, Flüssigkeit, Festkörper oder Plasma"@de ;
     skos:inScheme :theTRIZGlossary ;
-    skos:prefLabel "Substanz"@de, "substance"@en, "вещество"@ru .
+    skos:prefLabel "Stoff"@de, "substance"@en, "вещество"@ru .
 
 :substance-field_analysis
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "abstract representation of a problem situation by means of a substance-field-model"@en, "abstrakte Darstellung einer Problemsituation mittels eines Substanzfeldmodells"@de, "абстрактное представление проблемной ситуации с помощью модели вещества-поля"@ru ;
+    skos:definition "Abstract representation of a problem situation by means of a substance-field-model."@en, "TRIZ-Methode zur abstrahierten Darstellung einer Problemsituation mittels eines Stoff-Feld-Modells."@de, "Абстрактное представление проблемной ситуации с помощью вепольной модели."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:prefLabel "Substanzfeldanalyse"@de, "substance-field analysis"@en, "анализ поля вещества"@ru .
+    skos:prefLabel "Stoff-Feld-Analyse"@de, "substance-field (su-field) analysis"@en, "вещество-полевой (вепольный) анализ"@ru .
 
 :substance-field_model
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "abstract graphical representation of a problem situation or a problem solution (e.g. many standard solutions) using substances and fields as elements"@en, "abstrakte grafische Darstellung einer Problemsituation oder einer Problemlösung (z. B. viele Standardlösungen) unter Verwendung von Substanzen und Feldern als Elemente"@de, "абстрактное графическое представление проблемной ситуации или решения проблемы (например, множество стандартных решений) с использованием веществ и полей в качестве элементов"@ru ;
+    skos:definition "Abstract graphical representation of a problem situation or a problem solution (e.g. many standard solutions) using substances and fields as elements."@en, "Abstrakte grafische Darstellung einer Problemsituation oder einer Problemlösung (z.B. viele Standardlösungen) mittels Stoffen und Feldern."@de, "Абстрактное графическое представление проблемной ситуации или решения проблемы (например, множество стандартных решений) используя вещества и поля в качестве элементов."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:prefLabel "Substanzfeldmodell (su-Feld)"@de, "substance-field model (su-field)"@en, "модель поля вещества (su-field)"@ru .
+    skos:prefLabel "Stoff-Feld-Modell"@de, "substance-field (su-field) model"@en, "вещество-полевая (вепольная) модель"@ru .
 
 :subsystem
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "subordinate system which is part of the examined system"@en, "untergeordnetes System, das Teil des untersuchten Systems ist"@de, "подчиненная система, которая является частью рассматриваемой системы"@ru ;
+    skos:definition "Subordinate system which is part of the examined system."@en, "Untergeordnetes System, das Teil des betrachteten Systems ist."@de, "Подсистема, которая является частью рассматриваемой системы."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:prefLabel "subsystem"@de, "subsystem"@en, "подсистема"@ru .
+    skos:prefLabel "Untersystem"@de, "subsystem"@en, "подсистема"@ru .
 
 :supersystem
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "superior system which contains the examined System as a component"@en, "übergeordnetes System, das das untersuchte System als Komponente enthält"@de, "вышестоящая система, которая содержит исследуемую Систему как компонент"@ru ;
+    skos:definition "Superior system that contains the examined system as component."@en, "Übergeordnetes System, welches das betrachtete System beinhaltet."@de, "Надсистема, которая содержит исследуемую систему как компонент."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:prefLabel "supersystem"@de, "supersystem"@en, "суперсистема"@ru .
+    skos:prefLabel "Obersystem"@de, "supersystem"@en, "надсистема"@ru .
 
 :system_of_inventive_standards
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "Klassifizierung von 76 Standardlösungen, gruppiert in fünf Klassen typischer Probleme"@de, "classification of 76 standard solutions, grouped into five classes of typical problems"@en, "классификация 76 стандартных решений, сгруппированных в пять классов типичных проблем"@ru ;
+    skos:definition "Systematik von 76 Standardlösungen, die in fünf problembezogenen Klassen eingeteilt sind."@de, "Classification of 76 standard solutions, grouped into five classes of typical problems."@en, "Классификация 76 стандартных приёмов, сгруппированных в пять классов типичных проблем."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:prefLabel "System erfinderischer Standards"@de, "system of inventive standards"@en, "система изобретательских стандартов"@ru .
+    skos:prefLabel "System der Standardlösungen"@de, "system of inventive standards"@en, "система изобретательских стандартов"@ru .
 
 :system_operator
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "Schema zur Systemanalyse oder zur Problemlösung und zur Abschätzung der zukünftigen Systementwicklung"@de, "scheme for system analysis or for problem solution and for estimation of future system evolution"@en, "схема для системного анализа или для решения проблемы и для оценки будущего развития системы"@ru ;
+    skos:definition "Schema zur Analyse eines Systems, zur Problemlösung und zur Abschätzung seiner zukünftigen Weiterentwicklung."@de, "Scheme for system analysis or for problem solution and for estimation of the future system evolution."@en, "Схема для анализа системы или для решения проблемы и для оценки будущего развития системы."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:note "Das Schema besteht aus einer Tabelle, deren Spalten unterschiedliche Zeitpunkte und die Zeilen unterschiedliche Systemebenen darstellen (z. B. drei Spalten und drei Zeilen) in der Multi-Screen-Analyse mit neun Bildschirmen). "@de, "The scheme consists of a table the columns of which represent different points in time and the rows different system levels (e.g. three columns and three rows in multi-screen analysis with nine screens)."@en, "Схема состоит из таблицы, столбцы которой представляют разные моменты времени и строки разных системных уровней (например, три столбца и три строки в многоэкранном анализе с девятью экранами). "@ru ;
-    skos:prefLabel "system operator"@de, "system operator"@en, "системный оператор"@ru .
-
-:theTRIZGlossary
-    a skos:ConceptScheme ;
-    skos:prefLabel "Das TRIZ-Glossar"@de, "The TRIZ Glossary"@en, "Глоссарий ТРИЗ"@ru .
+    skos:note "Das Schema beinhaltet eine Tabelle, deren Spalten unterschiedlichen Zeitpunkten und deren Zeilen verschiedenen Systemebenen entsprechen (z.B. drei Spalten und drei Zeilen beim Neun-Felder-Denken)."@de, "The scheme consists of a table the columns of which represent different points in time and the rows different system levels (e.g. three columns and three rows in multi-screen analysis with nine screens)."@en, "Схема состоит из таблицы, столбцы которой представляют разные моменты времени и строки разные системные уровни (например, три столбца и три строки в многоэкранном анализе с девятью экранами). "@ru ;
+    skos:prefLabel "System-Operator"@de, "system operator"@en, "системный оператор"@ru .
 
 :trimming
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "TRIZ method for increasing ideality of a technical system by means of elimination of single components"@en, "TRIZ-Methode zur Steigerung der Idealität eines technischen Systems durch Wegfall einzelner Komponenten"@de, "Метод ТРИЗ для повышения идеальности технической системы за счет исключения отдельных компонентов"@ru ;
+    skos:definition "TRIZ method for increasing ideality of a technical system by means of elimination of single components."@en, "TRIZ-Methode zur Erhöhung der Idealität eines technischen Systems durch Elimination einzelner Komponenten."@de, "Метод ТРИЗ для повышения идеальности технической системы за счет устранения отдельных компонент."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:note "Die nützlichen Funktionen der eliminierten Komponenten werden anderen Komponenten des Systems oder seiner Supersysteme zugewiesen."@de, "The useful functions of the eliminated components are reassigned to other components of the system or of its supersystems."@en, "Полезные функции исключенных компонентов переназначаются другим компонентам системы или ее суперсистем."@ru ;
-    skos:prefLabel "trimmen"@de, "trimming"@en, "обрезка"@ru .
+    skos:note "Die nützlichen Funktionen der eliminierten Komponenten werden anderen Komponenten des Systems oder seiner Obersysteme zugewiesen."@de, "The useful functions of the eliminated components are reassigned to other components of the system or of its supersystems."@en, "Полезные функции устраненных компонент переназначаются другим компонентам системы или ее суперсистем."@ru ;
+    skos:prefLabel "Trimmen"@de, "trimming"@en, "обрезка"@ru .
 
 :triz
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "scientific and application-oriented discipline which comprises studying directions of engineering systems evolution and the process of inventive problem solving in order to develop methods and tools to support innovative improvement of engineering systems based an a systematic and knowledge-based approach"@en, "wissenschaftliche und anwendungsorientierte Disziplin, die das Studium der Richtungen der Entwicklung von Ingenieurssystemen und des Prozesses der erfinderischen Problemlösung umfasst, um Methoden und Werkzeuge zu entwickeln Unterstützung der innovativen Verbesserung technischer Systeme auf der Grundlage eines systematischen und wissensbasierten Ansatzes."@de, "научная и прикладная дисциплина, которая включает в себя изучение направлений эволюции инженерных систем и процесса решения изобретательских задач с целью разработки методов и инструментов поддерживать инновационное совершенствование инженерных систем на основе системного и основанного на знаниях подхода "@ru ;
+    skos:definition "Scientific and application-oriented discipline which comprises studying directions of engineering systems evolution and the process of inventive problem solving in order to develop methods and tools to support innovative improvement of engineering systems based on a systematic and knowledge-based approach."@en, "Wissenschaftliche und anwendungsorientierte Disziplin, die die Entwicklung technischer Systeme sowie den Prozess erfinderischer Problemlösung untersucht, um systematische und wissensbasierte Methoden und Werkzeuge zur Unterstützung der innovativen Verbesserung technischer Systeme zu entwickeln."@de, "Научная и прикладная дисциплина, которая включает в себя изучение направлений эволюции инженерных систем и процесса решения изобретательских задач с целью разработки методов и инструментов поддерживать которые поддерживают инновационное совершенствование инженерных систем на основе системного подхода, основанного на научных методах."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:note "In den ersten Übersetzungen vom Russischen ins Englische wurde TRIZ als TIPS (theory of inventive problem solving) übersetzt. "@de, "In letzter Zeit wurde TRIZ auf nichttechnologische Bereiche ausgedehnt, z.B. wirtschaftliche, organisatorische oder informationstechnische Systeme."@de, "In the first translations from Russian to English, TRIZ was translated as TIPS. The abbreviation \"TIPS\" is the acronym for \"theory of inventive problem solving\"."@en, "Lately, TRIZ has been extended to non-technology areas, e.g. economical, organisational or information-technical systems.."@en, "В первых переводах с русского на английский ТРИЗ была переведена как TIPS. Аббревиатура \"TIPS\" является аббревиатурой от \"theory of inventive problem solving\"."@ru, "В последнее время ТРИЗ была распространена на нетехнологические области, например, на экономические, организационные или информационно-технические системы."@ru ;
-    skos:prefLabel "TRIZ (Theorie der erfinderischen Problemlösung)"@de, "TRIZ (theory of inventive problem solving, TIPS)"@en, "ТРИЗ (теория решения изобретательских задач)"@ru .
+    skos:note "In den ersten Übersetzungen vom Russischen ins Englische wurde TRIZ mit TIPS übersetzt. \"TIPS\" ist das Akronym der englischen Bezeichnung \"Theory of Inventive Problem Solving\"."@de, "Mittlerweile wird TRIZ auch auf nicht technische Bereiche angewendet, z.B. ökonomische, organisatorische oder informationstechnische Systeme."@de, "In the first translations from Russian to English, TRIZ was translated as TIPS. The abbreviation \"TIPS\" is the acronym for \"theory of inventive problem solving\"."@en, "Lately, TRIZ has been extended to non-technology areas, e.g. economical, organisational or information-technical systems."@en, "В первых переводах с русского на английский ТРИЗ была переведена как TIPS. Аббревиатура \"TIPS\" является аббревиатурой английского названия \"theory of inventive problem solving\"."@ru, "В последнее время ТРИЗ была распространена на нетехнологические области, например, на экономические, организационные или информационно-технические системы."@ru ;
+    skos:prefLabel "TRIZ (Theorie des erfinderischen Problemlösens)"@de, "TRIZ (theory of inventive problem solving, TIPS)"@en, "ТРИЗ (Теория Решения Изобретательских Задач)"@ru .
 
 :triz_forecasting
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "Verfahren zur Vorhersage der Entwicklung technischer Systeme mit TRIZ-Methoden"@de, "procedure to forecast the evolution of technical systems with TRIZ methods"@en, "процедура прогнозирования развития технических систем с использованием методов ТРИЗ"@ru ;
+    skos:definition "Vorgehensweise zur Vorhersage der Evolution technischer Systeme mit TRIZ-Methoden."@de, "Procedure to forecast the evolution of technical systems with TRIZ methods."@en, "Процедура прогнозирования развития технических систем с использованием методов ТРИЗ."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:prefLabel "triz forecasting"@de, "triz forecasting"@en, "прогнозирование триз"@ru .
+    skos:prefLabel "TRIZ-Vorhersage"@de, "TRIZ forecasting"@en, "прогнозирование ТРИЗ"@ru .
 
 :triz_method
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "Art der Anwendung eines oder mehrerer TRIZ-Tools"@de, "way of application of one or more TRIZ tools"@en, "способ применения одного или нескольких инструментов ТРИЗ"@ru ;
+    skos:definition "Ablaub der Anwendung eines oder mehrerer TRIZ-Werkzeuge."@de, "Way of application of one or more TRIZ tools."@en, "Способ применения одного или нескольких инструментов ТРИЗ."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:prefLabel "triz method"@de, "triz method"@en, "метод triz"@ru .
+    skos:prefLabel "TRIZ-Methode"@de, "TRIZ method"@en, "метод ТРИЗ"@ru .
 
 :triz_tool
     a od:GlossaryEntry, skos:Concept ;
-    skos:definition "Element der TRIZ zur Bearbeitung von Inventarproblemen"@de, "element of TRIZ for processing inventory Problems"@en, "элемент ТРИЗ для обработки проблем инвентаризации"@ru ;
+    skos:definition "Element von TRIZ zur Bearbeitung erfinderischer Aufgaben."@de, "Element of TRIZ for processing inventory problems."@en, "Элемент ТРИЗ для обработки изобретательских задач."@ru ;
     skos:inScheme :theTRIZGlossary ;
-    skos:prefLabel "triz tool"@de, "triz tool"@en, "инструмент triz"@ru .
-
-<http://opendiscovery.org/rdf/TheGlossary/>
-    cc:attributionName "The Open Discovery Project" ;
-    cc:attributionURL <http://opendiscovery.org> ;
-    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    a owl:Ontology ;
-    rdfs:comment "2019-07-08 graebe: Extracted and transformed from the VDI standard" ;
-    rdfs:label "TRIZ Glossary" .
-
+    skos:prefLabel "TRIZ-Werkzeug"@de, "TRIZ tool"@en, "инструмент ТРИЗ"@ru .
