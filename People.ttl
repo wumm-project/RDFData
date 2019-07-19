@@ -65,6 +65,7 @@ odp:Bukhman_I
 odp:Chizhevskaya_N
     a foaf:Person ;
     foaf:affil "Преподаватель БГАИ, педагог дополнительного образования «ГУО ЦДОДиМ Виктория» г. Минска, Педагог дополнительного образования"@ru ;
+    foaf:homepage <https://www.facebook.com/profile.php?id=100009312245237> ; 
     foaf:name "Nataliya Chizhevskaya" .
 
 odp:Chuang_CT
@@ -221,6 +222,7 @@ odp:Kucharavy_D
 odp:Kuryan_A
     a foaf:Person ;
     foaf:affil "EPAM Systems, TRIZ trainer, Innovation consultant"@en ;
+    foaf:homepage <https://www.facebook.com/andrew.kuryan> ;
     foaf:name "Andrei Kuryan" .
 
 odp:Lautenschlaeger_S
@@ -296,6 +298,7 @@ odp:Petrov_D
 odp:Petrov_VM
     a foaf:Person ;
     foaf:affil "Innovation Technology"@en, "International TRIZ Association (MATRIZ)" ;
+    foaf:homepage <https://www.facebook.com/vladimir.petrov.triz> ; 
     foaf:name "Vladimir Petrov", "Владимир Михайлович Петров"@ru .
 
 odp:Podobed_I
@@ -306,7 +309,7 @@ odp:Podobed_I
 odp:Pokalo_E
     a foaf:Person ;
     foaf:affil "Business Association TRIZ" ;
-    foaf:homepage <http://batriz.ru/>, <http://bmtriz.ru/> ;
+    foaf:homepage <http://batriz.ru/>, <http://bmtriz.ru/>, <https://www.facebook.com/evgeny.pokalo> ;
     foaf:name "Evgenij Pokalo", "Евгений Покало"@ru .
 
 odp:Prosvetova_N
@@ -317,12 +320,14 @@ odp:Prosvetova_N
 odp:Redkolis_E
     a foaf:Person ;
     foaf:affil "АО «Научно-промышленные консультанты», Руководитель проекта"@ru ;
+    foaf:homepage <https://www.facebook.com/eredkolis> ; 
     foaf:name "Elena Redkolis", "Елена Валерьевна Редколис"@ru .
 
 odp:Rubin_M
     a foaf:Person ;
     foaf:affil "International TRIZ Association (MATRIZ)", "РУСАЛ Глобал Менеджмент, Руководитель группы проектов Дирекции по ТРИЗ"@ru ;
-    foaf:name "Mikhail Rubin"@en .
+    foaf:homepage <https://www.facebook.com/mihail.rubin> ; 
+    foaf:name "Mikhail Rubin"@en, "Михаил Семенович Рубин"@ru .
 
 odp:Rubina_NV
     a foaf:Person ;
