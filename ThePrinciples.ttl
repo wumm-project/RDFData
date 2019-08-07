@@ -56,10 +56,11 @@ odp:P06
     rdfs:label "Prinzip der Universalität"@de .
 
 odp:P07
-    od:description "Ein Objekt ist im Inneren eines anderen untergebracht, das sich wiederum im Inneren eines dritten befindet usw. Ein Objekt durchläuft oder füllt den Hohlraum eines anderen Objektes."@de ;
+    od:description "Ein Objekt ist im Inneren eines anderen untergebracht, das sich wiederum im Inneren eines dritten befindet."@de, "Ein Objekt durchläuft oder füllt den Hohlraum eines anderen Objektes."@de ;
     od:hasPrincipleNumber "07" ;
     a od:Principle ;
-    rdfs:label "Prinzip der \"Steckpuppe\" (Matrjoschka)"@de .
+    rdfs:comment "Auch als Prinzip der \"Steckpuppe\" (Matrjoschka) bezeichnet"@de ;
+    rdfs:label "Prinzip der Verschachtelung"@de .
 
 odp:P08
     od:description "Die Masse des Objektes ist durch Kopplung mit einem anderen Objekt, das Tragkraft besitzt, zu kompensieren."@de, "Die Masse des Objektes ist durch Wechselwirkung mit einem Medium zu kompensieren."@de ;
@@ -161,7 +162,7 @@ odp:P24
     od:description "Es ist ein Zwischenobjekt zu benutzen, das die Wirkung überträgt, weitergibt oder auf sich nimmt."@de, "Zeitweilig ist an das Objekt ein anderes leicht zu entfernendes Objekt anzuschließen."@de ;
     od:hasPrincipleNumber "24" ;
     a od:Principle ;
-    rdfs:label "Prinzip des „Vermittlers“"@de .
+    rdfs:label "Prinzip des Vermittlers"@de .
 
 odp:P25
     od:description "Abprodukte, z. B. Energie und Stoff sind zu nutzen."@de, "Das Objekt soll sich selbst bedienen sowie Hilfs- und Reparaturmaßnahmen selbst ausführen."@de ;

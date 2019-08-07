@@ -1,0 +1,77 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix odp: <http://opendiscovery.org/rdf/Person/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+
+<http://opendiscovery.org/Data/Presentations/> a owl:Ontology ;
+   cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
+   cc:attributionURL <http://opendiscovery.org> ;
+   cc:attributionName "The Open Discovery Project" ;
+   rdfs:label "Open Discovery Collection of Presentations" ;
+   owl:imports <http://opendiscovery.org/rdf/People/>.
+
+od:Presentation a owl:Class ;
+   rdfs:label "DCMI Metarecord of a Presentation" .
+
+<http://opendiscovery.org/rdf/Presentation/Shpakovskij-20190713a>
+  a od:Presentation ;
+  dcterms:creator odp:Shpakovskij_N ;
+  dcterms:title "ТРИЗ в современном мире"@ru, "TRIZ in the modern world"@en ;
+  od:urlSlides <http://wumm.uni-leipzig.de/Presentations/Shpakovskij-20190713a.pdf> ;
+  dcterms:rights "Public domain" ;
+  dcterms:extent "164 slides" ;
+  dcterms:format <http://www.iana.org/assignments/media-types/application/pdf> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ; 
+  dcterms:issued "2019"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Shpakovskij-20190713b>
+  a od:Presentation ;
+  dcterms:creator odp:Shpakovskij_N ;
+  dcterms:title  "Training of company specialists in time pressure"@en, "Обучение специалистов компаний в условиях дефицита времени"@ru ;
+  od:urlSlides <http://wumm.uni-leipzig.de/Presentations/Shpakovskij-20190713b.pdf> ;
+  dcterms:rights "Public domain" ;
+  dcterms:extent "41 slides" ;
+  dcterms:format <http://www.iana.org/assignments/media-types/application/pdf> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ; 
+  dcterms:issued "2019"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Graebe-20190529>
+  a od:Presentation ;
+  dcterms:creator odp:Graebe_HG ;
+  dcterms:title  "The WUMM Project. TRIZ and Innovation Management"@en ;
+  dcterms:abstract "Short presentation at the IHK business meeting with partners from Ukraine and Belarus on May 29, 2019"@en ; 
+  od:urlSlides <http://wumm.uni-leipzig.de/Presentations/Graebe-20190529.pdf> ;
+  dcterms:rights "Public domain" ;
+  dcterms:extent "7 slides" ;
+  dcterms:format <http://www.iana.org/assignments/media-types/application/pdf> ; 
+  dcterms:language  "en"^^dcterms:RFC4646 ; 
+  dcterms:issued "2019"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Graebe-20190522>
+  a od:Presentation ;
+  dcterms:creator odp:Graebe_HG ;
+  dcterms:title  "The WUMM Project. Semantic Data and Innovation Management"@en ;
+  dcterms:abstract "Presentation at the Leipzig Semantic Web Day on May 22, 2019"@en ; 
+  od:urlSlides <http://wumm.uni-leipzig.de/Presentations/Graebe-20190522.pdf> ;
+  dcterms:rights "Public domain" ;
+  dcterms:extent "13 slides" ;
+  dcterms:format <http://www.iana.org/assignments/media-types/application/pdf> ; 
+  dcterms:language  "en"^^dcterms:RFC4646 ; 
+  dcterms:issued "2019"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Graebe-Wegemodell>
+  a od:Presentation ;
+  dcterms:creator odp:Graebe_HG ;
+  dcterms:title  "Das ProHEAL Wegemodell"@de, "The ProHEAL Path Model"@en ;
+  dcterms:abstract "Presentation given at the Leipzig Seminar on April 04, 2019"@en ; 
+  od:urlSlides <http://wumm.uni-leipzig.de/Presentations/Graebe-Wegemodell.pdf> ;
+  dcterms:rights "Public domain" ;
+  dcterms:extent "7 slides" ;
+  dcterms:format <http://www.iana.org/assignments/media-types/application/pdf> ; 
+  dcterms:language  "de"^^dcterms:RFC4646 ; 
+  dcterms:issued "2019"^^dcterms:W3CDTF .

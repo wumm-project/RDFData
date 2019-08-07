@@ -66,7 +66,7 @@ odp:Chizhevskaya_N
     a foaf:Person ;
     foaf:affil "Преподаватель БГАИ, педагог дополнительного образования «ГУО ЦДОДиМ Виктория» г. Минска, Педагог дополнительного образования"@ru ;
     foaf:homepage <https://www.facebook.com/profile.php?id=100009312245237> ; 
-    foaf:name "Nataliya Chizhevskaya" .
+    foaf:name "Nataliya Chizhevskaya", "Наталия Чижевская"@ru .
 
 odp:Chuang_CT
     a foaf:Person ;
