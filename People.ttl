@@ -125,6 +125,7 @@ odp:Graebe_HG
     a foaf:Person ;
     foaf:affil "Leipzig University, Germany"@en ;
     foaf:homepage <http://bis.informatik.uni-leipzig.de/HansGertGraebe>, <https://www.facebook.com/hg.graebe> ;
+    rdfs:seeAlso <https://orcid.org/0000-0002-3934-413X> ; 
     foaf:name "Hans-Gert Gräbe" .
 
 odp:Gronauer_B
