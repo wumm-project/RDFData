@@ -382,7 +382,7 @@ odp:Solodkin_A
     foaf:affil "Consultant, Minsk, Belarus" ;
     foaf:name "Alexander Solodkin" .
 
-odp:Sushkov_V
+odp:Souchkov_V
     a foaf:Person ;
     foaf:affil "ICG Training & Consulting, Управляющий Директор"@ru ;
     foaf:homepage <https://www.facebook.com/valeri.souchkov> ;
