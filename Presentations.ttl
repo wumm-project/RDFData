@@ -75,3 +75,16 @@ od:Presentation a owl:Class ;
   dcterms:format <http://www.iana.org/assignments/media-types/application/pdf> ; 
   dcterms:language  "de"^^dcterms:RFC4646 ; 
   dcterms:issued "2019"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Souchkov-20190727>
+  a od:Presentation ;
+  dcterms:creator odp:Souchkov_V ;
+  dcterms:title  "Прорывное мышление в малом и среднем бизнес. ТРИЗ для предпринимателей"@ru, "Breakthrough thinking in small and medium-sized businesses. TRIZ for business"@en ;
+  dcterms:abstract "Interview given to a Russian TV channel on July 27, 2019"@en ; 
+  od:urlVideo <https://www.youtube.com/watch?v=srh23Ug6D6s> ;
+  dcterms:rights "Public domain" ;
+  dcterms:extent "1:11:40 h" ;
+  dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  rdfs:comment "Published via Souchkov's facebook channel, accompanied by a large discussion"@en ; 
+  dcterms:issued "2019"^^dcterms:W3CDTF .
