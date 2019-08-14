@@ -34,7 +34,7 @@
     dcterms:abstract "We will get acquainted with the approach to solving inventive problems developed during the Samsung Advanced Institute of Technology. Taking into account the experience of practical consulting, an algorithm for correcting problem situations has been developed and repeatedly tested which turned out to be very effective for solving real problems of the company. The report will show the analysis of the problems solved for the SAMSUNG Group. "@en, "Мы познакомимся с подходом к решению изобретательских заадч, выработанном за время работы на Samsung Advanced Institute of Technology. С учетом опыта практического консалтинга был разработан и многократно проверен алгоритм исправления проблемных ситуаций, оказавшийся весьма эффективным именно для решения реальных задач компании. В докладе будут показаны разборы задач, решенных для SAMSUNG Group."@ru ;
     dcterms:creator odp:Shpakovskij_N ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/520> ;
-    od:urlVideo <https://www.youtube.com/watch?v=QtPhiRp8sk8> ;
+    od:urlVideo <https://youtu.be/QtPhiRp8sk8> ; 
     od:urlSlides <http://wumm.uni-leipzig.de/Presentations/Shpakovskij-20190713b.pdf> ;
     dcterms:title "OTSM-TRIZ approach to solving inventive problems. SAMSUNG SAIT experience"@en, "Подход ОТСМ-ТРИЗ к решению изобретательских задач. Опыт SAMSUNG SAIT"@ru ;
     a od:Talk .
@@ -86,6 +86,7 @@
     dcterms:creator odp:Petrov_VM, odp:Rubin_M ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/527> ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304801-file-original.pdf> ;   
+    od:urlVideo <https://youtu.be/Cgk0PMsx52Q> ; 
     dcterms:title "15 years of TRIZ summit"@en, "15 лет ТРИЗ саммиту"@ru ;
     a od:Talk .
 
@@ -95,6 +96,7 @@
     dcterms:creator odp:Curikov_V ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/528> ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304802-file-original.pdf> ;
+    od:urlVideo <https://youtu.be/0by8g0G0HRI> ; 
     dcterms:title "30 years of the project \"Invention machine\""@en, "30 лет проекту \"Изобретающая машина\""@ru ;
     a od:Talk .
 
