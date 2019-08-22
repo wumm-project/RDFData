@@ -80,11 +80,24 @@ od:Presentation a owl:Class ;
   a od:Presentation ;
   dcterms:creator odp:Souchkov_V ;
   dcterms:title  "Прорывное мышление в малом и среднем бизнес. ТРИЗ для предпринимателей"@ru, "Breakthrough thinking in small and medium-sized businesses. TRIZ for business"@en ;
-  dcterms:abstract "Interview given to a Russian TV channel on July 27, 2019"@en ; 
+  dcterms:abstract "Interview given to Alexei Shinnikov from the Saratov TRIZ Club for a Russian TV channel on July 27, 2019"@en ; 
   od:urlVideo <https://www.youtube.com/watch?v=srh23Ug6D6s> ;
   dcterms:rights "Public domain" ;
-  dcterms:extent "1:11:40 h" ;
+  dcterms:extent "01:11:40 h" ;
   dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
   dcterms:language  "ru"^^dcterms:RFC4646 ;
-  rdfs:comment "Published via Souchkov's facebook channel, accompanied by a large discussion"@en ; 
+  rdfs:comment "Published via Souchkov's facebook channel, accompanied by a large discussion over there"@en ; 
+  dcterms:issued "2019"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Souchkov-20190727>
+  a od:Presentation ;
+  dcterms:creator odp:Souchkov_V ;
+  dcterms:title  "Обострение требований в малом и среднем бизнесе. Инновационное мышление ТРИЗ"@ru, "Aggravation of requirements in small and medium-sized businesses. TRIZ as innovative thinking"@en ;
+  dcterms:abstract "Четвертый выпуск в серии \"Инновационное мышление\". В этот раз речь идет о поисках новых идей и борьбе с психологической инерцией с помощью обострения противоречий и мысленных экспериментов с радикальными изменениями значений свойств и параметров."@ru, "The fourth issue in the series \"Innovative Thinking\". This time we are talking about the search for new ideas and the fight against psychological inertia by exacerbating contradictions and mental experiments with radical changes in the values of properties and parameters. Another interview given to Alexei Shinnikov from the Saratov TRIZ Club for a Russian TV channel on August 19, 2019"@en ; 
+  od:urlVideo <https://www.youtube.com/watch?v=4MRtONIOv4M> ;
+  dcterms:rights "Public domain" ;
+  dcterms:extent "00:59:33 h" ;
+  dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  rdfs:comment "Published via Souchkov's facebook channel"@en ; 
   dcterms:issued "2019"^^dcterms:W3CDTF .
