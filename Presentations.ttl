@@ -89,7 +89,7 @@ od:Presentation a owl:Class ;
   rdfs:comment "Published via Souchkov's facebook channel, accompanied by a large discussion over there"@en ; 
   dcterms:issued "2019"^^dcterms:W3CDTF .
 
-<http://opendiscovery.org/rdf/Presentation/Souchkov-20190727>
+<http://opendiscovery.org/rdf/Presentation/Souchkov-20190820>
   a od:Presentation ;
   dcterms:creator odp:Souchkov_V ;
   dcterms:title  "Обострение требований в малом и среднем бизнесе. Инновационное мышление ТРИЗ"@ru, "Aggravation of requirements in small and medium-sized businesses. TRIZ as innovative thinking"@en ;
