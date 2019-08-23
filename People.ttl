@@ -346,6 +346,12 @@ odp:Saunin_N
     foaf:affil "АО «НПК», Руководитель направления, Дирекция по ТРИЗ"@ru ;
     foaf:name "Nikolaj Saunin" .
 
+odp:Schinnikov_A
+    a foaf:Person ;
+    foaf:affil "Директор методологии, ТРИЗ центр инновационного лидерства и конфликторинга Саратов"@ru ;
+    foaf:homepage <https://www.facebook.com/ashinnikov> ;
+    foaf:name "Alexey Schinnikov", "Алексей Шинников"@ru .
+
 odp:Schollmeyer_J
     a foaf:Person ;
     foaf:homepage <https://leibniz-institut.de/justus-schollmeyer/> ;

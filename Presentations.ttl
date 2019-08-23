@@ -101,3 +101,15 @@ od:Presentation a owl:Class ;
   dcterms:language  "ru"^^dcterms:RFC4646 ;
   rdfs:comment "Published via Souchkov's facebook channel"@en ; 
   dcterms:issued "2019"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Litvin-20171101>
+  a od:Presentation ;
+  dcterms:creator odp:Litvin_S ;
+  dcterms:title  "Новые ТРИЗ инструменты (актуальные разработки компании GEN-TRIZ)"@ru, "New TRIZ tools (current developments of GEN-TRIZ company)"@en ;
+  dcterms:abstract "Краткое изложение работы, которая имеет название: Как компьютер может сам изобретать (то есть Методы изобретательства, с помощью которых три программиста легко могут составить программы, посредством которых компьютер может сам изобрести много изобретений)."@ru, "Summary of the work on the theme how a computer can invent (i.e., about methods of invention, that allow three programmers easily to create programs by which a computer can create many inventions)."@en ;
+  od:urlVideo <https://www.youtube.com/watch?v=BPpTNC2QOh0> ;
+  dcterms:rights "Public domain" ;
+  dcterms:extent "02:40:12 h" ;
+  dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  dcterms:issued "2017"^^dcterms:W3CDTF .
