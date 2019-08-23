@@ -335,6 +335,10 @@ odp:Rubina_NV
     foaf:affil "ОО «Саммит разработчиков ТРИЗ», Руководитель проекта «Кубок ТРИЗ Саммита»"@ru ;
     foaf:name "Nataliya Rubina", "Наталия Викторовна Рубина"@ru .
 
+odp:Ruin_A
+    a foaf:Person ;
+    foaf:name "Aleksei Ruin" .
+
 odp:Ryabchuk_A
     a foaf:Person ;
     foaf:affil "CTTIT, St. Peterburg, Russia" ;
@@ -350,7 +354,7 @@ odp:Schinnikov_A
     a foaf:Person ;
     foaf:affil "Директор методологии, ТРИЗ центр инновационного лидерства и конфликторинга Саратов"@ru ;
     foaf:homepage <https://www.facebook.com/ashinnikov> ;
-    foaf:name "Alexey Schinnikov", "Алексей Шинников"@ru .
+    foaf:name "Alexey Schinnikov", "Алексей Щинников"@ru .
 
 odp:Schollmeyer_J
     a foaf:Person ;
@@ -373,6 +377,10 @@ odp:Shpakovskij_N
     foaf:homepage <http://www.target-invention.com> ;
     foaf:name "Nikolaj Shpakovskij" .
 
+odp:Simakov_S
+    a foaf:Person ;
+    foaf:name "Sergey Simakov" .
+
 odp:Skuratovich_А
     a foaf:Person ;
     foaf:affil "ОАО «АМКОДОР - управляющая компания холдинга», Руководитель проекта по оптимизации бизнес-процессов"@ru ;
@@ -393,6 +401,10 @@ odp:Souchkov_V
     foaf:affil "ICG Training & Consulting, Управляющий Директор"@ru ;
     foaf:homepage <https://www.facebook.com/valeri.souchkov> ;
     foaf:name "Valeri Souchkov" .
+
+odp:Stroganov_B
+    a foaf:Person ;
+    foaf:name "Boris Stroganov" .
 
 odp:Sysoev_S
     a foaf:Person ;
