@@ -84,7 +84,8 @@ odp:Devojno_I
     foaf:name "Igor Devojno" .
 
 odp:Dobrusskin_C
-    a foaf:Person ;
+    a foaf:Person, od:MatrizMember ;
+    foaf:affil "Philips TRIZ Association, The Netherlands"@en ;
     foaf:homepage <https://innovationorigins.com/nl/tag/christoph-dobrusskin/> ;
     foaf:name "Christoph Dobrusskin" .
 
@@ -243,9 +244,9 @@ odp:Lin_YJ
     foaf:name "Youn Jan Lin" .
 
 odp:Litvin_S
-    a foaf:Person ;
-    foaf:affil "International TRIZ Association (MATRIZ)" ;
-    foaf:name "Simon Litvin"@en .
+    a foaf:Person, od:MatrizMember ;
+    foaf:affil "International TRIZ Association (MATRIZ), Boston, USA"@en ;
+    foaf:name "Simon Litvin" .
 
 odp:Livotov_P
     a foaf:Person ;
@@ -274,7 +275,7 @@ odp:Naehler_T
 odp:Nesterenko_A
     a foaf:Person ;
     foaf:affil "ПКИРО (Владивосток), ГБОУ г. Москвы «Школа № 2101 «Филевский образовательный центр», доцент, методист"@ru ;
-    foaf:name "Alla Nesterenko" .
+    foaf:name "Alla Nesterenko", "Алла Нестеренко"@ru .
 
 odp:Neumuth_T
     a foaf:Person ;
@@ -436,3 +437,23 @@ odp:Zobel_D
     foaf:affil "Ingenieurbüro für Systemtechnik, Wittenberg" ;
     foaf:name "Dietmar Zobel" .
 
+
+odp:Holtz_V
+    a foaf:Person, od:MatrizMember ;
+    foaf:affil "Intel Corporate TRIZ Chapter, USA"@en ;
+    foaf:name "Vendetta Holtz" .
+
+odp:Fresner_J
+    a foaf:Person, od:MatrizMember ;
+    foaf:affil "TRIZ Campus Vienna, Vienna, Austria"@en ;
+    foaf:name "J. Fresner" .
+
+odp:Fedosov_JuI
+    a foaf:Person, od:MatrizMember ;
+    foaf:affil "St. Petersburg, Russia"@en ;
+    foaf:name "Ju. I. Fedosov" .
+
+odp:Gredynarov_I
+    a foaf:Person, od:MatrizMember ;
+    foaf:affil "Ukrainian TRIZ Association, Ukraina"@en ;
+    foaf:name "Igor Gredynarov" .
