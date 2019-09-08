@@ -437,7 +437,6 @@ odp:Zobel_D
     foaf:affil "Ingenieurbüro für Systemtechnik, Wittenberg" ;
     foaf:name "Dietmar Zobel" .
 
-
 odp:Holtz_V
     a foaf:Person, od:MatrizMember ;
     foaf:affil "Intel Corporate TRIZ Chapter, USA"@en ;
@@ -457,3 +456,17 @@ odp:Gredynarov_I
     a foaf:Person, od:MatrizMember ;
     foaf:affil "Ukrainian TRIZ Association, Ukraina"@en ;
     foaf:name "Igor Gredynarov" .
+
+odp:Schusterman_MN
+    a foaf:Person, od:MatrizMember ;
+    foaf:affil "TRIZ School Norilsk, Russia"@en ;
+    rdfs:comment """Мастер ТРИЗ, закончил ЛЭТИ им. Ульянова (Ленина) в 1972г., 
+Образование высшее Инженер электрик
+- преподает ТРИЗ инженерам Норильского комбината с 1980г.,
+- преподает ТРИЗ школьникам с 1982г.,
+- впервые в стране начал преподавать дошкольную ТРИЗ с 1987 года
+- педагог дополнительного образования ТОУ "ТРИЗ" МБУДО "СЮТ", г. Норильска,
+автор книг для детей и родителей, выходящих с 1991 года общим тиражом свыше 130 000 экз (на 2018 год).
+Обучивший на 40 часовых семинарах свыше 5000 воспитателей и педагогов
+с 1988 по 1991 годы в разных городах СССР"""@ru ; 
+    foaf:name "Michail Naumovich Schusterman", "Михаил Наумович Шустерман"@ru .

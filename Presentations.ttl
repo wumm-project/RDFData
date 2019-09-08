@@ -80,7 +80,7 @@ od:Presentation a owl:Class ;
   a od:Presentation ;
   dcterms:creator odp:Souchkov_V ;
   dcterms:title  "Навыки мышления в малом и среднем бизнесе. Системное мышление"@ru, "Thinking skills in small and medium business. Systemic thinking"@en ;
-  dcterms:abstract "Interview given to Alexei Shinnikov from the Saratov TRIZ Club on July 25, 2019"@en ; 
+  dcterms:abstract "Interview given to Alexei Schinnikov from the Saratov TRIZ Club on July 25, 2019"@en ; 
   od:urlVideo <https://www.youtube.com/watch?v=ubgvcjzhs3g> ;
   dcterms:rights "Youtube Standard License" ;
   dcterms:extent "01:27:10 h" ;
@@ -93,7 +93,7 @@ od:Presentation a owl:Class ;
   a od:Presentation ;
   dcterms:creator odp:Souchkov_V ;
   dcterms:title  "ТРИЗ для развития малого и среднего бизнеса"@ru, "TRIZ for the development of small and medium-sized businesses"@en ;
-  dcterms:abstract "Interview given to Alexei Shinnikov from the Saratov TRIZ Club on July 22, 2019"@en ; 
+  dcterms:abstract "Interview given to Alexei Schinnikov from the Saratov TRIZ Club on July 22, 2019"@en ; 
   od:urlVideo <https://www.youtube.com/watch?v=2cfx3qJZJJ4> ;
   dcterms:rights "Youtube Standard License" ;
   dcterms:extent "01:27:00 h" ;
@@ -106,7 +106,7 @@ od:Presentation a owl:Class ;
   a od:Presentation ;
   dcterms:creator odp:Souchkov_V ;
   dcterms:title  "Прорывное мышление в малом и среднем бизнес. ТРИЗ для предпринимателей"@ru, "Breakthrough thinking in small and medium-sized businesses. TRIZ for business"@en ;
-  dcterms:abstract "Interview given to Alexei Shinnikov from the Saratov TRIZ Club on July 27, 2019"@en ; 
+  dcterms:abstract "Interview given to Alexei Schinnikov from the Saratov TRIZ Club on July 27, 2019"@en ; 
   od:urlVideo <https://www.youtube.com/watch?v=srh23Ug6D6s> ;
   dcterms:rights "Youtube Standard License" ;
   dcterms:extent "01:11:40 h" ;
@@ -119,7 +119,7 @@ od:Presentation a owl:Class ;
   a od:Presentation ;
   dcterms:creator odp:Souchkov_V ;
   dcterms:title  "Абстрактное мышление в малом и среднем бизнесе"@ru, "Abstract thinking in small and medium business"@en ;
-  dcterms:abstract "Очередной, третий эпизод бесед о инновационном мышлении. В этот раз речь идет об абстрактном мышлении. Как всегда, привожу примеры из личного опыта работы с клиентскими организациями и делюсь идеями, возникшими в результате многочисленных встреч с инноваторами из совершенно разных областей техники и бизнеса."@ru, "Interview given to Alexei Shinnikov from the Saratov TRIZ Club on August 13, 2019"@en ; 
+  dcterms:abstract "Очередной, третий эпизод бесед о инновационном мышлении. В этот раз речь идет об абстрактном мышлении. Как всегда, привожу примеры из личного опыта работы с клиентскими организациями и делюсь идеями, возникшими в результате многочисленных встреч с инноваторами из совершенно разных областей техники и бизнеса."@ru, "Interview given to Alexei Schinnikov from the Saratov TRIZ Club on August 13, 2019"@en ; 
   od:urlVideo <https://www.youtube.com/watch?v=X9tHu1czb7c> ;
   dcterms:rights "Youtube Standard License" ;
   dcterms:extent "01:21:07 h" ;
@@ -132,7 +132,7 @@ od:Presentation a owl:Class ;
   a od:Presentation ;
   dcterms:creator odp:Souchkov_V ;
   dcterms:title  "Обострение требований в малом и среднем бизнесе. Инновационное мышление ТРИЗ"@ru, "Aggravation of requirements in small and medium-sized businesses. TRIZ as innovative thinking"@en ;
-  dcterms:abstract "Четвертый выпуск в серии \"Инновационное мышление\". В этот раз речь идет о поисках новых идей и борьбе с психологической инерцией с помощью обострения противоречий и мысленных экспериментов с радикальными изменениями значений свойств и параметров."@ru, "The fourth issue in the series \"Innovative Thinking\". This time we are talking about the search for new ideas and the fight against psychological inertia by exacerbating contradictions and mental experiments with radical changes in the values of properties and parameters. Another interview given to Alexei Shinnikov from the Saratov TRIZ Club on August 19, 2019"@en ; 
+  dcterms:abstract "Четвертый выпуск в серии \"Инновационное мышление\". В этот раз речь идет о поисках новых идей и борьбе с психологической инерцией с помощью обострения противоречий и мысленных экспериментов с радикальными изменениями значений свойств и параметров."@ru, "The fourth issue in the series \"Innovative Thinking\". This time we are talking about the search for new ideas and the fight against psychological inertia by exacerbating contradictions and mental experiments with radical changes in the values of properties and parameters. Another interview given to Alexei Schinnikov from the Saratov TRIZ Club on August 19, 2019"@en ; 
   od:urlVideo <https://www.youtube.com/watch?v=4MRtONIOv4M> ;
   dcterms:rights "Youtube Standard License" ;
   dcterms:extent "00:59:33 h" ;
@@ -164,3 +164,28 @@ od:Presentation a owl:Class ;
   dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
   dcterms:language  "ru"^^dcterms:RFC4646 ;
   dcterms:issued "2019-06-21"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Schusterman-20190809>
+  a od:Presentation ;
+  dcterms:creator odp:Schusterman_MN ;
+  dcterms:title  "Уровни схемы талантливого мышления с 1 по 5"@ru, "Talented Thinking at Levels 1 through 5"@en ;
+  dcterms:abstract "Youtube video recorded by the TRIZ master M.N.Schusterman (Norislk). Application of TRIZ to general thought processes, especially in childhood"@en ;
+  od:urlVideo <https://www.youtube.com/watch?v=m1hKpd8vizU> ;
+  dcterms:rights "Youtube Standard License" ;
+  dcterms:extent "36:13 h" ;
+  dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  dcterms:issued "2019-08-09"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Souchkov-20190825>
+  a od:Presentation ;
+  dcterms:creator odp:Souchkov_V ;
+  dcterms:title  "Нелинейное мышление в малом и среднем бизнесе"@ru, "Nonlinear thinking in small and medium business"@en ;
+  dcterms:abstract "Fifth issue in the series \"Innovative Thinking\". Another interview given to Alexei Schinnikov from the Saratov TRIZ Club on August 25, 2019"@en ; 
+  od:urlVideo <https://www.youtube.com/watch?v=ZWexPVGQHtk> ;
+  dcterms:rights "Youtube Standard License" ;
+  dcterms:extent "01:22:44 h" ;
+  dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  rdfs:comment "Published via Souchkov's facebook channel"@en ; 
+  dcterms:issued "2019-08-25"^^dcterms:W3CDTF .
