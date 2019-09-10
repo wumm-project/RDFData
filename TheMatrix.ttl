@@ -8946,13 +8946,13 @@ odm:P05
     od:description "Fläche des beweglichen Objekts"@de ;
     od:hasParameterNumber "05" ;
     a od:Parameter ;
-    rdfs:label "Area of ​​moving object"@en, "Fläche des beweglichen Objekts"@de, "Площадь движущегося объекта"@ru .
+    rdfs:label "Area of moving object"@en, "Fläche des beweglichen Objekts"@de, "Площадь движущегося объекта"@ru .
 
 odm:P06
     od:description "Fläche des unbeweglichen Objekts"@de ;
     od:hasParameterNumber "06" ;
     a od:Parameter ;
-    rdfs:label "Area of ​​immovable object"@en, "Fläche des unbeweglichen Objekts"@de, "Площадь недвижимого объекта"@ru .
+    rdfs:label "Area of immovable object"@en, "Fläche des unbeweglichen Objekts"@de, "Площадь недвижимого объекта"@ru .
 
 odm:P07
     od:description "Volumen des beweglichen Objekts"@de ;

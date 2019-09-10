@@ -37,6 +37,11 @@ odp:Arutyunova_E
     a foaf:Person ;
     foaf:name "Ekaterina Arutyunova" .
 
+odp:Bakhturin_D
+    a foaf:Person ;
+    foaf:homepage <https://www.facebook.com/dmitriy.bakhturin> ;
+    foaf:name "Dmitri Bakhturin" .
+
 odp:Bezdel_Z
     a foaf:Person ;
     foaf:affil "IPMA, Менеджер проектов"@ru ;
@@ -60,7 +65,8 @@ odp:Bukhman_I
 odp:Chizhevskaya_N
     a foaf:Person ;
     foaf:affil "Преподаватель БГАИ, педагог дополнительного образования «ГУО ЦДОДиМ Виктория» г. Минска, Педагог дополнительного образования"@ru ;
-    foaf:name "Nataliya Chizhevskaya" .
+    foaf:homepage <https://www.facebook.com/profile.php?id=100009312245237> ;
+    foaf:name "Nataliya Chizhevskaya", "Наталия Чижевская"@ru .
 
 odp:Chuang_CT
     a foaf:Person ;
@@ -70,7 +76,7 @@ odp:Chuang_CT
 odp:Curikov_V
     a foaf:Person ;
     foaf:affil "True Machina, Главный архитектор интеллектульных систем"@ru ;
-    foaf:name "Valerij Curikov" .
+    foaf:name "Valerij Tsourikov" .
 
 odp:Devojno_I
     a foaf:Person ;
@@ -78,7 +84,8 @@ odp:Devojno_I
     foaf:name "Igor Devojno" .
 
 odp:Dobrusskin_C
-    a foaf:Person ;
+    a od:MatrizMember, foaf:Person ;
+    foaf:affil "Philips TRIZ Association, The Netherlands"@en ;
     foaf:homepage <https://innovationorigins.com/nl/tag/christoph-dobrusskin/> ;
     foaf:name "Christoph Dobrusskin" .
 
@@ -101,6 +108,11 @@ odp:Falkov_D
     a foaf:Person ;
     foaf:name "Dmitrii Falkov", "Dmitrij Falkov" .
 
+odp:Fedosov_JuI
+    a od:MatrizMember, foaf:Person ;
+    foaf:affil "St. Petersburg, Russia"@en ;
+    foaf:name "Ju. I. Fedosov" .
+
 odp:Fey_V
     od:affiliation "Altshuller Institute for TRIZ Studies" ;
     a foaf:Person ;
@@ -112,6 +124,11 @@ odp:Fomenko_A
     foaf:affil "Группа ГАЗ, Директор Департамента ТРИЗ"@ru ;
     foaf:name "Aleksej Fomenko" .
 
+odp:Fresner_J
+    a od:MatrizMember, foaf:Person ;
+    foaf:affil "TRIZ Campus Vienna, Vienna, Austria"@en ;
+    foaf:name "J. Fresner" .
+
 odp:Gerasimov_O
     a foaf:Person ;
     foaf:name "Oleg Gerasimov" .
@@ -119,9 +136,15 @@ odp:Gerasimov_O
 odp:Graebe_HG
     od:affiliation "Leipzig University, Germany" ;
     a foaf:Person ;
+    rdfs:seeAlso <https://orcid.org/0000-0002-3934-413X> ;
     foaf:affil "Leipzig University, Germany"@en ;
     foaf:homepage <http://bis.informatik.uni-leipzig.de/HansGertGraebe>, <https://www.facebook.com/hg.graebe> ;
-    foaf:name "Hans-Gert Gräbe", "Hans-Gert Gräbe"@de .
+    foaf:name "Hans-Gert Gräbe" .
+
+odp:Gredynarov_I
+    a od:MatrizMember, foaf:Person ;
+    foaf:affil "Ukrainian TRIZ Association, Ukraina"@en ;
+    foaf:name "Igor Gredynarov" .
 
 odp:Gronauer_B
     a foaf:Person ;
@@ -148,6 +171,11 @@ odp:Hiltmann_K
     a foaf:Person ;
     foaf:affil "FH Coburg, Germany" ;
     foaf:name "Kai Hiltmann", "Kai Hiltmann"@de .
+
+odp:Holtz_V
+    a od:MatrizMember, foaf:Person ;
+    foaf:affil "Intel Corporate TRIZ Chapter, USA"@en ;
+    foaf:name "Vendetta Holtz" .
 
 odp:Horenyan_R
     a foaf:Person ;
@@ -219,6 +247,7 @@ odp:Kucharavy_D
 odp:Kuryan_A
     a foaf:Person ;
     foaf:affil "EPAM Systems, TRIZ trainer, Innovation consultant"@en ;
+    foaf:homepage <https://www.facebook.com/andrew.kuryan> ;
     foaf:name "Andrei Kuryan" .
 
 odp:Lautenschlaeger_S
@@ -238,10 +267,9 @@ odp:Lin_YJ
     foaf:name "Youn Jan Lin" .
 
 odp:Litvin_S
-    od:affiliation "International TRIZ Association (MATRIZ)" ;
-    a foaf:Person ;
-    foaf:affil "International TRIZ Association (MATRIZ)" ;
-    foaf:name "Simon Litvin"@en .
+    a od:MatrizMember, foaf:Person ;
+    foaf:affil "International TRIZ Association (MATRIZ), Boston, USA"@en ;
+    foaf:name "Simon Litvin" .
 
 odp:Livotov_P
     a foaf:Person ;
@@ -266,7 +294,7 @@ odp:Naehler_T
 odp:Nesterenko_A
     a foaf:Person ;
     foaf:affil "ПКИРО (Владивосток), ГБОУ г. Москвы «Школа № 2101 «Филевский образовательный центр», доцент, методист"@ru ;
-    foaf:name "Alla Nesterenko" .
+    foaf:name "Alla Nesterenko", "Алла Нестеренко"@ru .
 
 odp:Neumuth_T
     a foaf:Person ;
@@ -292,7 +320,8 @@ odp:Petrov_VM
     od:affiliation "International TRIZ Association (MATRIZ)" ;
     a foaf:Person ;
     foaf:affil "Innovation Technology"@en, "International TRIZ Association (MATRIZ)" ;
-    foaf:name "Vladimir Michailovich Petrov"@en, "Vladimir Petrov", "Владимир Михайлович Петров"@ru .
+    foaf:homepage <https://www.facebook.com/vladimir.petrov.triz> ;
+    foaf:name "Vladimir Petrov", "Владимир Михайлович Петров"@ru .
 
 odp:Podobed_I
     a foaf:Person ;
@@ -302,7 +331,7 @@ odp:Podobed_I
 odp:Pokalo_E
     a foaf:Person ;
     foaf:affil "Business Association TRIZ" ;
-    foaf:homepage <http://batriz.ru/>, <http://bmtriz.ru/> ;
+    foaf:homepage <http://batriz.ru/>, <http://bmtriz.ru/>, <https://www.facebook.com/evgeny.pokalo> ;
     foaf:name "Evgenij Pokalo", "Евгений Покало"@ru .
 
 odp:Prosvetova_N
@@ -313,18 +342,24 @@ odp:Prosvetova_N
 odp:Redkolis_E
     a foaf:Person ;
     foaf:affil "АО «Научно-промышленные консультанты», Руководитель проекта"@ru ;
+    foaf:homepage <https://www.facebook.com/eredkolis> ;
     foaf:name "Elena Redkolis", "Елена Валерьевна Редколис"@ru .
 
 odp:Rubin_M
     od:affiliation "International TRIZ Association (MATRIZ)" ;
     a foaf:Person ;
     foaf:affil "International TRIZ Association (MATRIZ)", "РУСАЛ Глобал Менеджмент, Руководитель группы проектов Дирекции по ТРИЗ"@ru ;
-    foaf:name "Mikhail Rubin"@en, "Mikhail Rubin "@en .
+    foaf:homepage <https://www.facebook.com/mihail.rubin> ;
+    foaf:name "Mikhail Rubin"@en, "Михаил Семенович Рубин"@ru .
 
 odp:Rubina_NV
     a foaf:Person ;
     foaf:affil "ОО «Саммит разработчиков ТРИЗ», Руководитель проекта «Кубок ТРИЗ Саммита»"@ru ;
     foaf:name "Nataliya Rubina", "Наталия Викторовна Рубина"@ru .
+
+odp:Ruin_A
+    a foaf:Person ;
+    foaf:name "Aleksei Ruin" .
 
 odp:Ryabchuk_A
     a foaf:Person ;
@@ -337,10 +372,30 @@ odp:Saunin_N
     foaf:affil "АО «НПК», Руководитель направления, Дирекция по ТРИЗ"@ru ;
     foaf:name "Nikolaj Saunin" .
 
+odp:Schinnikov_A
+    a foaf:Person ;
+    foaf:affil "Директор методологии, ТРИЗ центр инновационного лидерства и конфликторинга Саратов"@ru ;
+    foaf:homepage <https://www.facebook.com/ashinnikov> ;
+    foaf:name "Alexey Schinnikov", "Алексей Щинников"@ru .
+
 odp:Schollmeyer_J
     a foaf:Person ;
     foaf:homepage <https://leibniz-institut.de/justus-schollmeyer/> ;
     foaf:name "Justus Schollmeyer" .
+
+odp:Schusterman_MN
+    a od:MatrizMember, foaf:Person ;
+    rdfs:comment """Мастер ТРИЗ, закончил ЛЭТИ им. Ульянова (Ленина) в 1972г., 
+Образование высшее Инженер электрик
+- преподает ТРИЗ инженерам Норильского комбината с 1980г.,
+- преподает ТРИЗ школьникам с 1982г.,
+- впервые в стране начал преподавать дошкольную ТРИЗ с 1987 года
+- педагог дополнительного образования ТОУ \"ТРИЗ\" МБУДО \"СЮТ\", г. Норильска,
+автор книг для детей и родителей, выходящих с 1991 года общим тиражом свыше 130 000 экз (на 2018 год).
+Обучивший на 40 часовых семинарах свыше 5000 воспитателей и педагогов
+с 1988 по 1991 годы в разных городах СССР"""@ru ;
+    foaf:affil "TRIZ School Norilsk, Russia"@en ;
+    foaf:name "Michail Naumovich Schusterman", "Михаил Наумович Шустерман"@ru .
 
 odp:Severinec_G
     a foaf:Person ;
@@ -358,6 +413,10 @@ odp:Shpakovskij_N
     foaf:homepage <http://www.target-invention.com> ;
     foaf:name "Nikolaj Shpakovskij" .
 
+odp:Simakov_S
+    a foaf:Person ;
+    foaf:name "Sergey Simakov" .
+
 odp:Skuratovich_А
     a foaf:Person ;
     foaf:affil "ОАО «АМКОДОР - управляющая компания холдинга», Руководитель проекта по оптимизации бизнес-процессов"@ru ;
@@ -373,11 +432,15 @@ odp:Solodkin_A
     foaf:affil "Consultant, Minsk, Belarus" ;
     foaf:name "Alexander Solodkin" .
 
-odp:Sushkov_V
+odp:Souchkov_V
     a foaf:Person ;
     foaf:affil "ICG Training & Consulting, Управляющий Директор"@ru ;
     foaf:homepage <https://www.facebook.com/valeri.souchkov> ;
     foaf:name "Valeri Souchkov" .
+
+odp:Stroganov_B
+    a foaf:Person ;
+    foaf:name "Boris Stroganov" .
 
 odp:Sysoev_S
     a foaf:Person ;

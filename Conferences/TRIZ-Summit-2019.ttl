@@ -24,6 +24,8 @@
     dcterms:abstract "- The author’s experience in using various TRIZ tools in IT companies is outlined. <br/> - Traditional TRIZ tools adapted for information technology are outlined. <br/> - Most from the materials are described in different books of the author. "@en, "- Излагается опыт автора в использовании различных инструментов ТРИЗ в компаниях ИТ.<br/>- Излагаются традиционные и адаптированные под информационные технологии инструменты ТРИЗ.<br/>- Большинство из метериалов изложены в разных книгах автора."@ru ;
     dcterms:creator odp:Petrov_VM ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/519> ;
+    od:urlPaper <http://triz-summit.ru/file.php/id/f304863-file-original.pdf> ;
+    od:urlPaper <http://triz-summit.ru/file.php/id/f304862-file-original.pdf> ;
     dcterms:title "Using TRIZ tools in IT"@en, "Использование инструментов ТРИЗ в IT"@ru ;
     a od:Talk .
 
@@ -32,6 +34,8 @@
     dcterms:abstract "We will get acquainted with the approach to solving inventive problems developed during the Samsung Advanced Institute of Technology. Taking into account the experience of practical consulting, an algorithm for correcting problem situations has been developed and repeatedly tested which turned out to be very effective for solving real problems of the company. The report will show the analysis of the problems solved for the SAMSUNG Group. "@en, "Мы познакомимся с подходом к решению изобретательских заадч, выработанном за время работы на Samsung Advanced Institute of Technology. С учетом опыта практического консалтинга был разработан и многократно проверен алгоритм исправления проблемных ситуаций, оказавшийся весьма эффективным именно для решения реальных задач компании. В докладе будут показаны разборы задач, решенных для SAMSUNG Group."@ru ;
     dcterms:creator odp:Shpakovskij_N ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/520> ;
+    od:urlVideo <https://youtu.be/QtPhiRp8sk8> ; 
+    od:urlSlides <http://wumm.uni-leipzig.de/Presentations/Shpakovskij-20190713b.pdf> ;
     dcterms:title "OTSM-TRIZ approach to solving inventive problems. SAMSUNG SAIT experience"@en, "Подход ОТСМ-ТРИЗ к решению изобретательских задач. Опыт SAMSUNG SAIT"@ru ;
     a od:Talk .
 
@@ -55,9 +59,8 @@
 :Talk_523
     swc:relatedToEvent track:Business ;
     dcterms:abstract "Why TRIZ can be successfully applied to solving business and management problems. Categories of business innovation. Basic TRIZ tools that are used to solve business and management problems."@en, "Почему ТРИЗ можно успешно применять к решению проблем бизнеса и управления. Категории бизнес-инноваций. Основные инструменты ТРИЗ, которые применяются для решения проблем бизнеса и управления."@ru ;
-    dcterms:creator odp:Sushkov_V ;
+    dcterms:creator odp:Souchkov_V ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/523> ;
-    od:urlPaper <http://triz-summit.ru/file.php/id/f304798-file-original.pdf> ;
     dcterms:title "TRIZ for solving business problems and innovations in business and management"@en, "ТРИЗ для решения бизнес проблем и инноваций в бизнесе и управлении"@ru ;
     a od:Talk .
 
@@ -83,6 +86,7 @@
     dcterms:creator odp:Petrov_VM, odp:Rubin_M ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/527> ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304801-file-original.pdf> ;   
+    od:urlVideo <https://youtu.be/Cgk0PMsx52Q> ; 
     dcterms:title "15 years of TRIZ summit"@en, "15 лет ТРИЗ саммиту"@ru ;
     a od:Talk .
 
@@ -92,13 +96,15 @@
     dcterms:creator odp:Curikov_V ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/528> ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304802-file-original.pdf> ;
+    od:urlVideo <https://youtu.be/0by8g0G0HRI> ; 
     dcterms:title "30 years of the project \"Invention machine\""@en, "30 лет проекту \"Изобретающая машина\""@ru ;
     a od:Talk .
 
 :Talk_529
     swc:relatedToEvent track:PT ;
-    dcterms:creator odp:Sushkov_V ;
+    dcterms:creator odp:Souchkov_V ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/529> ;
+    od:urlPaper <http://triz-summit.ru/file.php/id/f304798-file-original.pdf> ;
     dcterms:title "TRIZ for business and management: the current state"@en, "ТРИЗ для бизнеса и управления: современное состояние"@ru ;
     a od:Talk .
 
@@ -123,6 +129,7 @@
     dcterms:abstract "The system of assessment and improvement of the level of assimilation of TRIZ tools \"IKAR and DEDAL\" is intended for self-evaluation of specialists of their level of TRIZ knowledge, provides objective information about the qualification of a TRIZ specialist and recommendations to raise it. The report presents the components of the system, in particular, the classification of TRIZ tools, the register of issued certificates, the methodology for assessing the level of knowledge of TRIZ. The system involves certification in the following areas: engineering, business, information technology, aktika (teachers), juniors. Will be presented the development of a referral system «IKAR and DEDAL» "@en, "Система оценки и повышения уровня усвоения инструментов ТРИЗ «ИКАР и ДЕДАЛ» предназначена для самооценки специалистов их уровня знаний по ТРИЗ, предоставляет объективную информацию о квалификации специалиста в области ТРИЗ и рекомендации по ее повышению. В докладе будут представлены составляющие системы, в частности, классификация инструментов ТРИЗ, реестр выданных сертификатов, методика оценки уровня знания по ТРИЗ. Система предполагает сертификацию по направлениям: техника, бизнес, информационные технологии, дидактика (преподаватели), юниоры. Будут представлены направления развития системы «ИКАР и ДЕДАЛ»"@ru ;
     dcterms:creator odp:Gerasimov_O, odp:Rubin_M ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/574> ;
+    od:urlPaper <http://triz-summit.ru/file.php/id/f304861-file-original.pdf> ;
     dcterms:title "On the development of a system for evaluating and improving the level of assimilation of TRIZ“ ICAR and DEDAL ”tools"@en, "О развитии системы оценки и повышения уровня усвоения инструментов ТРИЗ «ИКАР и ДЕДАЛ»"@ru ;
     a od:Talk .
 
@@ -228,7 +235,6 @@
     dcterms:abstract "Authors V. Petrov, P. Amnuel. Master class and report. <br/> The book deals with situations in which Alice from Carroll's fairy tales falls from the point of view of TRIZ explanations that are given by the boy from the future Alik, who accompanies Alice in all her adventures. <br/> The report explains how to use this book more efficiently. The book consists of three parts: <br/> 1. The main book \"book for children \". <br/> 2. A notebook for recording children's decisions. <br/> 3. A book for parents and teachers."@en, "Авторы В. Петров, П. Амнуэль. Мастер класс и доклад.<br/>В книге разбираются ситуации, в которые попадает Алиса из сказок Кэрролла с точки зрения ТРИЗ. Пояснения дает мальчик из будущего Алик, который сопровождает Алису во всех ее приключения.<br/>В докладе поясняется, как эффективнее использовать эту книгу. Книга состоит из трех частей:<br/>1. Основная книга \"книга для детей\".<br/>2. Тетрадь для записей решений детей.<br/>3. Книга для родителей и педагогов."@ru ;
     dcterms:creator odp:Amnuel_P, odp:Petrov_VM ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/586> ;
-    od:urlPaper <http://triz-summit.ru/file.php/id/f304840-file-original.pdf> ;
     dcterms:title "Teaching children of TRIZ based on the book \"Alice and Alik's Adventures\""@en, "Обучение детей ТРИЗ по книге \"Приключение Алисы и Алика\""@ru ;
     a od:Talk .
 
@@ -311,7 +317,7 @@
     a od:Talk .
 
 :Talk_606
-    swc:relatedToEvent track:Business ;
+    swc:relatedToEvent track:PT ;
     dcterms:abstract "In most cases, customers do not want to own products, but rather are trying to get jobs done. This universal phenomenon means that nearly every industry is embarking on a shift from product to service. Currently service innovation is done predominantly by trial and error. This presentation will exhibit the new SI toolkit designed specifically for the service sector, and will describe a number of real-life case studies from leading-edge service enterprises in the tourism, automotive, aerospace and ICT sectors."@en ;
     dcterms:creator odp:Mann_D ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/606> ;
@@ -330,7 +336,7 @@
 :Talk_608
     swc:relatedToEvent track:Business ;
     dcterms:abstract "It is well known that one of the major pillars of TRIZ foundations is that technical systems and engineering technologies develop due to certain laws and trends of innovative development (often called evolution of technical systems). Can similar patterns be found in the development of business systems and business services? The paper presents how the trend of transition to the supersystem, specifically a line of monpo-bi-poly evolutions can be applied in the area of innovating business services."@en ;
-    dcterms:creator odp:Sushkov_V ;
+    dcterms:creator odp:Souchkov_V ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/608> ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304822-file-original.pdf> ;
     dcterms:title "Service Innovation: Moving to a super-system"@en, "Инновации сервисов: Переход в надсистему"@ru ;
@@ -382,7 +388,7 @@
 :Talk_615
     swc:relatedToEvent track:IT ;
     dcterms:abstract "Today, the development and transformation of TRIZ continues in the following directions: <br/> Creating new tools and improving existing concepts of TRIZ. Integration of TRIZ with other areas of knowledge (for example, design thinking, product development and management, lean manufacturing, development of business systems). In the course of this integration, it is necessary to combine concepts and models of TRIZ with concepts belonging to other areas. Development of TRIZ education systems and assessment of knowledge. Due to their limited content, existing dictionaries and glossaries on TRIZ terminology do not provide much help with the development of TRIZ in the above described areas. Is the ontology of TRIZ able to eliminate the inadequacy of these dictionaries and glossaries in order to improve the development process of TRIZ by establishing relationships between concepts and models of TRIZ? <br/> This report presents an approach aimed at the development, application and support of the TRIZ ontology. "@en, "На сегодняшний день, разработка и преображение ТРИЗ продолжаются в следующих направлениях:<br/>Создание новых инструментов и улучшение существующих концепций ТРИЗ. Интеграция ТРИЗ с другими областями знаний (например, проектировочное мышление, разработка и управление продукцией, бережливое производство, разработка бизнес-систем). В ходе данной интеграции появляется необходимость совмещения концепций и моделей ТРИЗ с концепциями, принадлежащими к другим областям. Разработка систем Образования ТРИЗ и оценка знаний и навыков ТРИЗ.<br/>По причине их ограниченного содержания, существующие словари и глоссарии по терминологии ТРИЗ не оказывают большой помощи с развитием ТРИЗ в вышеописанных направлениях. Способна ли онтология ТРИЗ устранить неполноценность данных словарей и глоссариев, чтобы улучшить процесс развития ТРИЗ путем установки взаимосвязей между концепциями и моделями ТРИЗ?<br/>Данный отчет представляет подход, направленный на развитие, применение и поддержку онтологии ТРИЗ."@ru ;
-    dcterms:creator odp:Kucharavy_D, odp:Kuryan_A, odp:Sushkov_V ;
+    dcterms:creator odp:Kucharavy_D, odp:Kuryan_A, odp:Souchkov_V ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304808-file-original.pdf> ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/615> ;
     dcterms:title "TRIZ Ontology"@en, "Онтология ТРИЗ"@ru ;
@@ -486,7 +492,7 @@
 
 :Talk_859
     swc:relatedToEvent track:IT ;
-    dcterms:creator odp:Han_B, odp:Kozhemyako_A, odp:Mann_D, odp:Sushkov_V ;
+    dcterms:creator odp:Han_B, odp:Kozhemyako_A, odp:Mann_D, odp:Souchkov_V ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/859> ;
     dcterms:title "Panel discussion"@en, "Панельная дискуссия"@ru ;
     a od:Talk .
@@ -510,13 +516,13 @@ track:PT
 :Talk_1001
     dcterms:creator odp:Mann_D ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304816-file-original.pdf> ; 
-    dcterms:title "COBRA+: A Systematic (Service) Innovation Process" ;
-    dcterms:abstract "Additional material, not presented at the conference" ;  
+    dcterms:title "COBRA+: A Systematic (Service) Innovation Process"@en ;
+    dcterms:abstract "Additional material, not presented at the conference"@en ;  
     a od:Talk .
 
 :Talk_1002
     dcterms:creator odp:Khorenyan_R, odp:Koblents_P, odp:Falkov_D, odp:Martsinovskii_G ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304818-file-original.pdf> ;
-    dcterms:title "Solving non-digital problems for digital transformation" ;
-    dcterms:abstract "Additional material, not presented at the conference" ;  
+    dcterms:title "Solving non-digital problems for digital transformation"@en ;
+    dcterms:abstract "Additional material, not presented at the conference"@en ;  
     a od:Talk .

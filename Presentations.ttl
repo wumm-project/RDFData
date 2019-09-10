@@ -1,0 +1,191 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix odp: <http://opendiscovery.org/rdf/Person/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+
+<http://opendiscovery.org/Data/Presentations/> a owl:Ontology ;
+   cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
+   cc:attributionURL <http://opendiscovery.org> ;
+   cc:attributionName "The Open Discovery Project" ;
+   rdfs:label "Open Discovery Collection of Presentations" ;
+   owl:imports <http://opendiscovery.org/rdf/People/>.
+
+od:Presentation a owl:Class ;
+   rdfs:label "DCMI Metarecord of a Presentation" .
+
+<http://opendiscovery.org/rdf/Presentation/Shpakovskij-20190713a>
+  a od:Presentation ;
+  dcterms:creator odp:Shpakovskij_N ;
+  dcterms:title "ТРИЗ в современном мире"@ru, "TRIZ in the modern world"@en ;
+  od:urlSlides <http://wumm.uni-leipzig.de/Presentations/Shpakovskij-20190713a.pdf> ;
+  dcterms:rights "Apache 2.0 License" ;
+  dcterms:extent "164 slides" ;
+  dcterms:format <http://www.iana.org/assignments/media-types/application/pdf> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ; 
+  dcterms:issued "2019"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Shpakovskij-20190713b>
+  a od:Presentation ;
+  dcterms:creator odp:Shpakovskij_N ;
+  dcterms:title  "Training of company specialists in time pressure"@en, "Обучение специалистов компаний в условиях дефицита времени"@ru ;
+  od:urlSlides <http://wumm.uni-leipzig.de/Presentations/Shpakovskij-20190713b.pdf> ;
+  dcterms:rights "Apache 2.0 License" ;
+  dcterms:extent "41 slides" ;
+  dcterms:format <http://www.iana.org/assignments/media-types/application/pdf> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ; 
+  dcterms:issued "2019"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Graebe-20190529>
+  a od:Presentation ;
+  dcterms:creator odp:Graebe_HG ;
+  dcterms:title  "The WUMM Project. TRIZ and Innovation Management"@en ;
+  dcterms:abstract "Short presentation at the IHK business meeting with partners from Ukraine and Belarus on May 29, 2019"@en ; 
+  od:urlSlides <http://wumm.uni-leipzig.de/Presentations/Graebe-20190529.pdf> ;
+  dcterms:rights "Apache 2.0 License" ;
+  dcterms:extent "7 slides" ;
+  dcterms:format <http://www.iana.org/assignments/media-types/application/pdf> ; 
+  dcterms:language "en"^^dcterms:RFC4646 ; 
+  dcterms:issued "2019"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Graebe-20190522>
+  a od:Presentation ;
+  dcterms:creator odp:Graebe_HG ;
+  dcterms:title  "The WUMM Project. Semantic Data and Innovation Management"@en ;
+  dcterms:abstract "Presentation at the Leipzig Semantic Web Day on May 22, 2019"@en ; 
+  od:urlSlides <http://wumm.uni-leipzig.de/Presentations/Graebe-20190522.pdf> ;
+  dcterms:rights "Public domain" ;
+  dcterms:extent "13 slides" ;
+  dcterms:format <http://www.iana.org/assignments/media-types/application/pdf> ; 
+  dcterms:language  "en"^^dcterms:RFC4646 ; 
+  dcterms:issued "2019-05-22"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Graebe-Wegemodell>
+  a od:Presentation ;
+  dcterms:creator odp:Graebe_HG ;
+  dcterms:title  "Das ProHEAL Wegemodell"@de, "The ProHEAL Path Model"@en ;
+  dcterms:abstract "Presentation given at the Leipzig Seminar on April 04, 2019"@en ; 
+  od:urlSlides <http://wumm.uni-leipzig.de/Presentations/Graebe-Wegemodell.pdf> ;
+  dcterms:rights "Apache 2.0 License" ;
+  dcterms:extent "7 slides" ;
+  dcterms:format <http://www.iana.org/assignments/media-types/application/pdf> ; 
+  dcterms:language  "de"^^dcterms:RFC4646 ; 
+  dcterms:issued "2019-04-04"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Souchkov-20190725>
+  a od:Presentation ;
+  dcterms:creator odp:Souchkov_V ;
+  dcterms:title  "Навыки мышления в малом и среднем бизнесе. Системное мышление"@ru, "Thinking skills in small and medium business. Systemic thinking"@en ;
+  dcterms:abstract "Interview given to Alexei Schinnikov from the Saratov TRIZ Club on July 25, 2019"@en ; 
+  od:urlVideo <https://www.youtube.com/watch?v=ubgvcjzhs3g> ;
+  dcterms:rights "Youtube Standard License" ;
+  dcterms:extent "01:27:10 h" ;
+  dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  rdfs:comment "Published via Souchkov's facebook channel"@en ; 
+  dcterms:issued "2019-07-25"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Souchkov-20190722>
+  a od:Presentation ;
+  dcterms:creator odp:Souchkov_V ;
+  dcterms:title  "ТРИЗ для развития малого и среднего бизнеса"@ru, "TRIZ for the development of small and medium-sized businesses"@en ;
+  dcterms:abstract "Interview given to Alexei Schinnikov from the Saratov TRIZ Club on July 22, 2019"@en ; 
+  od:urlVideo <https://www.youtube.com/watch?v=2cfx3qJZJJ4> ;
+  dcterms:rights "Youtube Standard License" ;
+  dcterms:extent "01:27:00 h" ;
+  dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  rdfs:comment "Published via Souchkov's facebook channel"@en ; 
+  dcterms:issued "2019-07-22"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Souchkov-20190727>
+  a od:Presentation ;
+  dcterms:creator odp:Souchkov_V ;
+  dcterms:title  "Прорывное мышление в малом и среднем бизнес. ТРИЗ для предпринимателей"@ru, "Breakthrough thinking in small and medium-sized businesses. TRIZ for business"@en ;
+  dcterms:abstract "Interview given to Alexei Schinnikov from the Saratov TRIZ Club on July 27, 2019"@en ; 
+  od:urlVideo <https://www.youtube.com/watch?v=srh23Ug6D6s> ;
+  dcterms:rights "Youtube Standard License" ;
+  dcterms:extent "01:11:40 h" ;
+  dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  rdfs:comment "Published via Souchkov's facebook channel, accompanied by a large discussion over there"@en ; 
+  dcterms:issued "2019-07-27"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Souchkov-20190813>
+  a od:Presentation ;
+  dcterms:creator odp:Souchkov_V ;
+  dcterms:title  "Абстрактное мышление в малом и среднем бизнесе"@ru, "Abstract thinking in small and medium business"@en ;
+  dcterms:abstract "Очередной, третий эпизод бесед о инновационном мышлении. В этот раз речь идет об абстрактном мышлении. Как всегда, привожу примеры из личного опыта работы с клиентскими организациями и делюсь идеями, возникшими в результате многочисленных встреч с инноваторами из совершенно разных областей техники и бизнеса."@ru, "Interview given to Alexei Schinnikov from the Saratov TRIZ Club on August 13, 2019"@en ; 
+  od:urlVideo <https://www.youtube.com/watch?v=X9tHu1czb7c> ;
+  dcterms:rights "Youtube Standard License" ;
+  dcterms:extent "01:21:07 h" ;
+  dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  rdfs:comment "Published via Souchkov's facebook channel"@en ; 
+  dcterms:issued "2019-08-13"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Souchkov-20190819>
+  a od:Presentation ;
+  dcterms:creator odp:Souchkov_V ;
+  dcterms:title  "Обострение требований в малом и среднем бизнесе. Инновационное мышление ТРИЗ"@ru, "Aggravation of requirements in small and medium-sized businesses. TRIZ as innovative thinking"@en ;
+  dcterms:abstract "Четвертый выпуск в серии \"Инновационное мышление\". В этот раз речь идет о поисках новых идей и борьбе с психологической инерцией с помощью обострения противоречий и мысленных экспериментов с радикальными изменениями значений свойств и параметров."@ru, "The fourth issue in the series \"Innovative Thinking\". This time we are talking about the search for new ideas and the fight against psychological inertia by exacerbating contradictions and mental experiments with radical changes in the values of properties and parameters. Another interview given to Alexei Schinnikov from the Saratov TRIZ Club on August 19, 2019"@en ; 
+  od:urlVideo <https://www.youtube.com/watch?v=4MRtONIOv4M> ;
+  dcterms:rights "Youtube Standard License" ;
+  dcterms:extent "00:59:33 h" ;
+  dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  rdfs:comment "Published via Souchkov's facebook channel"@en ; 
+  dcterms:issued "2019-08-19"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Litvin-20171101>
+  a od:Presentation ;
+  dcterms:creator odp:Litvin_S ;
+  dcterms:title  "Новые ТРИЗ инструменты (актуальные разработки компании GEN-TRIZ)"@ru, "New TRIZ tools (current developments of GEN-TRIZ company)"@en ;
+  dcterms:abstract "Краткое изложение работы, которая имеет название: Как компьютер может сам изобретать (то есть Методы изобретательства, с помощью которых три программиста легко могут составить программы, посредством которых компьютер может сам изобрести много изобретений)."@ru, "Summary of the work on the theme how a computer can invent (i.e., about methods of invention, that allow three programmers easily to create programs by which a computer can create many inventions)."@en ;
+  od:urlVideo <https://www.youtube.com/watch?v=BPpTNC2QOh0> ;
+  dcterms:rights "Youtube Standard License" ;
+  dcterms:extent "02:40:12 h" ;
+  dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  dcterms:issued "2017-11-01"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Nesterenko-20190619>
+  a od:Presentation ;
+  dcterms:creator odp:Nesterenko_A ;
+  dcterms:title  "ОТСМ-ТРИЗ как источник дидактических инструментов для обучения управлению"@ru, "OTSM-TRIZ as a source of didactic tools for management training"@en ;
+  dcterms:abstract "Встреча Московского ТРИЗ Клуба 19.06.2019"@ru, "Meeting of the Moscow TRIZ Club on June 19, 2019."@en ;
+  od:urlVideo <https://www.youtube.com/watch?v=JmploJo2XRA> ;
+  dcterms:rights "Youtube Standard License" ;
+  dcterms:extent "02:20:36 h" ;
+  dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  dcterms:issued "2019-06-21"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Schusterman-20190809>
+  a od:Presentation ;
+  dcterms:creator odp:Schusterman_MN ;
+  dcterms:title  "Уровни схемы талантливого мышления с 1 по 5"@ru, "Talented Thinking at Levels 1 through 5"@en ;
+  dcterms:abstract "Youtube video recorded by the TRIZ master M.N.Schusterman (Norislk). Application of TRIZ to general thought processes, especially in childhood"@en ;
+  od:urlVideo <https://www.youtube.com/watch?v=m1hKpd8vizU> ;
+  dcterms:rights "Youtube Standard License" ;
+  dcterms:extent "36:13 h" ;
+  dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  dcterms:issued "2019-08-09"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Souchkov-20190825>
+  a od:Presentation ;
+  dcterms:creator odp:Souchkov_V ;
+  dcterms:title  "Нелинейное мышление в малом и среднем бизнесе"@ru, "Nonlinear thinking in small and medium business"@en ;
+  dcterms:abstract "Fifth issue in the series \"Innovative Thinking\". Another interview given to Alexei Schinnikov from the Saratov TRIZ Club on August 25, 2019"@en ; 
+  od:urlVideo <https://www.youtube.com/watch?v=ZWexPVGQHtk> ;
+  dcterms:rights "Youtube Standard License" ;
+  dcterms:extent "01:22:44 h" ;
+  dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  rdfs:comment "Published via Souchkov's facebook channel"@en ; 
+  dcterms:issued "2019-08-25"^^dcterms:W3CDTF .
