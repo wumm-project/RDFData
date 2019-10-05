@@ -286,7 +286,7 @@ odp:Martinovskij_G
     foaf:affil "EPAM Systems, Главный бизнес консультант"@ru ;
     foaf:name "Georgij Martinovskij" .
 
-odp:Naehler_T
+odp:Naehler_HT
     a foaf:Person ;
     foaf:affil "c4pi – Center for Product-Innovation, Hünfeld, Germany" ;
     foaf:name "Horst Thomas Nähler" .
