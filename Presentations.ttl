@@ -76,6 +76,19 @@ od:Presentation a owl:Class ;
   dcterms:language  "de"^^dcterms:RFC4646 ; 
   dcterms:issued "2019-04-04"^^dcterms:W3CDTF .
 
+<http://opendiscovery.org/rdf/Presentation/Souchkov-20191006>
+  a od:Presentation ;
+  dcterms:creator odp:Souchkov_V ;
+  dcterms:title  "Ресурсное мышление в малом и среднем бизнесе"@ru, "Resource Thinking in Small and Medium Businesses"@en ;
+  dcterms:abstract "New video in the series “Skills of innovative thinking” - this time we are talking about resource thinking. Although I recently found out that in the Russian-speaking space the phrase “resource thinking” has a negative connotation. But it is precisely the ability to see and rationally use the “right” resources to achieve their goals that allows entrepreneurs to create the most effective and close to ideal solutions. Another interview given to Alexei Schinnikov from the Saratov TRIZ Club"@en ; 
+  od:urlVideo <https://www.youtube.com/watch?v=f6sG-ew9Gzw> ;
+  dcterms:rights "Youtube Standard License" ;
+  dcterms:extent "01:16:01 h" ;
+  dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  rdfs:comment "Published via Souchkov's facebook channel"@en ; 
+  dcterms:issued "2019-10-06"^^dcterms:W3CDTF .
+
 <http://opendiscovery.org/rdf/Presentation/Souchkov-20190725>
   a od:Presentation ;
   dcterms:creator odp:Souchkov_V ;
