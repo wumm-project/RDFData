@@ -27,7 +27,7 @@ odp:Ageed_S
 odp:Amnuel_P
     a foaf:Person ;
     foaf:affil "художественно-публицистический журнал «Млечный Путь» и одноименное издательство, редактор"@ru ;
-    foaf:name "Pavel Amnuel'" .
+    foaf:name "Pavel Amnuel'", "Песах Рафаилович Амнуэль"@ru .
 
 odp:Arutyunov_Y
     a foaf:Person ;
@@ -98,6 +98,10 @@ odp:Dusmikeev_A
     a foaf:Person ;
     foaf:affil "Компания МедиуМ, бренд SolarEnrg, Директор"@ru ;
     foaf:name "Andrei Dusmikeev" .
+
+odp:Dyachenko_A
+    a foaf:Person ;
+    foaf:name "Andrei Dyachenko", "Андрей Петрович Дьяченко"@ru .
 
 odp:Eckardt_O
     a foaf:Person ;
