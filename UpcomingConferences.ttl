@@ -1,0 +1,27 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix odp: <http://opendiscovery.org/rdf/Person/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://opendiscovery.org/rdf/UpcomingConferences/>
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
+    a owl:Ontology ;
+    rdfs:label "TSN: Upcoming Conferences" ;
+    owl:imports <http://opendiscovery.org/rdf/ConferenceSeries/>, <http://opendiscovery.org/rdf/People/> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit> ;
+    rdfs:label "TRIZ Summit 2019 in Minsk" ;
+    ical:description "TRIZ Summit 2019 in Minsk" ;
+    ical:dtend "2019-06-13"^^xsd:date ;
+    ical:dtstart "2019-06-15"^^xsd:date ;
+    ical:location "EPAM, Minsk, Belarus" ;
+    ical:url <https://communities.by/events/triz-summit-2019-ru> .

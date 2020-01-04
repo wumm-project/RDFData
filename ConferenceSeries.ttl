@@ -1,0 +1,31 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+<http://opendiscovery.org/rdf/ConferenceSeries/> a owl:Ontology ;
+    rdfs:label "TSN: Conference Series" ;
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://www.apache.org/licenses/LICENSE-2.0> .
+
+<http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit>
+    a od:ConferenceSeries ;
+    rdfs:label "TRIZ Developers Summit" ;
+    rdfs:seeAlso <https://triz-summit.ru/en/conference/> ;
+    od:description "This series of conferences is organized by the TRIZ Developers Summit Council." .
+
+<http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future>
+    a od:ConferenceSeries ;
+    rdfs:label "TRIZ Developer Summit" ;
+    rdfs:seeAlso <http://etria.eu/portal/index.php/past-etria-conferences-mainmenu-67> ;
+    od:description "This series of conferences is organized by ETRIA." .
+
+<http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest>
+    a od:ConferenceSeries ;
+    rdfs:label "TRIZ-Fest" ;
+    rdfs:seeAlso <https://matriz.org> ;
+    od:description "This series of meetings is organized by MATRIZ." .

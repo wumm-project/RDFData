@@ -1,0 +1,232 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://opendiscovery.org/rdf/PastConferences/>
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
+    a owl:Ontology ;
+    rdfs:label "TSN: Past Conferences" ;
+    owl:imports <http://opendiscovery.org/rdf/ConferenceSeries/>, <http://opendiscovery.org/rdf/People/> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2019/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
+    rdfs:label "TRIZ Future 2019" ;
+    ical:description "ETRIA World Conference TRIZ Future 2019. New opportunities for innovation breakthroughs for developing countries and emerging economies" ;
+    ical:dtend "2019-10-11"^^xsd:date ;
+    ical:dtstart "2019-10-09"^^xsd:date ;
+    ical:location "Marrakesh, Morocco" ;
+    od:theProceedings <https://link.springer.com/book/10.1007/978-3-030-32497-1> ; 
+    ical:url <http://tfc19.ovh> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit> ;
+    rdfs:label "TRIZ Summit 2019 in Minsk" ;
+    ical:description "TRIZ Summit 2019 in Minsk" ;
+    ical:dtend "2019-06-15"^^xsd:date ;
+    ical:dtstart "2019-06-13"^^xsd:date ;
+    ical:location "EPAM, Minsk, Belarus" ;
+    od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZ-Summit-2019.rdf> ; 
+    ical:url <https://communities.by/events/triz-summit-2019-ru> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2018/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
+    rdfs:label "TRIZ Future 2018" ;
+    ical:description "ETRIA World Conference TRIZ Future 2018" ;
+    ical:dtend "2018-10-31"^^xsd:date ;
+    ical:dtstart "2018-10-29"^^xsd:date ;
+    ical:location "INSA, Strasbourg, France" ;
+    od:theProceedings <https://link.springer.com/book/10.1007/978-3-030-02456-7> ; 
+    ical:url <http://tfc2018.fr> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2017/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
+    rdfs:label "TRIZ Future 2017" ;
+    ical:description "ETRIA World Conference TRIZ Future 2017. Bridging creativity in science, entrepreneurship, industry and education" ;
+    ical:dtend "2017-10-06"^^xsd:date ;
+    ical:dtstart "2017-10-04"^^xsd:date ;
+    ical:location "Lappeenranta, Finland" ;
+    od:theProceedings <http://www.etria.eu/innovator/ETRIAjournal2017vol04.pdf> ; 
+    ical:url <http://www.lut.fi/web/en/tfc2017> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2016/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
+    rdfs:label "TRIZ Future 2016" ;
+    ical:description "ETRIA World Conference TRIZ Future 2016" ;
+    ical:dtend "2016-10-27"^^xsd:date ;
+    ical:dtstart "2016-10-24"^^xsd:date ;
+    ical:url <http://innovento.pl/triz-future-2016/> ; 
+    ical:location "Wroclaw, Poland" .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2015/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
+    rdfs:label "TRIZ Future 2015" ;
+    ical:description "ETRIA World Conference TRIZ Future 2015. Creating Value for Customers and Society" ;
+    ical:dtend "2015-10-29"^^xsd:date ;
+    ical:dtstart "2015-10-26"^^xsd:date ;
+    ical:location "Berlin, Germany" ;
+    ical:url <https://www.tfc2015.com/> ; 
+    od:theProceedings <http://www.sciencedirect.com/science/journal/22128271/39/supp/C> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2014/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
+    rdfs:label "TRIZ Future 2014" ;
+    ical:description "ETRIA World Conference TRIZ Future 2014" ;
+    ical:dtend "2014-10-31"^^xsd:date ;
+    ical:dtstart "2014-10-29"^^xsd:date ;
+    ical:location "Lausanne, Switzerland"  .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2013/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
+    rdfs:label "TRIZ Future 2013" ;
+    ical:description """ETRIA’s TRIZ Future Conference 2013 took place in Paris, France on the 29th–31st October
+2013. The Conference was organized by the Ecole Nationale d'Arts et Métiers (Arts & Métiers
+ParisTech) of Paris, ETRIA - The European TRIZ association, and was sponsored by CIRP, the
+international Academy for Production Engineering. The conference gathered about 140
+registered participants. The Conference featured 3 tutorials and 79 presentations in total
+including keynote talks and presentations at plenary sessions. """ ;
+    ical:dtend "2013-10-31"^^xsd:date ;
+    ical:dtstart "2013-10-29"^^xsd:date ;
+    ical:url <http://xtriz.blogspot.com/2014/02/etria-world-conference-triz-future-2013.html> ; 
+    ical:location "Ecole Nationale d'Arts et Métiers, Paris, France"  .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2012/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
+    rdfs:label "TRIZ Future 2012" ;
+    ical:description "World Conference TRIZ Future 2012" ;
+    ical:dtend "2012-10-26"^^xsd:date ;
+    ical:dtstart "2012-10-24"^^xsd:date ;
+    ical:location "New University of Lisbon, Lisbon, Portugal"  ;
+    ical:url <http://trizrealworld.blogspot.com/2012_10_01_archive.html>, 
+    	     <http://etria.eu/portal/index.php/past-etria-conferences-mainmenu-67/97l>,
+	     <http://etria.eu/documents/TFC2012_Program.pdfl>,
+	     <http://etria.eu/portal/index.php/past-etria-conferences-mainmenu-67/101l> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2011/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
+    rdfs:label "TRIZ Future 2011" ;
+    ical:description "World Conference TRIZ Future 2011" ;
+    ical:dtend "2011-11-04"^^xsd:date ;
+    ical:dtstart "2011-11-02"^^xsd:date ;
+    ical:location "Institute of Technology Tallaght, Dublin, Ireland"  ;
+    ical:url <http://etria.eu/documents/TFC2011_Program.pdf>,
+    	     <http://etria.eu/documents/TFC2011_Keynotes.pdf>,
+	     <http://etria.eu/portal/index.php/past-etria-conferences-mainmenu-67/109> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2009/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
+    rdfs:label "TRIZ Future 2009" ;
+    ical:description "World Conference TRIZ Future 2009" ;
+    ical:dtend "2009-11-06"^^xsd:date ;
+    ical:dtstart "2009-11-04"^^xsd:date ;
+    ical:location "Politehnical University, Timisoara, Romania"   .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2008/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
+    rdfs:label "TRIZ Future 2008" ;
+    ical:description "World Conference TRIZ Future 2008" ;
+    ical:dtend "2008-11-07"^^xsd:date ;
+    ical:dtstart "2008-11-05"^^xsd:date ;
+    ical:location "University of Twente, Enschede, The Netherlands"  ;
+    od:hasReports <http://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eforum/e2008Forum/eETRIATFC2008Rep/eETRIATFC2008TNRep.html> ; 
+    od:theAbstracts <http://etria.eu/portal/index.php/home-mainmenu-38/60>,
+    		    <http://etria.eu/portal/index.php/home-mainmenu-38/61>,
+		    <http://etria.eu/portal/index.php/home-mainmenu-38/62> ; 
+    od:theFotos <http://etria.eu/img/TFC2008/> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2007/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
+    rdfs:label "TRIZ Future 2007" ;
+    ical:description "World Conference TRIZ Future 2007" ;
+    ical:dtend "2007-11-08"^^xsd:date ;
+    ical:dtstart "2007-11-06"^^xsd:date ;
+    ical:location "Frankfurt am Main, Germany"  ;
+    od:hasReports <http://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eforum/e2007Forum/eETRIATFC2007Rep/eETRIATFC2007TNRep.html> ; 
+    od:theProceedings <http://etria.eu/portal/index.php/conference-proceedings-usermenu-58> ; 
+    od:theFotos <http://etria.eu/img/TFC2007/> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2006/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
+    rdfs:label "TRIZ Future 2006" ;
+    ical:description "World Conference TRIZ Future 2006" ;
+    ical:dtend "2006-10-11"^^xsd:date ;
+    ical:dtstart "2006-10-09"^^xsd:date ;
+    ical:location "Kortrijk, Belgium"  ;
+    od:hasReports <http://etria.eu/documents/AboutTRIZFutureConference2006.pdf>,
+    		  <http://etria.eu/documents/TFC2006Repport_EllenDomb.pdf>,
+		  <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eforum/e2006Forum/eETRIATFC2006Rep/eETRIATFC2006Rep070102.html> ; 
+    od:theFotos <http://etria.eu/img/TFC2006/> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2005/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
+    rdfs:label "TRIZ Future 2005" ;
+    ical:description "World Conference TRIZ Future 2005" ;
+    ical:dtend "2005-11-18"^^xsd:date ;
+    ical:dtstart "2005-11-16"^^xsd:date ;
+    ical:location "Graz, Austria"  ;
+    od:hasReports <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eforum/e2005Forum/eETRIATFC2005Rep/eETRIATFC2005Rep051227.html> ; 
+    od:theFotos <http://etria.eu/portal/index.php/past-etria-conferences-mainmenu-67/100> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2004/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
+    rdfs:label "TRIZ Future 2004" ;
+    ical:description "World Conference TRIZ Future 2004" ;
+    ical:dtend "2004-11-05"^^xsd:date ;
+    ical:dtstart "2004-11-02"^^xsd:date ;
+    ical:location "Univercity of Florence, Florence, Italy"  ;
+    od:hasReports <http://etria.eu/documents/TFC2004_survey.pdf>,
+    		  <http://etria.eu/documents/About_ETRIAs_TRIZ_Future_conference2004.pdf>,
+		  <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eforum/eETRIACon2004/eETRIACon2004-041214.html> ; 
+    od:theFotos <http://etria.eu/img/TFC2004/> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2003/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
+    rdfs:label "TRIZ Future 2003" ;
+    ical:description "World Conference TRIZ Future 2003" ;
+    ical:dtend "2003-11-14"^^xsd:date ;
+    ical:dtstart "2003-11-12"^^xsd:date ;
+    ical:location "Aachen, Germany"  ;
+    od:hasReports <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eforum/eETRIACon2003/eETRIACon2003.html> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2002/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
+    rdfs:label "TRIZ Future 2002" ;
+    ical:description "World Conference TRIZ Future 2002" ;
+    ical:dtend "2002-11-08"^^xsd:date ;
+    ical:dtstart "2002-11-06"^^xsd:date ;
+    ical:location "Strasbourg, France"  ;
+    od:hasReports <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eforum/eETRIACon2002/eETRIACon2002.html> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2001/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
+    rdfs:label "TRIZ Future 2001" ;
+    ical:description "World Conference TRIZ Future 2001" ;
+    ical:dtend "2001-11-09"^^xsd:date ;
+    ical:dtstart "2001-11-07"^^xsd:date ;
+    ical:location "Bath University, Bath, UK"  ;
+    od:hasReports <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eforum/eETRIACon2001/eETRIACon2001.html> .
