@@ -1,0 +1,948 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://opendiscovery.org/rdf/MATRIZMembers/>
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    a owl:Ontology ;
+    rdfs:comment "2019-09-08 graebe: Extracted and transformed from https://matriz.org/wp-content/uploads/2019/08/2019-08-List-of-MATRIZ-members.docx, has yet to be consolidated" ;
+    rdfs:label "MATRIZ Members" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_X>
+    a od:MATRIZMember ;
+    rdfs:label "New England TRIZ Organization" ;
+    org:contact """Phone 1 (617) 728-7011
+Fax 1 (617) 728-7500
+GEN3 Partners
+Ten Post Office Square 9th Floor, South Boston, MA 02109""" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_1>
+    a od:MATRIZMember ;
+    rdfs:label "ООО «ТРИЗ Карелия»" ;
+    org:contact """selioutski@psu.karelia.ru 
+тел: (814-2)-767-641185031, 
+г. Петрозаводск, а/я 134""" ;
+    org:createdAt "1999" ;
+    org:ort "Петрозаводск (Россия)" ;
+    org:person "Селюцкий Александр Борисович" ;
+    od:verification "министерство юстиции Республики Карелия  6 ноября 1999 свидетельство № 662 г. Петрозаводск (Россия)" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_10>
+    a od:MATRIZMember ;
+    rdfs:label "ОО «ТРИЗ-Красноярск»" ;
+    org:contact """ysal@siberianet.ru
+Адрес Дмитриева Сергея Анатольевича.
+660037, г. Красноярск, ул. Мичурина 7-10""" ;
+    org:createdAt "2000" ;
+    org:ort "Красноярск (Россия)" ;
+    org:person "Саламатов Юрий Петрович" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_11>
+    od:verification "министерство юстиции РФ Управление юстиции администрации Новгородской обл. 16 сентября 1998 г. свидетельство № 515" ;
+    a od:MATRIZMember ;
+    rdfs:label "«НООО ТРИЗ»" ;
+    org:contact """irand@mail.natm.ru
+	 tamberg@novgorod.net
+	 тел/факс (8-81622)-20261
+173023, Великий Новгород, ул. Зелинского, 22/1 - 7""" ;
+    org:createdAt "2001" ;
+    org:ort "Великий Новгород (Россия)" ;
+    org:person "Тамберг Юрий Гергардович" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_12>
+    a od:MATRIZMember ;
+    rdfs:label "ОО «ТРИЗ Чебоксары»" ;
+    org:contact """mikhailov30@mail.ru
+	 mikhilov@chuvsu.ru
+тел. (8352)-30-57-22,
+(8352)-25-93-23
+почта: 428015, Россия, Чувашия, Чебоксары-15, А.я. 16, Михайлову В.А.""" ;
+    org:createdAt "2001" ;
+    org:ort "Чебоксары (Россия)" ;
+    org:person "Михайлов Валерий Алексеевич" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_13>
+    a od:MATRIZMember ;
+    rdfs:label "ОО «Альтернатива»" ;
+    org:contact """julijsmur@inbox.ru
+тел/факс: (30)-24966
+LV-3001 Латвия, г. Елгава, ул. Паста 34-68""" ;
+    org:createdAt "2001" ;
+    org:ort "Елгава (Латвия)" ;
+    org:person "Мурашковский Юлий Самойлович" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_14>
+    a od:MATRIZMember ;
+    rdfs:label "ОО при ТРИЗ Тренинг Центр «ОО ТТЦ»" ;
+    org:contact """master@triztc.vrn.ru
+тел/факс (8-0732)-73-77-68
+394077, г. Воронеж, а/я 72""" ;
+    org:createdAt "2001" ;
+    org:ort "Воронеж (Россия)" ;
+    org:person "Белильцев Валерий Константинович" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_15>
+    a od:MATRIZMember ;
+    rdfs:label "Ideation TRIZ Research Lab (ITRL) of International TRIZ Association" ;
+    org:contact """bzlotin@ideationtriz.com
+	 http://www.ideationtriz.com""" ;
+    org:createdAt "2001" ;
+    org:ort "Детройт (США)" ;
+    org:person "Злотин Борис Львович" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_16>
+    a od:MATRIZMember ;
+    rdfs:label "«Московская ОО ТРИЗ»" ;
+    org:contact """bubenzow@yandex.ru
+8-499-616-60-21, Москва 115142
+ул. Затонная д.10,к.1, кв.14й""" ;
+    org:createdAt "2002" ;
+    org:ort "Москва (Россия)" ;
+    org:person "Бубенцов Владимир Юрьевич" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_17>
+    a od:MATRIZMember ;
+    rdfs:label "TRIZ-France" ;
+    org:contact """ghislain.grevy@ema.fr
+	 http://www.triz-ensais.com
+	 Denis Cavallucci: denis.cavallucci@ensais.u-strasbg.fr""" ;
+    org:createdAt "2002" ;
+    org:ort "Париж (Франция)" ;
+    org:person "Grevy Ghislain" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_18>
+    a od:MATRIZMember ;
+    rdfs:label "Украинский Центр ТРИЗ общественное объединение «ОО УЦТРИЗ»" ;
+    org:contact """dmeti@dmeti.dp.ua
+тел/факс: (0562)-410028
+320635 Украина, Днепропетровск, пр. Гагарина 4""" ;
+    org:createdAt "2002" ;
+    org:ort "Днепропетровск (Украина)" ;
+    org:person "Пигоров Георгий Семенович" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_19>
+    a od:MATRIZMember ;
+    rdfs:label "ООО «ТРИЗ МНОЦИТ МГИУ»" ;
+    org:contact """mkc@msiu.ru (095)-312-10-26
+109289, Москва, ул. Автозаводская, 16""" ;
+    org:createdAt "2002" ;
+    org:ort "Москва (Россия)" ;
+    org:person "Зиновкина Милослава Михайловна" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_2>
+    a od:MATRIZMember ;
+    rdfs:label "НГОО «Ключевые технологии»" ;
+    org:contact """trizdiol@mail.ru viss@online.nsk.su
+тел. (3832)-25-60-58
+тел/факс: (383-2)-256058
+630049 Новосибирск-49, а/я 463""" ;
+    org:createdAt "1999" ;
+    org:ort "Новосибирск (Россия)" ;
+    org:person "Сибиряков Виссарион Григорьевич" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_21>
+    a od:MATRIZMember ;
+    rdfs:label "ОО «Волга ТРИЗ»" ;
+    org:contact """sidlj@mv.ru
+	 sid@sid.ul.ru
+	 (8422)-63-07-01
+(8422) 61 - 29 - 59
+432049 Ульяновская 5117 432045 г. Ульяновск, ул. Рябикова. д. 38А""" ;
+    org:createdAt "2003" ;
+    org:ort "Ульяновск (Россия)" ;
+    org:person "Гуткович Ирина Яковлевна" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_22>
+    a od:MATRIZMember ;
+    rdfs:label "ОО «ТРИЗ Самара»" ;
+    org:contact """shrh567@yandex.ru
+443087 г. Самара, пр.Кирова, д.240, кв.24""" ;
+    org:createdAt "2003" ;
+    org:ort "Самара (Россия)" ;
+    org:person "Шарипов Рашид Хамзович" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_23>
+    a od:MATRIZMember ;
+    rdfs:label "ОО «ТРИЗ Таллин»" ;
+    org:contact """ecsd@stv.ee
+	 (372) 6543001
+Mustamae-tee 141-46 Estonia, Tallinn""" ;
+    org:createdAt "2003" ;
+    org:ort "Таллин (Эстония)" ;
+    org:person "Лучин Марк" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_24>
+    a od:MATRIZMember ;
+    rdfs:label "ОО «ТРИЗ Томск»" ;
+    org:contact """kpf@ct.ectpu.edu.ru
+634034 г. Томск, ул. Пирогова, 19-19
+тел/факс: (83822) 410-372""" ;
+    org:createdAt "2003" ;
+    org:ort "Томск (Россия)" ;
+    org:person "Коробко Петр Федорович" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_25>
+    a od:MATRIZMember ;
+    rdfs:label "ОО «ТРИЗ Владивосток»" ;
+    org:contact """alimar@mail.primorye.ru
+тел/факс: 495727
+690065, Приморский край, г. Владивосток-65, ул. Стрельникова, д.12 кв.29""" ;
+    org:createdAt "2003" ;
+    org:ort "Владивосток (Россия)" ;
+    org:person "Лимаренко Анатолий Васильевич" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_28>
+    a od:MATRIZMember ;
+    rdfs:label "СГОБО «Исток»" ;
+    org:contact "vicsasha@rol.ru" ;
+    org:createdAt "2003" ;
+    org:ort "Саратов (Россия)" ;
+    org:person "Ширяева Виктория Александровна" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_29>
+    a od:MATRIZMember ;
+    rdfs:label "«ТРИЗ - Латинская Америка» / ТRIZ - LATINOAMERICA" ;
+    org:contact "e_cieza@yahoo.com" ;
+    org:createdAt "2004" ;
+    org:ort "Лима (Перу)" ;
+    org:person "Eduardo Cieza de Leon" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_3>
+    od:verification "Виконком Днiпропетровськой Ради 16 Березня 1999 г. Свидетельство № 305" ;
+    a od:MATRIZMember ;
+    rdfs:label "ОО «ДнепроТРИЗ»" ;
+    org:contact """dn_triz@ukr.net ocntt@a-teleport.com
+тел. (0562)-96-71-25
+49080, Украина, Днепропетровск,
+ул. Донское шоссе, 3 кв. 97""" ;
+    org:createdAt "1999" ;
+    org:ort "Днепропетровск (Украина)" ;
+    org:person "Резник Николай Антонович" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_30>
+    a od:MATRIZMember ;
+    rdfs:label "Samsung TRIZ Association (STA)" ;
+    org:contact """VIP Center Samsung Electronics 129
+	 Samsung-ro Yeongtong-gu Suwon-si Gyeonggi-do Korea
+bang@samsung.com
+trizlee@daum.net 82-10-2408-6047""" ;
+    org:createdAt "2004b" ;
+    org:ort "Suwon (Korea)" ;
+    org:person "Jun-Young Lee" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_31>
+    a od:MATRIZMember ;
+    rdfs:label "The Korea TRIZ Association" ;
+    org:contact """#502 Iroom-bldg,  7,
+	 Hakdong-ro 33-gil, Gangnam-gu, Seoul, 135- 010,
+	 Republic of Korea
+	 prettymike@naver.com
++82-2-3442-5526""" ;
+    org:createdAt "2004" ;
+    org:ort "Seoul (Korea)" ;
+    org:person "Kim, Mansoo" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_32>
+    a od:MATRIZMember ;
+    rdfs:label "NFTM-TRIZ Sunmoon University" ;
+    org:contact """khj@sunmoon.ac.kr
+#100 Kalsan Ri, Tangjeong Myon, Asan Si, Choong Nam, 336-708, Rep. of Korea
+Телефон : 82-41-541-8604
+Fax: 82-41-530-2831""" ;
+    org:createdAt "2004" ;
+    org:ort "Сеул (Корея)" ;
+    org:person "Hyun-Jong, Kwon" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_33>
+    a od:MATRIZMember ;
+    rdfs:label "«ТРИЗ Амур»" ;
+    org:contact """ktriz@knastu.ru
+Телефоны: (42172) 3-52-59; 4-68-54
+681013, г. Комсомольск на Амуре, пр. Ленина, 27""" ;
+    org:createdAt "2004" ;
+    org:ort "Комсомольск на Амуре (Россия)" ;
+    org:person "В.Д. Бердоносов" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_34>
+    a od:MATRIZMember ;
+    rdfs:label "The Professional Society of TRIZ Korea (TRIZ Korea)" ;
+    org:contact """marino@triz.co.kr
+Tel. +82.31.214.1740
+Fax. +82.31.217.1746
+Chair of The Professional Society of TRIZ Korea
+215 Industry-University Cooperation Center, AJOU University,
+Suwon-si, Kyeonggi-do, 442-749, the Republic of Korea""" ;
+    org:createdAt "03.2005" ;
+    org:ort "Сеул (Корея)" ;
+    org:person "Youngil Kim" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_35>
+    a od:MATRIZMember ;
+    rdfs:label "TRIZ Association at SDI" ;
+    org:contact "bdsuh@samsung.com bdsuh@samsung.co.kr Suwon, the Republic of Korea" ;
+    org:createdAt "03.2005" ;
+    org:ort "Сеул (Корея)" ;
+    org:person "Suh, Byung-Do" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_36>
+    a od:MATRIZMember ;
+    rdfs:label "Apeiron the Italian TRIZ Association" ;
+    org:contact "gaetano.cascini@unifi.it cascini@ing.unifi.it" ;
+    org:createdAt "03.2006" ;
+    org:ort "Рим (Италия)" ;
+    org:person "Gaetano Cascini" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_37>
+    a od:MATRIZMember ;
+    rdfs:label "LS-LG TRIZ Association, the Korean Public TRIZ Organization" ;
+    org:contact """ischoi@lscable.com
+	 Tel . +82.31.450.8290
+Fax. +82.31.450.8331
+LS Cable Co., Ltd. 555, Hogye-dong, Dongan-gu, Anyang-si, Kyungki-do, 431-080, Republic of Korea""" ;
+    org:createdAt "03.2006" ;
+    org:ort "Сеул (Корея)" ;
+    org:person "In-Sik Choi" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_38>
+    a od:MATRIZMember ;
+    rdfs:label "ОО «Ангарск ТРИЗ»" ;
+    org:contact """ivano@irmail.ru
+Г.Ангарск Иркутской области
+т.р. (3951) 51-21-47
+т.д. (3951) 67-25-58
+E-mail: aleksey_3802@mail.ru""" ;
+    org:createdAt "03.2007" ;
+    org:ort "Ангарск (Россия)" ;
+    org:person "Игнатьева Альбина Георгиевна" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_39>
+    a od:MATRIZMember ;
+    rdfs:label "ОО «ТРИЗ-профи»" ;
+    org:contact """tim@trizland.ru
+119019, г. Москва, ул. Знаменка, д. 13, стр. 1, офис 15.""" ;
+    org:createdAt "03.2007" ;
+    org:ort "Москва (Россия)" ;
+    org:person "Тимохов Виктор Иванович" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_4>
+    od:Verification "министерство юстиции РФ Управление юстиции СПб 12 апреля 1999 г. свидетельство №3350-ЮР" ;
+    a od:MATRIZMember ;
+    rdfs:label "РОО «ТРИЗ-Петербург»" ;
+    org:contact """av_kislov@mail.ru  
+http://www.triz-spb.ru/ kptriz@mail.ru
+тел/факс: 8-(812)-316-37-49""" ;
+    org:createdAt "1999" ;
+    org:ort "Санкт Петербург (Россия)" ;
+    org:person "Кислов Александр Васильевич" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_40>
+    a od:MATRIZMember ;
+    rdfs:label "Intel Corporate TRIZ Chapter" ;
+    org:contact """amir.roggel@intel.com
+	 telephone - 972-8-6666968""" ;
+    org:createdAt "03.2008" ;
+    org:ort "Бостон (США)" ;
+    org:person "Amir Roggel" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_41>
+    a od:MATRIZMember ;
+    rdfs:label "TRIZ Campus" ;
+    org:contact "j.fresner@stenum.at" ;
+    org:createdAt "03.2008" ;
+    org:ort "Вена (Австрия)" ;
+    org:person "Fresner" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_42>
+    a od:MATRIZMember ;
+    rdfs:label "ОО «ТРИЗ- Тольятти»" ;
+    org:contact """triz@bk.ru
+445057, Самарская обл., г.Тольятти, ул.Юбилейная, 73-109""" ;
+    org:createdAt "03.2008" ;
+    org:ort "Тольятти (Россия)" ;
+    org:person "Абрамкина Олеся Юрьевна" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_43>
+    a od:MATRIZMember ;
+    rdfs:label "Asia-Pacific TRIZ Association (APTA)" ;
+    org:contact """Iouri.belski@triz4u.com
+	 Phone: 613 9467 4424
+TRIZ4U, PO Box 12775, Melbourne Victoria 8006, Australia""" ;
+    org:createdAt "03.2008" ;
+    org:ort "Мельбурн (Австралия)" ;
+    org:person "Юрий Бельский" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_44>
+    a od:MATRIZMember ;
+    rdfs:label "Innovation Technology Institute" ;
+    org:contact """ellen-shi@iwint.com attn. Ellen Shi
+5A/F, Office Tower A, Winterless Center, No.1 West Dawang Road, Chaoyang District, Beijing 100026,
+P.R. China""" ;
+    org:createdAt "03.2008" ;
+    org:ort "Пекин (Китай)" ;
+    org:person "Junzhi Cui" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_45>
+    a od:MATRIZMember ;
+    rdfs:label "My Guru Tao-TRIZ Association" ;
+    org:contact "davidlee@myguru.co.kr" ;
+    org:createdAt "03.2008" ;
+    org:ort "Сеул (Корея)" ;
+    org:person "Myoung Soo Han" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_46>
+    a od:MATRIZMember ;
+    rdfs:label "Iowa TRIZ Association" ;
+    org:createdAt "03.2008" ;
+    org:ort "Бостон (США)" ;
+    org:person "Timothy P. Schweizer" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_47>
+    a od:MATRIZMember ;
+    rdfs:label "TRIZ Design Innovation Center" ;
+    org:contact """lkw@kpu.ac.kr
+#511 TIP, Korea Polytechnic University, Jeongwang-Dong, Siheung-City, Kyungki Province, Korea Post code:429-793""" ;
+    org:createdAt "03.2008" ;
+    org:ort "Сеул (Корея)" ;
+    org:person "Lee Kyung Won" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_48>
+    a od:MATRIZMember ;
+    rdfs:label "«Фонд Джакомо Румор Центра Производительност и Венето» / Fondazione Giacomo Rumor Centro Producttivià Veneto (FGR CPV)" ;
+    org:contact """info@cpv.org
+	 http://www.cpv.org/
+Sede Operativa: Via Enrico Fermi 134, 36100 Vicenza, Italia
+Telefone: 39 0444 994 700
+Fax: 39 0444 994 710
+Sede Legale: с/o C.C.I.A.A. Vicenza. Corso Fogazzaro 37, 36100 Vicenza, Italia""" ;
+    org:createdAt "03.2008" ;
+    org:ort "Виченца (Италия)" ;
+    org:person "Дмитрий Вульфсон" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_49>
+    a od:MATRIZMember ;
+    rdfs:label "ОО «ТРИЗ-Оскол»" ;
+    org:contact "boranshe@front.ru" ;
+    org:createdAt "03.2008" ;
+    org:ort "Старый Оскол (Россия)" ;
+    org:person "Шевченко Борис Андреевич" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_5>
+    a od:MATRIZMember ;
+    rdfs:label "ОО «Восхождение»" ;
+    org:contact """marat@zhukovskiy.ru
+тел/факс: (09648)-31020 из Москвы 2-48
+140160 г. Жуковский, МО, а/я 272""" ;
+    org:createdAt "1999" ;
+    org:ort "Жуковский (Россия)" ;
+    org:person "Гафитулин Марат Семенович" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_50>
+    a od:MATRIZMember ;
+    rdfs:label "Arizona TRIZ Association" ;
+    org:contact """camshie@cox.net
+Gordon Cameron, Phone (USA): 480-831-9903,
+camshie@cox.net
+Address: 261 East Vinedo Lane, Tempe, Arizona, 85284.""" ;
+    org:createdAt "03.2008" ;
+    org:ort "США" ;
+    org:person "Gordon Cameron" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_51>
+    a od:MATRIZMember ;
+    rdfs:label "Российская ассоциация ТРИЗ" ;
+    org:contact """ratriz@mail.ru
+	 http://www.ratriz.ru
+	 тел/факс (812) 316-3749""" ;
+    org:createdAt "09.2008" ;
+    org:ort "Санкт Петербург (Россия)" ;
+    org:person "Кислов Александр Васильевич" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_52>
+    a od:MATRIZMember ;
+    rdfs:label "“Hynix TRIZ Creativity Center” (Hynix-TCC)" ;
+    org:contact """jeongseon.kim@hynix.com
+	 http://www.hynix.com
+	 JeongSeon Kim, PhD
+Senior Member of Technical Staff
+TRIZ Creativity Promotion Part Research & Developmtnt Division
+Hynix Semiconductor Inc.
+Mobile : 82) 016-359-1229Tel : 82) 31-639-0644""" ;
+    org:createdAt "09.2008" ;
+    org:ort "Корея" ;
+    org:person "Вак Сонг Ук (Sung - Wook Park)" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_53>
+    a od:MATRIZMember ;
+    rdfs:label "TRIZ ASSOCIATION OF ASIA (TAA)" ;
+    org:contact """shreephadnis@usa.net
+	 Primary Address: Mr. Shree Phadnis, BLD#1/34, Vijay Enclave, Ghodbundar Road, Opp Dalal Engg, Thane (W), 400601 India,
+	 Ph: +91-22-65077453
+Secondary Address: Mr. Aditya Bhalla, D1B/19C, DDA Flats, Opp. Pankha Road, Janakpuri, New Delhi - 110058 India,
+Ph: +91-11-28522329""" ;
+    org:createdAt "06.2009" ;
+    org:ort "-" ;
+    org:person "Chairman: Mr. Shree Phadnis, President: Mr. Aditya Bhalla" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_54>
+    a od:MATRIZMember ;
+    rdfs:label "St. Petersburg Innovative Technology" ;
+    org:contact "Yury.Fedosov@algo-spb.com" ;
+    org:createdAt "06.2009" ;
+    org:ort "Санкт-Петербург (Россия)" ;
+    org:person "Федосов Ю.И" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_55>
+    a od:MATRIZMember ;
+    rdfs:label "The Society of Systematic Innovation" ;
+    org:contact """sheu.daniel@gmail.com;
+	 dsheu@systematic-innovation.org
+6th Fl., # 352, Sec. 2, Kuan-Fu Rd Hsinchu, Taiwan, R.O.C. 300
++886-572-3200 x 11""" ;
+    org:createdAt "06.2009" ;
+    org:ort "-" ;
+    org:person "D. Daniel Sheu" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_56>
+    a od:MATRIZMember ;
+    rdfs:label "PTA - Posco TRIZ Association" ;
+    org:contact """prettymike@paran.com
+	 Orion Syswork Inc.
+4F. Asia Bldg. 11-2 Jamwon-dong,
+Seocho-gu, Seoul, Korea
+office : 82-2-3472-9001
+mobile: 82-11-9029-3701""" ;
+    org:createdAt "06.2009" ;
+    org:ort "Сеул (Корея)" ;
+    org:person "Hee-Choon Lee" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_57>
+    a od:MATRIZMember ;
+    rdfs:label "Ассоциация центров решения проблем" ;
+    org:contact "metodolog1@yandex.ru" ;
+    org:createdAt "09.2009" ;
+    org:ort "Москва, Россия" ;
+    org:person "Кудрявцев Александр Владимирович" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_58>
+    a od:MATRIZMember ;
+    rdfs:label "Taiwan TRIZ Association (TTA)" ;
+    org:contact """eugene@triz.tw
+886-02-2368-8882""" ;
+    org:createdAt "09.2009" ;
+    org:ort "Taipei, Taiwan" ;
+    org:person "Dr. D.Y. Sha" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_59>
+    a od:MATRIZMember ;
+    rdfs:label "Heilongjiang TRIZ Association" ;
+    org:contact "hhkjqxj@gmail.com" ;
+    org:createdAt "10.2010" ;
+    org:ort "Heilongjiang, China" ;
+    org:person "Qin Xiaojian" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_6>
+    a od:MATRIZMember ;
+    rdfs:label "«БелООТРИЗ»" ;
+    org:contact """tim@trizland.ru 
+http://www.trizland.ru/""" ;
+    org:createdAt "2000" ;
+    org:ort "Гомель (Беларусь)" ;
+    org:person "Тимохов Виктор Иванович" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_60>
+    a od:MATRIZMember ;
+    rdfs:label "KMAC TRIZ Association" ;
+    org:contact """Contact information:
+Senior Consultant
+Mr. Jung Jin-ho
+Phone: 82-2-3786-0472
+Fax : 82-2-3786-0345
+e-mail: jjclub8281@kmac.co.kr""" ;
+    org:createdAt "02.2011" ;
+    org:ort "Seoul, Korea" ;
+    org:person "Mr. Kim Jong-Lib" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_61>
+    a od:MATRIZMember ;
+    rdfs:label "Korean Standards Association (KSA)" ;
+    org:contact """m@ksa.or.kr
+KSA, 13th Floor, Ace-highend tower 3rd, 371-50, Gasan-dong, Geumcheon-gu, Seoul, South Korea
+www.ksa.or.kr
+(82)-2-2624-0180~5""" ;
+    org:createdAt "05.2011" ;
+    org:ort "Seoul (South Korea)" ;
+    org:person "Changryong Kim" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_62>
+    a od:MATRIZMember ;
+    rdfs:label "Product Development Management Association-Korea (PDMA-Korea)" ;
+    org:contact """Samhwan Hipex A-601, 240, Pangyoyeok-ro, Bundang-gu, Seongnam-si, Gyeonggi-do, Republic of Korea
+	 rnbdhsoo@gmail.com
+(82) 02-562-1552""" ;
+    org:createdAt "07.2011" ;
+    org:ort "Seongnam, (South Korea)" ;
+    org:person "Minsoo Shin" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_63>
+    a od:MATRIZMember ;
+    rdfs:label "TRIZ Asia Forum" ;
+    org:contact """Aditya Bhalla
+Block D1B, Flat 19C, DDA Flats, Opp. Pankha Road, Janakpuri, New Delhi - 110058 India
+adityabhalla@yahoo.com""" ;
+    org:createdAt "09.2011" ;
+    org:ort "New Delhi (India)" ;
+    org:person "Aditya Bhalla" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_64>
+    a od:MATRIZMember ;
+    rdfs:label "Malaysia TRIZ Innovation Association" ;
+    org:contact """20, Jalan USJ 11/1B, Subang Jaya 47620 langor, Malaysia
+	 ts.yeoh@intel.com
++6012-4717120""" ;
+    org:createdAt "12.2011" ;
+    org:ort "Selangor, Malaysia" ;
+    org:person "Dr. Teong San Yeoh" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_65>
+    a od:MATRIZMember ;
+    rdfs:label "Institute of Systematic Innovation - ISI-HK" ;
+    org:contact """PO Box 72094,
+Kowloon Central Post Office, Hong Kong
+dwkwanhk@gmail.com,
+david.kwan@isi.org.hk
+852-90147209 (David Kwan)""" ;
+    org:createdAt "02.2012" ;
+    org:ort "Hong Kong" ;
+    org:person "Dr. Victor Lo" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_66>
+    a od:MATRIZMember ;
+    rdfs:label "Siemens TRIZ Association SiTrA" ;
+    org:contact "martin.kiesel@siemens.com" ;
+    org:createdAt "03.2013" ;
+    org:ort "Germany" ;
+    org:person "Martin Kiesel" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_67>
+    a od:MATRIZMember ;
+    rdfs:label "TRIZ Innovation Institute (TII)" ;
+    org:contact """Korea Polytechnic University P-208 2121, Jungwang-dong, Siheung-city
+Gyeonggi-do, 423-793, Korea
+ywsong82@gmail.com""" ;
+    org:createdAt "03.2013" ;
+    org:ort "South Korea" ;
+    org:person "Prof. Yong Won Song" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_68>
+    a od:MATRIZMember ;
+    rdfs:label "GETRA-M GE TRIZ Association-Munich" ;
+    org:contact "GE Global Research Freisinger Landstr. 50, 87548 Garching b. München, Germany" ;
+    org:createdAt "03.2013" ;
+    org:ort "Germany" ;
+    org:person "Dr. Mark Lynass" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_69>
+    a od:MATRIZMember ;
+    rdfs:label "Samsung Display TRIZ Association" ;
+    org:contact "#95 Samsung 2-ro, Giheung-gu, Youngin-City, Gyeonggi-Do, 446-711 South Korea" ;
+    org:createdAt "03.2013" ;
+    org:ort "South Korea" ;
+    org:person "Tae Wook Kang" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_7>
+    a od:MATRIZMember ;
+    rdfs:label "«ТРИЗ Организация Новой Англии»" ;
+    org:contact """Simon.Litvin@GEN3Partners.com  
+http://www.GEN3Partners.com""" ;
+    org:createdAt "2000" ;
+    org:ort "Бостон (США)" ;
+    org:person "Литвин Семен Соломонович" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_70>
+    a od:MATRIZMember ;
+    rdfs:label "China TRIZ Club" ;
+    org:contact """National Institute of low-carbon and Clean Energy, Future Technology City, Beiqijia, Changping District, Beijing, China
+matriz@matrizchina.cn
+ywsun@yeah.net
++86-136-119-32321""" ;
+    org:createdAt "01.2014" ;
+    org:ort "PRC" ;
+    org:person "Yongwei Sun" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_71>
+    a od:MATRIZMember ;
+    rdfs:label "QM&E TRIZ Consulting & Education Center (TC&EC)" ;
+    org:contact """Kofomo Tower 509, 16-3 Sunae-dong, Bundang-gu, Seongnam-si, Gyeonggi-do, Republic of Korea, 463-825,
+	 Tel: +8210-394-01960
+kjjung@gme.co.kr""" ;
+    org:createdAt "02.2014" ;
+    org:ort "South Korea" ;
+    org:person "Kyu Jin Jung" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_72>
+    a od:MATRIZMember ;
+    rdfs:label "TRIZing, Public Association" ;
+    org:contact """Technicka  10,  616  00  Brno, Czech Republic
++420 541 146 734
+Busov@feec.vutbr.cz""" ;
+    org:createdAt "02.2014" ;
+    org:ort "Czech Republic" ;
+    org:person "Dr. Bohuslav Busov" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_73>
+    a od:MATRIZMember ;
+    rdfs:label "South East Europe TRIZ Association" ;
+    org:contact """Tacenska 125b 1000 Ljubljana Slovenia
+Phone: +386 31 663 110
+Matej.hohnjec@3zen.si""" ;
+    org:createdAt "05.2014" ;
+    org:ort "Slovenia" ;
+    org:person "Matej Hohnjec" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_74>
+    a od:MATRIZMember ;
+    rdfs:label "TRIZ Institute Thailand" ;
+    org:contact """68/131SOI-NAWAMIN40, NAWAMIN ROAD,
+BUENGKUMDISTRICT, BANGKOK 10240,   THAILAND
++6685-955-3031
+TriZit@gmail.com""" ;
+    org:createdAt "09.2014" ;
+    org:ort "Thailand" ;
+    org:person "TriZit Benjaboonyazit" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_75>
+    a od:MATRIZMember ;
+    rdfs:label "Ukrainian TRIZ Association" ;
+    org:contact """Украина,г.Запорожье,69091, ул.Нижнеднепровская, 4-а, Школа «ЭйдоС».
+	 gredinarova.eidos@gmail.com
++38-061-220-02-13;""" ;
+    org:createdAt "10.2014" ;
+    org:ort "Ukraine" ;
+    org:person "Igor Gredynarov" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_76>
+    a od:MATRIZMember ;
+    rdfs:label "HanYang TRIZ Center - HTC" ;
+    org:contact """Hanyang TRIZ Center, B102 HIT, 222 Wangsimni-ro, Seongdong-gu Seoul Korea (133-791)
+itriz@hanyang.ac.kr
++82-2-2220-2978""" ;
+    org:createdAt "01.2015" ;
+    org:ort "South Korea" ;
+    org:person "Jinho Ahn" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_77>
+    a od:MATRIZMember ;
+    rdfs:label "Global Engineering Technology Group, GET Group" ;
+    org:contact """Suite A, 1310, East Hope Building, No.3 Gaopeng Road,Gaoxin District, Chengdu, P.R.C.
+	 yongmou.liu@ima-cax.com;
+	 michael.liu@get-technologys.com
++86-139-080-39515""" ;
+    org:createdAt "01.2015" ;
+    org:ort "PR China" ;
+    org:person "Yongmou Liu" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_78>
+    a od:MATRIZMember ;
+    rdfs:label "ShangHai Intellectual Property Training Center SIPTC" ;
+    org:contact """5/F,Building 1,No. 100 QinZhou Road, XuHui District, ShangHai, PR China
+siptc@siptc.com /  yihongd@sh163.net
++86-21-54703918  / 13916639528""" ;
+    org:createdAt "01.2015" ;
+    org:ort "PR China" ;
+    org:person "YiHong  Dong" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_79>
+    a od:MATRIZMember ;
+    rdfs:label "Shenhua TRIZ Association, STA" ;
+    org:contact """National Institute of low-carbon and Clean Energy, Future Technology City, Beiqijia, Changping District, Beijing, PR China
+yhlong023@sina.com
+86-139-1009-1896""" ;
+    org:createdAt "01.2015" ;
+    org:ort "PR China" ;
+    org:person "Dr.  Yinhua Long" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_8>
+    a od:MATRIZMember ;
+    rdfs:label "ОО «ТРИЗ - Норильск»" ;
+    org:contact """m4852@norcom.ru
+тел. (3919)-410-028
+тел.: (3919)-42-91-12
+663305, г. Норильск, ул. Талнахская д.6, кв. 8""" ;
+    org:createdAt "2000" ;
+    org:ort "Норильск (Россия)" ;
+    org:person "Шустерман Михаил Наумович" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_80>
+    a od:MATRIZMember ;
+    rdfs:label "Tuopai shede TRIZ Association, TSTA" ;
+    org:contact """No.999, Tuopai Avenue, Tuopai Town, Shehong County, Suining City, Sichuan, P.R. China
+651204349@qq.com
++86-0825 6618786 （15828981806）""" ;
+    org:createdAt "01.2015" ;
+    org:ort "PR China" ;
+    org:person "Jiamin Li" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_81>
+    a od:MATRIZMember ;
+    rdfs:label "Shenzhen Intellectual Property Society" ;
+    org:contact """Room 1116, Science and Technology Building, No. 1001, Shangbu Road, Futian District, Shenzhen City,
+	 Chinayinxfzl@126.com
++86-139-0291-0801""" ;
+    org:createdAt "04.2015" ;
+    org:ort "PR China" ;
+    org:person "Yin Hanfan" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_82>
+    a od:MATRIZMember ;
+    rdfs:label "VE-TRIZ Association" ;
+    org:contact """101-1702, 417 Samsung-ro, Gangnam-gu, Seoul, Korea, 135-841
+bsktriz@naver.com""" ;
+    org:createdAt "04.2015" ;
+    org:ort "South Korea" ;
+    org:person "Kang, Bong Sup" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_83>
+    a od:MATRIZMember ;
+    rdfs:label "Korean Academic TRIZ Association - KATA" ;
+    org:contact """# 301, Chang-lim Building, Dogok-ro 175, Gangnam-gu, Seoul, Korea 135-930
+koreatriz@daum.net
+82-2-574-2207""" ;
+    org:createdAt "04.2015" ;
+    org:ort "South Korea" ;
+    org:person "Dong-Yol Yang" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_84>
+    a od:MATRIZMember ;
+    rdfs:label "Japan TRIZ society (JTS)" ;
+    org:contact """558-8 Uratakaomachi
+Hachioji-shi Tokyo 193-0841 JAPAN
+info@triz-japan.org
+81-0426-73-3417""" ;
+    org:createdAt "04.2015" ;
+    org:ort "Japan" ;
+    org:person "Yuji Mihara" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_85>
+    a od:MATRIZMember ;
+    rdfs:label "Philips TRIZ Association" ;
+    org:contact """High Tech Campus 7 5656 AE Eindhoven The Netherlands
+c.dobrusskin@philips.com
++31 40 2740827""" ;
+    org:createdAt "09.2013" ;
+    org:ort "The Netherlands" ;
+    org:person "Christoph Dobrusskin" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_86>
+    a od:MATRIZMember ;
+    rdfs:label "Association TRIZ Poland" ;
+    org:contact "j.boratynski@triz-innowacje.pl 797-590-974" ;
+    org:createdAt "09.2015" ;
+    org:ort "Poland" ;
+    org:person "Lukasz Syska" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_87>
+    a od:MATRIZMember ;
+    rdfs:label "Association for TRIZ and Technical Innovation" ;
+    org:contact """#301B May Flower Gardens, 91/6, Naravarapalya, Main Road, C.V Raman
+Nagar Post, Bangalore 560093, Karnataka, India
+titokishan@proinnconsultancy.com
++91 895 135 9774""" ;
+    org:createdAt "09.2015" ;
+    org:ort "India" ;
+    org:person "Tito Kishan Vemuri" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_88>
+    a od:MATRIZMember ;
+    rdfs:label "LG TRIZ EXPERT ASSOCIATION - LTEA" ;
+    org:contact """222 LG-ro Jinwi-myeon, Pyeongtaek-si, Gyeonggi-do 451-713, South Korea  yshin.han@lge.com
+82-10-4662=2843""" ;
+    org:createdAt "02.2016" ;
+    org:ort "South Korea" ;
+    org:person "Youshin Han" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_89>
+    a od:MATRIZMember ;
+    rdfs:label "TRIZ Innovation and Development Association - TIDA" ;
+    org:contact """Room 715, Building 53, No.195, Sec. 4, Zhongxing Rd. Zhudong Township, Hsinchu County 310, Taiwan (R.O.C.)
+yjlin@must.edu.tw; innopatman@gmail.com
+886-3-5912621 or 886-3-5593142#3593""" ;
+    org:createdAt "05.2016" ;
+    org:ort "Taiwan" ;
+    org:person "Younjan Lin" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_9>
+    a od:MATRIZMember ;
+    rdfs:label "Ассоциация ТРИЗ Израиля «АТИ»" ;
+    org:contact """ATrI@bigfoot.com 
+vladpetr@netvision.net.il 
+тел.:+972-(0)9-7481667
+6/4 Klauzner St. Raanana 43367 Israel""" ;
+    org:createdAt "2000" ;
+    org:ort "Тель-Авив (Израиль)" ;
+    org:person "Петров Владимир Михайлович" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_90>
+    a od:MATRIZMember ;
+    rdfs:label "Scientific-Industry Society TRIZ Poland" ;
+    org:contact """sergey.yatsunenko@
+	 novismo.com
++48 697 404 957""" ;
+    org:createdAt "06.2016" ;
+    org:ort "Poland" ;
+    org:person "Sergiy Yatsunenko" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_91>
+    a od:MATRIZMember ;
+    rdfs:label "TRIZ Innovation Value Association" ;
+    org:contact """innopatman@gmail.com ;  yjlin@must.edu.tw;
+886-2-28372349 or 886-938738976(Mobile Phone)""" ;
+    org:createdAt "07.2017" ;
+    org:ort "Taiwan" ;
+    org:person "Wang, Jou-Li" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_92>
+    a od:MATRIZMember ;
+    rdfs:label "NOVISMO TRIZ-Lab Center" ;
+    org:contact """Przasnyska 20a/31, 01-756 Warsaw, Poland,
+	 biuro@novismo.com
++48 697404956""" ;
+    org:createdAt "09.2017" ;
+    org:ort "Poland" ;
+    org:person "Sergey Yatsunenko" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_93>
+    a od:MATRIZMember ;
+    rdfs:label "Fujian TRIZ Association, FTA" ;
+    org:contact """School of Energy Research, Xiamen University, South Xiang’an Road, Xiamen, China
+zbb@xmu.edu.cn
++86-138-0602-7243""" ;
+    org:createdAt "2018" ;
+    org:ort "PR China" ;
+    org:person "Zhang Binbin" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_94>
+    a od:MATRIZMember ;
+    rdfs:label "UTN TRIZ Association" ;
+    org:contact """San Martin 1175 Campana, Argentina, 2804
+Ing.jproma@gmail.com 
++54 9 3489 15655385""" ;
+    org:createdAt "2019" ;
+    org:ort "Argentina" ;
+    org:person "Juan Pablo Roma" .
+
+<http://opendiscovery.org/rdf/MATRIZMember_95>
+    a od:MATRIZMember ;
+    rdfs:label "GREE Professional Technical Committee On TRIZ" ;
+    org:contact """Gree Electric Appliance Co., Ltd., Qianshan Jinji West Road, Xiangzhou District, Zhuhai City, Guangdong Province 519070
+yuna5721515@163.com
++86-18928062345""" ;
+    org:createdAt "2019" ;
+    org:ort "PR China" ;
+    org:person "Yu Na" .
+

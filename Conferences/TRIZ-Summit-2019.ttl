@@ -522,7 +522,7 @@ track:PT
     a od:Talk .
 
 :Talk_1002
-    dcterms:creator odp:Khorenyan_R, odp:Koblents_P, odp:Falkov_D, odp:Martsinovskii_G ;
+    dcterms:creator odp:Khorenyan_R, odp:Koblenc_P, odp:Falkov_D, odp:Martsinovskii_G ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304818-file-original.pdf> ;
     dcterms:title "Solving non-digital problems for digital transformation"@en ;
     dcterms:abstract "Additional material, not presented at the conference"@en ;  

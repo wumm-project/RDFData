@@ -121,7 +121,7 @@ odp:Fey_V
     od:affiliation "Altshuller Institute for TRIZ Studies" ;
     a foaf:Person ;
     foaf:affil "Altshuller Institute for TRIZ Studies" ;
-    foaf:name "Victor Fey", "Victor Fey"@en .
+    foaf:name "Victor Fey"@en .
 
 odp:Fomenko_A
     a foaf:Person ;
@@ -174,7 +174,7 @@ odp:Hiltmann_K
     od:affiliation "FH Coburg, Germany" ;
     a foaf:Person ;
     foaf:affil "FH Coburg, Germany" ;
-    foaf:name "Kai Hiltmann", "Kai Hiltmann"@de .
+    foaf:name "Kai Hiltmann"@de .
 
 odp:Holtz_V
     a od:MatrizMember, foaf:Person ;
@@ -212,10 +212,6 @@ odp:Koblenc_P
     a foaf:Person ;
     foaf:affil "EPAM Systems, Проектный менеджер"@ru ;
     foaf:name "Pavel Koblenc" .
-
-odp:Koblents_P
-    a foaf:Person ;
-    foaf:name "Pavel Koblents" .
 
 odp:Koltze_K
     a foaf:Person ;
@@ -399,7 +395,7 @@ odp:Schusterman_MN
 Обучивший на 40 часовых семинарах свыше 5000 воспитателей и педагогов
 с 1988 по 1991 годы в разных городах СССР"""@ru ;
     foaf:affil "TRIZ School Norilsk, Russia"@en ;
-    foaf:name "Michail Naumovich Schusterman", "Михаил Наумович Шустерман"@ru .
+    foaf:name "Michail Schusterman", "Михаил Наумович Шустерман"@ru .
 
 odp:Severinec_G
     a foaf:Person ;
@@ -415,7 +411,7 @@ odp:Shpakovskij_N
     a foaf:Person ;
     foaf:affil "Target Invention, Ведущий эксперт"@ru ;
     foaf:homepage <http://www.target-invention.com> ;
-    foaf:name "Nikolaj Shpakovskij" .
+    foaf:name "Nikolay Shpakovskij" .
 
 odp:Simakov_S
     a foaf:Person ;
