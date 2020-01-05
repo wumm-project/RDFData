@@ -113,9 +113,9 @@ including keynote talks and presentations at plenary sessions. """ ;
     ical:dtstart "2012-10-24"^^xsd:date ;
     ical:location "New University of Lisbon, Lisbon, Portugal"  ;
     ical:url <http://trizrealworld.blogspot.com/2012_10_01_archive.html>, 
-    	     <http://etria.eu/portal/index.php/past-etria-conferences-mainmenu-67/97l>,
-	     <http://etria.eu/documents/TFC2012_Program.pdfl>,
-	     <http://etria.eu/portal/index.php/past-etria-conferences-mainmenu-67/101l> .
+    	     <http://etria.eu/portal/index.php/past-etria-conferences-mainmenu-67/97>,
+	     <http://etria.eu/documents/TFC2012_Program.pdf>,
+	     <http://etria.eu/portal/index.php/past-etria-conferences-mainmenu-67/101> .
 
 <http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2011/>
     a swc:ConferenceEvent ;
