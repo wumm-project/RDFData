@@ -18,6 +18,18 @@
 od:Presentation a owl:Class ;
    rdfs:label "DCMI Metarecord of a Presentation" .
 
+<http://opendiscovery.org/rdf/Presentation/Domkin-20200103>
+  a od:Presentation ;
+  dcterms:creator odp:Domkin_K ;
+  dcterms:title "TRIZ Tools for consulting"@en ;
+  dcterms:abstract "Talk given in Leipzig on Jan 03, 2020"@en ; 
+  od:urlSlides <http://wumm.uni-leipzig.de/Presentations/Domkin-20200103.pdf> ;
+  dcterms:rights "Apache 2.0 License" ;
+  dcterms:extent "21 slides" ;
+  dcterms:format <http://www.iana.org/assignments/media-types/application/pdf> ;
+  dcterms:language "en"^^dcterms:RFC4646 ;
+  dcterms:issued "2020-01-03"^^dcterms:W3CDTF .
+
 <http://opendiscovery.org/rdf/Presentation/Fey-20190529>
   a od:Presentation ;
   dcterms:creator odp:Fey_V ;
@@ -29,7 +41,7 @@ od:Presentation a owl:Class ;
   dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
   dcterms:language  "en"^^dcterms:RFC4646 ;
   dcterms:issued "2019-09-11"^^dcterms:W3CDTF .
-
+  
 <http://opendiscovery.org/rdf/Presentation/Graebe-20190529>
   a od:Presentation ;
   dcterms:creator odp:Graebe_HG ;
