@@ -78,6 +78,17 @@ od:Presentation a owl:Class ;
   dcterms:language  "de"^^dcterms:RFC4646 ; 
   dcterms:issued "2019-04-04"^^dcterms:W3CDTF .
 
+<http://opendiscovery.org/rdf/Presentation/Kozhemyako-VCM>
+  a od:Presentation ;
+  dcterms:creator odp:Kozhemyako_A ;
+  dcterms:title  "VCM (Value-Conflict Mapping)"@en ;
+  dcterms:abstract "На встрече Клуба практиков ТРИЗ в Челябинске Антон Кожемяко делал доклад с описанием инструмента ТРИЗ - VCM (Value-Conflict Mapping) разработанного Мастером ТРИЗ Валерием Сушковым (Нидерланды). VCM – это аналитический метод, разработанный для выявления и ранжирования так называемых «блокирующих» противоречий, сдерживающих развитие продукта = технической системы. В ходе анализа по VCM выявленные требования стейкхоледров учитываются в соответствующих значениях параметров системы (например, в физических параметрах)."@ru ; 
+  od:urlSlides <https://yadi.sk/i/lqZakWMWIrJPFg> ;
+  dcterms:extent "17 slides" ;
+  dcterms:format <http://www.iana.org/assignments/media-types/application/pdf> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ; 
+  dcterms:issued "2019-12-26"^^dcterms:W3CDTF .
+
 <http://opendiscovery.org/rdf/Presentation/Litvin-20171101>
   a od:Presentation ;
   dcterms:creator odp:Litvin_S ;
