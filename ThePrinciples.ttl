@@ -14,7 +14,7 @@
     cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
     dcterms:source <http://triz-online.de/index.php?id=5593> ;
     a owl:Ontology ;
-    rdfs:comment "HGG 2019-01-10: Extracted and transformed from triz-online", "HGG 2019-10-05: A first raw translation to Russian and English added" ;
+    rdfs:comment "HGG 2019-01-10: Extracted and transformed from triz-online", "HGG 2019-10-05: A first raw translation to Russian and English added", "HGG 2020-01-12: Adjustment of the German terms with (Koltze/Souchkov 2017)" ;
     rdfs:label "TRIZ Database - The 40 Principles" .
 
 od:Principle
@@ -61,7 +61,7 @@ odp:P07
     od:description "An object is housed inside another, which in turn is inside a third."@en, "An object passes through or fills the cavity of another object."@en, "Ein Objekt durchläuft oder füllt den Hohlraum eines anderen Objektes."@de, "Ein Objekt ist im Inneren eines anderen untergebracht, das sich wiederum im Inneren eines dritten befindet."@de, "Объект проходит через или заполняет полость другого объекта."@ru, "Объект размещен внутри другого, который, в свою очередь, находится внутри третьего."@ru ;
     od:hasPrincipleNumber "07" ;
     a od:Principle ;
-    rdfs:label "Principle of nesting (matryoshka)"@en, "Prinzip der Verschachtelung (Matrjoschka-Prinzip)"@de, "Принцип вложенности («матрёшки»)"@ru .
+    rdfs:label "Principle of nesting (matryoshka)"@en, "Prinzip der Integration (Matrjoschka-Prinzip)"@de, "Принцип вложенности («матрёшки»)"@ru .
 
 odp:P08
     od:description "Das Gewicht des Objektes ist durch Kopplung mit einem anderen Objekt, das Tragkraft besitzt, zu kompensieren."@de, "Das Gewicht des Objektes ist durch Wechselwirkung mit einem Medium zu kompensieren."@de, "The weight of the object is to be compensated by coupling it with another object that has bearing capacity."@en, "The weight of the object is to be compensated by interaction with a medium."@en, "Вес объекта должен быть компенсирован взаимодействием со средой."@ru, "Вес объекта должен быть компенсирован путем соединения его с другим объектом, который обладает несущей способностью."@ru ;
@@ -73,37 +73,37 @@ odp:P09
     od:description "If a certain effect is to be achieved according to the conditions of the task, the counteraction must first be generated."@en, "Wenn gemäß den Bedingungen der Aufgabe eine bestimmte Wirkung erzielt werden soll, muss zuvor die Gegenwirkung erzeugt werden."@de, "Если в соответствии с условиями задачи должен быть достигнут определенный эффект, сначала должно быть создано противодействие."@ru ;
     od:hasPrincipleNumber "09" ;
     a od:Principle ;
-    rdfs:label "Principle of early counteraction"@en, "Prinzip der vorgezogenen Gegenwirkung"@de, "Принцип предварительного противодействия"@ru .
+    rdfs:label "Principle of early counteraction"@en, "Prinzip der vorherigen Gegenwirkung"@de, "Принцип предварительного противодействия"@ru .
 
 odp:P10
     od:description "Die Objekte sind vorher so aufzustellen bzw. einzusetzen, dass sie ohne Zeitverlust für ihr Herbeischaffen vom geeignetsten Ort aus wirken können."@de, "Die erforderliche Wirkung ist vorher zu erzielen (vollständig oder auch teilweise)."@de, "The objects must first be set up in such a way that they can work without delay for their bringing in from the most suitable place."@en, "The required effect must be achieved beforehand (completely or partially)."@en, "Объекты сначала должны быть настроены таким образом, чтобы они могли работать без задержки для их доставки из наиболее подходящего места."@ru, "Требуемый эффект должен быть достигнут заранее (полностью или частично)."@ru ;
     od:hasPrincipleNumber "10" ;
     a od:Principle ;
-    rdfs:label "Principle of the preferred action"@en, "Prinzip der vorgezogenen Wirkung"@de, "Принцип предварительного действия (заранее выполненное действие)"@ru .
+    rdfs:label "Principle of the preferred action"@en, "Prinzip der vorherigen Wirkung bzw. Aktion"@de, "Принцип предварительного действия (заранее выполненное действие)"@ru .
 
 odp:P11
     od:description "A relatively low reliability of the object is compensated by means previously provided."@en, "Eine relativ geringe Zuverlässigkeit des Objektes wird durch vorher bereitgestellte Hilfsmittel ausgeglichen."@de, "Относительно низкая надежность объекта компенсируется ранее предоставленными средствами."@ru, "Заранее предусматривается устройство для выполнения спасательных и других аваририйных действий"@ru, "Es ist ein Gerät zur Durchführung von Rettungs- und anderen Notfallmaßnahmen vorgesehen"@de, "A device is foreseen for performing rescue and other emergency actions"@en ;
     od:hasPrincipleNumber "11" ;
     a od:Principle ;
-    rdfs:label "Principle of advanced cushion (prevention)"@en, "Prinzip des vorher untergelegten Kissens (Prävention)"@de, "Принцип заранее подложенной подушки"@ru .
+    rdfs:label "Principle of advanced cushion (prevention)"@en, "Prinzip des untergelegten Kissens (Prävention)"@de, "Принцип заранее подложенной подушки"@ru .
 
 odp:P12
     od:description "Die Arbeitsbedingungen sind so zu verändern, dass das Objekt mit konstantem Energiepotenzial arbeiten kann, z.B. nicht angehoben oder herabgelassen werden muss."@de, "The working conditions should be changed so that the object can work with a constant energy potential, for example it does not have to be raised or lowered."@en, "Рабочие условия должны быть изменены, чтобы объект мог работать с постоянным энергетическим потенциалом, например, его не нужно поднимать или опускать."@ru ;
     od:hasPrincipleNumber "12" ;
     a od:Principle ;
-    rdfs:label "Principle of Equipotentiality"@en, "Äquipotenzialitätsprinzip"@de, "Принцип эквипотенциальности"@ru .
+    rdfs:label "Principle of Equipotentiality"@en, "Prinzip der Äquipotenzialität"@de, "Принцип эквипотенциальности"@ru .
 
 odp:P13
     od:description "Instead of the effect prescribed by the conditions of the task, the reverse effect can be achieved. "@en, "Das Objekt ist auf den Kopf zu stellen bzw. umzukehren."@de, "Der bewegliche Teil des Objektes oder des umgebenden Mediums ist unbeweglich, und der unbewegliche ist beweglich zu gestalten."@de, "Statt der Wirkung, die durch die Bedingungen der Aufgabe vorgeschrieben wird, ist die umgekehrte Wirkung zu erzielen."@de, "The moving part of the object or the surrounding medium is immobile, and the immovable is movable."@en, "The object is upside down or reverse."@en, "Вместо эффекта, предписанного условиями задачи, может быть достигнут обратный эффект. "@ru, "Движущаяся часть объекта или окружающая среда неподвижна, а неподвижная - подвижна."@ru, "Объект находится вверх ногами или наоборот."@ru ;
     od:hasPrincipleNumber "13" ;
     a od:Principle ;
-    rdfs:label "Das Prinzip „Umgekehrt“"@de, "Principle conversely"@en, "Принцип Наоборот"@ru .
+    rdfs:label "Prinzip der Funktionsumkehr (Inversion)"@de, "Principle conversely"@en, "Принцип Наоборот"@ru .
 
 odp:P14
     od:description "From straight contours is too curved, from flat surfaces is too spherical to go over."@en, "From the rectilinear motion is to transition to rotation."@en, "To use are rollers, balls, spirals."@en, "Von der geradlinigen Bewegung ist zur Rotation überzugehen."@de, "Von geradlinigen Konturen ist zu gekrümmten, von ebenen Flächen ist zu sphärischen überzugehen."@de, "Zu verwenden sind Rollen, Kugeln, Spiralen."@de, "Для использования используются ролики, шарики, спирали."@ru, "От прямолинейного движения есть переход к вращению."@ru, "От прямых контуров слишком изогнутые, от плоских поверхностей слишком сферические, чтобы их перегибать."@ru ;
     od:hasPrincipleNumber "14" ;
     a od:Principle ;
-    rdfs:label "Principle of the ball similarity"@en, "Prinzip der Kugelähnlichkeit"@de, "Принцип сфероидальности"@ru .
+    rdfs:label "Principle of the ball similarity"@en, "Prinzip der Kugelähnlichkeit (Sphäroidalität)"@de, "Принцип сфероидальности"@ru .
 
 odp:P15
     od:description "If the object as a whole is immobile, it has to be movable (adjustable). "@en, "Если объект в целом неподвижен, он должен быть подвижным (регулируемым). "@ru, "Das Objekt ist in Teile zu zerlegen, die sich zueinander verstellen oder verschieben lassen."@de, "Die Kennwerte des Objektes (oder des umgebenden Mediums) müssen sich so verändern, dass sie in jeder Arbeitsetappe optimal sind (Anpassung)."@de, "Falls das Objekt insgesamt unbeweglich ist, ist es beweglich (verstellbar) zu gestalten."@de, "The characteristics of the object (or the surrounding medium) must change to be optimal in each work step (adaptation) . "@en, "The object is to be broken down into parts that can be displaced or shifted."@en, "Объект должен быть разбит на части, которые могут быть смещены или сдвинуты."@ru, "Характеристики объекта (или окружающей среды) должны меняться, чтобы быть оптимальными на каждом этапе работы (адаптация) . "@ru ;
@@ -121,7 +121,7 @@ odp:P17
     od:description "Instead of arrangement in only a layer arranges objects in multiple layers. "@en, "Вместо размещения только в слой размещает объекты в нескольких слоях. "@ru, "Das Objekt ist geneigt aufzustellen."@de, "Die Rückseite des gegebenen Objektes ist auszunutzen."@de, "Difficulties resulting from binding an object's motion to a line are eliminated when the object is the object The possibility of moving in two dimensions, that is, in one plane, is also eliminated, as are the difficulties associated with the movement of objects on a plane in the transition to three-dimensional space. "@en, "Schwierigkeiten, die aus der Bindung der Bewegung eines Objektes an eine Linie resultieren, werden beseitigt, wenn das Objekt die Möglichkeit erhält, sich in zwei Dimensionen, d. h. in einer Ebene, zu bewegen. Analog werden auch die Schwierigkeiten, die mit der Bewegung von Objekten auf einer Ebene verbunden sind, beim Übergang zum dreidimensionalen Raum beseitigt."@de, "Statt Anordnung in nur einer Ebene werden Objekte in mehreren Ebenen angeordnet."@de, "The back of the given object is to be exploited."@en, "The object is inclined to be placed."@en, "Задняя часть данного объекта должна эксплуатироваться."@ru, "Объект склонен к размещению."@ru, "Трудности, возникающие в результате привязки движения объекта к линии, устраняются, когда объект является объектом Также исключается возможность перемещения в двух измерениях, то есть в одной плоскости, а также трудности, связанные с перемещением объектов на плоскости при переходе в трехмерное пространство. "@ru ;
     od:hasPrincipleNumber "17" ;
     a od:Principle ;
-    rdfs:label "Principle of transition to another dimension"@en, "Prinzip des Übergangs in eine andere Dimension"@de, "Принцип перехода в другое измерение"@ru .
+    rdfs:label "Principle of transition to another dimension"@en, "Prinzip des Übergangs zu anderen Dimensionen"@de, "Принцип перехода в другое измерение"@ru .
 
 odp:P18
     od:description "Anstelle von mechanischen Vibratoren sind Piezovibratoren anzuwenden."@de, "Auszunutzen sind Ultraschallschwingungen in Verbindung mit elektromagnetischen Feldern."@de, "Das Objekt ist in Schwingungen zu versetzen."@de, "Die Eigenfrequenz ist auszunutzen."@de, "Falls eine solche Bewegung bereits vorliegt, ist ihre Frequenz zu erhöhen, bis hin zur Ultaschallfrequenz."@de, "If such a movement already exists, its frequency must be increased, up to the ultrasonic frequency."@en, "Instead of mechanical vibrators, piezovibrators are to be used."@en, "The natural frequency is to be exploited."@en, "The object is to be vibrated."@en, "Use ultrasonic vibrations in conjunction with electromagnetic fields."@en, "Вместо механических вибраторов должны использоваться пьезовибраторы."@ru, "Если такое движение уже существует, его частота должна быть увеличена до ультразвуковой частоты."@ru, "Используйте ультразвуковые колебания в сочетании с электромагнитными полями."@ru, "Объект должен вибрировать."@ru, "Собственная частота должна эксплуатироваться."@ru ;
@@ -211,13 +211,13 @@ odp:P32
     od:description "For observing poorly visible objects or processes, use coloring additives. "@en, "Для наблюдения плохо видимых предметов или процессов используйте красящие добавки. "@ru, "Der Grad der Durchsichtigkeit des Objektes oder des umgebenden Mediums ist zu verändern."@de, "Die Farbe des Objektes oder des umgebenden Mediums ist zu verändern."@de, "If such conditions are already applied, phosphors are too use. "@en, "The color of the object or the surrounding medium should be changed."@en, "The degree of transparency of the object or the surrounding medium should be changed."@en, "Wenn solche Zustände bereits angewandt werden, sind Leuchtstoffe zu verwenden."@de, "Zur Beobachtung schlecht sichtbarer Objekte oder Prozesse sind färbende Zuschläge zu nutzen."@de, "Если такие условия уже применяются, люминофоры слишком используйте. "@ru, "Степень прозрачности объекта или окружающей среды должна быть изменена."@ru, "Цвет объекта или окружающей среды должен быть изменен."@ru ;
     od:hasPrincipleNumber "32" ;
     a od:Principle ;
-    rdfs:label "Color change principle"@en, "Prinzip der Farbveränderung"@de, "Принцип изменения окраски"@ru .
+    rdfs:label "Color and transparency change principle"@en, "Prinzip der Veränderung von Farbe und Transparenz"@de, "Принцип изменения окраски и прозрачности"@ru .
 
 odp:P33
     od:description "Objects that interact with the given object must be made of the same material or a material with approximately the same characteristics."@en, "Objekte, die mit dem gegebenen Objekt zusammenwirken, müssen aus demselben Werkstoff oder einem Werkstoff mit annähernd gleichen Eigenschaften gefertigt sein."@de, "Объекты, взаимодействующие с данным объектом, должны быть изготовлены из одного и того же материала или материала с примерно одинаковыми характеристиками."@ru ;
     od:hasPrincipleNumber "33" ;
     a od:Principle ;
-    rdfs:label "Principle of homogeneity"@en, "Prinzip der Homogenität"@de, "Принцип однородности"@ru .
+    rdfs:label "Principle of homogeneity"@en, "Prinzip der Gleichartigkeit (Homogenität)"@de, "Принцип однородности"@ru .
 
 odp:P34
     od:description "Part of an object that has served its purpose or has become unusable is eliminated (dissolved, vaporized, or the like) or converted immediately during the operation."@en, "Spent parts of an object are restored immediately during the operation "@en, "Teil eines Objektes, das seinen Zweck erfüllt hat oder unbrauchbar geworden ist, wird beseitigt (aufgelöst, verdampft o. ä.) oder unmittelbar im Arbeitsgang umgewandelt."@de, "Verbrauchte Teile eines Objektes werden unmittelbar im Arbeitsgang wieder hergestellt."@de, "Отработанные части объекта восстанавливаются непосредственно во время операции "@ru, "Часть объекта, которая выполнила свою задачу или стала непригодной для использования, исключается (растворяется, испаряется и т. п.) или преобразуется непосредственно во время операции."@ru ;
@@ -229,7 +229,7 @@ odp:P35
     od:description "Hierzu gehören nicht nur einfache Übergänge, z. B. vom festen in den flüssigen Zustand, sondern auch die Übergänge in „Pseudo- oder Quasizustände“, z. B. die Quasiflüssigkeit und in Zwischenzustände, z. B. die Verwendung elastisch fester Körper."@de, "These include not only simple transitions, eg from the solid to the liquid state, but also the transitions into pseudo or quasic states, eg the quasi-liquid and in intermediate states, eg the use elastic solid body. "@en, "К ним относятся не только простые переходы, например, из твердого состояния в жидкое состояние, но также переходы в псевдо или квазизначные состояния, например, квазидожидкость, и в промежуточные состояния, например, использование упругое твердое тело. "@ru, "Изменение параметров объекта касается не только вещест, но и полей"@ru, "Changing the parameters of an object concerns not only matter, but also fields"@en, "Das Ändern der Parameter eines Objekts betrifft nicht nur Materie, sondern auch Felder"@de ;
     od:hasPrincipleNumber "35" ;
     a od:Principle ;
-    rdfs:label "Principle of changing the physical or chemical parameters of an object"@en, "Prinzip der Veränderung der physiko-chemischen Parameter eines Objekts"@de, "Принцип изменения физико-химических параметров объекта"@ru .
+    rdfs:label "Principle of changing the physical or chemical parameters of an object"@en, "Prinzip der Veränderung der physikalischen oder chemischen Parameter eines Objekts"@de, "Принцип изменения физико-химических параметров объекта"@ru .
 
 odp:P36
     od:description "Die bei Phasenübergängen auftretenden Erscheinungen sind auszunutzen, z. B. Volumenveränderung, Wärmeentwicklung oder -absorption usw."@de, "The phenomena occurring during phase transitions shall be exploited, eg change in volume, evolution or absorption of heat, etc."@en, "Должны использоваться явления, возникающие во время фазовых переходов, например, изменение объема, выделение или поглощение тепла и т. д."@ru ;
@@ -241,7 +241,7 @@ odp:P37
     od:description "Die Wärmedehnung oder -verdichtung von Werkstoffen ist auszunutzen."@de, "Es sind mehrere Werkstoffe mit unterschiedlicher Wärmedehnungszahl zu benutzen."@de, "The thermal expansion or compression of materials should be exploited."@en, "There are several materials with different thermal expansion coefficients to use."@en, "Следует использовать термическое расширение или сжатие материалов."@ru, "Существует несколько материалов с различными коэффициентами теплового расширения."@ru ;
     od:hasPrincipleNumber "37" ;
     a od:Principle ;
-    rdfs:label "Principle of application of thermal expansion"@en, "Prinzip der Anwendung von Wärmedehnung"@de, "Принцип применения термического расширения"@ru .
+    rdfs:label "Principle of application of thermal expansion"@en, "Prinzip der Anwendung von Wärmeausdehnung"@de, "Принцип применения термического расширения"@ru .
 
 odp:P38
     od:description "Replace ozonated or ionized oxygen with ozone. "@en, "Use ozonated oxygen. "@en, "Замените озонированный или ионизированный кислород озоном. "@ru, "Используйте озонированный кислород. "@ru, "Die Luft oder der Sauerstoff ist der Einwirkung ionisierender Strahlung auszusetzen."@de, "Die aktivierte Luft ist durch Sauerstoff zu ersetzen."@de, "Die normale atmosphärische Luft ist durch aktivierte zu ersetzen."@de, "Es ist ozonierter Sauerstoff zu benutzen."@de, "Ozonierter oder ionisierter Sauerstoff ist durch Ozon zu ersetzen."@de, "The activated air should be replaced by oxygen."@en, "The air or oxygen should be exposed to ionizing radiation."@en, "The normal atmospheric air is replaced by activated."@en, "Активированный воздух должен быть заменен кислородом."@ru, "Воздух или кислород должны подвергаться воздействию ионизирующего излучения."@ru, "Нормальный атмосферный воздух заменен активированным."@ru ;
