@@ -29,13 +29,25 @@
 <http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2019/>
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit> ;
-    rdfs:label "TRIZ Summit 2019 in Minsk" ;
-    ical:description "TRIZ Summit 2019 in Minsk" ;
+    rdfs:label "TRIZ Summit 2019" ;
+    ical:description "TRIZ Summit 2019" ;
     ical:dtend "2019-06-15"^^xsd:date ;
     ical:dtstart "2019-06-13"^^xsd:date ;
     ical:location "EPAM, Minsk, Belarus" ;
     od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZ-Summit-2019.rdf> ; 
+    od:theFotos <http://www.metodolog.ru/01062/01062.html> ;
     ical:url <https://communities.by/events/triz-summit-2019-ru> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2007/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit> ;
+    rdfs:label "TRIZ Summit 2007" ;
+    ical:description "TRIZ Summit 2007" ;
+    ical:dtend "2007-07-08"^^xsd:date ;
+    ical:dtstart "2007-07-07"^^xsd:date ;
+    ical:location "Moscow, Russia" ;
+    od:theProceedings <https://www.trizland.ru/trizba/pdf-books/TRIZ-summit2007.pdf> ; 
+    ical:url <https://triz-summit.ru/en/conference/203453/> .
 
 <http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2018/>
     a swc:ConferenceEvent ;
