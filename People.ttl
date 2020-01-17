@@ -47,6 +47,11 @@ odp:Bezdel_Z
     foaf:affil "IPMA, Менеджер проектов"@ru ;
     foaf:name "Zoya Bezdel'" .
 
+odp:Bogatyrev_N
+    a foaf:Person ;
+    foaf:homepage <https://www.facebook.com/nikolay.bogatyrev.1> ;
+    foaf:name "Nikolay Bogatyrev", "Николай Ростиславович Богатырёв"@ru.
+
 odp:Borisevich_S
     a foaf:Person ;
     foaf:affil "EPAM Systems, Director, User Experience Desing"@en ;
