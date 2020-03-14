@@ -125,6 +125,19 @@ od:Presentation a owl:Class ;
   dcterms:language  "ru"^^dcterms:RFC4646 ;
   dcterms:issued "2019-08-09"^^dcterms:W3CDTF .
 
+<http://opendiscovery.org/rdf/Presentation/Shpakovskij-20181119>
+  a od:Presentation ;
+  dcterms:creator odp:Shpakovskij_N ;
+  dcterms:title  "About the book OTSM-TRIZ. Approaches and application practices"@en, "О книге «ОТСМ-ТРИЗ. Подходы и практика применения»"@ru ;
+  dcterms:abstract "Доклад о новой книге Н.А. Шпаковского, выпущенной издательством ИНФРА. Название книги «ОТСМ-ТРИЗ. Подходы и практика применения». В книге рассматривается методика изобретательского творчества в различных областях деятельности человека; излагаются теоретические подходы, инструменты и алгоритмы для решения сложных задач. Приводится разнообразный иллюстративный материал, даются выводы из разделов и контрольные вопросы, примеры и задачи для самостоятельного решения. Книга предназначена инженерам, конструкторам и студентам технических специальностей, преподавателям, специалистам и управляющему персоналу подразделений на производстве и в отраслевых НИИ."@ru, "Report on a new book by N.A. Shpakovsky, published by INFRA publishing house. The title of the book \"OTSM-TRIZ. Approaches and application practices\". The book examines the methods of inventive creativity in various fields of human activity, presents theoretical approaches, tools and algorithms for solving complex problems. Various illustrative material is given, conclusions from sections and control questions, examples and tasks for independent decision are given. The book is intended for engineers, designers and students of technical specialties, teachers, specialists and management personnel of departments at production and branch research institutes."@en ;
+  od:urlVideo <https://www.youtube.com/watch?v=KSutnPM0f68> ;
+  dcterms:rights "Youtube Standard License" ;
+  dcterms:extent "01:18:06 h" ;
+  dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  rdfs:comment "Published via Solving Mills facebook channel"@en ; 
+  dcterms:issued "2018-11-19"^^dcterms:W3CDTF .
+
 <http://opendiscovery.org/rdf/Presentation/Shpakovskij-20190713a>
   a od:Presentation ;
   dcterms:creator odp:Shpakovskij_N ;
@@ -237,3 +250,15 @@ od:Presentation a owl:Class ;
   dcterms:language  "ru"^^dcterms:RFC4646 ;
   rdfs:comment "Published via Souchkov's facebook channel"@en ; 
   dcterms:issued "2019-08-25"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Souchkov-20200213>
+  a od:Presentation ;
+  dcterms:creator odp:Souchkov_V ;
+  dcterms:title  "Вебинар ТРИЗ для решения проблем в бизнесе и менеджменте"@ru, "Webinar TRIZ for problem solution in business and management"@en ;
+  od:urlVideo <https://www.youtube.com/watch?v=gLx6h_KpDVI> ;
+  dcterms:rights "Youtube Standard License" ;
+  dcterms:extent "01:09:42 h" ;
+  dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  rdfs:comment "Published via Souchkov's facebook channel"@en ; 
+  dcterms:issued "2020-02-14"^^dcterms:W3CDTF .
