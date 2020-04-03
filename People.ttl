@@ -24,6 +24,10 @@ odp:Ageed_S
     a foaf:Person ;
     foaf:name "Sharaf Ageed" .
 
+odp:Altshuller_GS
+    a foaf:Person ;
+    foaf:name "Genrich Saulowich Altshuller"@en, "Генрих Саулович Альтшуллер"@ru .
+
 odp:Amnuel_P
     a foaf:Person ;
     foaf:affil "художественно-публицистический журнал «Млечный Путь» и одноименное издательство, редактор"@ru ;
@@ -476,4 +480,12 @@ odp:Zobel_D
     a foaf:Person ;
     foaf:affil "Ingenieurbüro für Systemtechnik, Wittenberg" ;
     foaf:name "Dietmar Zobel" .
+
+odp:Zlotin_B
+    a foaf:Person ;
+    foaf:name "Boris Zlotin" .
+
+odp:Zusman_A
+    a foaf:Person ;
+    foaf:name "Alla Zusman" .
 
