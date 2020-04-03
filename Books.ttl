@@ -3,7 +3,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dc:<http://purl.org/dc/elements/1.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
 @prefix odp: <http://opendiscovery.org/rdf/Person/> .
@@ -25,7 +25,7 @@ od:TRIZ-Book a owl:Class ;
 <http://opendiscovery.org/rdf/Book/B073GZCSDT>
   a od:TRIZ-Book ;
   dcterms:creator odp:Altshuller_GS ;
-  dcterms:contributor odp:Petrov_VP, odp:Zlotin_B, Zusman_A ;
+  dcterms:contributor odp:Petrov_VP, odp:Zlotin_B, odp:Zusman_A ;
   dcterms:title "System of Standard Inventive Solution by Genrich Altshuller"@en ;
   bibo:asin "B073GZCSDT" ;
   rdfs:comment "Vladimir Petrov (Illustrator, Editor), Boris Zlotin (Translator), Alla Zusman (Translator)" ; 
