@@ -7,235 +7,200 @@
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
 @prefix odp: <http://opendiscovery.org/rdf/Person/> .
 @prefix cc: <http://creativecommons.org/ns#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
 
-<http://opendiscovery.org/rdf/Bibliography-Petrov/> a owl:Ontology ;
+<http://opendiscovery.org/Data/Books/> a owl:Ontology ;
    cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
    cc:attributionURL <http://opendiscovery.org> ;
    cc:attributionName "The Open Discovery Project" ;
-   rdfs:label "Open Discovery Bibliographical Data" ;
-   rdfs:comment "Bibliography of the Open Discovery Project" ;
+   rdfs:label "Open Discovery Collection of TRIZ Books" ;
    owl:imports <http://opendiscovery.org/rdf/People/>.
 
-od:Reference a owl:Class ;
-   rdfs:label "DCMI Metarecord of a Publication" .
+od:TRIZ-Book a owl:Class ;
+   rdfs:label "DCMI Metarecord of a TRIZ book" .
 
-<http://opendiscovery.org/rdf/BIB/978-5-4490-8547-4> a od:Reference;
-  dcterms:identifier <urn:isbn:978-5-4490-8547-4> ;
+<http://opendiscovery.org/rdf/Book/B07XTR56HM>
+  a od:TRIZ-Book ;
+  dcterms:creator odp:Petrov_VM ;
+  dcterms:title "Structural System Analysis. Su-Field Analysis. TRIZ"@en ;
+  bibo:asin "B07XTR56HM" ;
+  dcterms:publisher "Amazon Digital Services LLC" ; 
+  dcterms:language "en"^^dcterms:RFC4646  ;
+  dcterms:issued "2017"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Book/978-5-4490-8547-4> a od:TRIZ-Book;
+  bibo:isbn "978-5-4490-8547-4" ;
   dcterms:creator odp:Petrov_VM ;
   dcterms:title "Развитие творческого воображения: ТРИЗ"@ru ;
-  dcterms:source <https://ridero.ru/books/razvitie_tvorcheskogo_voobrazheniya> ;
   dcterms:publisher "Издательские решения"@ru ;
-  dcterms:type "Text"^^dcterms:DCMIType ;
   dcterms:language  "ru"^^dcterms:RFC4646 ; 
   dcterms:issued "2018"^^dcterms:W3CDTF .
 
-<http://opendiscovery.org/rdf/BIB/978-5-4493-5785-4> a od:Reference;
-  dcterms:identifier <urn:isbn:978-5-4493-5785-4> ;
+<http://opendiscovery.org/rdf/Book/978-5-4493-5785-4> a od:TRIZ-Book;
+  bibo:isbn "978-5-4493-5785-4" ;
   dcterms:creator odp:Petrov_VM ;
   dcterms:title "Талантливое мышление: ТРИЗ"@ru ;
-  dcterms:source <https://ridero.ru/books/talantlivoe_myshlenie> ;
   dcterms:publisher "Издательские решения"@ru ;
-  dcterms:type "Text"^^dcterms:DCMIType ;
   dcterms:language  "ru"^^dcterms:RFC4646 ; 
   dcterms:issued "2018"^^dcterms:W3CDTF .
 
-<http://opendiscovery.org/rdf/BIB/978-5-4496-0678-5> a od:Reference;
-  dcterms:identifier <urn:isbn:978-5-4496-0678-5> ;
+<http://opendiscovery.org/rdf/Book/978-5-4496-0678-5> a od:TRIZ-Book;
+  bibo:isbn "978-5-4496-0678-5" ;
   dcterms:creator odp:Petrov_VM ;
   dcterms:title "Думай иначе: Креативное мышление"@ru ;
-  dcterms:source <https://ridero.ru/books/dumai_inache/> ;
   dcterms:publisher "Издательские решения"@ru ;
-  dcterms:type "Text"^^dcterms:DCMIType ;
   dcterms:language  "ru"^^dcterms:RFC4646 ; 
   dcterms:issued "2018"^^dcterms:W3CDTF .
 
-<http://opendiscovery.org/rdf/BIB/978-5-4493-2772-7> a od:Reference;
-  dcterms:identifier <urn:isbn:978-5-4493-2772-7> ;
+<http://opendiscovery.org/rdf/Book/978-5-4493-2772-7> a od:TRIZ-Book;
+  bibo:isbn "978-5-4493-2772-7" ;
   dcterms:creator odp:Petrov_VM ;
   dcterms:title "Методы активизации творческого процесса: ТРИЗ"@ru ;
-  dcterms:source <https://ridero.ru/books/metody_aktivizacii_tvorcheskogo_processa/> ;
   dcterms:publisher "Издательские решения"@ru ;
-  dcterms:type "Text"^^dcterms:DCMIType ;
   dcterms:language  "ru"^^dcterms:RFC4646 ; 
   dcterms:issued "2018"^^dcterms:W3CDTF .
 
-<http://opendiscovery.org/rdf/BIB/978-5-4493-5127-2> a od:Reference;
-  dcterms:identifier <urn:isbn:978-5-4493-5127-2> ;
+<http://opendiscovery.org/rdf/Book/978-5-4493-5127-2> a od:TRIZ-Book;
+  bibo:isbn "978-5-4493-5127-2" ;
   dcterms:creator odp:Petrov_VM ;
   dcterms:title "Поиск идеи — это просто: ТРИЗ для всех"@ru ;
-  dcterms:source <https://ridero.ru/books/poisk_idei_eto_prosto/> ;
   dcterms:publisher "Издательские решения"@ru ;
-  dcterms:type "Text"^^dcterms:DCMIType ;
   dcterms:language  "ru"^^dcterms:RFC4646 ; 
   dcterms:issued "2018"^^dcterms:W3CDTF .
 
-<http://opendiscovery.org/rdf/BIB/978-5-4493-6332-9> a od:Reference;
-  dcterms:identifier <urn:isbn:978-5-4493-6332-9> ;
+<http://opendiscovery.org/rdf/Book/978-5-4493-6332-9> a od:TRIZ-Book;
+  bibo:isbn "978-5-4493-6332-9" ;
   dcterms:creator odp:Petrov_VM ;
   dcterms:title "Решение нестандартных задач: ТРИЗ"@ru ;
-  dcterms:source <https://ridero.ru/books/reshenie_nestandartnykh_zadach/> ;
   dcterms:publisher "Издательские решения"@ru ;
-  dcterms:type "Text"^^dcterms:DCMIType ;
   dcterms:language  "ru"^^dcterms:RFC4646 ; 
   dcterms:issued "2018"^^dcterms:W3CDTF .
 
-<http://opendiscovery.org/rdf/BIB/978-5-4490-9985-3> a od:Reference;
-  dcterms:identifier <urn:isbn:978-5-4490-9985-3> ;
+<http://opendiscovery.org/rdf/Book/978-5-4490-9985-3> a od:TRIZ-Book;
+  bibo:isbn "978-5-4490-9985-3" ;
   dcterms:creator odp:Petrov_VM ;
   dcterms:title "Законы развития систем: ТРИЗ"@ru ;
-  dcterms:source <https://ridero.ru/books/zakony_razvitiya_sistem/> ;
   dcterms:publisher "Издательские решения"@ru ;
-  dcterms:type "Text"^^dcterms:DCMIType ;
   dcterms:language  "ru"^^dcterms:RFC4646 ; 
   dcterms:issued "2018"^^dcterms:W3CDTF, "2019"^^dcterms:W3CDTF .
 
-<http://opendiscovery.org/rdf/BIB/978-5-4493-3726-9> a od:Reference;
-  dcterms:identifier <urn:isbn:978-5-4493-3726-9> ;
+<http://opendiscovery.org/rdf/Book/978-5-4493-3726-9> a od:TRIZ-Book;
+  bibo:isbn "978-5-4493-3726-9" ;
   dcterms:creator odp:Petrov_VM ;
   dcterms:title "Основы ТРИЗ: Теория решения изобретательских задач"@ru ;
-  dcterms:source <https://ridero.ru/books/osnovy_triz/> ;
   dcterms:publisher "Издательские решения"@ru ;
-  dcterms:type "Text"^^dcterms:DCMIType ;
   dcterms:language  "ru"^^dcterms:RFC4646 ; 
   dcterms:issued "2018"^^dcterms:W3CDTF .
 
-<http://opendiscovery.org/rdf/BIB/978-5-4493-9970-0> a od:Reference;
-  dcterms:identifier <urn:isbn:978-5-4493-9970-0> ;
+<http://opendiscovery.org/rdf/Book/978-5-4493-9970-0> a od:TRIZ-Book;
+  bibo:isbn "978-5-4493-9970-0" ;
   dcterms:creator odp:Petrov_VM ;
   dcterms:title "Структурный анализ систем: Вепольный анализ. ТРИЗ"@ru ;
-  dcterms:source <https://ridero.ru/books/strukturnyi_analiz_sistem/> ;
   dcterms:publisher "Издательские решения"@ru ;
-  dcterms:type "Text"^^dcterms:DCMIType ;
   dcterms:language  "ru"^^dcterms:RFC4646 ; 
   dcterms:issued "2018"^^dcterms:W3CDTF .
 
-<http://opendiscovery.org/rdf/BIB/978-5-4493-0037-0> a od:Reference;
-  dcterms:identifier <urn:isbn:978-5-4493-0037-0> ;
+<http://opendiscovery.org/rdf/Book/978-5-4493-0037-0> a od:TRIZ-Book;
+  bibo:isbn "978-5-4493-0037-0" ;
   dcterms:creator odp:Petrov_VM ;
   dcterms:title "Стандарты изобретательства: Учебник. ТРИЗ"@ru ;
-  dcterms:source <https://ridero.ru/books/standarty_izobretatelstva/> ;
   dcterms:publisher "Издательские решения"@ru ;
-  dcterms:type "Text"^^dcterms:DCMIType ;
   dcterms:language  "ru"^^dcterms:RFC4646 ; 
   dcterms:issued "2018"^^dcterms:W3CDTF .
 
-<http://opendiscovery.org/rdf/BIB/978-5-4496-00191-9> a od:Reference;
-  dcterms:identifier <urn:isbn:978-5-4496-00191-9> ;
+<http://opendiscovery.org/rdf/Book/978-5-4496-00191-9> a od:TRIZ-Book;
+  bibo:isbn "978-5-4496-00191-9" ;
   dcterms:creator odp:Petrov_VM ;
   dcterms:title "Учебник по АРИЗ-85-В: Алгоритм решения изобретательских задач"@ru ;
-  dcterms:source <https://ridero.ru/books/ariz-_85_-v_1/> ;
   dcterms:publisher "Издательские решения"@ru ;
-  dcterms:type "Text"^^dcterms:DCMIType ;
   dcterms:language  "ru"^^dcterms:RFC4646 ; 
   dcterms:issued "2018"^^dcterms:W3CDTF .
 
-<http://opendiscovery.org/rdf/BIB/978-5-4496-00190-2> a od:Reference;
-  dcterms:identifier <urn:isbn:978-5-4496-00190-2> ;
+<http://opendiscovery.org/rdf/Book/978-5-4496-00190-2> a od:TRIZ-Book;
+  bibo:isbn "978-5-4496-00190-2" ;
   dcterms:creator odp:Petrov_VM ;
   dcterms:title "Задачник по АРИЗ-85-В: Алгоритм решения изобретательских задач"@ru ;
-  dcterms:source <https://ridero.ru/books/ariz-_85_-v/> ;
   dcterms:publisher "Издательские решения"@ru ;
-  dcterms:type "Text"^^dcterms:DCMIType ;
   dcterms:language  "ru"^^dcterms:RFC4646 ; 
   dcterms:issued "2018"^^dcterms:W3CDTF .
 
-<http://opendiscovery.org/rdf/BIB/978-5-4493-1445-1> a od:Reference;
-  dcterms:identifier <urn:isbn:978-5-4493-1445-1> ;
+<http://opendiscovery.org/rdf/Book/978-5-4493-1445-1> a od:TRIZ-Book;
+  bibo:isbn "978-5-4493-1445-1" ;
   dcterms:creator odp:Petrov_VM ;
   dcterms:title "Универсальные приемы разрешения противоречий: ТРИЗ"@ru ;
-  dcterms:source <https://ridero.ru/books/universalnye_priemy_razresheniya_protivorechii/> ;
   dcterms:publisher "Издательские решения"@ru ;
-  dcterms:type "Text"^^dcterms:DCMIType ;
   dcterms:language  "ru"^^dcterms:RFC4646 ; 
   dcterms:issued "2018"^^dcterms:W3CDTF .
 
-<http://opendiscovery.org/rdf/BIB/978-5-4493-0972-3> a od:Reference;
-  dcterms:identifier <urn:isbn:978-5-4493-0972-3> ;
+<http://opendiscovery.org/rdf/Book/978-5-4493-0972-3> a od:TRIZ-Book;
+  bibo:isbn "978-5-4493-0972-3" ;
   dcterms:creator odp:Petrov_VM ;
   dcterms:title "Системный анализ продвижения продукта на рынок: ТРИЗ"@ru ;
-  dcterms:source <https://ridero.ru/books/sistemnyi_analiz_prodvizheniya_produkta_na_rynok/> ;
   dcterms:publisher "Издательские решения"@ru ;
-  dcterms:type "Text"^^dcterms:DCMIType ;
   dcterms:language  "ru"^^dcterms:RFC4646 ; 
   dcterms:issued "2018"^^dcterms:W3CDTF .
 
-<http://opendiscovery.org/rdf/BIB/978-5-4493-3018-5> a od:Reference;
-  dcterms:identifier <urn:isbn:978-5-4493-3018-5> ;
+<http://opendiscovery.org/rdf/Book/978-5-4493-3018-5> a od:TRIZ-Book;
+  bibo:isbn "978-5-4493-3018-5" ;
   dcterms:creator odp:Petrov_VM ;
   dcterms:title "Биология и законы развития техники: ТРИЗ"@ru ;
-  dcterms:source <https://ridero.ru/books/biologiya_i_zakony_razvitiya_tekhniki/> ;
   dcterms:publisher "Издательские решения"@ru ;
-  dcterms:type "Text"^^dcterms:DCMIType ;
   dcterms:language  "ru"^^dcterms:RFC4646 ; 
   dcterms:issued "2018"^^dcterms:W3CDTF .
 
-<http://opendiscovery.org/rdf/BIB/978-5-4493-3084-0> a od:Reference;
-  dcterms:identifier <urn:isbn:978-5-4493-3084-0> ;
+<http://opendiscovery.org/rdf/Book/978-5-4493-3084-0> a od:TRIZ-Book;
+  bibo:isbn "978-5-4493-3084-0" ;
   dcterms:creator odp:Petrov_VM ;
   dcterms:title "Гравиполи: ТРИЗ"@ru ;
-  dcterms:source <https://ridero.ru/books/gravipoli/> ;
   dcterms:publisher "Издательские решения"@ru ;
-  dcterms:type "Text"^^dcterms:DCMIType ;
   dcterms:language  "ru"^^dcterms:RFC4646 ; 
   dcterms:issued "2018"^^dcterms:W3CDTF .
 
-<http://opendiscovery.org/rdf/BIB/978-5-4493-5372-6> a od:Reference;
-  dcterms:identifier <urn:isbn:978-5-4493-5372-6> ;
+<http://opendiscovery.org/rdf/Book/978-5-4493-5372-6> a od:TRIZ-Book;
+  bibo:isbn "978-5-4493-5372-6" ;
   dcterms:creator odp:Petrov_VM ;
   dcterms:title "История ТРИЗ"@ru ;
-  dcterms:source <https://ridero.ru/books/istoriya_triz/> ;
   dcterms:publisher "Издательские решения"@ru ;
-  dcterms:type "Text"^^dcterms:DCMIType ;
   dcterms:language  "ru"^^dcterms:RFC4646 ; 
   dcterms:issued "2018"^^dcterms:W3CDTF .
 
-<http://opendiscovery.org/rdf/BIB/978-5-4493-5369-6> a od:Reference;
-  dcterms:identifier <urn:isbn:978-5-4493-5369-6>, <urn:isbn:978-5-4493-5370-2>; 
+<http://opendiscovery.org/rdf/Book/978-5-4493-5369-6> a od:TRIZ-Book;
+  bibo:isbn "978-5-4493-5369-6", "978-5-4493-5370-2" ; 
   dcterms:creator odp:Petrov_VM ;
   dcterms:title "Фотоальбом ТРИЗ: Часть 1. 1926-1998"@ru ;
-  dcterms:source <https://ridero.ru/books/fotoalbom_triz/> ;
   dcterms:publisher "Издательские решения"@ru ;
-  dcterms:type "Text"^^dcterms:DCMIType ;
   dcterms:language  "ru"^^dcterms:RFC4646 ; 
   dcterms:issued "2018"^^dcterms:W3CDTF .
 
-<http://opendiscovery.org/rdf/BIB/978-5-4493-0036-2> a od:Reference;
-  dcterms:identifier <urn:isbn:978-5-4493-0036-2> ;
+<http://opendiscovery.org/rdf/Book/978-5-4493-0036-2> a od:TRIZ-Book;
+  bibo:isbn "978-5-4493-0036-2" ;
   dcterms:creator odp:Petrov_VM ;
   dcterms:title "История развития АРИЗ: ТРИЗ"@ru ;
-  dcterms:source <https://ridero.ru/books/istoriya_razvitiya_ariz/> ;
   dcterms:publisher "Издательские решения"@ru ;
-  dcterms:type "Text"^^dcterms:DCMIType ;
   dcterms:language  "ru"^^dcterms:RFC4646 ; 
   dcterms:issued "2018"^^dcterms:W3CDTF .
 
-<http://opendiscovery.org/rdf/BIB/978-5-4493-0036-2> a od:Reference;
-  dcterms:identifier <urn:isbn:978-5-4493-0036-2> ;
+<http://opendiscovery.org/rdf/Book/978-5-4493-0036-2> a od:TRIZ-Book;
+  bibo:isbn "978-5-4493-0036-2" ;
   dcterms:creator odp:Petrov_VM ;
   dcterms:title "История развития приемов: ТРИЗ"@ru ;
-  dcterms:source <https://ridero.ru/books/istoriya_razvitiya_priemov/> ;
   dcterms:publisher "Издательские решения"@ru ;
-  dcterms:type "Text"^^dcterms:DCMIType ;
   dcterms:language  "ru"^^dcterms:RFC4646 ; 
   dcterms:issued "2018"^^dcterms:W3CDTF .
 
-<http://opendiscovery.org/rdf/BIB/978-5-4493-0863-4> a od:Reference;
-  dcterms:identifier <urn:isbn:978-5-4493-0863-4> ;
+<http://opendiscovery.org/rdf/Book/978-5-4493-0863-4> a od:TRIZ-Book;
+  bibo:isbn "978-5-4493-0863-4" ;
   dcterms:creator odp:Petrov_VM ;
   dcterms:title "История развития стандартов: ТРИЗ"@ru ;
-  dcterms:source <https://ridero.ru/books/istoriya_razvitiya_standartov/> ;
   dcterms:publisher "Издательские решения"@ru ;
-  dcterms:type "Text"^^dcterms:DCMIType ;
   dcterms:language  "ru"^^dcterms:RFC4646 ; 
   dcterms:issued "2018"^^dcterms:W3CDTF .
 
-<http://opendiscovery.org/rdf/BIB/978-5-4493-6079-3> a od:Reference;
-  dcterms:identifier <urn:isbn:978-5-4493-6079-3> ;
+<http://opendiscovery.org/rdf/Book/978-5-4493-6079-3> a od:TRIZ-Book;
+  bibo:isbn "978-5-4493-6079-3" ;
   dcterms:creator odp:Petrov_VM ;
   dcterms:title "История развития законов: ТРИЗ"@ru ;
-  dcterms:source <https://ridero.ru/books/istoriya_razvitiya_zakonov/> ;
   dcterms:publisher "Издательские решения"@ru ;
-  dcterms:type "Text"^^dcterms:DCMIType ;
   dcterms:language  "ru"^^dcterms:RFC4646 ; 
   dcterms:issued "2018"^^dcterms:W3CDTF .
 
