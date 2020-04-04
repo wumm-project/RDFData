@@ -33,6 +33,10 @@ odp:Amnuel_P
     foaf:affil "художественно-публицистический журнал «Млечный Путь» и одноименное издательство, редактор"@ru ;
     foaf:name "Pavel Amnuel'", "Песах Рафаилович Амнуэль"@ru .
 
+odp:Arel_AT
+    a foaf:Person ;
+    foaf:name "A.T. Arel" .
+
 odp:Arutyunov_Y
     a foaf:Person ;
     foaf:name "Yurij Arutyunov" .
@@ -54,17 +58,25 @@ odp:Bezdel_Z
 odp:Bogatyrev_N
     a foaf:Person ;
     foaf:homepage <https://www.facebook.com/nikolay.bogatyrev.1> ;
-    foaf:name "Nikolay Bogatyrev", "Николай Ростиславович Богатырёв"@ru.
+    foaf:name "Nikolay Bogatyrev", "Николай Ростиславович Богатырёв"@ru .
 
 odp:Borisevich_S
     a foaf:Person ;
     foaf:affil "EPAM Systems, Director, User Experience Desing"@en ;
     foaf:name "Stanislav Borisevich" .
 
+odp:Borodastov_GV
+    a foaf:Person ;
+    foaf:name "G.V. Borodastov" .
+
 odp:Bozhkov_V
     a foaf:Person ;
     foaf:affil "EPAM, Minsk, Belarus" ;
     foaf:name "Vitaliy Bozhkov" .
+
+odp:Brenner_MA
+    a foaf:Person ;
+    foaf:name "M.A. Brenner" .
 
 odp:Bukhman_I
     a foaf:Person ;
@@ -87,6 +99,10 @@ odp:Curikov_V
     foaf:affil "True Machina, Главный архитектор интеллектульных систем"@ru ;
     foaf:name "Valerij Tsourikov" .
 
+odp:Denisov_S
+    a foaf:Person ;
+    foaf:name "S. Denisov" .
+
 odp:Devojno_I
     a foaf:Person ;
     foaf:affil "IHS Markit, Product Analysis and Design Associate Director"@en ;
@@ -98,10 +114,18 @@ odp:Dobrusskin_C
     foaf:homepage <https://innovationorigins.com/nl/tag/christoph-dobrusskin/> ;
     foaf:name "Christoph Dobrusskin" .
 
+odp:Domb_E
+    a foaf:Person ;
+    foaf:name "E. Domb" .
+
 odp:Domkin_K
     a foaf:Person ;
     foaf:affil "Компания АО «Научно-промышленные консультанты», Руководитель проекта"@ru ;
     foaf:name "Kirill Domkin", "Кирилл Иванович Домкин"@ru .
+
+odp:Doubrov_VY
+    a foaf:Person ;
+    foaf:name "V.Y. Doubrov" .
 
 odp:Dusmikeev_A
     a foaf:Person ;
@@ -126,11 +150,19 @@ odp:Fedosov_JuI
     foaf:affil "St. Petersburg, Russia"@en ;
     foaf:name "Ju. I. Fedosov" .
 
-odp:Fey_V
+odp:Fey_VR
     od:affiliation "Altshuller Institute for TRIZ Studies" ;
     a foaf:Person ;
     foaf:affil "Altshuller Institute for TRIZ Studies" ;
-    foaf:name "Victor Fey"@en .
+    foaf:name "Victor R. Fey"@en .
+
+odp:Filatov_VI
+    a foaf:Person ;
+    foaf:name "V.I. Filatov" .
+
+odp:Flickstein_IM
+    a foaf:Person ;
+    foaf:name "I.M. Flickstein" .
 
 odp:Fomenko_A
     a foaf:Person ;
@@ -142,9 +174,25 @@ odp:Fresner_J
     foaf:affil "TRIZ Campus Vienna, Vienna, Austria"@en ;
     foaf:name "J. Fresner" .
 
+odp:Gadjiev_Ch
+    a foaf:Person ;
+    foaf:name "Ch. Gadjiev" .
+
 odp:Gerasimov_O
     a foaf:Person ;
     foaf:name "Oleg Gerasimov" .
+
+odp:Gerasimov_VM
+    a foaf:Person ;
+    foaf:name "V.M. Gerasimov" .
+
+odp:Goncharov_AN
+    a foaf:Person ;
+    foaf:name "A.N. Goncharov" .
+
+odp:Gorin_Yu
+    a foaf:Person ;
+    foaf:name "Yu. Gorin" .
 
 odp:Graebe_HG
     od:affiliation "Leipzig University, Germany" ;
@@ -204,13 +252,37 @@ odp:Huber_N
     foaf:affil "HS Weihenstephan-Triesdorf" ;
     foaf:name "Norbert Huber" .
 
+odp:Ikovenko_S
+    a foaf:Person ;
+    foaf:name "S. Ikovenko" .
+
 odp:Izmikov_K
     a foaf:Person ;
     foaf:name "Kirill Izmikov" .
 
+odp:Kagan_EL
+    a foaf:Person ;
+    foaf:name "E.L. Kagan" .
+
+odp:Kalish_VS
+    a foaf:Person ;
+    foaf:name "V.S. Kalish" .
+
+odp:Kaplan_S
+    a foaf:Person ;
+    foaf:name "S. Kaplan" .
+
+odp:Karpunin_MG
+    a foaf:Person ;
+    foaf:name "M.G. Karpunin" .
+
 odp:Khorenyan_R
     a foaf:Person ;
     foaf:name "Rostislav Khorenyan" .
+
+odp:Khotimliansky_Y
+    a foaf:Person ;
+    foaf:name "Y. Khotimliansky" .
 
 odp:Kleemann_KP
     a foaf:Person ;
@@ -226,6 +298,10 @@ odp:Koltze_K
     a foaf:Person ;
     foaf:affil "HS Niederrhein, Germany" ;
     foaf:name "Karl Koltze" .
+
+odp:Kondrakov_IM
+    a foaf:Person ;
+    foaf:name "I.M. Kondrakov" .
 
 odp:Korotkih_S
     a foaf:Person ;
@@ -259,6 +335,14 @@ odp:Kuryan_A
     foaf:homepage <https://www.facebook.com/andrew.kuryan> ;
     foaf:name "Andrei Kuryan" .
 
+odp:Kustov_V
+    a foaf:Person ;
+    foaf:name "V. Kustov" .
+
+odp:Kuzmin_AM
+    a foaf:Person ;
+    foaf:name "A.M. Kuzmin" .
+
 odp:Lautenschlaeger_S
     a foaf:Person ;
     foaf:affil "Leipzig University, Germany" ;
@@ -275,25 +359,33 @@ odp:Lin_YJ
     foaf:affil "Minghsin University, Professor, TRIZ trainer"@en ;
     foaf:name "Youn Jan Lin" .
 
-odp:Litvin_S
+odp:Litvin_SS
     a od:MatrizMember, foaf:Person ;
     foaf:affil "International TRIZ Association (MATRIZ), Boston, USA"@en ;
-    foaf:name "Simon Litvin" .
+    foaf:name "Simon S. Litvin" .
 
 odp:Livotov_P
     a foaf:Person ;
     foaf:affil "HS Offenburg, Germany" ;
     foaf:name "Pavel Livotov" .
 
+odp:Lymarenko_AA
+    a foaf:Person ;
+    foaf:name "A.A. Lymarenko" .
+
 odp:Mann_D
     a foaf:Person ;
     foaf:affil "Systematic Innovation Ltd, CEO"@en ;
-    foaf:name "Darell Mann" .
+    foaf:name "D. Mann", "Darell Mann" .
 
 odp:Martinovskij_G
     a foaf:Person ;
     foaf:affil "EPAM Systems, Главный бизнес консультант"@ru ;
     foaf:name "Georgij Martinovskij" .
+
+odp:Miller_J
+    a foaf:Person ;
+    foaf:name "J. Miller" .
 
 odp:Naehler_HT
     a foaf:Person ;
@@ -330,7 +422,11 @@ odp:Petrov_VM
     a foaf:Person ;
     foaf:affil "Innovation Technology"@en, "International TRIZ Association (MATRIZ)" ;
     foaf:homepage <https://www.facebook.com/vladimir.petrov.triz> ;
-    foaf:name "Vladimir Petrov", "Владимир Михайлович Петров"@ru .
+    foaf:name "Vladimir M. Petrov", "Владимир Михайлович Петров"@ru .
+
+odp:Petrov_VP
+    a foaf:Person ;
+    foaf:name "V.P. Petrov" .
 
 odp:Podobed_I
     a foaf:Person ;
@@ -348,23 +444,35 @@ odp:Prosvetova_N
     foaf:affil "Спинакер"@ru ;
     foaf:name "Natalya Prosvetova" .
 
+odp:Rantanen_K
+    a foaf:Person ;
+    foaf:name "K. Rantanen" .
+
 odp:Redkolis_E
     a foaf:Person ;
     foaf:affil "АО «Научно-промышленные консультанты», Руководитель проекта"@ru ;
     foaf:homepage <https://www.facebook.com/eredkolis> ;
     foaf:name "Elena Redkolis", "Елена Валерьевна Редколис"@ru .
 
-odp:Rubin_M
+odp:Rivin_E
+    a foaf:Person ;
+    foaf:name "E. Rivin" .
+
+odp:Royzen_Z
+    a foaf:Person ;
+    foaf:name "Z. Royzen" .
+
+odp:Rubin_MS
     od:affiliation "International TRIZ Association (MATRIZ)" ;
     a foaf:Person ;
     foaf:affil "International TRIZ Association (MATRIZ)", "РУСАЛ Глобал Менеджмент, Руководитель группы проектов Дирекции по ТРИЗ"@ru ;
     foaf:homepage <https://www.facebook.com/mihail.rubin> ;
-    foaf:name "Mikhail Rubin"@en, "Михаил Семенович Рубин"@ru .
+    foaf:name "Mikhail S. Rubin"@en, "Михаил Семенович Рубин"@ru .
 
 odp:Rubina_NV
     a foaf:Person ;
     foaf:affil "ОО «Саммит разработчиков ТРИЗ», Руководитель проекта «Кубок ТРИЗ Саммита»"@ru ;
-    foaf:name "Nataliya Rubina", "Наталия Викторовна Рубина"@ru .
+    foaf:name "Nataliya V. Rubina", "Наталия Викторовна Рубина"@ru .
 
 odp:Ruin_A
     a foaf:Person ;
@@ -375,6 +483,10 @@ odp:Ryabchuk_A
     foaf:affil "CTTIT, St. Peterburg, Russia" ;
     foaf:homepage <https://cttit.ru> ;
     foaf:name "Anna Ryabchuk", "Анна Евгеньевна Рябчук"@ru .
+
+odp:Salamatov_YP
+    a foaf:Person ;
+    foaf:name "Y.P. Salamatov" .
 
 odp:Saunin_N
     a foaf:Person ;
@@ -406,10 +518,18 @@ odp:Schusterman_MN
     foaf:affil "TRIZ School Norilsk, Russia"@en ;
     foaf:name "Michail Schusterman", "Михаил Наумович Шустерман"@ru .
 
+odp:Selyutsky_AB
+    a foaf:Person ;
+    foaf:name "A.B. Selyutsky" .
+
 odp:Severinec_G
     a foaf:Person ;
     foaf:affil "Компания АО «Научно-промышленные консультанты», Руководитель проекта"@ru ;
     foaf:name "Georgij Severinec" .
+
+odp:Shapiro_RB
+    a foaf:Person ;
+    foaf:name "R.B. Shapiro" .
 
 odp:Shokin_A
     a foaf:Person ;
@@ -460,6 +580,10 @@ odp:Terekhova_G
     foaf:affil "ЮУрГГПУ, Челябинск, Доцент кафедры теоретической и прикладной психологии"@ru ;
     foaf:name "Galina Terekhova" .
 
+odp:Terninko_J
+    a foaf:Person ;
+    foaf:name "J. Terninko" .
+
 odp:Thiel_R
     a foaf:Person ;
     foaf:affil "LIFIS, Bugk bei Storkow, Germany" ;
@@ -470,22 +594,58 @@ odp:Thurnes_C
     foaf:affil "HS Kaiserslautern, Germany" ;
     foaf:name "Christian Thurnes" .
 
+odp:Verbitsky_M
+    a foaf:Person ;
+    foaf:name "M. Verbitsky" .
+
+odp:Vertkin_IM
+    a foaf:Person ;
+    foaf:name "I.M Vertkin" .
+
+odp:Vikentiev_IL
+    a foaf:Person ;
+    foaf:name "I.L. Vikentiev" .
+
+odp:Vishnepolskaya_SV
+    a foaf:Person ;
+    foaf:name "S.V. Vishnepolskaya" .
+
+odp:Visnepolski_S
+    a foaf:Person ;
+    foaf:name "S. Visnepolski" .
+
 odp:Weber_O
     a foaf:Person ;
     foaf:affil "„Next Generation Education”, Berlin" ;
     foaf:homepage <https://somales.de/> ;
     foaf:name "Olaf Weber" .
 
+odp:Yefimov_V
+    a foaf:Person ;
+    foaf:name "V. Yefimov" .
+
+odp:Yefremov_VI
+    a foaf:Person ;
+    foaf:name "V.I. Yefremov" .
+
+odp:Zhuckov_RF
+    a foaf:Person ;
+    foaf:name "R.F. Zhuckov" .
+
+odp:Zlotin_BL
+    a foaf:Person ;
+    foaf:name "Boris L. Zlotin" .
+
 odp:Zobel_D
     a foaf:Person ;
     foaf:affil "Ingenieurbüro für Systemtechnik, Wittenberg" ;
     foaf:name "Dietmar Zobel" .
 
-odp:Zlotin_B
+odp:Zubarev_V
     a foaf:Person ;
-    foaf:name "Boris Zlotin" .
+    foaf:name "V. Zubarev" .
 
-odp:Zusman_A
+odp:Zusman_AV
     a foaf:Person ;
-    foaf:name "Alla Zusman" .
+    foaf:name "Alla V. Zusman" .
 
