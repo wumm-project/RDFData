@@ -1,6 +1,6 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
@@ -10,211 +10,513 @@
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 
-<http://opendiscovery.org/Data/Books/> a owl:Ontology ;
-   cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
-   cc:attributionURL <http://opendiscovery.org> ;
-   cc:attributionName "The Open Discovery Project" ;
-   rdfs:label "Open Discovery Collection of TRIZ Books" ;
-   rdfs:comment """Uses the terminological conventions as explained 
+<http://opendiscovery.org/Data/Books/>
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
+    a owl:Ontology ;
+    rdfs:comment """Uses the terminological conventions as explained 
       in <http://eprints.rclis.org/22454/1/LODE-BD-2.pdf>""" ;
-   owl:imports <http://opendiscovery.org/rdf/People/>.
+    rdfs:label "Open Discovery Collection of TRIZ Books" ;
+    owl:imports <http://opendiscovery.org/rdf/People/> .
 
-od:TRIZ-Book a owl:Class ;
-   rdfs:label "DCMI Metarecord of a TRIZ book" .
+od:TRIZ-Book
+    a owl:Class ;
+    rdfs:label "DCMI Metarecord of a TRIZ book" .
+
+<http://opendiscovery.org/rdf/Book/3-326-00131-2>
+    dc:language "de"^^dcterms:RFC4646 ;
+    dc:publisher "Deutscher Verlag der Wissenschaften, Berlin" ;
+    dcterms:creator odp:Zobel_D ;
+    dcterms:issued "1985"^^dcterms:W3CDTF, "1987"^^dcterms:W3CDTF ;
+    dcterms:title "Erfinderfibel"@de ;
+    bibo:isbn "3-326-00131-2" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/3-326-00654-3>
+    dc:language "de"^^dcterms:RFC4646 ;
+    dc:publisher "Deutscher Verlag der Wissenschaften, Berlin" ;
+    dcterms:creator odp:Zobel_D ;
+    dcterms:issued "1991"^^dcterms:W3CDTF ;
+    dcterms:title "Erfinderpraxis – Ideenvielfalt durch Systematisches Erfinden"@de ;
+    bibo:isbn "3-326-00654-3" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/3-930903-08-3>
+    dc:language "de"^^dcterms:RFC4646 ;
+    dcterms:creator odp:Zobel_D ;
+    dcterms:issued "1995"^^dcterms:W3CDTF ;
+    dcterms:title "Erfinden mit System"@de ;
+    bibo:isbn "3-930903-08-3" ;
+    a od:TRIZ-Book ;
+    rdfs:comment "DABEI-Materialien Nr. 10, Bonn 1995" .
+
+<http://opendiscovery.org/rdf/Book/978-3-8169-2613-4>
+    dc:language "de"^^dcterms:RFC4646 ;
+    dc:publisher "Expert-Verlag, Renningen" ;
+    dcterms:creator odp:Zobel_D ;
+    dcterms:issued "2001"^^dcterms:W3CDTF, "2002"^^dcterms:W3CDTF, "2004"^^dcterms:W3CDTF, "2006"^^dcterms:W3CDTF, "2009"^^dcterms:W3CDTF, "2019"^^dcterms:W3CDTF ;
+    dcterms:title "Systematisches Erfinden – Methoden und Beispiele für den Praktiker"@de ;
+    bibo:isbn "978-3-8169-2613-4", "978-3-8169-2939-0" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-3-8169-2713-6>
+    dc:language "de"^^dcterms:RFC4646 ;
+    dc:publisher "Expert-Verlag, Renningen" ;
+    dcterms:creator odp:Zobel_D ;
+    dcterms:issued "2007"^^dcterms:W3CDTF ;
+    dcterms:title "Kreatives Arbeiten – Methoden, Erfahrungen, Beispiele"@de ;
+    bibo:isbn "978-3-8169-2713-6" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-3-8169-2760-0>
+    dc:language "de"^^dcterms:RFC4646 ;
+    dc:publisher "Expert-Verlag, Renningen" ;
+    dcterms:creator odp:Zobel_D ;
+    dcterms:issued "2006"^^dcterms:W3CDTF, "2007"^^dcterms:W3CDTF ;
+    dcterms:title "TRIZ für alle – Der systematische Weg zur Problemlösung"@de ;
+    bibo:isbn "978-3-8169-2760-0" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-3-8169-2904-8>
+    dc:language "de"^^dcterms:RFC4646 ;
+    dc:publisher "Expert-Verlag, Renningen" ;
+    dcterms:creator odp:Hartmann_R, odp:Zobel_D ;
+    dcterms:issued "2009"^^dcterms:W3CDTF ;
+    dcterms:title "Erfindungsmuster – TRIZ: Prinzipien, Analogien, Ordnungskriterien, Beispiele"@de ;
+    bibo:isbn "978-3-8169-2904-8" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-5-4490-8547-4>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2018"^^dcterms:W3CDTF ;
+    dcterms:title "Развитие творческого воображения: ТРИЗ"@ru ;
+    bibo:isbn "978-5-4490-8547-4" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-5-4490-9985-3>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2018"^^dcterms:W3CDTF, "2019"^^dcterms:W3CDTF ;
+    dcterms:title "Законы развития систем: ТРИЗ"@ru ;
+    bibo:isbn "978-5-4490-9985-3" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-5-4493-0036-2>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2018"^^dcterms:W3CDTF ;
+    dcterms:title "История развития АРИЗ: ТРИЗ"@ru, "История развития приемов: ТРИЗ"@ru ;
+    bibo:isbn "978-5-4493-0036-2" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-5-4493-0037-0>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2018"^^dcterms:W3CDTF ;
+    dcterms:title "Стандарты изобретательства: Учебник. ТРИЗ"@ru ;
+    bibo:isbn "978-5-4493-0037-0" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-5-4493-0863-4>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2018"^^dcterms:W3CDTF ;
+    dcterms:title "История развития стандартов: ТРИЗ"@ru ;
+    bibo:isbn "978-5-4493-0863-4" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-5-4493-0972-3>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2018"^^dcterms:W3CDTF ;
+    dcterms:title "Системный анализ продвижения продукта на рынок: ТРИЗ"@ru ;
+    bibo:isbn "978-5-4493-0972-3" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-5-4493-1445-1>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2018"^^dcterms:W3CDTF ;
+    dcterms:title "Универсальные приемы разрешения противоречий: ТРИЗ"@ru ;
+    bibo:isbn "978-5-4493-1445-1" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-5-4493-2772-7>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2018"^^dcterms:W3CDTF ;
+    dcterms:title "Методы активизации творческого процесса: ТРИЗ"@ru ;
+    bibo:isbn "978-5-4493-2772-7" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-5-4493-3018-5>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2018"^^dcterms:W3CDTF ;
+    dcterms:title "Биология и законы развития техники: ТРИЗ"@ru ;
+    bibo:isbn "978-5-4493-3018-5" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-5-4493-3084-0>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2018"^^dcterms:W3CDTF ;
+    dcterms:title "Гравиполи: ТРИЗ"@ru ;
+    bibo:isbn "978-5-4493-3084-0" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-5-4493-3726-9>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2018"^^dcterms:W3CDTF ;
+    dcterms:title "Основы ТРИЗ: Теория решения изобретательских задач"@ru ;
+    bibo:isbn "978-5-4493-3726-9" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-5-4493-5127-2>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2018"^^dcterms:W3CDTF ;
+    dcterms:title "Поиск идеи — это просто: ТРИЗ для всех"@ru ;
+    bibo:isbn "978-5-4493-5127-2" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-5-4493-5369-6>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2018"^^dcterms:W3CDTF ;
+    dcterms:title "Фотоальбом ТРИЗ: Часть 1. 1926-1998"@ru ;
+    bibo:isbn "978-5-4493-5369-6", "978-5-4493-5370-2" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-5-4493-5372-6>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2018"^^dcterms:W3CDTF ;
+    dcterms:title "История ТРИЗ"@ru ;
+    bibo:isbn "978-5-4493-5372-6" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-5-4493-5785-4>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2018"^^dcterms:W3CDTF ;
+    dcterms:title "Талантливое мышление: ТРИЗ"@ru ;
+    bibo:isbn "978-5-4493-5785-4" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-5-4493-6079-3>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2018"^^dcterms:W3CDTF ;
+    dcterms:title "История развития законов: ТРИЗ"@ru ;
+    bibo:isbn "978-5-4493-6079-3" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-5-4493-6332-9>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2018"^^dcterms:W3CDTF ;
+    dcterms:title "Решение нестандартных задач: ТРИЗ"@ru ;
+    bibo:isbn "978-5-4493-6332-9" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-5-4493-9970-0>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2018"^^dcterms:W3CDTF ;
+    dcterms:title "Структурный анализ систем: Вепольный анализ. ТРИЗ"@ru ;
+    bibo:isbn "978-5-4493-9970-0" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-5-4496-00190-2>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2018"^^dcterms:W3CDTF ;
+    dcterms:title "Задачник по АРИЗ-85-В: Алгоритм решения изобретательских задач"@ru ;
+    bibo:isbn "978-5-4496-00190-2" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-5-4496-00191-9>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2018"^^dcterms:W3CDTF ;
+    dcterms:title "Учебник по АРИЗ-85-В: Алгоритм решения изобретательских задач"@ru ;
+    bibo:isbn "978-5-4496-00191-9" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-5-4496-0678-5>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2018"^^dcterms:W3CDTF ;
+    dcterms:title "Думай иначе: Креативное мышление"@ru ;
+    bibo:isbn "978-5-4496-0678-5" ;
+    a od:TRIZ-Book .
 
 <http://opendiscovery.org/rdf/Book/B073GZCSDT>
-  a od:TRIZ-Book ;
-  dcterms:creator odp:Altshuller_GS ;
-  dcterms:contributor odp:Petrov_VP, odp:Zlotin_B, odp:Zusman_A ;
-  dcterms:title "System of Standard Inventive Solution by Genrich Altshuller"@en ;
-  bibo:asin "B073GZCSDT" ;
-  rdfs:comment "Vladimir Petrov (Illustrator, Editor), Boris Zlotin (Translator), Alla Zusman (Translator)" ; 
-  dc:publisher "Amazon Digital Services LLC" ; 
-  dc:language "en"^^dcterms:RFC4646  ;
-  dcterms:issued "2017"^^dcterms:W3CDTF .
-  
+    dc:language "en"^^dcterms:RFC4646 ;
+    dc:publisher "Amazon Digital Services LLC" ;
+    dcterms:contributor odp:Petrov_VP, odp:Zlotin_B, odp:Zusman_A ;
+    dcterms:creator odp:Altshuller_GS ;
+    dcterms:issued "2017"^^dcterms:W3CDTF ;
+    dcterms:title "System of Standard Inventive Solution by Genrich Altshuller"@en ;
+    bibo:asin "B073GZCSDT" ;
+    a od:TRIZ-Book ;
+    rdfs:comment "Vladimir Petrov (Illustrator, Editor), Boris Zlotin (Translator), Alla Zusman (Translator)" .
+
 <http://opendiscovery.org/rdf/Book/B07XTR56HM>
-  a od:TRIZ-Book ;
-  dcterms:creator odp:Petrov_VM ;
-  dcterms:title "Structural System Analysis. Su-Field Analysis. TRIZ"@en ;
-  bibo:asin "B07XTR56HM" ;
-  dc:publisher "Amazon Digital Services LLC" ; 
-  dc:language "en"^^dcterms:RFC4646  ;
-  dcterms:issued "2017"^^dcterms:W3CDTF .
+    dc:language "en"^^dcterms:RFC4646 ;
+    dc:publisher "Amazon Digital Services LLC" ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2017"^^dcterms:W3CDTF ;
+    dcterms:title "Structural System Analysis. Su-Field Analysis. TRIZ"@en ;
+    bibo:asin "B07XTR56HM" ;
+    a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/978-5-4490-8547-4> a od:TRIZ-Book;
-  bibo:isbn "978-5-4490-8547-4" ;
-  dcterms:creator odp:Petrov_VM ;
-  dcterms:title "Развитие творческого воображения: ТРИЗ"@ru ;
-  dc:publisher "Издательские решения"@ru ;
-  dc:language  "ru"^^dcterms:RFC4646 ; 
-  dcterms:issued "2018"^^dcterms:W3CDTF .
+<http://opendiscovery.org/rdf/Book/BIB.102>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Moscow: Moskovsky Rabotchy" ;
+    dcterms:creator odp:Altshuller_GS ;
+    dcterms:title "The Invention Algorithm"@en, "Алгоритм Изобретения"@ru ;
+    dcterms:year "1973" ;
+    a od:TRIZ-Book ;
+    rdfs:comment "2nd edition" ;
+    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.102> .
 
-<http://opendiscovery.org/rdf/Book/978-5-4493-5785-4> a od:TRIZ-Book;
-  bibo:isbn "978-5-4493-5785-4" ;
-  dcterms:creator odp:Petrov_VM ;
-  dcterms:title "Талантливое мышление: ТРИЗ"@ru ;
-  dc:publisher "Издательские решения"@ru ;
-  dc:language  "ru"^^dcterms:RFC4646 ; 
-  dcterms:issued "2018"^^dcterms:W3CDTF .
+<http://opendiscovery.org/rdf/Book/BIB.103>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Leningrad: IPK SP" ;
+    dcterms:creator odp:Petrov_VM, odp:Zhuckov_RF ;
+    dcterms:title "Modern Methods of Scientific and Engineering Creativity. Guidebook"@en, "Современные методы научно-технического творчества. Учебное пособие."@ru ;
+    dcterms:year "1980" ;
+    a od:TRIZ-Book ;
+    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.103> .
 
-<http://opendiscovery.org/rdf/Book/978-5-4496-0678-5> a od:TRIZ-Book;
-  bibo:isbn "978-5-4496-0678-5" ;
-  dcterms:creator odp:Petrov_VM ;
-  dcterms:title "Думай иначе: Креативное мышление"@ru ;
-  dc:publisher "Издательские решения"@ru ;
-  dc:language  "ru"^^dcterms:RFC4646 ; 
-  dcterms:issued "2018"^^dcterms:W3CDTF .
+<http://opendiscovery.org/rdf/Book/BIB.103a>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Tel Aviv" ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:source <http://www.trizland.ru/trizba.php?id=105> ;
+    dcterms:title "Алгоритм решения изобретательских задач. Учебное пособие."@ru ;
+    dcterms:year "1999" ;
+    a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/978-5-4493-2772-7> a od:TRIZ-Book;
-  bibo:isbn "978-5-4493-2772-7" ;
-  dcterms:creator odp:Petrov_VM ;
-  dcterms:title "Методы активизации творческого процесса: ТРИЗ"@ru ;
-  dc:publisher "Издательские решения"@ru ;
-  dc:language  "ru"^^dcterms:RFC4646 ; 
-  dcterms:issued "2018"^^dcterms:W3CDTF .
+<http://opendiscovery.org/rdf/Book/BIB.107>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dcterms:creator odp:Selyutsky_AB ;
+    dcterms:title "A Chance for Adventure"@en ;
+    dcterms:year "1991" ;
+    a od:TRIZ-Book ;
+    rdfs:comment "Petrozavodsk: Karelia, 1991." .
 
-<http://opendiscovery.org/rdf/Book/978-5-4493-5127-2> a od:TRIZ-Book;
-  bibo:isbn "978-5-4493-5127-2" ;
-  dcterms:creator odp:Petrov_VM ;
-  dcterms:title "Поиск идеи — это просто: ТРИЗ для всех"@ru ;
-  dc:publisher "Издательские решения"@ru ;
-  dc:language  "ru"^^dcterms:RFC4646 ; 
-  dcterms:issued "2018"^^dcterms:W3CDTF .
+<http://opendiscovery.org/rdf/Book/BIB.108>
+    dc:language "en"^^dcterms:RFC4646 ;
+    dc:publisher "Cambridge University Press" ;
+    dcterms:creator odp:Fey_VR, odp:Rivin_E ;
+    dcterms:title "Innovation on Demand: New Product Development Using TRIZ"@en ;
+    dcterms:year "2005" ;
+    a od:TRIZ-Book ;
+    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.108> .
 
-<http://opendiscovery.org/rdf/Book/978-5-4493-6332-9> a od:TRIZ-Book;
-  bibo:isbn "978-5-4493-6332-9" ;
-  dcterms:creator odp:Petrov_VM ;
-  dcterms:title "Решение нестандартных задач: ТРИЗ"@ru ;
-  dc:publisher "Издательские решения"@ru ;
-  dc:language  "ru"^^dcterms:RFC4646 ; 
-  dcterms:issued "2018"^^dcterms:W3CDTF .
+<http://opendiscovery.org/rdf/Book/BIB.109>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "M: Inform-VEA" ;
+    dcterms:creator odp:Gerasimov_VM, odp:Kalish_VS, odp:Karpunin_MG, odp:Kuzmin_AM, odp:Litvin_SS ;
+    dcterms:title "Basics of the Methodology for Conducting Value Engineering Analysis: Methodological Recommendations"@en ;
+    dcterms:year "1991" ;
+    a od:TRIZ-Book ;
+    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.109> .
 
-<http://opendiscovery.org/rdf/Book/978-5-4490-9985-3> a od:TRIZ-Book;
-  bibo:isbn "978-5-4490-9985-3" ;
-  dcterms:creator odp:Petrov_VM ;
-  dcterms:title "Законы развития систем: ТРИЗ"@ru ;
-  dc:publisher "Издательские решения"@ru ;
-  dc:language  "ru"^^dcterms:RFC4646 ; 
-  dcterms:issued "2018"^^dcterms:W3CDTF, "2019"^^dcterms:W3CDTF .
+<http://opendiscovery.org/rdf/Book/BIB.110>
+    dc:language "en"^^dcterms:RFC4646 ;
+    dc:publisher "Invention Machine Educational Services" ;
+    dcterms:creator odp:Arel_AT, odp:Devojno_I, odp:Ikovenko_S, odp:Verbitsky_M ;
+    dcterms:title "TechOptimizer Fundamentals" ;
+    dcterms:year "2002" ;
+    a od:TRIZ-Book ;
+    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.110> .
 
-<http://opendiscovery.org/rdf/Book/978-5-4493-3726-9> a od:TRIZ-Book;
-  bibo:isbn "978-5-4493-3726-9" ;
-  dcterms:creator odp:Petrov_VM ;
-  dcterms:title "Основы ТРИЗ: Теория решения изобретательских задач"@ru ;
-  dc:publisher "Издательские решения"@ru ;
-  dc:language  "ru"^^dcterms:RFC4646 ; 
-  dcterms:issued "2018"^^dcterms:W3CDTF .
+<http://opendiscovery.org/rdf/Book/BIB.113>
+    dc:language "en"^^dcterms:RFC4646 ;
+    dc:publisher "Worcester: Technical Innovation Center, Inc." ;
+    dcterms:creator odp:Altshuller_GS ;
+    dcterms:title "The Innovation Algorithm" ;
+    dcterms:year "1999" ;
+    a od:TRIZ-Book ;
+    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.113> .
 
-<http://opendiscovery.org/rdf/Book/978-5-4493-9970-0> a od:TRIZ-Book;
-  bibo:isbn "978-5-4493-9970-0" ;
-  dcterms:creator odp:Petrov_VM ;
-  dcterms:title "Структурный анализ систем: Вепольный анализ. ТРИЗ"@ru ;
-  dc:publisher "Издательские решения"@ru ;
-  dc:language  "ru"^^dcterms:RFC4646 ; 
-  dcterms:issued "2018"^^dcterms:W3CDTF .
+<http://opendiscovery.org/rdf/Book/BIB.114>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dcterms:creator odp:Altshuller_GS, odp:Flickstein_IM, odp:Gadjiev_Ch ;
+    dcterms:title "Introduction to Substance-Field Analysis"@en ;
+    dcterms:year "1973" ;
+    a od:TRIZ-Book ;
+    rdfs:commentQ "Baku: OLMI" ;
+    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.114> .
 
-<http://opendiscovery.org/rdf/Book/978-5-4493-0037-0> a od:TRIZ-Book;
-  bibo:isbn "978-5-4493-0037-0" ;
-  dcterms:creator odp:Petrov_VM ;
-  dcterms:title "Стандарты изобретательства: Учебник. ТРИЗ"@ru ;
-  dc:publisher "Издательские решения"@ru ;
-  dc:language  "ru"^^dcterms:RFC4646 ; 
-  dcterms:issued "2018"^^dcterms:W3CDTF .
+<http://opendiscovery.org/rdf/Book/BIB.115>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Baku: OLMI" ;
+    dcterms:creator odp:Altshuller_GS ;
+    dcterms:title "Sufield Analysis: Methodological Guidelines" ;
+    dcterms:year "1973" ;
+    a od:TRIZ-Book ;
+    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.115> .
 
-<http://opendiscovery.org/rdf/Book/978-5-4496-00191-9> a od:TRIZ-Book;
-  bibo:isbn "978-5-4496-00191-9" ;
-  dcterms:creator odp:Petrov_VM ;
-  dcterms:title "Учебник по АРИЗ-85-В: Алгоритм решения изобретательских задач"@ru ;
-  dc:publisher "Издательские решения"@ru ;
-  dc:language  "ru"^^dcterms:RFC4646 ; 
-  dcterms:issued "2018"^^dcterms:W3CDTF .
+<http://opendiscovery.org/rdf/Book/BIB.116>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Baku: OLMI" ;
+    dcterms:creator odp:Altshuller_GS, odp:Flickstein_IM ;
+    dcterms:title "Problem Solving Using Sufield Analysis" ;
+    dcterms:year "1973" ;
+    a od:TRIZ-Book ;
+    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.116> .
 
-<http://opendiscovery.org/rdf/Book/978-5-4496-00190-2> a od:TRIZ-Book;
-  bibo:isbn "978-5-4496-00190-2" ;
-  dcterms:creator odp:Petrov_VM ;
-  dcterms:title "Задачник по АРИЗ-85-В: Алгоритм решения изобретательских задач"@ru ;
-  dc:publisher "Издательские решения"@ru ;
-  dc:language  "ru"^^dcterms:RFC4646 ; 
-  dcterms:issued "2018"^^dcterms:W3CDTF .
+<http://opendiscovery.org/rdf/Book/BIB.118>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "M: Sovietskoje radio" ;
+    dcterms:creator odp:Altshuller_GS ;
+    dcterms:source <http://www.altshuller.ru/triz/zrts1.asp> ;
+    dcterms:title "Creativity as an Exact Science. Theory of Inventive Problem Solving"@en, "Творчество как точная наука"@ru ;
+    dcterms:year "1979" ;
+    a od:TRIZ-Book ;
+    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.118> .
 
-<http://opendiscovery.org/rdf/Book/978-5-4493-1445-1> a od:TRIZ-Book;
-  bibo:isbn "978-5-4493-1445-1" ;
-  dcterms:creator odp:Petrov_VM ;
-  dcterms:title "Универсальные приемы разрешения противоречий: ТРИЗ"@ru ;
-  dc:publisher "Издательские решения"@ru ;
-  dc:language  "ru"^^dcterms:RFC4646 ; 
-  dcterms:issued "2018"^^dcterms:W3CDTF .
+<http://opendiscovery.org/rdf/Book/BIB.119>
+    dc:language "en"^^dcterms:RFC4646 ;
+    dc:publisher "NY: Gordon and Breach" ;
+    dcterms:creator odp:Altshuller_GS ;
+    dcterms:title "Creativity as an Exact Science"@en ;
+    dcterms:year "1988" ;
+    a od:TRIZ-Book ;
+    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.119> .
 
-<http://opendiscovery.org/rdf/Book/978-5-4493-0972-3> a od:TRIZ-Book;
-  bibo:isbn "978-5-4493-0972-3" ;
-  dcterms:creator odp:Petrov_VM ;
-  dcterms:title "Системный анализ продвижения продукта на рынок: ТРИЗ"@ru ;
-  dc:publisher "Издательские решения"@ru ;
-  dc:language  "ru"^^dcterms:RFC4646 ; 
-  dcterms:issued "2018"^^dcterms:W3CDTF .
+<http://opendiscovery.org/rdf/Book/BIB.120>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dcterms:creator odp:Altshuller_GS, odp:Selyutsky_AB ;
+    dcterms:title "Wings for Icarus: How to solve inventive problems"@en, "Крылья для Икара: как решить изобретательские проблемы"@ru ;
+    dcterms:year "1980" ;
+    a od:TRIZ-Book ;
+    rdfs:comment "Petrozavodsk: Karelia, 1980. (p. 58-72)." ;
+    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.120> .
 
-<http://opendiscovery.org/rdf/Book/978-5-4493-3018-5> a od:TRIZ-Book;
-  bibo:isbn "978-5-4493-3018-5" ;
-  dcterms:creator odp:Petrov_VM ;
-  dcterms:title "Биология и законы развития техники: ТРИЗ"@ru ;
-  dc:publisher "Издательские решения"@ru ;
-  dc:language  "ru"^^dcterms:RFC4646 ; 
-  dcterms:issued "2018"^^dcterms:W3CDTF .
+<http://opendiscovery.org/rdf/Book/BIB.121>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Novosibirsk: Nauka" ;
+    dcterms:creator odp:Altshuller_GS ;
+    dcterms:title "To Find an Idea: Introduction to the Theory of Inventive Problem Solving" ;
+    dcterms:year "1986" ;
+    a od:TRIZ-Book ;
+    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.121> .
 
-<http://opendiscovery.org/rdf/Book/978-5-4493-3084-0> a od:TRIZ-Book;
-  bibo:isbn "978-5-4493-3084-0" ;
-  dcterms:creator odp:Petrov_VM ;
-  dcterms:title "Гравиполи: ТРИЗ"@ru ;
-  dc:publisher "Издательские решения"@ru ;
-  dc:language  "ru"^^dcterms:RFC4646 ; 
-  dcterms:issued "2018"^^dcterms:W3CDTF .
+<http://opendiscovery.org/rdf/Book/BIB.123>
+    od:hatVerweis <http://opendiscovery.org/rdf/Book/Verweis.6> ;
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dcterms:creator odp:Altshuller_GS ;
+    dcterms:title "Daring Formulae of Creativity" ;
+    a od:TRIZ-Book ;
+    rdfs:comment "Compiled by Selyutsky, A.B.. - Petrozavodsk: Karelia, 1987. - 269 p. - (Engineering - Young people - Creativity), p. 67-74." ;
+    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.123> .
 
-<http://opendiscovery.org/rdf/Book/978-5-4493-5372-6> a od:TRIZ-Book;
-  bibo:isbn "978-5-4493-5372-6" ;
-  dcterms:creator odp:Petrov_VM ;
-  dcterms:title "История ТРИЗ"@ru ;
-  dc:publisher "Издательские решения"@ru ;
-  dc:language  "ru"^^dcterms:RFC4646 ; 
-  dcterms:issued "2018"^^dcterms:W3CDTF .
+<http://opendiscovery.org/rdf/Book/BIB.125>
+    dc:language "en"^^dcterms:RFC4646 ;
+    dc:publisher "Southfield: Ideation International Inc." ;
+    dcterms:creator odp:Altshuller_GS, odp:Filatov_VI, odp:Zlotin_BL, odp:Zusman_AV ;
+    dcterms:title "Tools of Classical TRIZ"@en ;
+    dcterms:year "1999" ;
+    a od:TRIZ-Book ;
+    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.125> .
 
-<http://opendiscovery.org/rdf/Book/978-5-4493-5369-6> a od:TRIZ-Book;
-  bibo:isbn "978-5-4493-5369-6", "978-5-4493-5370-2" ; 
-  dcterms:creator odp:Petrov_VM ;
-  dcterms:title "Фотоальбом ТРИЗ: Часть 1. 1926-1998"@ru ;
-  dc:publisher "Издательские решения"@ru ;
-  dc:language  "ru"^^dcterms:RFC4646 ; 
-  dcterms:issued "2018"^^dcterms:W3CDTF .
+<http://opendiscovery.org/rdf/Book/BIB.128>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dcterms:creator odp:Selyutsky_AB ;
+    dcterms:title "Rules for a Game Without Rules"@en, "Правила для игры без правил"@ru ;
+    dcterms:year "1989" ;
+    a od:TRIZ-Book ;
+    rdfs:comment "Petrozavodsk: Karelia, 1989." .
 
-<http://opendiscovery.org/rdf/Book/978-5-4493-0036-2> a od:TRIZ-Book;
-  bibo:isbn "978-5-4493-0036-2" ;
-  dcterms:creator odp:Petrov_VM ;
-  dcterms:title "История развития АРИЗ: ТРИЗ"@ru ;
-  dc:publisher "Издательские решения"@ru ;
-  dc:language  "ru"^^dcterms:RFC4646 ; 
-  dcterms:issued "2018"^^dcterms:W3CDTF .
+<http://opendiscovery.org/rdf/Book/BIB.131>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dcterms:creator odp:Royzen_Z ;
+    dcterms:title "Specific Features of Resources Utilization for Problem Solving and Improving Obtained Solutions" ;
+    dcterms:year "1986" ;
+    a od:TRIZ-Book ;
+    rdfs:comment "Kishinev: 1986" ;
+    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.131> .
 
-<http://opendiscovery.org/rdf/Book/978-5-4493-0036-2> a od:TRIZ-Book;
-  bibo:isbn "978-5-4493-0036-2" ;
-  dcterms:creator odp:Petrov_VM ;
-  dcterms:title "История развития приемов: ТРИЗ"@ru ;
-  dc:publisher "Издательские решения"@ru ;
-  dc:language  "ru"^^dcterms:RFC4646 ; 
-  dcterms:issued "2018"^^dcterms:W3CDTF .
+<http://opendiscovery.org/rdf/Book/BIB.147>
+    dc:language "en"^^dcterms:RFC4646 ;
+    dc:publisher "Ieper: CREAX Press" ;
+    dcterms:creator odp:Mann_D ;
+    dcterms:title "Hands-On Systematic Innovation"@en ;
+    dcterms:year "2002" ;
+    a od:TRIZ-Book ;
+    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.147> .
 
-<http://opendiscovery.org/rdf/Book/978-5-4493-0863-4> a od:TRIZ-Book;
-  bibo:isbn "978-5-4493-0863-4" ;
-  dcterms:creator odp:Petrov_VM ;
-  dcterms:title "История развития стандартов: ТРИЗ"@ru ;
-  dc:publisher "Издательские решения"@ru ;
-  dc:language  "ru"^^dcterms:RFC4646 ; 
-  dcterms:issued "2018"^^dcterms:W3CDTF .
+<http://opendiscovery.org/rdf/Book/BIB.148>
+    dc:language "en"^^dcterms:RFC4646 ;
+    dc:publisher "Boca Raton: CRC Press" ;
+    dcterms:creator odp:Domb_E, odp:Rantanen_K ;
+    dcterms:title "Simplified TRIZ"@en ;
+    dcterms:year "2002" ;
+    a od:TRIZ-Book ;
+    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.148> .
 
-<http://opendiscovery.org/rdf/Book/978-5-4493-6079-3> a od:TRIZ-Book;
-  bibo:isbn "978-5-4493-6079-3" ;
-  dcterms:creator odp:Petrov_VM ;
-  dcterms:title "История развития законов: ТРИЗ"@ru ;
-  dc:publisher "Издательские решения"@ru ;
-  dc:language  "ru"^^dcterms:RFC4646 ; 
-  dcterms:issued "2018"^^dcterms:W3CDTF .
+<http://opendiscovery.org/rdf/Book/BIB.162>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dcterms:creator odp:Altshuller_GS ;
+    dcterms:title "Small Boundless Worlds: The Standards for Inventive Problem Solving" ;
+    dcterms:year "1988" ;
+    a od:TRIZ-Book ;
+    rdfs:comment "A Thread in the Labyrinth. Compiled by Selyutsky, A.B. - Petrozavodsk: Karelia, 1988." ;
+    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.162> .
+
+<http://opendiscovery.org/rdf/Book/BIB.162a>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dcterms:creator odp:Selyutsky_AB ;
+    dcterms:title "A Thread in the Labyrinth"@en, "Нить в Лабиринте"@ru ;
+    dcterms:year "1988" ;
+    a od:TRIZ-Book ;
+    rdfs:comment "Petrozavodsk: Karelia, 1988." .
+
+<http://opendiscovery.org/rdf/Book/BIB.206>
+    dc:language "en"^^dcterms:RFC4646 ;
+    dcterms:creator odp:Altshuller_GS, odp:Filatov_VI, odp:Zlotin_BL, odp:Zusman_AV ;
+    dcterms:title "Tools of Classical TRIZ" ;
+    dcterms:year "1999" ;
+    a od:TRIZ-Book ;
+    rdfs:comment "Ideation International Inc. 1999." ;
+    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.206> .
+
+<http://opendiscovery.org/rdf/Book/BIB.243>
+    dc:language "en"^^dcterms:RFC4646 ;
+    dc:publisher "Ideation International Inc." ;
+    dcterms:creator odp:Kaplan_S, odp:Visnepolski_S, odp:Zlotin_BL, odp:Zusman_AV ;
+    dcterms:title "New Tools for Failure and Risk Analysis" ;
+    dcterms:year "1999" ;
+    a od:TRIZ-Book ;
+    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.243> .
 

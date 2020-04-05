@@ -1,0 +1,1153 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix odp: <http://opendiscovery.org/rdf/Person/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://opendiscovery.org/rdf/TRIZ_Body_of_Knowledge/>
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    a owl:Ontology ;
+    rdfs:comment """Extracted and transformed from the 
+      \"TRIZ Body of Knowledge\" by Hans-Gert Graebe, 2020-03-05""" ;
+    rdfs:label "Open Discovery Database - The TRIZ Body of Knowledge" ;
+    owl:imports <http://opendiscovery.org/rdf/People/> .
+
+<http://opendiscovery.org/rdf/TBK/Concept.Root>
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/TBK/Concept.1>, <http://opendiscovery.org/rdf/TBK/Concept.2>, <http://opendiscovery.org/rdf/TBK/Concept.3>, <http://opendiscovery.org/rdf/TBK/Concept.4>, <http://opendiscovery.org/rdf/TBK/Concept.5>, <http://opendiscovery.org/rdf/TBK/Concept.6>, <http://opendiscovery.org/rdf/TBK/Concept.7>;
+    skos:preflabel "The Root Concept" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.1>
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/TBK/Concept.1.1>, <http://opendiscovery.org/rdf/TBK/Concept.1.10>, <http://opendiscovery.org/rdf/TBK/Concept.1.11>, <http://opendiscovery.org/rdf/TBK/Concept.1.12>, <http://opendiscovery.org/rdf/TBK/Concept.1.13>, <http://opendiscovery.org/rdf/TBK/Concept.1.2>, <http://opendiscovery.org/rdf/TBK/Concept.1.3>, <http://opendiscovery.org/rdf/TBK/Concept.1.4>, <http://opendiscovery.org/rdf/TBK/Concept.1.5>, <http://opendiscovery.org/rdf/TBK/Concept.1.6>, <http://opendiscovery.org/rdf/TBK/Concept.1.7>, <http://opendiscovery.org/rdf/TBK/Concept.1.8>, <http://opendiscovery.org/rdf/TBK/Concept.1.9> ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.Root> ;
+    skos:preflabel "Foundational concepts" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.1.1>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.1> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.1> ;
+    skos:preflabel "Dialectics as a philosophical foundation of TRIZ" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.1.10>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.11> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.1> ;
+    skos:preflabel "Inventive situation Inventive problem ." .
+
+<http://opendiscovery.org/rdf/TBK/Concept.1.11>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.5> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.1> ;
+    skos:preflabel "Levels of inventions" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.1.12>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.12> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.1> ;
+    skos:preflabel "Contradictions: administrative, engineering, and physical" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.1.13>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.13> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.1> ;
+    skos:preflabel "System operator Multi-screen scheme of talented thinking ." .
+
+<http://opendiscovery.org/rdf/TBK/Concept.1.2>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.2> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.1> ;
+    skos:preflabel "Directional evolution of technological systems" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.1.3>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.3> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.1> ;
+    skos:preflabel "Technological system" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.1.4>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.4> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.1> ;
+    skos:preflabel "Functions" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.1.5>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.5> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.1> ;
+    skos:preflabel "Ideal technological system" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.1.6>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.6> ;
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.7> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.1> ;
+    skos:preflabel "Substance-field resources" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.1.7>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.8> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.1> ;
+    skos:preflabel "Reflectivity principle" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.1.8>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.9> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.1> ;
+    skos:preflabel "Ideal substance" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.1.9>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.10> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.1> ;
+    skos:preflabel "Ideal final result (IFR)" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.2>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.14> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/TBK/Concept.2.1>, <http://opendiscovery.org/rdf/TBK/Concept.2.10>, <http://opendiscovery.org/rdf/TBK/Concept.2.11>, <http://opendiscovery.org/rdf/TBK/Concept.2.2>, <http://opendiscovery.org/rdf/TBK/Concept.2.3>, <http://opendiscovery.org/rdf/TBK/Concept.2.4>, <http://opendiscovery.org/rdf/TBK/Concept.2.5>, <http://opendiscovery.org/rdf/TBK/Concept.2.6>, <http://opendiscovery.org/rdf/TBK/Concept.2.7>, <http://opendiscovery.org/rdf/TBK/Concept.2.8>, <http://opendiscovery.org/rdf/TBK/Concept.2.9> ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.Root> ;
+    skos:preflabel "Trends (laws) and sub-trends (lines) of technological system evolution" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.2.1>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.14> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/TBK/Concept.2.1.1> ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.2> ;
+    skos:preflabel "Trend of increasing degree of ideality" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.2.1.1>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.15> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.2.1> ;
+    skos:preflabel "Mechanisms of increasing the ideality of technological systems" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.2.2>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.14> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.2> ;
+    skos:preflabel "Trend of non-uniform evolution of sub-systems" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.2.3>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.14> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/TBK/Concept.2.3.1> ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.2> ;
+    skos:preflabel "Trend of completeness of system parts" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.2.3.1>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.16> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.2.3> ;
+    skos:preflabel "Sub-trend of elimination of human involvement" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.2.4>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.13> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.2> ;
+    skos:preflabel "Trend of \"energy conductivity\" of systems" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.2.5>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.13> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/TBK/Concept.2.5.1> ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.2> ;
+    skos:preflabel "Trend of harmonization of rhythms" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.2.5.1>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.17> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.2.5> ;
+    skos:preflabel "Sub-trends of chronokinematics" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.2.6>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.14> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/TBK/Concept.2.6.1>, <http://opendiscovery.org/rdf/TBK/Concept.2.6.2>, <http://opendiscovery.org/rdf/TBK/Concept.2.6.3>, <http://opendiscovery.org/rdf/TBK/Concept.2.6.4>, <http://opendiscovery.org/rdf/TBK/Concept.2.6.5>, <http://opendiscovery.org/rdf/TBK/Concept.2.6.6> ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.2> ;
+    skos:preflabel "Trend of transition to super-systems" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.2.6.1>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.18> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.2.6> ;
+    skos:preflabel "Sub-trend of transition from mono- to bi- and poly-systems" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.2.6.2>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.19> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.2.6> ;
+    skos:preflabel "Sub-trend of increasing structurization of voids" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.2.6.3>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.20> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.2.6> ;
+    skos:preflabel "Mechanisms of convolution (trimming) of technological systems. Coefficient of convolution" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.2.6.4>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.21> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.2.6> ;
+    skos:preflabel "Sub-trend of deployment -- convolution" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.2.6.5>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.22> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.2.6> ;
+    skos:preflabel "Trimming of technological systems" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.2.6.6>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.22> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.2.6> ;
+    skos:preflabel "Integration of alternative systems" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.2.7>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.23> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/TBK/Concept.2.7.1> ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.2> ;
+    skos:preflabel "Trend of increasing dynamism" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.2.7.1>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.24> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.2.7> ;
+    skos:preflabel "Lines of increasing dynamism" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.2.8>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.25> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/TBK/Concept.2.8.1> ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.2> ;
+    skos:preflabel "Trend of increasing substance-field interactions" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.2.8.1>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.26> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.2.8> ;
+    skos:preflabel "Lines of evolution of sufields" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.2.9>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.27> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.2> ;
+    skos:preflabel "Trend of transition from macro- to micro-levels" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.2.10> a skos:Concept, od:TRIZ-Concept;
+   skos:preflabel "Trend of matching - mismatching (coordination - noncoordination)";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.21>;
+   skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.2> .
+
+<http://opendiscovery.org/rdf/TBK/Concept.2.11> a skos:Concept, od:TRIZ-Concept;
+   skos:preflabel "The general pattern of engineering systems evolution";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.28>;
+   skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.2> .
+
+<http://opendiscovery.org/rdf/TBK/Concept.3>
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/TBK/Concept.3.1>, <http://opendiscovery.org/rdf/TBK/Concept.3.2>, <http://opendiscovery.org/rdf/TBK/Concept.3.3> ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.Root> ;
+    skos:preflabel "Algorithm for Inventive Problems Solving (ARIZ)" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.3.1>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.29> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.3> ;
+    skos:preflabel "ARIZ - a program for inventive problem solving by identifying and resolving contradictions" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.3.2>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.30> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.3> ;
+    skos:preflabel "Main line for solving ARIZ problems and ARIZ logic" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.3.3>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.31> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/TBK/Concept.3.3.1> ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.3> ;
+    skos:preflabel "Structure and basic notions of ARIZ-85C" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.3.3.1>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.32> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.3.3> ;
+    skos:preflabel "Problems-analogs" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.4>
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/TBK/Concept.4.1>, <http://opendiscovery.org/rdf/TBK/Concept.4.2>, <http://opendiscovery.org/rdf/TBK/Concept.4.3> ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.Root> ;
+    skos:preflabel "Substance-Field Analysis" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.4.1>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.6> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.4> ;
+    skos:preflabel "Basic concepts and rules" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.4.2>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.32> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.4> ;
+    skos:preflabel "Standards for inventive problem solving" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.4.3>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.33> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/TBK/Concept.4.3.1>, <http://opendiscovery.org/rdf/TBK/Concept.4.3.2>, <http://opendiscovery.org/rdf/TBK/Concept.4.3.3> ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.4> ;
+    skos:preflabel "Structure of the system of standards. System of 76 standards." .
+
+<http://opendiscovery.org/rdf/TBK/Concept.4.3.1>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.33> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.4.3> ;
+    skos:preflabel "Standards for system modification" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.4.3.2>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.33> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.4.3> ;
+    skos:preflabel "Standards for system measuring and detection" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.4.3.3>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.33> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.4.3> ;
+    skos:preflabel "Standards for application of the standards" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.5>
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/TBK/Concept.5.1>, <http://opendiscovery.org/rdf/TBK/Concept.5.2> ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.Root> ;
+    skos:preflabel "Techniques for resolving contradictions" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.5.1>
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/TBK/Concept.5.1.1>, <http://opendiscovery.org/rdf/TBK/Concept.5.1.2>, <http://opendiscovery.org/rdf/TBK/Concept.5.1.3>, <http://opendiscovery.org/rdf/TBK/Concept.5.1.4>, <http://opendiscovery.org/rdf/TBK/Concept.5.1.5> ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.5> ;
+    skos:preflabel "Techniques for resolving engineering contradictions (inventive principles)" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.5.1.1>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.34> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.5.1> ;
+    skos:preflabel "40 main inventive principles" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.5.1.2>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.35> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.5.1> ;
+    skos:preflabel "10 additional inventive principles" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.5.1.3>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.36> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.5.1> ;
+    skos:preflabel "Duality \"principle-anti-principle\"" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.5.1.4>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.37> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.5.1> ;
+    skos:preflabel "The Contradiction Matrix" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.5.1.5>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.38> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.5.1> ;
+    skos:preflabel "Typical diagrams of engineering contradictions" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.5.2>
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/TBK/Concept.5.2.1>, <http://opendiscovery.org/rdf/TBK/Concept.5.2.2> ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.5> ;
+    skos:preflabel "Techniques for resolving physical contradictions" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.5.2.1>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.39> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.5.2> ;
+    skos:preflabel "Separation principles" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.5.2.2>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.40> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.5.2> ;
+    skos:preflabel "Using the separation principles at macro- and micro-levels" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.6>
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/TBK/Concept.6.1>, <http://opendiscovery.org/rdf/TBK/Concept.6.2>, <http://opendiscovery.org/rdf/TBK/Concept.6.3>, <http://opendiscovery.org/rdf/TBK/Concept.6.4> ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.Root> ;
+    skos:preflabel "Scientific effects" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.6.1>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.41> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.6> ;
+    skos:preflabel "The concept of database of effects" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.6.2>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.42> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.6> ;
+    skos:preflabel "Physical effects" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.6.3>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.43> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.6> ;
+    skos:preflabel "Chemical effects" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.6.4>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.44> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.6> ;
+    skos:preflabel "Geometrical effects" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.7>
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:broader <http://opendiscovery.org/rdf/TBK/Concept.7.1>, <http://opendiscovery.org/rdf/TBK/Concept.7.10>, <http://opendiscovery.org/rdf/TBK/Concept.7.11>, <http://opendiscovery.org/rdf/TBK/Concept.7.2>, <http://opendiscovery.org/rdf/TBK/Concept.7.3>, <http://opendiscovery.org/rdf/TBK/Concept.7.4>, <http://opendiscovery.org/rdf/TBK/Concept.7.5>, <http://opendiscovery.org/rdf/TBK/Concept.7.6>, <http://opendiscovery.org/rdf/TBK/Concept.7.7>, <http://opendiscovery.org/rdf/TBK/Concept.7.8>, <http://opendiscovery.org/rdf/TBK/Concept.7.9> ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.Root> ;
+    skos:preflabel "System analysis methods" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.7.1>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.45> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.7> ;
+    skos:preflabel "Methods to search and formulate inventive problems" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.7.10>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.46> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.7> ;
+    skos:preflabel "Failure-anticipation analysis" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.7.11>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.47> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.7> ;
+    skos:preflabel "Super-effect identification (system improvement without solving problems)" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.7.2>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.45> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.7> ;
+    skos:preflabel "Flow analysis" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.7.3>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.45> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.7> ;
+    skos:preflabel "Trimming (Ideal Functional Modeling)" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.7.4>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.45> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.7> ;
+    skos:preflabel "Cause-effect Analysis. Formulation of key problems." .
+
+<http://opendiscovery.org/rdf/TBK/Concept.7.5>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.45> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.7> ;
+    skos:preflabel "Component and structural analysis" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.7.6>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.45> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.7> ;
+    skos:preflabel "Diagnostic analysis" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.7.7>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.45> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.7> ;
+    skos:preflabel "Evolutionary analysis" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.7.8>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.45> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.7> ;
+    skos:preflabel "Function analysis" .
+
+<http://opendiscovery.org/rdf/TBK/Concept.7.9>
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.45> ;
+    a od:TRIZ-Concept, skos:Concept ;
+    skos:narrower <http://opendiscovery.org/rdf/TBK/Concept.7> ;
+    skos:preflabel "Integration of alternative systems" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.101> a od:Reference;
+   dcterms:title "The Dialectics of Inventive Activity";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.1>;
+   dcterms:creator odp:Altshuller_GS .
+
+<http://opendiscovery.org/rdf/TBK/BIB.102> a od:Reference;
+   dcterms:title "The Invention Algorithm";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.1>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.5>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.34>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.37>;
+   dcterms:creator odp:Altshuller_GS;
+   dcterms:year "1973";
+   dcterms:publisher "M: Moskovsky Rabotchy" ; 
+   rdfs:comment "2nd edition" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.103> a od:Reference;
+   dcterms:title "Modern Methods of Scientific and Engineering Creativity. Guidebook";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.1>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.11>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.30>;
+   dcterms:creator odp:Petrov_VM, odp:Zhuckov_RF;
+   dcterms:year "1980";
+   dcterms:source <http://www.trizminsk.org/e/247009.htm>;
+   dcterms:source <http://www.trizland.ru/trizba.php?id=105>;
+   dcterms:publisher "L: IPK SP" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.104> a od:Reference;
+   dcterms:title "TRIZ as Applied Dialectics";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.1>;
+   dcterms:creator odp:Lymarenko_AA;
+   dcterms:year "1993";
+   rdfs:comment "TRIZ Journal, 1993." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.105> a od:Reference;
+   dcterms:title "On Psychology of Inventive Creativity";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.2>;
+   dcterms:creator odp:Shapiro_RB, odp:Altshuller_GS;
+   dcterms:year "1956";
+   rdfs:comment "Problems of Psychology, Vol. 6., pp. 37-49, 1956. See also Izobretenia, The Altshuller Institute for TRIZ Studies, 2000." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.107> a od:Reference;
+   dcterms:title "A System of Laws of Technology Evolution. A Chance for Adventure";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.3>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.24>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.25>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.28>;
+   dcterms:creator odp:Salamatov_YP;
+   dcterms:year "1991";
+   rdfs:comment "Compiled by Selyutsky, A.B. - Petrozavodsk: Karelia, 1991." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.108> a od:Reference;
+   dcterms:title "Innovation on Demand: New Product Development Using TRIZ";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.3>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.4>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.6>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.17>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.23>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.24>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.25>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.33>;
+   dcterms:creator odp:Rivin_E, odp:Fey_VR;
+   dcterms:year "2005";
+   dcterms:publisher "Cambridge University Press" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.109> a od:Reference;
+   dcterms:title "Basics of the Methodology for Conducting Value Engineering Analysis: Methodological Recommendations";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.4>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.45>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.22>;
+   dcterms:creator odp:Litvin_SS, odp:Kuzmin_AM, odp:Karpunin_MG, odp:Kalish_VS, odp:Gerasimov_VM;
+   dcterms:year "1991";
+   dcterms:publisher "M: Inform-VEA" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.110> a od:Reference;
+   dcterms:title "TechOptimizer Fundamentals";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.4>;
+   dcterms:creator odp:Ikovenko_S, odp:Devojno_I, odp:Verbitsky_M, odp:Arel_AT;
+   dcterms:year "2002";
+   dcterms:publisher "Invention Machine Educational Services" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.113> a od:Reference;
+   dcterms:title "The Innovation Algorithm";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.5>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.34>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.37>;
+   dcterms:creator odp:Altshuller_GS;
+   dcterms:year "1999";
+   dcterms:publisher "Worcester: Technical Innovation Center, Inc." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.114> a od:Reference;
+   dcterms:title "Introduction to Substance-Field Analysis";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.6>;
+   dcterms:creator odp:Flickstein_IM, odp:Gadjiev_Ch, odp:Altshuller_GS;
+   dcterms:year "1973";
+   rdfs:commentQ "Baku: OLMI" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.115> a od:Reference;
+   dcterms:title "Sufield Analysis.: Methodological Guidelines";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.6>;
+   dcterms:creator odp:Altshuller_GS;
+   dcterms:year "1973";
+   dcterms:publisher "Baku: OLMI" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.116> a od:Reference;
+   dcterms:title "Problem Solving Using Sufield Analysis";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.6>;
+   dcterms:creator odp:Flickstein_IM, odp:Altshuller_GS;
+   dcterms:year "1973";
+   dcterms:publisher "Baku: OLMI" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.117> a od:Reference;
+   dcterms:title "Principles of Sufield Analysis";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.6>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.33>;
+   dcterms:creator odp:Altshuller_GS .
+
+<http://opendiscovery.org/rdf/TBK/BIB.118> a od:Reference;
+   dcterms:title "Creativity as an Exact Science. Theory of Inventive Problem Solving";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.6>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.10>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.12>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.13>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.14>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.27>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.33>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.34>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.40>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.41>;
+   dcterms:creator odp:Altshuller_GS;
+   dcterms:source <http://www.altshuller.ru/triz/zrts1.asp>;
+   dcterms:year "1979";
+   dcterms:publisher "M: Sovietskoje radio" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.119> a od:Reference;
+   dcterms:title "Creativity as an Exact Science";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.6>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.10>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.33>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.34>;
+   dcterms:creator odp:Altshuller_GS;
+   dcterms:year "1988";
+   dcterms:publisher "NY: Gordon and Breach" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.120> a od:Reference;
+   dcterms:title "Wings for Icarus: How to solve inventive problems";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.6>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.11>;
+   dcterms:creator odp:Selyutsky_AB, odp:Altshuller_GS;
+   dcterms:year "1980";
+   rdfs:comment "Petrozavodsk: Karelia, 1980. (p. 58-72)." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.121> a od:Reference;
+   dcterms:title "To Find an Idea: Introduction to the Theory of Inventive Problem Solving";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.6>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.23>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.25>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.26>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.27>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.28>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.33>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.18>;
+   dcterms:creator odp:Altshuller_GS;
+   dcterms:year "1986";
+   dcterms:publisher "Novosibirsk: Nauka" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.122> a od:Reference;
+   dcterms:title "The Concept of Sufield";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.6>;
+   dcterms:creator odp:Altshuller_GS .
+
+<http://opendiscovery.org/rdf/TBK/BIB.123> a od:Reference;
+   dcterms:title "Daring Formulae of Creativity";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.6>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.14>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.11>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.42>;
+   dcterms:creator odp:Altshuller_GS;
+   dcterms:year "1987";
+   rdfs:comment "Compiled by Selyutsky, A.B.. - Petrozavodsk: Karelia, 1987. Series (Engineering - Young people - Creativity), p. 67-74." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.124> a od:Reference;
+   dcterms:title "Structural Sufield Analysis";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.6>;
+   dcterms:creator odp:Petrov_VP;
+   dcterms:source <http://www.trizland.ru/trizba.php?id=111> .
+
+<http://opendiscovery.org/rdf/TBK/BIB.125> a od:Reference;
+   dcterms:title "Tools of Classical TRIZ";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.6>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.16>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.21>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.23>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.24>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.25>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.33>;
+   dcterms:creator odp:Filatov_VI, odp:Zusman_AV, odp:Zlotin_BL, odp:Altshuller_GS;
+   dcterms:year "1999";
+   dcterms:publisher "Southfield: Ideation International Inc." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.128> a od:Reference;
+   dcterms:title "ARIZ Means Victory: Algorithm for Inventive Problem Solving ARIZ-85C";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.7>;
+   dcterms:creator odp:Altshuller_GS;
+   dcterms:year "1989";
+   rdfs:comment "Rules for a Game Without Rules. Compiled by Selyutsky, A.B. - Petrozavodsk: Karelia, 1989." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.129> a od:Reference;
+   dcterms:title "Use of Resources in Search for New Engineering Solutions";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.7>;
+   dcterms:creator odp:Vishnepolskaya_SV, odp:Zlotin_BL;
+   dcterms:year "1985";
+   rdfs:comment "Kishinev: 1985." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.130> a od:Reference;
+   dcterms:title "Principles of the Theory of Resource Utilization";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.7>;
+   dcterms:creator odp:Petrov_VM;
+   dcterms:year "1985";
+   rdfs:comment "L: 1985" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.131> a od:Reference;
+   dcterms:title "Specific Features of Resources Utilization for Problem Solving and Improving Obtained Solutions";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.7>;
+   dcterms:creator odp:Royzen_Z;
+   dcterms:year "1986";
+   rdfs:comment "Kishinev: 1986" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.132> a od:Reference;
+   dcterms:title "A Technology of Resource Utilization";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.7>;
+   dcterms:creator odp:Petrov_VM;
+   dcterms:year "1988";
+   rdfs:comment "Theory and practice of teaching engineering creativity. Abstracts of scientific papers. Chelyabinsk: UDNTP, 1988. p. 55-56." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.133> a od:Reference;
+   dcterms:title "The Reflectivity Principle and its Application for Inventive Problem Solving";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.8>;
+   dcterms:creator odp:Khotimliansky_Y;
+   dcterms:year "1974";
+   dcterms:publisher "Baku: The Public Laboratory for the Innovation Methodology" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.134> a od:Reference;
+   dcterms:title "The Concept of Building a Model of the Ideal Substance";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.9>;
+   dcterms:creator odp:Kagan_EL;
+   dcterms:year "1987";
+   rdfs:comment "Abstracts for the All-Union Scientific Conference \"Problems of development of scientific and engineering creativity\" (Tbilisi, September 30 - October 2, 1987). V.1 - Moscow: VSNTO, 1987. - p. 96-98." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.135> a od:Reference;
+   dcterms:title "In Search for the Ideal Substance";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.9>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.26>;
+   dcterms:creator odp:Fey_VR;
+   dcterms:year "1990";
+   rdfs:comment "TRIZ Journal, V.1, No. 1/90, p. 36-41, V.1, No. 2/90, p. 31-40. 1990. Also in Search for the Ideal Substance. - A Chance for Adventure. Compiled by Selyutsky, A.B. - Petrozavodsk: Karelia, 1991, p. 174-220." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.136> a od:Reference;
+   dcterms:title "Evolution of Substances in Technological Systems";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.9>;
+   dcterms:creator odp:Salamatov_YP;
+   dcterms:year "1984";
+   rdfs:comment "Abstracts of the conference \"Methods of Scientific and Engineering Creativity\", June 30-July 2, 1984 - Novosibirsk, p. 64-66, 1984." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.139> a od:Reference;
+   dcterms:title "The Process of Inventive Problem Solving: Main Stages and Mechanisms";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.11>;
+   dcterms:creator odp:Altshuller_GS;
+   dcterms:source <http://www.altshuller.ru/triz1.asp>;
+   rdfs:comment "Publishing date: 06.04.75" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.143> a od:Reference;
+   dcterms:title "Administrative, Engineering, and Physical Contradictions";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.12>;
+   dcterms:creator odp:Altshuller_GS .
+
+<http://opendiscovery.org/rdf/TBK/BIB.145> a od:Reference;
+   dcterms:title "The Structure of Talented Thinking";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.13>;
+   dcterms:creator odp:Altshuller_GS .
+
+<http://opendiscovery.org/rdf/TBK/BIB.147> a od:Reference;
+   dcterms:title "Hands-On Systematic Innovation";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.13>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.37>;
+   dcterms:creator odp:Mann_D;
+   dcterms:year "2002";
+   dcterms:publisher "Ieper: CREAX Press" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.148> a od:Reference;
+   dcterms:title "Simplified TRIZ";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.13>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.37>;
+   dcterms:creator odp:Domb_E, odp:Rantanen_K;
+   dcterms:year "2002";
+   dcterms:publisher "Boca Raton: CRC Press" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.149> a od:Reference;
+   dcterms:title "Laws of Engineering Systems Evolution";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.14>;
+   dcterms:creator odp:Altshuller_GS;
+   dcterms:year "1977";
+   rdfs:comment "Baku, 20.01.1977." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.150> a od:Reference;
+   dcterms:title "Laws of Systems Evolution";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.14>;
+   dcterms:creator odp:Altshuller_GS .
+
+<http://opendiscovery.org/rdf/TBK/BIB.152> a od:Reference;
+   dcterms:title "Laws of Technological Systems Evolution";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.14>;
+   dcterms:creator odp:Altshuller_GS .
+
+<http://opendiscovery.org/rdf/TBK/BIB.154> a od:Reference;
+   dcterms:title "Mechanisms for Enhancing the Ideality of Technological Systems in VEA";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.15>;
+   dcterms:creator odp:Litvin_SS, odp:Gerasimov_VM;
+   dcterms:year "1985";
+   rdfs:comment "L: 1985" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.155> a od:Reference;
+   dcterms:title "Idealization of Technological Systems";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.15>;
+   dcterms:creator odp:Petrov_VM;
+   dcterms:year "1983";
+   dcterms:source <http://www.trizland.ru/trizba/pdf-books/zrts-08-ideal.pdf>;
+   rdfs:comment "District Scientific-and-Practical Conference \"Problems of Development of Scientific and Engineering Creativity of Engineers\". Abstracts of reports. Gorky, 1983, p. 60-62." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.156> a od:Reference;
+   dcterms:title "Specific Features of Ideal Technological Systems";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.15>;
+   dcterms:creator odp:Kondrakov_IM, odp:Salamatov_YP;
+   dcterms:year "1984";
+   rdfs:comment "Abstracts of the conference \"Methods of Scientific and Engineering Creativity\", June 30-July 2, 1984 - Novosibirsk, p. 64-66." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.159> a od:Reference;
+   dcterms:title "Chronokinematics of Technological Systems";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.17>;
+   dcterms:creator odp:Fey_VR;
+   dcterms:year "1988";
+   rdfs:comment "Baku: 1988" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.162> a od:Reference;
+   dcterms:title "Small Boundless Worlds: The Standards for Inventive Problem Solving";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.18>;
+   dcterms:creator odp:Altshuller_GS;
+   dcterms:year "1988";
+   rdfs:comment "A Thread in the Labyrinth. Compiled by Selyutsky, A.B. - Petrozavodsk: Karelia, 1988." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.163> a od:Reference;
+   dcterms:title "The Trend of Transition to Supersystems";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.18>;
+   dcterms:creator odp:Petrov_VP;
+   dcterms:source <http://www.trizland.ru/trizba/pdf-books/zrts-17nadsyst.pdf> .
+
+<http://opendiscovery.org/rdf/TBK/BIB.164> a od:Reference;
+   dcterms:title "Lines of Increasing Structurization of Voids";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.19>;
+   dcterms:creator odp:Vertkin_IM, odp:Altshuller_GS;
+   dcterms:year "1987";
+   dcterms:source <http://www.altshuller.ru/triz/zrts5.asp> .
+
+<http://opendiscovery.org/rdf/TBK/BIB.165> a od:Reference;
+   dcterms:title "Mechanisms of Convolution of Technological Systems";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.20>;
+   dcterms:creator odp:Vertkin_IM;
+   dcterms:year "1984";
+   rdfs:comment "Baku: 1984" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.166> a od:Reference;
+   dcterms:title "Search for New Ideas: From Insight to Technology";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.21>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.16>;
+   dcterms:creator odp:Filatov_VI, odp:Zusman_AV, odp:Zlotin_BL, odp:Altshuller_GS;
+   dcterms:year "1989";
+   rdfs:comment "The Theory and Practice of Inventive Problem Solving - Kishinev, Kartia Moldoveniaske, 1989." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.168> a od:Reference;
+   dcterms:title "Using the Trends of Technology Evolution in VEA of Manufacturing Processes";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.22>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.45>;
+   dcterms:creator odp:Litvin_SS, odp:Gerasimov_VM;
+   dcterms:year "1987";
+   rdfs:comment "Practices of Conducting VEA in the Electrical Product Industry. Ed. by M.G.Karpunin. M., Energoatomizdat, 1987." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.170> a od:Reference;
+   dcterms:title "A Unified System of TRIZ-VEA";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.22>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.45>;
+   dcterms:creator odp:Litvin_SS, odp:Gerasimov_VM;
+   rdfs:comment "TRIZ Journal, No. 3.2.92 , p.7-45." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.173> a od:Reference;
+   dcterms:title "A Search for New Ideas: From Insight to Technology";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.23>;
+   dcterms:creator odp:Filatov_VI, odp:Zusman_AV, odp:Zlotin_BL, odp:Altshuller_GS;
+   dcterms:year "1989";
+   rdfs:comment "The Theory and Practice of Inventive Problem Solving - Kishinev, Kartia Moldoveniaske, 1989." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.176> a od:Reference;
+   dcterms:title "Lines of Fragmentation";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.24>;
+   dcterms:creator odp:Vertkin_IM, odp:Altshuller_GS;
+   dcterms:year "1987";
+   dcterms:source <http://www.altshuller.ru/triz/zrts5.asp>;
+   rdfs:comment "Baku: 1987" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.184> a od:Reference;
+   dcterms:title "The General Pattern of Sufield Evolution";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.26>;
+   dcterms:creator odp:Vertkin_IM;
+   dcterms:year "1984";
+   rdfs:comment "Presentation at the conference \"Methods of Scientific and Engineering Creativity\", Novosibirsk, June 30-July 2, 1984." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.185> a od:Reference;
+   dcterms:title "A Study of Sufields with Thermal and Magnetic Fields in Technological Systems";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.26>;
+   dcterms:creator odp:Fey_VR, odp:Vertkin_IM;
+   dcterms:year "1984";
+   rdfs:comment "Abstracts of the conference \"Methods of Scientific and Engineering Creativity\", June 30-July 2, 1984 Novosibirsk, p. 79-81, 1984." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.190> a od:Reference;
+   dcterms:title "Trend of System Transition from Macro- to Microlevels";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.27>;
+   dcterms:creator odp:Petrov_VP;
+   dcterms:source <http://www.trizland.ru/trizba/pdfbooks/zrts-12-microlevel.pdf> .
+
+<http://opendiscovery.org/rdf/TBK/BIB.192> a od:Reference;
+   dcterms:title "A System of Laws of Technological System Evolution";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.28>;
+   dcterms:creator odp:Petrov_VM;
+   dcterms:year "1982";
+   dcterms:source <http://www.trizland.ru/trizba.php?id=108>;
+   rdfs:comment "Lecture at the seminar for TRIZ instructors and researchers (Petrozavodsk-82). - L: 1982." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.194> a od:Reference;
+   dcterms:title "Idealization of Technological Systems. A Study and Development of a Spatial-Temporal Model of Technological System Evolution (\"a wave of idealization\") based on the study of evolution of a technological system \"heat pipe\" ";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.28>;
+   dcterms:creator odp:Kondrakov_IM, odp:Salamatov_YP ;
+   dcterms:year "1984";
+   dcterms:source <http://rus.trizguide.com/publicat/allbooks/ideal_tech_systems.html> ;
+   rdfs:comment "Krasnoyarsk: 1984".
+
+<http://opendiscovery.org/rdf/TBK/BIB.195> a od:Reference;
+   dcterms:title "The History of ARIZ Evolution";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.29>;
+   dcterms:creator odp:Altshuller_GS;
+   dcterms:year "1987";
+   dcterms:source <http://www.altshuller.ru/triz/ariz-about1.asp> .
+
+<http://opendiscovery.org/rdf/TBK/BIB.197> a od:Reference;
+   dcterms:title "Algorithm for Inventive Problem Solving ARIZ-85C";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.31>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.7>;
+   dcterms:creator odp:Altshuller_GS;
+   dcterms:year "1985";
+   dcterms:source <http://www.altshuller.ru/triz/ariz85v.asp>;
+   rdfs:comment "Methodological materials for trainees of the seminar \"Methods of solving scientific and engineering problems\" - L: Leningrad Metal Works, 1985." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.198> a od:Reference;
+   dcterms:title "Comments on ARIZ-85A";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.32>;
+   dcterms:creator odp:Altshuller_GS;
+   dcterms:year "1983";
+   rdfs:comment "In Altshuller, G.S. Algorithm of Inventive Problem Solving ARIZ-85A. - Baku, 1983." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.199> a od:Reference;
+   dcterms:title "Use of Problems-Analogs in Inventive Activity";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.32>;
+   dcterms:creator odp:Petrov_VM;
+   dcterms:year "1983";
+   rdfs:comment "Methodological problems of engineering activities. Part II \"Engineering heuristics and technology forecasting\". - Riga, Znanije, 1983." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.200> a od:Reference;
+   dcterms:title "They are Unlike, but They are Similar (Problems-analogs in TRIZ)";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.32>;
+   dcterms:creator odp:Litvin_SS;
+   rdfs:comment "TRIZ Journal, 95.1 (No.10). - p. 47-50." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.204> a od:Reference;
+   dcterms:title "Theory of Inventive Problem Solving";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.33>;
+   dcterms:creator odp:Altshuller_GS;
+   dcterms:year "1988";
+   dcterms:source <http://www.altshuller.ru/engineering16.asp>;
+   rdfs:comment "Angarsk: 1988" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.206> a od:Reference;
+   dcterms:title "Tools of Classical TRIZ";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.33>;
+   dcterms:creator odp:Filatov_VI, odp:Zusman_AV, odp:Zlotin_BL, odp:Altshuller_GS;
+   dcterms:year "1999";
+   dcterms:publisher "Ideation International Inc." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.207> a od:Reference;
+   dcterms:title "Small Huge Worlds: Standards for Inventive Problem Solving";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.33>;
+   dcterms:creator odp:Altshuller_GS;
+   dcterms:year "1988";
+   dcterms:source <http://www.altshuller.ru/triz/standards.asp>;
+   rdfs:comment "A Thread in the Labyrinth. Compiled by Selyutsky, A.B.  Petrozavodsk: Karelia, 1988." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.209> a od:Reference;
+   dcterms:title "The Seventy Six Standard Solutions, with Examples";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.33>;
+   dcterms:creator odp:Miller_J, odp:Domb_E, odp:Terninko_J;
+   dcterms:year "2000";
+   dcterms:source <http://www.trizjournal.com/archives/2000/02/g/index.htm>,
+   <http://www.triz-journal.com/archives/2000/03/d/index.htm>,
+   <http://www.triz-journal.com/archives/2000/05/b/index.htm>,
+   <http://www.trizjournal.com/archives/2000/06/e/index.htm>,
+   <http://www.triz-journal.com/archives/2000/07/b/index.htm> .
+
+<http://opendiscovery.org/rdf/TBK/BIB.210> a od:Reference;
+   dcterms:title "Main Techniques for Elimination of Engineering Contradictions in Inventive Problem Solving";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.34>;
+   dcterms:creator odp:Altshuller_GS;
+   dcterms:year "1971";
+   dcterms:publisher "Baku: Giandjlick" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.215> a od:Reference;
+   dcterms:title "Classification of the Inventive Principles";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.34>;
+   dcterms:creator odp:Altshuller_GS;
+   dcterms:year "1985";
+   rdfs:comment "Petrozavodsk: 1985" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.216> a od:Reference;
+   dcterms:title "An Additional List of Inventive Principles";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.35>;
+   dcterms:creator odp:Altshuller_GS;
+   dcterms:year "1971";
+   dcterms:source <http://www.altshuller.ru/triz/technique1a.asp>;
+   rdfs:comment "Baku: 1971" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.217> a od:Reference;
+   dcterms:title "Examples for the Inventive Principles";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.35>;
+   dcterms:creator odp:Brenner_MA, odp:Altshuller_GS;
+   dcterms:year "1984";
+   rdfs:comment "Baku: 1984" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.218> a od:Reference;
+   dcterms:title "A Study of Main Techniques for Eliminating Engineering Contradictions for Inventive Problems Solving";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.36>;
+   dcterms:creator odp:Flickstein_IM;
+   dcterms:year "1973";
+   rdfs:comment "Baku: 1973" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.219> a od:Reference;
+   dcterms:title "Paired Inventive Principles";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.36>;
+   dcterms:creator odp:Petrov_VM;
+   dcterms:year "1974";
+   dcterms:source <http://www.trizminsk.org/e/212002.htm>;
+   rdfs:comment "Leningrad: 1974" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.224> a od:Reference;
+   dcterms:title "ARIZ-85C, Table 1";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.38>;
+   dcterms:creator odp:Altshuller_GS;
+   dcterms:year "1985";
+   rdfs:comment "Baku: 1985" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.225> a od:Reference;
+   dcterms:title "ARIZ-85C, Table 2";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.39>;
+   dcterms:creator odp:Altshuller_GS;
+   dcterms:year "1985";
+   rdfs:comment "Baku: 1985" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.226> a od:Reference;
+   dcterms:title "Techniques for resolving physical contradictions";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.39>;
+   dcterms:creator odp:Litvin_SS;
+   dcterms:year "1981";
+   rdfs:comment "Leningrad: 1981" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.229> a od:Reference;
+   dcterms:title "Index of Physical Effects and Phenomena for Inventors";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.42>;
+   dcterms:creator odp:Gorin_Yu;
+   dcterms:year "1973";
+   dcterms:source <http://www.triz-summit.ru/ru/section.php?docId=3672>;
+   rdfs:comment "Baku: 1973. - 300 p. " .
+
+<http://opendiscovery.org/rdf/TBK/BIB.230> a od:Reference;
+   dcterms:title "Application of Physical Effects and Phenomena when Solving Inventive Problems";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.42>;
+   dcterms:creator odp:Gorin_Yu;
+   dcterms:publisher "Baku: OLMI" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.231> a od:Reference;
+   dcterms:title "Index of Physical Effects and Phenomena for Innvators";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.42>;
+   dcterms:creator odp:Kustov_V, odp:Zubarev_V, odp:Yefimov_V, odp:Denisov_S;
+   dcterms:year "1977";
+   dcterms:source <http://lib.web-malina.com/getbook.php?bid=1693>;
+   rdfs:comment "Obninsk: 1977" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.232> a od:Reference;
+   dcterms:title "Index of Physical Phenomena and Effects for Solving Inventive Problems: Training Material";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.42>;
+   dcterms:creator odp:Goncharov_AN, odp:Kustov_V, odp:Zubarev_V, odp:Yefimov_V, odp:Denisov_S, odp:Borodastov_GV;
+   dcterms:year "1979";
+   dcterms:publisher "M: Atominform" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.233> a od:Reference;
+   dcterms:title "Magic Crystal of Physics";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.42>;
+   dcterms:creator odp:Selyutsky_AB .
+
+<http://opendiscovery.org/rdf/TBK/BIB.235> a od:Reference;
+   dcterms:title "Heroic Deeds at Molecular Level: Chemistry Helps Solve Difficult Inventive Problems";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.43>;
+   dcterms:creator odp:Salamatov_YP;
+   dcterms:year "1988";
+   dcterms:source <http://rus.triz-guide.com/publicat/allbooks/feates_on_molecular_level.html>;
+   rdfs:comment "A Thread in the Labyrinth. Compiled by Selyutsky, A.B. - Petrozavodsk: Karelia, 1988." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.236> a od:Reference;
+   dcterms:title "The Curve That Will Always Help You Out: Geometry for Inventors";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.44>;
+   dcterms:creator odp:Yefremov_VI, odp:Vikentiev_IL;
+   dcterms:year "1988";
+   dcterms:source <http://www.trizchance.ru/geometrical_effect.html>;
+   rdfs:comment "A Thread in the Labyrinth, Compiled by Selyutsky, A. B. - Petrozavodsk: Karelia, 1988." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.237> a od:Reference;
+   dcterms:title "Application of Methods of Engineering Creativity when Conducting Value Engineering Analysis: Methodological Recommendations";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.45>;
+   dcterms:creator odp:Litvin_SS, odp:Kuzmin_AM, odp:Karpunin_MG, odp:Doubrov_VY, odp:Gerasimov_VM;
+   dcterms:year "1990";
+   dcterms:publisher "M: Informelectro" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.241> a od:Reference;
+   dcterms:title "Why Does Engineering Need Pluralism?";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.45>;
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.22>;
+   dcterms:creator odp:Litvin_SS, odp:Gerasimov_VM;
+   rdfs:comment "TRIZ Journal, No.1.90 , p.11-26." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.242> a od:Reference;
+   dcterms:title "A Methodology for Forecasting Extraordinary Situations, Harmful and Undesirable Phenomena";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.46>;
+   dcterms:creator odp:Zusman_AV, odp:Zlotin_BL;
+   dcterms:year "1991";
+   rdfs:comment "Kishinev: 1991" .
+
+<http://opendiscovery.org/rdf/TBK/BIB.243> a od:Reference;
+   dcterms:title "New Tools for Failure and Risk Analysis";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.46>;
+   dcterms:creator odp:Zusman_AV, odp:Zlotin_BL, odp:Visnepolski_S, odp:Kaplan_S;
+   dcterms:year "1999";
+   dcterms:publisher "Ideation International Inc." .
+
+<http://opendiscovery.org/rdf/TBK/BIB.244> a od:Reference;
+   dcterms:title "Construction of Functionally Ideal Models when Conducting VEA";
+   od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.47>;
+   dcterms:creator odp:Litvin_SS, odp:Gerasimov_VM;
+   dcterms:year "1989" .
+

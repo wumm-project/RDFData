@@ -21,14 +21,17 @@ The RDFData collected within the Open Discovery Project.
 ## RDF Graphs
 
 * Books.ttl - A list of TRIZ-related books.
-  * This uses terminology as recommended in
-    <http://eprints.rclis.org/22454/1/LODE-BD-2.pdf>
-  * Contains at the moment mainly bibliography supplied by V.M.Petrov
+  * Uses terminology as recommended in <http://eprints.rclis.org/22454/1/LODE-BD-2.pdf>
+  * Contains bibliography supplied by V.M.Petrov
+  * Contains bibliography supplied by D.Zobel
+  * Contains selected books freom the TRIZ Body of Knowledge reference list
 * Conferences/TRIZ-Summit-2019.ttl - information about the TRIZ Summit 2019 in
   Minsk
 * Glossary.ttl  -  A glossary extracted from the German VDI norm
 * People.ttl - People within the TRIZ Social Network
+  * Updates with the authors listed in the TRIZ Body of Knowledge
 * StandardSolutions.ttl - The 76 Standard Solutions in TRIZ form
+* TBK.ttl - TRIZ Body of Knowledge as RDF Data
 * ThePrinciples.ttl - The 40 principles according to Altshuller 1985 
 * TheMatrix.ttl - Altshullers 39x39 matrix 
 

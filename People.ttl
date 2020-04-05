@@ -217,6 +217,10 @@ odp:Han_B
     foaf:affil "Tianjin Innovation and Development Institute"@en ;
     foaf:name "Bing Han" .
 
+odp:Hartmann_R
+    a foaf:Person ;
+    foaf:name "Rainer Hartmann" .
+
 odp:Hentschel_C
     a foaf:Person ;
     foaf:affil "HS Berlin, Germany" ;
