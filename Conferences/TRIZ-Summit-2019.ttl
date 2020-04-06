@@ -32,7 +32,7 @@
 :Talk_520
     swc:relatedToEvent track:IT ;
     dcterms:abstract "We will get acquainted with the approach to solving inventive problems developed during the Samsung Advanced Institute of Technology. Taking into account the experience of practical consulting, an algorithm for correcting problem situations has been developed and repeatedly tested which turned out to be very effective for solving real problems of the company. The report will show the analysis of the problems solved for the SAMSUNG Group. "@en, "Мы познакомимся с подходом к решению изобретательских заадч, выработанном за время работы на Samsung Advanced Institute of Technology. С учетом опыта практического консалтинга был разработан и многократно проверен алгоритм исправления проблемных ситуаций, оказавшийся весьма эффективным именно для решения реальных задач компании. В докладе будут показаны разборы задач, решенных для SAMSUNG Group."@ru ;
-    dcterms:creator odp:Shpakovskij_N ;
+    dcterms:creator odp:Shpakovsky_NA ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/520> ;
     od:urlVideo <https://youtu.be/QtPhiRp8sk8> ; 
     od:urlSlides <http://wumm.uni-leipzig.de/Presentations/Shpakovskij-20190713b.pdf> ;
@@ -42,7 +42,7 @@
 :Talk_521
     swc:relatedToEvent track:IT ;
     dcterms:abstract "The mechanisms for saturation of technical systems with information will be presented. These mechanisms are universal and will manifest themselves in both hardware systems and software. During the master class there will be shown how practically apply these mechanisms to improve systems. "@en, "Будут представлены механизмы насыщения технических систем информацией. Эти механизмы - универсальны и проявляются как в \"железячных\" системах, так и в программном обеспечении. Во время мастер класса будет показано, как практически применять эти механизмы для совершенствания систем."@ru ;
-    dcterms:creator odp:Devojno_I ;
+    dcterms:creator odp:Devojno_IG ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/521> ;
     dcterms:title "Informatization of technical systems"@en, "Информатизация технических систем"@ru ;
     a od:Talk .
@@ -75,7 +75,7 @@
 :Talk_525
     swc:relatedToEvent track:IT ;
     dcterms:abstract "TRIZ is successfully used in various areas of knowledge: in engineering, business, information technology, and in scientific research. The general theory of solving inventive problems is intended to identify the general laws of the development of systems and universal tools for solving inventive problems for various systems: material and non-material. Sections of the general theory of solving inventive problems and the direction of development of the theory will be presented. "@en, "ТРИЗ успешно применяется в различных областях знаний: в технике, бизнесе, информационных технологиях, при научных разработках. Общая теория решения изобретательских задач предназначена для выявления общих законов развития систем и универсальных инструментов решения изобретательских задач для различных систем: материальных и нематериальных. Будут представлены разделы общей теории решения изобретательских задач и направления развития теории."@ru ;
-    dcterms:creator odp:Rubin_M ;
+    dcterms:creator odp:Rubin_MS ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/525> ;
     dcterms:title "Evolutionary systems knowledge: general theory of solving inventive problems"@en, "Эволюционное системовведение: общая теория решения изобретательских задач"@ru ;
     a od:Talk .
@@ -83,7 +83,7 @@
 :Talk_527
     swc:relatedToEvent track:PT ;
     dcterms:abstract "The public organization “TRIZ Developers Summit” was established in 2005 to coordinate research on the development of TRIZ as a theory. Over the years, thematic conferences have been held to develop ARIZ, sufield analysis and standards, TESE, principle of operation and many other sections of TRIZ. Collections of materials of the TRIZ Summit are published annually, methodological, scientific and practical developments are published. The history and directions of development of the TRIZ Developers Summit will be presented. "@en, "Общественная организация «Саммит разработчиков ТРИЗ» была создана в 2005 году для координации исследовательских работ по развитию ТРИЗ как теории. За эти годы были проведены тематические конференции, направленные на развитие АРИЗ, вепольного анализа и стандартов, ЗРТС, принципа действия и многих других разделов ТРИЗ. Ежегодно издаются сборники материалов ТРИЗ Саммита, публикуются методологические и научно-практические разработки. Будет представлена история и направления развития Саммита разработчиков ТРИЗ."@ru ;
-    dcterms:creator odp:Petrov_VM, odp:Rubin_M ;
+    dcterms:creator odp:Petrov_VM, odp:Rubin_MS ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/527> ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304801-file-original.pdf> ;   
     od:urlVideo <https://youtu.be/Cgk0PMsx52Q> ; 
@@ -128,7 +128,7 @@
 :Talk_574
     swc:relatedToEvent track:IT ;
     dcterms:abstract "The system of assessment and improvement of the level of assimilation of TRIZ tools \"IKAR and DEDAL\" is intended for self-evaluation of specialists of their level of TRIZ knowledge, provides objective information about the qualification of a TRIZ specialist and recommendations to raise it. The report presents the components of the system, in particular, the classification of TRIZ tools, the register of issued certificates, the methodology for assessing the level of knowledge of TRIZ. The system involves certification in the following areas: engineering, business, information technology, aktika (teachers), juniors. Will be presented the development of a referral system «IKAR and DEDAL» "@en, "Система оценки и повышения уровня усвоения инструментов ТРИЗ «ИКАР и ДЕДАЛ» предназначена для самооценки специалистов их уровня знаний по ТРИЗ, предоставляет объективную информацию о квалификации специалиста в области ТРИЗ и рекомендации по ее повышению. В докладе будут представлены составляющие системы, в частности, классификация инструментов ТРИЗ, реестр выданных сертификатов, методика оценки уровня знания по ТРИЗ. Система предполагает сертификацию по направлениям: техника, бизнес, информационные технологии, дидактика (преподаватели), юниоры. Будут представлены направления развития системы «ИКАР и ДЕДАЛ»"@ru ;
-    dcterms:creator odp:Gerasimov_O, odp:Rubin_M ;
+    dcterms:creator odp:Gerasimov_OM, odp:Rubin_MS ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/574> ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304861-file-original.pdf> ;
     dcterms:title "On the development of a system for evaluating and improving the level of assimilation of TRIZ“ ICAR and DEDAL ”tools"@en, "О развитии системы оценки и повышения уровня усвоения инструментов ТРИЗ «ИКАР и ДЕДАЛ»"@ru ;
@@ -137,7 +137,7 @@
 :Talk_575
     swc:relatedToEvent track:IT ;
     dcterms:abstract "The aspects of selection, training and activities of internal coaches - employees of large industrial holdings are disclosed, a third of their working time for six months with a complete separation from the main activity of those who studied TRIZ. <br/> We consider the features of the organization of such a training - from the description of the real problem situations assigned to students for solving in the format of practical tasks to the formation of project teams, features of working with group dynamics and developing skills of professional behavior. <br/> A critical review of the methodology of teaching TRIZ tools used during the preparation of the first stream of internal trainers was carried out, the sequence of familiarization with the tools, the nuances of the formation of simplified road maps, typical errors in the use of tools and other aspects were considered. <br/> In conclusion, the development potential of the direction of training internal trainers in the format of project sessions for training groups recruited from enterprises of different profiles and different regions. "@en, "Раскрыты аспекты отбора, обучения и деятельности внутренних тренеров – сотрудников крупных промышленных холдингов, треть своего рабочего времени в течение полугода с полным отрывом от основной деятельности изучавших ТРИЗ.<br/>Рассмотрены особенности организации подготовки – от описания реальных проблемных ситуаций, поручаемых обучающимся для разрешения в формате практических задач, до формирования проектных команд, особенностей работы с групповой динамикой и вырабатывания навыков профессионального поведения.<br/>Проведен критический обзор методики преподавания инструментов ТРИЗ, использованной в ходе подготовки первого потока внутренних тренеров. Рассмотрена последовательность знакомства с инструментами, нюансы формирования упрощенных дорожных карты, типовые ошибки в применении инструментов и другие аспекты.<br/>В заключении рассмотрен потенциал развития направления подготовки внутренних тренеров в формате проектных сессий для учебных групп, набранных с предприятий разного профиля и разных регионов."@ru ;
-    dcterms:creator odp:Redkolis_E ;
+    dcterms:creator odp:Redkolis_EV ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304812-file-original.pdf> ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/575> ;
     dcterms:title "Experience in training internal TRIZ trainers for large industrial holdings"@en, "Опыт подготовки внутренних тренеров по ТРИЗ для крупных промышленных холдингов"@ru ;
@@ -156,7 +156,7 @@
 :Talk_577
     swc:relatedToEvent track:IT ;
     dcterms:abstract "The Compinno-TRIZ software package developed jointly with Sysoyev S.S. is designed to formulate, analyze and resolve contradictions of requirements in engineering, business, information systems and other areas of human activity. The complex is freely available at http://ariz-2010.appspot.com/. Technical contradiction (contradiction of requirements), physical contradiction (property contradiction) and micro-contradiction (at the sub-element level) are considered as a single system in which one contradiction is a subsystem of another and linked by cause-effect chains. The complex «Compinno-TRIZ» allows the user to automatically build the whole system of contradictions and IFR in interactive mode. "@en, "Программный комплекс «Compinno-TRIZ» разрабатывается совместно с Сысоевым С.С., предназначен для формулировки, анализа и решения противоречий требований в технике, бизнесе, информационных системах и других областях деятельности людей. Комплекс размещен в свободном доступе по адресу http://ariz-2010.appspot.com/ . Техническое противоречие (противоречие требований), физическое противоречие (противоречие свойства) и противоречие на микроуровне (на уровне подэлемента) рассматриваются как единая система, в которой одно противоречие является подсистемой другого и связаны между собой причинно-следственными цепочками. Комплекс «Compinno-TRIZ» позволяет пользователю автоматически выстраивать всю систему противоречий и ИКР в интерактивном режиме."@ru ;
-    dcterms:creator odp:Rubin_M, odp:Sysoev_S ;
+    dcterms:creator odp:Rubin_MS, odp:Sysoev_S ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/577> ;
     dcterms:title "The system of contradictions in the software complex \"Compinno-TRIZ\""@en, "Система противоречий в программном комплексе \"Compinno-TRIZ\""@ru ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304809-file-original.pdf> ;
@@ -191,7 +191,7 @@
 :Talk_581
     swc:relatedToEvent track:Business ;
     dcterms:abstract "Created in 2017, TRIZ-navigator on business models is based on the analysis of business contradictions. In the development of this work, a table was created to resolve business contradictions, which includes not only business models, but also techniques for solving inventive problems. A description of the development directions of the table and a business navigator on business models is given. It is planned to describe the development lines of business models and their connection to standards for solving inventive problems in business. "@en, "Created in 2017, the analysis of business contradictions. It is a plan of standards for solving inventive problems in business. "@en, "Созданный в 2017 году ТРИЗ-навигатор по бизнес-моделям основан на анализе бизнес-противоречий. В развитие этой работы была создана таблица разрешения бизнес-противоречий, которая включает в себя не только бизнес-модели, но и приемы решения изобретательских задач. Дается описание направлений развития таблицы и бизнес-навигатора по бизнес-моделям. Планируется дать описание линий развития бизнес-моделей и их связь со стандартами на решение изобретательских задач в бизнесе."@ru ;
-    dcterms:creator odp:Kuryan_A, odp:Rubin_M ;
+    dcterms:creator odp:Kuryan_A, odp:Rubin_MS ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/581> ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304830-file-original.pdf> ;
     dcterms:title "Table of solving business contradictions and its development"@en, "Таблица решения бизнес-противоречий и ее развитие"@ru ;
@@ -251,7 +251,7 @@
 :Talk_588
     swc:relatedToEvent track:Edu ;
     dcterms:abstract "The educational environment for the development of inventive abilities of older preschoolers and younger schoolchildren is considered as an educational system built into the general system of creative education of children. The report will consider general approaches to the construction of an educational environment as systems: functions, structure, components, communications with super-systems, and also problems that need to be solved in order to create such an environment. Special attention will be paid to the method of implementing distance support for students, teachers and parents. "@en, "Образовательная среда для развития изобретательских способностей старших дошкольников и младших школьников рассматривается как образовательная система, встроенная в общую систему творческого образования детей. В докладе будут рассмотрены общие подходы к построению образовательной среды как системы: функции, структура, компоненты, связи с надсистемами, а также поставлены проблемы, которые необходимо решить для создания такой среды. Отдельное внимание будет уделено способом реализации дистанционной поддержки учеников, педагогов и родителей."@ru ;
-    dcterms:creator odp:Nesterenko_A, odp:Terekhova_G ;
+    dcterms:creator odp:Nesterenko_AA, odp:Terekhova_G ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/588> ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304834-file-original.pdf> ;
     dcterms:title "\"Trizoventor\" - an environment for the development of inventive abilities of children 6-12 years old"@en, "\"Тризобретатель\" - среда для развития изобретательских способностей детей 6-12 лет"@ru ;
@@ -275,7 +275,7 @@
 :Talk_601
     swc:relatedToEvent track:IT ;
     dcterms:abstract "Companies in any industry regularly encounter the need to look for new solutions and plan future developments in order to cope with emerging problems or take advantage of the opportunities that have opened up. System work using TRIZ tools for fixing and solving problem areas in all (primarily in the key) areas of the company’s activity in order to develop and implement new solutions in a timely manner gives an advantage over competitors in efficiency and speed. "@en, "Компании любой отрасли регулярно сталкиваются с необходимостью искать новые решения и планировать будущие разработки, чтобы справиться с возникшими проблемами или воспользоваться открывшимися возможностями. Системная работа с использованием инструментов ТРИЗ, по фиксации и решению проблемных зон во всех (прежде всего, в ключевых) направлениях деятельности компании с целью своевременной разработки и реализации новых решений дает преимущество перед конкурентами в эффективности и скорости."@ru ;
-    dcterms:creator odp:Li_H, odp:Severinec_G ;
+    dcterms:creator odp:Li_H, odp:Severinets_GA ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304813-file-original.pdf> ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/601> ;
     dcterms:title "TRIZ tools for creating an effective roadmap"@en, "Инструменты ТРИЗ для создания эффективной дорожной карты"@ru ;
@@ -284,7 +284,7 @@
 :Talk_602
     swc:relatedToEvent track:IT ;
     dcterms:abstract "In this paper, the mechanisms for the emergence and saturation of technical systems with information are considered. Specific trends in the formation of information flows and decision-making mechanisms are considered. It is shown how the described mechanisms can be used to construct methods of improvement of technology. "@en, "В данной работе рассматриваются механизмы появления и насыщения технических систем информацией. Рассмотрены конкретные тренды формирования информационных потоков и механизмов принятия решений. Показано, как описанные механизмы могут быть использованы для построения методик совершенствования техники."@ru ;
-    dcterms:creator odp:Devojno_I ;
+    dcterms:creator odp:Devojno_IG ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304811-file-original.pdf> ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/602> ;
     dcterms:title "Informatization of technical systems"@en, "Информатизация технических систем"@ru ;
@@ -311,7 +311,7 @@
 :Talk_605
     swc:relatedToEvent track:IT ;
     dcterms:abstract "Among the companies engaged in the development and manufacturing of products looking for ways to reduce their cost, it is becoming an increasingly popular tool set under the general name LEAN (Lean Manufacturing, Toyota Production System, Lean production - LP.) The essence of LP is to find and eliminate various kinds of losses, which are formed in the process of receiving an order, manufacturing a product and delivering it to a consumer. For this purpose, such LP tools are used: building a value stream map using the \"5 Why?\" method; the system of maintaining cleanliness and order in the workplace - 5S; and others. At the same time, many Russian and foreign industrial companies actively study and apply TRIZ and its modern modifications: FSA + TRIZ, TRIZ ++ etc. The main purpose of applying TRIZ in the field of technology is to increase the ideality of the products being developed. One of the ways to increase the ideality of a product in TRIZ, as in LP, is associated with identification and elimination of excess costs - i.e. \"Losses\". Therefore, it is interesting to see how TRIZ and LP can complement each other? "@en, "Среди компаний, занимающихся разработкой и изготовлением продукции и ищущих способы снижения её себестоимости, всё более популярным становится набор инструментов под общим названием LEAN (Lean Manufacturing, Toyota Production System, Бережливое производство - БП). Суть БП – найти и устранить разного рода потери, которые образуются в процессе получения заказа, изготовления продукта и доставки его потребителю. Для этого используются такие инструменты БП как: построение карты потока создания ценности; определение причин потерь с помощью метода «5Почему?»; система поддержания чистоты и порядка на рабочих местах – 5S; и другие. В тоже время во многих российских и зарубежных промышленных компаниях активно изучается и применяется ТРИЗ и её современные модификации: «ФСА+ТРИЗ», ТРИЗ++ и т.п. Основная цель применения ТРИЗ в области техники – это повысить идеальность разрабатываемой продукции. Один из путей повышения идеальности продукта в ТРИЗ, как и в БП, связан с выявлением и устранением избыточных затрат – т.е. «потерь». Поэтому интересно посмотреть, в чём ТРИЗ и БП могут дополнять друг друга?"@ru ;
-    dcterms:creator odp:Skuratovich_А ;
+    dcterms:creator odp:Skuratovich_АI ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/605> ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304814-file-original.pdf> ;
     dcterms:title "Combining Lean Production, FSA and TRIZ Methods to reduce costs and improve the quality of processes and production"@en, "Совместное применение методов бережливого производства, ФСА и ТРИЗ для снижения затрат и повышения качества процессов и продукции"@ru ;
@@ -439,7 +439,7 @@
 :Talk_769
     swc:relatedToEvent track:IT ;
     dcterms:abstract "The advantages of a practice-oriented approach to learning how to solve problems compared to a common program-oriented approach are shown. The TRIZ-trainer computer program is presented, a basis of distant training course. The goal of the course is not only to give knowledge of TRIZ, but, first of all, to develop skills in solving problems. "@en, "Показаны преимущества практико-ориентированного подхода к обучению решению задач по сравнению с распространенным программно-ориентированным. Представлена компьютерная программа ТРИЗ-тренер, основа дистанционного тренингового курса. Цель курса не только дать знания по ТРИЗ, но, в первую очередь, выработать навык в решении задач."@ru ;
-    dcterms:creator odp:Shpakovskij_N ;
+    dcterms:creator odp:Shpakovsky_NA ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/769> ;
     dcterms:title "Practice-oriented approach to training in solving inventive problems using the TRIZ-trainer program"@en, "Практико-ориентированный подход к обучению решения изобретательских задач с использованием программы ТРИЗ-тренер"@ru ;
     a od:Talk .
@@ -447,7 +447,7 @@
 :Talk_779
     swc:relatedToEvent track:IT ;
     dcterms:abstract "V- and cascade methodologies are key in project management. To increase the controllability of the process, we suggest using the system operator and the RVS operator. As a result, the author presents the structure of project management with examples and possibilities of using it in another methodology."@en, "V- и каскадная методологии являются ключевыми в управлении проектами, Для повышения управляемости процесса, мы предлагаем использовать системный оператор и оператор РВС. В качестве результата представлена авторская структура проектного управления с примерами и возможностями использования в другой методологии."@ru ;
-    dcterms:creator odp:Domkin_K, odp:Eckardt_O ;
+    dcterms:creator odp:Domkin_KI, odp:Eckardt_O ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304804-file-original.pdf> ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/779> ;
     dcterms:title "Enhancing the ideality of project management in V- and cascade methodology using TRIZ"@en, "Повышение идеальности проектного управления в V- и каскадной методологии с использованием ТРИЗ"@ru ;
@@ -463,14 +463,14 @@
 
 :Talk_800
     swc:relatedToEvent track:Edu ;
-    dcterms:creator odp:Rubin_M, odp:Rubina_NV ;
+    dcterms:creator odp:Rubin_MS, odp:Rubina_NV ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/800> ;
     dcterms:title "TRIZ-tournament. Competition for younger (8-10 years old) school children"@en, "ТРИЗ-турнир. Соревнование для младших (8-10 лет) школьников"@ru ;
     a od:Talk .
 
 :Talk_801
     swc:relatedToEvent track:Edu ;
-    dcterms:creator odp:Rubin_M, odp:Rubina_NV ;
+    dcterms:creator odp:Rubin_MS, odp:Rubina_NV ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/801> ;
     dcterms:title "TRIZ-tournament. Competition for school children (11-14 years)"@en, "ТРИЗ-турнир. Совернование для школьников (11-14 лет)"@ru ;
     a od:Talk .
@@ -522,7 +522,7 @@ track:PT
     a od:Talk .
 
 :Talk_1002
-    dcterms:creator odp:Khorenyan_R, odp:Koblenc_P, odp:Falkov_D, odp:Martsinovskii_G ;
+    dcterms:creator odp:Khorenyan_RG, odp:Koblenc_P, odp:Falkov_D, odp:Martsinovskii_G ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304818-file-original.pdf> ;
     dcterms:title "Solving non-digital problems for digital transformation"@en ;
     dcterms:abstract "Additional material, not presented at the conference"@en ;  

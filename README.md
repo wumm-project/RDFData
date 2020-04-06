@@ -27,9 +27,11 @@ The RDFData collected within the Open Discovery Project.
   * Contains selected books freom the TRIZ Body of Knowledge reference list
 * Conferences/TRIZ-Summit-2019.ttl - information about the TRIZ Summit 2019 in
   Minsk
-* Glossary.ttl  -  A glossary extracted from the German VDI norm
+* Glossary.ttl - A glossary extracted from the German VDI norm
+* MATRIZ-Certificates.ttl - Data of MATRIZ certificates (Level 4 only at the moment)
 * People.ttl - People within the TRIZ Social Network
-  * Updates with the authors listed in the TRIZ Body of Knowledge
+  * HGG, 2020-04-01: Update with the authors listed in the TBK
+  * HGG, 2020-04-06: Update with the MATRIZ Level 4 certificates
 * StandardSolutions.ttl - The 76 Standard Solutions in TRIZ form
 * TBK.ttl - TRIZ Body of Knowledge as RDF Data
 * ThePrinciples.ttl - The 40 principles according to Altshuller 1985 

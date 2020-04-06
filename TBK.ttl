@@ -565,7 +565,7 @@
 <http://opendiscovery.org/rdf/TBK/BIB.110> a od:Reference;
    dcterms:title "TechOptimizer Fundamentals";
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.4>;
-   dcterms:creator odp:Ikovenko_S, odp:Devojno_I, odp:Verbitsky_M, odp:Arel_AT;
+   dcterms:creator odp:Ikovenko_S, odp:Devojno_IG, odp:Verbitsky_MJ, odp:Arel_AT;
    dcterms:year "2002";
    dcterms:publisher "Invention Machine Educational Services" .
 
@@ -581,7 +581,7 @@
 <http://opendiscovery.org/rdf/TBK/BIB.114> a od:Reference;
    dcterms:title "Introduction to Substance-Field Analysis";
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.6>;
-   dcterms:creator odp:Flickstein_IM, odp:Gadjiev_Ch, odp:Altshuller_GS;
+   dcterms:creator odp:Flickstein_IM, odp:Gadjiev_C, odp:Altshuller_GS;
    dcterms:year "1973";
    rdfs:commentQ "Baku: OLMI" .
 
@@ -1070,7 +1070,7 @@
 <http://opendiscovery.org/rdf/TBK/BIB.229> a od:Reference;
    dcterms:title "Index of Physical Effects and Phenomena for Inventors";
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.42>;
-   dcterms:creator odp:Gorin_Yu;
+   dcterms:creator odp:Gorin_Y;
    dcterms:year "1973";
    dcterms:source <http://www.triz-summit.ru/ru/section.php?docId=3672>;
    rdfs:comment "Baku: 1973. - 300 p. " .
@@ -1078,7 +1078,7 @@
 <http://opendiscovery.org/rdf/TBK/BIB.230> a od:Reference;
    dcterms:title "Application of Physical Effects and Phenomena when Solving Inventive Problems";
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.42>;
-   dcterms:creator odp:Gorin_Yu;
+   dcterms:creator odp:Gorin_Y;
    dcterms:publisher "Baku: OLMI" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.231> a od:Reference;
