@@ -511,8 +511,8 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.30>;
    dcterms:creator odp:Petrov_VM, odp:Zhuckov_RF;
    dcterms:year "1980";
-   dcterms:source <http://www.trizminsk.org/e/247009.htm>;
-   dcterms:source <http://www.trizland.ru/trizba.php?id=105>;
+   od:relatedLinks <http://www.trizminsk.org/e/247009.htm>;
+   od:relatedLinks <http://www.trizland.ru/trizba.php?id=105>;
    dcterms:publisher "L: IPK SP" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.104> a od:Reference;
@@ -618,7 +618,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.40>;
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.41>;
    dcterms:creator odp:Altshuller_GS;
-   dcterms:source <http://www.altshuller.ru/triz/zrts1.asp>;
+   od:relatedLinks <http://www.altshuller.ru/triz/zrts1.asp>;
    dcterms:year "1979";
    dcterms:publisher "M: Sovietskoje radio" .
 
@@ -673,7 +673,7 @@
    dcterms:title "Structural Sufield Analysis";
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.6>;
    dcterms:creator odp:Petrov_VP;
-   dcterms:source <http://www.trizland.ru/trizba.php?id=111> .
+   od:relatedLinks <http://www.trizland.ru/trizba.php?id=111> .
 
 <http://opendiscovery.org/rdf/TBK/BIB.125> a od:Reference;
    dcterms:title "Tools of Classical TRIZ";
@@ -756,7 +756,7 @@
    dcterms:title "The Process of Inventive Problem Solving: Main Stages and Mechanisms";
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.11>;
    dcterms:creator odp:Altshuller_GS;
-   dcterms:source <http://www.altshuller.ru/triz1.asp>;
+   od:relatedLinks <http://www.altshuller.ru/triz1.asp>;
    rdfs:comment "Publishing date: 06.04.75" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.143> a od:Reference;
@@ -814,7 +814,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.15>;
    dcterms:creator odp:Petrov_VM;
    dcterms:year "1983";
-   dcterms:source <http://www.trizland.ru/trizba/pdf-books/zrts-08-ideal.pdf>;
+   od:relatedLinks <http://www.trizland.ru/trizba/pdf-books/zrts-08-ideal.pdf>;
    rdfs:comment "District Scientific-and-Practical Conference \"Problems of Development of Scientific and Engineering Creativity of Engineers\". Abstracts of reports. Gorky, 1983, p. 60-62." .
 
 <http://opendiscovery.org/rdf/TBK/BIB.156> a od:Reference;
@@ -842,14 +842,14 @@
    dcterms:title "The Trend of Transition to Supersystems";
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.18>;
    dcterms:creator odp:Petrov_VP;
-   dcterms:source <http://www.trizland.ru/trizba/pdf-books/zrts-17nadsyst.pdf> .
+   od:relatedLinks <http://www.trizland.ru/trizba/pdf-books/zrts-17nadsyst.pdf> .
 
 <http://opendiscovery.org/rdf/TBK/BIB.164> a od:Reference;
    dcterms:title "Lines of Increasing Structurization of Voids";
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.19>;
    dcterms:creator odp:Vertkin_IM, odp:Altshuller_GS;
    dcterms:year "1987";
-   dcterms:source <http://www.altshuller.ru/triz/zrts5.asp> .
+   od:relatedLinks <http://www.altshuller.ru/triz/zrts5.asp> .
 
 <http://opendiscovery.org/rdf/TBK/BIB.165> a od:Reference;
    dcterms:title "Mechanisms of Convolution of Technological Systems";
@@ -893,7 +893,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.24>;
    dcterms:creator odp:Vertkin_IM, odp:Altshuller_GS;
    dcterms:year "1987";
-   dcterms:source <http://www.altshuller.ru/triz/zrts5.asp>;
+   od:relatedLinks <http://www.altshuller.ru/triz/zrts5.asp>;
    rdfs:comment "Baku: 1987" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.184> a od:Reference;
@@ -914,14 +914,14 @@
    dcterms:title "Trend of System Transition from Macro- to Microlevels";
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.27>;
    dcterms:creator odp:Petrov_VP;
-   dcterms:source <http://www.trizland.ru/trizba/pdfbooks/zrts-12-microlevel.pdf> .
+   od:relatedLinks <http://www.trizland.ru/trizba/pdfbooks/zrts-12-microlevel.pdf> .
 
 <http://opendiscovery.org/rdf/TBK/BIB.192> a od:Reference;
    dcterms:title "A System of Laws of Technological System Evolution";
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.28>;
    dcterms:creator odp:Petrov_VM;
    dcterms:year "1982";
-   dcterms:source <http://www.trizland.ru/trizba.php?id=108>;
+   od:relatedLinks <http://www.trizland.ru/trizba.php?id=108>;
    rdfs:comment "Lecture at the seminar for TRIZ instructors and researchers (Petrozavodsk-82). - L: 1982." .
 
 <http://opendiscovery.org/rdf/TBK/BIB.194> a od:Reference;
@@ -929,7 +929,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.28>;
    dcterms:creator odp:Kondrakov_IM, odp:Salamatov_YP ;
    dcterms:year "1984";
-   dcterms:source <http://rus.trizguide.com/publicat/allbooks/ideal_tech_systems.html> ;
+   od:relatedLinks <http://rus.trizguide.com/publicat/allbooks/ideal_tech_systems.html> ;
    rdfs:comment "Krasnoyarsk: 1984".
 
 <http://opendiscovery.org/rdf/TBK/BIB.195> a od:Reference;
@@ -937,7 +937,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.29>;
    dcterms:creator odp:Altshuller_GS;
    dcterms:year "1987";
-   dcterms:source <http://www.altshuller.ru/triz/ariz-about1.asp> .
+   od:relatedLinks <http://www.altshuller.ru/triz/ariz-about1.asp> .
 
 <http://opendiscovery.org/rdf/TBK/BIB.197> a od:Reference;
    dcterms:title "Algorithm for Inventive Problem Solving ARIZ-85C";
@@ -945,7 +945,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.7>;
    dcterms:creator odp:Altshuller_GS;
    dcterms:year "1985";
-   dcterms:source <http://www.altshuller.ru/triz/ariz85v.asp>;
+   od:relatedLinks <http://www.altshuller.ru/triz/ariz85v.asp>;
    rdfs:comment "Methodological materials for trainees of the seminar \"Methods of solving scientific and engineering problems\" - L: Leningrad Metal Works, 1985." .
 
 <http://opendiscovery.org/rdf/TBK/BIB.198> a od:Reference;
@@ -973,7 +973,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.33>;
    dcterms:creator odp:Altshuller_GS;
    dcterms:year "1988";
-   dcterms:source <http://www.altshuller.ru/engineering16.asp>;
+   od:relatedLinks <http://www.altshuller.ru/engineering16.asp>;
    rdfs:comment "Angarsk: 1988" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.206> a od:Reference;
@@ -988,7 +988,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.33>;
    dcterms:creator odp:Altshuller_GS;
    dcterms:year "1988";
-   dcterms:source <http://www.altshuller.ru/triz/standards.asp>;
+   od:relatedLinks <http://www.altshuller.ru/triz/standards.asp>;
    rdfs:comment "A Thread in the Labyrinth. Compiled by Selyutsky, A.B.  Petrozavodsk: Karelia, 1988." .
 
 <http://opendiscovery.org/rdf/TBK/BIB.209> a od:Reference;
@@ -996,7 +996,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.33>;
    dcterms:creator odp:Miller_J, odp:Domb_E, odp:Terninko_J;
    dcterms:year "2000";
-   dcterms:source <http://www.trizjournal.com/archives/2000/02/g/index.htm>,
+   od:relatedLinks <http://www.trizjournal.com/archives/2000/02/g/index.htm>,
    <http://www.triz-journal.com/archives/2000/03/d/index.htm>,
    <http://www.triz-journal.com/archives/2000/05/b/index.htm>,
    <http://www.trizjournal.com/archives/2000/06/e/index.htm>,
@@ -1021,7 +1021,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.35>;
    dcterms:creator odp:Altshuller_GS;
    dcterms:year "1971";
-   dcterms:source <http://www.altshuller.ru/triz/technique1a.asp>;
+   od:relatedLinks <http://www.altshuller.ru/triz/technique1a.asp>;
    rdfs:comment "Baku: 1971" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.217> a od:Reference;
@@ -1043,7 +1043,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.36>;
    dcterms:creator odp:Petrov_VM;
    dcterms:year "1974";
-   dcterms:source <http://www.trizminsk.org/e/212002.htm>;
+   od:relatedLinks <http://www.trizminsk.org/e/212002.htm>;
    rdfs:comment "Leningrad: 1974" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.224> a od:Reference;
@@ -1072,7 +1072,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.42>;
    dcterms:creator odp:Gorin_Y;
    dcterms:year "1973";
-   dcterms:source <http://www.triz-summit.ru/ru/section.php?docId=3672>;
+   od:relatedLinks <http://www.triz-summit.ru/ru/section.php?docId=3672>;
    rdfs:comment "Baku: 1973. - 300 p. " .
 
 <http://opendiscovery.org/rdf/TBK/BIB.230> a od:Reference;
@@ -1086,7 +1086,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.42>;
    dcterms:creator odp:Kustov_V, odp:Zubarev_V, odp:Yefimov_V, odp:Denisov_S;
    dcterms:year "1977";
-   dcterms:source <http://lib.web-malina.com/getbook.php?bid=1693>;
+   od:relatedLinks <http://lib.web-malina.com/getbook.php?bid=1693>;
    rdfs:comment "Obninsk: 1977" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.232> a od:Reference;
@@ -1106,7 +1106,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.43>;
    dcterms:creator odp:Salamatov_YP;
    dcterms:year "1988";
-   dcterms:source <http://rus.triz-guide.com/publicat/allbooks/feates_on_molecular_level.html>;
+   od:relatedLinks <http://rus.triz-guide.com/publicat/allbooks/feates_on_molecular_level.html>;
    rdfs:comment "A Thread in the Labyrinth. Compiled by Selyutsky, A.B. - Petrozavodsk: Karelia, 1988." .
 
 <http://opendiscovery.org/rdf/TBK/BIB.236> a od:Reference;
@@ -1114,7 +1114,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.44>;
    dcterms:creator odp:Yefremov_VI, odp:Vikentiev_IL;
    dcterms:year "1988";
-   dcterms:source <http://www.trizchance.ru/geometrical_effect.html>;
+   od:relatedLinks <http://www.trizchance.ru/geometrical_effect.html>;
    rdfs:comment "A Thread in the Labyrinth, Compiled by Selyutsky, A. B. - Petrozavodsk: Karelia, 1988." .
 
 <http://opendiscovery.org/rdf/TBK/BIB.237> a od:Reference;

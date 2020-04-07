@@ -110,6 +110,7 @@ od:TRIZ-Book
     dc:publisher "Издательские решения"@ru ;
     dcterms:creator odp:Petrov_VM ;
     dcterms:issued "2018"^^dcterms:W3CDTF ;
+    od:relatedLinks <https://ridero.ru/books/istoriya_razvitiya_priemov/> ;
     dcterms:title "История развития приемов: ТРИЗ"@ru ;
     bibo:isbn "978-5-4493-0036-2" ;
     a od:TRIZ-Book .
@@ -129,6 +130,7 @@ od:TRIZ-Book
     dcterms:creator odp:Petrov_VM ;
     dcterms:issued "2018"^^dcterms:W3CDTF ;
     dcterms:title "История развития стандартов: ТРИЗ"@ru ;
+    od:relatedLinks <https://ridero.ru/books/istoriya_razvitiya_standartov/> ;
     bibo:isbn "978-5-4493-0863-4" ;
     a od:TRIZ-Book .
 
@@ -200,7 +202,12 @@ od:TRIZ-Book
     dc:publisher "Издательские решения"@ru ;
     dcterms:creator odp:Petrov_VM ;
     dcterms:issued "2018"^^dcterms:W3CDTF ;
+    dcterms:abstract """Это уникальное издание, которое впервые публикуется в виде книги.
+В этом альбоме собраны уникальные фотографии различных событий в истории ТРИЗ с момента рождения автора ТРИЗ Генриха Сауловича Альтшуллера до его ухода из жизни.
+Имеются фотографии родственников, друзей, коллег и соратников Альтшуллера.
+Альбом будет интересен, как людям, принимавшим участие в этих событиях, так и тем, кто впервые с этим знакомится. """@ru;
     dcterms:title "Фотоальбом ТРИЗ: Часть 1. 1926-1998"@ru ;
+    od:relatedLinks <https://ridero.ru/books/fotoalbom_triz/> ;
     bibo:isbn "978-5-4493-5369-6", "978-5-4493-5370-2" ;
     a od:TRIZ-Book .
 
@@ -319,7 +326,7 @@ od:TRIZ-Book
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Tel Aviv" ;
     dcterms:creator odp:Petrov_VM ;
-    dcterms:source <http://www.trizland.ru/trizba.php?id=105> ;
+    od:relatedLinks <http://www.trizland.ru/trizba.php?id=105> ;
     dcterms:title "Алгоритм решения изобретательских задач. Учебное пособие."@ru ;
     dcterms:issued "1999" ;
     a od:TRIZ-Book .
@@ -399,7 +406,7 @@ od:TRIZ-Book
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "M: Sovietskoje radio" ;
     dcterms:creator odp:Altshuller_GS ;
-    dcterms:source <http://www.altshuller.ru/triz/zrts1.asp> ;
+    od:relatedLinks <http://www.altshuller.ru/triz/zrts1.asp> ;
     dcterms:title "Creativity as an Exact Science. Theory of Inventive Problem Solving"@en, "Творчество как точная наука"@ru ;
     dcterms:issued "1979" ;
     a od:TRIZ-Book ;
@@ -511,3 +518,33 @@ od:TRIZ-Book
     a od:TRIZ-Book ;
     rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.243> .
 
+
+<http://opendiscovery.org/rdf/Book/978-5-4496-8415-8>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2019"^^dcterms:W3CDTF ;
+    od:relatedLinks <https://ridero.ru/books/ariz-2010/> ;
+    dcterms:title "АРИЗ-2010: ТРИЗ"@ru ;
+    bibo:isbn "978-5-4496-8415-8" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-5-4496-8188-1>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2019"^^dcterms:W3CDTF ;
+    od:relatedLinks <https://ridero.ru/books/obuchenie_triz/> ;
+    dcterms:title "Обучение ТРИЗ: Теория решения изобретательских задач"@ru ;
+    bibo:isbn "978-5-4496-8188-1" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/978-5-4496-8183-6>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:creator odp:Petrov_VM, odp:Litvin_SS, odp:Rubin_MS ;
+    dcterms:issued "2019"^^dcterms:W3CDTF ;
+    od:relatedLinks <https://ridero.ru/books/osnovy_znanii_po_triz/> ;
+    dcterms:title "Основы знаний по ТРИЗ: Теория решения изобретательских задач"@ru ;
+    bibo:isbn "978-5-4496-8183-6" ;
+    a od:TRIZ-Book .
