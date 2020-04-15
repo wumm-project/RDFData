@@ -862,6 +862,10 @@ odp:Ogievich_D
     foaf:affil "Banuba, exp(capital), CEO"@en ;
     foaf:name "Dmitrij Ogievich" .
 
+odp:Orloff_MA
+    a foaf:Person ;
+    foaf:name "Michael A. Orloff" .
+
 odp:Pavlov_VV
     a foaf:Person ;
     foaf:affil "Russia" ;
