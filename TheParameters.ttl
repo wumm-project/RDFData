@@ -6,8 +6,7 @@
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
-@prefix odp: <http://opendiscovery.org/rdf/Principle/> .
-@prefix odm: <http://opendiscovery.org/rdf/Parameter/> .
+@prefix odr: <http://opendiscovery.org/rdf/Parameter/> .
 
 <http://opendiscovery.org/rdf/TheParameters/>
     cc:attributionName "The Open Discovery Project" ;
@@ -15,249 +14,248 @@
     cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
     dcterms:source <http://www.i-sim.org/Altshuller_Matrix.xls>, <https://www.triz-consulting.de/triz-matrix> ;
     a owl:Ontology ;
-    rdfs:comment "2019-06-24 graebe: Extracted and transformed from the source", "2019-07-08 graebe: english and russian language versions added", "2020-04-15 graebe: Divided in Matrix and Parameters, Descriptions from Lippert-19 added" ;
+    rdfs:comment
+    "2019-06-24 graebe: Extracted and transformed from the source",
+    "2019-07-08 graebe: english and russian language versions added",
+    "2020-04-15 graebe: Divided in Matrix and Parameters, Descriptions from Lippert-19 added" ,
+    "2020-04-16 graebe: namespace abbreviation and parameter names fixed";
     rdfs:label "TRIZ Parameters from the Matrix" .
 
 od:Parameter
     a owl:Class ;
     rdfs:label "A TRIZ Parameter within the Matrix" .
 
-odm:P01
+odr:WeightOfTheMovingObject 
     od:description "Gewicht des beweglichen Objekts"@de, "The mass of the object, in a gravitational field. The force that the body exerts on its support or suspension."@en ;
     od:hasParameterNumber "01" ;
     a od:Parameter ;
     rdfs:label "Gewicht des beweglichen Objekts"@de, "Weight of the moving object"@en, "Масса движущегося объекта"@ru .
 
-odm:P02
+odr:WeightOfTheStationaryObject 
     od:description "Gewicht des unbeweglichen Objekts"@de, "The mass of the object, in a gravitational field. The force that the body exerts on the surface on which it rests."@en ;
     od:hasParameterNumber "02" ;
     a od:Parameter ;
     rdfs:label "Gewicht des unbeweglichen Objekts"@de, "Weight of the stationary object"@en, "Масса недвижимого объекта"@ru .
 
-odm:P03
+odr:LengthOfTheMovingObject 
     od:description "Any one linear dimension of the moving object, not necessarily the longest."@en, "Länge des beweglichen Objekts"@de ;
     od:hasParameterNumber "03" ;
     a od:Parameter ;
     rdfs:label "Length of the moving object"@en, "Länge des beweglichen Objekts"@de, "Длина движущегося объекта"@ru .
 
-odm:P04
+odr:LengthOfTheStationaryObject 
     od:description "Any one linear dimension of the fixed or stationary object, not necessarily the longest."@en, "Länge des unbeweglichen Objekts"@de ;
     od:hasParameterNumber "04" ;
     a od:Parameter ;
     rdfs:label "Length of the stationary object"@en, "Länge des unbeweglichen Objekts"@de, "Длина недвижимого объекта"@ru .
 
-odm:P05
+odr:SurfaceOfTheMovingObject 
     od:description "Oberfläche des beweglichen Objekts"@de, "The outermost or uppermost layer of the moving object."@en ;
     od:hasParameterNumber "05" ;
     a od:Parameter ;
     rdfs:label "Oberfläche des beweglichen Objekts"@de, "Surface of the moving object"@en, "Площадь движущегося объекта"@ru .
 
-odm:P06
+odr:SurfaceOfTheStationaryObject 
     od:description "Oberfläche des unbeweglichen Objekts"@de, "The outermost or uppermost layer of the stationary object."@en ;
     od:hasParameterNumber "06" ;
     a od:Parameter ;
     rdfs:label "Oberfläche des unbeweglichen Objekts"@de, "Surface of the stationary object"@en, "Площадь недвижимого объекта"@ru .
 
-odm:P07
+odr:VolumeOfTheMovingObject 
     od:description "The cubic measure of space occupied by the moving object."@en, "Volumen des beweglichen Objekts"@de ;
     od:hasParameterNumber "07" ;
     a od:Parameter ;
     rdfs:label "Volume of the moving object"@en, "Volumen des beweglichen Objekts"@de, "Объем движущегося объекта"@ru .
 
-odm:P08
+odr:VolumeOfTheStationaryObject 
     od:description "The cubic measure of space occupied by the stationary object."@en, "Volumen des unbeweglichen Objekts"@de ;
     od:hasParameterNumber "08" ;
     a od:Parameter ;
     rdfs:label "Volume of the stationary object"@en, "Volumen des unbeweglichen Objekts"@de, "Объем недвижимого объекта"@ru .
 
-odm:P09
+odr:Speed 
     od:description "Geschwindigkeit"@de, "The rate of a process or action, or the rate of movement of an object."@en ;
     od:hasParameterNumber "09" ;
     a od:Parameter ;
     rdfs:label "Geschwindigkeit"@de, "Speed"@en, "Скорость"@ru .
 
-odm:P10
+odr:Force 
     od:description "Force measures the interaction between systems and is measured as the strength or energy of physical action or movement. It is any interaction that changes an object’s condition or environment."@en, "Kraft"@de ;
     od:hasParameterNumber "10" ;
     a od:Parameter ;
     rdfs:label "Force"@en, "Kraft"@de, "Сила"@ru .
 
-odm:P11
+odr:TensionOrPressure 
     od:description "Spannung oder Druck"@de, "Technically, force per unit area but can also be a balance between, and interplay of, opposing objects or systems."@en ;
     od:hasParameterNumber "11" ;
     a od:Parameter ;
     rdfs:label "Spannung oder Druck"@de, "Tension or Pressure"@en, "Напряжение или давление"@ru .
 
-odm:P12
+odr:Shape 
     od:description "Form"@de, "The external contours, form, or appearance of a system."@en ;
     od:hasParameterNumber "12" ;
     a od:Parameter ;
     rdfs:label "Form"@de, "Shape"@en, "Форма"@ru .
 
-odm:P13
+odr:StabilityOfTheObject’sStructure 
     od:description "Stabilität der Struktur des Objekts"@de, "The standalone nature and immobility of the system or object."@en ;
     od:hasParameterNumber "13" ;
     a od:Parameter ;
     rdfs:label "Stability of the object’s structure"@en, "Stabilität der Struktur des Objekts"@de, "Устойчивость композиции объекта"@ru .
 
-odm:P14
+odr:Strength 
     od:description "Festigkeit"@de, "The extent to which the object can resist changing in response to force. Resistance to breaking."@en ;
     od:hasParameterNumber "14" ;
     a od:Parameter ;
     rdfs:label "Festigkeit"@de, "Strength"@en, "Сила"@ru .
 
-odm:P15
+odr:FunctionalTimeOfTheMovingObject 
     od:description "Haltbarkeit des beweglichen Objekts"@de, "The time that the moving object or system can correctly perform its action. Also referred to as service life or durability."@en ;
     od:hasParameterNumber "15" ;
     a od:Parameter ;
     rdfs:label "Functional time of the moving object"@en, "Haltbarkeit des beweglichen Objekts"@de, "Долговечность движущегося объекта"@ru .
 
-odm:P16
+odr:FunctionalTimeOfTheStationaryObject 
     od:description "Haltbarkeit des unbeweglichen Objekts"@de, "The time that the stationary object or system can correctly perform its action. Also referred to as service life or durability."@en ;
     od:hasParameterNumber "16" ;
     a od:Parameter ;
     rdfs:label "Functional time of the stationary object"@en, "Haltbarkeit des unbeweglichen Objekts"@de, "Долговечность недвижимого объекта"@ru .
 
-odm:P17
+odr:Temperature 
     od:description "Temperatur"@de, "The thermal condition of the object or system. Includes other thermal parameters, such as heat capacity, that affect the rate of change of temperature."@en ;
     od:hasParameterNumber "17" ;
     a od:Parameter ;
     rdfs:label "Temperatur"@de, "Temperature"@en, "Температура"@ru .
 
-odm:P18
+odr:BrightnessOfTheLighting 
     od:description "Beleuchtungsverhältnisse"@de, "Illumination characteristics of the system such as brightness, intensity, and color."@en ;
     od:hasParameterNumber "18" ;
     a od:Parameter ;
     rdfs:label "Beleuchtungsverhältnisse"@de, "Brightness of the lighting"@en, "Видимость"@ru .
 
-odm:P19
+odr:EnergyUseOfTheMovingObject 
     od:description "Consumption of energy resource(s) in order to perform the action or function of the moving object."@en, "Energieverbrauch des beweglichen Objekts"@de ;
     od:hasParameterNumber "19" ;
     a od:Parameter ;
     rdfs:label "Energieverbrauch des beweglichen Objekts"@de, "Energy use of the moving object"@en, "Энергопотребление движущегося объекта"@ru .
 
-odm:P20
+odr:EnergyUseOfTheFixedObject 
     od:description "Consumption of energy resource(s) in order to perform the action or function of the stationary object."@en, "Energieverbrauch des unbeweglichen Objekts"@de ;
     od:hasParameterNumber "20" ;
     a od:Parameter ;
     rdfs:label "Energieverbrauch des unbeweglichen Objekts"@de, "Energy use of the fixed object"@en, "Энергопотребление недвижимого объекта"@ru .
 
-odm:P21
+odr:Power 
     od:description "Energy that is produced by mechanical, electrical, or other means. This characteristic refers to production not consumption."@en, "Leistung, Kapazität"@de ;
     od:hasParameterNumber "21" ;
     a od:Parameter ;
     rdfs:label "Leistung, Kapazität"@de, "Power"@en, "Производительность, производительность"@ru .
 
-odm:P22
+odr:LossOfEnergy 
     od:description "Energieverluste"@de, "The waste of energy resource(s) through the function or movement of the object or system."@en ;
     od:hasParameterNumber "22" ;
     a od:Parameter ;
     rdfs:label "Energieverluste"@de, "Loss of Energy"@en, "Потери энергии"@ru .
 
-odm:P23
+odr:LossOfMaterial 
     od:description "Materialverluste"@de, "Waste of a system’s materials, substances, parts, or subsystems during normal functioning."@en ;
     od:hasParameterNumber "23" ;
     a od:Parameter ;
     rdfs:label "Loss of material"@en, "Materialverluste"@de, "Материальные потери"@ru .
 
-odm:P24
+odr:LossOfInformation 
     od:description "Informationsverluste"@de, "Partial or complete, permanent or temporary, loss of data or access to data in or by a system. Frequently includes sensory data such as aroma, texture, etc."@en ;
     od:hasParameterNumber "24" ;
     a od:Parameter ;
     rdfs:label "Informationsverluste"@de, "Loss of information"@en, "Потеря информации"@ru .
 
-odm:P25
+odr:LossOfTime 
     od:description "Time taken to perform the activity or function of the system or object. Improving the loss of time means reducing the time taken for the activity."@en, "Zeitverlust"@de ;
     od:hasParameterNumber "25" ;
     a od:Parameter ;
     rdfs:label "Loss of time"@en, "Zeitverlust"@de, "Потери времени"@ru .
 
-odm:P26
+odr:QuantityOfMaterial 
     od:description "Materialmenge"@de, "The number or amount of a system’s materials, substances, parts, or subsystems which are altered (permanently or temporarily) or consumed (fully or partially) during normal functioning."@en ;
     od:hasParameterNumber "26" ;
     a od:Parameter ;
     rdfs:label "Materialmenge"@de, "Quantity of material"@en, "Количество материала"@ru .
 
-odm:P27
+odr:Reliability 
     od:description "A system’s ability to perform its intended functions in consistent, predictable ways."@en, "Zuverlässigkeit"@de ;
     od:hasParameterNumber "27" ;
     a od:Parameter ;
     rdfs:label "Reliability"@en, "Zuverlässigkeit"@de, "Надежность"@ru .
 
-odm:P28
+odr:PrecisionOfMeasurements 
     od:description "Messgenauigkeit"@de, "The degree to which the result of a measurement of a property of a system conforms to the correct value or a standard."@en ;
     od:hasParameterNumber "28" ;
     a od:Parameter ;
     rdfs:label "Messgenauigkeit"@de, "Precision of measurements"@en, "Точность измерений"@ru .
 
-odm:P29
+odr:PrecisionOfManufacture 
     od:description "Fertigungsgenauigkeit"@de, "The extent to which the actual characteristics of the system or object match the specified or required characteristics."@en ;
     od:hasParameterNumber "29" ;
     a od:Parameter ;
     rdfs:label "Fertigungsgenauigkeit"@de, "Precision of manufacture"@en, "Точность производства"@ru .
 
-odm:P30
+odr:ExternalDamagingFactors 
     od:description "Susceptibility of a system to externally generated (harmful) effects. A harmful effect is one that reduces the efficiency or quality of the functioning of the object or system."@en, "Von außen auf das Objekt wirkende schädliche Faktoren"@de ;
     od:hasParameterNumber "30" ;
     a od:Parameter ;
     rdfs:label "External damaging factors"@en, "Externe schädliche Faktoren"@de, "Вредные факторы, действующие на объект извне"@ru .
 
-odm:P31
+odr:InternalDamagingFactors 
     od:description "Harmful effects are generated by the object or system, as part of its operation."@en, "Vom Objekt selbst erzeugte schädliche Faktoren"@de ;
     od:hasParameterNumber "31" ;
     a od:Parameter ;
     rdfs:label "Internal damaging factors"@en, "Interne schädliche Faktoren"@de, "Вредные факторы, создаваемые самим объектом"@ru .
 
-odm:P32
+odr:EaseOfManufacture 
     od:description "Fertigungsfreundlichkeit"@de, "The degree of facility or effortlessness in manufacturing or fabricating the object/system."@en ;
     od:hasParameterNumber "32" ;
     a od:Parameter ;
     rdfs:label "Ease of manufacture"@en, "Fertigungsfreundlichkeit"@de, "Удобство изготовления"@ru .
 
-odm:P33
+odr:EaseOfUse 
     od:description "Bedienkomfort"@de, "Simple, easy to understand and perform or utilize; accessible."@en ;
     od:hasParameterNumber "33" ;
     a od:Parameter ;
     rdfs:label "Bedienkomfort"@de, "Ease of Use"@en, "Простота использования"@ru .
 
-odm:P34
+odr:EaseOfRepair 
     od:description "Instandsetzungsfreundlichkeit"@de, "The degree of facility or effortlessness in the mending or fixing of the system. Encompasses convenience as well as time to repair faults, failures, or defects."@en ;
     od:hasParameterNumber "34" ;
     a od:Parameter ;
     rdfs:label "Ease of repair"@en, "Instandsetzungsfreundlichkeit"@de, "Удобство обслуживания"@ru .
 
-odm:P35
+odr:Adaptability 
     od:description "Adaptionsfähigkeit, Universalität"@de, "The extent to which a system/object is appropriate for all situations or positively responds to external changes."@en ;
     od:hasParameterNumber "35" ;
     a od:Parameter ;
     rdfs:label "Adaptability, Universality"@en, "Adaptionsfähigkeit, Universalität"@de, "Адаптивность, универсальность"@ru .
 
-odm:P36
+odr:ComplexityOfConstruction 
     od:description "Kompliziertheit der Struktur"@de, "The number and diversity of elements and element interrelationships comprising a system. Human interaction increases complexity."@en ;
     od:hasParameterNumber "36" ;
     a od:Parameter ;
     rdfs:label "Complexity of construction"@en, "Kompliziertheit der Struktur"@de, "Сложность структуры"@ru .
 
-odm:P37
+odr:ComplexityOfInspectionAndMeasurements 
     od:description "Demonstrated by measuring or monitoring systems that are complex, costly, require much time and labor to set up and use, or that have complex relationships between components or components that interfere with each other. Can also be indicated by the increasing cost of measuring to a satisfactory error."@en, "Kompliziertheit der Kontrolle und Messung"@de ;
     od:hasParameterNumber "37" ;
     a od:Parameter ;
     rdfs:label "Complexity of inspection and measurements"@en, "Kompliziertheit der Kontrolle und Messung"@de, "Сложность контроля и измерений"@ru .
 
-odm:P38
+odr:LevelOfAutomation 
     od:description "Automatisierungsgrad"@de, "The extent to which a system or object performs its functions without human assistance. At the highest level of operation, the system or object can determine what is needed, adapt to that need, and monitor its function."@en ;
     od:hasParameterNumber "38" ;
     a od:Parameter ;
     rdfs:label "Automatisierungsgrad"@de, "Level of automation"@en, "Уровень автоматизации"@ru .
 
-odm:P39
+odr:Productivity 
     od:description "Produktivität"@de, "The output of a system per unit time or per unit of input. The effectiveness of productive effort."@en ;
     od:hasParameterNumber "39" ;
     a od:Parameter ;
     rdfs:label "Productivity"@en, "Produktivität"@de, "Производительность"@ru .
-
-odm:P99
-    od:description "Special UID to indicate that there is no principle assigned to that matrix entry"@en ;
-    a od:Principle ;
-    rdfs:label "No Prinziple"@en .
 

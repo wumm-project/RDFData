@@ -4,7 +4,27 @@ The RDFData collected within the Open Discovery Project.
 
 ## Naming Conventions
 
+### Namespaces
+
 * od: <http://opendiscovery.org/rdf/Model#> is the RDF model.
+* odp: <http://opendiscovery.org/rdf/Person/> - namespace for people
+* odq: <http://opendiscovery.org/rdf/Principle/> - namespace for the principles
+* odr: <http://opendiscovery.org/rdf/Parameter/> - namespace for the parameters within the matrix
+
+### External Ontologies Used
+
+* bibo: <http://purl.org/ontology/bibo/> - Bibliography (see Books.ttl)
+* cc: <http://creativecommons.org/ns#> - Creative Commons
+* dc: <http://purl.org/dc/elements/1.1/> - Dublin Core basic (see Books.ttl)
+* dcterms: <http://purl.org/dc/terms/> - Dublin Core new (see Books.ttl)
+* foaf: <http://xmlns.com/foaf/0.1/> - Friend of a Friend (see People.ttl)
+* owl: <http://www.w3.org/2002/07/owl#> - Ontology Web Language
+* rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> - RDF Basics
+* rdfs: <http://www.w3.org/2000/01/rdf-schema#> - RDF Basicss
+* skos: <http://www.w3.org/2004/02/skos/core#> - Knowledge description 
+* xsd: <http://www.w3.org/2001/XMLSchema#> - XSchema Data Types
+
+### File Name Conventions
 
 * The Turtle file xxx.ttl contains data of the
   <http://opendiscovery.org/rdf/xxx/> RDF graph. Usually xxx is in plural
