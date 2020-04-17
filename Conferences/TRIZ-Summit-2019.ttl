@@ -93,7 +93,7 @@
 :Talk_528
     swc:relatedToEvent track:PT ;
     dcterms:abstract "The impetus for the launch of the project The Invention Machine was the understanding that the computer is a universal transformer of information, and therefore is capable of solving inventive problems. The report examines ways of transition from the initial idea to use the computer as a \"smart assistant to the inventor\" to the concept of \"computer as an equally creative partner\". "@en, "Толчком к запуску проекта Изобретающая машина явилось понимание того, что компьютер является универсальным преобразователем информации, а значит, способен решать изобретательские задачи. В докладе рассматриваются пути перехода от первоначальной идеи “компьютер как умный помощник изобретателя” к концепции “компьютер как равный творческий партнер человека”."@ru ;
-    dcterms:creator odp:Curikov_V ;
+    dcterms:creator odp:Curikov_VM ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/528> ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304802-file-original.pdf> ;
     od:urlVideo <https://youtu.be/0by8g0G0HRI> ; 
@@ -234,7 +234,7 @@
 :Talk_586
     swc:relatedToEvent track:Edu ;
     dcterms:abstract "Authors V. Petrov, P. Amnuel. Master class and report. <br/> The book deals with situations in which Alice from Carroll's fairy tales falls from the point of view of TRIZ explanations that are given by the boy from the future Alik, who accompanies Alice in all her adventures. <br/> The report explains how to use this book more efficiently. The book consists of three parts: <br/> 1. The main book \"book for children \". <br/> 2. A notebook for recording children's decisions. <br/> 3. A book for parents and teachers."@en, "Авторы В. Петров, П. Амнуэль. Мастер класс и доклад.<br/>В книге разбираются ситуации, в которые попадает Алиса из сказок Кэрролла с точки зрения ТРИЗ. Пояснения дает мальчик из будущего Алик, который сопровождает Алису во всех ее приключения.<br/>В докладе поясняется, как эффективнее использовать эту книгу. Книга состоит из трех частей:<br/>1. Основная книга \"книга для детей\".<br/>2. Тетрадь для записей решений детей.<br/>3. Книга для родителей и педагогов."@ru ;
-    dcterms:creator odp:Amnuel_P, odp:Petrov_VM ;
+    dcterms:creator odp:Amnuel_PR, odp:Petrov_VM ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/586> ;
     dcterms:title "Teaching children of TRIZ based on the book \"Alice and Alik's Adventures\""@en, "Обучение детей ТРИЗ по книге \"Приключение Алисы и Алика\""@ru ;
     a od:Talk .
@@ -423,7 +423,7 @@
 
 :Talk_731
     swc:relatedToEvent track:IT ;
-    dcterms:creator odp:Amnuel_P ;
+    dcterms:creator odp:Amnuel_PR ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/731> ;
     dcterms:title "Course of the development of creative imagination"@en, "Курс развития творческого воображения"@ru ;
     a od:Talk .

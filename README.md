@@ -52,6 +52,7 @@ The RDFData collected within the Open Discovery Project.
 * People.ttl - People within the TRIZ Social Network
   * HGG, 2020-04-01: Update with the authors listed in the TBK
   * HGG, 2020-04-06: Update with the MATRIZ Level 4 certificates
+  * HGG, 2020-04-17: Update with the authors listed in the TBK-2007
 * StandardSolutions.ttl - The 76 Standard Solutions in TRIZ form
 * TBK.ttl - TRIZ Body of Knowledge as RDF Data
 * TheParameters.ttl - The 39 parameters as in the matrix of Altshuller 1985 

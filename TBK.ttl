@@ -2,6 +2,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix cc: <http://creativecommons.org/ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
@@ -501,7 +502,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.37>;
    dcterms:creator odp:Altshuller_GS;
    dcterms:year "1973";
-   dcterms:publisher "M: Moskovsky Rabotchy" ; 
+   dc:publisher "M: Moskovsky Rabotchy" ; 
    rdfs:comment "2nd edition" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.103> a od:Reference;
@@ -513,7 +514,7 @@
    dcterms:year "1980";
    od:relatedLinks <http://www.trizminsk.org/e/247009.htm>;
    od:relatedLinks <http://www.trizland.ru/trizba.php?id=105>;
-   dcterms:publisher "L: IPK SP" .
+   dc:publisher "L: IPK SP" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.104> a od:Reference;
    dcterms:title "TRIZ as Applied Dialectics";
@@ -551,7 +552,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.33>;
    dcterms:creator odp:Rivin_E, odp:Fey_VR;
    dcterms:year "2005";
-   dcterms:publisher "Cambridge University Press" .
+   dc:publisher "Cambridge University Press" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.109> a od:Reference;
    dcterms:title "Basics of the Methodology for Conducting Value Engineering Analysis: Methodological Recommendations";
@@ -560,14 +561,14 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.22>;
    dcterms:creator odp:Litvin_SS, odp:Kuzmin_AM, odp:Karpunin_MG, odp:Kalish_VS, odp:Gerasimov_VM;
    dcterms:year "1991";
-   dcterms:publisher "M: Inform-VEA" .
+   dc:publisher "M: Inform-VEA" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.110> a od:Reference;
    dcterms:title "TechOptimizer Fundamentals";
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.4>;
    dcterms:creator odp:Ikovenko_S, odp:Devojno_IG, odp:Verbitsky_MJ, odp:Arel_AT;
    dcterms:year "2002";
-   dcterms:publisher "Invention Machine Educational Services" .
+   dc:publisher "Invention Machine Educational Services" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.113> a od:Reference;
    dcterms:title "The Innovation Algorithm";
@@ -576,7 +577,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.37>;
    dcterms:creator odp:Altshuller_GS;
    dcterms:year "1999";
-   dcterms:publisher "Worcester: Technical Innovation Center, Inc." .
+   dc:publisher "Worcester: Technical Innovation Center, Inc." .
 
 <http://opendiscovery.org/rdf/TBK/BIB.114> a od:Reference;
    dcterms:title "Introduction to Substance-Field Analysis";
@@ -590,14 +591,14 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.6>;
    dcterms:creator odp:Altshuller_GS;
    dcterms:year "1973";
-   dcterms:publisher "Baku: OLMI" .
+   dc:publisher "Baku: OLMI" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.116> a od:Reference;
    dcterms:title "Problem Solving Using Sufield Analysis";
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.6>;
    dcterms:creator odp:Flickstein_IM, odp:Altshuller_GS;
    dcterms:year "1973";
-   dcterms:publisher "Baku: OLMI" .
+   dc:publisher "Baku: OLMI" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.117> a od:Reference;
    dcterms:title "Principles of Sufield Analysis";
@@ -620,7 +621,7 @@
    dcterms:creator odp:Altshuller_GS;
    od:relatedLinks <http://www.altshuller.ru/triz/zrts1.asp>;
    dcterms:year "1979";
-   dcterms:publisher "M: Sovietskoje radio" .
+   dc:publisher "M: Sovietskoje radio" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.119> a od:Reference;
    dcterms:title "Creativity as an Exact Science";
@@ -630,7 +631,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.34>;
    dcterms:creator odp:Altshuller_GS;
    dcterms:year "1988";
-   dcterms:publisher "NY: Gordon and Breach" .
+   dc:publisher "NY: Gordon and Breach" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.120> a od:Reference;
    dcterms:title "Wings for Icarus: How to solve inventive problems";
@@ -652,7 +653,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.18>;
    dcterms:creator odp:Altshuller_GS;
    dcterms:year "1986";
-   dcterms:publisher "Novosibirsk: Nauka" .
+   dc:publisher "Novosibirsk: Nauka" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.122> a od:Reference;
    dcterms:title "The Concept of Sufield";
@@ -686,7 +687,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.33>;
    dcterms:creator odp:Filatov_VI, odp:Zusman_AV, odp:Zlotin_BL, odp:Altshuller_GS;
    dcterms:year "1999";
-   dcterms:publisher "Southfield: Ideation International Inc." .
+   dc:publisher "Southfield: Ideation International Inc." .
 
 <http://opendiscovery.org/rdf/TBK/BIB.128> a od:Reference;
    dcterms:title "ARIZ Means Victory: Algorithm for Inventive Problem Solving ARIZ-85C";
@@ -728,7 +729,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.8>;
    dcterms:creator odp:Khotimliansky_Y;
    dcterms:year "1974";
-   dcterms:publisher "Baku: The Public Laboratory for the Innovation Methodology" .
+   dc:publisher "Baku: The Public Laboratory for the Innovation Methodology" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.134> a od:Reference;
    dcterms:title "The Concept of Building a Model of the Ideal Substance";
@@ -775,7 +776,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.37>;
    dcterms:creator odp:Mann_D;
    dcterms:year "2002";
-   dcterms:publisher "Ieper: CREAX Press" .
+   dc:publisher "Ieper: CREAX Press" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.148> a od:Reference;
    dcterms:title "Simplified TRIZ";
@@ -783,7 +784,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.37>;
    dcterms:creator odp:Domb_E, odp:Rantanen_K;
    dcterms:year "2002";
-   dcterms:publisher "Boca Raton: CRC Press" .
+   dc:publisher "Boca Raton: CRC Press" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.149> a od:Reference;
    dcterms:title "Laws of Engineering Systems Evolution";
@@ -981,7 +982,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.33>;
    dcterms:creator odp:Filatov_VI, odp:Zusman_AV, odp:Zlotin_BL, odp:Altshuller_GS;
    dcterms:year "1999";
-   dcterms:publisher "Ideation International Inc." .
+   dc:publisher "Ideation International Inc." .
 
 <http://opendiscovery.org/rdf/TBK/BIB.207> a od:Reference;
    dcterms:title "Small Huge Worlds: Standards for Inventive Problem Solving";
@@ -1007,7 +1008,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.34>;
    dcterms:creator odp:Altshuller_GS;
    dcterms:year "1971";
-   dcterms:publisher "Baku: Giandjlick" .
+   dc:publisher "Baku: Giandjlick" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.215> a od:Reference;
    dcterms:title "Classification of the Inventive Principles";
@@ -1070,7 +1071,7 @@
 <http://opendiscovery.org/rdf/TBK/BIB.229> a od:Reference;
    dcterms:title "Index of Physical Effects and Phenomena for Inventors";
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.42>;
-   dcterms:creator odp:Gorin_Y;
+   dcterms:creator odp:Gorin_YV;
    dcterms:year "1973";
    od:relatedLinks <http://www.triz-summit.ru/ru/section.php?docId=3672>;
    rdfs:comment "Baku: 1973. - 300 p. " .
@@ -1078,13 +1079,13 @@
 <http://opendiscovery.org/rdf/TBK/BIB.230> a od:Reference;
    dcterms:title "Application of Physical Effects and Phenomena when Solving Inventive Problems";
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.42>;
-   dcterms:creator odp:Gorin_Y;
-   dcterms:publisher "Baku: OLMI" .
+   dcterms:creator odp:Gorin_YV;
+   dc:publisher "Baku: OLMI" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.231> a od:Reference;
    dcterms:title "Index of Physical Effects and Phenomena for Innvators";
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.42>;
-   dcterms:creator odp:Kustov_V, odp:Zubarev_V, odp:Yefimov_V, odp:Denisov_S;
+   dcterms:creator odp:Kustov_VP, odp:Zubarev_VV, odp:Yefimov_VA, odp:Denisov_SD;
    dcterms:year "1977";
    od:relatedLinks <http://lib.web-malina.com/getbook.php?bid=1693>;
    rdfs:comment "Obninsk: 1977" .
@@ -1092,9 +1093,9 @@
 <http://opendiscovery.org/rdf/TBK/BIB.232> a od:Reference;
    dcterms:title "Index of Physical Phenomena and Effects for Solving Inventive Problems: Training Material";
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.42>;
-   dcterms:creator odp:Goncharov_AN, odp:Kustov_V, odp:Zubarev_V, odp:Yefimov_V, odp:Denisov_S, odp:Borodastov_GV;
+   dcterms:creator odp:Goncharov_AN, odp:Kustov_VP, odp:Zubarev_VV, odp:Yefimov_VA, odp:Denisov_SD, odp:Borodastov_GV;
    dcterms:year "1979";
-   dcterms:publisher "M: Atominform" .
+   dc:publisher "M: Atominform" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.233> a od:Reference;
    dcterms:title "Magic Crystal of Physics";
@@ -1122,7 +1123,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.45>;
    dcterms:creator odp:Litvin_SS, odp:Kuzmin_AM, odp:Karpunin_MG, odp:Doubrov_VY, odp:Gerasimov_VM;
    dcterms:year "1990";
-   dcterms:publisher "M: Informelectro" .
+   dc:publisher "M: Informelectro" .
 
 <http://opendiscovery.org/rdf/TBK/BIB.241> a od:Reference;
    dcterms:title "Why Does Engineering Need Pluralism?";
@@ -1143,7 +1144,7 @@
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.46>;
    dcterms:creator odp:Zusman_AV, odp:Zlotin_BL, odp:Visnepolski_S, odp:Kaplan_S;
    dcterms:year "1999";
-   dcterms:publisher "Ideation International Inc." .
+   dc:publisher "Ideation International Inc." .
 
 <http://opendiscovery.org/rdf/TBK/BIB.244> a od:Reference;
    dcterms:title "Construction of Functionally Ideal Models when Conducting VEA";

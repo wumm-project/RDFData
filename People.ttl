@@ -35,16 +35,22 @@ odp:Ahn_H
     foaf:affil "South Korea" ;
     foaf:name "Hyunsoo Ahn" .
 
+odp:Altov_G
+    a foaf:Person ;
+    rdfs:comment "Altshuller's pseudonym as author of fantasy" ;
+    foaf:fullname "Г. Альтов"@ru ;
+    foaf:name "Grigori Altov" .
+
 odp:Altshuller_GS
     a foaf:Person ;
     foaf:fullname "Генрих Саулович Альтшуллер"@ru ;
     foaf:name "Genrich Saulowich Altshuller" .
 
-odp:Amnuel_P
+odp:Amnuel_PR
     a foaf:Person ;
     foaf:affil "художественно-публицистический журнал «Млечный Путь» и одноименное издательство, редактор"@ru ;
     foaf:fullname "Песах Рафаилович Амнуэль"@ru ;
-    foaf:name "Pavel Amnuel" .
+    foaf:name "Pavel R. Amnuel" .
 
 odp:Arel_AT
     a foaf:Person ;
@@ -158,6 +164,11 @@ odp:Bukhman_I
     foaf:affil "The Altshuller Institute for TRIZ Studies, Inc." ;
     foaf:name "Isak Bukhman" .
 
+odp:Bukhvalov_VA
+    a foaf:Person ;
+    foaf:fullname "В.А. Бухвалов"@ru ;
+    foaf:name "V.A. Bukhvalov" .
+
 odp:Burov_LG
     a foaf:Person ;
     foaf:affil "Russia" ;
@@ -219,10 +230,10 @@ odp:Conley_DW
     foaf:affil "USA" ;
     foaf:name "David Worrell Conley" .
 
-odp:Curikov_V
+odp:Curikov_VM
     a foaf:Person ;
     foaf:affil "True Machina, Главный архитектор интеллектульных систем"@ru ;
-    foaf:name "Valerij Tsourikov" .
+    foaf:name "Valeri M. Tsourikov" .
 
 odp:Danilovski_JE
     a foaf:Person ;
@@ -230,17 +241,15 @@ odp:Danilovski_JE
     foaf:fullname "Юрий Эдуардович Даниловский"@ru ;
     foaf:name "Juri Danilovski" .
 
-odp:Denisov_S
+odp:Denisov_SD
     a foaf:Person ;
-    foaf:name "S. Denisov" .
+    foaf:name "S.D. Denisov" .
 
 odp:Devojno_IG
     a foaf:Person ;
-    foaf:affil "IHS Markit, Product Analysis and Design Associate Director"@en ;
-    foaf:affil "Russia" ;
+    foaf:affil "IHS Markit, Product Analysis and Design Associate Director"@en, "Russia" ;
     foaf:fullname "Игорь Георгиевич Девойно"@ru ;
     foaf:name "Igor Devoino" .
-
 
 odp:Dmitrienko_L
     a foaf:Person ;
@@ -277,7 +286,12 @@ odp:Domkin_KI
 
 odp:Doubrov_VY
     a foaf:Person ;
-    foaf:name "V.Y. Doubrov" .
+    foaf:name "V.Yu. Doubrov" .
+
+odp:Dubrov_VE
+    a foaf:Person ;
+    foaf:fullname "В.Е. Дубров"@ru ;
+    foaf:name "V.E. Dubrov" .
 
 odp:Dusmikeev_A
     a foaf:Person ;
@@ -330,6 +344,11 @@ odp:Filatov_VI
     a foaf:Person ;
     foaf:name "V.I. Filatov" .
 
+odp:Filkovsky_GM
+    a foaf:Person ;
+    foaf:fullname "Г.М. Фильковский"@ru ;
+    foaf:name "G.M. Filkovsky" .
+
 odp:Fimin_P
     a foaf:Person ;
     foaf:affil "Russia" ;
@@ -338,6 +357,11 @@ odp:Fimin_P
 odp:Flickstein_IM
     a foaf:Person ;
     foaf:name "I.M. Flickstein" .
+
+odp:Florescu_RS
+    a foaf:Person ;
+    foaf:fullname "Р.С. Флореску"@ru ;
+    foaf:name "R.S. Florescu" .
 
 odp:Fomenko_A
     a foaf:Person ;
@@ -353,6 +377,11 @@ odp:Gadjiev_C
     a foaf:Person ;
     foaf:name "Ch. Gadjiev" .
 
+odp:Galysheva_AS
+    a foaf:Person ;
+    foaf:fullname "А.С. Галышева"@ru ;
+    foaf:name "A.S. Galysheva" .
+
 odp:Gardner_M
     a foaf:Person ;
     foaf:affil "USA" ;
@@ -363,6 +392,11 @@ odp:Gareev_RT
     foaf:affil "Russia" ;
     foaf:fullname "Рифкат Тагирович Гареев"@ru ;
     foaf:name "Rifkat Gareev" .
+
+odp:GarinaDomchenko_AN
+    a foaf:Person ;
+    foaf:fullname "А.Н. Гарина-Домченко"@ru ;
+    foaf:name "A.N. Garina-Domchenko" .
 
 odp:Gerasimov_OM
     a foaf:Person ;
@@ -386,6 +420,16 @@ odp:Gladkov_AK
     foaf:fullname "Александр Кузьмич Гладков"@ru ;
     foaf:name "Aleksandr Gladkov" .
 
+odp:Goldovsky_BI
+    a foaf:Person ;
+    foaf:fullname "Б.И. Голдовский"@ru ;
+    foaf:name "B.I. Goldovsky" .
+
+odp:Golovchenko_GG
+    a foaf:Person ;
+    foaf:fullname "Г.Г. Головченко"@ru ;
+    foaf:name "G.G. Golovchenko" .
+
 odp:Gomila_JV
     a foaf:Person ;
     foaf:affil "Spain" ;
@@ -395,9 +439,9 @@ odp:Goncharov_AN
     a foaf:Person ;
     foaf:name "A.N. Goncharov" .
 
-odp:Gorin_Y
+odp:Gorin_YV
     a foaf:Person ;
-    foaf:name "Yu. Gorin" .
+    foaf:name "Yu.V. Gorin" .
 
 odp:Graebe_HG
     a foaf:Person ;
@@ -481,6 +525,11 @@ odp:Ilyin_IY
     foaf:fullname "Илья Юрьевич Ильин"@ru ;
     foaf:name "Ilya Y. Ilyin" .
 
+odp:Ivanov_GI
+    a foaf:Person ;
+    foaf:fullname "Г.И. Иванов"@ru ;
+    foaf:name "G.I. Ivanov" .
+
 odp:Izmikov_K
     a foaf:Person ;
     foaf:name "Kirill Izmikov" .
@@ -527,10 +576,10 @@ odp:Kang_YJ
     foaf:affil "South Korea" ;
     foaf:name "Young–Ju Kang" .
 
-odp:Kaplan_L
+odp:Kaplan_LA
     a foaf:Person ;
     foaf:affil "USA" ;
-    foaf:name "Leonid Kaplan" .
+    foaf:name "Leonid A. Kaplan" .
 
 odp:Kaplan_S
     a foaf:Person ;
@@ -538,6 +587,7 @@ odp:Kaplan_S
 
 odp:Karpunin_MG
     a foaf:Person ;
+    foaf:fullname "М.Г. Карпунин"@ru ;
     foaf:name "M.G. Karpunin" .
 
 odp:Kashkarov_AG
@@ -545,6 +595,11 @@ odp:Kashkarov_AG
     foaf:affil "Russia" ;
     foaf:fullname "Александр Германович Кашкаров"@ru ;
     foaf:name "Alexander G. Kashkarov" .
+
+odp:Kengerli_TA
+    a foaf:Person ;
+    foaf:fullname "Т.А. Кенгерли"@ru ;
+    foaf:name "T.A. Kengerli" .
 
 odp:Khorenyan_RG
     a foaf:Person ;
@@ -579,6 +634,11 @@ odp:Kim_YS
     a foaf:Person ;
     foaf:affil "South Korea" ;
     foaf:name "YunSeok Kim" .
+
+odp:Kislov_AV
+    a foaf:Person ;
+    foaf:fullname "А.В. Кислов"@ru ;
+    foaf:name "A.V. Kislov" .
 
 odp:Kleemann_KP
     a foaf:Person ;
@@ -661,6 +721,11 @@ odp:Kukalev_SV
     foaf:fullname "Сергей Васильевич Кукалев"@ru ;
     foaf:name "Sergei Kukalev" .
 
+odp:Kulakov_KE
+    a foaf:Person ;
+    foaf:fullname "К.Э. Кулаков"@ru ;
+    foaf:name "K.E. Kulakov" .
+
 odp:Kurgi_EE
     a foaf:Person ;
     foaf:affil "Russia" ;
@@ -673,12 +738,13 @@ odp:Kuryan_A
     foaf:homepage <https://www.facebook.com/andrew.kuryan> ;
     foaf:name "Andrei Kuryan" .
 
-odp:Kustov_V
+odp:Kustov_VP
     a foaf:Person ;
-    foaf:name "V. Kustov" .
+    foaf:name "V.P. Kustov" .
 
 odp:Kuzmin_AM
     a foaf:Person ;
+    foaf:fullname "А.М. Кузьмин"@ru ;
     foaf:name "A.M. Kuzmin" .
 
 odp:Kynin_AT
@@ -720,6 +786,16 @@ odp:Li_H
     foaf:affil "Санкт-Петербургский государственный инженерно-экономический университет, технический директор IMA-InnoCloud (Пекин) Technology Co., Ltd"@ru ;
     foaf:name "Huangye Li" .
 
+odp:Lichachev_AY
+    a foaf:Person ;
+    foaf:fullname "А.Ю. Лихачев"@ru ;
+    foaf:name "A.Yu. Lichachev" .
+
+odp:Limarenko_AA
+    a foaf:Person ;
+    foaf:fullname "А.А. Лимаренко"@ru ;
+    foaf:name "A.A. Limarenko" .
+
 odp:Lin_Y
     a foaf:Person ;
     foaf:affil "Peoples Republic of China" ;
@@ -754,6 +830,11 @@ odp:Lok_A
 odp:Lymarenko_AA
     a foaf:Person ;
     foaf:name "A.A. Lymarenko" .
+
+odp:Lyubomirsky_AL
+    a foaf:Person ;
+    foaf:fullname "А.Л. Любомирский"@ru ;
+    foaf:name "A.L. Lyubomirsky" .
 
 odp:Malinin_L
     a foaf:Person ;
@@ -818,11 +899,21 @@ odp:Minaker_V
     foaf:fullname "Виктор Минакер"@ru ;
     foaf:name "Viktor Minaker" .
 
+odp:Mitrofanov_VV
+    a foaf:Person ;
+    foaf:fullname "В.В. Митрофанов"@ru ;
+    foaf:name "V.V. Mitrofanov" .
+
 odp:Murashkovska_IN
     a foaf:Person ;
     foaf:affil "Latvia" ;
     foaf:fullname "Ингрида Николаевна Мурашковска"@ru ;
     foaf:name "Ingrida Murashkovska" .
+
+odp:Murashkovsky_YM
+    a foaf:Person ;
+    foaf:fullname "Ю.М. Мурашковский"@ru ;
+    foaf:name "Yu.M. Murashkovsky" .
 
 odp:Na_H
     a foaf:Person ;
@@ -835,8 +926,7 @@ odp:Naehler_HT
 
 odp:Nesterenko_AA
     a foaf:Person ;
-    foaf:affil "ПКИРО (Владивосток), ГБОУ г. Москвы «Школа № 2101 «Филевский образовательный центр», доцент, методист"@ru ;
-    foaf:affil "Russia" ;
+    foaf:affil "Russia", "ПКИРО (Владивосток), ГБОУ г. Москвы «Школа № 2101 «Филевский образовательный центр», доцент, методист"@ru ;
     foaf:fullname "Алла Александровна Нестеренко"@ru ;
     foaf:name "Alla Nesterenko" .
 
@@ -898,6 +988,11 @@ odp:Pheunghua_T
     foaf:affil "Thailand" ;
     foaf:name "Tanasak Pheunghua" .
 
+odp:Pinyayev_AM
+    a foaf:Person ;
+    foaf:fullname "А.М. Пиняев"@ru ;
+    foaf:name "Aleksey M. Pinyayev" .
+
 odp:Podobed_I
     a foaf:Person ;
     foaf:affil "@ Awem Games, Technical Fellow"@en ;
@@ -909,6 +1004,11 @@ odp:Pokalo_E
     foaf:fullname "Евгений Покало"@ru ;
     foaf:homepage <http://batriz.ru/>, <http://bmtriz.ru/>, <https://www.facebook.com/evgeny.pokalo> ;
     foaf:name "Evgenij Pokalo" .
+
+odp:Pomeranets_MS
+    a foaf:Person ;
+    foaf:fullname "М.С. Померанец"@ru ;
+    foaf:name "M.S. Pomeranets" .
 
 odp:Privalihin_SA
     a foaf:Person ;
@@ -948,6 +1048,7 @@ odp:Rivin_E
 
 odp:Royzen_Z
     a foaf:Person ;
+    foaf:fullname "З. Ройзен"@ru ;
     foaf:name "Z. Royzen" .
 
 odp:Rubin_MS
@@ -974,6 +1075,11 @@ odp:Ryabchuk_A
     foaf:fullname "Анна Евгеньевна Рябчук"@ru ;
     foaf:homepage <https://cttit.ru> ;
     foaf:name "Anna Ryabchuk" .
+
+odp:Sacharov_IS
+    a foaf:Person ;
+    foaf:fullname "И.С. Захаров"@ru ;
+    foaf:name "I.S. Sacharov" .
 
 odp:Salamatov_YP
     a foaf:Person ;
@@ -1073,11 +1179,20 @@ odp:Shokin_A
 
 odp:Shpakovsky_NA
     a foaf:Person ;
-    foaf:affil "Target Invention, Ведущий эксперт"@ru ;
-    foaf:homepage <http://www.target-invention.com> ;
-    foaf:affil "Belarus" ;
+    foaf:affil "Belarus", "Target Invention, Ведущий эксперт"@ru ;
     foaf:fullname "Николай Андреевич Шпаковский"@ru ;
+    foaf:homepage <http://www.target-invention.com> ;
     foaf:name "Nikolay Shpakovsky" .
+
+odp:Shukov_RF
+    a foaf:Person ;
+    foaf:fullname "Р.Ф. Жуков"@ru ;
+    foaf:name "R.F. Shukov" .
+
+odp:Sibiryakov_V
+    a foaf:Person ;
+    foaf:fullname "В. Сибиряков"@ru ;
+    foaf:name "V. Sibiryakov" .
 
 odp:Sidorchuk_TA
     a foaf:Person ;
@@ -1099,6 +1214,11 @@ odp:Skuratovich_AI
     foaf:affil "ОАО «АМКОДОР - управляющая компания холдинга», Руководитель проекта по оптимизации бизнес-процессов"@ru ;
     foaf:fullname "Александр Иванович Скуратович"@ru ;
     foaf:name "Alexander Skuratovich" .
+
+odp:Slugin_GI
+    a foaf:Person ;
+    foaf:fullname "Г.И. Слугин"@ru ;
+    foaf:name "G.I. Slugin" .
 
 odp:Sokol_A
     a foaf:Person ;
@@ -1164,6 +1284,16 @@ odp:Thurnes_C
     foaf:affil "HS Kaiserslautern, Germany" ;
     foaf:name "Christian Thurnes" .
 
+odp:Timochov_VI
+    a foaf:Person ;
+    foaf:fullname "В.И. Тимохов"@ru ;
+    foaf:name "V.I. Timochov" .
+
+odp:Trigub_AV
+    a foaf:Person ;
+    foaf:fullname "А.В. Тригуб"@ru ;
+    foaf:name "A.V. Trigub" .
+
 odp:Ulan_P
     a foaf:Person ;
     foaf:affil "USA" ;
@@ -1221,9 +1351,9 @@ odp:Yatsunenko_S
     foaf:affil "Poland" ;
     foaf:name "Sergey Yatsunenko" .
 
-odp:Yefimov_V
+odp:Yefimov_VA
     a foaf:Person ;
-    foaf:name "V. Yefimov" .
+    foaf:name "V.A. Yefimov" .
 
 odp:Yefremov_VI
     a foaf:Person ;
@@ -1233,6 +1363,11 @@ odp:Yoon_H
     a foaf:Person ;
     foaf:affil "South Korea" ;
     foaf:name "Hongyul Yoon" .
+
+odp:Yudin_YA
+    a foaf:Person ;
+    foaf:fullname "Ю.А. Юдин"@ru ;
+    foaf:name "Yu.A. Yudin" .
 
 odp:Zainiev_G
     a foaf:Person ;
@@ -1252,14 +1387,19 @@ odp:Zlotin_BL
     a foaf:Person ;
     foaf:name "Boris L. Zlotin" .
 
+odp:Zlotina_ES
+    a foaf:Person ;
+    foaf:fullname "Э.С. Злотина"@ru ;
+    foaf:name "E.S. Zlotina" .
+
 odp:Zobel_D
     a foaf:Person ;
     foaf:affil "Ingenieurbüro für Systemtechnik, Wittenberg" ;
     foaf:name "Dietmar Zobel" .
 
-odp:Zubarev_V
+odp:Zubarev_VV
     a foaf:Person ;
-    foaf:name "V. Zubarev" .
+    foaf:name "V.V. Zubarev" .
 
 odp:Zusman_AV
     a foaf:Person ;
