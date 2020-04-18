@@ -1,3 +1,4 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix cc: <http://creativecommons.org/ns#> .
@@ -8,653 +9,1378 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 <http://opendiscovery.org/rdf/MATRIZ-Certificates/>
-    a owl:Ontology ;
     cc:attributionName "The Open Discovery Project" ;
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    rdfs:comment """Extracted and transformed from the 
-    MATRIZ Certificates published at matriz.org 
-    by Hans-Gert Graebe, 2020-03-06""" ;
+    a owl:Ontology ;
+    rdfs:comment "2020-03-06 graebe: Level 4",
+    "2020-04-18 graebe: Level 5", """Extracted and transformed from the 
+    MATRIZ Certificates published at matriz.org""" ;
     rdfs:label "TRIZ Database - MATRIZ Certificates" ;
     owl:imports <http://opendiscovery.org/rdf/People/> .
 
-od:CertificateLevel4 a od:MATRIZCertificate;
-rdfs:label "MATRIZ Certificate Level 4" .
-
-od:CertificateLevel5 a od:MATRIZCertificate;
-rdfs:label "MATRIZ Certificate Level 5" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.1> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Kozhevnikova_LA>;
-   od:issued "2000-01";
-   foaf:name "Ljubov Kozhevnikova" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.2> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Seredinski_AV>;
-   od:issued "2000-01";
-   foaf:name "Avraam Seredinski" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.3> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Semjonova_LN>;
-   od:issued "2000-01";
-   foaf:name "Ljudmila Semjonova" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.4> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Rubina_NV>;
-   od:issued "2000-04";
-   foaf:name "Natalja Rubina" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.5> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Nesterenko_AA>;
-   od:issued "2000-05";
-   foaf:name "Alla Nesterenko" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.6> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Kagan_EL>;
-   od:issued "2000-6";
-   foaf:name "Eduard Kagan" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.7> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Gladkov_AK>;
-   od:issued "2000-11";
-   foaf:name "Aleksandr Gladkov" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.8> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Maximov_NI>;
-   od:issued "2000-11";
-   foaf:name "Nikolai Maximov" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.9> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Sokol_A>;
-   od:issued "2000-11";
-   foaf:name "Alexander Sokol" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.10> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Samochvalov_JV>;
-   od:issued "2000-11";
-   foaf:name "Juri Samochvalov" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.11> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Bragina_LM>;
-   od:issued "2000-11";
-   foaf:name "Ljubov Bragina" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.12> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Kukalev_SV>;
-   od:issued "2000-11";
-   foaf:name "Sergei Kukalev" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.13> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Gerasimov_OM>;
-   od:issued "2000-11";
-   foaf:name "Oleg Gerasimov" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.14> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Sidorchuk_TA>;
-   od:issued "2001-03";
-   foaf:name "Tatjana Sidorchuk" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.15> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Murashkovska_IN>;
-   od:issued "2001-03";
-   foaf:name "Ingrida Murashkovska" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.16> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Proseanic_V>;
-   od:issued "2001-03";
-   foaf:name "Vladimir Proseanic" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.17> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Visnepolschi_S>;
-   od:issued "2001-03";
-   foaf:name "Svetlana Visnepolschi" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.18> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Malkin_S>;
-   od:issued "2001-03";
-   foaf:name "Sergey Malkin" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.19> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Kaplan_L>;
-   od:issued "2001-03";
-   foaf:name "Leonid Kaplan" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.20> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Ulan_P>;
-   od:issued "2001-03";
-   foaf:name "Peter Ulan" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.21> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Zainiev_G>;
-   od:issued "2001-03";
-   foaf:name "Gafur Zainiev" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.22> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Prushinskiy_V>;
-   od:issued "2001-03";
-   foaf:name "Valeriy Prushinskiy" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.23> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Clarke_DW>;
-   od:issued "2001-03";
-   foaf:name "Dana W. Clarke" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.24> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Kynin_AT>;
-   od:issued "2001-06";
-   foaf:name "Alexander Kynin" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.25> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Cavallucci_D>;
-   od:issued "2001-06";
-   foaf:name "Denis Cavallucci" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.26> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Zakharov_AN>;
-   od:issued "2001-07";
-   foaf:name "Alex N. Zakharov" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.27> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Barkan_MG>;
-   od:issued "2001-07";
-   foaf:name "Mark G. Barkan" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.28> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Kogan_S>;
-   od:issued "2001-07";
-   foaf:name "Sam Kogan" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.29> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Waldman_MK>;
-   od:issued "2001-07";
-   foaf:name "Michael K. Waldman" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.30> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Shkolnik_N>;
-   od:issued "2001-07";
-   foaf:name "Nikolay Shkolnik" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.31> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Malinin_L>;
-   od:issued "2001-07";
-   foaf:name "Len Malinin" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.32> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Dmitrienko_L>;
-   od:issued "2001-07";
-   foaf:name "Larisa Dmitrienko" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.33> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Krasnoslobodtsev_VJ>;
-   od:issued "2002-01";
-   foaf:name "Valery Krasnoslobodtsev" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.34> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Axelrod_BM>;
-   od:issued "2002-10";
-   foaf:name "Boris M. Axelrod" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.35> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Burov_LG>;
-   od:issued "2002-10";
-   foaf:name "Leo Burov" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.36> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Ilyin_IY>;
-   od:issued "2002-10";
-   foaf:name "Ilya Y. Ilyin" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.37> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Kashkarov_AG>;
-   od:issued "2002-10";
-   foaf:name "Alexander G. Kashkarov" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.38> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Koltchanov_SA>;
-   od:issued "2002-10";
-   foaf:name "Stanislav A. Koltchanov" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.39> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Logvinov_SA>;
-   od:issued "2002-10";
-   foaf:name "Sergey A. Logvinov" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.40> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Medvedev_AV>;
-   od:issued "2002-10";
-   foaf:name "Alexander V. Medvedev" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.41> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Pavlov_VV>;
-   od:issued "2002-10";
-   foaf:name "Valeriy V. Pavlov" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.42> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Feygenson_NB>;
-   od:issued "2002-10";
-   foaf:name "Naum B. Feygenson" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.43> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Dmitriev_SA>;
-   od:issued "2002-10";
-   foaf:name "Sergey A. Dmitriev" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.44> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Dmitriev_VA>;
-   od:issued "2002-10";
-   foaf:name "Vladimir A. Dmitriev" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.45> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Privalihin_SA>;
-   od:issued "2002-10";
-   foaf:name "Sergey A. Privalihin" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.46> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Juravlev_YF>;
-   od:issued "2002-10";
-   foaf:name "Yuri F. Juravlev" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.47> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Shpakovsky_NA>;
-   od:issued "2003-03";
-   foaf:name "Nikolay Shpakovsky" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.48> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Chuksin_PI>;
-   od:issued "2003-03";
-   foaf:name "Peter Chuksin" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.49> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Shmigelsky_OC>;
-   od:issued "2003-03";
-   foaf:name "Oleg Shmigelsky" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.50> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Surkov_PP>;
-   od:issued "2003-03";
-   foaf:name "Peter Pavel Surkov" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.51> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Severinets_GA>;
-   od:issued "2003-03";
-   foaf:name "Georgi Severinets" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.52> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Beliltseva_NB>;
-   od:issued "2003-06";
-   foaf:name "Natalya Borisovna Beliltseva" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.53> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Vihorev_VN>;
-   od:issued "2003-06";
-   foaf:name "Vladimir Nicolayevich Vihorev" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.54> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Ikovenko_S>;
-   od:issued "2003-06";
-   foaf:name "Sergey Ikovenko" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.55> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Bubenzov_VY>;
-   od:issued "2003-07";
-   foaf:name "Vladimir Bubenzov" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.56> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Gareev_RT>;
-   od:issued "2003-07";
-   foaf:name "Rifkat Gareev" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.57> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Abramov_OY>;
-   od:issued "2003-07";
-   foaf:name "Oleg Abramov" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.58> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Petij_II>;
-   od:issued "2003-07";
-   foaf:name "Igor Petij" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.59> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Shin_DL>;
-   od:issued "2003-12";
-   foaf:name "Dong-Lyoul Shin" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.60> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/June_KH>;
-   od:issued "2004-04";
-   foaf:name "Kim Hyo June" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.61> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Lenjaschin_VA>;
-   od:issued "2004-04";
-   foaf:name "Vassili Lenjaschin" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.62> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Jefimov_AV>;
-   od:issued "2004-04";
-   foaf:name "Andrej Jefimov" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.63> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Yoon_H>;
-   od:issued "2004-09";
-   foaf:name "Hongyul Yoon" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.64> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Chomyakov_ON>;
-   od:issued "2004-10";
-   foaf:name "Oleg Chomyakov" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.65> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Jeong_JH>;
-   od:issued "2004-12";
-   foaf:name "Jin-Ha Jeong" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.66> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Skuratovich_AI>;
-   od:issued "2004-12";
-   foaf:name "Alexander Ivanovich Skuratovich" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.67> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Kim_Y>;
-   od:issued "2004-12";
-   foaf:name "Youngil Kim" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.68> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Kim_JS>;
-   od:issued "2005-01";
-   foaf:name "Jeong–Seon Kim" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.69> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Lee_JY>;
-   od:issued "2005-01";
-   foaf:name "Jun–Young Lee" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.70> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Bradley_J>;
-   od:issued "2005-03";
-   foaf:name "James Bradley" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.71> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Gershman_MD>;
-   od:issued "2005-03";
-   foaf:name "Michael Gershman" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.72> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Verbitsky_MJ>;
-   od:issued "2005-05";
-   foaf:name "Mihail Verbitsky" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.73> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Kudrjavtsev_AV>;
-   od:issued "2005-05";
-   foaf:name "Aleksandr Kudrjavtsev" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.74> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Kurgi_EE>;
-   od:issued "2005-07";
-   foaf:name "Eduard Kurgi" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.75> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Danilovski_JE>;
-   od:issued "2005-08";
-   foaf:name "Juri Danilovski" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.76> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Gomila_JV>;
-   od:issued "2005-08";
-   foaf:name "Jose Vicente Gomila" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.77> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Belski_JV>;
-   od:issued "2005-09";
-   foaf:name "Juri Belski" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.78> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Urazajev_VG>;
-   od:issued "2006-01";
-   foaf:name "Vladimir Urazajev" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.79> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Nilov_AP>;
-   od:issued "2006-04";
-   foaf:name "Alexej Nilov" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.80> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Cascini_G>;
-   od:issued "2006 October";
-   foaf:name "Gaetano Cascini" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.81> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Chernyak_VS>;
-   od:issued "2006-10";
-   foaf:name "Valeri S. Chernyak" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.82> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Kang_YJ>;
-   od:issued "2006-12";
-   foaf:name "Young–Ju Kang" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.83> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Matyushenko_AV>;
-   od:issued "2007-03";
-   foaf:name "Andrey V. Matyushenko" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.84> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Berdonosov_VD>;
-   od:issued "2007-11";
-   foaf:name "Victor Berdonosov" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.85> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Feygenson_ON>;
-   od:issued "2007-11";
-   foaf:name "Oleg N. Feygenson" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.86> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Scharipov_RH>;
-   od:issued "2008-01";
-   foaf:name "Rashid Scharipov" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.87> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Devojno_IG>;
-   od:issued "2008-03";
-   foaf:name "Igor Devojno" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.88> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Conley_DW>;
-   od:issued "2009-12-01";
-   foaf:name "David Worrell Conley" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.89> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Adunka_R>;
-   od:issued "2009-12-01";
-   foaf:name "Robert Adunka" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.90> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Lin_Y>;
-   od:issued "2009-12";
-   foaf:name "Yue Lin" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.91> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Kim_M>;
-   od:issued "2010-02";
-   foaf:name "Mansoo Kim" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.92> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Lee_HC>;
-   od:issued "2010-02";
-   foaf:name "Hee Choon Lee" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.93> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Han_YS>;
-   od:issued "2010-04";
-   foaf:name "You-Shin Han" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.94> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Khorenyan_RG>;
-   od:issued "2010-04";
-   foaf:name "Rostislav G. Khorenyan" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.95> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Song_MJ>;
-   od:issued "2010-07";
-   foaf:name "Mi Jeong Song" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.96> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/MinSoo_K>;
-   od:issued "2011-11";
-   foaf:name "Kim Min-Soo" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.97> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Lebedjev_J>;
-   od:issued "2011-12";
-   foaf:name "Juri Lebedjev" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.98> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Na_H>;
-   od:issued "2011-12";
-   foaf:name "Heungyeol Na" .
-   
-<http://opendiscovery.org/rdf/Certificate/L4.99> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Won_SY>;
-   od:issued "2011-12";
-   foaf:name "Song Yong Won" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.100> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Faer_S>;
-   od:issued "2012-04";
-   foaf:name "Sergey Faer" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.101> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Bystritskiy_A>;
-   od:issued "2012-07";
-   foaf:name "Alexander Bystritskiy" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.102> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Minaker_V>;
-   od:issued "2012-07";
-   foaf:name "Viktor Minaker" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.103> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Kim_SC>;
-   od:issued "2012-07";
-   foaf:name "Sung Cheol Kim" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.104> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Ruin_A>;
-   od:issued "2012-10";
-   foaf:name "Aleksei Ruin" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.105> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Sigalovsky_I>;
-   od:issued "2012-10-01";
-   foaf:name "Irina Sigalovsky" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.106> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Kim_JH>;
-   od:issued "2013-02-01";
-   foaf:name "Jung-Hyeon Kim" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.107> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Kim_YS>;
-   od:issued "2013-07-01";
-   foaf:name "YunSeok Kim" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.108> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Mayer_O>;
-   od:issued "2013-07-01";
-   foaf:name "Oliver Mayer" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.109> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Kim_JY>;
-   od:issued "2013-07-01";
-   foaf:name "Jae Yeon Kim" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.110> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Kang_TW>;
-   od:issued "2013-07-01";
-   foaf:name "TaeWook Kang" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.111> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Dobrusskin_C>;
-   od:issued "2014-07-01";
-   foaf:name "Christoph Dobrusskin" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.112> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Markosov_SA>;
-   od:issued "2014-07-01";
-   foaf:name "Sergey A. Markosov" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.114> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Bakhrakh_M>;
-   od:issued "2014-07-01";
-   foaf:name "Mark Bakhrakh" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.115> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Hee_CJ>;
-   od:issued "2014-07-31";
-   foaf:name "Cho Jun Hee" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.116> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Benjaboonyazit_T>;
-   od:issued "2014-09-30";
-   foaf:name "Trizit Benjaboonyazit" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.117> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Pheunghua_T>;
-   od:issued "2015-01-21";
-   foaf:name "Tanasak Pheunghua" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.118> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Sun_Y>;
-   od:issued "2015-04-20";
-   foaf:name "Yongwei Sun" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.119> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Gronauer_B>;
-   od:issued "2015-07-07";
-   foaf:name "Barbara Gronauer" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.120> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Kozhemyako_A>;
-   od:issued "2016-05-05";
-   foaf:name "Anton Kozhemyako" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.121> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Gardner_M>;
-   od:issued "2017-09-14";
-   foaf:name "Martha Gardner" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.122> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Bertoncelli_T>;
-   od:issued "2018-05-17";
-   foaf:name "Tiziana Bertoncelli" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.123> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Ahn_H>;
-   od:issued "2018-08-31";
-   foaf:name "Hyunsoo Ahn" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.124> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Redkolis_EV>;
-   od:issued "2019-02-11";
-   foaf:name "Elena Redkolis" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.125> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Yatsunenko_S>;
-   od:issued "2019-04-16";
-   foaf:name "Sergey Yatsunenko" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.126> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Fimin_P>;
-   od:issued "2019-04-16";
-   foaf:name "Pavel Fimin" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.127> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Fomenko_A>;
-   od:issued "2019-07-10";
-   foaf:name "Alexey Fomenko" .
-
-<http://opendiscovery.org/rdf/Certificate/L4.128> a od:CertificateLevel4;
-   od:owner <http://opendiscovery.org/rdf/Person/Lok_A>;
-   od:issued "2019-07-19";
-   foaf:name "Arthur Lok" .
+od:CertificateLevel4
+    a od:MATRIZCertificate ;
+    rdfs:label "MATRIZ Certificate Level 4" .
+
+od:CertificateLevel5
+    a od:MATRIZCertificate ;
+    rdfs:label "MATRIZ Certificate Level 5" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.1>
+    od:issued "2000-01" ;
+    od:owner odp:Kozhevnikova_LA ;
+    a od:CertificateLevel4 ;
+    foaf:name "Ljubov Kozhevnikova" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.10>
+    od:issued "2000-11" ;
+    od:owner odp:Samochvalov_JV ;
+    a od:CertificateLevel4 ;
+    foaf:name "Juri Samochvalov" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.100>
+    od:issued "2012-04" ;
+    od:owner odp:Faer_S ;
+    a od:CertificateLevel4 ;
+    foaf:name "Sergey Faer" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.101>
+    od:issued "2012-07" ;
+    od:owner odp:Bystritskiy_A ;
+    a od:CertificateLevel4 ;
+    foaf:name "Alexander Bystritskiy" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.102>
+    od:issued "2012-07" ;
+    od:owner odp:Minaker_V ;
+    a od:CertificateLevel4 ;
+    foaf:name "Viktor Minaker" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.103>
+    od:issued "2012-07" ;
+    od:owner odp:Kim_SC ;
+    a od:CertificateLevel4 ;
+    foaf:name "Sung Cheol Kim" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.104>
+    od:issued "2012-10" ;
+    od:owner odp:Ruin_A ;
+    a od:CertificateLevel4 ;
+    foaf:name "Aleksei Ruin" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.105>
+    od:issued "2012-10-01" ;
+    od:owner odp:Sigalovsky_I ;
+    a od:CertificateLevel4 ;
+    foaf:name "Irina Sigalovsky" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.106>
+    od:issued "2013-02-01" ;
+    od:owner odp:Kim_JH ;
+    a od:CertificateLevel4 ;
+    foaf:name "Jung-Hyeon Kim" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.107>
+    od:issued "2013-07-01" ;
+    od:owner odp:Kim_YS ;
+    a od:CertificateLevel4 ;
+    foaf:name "YunSeok Kim" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.108>
+    od:issued "2013-07-01" ;
+    od:owner odp:Mayer_O ;
+    a od:CertificateLevel4 ;
+    foaf:name "Oliver Mayer" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.109>
+    od:issued "2013-07-01" ;
+    od:owner odp:Kim_JY ;
+    a od:CertificateLevel4 ;
+    foaf:name "Jae Yeon Kim" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.11>
+    od:issued "2000-11" ;
+    od:owner odp:Bragina_LM ;
+    a od:CertificateLevel4 ;
+    foaf:name "Ljubov Bragina" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.110>
+    od:issued "2013-07-01" ;
+    od:owner odp:Kang_TW ;
+    a od:CertificateLevel4 ;
+    foaf:name "TaeWook Kang" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.111>
+    od:issued "2014-07-01" ;
+    od:owner odp:Dobrusskin_C ;
+    a od:CertificateLevel4 ;
+    foaf:name "Christoph Dobrusskin" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.112>
+    od:issued "2014-07-01" ;
+    od:owner odp:Markosov_SA ;
+    a od:CertificateLevel4 ;
+    foaf:name "Sergey A. Markosov" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.114>
+    od:issued "2014-07-01" ;
+    od:owner odp:Bakhrakh_M ;
+    a od:CertificateLevel4 ;
+    foaf:name "Mark Bakhrakh" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.115>
+    od:issued "2014-07-31" ;
+    od:owner odp:Hee_CJ ;
+    a od:CertificateLevel4 ;
+    foaf:name "Cho Jun Hee" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.116>
+    od:issued "2014-09-30" ;
+    od:owner odp:Benjaboonyazit_T ;
+    a od:CertificateLevel4 ;
+    foaf:name "Trizit Benjaboonyazit" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.117>
+    od:issued "2015-01-21" ;
+    od:owner odp:Pheunghua_T ;
+    a od:CertificateLevel4 ;
+    foaf:name "Tanasak Pheunghua" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.118>
+    od:issued "2015-04-20" ;
+    od:owner odp:Sun_Y ;
+    a od:CertificateLevel4 ;
+    foaf:name "Yongwei Sun" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.119>
+    od:issued "2015-07-07" ;
+    od:owner odp:Gronauer_B ;
+    a od:CertificateLevel4 ;
+    foaf:name "Barbara Gronauer" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.12>
+    od:issued "2000-11" ;
+    od:owner odp:Kukalev_SV ;
+    a od:CertificateLevel4 ;
+    foaf:name "Sergei Kukalev" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.120>
+    od:issued "2016-05-05" ;
+    od:owner odp:Kozhemyako_A ;
+    a od:CertificateLevel4 ;
+    foaf:name "Anton Kozhemyako" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.121>
+    od:issued "2017-09-14" ;
+    od:owner odp:Gardner_M ;
+    a od:CertificateLevel4 ;
+    foaf:name "Martha Gardner" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.122>
+    od:issued "2018-05-17" ;
+    od:owner odp:Bertoncelli_T ;
+    a od:CertificateLevel4 ;
+    foaf:name "Tiziana Bertoncelli" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.123>
+    od:issued "2018-08-31" ;
+    od:owner odp:Ahn_H ;
+    a od:CertificateLevel4 ;
+    foaf:name "Hyunsoo Ahn" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.124>
+    od:issued "2019-02-11" ;
+    od:owner odp:Redkolis_EV ;
+    a od:CertificateLevel4 ;
+    foaf:name "Elena Redkolis" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.125>
+    od:issued "2019-04-16" ;
+    od:owner odp:Yatsunenko_S ;
+    a od:CertificateLevel4 ;
+    foaf:name "Sergey Yatsunenko" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.126>
+    od:issued "2019-04-16" ;
+    od:owner odp:Fimin_P ;
+    a od:CertificateLevel4 ;
+    foaf:name "Pavel Fimin" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.127>
+    od:issued "2019-07-10" ;
+    od:owner odp:Fomenko_A ;
+    a od:CertificateLevel4 ;
+    foaf:name "Alexey Fomenko" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.128>
+    od:issued "2019-07-19" ;
+    od:owner odp:Lok_A ;
+    a od:CertificateLevel4 ;
+    foaf:name "Arthur Lok" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.13>
+    od:issued "2000-11" ;
+    od:owner odp:Gerasimov_OM ;
+    a od:CertificateLevel4 ;
+    foaf:name "Oleg Gerasimov" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.14>
+    od:issued "2001-03" ;
+    od:owner odp:Sidorchuk_TA ;
+    a od:CertificateLevel4 ;
+    foaf:name "Tatjana Sidorchuk" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.15>
+    od:issued "2001-03" ;
+    od:owner odp:Murashkovska_IN ;
+    a od:CertificateLevel4 ;
+    foaf:name "Ingrida Murashkovska" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.16>
+    od:issued "2001-03" ;
+    od:owner odp:Proseanic_V ;
+    a od:CertificateLevel4 ;
+    foaf:name "Vladimir Proseanic" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.17>
+    od:issued "2001-03" ;
+    od:owner odp:Visnepolschi_S ;
+    a od:CertificateLevel4 ;
+    foaf:name "Svetlana Visnepolschi" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.18>
+    od:issued "2001-03" ;
+    od:owner odp:Malkin_S ;
+    a od:CertificateLevel4 ;
+    foaf:name "Sergey Malkin" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.19>
+    od:issued "2001-03" ;
+    od:owner odp:Kaplan_L ;
+    a od:CertificateLevel4 ;
+    foaf:name "Leonid Kaplan" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.2>
+    od:issued "2000-01" ;
+    od:owner odp:Seredinski_AV ;
+    a od:CertificateLevel4 ;
+    foaf:name "Avraam Seredinski" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.20>
+    od:issued "2001-03" ;
+    od:owner odp:Ulan_P ;
+    a od:CertificateLevel4 ;
+    foaf:name "Peter Ulan" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.21>
+    od:issued "2001-03" ;
+    od:owner odp:Zainiev_G ;
+    a od:CertificateLevel4 ;
+    foaf:name "Gafur Zainiev" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.22>
+    od:issued "2001-03" ;
+    od:owner odp:Prushinsky_VO ;
+    a od:CertificateLevel4 ;
+    foaf:name "Valeriy Prushinsky" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.23>
+    od:issued "2001-03" ;
+    od:owner odp:Clarke_DW ;
+    a od:CertificateLevel4 ;
+    foaf:name "Dana W. Clarke" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.24>
+    od:issued "2001-06" ;
+    od:owner odp:Kynin_AT ;
+    a od:CertificateLevel4 ;
+    foaf:name "Alexander Kynin" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.25>
+    od:issued "2001-06" ;
+    od:owner odp:Cavallucci_D ;
+    a od:CertificateLevel4 ;
+    foaf:name "Denis Cavallucci" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.26>
+    od:issued "2001-07" ;
+    od:owner odp:Zakharov_AN ;
+    a od:CertificateLevel4 ;
+    foaf:name "Alex N. Zakharov" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.27>
+    od:issued "2001-07" ;
+    od:owner odp:Barkan_MG ;
+    a od:CertificateLevel4 ;
+    foaf:name "Mark G. Barkan" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.28>
+    od:issued "2001-07" ;
+    od:owner odp:Kogan_S ;
+    a od:CertificateLevel4 ;
+    foaf:name "Sam Kogan" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.29>
+    od:issued "2001-07" ;
+    od:owner odp:Waldman_MK ;
+    a od:CertificateLevel4 ;
+    foaf:name "Michael K. Waldman" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.3>
+    od:issued "2000-01" ;
+    od:owner odp:Semjonova_LN ;
+    a od:CertificateLevel4 ;
+    foaf:name "Ljudmila Semjonova" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.30>
+    od:issued "2001-07" ;
+    od:owner odp:Shkolnik_N ;
+    a od:CertificateLevel4 ;
+    foaf:name "Nikolay Shkolnik" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.31>
+    od:issued "2001-07" ;
+    od:owner odp:Malinin_L ;
+    a od:CertificateLevel4 ;
+    foaf:name "Len Malinin" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.32>
+    od:issued "2001-07" ;
+    od:owner odp:Dmitrienko_L ;
+    a od:CertificateLevel4 ;
+    foaf:name "Larisa Dmitrienko" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.33>
+    od:issued "2002-01" ;
+    od:owner odp:Krasnoslobodtsev_VJ ;
+    a od:CertificateLevel4 ;
+    foaf:name "Valery Krasnoslobodtsev" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.34>
+    od:issued "2002-10" ;
+    od:owner odp:Axelrod_BM ;
+    a od:CertificateLevel4 ;
+    foaf:name "Boris M. Axelrod" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.35>
+    od:issued "2002-10" ;
+    od:owner odp:Burov_LG ;
+    a od:CertificateLevel4 ;
+    foaf:name "Leo Burov" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.36>
+    od:issued "2002-10" ;
+    od:owner odp:Ilyin_IY ;
+    a od:CertificateLevel4 ;
+    foaf:name "Ilya Y. Ilyin" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.37>
+    od:issued "2002-10" ;
+    od:owner odp:Kashkarov_AG ;
+    a od:CertificateLevel4 ;
+    foaf:name "Alexander G. Kashkarov" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.38>
+    od:issued "2002-10" ;
+    od:owner odp:Kolchanov_SA ;
+    a od:CertificateLevel4 ;
+    foaf:name "Stanislav A. Kolchanov" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.39>
+    od:issued "2002-10" ;
+    od:owner odp:Logvinov_SA ;
+    a od:CertificateLevel4 ;
+    foaf:name "Sergey A. Logvinov" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.4>
+    od:issued "2000-04" ;
+    od:owner odp:Rubina_NV ;
+    a od:CertificateLevel4 ;
+    foaf:name "Natalja Rubina" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.40>
+    od:issued "2002-10" ;
+    od:owner odp:Medvedev_AV ;
+    a od:CertificateLevel4 ;
+    foaf:name "Alexander V. Medvedev" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.41>
+    od:issued "2002-10" ;
+    od:owner odp:Pavlov_VV ;
+    a od:CertificateLevel4 ;
+    foaf:name "Valeriy V. Pavlov" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.42>
+    od:issued "2002-10" ;
+    od:owner odp:Feygenson_NB ;
+    a od:CertificateLevel4 ;
+    foaf:name "Naum B. Feygenson" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.43>
+    od:issued "2002-10" ;
+    od:owner odp:Dmitriev_SA ;
+    a od:CertificateLevel4 ;
+    foaf:name "Sergey A. Dmitriev" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.44>
+    od:issued "2002-10" ;
+    od:owner odp:Dmitriev_VA ;
+    a od:CertificateLevel4 ;
+    foaf:name "Vladimir A. Dmitriev" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.45>
+    od:issued "2002-10" ;
+    od:owner odp:Privalihin_SA ;
+    a od:CertificateLevel4 ;
+    foaf:name "Sergey A. Privalihin" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.46>
+    od:issued "2002-10" ;
+    od:owner odp:Juravlev_YF ;
+    a od:CertificateLevel4 ;
+    foaf:name "Yuri F. Juravlev" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.47>
+    od:issued "2003-03" ;
+    od:owner odp:Shpakovsky_NA ;
+    a od:CertificateLevel4 ;
+    foaf:name "Nikolay Shpakovsky" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.48>
+    od:issued "2003-03" ;
+    od:owner odp:Chuksin_PI ;
+    a od:CertificateLevel4 ;
+    foaf:name "Peter Chuksin" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.49>
+    od:issued "2003-03" ;
+    od:owner odp:Shmigelsky_OC ;
+    a od:CertificateLevel4 ;
+    foaf:name "Oleg Shmigelsky" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.5>
+    od:issued "2000-05" ;
+    od:owner odp:Nesterenko_AA ;
+    a od:CertificateLevel4 ;
+    foaf:name "Alla Nesterenko" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.50>
+    od:issued "2003-03" ;
+    od:owner odp:Surkov_PP ;
+    a od:CertificateLevel4 ;
+    foaf:name "Peter Pavel Surkov" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.51>
+    od:issued "2003-03" ;
+    od:owner odp:Severinets_GA ;
+    a od:CertificateLevel4 ;
+    foaf:name "Georgi Severinets" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.52>
+    od:issued "2003-06" ;
+    od:owner odp:Beliltseva_NB ;
+    a od:CertificateLevel4 ;
+    foaf:name "Natalya Borisovna Beliltseva" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.53>
+    od:issued "2003-06" ;
+    od:owner odp:Vihorev_VN ;
+    a od:CertificateLevel4 ;
+    foaf:name "Vladimir Nicolayevich Vihorev" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.54>
+    od:issued "2003-06" ;
+    od:owner odp:Ikovenko_SA ;
+    a od:CertificateLevel4 ;
+    foaf:name "Sergey Ikovenko" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.55>
+    od:issued "2003-07" ;
+    od:owner odp:Bubenzov_VY ;
+    a od:CertificateLevel4 ;
+    foaf:name "Vladimir Bubenzov" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.56>
+    od:issued "2003-07" ;
+    od:owner odp:Gareev_RT ;
+    a od:CertificateLevel4 ;
+    foaf:name "Rifkat Gareev" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.57>
+    od:issued "2003-07" ;
+    od:owner odp:Abramov_OY ;
+    a od:CertificateLevel4 ;
+    foaf:name "Oleg Abramov" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.58>
+    od:issued "2003-07" ;
+    od:owner odp:Petiy_II ;
+    a od:CertificateLevel4 ;
+    foaf:name "Igor Petiy" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.59>
+    od:issued "2003-12" ;
+    od:owner odp:Shin_DL ;
+    a od:CertificateLevel4 ;
+    foaf:name "Dong-Lyoul Shin" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.6>
+    od:issued "2000-6" ;
+    od:owner odp:Kagan_EL ;
+    a od:CertificateLevel4 ;
+    foaf:name "Eduard Kagan" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.60>
+    od:issued "2004-04" ;
+    od:owner odp:June_KH ;
+    a od:CertificateLevel4 ;
+    foaf:name "Kim Hyo June" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.61>
+    od:issued "2004-04" ;
+    od:owner odp:Lenjaschin_VA ;
+    a od:CertificateLevel4 ;
+    foaf:name "Vassili Lenjaschin" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.62>
+    od:issued "2004-04" ;
+    od:owner odp:Jefimov_AV ;
+    a od:CertificateLevel4 ;
+    foaf:name "Andrej Jefimov" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.63>
+    od:issued "2004-09" ;
+    od:owner odp:Yoon_H ;
+    a od:CertificateLevel4 ;
+    foaf:name "Hongyul Yoon" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.64>
+    od:issued "2004-10" ;
+    od:owner odp:Chomyakov_ON ;
+    a od:CertificateLevel4 ;
+    foaf:name "Oleg Chomyakov" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.65>
+    od:issued "2004-12" ;
+    od:owner odp:Jeong_JH ;
+    a od:CertificateLevel4 ;
+    foaf:name "Jin-Ha Jeong" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.66>
+    od:issued "2004-12" ;
+    od:owner odp:Skuratovich_AI ;
+    a od:CertificateLevel4 ;
+    foaf:name "Alexander Ivanovich Skuratovich" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.67>
+    od:issued "2004-12" ;
+    od:owner odp:Kim_Y ;
+    a od:CertificateLevel4 ;
+    foaf:name "Youngil Kim" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.68>
+    od:issued "2005-01" ;
+    od:owner odp:Kim_JS ;
+    a od:CertificateLevel4 ;
+    foaf:name "Jeong–Seon Kim" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.69>
+    od:issued "2005-01" ;
+    od:owner odp:Lee_JY ;
+    a od:CertificateLevel4 ;
+    foaf:name "Jun–Young Lee" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.7>
+    od:issued "2000-11" ;
+    od:owner odp:Gladkov_AK ;
+    a od:CertificateLevel4 ;
+    foaf:name "Aleksandr Gladkov" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.70>
+    od:issued "2005-03" ;
+    od:owner odp:Bradley_J ;
+    a od:CertificateLevel4 ;
+    foaf:name "James Bradley" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.71>
+    od:issued "2005-03" ;
+    od:owner odp:Gershman_MD ;
+    a od:CertificateLevel4 ;
+    foaf:name "Michael Gershman" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.72>
+    od:issued "2005-05" ;
+    od:owner odp:Verbitsky_MJ ;
+    a od:CertificateLevel4 ;
+    foaf:name "Mihail Verbitsky" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.73>
+    od:issued "2005-05" ;
+    od:owner odp:Kudrjavtsev_AV ;
+    a od:CertificateLevel4 ;
+    foaf:name "Aleksandr Kudrjavtsev" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.74>
+    od:issued "2005-07" ;
+    od:owner odp:Kurgi_EE ;
+    a od:CertificateLevel4 ;
+    foaf:name "Eduard Kurgi" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.75>
+    od:issued "2005-08" ;
+    od:owner odp:Danilovski_JE ;
+    a od:CertificateLevel4 ;
+    foaf:name "Juri Danilovski" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.76>
+    od:issued "2005-08" ;
+    od:owner odp:Gomila_JV ;
+    a od:CertificateLevel4 ;
+    foaf:name "Jose Vicente Gomila" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.77>
+    od:issued "2005-09" ;
+    od:owner odp:Belski_JV ;
+    a od:CertificateLevel4 ;
+    foaf:name "Juri Belski" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.78>
+    od:issued "2006-01" ;
+    od:owner odp:Urazajev_VG ;
+    a od:CertificateLevel4 ;
+    foaf:name "Vladimir Urazajev" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.79>
+    od:issued "2006-04" ;
+    od:owner odp:Nilov_AP ;
+    a od:CertificateLevel4 ;
+    foaf:name "Alexej Nilov" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.8>
+    od:issued "2000-11" ;
+    od:owner odp:Maximov_NI ;
+    a od:CertificateLevel4 ;
+    foaf:name "Nikolai Maximov" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.80>
+    od:issued "2006 October" ;
+    od:owner odp:Cascini_G ;
+    a od:CertificateLevel4 ;
+    foaf:name "Gaetano Cascini" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.81>
+    od:issued "2006-10" ;
+    od:owner odp:Chernyak_VS ;
+    a od:CertificateLevel4 ;
+    foaf:name "Valeri S. Chernyak" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.82>
+    od:issued "2006-12" ;
+    od:owner odp:Kang_YJ ;
+    a od:CertificateLevel4 ;
+    foaf:name "Young–Ju Kang" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.83>
+    od:issued "2007-03" ;
+    od:owner odp:Matyushenko_AV ;
+    a od:CertificateLevel4 ;
+    foaf:name "Andrey V. Matyushenko" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.84>
+    od:issued "2007-11" ;
+    od:owner odp:Berdonosov_VD ;
+    a od:CertificateLevel4 ;
+    foaf:name "Victor Berdonosov" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.85>
+    od:issued "2007-11" ;
+    od:owner odp:Feygenson_ON ;
+    a od:CertificateLevel4 ;
+    foaf:name "Oleg N. Feygenson" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.86>
+    od:issued "2008-01" ;
+    od:owner odp:Scharipov_RH ;
+    a od:CertificateLevel4 ;
+    foaf:name "Rashid Scharipov" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.87>
+    od:issued "2008-03" ;
+    od:owner odp:Devojno_IG ;
+    a od:CertificateLevel4 ;
+    foaf:name "Igor Devojno" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.88>
+    od:issued "2009-12-01" ;
+    od:owner odp:Conley_DW ;
+    a od:CertificateLevel4 ;
+    foaf:name "David Worrell Conley" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.89>
+    od:issued "2009-12-01" ;
+    od:owner odp:Adunka_R ;
+    a od:CertificateLevel4 ;
+    foaf:name "Robert Adunka" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.9>
+    od:issued "2000-11" ;
+    od:owner odp:Sokol_A ;
+    a od:CertificateLevel4 ;
+    foaf:name "Alexander Sokol" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.90>
+    od:issued "2009-12" ;
+    od:owner odp:Lin_Y ;
+    a od:CertificateLevel4 ;
+    foaf:name "Yue Lin" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.91>
+    od:issued "2010-02" ;
+    od:owner odp:Kim_M ;
+    a od:CertificateLevel4 ;
+    foaf:name "Mansoo Kim" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.92>
+    od:issued "2010-02" ;
+    od:owner odp:Lee_HC ;
+    a od:CertificateLevel4 ;
+    foaf:name "Hee Choon Lee" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.93>
+    od:issued "2010-04" ;
+    od:owner odp:Han_YS ;
+    a od:CertificateLevel4 ;
+    foaf:name "You-Shin Han" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.94>
+    od:issued "2010-04" ;
+    od:owner odp:Khorenyan_RG ;
+    a od:CertificateLevel4 ;
+    foaf:name "Rostislav G. Khorenyan" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.95>
+    od:issued "2010-07" ;
+    od:owner odp:Song_MJ ;
+    a od:CertificateLevel4 ;
+    foaf:name "Mi Jeong Song" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.96>
+    od:issued "2011-11" ;
+    od:owner odp:MinSoo_K ;
+    a od:CertificateLevel4 ;
+    foaf:name "Kim Min-Soo" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.97>
+    od:issued "2011-12" ;
+    od:owner odp:Lebedjev_J ;
+    a od:CertificateLevel4 ;
+    foaf:name "Juri Lebedjev" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.98>
+    od:issued "2011-12" ;
+    od:owner odp:Na_H ;
+    a od:CertificateLevel4 ;
+    foaf:name "Heungyeol Na" .
+
+<http://opendiscovery.org/rdf/Certificate/L4.99>
+    od:issued "2011-12" ;
+    od:owner odp:Won_SY ;
+    a od:CertificateLevel4 ;
+    foaf:name "Song Yong Won" .
+
+<http://opendiscovery.org/rdf/L5.1>
+    od:issued "1998-09-27" ;
+    od:owner odp:Amnuel_PR ;
+    a od:CertificateLevel5 ;
+    foaf:name "Amnuel Pesakh" .
+
+<http://opendiscovery.org/rdf/L5.10>
+    od:issued "1998-09-27" ;
+    od:owner odp:Gorchakov_IP ;
+    a od:CertificateLevel5 ;
+    foaf:name "Igor Gorchakov" .
+
+<http://opendiscovery.org/rdf/L5.100>
+    od:issued "2014-09-06" ;
+    od:owner odp:Petiy_II ;
+    a od:CertificateLevel5 ;
+    foaf:name "Igor Petiy" .
+
+<http://opendiscovery.org/rdf/L5.101>
+    od:issued "2014-09-06" ;
+    od:owner odp:Won_SY ;
+    a od:CertificateLevel5 ;
+    foaf:name "Yong Won Song" .
+
+<http://opendiscovery.org/rdf/L5.102>
+    od:issued "2015-09-12" ;
+    od:owner odp:Lebedjev_J ;
+    a od:CertificateLevel5 ;
+    foaf:name "Juri Lebedev" .
+
+<http://opendiscovery.org/rdf/L5.103>
+    od:issued "2015-09-12" ;
+    od:owner odp:Kim_MS ;
+    a od:CertificateLevel5 ;
+    foaf:name "Minsoo Kim" .
+
+<http://opendiscovery.org/rdf/L5.104>
+    od:issued "2016-07-30" ;
+    od:owner odp:Kim_JH ;
+    a od:CertificateLevel5 ;
+    foaf:name "Jung-Hyeon Kim" .
+
+<http://opendiscovery.org/rdf/L5.105>
+    od:issued "2016-07-30" ;
+    od:owner odp:Na_H ;
+    a od:CertificateLevel5 ;
+    foaf:name "Heungyeol Na" .
+
+<http://opendiscovery.org/rdf/L5.106>
+    od:issued "2017-09-16" ;
+    od:owner odp:Mayer_O ;
+    a od:CertificateLevel5 ;
+    foaf:name "Oliver Mayer" .
+
+<http://opendiscovery.org/rdf/L5.107>
+    od:issued "2018-09-15" ;
+    od:owner odp:Kim_JY ;
+    a od:CertificateLevel5 ;
+    foaf:name "Jae Yeon Kim" .
+
+<http://opendiscovery.org/rdf/L5.108>
+    od:issued "2018-09-15" ;
+    od:owner odp:Sun_Y ;
+    a od:CertificateLevel5 ;
+    foaf:name "Yongwei Sun" .
+
+<http://opendiscovery.org/rdf/L5.11>
+    od:issued "1998-09-27" ;
+    od:owner odp:Golovchenko_GG ;
+    a od:CertificateLevel5 ;
+    foaf:name "Georgi Golovchenko" .
+
+<http://opendiscovery.org/rdf/L5.12>
+    od:issued "1998-09-27" ;
+    od:owner odp:Gubanov_SN ;
+    a od:CertificateLevel5 ;
+    foaf:name "Sergei Gubanov" .
+
+<http://opendiscovery.org/rdf/L5.13>
+    od:issued "1998-09-27" ;
+    od:owner odp:Gin_AA ;
+    a od:CertificateLevel5 ;
+    foaf:name "Guin, Anatoli" .
+
+<http://opendiscovery.org/rdf/L5.14>
+    od:issued "1998-09-27" ;
+    od:owner odp:Gafitulin_MS ;
+    a od:CertificateLevel5 ;
+    foaf:name "Marat Gafitulin" .
+
+<http://opendiscovery.org/rdf/L5.15>
+    od:issued "1998-09-27" ;
+    od:owner odp:Zlotin_BL ;
+    a od:CertificateLevel5 ;
+    foaf:name "Boris Zlotin" .
+
+<http://opendiscovery.org/rdf/L5.16>
+    od:issued "1998-09-27" ;
+    od:owner odp:Zusman_AV ;
+    a od:CertificateLevel5 ;
+    foaf:name "Alla Zusman" .
+
+<http://opendiscovery.org/rdf/L5.18>
+    od:issued "1998-09-27" ;
+    od:owner odp:Zinovkina_MM ;
+    a od:CertificateLevel5 ;
+    foaf:name "Miloslava Zinovkina" .
+
+<http://opendiscovery.org/rdf/L5.19>
+    od:issued "1998-09-27" ;
+    od:owner odp:Ivanov_GI ;
+    a od:CertificateLevel5 ;
+    foaf:name "Gennady Ivanov" .
+
+<http://opendiscovery.org/rdf/L5.2>
+    od:issued "1998-09-27" ;
+    od:owner odp:Bdulenko_MK ;
+    a od:CertificateLevel5 ;
+    foaf:name "Margarita Bdulenko" .
+
+<http://opendiscovery.org/rdf/L5.21>
+    od:issued "1998-09-27" ;
+    od:owner odp:Kaloshin_NG ;
+    a od:CertificateLevel5 ;
+    foaf:name "Nikolai Kaloshin" .
+
+<http://opendiscovery.org/rdf/L5.22>
+    od:issued "1998-09-27" ;
+    od:owner odp:Kriachko_VB ;
+    a od:CertificateLevel5 ;
+    foaf:name "Valentina Kriachko" .
+
+<http://opendiscovery.org/rdf/L5.23>
+    od:issued "1998-09-27" ;
+    od:owner odp:Kaner_VF ;
+    a od:CertificateLevel5 ;
+    foaf:name "Kaner, Vadim" .
+
+<http://opendiscovery.org/rdf/L5.24>
+    od:issued "1998-09-27" ;
+    od:owner odp:Kislov_AV ;
+    a od:CertificateLevel5 ;
+    foaf:name "Alexander Kislov" .
+
+<http://opendiscovery.org/rdf/L5.25>
+    od:issued "1998-09-27" ;
+    od:owner odp:Kravzov_SP ;
+    a od:CertificateLevel5 ;
+    foaf:name "Sergei Kravzov" .
+
+<http://opendiscovery.org/rdf/L5.26>
+    od:issued "1998-09-27" ;
+    od:owner odp:Kolchev_NP ;
+    a od:CertificateLevel5 ;
+    foaf:name "Nikolai Kolchev" .
+
+<http://opendiscovery.org/rdf/L5.27>
+    od:issued "1998-09-27" ;
+    od:owner odp:Linkova_NP ;
+    a od:CertificateLevel5 ;
+    foaf:name "Nina Linkova" .
+
+<http://opendiscovery.org/rdf/L5.28>
+    od:issued "1998-09-27" ;
+    od:owner odp:Litvin_SS ;
+    a od:CertificateLevel5 ;
+    foaf:name "Simon Litvin" .
+
+<http://opendiscovery.org/rdf/L5.29>
+    od:issued "1998-09-27" ;
+    od:owner odp:Limarenko_AV ;
+    a od:CertificateLevel5 ;
+    foaf:name "Anatoli Limarenko" .
+
+<http://opendiscovery.org/rdf/L5.3>
+    od:issued "1998-09-27" ;
+    od:owner odp:Beliltsev_VK ;
+    a od:CertificateLevel5 ;
+    foaf:name "Valery Beliltsev" .
+
+<http://opendiscovery.org/rdf/L5.30>
+    od:issued "1998-09-27" ;
+    od:owner odp:Ladoshkin_VS ;
+    a od:CertificateLevel5 ;
+    foaf:name "Victor Ladoshkin" .
+
+<http://opendiscovery.org/rdf/L5.31>
+    od:issued "1998-09-27" ;
+    od:owner odp:Lyubomirsky_AL ;
+    a od:CertificateLevel5 ;
+    foaf:name "Alexander Lyubomirsky" .
+
+<http://opendiscovery.org/rdf/L5.32>
+    od:issued "1998-09-27" ;
+    od:owner odp:Magidenko_VY ;
+    a od:CertificateLevel5 ;
+    foaf:name "Vladimir Magidenko" .
+
+<http://opendiscovery.org/rdf/L5.33>
+    od:issued "1998-09-27" ;
+    od:owner odp:Meerovich_MI ;
+    a od:CertificateLevel5 ;
+    foaf:name "Mark Meerovich" .
+
+<http://opendiscovery.org/rdf/L5.34>
+    od:issued "1998-09-27" ;
+    od:owner odp:Mikhailov_VA ;
+    a od:CertificateLevel5 ;
+    foaf:name "Valeri Mikhailov" .
+
+<http://opendiscovery.org/rdf/L5.35>
+    od:issued "1998-09-27" ;
+    od:owner odp:Mitrofanov_VV ;
+    a od:CertificateLevel5 ;
+    foaf:name "Voluslav Mitrofanov" .
+
+<http://opendiscovery.org/rdf/L5.36>
+    od:issued "1998-09-27" ;
+    od:owner odp:Murashkovsky_JS ;
+    a od:CertificateLevel5 ;
+    foaf:name "Julius Murashkovski" .
+
+<http://opendiscovery.org/rdf/L5.37>
+    od:issued "1998-09-27" ;
+    od:owner odp:Nikashin_AI ;
+    a od:CertificateLevel5 ;
+    foaf:name "Aleksander Nikashin" .
+
+<http://opendiscovery.org/rdf/L5.38>
+    od:issued "1998-09-27" ;
+    od:owner odp:Narbut_AF ;
+    a od:CertificateLevel5 ;
+    foaf:name "Alexander Narbut" .
+
+<http://opendiscovery.org/rdf/L5.4>
+    od:issued "1998-09-27" ;
+    od:owner odp:Bukhman_IB ;
+    a od:CertificateLevel5 ;
+    foaf:name "Isak Bukhman" .
+
+<http://opendiscovery.org/rdf/L5.40>
+    od:issued "1998-09-27" ;
+    od:owner odp:Podkatilin_AV ;
+    a od:CertificateLevel5 ;
+    foaf:name "Alexei Podkatilin" .
+
+<http://opendiscovery.org/rdf/L5.41>
+    od:issued "1998-09-27" ;
+    od:owner odp:Pigorov_GS ;
+    a od:CertificateLevel5 ;
+    foaf:name "Georgi Pigorov" .
+
+<http://opendiscovery.org/rdf/L5.42>
+    od:issued "1998-09-27" ;
+    od:owner odp:Pevsner_LK ;
+    a od:CertificateLevel5 ;
+    foaf:name "Lev Pevsner" .
+
+<http://opendiscovery.org/rdf/L5.43>
+    od:issued "1998-09-27" ;
+    od:owner odp:Petrov_VM ;
+    a od:CertificateLevel5 ;
+    foaf:name "Vladimir Petrov" .
+
+<http://opendiscovery.org/rdf/L5.44>
+    od:issued "1998-09-27" ;
+    od:owner odp:Rubin_MS ;
+    a od:CertificateLevel5 ;
+    foaf:name "Mikhail Rubin" .
+
+<http://opendiscovery.org/rdf/L5.45>
+    od:issued "1998-09-27" ;
+    od:owner odp:Royzen_ZY ;
+    a od:CertificateLevel5 ;
+    foaf:name "Zinovy Royzen" .
+
+<http://opendiscovery.org/rdf/L5.46>
+    od:issued "1998-09-27" ;
+    od:owner odp:Salamatov_YP ;
+    a od:CertificateLevel5 ;
+    foaf:name "Yuri Salamatov" .
+
+<http://opendiscovery.org/rdf/L5.47>
+    od:issued "1998-09-27" ;
+    od:owner odp:Sibiryakov_VG ;
+    a od:CertificateLevel5 ;
+    foaf:name "Vissarion Sibiryakov" .
+
+<http://opendiscovery.org/rdf/L5.48>
+    od:issued "1998-09-27" ;
+    od:owner odp:Selyutsky_AB ;
+    a od:CertificateLevel5 ;
+    foaf:name "Alexander Selyutsky" .
+
+<http://opendiscovery.org/rdf/L5.49>
+    od:issued "1998-09-27" ;
+    od:owner odp:Sichev_VV ;
+    a od:CertificateLevel5 ;
+    foaf:name "Sichev, Valeri" .
+
+<http://opendiscovery.org/rdf/L5.5>
+    od:issued "1998-09-27" ;
+    od:owner odp:Vikentiev_IL ;
+    a od:CertificateLevel5 ;
+    foaf:name "Igor Vikentiev" .
+
+<http://opendiscovery.org/rdf/L5.51>
+    od:issued "1998-09-27" ;
+    od:owner odp:Sklobovsky_KA ;
+    a od:CertificateLevel5 ;
+    foaf:name "Kiril Sklobovsky" .
+
+<http://opendiscovery.org/rdf/L5.52>
+    od:issued "1998-09-27" ;
+    od:owner odp:Stupniker_YI ;
+    a od:CertificateLevel5 ;
+    foaf:name "Yuri Stupniker" .
+
+<http://opendiscovery.org/rdf/L5.53>
+    od:issued "1998-09-27" ;
+    od:owner odp:Trigub_AV ;
+    a od:CertificateLevel5 ;
+    foaf:name "Alexander Trigub" .
+
+<http://opendiscovery.org/rdf/L5.54>
+    od:issued "1998-09-27" ;
+    od:owner odp:Timochov_VI ;
+    a od:CertificateLevel5 ;
+    foaf:name "Timochov Viktor" .
+
+<http://opendiscovery.org/rdf/L5.55>
+    od:issued "1998-09-27" ;
+    od:owner odp:Torgashev_AS ;
+    a od:CertificateLevel5 ;
+    foaf:name "Aleksander Torgashev" .
+
+<http://opendiscovery.org/rdf/L5.56>
+    od:issued "1998-09-27" ;
+    od:owner odp:Fey_VR ;
+    a od:CertificateLevel5 ;
+    foaf:name "Victor Fey" .
+
+<http://opendiscovery.org/rdf/L5.57>
+    od:issued "1998-09-27" ;
+    od:owner odp:Fedosov_YI ;
+    a od:CertificateLevel5 ;
+    foaf:name "Yury Fedosov" .
+
+<http://opendiscovery.org/rdf/L5.58>
+    od:issued "1998-09-27" ;
+    od:owner odp:Filkovsky_GL ;
+    a od:CertificateLevel5 ;
+    foaf:name "Gennady Filkovski" .
+
+<http://opendiscovery.org/rdf/L5.59>
+    od:issued "1998-09-27" ;
+    od:owner odp:Khomenko_NN ;
+    a od:CertificateLevel5 ;
+    foaf:name "Nikolai Khomenko" .
+
+<http://opendiscovery.org/rdf/L5.6>
+    od:issued "1998-09-27" ;
+    od:owner odp:Vertkin_IM ;
+    a od:CertificateLevel5 ;
+    foaf:name "Igor Vertkin" .
+
+<http://opendiscovery.org/rdf/L5.60>
+    od:issued "1998-09-27" ;
+    od:owner odp:Kholkin_IN ;
+    a od:CertificateLevel5 ;
+    foaf:name "Igor Kholkin" .
+
+<http://opendiscovery.org/rdf/L5.61>
+    od:issued "1998-09-27" ;
+    od:owner odp:Curikov_VM ;
+    a od:CertificateLevel5 ;
+    foaf:name "Valeri Tzourikov" .
+
+<http://opendiscovery.org/rdf/L5.62>
+    od:issued "1998-09-27" ;
+    od:owner odp:Shusterman_MN ;
+    a od:CertificateLevel5 ;
+    foaf:name "Mikhail Shusterman" .
+
+<http://opendiscovery.org/rdf/L5.65>
+    od:issued "1998-09-27" ;
+    od:owner odp:Shragina_LI ;
+    a od:CertificateLevel5 ;
+    foaf:name "Larisa Shragina" .
+
+<http://opendiscovery.org/rdf/L5.66>
+    od:owner odp:Kynin_AT ;
+    a od:CertificateLevel5 ;
+    foaf:name "Alexander Kynin" .
+
+<http://opendiscovery.org/rdf/L5.67>
+    od:owner odp:Kudryavtsev_AV ;
+    a od:CertificateLevel5 ;
+    foaf:name "Alexander Kudryavtsev" .
+
+<http://opendiscovery.org/rdf/L5.68>
+    od:owner odp:Ikovenko_SA ;
+    a od:CertificateLevel5 ;
+    foaf:name "Sergei Ikovenko" .
+
+<http://opendiscovery.org/rdf/L5.69>
+    od:owner odp:Shpakovsky_NA ;
+    a od:CertificateLevel5 ;
+    foaf:name "Nikolay Shpakovsky" .
+
+<http://opendiscovery.org/rdf/L5.7>
+    od:issued "1998-09-27" ;
+    od:owner odp:Gasanov_AI ;
+    a od:CertificateLevel5 ;
+    foaf:name "Alexander Gasanov" .
+
+<http://opendiscovery.org/rdf/L5.70>
+    od:owner odp:Pinyayev_AM ;
+    a od:CertificateLevel5 ;
+    foaf:name "Alexey Pinyaev" .
+
+<http://opendiscovery.org/rdf/L5.71>
+    od:owner odp:Axelrod_BM ;
+    a od:CertificateLevel5 ;
+    foaf:name "Boris Axelrod" .
+
+<http://opendiscovery.org/rdf/L5.72>
+    od:owner odp:Feygenson_NB ;
+    a od:CertificateLevel5 ;
+    foaf:name "Naum Feygenson" .
+
+<http://opendiscovery.org/rdf/L5.73>
+    od:owner odp:Devojno_IG ;
+    a od:CertificateLevel5 ;
+    foaf:name "Igor Devoino" .
+
+<http://opendiscovery.org/rdf/L5.74>
+    od:owner odp:Kashkarov_AG ;
+    a od:CertificateLevel5 ;
+    foaf:name "Alexander Kashkarov" .
+
+<http://opendiscovery.org/rdf/L5.75>
+    od:owner odp:Belski_JV ;
+    a od:CertificateLevel5 ;
+    foaf:name "Iouri Belski" .
+
+<http://opendiscovery.org/rdf/L5.76>
+    od:owner odp:Gerasimov_OM ;
+    a od:CertificateLevel5 ;
+    foaf:name "Oleg Gerasimov" .
+
+<http://opendiscovery.org/rdf/L5.77>
+    od:owner odp:Kang_YJ ;
+    a od:CertificateLevel5 ;
+    foaf:name "Young-Ju Kang" .
+
+<http://opendiscovery.org/rdf/L5.78>
+    od:owner odp:Feygenson_ON ;
+    a od:CertificateLevel5 ;
+    foaf:name "Oleg Feygenson" .
+
+<http://opendiscovery.org/rdf/L5.79>
+    od:owner odp:Logvinov_SA ;
+    a od:CertificateLevel5 ;
+    foaf:name "Sergei Logvinov" .
+
+<http://opendiscovery.org/rdf/L5.8>
+    od:issued "1998-09-27" ;
+    od:owner odp:Gerasimov_VM ;
+    a od:CertificateLevel5 ;
+    foaf:name "Vladimir Gerasimov" .
+
+<http://opendiscovery.org/rdf/L5.80>
+    od:issued "2011-07-23" ;
+    od:owner odp:Kaplan_LA ;
+    a od:CertificateLevel5 ;
+    foaf:name "Len Kaplan" .
+
+<http://opendiscovery.org/rdf/L5.81>
+    od:issued "2011-07-23" ;
+    od:owner odp:Yefimov_AV ;
+    a od:CertificateLevel5 ;
+    foaf:name "Andrei Efimov" .
+
+<http://opendiscovery.org/rdf/L5.82>
+    od:issued "2012-05-28" ;
+    od:owner odp:Goldovsky_BI ;
+    a od:CertificateLevel5 ;
+    foaf:name "Boris Goldovsky" .
+
+<http://opendiscovery.org/rdf/L5.83>
+    od:issued "2012-05-28" ;
+    od:owner odp:Barkan_MG ;
+    a od:CertificateLevel5 ;
+    foaf:name "Mark Barkan" .
+
+<http://opendiscovery.org/rdf/L5.84>
+    od:issued "2012-05-28" ;
+    od:owner odp:Bradley_J ;
+    a od:CertificateLevel5 ;
+    foaf:name "Jim Bradley" .
+
+<http://opendiscovery.org/rdf/L5.85>
+    od:issued "2012-05-28" ;
+    od:owner odp:Danilovsky_JE ;
+    a od:CertificateLevel5 ;
+    foaf:name "Jura Danilovskiy" .
+
+<http://opendiscovery.org/rdf/L5.86>
+    od:issued "2012-05-28" ;
+    od:owner odp:Leniashin_VA ;
+    a od:CertificateLevel5 ;
+    foaf:name "Vasily Leniachin" .
+
+<http://opendiscovery.org/rdf/L5.87>
+    od:issued "2012-05-28" ;
+    od:owner odp:Prushinsky_VO ;
+    a od:CertificateLevel5 ;
+    foaf:name "Valeriy Prushinskiy" .
+
+<http://opendiscovery.org/rdf/L5.88>
+    od:owner odp:Abramov_OY ;
+    a od:CertificateLevel5 ;
+    foaf:name "Oleg Abramov" .
+
+<http://opendiscovery.org/rdf/L5.89>
+    od:owner odp:Song_MJ ;
+    a od:CertificateLevel5 ;
+    foaf:name "Mi Jeong Song" .
+
+<http://opendiscovery.org/rdf/L5.9>
+    od:issued "1998-09-27" ;
+    od:owner odp:Gorin_YV ;
+    a od:CertificateLevel5 ;
+    foaf:name "Yury Gorin" .
+
+<http://opendiscovery.org/rdf/L5.90>
+    od:owner odp:Faer_S ;
+    a od:CertificateLevel5 ;
+    foaf:name "Sergey Faer" .
+
+<http://opendiscovery.org/rdf/L5.91>
+    od:issued "2013-08-03" ;
+    od:owner odp:Minaker_V ;
+    a od:CertificateLevel5 ;
+    foaf:name "Viktor Minaker" .
+
+<http://opendiscovery.org/rdf/L5.92>
+    od:issued "2013-08-03" ;
+    od:owner odp:Lee_JY ;
+    a od:CertificateLevel5 ;
+    foaf:name "Jun-Young Lee" .
+
+<http://opendiscovery.org/rdf/L5.93>
+    od:issued "2013-08-03" ;
+    od:owner odp:Souchkov_V ;
+    a od:CertificateLevel5 ;
+    foaf:name "Valeri Souchkov" .
+
+<http://opendiscovery.org/rdf/L5.94>
+    od:issued "2013-08-03" ;
+    od:owner odp:Rubina_NV ;
+    a od:CertificateLevel5 ;
+    foaf:name "Natalja Rubina" .
+
+<http://opendiscovery.org/rdf/L5.95>
+    od:issued "2013-08-03" ;
+    od:owner odp:Medvedyev_AV ;
+    a od:CertificateLevel5 ;
+    foaf:name "Aleksandr Medvedyev" .
+
+<http://opendiscovery.org/rdf/L5.96>
+    od:issued "2014-09-06" ;
+    od:owner odp:Yoon_H ;
+    a od:CertificateLevel5 ;
+    foaf:name "Hongyul Yoon" .
+
+<http://opendiscovery.org/rdf/L5.97>
+    od:issued "2014-06-06" ;
+    od:owner odp:Adunka_R ;
+    a od:CertificateLevel5 ;
+    foaf:name "Robert Adunka" .
+
+<http://opendiscovery.org/rdf/L5.98>
+    od:issued "2014-09-06" ;
+    od:owner odp:Severinets_GA ;
+    a od:CertificateLevel5 ;
+    foaf:name "Georgi Severinets" .
+
+<http://opendiscovery.org/rdf/L5.99>
+    od:issued "2014-09-06" ;
+    od:owner odp:Gershman_MD ;
+    a od:CertificateLevel5 ;
+    foaf:name "Michael Gershman" .
+

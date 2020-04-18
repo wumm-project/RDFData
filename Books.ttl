@@ -438,7 +438,7 @@ od:TRIZ-Book
 <http://opendiscovery.org/rdf/Book/BIB.110>
     dc:language "en"^^dcterms:RFC4646 ;
     dc:publisher "Invention Machine Educational Services" ;
-    dcterms:creator odp:Arel_AT, odp:Devojno_I, odp:Ikovenko_S, odp:Verbitsky_M ;
+    dcterms:creator odp:Arel_AT, odp:Devojno_IG, odp:Ikovenko_SA, odp:Verbitsky_M ;
     dcterms:issued "2002" ;
     dcterms:title "TechOptimizer Fundamentals"@en ;
     a od:TRIZ-Book ;

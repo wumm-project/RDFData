@@ -566,7 +566,7 @@
 <http://opendiscovery.org/rdf/TBK/BIB.110> a od:Reference;
    dcterms:title "TechOptimizer Fundamentals";
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.4>;
-   dcterms:creator odp:Ikovenko_S, odp:Devojno_IG, odp:Verbitsky_MJ, odp:Arel_AT;
+   dcterms:creator odp:Ikovenko_SA, odp:Devojno_IG, odp:Verbitsky_MJ, odp:Arel_AT;
    dcterms:year "2002";
    dc:publisher "Invention Machine Educational Services" .
 
@@ -713,7 +713,7 @@
 <http://opendiscovery.org/rdf/TBK/BIB.131> a od:Reference;
    dcterms:title "Specific Features of Resources Utilization for Problem Solving and Improving Obtained Solutions";
    od:hatVerweis <http://opendiscovery.org/rdf/TBK/Verweis.7>;
-   dcterms:creator odp:Royzen_Z;
+   dcterms:creator odp:Royzen_ZY;
    dcterms:year "1986";
    rdfs:comment "Kishinev: 1986" .
 

@@ -48,13 +48,16 @@ The RDFData collected within the Open Discovery Project.
 * Conferences/TRIZ-Summit-2019.ttl - information about the TRIZ Summit 2019 in
   Minsk
 * Glossary.ttl - A glossary extracted from the German VDI norm
-* MATRIZ-Certificates.ttl - Data of MATRIZ certificates (Level 4 only at the moment)
+* MATRIZ-Certificates.ttl - Data of MATRIZ certificates
+  * 2020-04-06 graebe: Level 4 certificates
+  * 2020-04-18 graebe: Level 5 certificates
 * People.ttl - People within the TRIZ Social Network
-  * HGG, 2020-04-01: Update with the authors listed in the TBK
-  * HGG, 2020-04-06: Update with the MATRIZ Level 4 certificates
-  * HGG, 2020-04-17: Update with the authors listed in the TBK-2007
+  * 2020-04-01 graebe: Update with the authors listed in the TBK-2012
+  * 2020-04-06 graebe: Update with the MATRIZ Level 4 certificates
+  * 2020-04-17 graebe: Update with the authors listed in the TBK-2007
+  * 2020-04-18 graebe: Update with the MATRIZ Level 5 certificates
 * StandardSolutions.ttl - The 76 Standard Solutions in TRIZ form
-* TBK.ttl - TRIZ Body of Knowledge as RDF Data
+* TBK.ttl - TRIZ Body of Knowledge (2012 version) as RDF Data
 * TheParameters.ttl - The 39 parameters as in the matrix of Altshuller 1985 
 * ThePrinciples.ttl - The 40 principles according to Altshuller 1985 
 * TheMatrix.ttl - Altshullers 39x39 matrix 
