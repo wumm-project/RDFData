@@ -210,10 +210,10 @@ odp:Chernyak_VS
     foaf:fullname "Валерий Семенович Черняк"@ru ;
     foaf:name "Valeri S. Chernyak" .
 
-odp:Chizhevskaya_N
+odp:Chizhevskaya_NE
     a foaf:Person ;
     foaf:affil "Преподаватель БГАИ, педагог дополнительного образования «ГУО ЦДОДиМ Виктория» г. Минска, Педагог дополнительного образования"@ru ;
-    foaf:fullname "Наталия Чижевская"@ru ;
+    foaf:fullname "Наталия Эдуардовна Чижевская"@ru ;
     foaf:homepage <https://www.facebook.com/profile.php?id=100009312245237> ;
     foaf:name "Nataliya Chizhevskaya" .
 
@@ -532,7 +532,7 @@ odp:Hee_CJ
 
 odp:Hentschel_C
     a foaf:Person ;
-    foaf:affil "HS Berlin, Germany" ;
+    foaf:affil "HTW Berlin, Germany" ;
     foaf:name "Claudia Hentschel" .
 
 odp:Herrlich_M
@@ -1346,6 +1346,11 @@ odp:Shragina_LI
     foaf:fullname "Лариса Исааковна Шрагина"@ru ;
     foaf:name "Larisa Shragina" .
 
+odp:Shukmin_K
+    a foaf:Person ;
+    foaf:affil "Tauranga, New Zealand" ;
+    foaf:name "Konstantin Shukmin" .
+
 odp:Shukov_RF
     a foaf:Person ;
     foaf:fullname "Р.Ф. Жуков"@ru ;
@@ -1451,6 +1456,11 @@ odp:Surkov_PP
 odp:Sysoev_S
     a foaf:Person ;
     foaf:name "Sergej Sysoev" .
+
+odp:Tan_RH
+    a foaf:Person ;
+    foaf:affil "National Engineering Research Center for Technical Innovation Methods and Tools, China"; 
+    foaf:name "Runhua Tan" .
 
 odp:Terekhova_G
     a foaf:Person ;

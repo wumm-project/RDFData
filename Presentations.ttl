@@ -89,6 +89,18 @@ od:Presentation a owl:Class ;
   dcterms:language  "ru"^^dcterms:RFC4646 ; 
   dcterms:issued "2019-12-26"^^dcterms:W3CDTF .
 
+<http://opendiscovery.org/rdf/Presentation/Kuryan-20200422>
+  a od:Presentation ;
+  dcterms:creator odp:Kuryan_A ;
+  dcterms:title  "О развитии систем, работе с требованиями и применении ТРИЗ в бизнесе с Андреем Курьяном"@ru ;
+  dcterms:abstract "MakeSense Podcast"@en ; 
+  od:urlVideo <https://www.youtube.com/watch?v=lZGlOoahpvc> ;
+  dcterms:rights "Youtube Standard License" ;
+  dcterms:extent "00:55:43 h" ;
+  dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  dcterms:issued "2020-04-22"^^dcterms:W3CDTF .
+
 <http://opendiscovery.org/rdf/Presentation/Litvin-20171101>
   a od:Presentation ;
   dcterms:creator odp:Litvin_S ;
