@@ -57,7 +57,12 @@ The RDFData collected within the Open Discovery Project.
   * 2020-04-17 graebe: Update with the authors listed in the TBK-2007
   * 2020-04-18 graebe: Update with the MATRIZ Level 5 certificates
 * StandardSolutions.ttl - The 76 Standard Solutions in TRIZ form
-* TBK.ttl - TRIZ Body of Knowledge (2012 version) as RDF Data
+* TBK1-Concepts.ttl - Concepts in the TRIZ Body of Knowledge (2012 English
+  version) as RDF Data
+* TBK2-Concepts.ttl - Concepts in the TRIZ Body of Knowledge (2007 Russian
+  version) as RDF Data
+* TBK-Literature.ttl - Literature referenced in the TBK1 (to be completed and
+  crossreferenced with TBK2)
 * TheParameters.ttl - The 39 parameters as in the matrix of Altshuller 1985 
 * ThePrinciples.ttl - The 40 principles according to Altshuller 1985 
 * TheMatrix.ttl - Altshullers 39x39 matrix 
