@@ -18,8 +18,7 @@
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     a owl:Ontology ;
-    rdfs:comment "Graebe 2020-03-05: Extracted and transformed from the English version of the \"TRIZ Body of Knowledge\"",
-    "Graebe 2020-05-24: Divided into Concepts and Literature, compiled a common source of the references in the different TBKs";
+    rdfs:comment "Graebe 2020-03-05: Extracted and transformed from the English version of the \"TRIZ Body of Knowledge\"", "Graebe 2020-05-24: Divided into Concepts and Literature, compiled a common source of the references in the different TBKs" ;
     rdfs:label "Open Discovery Database - The TRIZ Body of Knowledge. References" ;
     owl:imports <http://opendiscovery.org/rdf/People/> .
 
@@ -159,11 +158,12 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1973_f7ac4f0a3931f59b7c8e7ab7cb43359b>
     od:hatVerweis odv2:B04 ;
-    od:isPartOf "Альтшуллер Г. С. Алгоритм изобретения. 2-е изд. — М: Московский рабочий, 1973, с. 99—120."@ru ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Altshuller_1973_29f1eafaa2889cf33b2ed664a1597754> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1973" ;
     dcterms:title "Диалектика изобретения"@ru ;
-    a od:Reference .
+    a od:BookChapter, od:Reference ;
+    rdfs:comment "pp. 99—120." .
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1973_fd885d60ef05f1b32add46a1daf4515a>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.6> ;
@@ -254,19 +254,21 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1977_4366b016af7195735e7118e3adf27e30>
     od:hatVerweis odv2:F21 ;
-    od:isPartOf "Селюцкий А. Б., Слугин Г. И. Вдохновение по заказу. Уроки изобретательства. Петрозаводск: Карелия, 1977, 190 с. (с. 162—165)."@ru ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1977_61f50b6d082fc2d3d71df3aa115fc02a> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1977" ;
     dcterms:title "«Начнем с увеличения в Миллиард раз…» (эпизод четвертый)"@ru ;
-    a od:Reference .
+    a od:BookChapter, od:Reference ;
+    rdfs:comment "pp. 162—165" .
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1977_5421b80e8e90ab44c25788c3a075429f>
     od:hatVerweis odv2:F31 ;
-    od:isPartOf "Селюцкий А. Б., Слугин Г. И. Вдохновение по заказу. Уроки изобретательства. Петрозаводск: Карелия, 1977, 190 с. (с. 155 -158)."@ru ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1977_61f50b6d082fc2d3d71df3aa115fc02a> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1977" ;
     dcterms:title "На пыльных тропинках далеких планет (эпизод второй)"@ru ;
-    a od:Reference .
+    a od:BookChapter, od:Reference ;
+    rdfs:comment "pp. 155 -158" .
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1977_597b673c4b26a8b37d02e2edb2689a8f>
     od:hatVerweis odv2:D22 ;
@@ -278,27 +280,30 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1977_71f79fd3c777dfb67aa12c88a28cd1be>
     od:hatVerweis odv2:F24 ;
-    od:isPartOf "Селюцкий А. Б., Слугин Г. И. Вдохновение по заказу. Уроки изобретательства. Петрозаводск: Карелия, 1977, 190 с. (с. 158—162)."@ru ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1977_61f50b6d082fc2d3d71df3aa115fc02a> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1977" ;
     dcterms:title "Еще раз о золотой рыбке (эпизод третий)"@ru ;
-    a od:Reference .
+    a od:BookChapter, od:Reference ;
+    rdfs:comment "pp. 158—162" .
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1977_9d716e1af73c5f08c98110c88b00beff>
     od:hatVerweis odv2:D13 ;
-    od:isPartOf "Указатель физических эффектов и явлений для изобретателей и рационализаторов / Денисов С., Ефимов В., Зубарев В., Кустов В.- Обнинск, 1977, 214 с. (январь 1978, с. 14—20)."@ru ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Denisov_1977_8842509711f3473a1517de42629da223> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1977" ;
     dcterms:title "Введение"@ru ;
-    a od:Reference .
+    a od:BookChapter, od:Reference ;
+    rdfs:comment "pp. 14—20" .
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1977_d0890f8ec8a2d2cd807aab2bffeccbbf>
     od:hatVerweis odv2:F21, odv2:F22 ;
-    od:isPartOf "Селюцкий А. Б., Слугин Г. И. Вдохновение по заказу. Уроки изобретательства. Петрозаводск: Карелия, 1977, 190 с. (с. 151—155, 165—166)"@ru ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1977_61f50b6d082fc2d3d71df3aa115fc02a> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1977" ;
     dcterms:title "Маленькие-маленькие человечки (эпизод первый). Подозрительно простая задача (эпизод пятый)"@ru ;
-    a od:Reference .
+    a od:BookChapter, od:Reference ;
+    rdfs:comment "pp. 151—155, 165—166" .
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1977_fdc5949c35d38702310f0901dfa7fd3e>
     od:hatVerweis odv2:B08, odv2:B10, odv2:B11, odv2:B12, odv2:B14, odv2:B16, odv2:B17 ;
@@ -319,25 +324,17 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1979_0620ecde7d76322f7c1608409196d215>
     od:hatVerweis odv2:B08, odv2:B10, odv2:B11, odv2:B12, odv2:B14, odv2:B16, odv2:B17 ;
-    od:isPartOf "Альтшуллер Г. С. Творчество как точная наука. Теория решения изобретательских задач. — М.: Сов. радио, 1979.-184 с. — Кибернетика. (с. 122—127)"@ru ;
+    rdfs:comment "pp. 122—127" ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Altshuller_1979_f1b8dc3220f46e042e2e3120351a2c4d> ; 
     od:relatedLinks <http://www.altshuller.ru/triz/zrts1.asp> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1979" ;
     dcterms:title "Законы развития систем"@ru ;
     a od:Reference .
 
-<http://opendiscovery.org/rdf/BIB/Altshuller_1979_654e5d360e9047b5ea6fe306558369c7>
-    od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.10>, <http://opendiscovery.org/rdf/TBK1/Verweis.12>, <http://opendiscovery.org/rdf/TBK1/Verweis.13>, <http://opendiscovery.org/rdf/TBK1/Verweis.14>, <http://opendiscovery.org/rdf/TBK1/Verweis.27>, <http://opendiscovery.org/rdf/TBK1/Verweis.33>, <http://opendiscovery.org/rdf/TBK1/Verweis.34>, <http://opendiscovery.org/rdf/TBK1/Verweis.40>, <http://opendiscovery.org/rdf/TBK1/Verweis.41>, <http://opendiscovery.org/rdf/TBK1/Verweis.6> ;
-    od:relatedLinks <http://www.altshuller.ru/triz/zrts1.asp> ;
-    dc:language "ru"^^dcterms:RFC4646 ;
-    dc:publisher "M: Sovietskoje radio" ;
-    dcterms:creator odp:Altshuller_GS ;
-    dcterms:issued "1979" ;
-    dcterms:title "Creativity as an Exact Science. Theory of Inventive Problem Solving"@en, "Творчество как точная наука. Теория решения изобретательских задач"@ru ;
-    a od:Reference, od:TRIZ-Book .
-
 <http://opendiscovery.org/rdf/BIB/Altshuller_1979_6b2bce480423132e054abe2494986207>
-    od:isPartOf "Альтшуллер Г. С. Творчество как точная наука. Теория решения изобретательских задач. — М.: Сов. Радио, 1979, 184 с. — Кибернетика, с. 113—119."@ru ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Altshuller_1979_f1b8dc3220f46e042e2e3120351a2c4d> ;
+    rdfs:comment "pp. 113—119" ;
     od:relatedLinks <http://www.altshuller.ru/triz/zrts4.asp> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1979" ;
@@ -354,7 +351,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1979_91d72f2c590afc24f31fa0abb4972691>
     od:hatVerweis odv2:C06 ;
-    od:isPartOf "Альтшуллер Г. С. Творчество как точная наука. Теория решения изобретательских задач. — М.: Сов. радио, 1979.-184 с. — Кибернетика. (с. 30—43)."@ru ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Altshuller_1979_f1b8dc3220f46e042e2e3120351a2c4d> ;
+    rdfs:comment "pp. 30—43" ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1979" ;
     dcterms:title "Принципы вепольного анализа"@ru ;
@@ -362,7 +360,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1979_9a508f135770ec6feb566ee584254d6b>
     od:hatVerweis odv2:C01 ;
-    od:isPartOf "Альтшуллер Г. С. Творчество как точная наука. Теория решения изобретательских задач. — М.: Сов. радио, 1979.-184 с. — Кибернетика. (с. 19—21)."@ru ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Altshuller_1979_f1b8dc3220f46e042e2e3120351a2c4d> ;
+    rdfs:comment "pp. 19—21" ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1979" ;
     dcterms:title "Противоречия административные, технические, физические"@ru ;
@@ -370,7 +369,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1979_a29035a89e9b0357a452d9c331dc2df8>
     od:hatVerweis odv2:D12 ;
-    od:isPartOf "Альтшуллер Г. С. Творчество как точная наука. Теория решения изобретательских задач. — М.: Сов. Радио, 1979, 184 с. — Кибернетика, с. 103—105."@ru ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Altshuller_1979_f1b8dc3220f46e042e2e3120351a2c4d> ;
+    rdfs:comment "pp. 103—105" ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1979" ;
     dcterms:title "Макро- и микроуровни приемов устранения противоречий"@ru ;
@@ -378,7 +378,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1979_a90af5416851cfc80b36932e48723d99>
     od:hatVerweis odv2:B05 ;
-    od:isPartOf "Альтшуллер Г. С. Творчество как точная наука. Теория решения изобретательских задач. — М.: Сов. радио, 1979. — 184 с. — Кибернетика. (с. 66—69)."@ru ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Altshuller_1979_f1b8dc3220f46e042e2e3120351a2c4d> ;
+    rdfs:comment "pp. 66—69" ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1979" ;
     dcterms:title "Структура талантливого мышления"@ru ;
@@ -386,19 +387,22 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1979_c86e8db2239d51fdb9d2ace922a15312>
     od:hatVerweis odv2:C06 ;
-    od:isPartOf "Альтшуллер Г. С. Творчество как точная наука. Теория решения изобретательских задач. — М.: Сов. радио, 1979.-184 с. — Кибернетика. (с. 160—165)."@ru ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Altshuller_1979_f1b8dc3220f46e042e2e3120351a2c4d> ;
+    rdfs:comment "160—165" ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1979" ;
     dcterms:title "Типовые модели изобретательских задач и их вепольные преобразования"@ru ;
     a od:Reference .
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1979_f1b8dc3220f46e042e2e3120351a2c4d>
-    od:hatVerweis odv2:C02, odv2:D07 ;
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.10>, <http://opendiscovery.org/rdf/TBK1/Verweis.12>, <http://opendiscovery.org/rdf/TBK1/Verweis.13>, <http://opendiscovery.org/rdf/TBK1/Verweis.14>, <http://opendiscovery.org/rdf/TBK1/Verweis.27>, <http://opendiscovery.org/rdf/TBK1/Verweis.33>, <http://opendiscovery.org/rdf/TBK1/Verweis.34>, <http://opendiscovery.org/rdf/TBK1/Verweis.40>, <http://opendiscovery.org/rdf/TBK1/Verweis.41>, <http://opendiscovery.org/rdf/TBK1/Verweis.6>, odv2:C02, odv2:D07 ;
+    od:relatedLinks <http://www.altshuller.ru/triz/zrts1.asp> ;
+    dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "М.: Сов. Радио, 1979, 184 с. — Кибернетика."@ru ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1979" ;
-    dcterms:title "Творчество как точная наука. Теория решения изобретательских задач"@ru ;
-    a od:Reference .
+    dcterms:title "Creativity as an Exact Science. Theory of Inventive Problem Solving"@en, "Творчество как точная наука. Теория решения изобретательских задач"@ru ;
+    a od:Reference, od:TRIZ-Book .
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1980_2cfbe4a12614d0d2aa0a5873da0cdf68>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.11>, <http://opendiscovery.org/rdf/TBK1/Verweis.6> ;
@@ -411,7 +415,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1980_2e8110ba1a5a0167c50c39fa378e6b70>
     od:hatVerweis odv2:F19 ;
-    od:isPartOf "Техники и наука. — 1980, №5. — с. 26—27"@ru ;
+    od:inJournal "Техники и наука. — 1980, №5. — с. 26—27"@ru ;
     od:relatedLinks <http://www.altshuller.ru/rtv/rtv10.asp> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1980" ;
@@ -453,10 +457,10 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1983_b0db0d1c323d332ba8c0346a7cfbe6a4>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.32>, odv2:D05 ;
-    od:isPartOf "Альтшуллер Г. С. Алгоритм решения изобретательских задач АРИЗ-85-А. — Баку, 1983. п. 16, с. 14."@ru ;
     dcterms:creator odp:Altshuller_GS ;
+    dc:publisher "Баку, 1983"@ru ;
     dcterms:issued "1983" ;
-    dcterms:title "Comments on ARIZ-85A"@en, "Пояснения к АРИЗ-85-А"@ru ;
+    dcterms:title "Алгоритм решения изобретательских задач АРИЗ-85-А"@ru ;
     a od:Reference .
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1984_516a36917181a5bca6ddfcefef6be063>
@@ -567,7 +571,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1986_78a4aaa56f4370fe7d9dce21b96026e7>
     od:hatVerweis odv2:F34 ;
-    od:isPartOf "Альтшуллер Г. С. Найти идею. Введение в теорию решения изобретательских задач. — Новосибирск.: Наука, 1986, 209 с. (С. 173—186)"@ru ;
+    rdfs:comment "pp. 173—186" ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Altshuller_1986_2949f85d2da48ca82fc172108e1b525e> ; 
     od:relatedLinks <http://www.altshuller.ru/trtl/trtl1.asp> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1986" ;
@@ -593,7 +598,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1987_0cabbd1f8091941fcace4daf6ab7a4e1>
     od:hatVerweis odv2:B03 ;
-    od:isPartOf "Дерзкие формулы творчества / (Сост. А. Б. Селюцкий). — Петрозаводск: Карелия, 1987. — 269 с. — (Техника-молодежь-творчество), с. 57—80."@ru ;
+    rdfs:comment "pp. 57—80" ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1987" ;
     dcterms:title "Основные идеи ТРИЗ"@ru ;
@@ -601,7 +607,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1987_0cff2b9639da6385e51af8f9d20ff393>
     od:hatVerweis odv2:C06 ;
-    od:isPartOf "Альтшуллер Г. С. Дерзкие формулы творчества. — Дерзкие формулы творчества/ (Сост. А. Б. Селюцкий). — Петрозаводск: Карелия, 1987. — 269 с. — (Техника-молодежь-творчество), с. 67— 74."@ru ;
+    rdfs:comment "pp. 67—74" ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1987" ;
     dcterms:title "Понятие о веполе"@ru ;
@@ -618,7 +625,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1987_3071cfb675a93a475aa605c706ed6b91>
     od:hatVerweis odv2:B09 ;
-    od:isPartOf "Альтшуллер Г. С. Дерзкие формулы творчества. — Дерзкие формулы творчества/ (Сост. А. Б. Селюцкий). — Петрозаводск: Карелия, 1987. — 269 с. — (Техника-молодежь-творчество), с. 25—29."@ru ;
+    rdfs:comment "pp. 25—29" ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1987" ;
     dcterms:title "Основные этапы развития технических систем"@ru ;
@@ -626,7 +634,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1987_373383ae5d0b5f231d6dd0f6f77781ba>
     od:hatVerweis odv2:B19 ;
-    od:isPartOf "Альтшуллер Г. С. Дерзкие формулы творчества. — Дерзкие формулы творчества / (Сост. А. Б. Селюцкий). — Петрозаводск: Карелия, 1987. — 269 с. — (Техника-молодежь-творчество), с. 74—75."@ru ;
+    rdfs:comment "pp. 74—75" ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1987" ;
     dcterms:title "Некоторые законы развития технических систем"@ru ;
@@ -643,15 +652,19 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1987_3c77afff5636b264676b48c354596769>
     od:hatVerweis odv2:C01 ;
-    od:isPartOf "Дерзкие формулы творчества/ (Сост. А. Б. Селюцкий). — Петрозаводск: Карелия, 1987. — 269 с. — (Техника-молодежь-творчество), с. 64—66."@ru ;
+    od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.11>, <http://opendiscovery.org/rdf/TBK1/Verweis.14>, <http://opendiscovery.org/rdf/TBK1/Verweis.42>, <http://opendiscovery.org/rdf/TBK1/Verweis.6> ;
+    rdfs:comment "pp. 64—66" ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1987" ;
+    dcterms:title "Daring Formulae of Creativity"@en ;
     dcterms:title "Дерзкие формулы творчества"@ru ;
     a od:Reference .
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1987_867391a98566bfc1830887949ec145c6>
     od:hatVerweis odv2:B01 ;
-    od:isPartOf "Дерзкие формулы творчества/ (Сост. А. Б. Селюцкий). — Петрозаводск: Карелия, 1987. — 269 с. — (Техника-молодежь-творчество), с. 15—29."@ru ;
+    rdfs:comment "pp. 15—29" ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1987" ;
     dcterms:title "Изобретательские задачи"@ru ;
@@ -667,19 +680,12 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1987_dacb6a10d605f437969de5d42b44313b>
     od:hatVerweis odv2:B02 ;
-    od:isPartOf "Альтшуллер Г. С. Дерзкие формулы творчества. — Дерзкие формулы творчества / (Сост. А. Б. Селюцкий). — Петрозаводск: Карелия, 1987. — 269 с. — (Техника-молодежь-творчество), с. 22—25."@ru ;
+    rdfs:comment "pp. 22—25" ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1987" ;
     dcterms:title "Уровни изобретений"@ru ;
     a od:Reference .
-
-<http://opendiscovery.org/rdf/BIB/Altshuller_1987_debe9017eab4fef8cf69e1cfc89ff97b>
-    od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.11>, <http://opendiscovery.org/rdf/TBK1/Verweis.14>, <http://opendiscovery.org/rdf/TBK1/Verweis.42>, <http://opendiscovery.org/rdf/TBK1/Verweis.6> ;
-    dcterms:creator odp:Altshuller_GS ;
-    dcterms:issued "1987" ;
-    dcterms:title "Daring Formulae of Creativity" ;
-    a od:Reference ;
-    rdfs:comment "Compiled by Selyutsky, A.B.. - Petrozavodsk: Karelia, 1987. Series (Engineering - Young people - Creativity), p. 67-74." .
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1987_e31ee147d2ab00d2e7850be4b6b03f8d>
     od:hatVerweis odv2:F34 ;
@@ -692,7 +698,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1987_ebeadb15af2729b91cc08a139004efe3>
     od:hatVerweis odv2:B08, odv2:B10, odv2:B11, odv2:B12, odv2:B14, odv2:B16, odv2:B17 ;
-    od:isPartOf "Альтшуллер Г. С. Дерзкие формулы творчества. — Дерзкие формулы творчества / (Сост. А. Б. Селюцкий). — Петрозаводск: Карелия, 1987. — 269 с. — (Техника-молодежь-творчество), с. 61—65"@ru ;
+    rdfs:comment "pp. 61—65" ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1987" ;
     dcterms:title "Законы развития технических систем"@ru ;
@@ -717,7 +724,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1988_cbff1f6259f41f573d89c3072a15c202>
     od:hatVerweis odv2:B18, odv2:D04 ;
-    od:isPartOf "Нить в лабиринте / Сост. А. Б. Селюцкий. — Петрозаводск: Карелия, 1988. с. 165—230."@ru ;
+    rdfs:comment "pp. 165—230" ;
+    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Selyutsky_1988_cd746b54477ee3f08e223fd4e2f65014> ; 
     od:relatedLinks <http://www.altshuller.ru/triz/standards.asp> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1988" ;
@@ -801,7 +809,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1989_dbc07bc22c8a233f94328d665cb6c8ac>
     od:hatVerweis odv2:C05 ;
-    od:isPartOf "Правила игры без правил / Сост. А. Б. Селюцкий. — Петрозаводск: Карелия, 1989. — 280 с. — (Техника — молодежь — творчество), с. 11—50."@ru ;
+    rdfs:comment "pp. 11—50" ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1989_7333a3c7c5f8b39aec9790ac5f4fb70e> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1989" ;
     dcterms:title "АРИЗ — значит победа. Алгоритм решения изобретательских задач АРИЗ-85-В"@ru ;
@@ -817,15 +826,15 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1990_e2775ac462b5842e6b6cd90c8927e012>
     od:hatVerweis odv2:B03 ;
-    od:isPartOf "Журнал ТРИЗ. — 1990. — №1.2. — с. 4—5."@ru ;
+    od:inJournal "Журнал ТРИЗ. — 1990. — №1.2. — с. 4—5."@ru ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1990" ;
     dcterms:title "Перспективы развития ТРИЗ"@ru ;
     a od:Reference .
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1991_0bb568560fb12647c094bf4fb9984181>
-    od:hatVerweis odv2:F21, odv2:F22 ;
-    od:isPartOf "Шанс на приключение / Сост. А. Б. Селюцкий. — Петрозаводск: Карелия, 1991. 304 с.– (Техника-молодежь-творчество)."@ru ;
+    od:hatVerweis odv2:F21, odv2:F22;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1991_49bf6cd041c0cff84c953f38812e69b3> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1991" ;
     dcterms:title "Краски для фантазии. Прелюдия к теории развития творческого воображения"@ru ;
@@ -833,7 +842,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1991_5b2b3d72856fc5a9a46b4dd37ea1e26c>
     od:hatVerweis odv2:F09, odv2:F12, odv2:F15 ;
-    od:isPartOf "Шанс на приключение / Сост. А. Б. Селюцкий. — Петрозаводск: Карелия, 1991. 304 с. — (Техникамолодежь-творчество), с. 221—236."@ru ;
+    rdfs:comment "pp. 221—236" ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1991_49bf6cd041c0cff84c953f38812e69b3> ;
     od:relatedLinks <http://www.temm.ru/ru/section.php?docId=3470> ;
     dcterms:creator odp:Altshuller_GS, odp:Rubin_MS ;
     dcterms:issued "1991" ;
@@ -858,16 +868,18 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1994_0d7285be8a6decdf6d2d83b3b5c8083a>
     od:hatVerweis odv2:F34 ;
-    od:isPartOf "Альтшуллер Г. С., Верткин И. М. Как стать гением. — Минск: Беларусь, 1994. — с. 469—474."@ru ;
+    rdfs:comment "pp. 469—474" ;
+    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Altshuller_1994_9a6477daedb2282149b6a77e2190f2a9> ; 
     od:relatedLinks <http://www.altshuller.ru/trtl/heretic0.asp> ;
     dcterms:creator odp:Altshuller_GS, odp:Vertkin_IM ;
     dcterms:issued "1994" ;
-    dcterms:title "Заключение"@ru ;
+    dcterms:title "Как стать гением"@ru ;
     a od:Reference .
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1994_21552efb3b7628b4f55face96d1e4511>
     od:hatVerweis odv2:F34 ;
-    od:isPartOf "Альтшуллер Г. С., Верткин И. М. Как стать гением. — Минск: Беларусь, 1994 г. — с. 479."@ru ;
+    rdfs:comment "p. 479" ;
+    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Altshuller_1994_9a6477daedb2282149b6a77e2190f2a9> ; 
     od:relatedLinks <http://www.altshuller.ru/trtl/heretic2.asp> ;
     dcterms:creator odp:Altshuller_GS, odp:Vertkin_IM ;
     dcterms:issued "1994" ;
@@ -876,7 +888,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1994_75fbb4ffe71b711f74d9078aa3e30287>
     od:hatVerweis odv2:F34 ;
-    od:isPartOf "Альтшуллер Г. С., Верткин И. М. Как стать гением. — Минск: Беларусь, 1994 г. — С. 300."@ru ;
+    rdfs:comment "p. 300." ;
+    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Altshuller_1994_9a6477daedb2282149b6a77e2190f2a9> ; 
     od:relatedLinks <http://www.altshuller.ru/trtl/trtl65a.asp> ;
     dcterms:creator odp:Altshuller_GS, odp:Vertkin_IM ;
     dcterms:issued "1994" ;
@@ -893,7 +906,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1994_e68847ff4bd5a08b205456d1d0d3d29b>
     od:hatVerweis odv2:F34 ;
-    od:isPartOf "Альтшуллер Г. С., Верткин И. М. Как стать гением. — Минск: Беларусь, 1994 г. — с. 453—468."@ru ;
+    rdfs:comment "pp. 453—468" ;
+    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Altshuller_1994_9a6477daedb2282149b6a77e2190f2a9> ; 
     od:relatedLinks <http://www.altshuller.ru/trtl/trtl2.asp> ;
     dcterms:creator odp:Altshuller_GS, odp:Vertkin_IM ;
     dcterms:issued "1994" ;
@@ -1058,7 +1072,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Axelrod_1995_427cc8e0ca5f36e2545d05067433ee57>
     od:hatVerweis odv2:D19 ;
-    od:isPartOf "Журнал ТРИЗ 95/1 (№10), с. 53—57."@ru ;
+    od:inJournal "Журнал ТРИЗ 95/1 (№10), с. 53—57."@ru ;
     od:relatedLinks <http://www.triz-spb.ru/lit/_95_1/bank_IM.htm> ;
     dcterms:creator odp:Axelrod_BM, odp:Litvin_SS ;
     dcterms:issued "1995" ;
@@ -1083,15 +1097,30 @@
 
 <http://opendiscovery.org/rdf/BIB/Curikov_1979_e6172fbd629c10b460bf6c97078143ae>
     od:hatVerweis odv2:D17 ;
-    od:isPartOf "Всесоюзная научно-практическая конференция «Проблемы развития и повышения эффективности научного и технического творчества трудящихся». (2—4 октября 1979 г., г. Новосибирск). Ч. I, М.: 1979, с. 130—131."@ru ;
+    rdfs:comment "vol. 1, pp. 130—131" ;
+    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1979> ; 
     dcterms:creator odp:Curikov_VM ;
     dcterms:issued "1979" ;
     dcterms:title "Принципы создания математического обеспечения ТРИЗ"@ru ;
     a od:Reference .
 
+<http://opendiscovery.org/rdf/BIB/Novosibirsk_1979>
+    dcterms:issued "1979" ;
+    dcterms:title "Всесоюзная научно-практическая конференция «Проблемы развития и повышения эффективности научного и технического творчества трудящихся»"@ru ;
+a od:Reference .
+
+
+<http://opendiscovery.org/rdf/BIB/Novosibirsk_1984>
+    dcterms:issued "1984" ;
+    dc:publisher "Новосибирск: АН СССР СО, 1984"@ru; 
+    dcterms:title "Методология и методы технического творчества. Тезисы докладов и сообщений к научно-практической конференции"@ru ;
+    a od:Reference .
+
+
 <http://opendiscovery.org/rdf/BIB/Curikov_1984_d18d01f4f6cfe729d71454e1657550db>
     od:hatVerweis odv2:D17 ;
-    od:isPartOf "Методология и методы технического творчества. Тезисы докладов и сообщений к научно-практической конференции. — Новосибирск: АН СССР СО, 1984. — с. 102—104."@ru ;
+    rdfs:comment "pp. 102—104" ;
+    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
     dcterms:creator odp:Curikov_VM ;
     dcterms:issued "1984" ;
     dcterms:title "Математические эффекты в теории информации"@ru ;
@@ -1099,7 +1128,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Curikov_1991_a995ba898ec47924c16400c6baf78965>
     od:hatVerweis odv2:D17 ;
-    od:isPartOf "Журнал ТРИЗ, Т. 2, №1, 1991, с. 48—55."@ru ;
+    od:inJournal "Журнал ТРИЗ, Т. 2, №1, 1991, с. 48—55."@ru ;
     dcterms:creator odp:Curikov_VM ;
     dcterms:issued "1991" ;
     dcterms:title "Математические эффекты — новый раздел информационных фондов ТРИЗ"@ru ;
@@ -1142,7 +1171,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Fey_1984_c326f65be8271cfbccb00e3c2fd99fc2>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.26>, odv2:C06 ;
-    od:isPartOf "Тезисы докладов и сообщений к научно-практической конференции 30 июня — 2 июля 1984 г. — Новосибирск, 1984, с. 79—81"@ru ;
+    rdfs:comment "pp. 79—81" ;
+    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
     dcterms:creator odp:Fey_VR, odp:Vertkin_IM ;
     dcterms:issued "1984" ;
     dcterms:title "A Study of Sufields with Thermal and Magnetic Fields in Technological Systems"@en, "Исследование тепольных и фепольных технических систем"@ru ;
@@ -1158,7 +1188,9 @@
 
 <http://opendiscovery.org/rdf/BIB/Fey_1990_41dba34ac1b740df8b405a02f7b4ac8d>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.26>, <http://opendiscovery.org/rdf/TBK1/Verweis.9>, odv2:B14 ;
-    od:isPartOf "TRIZ Journal, V.1, No. 1/90, p. 36-41, V.1, No. 2/90, p. 31-40. 1990.", "Шанс на приключение/ Сост. А. Б. Селюцкий. — Петрозаводск: Карелия, 1991. 304 с. — (Техникамолодежь-творчество), с. 174—220."@ru ;
+    od:inJournal "TRIZ Journal, V.1, No. 1/90, p. 36-41, V.1, No. 2/90, p. 31-40. 1990.";
+    rdfs:comment "pp. 174—220" ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1991_49bf6cd041c0cff84c953f38812e69b3> ;
     dcterms:creator odp:Fey_VR ;
     dcterms:issued "1990", "1991" ;
     dcterms:title "In Search for the Ideal Substance"@en, "В поисках идеального вещества"@ru ;
@@ -1183,7 +1215,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Florescu_1992_209d25323b91314ef3bbf2ec66a8d2aa>
     od:hatVerweis odv2:F17 ;
-    od:isPartOf "Журнал ТРИЗ, Т.3, 2/92, (№6) с. 69—77."@ru ;
+    od:inJournal "Журнал ТРИЗ, Т.3, 2/92, (№6) с. 69—77."@ru ;
     dcterms:creator odp:Florescu_RS ;
     dcterms:issued "1992" ;
     dcterms:title "Приемы фантазирования в изобразительном искусстве"@ru ;
@@ -1199,7 +1231,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Gerasimov_1982_c57463b40ef40c9249fb227cb35077ec>
     od:hatVerweis odv2:D24 ;
-    od:isPartOf "Техника и наука. 1982 №№11, 12"@ru ;
+    od:inJournal "Техника и наука. 1982 №№11, 12"@ru ;
     dcterms:creator odp:Gerasimov_VM, odp:Zlotin_BL ;
     dcterms:issued "1982" ;
     dcterms:title "ФСА в действии"@ru ;
@@ -1255,7 +1287,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Gerasimov_1989_5e73cf54f62e4c2371cc69f483bd892e>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.47>, odv2:E03, odv2:F04 ;
-    od:isPartOf "5 с., 1989 г. (Фонд материалов по ТРИЗ ЧОУНБ)"@ru ;
+    rdfs:comment "Фонд материалов по ТРИЗ ЧОУНБ"@ru ;
     dcterms:creator odp:Gerasimov_VM, odp:Litvin_SS ;
     dcterms:issued "1989" ;
     dcterms:title "Construction of Functionally Ideal Models when Conducting VEA"@en, "Построение функционально-идеальной модели при проведении ФСА"@ru ;
@@ -1263,7 +1295,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Gerasimov_1990_36be714fb6a2263f8b97479f7a03a303>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.22>, <http://opendiscovery.org/rdf/TBK1/Verweis.45>, odv2:E01, odv2:E02, odv2:E05, odv2:E06, odv2:E07, odv2:F01, odv2:F02, odv2:F03 ;
-    od:isPartOf "Журнал ТРИЗ, №1.90, с.11—26."@ru ;
+    od:inJournal "Журнал ТРИЗ, №1.90, с.11—26."@ru ;
     dcterms:creator odp:Gerasimov_VM, odp:Litvin_SS ;
     dcterms:issued "1990" ;
     dcterms:title "Why Does Engineering Need Pluralism?"@en, "Зачем технике плюрализм"@ru ;
@@ -1281,7 +1313,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Gerasimov_1992_6517deb84b009cf4b9be56309ee2d724>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.22>, <http://opendiscovery.org/rdf/TBK1/Verweis.45>, odv2:B15, odv2:D25, odv2:E01, odv2:E02, odv2:E05, odv2:E06, odv2:E07, odv2:F01, odv2:F02, odv2:F03 ;
-    od:isPartOf "Журнал ТРИЗ, №3.2.92 с.7—45."@ru ;
+    od:inJournal "Журнал ТРИЗ, №3.2.92 с.7—45."@ru ;
     dcterms:creator odp:Gerasimov_VM, odp:Litvin_SS ;
     dcterms:issued "1992" ;
     dcterms:title "A Unified System of TRIZ-VEA"@en, "Единая система ТРИЗ-ФСА"@ru ;
@@ -1298,7 +1330,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Goldovsky_1974_82088cee105fc57f6478cbd7a49322b5>
     od:hatVerweis odv2:B08 ;
-    od:isPartOf "Материал ОЛМИ — Горький, 1974 (Фонд ЧОУНБ, 32—5)"@ru ;
+    rdfs:comment "Материал ОЛМИ — Горький, 1974 (Фонд ЧОУНБ, 32—5)"@ru ;
     od:relatedLinks <http://www.metodolog.ru/00001/00001.html> ;
     dcterms:creator odp:Goldovsky_BI ;
     dcterms:issued "1974" ;
@@ -1307,7 +1339,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Golovchenko_1974_84789bb29d981c05d2140cc4cd5e79a2>
     od:hatVerweis odv2:F13 ;
-    od:isPartOf "Физиология растений, 1974, т. 21, вып. 4. c. 861—863."@ru ;
+    od:inJournal "Физиология растений, 1974, т. 21, вып. 4. c. 861—863."@ru ;
     dcterms:creator odp:Golovchenko_GG ;
     dcterms:issued "1974" ;
     dcterms:title "О ветроэнергетике растений"@ru ;
@@ -1422,7 +1454,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Kondrakov_1979_1ff7ee9bb198b3abd68358a7aa4dcd3b>
     od:hatVerweis odv2:F13 ;
-    od:isPartOf "Техника и наука, 1979, №11"@ru ;
+    od:inJournal "Техника и наука, 1979, №11"@ru ;
     dcterms:creator odp:Kondrakov_IM ;
     dcterms:issued "1979" ;
     dcterms:title "Алгоритм открытий?"@ru ;
@@ -1439,7 +1471,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Kondrakov_1984_441c5fead0c96ec9251d286e9713e221>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.15>, odv2:B08, odv2:B14 ;
-    od:isPartOf "Методология и методы технического творчества. Тезисы докладов и сообщений к научно-практической конференции. — Новосибирск: АН СССР СО, 1984. — с. 66—68."@ru ;
+    rdfs:comment "pp. 66—68" ;
+    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
     dcterms:creator odp:Kondrakov_IM, odp:Salamatov_YP ;
     dcterms:issued "1984" ;
     dcterms:title "Specific Features of Ideal Technological Systems"@en, "Некоторые особенности идеальных технических систем"@ru ;
@@ -1447,7 +1480,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Kondrakov_1984_fa50dd72b89d2fe78d3adb3bba16ce35>
     od:hatVerweis odv2:B08, odv2:B25 ;
-    od:isPartOf "Тезисы докладов и сообщений к научно-практической конференции 30 июня — 2 июля 1984 г. — Новосибирск, 1984, с. 70—72"@ru, "Тезисы докладов и сообщений к научно-практической конференции 30 июня — 2 июля 1984 г. — Новосибирск: АН СССР СО, 1984, с. 70—72."@ru ;
+    rdfs:comment "pp. 70—72" ;
+    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
     dcterms:creator odp:Kondrakov_IM ;
     dcterms:issued "1984" ;
     dcterms:title "Динамизация технических систем"@ru ;
@@ -1471,7 +1505,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Limarenko_1993_1426e9edd8e3eef5bbc4c69da7b773aa>
     od:hatVerweis odv2:B04 ;
-    od:isPartOf "Журнал ТРИЗ, 1993. Ангарский вариант (электронная версия), с. 53—57."@ru ;
+    od:inJournal "Журнал ТРИЗ, 1993. Ангарский вариант (электронная версия), с. 53—57."@ru ;
     dcterms:creator odp:Limarenko_AV ;
     dcterms:issued "1993" ;
     dcterms:title "ТРИЗ как прикладная диалектика"@ru ;
@@ -1511,7 +1545,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Litvin_1984_48435a79f31fc86cbcb954622f31e49b>
     od:hatVerweis odv2:B12 ;
-    od:isPartOf "Тезисы докладов и сообщений к научно-практической конференции 30 июня — 2 июля 1984 г. — Новосибирск, 1984, с. 72—74."@ru ;
+    rdfs:comment "pp. 72—74" ;
+    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
     dcterms:creator odp:Litvin_SS ;
     dcterms:issued "1984" ;
     dcterms:title "Согласование технических систем"@ru ;
@@ -1535,7 +1570,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Litvin_1995_cf11046e1de5d9c6f5bd8361d0ce3db5>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.32>, odv2:D05 ;
-    od:isPartOf "Журнал ТРИЗ, 95.1 (№10). — с. 47—50."@ru ;
+    od:inJournal "Журнал ТРИЗ, 95.1 (№10). — с. 47—50."@ru ;
     dcterms:creator odp:Litvin_SS ;
     dcterms:issued "1995" ;
     dcterms:title "They are Unlike, but They are Similar (Problems-analogs in TRIZ)"@en, "Не похоже, но одно и тоже (задачи-аналоги в ТРИЗ)"@ru ;
@@ -1564,7 +1599,7 @@
     dcterms:issued "1993" ;
     dcterms:title "TRIZ as Applied Dialectics" ;
     a od:Reference ;
-    rdfs:comment "TRIZ Journal, 1993." .
+    od:inJournal "TRIZ Journal, 1993." .
 
 <http://opendiscovery.org/rdf/BIB/Mann_2002_ecf3a2bc189cc37f75e53596285e881c>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.13>, <http://opendiscovery.org/rdf/TBK1/Verweis.37> ;
@@ -1577,7 +1612,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Mitrofanov_1982_7f1dce696341b9437cf4d3af6eb4c4a7>
     od:hatVerweis odv2:F13 ;
-    od:isPartOf "Техника и наука, 1982, №2."@ru ;
+    od:inJournal "Техника и наука, 1982, №2."@ru ;
     dcterms:creator odp:Mitrofanov_VV ;
     dcterms:issued "1982" ;
     dcterms:title "По следам возбужденной молекулы"@ru ;
@@ -1585,7 +1620,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Mitrofanov_1993_0bf49259ef1d5e0eea34bfebe34ed131>
     od:hatVerweis odv2:B14 ;
-    od:isPartOf "Журнал ТРИЗ, 1993. Ангарский вариант (электронная версия), с. 45—47. "@ru ;
+    od:inJournal "Журнал ТРИЗ, 1993. Ангарский вариант (электронная версия), с. 45—47. "@ru ;
     dcterms:creator odp:Mitrofanov_VV ;
     dcterms:issued "1993" ;
     dcterms:title "Несколько мыслей об идеальности"@ru ;
@@ -1609,7 +1644,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Murashkovska_1990_7e2a68bb594f8c84be1f0eaa9344b05a>
     od:hatVerweis odv2:F17 ;
-    od:isPartOf "Журнал ТРИЗ, Т.1, №1/90, с.55—64"@ru ;
+    od:inJournal "Журнал ТРИЗ, Т.1, №1/90, с.55—64"@ru ;
     dcterms:creator odp:Murashkovska_IN, odp:Murashkovsky_JS ;
     dcterms:issued "1990" ;
     dcterms:title "«Искусство» от слова «техника»"@ru ;
@@ -1650,7 +1685,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Petrov_1979_7ea2a9ef79f1d15d383099126cdb2342>
     od:hatVerweis odv2:F06 ;
-    od:isPartOf "Всесоюзная научнопрактическая конференция «Проблемы развития и повышения эффективности научного и технического творчества трудящихся». (2—4 октября 1979 г., г. Новосибирск). Ч. II, М.: 1979, с. 304-308."@ru ;
+    rdfs:comment "vol. 2, pp. 304-308" ;
+    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1979> ; 
     od:relatedLinks <http://www.trizland.ru/trizba/pdf-books/zrts-19-prognoz.pdf> ;
     dcterms:creator odp:Petrov_VM ;
     dcterms:issued "1979" ;
@@ -1724,7 +1760,7 @@
     dcterms:issued "1982" ;
     dcterms:title "A System of Laws of Technological System Evolution" ;
     a od:Reference ;
-    rdfs:comment "Lecture at the seminar for TRIZ instructors and researchers (Petrozavodsk-82). - L: 1982." .
+    od:isPartOf "Lecture at the seminar for TRIZ instructors and researchers (Petrozavodsk-82). - L: 1982." .
 
 <http://opendiscovery.org/rdf/BIB/Petrov_1982_efc50980aa45ec5637fe62183056a4f3>
     od:hatVerweis odv2:F19, odv2:F21, odv2:F22, odv2:F23, odv2:F24 ;
@@ -1753,7 +1789,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Petrov_1984_6c6c5c51b60ceaf8f1773316623a9ab1>
     od:hatVerweis odv2:B08 ;
-    od:isPartOf "Методология и методы технического творчества. — Тезисы докладов и сообщений к научно-практической конференции 30 июня — 2 июля 1984 г. — Новосибирск: АН СССР СО, 1984, с. 52—54."@ru ;
+    rdfs:comment "pp. 52—54" ;
+    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
     dcterms:creator odp:Petrov_VM ;
     dcterms:issued "1984" ;
     dcterms:title "Закономерности развития технических систем"@ru ;
@@ -2113,7 +2150,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Pinyayev_1990_af8585323d49c20bdac8ecb173b863c1>
     od:hatVerweis odv2:E01, odv2:E02, odv2:E05, odv2:E06, odv2:E07, odv2:F01, odv2:F02, odv2:F03 ;
-    od:isPartOf "Журнал ТРИЗ, №1.90, с.30—35."@ru ;
+    od:inJournal "Журнал ТРИЗ, №1.90, с.30—35."@ru ;
     dcterms:creator odp:Pinyayev_AM ;
     dcterms:issued "1990" ;
     dcterms:title "Функциональный анализ изобретательских ситуаций"@ru ;
@@ -2121,7 +2158,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Pinyayev_2006_377dd4fee5f14a4855e6e40cc3506502>
     od:hatVerweis odv2:E01, odv2:E02, odv2:E05, odv2:E06, odv2:E07, odv2:F01, odv2:F02, odv2:F03 ;
-    od:isPartOf "Proceedings of the ETRIA TRIZ Future Conference 2006, vol. 2, pp. 203 — 210."@en, "TRIZ Journal, December 2006"@en ;
+    od:isPartOf "Proceedings of the ETRIA TRIZ Future Conference 2006, vol. 2, pp. 203 — 210."@en;
+    od:inJournal "TRIZ Journal, December 2006"@en ;
     dcterms:creator odp:Pinyayev_AM ;
     dcterms:issued "2006" ;
     dcterms:title "Functional Clues"@en ;
@@ -2129,7 +2167,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Pomeranets_1984_2f93244cf610fa9019478d696961c2da>
     od:hatVerweis odv2:F12 ;
-    od:isPartOf "Методология и методы технического творчества. Тезисы докладов и сообщений к научно-практической конференции. — Новосибирск: АН СССР СО, 1984. — с. 99—100."@ru ;
+    rdfs:comment "pp. 99—100" ;
+    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
     dcterms:creator odp:Pomeranets_MS ;
     dcterms:issued "1984" ;
     dcterms:title "Приложение принципов ТРИЗ к анализу некоторых нетехнических систем"@ru ;
@@ -2158,7 +2197,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Rubin_1984_c42403f396eb66409749aee6726c527d>
     od:hatVerweis odv2:F12 ;
-    od:isPartOf "Методология и методы технического творчества. Тезисы докладов и сообщений к научно-практической конференции. — Новосибирск: АН СССР СО, 1984. — с. 54—55."@ru ;
+    rdfs:comment "pp. 54—55" ;
+    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
     dcterms:creator odp:Rubin_MS ;
     dcterms:issued "1984" ;
     dcterms:title "О влиянии земных условий на развитие техники"@ru ;
@@ -2175,7 +2215,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Rubin_1991_07212bae1330e38cad3de5b967d121b9>
     od:hatVerweis odv2:D26 ;
-    od:isPartOf "Журнал ТРИЗ» №1.2, 1991"@ru ;
+    od:inJournal "Журнал ТРИЗ» №1.2, 1991"@ru ;
     dcterms:creator odp:Rubin_MS ;
     dcterms:issued "1991" ;
     dcterms:title "Проблемы развития ТРИЗ-ТРТЛ"@ru ;
@@ -2191,7 +2231,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Rubin_1996_74c442ff6c6dcb7d40a6e1c53609ca38>
     od:hatVerweis odv2:F14 ;
-    od:isPartOf "Журнал ТРИЗ, №11, 1996 г."@ru ;
+    od:inJournal "Журнал ТРИЗ, №11, 1996 г."@ru ;
     od:relatedLinks <http://www.temm.ru/ru/section.php?docId=3614> ;
     dcterms:creator odp:Rubin_MS ;
     dcterms:issued "1996" ;
@@ -2200,7 +2240,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Sacharov_1996_04e09483f447defb9a250401023e21c3>
     od:hatVerweis odv2:F16 ;
-    od:isPartOf "Журнал ТРИЗ, 1/96 (№11), с. 32—33"@ru ;
+    od:inJournal "Журнал ТРИЗ, 1/96 (№11), с. 32—33"@ru ;
     dcterms:creator odp:Sacharov_IS ;
     dcterms:issued "1996" ;
     dcterms:title "О законах биологических систем"@ru ;
@@ -2208,7 +2248,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Salamatov_1984_f945d78865b5b4806516d62ca7edc4f8>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.9>, odv2:B08, odv2:B14 ;
-    od:isPartOf "Методология и методы технического творчества. Тезисы докладов и сообщений к научно-практической конференции. — Новосибирск: АН СССР СО, 1984. –. с. 64—66."@ru ;
+    rdfs:comment "pp. 64—66" ;
+    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
     dcterms:creator odp:Salamatov_YP ;
     dcterms:issued "1984" ;
     dcterms:title "Evolution of Substances in Technological Systems"@en, "Эволюция вещества в технических системах"@ru ;
@@ -2216,7 +2257,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Salamatov_1988_b22ed3d8a68b67cc0e174d3a9deb0f34>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.43>, odv2:D15 ;
-    od:isPartOf "Нить в лабиринте / Сост. А. Б. Селюцкий. — Петрозаводск: Карелия, 1988. — с. 95—163."@ru ;
+    rdfs:comment "pp. 95—163" ;
+    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Selyutsky_1988_cd746b54477ee3f08e223fd4e2f65014> ; 
     od:relatedLinks <http://rus.triz-guide.com/publicat/allbooks/feates_on_molecular_level.html> ;
     dcterms:creator odp:Salamatov_YP ;
     dcterms:issued "1988" ;
@@ -2225,7 +2267,8 @@
 
 <http://opendiscovery.org/rdf/BIB/Salamatov_1991_01978cb497d503c13c252dc96659f52d>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.24>, <http://opendiscovery.org/rdf/TBK1/Verweis.25>, <http://opendiscovery.org/rdf/TBK1/Verweis.28>, <http://opendiscovery.org/rdf/TBK1/Verweis.3>, odv2:B23 ;
-    od:isPartOf "Шанс на приключение/Сост. А.Б.Селюцкий. — Петрозаводск: Карелия, 1991. 304 с.– (Техника-молодежь-творчество), с. 5—174."@ru ;
+    rdfs:comment "pp. 5—174" ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1991_49bf6cd041c0cff84c953f38812e69b3> ;
     dcterms:creator odp:Salamatov_YP ;
     dcterms:issued "1991" ;
     dcterms:title "A System of Laws of Technology Evolution"@en, "Система развития законов техники"@ru ;
@@ -2245,7 +2288,7 @@
     dcterms:issued "1988" ;
     dcterms:title "A Thread in the Labyrinth"@en, "Нить в Лабиринте"@ru ;
     a od:TRIZ-Book ;
-    rdfs:comment "Petrozavodsk: Karelia, 1988." .
+    dc:publisher "Petrozavodsk: Karelia, 1988." .
 
 <http://opendiscovery.org/rdf/BIB/Selyutsky_1989_7333a3c7c5f8b39aec9790ac5f4fb70e>
     dc:language "ru"^^dcterms:RFC4646 ;
@@ -2253,27 +2296,36 @@
     dcterms:issued "1989" ;
     dcterms:title "Rules for a Game Without Rules"@en, "Правила для игры без правил"@ru ;
     a od:TRIZ-Book ;
-    rdfs:comment "Petrozavodsk: Karelia, 1989." .
+    dc:publisher "Petrozavodsk: Karelia, 1989." .
 
 <http://opendiscovery.org/rdf/BIB/Selyutsky_1991_49bf6cd041c0cff84c953f38812e69b3>
     dc:language "ru"^^dcterms:RFC4646 ;
     dcterms:creator odp:Selyutsky_AB ;
     dcterms:issued "1991" ;
-    dcterms:title "A Chance for Adventure"@en ;
-    a od:TRIZ-Book ;
-    rdfs:comment "Petrozavodsk: Karelia, 1991." .
+    dc:publisher "Петрозаводск: Карелия, 1991. 304 с.– (Техника-молодежь-творчество)"@ru ;
+    dcterms:title "A Chance for Adventure"@en ; 
+    dcterms:title "Шанс на приключение"@ru ;
+    a od:TRIZ-Book  .
 
-<http://opendiscovery.org/rdf/BIB/Selyutsky_XX_6e9e28ed72281f02e6e23f7360f8be53>
+<http://opendiscovery.org/rdf/BIB/Selyutsky_1987_6e9e28ed72281f02e6e23f7360f8be53>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.42>, odv2:D14 ;
-    od:isPartOf "Дерзкие формулы творчества / (Сост. А. Б. Селюцкий). — Петрозаводск: Карелия, 1987. — 269 с. — (Техника-молодежь-творчество), с. 83—171."@ru ;
+    rdfs:comment "pp. 83—171" ;
+    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
     dcterms:creator odp:Selyutsky_AB ;
     dcterms:issued "1987" ;
     dcterms:title "Magic Crystal of Physics"@en, "Магический кристалл физики"@ru ;
     a od:Reference .
 
+<http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas>
+    dcterms:title "Дерзкие формулы творчества"@eu ;
+    dc:publisher "Петрозаводск: Карелия, 1987. — 269 с. — (Техника-молодежь-творчество)"@ru ;
+    dcterms:creator odp:Selyutsky_AB ;
+    dcterms:issued "1987" ;
+    a od:Reference .
+
 <http://opendiscovery.org/rdf/BIB/Sibiryakov_1998_062b8da8af75df11bd0063408824d48e>
     od:hatVerweis odv2:F14 ;
-    od:isPartOf "Ключевые технологии, №0, июнь 1998 г., с 21—22."@ru ;
+    od:inJournal "Ключевые технологии, №0, июнь 1998 г., с 21—22."@ru ;
     dcterms:creator odp:Sibiryakov_VG ;
     dcterms:issued "1998" ;
     dcterms:title "Стратегическое планирование на основе ТРИЗ"@ru ;
@@ -2316,13 +2368,14 @@
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.26> ;
     dcterms:creator odp:Vertkin_IM ;
     dcterms:issued "1984" ;
-    dcterms:title "The General Pattern of Sufield Evolution" ;
+    dcterms:title "The General Pattern of Sufield Evolution"@en ;
     a od:Reference ;
     rdfs:comment "Presentation at the conference \"Methods of Scientific and Engineering Creativity\", Novosibirsk, June 30-July 2, 1984." .
 
 <http://opendiscovery.org/rdf/BIB/Vikentiev_1988_2429055d8840df8d92c6385dadd297a1>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.44>, odv2:D18 ;
-    od:isPartOf "Нить в лабиринте / Сост. А. Б. Селюцкий. — Петрозаводск: Карелия, 1988. — с. 71—175. "@ru ;
+    rdfs:comment "pp. 71—175" ;
+    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Selyutsky_1988_cd746b54477ee3f08e223fd4e2f65014> ; 
     od:relatedLinks <http://www.triz-chance.ru/geometrical_effect.html> ;
     dcterms:creator odp:Vikentiev_IL, odp:Yefremov_VI ;
     dcterms:issued "1988" ;
@@ -2361,7 +2414,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Zlotin_1984_9d4cca850f927cfa99d87d2feff8c3a7>
     od:hatVerweis odv2:D24 ;
-    od:isPartOf "Техника и наука, 1983 №6, 8, 10, 12, 1984 №2, 4, 6."@ru ;
+    od:inJournal "Техника и наука, 1983 №6, 8, 10, 12, 1984 №2, 4, 6."@ru ;
     dcterms:creator odp:Zlotin_BL ;
     dcterms:issued "1984" ;
     dcterms:title "Постоянная рубрика «Школа ФСА»"@ru ;
@@ -2393,7 +2446,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Zlotin_1986_5f2749acdf2e3b6794828e7cf1cfcba6>
     od:hatVerweis odv2:F18 ;
-    od:isPartOf "Доклад и круглый стол по теме в Миассе в 1986 году."@ru ;
+    rdfs:comment "Доклад и круглый стол по теме в Миассе в 1986 году."@ru ;
     dcterms:creator odp:Zlotin_BL, odp:Zusman_AV ;
     dcterms:issued "1986" ;
     dcterms:title "Основы теории развития коллективов"@ru ;
@@ -2461,7 +2514,7 @@
     dcterms:issued "1991" ;
     dcterms:title "A Methodology for Forecasting Extraordinary Situations, Harmful and Undesirable Phenomena"@en ;
     a od:Reference ;
-    rdfs:comment "Kishinev: 1991" .
+    dc:publisher "Kishinev: 1991" .
 
 <http://opendiscovery.org/rdf/BIB/Zlotina_1984_5d1d7d6c4808662784218e7d4eb70287>
     od:hatVerweis odv2:F17 ;
@@ -2473,7 +2526,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Zlotina_1999_1cb7edfee15e2fe01f9921a5dfa8c6d6>
     od:hatVerweis odv2:F17 ;
-    od:isPartOf "Технология творчества, №1, 1999, с. 9—14"@ru ;
+    od:inJournal "Технология творчества, №1, 1999, с. 9—14"@ru ;
     od:relatedLinks <http://trizminsk.org/e/245003.htm> ;
     dcterms:creator odp:Zlotina_ES ;
     dcterms:issued "1999" ;
@@ -2505,7 +2558,7 @@
     dcterms:title "Erfinden mit System"@de ;
     bibo:isbn "3-930903-08-3" ;
     a od:TRIZ-Book ;
-    rdfs:comment "DABEI-Materialien Nr. 10, Bonn 1995" .
+    od:isPartOf "DABEI-Materialien Nr. 10, Bonn 1995" .
 
 <http://opendiscovery.org/rdf/BIB/Zobel_2001_9223b78b4745bf01ce98e462b1bc769e>
     dc:language "de"^^dcterms:RFC4646 ;
