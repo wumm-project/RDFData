@@ -30,13 +30,13 @@
     dcterms:title "Шкала «Фантазии-2»"@ru ;
     a od:Reference .
 
-<http://opendiscovery.org/rdf/BIB/Altshuller_1956_en>
+<http://opendiscovery.org/rdf/BIB/Altshuller_1956>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.2> ;
     dcterms:creator odp:Altshuller_GS, odp:Shapiro_RB ;
     dcterms:issued "1956" ;
-    dcterms:title "On Psychology of Inventive Creativity" ;
+    dcterms:title "On Psychology of Inventive Creativity"@en ;
     a od:Reference ;
-    rdfs:comment "Problems of Psychology, Vol. 6., pp. 37-49, 1956. See also Izobretenia, The Altshuller Institute for TRIZ Studies, 2000." .
+    rdfs:comment "Problems of Psychology, Vol. 6., pp. 37-49, 1956. See also Izobretenia, The Altshuller Institute for TRIZ Studies, 2000.", "English translation in TRIZ Review 1 (2019) ".
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1960_ru>
     od:hatVerweis odv2:F13 ;
