@@ -1,0 +1,256 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix odp: <http://opendiscovery.org/rdf/Person/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix : <http://opendiscovery.org/rdf/Conferences/TRIZFest-2016/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:General 
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest> ;
+    rdfs:label "TRIZ Fest 2016 in Beijing, PR China" ;
+    ical:description "TRIZ Fest 2016 in Beijing, PR China" ;
+    ical:dtend "2016-07-30"^^xsd:date ;
+    ical:dtstart "2016-07-28"^^xsd:date ;
+    ical:location "Beijing, PR China" ;
+    ical:url <https://matriz.org/trizfest-proceedings/> .
+
+:Paper_101 a od:Paper;
+dcterms:title "A knowledge inspired trimming method based on TRIZ";
+dcterms:creator odp:Yu_F, odp:Tan_RH, odp:Zhang_E, odp:Weigang_S;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_102 a od:Paper;
+dcterms:title "A system of standard inventive solution patterns for business and management problems";
+dcterms:creator odp:Souchkov_V, odp:Roxas_JPB;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_103 a od:Paper;
+dcterms:title "Accelerated TRIZ project execution";
+dcterms:creator odp:Savelli_S;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_104 a od:Paper;
+ dcterms:title "An analysis of marxist philosophy in TRIZ theory";
+dcterms:creator odp:Bo_L, odp:Shuqin_W, odp:Mingqin_G, odp:Rui_Z;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_105 a od:Paper;
+ dcterms:title "Appcessories as novel type of the hybrid devices: description and TRIZ recommendations for development";
+dcterms:creator odp:Prushinskiy_VO;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_106 a od:Paper;
+ dcterms:title "Application of flow analysis to study losses in power transmission and distribution";
+dcterms:creator odp:Nagashiresha_G, odp:Mewani_V;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_107 a od:Paper;
+ dcterms:title "Application of TRIZ concepts in teaching effective research communication skills";
+dcterms:creator odp:Nishiyama_K, odp:Emanuel_L;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_108 a od:Paper;
+ dcterms:title "Application of TRIZ in advanced manufacturing system";
+dcterms:creator odp:Xiaofeng_S, odp:Xinjun_Z, odp:Ying_Z;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_109 a od:Paper;
+ dcterms:title "Application of TRIZ to the evolution and development of systems engineering process models";
+dcterms:creator odp:Duan_H, odp:Lin_A, odp:Li_YJ;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_110 a od:Paper;
+ dcterms:title "Combining hidden customer need tools and MPV to generate product concept";
+dcterms:creator odp:Lok_A;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_111 a od:Paper;
+ dcterms:title "Conjugate evolution - two new evolutionary sub-trends";
+dcterms:creator odp:Zhao_MM;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_112 a od:Paper;
+ dcterms:title "Coupled functions formulation";
+dcterms:creator odp:Lebedev_Y, odp:Logvinov_SA;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_113 a od:Paper;
+ dcterms:title "Deep understanding and applying flow analysis, simplified detective flow classification models";
+dcterms:creator odp:Li_J, odp:Zhao_MM;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_114 a od:Paper;
+ dcterms:title "Definition of system innovation degree and its applications";
+dcterms:creator odp:Liu_MY, odp:Liu_BY;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_115 a od:Paper;
+ dcterms:title "Design of hanging chair based on TRIZ";
+dcterms:creator odp:Fan_J, odp:Wenxin_C, odp:Zhijun_Z, odp:Yijun_W;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_116 a od:Paper;
+ dcterms:title "Developing creative and critical thinking skills in next generation workforce";
+dcterms:creator odp:Barkan_MG, odp:Guin_AA;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_117 a od:Paper;
+ dcterms:title "Flow analysis of business systems (case study and theoretical results)";
+dcterms:creator odp:Bakhturin_D;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_118 a od:Paper;
+ dcterms:title "Genrich Altshuller and Peter Drucker: alternative approaches to solving problems. A comparative analysis";
+dcterms:creator odp:Feygenson_ON, odp:Feygenson_NB;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_119 a od:Paper;
+ dcterms:title "Innovation design of folding bicycle based on TRIZ theory";
+dcterms:creator odp:Wu_Q, odp:Jun_ZX;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_120 a od:Paper;
+ dcterms:title "Learning TRIZ and usit by tackling real-world problems: a case study";
+dcterms:creator odp:Mallinson_W;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_121 a od:Paper;
+ dcterms:title "Learning TRIZ through lithography-electronics co-evolution";
+dcterms:creator odp:Zheng_L, odp:Fei_W, odp:Bourov_A;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_122 a od:Paper;
+ dcterms:title "Master students learning TRIZ at the university: past experiences, future plans, and best practices";
+dcterms:creator odp:Hellberg_L, odp:Scheers_J;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_123 a od:Paper;
+ dcterms:title "Operation principle definition through patent practices";
+dcterms:creator odp:Ikovenko_SA;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_124 a od:Paper;
+ dcterms:title "Organization innovation employing TRIZ under quality innovation management system framework";
+dcterms:creator odp:Lai_KH;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_125 a od:Paper;
+ dcterms:title "Popularization and application of TRIZ in internet economy";
+dcterms:creator odp:Li_H, odp:Liu_MJ, odp:Severinets_GA, odp:Wang_J;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_126 a od:Paper;
+ dcterms:title "Problems and countermeasures in promoting TRIZ in China";
+dcterms:creator odp:Bukhman_IB, odp:Li_H;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_127 a od:Paper;
+ dcterms:title "Product-oriented MPV analysis to identify voice of the product";
+dcterms:creator odp:Abramov_OY;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_128 a od:Paper;
+ dcterms:title "Research on the ranking method of failure severity of complex mechanical systems";
+dcterms:creator odp:Bo_X, odp:Tan_RH, odp:Qin_L;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_129 a od:Paper;
+ dcterms:title "S-curve analysis on mass production timing using TRIZ";
+dcterms:creator odp:Kim_SJ;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_130 a od:Paper;
+ dcterms:title "Solving the toner adhesion problem to cyclone in toner manufacturing plant";
+dcterms:creator odp:Kang_SW, odp:Kim_JH;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_131 a od:Paper;
+ dcterms:title "Study of integration process model between design-centric complexity theory and TRIZ";
+dcterms:creator odp:Dong_YF, odp:Zhang_P, odp:Xi_DZ, odp:Yan_JJ, odp:Tan_RH;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_132 a od:Paper;
+ dcterms:title "Synchronous reluctance machine analysis and electric machine forecasting using TRIZ";
+dcterms:creator odp:Bertoncelli_T, odp:Papini_F, odp:Mayer_O;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_133 a od:Paper;
+ dcterms:title "The impact of different TRIZ tools on the creative output of students";
+dcterms:creator odp:Sheng_ILS, odp:How_KB;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_134 a od:Paper;
+ dcterms:title "The integration of TRIZ and Scamper for a more comprehensive innovative approach";
+dcterms:creator odp:Lin_YJ, odp:Hsieh_W, odp:Pai_T;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_135 a od:Paper;
+ dcterms:title "Trend of increased addressing of human senses - focus on sound";
+dcterms:creator odp:Mayer_O;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_136 a od:Paper;
+ dcterms:title "Trends of increasing localization";
+dcterms:creator odp:Nagashiresha_G, odp:Mewani_V;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_137 a od:Paper;
+ dcterms:title "TRIZ and value engineering: deeper integration as innovation enhancer";
+dcterms:creator odp:Bertoncelli_T, odp:Nanrudaiyan_N, odp:Mainardi_P, odp:Simpson_M, odp:Gardner_M, odp:Mayer_O;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_138 a od:Paper;
+ dcterms:title "TRIZ based insight problem solving and brainwave analysis using eeg during aha! moment";
+dcterms:creator odp:Benjaboonyazit_T;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_139 a od:Paper;
+ dcterms:title "TRIZ for the development of new materials: some preliminary ideas";
+dcterms:creator odp:Savelli_S;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_140 a od:Paper;
+ dcterms:title "TRIZ in “copycatting” culture";
+dcterms:creator odp:Kaplan_LA;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_141 a od:Paper;
+ dcterms:title "TRIZ innovation course for adolescents in Shanghai";
+dcterms:creator odp:Li_H;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_142 a od:Paper;
+ dcterms:title "TRIZ integration for project managers – discovering further TRIZ benefits";
+dcterms:creator odp:Naether_S, odp:Thurnes_C;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_143 a od:Paper;
+ dcterms:title "TRIZ maturity evaluation in organizations";
+dcterms:creator odp:Sun_Y;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_144 a od:Paper;
+ dcterms:title "TRIZ practice in the creative career education by the cooperation of kindergarten, elementary school, junior-high school and national college of technology.  An application of 3D block to creative education";
+dcterms:creator odp:Ohtsu_T;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_145 a od:Paper;
+ dcterms:title "TRIZ-oriented application of innovative methods and construction of collaborative innovation system";
+dcterms:creator odp:Xuemei_L, odp:Min_Y, odp:Jie_Y;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_146 a od:Paper;
+ dcterms:title "Types of psychological inertia";
+dcterms:creator odp:Litvin_SS;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
+
+:Paper_147 a od:Paper;
+ dcterms:title "Using the idealized design methods to realize product design";
+dcterms:creator odp:Ying_Z, odp:Jun_ZX, odp:Tang_DM;
+dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> .
+
