@@ -185,7 +185,7 @@ od:CertificateLevel5
 
 <http://opendiscovery.org/rdf/Certificate/L4.123>
     od:issued "2018-08-31" ;
-    od:owner odp:Ahn_H ;
+    od:owner odp:Ahn_HS ;
     a od:CertificateLevel4 ;
     foaf:name "Hyunsoo Ahn" .
 
@@ -629,7 +629,7 @@ od:CertificateLevel5
 
 <http://opendiscovery.org/rdf/Certificate/L4.75>
     od:issued "2005-08" ;
-    od:owner odp:Danilovski_JE ;
+    od:owner odp:Danilovski_YE ;
     a od:CertificateLevel4 ;
     foaf:name "Juri Danilovski" .
 
@@ -1293,9 +1293,9 @@ od:CertificateLevel5
 
 <http://opendiscovery.org/rdf/L5.85>
     od:issued "2012-05-28" ;
-    od:owner odp:Danilovsky_JE ;
+    od:owner odp:Danilovsky_YE ;
     a od:CertificateLevel5 ;
-    foaf:name "Jura Danilovskiy" .
+    foaf:name "Juri Danilovskiy" .
 
 <http://opendiscovery.org/rdf/L5.86>
     od:issued "2012-05-28" ;
