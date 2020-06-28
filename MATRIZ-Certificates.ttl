@@ -773,9 +773,9 @@ od:CertificateLevel5
 
 <http://opendiscovery.org/rdf/Certificate/L4.97>
     od:issued "2011-12" ;
-    od:owner odp:Lebedjev_J ;
+    od:owner odp:Lebedjev_Y ;
     a od:CertificateLevel4 ;
-    foaf:name "Juri Lebedjev" .
+    foaf:name "Yury Lebedjev" .
 
 <http://opendiscovery.org/rdf/Certificate/L4.98>
     od:issued "2011-12" ;
@@ -815,9 +815,9 @@ od:CertificateLevel5
 
 <http://opendiscovery.org/rdf/L5.102>
     od:issued "2015-09-12" ;
-    od:owner odp:Lebedjev_J ;
+    od:owner odp:Lebedjev_Y ;
     a od:CertificateLevel5 ;
-    foaf:name "Juri Lebedev" .
+    foaf:name "Yury Lebedev" .
 
 <http://opendiscovery.org/rdf/L5.103>
     od:issued "2015-09-12" ;
@@ -869,7 +869,7 @@ od:CertificateLevel5
 
 <http://opendiscovery.org/rdf/L5.13>
     od:issued "1998-09-27" ;
-    od:owner odp:Gin_AA ;
+    od:owner odp:Guin_AA ;
     a od:CertificateLevel5 ;
     foaf:name "Guin, Anatoli" .
 

@@ -176,7 +176,7 @@ dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conf
 
 :Paper_132 a od:Paper;
  dcterms:title "TRIZ used in iCPA, a Tech Startup";
-dcterms:creator odp:Roxas_J, odp:Tablizo_K;
+dcterms:creator odp:Roxas_JPB, odp:Tablizo_K;
 dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
 
 :Paper_133 a od:Paper;
