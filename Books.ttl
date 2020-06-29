@@ -210,6 +210,9 @@ od:TRIZ-Book
     dcterms:issued "2018"^^dcterms:W3CDTF ;
     dcterms:title "Основы ТРИЗ: Теория решения изобретательских задач"@ru ;
     bibo:isbn "978-5-4493-3726-9" ;
+    dcterms:abstract """Данный учебник посвящен системному изложению теории решения изобретательских задач (ТРИЗ). В книге подробно рассмотрены методы постановки нестандартных задач и способы их решения, законы развития систем, методика прогнозирования развития систем, структурный (вепольный) анализ и синтез систем, методы моделирования систем, способы выявления и разрешения противоречий, методика выявления и использования ресурсов.
+Теоретический материал иллюстрируется большим количеством примеров, задач и графического материала (более 300 примеров и задач и более 300 иллюстраций). Описывается более 300 понятий. В конце каждой главы представлен материал для самостоятельной работы.
+Книга предназначена для студентов инженерных специальностей. Она также может быть полезна инженерам и изобретателям, ученым, преподавателям университетов и людям, решающим творческие задачи. """@ru ; 
     a od:TRIZ-Book .
 
 <http://opendiscovery.org/rdf/Book/978-5-4493-5127-2>
@@ -351,14 +354,14 @@ od:TRIZ-Book
     dc:publisher "Technical Innovation Center Inc.: Worcester, MA, USA." ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "2005"^^dcterms:W3CDTF ;
-    dcterms:title "40 Principles. Extended Edition: TRIZ Keys to Technical Innovation." ;
+    dcterms:title "40 Principles. Extended Edition: TRIZ Keys to Technical Innovation."@en ;
     a od:TRIZ-Book .
 
 <http://opendiscovery.org/rdf/Book/Altshuller_ARIZ85c>
     od:relatedLinks <http://www.evolocus.com/Textbooks/ariz85c.pdf> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1985"^^dcterms:W3CDTF ;
-    dcterms:title "Algorithm of Inventive Problem Solving (ARIZ85c)." ;
+    dcterms:title "Algorithm of Inventive Problem Solving (ARIZ85c)."@en ;
     a od:TRIZ-Book .
 
 <http://opendiscovery.org/rdf/Book/B073GZCSDT>
@@ -596,3 +599,30 @@ od:TRIZ-Book
     a od:TRIZ-Book ;
     rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.243> .
 
+<http://opendiscovery.org/rdf/Book/978-5-0051-0072-6>
+    od:relatedLinks <https://ridero.ru/books/upravlenie_innovaciyami/> ;
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dc:publisher "Издательские решения"@ru ;
+    dcterms:abstract """Книга посвящена стратегиям выбора продукта для создания инноваций и достижения бизнес успеха компаний с учетом жизненных циклов продукта, компании и рынка.
+Отдельно рассматривается методика получения идеи будущих инноваций и изменений в продукте для поддержания успешных продаж. Эти методики основаны на теории решения изобретательских задач (ТРИЗ).
+Основное внимание уделено системному подходу на этапах выработки стратегии развития компании и продукта. Это обеспечивается комплексом взаимосвязанных методик, создающих системный подход и приводящих к бизнес успеху.
+Книга в первую очередь предназначена для топ-менеджеров. Она будет полезна также менеджерам среднего и низшего звена и архитекторам (системным инженерам)."""@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2020"^^dcterms:W3CDTF ;
+    dcterms:title "Управление инновациями: Теория решения изобретательских задач (ТРИЗ)"@ru ;
+    bibo:isbn "978-5-0051-0072-6" ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/Book/9798622683022>
+    od:relatedLinks <https://amzn.to/3gOJGyG> ;
+    dc:language "en"^^dcterms:RFC4646 ;
+    dc:publisher "Amazon Digital Services LLC"@en ;
+    dcterms:abstract """This book is devoted to the systematic presentation of the Theory of Inventive Problem Solving (TRIZ). It details methods for formulating non-standard problems and ways to solve them, laws of system evolution, method of forecasting development of system, structural analysis and synthesis of system, systems modeling methods, methods to identify and resolve contradictions, methods of detection and use of resources.
+The theoretical material is illustrated by many examples, problems, and graphical material (approximately 300 examples and problems, and approximately 400 illustrations). It describes more than 300 concepts. Material for independent work is provided at the end of each chapter.
+The book is intended for students of engineering disciplines. It can also be useful for engineers and inventors, scientists, university professors, and those who solve creative problems."""@en ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2020"^^dcterms:W3CDTF ;
+    dcterms:title "TRIZ Basics. Theory of Inventive Problem Solving"@en ;
+    bibo:isbn "9798622683022" ;
+    bibo:asin "B081D6VGFJ" ;
+    a od:TRIZ-Book .
