@@ -1,5 +1,6 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix odp: <http://opendiscovery.org/rdf/Person/> .
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
@@ -12,11 +13,13 @@
 :General 
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest> ;
-    rdfs:label "TRIZ Fest 2015 in Seoul, South Korea" ;
+    rdfs:label "TRIZ Fest 2015" ;
     ical:description "TRIZ Fest 2015 in Seoul, South Korea" ;
     ical:dtend "2015-09-12"^^xsd:date ;
     ical:dtstart "2015-09-10"^^xsd:date ;
     ical:location "Seoul, South Korea" ;
+    bibo:issn "2374-2275" ;
+    bibo:isbn "978-0-692-52417-6" ; 
     ical:url <https://matriz.org/trizfest-proceedings/> .
 
 :Paper_101 a od:Paper;

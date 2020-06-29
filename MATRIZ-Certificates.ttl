@@ -41,7 +41,7 @@ od:CertificateLevel5
 
 <http://opendiscovery.org/rdf/Certificate/L4.100>
     od:issued "2012-04" ;
-    od:owner odp:Faer_S ;
+    od:owner odp:Faer_SA ;
     a od:CertificateLevel4 ;
     foaf:name "Sergey Faer" .
 
@@ -149,7 +149,7 @@ od:CertificateLevel5
 
 <http://opendiscovery.org/rdf/Certificate/L4.118>
     od:issued "2015-04-20" ;
-    od:owner odp:Sun_Y ;
+    od:owner odp:Sun_YW ;
     a od:CertificateLevel4 ;
     foaf:name "Yongwei Sun" .
 
@@ -851,7 +851,7 @@ od:CertificateLevel5
 
 <http://opendiscovery.org/rdf/L5.108>
     od:issued "2018-09-15" ;
-    od:owner odp:Sun_Y ;
+    od:owner odp:Sun_YW ;
     a od:CertificateLevel5 ;
     foaf:name "Yongwei Sun" .
 
@@ -1163,9 +1163,9 @@ od:CertificateLevel5
 
 <http://opendiscovery.org/rdf/L5.61>
     od:issued "1998-09-27" ;
-    od:owner odp:Curikov_VM ;
+    od:owner odp:Tsourikov_VM ;
     a od:CertificateLevel5 ;
-    foaf:name "Valeri Tzourikov" .
+    foaf:name "Valeri Tsourikov" .
 
 <http://opendiscovery.org/rdf/L5.62>
     od:issued "1998-09-27" ;
@@ -1326,7 +1326,7 @@ od:CertificateLevel5
     foaf:name "Yury Gorin" .
 
 <http://opendiscovery.org/rdf/L5.90>
-    od:owner odp:Faer_S ;
+    od:owner odp:Faer_SA ;
     a od:CertificateLevel5 ;
     foaf:name "Sergey Faer" .
 

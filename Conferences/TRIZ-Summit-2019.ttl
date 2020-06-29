@@ -109,7 +109,7 @@
     od:urlPaper <http://triz-summit.ru/file.php/id/f304802-file-original.pdf> ;
     od:urlVideo <https://youtu.be/0by8g0G0HRI> ;
     dcterms:abstract "The impetus for the launch of the project The Invention Machine was the understanding that the computer is a universal transformer of information, and therefore is capable of solving inventive problems. The report examines ways of transition from the initial idea to use the computer as a \"smart assistant to the inventor\" to the concept of \"computer as an equally creative partner\". "@en, "Толчком к запуску проекта Изобретающая машина явилось понимание того, что компьютер является универсальным преобразователем информации, а значит, способен решать изобретательские задачи. В докладе рассматриваются пути перехода от первоначальной идеи “компьютер как умный помощник изобретателя” к концепции “компьютер как равный творческий партнер человека”."@ru ;
-    dcterms:creator odp:Curikov_VM ;
+    dcterms:creator odp:Tsourikov_VM ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/528> ;
     dcterms:title "30 years of the project \"Invention machine\""@en, "30 лет проекту \"Изобретающая машина\""@ru ;
     a od:Talk .

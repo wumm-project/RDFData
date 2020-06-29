@@ -1,5 +1,6 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix odp: <http://opendiscovery.org/rdf/Person/> .
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
@@ -12,11 +13,13 @@
 :General 
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest> ;
-    rdfs:label "TRIZ Fest 2016 in Beijing, PR China" ;
+    rdfs:label "TRIZ Fest 2016" ;
     ical:description "TRIZ Fest 2016 in Beijing, PR China" ;
     ical:dtend "2016-07-30"^^xsd:date ;
     ical:dtstart "2016-07-28"^^xsd:date ;
     ical:location "Beijing, PR China" ;
+    bibo:issn "2374-2275" ;
+    bibo:isbn "978-0-692-52418-3" ; 
     ical:url <https://matriz.org/trizfest-proceedings/> .
 
 :Paper_101 a od:Paper;
@@ -51,7 +54,7 @@ dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conf
 
 :Paper_107 a od:Paper;
  dcterms:title "Application of TRIZ concepts in teaching effective research communication skills";
-dcterms:creator odp:Nishiyama_K, odp:Emanuel_L;
+dcterms:creator odp:Nishiyama_K, odp:Leleito_E;
 dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
 
 :Paper_108 a od:Paper;
@@ -231,7 +234,7 @@ dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conf
 
 :Paper_143 a od:Paper;
  dcterms:title "TRIZ maturity evaluation in organizations";
-dcterms:creator odp:Sun_Y;
+dcterms:creator odp:Sun_YW;
 dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> . 
 
 :Paper_144 a od:Paper;

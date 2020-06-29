@@ -1095,11 +1095,11 @@
     dcterms:title "Изобретаем черепаху. Как применять ТРИЗ в школьном курсе биологии. Книга для учителей и учащихся"@ru ;
     a od:Reference .
 
-<http://opendiscovery.org/rdf/BIB/Curikov_1979_e6172fbd629c10b460bf6c97078143ae>
+<http://opendiscovery.org/rdf/BIB/Tsourikov_1979_e6172fbd629c10b460bf6c97078143ae>
     od:hatVerweis odv2:D17 ;
     rdfs:comment "vol. 1, pp. 130—131" ;
     od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1979> ; 
-    dcterms:creator odp:Curikov_VM ;
+    dcterms:creator odp:Tsourikov_VM ;
     dcterms:issued "1979" ;
     dcterms:title "Принципы создания математического обеспечения ТРИЗ"@ru ;
     a od:Reference .
@@ -1117,19 +1117,19 @@ a od:Reference .
     a od:Reference .
 
 
-<http://opendiscovery.org/rdf/BIB/Curikov_1984_d18d01f4f6cfe729d71454e1657550db>
+<http://opendiscovery.org/rdf/BIB/Tsourikov_1984_d18d01f4f6cfe729d71454e1657550db>
     od:hatVerweis odv2:D17 ;
     rdfs:comment "pp. 102—104" ;
     od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
-    dcterms:creator odp:Curikov_VM ;
+    dcterms:creator odp:Tsourikov_VM ;
     dcterms:issued "1984" ;
     dcterms:title "Математические эффекты в теории информации"@ru ;
     a od:Reference .
 
-<http://opendiscovery.org/rdf/BIB/Curikov_1991_a995ba898ec47924c16400c6baf78965>
+<http://opendiscovery.org/rdf/BIB/Tsourikov_1991_a995ba898ec47924c16400c6baf78965>
     od:hatVerweis odv2:D17 ;
     od:inJournal "Журнал ТРИЗ, Т. 2, №1, 1991, с. 48—55."@ru ;
-    dcterms:creator odp:Curikov_VM ;
+    dcterms:creator odp:Tsourikov_VM ;
     dcterms:issued "1991" ;
     dcterms:title "Математические эффекты — новый раздел информационных фондов ТРИЗ"@ru ;
     a od:Reference .
