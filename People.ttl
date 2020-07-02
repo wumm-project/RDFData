@@ -1029,7 +1029,12 @@ odp:Kuryan_A
 
 odp:Kustov_VP
     a foaf:Person ;
-    foaf:name "V.P. Kustov" .
+    foaf:name "Valeri P. Kustov" .
+
+odp:Kustov_Y
+    a foaf:Person ;
+    foaf:homepage <https://trizofication.ru> ;
+    foaf:name "Yevgeni Kustov" .
 
 odp:Kuzmin_AM
     a foaf:Person ;
