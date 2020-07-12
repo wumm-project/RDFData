@@ -18,255 +18,542 @@
     "2019-01-10 graebe: Extracted and transformed from triz-online",
     "2019-10-05 graebe: A first raw translation to Russian and English added",
     "2020-01-12 graebe: Adjustment of the German terms with (Koltze/Souchkov 2017)",
-    "2020-04-16 graebe: namespace abbreviation and principle names fixed";
+    "2020-04-16 graebe: namespace abbreviation and principle names fixed",
+    "2020-07-12 graebe: od:hasRecommendation split off, Altshuller73 Ids added";
     rdfs:label "TRIZ Database - The 40 Principles" .
 
 od:Principle
     a owl:Class ;
-    rdfs:label "A TRIZ Principle"@en, "Ein TRIZ Prinzip"@de, "Принцип ТРИЗ"@ru .
+    rdfs:label "A TRIZ Principle"@en, "Ein TRIZ Prinzip"@de, "ТРИЗ приём"@ru .
 
-odq:Segmentation 
-    od:description "Das Objekt ist in unabhängige, gleiche Teile zu zerlegen."@de, "Das Objekt ist zerlegbar auszuführen."@de, "Der Grad der Zerlegung des Objektes ist zu erhöhen."@de, "The degree of decomposition of the object has to be increased."@en, "The object is to be dismantled."@en, "The object is to be divided into independent, equal parts."@en, "Объект должен быть разложен."@ru, "Объект должен быть разделен на независимые равные части."@ru, "Степень разложения объекта должна быть увеличена."@ru ;
-    od:hasPrincipleNumber "01" ;
+odq:Segmentation
+  od:hasRecommendation odq:Segmentation_1, odq:Segmentation_2, odq:Segmentation_3 ; 
+    od:hasAltshuller73Id "01" ;
+    od:hasAltshuller84Id "01" ;
     a od:Principle ;
-    rdfs:label "Principle of decomposition or segmentation"@en, "Prinzip der Zerlegung bzw. Segmentierung"@de, "Принцип дробления"@ru .
+    rdfs:label "Principle of decomposition or segmentation"@en, "Prinzip der Zerlegung bzw. Segmentierung"@de, "Приём дробления"@ru .
+
+odq:Segmentation_1 a od:Recommendation;  
+    od:description "Zerlege das Objekt in unabhängige, gleiche Teile."@de, "Divide the object into independent, equal parts."@en, "Объект должен быть разделен на независимые равные части."@ru .
+
+odq:Segmentation_2 a od:Recommendation; 
+    od:description "Führe das Objekt zerlegbar aus."@de, "Make the object to be dismantled."@en, "Объект должен быть разложен."@ru .
+
+odq:Segmentation_3 a od:Recommendation; 
+    od:description "Erhöhe den Grad der Zerlegung des Objektes."@de, "Increase the degree of decomposition of the object."@en, "Степень разложения объекта должна быть увеличена."@ru .
 
 odq:Separation 
-    od:description "From the object is the disturbing part to separate the annoying property. "@en, "Im Unterschied zum Prinzip 01, in dem es um die Zerlegung des Objektes in gleiche Teile ging, wird hier vorgeschlagen, das Objekt in unterschiedliche Teile zu zerlegen."@de, "In contrast to principle 01, which deals with the decomposition of the object into equal parts, it is proposed here to divide the object into different parts."@en, "Vom Objekt ist das störende Teil, die störende Eigenschaft, abzutrennen."@de, "В отличие от принципа 01, который касается разложения объекта на равные части, здесь предлагается разделить объект на разные части."@ru, "Из объекта отделить мешающую часть с вредным свойством. "@ru ;
-    od:hasPrincipleNumber "02" ;
+  od:hasRecommendation odq:Separation_1, odq:Separation_2 ; 
+    od:hasAltshuller73Id "02" ;
+    od:hasAltshuller84Id "02" ;
     a od:Principle ;
-    rdfs:label "Principle of separation"@en, "Prinzip der Abtrennung"@de, "Принцип вынесения"@ru .
+    rdfs:label "Principle of separation"@en, "Prinzip der Abtrennung"@de, "Приём вынесения"@ru .
 
+odq:Separation_1 a od:Recommendation; 
+    od:description "Remove the disturbing part or property from the object."@en, "Trenne vom Objekt das störende Teil, die störende Eigenschaft, ab."@de, "Из объекта отделить мешающую часть с вредным свойством."@ru .
+    
+odq:Separation_2 a od:Recommendation; 
+    od:description "Zerlege das Objekt in unterschiedliche Teile."@de, "Divide the object into different parts."@en, "Предлагается разделить объект на разные части."@ru .
+    
 odq:LocalQuality 
-    od:description "Every part of the object should be under conditions that are most conducive to its work."@en, "Jedes Teil des Objektes soll sich unter solchen Bedingungen befinden, die seiner Arbeit am zuträglichsten sind."@de, "The homogeneous structure of the object or the surrounding medium must be transformed into an inhomogeneous structure."@en, "Von der homogenen Struktur des Objektes oder des umgebenden Mediums ist zu einer inhomogenen Struktur überzugehen."@de, "Гомогенная структура объекта или окружающей среды должна быть преобразована в неоднородную структуру."@ru, "Каждая часть объекта должна находиться в условиях, наиболее благоприятных для его работы."@ru ;
-    od:hasPrincipleNumber "03" ;
+  od:hasRecommendation odq:LocalQuality_1, odq:LocalQuality_2 ; 
+    od:hasAltshuller73Id "03" ;
+    od:hasAltshuller84Id "03" ;
     a od:Principle ;
-    rdfs:label "Principle of Local Quality"@en, "Prinzip der örtlichen Qualität"@de, "Принцип местного качества"@ru .
+    rdfs:label "Principle of Local Quality"@en, "Schaffen optimaler Bedingungen"@de, "Prinzip der örtlichen Qualität"@de, "Приём местного качества"@ru .
 
+odq:LocalQuality_1 a od:Recommendation; 
+    od:description "Every part of the object should be under conditions that are most conducive to its work."@en, "Für jedes Teil des Objektes sind solche Bedingungen zu sichern, die seiner Arbeit am zuträglichsten sind."@de, "Каждая часть объекта должна находиться в условиях, наиболее благоприятных для его работы."@ru .
+    
+odq:LocalQuality_2 a od:Recommendation; 
+    od:description "Transform the homogeneous structure of the object or the surrounding medium into an inhomogeneous structure."@en, "Gehe von der homogenen Struktur des Objektes oder des umgebenden Mediums zu einer inhomogenen Struktur über."@de, "Однородная структура объекта или окружающей среды должна быть преобразована в неоднородную."@ru .
+    
 odq:Asymmetry 
-    od:description "Der Grad der Asymmetrie ist zu erhöhen, wenn das Objekt bereits asymmetrisch ist."@de, "From the symmetrical shape of the object is to move to asymmetric."@en, "The degree of asymmetry is to be increased if the object is already asymmetric."@en, "Von der symmetrischen Form des Objektes ist zur asymmetrischen überzugehen."@de, "От симметричной формы объекта необходимо перейти к асимметричному."@ru, "Степень асимметрии должна быть увеличена, если объект уже асимметричен."@ru ;
-    od:hasPrincipleNumber "04" ;
+  od:hasRecommendation odq:Asymmetry_1, odq:Asymmetry_2 ; 
+    od:hasAltshuller73Id "04" ;
+    od:hasAltshuller84Id "04" ;
     a od:Principle ;
-    rdfs:label "Principle of asymmetry"@en, "Prinzip der Asymmetrie"@de, "Принцип асимметрии"@ru .
+    rdfs:label "Principle of asymmetry"@en, "Prinzip der Asymmetrie"@de, "Приём асимметрии"@ru .
 
+odq:Asymmetry_2 a od:Recommendation; 
+    od:description "Erhöhe den Grad der Asymmetrie, wenn das Objekt bereits asymmetrisch ist."@de, "Increase the degree of asymmetry if the object is already asymmetric."@en, "Степень асимметрии должна быть увеличена, если объект уже асимметричен."@ru .
+    
+odq:Asymmetry_1 a od:Recommendation; 
+    od:description "Move from a symmetrical shape of the object to an asymmetric one."@en, "Gehe von einer symmetrischen Form des Objektes zu einer asymmetrischen über."@de, "От симметричной формы объекта необходимо перейти к асимметричной."@ru . 
+    
 odq:Coupling 
-    od:description "Gleichartige oder zur Koordinierung bestimmte Systeme oder Operationen sind zu koppeln."@de, "Similar or coordinating systems or operations are to be coupled."@en, "Подобные или координирующие системы или операции должны быть связаны."@ru ;
-    od:hasPrincipleNumber "05" ;
+  od:hasRecommendation odq:Coupling_1 ; 
+    od:hasAltshuller73Id "05" ;
+    od:hasAltshuller84Id "05" ;
     a od:Principle ;
-    rdfs:label "Principle of coupling"@en, "Prinzip der Kopplung"@de, "Принцип объединения"@ru .
+    rdfs:label "Principle of coupling"@en, "Kombination"@de, "Prinzip der Kopplung"@de, "Приём объединения"@ru .
 
+odq:Coupling_1 a od:Recommendation; 
+    od:description "Kopple gleichartige oder zu koordinierende Systeme oder Operationen."@de, "Couple similar or coordinating systems or operations."@en, "Подобные или координирующие системы или операции должны быть объединены."@ru .
+    
 odq:Universality 
-    od:description "Das Objekt erfüllt mehrere unterschiedliche Funktionen, wodurch weitere gesonderte Objekte überflüssig werden."@de, "The object fulfills several different functions, which makes additional separate objects superfluous."@en, "Объект выполняет несколько различных функций, что делает ненужными дополнительные отдельные объекты."@ru ;
-    od:hasPrincipleNumber "06" ;
+  od:hasRecommendation odq:Universality_1 ; 
+    od:hasAltshuller73Id "06" ;
+    od:hasAltshuller84Id "06" ;
     a od:Principle ;
-    rdfs:label "Principle of universality"@en, "Prinzip der Universalität"@de, "Принцип универсальности"@ru .
+    rdfs:label "Principle of universality"@en, "Mehrzwecknutzung"@de,"Prinzip der Universalität"@de,  "Приём универсальности"@ru .
 
+odq:Universality_1 a od:Recommendation; 
+    od:description "Das Objekt erfüllt mehrere unterschiedliche Funktionen, wodurch weitere gesonderte Objekte überflüssig werden."@de, "The object fulfills several different functions, which makes additional separate objects superfluous."@en, "Объект выполняет несколько различных функций, что делает ненужными дополнительные объекты."@ru .
+    
 odq:Nesting 
-    od:description "An object is housed inside another, which in turn is inside a third."@en, "An object passes through or fills the cavity of another object."@en, "Ein Objekt durchläuft oder füllt den Hohlraum eines anderen Objektes."@de, "Ein Objekt ist im Inneren eines anderen untergebracht, das sich wiederum im Inneren eines dritten befindet."@de, "Объект проходит через или заполняет полость другого объекта."@ru, "Объект размещен внутри другого, который, в свою очередь, находится внутри третьего."@ru ;
-    od:hasPrincipleNumber "07" ;
+  od:hasRecommendation odq:Nesting_1, odq:Nesting_2 ;
+    od:hasAltshuller73Id "07" ;
+    od:hasAltshuller84Id "07" ;
     a od:Principle ;
-    rdfs:label "Principle of nesting (matryoshka)"@en, "Prinzip der Integration (Matrjoschka-Prinzip)"@de, "Принцип вложенности («матрёшки»)"@ru .
+    rdfs:label "Principle of nesting (matryoshka)"@en, "Prinzip der Integration (Matrjoschka-Prinzip)"@de, "Приём вложенности («матрёшки»)"@ru .
 
+odq:Nesting_1 a od:Recommendation; 
+    od:description "Place an object inside another, which in turn is inside a third."@en, "Bringe ein Objekt im Inneren eines anderen unter, das sich wiederum im Inneren eines dritten befindet."@de, "Объект размещается внутри другого, который, в свою очередь, находится внутри третьего."@ru .
+    
+odq:Nesting_2 a od:Recommendation; 
+    od:description "An object passes through or fills the cavity of another object."@en, "Ein Objekt durchläuft oder füllt den Hohlraum eines anderen Objektes."@de, "Объект проходит через или заполняет полость другого объекта."@ru . 
+    
 odq:Countermass 
-    od:description "Das Gewicht des Objektes ist durch Kopplung mit einem anderen Objekt, das Tragkraft besitzt, zu kompensieren."@de, "Das Gewicht des Objektes ist durch Wechselwirkung mit einem Medium zu kompensieren."@de, "The weight of the object is to be compensated by coupling it with another object that has bearing capacity."@en, "The weight of the object is to be compensated by interaction with a medium."@en, "Вес объекта должен быть компенсирован взаимодействием со средой."@ru, "Вес объекта должен быть компенсирован путем соединения его с другим объектом, который обладает несущей способностью."@ru ;
-    od:hasPrincipleNumber "08" ;
+  od:hasRecommendation odq:Countermass_1, odq:Countermass_2 ;
+  od:hasAltshuller73Id "08" ;
+    od:hasAltshuller84Id "08" ;
     a od:Principle ;
-    rdfs:label "Principle of the countermass"@en, "Prinzip des Gegengewichts"@de, "Принцип противовеса"@ru .
+    rdfs:label "Principle of the countermass"@en, "Prinzip des Gegengewichts"@de, "Приём противовеса"@ru .
 
+odq:Countermass_1 a od:Recommendation; 
+    od:description "Kompensiere das Gewicht des Objektes durch die Kopplung mit einem anderen Objekt, das Tragkraft besitzt."@de, "Compensate the weight of the object by coupling it with another object that has bearing capacity."@en, "Вес объекта должен быть компенсирован путем соединения его с другим объектом, который обладает несущей способностью."@ru  .
+    
+odq:Countermass_2 a od:Recommendation; 
+    od:description "Kompensiere das Gewicht des Objektes durch Wechselwirkung mit einem Medium."@de, "Compensate the weight of the object by interaction with a medium."@en, "Вес объекта должен быть компенсирован взаимодействием со средой."@ru .
+    
 odq:EarlyCounteraction 
-    od:description "If a certain effect is to be achieved according to the conditions of the task, the counteraction must first be generated."@en, "Wenn gemäß den Bedingungen der Aufgabe eine bestimmte Wirkung erzielt werden soll, muss zuvor die Gegenwirkung erzeugt werden."@de, "Если в соответствии с условиями задачи должен быть достигнут определенный эффект, сначала должно быть создано противодействие."@ru ;
-    od:hasPrincipleNumber "09" ;
+  od:hasRecommendation odq:EarlyCounteraction_1 ;
+    od:hasAltshuller73Id "09" ;
+    od:hasAltshuller84Id "09" ;
     a od:Principle ;
-    rdfs:label "Principle of early counteraction"@en, "Prinzip der vorherigen Gegenwirkung"@de, "Принцип предварительного противодействия"@ru .
+    rdfs:label "Principle of early counteraction"@en, "Prinzip der Vorspannung"@de, "Prinzip der vorherigen Gegenwirkung"@de, "Приём предварительного противодействия"@ru .
 
+odq:EarlyCounteraction_1 a od:Recommendation; 
+    od:description "If a certain effect is to be achieved according to the conditions of the task, first generate the counteraction."@en, "Wenn gemäß den Bedingungen der Aufgabe eine bestimmte Wirkung erzielt werden soll, erzeuge vorher die Gegenwirkung."@de, "Чтобы в соответствии с условиями задачи достигать определенный эффект, сначала должно быть создано противодействие."@ru .
+    
 odq:PreferredAction 
-    od:description "Die Objekte sind vorher so aufzustellen bzw. einzusetzen, dass sie ohne Zeitverlust für ihr Herbeischaffen vom geeignetsten Ort aus wirken können."@de, "Die erforderliche Wirkung ist vorher zu erzielen (vollständig oder auch teilweise)."@de, "The objects must first be set up in such a way that they can work without delay for their bringing in from the most suitable place."@en, "The required effect must be achieved beforehand (completely or partially)."@en, "Объекты сначала должны быть настроены таким образом, чтобы они могли работать без задержки для их доставки из наиболее подходящего места."@ru, "Требуемый эффект должен быть достигнут заранее (полностью или частично)."@ru ;
-    od:hasPrincipleNumber "10" ;
+  od:hasRecommendation odq:PreferredAction_1, odq:PreferredAction_2 ;
+    od:hasAltshuller73Id "10" ;
+    od:hasAltshuller84Id "10" ;
     a od:Principle ;
-    rdfs:label "Principle of the preferred action"@en, "Prinzip der vorherigen Wirkung bzw. Aktion"@de, "Принцип предварительного действия (заранее выполненное действие)"@ru .
+    rdfs:label "Principle of the preferred action"@en, "Prinzip der vorherigen Wirkung bzw. Aktion"@de, "Приём предварительного действия (заранее выполненное действие)"@ru .
 
+odq:PreferredAction_1 a od:Recommendation; 
+    od:description "Bereite die Objekte vorab so vor, dass sie ohne Zeitverlust vom geeignetsten Ort aus wirken können."@de, "Prepare the objects in advance in such a way that they can work without delay at the most suitable place."@en, "Объекты сначала должны быть настроены таким образом, чтобы они могли работать без задержки из наиболее подходящего места."@ru .
+    
+odq:PreferredAction_2 a od:Recommendation; 
+    od:description "Erziele die erforderliche Wirkung vorab (vollständig oder auch teilweise)."@de, "Achieve the required effect beforehand (completely or partially)."@en, "Требуемый эффект должен быть достигнут заранее (полностью или частично)."@ru .
+    
 odq:Prevention 
-    od:description "A relatively low reliability of the object is compensated by means previously provided."@en, "Eine relativ geringe Zuverlässigkeit des Objektes wird durch vorher bereitgestellte Hilfsmittel ausgeglichen."@de, "Относительно низкая надежность объекта компенсируется ранее предоставленными средствами."@ru, "Заранее предусматривается устройство для выполнения спасательных и других аваририйных действий"@ru, "Es ist ein Gerät zur Durchführung von Rettungs- und anderen Notfallmaßnahmen vorgesehen"@de, "A device is foreseen for performing rescue and other emergency actions"@en ;
-    od:hasPrincipleNumber "11" ;
+  od:hasRecommendation odq:Prevention_1, odq:Prevention_2 ;
+    od:hasAltshuller73Id "11" ;
+    od:hasAltshuller84Id "11" ;
     a od:Principle ;
-    rdfs:label "Principle of advanced cushion (prevention)"@en, "Prinzip des untergelegten Kissens (Prävention)"@de, "Принцип заранее подложенной подушки"@ru .
+    rdfs:label "Principle of advanced cushion (prevention)"@en, "Vorbeugen"@de, "Prinzip der Prävention"@de, "Приём заранее подложенной подушки"@ru .
 
+odq:Prevention_1 a od:Recommendation; 
+    od:description "Compensate the relatively low reliability of the object by means previously provided."@en, "Kompensiere die relativ geringe Zuverlässigkeit des Objektes durch vorher bereitgestellte Hilfsmittel."@de, "Относительно низкая надежность объекта компенсируется ранее предоставленными средствами."@ru .
+    
+odq:Prevention_2 a od:Recommendation; 
+    od:description "Заранее предусматривается устройство для выполнения спасательных и других аваририйных действий."@ru, "Sieh eine Einrichtung zur Durchführung von Rettungs- und anderen Notfallmaßnahmen vor."@de, "A device is foreseen for performing rescue and other emergency actions."@en .
+    
 odq:Equipotentiality 
-    od:description "Die Arbeitsbedingungen sind so zu verändern, dass das Objekt mit konstantem Energiepotenzial arbeiten kann, z.B. nicht angehoben oder herabgelassen werden muss."@de, "The working conditions should be changed so that the object can work with a constant energy potential, for example it does not have to be raised or lowered."@en, "Рабочие условия должны быть изменены, чтобы объект мог работать с постоянным энергетическим потенциалом, например, его не нужно поднимать или опускать."@ru ;
-    od:hasPrincipleNumber "12" ;
+  od:hasRecommendation odq:Equipotentiality_1 ;
+    od:hasAltshuller73Id "12" ;
+    od:hasAltshuller84Id "12" ;
     a od:Principle ;
-    rdfs:label "Principle of Equipotentiality"@en, "Prinzip der Äquipotenzialität"@de, "Принцип эквипотенциальности"@ru .
+    rdfs:label "Principle of Equipotentiality"@en, "Prinzip der Äquipotenzialität"@de, "Приём эквипотенциальности"@ru .
 
+odq:Equipotentiality_1 a od:Recommendation; 
+    od:description "Verändere die Arbeitsbedingungen so, dass das Objekt mit konstantem Energiepotenzial arbeiten kann, z.B. nicht angehoben oder herabgelassen werden muss."@de, "Change the working conditions in such a way that the object can work with a constant energy potential, and has not to be raised or lowered."@en, "Рабочие условия должны быть изменены таким образом, чтобы объект мог работать с постоянным энергетическим потенциалом, его не нужно поднимать или опускать."@ru .
+    
 odq:Conversely 
-    od:description "Instead of the effect prescribed by the conditions of the task, the reverse effect can be achieved. "@en, "Das Objekt ist auf den Kopf zu stellen bzw. umzukehren."@de, "Der bewegliche Teil des Objektes oder des umgebenden Mediums ist unbeweglich, und der unbewegliche ist beweglich zu gestalten."@de, "Statt der Wirkung, die durch die Bedingungen der Aufgabe vorgeschrieben wird, ist die umgekehrte Wirkung zu erzielen."@de, "The moving part of the object or the surrounding medium is immobile, and the immovable is movable."@en, "The object is upside down or reverse."@en, "Вместо эффекта, предписанного условиями задачи, может быть достигнут обратный эффект. "@ru, "Движущаяся часть объекта или окружающая среда неподвижна, а неподвижная - подвижна."@ru, "Объект находится вверх ногами или наоборот."@ru ;
-    od:hasPrincipleNumber "13" ;
+  od:hasRecommendation odq:Conversely_1, odq:Conversely_2, odq:Conversely_3 ;
+    od:hasAltshuller73Id "13" ;
+    od:hasAltshuller84Id "13" ;
     a od:Principle ;
-    rdfs:label "Prinzip der Funktionsumkehr (Inversion)"@de, "Principle conversely"@en, "Принцип Наоборот"@ru .
+    rdfs:label "Prinzip der Funktionsumkehr (Inversion)"@de, "Principle conversely"@en, "Приём Наоборот"@ru .
 
+odq:Conversely_1 a od:Recommendation; 
+    od:description "Instead of the effect prescribed by the conditions of the task, achieve the reverse effect."@en, "Erziele statt der Wirkung, die durch die Bedingungen der Aufgabe vorgeschrieben wird, die umgekehrte Wirkung."@de, "Вместо эффекта, предписанного условиями задачи, достигается обратный эффект."@ru .
+    
+odq:Conversely_2 a od:Recommendation; 
+    od:description "Stelle das Objekt auf den Kopf bzw. kehre es um."@de, "Put the object upside down or reverse it."@en, "Перевернуть объект вверх ногами или другим способом наоборот."@ru  .
+    
+odq:Conversely_3 a od:Recommendation; 
+    od:description "Gestalte den beweglichen Teil des Objektes oder des umgebenden Mediums unbeweglich, und den unbeweglichen beweglich."@de, "Make the moving part of the object or the surrounding medium immobile, and the immovable movable."@en, "Сделай движущуюся часть объекта или окружающую среду неподвижной, а неподвижную - подвижной."@ru  .
+    
 odq:BallSimilarity 
-    od:description "From straight contours is too curved, from flat surfaces is too spherical to go over."@en, "From the rectilinear motion is to transition to rotation."@en, "To use are rollers, balls, spirals."@en, "Von der geradlinigen Bewegung ist zur Rotation überzugehen."@de, "Von geradlinigen Konturen ist zu gekrümmten, von ebenen Flächen ist zu sphärischen überzugehen."@de, "Zu verwenden sind Rollen, Kugeln, Spiralen."@de, "Для использования используются ролики, шарики, спирали."@ru, "От прямолинейного движения есть переход к вращению."@ru, "От прямых контуров слишком изогнутые, от плоских поверхностей слишком сферические, чтобы их перегибать."@ru ;
-    od:hasPrincipleNumber "14" ;
+  od:hasRecommendation odq:BallSimilarity_1, odq:BallSimilarity_2, odq:BallSimilarity_3 ;
+    od:hasAltshuller73Id "14" ;
+    od:hasAltshuller84Id "14" ;
     a od:Principle ;
-    rdfs:label "Principle of the ball similarity"@en, "Prinzip der Kugelähnlichkeit (Sphäroidalität)"@de, "Принцип сфероидальности"@ru .
+    rdfs:label "Principle of the ball similarity"@en, "Prinzip der sphärischen Form"@de, "Приём сфероидальности"@ru .
 
+odq:BallSimilarity_1 a od:Recommendation;
+    od:description "From straight contours go to curved ones, from flat surfaces go to spherical ones."@en, "Gehe von geradlinigen Konturen zu gekrümmten, von ebenen Flächen zu sphärischen über."@de, "От прямых контуров переходить к изогнутым, от плоских поверхностей к сферическим."@ru .
+    
+odq:BallSimilarity_2 a od:Recommendation;
+    od:description "Move from the rectilinear motion to rotation."@en, "Gehe von einer geradlinigen Bewegung zur Rotation über."@de, "От прямолинейного движения переходить к вращению."@ru .
+    
+odq:BallSimilarity_3 a od:Recommendation;
+    od:description "Use rollers, balls, spirals."@en, "Verwende Rollen, Kugeln, Spiralen."@de, "Используются ролики, шарики, спирали."@ru .
+    
 odq:Dynamization 
-    od:description "If the object as a whole is immobile, it has to be movable (adjustable). "@en, "Если объект в целом неподвижен, он должен быть подвижным (регулируемым). "@ru, "Das Objekt ist in Teile zu zerlegen, die sich zueinander verstellen oder verschieben lassen."@de, "Die Kennwerte des Objektes (oder des umgebenden Mediums) müssen sich so verändern, dass sie in jeder Arbeitsetappe optimal sind (Anpassung)."@de, "Falls das Objekt insgesamt unbeweglich ist, ist es beweglich (verstellbar) zu gestalten."@de, "The characteristics of the object (or the surrounding medium) must change to be optimal in each work step (adaptation) . "@en, "The object is to be broken down into parts that can be displaced or shifted."@en, "Объект должен быть разбит на части, которые могут быть смещены или сдвинуты."@ru, "Характеристики объекта (или окружающей среды) должны меняться, чтобы быть оптимальными на каждом этапе работы (адаптация) . "@ru ;
-    od:hasPrincipleNumber "15" ;
+  od:hasRecommendation odq:Dynamization_1, odq:Dynamization_2, odq:Dynamization_3 ; 
+    od:hasAltshuller73Id "15" ;
+    od:hasAltshuller84Id "15" ;
     a od:Principle ;
-    rdfs:label "Principle of dynamization"@en, "Prinzip der Dynamisierung"@de, "Принцип динамичности"@ru .
+    rdfs:label "Principle of dynamization"@en, "Prinzip der Anpassung"@de, "Prinzip der Dynamisierung"@de, "Приём динамичности"@ru .
 
+odq:Dynamization_1 a od:Recommendation;
+    od:description "If the object as a whole is immobile, make it movable (adjustable)."@en, "Если объект в целом неподвижен, он должен стать подвижным (регулируемым)."@ru, "Falls das Objekt insgesamt unbeweglich ist, gestalte es beweglich (verstellbar)."@de .
+    
+odq:Dynamization_2 a od:Recommendation;
+    od:description "Zerlege das Objekt in Teile, die sich zueinander verstellen oder verschieben lassen."@de, "Brake down the object into parts that can be displaced or shifted."@en, "Объект разбить на части, которые могут быть смещены или сдвинуты."@ru .
+    
+odq:Dynamization_3 a od:Recommendation;
+    od:description "Verändere die Kennwerte des Objektes (oder des umgebenden Mediums) so, dass sie in jeder Arbeitsetappe optimal sind (Anpassung)."@de, "Change the characteristics of the object (or the surrounding medium) to be optimal in each work step (adaptation)."@en, "Характеристики объекта (или окружающей среды) должны меняться, чтобы быть оптимальными на каждом этапе работы (адаптация)."@ru .
+    
 odq:PartialOrExcessEffect 
-    od:description "If 100% of the required effect is difficult to achieve, then a little less or a little bit more must be achieved."@en, "Wenn 100 % des erforderlichen Effekts schwer zu erzielen sind, muss „ein bisschen weniger“ oder „ein bisschen mehr“  erzielt werden."@de, "Если 100% требуемого эффекта трудно достичь, то необходимо достичь немного меньше или немного больше."@ru ;
-    od:hasPrincipleNumber "16" ;
+  od:hasRecommendation odq:PartialOrExcessEffect_1 ; 
+    od:hasAltshuller73Id "16" ;
+    od:hasAltshuller84Id "16" ;
     a od:Principle ;
-    rdfs:label "Principle of partial or excess effect"@en, "Prinzip der partiellen oder überschüssigen Wirkung"@de, "Принцип частичного или избыточного решения"@ru .
+    rdfs:label "Principle of partial or excess effect"@en, "Prinzip der nicht vollständigen Lösung"@de, "Prinzip der partiellen oder überschüssigen Wirkung"@de, "Приём частичного или избыточного действия"@ru .
 
+odq:PartialOrExcessEffect_1 a od:Recommendation;
+    od:description "If 100% of the required effect is difficult to achieve, then achieve a little less or a little bit more."@en, "Wenn 100% des erforderlichen Effekts schwer zu erzielen sind, erziele „ein bisschen weniger“ oder „ein bisschen mehr“."@de, "Если 100% требуемого эффекта трудно достичь, то достичь немного меньше или немного больше."@ru .
+    
 odq:TransitionToAnotherDimension 
-    od:description "Instead of arrangement in only a layer arranges objects in multiple layers. "@en, "Вместо размещения только в слой размещает объекты в нескольких слоях. "@ru, "Das Objekt ist geneigt aufzustellen."@de, "Die Rückseite des gegebenen Objektes ist auszunutzen."@de, "Difficulties resulting from binding an object's motion to a line are eliminated when the object is the object The possibility of moving in two dimensions, that is, in one plane, is also eliminated, as are the difficulties associated with the movement of objects on a plane in the transition to three-dimensional space. "@en, "Schwierigkeiten, die aus der Bindung der Bewegung eines Objektes an eine Linie resultieren, werden beseitigt, wenn das Objekt die Möglichkeit erhält, sich in zwei Dimensionen, d. h. in einer Ebene, zu bewegen. Analog werden auch die Schwierigkeiten, die mit der Bewegung von Objekten auf einer Ebene verbunden sind, beim Übergang zum dreidimensionalen Raum beseitigt."@de, "Statt Anordnung in nur einer Ebene werden Objekte in mehreren Ebenen angeordnet."@de, "The back of the given object is to be exploited."@en, "The object is inclined to be placed."@en, "Задняя часть данного объекта должна эксплуатироваться."@ru, "Объект склонен к размещению."@ru, "Трудности, возникающие в результате привязки движения объекта к линии, устраняются, когда объект является объектом Также исключается возможность перемещения в двух измерениях, то есть в одной плоскости, а также трудности, связанные с перемещением объектов на плоскости при переходе в трехмерное пространство. "@ru ;
-    od:hasPrincipleNumber "17" ;
+  od:hasRecommendation odq:TransitionToAnotherDimension_1, odq:TransitionToAnotherDimension_2, odq:TransitionToAnotherDimension_3, odq:TransitionToAnotherDimension_4 ;
+    od:hasAltshuller84Id "17" ;
     a od:Principle ;
-    rdfs:label "Principle of transition to another dimension"@en, "Prinzip des Übergangs zu anderen Dimensionen"@de, "Принцип перехода в другое измерение"@ru .
+    rdfs:label "Principle of transition to another dimension"@en, "Prinzip des Übergangs in eine andere Dimension"@de, "Приём перехода в другое измерение"@ru .
+
+odq:TransitionToAnotherDimension_1 a od:Recommendation;
+    od:description "Instead of arrangement in only a layer arrange objects in multiple layers. "@en, "Вместо размещения только в один слой размещать объекты в нескольких слоях."@ru, "Ordne die Objekte statt in nur einer Ebene in mehreren Ebenen angeordnet."@de .
+    
+odq:TransitionToAnotherDimension_2 a od:Recommendation;
+    od:description "Stelle das Objekt geneigt auf."@de, "The object is inclined to be placed."@en, "Объект размещать склонным образом."@ru .
+
+odq:TransitionToAnotherDimension_3 a od:Recommendation;
+    od:description "Nutze die Rückseite des gegebenen Objektes aus."@de, "Exploit the back of the given object."@en, "Использовать обратную сторону данного объекта."@ru .
+
+odq:TransitionToAnotherDimension_4 a od:Recommendation;
+    od:description "Difficulties from object's motion on a line are eliminated when the object moves in two dimensions. Difficulties associated with the movement of objects on a plane are eliminated by the transition to three-dimensional space."@en, "Bei Schwierigkeiten der Bewegung eines Objektes längs einer Linie gehe zu zwei Dimensionen über, d.h. bewege es in einer Ebene. Analog werden Schwierigkeiten einer zweidimensionalen Bewegung von Objekten durch Übergang zum dreidimensionalen Raum beseitigt."@de, "Трудности, возникающие в результате привязки движения объекта к линии, устраняются, когда объект перемещается в двух измерениях, то есть в плоскости. Трудности, связанные с перемещением объектов на плоскости устраняются при переходе в трехмерное пространство."@ru .
 
 odq:ExploitationOfMechanicalVibrations 
-    od:description "Anstelle von mechanischen Vibratoren sind Piezovibratoren anzuwenden."@de, "Auszunutzen sind Ultraschallschwingungen in Verbindung mit elektromagnetischen Feldern."@de, "Das Objekt ist in Schwingungen zu versetzen."@de, "Die Eigenfrequenz ist auszunutzen."@de, "Falls eine solche Bewegung bereits vorliegt, ist ihre Frequenz zu erhöhen, bis hin zur Ultaschallfrequenz."@de, "If such a movement already exists, its frequency must be increased, up to the ultrasonic frequency."@en, "Instead of mechanical vibrators, piezovibrators are to be used."@en, "The natural frequency is to be exploited."@en, "The object is to be vibrated."@en, "Use ultrasonic vibrations in conjunction with electromagnetic fields."@en, "Вместо механических вибраторов должны использоваться пьезовибраторы."@ru, "Если такое движение уже существует, его частота должна быть увеличена до ультразвуковой частоты."@ru, "Используйте ультразвуковые колебания в сочетании с электромагнитными полями."@ru, "Объект должен вибрировать."@ru, "Собственная частота должна эксплуатироваться."@ru ;
-    od:hasPrincipleNumber "18" ;
+  od:hasRecommendation odq:ExploitationOfMechanicalVibrations_1, odq:ExploitationOfMechanicalVibrations_2, odq:ExploitationOfMechanicalVibrations_3, odq:ExploitationOfMechanicalVibrations_4, odq:ExploitationOfMechanicalVibrations_5 ; 
+    od:hasAltshuller84Id "18" ;
     a od:Principle ;
-    rdfs:label "Principle of exploitation of mechanical vibrations"@en, "Prinzip der Ausnutzung mechanischer Schwingungen"@de, "Принцип использования механических колебаний"@ru .
+    rdfs:label "Principle of exploitation of mechanical vibrations"@en, "Prinzip der Ausnutzung mechanischer Schwingungen"@de, "Приём использования механических колебаний"@ru .
+
+odq:ExploitationOfMechanicalVibrations_1 a od:Recommendation;
+    od:description "Verwende Piezovibratoren statt mechanischer Vibratoren."@de, "Use piezovibrators instead of mechanical ones."@en, "Вместо механических вибраторов должны использоваться пьезовибраторы."@ru .
+
+odq:ExploitationOfMechanicalVibrations_2 a od:Recommendation;
+    od:description "Nutze Ultraschallschwingungen in Verbindung mit elektromagnetischen Feldern."@de, "Use ultrasonic vibrations in conjunction with electromagnetic fields."@en, "Используйте ультразвуковые колебания в сочетании с электромагнитными полями."@ru .
+
+odq:ExploitationOfMechanicalVibrations_3 a od:Recommendation;
+    od:description "Versetze das Objekt in Schwingungen."@de, "Vibrate the object."@en, "Объект должен вибрировать."@ru  .
+
+odq:ExploitationOfMechanicalVibrations_4 a od:Recommendation;
+    od:description "Nutze die Eigenfrequenz aus."@de, "Exploit the eigen frequency."@en, "Собственная частота должна эксплуатироваться."@ru  .
+
+odq:ExploitationOfMechanicalVibrations_5 a od:Recommendation;
+    od:description "Falls eine solche Bewegung bereits vorliegt, erhöhe ihre Frequenz bis hin zur Ultaschallfrequenz."@de, "If such a movement already exists, increase its frequency, up to the ultrasonic frequency."@en, "Если такое движение уже существует, его частота должна быть увеличена до ультразвуковой."@ru .
 
 odq:PeriodicEffect 
-    od:description "Die Pausen zwischen den Impulsen sind für eine andere Wirkung auszunutzen."@de, "From the continuous action to the periodic (impulse action) to go over."@en, "If the effect is already periodic, the periodicity must be changed "@en, "The pauses between the pulses should be exploited for another effect."@en, "Von der kontinuierlichen Wirkung ist zur periodischen (Impulswirkung) überzugehen."@de, "Wenn die Wirkung bereits periodisch erfolgt, ist die Periodizität zu verändern."@de, "Если эффект уже периодический, периодичность должна быть изменена "@ru, "От непрерывного действия к периодическому (импульсное действие), чтобы перейти."@ru, "Паузы между импульсами должны использоваться для другого эффекта."@ru ;
-    od:hasPrincipleNumber "19" ;
+  od:hasRecommendation odq:PeriodicEffect_1, odq:PeriodicEffect_2, odq:PeriodicEffect_3 ;
+    od:hasAltshuller73Id "19" ;
+    od:hasAltshuller84Id "19" ;
     a od:Principle ;
-    rdfs:label "Prinzip der periodischen Wirkung"@de, "Principle of periodic effect"@en, "Принцип периодического действия"@ru .
+    rdfs:label "Prinzip der Impuls-Arbeitsweise"@de, "Prinzip der periodischen Wirkung"@de, "Principle of periodic effect"@en, "Приём периодического действия"@ru .
+
+odq:PeriodicEffect_1 a od:Recommendation;
+    od:description "Nutze die Pausen zwischen den Impulsen für eine andere Wirkung aus."@de, "Exploit the pauses between the pulses for another effect."@en, "Паузы между импульсами должны использоваться для другого эффекта."@ru .
+
+odq:PeriodicEffect_2 a od:Recommendation;
+    od:description "From the continuous action go over to a periodic one (impulse action)."@en, "Gehe von einer kontinuierlichen Wirkung zu einer periodischen (Impulswirkung) über."@de, "Перейти от непрерывного действия к периодическому (импульсное действие)."@ru .
+
+odq:PeriodicEffect_3 a od:Recommendation;
+    od:description "If the effect is already periodic, change the periodicity."@en, "Wenn die Wirkung bereits periodisch erfolgt, ändere die Periodizität."@de, "Если эффект уже периодический, периодичность должна быть изменена."@ru .
 
 odq:ContinuityOfUsefulAction 
-    od:description "Die Funktion soll kontinuierlich erfolgen (alle Teile des Objektes sollen ständig mit gleichmäßiger Belastung arbeiten)."@de, "Idle and interruptions must be switched off."@en, "Leerläufe und Unterbrechungen sind auszuschalten."@de, "The function should be continuous (all parts of the object should constantly work with equal load)."@en, "Функция должна быть непрерывной (все части объекта должны постоянно работать с одинаковой нагрузкой)."@ru, "Холостой ход и прерывания должны быть отключены."@ru ;
-    od:hasPrincipleNumber "20" ;
+  od:hasRecommendation odq:ContinuityOfUsefulAction_1, odq:ContinuityOfUsefulAction_2 ;
+    od:hasAltshuller73Id "20" ;
+    od:hasAltshuller84Id "20" ;
     a od:Principle ;
-    rdfs:label "Principle of continuity of the useful action"@en, "Prinzip der Kontinuität der nützlichen Wirkung"@de, "Принцип непрерывности полезного действия"@ru .
+    rdfs:label "Principle of continuity of the useful action"@en, "Prinzip der Kontinuität der nützlichen Wirkung"@de, "Приём непрерывности полезного действия"@ru .
+
+odq:ContinuityOfUsefulAction_1 a od:Recommendation;
+    od:description "Die Funktion soll kontinuierlich erfolgen (alle Teile des Objektes sollen ständig mit gleichmäßiger Belastung arbeiten)."@de, "The function should be continuous (all parts of the object should constantly work with equal load)."@en, "Функция должна быть непрерывной (все части объекта должны постоянно работать с одинаковой нагрузкой)."@ru .
+
+odq:ContinuityOfUsefulAction_2 a od:Recommendation;
+    od:description "Prevent idle times and interruptions."@en, "Vermeide Leerläufe und Unterbrechungen."@de, "Холостой ход и прерывания следует избегать."@ru .
 
 odq:Rush 
-    od:description "Der Prozess oder einzelne seiner Etappen, z. B. schädliche oder gefährliche, sind mit hoher Geschwindigkeit zu durchlaufen."@de, "The process or any of its stages, such as harmful or dangerous, must be done at high speed."@en, "Процесс или любые его стадии, такие как вредные или опасные, должны выполняться с высокой скоростью."@ru ;
-    od:hasPrincipleNumber "21" ;
+  od:hasRecommendation odq:Rush_1 ;
+    od:hasAltshuller73Id "21" ;
+    od:hasAltshuller84Id "21" ;
     a od:Principle ;
-    rdfs:label "Principle of the rush"@en, "Prinzip des Durcheilens"@de, "Принцип проскока"@ru .
+    rdfs:label "Principle of the rush"@en, "Prinzip des Durcheilens"@de, "Приём проскока"@ru .
+
+odq:Rush_1 a od:Recommendation;
+    od:description "Der Prozess oder einzelne seiner Etappen, z.B. schädliche oder gefährliche, werden mit hoher Geschwindigkeit durchlaufen."@de, "The process or any of its stages, such as harmful or dangerous, are done at high speed."@en, "Процесс или любые его стадии, как вредные или опасные, должны проходить на большой скорости."@ru .
 
 odq:TransformationOfHarmfulIntoUseful 
-    od:description "A harmful factor is to be increased to such an extent that it ceases to be harmful."@en, "A harmful factor should be eliminated by superimposing it on other harmful factors."@en, "Ein schädlicher Faktor ist bis zu einem solchen Grade zu verstärken, dass er aufhört, schädlich zu sein."@de, "Ein schädlicher Faktor ist durch Überlagerung mit anderen schädlichen Faktoren zu beseitigen."@de, "Harmful Factors - especially the harmful effects of the medium - are to be used for the achievement of a positive effect. "@en, "Schädliche Faktoren – insbesondere die schädliche Einwirkung des Mediums – sind für die Erzielung eines positiven Effektes zu nutzen."@de, "Вредные факторы - особенно вредные воздействия среды - должны использоваться для достижения положительного эффекта. "@ru, "Вредный фактор должен быть увеличен до такой степени, что он перестает быть вредным."@ru, "Вредный фактор следует устранить путем наложения его на другие вредные факторы."@ru ;
-    od:hasPrincipleNumber "22" ;
+  od:hasRecommendation odq:TransformationOfHarmfulIntoUseful_1, odq:TransformationOfHarmfulIntoUseful_2, odq:TransformationOfHarmfulIntoUseful_3 ;
+    od:hasAltshuller73Id "22" ;
+    od:hasAltshuller84Id "22" ;
     a od:Principle ;
-    rdfs:label "Principle of Transformation of Harmful into Useful"@en, "Prinzip der Umwandlung von Schädlichem in Nützliches"@de, "Принцип превращения вредного в полезное"@ru .
+    rdfs:label "Principle of Transformation of Harmful into Useful"@en, "Prinzip der Umwandlung von Schädlichem in Nützliches"@de, "Приём превращения вредного в полезное"@ru .
+
+odq:TransformationOfHarmfulIntoUseful_1 a od:Recommendation;
+    od:description "Increase a harmful factor to such an extent that it ceases to be harmful."@en, "Verstärke einen schädlichen Faktor bis zu einem solchen Grade, dass er aufhört, schädlich zu sein."@de, "Вредный фактор должен быть увеличен до такой степени, пока он перестает быть вредным."@ru .
+
+odq:TransformationOfHarmfulIntoUseful_2 a od:Recommendation;
+    od:description "Eliminate a harmful factor by superimposing it on other harmful factors."@en, "Beseitige einen schädlichen Faktor durch Überlagerung mit anderen schädlichen Faktoren."@de, "Вредный фактор следует устранить путем наложения его на другие вредные факторы."@ru .
+
+odq:TransformationOfHarmfulIntoUseful_3 a od:Recommendation;
+    od:description "Use harmful Factors - especially the harmful effects of the medium - for the achievement of a positive effect."@en, "Nutze schädliche Faktoren – insbesondere die schädliche Einwirkung des Mediums – für die Erzielung eines positiven Effektes."@de, "Вредные факторы - особенно вредные воздействия среды - должны использоваться для достижения положительного эффекта."@ru .
 
 odq:Feedback 
-    od:description "Es ist eine Rückkopplung einzuführen."@de, "Falls eine Rückkopplung vorhanden ist, ist sie zu verändern."@de, "If there is feedback, change it."@en, "Insert feedback."@en, "Вставить отзыв."@ru, "Если есть отзыв, измените его."@ru ;
-    od:hasPrincipleNumber "23" ;
+  od:hasRecommendation odq:Feedback_1, odq:Feedback_2 ; 
+    od:hasAltshuller84Id "23" ;
     a od:Principle ;
-    rdfs:label "Principle of feedback"@en, "Prinzip der Rückkopplung"@de, "Принцип обратной связи"@ru .
+    rdfs:label "Principle of feedback"@en, "Prinzip der Rückkopplung"@de, "Приём обратной связи"@ru .
+
+odq:Feedback_1 a od:Recommendation;
+    od:description "Führe eine Rückkopplung ein."@de, "Insert feedback."@en, "Вставить обратную связь."@ru .
+
+odq:Feedback_2 a od:Recommendation;
+    od:description "Falls eine Rückkopplung vorhanden ist, verändere diese."@de, "If there is feedback, change it."@en, "Если есть обратная связь, измените её."@ru .
 
 odq:Mediator 
-    od:description "At times, the object must be connected to another easily removable object."@en, "Es ist ein Zwischenobjekt zu benutzen, das die Wirkung überträgt, weitergibt oder auf sich nimmt."@de, "Use an intermediate object that transmits, transmits, or absorbs the effect."@en, "Zeitweilig ist an das Objekt ein anderes leicht zu entfernendes Objekt anzuschließen."@de, "Иногда объект должен быть связан с другим легко удаляемым объектом."@ru, "Используйте промежуточный объект, который передает, передает или поглощает эффект."@ru ;
-    od:hasPrincipleNumber "24" ;
+  od:hasRecommendation odq:Mediator_1, odq:Mediator_2  ; 
+    od:hasAltshuller84Id "24" ;
     a od:Principle ;
     rdfs:label "Prinzip des Vermittlers"@de, "principle of the mediator"@en, "принцип посредника"@ru .
 
+odq:Mediator_1 a od:Recommendation;
+    od:description "Connect the object to another easily removable object."@en, "Binde das Objekt an ein anderes leicht zu entfernendes Objekt."@de, "Объект должен быть связан с другим легко удаляемым объектом."@ru .
+
+odq:Mediator_2 a od:Recommendation;
+    od:description "Nutze ein Zwischenobjekt, das die Wirkung überträgt, weitergibt oder auf sich nimmt."@de, "Use an intermediate object that transmits or absorbs the effect."@en, "Используйте промежуточный объект, который передает или поглощает эффект."@ru  .
+
 odq:SelfService 
-    od:description "Abprodukte, z. B. Energie und Stoff sind zu nutzen."@de, "Das Objekt soll sich selbst bedienen sowie Hilfs- und Reparaturmaßnahmen selbst ausführen."@de, "The object should be self-serving and carry out auxiliary and repair work itself."@en, "Waste products, eg energy and material are to be used."@en, "Должны использоваться отходы, например, энергия и материалы."@ru, "Объект должен быть самообслуживаемым и сам выполнять вспомогательные и ремонтные работы."@ru ;
-    od:hasPrincipleNumber "25" ;
+  od:hasRecommendation odq:SelfService_1, odq:SelfService_2 ; 
+    od:hasAltshuller73Id "25" ;
+    od:hasAltshuller84Id "25" ;
     a od:Principle ;
-    rdfs:label "Principle of self-service"@en, "Prinzip der Selbstbedienung"@de, "Принцип самообслуживания"@ru .
+    rdfs:label "Principle of self-service"@en, "Von-Selbst-Arbeitsweise"@de, "Prinzip der Selbstbedienung"@de, "Приём самообслуживания"@ru .
+
+odq:SelfService_1 a od:Recommendation;
+    od:description "Nutze Abprodukte, z. B. Energie und Stoff."@de, "Use waste products, e.g. energy and material."@en, "Использовать отходы, например, энергия и вещество."@ru .
+
+odq:SelfService_2 a od:Recommendation;
+    od:description "Das Objekt bedient sich selbst oder führt Hilfs- und Reparaturmaßnahmen selbst aus."@de, "The object should be self-serving and carry out auxiliary and repair work itself."@en, "Объект должен быть самообслуживаемым и сам выполнять вспомогательные и ремонтные работы."@ru .
 
 odq:Copying 
-    od:description "Anstelle eines unzugänglichen, komplizierten, kostspieligen, schlecht handhabbaren oder zerbrechlichen Objektes sind vereinfachte und billige Kopien zu benutzen."@de, "Das Objekt oder das System von Objekten ist durch seine optischen Kopien (Abbildungen) zu ersetzen."@de, "Instead of an inaccessible, complicated, costly, difficult to handle or breakable object, simplified and cheap copies should be used."@en, "The object or system of objects should be replaced by its optical copies (illustrations)."@en, "Вместо недоступного, сложного, дорогостоящего, сложного в обращении или хрупкого объекта следует использовать упрощенные и дешевые копии."@ru, "Объект или система объектов должны быть заменены его оптическими копиями (иллюстрациями)."@ru ;
-    od:hasPrincipleNumber "26" ;
+  od:hasRecommendation odq:Copying_1, odq:Copying_2 ; 
+    od:hasAltshuller73Id "26" ;
+    od:hasAltshuller84Id "26" ;
     a od:Principle ;
-    rdfs:label "Prinzip des Kopierens"@de, "principle of copying"@en, "принцип копирования"@ru .
+    rdfs:label "Arbeit mit Modellen"@de, "Prinzip des Kopierens"@de, "principle of copying"@en, "принцип копирования"@ru .
+
+odq:Copying_1 a od:Recommendation;
+    od:description "Verwende vereinfachte und billige Kopien anstelle eines unzugänglichen, komplizierten, kostspieligen, schlecht handhabbaren oder zerbrechlichen Objektes."@de, "Use simplified and cheap copies instead of an inaccessible, complicated, costly, difficult to handle or breakable object."@en, "Вместо недоступного, сложного, дорогостоящего, сложного в обращении или хрупкого объекта следует использовать упрощенные и дешевые копии."@ru .
+
+odq:Copying_2 a od:Recommendation;
+    od:description "Ersetze das Objekt oder das System von Objekten durch optische Kopien (Abbildungen)."@de, "Replace the object or system of objects by optical copies (illustrations)."@en, "Объект или система объектов должны быть заменены оптическими копиями (иллюстрациями)."@ru .
 
 odq:CheapEphemeraInsteadOfExpensiveLongevity 
-    od:description "Das teure Objekt ist durch ein Sortiment billiger Objekte zu ersetzen, wobei auf einige Qualitätseigenschaften, z. B. Langlebigkeit, verzichtet wird."@de, "The expensive object has to be replaced by a range of cheap objects, with some quality features, such as longevity, being dispensed with."@en, "Дорогой объект должен быть заменен рядом дешевых объектов, с некоторыми качественными характеристиками, такими как долговечность, без которых."@ru ;
-    od:hasPrincipleNumber "27" ;
+  od:hasRecommendation odq:CheapEphemeraInsteadOfExpensiveLongevity_1 ; 
+    od:hasAltshuller73Id "27" ;
+    od:hasAltshuller84Id "27" ;
     a od:Principle ;
-    rdfs:label "Principle of cheap ephemera instead of expensive longevity"@en, "Prinzip der billigen Kurzlebigkeit anstelle teurer Langlebigkeit"@de, "Принцип дешёвой недолговечности вместо дорогой долговечности"@ru .
+    rdfs:label "Principle of cheap ephemera instead of expensive longevity"@en, "Prinzip der billigen Kurzlebigkeit anstelle teurer Langlebigkeit"@de, "Приём дешёвой недолговечности вместо дорогой долговечности"@ru .
+
+odq:CheapEphemeraInsteadOfExpensiveLongevity_1 a od:Recommendation;
+    od:description "Ersetze ein teures Objekt durch ein Sortiment billiger Objekte, wobei auf einige Qualitätseigenschaften, z. B. Langlebigkeit, verzichtet wird."@de, "Replace the expensive object by a range of cheap objects, with some quality features, such as longevity, being dispensed."@en, "Дорогой объект должен быть заменен рядом дешевых объектов, с некоторыми уступками к качественным характеристикам, таким как долговечность."@ru .
 
 odq:ReplacementOfMechanicalSchemes 
-    od:description "Die Felder sind in Kombination mit Ferromangetteilchen zu benutzen."@de, "Electric, magnetic or electromagnetic fields are to be exploited for an interaction with the object."@en, "Elektrische, magnetische bzw. elektromagnetische Felder sind für eine Wechselwirkung mit dem Objekt auszunutzen."@de, "From immovable fields is to moving fields, from constant to change from structureless to structured fields. "@en, "The fields are to be used in combination with ferromagnetic particles."@en, "Von unbeweglichen Feldern ist zu bewegten Feldern, von konstanten zu veränderlichen, von strukturlosen zu strukturierten Felder überzugehen."@de, "Из неподвижных полей - в движущиеся поля, из постоянных перейти от бесструктурных к структурированным полям. "@ru, "Поля должны использоваться в сочетании с ферромагнитными частицами."@ru, "Электрические, магнитные или электромагнитные поля должны использоваться для взаимодействия с объектом."@ru ;
-    od:hasPrincipleNumber "28" ;
+  od:hasRecommendation odq:ReplacementOfMechanicalSchemes_1, odq:ReplacementOfMechanicalSchemes_2, odq:ReplacementOfMechanicalSchemes_3  ; 
+    od:hasAltshuller84Id "28" ;
     a od:Principle ;
-    rdfs:label "Principle of the replacement of mechanical schemes"@en, "Prinzip des Austauschs mechanischer Wirkschemata"@de, "Принцип замены механической схемы"@ru .
+    rdfs:label "Principle of the replacement of mechanical schemes"@en, "Prinzip des Austauschs mechanischer Wirkschemata"@de, "Приём замены механической схемы"@ru .
+
+odq:ReplacementOfMechanicalSchemes_1 a od:Recommendation;
+    od:description "Nutze die Felder in Kombination mit Ferromagnetteilchen."@de, "Use the fields in combination with ferromagnetic particles."@en, "Использовать поля в сочетании с ферромагнитными частицами."@ru .
+
+odq:ReplacementOfMechanicalSchemes_2 a od:Recommendation;
+    od:description "Exploit electric, magnetic or electromagnetic fields for an interaction with the object."@en, "Nutze elektrische, magnetische bzw. elektromagnetische Felder für eine Wechselwirkung mit dem Objekt."@de, "Использовать электрические, магнитные или электромагнитные поля для взаимодействия с объектом."@ru .
+
+odq:ReplacementOfMechanicalSchemes_3 a od:Recommendation;
+    od:description "Change from immovable fields to moving ones, from constant fields to changing ones, from structureless to structured fields."@en, "Gehe von unbeweglichen Feldern zu bewegten über, von konstanten zu veränderlichen, von strukturlosen zu strukturierten Feldern."@de, "Переходить от неподвижных полей к движущимся, от постоянных к меняющимся, от бесструктурных к структурированным полям."@ru .
 
 odq:ApplyPneumaticOrHydraulicConstructions 
-    od:description "Anstatt der schweren Teile des Objektes sind gasförmige oder flüssige zu benutzen, wie aufgeblasene oder mit Flüssigkeit gefüllte Teile, Luftkissen, hydrostatische oder hydroreaktive Teile."@de, "Instead of the heavy parts of the object, use gaseous or liquid parts, such as inflated or liquid-filled parts, air cushions, hydrostatic or hydroreactive parts."@en, "Вместо тяжелых частей объекта используйте газообразные или жидкие части, такие как надутые или заполненные жидкостью части, воздушные подушки, гидростатические или гидрореактивные части."@ru ;
-    od:hasPrincipleNumber "29" ;
+  od:hasRecommendation odq:ApplyPneumaticOrHydraulicConstructions_1 ; 
+    od:hasAltshuller73Id "29" ;
+    od:hasAltshuller84Id "29" ;
     a od:Principle ;
-    rdfs:label "Principle of the application of pneumatic or hydraulic constructions"@en, "Prinzip der Anwendung pneumatischer oder hydraulischer Konstruktionen"@de, "Принцип применения пневмо- и гидросооружений"@ru .
+    rdfs:label "Principle of the application of pneumatic or hydraulic constructions"@en, "Prinzip der Anwendung pneumatischer oder hydraulischer Konstruktionen"@de, "Приём применения пневмо- и гидросооружений"@ru .
+
+odq:ApplyPneumaticOrHydraulicConstructions_1 a od:Recommendation;
+    od:description "Ersetze schwere Teile des Objektes durch gasförmige oder flüssige, wie aufgeblasene oder mit Flüssigkeit gefüllte Teile, Luftkissen, hydrostatische oder hydroreaktive Teile."@de, "Replace heavy parts of the object by gaseous or liquid parts, such as inflated or liquid-filled parts, air cushions, hydrostatic or hydroreactive parts."@en, "Вместо тяжелых частей объекта введите газообразные или жидкие части, такие как надутые или заполненные жидкостью части, воздушные подушки, гидростатические или гидрореактивные части."@ru .
 
 odq:UseFlexibleEnvelopesAndThinFoils 
-    od:description "Anstelle der üblichen Konstruktionen sind biegsame Hüllen und dünne Folien zu benutzen."@de, "Das Objekt ist mit Hilfe biegsamer Hüllen und dünner Folie vom umgebenden Medium zu isolieren."@de, "Instead of the usual constructions, flexible sheaths and thin foils are to be used."@en, "The object should be isolated from the surrounding medium by means of flexible sheaths and thin foil."@en, "Вместо обычных конструкций должны использоваться гибкие оболочки и тонкие фольги."@ru, "Объект должен быть изолирован от окружающей среды с помощью гибких оболочек и тонкой фольги."@ru ;
-    od:hasPrincipleNumber "30" ;
+  od:hasRecommendation odq:UseFlexibleEnvelopesAndThinFoils_1, odq:UseFlexibleEnvelopesAndThinFoils_2 ; 
+    od:hasAltshuller73Id "30" ;
+    od:hasAltshuller84Id "30" ;
     a od:Principle ;
-    rdfs:label "Prinzip der Anwendung biegsamer Hüllen und dünner Folien"@de, "Principle of using flexible envelopes and thin foils"@en, "Принцип использования гибких оболочек и тонких плёнок"@ru .
+    rdfs:label "Prinzip der Anwendung biegsamer Hüllen und dünner Folien"@de, "Principle of using flexible envelopes and thin foils"@en, "Приём использования гибких оболочек и тонких плёнок"@ru .
+
+odq:UseFlexibleEnvelopesAndThinFoils_1 a od:Recommendation;
+    od:description "Verwende biegsame Hüllen und dünne Folien statt der üblichen Konstruktionen."@de, "Use flexible envelopes and thin foils instead of the usual constructions."@en, "Вместо обычных конструкций должны использоваться гибкие оболочки и тонкие плёнки."@ru .
+
+odq:UseFlexibleEnvelopesAndThinFoils_2 a od:Recommendation;
+    od:description "Isoliere das Objekt mit Hilfe biegsamer Hüllen und dünner Folie vom umgebenden Medium."@de, "Isolate the object from the surrounding medium by means of flexible envelopes and thin foil."@en, "Объект должен быть изолирован от окружающей среды с помощью гибких оболочек и тонкой плёнки."@ru .
 
 odq:UsePorousMaterials 
-    od:description "Das Objekt ist porös auszuführen, oder es sind zusätzlich poröse Elemente (Einsatzstücke, Überzüge usw.) zu benutzen."@de, "If the object is already porous, fill the pores with a suitable cloth."@en, "The object should be porous, or additional porous elements (inserts, coatings, etc.) should be used."@en, "Wenn das Objekt bereits porös ausgeführt ist, sind die Poren mit einem geeigneten Stoff zu füllen."@de, "Если объект уже пористый, заполните поры подходящей тканью."@ru, "Объект должен быть пористым, или следует использовать дополнительные пористые элементы (вставки, покрытия и т. д.)."@ru ;
-    od:hasPrincipleNumber "31" ;
+  od:hasRecommendation odq:UsePorousMaterials_1, odq:UsePorousMaterials_2 ; 
+    od:hasAltshuller84Id "31" ;
     a od:Principle ;
-    rdfs:label "Principle of using porous materials"@en, "Prinzip der Verwendung poröser Werkstoffe"@de, "Принцип использования пористых материалов"@ru .
+    rdfs:label "Principle of using porous materials"@en, "Prinzip der Verwendung poröser Werkstoffe"@de, "Приём использования пористых материалов"@ru .
+
+odq:UsePorousMaterials_1 a od:Recommendation;
+    od:description "Führe das Objekt porös aus, oder benutze zusätzlich poröse Elemente (Einsatzstücke, Überzüge usw.)."@de, "The object should be porous, or additional porous elements (inserts, coatings, etc.) should be used."@en, "Объект должен быть пористым, или следует использовать дополнительные пористые элементы (вставки, покрытия и т. д.)."@ru .
+
+odq:UsePorousMaterials_2 a od:Recommendation;
+    od:description "If the object is already porous, fill the pores with a suitable substance."@en, "Wenn das Objekt bereits porös ausgeführt ist, fülle die Poren mit einem geeigneten Stoff."@de, "Если объект уже пористый, заполните поры подходящим веществом."@ru .
 
 odq:ChangeColorAndTransparency 
-    od:description "For observing poorly visible objects or processes, use coloring additives. "@en, "Для наблюдения плохо видимых предметов или процессов используйте красящие добавки. "@ru, "Der Grad der Durchsichtigkeit des Objektes oder des umgebenden Mediums ist zu verändern."@de, "Die Farbe des Objektes oder des umgebenden Mediums ist zu verändern."@de, "If such conditions are already applied, phosphors are too use. "@en, "The color of the object or the surrounding medium should be changed."@en, "The degree of transparency of the object or the surrounding medium should be changed."@en, "Wenn solche Zustände bereits angewandt werden, sind Leuchtstoffe zu verwenden."@de, "Zur Beobachtung schlecht sichtbarer Objekte oder Prozesse sind färbende Zuschläge zu nutzen."@de, "Если такие условия уже применяются, люминофоры слишком используйте. "@ru, "Степень прозрачности объекта или окружающей среды должна быть изменена."@ru, "Цвет объекта или окружающей среды должен быть изменен."@ru ;
-    od:hasPrincipleNumber "32" ;
+  od:hasRecommendation odq:ChangeColorAndTransparency_1, odq:ChangeColorAndTransparency_2, odq:ChangeColorAndTransparency_3 , odq:ChangeColorAndTransparency_4  ; 
+    od:hasAltshuller73Id "32" ;
+    od:hasAltshuller84Id "32" ;
     a od:Principle ;
-    rdfs:label "Color and transparency change principle"@en, "Prinzip der Veränderung von Farbe und Transparenz"@de, "Принцип изменения окраски и прозрачности"@ru .
+    rdfs:label "Color and transparency change principle"@en, "Prinzip der Veränderung von Farbe und Transparenz"@de, "Приём изменения окраски и прозрачности"@ru .
+
+odq:UsePorousMaterials_1 a od:Recommendation;
+    od:description "For observing poorly visible objects or processes, use coloring additives."@en, "Для наблюдения плохо видимых предметов или процессов используйте красящие добавки."@ru, "Nutze färbende Zuschläge zur Beobachtung schlecht sichtbarer Objekte oder Prozesse."@de .
+
+odq:UsePorousMaterials_2 a od:Recommendation;
+    od:description "Verändere den Grad der Durchsichtigkeit des Objektes oder des umgebenden Mediums."@de, "Change the degree of transparency of the object or the surrounding medium."@en, "Степень прозрачности объекта или окружающей среды должна быть изменена."@ru .
+
+odq:UsePorousMaterials_3 a od:Recommendation;
+    od:description "Verändere die Farbe des Objektes oder des umgebenden Mediums."@de, "Change the color of the object or the surrounding medium."@en, "Цвет объекта или окружающей среды должны быть изменены."@ru .
+
+odq:UsePorousMaterials_4 a od:Recommendation;
+    od:description "If such conditions are already applied, use flourescent material."@en, "Wenn solche Bedingungen bereits angewandt werden, setze Leuchtstoffe ein."@de, "Если такие условия уже применяются, используйте люминофоры."@ru .
 
 odq:Homogeneity 
-    od:description "Objects that interact with the given object must be made of the same material or a material with approximately the same characteristics."@en, "Objekte, die mit dem gegebenen Objekt zusammenwirken, müssen aus demselben Werkstoff oder einem Werkstoff mit annähernd gleichen Eigenschaften gefertigt sein."@de, "Объекты, взаимодействующие с данным объектом, должны быть изготовлены из одного и того же материала или материала с примерно одинаковыми характеристиками."@ru ;
-    od:hasPrincipleNumber "33" ;
+  od:hasRecommendation odq:Homogeneity_1 ; 
+    od:hasAltshuller73Id "33" ;
+    od:hasAltshuller84Id "33" ;
     a od:Principle ;
-    rdfs:label "Principle of homogeneity"@en, "Prinzip der Gleichartigkeit (Homogenität)"@de, "Принцип однородности"@ru .
+    rdfs:label "Principle of homogeneity"@en, "Prinzip der Gleichartigkeit (Homogenität)"@de, "Приём однородности"@ru .
+
+odq:Homogeneity_1 a od:Recommendation;
+    od:description "Make objects that interact with the given object of the same material or a material with approximately the same characteristics."@en, "Fertige Objekte, die mit dem gegebenen Objekt zusammenwirken, aus demselben Werkstoff oder einem Werkstoff mit annähernd gleichen Eigenschaften."@de, "Объекты, взаимодействующие с данным объектом, должны быть изготовлены из того же материала или материала с примерно такими же характеристиками."@ru  .
 
 odq:EliminationAndRegenerationOfParts 
-    od:description "Part of an object that has served its purpose or has become unusable is eliminated (dissolved, vaporized, or the like) or converted immediately during the operation."@en, "Spent parts of an object are restored immediately during the operation "@en, "Teil eines Objektes, das seinen Zweck erfüllt hat oder unbrauchbar geworden ist, wird beseitigt (aufgelöst, verdampft o. ä.) oder unmittelbar im Arbeitsgang umgewandelt."@de, "Verbrauchte Teile eines Objektes werden unmittelbar im Arbeitsgang wieder hergestellt."@de, "Отработанные части объекта восстанавливаются непосредственно во время операции "@ru, "Часть объекта, которая выполнила свою задачу или стала непригодной для использования, исключается (растворяется, испаряется и т. п.) или преобразуется непосредственно во время операции."@ru ;
-    od:hasPrincipleNumber "34" ;
+  od:hasRecommendation odq:EliminationAndRegenerationOfParts_1, odq:EliminationAndRegenerationOfParts_2 ; 
+    od:hasAltshuller73Id "34" ;
+    od:hasAltshuller84Id "34" ;
     a od:Principle ;
-    rdfs:label "Principle of elimination and regeneration of parts"@en, "Prinzip der Beseitigung und Regenerierung von Teilen"@de, "Принцип отброса и регенерации частей"@ru .
+    rdfs:label "Principle of elimination and regeneration of parts"@en, "Prinzip der Beseitigung und Regenerierung von Teilen"@de, "Приём отброса и регенерации частей"@ru .
+
+odq:EliminationAndRegenerationOfParts_1 a od:Recommendation;
+    od:description "Part of an object that has served its purpose or has become unusable is eliminated (dissolved, vaporized, or the like) or converted immediately during the operation."@en, "Teile eines Objektes, die ihren Zweck erfüllt haben oder unbrauchbar geworden ist, werden beseitigt (aufgelöst, verdampft o. ä.) oder unmittelbar im Arbeitsgang umgewandelt."@de, "Часть объекта, которая выполнила свою задачу или стала непригодной для использования, устраняется (растворяется, испаряется и т. п.) или преобразуется непосредственно во время операции."@ru .
+    
+odq:EliminationAndRegenerationOfParts_2 a od:Recommendation;
+    od:description "Restore used parts of an object immediately during the operation."@en, "Stelle verbrauchte Teile eines Objektes unmittelbar im Arbeitsgang wieder her."@de, "Отработанные части объекта восстанавливаются непосредственно во время операции."@ru .
 
 odq:ChangePhysicalOrChemicalParameters 
-    od:description "Hierzu gehören nicht nur einfache Übergänge, z. B. vom festen in den flüssigen Zustand, sondern auch die Übergänge in „Pseudo- oder Quasizustände“, z. B. die Quasiflüssigkeit und in Zwischenzustände, z. B. die Verwendung elastisch fester Körper."@de, "These include not only simple transitions, eg from the solid to the liquid state, but also the transitions into pseudo or quasic states, eg the quasi-liquid and in intermediate states, eg the use elastic solid body. "@en, "К ним относятся не только простые переходы, например, из твердого состояния в жидкое состояние, но также переходы в псевдо или квазизначные состояния, например, квазидожидкость, и в промежуточные состояния, например, использование упругое твердое тело. "@ru, "Изменение параметров объекта касается не только вещест, но и полей"@ru, "Changing the parameters of an object concerns not only matter, but also fields"@en, "Das Ändern der Parameter eines Objekts betrifft nicht nur Materie, sondern auch Felder"@de ;
-    od:hasPrincipleNumber "35" ;
+  od:hasRecommendation odq:ChangePhysicalOrChemicalParameters_1, odq:ChangePhysicalOrChemicalParameters_2 ;
+    od:hasAltshuller73Id "35" ;
+    od:hasAltshuller84Id "35" ;
     a od:Principle ;
-    rdfs:label "Principle of changing the physical or chemical parameters of an object"@en, "Prinzip der Veränderung der physikalischen oder chemischen Parameter eines Objekts"@de, "Принцип изменения физико-химических параметров объекта"@ru .
+    rdfs:label "Principle of changing the physical or chemical parameters of an object"@en, "Prinzip der Veränderung der physikalischen oder chemischen Parameter eines Objekts"@de, "Приём изменения физико-химических параметров объекта"@ru .
+
+odq:ChangePhysicalOrChemicalParameters_1 a od:Recommendation;
+    od:description "Hierzu gehören nicht nur einfache Übergänge, z.B. vom festen in den flüssigen Zustand, sondern auch die Übergänge in „Pseudo- oder Quasizustände“, z.B. Quasiflüssigkeiten, und Zwischenzustände, z.B. die Verwendung elastischer Festkörper."@de, "This includes not only simple transitions, e.g. from the solid to the liquid state, but also transitions into pseudo or quasi states, e.g. the quasi-liquid, and intermediate states, e.g. the use of elastic solid body."@en, "К ним относятся не только простые переходы, например, из твердого состояния в жидкое, но также переходы в псевдо или квазизначные состояния, например, квазижидкость, и в промежуточные состояния, например, использование упругого твердого тела."@ru .
+
+odq:ChangePhysicalOrChemicalParameters_2 a od:Recommendation;
+    od:description "Изменение параметров объекта касается не только вещест, но и полей"@ru, "Changing the parameters of an object concerns not only substances, but also fields"@en, "Das Ändern der Parameter eines Objekts betrifft nicht nur Substanzen, sondern auch Felder"@de .
 
 odq:ApplyPhaseTransitions 
-    od:description "Die bei Phasenübergängen auftretenden Erscheinungen sind auszunutzen, z. B. Volumenveränderung, Wärmeentwicklung oder -absorption usw."@de, "The phenomena occurring during phase transitions shall be exploited, eg change in volume, evolution or absorption of heat, etc."@en, "Должны использоваться явления, возникающие во время фазовых переходов, например, изменение объема, выделение или поглощение тепла и т. д."@ru ;
-    od:hasPrincipleNumber "36" ;
+  od:hasRecommendation odq:ApplyPhaseTransitions_1 ;
+    od:hasAltshuller84Id "36" ;
     a od:Principle ;
-    rdfs:label "Principle of applying phase transitions"@en, "Prinzip der Anwendung von Phasenübergängen"@de, "Принцип применения фазовых переходов"@ru .
+    rdfs:label "Principle of applying phase transitions"@en, "Prinzip der Anwendung von Phasenübergängen"@de, "Приём применения фазовых переходов"@ru .
+
+odq:ApplyPhaseTransitions_1 a od:Recommendation;
+    od:description "Nutze bei Phasenübergängen auftretenden Erscheinungen, z. B. Volumenänderung, Wärmeentwicklung oder -absorption usw."@de, "Exploit phenomena occurring during phase transitions, e.g. change in volume, evolution or absorption of heat, etc."@en, "Использовать явления, возникающие во время фазовых переходов, например, изменение объема, выделение или поглощение тепла и т. д."@ru .
 
 odq:ApplyThermalExpansion 
-    od:description "Die Wärmedehnung oder -verdichtung von Werkstoffen ist auszunutzen."@de, "Es sind mehrere Werkstoffe mit unterschiedlicher Wärmedehnungszahl zu benutzen."@de, "The thermal expansion or compression of materials should be exploited."@en, "There are several materials with different thermal expansion coefficients to use."@en, "Следует использовать термическое расширение или сжатие материалов."@ru, "Существует несколько материалов с различными коэффициентами теплового расширения."@ru ;
-    od:hasPrincipleNumber "37" ;
+  od:hasRecommendation odq:ApplyThermalExpansion_1, odq:ApplyThermalExpansion_2 ;
+    od:hasAltshuller84Id "37" ;
     a od:Principle ;
-    rdfs:label "Principle of application of thermal expansion"@en, "Prinzip der Anwendung von Wärmeausdehnung"@de, "Принцип применения термического расширения"@ru .
+    rdfs:label "Principle of application of thermal expansion"@en, "Prinzip der Anwendung von Wärmeausdehnung"@de, "Приём применения термического расширения"@ru .
+
+odq:ApplyThermalExpansion_1 a od:Recommendation;
+    od:description "Nutze die Wärmedehnung oder -verdichtung von Werkstoffen aus."@de, "Exploit the thermal expansion or compression of materials."@en, "Следует использовать термическое расширение или сжатие материалов."@ru .
+
+odq:ApplyThermalExpansion_2 a od:Recommendation;
+    od:description "Nutze mehrere Werkstoffe mit unterschiedlicher Wärmedehnungszahl."@de, "Use several materials with different thermal expansion coefficients."@en, "Использовать несколько материалов с различными коэффициентами теплового расширения."@ru .
 
 odq:ApplyStrongOxidants 
-    od:description "Replace ozonated or ionized oxygen with ozone. "@en, "Use ozonated oxygen. "@en, "Замените озонированный или ионизированный кислород озоном. "@ru, "Используйте озонированный кислород. "@ru, "Die Luft oder der Sauerstoff ist der Einwirkung ionisierender Strahlung auszusetzen."@de, "Die aktivierte Luft ist durch Sauerstoff zu ersetzen."@de, "Die normale atmosphärische Luft ist durch aktivierte zu ersetzen."@de, "Es ist ozonierter Sauerstoff zu benutzen."@de, "Ozonierter oder ionisierter Sauerstoff ist durch Ozon zu ersetzen."@de, "The activated air should be replaced by oxygen."@en, "The air or oxygen should be exposed to ionizing radiation."@en, "The normal atmospheric air is replaced by activated."@en, "Активированный воздух должен быть заменен кислородом."@ru, "Воздух или кислород должны подвергаться воздействию ионизирующего излучения."@ru, "Нормальный атмосферный воздух заменен активированным."@ru ;
-    od:hasPrincipleNumber "38" ;
+  od:hasRecommendation odq:ApplyStrongOxidants_1, odq:ApplyStrongOxidants_2, odq:ApplyStrongOxidants_3, odq:ApplyStrongOxidants_4, odq:ApplyStrongOxidants_5 ;
+    od:hasAltshuller84Id "38" ;
     a od:Principle ;
-    rdfs:label "Principle of the application of strong oxidants"@en, "Prinzip der Anwendung starker Oxidationsmittel"@de, "Принцип применения сильных окислителей"@ru .
+    rdfs:label "Principle of the application of strong oxidants"@en, "Prinzip der Anwendung starker Oxidationsmittel"@de, "Приём применения сильных окислителей"@ru .
+
+odq:ApplyStrongOxidants_5 a od:Recommendation;
+    od:description "Replace ozonated or ionized oxygen with ozone."@en, "Заменить озонированный или ионизированный кислород озоном."@ru, "Ersetze ozonierten oder ionisierten Sauerstoff durch Ozon."@de .
+
+odq:ApplyStrongOxidants_4 a od:Recommendation;
+    od:description "Use ozonated oxygen."@en, "Используйте озонированный кислород."@ru, "Verwende ozonierten Sauerstoff."@de .
+
+odq:ApplyStrongOxidants_3 a od:Recommendation;
+    od:description "Setze Luft oder Sauerstoff der Einwirkung ionisierender Strahlung aus."@de, "Expose air or oxygen to ionizing radiation."@en, "Воздух или кислород должны подвергаться воздействию ионизирующего излучения."@ru .
+
+odq:ApplyStrongOxidants_2 a od:Recommendation;
+    od:description "Ersetze die aktivierte Luft durch Sauerstoff."@de, "Replace the activated air by oxygen."@en, "Заменить активированный воздух кислородом."@ru .
+
+odq:ApplyStrongOxidants_1 a od:Recommendation;
+    od:description "Ersetze normale atmosphärische Luft durch aktivierte."@de, "Replace normal atmospheric air by activated."@en, "Заменить нормальный атмосферный воздух активированным."@ru .
 
 odq:UseInertMedium 
-    od:description "Das übliche Medium ist durch ein reaktionsträgeres zu ersehtzen."@de, "Der Prozess ist im Vakuum durchzuführen."@de, "The process must be carried out in a vacuum."@en, "The usual medium is to be found by a reaction-carrier."@en, "Обычная среда должна быть найдена носителем реакции."@ru, "Процесс должен проводиться в вакууме."@ru ;
-    od:hasPrincipleNumber "39" ;
+  od:hasRecommendation odq:UseInertMedium_1, odq:UseInertMedium_2 ;
+    od:hasAltshuller84Id "39" ;
     a od:Principle ;
-    rdfs:label "Principle of using an inert medium"@en, "Prinzip der Verwendung eines inerten Mediums"@de, "Принцип применения инертной среды"@ru .
+    rdfs:label "Principle of using an inert medium"@en, "Prinzip der Verwendung eines inerten Mediums"@de, "Приём применения инертной среды"@ru .
+
+odq:UseInertMedium_1 a od:Recommendation;
+    od:description "Ersetze das übliche Medium durch ein reaktionsträgeres."@de, "Replace the usual medium by a less responsive one."@en, "Обычную среду заменить на более инертную."@ru .
+
+odq:UseInertMedium_2 a od:Recommendation;
+    od:description "Führe den Prozess im Vakuum durch."@de, "Carry out the process in a vacuum."@en, "Процесс должен проводиться в вакууме."@ru .
 
 odq:ApplyCompositeMaterials 
-    od:description "The same substances should be converted into composite substances."@en, "Von gleichen Stoffen ist zu zusammengesetzten Stoffen überzugehen."@de, "Те же вещества должны быть преобразованы в составные вещества."@ru ;
-    od:hasPrincipleNumber "40" ;
+  od:hasRecommendation odq:ApplyCompositeMaterials_1  ;
+    od:hasAltshuller84Id "40" ;
     a od:Principle ;
-    rdfs:label "Principle of the application of composite materials"@en, "Prinzip der Verwendung von Verbundstoffen"@de, "Принцип применения композиционных материалов"@ru .
+    rdfs:label "Principle of the application of composite materials"@en, "Prinzip der Verwendung von Verbundstoffen"@de, "Приём применения составных материалов"@ru .
+
+odq:ApplyCompositeMaterials_1 a od:Recommendation;
+    od:description "Convert simple substances into composite ones."@en, "Gehe von einfachen Stoffen zu zusammengesetzten Stoffen über."@de, "Однородные вещества должны быть заменены составными."@ru .
 
 odq:NoPrinciple 
-    od:description "No recommendation within the matrix."@en, "Keine Empfehlung in der Matrix."@de, "Нет рекомендаций в матрице."@ru ;
     a od:Principle ;
-    rdfs:label "No Principle"@en, "Kein Prinzip"@de, "Нет Принципа"@ru .
+    rdfs:label "No recommendation within the matrix."@en, "Keine Empfehlung in der Matrix."@de, "Нет рекомендаций в матрице."@ru  .
 
