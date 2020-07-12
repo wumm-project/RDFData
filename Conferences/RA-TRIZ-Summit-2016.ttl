@@ -1,0 +1,89 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix odp: <http://opendiscovery.org/rdf/Person/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <http://opendiscovery.org/rdf/Conferences/RATRIZ-Summit-2016/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://opendiscovery.org/rdf/Book/978-5-91844-012-4>
+    dc:language "ru"^^dcterms:RFC4646 ;
+    dcterms:issued "2016"^^dcterms:W3CDTF ;
+    dcterms:title "Три поколения ТРИЗ"@ru ;
+    bibo:isbn "978-5-91844-012-4" ;
+    dc:publisher "СПб.: РА ТРИЗ, РОО \"ТРИЗ-Петербург\""@ru ;
+    a od:TRIZ-Book ;
+    rdfs:comment "Материалы ежегодной научно-практической конференции посвященной 90-летию Г.С. Альтшуллера"@ru .
+
+:Paper_101 a od:BookChapter;
+ dcterms:title "Элементно-функциональное моделирование конфликтов: ЭФМ.К"@ru;
+dcterms:creator odp:Smirnov_EE;
+dcterms:isPartOf <http://opendiscovery.org/rdf/Book/978-5-91844-012-4> . 
+
+:Paper_102 a od:BookChapter;
+ dcterms:title "Прикладная проблемология"@ru;
+dcterms:creator odp:Bolotovsky_VN;
+dcterms:isPartOf <http://opendiscovery.org/rdf/Book/978-5-91844-012-4> . 
+
+:Paper_103 a od:BookChapter;
+ dcterms:title "Причинно-следственный анализ"@ru;
+dcterms:creator odp:Bolotovsky_VN;
+dcterms:isPartOf <http://opendiscovery.org/rdf/Book/978-5-91844-012-4> . 
+
+:Paper_104 a od:BookChapter;
+ dcterms:title "Диалектика системного оператора сложных систем"@ru;
+dcterms:creator odp:Gorobchenko_SL;
+dcterms:isPartOf <http://opendiscovery.org/rdf/Book/978-5-91844-012-4> . 
+
+:Paper_105 a od:BookChapter;
+ dcterms:title "Взаимодействие ЗРС (на примере апостериорного прогноза ведущих неизбежностей общественного развития)"@ru;
+dcterms:creator odp:Kislov_AV;
+dcterms:isPartOf <http://opendiscovery.org/rdf/Book/978-5-91844-012-4> . 
+
+:Paper_106 a od:BookChapter;
+ dcterms:title "ТРИЗ и психология"@ru;
+dcterms:creator odp:Yakimchuk_PA, odp:Shusterman_MN ;
+dcterms:isPartOf <http://opendiscovery.org/rdf/Book/978-5-91844-012-4> . 
+
+:Paper_107 a od:BookChapter;
+ dcterms:title "ТРИЗ-технологии всем возрастам покорны"@ru;
+dcterms:creator odp:Guseva_TA;
+dcterms:isPartOf <http://opendiscovery.org/rdf/Book/978-5-91844-012-4> . 
+
+:Paper_108 a od:BookChapter;
+ dcterms:title "Интегральная образовательная программа «ТРИЗ в практической электронике» - путь к совершенству"@ru;
+dcterms:creator odp:Yermolov_KA, odp:Manoilov_VV;
+dcterms:isPartOf <http://opendiscovery.org/rdf/Book/978-5-91844-012-4> . 
+
+:Paper_109 a od:BookChapter;
+ dcterms:title "Как проводить исследования в ТРИЗ?"@ru;
+dcterms:creator odp:Galyetov_VP;
+dcterms:isPartOf <http://opendiscovery.org/rdf/Book/978-5-91844-012-4> . 
+
+:Paper_110 a od:BookChapter;
+ dcterms:title "Как стать новатором и инноватором?"@ru;
+dcterms:creator odp:Yefremov_VI;
+dcterms:isPartOf <http://opendiscovery.org/rdf/Book/978-5-91844-012-4> . 
+
+:Paper_111 a od:BookChapter;
+ dcterms:title "«Техническое» решение нетехнических задач"@ru;
+dcterms:creator odp:Semyonova_LN;
+dcterms:isPartOf <http://opendiscovery.org/rdf/Book/978-5-91844-012-4> . 
+
+:Paper_112 a od:BookChapter;
+ dcterms:title "Системный оператор: применение в нетехнических системах"@ru;
+dcterms:creator odp:Semyonova_LN;
+dcterms:isPartOf <http://opendiscovery.org/rdf/Book/978-5-91844-012-4> . 
+
+:Paper_113 a od:BookChapter;
+ dcterms:title "Прогнозирование развития техники волейбола на основе анализа достижений систем-лидеров"@ru;
+dcterms:creator odp:Gorobchenko_SL;
+dcterms:isPartOf <http://opendiscovery.org/rdf/Book/978-5-91844-012-4> . 
+
+:Paper_114 a od:BookChapter;
+ dcterms:title "К вопросу об оценке публикаций по ТРИЗ"@ru;
+dcterms:creator odp:Aminov_RB;
+dcterms:isPartOf <http://opendiscovery.org/rdf/Book/978-5-91844-012-4> . 

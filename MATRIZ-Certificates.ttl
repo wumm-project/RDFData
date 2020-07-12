@@ -329,9 +329,9 @@ od:CertificateLevel5
 
 <http://opendiscovery.org/rdf/Certificate/L4.3>
     od:issued "2000-01" ;
-    od:owner odp:Semjonova_LN ;
+    od:owner odp:Semyonova_LN ;
     a od:CertificateLevel4 ;
-    foaf:name "Ljudmila Semjonova" .
+    foaf:name "Ljudmila Semyonova" .
 
 <http://opendiscovery.org/rdf/Certificate/L4.30>
     od:issued "2001-07" ;

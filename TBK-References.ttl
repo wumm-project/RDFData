@@ -158,7 +158,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1973_f7ac4f0a3931f59b7c8e7ab7cb43359b>
     od:hatVerweis odv2:B04 ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Altshuller_1973_29f1eafaa2889cf33b2ed664a1597754> ;
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Altshuller_1973_29f1eafaa2889cf33b2ed664a1597754> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1973" ;
     dcterms:title "Диалектика изобретения"@ru ;
@@ -254,7 +254,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1977_4366b016af7195735e7118e3adf27e30>
     od:hatVerweis odv2:F21 ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1977_61f50b6d082fc2d3d71df3aa115fc02a> ;
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1977_61f50b6d082fc2d3d71df3aa115fc02a> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1977" ;
     dcterms:title "«Начнем с увеличения в Миллиард раз…» (эпизод четвертый)"@ru ;
@@ -263,7 +263,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1977_5421b80e8e90ab44c25788c3a075429f>
     od:hatVerweis odv2:F31 ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1977_61f50b6d082fc2d3d71df3aa115fc02a> ;
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1977_61f50b6d082fc2d3d71df3aa115fc02a> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1977" ;
     dcterms:title "На пыльных тропинках далеких планет (эпизод второй)"@ru ;
@@ -280,7 +280,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1977_71f79fd3c777dfb67aa12c88a28cd1be>
     od:hatVerweis odv2:F24 ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1977_61f50b6d082fc2d3d71df3aa115fc02a> ;
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1977_61f50b6d082fc2d3d71df3aa115fc02a> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1977" ;
     dcterms:title "Еще раз о золотой рыбке (эпизод третий)"@ru ;
@@ -289,7 +289,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1977_9d716e1af73c5f08c98110c88b00beff>
     od:hatVerweis odv2:D13 ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Denisov_1977_8842509711f3473a1517de42629da223> ;
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Denisov_1977_8842509711f3473a1517de42629da223> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1977" ;
     dcterms:title "Введение"@ru ;
@@ -298,7 +298,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1977_d0890f8ec8a2d2cd807aab2bffeccbbf>
     od:hatVerweis odv2:F21, odv2:F22 ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1977_61f50b6d082fc2d3d71df3aa115fc02a> ;
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1977_61f50b6d082fc2d3d71df3aa115fc02a> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1977" ;
     dcterms:title "Маленькие-маленькие человечки (эпизод первый). Подозрительно простая задача (эпизод пятый)"@ru ;
@@ -325,7 +325,7 @@
 <http://opendiscovery.org/rdf/BIB/Altshuller_1979_0620ecde7d76322f7c1608409196d215>
     od:hatVerweis odv2:B08, odv2:B10, odv2:B11, odv2:B12, odv2:B14, odv2:B16, odv2:B17 ;
     rdfs:comment "pp. 122—127" ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Altshuller_1979_f1b8dc3220f46e042e2e3120351a2c4d> ; 
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Altshuller_1979_f1b8dc3220f46e042e2e3120351a2c4d> ; 
     od:relatedLinks <http://www.altshuller.ru/triz/zrts1.asp> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1979" ;
@@ -333,7 +333,7 @@
     a od:Reference .
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1979_6b2bce480423132e054abe2494986207>
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Altshuller_1979_f1b8dc3220f46e042e2e3120351a2c4d> ;
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Altshuller_1979_f1b8dc3220f46e042e2e3120351a2c4d> ;
     rdfs:comment "pp. 113—119" ;
     od:relatedLinks <http://www.altshuller.ru/triz/zrts4.asp> ;
     dcterms:creator odp:Altshuller_GS ;
@@ -351,7 +351,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1979_91d72f2c590afc24f31fa0abb4972691>
     od:hatVerweis odv2:C06 ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Altshuller_1979_f1b8dc3220f46e042e2e3120351a2c4d> ;
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Altshuller_1979_f1b8dc3220f46e042e2e3120351a2c4d> ;
     rdfs:comment "pp. 30—43" ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1979" ;
@@ -360,7 +360,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1979_9a508f135770ec6feb566ee584254d6b>
     od:hatVerweis odv2:C01 ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Altshuller_1979_f1b8dc3220f46e042e2e3120351a2c4d> ;
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Altshuller_1979_f1b8dc3220f46e042e2e3120351a2c4d> ;
     rdfs:comment "pp. 19—21" ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1979" ;
@@ -369,7 +369,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1979_a29035a89e9b0357a452d9c331dc2df8>
     od:hatVerweis odv2:D12 ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Altshuller_1979_f1b8dc3220f46e042e2e3120351a2c4d> ;
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Altshuller_1979_f1b8dc3220f46e042e2e3120351a2c4d> ;
     rdfs:comment "pp. 103—105" ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1979" ;
@@ -378,7 +378,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1979_a90af5416851cfc80b36932e48723d99>
     od:hatVerweis odv2:B05 ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Altshuller_1979_f1b8dc3220f46e042e2e3120351a2c4d> ;
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Altshuller_1979_f1b8dc3220f46e042e2e3120351a2c4d> ;
     rdfs:comment "pp. 66—69" ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1979" ;
@@ -387,7 +387,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1979_c86e8db2239d51fdb9d2ace922a15312>
     od:hatVerweis odv2:C06 ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Altshuller_1979_f1b8dc3220f46e042e2e3120351a2c4d> ;
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Altshuller_1979_f1b8dc3220f46e042e2e3120351a2c4d> ;
     rdfs:comment "160—165" ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1979" ;
@@ -572,7 +572,7 @@
 <http://opendiscovery.org/rdf/BIB/Altshuller_1986_78a4aaa56f4370fe7d9dce21b96026e7>
     od:hatVerweis odv2:F34 ;
     rdfs:comment "pp. 173—186" ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Altshuller_1986_2949f85d2da48ca82fc172108e1b525e> ; 
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Altshuller_1986_2949f85d2da48ca82fc172108e1b525e> ; 
     od:relatedLinks <http://www.altshuller.ru/trtl/trtl1.asp> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1986" ;
@@ -599,7 +599,7 @@
 <http://opendiscovery.org/rdf/BIB/Altshuller_1987_0cabbd1f8091941fcace4daf6ab7a4e1>
     od:hatVerweis odv2:B03 ;
     rdfs:comment "pp. 57—80" ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1987" ;
     dcterms:title "Основные идеи ТРИЗ"@ru ;
@@ -608,7 +608,7 @@
 <http://opendiscovery.org/rdf/BIB/Altshuller_1987_0cff2b9639da6385e51af8f9d20ff393>
     od:hatVerweis odv2:C06 ;
     rdfs:comment "pp. 67—74" ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1987" ;
     dcterms:title "Понятие о веполе"@ru ;
@@ -626,7 +626,7 @@
 <http://opendiscovery.org/rdf/BIB/Altshuller_1987_3071cfb675a93a475aa605c706ed6b91>
     od:hatVerweis odv2:B09 ;
     rdfs:comment "pp. 25—29" ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1987" ;
     dcterms:title "Основные этапы развития технических систем"@ru ;
@@ -635,7 +635,7 @@
 <http://opendiscovery.org/rdf/BIB/Altshuller_1987_373383ae5d0b5f231d6dd0f6f77781ba>
     od:hatVerweis odv2:B19 ;
     rdfs:comment "pp. 74—75" ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1987" ;
     dcterms:title "Некоторые законы развития технических систем"@ru ;
@@ -654,7 +654,7 @@
     od:hatVerweis odv2:C01 ;
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.11>, <http://opendiscovery.org/rdf/TBK1/Verweis.14>, <http://opendiscovery.org/rdf/TBK1/Verweis.42>, <http://opendiscovery.org/rdf/TBK1/Verweis.6> ;
     rdfs:comment "pp. 64—66" ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1987" ;
     dcterms:title "Daring Formulae of Creativity"@en ;
@@ -664,7 +664,7 @@
 <http://opendiscovery.org/rdf/BIB/Altshuller_1987_867391a98566bfc1830887949ec145c6>
     od:hatVerweis odv2:B01 ;
     rdfs:comment "pp. 15—29" ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1987" ;
     dcterms:title "Изобретательские задачи"@ru ;
@@ -681,7 +681,7 @@
 <http://opendiscovery.org/rdf/BIB/Altshuller_1987_dacb6a10d605f437969de5d42b44313b>
     od:hatVerweis odv2:B02 ;
     rdfs:comment "pp. 22—25" ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1987" ;
     dcterms:title "Уровни изобретений"@ru ;
@@ -699,7 +699,7 @@
 <http://opendiscovery.org/rdf/BIB/Altshuller_1987_ebeadb15af2729b91cc08a139004efe3>
     od:hatVerweis odv2:B08, odv2:B10, odv2:B11, odv2:B12, odv2:B14, odv2:B16, odv2:B17 ;
     rdfs:comment "pp. 61—65" ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1987" ;
     dcterms:title "Законы развития технических систем"@ru ;
@@ -725,7 +725,7 @@
 <http://opendiscovery.org/rdf/BIB/Altshuller_1988_cbff1f6259f41f573d89c3072a15c202>
     od:hatVerweis odv2:B18, odv2:D04 ;
     rdfs:comment "pp. 165—230" ;
-    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Selyutsky_1988_cd746b54477ee3f08e223fd4e2f65014> ; 
+    dcterms:isPartOf  <http://opendiscovery.org/rdf/BIB/Selyutsky_1988_cd746b54477ee3f08e223fd4e2f65014> ; 
     od:relatedLinks <http://www.altshuller.ru/triz/standards.asp> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1988" ;
@@ -810,7 +810,7 @@
 <http://opendiscovery.org/rdf/BIB/Altshuller_1989_dbc07bc22c8a233f94328d665cb6c8ac>
     od:hatVerweis odv2:C05 ;
     rdfs:comment "pp. 11—50" ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1989_7333a3c7c5f8b39aec9790ac5f4fb70e> ;
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1989_7333a3c7c5f8b39aec9790ac5f4fb70e> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1989" ;
     dcterms:title "АРИЗ — значит победа. Алгоритм решения изобретательских задач АРИЗ-85-В"@ru ;
@@ -834,7 +834,7 @@
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1991_0bb568560fb12647c094bf4fb9984181>
     od:hatVerweis odv2:F21, odv2:F22;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1991_49bf6cd041c0cff84c953f38812e69b3> ;
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1991_49bf6cd041c0cff84c953f38812e69b3> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1991" ;
     dcterms:title "Краски для фантазии. Прелюдия к теории развития творческого воображения"@ru ;
@@ -843,7 +843,7 @@
 <http://opendiscovery.org/rdf/BIB/Altshuller_1991_5b2b3d72856fc5a9a46b4dd37ea1e26c>
     od:hatVerweis odv2:F09, odv2:F12, odv2:F15 ;
     rdfs:comment "pp. 221—236" ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1991_49bf6cd041c0cff84c953f38812e69b3> ;
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1991_49bf6cd041c0cff84c953f38812e69b3> ;
     od:relatedLinks <http://www.temm.ru/ru/section.php?docId=3470> ;
     dcterms:creator odp:Altshuller_GS, odp:Rubin_MS ;
     dcterms:issued "1991" ;
@@ -869,7 +869,7 @@
 <http://opendiscovery.org/rdf/BIB/Altshuller_1994_0d7285be8a6decdf6d2d83b3b5c8083a>
     od:hatVerweis odv2:F34 ;
     rdfs:comment "pp. 469—474" ;
-    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Altshuller_1994_9a6477daedb2282149b6a77e2190f2a9> ; 
+    dcterms:isPartOf  <http://opendiscovery.org/rdf/BIB/Altshuller_1994_9a6477daedb2282149b6a77e2190f2a9> ; 
     od:relatedLinks <http://www.altshuller.ru/trtl/heretic0.asp> ;
     dcterms:creator odp:Altshuller_GS, odp:Vertkin_IM ;
     dcterms:issued "1994" ;
@@ -879,7 +879,7 @@
 <http://opendiscovery.org/rdf/BIB/Altshuller_1994_21552efb3b7628b4f55face96d1e4511>
     od:hatVerweis odv2:F34 ;
     rdfs:comment "p. 479" ;
-    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Altshuller_1994_9a6477daedb2282149b6a77e2190f2a9> ; 
+    dcterms:isPartOf  <http://opendiscovery.org/rdf/BIB/Altshuller_1994_9a6477daedb2282149b6a77e2190f2a9> ; 
     od:relatedLinks <http://www.altshuller.ru/trtl/heretic2.asp> ;
     dcterms:creator odp:Altshuller_GS, odp:Vertkin_IM ;
     dcterms:issued "1994" ;
@@ -889,7 +889,7 @@
 <http://opendiscovery.org/rdf/BIB/Altshuller_1994_75fbb4ffe71b711f74d9078aa3e30287>
     od:hatVerweis odv2:F34 ;
     rdfs:comment "p. 300." ;
-    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Altshuller_1994_9a6477daedb2282149b6a77e2190f2a9> ; 
+    dcterms:isPartOf  <http://opendiscovery.org/rdf/BIB/Altshuller_1994_9a6477daedb2282149b6a77e2190f2a9> ; 
     od:relatedLinks <http://www.altshuller.ru/trtl/trtl65a.asp> ;
     dcterms:creator odp:Altshuller_GS, odp:Vertkin_IM ;
     dcterms:issued "1994" ;
@@ -907,7 +907,7 @@
 <http://opendiscovery.org/rdf/BIB/Altshuller_1994_e68847ff4bd5a08b205456d1d0d3d29b>
     od:hatVerweis odv2:F34 ;
     rdfs:comment "pp. 453—468" ;
-    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Altshuller_1994_9a6477daedb2282149b6a77e2190f2a9> ; 
+    dcterms:isPartOf  <http://opendiscovery.org/rdf/BIB/Altshuller_1994_9a6477daedb2282149b6a77e2190f2a9> ; 
     od:relatedLinks <http://www.altshuller.ru/trtl/trtl2.asp> ;
     dcterms:creator odp:Altshuller_GS, odp:Vertkin_IM ;
     dcterms:issued "1994" ;
@@ -1098,7 +1098,7 @@
 <http://opendiscovery.org/rdf/BIB/Tsourikov_1979_e6172fbd629c10b460bf6c97078143ae>
     od:hatVerweis odv2:D17 ;
     rdfs:comment "vol. 1, pp. 130—131" ;
-    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1979> ; 
+    dcterms:isPartOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1979> ; 
     dcterms:creator odp:Tsourikov_VM ;
     dcterms:issued "1979" ;
     dcterms:title "Принципы создания математического обеспечения ТРИЗ"@ru ;
@@ -1120,7 +1120,7 @@ a od:Reference .
 <http://opendiscovery.org/rdf/BIB/Tsourikov_1984_d18d01f4f6cfe729d71454e1657550db>
     od:hatVerweis odv2:D17 ;
     rdfs:comment "pp. 102—104" ;
-    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
+    dcterms:isPartOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
     dcterms:creator odp:Tsourikov_VM ;
     dcterms:issued "1984" ;
     dcterms:title "Математические эффекты в теории информации"@ru ;
@@ -1172,7 +1172,7 @@ a od:Reference .
 <http://opendiscovery.org/rdf/BIB/Fey_1984_c326f65be8271cfbccb00e3c2fd99fc2>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.26>, odv2:C06 ;
     rdfs:comment "pp. 79—81" ;
-    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
+    dcterms:isPartOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
     dcterms:creator odp:Fey_VR, odp:Vertkin_IM ;
     dcterms:issued "1984" ;
     dcterms:title "A Study of Sufields with Thermal and Magnetic Fields in Technological Systems"@en, "Исследование тепольных и фепольных технических систем"@ru ;
@@ -1190,7 +1190,7 @@ a od:Reference .
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.26>, <http://opendiscovery.org/rdf/TBK1/Verweis.9>, odv2:B14 ;
     od:inJournal "TRIZ Journal, V.1, No. 1/90, p. 36-41, V.1, No. 2/90, p. 31-40. 1990.";
     rdfs:comment "pp. 174—220" ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1991_49bf6cd041c0cff84c953f38812e69b3> ;
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1991_49bf6cd041c0cff84c953f38812e69b3> ;
     dcterms:creator odp:Fey_VR ;
     dcterms:issued "1990", "1991" ;
     dcterms:title "In Search for the Ideal Substance"@en, "В поисках идеального вещества"@ru ;
@@ -1472,7 +1472,7 @@ a od:Reference .
 <http://opendiscovery.org/rdf/BIB/Kondrakov_1984_441c5fead0c96ec9251d286e9713e221>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.15>, odv2:B08, odv2:B14 ;
     rdfs:comment "pp. 66—68" ;
-    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
+    dcterms:isPartOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
     dcterms:creator odp:Kondrakov_IM, odp:Salamatov_YP ;
     dcterms:issued "1984" ;
     dcterms:title "Specific Features of Ideal Technological Systems"@en, "Некоторые особенности идеальных технических систем"@ru ;
@@ -1481,7 +1481,7 @@ a od:Reference .
 <http://opendiscovery.org/rdf/BIB/Kondrakov_1984_fa50dd72b89d2fe78d3adb3bba16ce35>
     od:hatVerweis odv2:B08, odv2:B25 ;
     rdfs:comment "pp. 70—72" ;
-    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
+    dcterms:isPartOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
     dcterms:creator odp:Kondrakov_IM ;
     dcterms:issued "1984" ;
     dcterms:title "Динамизация технических систем"@ru ;
@@ -1546,7 +1546,7 @@ a od:Reference .
 <http://opendiscovery.org/rdf/BIB/Litvin_1984_48435a79f31fc86cbcb954622f31e49b>
     od:hatVerweis odv2:B12 ;
     rdfs:comment "pp. 72—74" ;
-    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
+    dcterms:isPartOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
     dcterms:creator odp:Litvin_SS ;
     dcterms:issued "1984" ;
     dcterms:title "Согласование технических систем"@ru ;
@@ -1686,7 +1686,7 @@ a od:Reference .
 <http://opendiscovery.org/rdf/BIB/Petrov_1979_7ea2a9ef79f1d15d383099126cdb2342>
     od:hatVerweis odv2:F06 ;
     rdfs:comment "vol. 2, pp. 304-308" ;
-    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1979> ; 
+    dcterms:isPartOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1979> ; 
     od:relatedLinks <http://www.trizland.ru/trizba/pdf-books/zrts-19-prognoz.pdf> ;
     dcterms:creator odp:Petrov_VM ;
     dcterms:issued "1979" ;
@@ -1790,7 +1790,7 @@ a od:Reference .
 <http://opendiscovery.org/rdf/BIB/Petrov_1984_6c6c5c51b60ceaf8f1773316623a9ab1>
     od:hatVerweis odv2:B08 ;
     rdfs:comment "pp. 52—54" ;
-    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
+    dcterms:isPartOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
     dcterms:creator odp:Petrov_VM ;
     dcterms:issued "1984" ;
     dcterms:title "Закономерности развития технических систем"@ru ;
@@ -2168,7 +2168,7 @@ a od:Reference .
 <http://opendiscovery.org/rdf/BIB/Pomeranets_1984_2f93244cf610fa9019478d696961c2da>
     od:hatVerweis odv2:F12 ;
     rdfs:comment "pp. 99—100" ;
-    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
+    dcterms:isPartOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
     dcterms:creator odp:Pomeranets_MS ;
     dcterms:issued "1984" ;
     dcterms:title "Приложение принципов ТРИЗ к анализу некоторых нетехнических систем"@ru ;
@@ -2198,7 +2198,7 @@ a od:Reference .
 <http://opendiscovery.org/rdf/BIB/Rubin_1984_c42403f396eb66409749aee6726c527d>
     od:hatVerweis odv2:F12 ;
     rdfs:comment "pp. 54—55" ;
-    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
+    dcterms:isPartOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
     dcterms:creator odp:Rubin_MS ;
     dcterms:issued "1984" ;
     dcterms:title "О влиянии земных условий на развитие техники"@ru ;
@@ -2249,7 +2249,7 @@ a od:Reference .
 <http://opendiscovery.org/rdf/BIB/Salamatov_1984_f945d78865b5b4806516d62ca7edc4f8>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.9>, odv2:B08, odv2:B14 ;
     rdfs:comment "pp. 64—66" ;
-    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
+    dcterms:isPartOf  <http://opendiscovery.org/rdf/BIB/Novosibirsk_1984> ; 
     dcterms:creator odp:Salamatov_YP ;
     dcterms:issued "1984" ;
     dcterms:title "Evolution of Substances in Technological Systems"@en, "Эволюция вещества в технических системах"@ru ;
@@ -2258,7 +2258,7 @@ a od:Reference .
 <http://opendiscovery.org/rdf/BIB/Salamatov_1988_b22ed3d8a68b67cc0e174d3a9deb0f34>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.43>, odv2:D15 ;
     rdfs:comment "pp. 95—163" ;
-    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Selyutsky_1988_cd746b54477ee3f08e223fd4e2f65014> ; 
+    dcterms:isPartOf  <http://opendiscovery.org/rdf/BIB/Selyutsky_1988_cd746b54477ee3f08e223fd4e2f65014> ; 
     od:relatedLinks <http://rus.triz-guide.com/publicat/allbooks/feates_on_molecular_level.html> ;
     dcterms:creator odp:Salamatov_YP ;
     dcterms:issued "1988" ;
@@ -2268,7 +2268,7 @@ a od:Reference .
 <http://opendiscovery.org/rdf/BIB/Salamatov_1991_01978cb497d503c13c252dc96659f52d>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.24>, <http://opendiscovery.org/rdf/TBK1/Verweis.25>, <http://opendiscovery.org/rdf/TBK1/Verweis.28>, <http://opendiscovery.org/rdf/TBK1/Verweis.3>, odv2:B23 ;
     rdfs:comment "pp. 5—174" ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1991_49bf6cd041c0cff84c953f38812e69b3> ;
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1991_49bf6cd041c0cff84c953f38812e69b3> ;
     dcterms:creator odp:Salamatov_YP ;
     dcterms:issued "1991" ;
     dcterms:title "A System of Laws of Technology Evolution"@en, "Система развития законов техники"@ru ;
@@ -2310,7 +2310,7 @@ a od:Reference .
 <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_6e9e28ed72281f02e6e23f7360f8be53>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.42>, odv2:D14 ;
     rdfs:comment "pp. 83—171" ;
-    od:isChapterOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
+    dcterms:isPartOf <http://opendiscovery.org/rdf/BIB/Selyutsky_1987_formulas> ; 
     dcterms:creator odp:Selyutsky_AB ;
     dcterms:issued "1987" ;
     dcterms:title "Magic Crystal of Physics"@en, "Магический кристалл физики"@ru ;
@@ -2375,7 +2375,7 @@ a od:Reference .
 <http://opendiscovery.org/rdf/BIB/Vikentiev_1988_2429055d8840df8d92c6385dadd297a1>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.44>, odv2:D18 ;
     rdfs:comment "pp. 71—175" ;
-    od:isChapterOf  <http://opendiscovery.org/rdf/BIB/Selyutsky_1988_cd746b54477ee3f08e223fd4e2f65014> ; 
+    dcterms:isPartOf  <http://opendiscovery.org/rdf/BIB/Selyutsky_1988_cd746b54477ee3f08e223fd4e2f65014> ; 
     od:relatedLinks <http://www.triz-chance.ru/geometrical_effect.html> ;
     dcterms:creator odp:Vikentiev_IL, odp:Yefremov_VI ;
     dcterms:issued "1988" ;
