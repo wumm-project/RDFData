@@ -1,0 +1,258 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix : <http://opendiscovery.org/rdf/ThisOntology/> .
+
+<http://opendiscovery.org/rdf/Ontology/>
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
+    a owl:Ontology ;
+    rdfs:comment
+    "2020-07-13 graebe: project started";
+    rdfs:label "TRIZ Database - Ontology Project" .
+
+:TRIZ a skos:Concept;
+  rdfs:label "TRIZ"@de ; 
+  od:includes :QualifyingSystem ;
+  od:includes :TRTL ;
+  od:includes :RTV ;
+  od:includes :DevelopmentInventiveThinking ;
+  od:includes :ProfessionalInstitutions ;
+  od:includes :TRIZHistory ;
+  od:forms :ScientificTRIZBase ;
+  od:includes :TRIZTrends ;
+  od:includes :InventiveProblem ;
+  od:includes :TRIZModel ;
+  od:includes :TRIZApplicationDomains .
+
+:QualifyingSystem  a skos:Concept;
+  rdfs:label "System der Weiterbildung"@de ;
+  od:includes :CertificationSystem .
+  
+:TRTL  a skos:Concept;
+  rdfs:label "Theorie der Entwicklung kreativer Persönlichkeiten"@de .
+  
+:RTV a skos:Concept;
+  rdfs:label "Entwicklung des kreativen Vorstellungsvermögens"@de .
+  
+:DevelopmentInventiveThinking  a skos:Concept;
+  rdfs:label "Entwicklung des kreativen Denkens"@de ; 
+  od:includes :RTV .
+  
+:ProfessionalInstitutions  a skos:Concept;
+  rdfs:label "Berufsorganisationen und Unternehmen"@de .
+  
+:TRIZHistory  a skos:Concept;
+  rdfs:label "Geschichte der Entwicklung der TRIZ"@de ;  
+  od:includes :TRIZFounders ;
+  od:includes :TRIZSchools .
+
+:ScientificTRIZBase  a skos:Concept;
+  rdfs:label "Wissenschaftliche Basis der TRIZ"@de ;
+  od:hasPart :Dialectics;
+  od:hasPart :EvolutionalApproach;
+  od:hasPart :SystemFunctionApproach;
+  od:hasPart :InformationFondsofSystemDevelopment .
+
+:TRIZTrends  a skos:Concept;
+  rdfs:label "Gesetze und Trends der TRIZ"@de ;
+  od:includes :ZRS;
+  od:includes :ZRTS .
+
+:InventiveProblem  a skos:Concept;
+  rdfs:label "Erfindungsaufgabe"@de ; 
+  od:includes :InventiveSolution;
+  od:includes :ContradictoryRequirements .
+
+:TRIZModel  a skos:Concept;
+  rdfs:label "Modell der TRIZ"@de ;
+  od:includes :ComplexSystemDevelopmentTools ; 
+  od:includes :EvaluationOfConceptsTools ; 
+  od:includes :SyntheseMethods ;
+  od:composedFrom :InventiveSolution ;
+  od:includes :SystemAnalysisTools . 
+  
+:TRIZApplicationDomains  a skos:Concept;
+  rdfs:label "TRIZ-Anwendungen in verschiedenen Domänen"@de ;
+  od:specialCase :TRIZinProductiveEnterprises;
+  od:specialCase :TRIZinNontechnicalDomains;
+  od:specialCase :TRIZinInnovation .
+
+:TRIZinInnovation a skos:Concept;
+  rdfs:label "TRIZ-Anwendungen für Innovationen"@de .
+  
+:TRIZinNontechnicalDomains a skos:Concept;
+  rdfs:label "TRIZ-Anwendungen in nicht-technischen Bereichen"@de .
+  
+:TRIZinProductiveEnterprises a skos:Concept;
+  rdfs:label "TRIZ-Anwendungen in Produktionsbetrieben"@de .
+  
+:CertificationSystem a skos:Concept;
+  rdfs:label "Zertifikationssystem"@de .
+  
+:TRIZFounders a skos:Concept;
+  rdfs:label "TRIZ Gründungsväter"@de .
+  
+:TRIZSchools a skos:Concept;
+  rdfs:label "TRIZ Schulen"@de ; 
+  od:includes :TRIZSchoolBaku ;
+  od:includes :TRIZSchoolLeningrad ;
+  od:includes :TRIZSchoolKishinev ;
+  od:includes :TRIZSchoolGorki ;
+  od:includes :TRIZSchoolKrasnoyarsk ;
+  od:includes :TRIZSchoolMinsk .
+
+:TRIZSchoolBaku a skos:Concept;
+  rdfs:label "TRIZ Schule in Baku"@de .
+  
+:TRIZSchoolLeningrad a skos:Concept;
+  rdfs:label "TRIZ Schule in Leningrad"@de .
+  
+:TRIZSchoolKishinev a skos:Concept;
+  rdfs:label "TRIZ Schule In Kischinjow"@de .
+  
+:TRIZSchoolGorki a skos:Concept;
+  rdfs:label "TRIZ Schule in Gorki"@de .
+  
+:TRIZSchoolKrasnoyarsk a skos:Concept;
+  rdfs:label "TRIZ Schule im Krasnojarsk"@de .
+  
+:TRIZSchoolMinsk a skos:Concept;
+  rdfs:label "TRIZ Schule in Minsk"@de .
+
+:Dialectics a skos:Concept;
+  rdfs:label "Dialektik"@de .
+  
+:EvolutionalApproach a skos:Concept;
+  rdfs:label "Evolutionärer Zugang"@de .
+  
+:SystemFunctionApproach a skos:Concept;
+  rdfs:label "Systemisch-funktionaler Zugang"@de .
+  
+:InformationFondsofSystemDevelopment a skos:Concept;
+  rdfs:label "Informationsfonds der Systementwicklung"@de .
+
+
+:ComplexSystemDevelopmentTools  a skos:Concept;
+  rdfs:label "Komplexe Werkzeuge der Systementwicklung"@de;
+  od:hasPart :ZRTSApplication;
+  od:hasPart :ARIZ;
+  od:hasPart :SF-AnalysisAndStandards;
+  od:hasPart :PrognosticTools;
+  od:hasPart :TRIZEnterpriseAnalysis .
+  
+:EvaluationOfConceptsTools a skos:Concept;
+  rdfs:label "Werkzeuge zur Evaluierung und Entwicklung von Konzepten"@de;
+  od:includes :Benchmarking .
+  
+:SyntheseMethods  a skos:Concept;
+  rdfs:label "Methoden der Synthese"@de; 
+  od:includes :FOS ;
+  od:includes :IFR ;
+  od:includes :ResourceAnalysis ;
+  od:includes :ContradictionMatrix ;
+  od:includes :Principles .
+
+:SystemAnalysisTools a skos:Concept;
+  rdfs:label "Instrumente der Systemanalyse"@de ;
+  od:includes :FunctionalAnalysis ;
+  od:includes :SystemOperator ;
+  od:includes :FlowAnalysis ;
+  od:includes :CausalAnalysis ;  
+  od:includes :ContradictionAnalysis .  
+  
+:ZRTSApplication a skos:Concept;
+  rdfs:label "Anwendung der Gesetze der Entwicklung schöpferischer Persönlichkeiten"@de .
+  
+:ARIZ a skos:Concept;
+  rdfs:label "ARIZ - Algorithmus zum Lösen erfinderischer Probleme"@de .
+  
+:SF-AnalysisAndStandards a skos:Concept;
+  rdfs:label "SF-Analyse und Anwendung der Standards"@de .
+  
+:PrognosticTools a skos:Concept;
+  rdfs:label "Prognose-Werkzeuge"@de .
+  
+:TRIZEnterpriseAnalysis a skos:Concept;
+  rdfs:label "TRIZ-Analyse von Betrieben"@de .
+  
+:Benchmarking a skos:Concept;
+  rdfs:label "Benchmarking"@de .
+
+:FOS a skos:Concept;
+  rdfs:label "Funktionsorientierte Suche (FOS)"@de .
+  
+:IFR a skos:Concept;
+  rdfs:label "Ideales Endresultat (IER)"@de .
+
+:ResourceAnalysis a skos:Concept;
+  rdfs:label "Analyse der Ressourcen"@de .
+
+:ContradictionMatrix a skos:Concept;
+  rdfs:label "Widerspruchsmatrix"@de .
+
+:Principles  a skos:Concept;
+  rdfs:label "Prinzipien der Widerspruchslösung"@de .
+
+:FunctionalAnalysis a skos:Concept;
+  rdfs:label "Funktionale Analyse"@de ;
+  od:includes :StructuralAnalysis .
+  
+:SystemOperator  a skos:Concept;
+  rdfs:label "Systemoperator"@de .
+  
+:FlowAnalysis a skos:Concept;
+  rdfs:label "Flussanalyse"@de .
+  
+:CausalAnalysis  a skos:Concept;
+  rdfs:label "Ursache-Wirkungs-Analyse"@de .
+  
+:ContradictionAnalysis  a skos:Concept;
+  rdfs:label "Herausarbeiten und Analyse von Widersprüchen"@de .  
+  
+:StructuralAnalysis a skos:Concept;
+  rdfs:label "Strukturanalyse"@de ;
+  od:includes :ComponentAnalysis .
+  
+:ComponentAnalysis a skos:Concept;
+  rdfs:label "Komponentenanalyse"@de .
+  
+:ZRS a skos:Concept;
+  rdfs:label "Komplex der Gesetze und Trends der Systemenwicklung (ZRS)"@de;
+  od:hasPartialCase :ZRTS ;
+  od:includes :TrendsOfSystemDevelopment ;
+  od:includes :LawsOfZRS .
+
+:ZRTS a skos:Concept;
+  rdfs:label "Komplex der Gesetze und Trends der Entwicklung technischer Systeme (ZRTS)"@de ;
+  od:relatedTo :ZRTSApplication ;
+  od:includes :ZRTSLaws ;
+  od:includes :ZRTSTrends .
+
+:InventiveSolution a skos:Concept;
+  rdfs:label "Lösung von Erfundungsaufgaben"@de .
+  
+:ContradictoryRequirements  a skos:Concept;
+  rdfs:label "Widersprüche der Anforderungen"@de .
+
+:TrendsOfSystemDevelopment   a skos:Concept;
+  rdfs:label "Trends der Systementwicklung"@de .
+  
+:LawsOfZRS   a skos:Concept;
+  rdfs:label "Gesetze im Komplex der Systementwicklung (ZRS)"@de ;
+  od:includes :ContradictoryRequirements .
+
+:ZRTSLaws   a skos:Concept;
+  rdfs:label "Gesetze im Komplex der Entwicklung technischer Systeme (ZRTS)"@de .
+  
+:ZRTSTrends   a skos:Concept;
+  rdfs:label "Trends im Komplex der Entwicklung technischer Systeme (ZRTS)"@de .
+
+:ContradictoryRequirements   a skos:Concept;
+  rdfs:label "Widersprüchliche Anforderungen"@de .
