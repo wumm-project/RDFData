@@ -8,7 +8,7 @@
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
 @prefix : <http://opendiscovery.org/rdf/Standard/> .
 
-<http://opendiscovery.org/rdf/76-Standards/>
+<http://opendiscovery.org/rdf/StandardSolutions/>
     cc:attributionName "The Open Discovery Project" ;
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
@@ -316,7 +316,7 @@
     skos:broader <http://opendiscovery.org/rdf/Standard/S_3.1> ;
     skos:example "To process the edges of thin glass plates, several plates are stacked together to form a stable stack."@en, "Um die Kanten dünner Glasplatten zu bearbeiten, werden mehrere Platten übereinander zu einem stabilen Stapel zusammengefügt."@de, "Для обработки краев тонких стеклянных пластин несколько пластин складываются вместе, образуя устойчивую стопку."@ru ;
     skos:inScheme :theTRIZStandards ;
-    skos:prefLabel "Combine Systems with Bi- and Poly Systems"@en, "Kombiniere Systeme zu Bi- und Poly-Systemen"@de, "Объединение систем с двух- и поли-системами"@ru .
+    skos:prefLabel "Combine Systems with Bi- and Poly Systems in the Supersystem"@en, "Kombiniere Systeme zu Bi- und Poly-Systemen im Obersystem"@de, "Объединение систем с двух- и поли-системами"@ru .
 
 <http://opendiscovery.org/rdf/Standard/S_3.1.2>
     a od:StandardSolution, skos:Concept ;
@@ -354,7 +354,7 @@
     a od:StandardSolution, skos:Concept ;
     skos:broader <http://opendiscovery.org/rdf/Standard/S_3.2> ;
     skos:inScheme :theTRIZStandards ;
-    skos:prefLabel "Miniaturisiere Komponenten oder ganze Systeme"@de, "Miniaturize components or whole systems"@en, "Миниатюризация компонентов или целых систем"@ru .
+    skos:prefLabel "Miniaturisiere Komponenten oder ganze Systeme"@de, "Übergang zum Mikrolevel"@de, "Miniaturize components or whole systems"@en, "Миниатюризация компонентов или целых систем"@ru .
 
 :S_4
     a od:StandardSolution, skos:Concept ;
@@ -573,14 +573,14 @@
     a od:StandardSolution, skos:Concept ;
     skos:broader <http://opendiscovery.org/rdf/Standard/S_5.3> ;
     skos:inScheme :theTRIZStandards ;
-    skos:prefLabel "Change the state of matter or the phase of substances"@en, "Verändere den Aggregatzustand oder die Phase von Stoffen"@de, "Изменение состояния вещества или фазы веществ"@ru .
+    skos:prefLabel "Change the state of matter or the phase of a part of the system or supersystem"@en, "Verändere den Aggregatzustand oder die Phase von Teilen des Systems oder Obersystems"@de, "Изменение состояния вещества или фазы веществ"@ru .
 
 <http://opendiscovery.org/rdf/Standard/S_5.3.2>
     a od:StandardSolution, skos:Concept ;
     skos:broader <http://opendiscovery.org/rdf/Standard/S_5.3> ;
     skos:example "Wasser und Eis zusammen fixieren die Temperatur auf genau 0° Celsius."@de, "Water and ice together fix the temperature at exactly 0 ° Celsius."@en, "Вода и лед вместе устанавливают температуру ровно 0 ° по Цельсию."@ru ;
     skos:inScheme :theTRIZStandards ;
-    skos:prefLabel "Nutze zwei Aggregatzustände oder Phasen eines Stoffes"@de, "Use two states of matter or phases of a substance"@en, "Использовать два состояния вещества или фазы вещества"@ru .
+    skos:prefLabel "Nutze verschiedene Aggregatzustände oder Phasen eines Stoffes in Abhängigkeit von den Arbeitsbedingungen"@de, "Use different states of matter or phases of a substance depending on the working conditions"@en, "Использовать два состояния вещества или фазы вещества"@ru .
 
 <http://opendiscovery.org/rdf/Standard/S_5.3.3>
     a od:StandardSolution, skos:Concept ;

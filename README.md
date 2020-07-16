@@ -60,7 +60,8 @@ The RDFData collected within the Open Discovery Project.
   * 2020-04-06 graebe: Update with the MATRIZ Level 4 certificates
   * 2020-04-17 graebe: Update with the authors listed in the TBK-2007
   * 2020-04-18 graebe: Update with the MATRIZ Level 5 certificates
-* StandardSolutions.ttl - The 76 Standard Solutions in TRIZ form
+* SeparationPrinciples.ttl - The 4 Separation Principles
+* StandardSolutions.ttl - The 76 Standard Solutions 
 * TBK1-Concepts.ttl - Concepts in the TRIZ Body of Knowledge (2012 English
   version) as RDF Data
 * TBK2-Concepts.ttl - Concepts in the TRIZ Body of Knowledge (2007 Russian
