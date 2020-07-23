@@ -150,15 +150,22 @@ odp:Bertoncelli_T
     foaf:affil "Germany" ;
     foaf:name "Tiziana Bertoncelli" .
 
-odp:Bezdel_Z
+odp:Bezdel_ZV
     a foaf:Person ;
-    foaf:affil "IPMA, Менеджер проектов"@ru ;
+    foaf:affil "Moscow, Russia";
+    foaf:fullname "Зоя Вячеславовна Бездель"@ru ;
     foaf:name "Zoya Bezdel'" .
 
 odp:Biswas_A
     a foaf:Person ;
     foaf:affil "GE Global Research, India" ;
     foaf:name "Anand Biswas" .
+
+odp:Blagich_A
+    a foaf:Person ;
+    foaf:affil "Ekaterinburg, Russia";
+    foaf:fullname "Алексей Благих"@ru ;
+    foaf:name "Alexej Blagich" .
 
 odp:Bo_L
     a foaf:Person ;
@@ -251,7 +258,8 @@ odp:Burov_LG
 
 odp:Bystritskiy_A
     a foaf:Person ;
-    foaf:affil "Russia/South Korea" ;
+    foaf:affil "Irkutsk, Russia" ;
+    foaf:fullname "Александр Быстрицкий"@ru ;
     foaf:name "Alexander Bystritskiy" .
 
 odp:Cascini_G
@@ -269,6 +277,12 @@ odp:Chernyak_VS
     foaf:affil "Russia" ;
     foaf:fullname "Валерий Семенович Черняк"@ru ;
     foaf:name "Valeri S. Chernyak" .
+
+odp:Chernych_N
+    a foaf:Person ;
+    foaf:affil "Volgograd, Russia" ;
+    foaf:fullname "Наталья Черных"@ru ;
+    foaf:name "Natalya Chernych" .
 
 odp:Chizhevskaya_NE
     a foaf:Person ;
@@ -342,6 +356,12 @@ odp:Devojno_IG
     foaf:affil "Misnk, Belarus" ;
     foaf:fullname "Игорь Георгиевич Девойно"@ru ;
     foaf:name "Igor Devojno" .
+
+odp:Dichenko_SA
+    a foaf:Person ;
+    foaf:affil "Moscow, Russia" ;
+    foaf:fullname "Жанна Алексеевна Диченко"@ru ;
+    foaf:name "Shanna A. Dichenko" .
 
 odp:Dmitrienko_L
     a foaf:Person ;
@@ -561,7 +581,7 @@ odp:Gawdzinska_K
 
 odp:Gerasimov_OM
     a foaf:Person ;
-    foaf:affil "ST. Petersburg, Russia" ;
+    foaf:affil "St. Petersburg, Russia" ;
     foaf:fullname "Олег Михайлович Герасимов"@ru ;
     foaf:name "Oleg Gerasimov" .
 
@@ -1294,6 +1314,12 @@ odp:Lui_Y
     a foaf:Person ;
     foaf:name "Yan Lui" .
 
+odp:Lukash_A
+    a foaf:Person ;
+    foaf:affil "Volgograd, Russia" ;
+    foaf:fullname "Антон Лукаш"@ru ;
+    foaf:name "Anton Lukash" .
+
 odp:Lymarenko_AA
     a foaf:Person ;
     foaf:name "A.A. Lymarenko" .
@@ -1502,7 +1528,8 @@ odp:Nikashin_AI
 
 odp:Nikitin_V
     a foaf:Person ;
-    foaf:affil "Компания АО «Научно-промышленные консультанты», Руководитель проекта"@ru ;
+    foaf:affil "Angarsk, Russia" ;
+    foaf:fullname "Владимир Никитин"@ru ;
     foaf:name "Vladimir Nikitin" .
 
 odp:Nilov_AP
@@ -1537,6 +1564,12 @@ odp:Orloff_MA
     a foaf:Person ;
     foaf:name "Michael A. Orloff" .
 
+odp:Orlyanskaya_A
+    a foaf:Person ;
+    foaf:affil "Volgograd, Russia" ;
+    foaf:fullname "Анна Орлянская"@ru ;
+    foaf:name "Anna Orlyanskaya" .
+
 odp:Pai_T
     a foaf:Person ;
     foaf:affil "Ming-Hsin University of Science and Technology, Taiwan" ;
@@ -1557,11 +1590,17 @@ odp:Park_S
     foaf:affil "LG Electronics, South Korea" ;
     foaf:name "Sansung Park" .
 
+odp:Pasiuta_A
+    a foaf:Person ;
+    foaf:affil "Moscow, Russia" ;
+    foaf:fullname "Антон Пасюта"@ru ;
+    foaf:name "Anton Pasiuta" .
+
 odp:Pavlov_VV
     a foaf:Person ;
     foaf:affil "Russia" ;
     foaf:fullname "Валерий Валентинович Павлов"@ru ;
-    foaf:name "Valeriy V. Pavlov" .
+    foaf:name "Valeri V. Pavlov" .
 
 odp:Petiy_II
     a foaf:Person ;
@@ -1880,6 +1919,11 @@ odp:Shin_MS
     a foaf:Person ;
     foaf:name "Min-Soo Shin" .
 
+odp:Shironosov_D
+    a foaf:Person ;
+    foaf:fullname "Дмитрий Широносов"@ru ;
+    foaf:name "Dmitri Shironosov" .
+
 odp:Shkolnik_N
     a foaf:Person ;
     foaf:affil "USA" ;
@@ -2063,6 +2107,12 @@ odp:Surkov_PP
     foaf:fullname "Пётр Павел Владимирович Сурков"@ru ;
     foaf:name "Peter Pavel Surkov" .
 
+odp:Svobodov_V
+    a foaf:Person ;
+    foaf:affil "BATRIZ, Ekaterinburg, Russia" ;
+    foaf:fullname "Виктор Свободов"@ru ;
+    foaf:name "Viktor Svobodov" .
+
 odp:Sysoev_S
     a foaf:Person ;
     foaf:name "Sergej Sysoev" .
@@ -2124,6 +2174,12 @@ odp:Timochov_VI
     foaf:fullname "Виктор Иванович Тимохов"@ru ;
     foaf:name "Viktor I. Timochov" .
 
+odp:Tjukov_AP
+    a foaf:Person ;
+    foaf:affil "Volgograd, Russia" ;
+    foaf:fullname "Антон Павлович Тюков"@ru ;
+    foaf:name "Anton P. Tjukov" .
+
 odp:Toeters_M
     a foaf:Person ;
     foaf:affil "by-wire.net, The Netherlands" ;
@@ -2140,6 +2196,12 @@ odp:Trigub_AV
     foaf:affil "Russia" ;
     foaf:fullname "Александр Васильевич Тригуб"@ru ;
     foaf:name "Alexander V. Trigub" .
+
+odp:Trostyanski_A
+    a foaf:Person ;
+    foaf:affil "Moscow, Russia" ;
+    foaf:fullname "Андрей Тростянский"@ru ;
+    foaf:name "Andrei Trostyanski" .
 
 odp:Tsourikov_VM
     a foaf:Person ;

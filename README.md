@@ -54,7 +54,7 @@ The RDFData collected within the Open Discovery Project.
   * 2020-04-06 graebe: Level 4 certificates
   * 2020-04-18 graebe: Level 5 certificates
 * Ontology.ttl - A first RDF version of the ontology proposed at <https://r1.nubex.ru/s828-c8b/ca459bfe73_fit-in~160x160__f3107_7e> 
-* PastConferences.ttl - Information about Past TRIZ Conferences, in particular links to the proceesings, if published.
+* PastConferences.ttl - Information about Past TRIZ Conferences, in particular links to the proceedings, if published.
 * People.ttl - People within the TRIZ Social Network
   * 2020-04-01 graebe: Update with the authors listed in the TBK-2012
   * 2020-04-06 graebe: Update with the MATRIZ Level 4 certificates

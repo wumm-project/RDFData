@@ -15,6 +15,18 @@
     rdfs:label "TSN: Past Conferences" ;
     owl:imports <http://opendiscovery.org/rdf/ConferenceSeries/>, <http://opendiscovery.org/rdf/People/> .
 
+<http://opendiscovery.org/rdf/Conferences/Business-TRIZ-2020/>
+    a swc:ConferenceEvent ;
+    rdfs:label "Business TRIZ Online 2020" ;
+    ical:description "The conference "Business TRIZ Online 2020" will be held on July 23-24, 2020. This year the conference will be limited to Russian language only to encorage participation of Russian speaking TRIZ community and avoid difficulties that may emerge due to online translation issues. "@en, """Одним из ключевых навыков управленческих профессий в современном мире является умение решать сложные нестандартные проблемы. Конкурентная среда и запросы общества 21 века требуют действовать быстро. Наиболее приоритетными требованиями становятся необходимость эффективно находить новые нестандартные решения, а также создавать новые успешные инновационные бизнес системы и бизнес продукты. Большинство таких задач требует неординарного, творческого мышления.
+
+Технология и инструменты системного инновационного мышления, основанные на ТРИЗ – Теории Решения Изобретательских задач – сегодня активно внедряются в различных организациях по всему миру. Изначально разработанная для поддержки технических инноваций и использующаяся многими глобальными компаниями, ТРИЗ находит применение и других областях. Термин «Бизнес ТРИЗ» сегодня используется для методов и инструментов ТРИЗ, созданных и адаптированных для поддержки поиска инновационных решений в области бизнеса и управления."""@ru ;
+    ical:dtend "2020-07-24"^^xsd:date ;
+    ical:dtstart "2020-07-23"^^xsd:date ;
+    ical:location "Online" ;
+    od:detailedReport <http://wumm.uni-leipzig.de/rdf/BusinessTRIZ-2020.rdf> ; 
+    ical:url <http://www.biztriz.net/news/2-uncategorised/32-2020.html> .
+
 <http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2019/>
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
