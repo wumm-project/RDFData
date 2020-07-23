@@ -24,86 +24,86 @@
 
 :Talk_101
     dcterms:creator odp:Feygenson_NB ;
-    dcterms:title "Вопросы, которые мы выбираем"@ru ;
+    dcterms:title "Вопросы, которые мы выбираем"@ru, "The questions that we select"@en ;
     a od:Talk .
 
 :Talk_102
     dcterms:creator odp:Bezdel_ZV, odp:Dichenko_SA ;
-    dcterms:title "Как прототипирование ТРИЗ-решения помогает справиться со страхом неудачи и создать по-настоящему востребованный продукт"@ru ;
+    dcterms:title "Как прототипирование ТРИЗ-решения помогает справиться со страхом неудачи и создать по-настоящему востребованный продукт"@ru, "How to prototype a TRIZ solution helps to cope with the fear of failure and create a really popular product."@en ;
     a od:Talk .
 
 :Talk_103
     dcterms:creator odp:Svobodov_V ;
-    dcterms:title "Множественность решений на выходе - ДОБРО или ЗЛО?"@ru ;
+    dcterms:title "Множественность решений на выходе - ДОБРО или ЗЛО?"@ru, "Plenty of solutions at the output - Good or Evil?"@en ;
     a od:Talk .
 
 :Talk_104
     dcterms:creator odp:Pasiuta_A ;
-    dcterms:title "ТРИЗ + Фасилитация: решаем технические и другие задачи с помощью обучения"@ru ;
+    dcterms:title "ТРИЗ + Фасилитация: решаем технические и другие задачи с помощью обучения"@ru, "TRIZ + Facilitation: we solve technical and other tasks with the help of training."@en ;
     a od:Talk .
 
 :Talk_105
     dcterms:creator odp:Chernych_N, odp:Lukash_A, odp:Orlyanskaya_A, odp:Tjukov_AP ;
-    dcterms:title "Опыт выполнения проекта по повышению производительности труда на сельскохозяйственном предприятии"@ru ;
+    dcterms:title "Опыт выполнения проекта по повышению производительности труда на сельскохозяйственном предприятии"@ru, "Experience in implementing a project to increase productivity in an agricultural enterprise"@en ;
     a od:Talk .
 
 :Talk_106
     dcterms:creator odp:Shironosov_D ;
-    dcterms:title "Компания Everypixel: наша история знакомства с ТРИЗ"@ru ;
+    dcterms:title "Компания Everypixel: наша история знакомства с ТРИЗ"@ru, "The Everypixel company: our history of acquaintance with TRIZ"@en ;
     a od:Talk .
 
 :Talk_107
     dcterms:creator odp:Eckardt_O ;
-    dcterms:title "Ошибки внедрения ТРИЗ в бизнес среде"@ru ;
+    dcterms:title "Ошибки внедрения ТРИЗ в бизнес среде"@ru, "Errors of TRIZ implementation in business environment"@en ;
     a od:Talk .
 
 :Talk_108
     dcterms:creator odp:Pokalo_E ;
-    dcterms:title "Особенности и опыт организации изучения ТРИЗ в онлайн-формате"@ru ;
+    dcterms:title "Особенности и опыт организации изучения ТРИЗ в онлайн-формате"@ru, "Features and experience of organizing TRIZ trainings in online format"@en ;
     a od:Talk .
 
 :Talk_109
     dcterms:creator odp:Bystritskiy_A, odp:Nikitin_V ;
-    dcterms:title "Методика формулирования технического задания на модернизацию бизнеса"@ru ;
+    dcterms:title "Методика формулирования технического задания на модернизацию бизнеса"@ru, "Methodology for formulating technical tasks of business modernization"@en ;
     a od:Talk .
 
 :Talk_110
     dcterms:creator odp:Kozhemyako_A ;
-    dcterms:title "Цели и способы формулирования противоречий в организационно-управленческих задачах"@ru ;
+    dcterms:title "Цели и способы формулирования противоречий в организационно-управленческих задачах"@ru, "Objectives and ways to formulate contradictions in organizational and management tasks"@en ;
     a od:Talk .
 
 :Talk_111
     dcterms:creator odp:Domkin_KI, odp:Trostyanski_A ;
-    dcterms:title "Применение инструментов ТРИЗ для противодействия угроз работе коммерческих сетей"@ru ;
+    dcterms:title "Применение инструментов ТРИЗ для противодействия угроз работе коммерческих сетей"@ru, "Application of TRIZ tools to counter threats to commercial networks"@en ;
     a od:Talk .
 
 :Talk_112
     dcterms:creator odp:Blagich_A ;
-    dcterms:title "Опыт продвижения ТРИЗ: что точно не стоит делать."@ru ;
+    dcterms:title "Опыт продвижения ТРИЗ: что точно не стоит делать"@ru, "Experience of TRIZ promotion: what should be avoided in any case"@en ;
     a od:Talk .
 
 :Talk_113
     dcterms:creator odp:Petrov_VM ;
-    dcterms:title "Управления инновациями с позиций ТРИЗ"@ru ;
+    dcterms:title "Управления инновациями с позиций ТРИЗ"@ru, "Innovation management from the perspective of TRIZ"@en ;
     a od:Talk .
 
 :Talk_114
     dcterms:creator odp:Domkin_KI, odp:Shpakovsky_NA ;
-    dcterms:title "Особенности применения АИПС к бизнес-задачам"@ru ;
+    dcterms:title "Особенности применения АИПС к бизнес-задачам"@ru, "Features of AIPS application to business tasks"@en ;
     a od:Talk .
 
 :Talk_115
     dcterms:creator odp:Domkin_KI, odp:Gerasimov_OM, odp:Severinets_GA ;
-    dcterms:title "Определение направлений развития продуктов по ключевым потребительским ценностям (MPV)"@ru ;
+    dcterms:title "Определение направлений развития продуктов по ключевым потребительским ценностям (MPV)"@ru, "Identifying product development trends by key consumer values (MPV)"@en ;
     a od:Talk .
 
 :Talk_116
     dcterms:creator odp:Souchkov_V ;
-    dcterms:title "Система стандартных изобретательских решений в бизнесе и управлении"@ru ;
+    dcterms:title "Система стандартных изобретательских решений в бизнесе и управлении"@ru, "A system of standard inventive solutions in business and management"@en ;
     a od:Talk .
 
 :Talk_117
     dcterms:creator odp:Svobodov_V ;
-    dcterms:title "Основные ошибки в применении инструментов при освоении ТРИЗ"@ru ;
+    dcterms:title "Основные ошибки в применении инструментов при освоении ТРИЗ"@ru, "Main mistakes in using tools when mastering TRIZ"@en ;
     a od:Talk .
 
