@@ -13,92 +13,97 @@
     a swc:ConferenceEvent ;
     rdfs:comment "Presentations of the Business Online Conference 2020" ;
     rdfs:label "Business TRIZ Online 2020" ;
-    ical:description "Business TRIZ Online 2020" ;
+    ical:summary "The conference \"Business TRIZ Online 2020\" will be held on July 23-24, 2020. This year the conference will be limited to Russian language only to encorage participation of Russian speaking TRIZ community and avoid difficulties that may emerge due to online translation issues. "@en;
+    ical:description """Одним из ключевых навыков управленческих профессий в современном мире является умение решать сложные нестандартные проблемы. Конкурентная среда и запросы общества 21 века требуют действовать быстро. Наиболее приоритетными требованиями становятся необходимость эффективно находить новые нестандартные решения, а также создавать новые успешные инновационные бизнес системы и бизнес продукты. Большинство таких задач требует неординарного, творческого мышления.
+
+Технология и инструменты системного инновационного мышления, основанные на ТРИЗ – Теории Решения Изобретательских задач – сегодня активно внедряются в различных организациях по всему миру. Изначально разработанная для поддержки технических инноваций и использующаяся многими глобальными компаниями, ТРИЗ находит применение и других областях. Термин «Бизнес ТРИЗ» сегодня используется для методов и инструментов ТРИЗ, созданных и адаптированных для поддержки поиска инновационных решений в области бизнеса и управления."""@ru ;
     ical:dtend "2020-07-24"^^xsd:date ;
-    ical:dtstart "2020-07-23"^^xsd:date .
+    ical:dtstart "2020-07-23"^^xsd:date ;
+    ical:location "Online" ;
+    ical:url <http://www.biztriz.net/news/2-uncategorised/32-2020.html> .
 
 :Talk_101
-    dcterms:contributor odp:Feygenson_NB ;
+    dcterms:creator odp:Feygenson_NB ;
     dcterms:title "Вопросы, которые мы выбираем"@ru ;
     a od:Talk .
 
 :Talk_102
-    dcterms:contributor odp:Bezdel_ZV, odp:Dichenko_SA ;
+    dcterms:creator odp:Bezdel_ZV, odp:Dichenko_SA ;
     dcterms:title "Как прототипирование ТРИЗ-решения помогает справиться со страхом неудачи и создать по-настоящему востребованный продукт"@ru ;
     a od:Talk .
 
 :Talk_103
-    dcterms:contributor odp:Svobodov_V ;
+    dcterms:creator odp:Svobodov_V ;
     dcterms:title "Множественность решений на выходе - ДОБРО или ЗЛО?"@ru ;
     a od:Talk .
 
 :Talk_104
-    dcterms:contributor odp:Pasiuta_A ;
+    dcterms:creator odp:Pasiuta_A ;
     dcterms:title "ТРИЗ + Фасилитация: решаем технические и другие задачи с помощью обучения"@ru ;
     a od:Talk .
 
 :Talk_105
-    dcterms:contributor odp:Chernych_N, odp:Lukash_A, odp:Orlyanskaya_A, odp:Tjukov_AP ;
+    dcterms:creator odp:Chernych_N, odp:Lukash_A, odp:Orlyanskaya_A, odp:Tjukov_AP ;
     dcterms:title "Опыт выполнения проекта по повышению производительности труда на сельскохозяйственном предприятии"@ru ;
     a od:Talk .
 
 :Talk_106
-    dcterms:contributor odp:Shironosov_D ;
+    dcterms:creator odp:Shironosov_D ;
     dcterms:title "Компания Everypixel: наша история знакомства с ТРИЗ"@ru ;
     a od:Talk .
 
 :Talk_107
-    dcterms:contributor odp:Eckardt_O ;
+    dcterms:creator odp:Eckardt_O ;
     dcterms:title "Ошибки внедрения ТРИЗ в бизнес среде"@ru ;
     a od:Talk .
 
 :Talk_108
-    dcterms:contributor odp:Pokalo_E ;
+    dcterms:creator odp:Pokalo_E ;
     dcterms:title "Особенности и опыт организации изучения ТРИЗ в онлайн-формате"@ru ;
     a od:Talk .
 
 :Talk_109
-    dcterms:contributor odp:Bystritskiy_A, odp:Nikitin_V ;
+    dcterms:creator odp:Bystritskiy_A, odp:Nikitin_V ;
     dcterms:title "Методика формулирования технического задания на модернизацию бизнеса"@ru ;
     a od:Talk .
 
 :Talk_110
-    dcterms:contributor odp:Kozhemyako_A ;
+    dcterms:creator odp:Kozhemyako_A ;
     dcterms:title "Цели и способы формулирования противоречий в организационно-управленческих задачах"@ru ;
     a od:Talk .
 
 :Talk_111
-    dcterms:contributor odp:Domkin_KI, odp:Trostyanski_A ;
+    dcterms:creator odp:Domkin_KI, odp:Trostyanski_A ;
     dcterms:title "Применение инструментов ТРИЗ для противодействия угроз работе коммерческих сетей"@ru ;
     a od:Talk .
 
 :Talk_112
-    dcterms:contributor odp:Blagich_A ;
+    dcterms:creator odp:Blagich_A ;
     dcterms:title "Опыт продвижения ТРИЗ: что точно не стоит делать."@ru ;
     a od:Talk .
 
 :Talk_113
-    dcterms:contributor odp:Petrov_VM ;
+    dcterms:creator odp:Petrov_VM ;
     dcterms:title "Управления инновациями с позиций ТРИЗ"@ru ;
     a od:Talk .
 
 :Talk_114
-    dcterms:contributor odp:Domkin_KI, odp:Shpakovsky_NA ;
+    dcterms:creator odp:Domkin_KI, odp:Shpakovsky_NA ;
     dcterms:title "Особенности применения АИПС к бизнес-задачам"@ru ;
     a od:Talk .
 
 :Talk_115
-    dcterms:contributor odp:Domkin_KI, odp:Gerasimov_OM, odp:Severinets_GA ;
+    dcterms:creator odp:Domkin_KI, odp:Gerasimov_OM, odp:Severinets_GA ;
     dcterms:title "Определение направлений развития продуктов по ключевым потребительским ценностям (MPV)"@ru ;
     a od:Talk .
 
 :Talk_116
-    dcterms:contributor odp:Souchkov_V ;
+    dcterms:creator odp:Souchkov_V ;
     dcterms:title "Система стандартных изобретательских решений в бизнесе и управлении"@ru ;
     a od:Talk .
 
 :Talk_117
-    dcterms:contributor odp:Svobodov_V ;
+    dcterms:creator odp:Svobodov_V ;
     dcterms:title "Основные ошибки в применении инструментов при освоении ТРИЗ"@ru ;
     a od:Talk .
 
