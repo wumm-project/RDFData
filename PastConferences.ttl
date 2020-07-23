@@ -18,7 +18,8 @@
 <http://opendiscovery.org/rdf/Conferences/Business-TRIZ-2020/>
     a swc:ConferenceEvent ;
     rdfs:label "Business TRIZ Online 2020" ;
-    ical:description "The conference \"Business TRIZ Online 2020\" will be held on July 23-24, 2020. This year the conference will be limited to Russian language only to encorage participation of Russian speaking TRIZ community and avoid difficulties that may emerge due to online translation issues. "@en, """Одним из ключевых навыков управленческих профессий в современном мире является умение решать сложные нестандартные проблемы. Конкурентная среда и запросы общества 21 века требуют действовать быстро. Наиболее приоритетными требованиями становятся необходимость эффективно находить новые нестандартные решения, а также создавать новые успешные инновационные бизнес системы и бизнес продукты. Большинство таких задач требует неординарного, творческого мышления.
+    ical:summary "The conference \"Business TRIZ Online 2020\" will be held on July 23-24, 2020. This year the conference will be limited to Russian language only to encorage participation of Russian speaking TRIZ community and avoid difficulties that may emerge due to online translation issues. "@en;
+    ical:description """Одним из ключевых навыков управленческих профессий в современном мире является умение решать сложные нестандартные проблемы. Конкурентная среда и запросы общества 21 века требуют действовать быстро. Наиболее приоритетными требованиями становятся необходимость эффективно находить новые нестандартные решения, а также создавать новые успешные инновационные бизнес системы и бизнес продукты. Большинство таких задач требует неординарного, творческого мышления.
 
 Технология и инструменты системного инновационного мышления, основанные на ТРИЗ – Теории Решения Изобретательских задач – сегодня активно внедряются в различных организациях по всему миру. Изначально разработанная для поддержки технических инноваций и использующаяся многими глобальными компаниями, ТРИЗ находит применение и других областях. Термин «Бизнес ТРИЗ» сегодня используется для методов и инструментов ТРИЗ, созданных и адаптированных для поддержки поиска инновационных решений в области бизнеса и управления."""@ru ;
     ical:dtend "2020-07-24"^^xsd:date ;
@@ -31,7 +32,7 @@
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
     rdfs:label "TRIZ Future 2019" ;
-    ical:description "ETRIA World Conference TRIZ Future 2019. New opportunities for innovation breakthroughs for developing countries and emerging economies" ;
+    ical:summary "ETRIA World Conference TRIZ Future 2019. New opportunities for innovation breakthroughs for developing countries and emerging economies" ;
     ical:dtend "2019-10-11"^^xsd:date ;
     ical:dtstart "2019-10-09"^^xsd:date ;
     ical:location "Marrakesh, Morocco" ;
@@ -42,7 +43,7 @@
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit> ;
     rdfs:label "TRIZ Summit 2019" ;
-    ical:description "TRIZ Summit 2019" ;
+    ical:summary "TRIZ Summit 2019" ;
     ical:dtend "2019-06-15"^^xsd:date ;
     ical:dtstart "2019-06-13"^^xsd:date ;
     ical:location "EPAM, Minsk, Belarus" ;
@@ -54,7 +55,7 @@
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit> ;
     rdfs:label "TRIZ Summit 2007" ;
-    ical:description "TRIZ Summit 2007" ;
+    ical:summary "TRIZ Summit 2007" ;
     ical:dtend "2007-07-08"^^xsd:date ;
     ical:dtstart "2007-07-07"^^xsd:date ;
     ical:location "Moscow, Russia" ;
@@ -65,7 +66,7 @@
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
     rdfs:label "TRIZ Future 2018" ;
-    ical:description "ETRIA World Conference TRIZ Future 2018" ;
+    ical:summary "ETRIA World Conference TRIZ Future 2018" ;
     ical:dtend "2018-10-31"^^xsd:date ;
     ical:dtstart "2018-10-29"^^xsd:date ;
     ical:location "INSA, Strasbourg, France" ;
@@ -76,7 +77,7 @@
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
     rdfs:label "TRIZ Future 2017" ;
-    ical:description "ETRIA World Conference TRIZ Future 2017. Bridging creativity in science, entrepreneurship, industry and education" ;
+    ical:summary "ETRIA World Conference TRIZ Future 2017. Bridging creativity in science, entrepreneurship, industry and education" ;
     ical:dtend "2017-10-06"^^xsd:date ;
     ical:dtstart "2017-10-04"^^xsd:date ;
     ical:location "Lappeenranta, Finland" ;
@@ -87,7 +88,7 @@
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
     rdfs:label "TRIZ Future 2016" ;
-    ical:description "ETRIA World Conference TRIZ Future 2016" ;
+    ical:summary "ETRIA World Conference TRIZ Future 2016" ;
     ical:dtend "2016-10-27"^^xsd:date ;
     ical:dtstart "2016-10-24"^^xsd:date ;
     ical:url <http://innovento.pl/triz-future-2016/> ; 
@@ -97,7 +98,7 @@
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
     rdfs:label "TRIZ Future 2015" ;
-    ical:description "ETRIA World Conference TRIZ Future 2015. Creating Value for Customers and Society" ;
+    ical:summary "ETRIA World Conference TRIZ Future 2015. Creating Value for Customers and Society" ;
     ical:dtend "2015-10-29"^^xsd:date ;
     ical:dtstart "2015-10-26"^^xsd:date ;
     ical:location "Berlin, Germany" ;
@@ -108,7 +109,7 @@
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
     rdfs:label "TRIZ Future 2014" ;
-    ical:description "ETRIA World Conference TRIZ Future 2014" ;
+    ical:summary "ETRIA World Conference TRIZ Future 2014" ;
     ical:dtend "2014-10-31"^^xsd:date ;
     ical:dtstart "2014-10-29"^^xsd:date ;
     ical:location "Lausanne, Switzerland"  .
@@ -117,7 +118,7 @@
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
     rdfs:label "TRIZ Future 2013" ;
-    ical:description """ETRIA’s TRIZ Future Conference 2013 took place in Paris, France on the 29th–31st October
+    ical:summary """ETRIA’s TRIZ Future Conference 2013 took place in Paris, France on the 29th–31st October
 2013. The Conference was organized by the Ecole Nationale d'Arts et Métiers (Arts & Métiers
 ParisTech) of Paris, ETRIA - The European TRIZ association, and was sponsored by CIRP, the
 international Academy for Production Engineering. The conference gathered about 140
@@ -132,7 +133,7 @@ including keynote talks and presentations at plenary sessions. """ ;
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
     rdfs:label "TRIZ Future 2012" ;
-    ical:description "World Conference TRIZ Future 2012" ;
+    ical:summary "World Conference TRIZ Future 2012" ;
     ical:dtend "2012-10-26"^^xsd:date ;
     ical:dtstart "2012-10-24"^^xsd:date ;
     ical:location "New University of Lisbon, Lisbon, Portugal"  ;
@@ -145,7 +146,7 @@ including keynote talks and presentations at plenary sessions. """ ;
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
     rdfs:label "TRIZ Future 2011" ;
-    ical:description "World Conference TRIZ Future 2011" ;
+    ical:summary "World Conference TRIZ Future 2011" ;
     ical:dtend "2011-11-04"^^xsd:date ;
     ical:dtstart "2011-11-02"^^xsd:date ;
     ical:location "Institute of Technology Tallaght, Dublin, Ireland"  ;
@@ -157,7 +158,7 @@ including keynote talks and presentations at plenary sessions. """ ;
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
     rdfs:label "TRIZ Future 2009" ;
-    ical:description "World Conference TRIZ Future 2009" ;
+    ical:summary "World Conference TRIZ Future 2009" ;
     ical:dtend "2009-11-06"^^xsd:date ;
     ical:dtstart "2009-11-04"^^xsd:date ;
     ical:location "Politehnical University, Timisoara, Romania"   .
@@ -166,7 +167,7 @@ including keynote talks and presentations at plenary sessions. """ ;
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
     rdfs:label "TRIZ Future 2008" ;
-    ical:description "World Conference TRIZ Future 2008" ;
+    ical:summary "World Conference TRIZ Future 2008" ;
     ical:dtend "2008-11-07"^^xsd:date ;
     ical:dtstart "2008-11-05"^^xsd:date ;
     ical:location "University of Twente, Enschede, The Netherlands"  ;
@@ -180,7 +181,7 @@ including keynote talks and presentations at plenary sessions. """ ;
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
     rdfs:label "TRIZ Future 2007" ;
-    ical:description "World Conference TRIZ Future 2007" ;
+    ical:summary "World Conference TRIZ Future 2007" ;
     ical:dtend "2007-11-08"^^xsd:date ;
     ical:dtstart "2007-11-06"^^xsd:date ;
     ical:location "Frankfurt am Main, Germany"  ;
@@ -192,7 +193,7 @@ including keynote talks and presentations at plenary sessions. """ ;
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
     rdfs:label "TRIZ Future 2006" ;
-    ical:description "World Conference TRIZ Future 2006" ;
+    ical:summary "World Conference TRIZ Future 2006" ;
     ical:dtend "2006-10-11"^^xsd:date ;
     ical:dtstart "2006-10-09"^^xsd:date ;
     ical:location "Kortrijk, Belgium"  ;
@@ -205,7 +206,7 @@ including keynote talks and presentations at plenary sessions. """ ;
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
     rdfs:label "TRIZ Future 2005" ;
-    ical:description "World Conference TRIZ Future 2005" ;
+    ical:summary "World Conference TRIZ Future 2005" ;
     ical:dtend "2005-11-18"^^xsd:date ;
     ical:dtstart "2005-11-16"^^xsd:date ;
     ical:location "Graz, Austria"  ;
@@ -216,7 +217,7 @@ including keynote talks and presentations at plenary sessions. """ ;
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
     rdfs:label "TRIZ Future 2004" ;
-    ical:description "World Conference TRIZ Future 2004" ;
+    ical:summary "World Conference TRIZ Future 2004" ;
     ical:dtend "2004-11-05"^^xsd:date ;
     ical:dtstart "2004-11-02"^^xsd:date ;
     ical:location "Univercity of Florence, Florence, Italy"  ;
@@ -229,7 +230,7 @@ including keynote talks and presentations at plenary sessions. """ ;
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
     rdfs:label "TRIZ Future 2003" ;
-    ical:description "World Conference TRIZ Future 2003" ;
+    ical:summary "World Conference TRIZ Future 2003" ;
     ical:dtend "2003-11-14"^^xsd:date ;
     ical:dtstart "2003-11-12"^^xsd:date ;
     ical:location "Aachen, Germany"  ;
@@ -239,7 +240,7 @@ including keynote talks and presentations at plenary sessions. """ ;
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
     rdfs:label "TRIZ Future 2002" ;
-    ical:description "World Conference TRIZ Future 2002" ;
+    ical:summary "World Conference TRIZ Future 2002" ;
     ical:dtend "2002-11-08"^^xsd:date ;
     ical:dtstart "2002-11-06"^^xsd:date ;
     ical:location "Strasbourg, France"  ;
@@ -249,7 +250,7 @@ including keynote talks and presentations at plenary sessions. """ ;
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
     rdfs:label "TRIZ Future 2001" ;
-    ical:description "World Conference TRIZ Future 2001" ;
+    ical:summary "World Conference TRIZ Future 2001" ;
     ical:dtend "2001-11-09"^^xsd:date ;
     ical:dtstart "2001-11-07"^^xsd:date ;
     ical:location "Bath University, Bath, UK"  ;
