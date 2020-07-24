@@ -255,3 +255,39 @@ including keynote talks and presentations at plenary sessions. """ ;
     ical:dtstart "2001-11-07"^^xsd:date ;
     ical:location "Bath University, Bath, UK"  ;
     od:hasReports <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eforum/eETRIACon2001/eETRIACon2001.html> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZFest-2017/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest> ;
+    rdfs:label "TRIZ Fest 2017" ;
+    ical:summary "TRIZ Fest 2016 in Kraków, Poland" ;
+    ical:dtend "2017-09-16"^^xsd:date ;
+    ical:dtstart "2017-09-14"^^xsd:date ;
+    ical:location "Kraków, Poland" ;
+    od:theProceedings <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf> ;
+    od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZFest-2017.rdf> ; 
+    ical:url <https://matriz.org/trizfest-proceedings/> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZFest-2016/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest> ;
+    rdfs:label "TRIZ Fest 2016" ;
+    ical:summary "TRIZ Fest 2016 in Beijing, PR China" ;
+    ical:dtend "2016-07-30"^^xsd:date ;
+    ical:dtstart "2016-07-28"^^xsd:date ;
+    ical:location "Beijing, PR China" ;
+    od:theProceedings <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2016-Conference-Proceedings.pdf> ;
+    od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZFest-2016.rdf> ; 
+    ical:url <https://matriz.org/trizfest-proceedings/> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZFest-2015/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest> ;
+    rdfs:label "TRIZ Fest 2015" ;
+    ical:summary "TRIZ Fest 2015 in Seoul, South Korea" ;
+    ical:dtend "2015-09-12"^^xsd:date ;
+    ical:dtstart "2015-09-10"^^xsd:date ;
+    ical:location "Seoul, South Korea" ;
+    od:theProceedings <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> ;
+    od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZFest-2015.rdf> ; 
+    ical:url <https://matriz.org/trizfest-proceedings/> .

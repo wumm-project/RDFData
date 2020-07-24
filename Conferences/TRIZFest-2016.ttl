@@ -14,7 +14,7 @@
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest> ;
     rdfs:label "TRIZ Fest 2016" ;
-    ical:description "TRIZ Fest 2016 in Beijing, PR China" ;
+    ical:summary "TRIZ Fest 2016 in Beijing, PR China" ;
     ical:dtend "2016-07-30"^^xsd:date ;
     ical:dtstart "2016-07-28"^^xsd:date ;
     ical:location "Beijing, PR China" ;

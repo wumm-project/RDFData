@@ -14,7 +14,7 @@
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest> ;
     rdfs:label "TRIZ Fest 2015" ;
-    ical:description "TRIZ Fest 2015 in Seoul, South Korea" ;
+    ical:summary "TRIZ Fest 2015 in Seoul, South Korea" ;
     ical:dtend "2015-09-12"^^xsd:date ;
     ical:dtstart "2015-09-10"^^xsd:date ;
     ical:location "Seoul, South Korea" ;

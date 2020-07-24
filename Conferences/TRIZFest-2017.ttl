@@ -14,7 +14,7 @@
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest> ;
     rdfs:label "TRIZ Fest 2017" ;
-    ical:description "TRIZ Fest 2016 in Kraków, Poland" ;
+    ical:summary "TRIZ Fest 2016 in Kraków, Poland" ;
     ical:dtend "2017-09-16"^^xsd:date ;
     ical:dtstart "2017-09-14"^^xsd:date ;
     ical:location "Kraków, Poland" ;
