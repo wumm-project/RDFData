@@ -19,196 +19,159 @@
     ical:dtstart "2015-09-10"^^xsd:date ;
     ical:location "Seoul, South Korea" ;
     bibo:issn "2374-2275" ;
-    bibo:isbn "978-0-692-52417-6" ; 
+    bibo:isbn "978-0-692-52417-6" ;
+    od:theProceedings <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> ;
     ical:url <https://matriz.org/trizfest-proceedings/> .
 
 :Paper_101 a od:Paper;
  dcterms:title "A New Analysis Model - SAFC Model";
-dcterms:creator odp:Zhao_MM, odp:Zhang_W;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Zhao_MM, odp:Zhang_W . 
 
 :Paper_102 a od:Paper;
  dcterms:title "A Products Planning Approach by TRIZ and IIM";
-dcterms:creator odp:Izumi_H, odp:Sawaguchi_M;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Izumi_H, odp:Sawaguchi_M . 
 
 :Paper_103 a od:Paper;
  dcterms:title "Advanced Function Approach in Modern TRIZ";
-dcterms:creator odp:Feygenson_ON, odp:Feygenson_NB;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Feygenson_ON, odp:Feygenson_NB . 
 
 :Paper_104 a od:Paper;
  dcterms:title "Applications of Purpose Axis as a part of Multi Screen Thinking";
-dcterms:creator odp:Hongyul_Y;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Hongyul_Y . 
 
 :Paper_105 a od:Paper;
  dcterms:title "Applying System Thinking in Evolutionary Trends";
-dcterms:creator odp:Lok_A;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Lok_A . 
 
 :Paper_106 a od:Paper;
  dcterms:title "Applying TRIZ Across Companies";
-dcterms:creator odp:Mayer_O, odp:Bertoncelli_T, odp:Gardner_M, odp:Adunka_R;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Mayer_O, odp:Bertoncelli_T, odp:Gardner_M, odp:Adunka_R . 
 
 :Paper_107 a od:Paper;
  dcterms:title "Approach to Knowledge Systematization";
-dcterms:creator odp:Berdonosov_VD, odp:Redkolis_EV;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Berdonosov_VD, odp:Redkolis_EV . 
 
 :Paper_108 a od:Paper;
  dcterms:title "Creativity and Innovation Process";
-dcterms:creator odp:Barkan_MG;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Barkan_MG . 
 
 :Paper_109 a od:Paper;
  dcterms:title "Development of Symbiotic Systems and Products";
-dcterms:creator odp:Prushinskiy_VO;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Prushinskiy_VO . 
 
 :Paper_110 a od:Paper;
  dcterms:title "Evolution of Electric Vehicles - a TRIZ Based Approach";
-dcterms:creator odp:Nagashiresha_G, odp:Mewani_V;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Nagashiresha_G, odp:Mewani_V . 
 
 :Paper_111 a od:Paper;
  dcterms:title "Identification of Conceptual Directions at the Initial Project Stage";
-dcterms:creator odp:Fedosov_YI, odp:Sedykh_P;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Fedosov_YI, odp:Sedykh_P . 
 
 :Paper_112 a od:Paper;
  dcterms:title "In Situ Magnetizer with TRIZ";
-dcterms:creator odp:Bertoncelli_T, odp:Hemmelmann_J, odp:Fiseni_A, odp:Mayer_O;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Bertoncelli_T, odp:Hemmelmann_J, odp:Fiseni_A, odp:Mayer_O . 
 
 :Paper_113 a od:Paper;
  dcterms:title "Input VAT Recovery";
-dcterms:creator odp:Baszczeski_A;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Baszczeski_A . 
 
 :Paper_114 a od:Paper;
  dcterms:title "MyTRIZ Journey in Malaysia";
-dcterms:creator odp:Yeoh_TS, odp:Tan_EH;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Yeoh_TS, odp:Tan_EH . 
 
 :Paper_115 a od:Paper;
  dcterms:title "Network Analysis of TRIZ Principles and Contradiction Maps to Recommend Research Orientation and Patent Strategy";
-dcterms:creator odp:Tadepalli_S, odp:Mewani_V, odp:Biswas_A;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Tadepalli_S, odp:Mewani_V, odp:Biswas_A . 
 
 :Paper_116 a od:Paper;
  dcterms:title "Numerical Construction of S-Curves Using the TRIZ tool of Trends of Engineering System Evolution (TESE)";
-dcterms:creator odp:Tadepalli_S, odp:Biswas_A, odp:Mewani_V;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Tadepalli_S, odp:Biswas_A, odp:Mewani_V . 
 
 :Paper_117 a od:Paper;
  dcterms:title "One Day at the Museum – Using a Museum as Resource for Teaching and Learning TRIZ";
-dcterms:creator odp:Thurnes_C, odp:Ikovenko_SA, odp:Naehter_S, odp:Muenzberg_C, odp:Tharmann_R, odp:Faller_I, odp:Lovich_A, odp:Jantschgi_J, odp:Adunka_R, odp:Neumuth_T;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Thurnes_C, odp:Ikovenko_SA, odp:Naehter_S, odp:Muenzberg_C, odp:Tharmann_R, odp:Faller_I, odp:Lovich_A, odp:Jantschgi_J, odp:Adunka_R, odp:Neumuth_T . 
 
 :Paper_118 a od:Paper;
  dcterms:title "Perspectives for Development of Automatized Enterprise Management Systems";
-dcterms:creator odp:Berdonosov_VD, odp:Zhivotova_A;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Berdonosov_VD, odp:Zhivotova_A . 
 
 :Paper_119 a od:Paper;
  dcterms:title "Practice for solving problems and generating new concepts based on TRIZ-DAGEV roadmap";
-dcterms:creator odp:Yeo_HS, odp:Kim_JH, odp:Lee_JY, odp:Lee_JM;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Yeo_HS, odp:Kim_JH, odp:Lee_JY, odp:Lee_JM . 
 
 :Paper_120 a od:Paper;
  dcterms:title "Redesigning the Way Future Engineers Learn to Solve Inventive Problems";
-dcterms:creator odp:Mahmood_A, odp:Rahim_ZA, odp:Mansoor_M, odp:Tarar_MA;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Mahmood_A, odp:Rahim_ZA, odp:Mansoor_M, odp:Tarar_MA . 
 
 :Paper_121 a od:Paper;
  dcterms:title "Research on Clip Improvement in Heavy Haul Railway Line Based on TRIZ";
-dcterms:creator odp:Lianjun_H, odp:Jizhong_Y, odp:Xiaoyan_Z, odp:Zhigang_Y;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Lianjun_H, odp:Jizhong_Y, odp:Xiaoyan_Z, odp:Zhigang_Y . 
 
 :Paper_122 a od:Paper;
  dcterms:title "Research on TRIZ Integrated Affordance Analysis";
-dcterms:creator odp:Gaohui_R, odp:Dongyan_S, odp:Hong_Z, odp:Zhen_L;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Gaohui_R, odp:Dongyan_S, odp:Hong_Z, odp:Zhen_L . 
 
 :Paper_123 a od:Paper;
  dcterms:title "Simplification of System of Standard Solutions for TRIZ beginners using MAR Operator";
-dcterms:creator odp:Benjaboonyazit_T;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Benjaboonyazit_T . 
 
 :Paper_124 a od:Paper;
  dcterms:title "Statistic Study of an Alternative Way to Formulate a Pair of Engineering Contradictions so as to Seek for Solutions Which Satisfy the Contradictory Requirements of its Equivalent Physical Contradiction";
-dcterms:creator odp:Savelli_S, odp:Feygenson_ON;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Savelli_S, odp:Feygenson_ON . 
 
 :Paper_125 a od:Paper;
  dcterms:title "Systematic Business Innovation: a Roadmap";
-dcterms:creator odp:Souchkov_V;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Souchkov_V . 
 
 :Paper_126 a od:Paper;
  dcterms:title "Teaching, Learning and Applying TRIZ at University";
-dcterms:creator odp:Sheng_ILS;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Sheng_ILS . 
 
 :Paper_127 a od:Paper;
  dcterms:title "Khoo Boon How (Multimedia Development Corporation (MDeC), Malaysia),";
-dcterms:creator odp:Hoo_TE;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Hoo_TE . 
 
 :Paper_128 a od:Paper;
  dcterms:title "The Application of Bionics Combined with TRIZ Thinking in the Insulator Detecting Robot Design";
-dcterms:creator odp:Xu_H, odp:Zong_B, odp:Wang_WL, odp:Li_Z, odp:Wang_PY;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Xu_H, odp:Zong_B, odp:Wang_WL, odp:Li_Z, odp:Wang_PY . 
 
 :Paper_129 a od:Paper;
  dcterms:title "The New Approach to Problem-Solving Algorithm";
-dcterms:creator odp:Kim_SH, odp:Shin_GS, odp:Lee_SI, odp:Han_HS, odp:Shin_MS, odp:Ahn_HS;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Kim_SH, odp:Shin_GS, odp:Lee_SI, odp:Han_HS, odp:Shin_MS, odp:Ahn_HS . 
 
 :Paper_130 a od:Paper;
  dcterms:title "The Way to Define the Goal of Problems";
-dcterms:creator odp:Han_YS, odp:Lee_A, odp:Park_S, odp:Logvinov_SA;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Han_YS, odp:Lee_A, odp:Park_S, odp:Logvinov_SA . 
 
 :Paper_131 a od:Paper;
  dcterms:title "Trend of Transition of Engineering Systems to Microlevel Today and Tomorrow";
-dcterms:creator odp:Danilovsky_YE, odp:Ikovenko_SA, odp:Menon_R;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Danilovsky_YE, odp:Ikovenko_SA, odp:Menon_R . 
 
 :Paper_132 a od:Paper;
  dcterms:title "TRIZ used in iCPA, a Tech Startup";
-dcterms:creator odp:Roxas_JPB, odp:Tablizo_K;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Roxas_JPB, odp:Tablizo_K . 
 
 :Paper_133 a od:Paper;
  dcterms:title "TRIZ Systematic Innovation Framework and Program to Support a Government Link Company’s Innovation Policy";
-dcterms:creator odp:Karim_MSA;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Karim_MSA . 
 
 :Paper_134 a od:Paper;
  dcterms:title "TRIZ, Qualimetry and Marketing: Three Different Approaches to Measuring the Competitive Ability of the Future Products";
-dcterms:creator odp:Priven_A, odp:Azgaldov_G, odp:Kostin_A, odp:Kynin_AT, odp:Danilovsky_YE;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Priven_A, odp:Azgaldov_G, odp:Kostin_A, odp:Kynin_AT, odp:Danilovsky_YE . 
 
 :Paper_135 a od:Paper;
  dcterms:title "TRIZ-Based Cause and Effect Chain Analysis vs Root Cause Analysis";
-dcterms:creator odp:Abramov_OY;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Abramov_OY . 
 
 :Paper_136 a od:Paper;
  dcterms:title "TRIZ-based Innovative Concept Design of a Small Mobile Horizontal Axis Wind Turbine";
-dcterms:creator odp:Emmanuel_T, odp:Jun_ZX;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Emmanuel_T, odp:Jun_ZX . 
 
 :Paper_137 a od:Paper;
  dcterms:title "Universal Unsolvable Problem and Process of Resolving It";
-dcterms:creator odp:Kaplan_LA, odp:Cho_S, odp:Prevost_E;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Kaplan_LA, odp:Cho_S, odp:Prevost_E . 
 
 :Paper_138 a od:Paper;
  dcterms:title "\"Voice of Product\" to Supplement \"Voice of Customer\"";
-dcterms:creator odp:Abramov_OY;
-dcterms:source <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> . 
+dcterms:creator odp:Abramov_OY . 
 

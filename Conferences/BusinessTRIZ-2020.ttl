@@ -29,6 +29,7 @@
 
 :Talk_102
     dcterms:creator odp:Bezdel_ZV, odp:Dichenko_SA ;
+    od:presentedBy odp:Bezdel_ZV ;
     dcterms:title "Как прототипирование ТРИЗ-решения помогает справиться со страхом неудачи и создать по-настоящему востребованный продукт"@ru, "How to prototype a TRIZ solution helps to cope with the fear of failure and create a really popular product."@en ;
     a od:Talk .
 
@@ -44,6 +45,7 @@
 
 :Talk_105
     dcterms:creator odp:Chernych_N, odp:Lukash_A, odp:Orlyanskaya_A, odp:Tjukov_AP ;
+    od:presentedBy odp:Tjukov_AP ;
     dcterms:title "Опыт выполнения проекта по повышению производительности труда на сельскохозяйственном предприятии"@ru, "Experience in implementing a project to increase productivity in an agricultural enterprise"@en ;
     a od:Talk .
 
