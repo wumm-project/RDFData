@@ -137,12 +137,15 @@ odq:EarlyCounteraction
 odq:EarlyCounteraction_1 a od:Recommendation; 
     od:description "If a certain effect is to be achieved according to the conditions of the task, first generate the counteraction."@en, "Wenn gemäß den Bedingungen der Aufgabe eine bestimmte Wirkung erzielt werden soll, erzeuge vorher die Gegenwirkung."@de, "Чтобы в соответствии с условиями задачи достигать определенный эффект, сначала должно быть создано противодействие."@ru .
     
+odq:EarlyCounteraction_2 a od:Recommendation; 
+    od:description "Erzeuge im Objekt vorab eine Gegenwirkung, die der unzulässigen oder unerwünschten Wirkung entgegengesetzt ist (Prinzip der Vorspannung)."@de, "Заранее придать объекту напряжения, противоположные недопустимым или нежелательным рабочим напряжениям."@ru .
+    
 odq:PreferredAction 
   od:hasRecommendation odq:PreferredAction_1, odq:PreferredAction_2 ;
     od:hasAltshuller73Id "10" ;
     od:hasAltshuller84Id "10" ;
     a od:Principle ;
-    rdfs:label "Principle of the preferred action"@en, "Prinzip der vorherigen Wirkung bzw. Aktion"@de, "Приём предварительного действия (заранее выполненное действие)"@ru .
+    rdfs:label "Principle of the preferred action"@en, "Prinzip der vorherigen Wirkung"@de, "Приём предварительного действия (заранее выполненное действие)"@ru .
 
 odq:PreferredAction_1 a od:Recommendation; 
     od:description "Bereite die Objekte vorab so vor, dass sie ohne Zeitverlust vom geeignetsten Ort aus wirken können."@de, "Prepare the objects in advance in such a way that they can work without delay at the most suitable place."@en, "Объекты сначала должны быть настроены таким образом, чтобы они могли работать без задержки из наиболее подходящего места."@ru .
@@ -442,16 +445,16 @@ odq:ChangeColorAndTransparency
     a od:Principle ;
     rdfs:label "Color and transparency change principle"@en, "Prinzip der Veränderung von Farbe und Transparenz"@de, "Приём изменения окраски и прозрачности"@ru .
 
-odq:UsePorousMaterials_1 a od:Recommendation;
+odq:ChangeColorAndTransparency_1 a od:Recommendation;
     od:description "For observing poorly visible objects or processes, use coloring additives."@en, "Для наблюдения плохо видимых предметов или процессов используйте красящие добавки."@ru, "Nutze färbende Zuschläge zur Beobachtung schlecht sichtbarer Objekte oder Prozesse."@de .
 
-odq:UsePorousMaterials_2 a od:Recommendation;
+odq:ChangeColorAndTransparency_2 a od:Recommendation;
     od:description "Verändere den Grad der Durchsichtigkeit des Objektes oder des umgebenden Mediums."@de, "Change the degree of transparency of the object or the surrounding medium."@en, "Степень прозрачности объекта или окружающей среды должна быть изменена."@ru .
 
-odq:UsePorousMaterials_3 a od:Recommendation;
+odq:ChangeColorAndTransparency_3 a od:Recommendation;
     od:description "Verändere die Farbe des Objektes oder des umgebenden Mediums."@de, "Change the color of the object or the surrounding medium."@en, "Цвет объекта или окружающей среды должны быть изменены."@ru .
 
-odq:UsePorousMaterials_4 a od:Recommendation;
+odq:ChangeColorAndTransparency_4 a od:Recommendation;
     od:description "If such conditions are already applied, use flourescent material."@en, "Wenn solche Bedingungen bereits angewandt werden, setze Leuchtstoffe ein."@de, "Если такие условия уже применяются, используйте люминофоры."@ru .
 
 odq:Homogeneity 

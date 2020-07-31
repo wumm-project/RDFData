@@ -353,7 +353,7 @@ odp:Denisov_SD
 
 odp:Devojno_IG
     a foaf:Person ;
-    foaf:affil "Misnk, Belarus" ;
+    foaf:affil "Minsk, Belarus" ;
     foaf:fullname "Игорь Георгиевич Девойно"@ru ;
     foaf:name "Igor Devojno" .
 
@@ -777,10 +777,6 @@ odp:Houcheng_T
     foaf:affil "Harbin Engineering University, PR of China" ;
     foaf:name "Tang Houcheng" .
 
-odp:Hovanov_S
-    a foaf:Person ;
-    foaf:name "Sergej Hovanov" .
-
 odp:How_KB
     a foaf:Person ;
     foaf:name "Khoo Boon How" .
@@ -953,6 +949,10 @@ odp:Khorenyan_RG
 odp:Khotimliansky_Y
     a foaf:Person ;
     foaf:name "Y. Khotimliansky" .
+
+odp:Khovanov_S
+    a foaf:Person ;
+    foaf:name "Sergej Khovanov" .
 
 odp:Kiesel_M
     a foaf:Person ;
@@ -1130,7 +1130,8 @@ odp:Kuryan_A
     a foaf:Person ;
     foaf:affil "EPAM Systems, Belarus"@en ;
     foaf:homepage <https://www.facebook.com/andrew.kuryan> ;
-    foaf:name "Andrei Kuryan" .
+    foaf:fullname "Андрей Георгиевич Курьян"@ru ;
+    foaf:name "Andrei G. Kuryan" .
 
 odp:Kustov_VP
     a foaf:Person ;

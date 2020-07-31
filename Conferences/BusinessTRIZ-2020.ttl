@@ -66,6 +66,7 @@
 
 :Talk_109
     dcterms:creator odp:Bystritskiy_A, odp:Nikitin_V ;
+    od:presentedBy odp:Bystritskiy_A ;
     dcterms:title "Методика формулирования технического задания на модернизацию бизнеса"@ru, "Methodology for formulating technical tasks of business modernization"@en ;
     a od:Talk .
 
@@ -76,6 +77,7 @@
 
 :Talk_111
     dcterms:creator odp:Domkin_KI, odp:Trostyanski_A ;
+    od:presentedBy odp:Domkin_KI ;
     dcterms:title "Применение инструментов ТРИЗ для противодействия угроз работе коммерческих сетей"@ru, "Application of TRIZ tools to counter threats to commercial networks"@en ;
     a od:Talk .
 
@@ -91,11 +93,13 @@
 
 :Talk_114
     dcterms:creator odp:Domkin_KI, odp:Shpakovsky_NA ;
+    od:presentedBy odp:Domkin_KI ;
     dcterms:title "Особенности применения АИПС к бизнес-задачам"@ru, "Features of AIPS application to business tasks"@en ;
     a od:Talk .
 
 :Talk_115
     dcterms:creator odp:Domkin_KI, odp:Gerasimov_OM, odp:Severinets_GA ;
+    od:presentedBy odp:Domkin_KI ;
     dcterms:title "Определение направлений развития продуктов по ключевым потребительским ценностям (MPV)"@ru, "Identifying product development trends by key consumer values (MPV)"@en ;
     a od:Talk .
 

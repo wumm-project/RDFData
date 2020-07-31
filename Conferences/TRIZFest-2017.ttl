@@ -25,8 +25,7 @@
 
 :Paper_101 a od:Paper;
  dcterms:title "A praxiological chain model applied to the algorithm of inventive problem solving";
-dcterms:creator odp:Smolnik_M;
-dcterms:source <https://matriz.org/wp-content/uploads/2017/01/TRIZfest-2017-Proceedings-1.pdf> . 
+dcterms:creator odp:Smolnik_M . 
 
 :Paper_102 a od:Paper;
  dcterms:title "A simple way to perform ceca and generate ideas in practice";
