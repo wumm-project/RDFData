@@ -51,9 +51,15 @@ odp:Aminov_RB
     foaf:fullname "Р.Б. Аминов"@ru ;
     foaf:name "R.B. Aminov" .
 
+odp:Akkubekov_P
+    a foaf:Person ;
+    foaf:affil "Krasnoyarsk, Russia" ;
+    foaf:fullname "Павел Аккубеков"@ru ;
+    foaf:name "Pavel Akkubekov" .
+
 odp:Amnuel_PR
     a foaf:Person ;
-    foaf:affil "художественно-публицистический журнал «Млечный Путь» и одноименное издательство, редактор"@ru ;
+    foaf:affil "Beit She'an, Israel" ;
     foaf:fullname "Песах Рафаилович Амнуэль"@ru ;
     foaf:name "Pavel R. Amnuel" .
 
@@ -359,7 +365,7 @@ odp:Devojno_IG
 
 odp:Dichenko_SA
     a foaf:Person ;
-    foaf:affil "Moscow, Russia" ;
+    foaf:affil "Domodedovo, Russia" ;
     foaf:fullname "Жанна Алексеевна Диченко"@ru ;
     foaf:name "Shanna A. Dichenko" .
 
@@ -429,7 +435,7 @@ odp:Dyachenko_A
 
 odp:Eckardt_O
     a foaf:Person ;
-    foaf:affil "Sparkling Spring GmbH (Director), Wilo SE (Senior Business Consultant, Project Manager)"@en ;
+    foaf:affil "Dortmund, Germany" ;
     foaf:name "Olga Eckardt" .
 
 odp:Emmanuel_T
@@ -516,8 +522,8 @@ odp:Florescu_RS
 
 odp:Fomenko_A
     a foaf:Person ;
-    foaf:affil "Russia", "Группа ГАЗ, Директор Департамента ТРИЗ"@ru ;
-    foaf:name "Aleksej Fomenko", "Alexey Fomenko" .
+    foaf:affil "Moscow, Russia" ;
+    foaf:name "Aleksej Fomenko" .
 
 odp:Fresner_J
     a foaf:Person ;
@@ -535,7 +541,7 @@ odp:Gadjiev_C
 
 odp:Gafitulin_MS
     a foaf:Person ;
-    foaf:affil "Shukovsky, Russia" ;
+    foaf:affil "Zhukovskiy, Russia" ;
     foaf:fullname "Марат Семенович Гафитулин"@ru ;
     foaf:name "Marat Gafitulin" .
 
@@ -642,8 +648,8 @@ odp:Gorobchenko_SL
 odp:Graebe_HG
     a foaf:Person ;
     rdfs:seeAlso <https://orcid.org/0000-0002-3934-413X> ;
-    foaf:affil "Leipzig University, Germany"@en ;
-    foaf:homepage <http://bis.informatik.uni-leipzig.de/HansGertGraebe>, <https://www.facebook.com/hg.graebe> ;
+    foaf:affil "Leipzig, Germany" ;
+    foaf:homepage <http://informatik.uni-leipzig.de/~graebe>, <https://www.facebook.com/hg.graebe> ;
     foaf:name "Hans-Gert Gräbe" .
 
 odp:Gredynarov_I
@@ -925,6 +931,11 @@ odp:Kashkarov_AG
     foaf:fullname "Александр Германович Кашкаров"@ru ;
     foaf:name "Alexander G. Kashkarov" .
 
+odp:Kassou_R
+    a foaf:Person ;
+    foaf:affil "Moscow, Russia" ;
+    foaf:name "Ramez Kassou" .
+
 odp:Kengerli_TA
     a foaf:Person ;
     foaf:fullname "Т.А. Кенгерли"@ru ;
@@ -1072,6 +1083,7 @@ odp:Kozhevnikova_LA
 
 odp:Kozyreva_N
     a foaf:Person ;
+    foaf:affil "Moscow, Russia" ;
     foaf:homepage <https://kozyreva.ucoz.ru/> ;
     foaf:name "Nelly Kozyreva" .
 
@@ -1126,9 +1138,9 @@ odp:Kurgi_EE
     foaf:fullname "Эдуард Эйнович Курги"@ru ;
     foaf:name "Eduard Kurgi" .
 
-odp:Kuryan_A
+odp:Kuryan_AG
     a foaf:Person ;
-    foaf:affil "EPAM Systems, Belarus"@en ;
+    foaf:affil "Minsk, Belarus" ;
     foaf:homepage <https://www.facebook.com/andrew.kuryan> ;
     foaf:fullname "Андрей Георгиевич Курьян"@ru ;
     foaf:name "Andrei G. Kuryan" .
@@ -1452,6 +1464,11 @@ odp:Mingqin_G
     a foaf:Person ;
     foaf:name "Gu Mingqin" .
 
+odp:Misyuchenko_I
+    a foaf:Person ;
+    foaf:fullname "Игорь Мисюченко"@ru ;
+    foaf:name "Igor Misyuchenko" .
+
 odp:Mitrofanov_VV
     a foaf:Person ;
     foaf:affil "Russia" ;
@@ -1511,7 +1528,7 @@ odp:Narbut_AF
 
 odp:Nesterenko_AA
     a foaf:Person ;
-    foaf:affil "Russia", "ПКИРО (Владивосток), ГБОУ г. Москвы «Школа № 2101 «Филевский образовательный центр», доцент, методист"@ru ;
+    foaf:affil "Petrozavodsk, Russia" ;
     foaf:fullname "Алла Александровна Нестеренко"@ru ;
     foaf:name "Alla Nesterenko" .
 
@@ -1529,7 +1546,7 @@ odp:Nikashin_AI
 
 odp:Nikitin_V
     a foaf:Person ;
-    foaf:affil "Angarsk, Russia" ;
+    foaf:affil "Irkutsk, Russia" ;
     foaf:fullname "Владимир Никитин"@ru ;
     foaf:name "Vladimir Nikitin" .
 
@@ -1554,7 +1571,7 @@ odp:Obojski_J
 
 odp:Ogievich_D
     a foaf:Person ;
-    foaf:affil "EPAM Systems, Belarus" ;
+    foaf:affil "Minsk, Belarus" ;
     foaf:name "Dmitry Ogievich" .
 
 odp:Ohtsu_T
@@ -1758,14 +1775,14 @@ odp:Royzen_ZY
 
 odp:Rubin_MS
     a foaf:Person ;
-    foaf:affil "РУСАЛ Глобал Менеджмент, Руководитель группы проектов Дирекции по ТРИЗ"@ru ;
+    foaf:affil "Moscow, Russia" ;
     foaf:fullname "Михаил Семенович Рубин"@ru ;
     foaf:homepage <https://www.facebook.com/mihail.rubin> ;
     foaf:name "Mikhail S. Rubin" .
 
 odp:Rubina_NV
     a foaf:Person ;
-    foaf:affil "ОО «Саммит разработчиков ТРИЗ», Руководитель проекта «Кубок ТРИЗ Саммита»"@ru ;
+    foaf:affil "ST. Petersburg, Russia" ;
     foaf:fullname "Наталия Викторовна Рубина"@ru ;
     foaf:name "Natalja Rubina" .
 
@@ -1809,7 +1826,7 @@ odp:Samochvalov_JV
 
 odp:Saunin_N
     a foaf:Person ;
-    foaf:affil "АО «НПК», Руководитель направления, Дирекция по ТРИЗ"@ru ;
+    foaf:affil "Moscow, Russia" ;
     foaf:name "Nikolaj Saunin" .
 
 odp:Savelli_S
@@ -1894,13 +1911,18 @@ odp:Seredinski_AV
 
 odp:Severinets_GA
     a foaf:Person ;
-    foaf:affil "Компания АО «Научно-промышленные консультанты», Руководитель проекта"@ru ;
+    foaf:affil "Moscow, Russia" ;
     foaf:fullname "Георгий Анатольевич Северинец"@ru ;
     foaf:name "Georgi Severinets" .
 
 odp:Shapiro_RB
     a foaf:Person ;
     foaf:name "R.B. Shapiro" .
+
+odp:Shchedrin_N
+    a foaf:Person ;
+    foaf:fullname "Николай Щедрин"@ru ;
+    foaf:name "Nikolai Shchedrin" .
 
 odp:Sheng_ILS
     a foaf:Person ;
@@ -2018,7 +2040,7 @@ odp:Sklobovsky_KA
 
 odp:Skuratovich_AI
     a foaf:Person ;
-    foaf:affil "ОАО «АМКОДОР - управляющая компания холдинга», Руководитель проекта по оптимизации бизнес-процессов"@ru ;
+    foaf:affil "Minsk, Belarus" ;
     foaf:fullname "Александр Иванович Скуратович"@ru ;
     foaf:name "Alexander Skuratovich" .
 
@@ -2049,8 +2071,13 @@ odp:Sokolov_S
 
 odp:Solodkin_A
     a foaf:Person ;
-    foaf:affil "Consultant, Minsk, Belarus" ;
+    foaf:affil "Minsk, Belarus" ;
     foaf:name "Alexander Solodkin" .
+
+odp:Solodkina_E
+    a foaf:Person ;
+    foaf:affil "Minsk, Belarus" ;
+    foaf:name "Elena Solodkina" .
 
 odp:Son_DI
     a foaf:Person ;
@@ -2065,9 +2092,9 @@ odp:Song_XL
     a foaf:Person ;
     foaf:name "Xiaolei Song" .
 
-odp:Souchkov_V
+odp:Souchkov_VV
     a foaf:Person ;
-    foaf:affil "ICG Training & Consulting, The Netherlands" ;
+    foaf:affil "Enschede, Netherlands" ;
     foaf:fullname "Валерий Сушков"@ru ;
     foaf:homepage <https://www.facebook.com/valeri.souchkov> ;
     foaf:name "Valeri V. Souchkov" .
@@ -2148,7 +2175,7 @@ odp:Tarar_MA
 
 odp:Terekhova_G
     a foaf:Person ;
-    foaf:affil "ЮУрГГПУ, Челябинск, Доцент кафедры теоретической и прикладной психологии"@ru ;
+    foaf:affil "Chelyabinsk, Russia" ;
     foaf:name "Galina Terekhova" .
 
 odp:Terninko_J
@@ -2220,6 +2247,12 @@ odp:Urazajev_VG
     foaf:affil "Russia" ;
     foaf:fullname "Владимир Георгиевич Уразаев"@ru ;
     foaf:name "Vladinir Urazajev" .
+
+odp:Vachrushev_S
+    a foaf:Person ;
+    foaf:affil "Krasnoyarsk, Russia" ;
+    foaf:fullname "Сергей Вахрушев"@ru ;
+    foaf:name "Sergei Vachrushev" .
 
 odp:Vemuri_TK
     a foaf:Person ;

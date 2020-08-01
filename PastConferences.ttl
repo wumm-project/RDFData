@@ -15,6 +15,17 @@
     rdfs:label "TSN: Past Conferences" ;
     owl:imports <http://opendiscovery.org/rdf/ConferenceSeries/>, <http://opendiscovery.org/rdf/People/> .
 
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit> ;
+    rdfs:label "TRIZ Summit 2020" ;
+    ical:summary "TRIZ Summit 2020" ;
+    ical:dtend "2020-08-21"^^xsd:date ;
+    ical:dtstart "2020-08-17"^^xsd:date ;
+    ical:location "Online, supported by EPAM, Minsk, Belarus" ;
+    od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZ-Summit-2020.rdf> ;
+    ical:url <https://communities.by/events/triz-summit-2020> .
+
 <http://opendiscovery.org/rdf/Conferences/Business-TRIZ-2020/>
     a swc:ConferenceEvent ;
     rdfs:label "Business TRIZ Online 2020" ;
