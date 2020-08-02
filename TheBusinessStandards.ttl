@@ -1,0 +1,256 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix : <http://opendiscovery.org/rdf/BusinessStandard/> .
+
+:theTRIZBusinessStandards
+    a skos:ConceptScheme ;
+    skos:prefLabel "TRIZ Business Standards"@de .
+
+<http://opendiscovery.org/rdf/TheBusinessStandards/>
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    a owl:Ontology ;
+    rdfs:comment "Business Standard Solutions proposed by Valeri Souchkov.", "Extracted and transformed by HGG, 2020-08-02" ;
+    rdfs:label "TRIZ Database - Business Standard Solutions" .
+
+:G1
+    a od:TRIZ_StandardGroup ;
+    skos:preflabel "Improving insufficient effect of an interaction"@en, "Улучшение недостаточного эффекта взаимодействия"@ru .
+
+:G2
+    a od:TRIZ_StandardGroup ;
+    skos:preflabel "Improving excessive effect of an interaction"@en, "Устранение избыточного эффекта взаимодействия"@ru .
+
+:G3
+    a od:TRIZ_StandardGroup ;
+    skos:preflabel "Improving poorly controllable effect of an interaction"@en, "Устранение плохо контролируемого эффекта взаимодействия"@ru .
+
+:G4
+    a od:TRIZ_StandardGroup ;
+    skos:preflabel "Eliminating negative effect of an interaction"@en, "Устранение вредного/нежелательного эффекта взаимодействия"@ru .
+
+:G5
+    a od:TRIZ_StandardGroup ;
+    skos:preflabel "Organizing or improving measurement and detection"@en, "Организация и улучшение измерения или обнаружения."@ru .
+
+:S1_1
+    a od:TRIZ_Standard ;
+    skos:narrower :G1 ;
+    skos:preflabel "Transition to internal complex model"@en, "переход к внутреннему комплексному веполю"@ru .
+
+:S1_10
+    a od:TRIZ_Standard ;
+    skos:narrower :G1 ;
+    skos:preflabel "Segmentation of objects and processes"@en, "Сегментация объектов и процессов"@ru .
+
+:S1_11
+    a od:TRIZ_Standard ;
+    skos:narrower :G1 ;
+    skos:preflabel "Increasing the degree of segmentation"@en, "Увеличение степени сегментации"@ru .
+
+:S1_12
+    a od:TRIZ_Standard ;
+    skos:narrower :G1 ;
+    skos:preflabel "Dynamization of objects and processes"@en, "Динамизация объектов и процессов"@ru .
+
+:S1_13
+    a od:TRIZ_Standard ;
+    skos:narrower :G1 ;
+    skos:preflabel "Increasing the degree of dynamics"@en, "Увеличение динамизации процессов"@ru .
+
+:S1_14
+    a od:TRIZ_Standard ;
+    skos:narrower :G1 ;
+    skos:preflabel "Transition to bi- and poly-systems"@en, "Переход к би- и полисистемам"@ru .
+
+:S1_15
+    a od:TRIZ_Standard ;
+    skos:narrower :G1 ;
+    skos:preflabel "Increasing differences in bi- and poly-systems"@en, "Увеличение разницы внутри би- и полисистем"@ru .
+
+:S1_16
+    a od:TRIZ_Standard ;
+    skos:narrower :G1 ;
+    skos:preflabel "Paradigm change"@en, "Смена парадигмы"@ru .
+
+:S1_2
+    a od:TRIZ_Standard ;
+    skos:narrower :G1 ;
+    skos:preflabel "Transition to external complex model"@en, "переход к внешнему комплексному веполю"@ru .
+
+:S1_3
+    a od:TRIZ_Standard ;
+    skos:narrower :G1 ;
+    skos:preflabel "Introducing intermediary"@en, "Ввод промежуточного элемента"@ru .
+
+:S1_4
+    a od:TRIZ_Standard ;
+    skos:narrower :G1 ;
+    skos:preflabel "Using existing resource"@en, "Использование имеющегося ресурса"@ru .
+
+:S1_5
+    a od:TRIZ_Standard ;
+    skos:narrower :G1 ;
+    skos:preflabel "Using modified or new environment"@en, "Использование измененной или новой среды"@ru .
+
+:S1_6
+    a od:TRIZ_Standard ;
+    skos:narrower :G1 ;
+    skos:preflabel "Transition to dual model"@en, "Переход к дуальной модели"@ru .
+
+:S1_7
+    a od:TRIZ_Standard ;
+    skos:narrower :G1 ;
+    skos:preflabel "Transition to periodic action"@en, "Переход к дискретному действию"@ru .
+
+:S1_8
+    a od:TRIZ_Standard ;
+    skos:narrower :G1 ;
+    skos:preflabel "Introducing selective protection"@en, "Ввод выборочной защиты"@ru .
+
+:S1_9
+    a od:TRIZ_Standard ;
+    skos:narrower :G1 ;
+    skos:preflabel "Introducing selective amplification"@en, "Ввод выборочного усиления"@ru .
+
+:S2_1
+    a od:TRIZ_Standard ;
+    skos:narrower :G2 ;
+    skos:preflabel "Introducing filtering"@en, "Ввод фильтрации"@ru .
+
+:S2_2
+    a od:TRIZ_Standard ;
+    skos:narrower :G2 ;
+    skos:preflabel "Modified environment"@en, "Измененная среда"@ru .
+
+:S2_3
+    a od:TRIZ_Standard ;
+    skos:narrower :G2 ;
+    skos:preflabel "Action maximizing"@en, "Максимальное взаимодействие"@ru .
+
+:S2_4
+    a od:TRIZ_Standard ;
+    skos:narrower :G2 ;
+    skos:preflabel "Removing excess of action"@en, "Распределение избыточности"@ru .
+
+:S3_1
+    a od:TRIZ_Standard ;
+    skos:narrower :G3 ;
+    skos:preflabel "Introducing intermediary"@en, "Ввод промежуточного элемента"@ru .
+
+:S3_2
+    a od:TRIZ_Standard ;
+    skos:narrower :G3 ;
+    skos:preflabel "Transition to external complex model"@en, "Переход к внешнему комплексному веполю"@ru .
+
+:S3_3
+    a od:TRIZ_Standard ;
+    skos:narrower :G3 ;
+    skos:preflabel "Replacing paradigm"@en, "Смена парадигмы"@ru .
+
+:S3_4
+    a od:TRIZ_Standard ;
+    skos:narrower :G3 ;
+    skos:preflabel "Outsourcing to supersystem"@en, "Аутсорсинг из надсистемы"@ru .
+
+:S3_5
+    a od:TRIZ_Standard ;
+    skos:narrower :G3 ;
+    skos:preflabel "Transition to chain model"@en, "Переход к цепной модели"@ru .
+
+:S3_6
+    a od:TRIZ_Standard ;
+    skos:narrower :G3 ;
+    skos:preflabel "Self control"@en, "Самоконтроль"@ru .
+
+:S4_1
+    a od:TRIZ_Standard ;
+    skos:narrower :G4 ;
+    skos:preflabel "Introducing intermediary"@en, "Ввод промежуточного элемента"@ru .
+
+:S4_10
+    a od:TRIZ_Standard ;
+    skos:narrower :G4 ;
+    skos:preflabel "Paradigm change"@en, "Смена парадигмы"@ru .
+
+:S4_2
+    a od:TRIZ_Standard ;
+    skos:narrower :G4 ;
+    skos:preflabel "Introducing modified intermediary"@en, "Ввод модифицированного промежуточного элемента"@ru .
+
+:S4_3
+    a od:TRIZ_Standard ;
+    skos:narrower :G4 ;
+    skos:preflabel "Neutralizing"@en, "Нейтрализация"@ru .
+
+:S4_4
+    a od:TRIZ_Standard ;
+    skos:narrower :G4 ;
+    skos:preflabel "Distraction by a new field"@en, "Ввод противоположного действия"@ru .
+
+:S4_5
+    a od:TRIZ_Standard ;
+    skos:narrower :G4 ;
+    skos:preflabel "Introducing antipodal action"@en, "Ввод дополнительных условий"@ru .
+
+:S4_6
+    a od:TRIZ_Standard ;
+    skos:narrower :G4 ;
+    skos:preflabel "Modified object in advance"@en, "Предварительно измененный объект"@ru .
+
+:S4_7
+    a od:TRIZ_Standard ;
+    skos:narrower :G4 ;
+    skos:preflabel "Withdrawing effect"@en, "Смещение"@ru .
+
+:S4_8
+    a od:TRIZ_Standard ;
+    skos:narrower :G4 ;
+    skos:preflabel "Periodic action"@en, "Дискретное действие"@ru .
+
+:S4_9
+    a od:TRIZ_Standard ;
+    skos:narrower :G4 ;
+    skos:preflabel "High speed"@en, "Высокая скорость"@ru .
+
+:S5_1
+    a od:TRIZ_Standard ;
+    skos:narrower :G5 ;
+    skos:preflabel "Problem change"@en, "Замена проблемы"@ru .
+
+:S5_2
+    a od:TRIZ_Standard ;
+    skos:narrower :G5 ;
+    skos:preflabel "Using a copy"@en, "Использование копии"@ru .
+
+:S5_3
+    a od:TRIZ_Standard ;
+    skos:narrower :G5 ;
+    skos:preflabel "Successive detection"@en, "Последовательное обнаружение"@ru .
+
+:S5_4
+    a od:TRIZ_Standard ;
+    skos:narrower :G5 ;
+    skos:preflabel "Indirect resource measurement"@en, "Косвенное измерение ресурсов"@ru .
+
+:S5_5
+    a od:TRIZ_Standard ;
+    skos:narrower :G5 ;
+    skos:preflabel "Transition to a dual model"@en, "Переход к дуальной модели"@ru .
+
+:S5_6
+    a od:TRIZ_Standard ;
+    skos:narrower :G5 ;
+    skos:preflabel "Transition to bi- and poly-systems"@en, "Переход к би- и полисистемам"@ru .
+
+:S5_7
+    a od:TRIZ_Standard ;
+    skos:narrower :G5 ;
+    skos:preflabel "Measuring derivative"@en, "Измерение производных"@ru .

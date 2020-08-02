@@ -67,6 +67,7 @@ The RDFData collected within the Open Discovery Project.
 * TBK2-Concepts.ttl - Concepts in the TRIZ Body of Knowledge (2007 Russian
   version) as RDF Data
 * TBK-References.ttl - Literature referenced in TBK1 and TBK2
+* TheBusinessStandards.ttl - V. Souchkovs Business Standard Solutions 
 * TheMatrix.ttl - Altshullers 39x39 matrix 
 * TheParameters.ttl - The 39 parameters as in the matrix of Altshuller 1985 
 * ThePrinciples.ttl - The 40 principles according to Altshuller 1985 

@@ -97,7 +97,7 @@ odr:Shape
     a od:Parameter ;
     rdfs:label "Form"@de, "Shape"@en, "Форма"@ru .
 
-odr:StabilityOfTheObject’sStructure 
+odr:StabilityOfTheObjectsStructure 
     od:description "Stabilität der Struktur des Objekts"@de, "The standalone nature and immobility of the system or object."@en ;
     od:hasParameterNumber "13" ;
     a od:Parameter ;

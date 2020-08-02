@@ -95,7 +95,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.01.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:WeightOfTheMovingObject  ;
     od:recommendedPrinciple odq:Segmentation, odq:PeriodicEffect, odq:ChangePhysicalOrChemicalParameters, odq:UseInertMedium  ;
     a od:MatrixEntry .
@@ -323,7 +323,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.02.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:WeightOfTheStationaryObject  ;
     od:recommendedPrinciple odq:Segmentation, odq:Copying, odq:UseInertMedium, odq:ApplyCompositeMaterials  ;
     a od:MatrixEntry .
@@ -551,7 +551,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.03.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:LengthOfTheMovingObject  ;
     od:recommendedPrinciple odq:Segmentation, odq:Countermass, odq:Dynamization, odq:EliminationAndRegenerationOfParts  ;
     a od:MatrixEntry .
@@ -779,7 +779,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.04.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:LengthOfTheStationaryObject  ;
     od:recommendedPrinciple odq:ChangePhysicalOrChemicalParameters, odq:ApplyThermalExpansion, odq:UseInertMedium  ;
     a od:MatrixEntry .
@@ -1007,7 +1007,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.05.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:SurfaceOfTheMovingObject  ;
     od:recommendedPrinciple odq:Separation, odq:Prevention, odq:Conversely, odq:UseInertMedium  ;
     a od:MatrixEntry .
@@ -1235,7 +1235,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.06.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:SurfaceOfTheStationaryObject  ;
     od:recommendedPrinciple odq:Separation, odq:ApplyStrongOxidants  ;
     a od:MatrixEntry .
@@ -1463,7 +1463,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.07.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:VolumeOfTheMovingObject  ;
     od:recommendedPrinciple odq:Segmentation, odq:PreferredAction, odq:ReplacementOfMechanicalSchemes, odq:UseInertMedium  ;
     a od:MatrixEntry .
@@ -1691,7 +1691,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.08.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:VolumeOfTheStationaryObject  ;
     od:recommendedPrinciple odq:ReplacementOfMechanicalSchemes, odq:EliminationAndRegenerationOfParts, odq:ChangePhysicalOrChemicalParameters, odq:ApplyCompositeMaterials  ;
     a od:MatrixEntry .
@@ -1919,7 +1919,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.09.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:Speed  ;
     od:recommendedPrinciple odq:Segmentation, odq:ExploitationOfMechanicalVibrations, odq:ReplacementOfMechanicalSchemes, odq:Homogeneity  ;
     a od:MatrixEntry .
@@ -2147,7 +2147,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.10.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:Force  ;
     od:recommendedPrinciple odq:PreferredAction, odq:Rush, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
@@ -2375,7 +2375,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.11.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:TensionOrPressure  ;
     od:recommendedPrinciple odq:Separation, odq:Homogeneity, odq:ChangePhysicalOrChemicalParameters, odq:ApplyCompositeMaterials  ;
     a od:MatrixEntry .
@@ -2603,7 +2603,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.12.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:Shape  ;
     od:recommendedPrinciple odq:Segmentation, odq:Asymmetry, odq:ExploitationOfMechanicalVibrations, odq:Homogeneity  ;
     a od:MatrixEntry .
@@ -2766,229 +2766,229 @@ od:MatrixEntry
 
 <http://opendiscovery.org/rdf/Matrix/E.13.01>
     od:decreasingParameter odr:WeightOfTheMovingObject  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:Separation, odq:Rush, odq:ChangePhysicalOrChemicalParameters, odq:UseInertMedium  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.02>
     od:decreasingParameter odr:WeightOfTheStationaryObject  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:Segmentation, odq:Copying, odq:UseInertMedium, odq:ApplyCompositeMaterials  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.03>
     od:decreasingParameter odr:LengthOfTheMovingObject  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:Segmentation, odq:Conversely, odq:Dynamization, odq:ReplacementOfMechanicalSchemes  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.04>
     od:decreasingParameter odr:LengthOfTheStationaryObject  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:ApplyThermalExpansion  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.05>
     od:decreasingParameter odr:SurfaceOfTheMovingObject  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:Separation, odq:Prevention, odq:Conversely  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.06>
     od:decreasingParameter odr:SurfaceOfTheStationaryObject  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:UseInertMedium  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.07>
     od:decreasingParameter odr:VolumeOfTheMovingObject  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:PreferredAction, odq:PeriodicEffect, odq:ReplacementOfMechanicalSchemes, odq:UseInertMedium  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.08>
     od:decreasingParameter odr:VolumeOfTheStationaryObject  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:ReplacementOfMechanicalSchemes, odq:EliminationAndRegenerationOfParts, odq:ChangePhysicalOrChemicalParameters, odq:ApplyCompositeMaterials  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.09>
     od:decreasingParameter odr:Speed  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:Dynamization, odq:ExploitationOfMechanicalVibrations, odq:ReplacementOfMechanicalSchemes, odq:Homogeneity  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.10>
     od:decreasingParameter odr:Force  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:PreferredAction, odq:PartialOrExcessEffect, odq:Rush, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.11>
     od:decreasingParameter odr:TensionOrPressure  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:Separation, odq:ChangePhysicalOrChemicalParameters, odq:ApplyCompositeMaterials  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.12>
     od:decreasingParameter odr:Shape  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:Segmentation, odq:Asymmetry, odq:ExploitationOfMechanicalVibrations, odq:TransformationOfHarmfulIntoUseful  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.14>
     od:decreasingParameter odr:Strength  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:EarlyCounteraction, odq:Dynamization, odq:TransitionToAnotherDimension  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.15>
     od:decreasingParameter odr:FunctionalTimeOfTheMovingObject  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:PreferredAction, odq:Conversely, odq:CheapEphemeraInsteadOfExpensiveLongevity, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.16>
     od:decreasingParameter odr:FunctionalTimeOfTheStationaryObject  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:LocalQuality, odq:Feedback, odq:ChangePhysicalOrChemicalParameters, odq:UseInertMedium  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.17>
     od:decreasingParameter odr:Temperature  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:Segmentation, odq:ChangeColorAndTransparency, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.18>
     od:decreasingParameter odr:BrightnessOfTheLighting  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:LocalQuality, odq:PartialOrExcessEffect, odq:CheapEphemeraInsteadOfExpensiveLongevity, odq:ChangeColorAndTransparency  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.19>
     od:decreasingParameter odr:EnergyUseOfTheMovingObject  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:Conversely, odq:PeriodicEffect  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.20>
     od:decreasingParameter odr:EnergyUseOfTheFixedObject  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:Asymmetry, odq:ExploitationOfMechanicalVibrations, odq:CheapEphemeraInsteadOfExpensiveLongevity, odq:ApplyPneumaticOrHydraulicConstructions  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.21>
     od:decreasingParameter odr:Power  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:CheapEphemeraInsteadOfExpensiveLongevity, odq:UsePorousMaterials, odq:ChangeColorAndTransparency, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.22>
     od:decreasingParameter odr:LossOfEnergy  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:Separation, odq:Universality, odq:BallSimilarity, odq:UseInertMedium  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.23>
     od:decreasingParameter odr:LossOfMaterial  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:Separation, odq:BallSimilarity, odq:UseFlexibleEnvelopesAndThinFoils, odq:ApplyCompositeMaterials  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.24>
     od:decreasingParameter odr:LossOfInformation  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:NoPrinciple  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.25>
     od:decreasingParameter odr:LossOfTime  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:CheapEphemeraInsteadOfExpensiveLongevity, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.26>
     od:decreasingParameter odr:QuantityOfMaterial  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:Dynamization, odq:ChangeColorAndTransparency, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.27>
     od:decreasingParameter odr:Reliability  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:NoPrinciple  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.28>
     od:decreasingParameter odr:PrecisionOfMeasurements  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:Conversely  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.29>
     od:decreasingParameter odr:PrecisionOfManufacture  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:ExploitationOfMechanicalVibrations  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.30>
     od:decreasingParameter odr:ExternalDamagingFactors  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:ExploitationOfMechanicalVibrations, odq:Mediator, odq:UseFlexibleEnvelopesAndThinFoils, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.31>
     od:decreasingParameter odr:InternalDamagingFactors  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:CheapEphemeraInsteadOfExpensiveLongevity, odq:ChangePhysicalOrChemicalParameters, odq:UseInertMedium, odq:ApplyCompositeMaterials  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.32>
     od:decreasingParameter odr:EaseOfManufacture  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:PeriodicEffect, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.33>
     od:decreasingParameter odr:EaseOfUse  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:UseFlexibleEnvelopesAndThinFoils, odq:ChangeColorAndTransparency, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.34>
     od:decreasingParameter odr:EaseOfRepair  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:Separation, odq:PreferredAction, odq:PartialOrExcessEffect, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.35>
     od:decreasingParameter odr:Adaptability  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:Separation, odq:UseFlexibleEnvelopesAndThinFoils, odq:EliminationAndRegenerationOfParts, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.36>
     od:decreasingParameter odr:ComplexityOfConstruction  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:Separation, odq:TransformationOfHarmfulIntoUseful, odq:Copying, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.37>
     od:decreasingParameter odr:ComplexityOfInspectionAndMeasurements  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:TransformationOfHarmfulIntoUseful, odq:Feedback, odq:ChangePhysicalOrChemicalParameters, odq:UseInertMedium  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.38>
     od:decreasingParameter odr:LevelOfAutomation  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:Segmentation, odq:Countermass, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.13.39>
     od:decreasingParameter odr:Productivity  ;
-    od:increasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:increasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:recommendedPrinciple odq:LocalQuality, odq:Feedback, odq:ChangePhysicalOrChemicalParameters, odq:ApplyCompositeMaterials  ;
     a od:MatrixEntry .
 
@@ -3065,7 +3065,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.14.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:Strength  ;
     od:recommendedPrinciple odq:Conversely, odq:TransitionToAnotherDimension, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
@@ -3293,7 +3293,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.15.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:FunctionalTimeOfTheMovingObject  ;
     od:recommendedPrinciple odq:LocalQuality, odq:Conversely, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
@@ -3521,7 +3521,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.16.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:FunctionalTimeOfTheStationaryObject  ;
     od:recommendedPrinciple odq:LocalQuality, odq:Feedback, odq:ChangePhysicalOrChemicalParameters, odq:UseInertMedium  ;
     a od:MatrixEntry .
@@ -3749,7 +3749,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.17.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:Temperature  ;
     od:recommendedPrinciple odq:Segmentation, odq:ChangeColorAndTransparency, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
@@ -3977,7 +3977,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.18.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:BrightnessOfTheLighting  ;
     od:recommendedPrinciple odq:LocalQuality, odq:CheapEphemeraInsteadOfExpensiveLongevity, odq:ChangeColorAndTransparency  ;
     a od:MatrixEntry .
@@ -4205,7 +4205,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.19.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:EnergyUseOfTheMovingObject  ;
     od:recommendedPrinciple odq:Conversely, odq:TransitionToAnotherDimension, odq:PeriodicEffect, odq:Mediator  ;
     a od:MatrixEntry .
@@ -4433,7 +4433,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.20.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:EnergyUseOfTheFixedObject  ;
     od:recommendedPrinciple odq:Asymmetry, odq:ExploitationOfMechanicalVibrations, odq:CheapEphemeraInsteadOfExpensiveLongevity, odq:ApplyPneumaticOrHydraulicConstructions  ;
     a od:MatrixEntry .
@@ -4661,7 +4661,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.21.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:Power  ;
     od:recommendedPrinciple odq:Dynamization, odq:UsePorousMaterials, odq:ChangeColorAndTransparency, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
@@ -4889,7 +4889,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.22.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:LossOfEnergy  ;
     od:recommendedPrinciple odq:Separation, odq:Universality, odq:BallSimilarity, odq:UseInertMedium  ;
     a od:MatrixEntry .
@@ -5117,7 +5117,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.23.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:LossOfMaterial  ;
     od:recommendedPrinciple odq:Separation, odq:BallSimilarity, odq:UseFlexibleEnvelopesAndThinFoils, odq:ApplyCompositeMaterials  ;
     a od:MatrixEntry .
@@ -5345,7 +5345,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.24.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:LossOfInformation  ;
     od:recommendedPrinciple odq:NoPrinciple  ;
     a od:MatrixEntry .
@@ -5573,7 +5573,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.25.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:LossOfTime  ;
     od:recommendedPrinciple odq:LocalQuality, odq:Coupling, odq:TransformationOfHarmfulIntoUseful, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
@@ -5801,7 +5801,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.26.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:QuantityOfMaterial  ;
     od:recommendedPrinciple odq:Separation, odq:Dynamization, odq:TransitionToAnotherDimension, odq:ApplyCompositeMaterials  ;
     a od:MatrixEntry .
@@ -6029,7 +6029,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.27.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:Reliability  ;
     od:recommendedPrinciple odq:NoPrinciple  ;
     a od:MatrixEntry .
@@ -6257,7 +6257,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.28.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:PrecisionOfMeasurements  ;
     od:recommendedPrinciple odq:Conversely, odq:ChangeColorAndTransparency, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
@@ -6485,7 +6485,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.29.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:PrecisionOfManufacture  ;
     od:recommendedPrinciple odq:ExploitationOfMechanicalVibrations, odq:UseFlexibleEnvelopesAndThinFoils  ;
     a od:MatrixEntry .
@@ -6713,7 +6713,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.30.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:ExternalDamagingFactors  ;
     od:recommendedPrinciple odq:ExploitationOfMechanicalVibrations, odq:Mediator, odq:UseFlexibleEnvelopesAndThinFoils, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
@@ -6941,7 +6941,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.31.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:InternalDamagingFactors  ;
     od:recommendedPrinciple odq:CheapEphemeraInsteadOfExpensiveLongevity, odq:ChangePhysicalOrChemicalParameters, odq:UseInertMedium, odq:ApplyCompositeMaterials  ;
     a od:MatrixEntry .
@@ -7169,7 +7169,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.32.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:EaseOfManufacture  ;
     od:recommendedPrinciple odq:Segmentation, odq:Prevention, odq:Conversely  ;
     a od:MatrixEntry .
@@ -7397,7 +7397,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.33.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:EaseOfUse  ;
     od:recommendedPrinciple odq:UseFlexibleEnvelopesAndThinFoils, odq:ChangeColorAndTransparency, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
@@ -7625,7 +7625,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.34.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:EaseOfRepair  ;
     od:recommendedPrinciple odq:Separation, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
@@ -7853,7 +7853,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.35.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:Adaptability  ;
     od:recommendedPrinciple odq:BallSimilarity, odq:UseFlexibleEnvelopesAndThinFoils, odq:ChangePhysicalOrChemicalParameters  ;
     a od:MatrixEntry .
@@ -8081,7 +8081,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.36.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:ComplexityOfConstruction  ;
     od:recommendedPrinciple odq:Separation, odq:TransitionToAnotherDimension, odq:PeriodicEffect, odq:TransformationOfHarmfulIntoUseful  ;
     a od:MatrixEntry .
@@ -8309,7 +8309,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.37.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:ComplexityOfInspectionAndMeasurements  ;
     od:recommendedPrinciple odq:Prevention, odq:TransformationOfHarmfulIntoUseful, odq:UseFlexibleEnvelopesAndThinFoils, odq:UseInertMedium  ;
     a od:MatrixEntry .
@@ -8537,7 +8537,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.38.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:LevelOfAutomation  ;
     od:recommendedPrinciple odq:Segmentation, odq:ExploitationOfMechanicalVibrations  ;
     a od:MatrixEntry .
@@ -8765,7 +8765,7 @@ od:MatrixEntry
     a od:MatrixEntry .
 
 <http://opendiscovery.org/rdf/Matrix/E.39.13>
-    od:decreasingParameter odr:StabilityOfTheObject’sStructure  ;
+    od:decreasingParameter odr:StabilityOfTheObjectsStructure  ;
     od:increasingParameter odr:Productivity  ;
     od:recommendedPrinciple odq:LocalQuality, odq:TransformationOfHarmfulIntoUseful, odq:ChangePhysicalOrChemicalParameters, odq:UseInertMedium  ;
     a od:MatrixEntry .
