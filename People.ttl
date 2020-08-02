@@ -30,6 +30,11 @@ odp:Ageed_S
     a foaf:Person ;
     foaf:name "Sharaf Ageed" .
 
+odp:AguayoTellez_H
+    a foaf:Person ;
+    foaf:affil "ITESM, Mexico" ;
+    foaf:name "Humberto Aguayo Téllez" .
+
 odp:Ahn_HS
     a foaf:Person ;
     foaf:affil "Hyundai Motor Group, South Korea" ;
@@ -145,6 +150,11 @@ odp:Benjaboonyazit_T
     foaf:affil "Thai-Nichi Institute of Technology, Thailand" ;
     foaf:name "Trizit Benjaboonyazit" .
 
+odp:Benmoussa_R
+    a foaf:Person ;
+    foaf:affil "ENSA, Morocco" ;
+    foaf:name "Rachid Benmoussa" .
+
 odp:Berdonosov_VD
     a foaf:Person ;
     foaf:affil "Russia" ;
@@ -190,6 +200,11 @@ odp:Bogatyrev_N
 odp:Boika_S
     a foaf:Person ;
     foaf:name "Siarhei Boika" .
+
+odp:Boko_A
+    a foaf:Person ;
+    foaf:affil "FHB Univ., Ivory Coast" ;
+    foaf:name "Aka Boko" .
 
 odp:Bolotovsky_VN
     a foaf:Person ;
@@ -290,9 +305,14 @@ odp:Chernych_N
     foaf:fullname "Наталья Черных"@ru ;
     foaf:name "Natalya Chernych" .
 
+odp:Chinghatam_T
+    a foaf:Person ;
+    foaf:affil "Kaetsart Univ., Thailand" ;
+    foaf:name "Thongchai Chinghatam" .
+
 odp:Chizhevskaya_NE
     a foaf:Person ;
-    foaf:affil "Преподаватель БГАИ, педагог дополнительного образования «ГУО ЦДОДиМ Виктория» г. Минска, Педагог дополнительного образования"@ru ;
+    foaf:affil "Minsk, Belarus" ;
     foaf:fullname "Наталия Эдуардовна Чижевская"@ru ;
     foaf:homepage <https://www.facebook.com/profile.php?id=100009312245237> ;
     foaf:name "Nataliya Chizhevskaya" .
@@ -348,6 +368,11 @@ odp:Danilovsky_YE
     foaf:fullname "Юрий Эдуардович Даниловский"@ru ;
     foaf:name "Yuri Danilovsky" .
 
+odp:DeCarvalho_MA
+    a foaf:Person ;
+    foaf:affil "UTFPR, Brazil" ;
+    foaf:name "MArco Aurelio De Carvalho" .
+
 odp:Delbressine_F
     a foaf:Person ;
     foaf:affil "Einhoven University of Technology, The Netherlands" ;
@@ -362,6 +387,11 @@ odp:Devojno_IG
     foaf:affil "Minsk, Belarus" ;
     foaf:fullname "Игорь Георгиевич Девойно"@ru ;
     foaf:name "Igor Devojno" .
+
+odp:Diagne_S
+    a foaf:Person ;
+    foaf:affil "Ziguinchor Univ., Senegal" ;
+    foaf:name "Seringe Diagne" .
 
 odp:Dichenko_SA
     a foaf:Person ;
@@ -886,6 +916,11 @@ odp:Kaloshin_NG
     foaf:fullname "Николай Григорьевич Калошин"@ru ;
     foaf:name "Nikolai Kaloshin" .
 
+odp:Kanaan_H
+    a foaf:Person ;
+    foaf:affil "St. Josephs Univ., Lebanon" ;
+    foaf:name "Hadi Kanaan" .
+
 odp:Kaner_VF
     a foaf:Person ;
     foaf:affil "St. Petersburg, Russia" ;
@@ -1211,6 +1246,11 @@ odp:Lee_JY
     foaf:affil "Samsung Electronics, South Korea" ;
     foaf:name "Jun–Young Lee" .
 
+odp:Lee_KW
+    a foaf:Person ;
+    foaf:affil "KPU, South Korea" ;
+    foaf:name "Kyeongwon Lee" .
+
 odp:Lee_SI
     a foaf:Person ;
     foaf:name "Sang-Il Lee" .
@@ -1424,6 +1464,11 @@ odp:Meerovich_MI
     foaf:affil "Ukraina" ;
     foaf:fullname "Марк Иосифович Меерович"@ru ;
     foaf:name "Mark Meerovich" .
+
+odp:MejiaGutierrez_R
+    a foaf:Person ;
+    foaf:affil "Columbia" ;
+    foaf:name "Ricardo Mejía-Gutiérrez" .
 
 odp:Menon_R
     a foaf:Person ;
@@ -1750,6 +1795,11 @@ odp:Rajan_S
 odp:Rantanen_K
     a foaf:Person ;
     foaf:name "K. Rantanen" .
+
+odp:Rausin_B
+    a foaf:Person ;
+    foaf:affil "HELMO, Belgium" ;
+    foaf:name "Bernard Rausin" .
 
 odp:Redkolis_EV
     a foaf:Person ;
@@ -2334,6 +2384,11 @@ odp:Wozniak_M
     a foaf:Person ;
     foaf:affil "University of Gdansk, Poland" ;
     foaf:name "Monika Woźniak" .
+
+odp:Wu_CL
+    a foaf:Person ;
+    foaf:affil "Hebei University, PR China" ;
+    foaf:name "Chunlong Wu" .
 
 odp:Wu_Q
     a foaf:Person ;
