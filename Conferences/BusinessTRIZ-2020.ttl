@@ -104,7 +104,7 @@
     a od:Talk .
 
 :Talk_116
-    dcterms:creator odp:Souchkov_V ;
+    dcterms:creator odp:Souchkov_VV ;
     dcterms:title "Система стандартных изобретательских решений в бизнесе и управлении"@ru, "A system of standard inventive solutions in business and management"@en ;
     a od:Talk .
 

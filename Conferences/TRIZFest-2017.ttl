@@ -41,7 +41,7 @@ dcterms:creator odp:Liu_MY .
 
 :Paper_105 a od:Paper;
  dcterms:title "Application of TRIZ in business systems";
-dcterms:creator odp:Boika_S, odp:Kuryan_A, odp:Ogievich_D . 
+dcterms:creator odp:Boika_S, odp:Kuryan_AG, odp:Ogievich_D . 
 
 :Paper_106 a od:Paper;
  dcterms:title "Application of TRIZ in ultrasonic brazing quality";
@@ -137,7 +137,7 @@ dcterms:creator odp:Savelli_S, odp:Abramov_OY .
 
 :Paper_129 a od:Paper;
  dcterms:title "Online TRIZ training: experience with development and delivery";
-dcterms:creator odp:Souchkov_V . 
+dcterms:creator odp:Souchkov_VV . 
 
 :Paper_130 a od:Paper;
  dcterms:title "Open innovation: TRIZ approach vs. crowd sourcing";
@@ -185,7 +185,7 @@ dcterms:creator odp:Gronauer_B, odp:Naehler_HT .
 
 :Paper_141 a od:Paper;
  dcterms:title "The law of supersystem development";
-dcterms:creator odp:Souchkov_V . 
+dcterms:creator odp:Souchkov_VV . 
 
 :Paper_142 a od:Paper;
  dcterms:title "The identification of contradictions in cliff: an automatized zipper prototype using the TRIZ method with root conflict analysis (RCA+)";
@@ -233,7 +233,7 @@ dcterms:creator odp:Prushinskiy_VO .
 
 :Paper_153 a od:Paper;
  dcterms:title "TRIZ-navigator for business models";
-dcterms:creator odp:Kuryan_A, odp:Rubin_MS . 
+dcterms:creator odp:Kuryan_AG, odp:Rubin_MS . 
 
 :Paper_154 a od:Paper;
  dcterms:title "Using TRIZ-derived ‘voice of the product’ to identify promising market niches";

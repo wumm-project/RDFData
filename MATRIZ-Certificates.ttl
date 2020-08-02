@@ -1344,7 +1344,7 @@ od:CertificateLevel5
 
 <http://opendiscovery.org/rdf/L5.93>
     od:issued "2013-08-03" ;
-    od:owner odp:Souchkov_V ;
+    od:owner odp:Souchkov_VV ;
     a od:CertificateLevel5 ;
     foaf:name "Valeri Souchkov" .
 

@@ -121,7 +121,7 @@ dcterms:creator odp:Savelli_S, odp:Feygenson_ON .
 
 :Paper_125 a od:Paper;
  dcterms:title "Systematic Business Innovation: a Roadmap";
-dcterms:creator odp:Souchkov_V . 
+dcterms:creator odp:Souchkov_VV . 
 
 :Paper_126 a od:Paper;
  dcterms:title "Teaching, Learning and Applying TRIZ at University";

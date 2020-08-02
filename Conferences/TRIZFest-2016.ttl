@@ -29,7 +29,7 @@ dcterms:creator odp:Yu_F, odp:Tan_RH, odp:Zhang_E, odp:Weigang_S .
 
 :Paper_102 a od:Paper;
 dcterms:title "A system of standard inventive solution patterns for business and management problems";
-dcterms:creator odp:Souchkov_V, odp:Roxas_JPB . 
+dcterms:creator odp:Souchkov_VV, odp:Roxas_JPB . 
 
 :Paper_103 a od:Paper;
 dcterms:title "Accelerated TRIZ project execution";

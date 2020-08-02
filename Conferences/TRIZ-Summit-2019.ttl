@@ -87,7 +87,7 @@
     swc:relatedToEvent track:Business ;
     od:urlVideo <https://triz-summit.ru/ru/confer/TDS-2019/video-2019/305846/> ;
     dcterms:abstract "Why TRIZ can be successfully applied to solving business and management problems. Categories of business innovation. Basic TRIZ tools that are used to solve business and management problems."@en, "Почему ТРИЗ можно успешно применять к решению проблем бизнеса и управления. Категории бизнес-инноваций. Основные инструменты ТРИЗ, которые применяются для решения проблем бизнеса и управления."@ru ;
-    dcterms:creator odp:Souchkov_V ;
+    dcterms:creator odp:Souchkov_VV ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/523> ;
     dcterms:title "TRIZ for solving business problems and innovations in business and management"@en, "ТРИЗ для решения бизнес проблем и инноваций в бизнесе и управлении"@ru ;
     a od:Talk .
@@ -234,7 +234,7 @@
     od:urlPaper <http://triz-summit.ru/file.php/id/f304830-file-original.pdf> ;
     od:urlVideo <https://triz-summit.ru/ru/confer/TDS-2019/video-2019/Rubin-Kurian-2019/> ;
     dcterms:abstract "Created in 2017, TRIZ-navigator on business models is based on the analysis of business contradictions. In the development of this work, a table was created to resolve business contradictions, which includes not only business models, but also techniques for solving inventive problems. A description of the development directions of the table and a business navigator on business models is given. It is planned to describe the development lines of business models and their connection to standards for solving inventive problems in business. "@en, "Created in 2017, the analysis of business contradictions. It is a plan of standards for solving inventive problems in business. "@en, "Созданный в 2017 году ТРИЗ-навигатор по бизнес-моделям основан на анализе бизнес-противоречий. В развитие этой работы была создана таблица разрешения бизнес-противоречий, которая включает в себя не только бизнес-модели, но и приемы решения изобретательских задач. Дается описание направлений развития таблицы и бизнес-навигатора по бизнес-моделям. Планируется дать описание линий развития бизнес-моделей и их связь со стандартами на решение изобретательских задач в бизнесе."@ru ;
-    dcterms:creator odp:Kuryan_A, odp:Rubin_MS ;
+    dcterms:creator odp:Kuryan_AG, odp:Rubin_MS ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/581> ;
     dcterms:title "Table of solving business contradictions and its development"@en, "Таблица решения бизнес-противоречий и ее развитие"@ru ;
     a od:Talk .
@@ -328,7 +328,7 @@
     od:urlPaper <http://triz-summit.ru/file.php/id/f304803-file-original.pdf> ;
     od:urlVideo <https://triz-summit.ru/ru/confer/TDS-2019/video-2019/Boiko-Kuriyan-Dusmikeev-2019/> ;
     dcterms:abstract "One of the key problems in IoT solutions is the energy supply of sensors. One of the trends to solve this problem is energy collection in the environment. A report will provide an overview of existing methods to collect energy in the environment. The report will also present the process of developing IoT solutions containing elements of energy collection, as well as the steps of the process where inventive problems are detected and solved. "@en, "Одна из ключевых проблем в IoT решениях - это энергообеспечение датчиков. Один из трендов для решения этой проблемы - сбор энергии в окружающей среде. В докладе будет представлен обзор существующих способов сбора энергии в окружающей среде. В докладе также будет представлен процесс разработки IoT решений, содержащих элементы сбора энергии, а также этапы процесса где происходит обнаружение и решение изобретательских задач."@ru ;
-    dcterms:creator odp:Dusmikeev_A, odp:Kuryan_A ;
+    dcterms:creator odp:Dusmikeev_A, odp:Kuryan_AG ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/603> ;
     dcterms:title "Inventive tasks in IoT (Internet of Things). Collecting energy in the environment"@en, "Изобретательские задачи в IoT (Интернет Вещей). Сбор энергии в окружающей среде"@ru ;
     a od:Talk .
@@ -367,7 +367,7 @@
     od:urlVideo <https://triz-summit.ru/ru/confer/TDS-2019/video-2019/Suchkov-2019-3/> ;
     od:urlPaper <http://triz-summit.ru/file.php/id/f304822-file-original.pdf> ;
     dcterms:abstract "It is well known that one of the major pillars of TRIZ foundations is that technical systems and engineering technologies develop due to certain laws and trends of innovative development (often called evolution of technical systems). Can similar patterns be found in the development of business systems and business services? The paper presents how the trend of transition to the supersystem, specifically a line of monpo-bi-poly evolutions can be applied in the area of innovating business services."@en ;
-    dcterms:creator odp:Souchkov_V ;
+    dcterms:creator odp:Souchkov_VV ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/608> ;
     dcterms:title "Service Innovation: Moving to a super-system"@en, "Инновации сервисов: Переход в надсистему"@ru ;
     a od:Talk .
@@ -424,7 +424,7 @@
     od:urlPaper <http://triz-summit.ru/file.php/id/f304808-file-original.pdf> ;
     od:urlVideo <https://triz-summit.ru/ru/confer/TDS-2019/video-2019/Kurian-Kucherayvyi-Suchkov-2019/> ;
     dcterms:abstract "Today, the development and transformation of TRIZ continues in the following directions: <br/> Creating new tools and improving existing concepts of TRIZ. Integration of TRIZ with other areas of knowledge (for example, design thinking, product development and management, lean manufacturing, development of business systems). In the course of this integration, it is necessary to combine concepts and models of TRIZ with concepts belonging to other areas. Development of TRIZ education systems and assessment of knowledge. Due to their limited content, existing dictionaries and glossaries on TRIZ terminology do not provide much help with the development of TRIZ in the above described areas. Is the ontology of TRIZ able to eliminate the inadequacy of these dictionaries and glossaries in order to improve the development process of TRIZ by establishing relationships between concepts and models of TRIZ? <br/> This report presents an approach aimed at the development, application and support of the TRIZ ontology. "@en, "На сегодняшний день, разработка и преображение ТРИЗ продолжаются в следующих направлениях:<br/>Создание новых инструментов и улучшение существующих концепций ТРИЗ. Интеграция ТРИЗ с другими областями знаний (например, проектировочное мышление, разработка и управление продукцией, бережливое производство, разработка бизнес-систем). В ходе данной интеграции появляется необходимость совмещения концепций и моделей ТРИЗ с концепциями, принадлежащими к другим областям. Разработка систем Образования ТРИЗ и оценка знаний и навыков ТРИЗ.<br/>По причине их ограниченного содержания, существующие словари и глоссарии по терминологии ТРИЗ не оказывают большой помощи с развитием ТРИЗ в вышеописанных направлениях. Способна ли онтология ТРИЗ устранить неполноценность данных словарей и глоссариев, чтобы улучшить процесс развития ТРИЗ путем установки взаимосвязей между концепциями и моделями ТРИЗ?<br/>Данный отчет представляет подход, направленный на развитие, применение и поддержку онтологии ТРИЗ."@ru ;
-    dcterms:creator odp:Kucharavy_D, odp:Kuryan_A, odp:Souchkov_V ;
+    dcterms:creator odp:Kucharavy_D, odp:Kuryan_AG, odp:Souchkov_VV ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/615> ;
     dcterms:title "TRIZ Ontology"@en, "Онтология ТРИЗ"@ru ;
     a od:Talk .
@@ -537,7 +537,7 @@
 :Talk_859
     swc:relatedToEvent track:IT ;
     od:urlVideo <https://triz-summit.ru/ru/confer/TDS-2019/video-2019/Panel-2019/> ;
-    dcterms:creator odp:Han_B, odp:Kozhemyako_A, odp:Mann_D, odp:Souchkov_V ;
+    dcterms:creator odp:Han_B, odp:Kozhemyako_A, odp:Mann_D, odp:Souchkov_VV ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/859> ;
     dcterms:title "Panel discussion"@en, "Панельная дискуссия"@ru ;
     a od:Talk .
