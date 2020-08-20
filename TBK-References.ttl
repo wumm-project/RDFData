@@ -88,12 +88,12 @@
     dcterms:title "Фантограммы: (Упражнения по развитию воображения)"@ru ;
     a od:Reference .
 
-<http://opendiscovery.org/rdf/BIB/Altshuller_1973_29f1eafaa2889cf33b2ed664a1597754>
+<http://opendiscovery.org/rdf/BIB/Altshuller_1969_29f1eafaa2889cf33b2ed664a1597754>
     od:hatVerweis odv2:B02, odv2:D07, odv2:F19 ;
     od:relatedLinks <http://www.altshuller.ru/triz/levels.asp>, <http://www.altshuller.ru/triz/technique1.asp> ;
-    dc:publisher "2-е изд. — М: Московский рабочий, 1973"@ru ;
+    dc:publisher "1-е изд. — М: Московский рабочий, 1969. 2-е изд. — М: Московский рабочий, 1973"@ru ;
     dcterms:creator odp:Altshuller_GS ;
-    dcterms:issued "1973" ;
+    dcterms:issued "1969" ;
     dcterms:title "Алгоритм изобретения"@ru ;
     a od:Reference .
 

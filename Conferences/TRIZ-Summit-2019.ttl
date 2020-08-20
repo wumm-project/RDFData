@@ -453,7 +453,7 @@
     od:urlPaper <http://triz-summit.ru/file.php/id/f304839-file-original.pdf> ;
     od:urlVideo <https://triz-summit.ru/ru/confer/TDS-2019/video-2019/Nikitin-2019/> ;
     dcterms:abstract "The paper presents information on sufields and their types, as well as rules for transforming sufields based on standards for solving inventive problems (by G. S. Altshuller and his students). A feature of the work is the use of sufield formulas to describe undesirable effects and ways to eliminate them. "@en, "В работе представлены сведения о веполях и их видах, а также правила преобразования веполей составленные на основе стандартов на решение изобретательских задач (автор Г.С. Альтшуллер и его ученики). Особенностью работы является использование вепольных формул для описания нежелательных эффектов и способов их устранения."@ru ;
-    dcterms:creator odp:Nikitin_V ;
+    dcterms:creator odp:Nikitin_VN ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/730> ;
     dcterms:title "SuField transformation rules"@en, "Правила преобразования веполей"@ru ;
     a od:Talk .

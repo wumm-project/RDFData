@@ -56,10 +56,10 @@ odp:Aminov_RB
     foaf:fullname "Р.Б. Аминов"@ru ;
     foaf:name "R.B. Aminov" .
 
-odp:Akkubekov_P
+odp:Akkubekov_PA
     a foaf:Person ;
     foaf:affil "Krasnoyarsk, Russia" ;
-    foaf:fullname "Павел Аккубеков"@ru ;
+    foaf:fullname "Павел А. Аккубеков"@ru ;
     foaf:name "Pavel Akkubekov" .
 
 odp:Amnuel_PR
@@ -277,11 +277,11 @@ odp:Burov_LG
     foaf:fullname "Лев Григорьевич Буров"@ru ;
     foaf:name "Leo Burov" .
 
-odp:Bystritskiy_A
+odp:Bystritskiy_AA
     a foaf:Person ;
     foaf:affil "Irkutsk, Russia" ;
-    foaf:fullname "Александр Быстрицкий"@ru ;
-    foaf:name "Alexander Bystritskiy" .
+    foaf:fullname "Александр Анатольевич Быстрицкий"@ru ;
+    foaf:name "Alexander A: Bystritskiy" .
 
 odp:Cascini_G
     a foaf:Person ;
@@ -489,6 +489,11 @@ odp:Faller_I
 odp:Fan_J
     a foaf:Person ;
     foaf:name "Jiang Fan" .
+
+odp:Farber_B
+    a foaf:Person ;
+    foaf:affil "TRIZBiopharma International, New York, USA" ;
+    foaf:name "Boris Farber" .
 
 odp:Fedosov_YI
     a foaf:Person ;
@@ -1000,6 +1005,11 @@ odp:Khovanov_S
     a foaf:Person ;
     foaf:name "Sergej Khovanov" .
 
+odp:Khronik_A
+    a foaf:Person ;
+    foaf:fullname "Алексей Хроник"@ru ;
+    foaf:name "Aleksej Khronik" .
+
 odp:Kiesel_M
     a foaf:Person ;
     foaf:affil "Siemens AG, Germany" ;
@@ -1133,6 +1143,11 @@ odp:Kravzov_SP
     foaf:affil "Kasakhstan" ;
     foaf:fullname "Сергей Петрович Кравцов"@ru ;
     foaf:name "Sergei Kravzov" .
+
+odp:Krayev_OA
+    a foaf:Person ;
+    foaf:fullname "Олег Краев"@ru ;
+    foaf:name "Oleg A. Krayev" .
 
 odp:Kriachko_VB
     a foaf:Person ;
@@ -1348,6 +1363,11 @@ odp:Lok_A
     a foaf:Person ;
     foaf:affil "China Institute for Innovation, China" ;
     foaf:name "Arthur Lok" .
+
+odp:Lopatin_S
+    a foaf:Person ;
+    foaf:fullname "Сергей Лопатин"@ru ;
+    foaf:name "Sergej Lopatin" .
 
 odp:Lovich_A
     a foaf:Person ;
@@ -1589,11 +1609,11 @@ odp:Nikashin_AI
     foaf:fullname "Александр Иванович Никашин"@ru ;
     foaf:name "Aleksander Nikashin" .
 
-odp:Nikitin_V
+odp:Nikitin_VN
     a foaf:Person ;
     foaf:affil "Irkutsk, Russia" ;
-    foaf:fullname "Владимир Никитин"@ru ;
-    foaf:name "Vladimir Nikitin" .
+    foaf:fullname "Владимир Николаевич Никитин"@ru ;
+    foaf:name "Vladimir N. Nikitin" .
 
 odp:Nilov_AP
     a foaf:Person ;
@@ -1901,7 +1921,7 @@ odp:Scheers_J
 
 odp:Schinnikov_A
     a foaf:Person ;
-    foaf:affil "Директор методологии, ТРИЗ центр инновационного лидерства и конфликторинга Саратов"@ru ;
+    foaf:affil "Saratov, Russia" ;
     foaf:fullname "Алексей Щинников"@ru ;
     foaf:homepage <https://www.facebook.com/ashinnikov> ;
     foaf:name "Alexey Schinnikov" .

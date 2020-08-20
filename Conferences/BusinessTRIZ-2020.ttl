@@ -35,7 +35,7 @@
 
 :Talk_103
     dcterms:creator odp:Svobodov_V ;
-    dcterms:title "Множественность решений на выходе - ДОБРО или ЗЛО?"@ru, "Plenty of solutions at the output - Good or Evil?"@en ;
+    dcterms:title "Множественность решений на выходе - ДОБРО или ЗЛО?"@ru, "Plenty of solutions at the output - Good or Evil?"@en ; 
     a od:Talk .
 
 :Talk_104
@@ -61,54 +61,64 @@
 
 :Talk_108
     dcterms:creator odp:Pokalo_E ;
+    od:urlVideo <https://www.youtube.com/watch?v=dpw8M-X-aYI> ;
     dcterms:title "Особенности и опыт организации изучения ТРИЗ в онлайн-формате"@ru, "Features and experience of organizing TRIZ trainings in online format"@en ;
     a od:Talk .
 
 :Talk_109
-    dcterms:creator odp:Bystritskiy_A, odp:Nikitin_V ;
-    od:presentedBy odp:Bystritskiy_A ;
+    dcterms:creator odp:Bystritskiy_AA, odp:Nikitin_VN ;
+    od:presentedBy odp:Bystritskiy_AA ;
+    od:urlVideo <https://www.youtube.com/watch?v=HMMjgtSwVwE> ;
     dcterms:title "Методика формулирования технического задания на модернизацию бизнеса"@ru, "Methodology for formulating technical tasks of business modernization"@en ;
     a od:Talk .
 
 :Talk_110
     dcterms:creator odp:Kozhemyako_A ;
+    od:urlVideo <https://www.youtube.com/watch?v=2UdgZTf9Keg> ;
     dcterms:title "Цели и способы формулирования противоречий в организационно-управленческих задачах"@ru, "Objectives and ways to formulate contradictions in organizational and management tasks"@en ;
     a od:Talk .
 
 :Talk_111
     dcterms:creator odp:Domkin_KI, odp:Trostyanski_A ;
     od:presentedBy odp:Domkin_KI ;
+    od:urlVideo <https://www.youtube.com/watch?v=a9k_uEa4-o4> ;
     dcterms:title "Применение инструментов ТРИЗ для противодействия угроз работе коммерческих сетей"@ru, "Application of TRIZ tools to counter threats to commercial networks"@en ;
     a od:Talk .
 
 :Talk_112
     dcterms:creator odp:Blagich_A ;
+    od:urlVideo <https://www.youtube.com/watch?v=upYK0oswgU0> ;
     dcterms:title "Опыт продвижения ТРИЗ: что точно не стоит делать"@ru, "Experience of TRIZ promotion: what should be avoided in any case"@en ;
     a od:Talk .
 
 :Talk_113
     dcterms:creator odp:Petrov_VM ;
+    od:urlVideo <https://www.youtube.com/watch?v=IjZiAo7BDb4> ;
     dcterms:title "Управления инновациями с позиций ТРИЗ"@ru, "Innovation management from the perspective of TRIZ"@en ;
     a od:Talk .
 
 :Talk_114
     dcterms:creator odp:Domkin_KI, odp:Shpakovsky_NA ;
     od:presentedBy odp:Domkin_KI ;
+    od:urlVideo <https://www.youtube.com/watch?v=WeXVKZhHh_Y> ;
     dcterms:title "Особенности применения АИПС к бизнес-задачам"@ru, "Features of AIPS application to business tasks"@en ;
     a od:Talk .
 
 :Talk_115
     dcterms:creator odp:Domkin_KI, odp:Gerasimov_OM, odp:Severinets_GA ;
     od:presentedBy odp:Domkin_KI ;
+    od:urlVideo <https://www.youtube.com/watch?v=uQ854Sl_Et0> ;
     dcterms:title "Определение направлений развития продуктов по ключевым потребительским ценностям (MPV)"@ru, "Identifying product development trends by key consumer values (MPV)"@en ;
     a od:Talk .
 
 :Talk_116
     dcterms:creator odp:Souchkov_VV ;
+    od:urlVideo <https://www.youtube.com/watch?v=eSwtxfZi-mc> ;
     dcterms:title "Система стандартных изобретательских решений в бизнесе и управлении"@ru, "A system of standard inventive solutions in business and management"@en ;
     a od:Talk .
 
 :Talk_117
+    od:urlVideo <https://www.youtube.com/watch?v=qlX3UMMR56I> ;
     dcterms:creator odp:Svobodov_V ;
     dcterms:title "Основные ошибки в применении инструментов при освоении ТРИЗ"@ru, "Main mistakes in using tools when mastering TRIZ"@en ;
     a od:Talk .
