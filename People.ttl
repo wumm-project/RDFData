@@ -199,7 +199,7 @@ odp:Bogatyrev_N
 
 odp:Boika_S
     a foaf:Person ;
-    foaf:name "Siarhei Boika" .
+    foaf:name "Sergej Boika" .
 
 odp:Boko_A
     a foaf:Person ;

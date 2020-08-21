@@ -211,6 +211,7 @@
     swc:relatedToEvent track:Business ;
     dcterms:creator odp:Domkin_KI, odp:Eckardt_O ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4482> ;
+    od:urlVideo <https://www.youtube.com/watch?v=IXvR3iX5DQ4>;
     dcterms:title "Diversionary approach in non-technical areas. Application examples"@en, "Der Diversionsansatz in nichttechnischen Bereichen. Anwendungsbeispiele"@de, "Диверсионный подход в не технических областях. Примеры применения"@ru ;
     a od:Talk .
 
@@ -218,6 +219,7 @@
     swc:relatedToEvent track:IT ;
     dcterms:abstract "АРИП (алгоритм решения инженерных проблем) Г.И. Иванова – один из вариантов развития АРИЗ Г.С. Альтшуллера для производственно-технологических задач. Эксперт расскажет, почему возникла необходимость создания такого алгоритма, в чем его особенности и какова логика в его основе. А после представит выводы из практики применения АРИП для решения более 200 производственных задач и опишет дальнейшие шаги развития инструмента. "@ru ;
     dcterms:creator odp:Nikitin_VN, odp:Bystritskiy_AA ;
+    od:urlVideo <https://www.youtube.com/watch?v=uUC6c8F8wfg>;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4332> ;
     od:urlPaper <https://r1.nubex.ru/s828-c8b/f3135_73/Nikitin-TDS-2020-ARIP.pdf> ;
     dcterms:title "Geschichte der Erstellung, Logik und Praxis der ARIP-Anwendung"@de, "History of creation, logic and practice of ARIP application"@en, "История создания, логика и практика применения АРИП"@ru ;
@@ -227,6 +229,7 @@
     swc:relatedToEvent track:IT ;
     dcterms:abstract "Исходный пункт - дискуссия об одной из тенденций развития технических систем, которая играла роль в Кубке ТРИЗ 2020 - закон, позже переформулированный как тренд, вытеснения человека из ТС. В своём докладе я покажу, почему действует противоположный этому закону тренд \"ТС, из которой вытеснен человек, постоянный источник потенциальной опасности\". Гаррисбург и Чернобыль только верхушка айсберга действия этого тренда, четыре захватывающих авиакатастрофа (MH 217 над Украиной, UA 752 в Иране, две аварии Boeing 737 Max) в последнее время укажут на общие проблемы, которые очень односторонне рассматриваются в западной пропаганде. Обе тенденции противоречат друг другу - я буду использовать методику ТРИЗ для анализа этого противоречия в самой ТРИЗ. "@ru ;
     dcterms:creator odp:Graebe_HG ;
+    od:urlVideo <https://www.youtube.com/watch?v=uUC6c8F8wfg>;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4334> ;
     od:urlPaper <https://r1.nubex.ru/s828-c8b/f3136_21/Gr%C3%A4be-TDS-2020-Human_and_sistems.pdf> ;
     dcterms:title "Der Mensch und seine technischen Systeme"@de, "Man and his technical systems"@en, "Человек и его технические системы"@ru ;
@@ -236,6 +239,7 @@
     swc:relatedToEvent track:IT ;
     dcterms:abstract "В докладе представлены результаты исследовательской работы, обобщающей понятие пустоты и вакуума для любой системы: материальной или нематериальной. Вводится понятие системного вакуума для различных иерархических уровней систем: физический вакуум, химический вакуум, биологический вакуум и, технический вакуум и т.д. Вводится понятие модели обобщенного принципа действия для любых систем как совокупность функций, необходимых для реализации того или иного действия над объектами. Описаны этапы развития обобщенного принципа действия и роль пустоты при его реализации. Вводится понятие пустоты как идеального элемента в модели функции. "@ru ;
     dcterms:creator odp:Misyuchenko_I, odp:Rubin_MS ;
+    od:urlVideo <https://www.youtube.com/watch?v=uUC6c8F8wfg>;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4335> ;
     od:urlPaper <https://r1.nubex.ru/s828-c8b/f3133_3b/Rubin-TDS-2020.%20vakuum_IM10.pdf> ;
     dcterms:title "System vacuum and functions in TRIZ and evolutionary science"@en, "Systemvakuum und Funktionen in der TRIZ und Evolutionswissenschaft"@de, "Системный вакуум и функции в ТРИЗ и эволюциоведении"@ru ;
@@ -248,6 +252,7 @@
 В докладе эксперты расскажут о закономерностях развития городов, эволюции их функций и как в процессе всех изменений возникали и решались изобретательские задачи. """@ru ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4488> ;
     od:urlPaper <https://r1.nubex.ru/s828-c8b/f3180_7b/TDS-2020.%20%D0%91%D0%BE%D0%B9%D0%BA%D0%BE,%20%D0%9A%D1%83%D1%80%D1%8C%D1%8F%D0%BD.%20%D0%AD%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D1%8F%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%BE%D0%B2.pdf> ;
+    od:urlVideo <https://www.youtube.com/watch?v=uUC6c8F8wfg>;
     dcterms:title "TRIZ in SmartCity-Systemen"@de, "TRIZ in SmartCity systems"@en, "ТРИЗ в системах SmartCity"@ru ;
     a od:Talk .
 
@@ -256,13 +261,16 @@
     dcterms:creator odp:Tjukov_AP ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4336> ;
     od:urlPaper <https://r1.nubex.ru/s828-c8b/f3137_9d/Tyukov-TDS-2020.pdf> ;
+    od:urlVideo <https://www.youtube.com/watch?v=uUC6c8F8wfg>;
     dcterms:title "Anwendung von TRIZ beim Entwurf der Architektur eines Steuerungssystems auf der Basis von Daten im Energiesektor"@de, "Application of TRIZ in the design of data-based control system architecture in the energy sector"@en, "Применение ТРИЗ при проектировании архитектуры системы управления на основе данных в энергетике"@ru ;
     a od:Talk .
 
 :Talk_306
     swc:relatedToEvent track:IT ; 
     dcterms:creator odp:Kuryan_AG, odp:Rubin_MS ;
+    od:presentedBy odp:Kuryan_AG ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/5393> ;
+    od:urlVideo <https://www.youtube.com/watch?v=uUC6c8F8wfg>;
     dcterms:title "TRIZ in IT"@en, "TRIZ in der IT"@de, "ТРИЗ в ИТ"@ru ;
     a od:Talk .
 
@@ -278,8 +286,10 @@
 :Talk_307
     swc:relatedToEvent track:IT ;
     dcterms:creator odp:Rubin_MS, odp:Akkubekov_PA, odp:Khronik_A, odp:Krayev_OA, odp:Lopatin_S, odp:Shchedrin_N; 
+    od:presentedBy odp:Rubin_MS ; 
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4353> ;
     od:urlPaper <https://r1.nubex.ru/s828-c8b/f3134_a7/Rubin-TDS-2020-RUSAL.pdf> ;
+    od:urlVideo <https://www.youtube.com/watch?v=uUC6c8F8wfg>;
     dcterms:title "Development of TRIZ infrastructure at industrial enterprises. Experience of RUSAL"@en, "Entwicklung der TRIZ-Infrastruktur in Industrieunternehmen. Erfahrung von RUSAL"@de, "Развитие инфраструктуры ТРИЗ на промышленных предприятиях. Опыт РУСАЛ"@ru ;
     a od:Talk .
 
@@ -289,6 +299,7 @@
     dcterms:creator odp:Akkubekov_PA, odp:Krayev_OA ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4339> ;
     od:urlPaper <https://r1.nubex.ru/s828-c8b/f3138_d5/Akkubekov-TDS-2020-metallurgy.pdf> ;
+    od:urlVideo <https://www.youtube.com/watch?v=uUC6c8F8wfg>;
     dcterms:title "Erfahrung mit der Verwendung von TRIZ in der Metallurgie am Beispiel der Steigerung der Effizienz von Homogenisierungsöfen"@de, "Experience of using TRIZ in metallurgy by the example of increasing the efficiency of homogenization furnaces"@en, "Опыт применения ТРИЗ в металлургии на примере повышения эффективности работы печей гомогенизации"@ru ;
     a od:Talk .
 
@@ -298,15 +309,18 @@
     dcterms:creator odp:Petrov_VM ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4442> ;
     od:urlPaper <https://r1.nubex.ru/s828-c8b/f3139_da/Petrov-TDS-2020-regularities.pdf> ;
+    od:urlVideo <https://www.youtube.com/watch?v=uUC6c8F8wfg>;
     dcterms:title "Gesetze der Entwicklung künstlicher Systeme"@de, "Laws of Development of Artificial Systems"@en, "Закономерности развития искусственных систем"@ru ;
     a od:Talk .
 
 :Talk_310
     swc:relatedToEvent track:IT ;
     dcterms:abstract "Авторы на конкретных примерах покажут возможность применения инструментов ТРИЗ при создании одежды. "@ru ;
-    dcterms:creator odp:Petrov_VM ;
+    dcterms:creator odp:Petrov_VM, odp:Solodkina_E ;
+    od:presentedBy odp:Solodkina_E ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4341> ;
     od:urlPaper <https://r1.nubex.ru/s828-c8b/f3152_cc/Petrov-TDS-2020-fashion-updated.pdf> ;
+    od:urlVideo <https://www.youtube.com/watch?v=uUC6c8F8wfg>;
     dcterms:title "TRIZ: Innovationen in der Mode"@de, "TRIZ: Innovations in Fashion"@en, "ТРИЗ: Инновации в моде"@ru ;
     a od:Talk .
 
@@ -316,6 +330,7 @@
     dcterms:creator odp:Skuratovich_AI ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4340> ;
     od:urlPaper <https://r1.nubex.ru/s828-c8b/f3140_05/Skuratovich-TDS-2020-solving_a_problem.pdf> ;
+    od:urlVideo <https://www.youtube.com/watch?v=uUC6c8F8wfg>;
     dcterms:title "Problemlösen mit ARIZ-85C, Wege zur Lösungsidee"@de, "Solving problems with ARIZ-85C, a way to the idea of ​​a solution"@en, "Решение задачи с помощью АРИЗ-85В, способ выхода на идею решения"@ru ;
     a od:Talk .
 
@@ -325,6 +340,7 @@
     dcterms:creator odp:Farber_B ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4489> ;
     od:urlPaper <https://r1.nubex.ru/s828-c8b/f3166_e0/Farber-TDS-2020-synergy.pdf> ;
+    od:urlVideo <https://www.youtube.com/watch?v=sBBleaqUzFc> ; 
     dcterms:title "Synergische Kombination von S-Kurve und Übergang zu einem Obersystem für Bakterien mit multipler Arzneimittelresistenz"@de, "Synergetic combination of S-curve and transition to a supersystem for bacteria with multiple drug resistance"@en, "Синергетическая комбинации S-образной кривой и перехода в надсистему для бактерий с множественной лекарственной устойчивостью"@ru ;
     a od:Talk .
 
@@ -333,6 +349,7 @@
     dcterms:creator odp:Aminov_RB ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4348> ;
     od:urlPaper <https://r1.nubex.ru/s828-c8b/f3173_a6/Aminov-TDS-2020.pdf> ;
+    od:urlVideo <https://www.youtube.com/watch?v=sBBleaqUzFc> ; 
     dcterms:title "Vorschlag eines einheitlichen Prozesses zur Lösung erfinderischer Probleme"@de, "Proposal of a unified process for solving inventive problems"@en, "Предположение о едином процессе решения изобретательских задач"@ru ;
     a od:Talk .
 
