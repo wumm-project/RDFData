@@ -5,6 +5,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix org: <http://www.w3.org/ns/org#> .
 @prefix odp: <http://opendiscovery.org/rdf/Person/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
@@ -27,6 +28,11 @@ od:CertificateLevel5
     a od:MATRIZCertificate ;
     rdfs:label "MATRIZ Certificate Level 5" .
 
+od:TRIZMasterCouncil
+    a org:Organization ;
+    org:hasSite <https://triz-summit.ru/certif/master> ; 
+    rdfs:label "International Cuncil of TRIZ Masters"@en, "Международный Совет Мастеров ТРИЗ"@ru .
+
 <http://opendiscovery.org/rdf/Certificate/L4.1>
     od:issued "2000-01" ;
     od:owner odp:Kozhevnikova_LA ;
@@ -47,9 +53,9 @@ od:CertificateLevel5
 
 <http://opendiscovery.org/rdf/Certificate/L4.101>
     od:issued "2012-07" ;
-    od:owner odp:Bystritskiy_A ;
+    od:owner odp:Bystritsky_A ;
     a od:CertificateLevel4 ;
-    foaf:name "Alexander Bystritskiy" .
+    foaf:name "Alexander Bystritsky" .
 
 <http://opendiscovery.org/rdf/Certificate/L4.102>
     od:issued "2012-07" ;
@@ -793,6 +799,7 @@ od:CertificateLevel5
     od:issued "1998-09-27" ;
     od:owner odp:Amnuel_PR ;
     a od:CertificateLevel5 ;
+    org:memberOf od:TRIZMasterCouncil ; 
     foaf:name "Amnuel Pesakh" .
 
 <http://opendiscovery.org/rdf/Certificate/L5.10>
@@ -877,6 +884,7 @@ od:CertificateLevel5
     od:issued "1998-09-27" ;
     od:owner odp:Gafitulin_MS ;
     a od:CertificateLevel5 ;
+    org:memberOf od:TRIZMasterCouncil ; 
     foaf:name "Marat Gafitulin" .
 
 <http://opendiscovery.org/rdf/Certificate/L5.15>
@@ -917,9 +925,10 @@ od:CertificateLevel5
 
 <http://opendiscovery.org/rdf/Certificate/L5.22>
     od:issued "1998-09-27" ;
-    od:owner odp:Kriachko_VB ;
+    od:owner odp:Kryachko_VB ;
     a od:CertificateLevel5 ;
-    foaf:name "Valentina Kriachko" .
+    org:memberOf od:TRIZMasterCouncil ; 
+    foaf:name "Valentina Kryachko" .
 
 <http://opendiscovery.org/rdf/Certificate/L5.23>
     od:issued "1998-09-27" ;
@@ -1027,6 +1036,7 @@ od:CertificateLevel5
     od:issued "1998-09-27" ;
     od:owner odp:Bukhman_IB ;
     a od:CertificateLevel5 ;
+    org:memberOf od:TRIZMasterCouncil ; 
     foaf:name "Isak Bukhman" .
 
 <http://opendiscovery.org/rdf/Certificate/L5.40>
@@ -1051,12 +1061,14 @@ od:CertificateLevel5
     od:issued "1998-09-27" ;
     od:owner odp:Petrov_VM ;
     a od:CertificateLevel5 ;
+    org:memberOf od:TRIZMasterCouncil ; 
     foaf:name "Vladimir Petrov" .
 
 <http://opendiscovery.org/rdf/Certificate/L5.44>
     od:issued "1998-09-27" ;
     od:owner odp:Rubin_MS ;
     a od:CertificateLevel5 ;
+    org:memberOf od:TRIZMasterCouncil ; 
     foaf:name "Mikhail Rubin" .
 
 <http://opendiscovery.org/rdf/Certificate/L5.45>
@@ -1069,18 +1081,21 @@ od:CertificateLevel5
     od:issued "1998-09-27" ;
     od:owner odp:Salamatov_YP ;
     a od:CertificateLevel5 ;
+    org:memberOf od:TRIZMasterCouncil ; 
     foaf:name "Yuri Salamatov" .
 
 <http://opendiscovery.org/rdf/Certificate/L5.47>
     od:issued "1998-09-27" ;
     od:owner odp:Sibiryakov_VG ;
     a od:CertificateLevel5 ;
+    org:memberOf od:TRIZMasterCouncil ; 
     foaf:name "Vissarion Sibiryakov" .
 
 <http://opendiscovery.org/rdf/Certificate/L5.48>
     od:issued "1998-09-27" ;
     od:owner odp:Selyutsky_AB ;
     a od:CertificateLevel5 ;
+    org:memberOf od:TRIZMasterCouncil ; 
     foaf:name "Alexander Selyutsky" .
 
 <http://opendiscovery.org/rdf/Certificate/L5.49>
@@ -1105,6 +1120,7 @@ od:CertificateLevel5
     od:issued "1998-09-27" ;
     od:owner odp:Stupniker_YI ;
     a od:CertificateLevel5 ;
+    org:memberOf od:TRIZMasterCouncil ; 
     foaf:name "Yuri Stupniker" .
 
 <http://opendiscovery.org/rdf/Certificate/L5.53>
@@ -1171,6 +1187,7 @@ od:CertificateLevel5
     od:issued "1998-09-27" ;
     od:owner odp:Shusterman_MN ;
     a od:CertificateLevel5 ;
+    org:memberOf od:TRIZMasterCouncil ; 
     foaf:name "Mikhail Shusterman" .
 
 <http://opendiscovery.org/rdf/Certificate/L5.65>
@@ -1197,6 +1214,7 @@ od:CertificateLevel5
 <http://opendiscovery.org/rdf/Certificate/L5.69>
     od:owner odp:Shpakovsky_NA ;
     a od:CertificateLevel5 ;
+    org:memberOf od:TRIZMasterCouncil ; 
     foaf:name "Nikolay Shpakovsky" .
 
 <http://opendiscovery.org/rdf/Certificate/L5.7>
@@ -1238,6 +1256,7 @@ od:CertificateLevel5
 <http://opendiscovery.org/rdf/Certificate/L5.76>
     od:owner odp:Gerasimov_OM ;
     a od:CertificateLevel5 ;
+    org:memberOf od:TRIZMasterCouncil ; 
     foaf:name "Oleg Gerasimov" .
 
 <http://opendiscovery.org/rdf/Certificate/L5.77>
@@ -1253,6 +1272,7 @@ od:CertificateLevel5
 <http://opendiscovery.org/rdf/Certificate/L5.79>
     od:owner odp:Logvinov_SA ;
     a od:CertificateLevel5 ;
+    org:memberOf od:TRIZMasterCouncil ; 
     foaf:name "Sergei Logvinov" .
 
 <http://opendiscovery.org/rdf/Certificate/L5.8>
@@ -1277,6 +1297,7 @@ od:CertificateLevel5
     od:issued "2012-05-28" ;
     od:owner odp:Goldovsky_BI ;
     a od:CertificateLevel5 ;
+    org:memberOf od:TRIZMasterCouncil ; 
     foaf:name "Boris Goldovsky" .
 
 <http://opendiscovery.org/rdf/Certificate/L5.83>
@@ -1332,8 +1353,9 @@ od:CertificateLevel5
 
 <http://opendiscovery.org/rdf/Certificate/L5.91>
     od:issued "2013-08-03" ;
-    od:owner odp:Minaker_V ;
+    od:owner odp:Minaker_VE ;
     a od:CertificateLevel5 ;
+    org:memberOf od:TRIZMasterCouncil ; 
     foaf:name "Viktor Minaker" .
 
 <http://opendiscovery.org/rdf/Certificate/L5.92>
@@ -1352,6 +1374,7 @@ od:CertificateLevel5
     od:issued "2013-08-03" ;
     od:owner odp:Rubina_NV ;
     a od:CertificateLevel5 ;
+    org:memberOf od:TRIZMasterCouncil ; 
     foaf:name "Natalja Rubina" .
 
 <http://opendiscovery.org/rdf/Certificate/L5.95>
@@ -1376,6 +1399,7 @@ od:CertificateLevel5
     od:issued "2014-09-06" ;
     od:owner odp:Severinets_GA ;
     a od:CertificateLevel5 ;
+    org:memberOf od:TRIZMasterCouncil ; 
     foaf:name "Georgi Severinets" .
 
 <http://opendiscovery.org/rdf/Certificate/L5.99>
@@ -1384,3 +1408,9 @@ od:CertificateLevel5
     a od:CertificateLevel5 ;
     foaf:name "Michael Gershman" .
 
+<http://opendiscovery.org/rdf/Certificate/L5.001-2019>
+    od:issued "2019" ;
+    od:owner odp:Farber_BS ;
+    a od:CertificateLevel5 ;
+    org:memberOf od:TRIZMasterCouncil ; 
+    foaf:name "Boris S. Farber" .

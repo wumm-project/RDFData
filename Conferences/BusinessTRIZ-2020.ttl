@@ -44,8 +44,8 @@
     a od:Talk .
 
 :Talk_105
-    dcterms:creator odp:Chernych_N, odp:Lukash_A, odp:Orlyanskaya_A, odp:Tjukov_AP ;
-    od:presentedBy odp:Tjukov_AP ;
+    dcterms:creator odp:Chernych_N, odp:Lukash_A, odp:Orlyanskaya_A, odp:Tyukov_AP ;
+    od:presentedBy odp:Tyukov_AP ;
     dcterms:title "Опыт выполнения проекта по повышению производительности труда на сельскохозяйственном предприятии"@ru, "Experience in implementing a project to increase productivity in an agricultural enterprise"@en ;
     a od:Talk .
 
@@ -66,8 +66,8 @@
     a od:Talk .
 
 :Talk_109
-    dcterms:creator odp:Bystritskiy_AA, odp:Nikitin_VN ;
-    od:presentedBy odp:Bystritskiy_AA ;
+    dcterms:creator odp:Bystritsky_AA, odp:Nikitin_VN ;
+    od:presentedBy odp:Bystritsky_AA ;
     od:urlVideo <https://www.youtube.com/watch?v=HMMjgtSwVwE> ;
     dcterms:title "Методика формулирования технического задания на модернизацию бизнеса"@ru, "Methodology for formulating technical tasks of business modernization"@en ;
     a od:Talk .

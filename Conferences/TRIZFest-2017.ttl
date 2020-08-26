@@ -193,7 +193,7 @@ dcterms:creator odp:Baharom_MZ, odp:Delbressine_F, odp:Toeters_M, odp:Feijs_L .
 
 :Paper_143 a od:Paper;
  dcterms:title "“To beat the market”, or the economic rationale for using TRIZ-based inventions";
-dcterms:creator odp:Bakhturin_D . 
+dcterms:creator odp:Bakhturin_DA . 
 
 :Paper_144 a od:Paper;
  dcterms:title "The study of innovation and improvements of the GD-K77 riken singlepoint type gas detector by applying TRIZ";

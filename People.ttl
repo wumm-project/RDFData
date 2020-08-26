@@ -1,6 +1,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
 @prefix odp: <http://opendiscovery.org/rdf/Person/> .
@@ -65,7 +66,7 @@ odp:Akkubekov_PA
 odp:Amnuel_PR
     a foaf:Person ;
     foaf:affil "Beit She'an, Israel" ;
-    foaf:fullname "Песах Рафаилович Амнуэль"@ru ;
+    foaf:fullname "Песах Рафаэлович Амнуэль"@ru ;
     foaf:name "Pavel R. Amnuel" .
 
 odp:Arel_AT
@@ -104,11 +105,12 @@ odp:Bakhrakh_M
     foaf:affil "Russia" ;
     foaf:name "Mark Bakhrakh" .
 
-odp:Bakhturin_D
+odp:Bakhturin_DA
     a foaf:Person ;
     foaf:affil "Rosatom, Russia" ;
+    foaf:fullname "Дмитрий Александрович Бахтурин"@ru ;
     foaf:homepage <https://www.facebook.com/dmitriy.bakhturin> ;
-    foaf:name "Dmitriy Bakhturin" .
+    foaf:name "Dmitri A. Bakhturin" .
 
 odp:Barkan_MG
     a foaf:Person ;
@@ -277,11 +279,11 @@ odp:Burov_LG
     foaf:fullname "Лев Григорьевич Буров"@ru ;
     foaf:name "Leo Burov" .
 
-odp:Bystritskiy_AA
+odp:Bystritsky_AA
     a foaf:Person ;
     foaf:affil "Irkutsk, Russia" ;
     foaf:fullname "Александр Анатольевич Быстрицкий"@ru ;
-    foaf:name "Alexander A: Bystritskiy" .
+    foaf:name "Alexander A. Bystritsky" .
 
 odp:Cascini_G
     a foaf:Person ;
@@ -490,10 +492,11 @@ odp:Fan_J
     a foaf:Person ;
     foaf:name "Jiang Fan" .
 
-odp:Farber_B
+odp:Farber_BS
     a foaf:Person ;
     foaf:affil "TRIZBiopharma International, New York, USA" ;
-    foaf:name "Boris Farber" .
+    foaf:fullname "Борис Славинович Фарбер"@ru ;
+    foaf:name "Boris S. Farber" .
 
 odp:Fedosov_YI
     a foaf:Person ;
@@ -921,6 +924,13 @@ odp:Kaloshin_NG
     foaf:fullname "Николай Григорьевич Калошин"@ru ;
     foaf:name "Nikolai Kaloshin" .
 
+odp:Kamayev_VA
+    a foaf:Person ;
+    dbo:birthDate "1940-05-30";
+    dbo:deathDate "2016-09-13";
+    foaf:fullname "Валерий Анатольевич Камаев"@ru ;
+    foaf:name "Valeri A. Kamayev" .
+
 odp:Kanaan_H
     a foaf:Person ;
     foaf:affil "St. Josephs Univ., Lebanon" ;
@@ -1149,16 +1159,16 @@ odp:Krayev_OA
     foaf:fullname "Олег Краев"@ru ;
     foaf:name "Oleg A. Krayev" .
 
-odp:Kriachko_VB
-    a foaf:Person ;
-    foaf:affil "Russia" ;
-    foaf:fullname "Валентина Борисовна Крячко"@ru ;
-    foaf:name "Valentina Kriachko" .
-
 odp:Kruglik_S
     a foaf:Person ;
     foaf:affil "ICG Training & Consulting" ;
     foaf:name "Serguei Krouglik" .
+
+odp:Kryachko_VB
+    a foaf:Person ;
+    foaf:affil "Russia" ;
+    foaf:fullname "Валентина Борисовна Крячко"@ru ;
+    foaf:name "Valentina Kryachko" .
 
 odp:Kucharavy_D
     a foaf:Person ;
@@ -1277,9 +1287,16 @@ odp:Leleito_E
 
 odp:Leniashin_VA
     a foaf:Person ;
-    foaf:affil "Russia,, South Korea" ;
+    foaf:affil "Russia - South Korea" ;
     foaf:fullname "Василий Алексеевич Леняшин"@ru ;
     foaf:name "Vassili Lenjaschin" .
+
+odp:Levenchuk_A
+    a foaf:Person ;
+    foaf:affil "Moscow, Russia" ;
+    foaf:homepage <https://ailev.livejournal.com/> ;
+    foaf:fullname " Анатолий Левенчук"@ru ;
+    foaf:name "Anatoly Levenchuk" .
 
 odp:Li_H
     a foaf:Person ;
@@ -1519,11 +1536,11 @@ odp:Min_Y
     a foaf:Person ;
     foaf:name "Yan Min" .
 
-odp:Minaker_V
+odp:Minaker_VE
     a foaf:Person ;
     foaf:affil "Russia" ;
-    foaf:fullname "Виктор Минакер"@ru ;
-    foaf:name "Viktor Minaker" .
+    foaf:fullname "Виктор Ефимович Минакер"@ru ;
+    foaf:name "Viktor E. Minaker" .
 
 odp:Mingqin_G
     a foaf:Person ;
@@ -1697,7 +1714,7 @@ odp:Petrov_D
 
 odp:Petrov_VM
     a foaf:Person ;
-    foaf:affil "Innovation Technology"@en, "International TRIZ Association (MATRIZ)" ;
+    foaf:affil "Israel" ;
     foaf:fullname "Владимир Михайлович Петров"@ru ;
     foaf:homepage <https://www.facebook.com/vladimir.petrov.triz> ;
     foaf:name "Vladimir M. Petrov" .
@@ -2272,12 +2289,6 @@ odp:Timochov_VI
     foaf:fullname "Виктор Иванович Тимохов"@ru ;
     foaf:name "Viktor I. Timochov" .
 
-odp:Tjukov_AP
-    a foaf:Person ;
-    foaf:affil "Volgograd, Russia" ;
-    foaf:fullname "Антон Павлович Тюков"@ru ;
-    foaf:name "Anton P. Tjukov" .
-
 odp:Toeters_M
     a foaf:Person ;
     foaf:affil "by-wire.net, The Netherlands" ;
@@ -2306,6 +2317,12 @@ odp:Tsourikov_VM
     foaf:affil "Predizo LLC, Belarus" ;
     foaf:fullname "Валерий Михайлович Цуриков"@ru ;
     foaf:name "Valery M. Tsourikov" .
+
+odp:Tyukov_AP
+    a foaf:Person ;
+    foaf:affil "Volgograd, Russia" ;
+    foaf:fullname "Антон Павлович Тюков"@ru ;
+    foaf:name "Anton P. Tyukov" .
 
 odp:Ulan_P
     a foaf:Person ;
@@ -2358,10 +2375,10 @@ odp:Villarroe_JRE
     foaf:affil "Open TRIZ Second Wave Chile SpA, Chile" ;
     foaf:name "José Roberto Espinoza Villarroe" .
 
-odp:Vishnepolskaya_SV
+odp:Vishnepolschi_SV
     a foaf:Person ;
     foaf:affil "USA" ;
-    foaf:name "Svetlana V. Vishnepolskaya" .
+    foaf:name "Svetlana V. Vishnepolschi" .
 
 odp:Waldman_MK
     a foaf:Person ;

@@ -1412,7 +1412,7 @@ a od:Reference .
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.46>, odv2:E04 ;
     dc:language "en"^^dcterms:RFC4646 ;
     dc:publisher "Ideation International Inc. 1999. — 86 p."@en ;
-    dcterms:creator odp:Kaplan_S, odp:Vishnepolskaya_SV, odp:Visnepolski_S, odp:Zlotin_BL, odp:Zusman_AV ;
+    dcterms:creator odp:Kaplan_S, odp:Vishnepolschi_SV, odp:Visnepolski_S, odp:Zlotin_BL, odp:Zusman_AV ;
     dcterms:issued "1999" ;
     dcterms:title "New Tools for Failure and Risk Analysis"@en ;
     a od:Reference, od:TRIZ-Book .
@@ -2382,17 +2382,17 @@ a od:Reference .
     dcterms:title "The Curve That Will Always Help You Out: Geometry for Inventors"@en, "Кривая всегда вывезет. Геометрия для изобретателей"@ru ;
     a od:Reference .
 
-<http://opendiscovery.org/rdf/BIB/Vishnepolskaya_1985_5c21cbbb6e9d4768ecd23d9b9acd0abd>
+<http://opendiscovery.org/rdf/BIB/Vishnepolschi_1985_5c21cbbb6e9d4768ecd23d9b9acd0abd>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.7>, odv2:D20 ;
     dc:publisher "Кишинев, 1985. — 26 с. (рукопись) — Петрозаводск-85"@ru ;
-    dcterms:creator odp:Vishnepolskaya_SV, odp:Zlotin_BL ;
+    dcterms:creator odp:Vishnepolschi_SV, odp:Zlotin_BL ;
     dcterms:issued "1985" ;
     dcterms:title "Use of Resources in Search for New Engineering Solutions"@en, "Использование ресурсов при поиске новых технических решений"@ru ;
     a od:Reference .
 
-<http://opendiscovery.org/rdf/BIB/Vishnepolskaya_1989_82f780f112cd68c6d3a536a60a81879c>
+<http://opendiscovery.org/rdf/BIB/Vishnepolschi_1989_82f780f112cd68c6d3a536a60a81879c>
     od:hatVerweis odv2:F17 ;
-    dcterms:creator odp:Vishnepolskaya_SV, odp:Zlotin_BL, odp:Zusman_AV ;
+    dcterms:creator odp:Vishnepolschi_SV, odp:Zlotin_BL, odp:Zusman_AV ;
     dcterms:issued "1989" ;
     dcterms:title "«Петя и Дедал» — изобретательские сказки"@ru ;
     a od:Reference ;

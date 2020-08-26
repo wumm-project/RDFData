@@ -89,7 +89,7 @@ dcterms:creator odp:Barkan_MG, odp:Guin_AA .
 
 :Paper_117 a od:Paper;
  dcterms:title "Flow analysis of business systems (case study and theoretical results)";
-dcterms:creator odp:Bakhturin_D . 
+dcterms:creator odp:Bakhturin_DA . 
 
 :Paper_118 a od:Paper;
  dcterms:title "Genrich Altshuller and Peter Drucker: alternative approaches to solving problems. A comparative analysis";
