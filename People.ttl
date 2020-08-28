@@ -7,7 +7,6 @@
 @prefix odp: <http://opendiscovery.org/rdf/Person/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix cc: <http://creativecommons.org/ns#> .
-
 <http://opendiscovery.org/rdf/People/>
     cc:attributionName "The Open Discovery Project" ;
     cc:attributionURL <http://opendiscovery.org> ;
@@ -739,7 +738,7 @@ odp:Halas_M
 
 odp:Hammer_J
     a foaf:Person ;
-    foaf:affil "FAU Nürnberg, Germany" ;
+    foaf:affil "Herzogenaurach, Germany" ;
     foaf:name "Jens Hammer" .
 
 odp:Han_B
@@ -1290,6 +1289,11 @@ odp:Leniashin_VA
     foaf:affil "Russia - South Korea" ;
     foaf:fullname "Василий Алексеевич Леняшин"@ru ;
     foaf:name "Vassili Lenjaschin" .
+
+odp:LeonhardPfleger_R
+    a foaf:Person ;
+    foaf:affil "Ingolstadt, Germany" ;
+    foaf:name "Raphaela Leonhard-Pfleger" .
 
 odp:Levenchuk_A
     a foaf:Person ;
@@ -1926,11 +1930,21 @@ odp:Sawaguchi_M
     foaf:affil "WASEDA University, Japan" ;
     foaf:name "Manabu Sawaguchi" .
 
+odp:Schaper_S
+    a foaf:Person ;
+    foaf:affil "Tutzing, Germany" ;
+    foaf:name "Stefan Schaper" .
+
 odp:Scharipov_RH
     a foaf:Person ;
     foaf:affil "Russia" ;
     foaf:fullname "Рашид Хамзович Шарипов"@ru ;
     foaf:name "Rashid Scharipov" .
+
+odp:Schaumann_U
+    a foaf:Person ;
+    foaf:affil "Oberderdingen, Germany" ;
+    foaf:name "Uwe Schaumann" .
 
 odp:Scheers_J
     a foaf:Person ;
@@ -2400,7 +2414,7 @@ odp:Wang_WL
 
 odp:Weber_O
     a foaf:Person ;
-    foaf:affil "„Next Generation Education”, Berlin" ;
+    foaf:affil "Berlin, Germany" ;
     foaf:homepage <https://somales.de/> ;
     foaf:name "Olaf Weber" .
 
@@ -2411,6 +2425,11 @@ odp:Weigang_S
 odp:Wenxin_C
     a foaf:Person ;
     foaf:name "Chen Wenxin" .
+
+odp:Wessner_J
+    a foaf:Person ;
+    foaf:affil "Gerlingen, Germany" ;
+    foaf:name "Jochen Wessner" .
 
 odp:Won_SY
     a foaf:Person ;

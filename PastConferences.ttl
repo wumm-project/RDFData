@@ -15,6 +15,16 @@
     rdfs:label "TSN: Past Conferences" ;
     owl:imports <http://opendiscovery.org/rdf/ConferenceSeries/>, <http://opendiscovery.org/rdf/People/> .
 
+<http://opendiscovery.org/rdf/Conferences/GermanTRIZOnline-2020>
+    a swc:ConferenceEvent ;
+    rdfs:label "1. Deutsche TRIZ-Konferenz Online 2020"@de, "1. German TRIZ Online Coference 2020"@en ;
+    ical:summary "Coronabedingt gehen wir neue Wege und haben die 1. Deutsche TRIZ Konferenz online entwickeln. Wir wollen bei dieser Veranstaltung TRIZ relevanten Beiträgen aus dem akademischen Bereich und auch aus der industriellen Branche eine Plattform bieten, die auch veröffentlicht werden (Springer Verlag)."@de, "Caused by Corona we are breaking new ground and have developed the 1st German TRIZ Conference online. At this event we want to offer a platform for TRIZ relevant contributions from the academic field and also from the industrial sector that will also be published (Springer Verlag)."@en ; 
+    ical:dtend "2020-10-02"^^xsd:date ;
+    ical:dtstart "2020-10-02"^^xsd:date ;
+    ical:location "Online, supported by Bayern Innovativ, Nuremburg, Germany" ;
+    od:detailedReport <http://wumm.uni-leipzig.de/rdf/GermanTRIZOnline-2020.rdf> ;
+    ical:url  <https://www.bayern-innovativ.de/events-und-messen/veranstaltungen/veranstaltung/triz-konferenz-online-2020> .
+
 <http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/>
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit> ;
@@ -29,7 +39,7 @@
 <http://opendiscovery.org/rdf/Conferences/Business-TRIZ-2020/>
     a swc:ConferenceEvent ;
     rdfs:label "Business TRIZ Online 2020" ;
-    ical:summary "The conference \"Business TRIZ Online 2020\" will be held on July 23-24, 2020. This year the conference will be limited to Russian language only to encorage participation of Russian speaking TRIZ community and avoid difficulties that may emerge due to online translation issues. "@en;
+    ical:summary "The conference \"Business TRIZ Online 2020\" will be held on July 23-24, 2020. This year the conference will be limited to Russian language only to encourage participation of Russian speaking TRIZ community and avoid difficulties that may emerge due to online translation issues. "@en;
     ical:description """Одним из ключевых навыков управленческих профессий в современном мире является умение решать сложные нестандартные проблемы. Конкурентная среда и запросы общества 21 века требуют действовать быстро. Наиболее приоритетными требованиями становятся необходимость эффективно находить новые нестандартные решения, а также создавать новые успешные инновационные бизнес системы и бизнес продукты. Большинство таких задач требует неординарного, творческого мышления.
 
 Технология и инструменты системного инновационного мышления, основанные на ТРИЗ – Теории Решения Изобретательских задач – сегодня активно внедряются в различных организациях по всему миру. Изначально разработанная для поддержки технических инноваций и использующаяся многими глобальными компаниями, ТРИЗ находит применение и других областях. Термин «Бизнес ТРИЗ» сегодня используется для методов и инструментов ТРИЗ, созданных и адаптированных для поддержки поиска инновационных решений в области бизнеса и управления."""@ru ;
