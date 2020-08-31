@@ -98,7 +98,8 @@
     od:presentedBy odp:Rubin_MS ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4461> ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4437> ;
-    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3141_22/Rubina-TDS-2020-ARIZ.pdf> ;
+    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3237_a7/Rubina+Rubin-ARIZ-20_08_2020-article.pdf> ;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3234_3d/Rubina+Rubin-ARIZ-20_08_2020.pdf> ;
     dcterms:title "Analyse der ARIZ-Evolution mit Methoden der Theorie der Entwicklung erfinderischen Denkens"@de, "Analysis of ARIZ evolution by methods of the theory of development of inventive thinking"@en, "Анализ эволюции АРИЗ методами теории развития изобретательского мышления"@ru ;
     a od:Talk .
 
@@ -107,9 +108,12 @@
     dcterms:creator odp:Eckardt_O, odp:Kuryan_AG, odp:Rubin_MS, odp:Shchedrin_N ;
     od:presentedBy odp:Kuryan_AG ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4462> ;
+    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3235_c6/TDS%20-%202020.%20TRIZ%20ontology.pdf> ;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3236_b7/TDS-2020-Ontology_Intro-prezent.pdf> ;
     dcterms:title "TRIZ Ontologie"@de, "TRIZ Ontology"@en, "Онтология ТРИЗ"@ru ;
     od:urlVideo <https://www.youtube.com/watch?v=IXvR3iX5DQ4>;
-    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3182_6d/TDS%20-%202020.%20%D0%A2%D0%A0%D0%98%D0%97%20%D0%BE%D0%BD%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.pdf> ;
+    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3235_c6/TDS%20-%202020.%20TRIZ%20ontology.pdf> ;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3236_b7/TDS-2020-Ontology_Intro-prezent.pdf> ;
     a od:Talk .
 
 :Talk_203
@@ -119,6 +123,7 @@
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4464> ;
     od:urlVideo <https://www.youtube.com/watch?v=IXvR3iX5DQ4> ;
     od:urlPaper <https://r1.nubex.ru/s828-c8b/f3174_d1/Souchkov-TDS-2020-Functionality.pdf> ;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3250_6e/Souchkov_-TDS-2020-Functional_Evolution-prezent.pdf> ;
     dcterms:title "Development of functionality in technical and business systems"@en, "Entwicklung von Funktionalität in technischen und Business-Systemen"@de, "Развитие функциональности в технических и бизнес системах"@ru ;
     a od:Talk .
 
@@ -128,7 +133,8 @@
     dcterms:creator odp:Gafitulin_MS ;
     od:urlVideo <https://www.youtube.com/watch?v=IXvR3iX5DQ4>;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4465> ;
-    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3157_0c/Gafitulin-TDS-2020-checking.pdf> ;
+    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3239_18/Gafitulin-TDS-2020-checking[1].pdf> ;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3245_c3/Marat%20Gafitulin-TDS-2020-Checking%20Goals%20and%20Problems-K-prezent.pdf> ;
     dcterms:title "Checking targets and problems for difficulty"@en, "Die Schwierigkeit von Zielen und Problemen prüfen"@de, "Проверка цели и проблемы на сложность"@ru ;
     a od:Talk .
 
@@ -138,7 +144,8 @@
     dcterms:creator odp:Solodkin_A ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4467> ;
     od:urlVideo <https://www.youtube.com/watch?v=IXvR3iX5DQ4>;
-    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3168_ae/Solodkin-TDS-2020-key-problem.pdf> ;
+    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3240_e9/Solodkin-TDS-2020-key-problem[1].pdf> ;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3246_bc/Alexander%20Solodkin-TDS-2020-key-problem-causes-in-oranizations-prezent.pdf> ; 
     dcterms:title "Finding Root Causes of Organizational Problems"@en, "Suche der Primärursachen organisatorischer Probleme"@de, "Поиск ключевых причин организационных проблем"@ru ;
     a od:Talk .
 
@@ -156,7 +163,8 @@
     dcterms:creator odp:Petrov_VM ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4474> ;
     od:urlVideo <https://www.youtube.com/watch?v=IXvR3iX5DQ4>;
-    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3159_4a/Petrov-TDS-2020-innovations.pdf> ;
+    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3241_13/Petrov-TDS-2020-innovations[1].pdf> ;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3247_9c/Vladimir%20Petrov-TDS-2020%20innovation%20Management-prezent.pdf> ; 
     dcterms:title "TRIZ-gestützte Strategien des Innovationsmanagements"@de, "TRIZ-based innovation management strategies"@en, "Стратегии управления инновациями на основе ТРИЗ"@ru ;
     a od:Talk .
 
@@ -164,8 +172,8 @@
     swc:relatedToEvent track:Business ;
     dcterms:abstract "Посредством опыта консалтинговой и инновационной деятельности с применением методик ТРИЗ и Purchasing Chessboard компании A.T. Kearney сформирован подход их взаимодействия при анализе управленческих и экономических проблем в компаниях среднего и крупного бизнеса. Доклад освещает суть этой интеграции с примерами из практики. "@ru ;
     dcterms:creator odp:Kassou_R ;
-    od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4473> ;
     od:urlPaper <https://r1.nubex.ru/s828-c8b/f3162_8e/Kassou-TDS-2020-economics.pdf> ;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3254_32/21_08_2020_Kassou_Business.pdf> ; 
     dcterms:title "Practice of joint application of TRIZ tools with methodological approaches in management and economic tasks"@en, "Praxis der gemeinsamen Anwendung von TRIZ-Tools mit methodischen Ansätzen bei administrativen und wirtschaftlichen Aufgaben"@de, "Практика совместного применения инструментов ТРИЗ с методическими подходами в управленческо-экономических задачах"@ru ;
     a od:Talk .
 
@@ -174,6 +182,7 @@
     dcterms:creator odp:Kuryan_AG ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/5392> ;
     od:urlVideo <https://www.youtube.com/watch?v=IXvR3iX5DQ4>;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3251_0c/TDS-2020.%20Kurian.%20OZ%20in%20FROM%20for%20business%20systems-prezent.pdf> ; 
     dcterms:title "Operative zone in invention problems in business systems"@en, "Die operative Zone in Erfindungsaufgaben in Businesssystemen"@de, "ОЗ в изобретательских задачах для бизнес-систем"@ru ;
     a od:Talk .
 
@@ -184,7 +193,8 @@
     od:presentedby odp:Rubin_MS ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4478> ;
     od:urlVideo <https://www.youtube.com/watch?v=IXvR3iX5DQ4>;
-    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3155_ef/Kuryan-Rubin-TDS-2020%20buss-model-final3.pdf> ;
+    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3242_35/Kuryan-Rubin-TDS-2020%20buss-model-final3[1].pdf> ;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3248_00/TDS-2020.%20Rubin.%20Kurian.%20Business%20Model2-prezent.pdf> ; 
     dcterms:title "Business models as techniques for resolving contradictions"@en, "Geschäftsmodelle als Techniken zur Lösung von Widersprüchen"@de, "Бизнес модели как приемы разрешения противоречий"@ru ;
     a od:Talk .
 
@@ -194,7 +204,8 @@
     od:presentedBy odp:Saunin_N ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4470> ;
     od:urlVideo <https://www.youtube.com/watch?v=IXvR3iX5DQ4>;
-    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3175_89/%D0%A4%D0%BE%D0%BC%D0%B5%D0%BD%D0%BA%D0%BE-%D0%A1%D0%B0%D1%83%D0%BD%D0%B8%D0%BD-TDS2010_Business.pdf> ;
+    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3243_b6/%D0%A4%D0%BE%D0%BC%D0%B5%D0%BD%D0%BA%D0%BE-%D0%A1%D0%B0%D1%83%D0%BD%D0%B8%D0%BD-TDS2010_Business[1].pdf> ;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3249_85/Fomenko-Saunin-TDS-2020-prezent.pdf> ; 
     dcterms:title "\"Das Programm für innovative Entwicklung\" als Ansatz zum Aufbau einer regulären Funktion des Innovationsmanagements"@de, "The \"Program for Innovative Development\" as an approach to set up a regular function of innovation management"@en, "\"Программа Инновационного Развития\" как подход к построению регулярной функции внедрения инноваций"@ru ;
     a od:Talk .
 
@@ -204,6 +215,7 @@
     dcterms:creator odp:Bezdel_ZV, odp:Dichenko_SA ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4481> ;
     od:urlVideo <https://www.youtube.com/watch?v=IXvR3iX5DQ4>;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3253_71/Zoya%20Bezdel-TDS-2020-How%20and%20why%20to%20use%20Agile%20in%20TRIZ-prezent.pdf> ; 
     dcterms:title "How and why apply Agile principles in TRIZ for business"@en, "Wie und warum agile Prinzipien im TRIZ im Business anwenden"@de, "Как и зачем применять принципы Agile в ТРИЗ для бизнеса"@ru ;
     a od:Talk .
 
@@ -212,6 +224,7 @@
     dcterms:creator odp:Domkin_KI, odp:Eckardt_O ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4482> ;
     od:urlVideo <https://www.youtube.com/watch?v=IXvR3iX5DQ4>;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3252_fa/Domkin%20Eckardt%20TDS-2020-prezent.pdf> ; 
     dcterms:title "Diversionary approach in non-technical areas. Application examples"@en, "Der Diversionsansatz in nichttechnischen Bereichen. Anwendungsbeispiele"@de, "Диверсионный подход в не технических областях. Примеры применения"@ru ;
     a od:Talk .
 
@@ -221,7 +234,8 @@
     dcterms:creator odp:Nikitin_VN, odp:Bystritsky_AA ;
     od:urlVideo <https://www.youtube.com/watch?v=uUC6c8F8wfg>;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4332> ;
-    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3135_73/Nikitin-TDS-2020-ARIP.pdf> ;
+    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3207_1a/Nikitin-TDS-2020-ARIP[1].pdf> ;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3208_76/Nikitin-ARIP-prezent.pdf> ; 
     dcterms:title "Geschichte der Erstellung, Logik und Praxis der ARIP-Anwendung"@de, "History of creation, logic and practice of ARIP application"@en, "История создания, логика и практика применения АРИП"@ru ;
     a od:Talk .
 
@@ -231,7 +245,8 @@
     dcterms:creator odp:Graebe_HG ;
     od:urlVideo <https://www.youtube.com/watch?v=uUC6c8F8wfg>;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4334> ;
-    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3136_21/Gr%C3%A4be-TDS-2020-Human_and_sistems.pdf> ;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3221_9c/Hans-Gert%20Gr%C3%A4be-TDS-20-ru-prezent.pdf> ; 
+    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3209_1d/Gr%C3%A4be-TDS-2020-Human_and_sistems[1].pdf> ;
     dcterms:title "Der Mensch und seine technischen Systeme"@de, "Man and his technical systems"@en, "Человек и его технические системы"@ru ;
     a od:Talk .
 
@@ -241,7 +256,8 @@
     dcterms:creator odp:Misyuchenko_I, odp:Rubin_MS ;
     od:urlVideo <https://www.youtube.com/watch?v=uUC6c8F8wfg>;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4335> ;
-    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3133_3b/Rubin-TDS-2020.%20vakuum_IM10.pdf> ;
+    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3210_f8/Rubin-TDS-2020.%20vakuum_IM10[1].pdf> ;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3222_5e/TDS-2020-Vakuum-Misushenko-Rubin_IM2-prezent.pdf> ; 
     dcterms:title "System vacuum and functions in TRIZ and evolutionary science"@en, "Systemvakuum und Funktionen in der TRIZ und Evolutionswissenschaft"@de, "Системный вакуум и функции в ТРИЗ и эволюциоведении"@ru ;
     a od:Talk .
 
@@ -252,6 +268,7 @@
 В докладе эксперты расскажут о закономерностях развития городов, эволюции их функций и как в процессе всех изменений возникали и решались изобретательские задачи. """@ru ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4488> ;
     od:urlPaper <https://r1.nubex.ru/s828-c8b/f3180_7b/TDS-2020.%20%D0%91%D0%BE%D0%B9%D0%BA%D0%BE,%20%D0%9A%D1%83%D1%80%D1%8C%D1%8F%D0%BD.%20%D0%AD%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D1%8F%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%BE%D0%B2.pdf> ;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3230_0d/TDS-2020.%20Boika.%20SmartCitiesAndTech_SB_2020-prezent.pdf> ; 
     od:urlVideo <https://www.youtube.com/watch?v=uUC6c8F8wfg>;
     dcterms:title "TRIZ in SmartCity-Systemen"@de, "TRIZ in SmartCity systems"@en, "ТРИЗ в системах SmartCity"@ru ;
     a od:Talk .
@@ -260,7 +277,8 @@
     swc:relatedToEvent track:IT ;
     dcterms:creator odp:Tyukov_AP ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4336> ;
-    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3137_9d/Tyukov-TDS-2020.pdf> ;
+    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3213_6a/Tyukov-TDS-2020[1].pdf> ;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3224_10/Tyukov%20A.%20p.%20TRIZ%20in%20the%20design%20of%20management%20in%20power%20engineering-prezent.pdf> ; 
     od:urlVideo <https://www.youtube.com/watch?v=uUC6c8F8wfg>;
     dcterms:title "Anwendung von TRIZ beim Entwurf der Architektur eines Steuerungssystems auf der Basis von Daten im Energiesektor"@de, "Application of TRIZ in the design of data-based control system architecture in the energy sector"@en, "Применение ТРИЗ при проектировании архитектуры системы управления на основе данных в энергетике"@ru ;
     a od:Talk .
@@ -278,8 +296,8 @@
     swc:relatedToEvent track:IT ;
     dcterms:abstract "В области разработки программного обеспечения реализованы для заказчиков концепции двух продуктов, в архитектуре которых используются алгоритмы машинного обучения. Данные концепции были выведены методами ТРИЗ (разрешение противоречий, ФОП, перенос технологий и др). Доклад освещает эти два кейса, их методическую составляющую и качество полученного результата. "@ru ;
     dcterms:creator odp:Kassou_R ;
-    od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4338> ;
-    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3167_d5/Kassou-TDS-2020-2cases.pdf> ;
+    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3220_3b/Kassou-TDS-2020-2cases[1].pdf> ;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3232_b8/21_08_2020_Kassou_IT-prezent.pdf> ; 
     dcterms:title "Two cases of using TRIZ methods in AI problems launching new products"@en, "Zwei Fälle der Verwendung von TRIZ-Methoden auf KI-Probleme bei der Einführung neuer Produkte"@de, "Два кейса применения методов ТРИЗ в задачах по ИИ с выводом новых продуктов"@ru ;
     a od:Talk .
 
@@ -288,7 +306,8 @@
     dcterms:creator odp:Rubin_MS, odp:Akkubekov_PA, odp:Khronik_A, odp:Krayev_OA, odp:Lopatin_S, odp:Shchedrin_N; 
     od:presentedBy odp:Rubin_MS ; 
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4353> ;
-    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3134_a7/Rubin-TDS-2020-RUSAL.pdf> ;
+    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3212_bf/Rubin-TDS-2020-RUSAL[1].pdf> ;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3223_e9/TDS-2020-Rubin-RUSAL-TRIZ-prezent.pdf> ; 
     od:urlVideo <https://www.youtube.com/watch?v=uUC6c8F8wfg>;
     dcterms:title "Development of TRIZ infrastructure at industrial enterprises. Experience of RUSAL"@en, "Entwicklung der TRIZ-Infrastruktur in Industrieunternehmen. Erfahrung von RUSAL"@de, "Развитие инфраструктуры ТРИЗ на промышленных предприятиях. Опыт РУСАЛ"@ru ;
     a od:Talk .
@@ -298,7 +317,8 @@
     dcterms:abstract "В статье представлена часть результатов применения инструментов ТРИЗ для решения производственной задачи металлургического предприятия. Цель проекта: снижение удельного расхода электроэнергии печей гомогенизации, а также, повышение надежности нагревательных элементов печей (калориферов). "@ru ;
     dcterms:creator odp:Akkubekov_PA, odp:Krayev_OA ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4339> ;
-    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3138_d5/Akkubekov-TDS-2020-metallurgy.pdf> ;
+    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3214_17/Akkubekov-TDS-2020-metallurgy[1].pdf> ;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3225_75/TRIZ%20Summit.%20Akkubekov%20P.,%20Kraev%20O-prezent.pdf> ; 
     od:urlVideo <https://www.youtube.com/watch?v=uUC6c8F8wfg>;
     dcterms:title "Erfahrung mit der Verwendung von TRIZ in der Metallurgie am Beispiel der Steigerung der Effizienz von Homogenisierungsöfen"@de, "Experience of using TRIZ in metallurgy by the example of increasing the efficiency of homogenization furnaces"@en, "Опыт применения ТРИЗ в металлургии на примере повышения эффективности работы печей гомогенизации"@ru ;
     a od:Talk .
@@ -308,7 +328,8 @@
     dcterms:abstract "В докладе представляется новая структура законов и закономерностей развития искусственных систем и формулировки некоторых законов и закономерностей. "@ru ;
     dcterms:creator odp:Petrov_VM ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4442> ;
-    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3139_da/Petrov-TDS-2020-regularities.pdf> ;
+    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3215_04/Petrov-TDS-2020-regularities[1].pdf> ;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3226_86/Petrov.%20Patterns%20of%20artificial%20systems%20development-prezent.pdf> ; 
     od:urlVideo <https://www.youtube.com/watch?v=uUC6c8F8wfg>;
     dcterms:title "Gesetze der Entwicklung künstlicher Systeme"@de, "Laws of Development of Artificial Systems"@en, "Закономерности развития искусственных систем"@ru ;
     a od:Talk .
@@ -319,7 +340,8 @@
     dcterms:creator odp:Petrov_VM, odp:Solodkina_E ;
     od:presentedBy odp:Solodkina_E ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4341> ;
-    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3152_cc/Petrov-TDS-2020-fashion-updated.pdf> ;
+    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3216_e5/Petrov-TDS-2020-fashion-updated[1].pdf> ;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3227_ff/TRIZ-Innovations-in-fashion-low-Petrov-Solodkina-prezent.pdf> ; 
     od:urlVideo <https://www.youtube.com/watch?v=uUC6c8F8wfg>;
     dcterms:title "TRIZ: Innovationen in der Mode"@de, "TRIZ: Innovations in Fashion"@en, "ТРИЗ: Инновации в моде"@ru ;
     a od:Talk .
@@ -329,7 +351,8 @@
     dcterms:abstract "В докладе показано применение АРИЗ-85В для решения задачи по упрощению конструкции механизма принудительного движения сепаратора в прямолинейной направляющей трения качения. Акцент сделан на сложности выхода на подходящую идею и способ."@ru ;
     dcterms:creator odp:Skuratovich_AI ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4340> ;
-    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3140_05/Skuratovich-TDS-2020-solving_a_problem.pdf> ;
+    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3218_de/Skuratovich-TDS-2020-solving_a_problem[1].pdf> ;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3238_24/2020-TDS-Skuratovich-ARIZ-Guide-prezent-3.pdf> ; 
     od:urlVideo <https://www.youtube.com/watch?v=uUC6c8F8wfg>;
     dcterms:title "Problemlösen mit ARIZ-85C, Wege zur Lösungsidee"@de, "Solving problems with ARIZ-85C, a way to the idea of ​​a solution"@en, "Решение задачи с помощью АРИЗ-85В, способ выхода на идею решения"@ru ;
     a od:Talk .
@@ -339,7 +362,8 @@
     dcterms:abstract "В статье мы описали наш подход синергетической комбинации S-кривой и перехода к системе более высокого уровня для спасения человечества от бактерий с множественной лекарственной устойчивостью. Проблема в том, что антибиотики не борются с бактериями с множественной лекарственной устойчивостью. Мы создали метод и провели исследования и разработки в нашей лаборатории для борьбы с MDR. Применяя метод ТРИЗ для разрешения противоречий, мы смогли создать новую парадигму борьбы с бактериями с множественной лекарственной устойчивостью. Наша синергетическая комбинация лекарств позволяет нам убивать то, что считалось «неубиваемыми» бактериями, устойчивыми к антибиотикам. Это также можно добиться результата, используя более низкие дозы антибиотиков, чем те, которые в настоящее время используются в качестве стандарта лечения. Таким образом, в результате изучения влияния активаторов (энхансеров) накопления цАМФ на микроорганизмы с множественной лекарственной устойчивостью мы установили, что быстрая стимуляция роста энхансерами во втором пассаже приводит к ингибированию роста бактерий при последующих пассажах до полного прекращения роста в пассажах 4-5. Мы также обнаружили, что энхансеры способствуют значительному увеличению чувствительности штаммов бактерий с множественной лекарственной устойчивостью к противомикробным препаратам. "@ru ;
     dcterms:creator odp:Farber_BS ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4489> ;
-    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3166_e0/Farber-TDS-2020-synergy.pdf> ;
+    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3217_7f/Farber-TDS-2020-synergy[1].pdf> ;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3228_1a/Farber-TDS-Minsk-prezent.pdf> ; 
     od:urlVideo <https://www.youtube.com/watch?v=sBBleaqUzFc> ; 
     dcterms:title "Synergische Kombination von S-Kurve und Übergang zu einem Obersystem für Bakterien mit multipler Arzneimittelresistenz"@de, "Synergetic combination of S-curve and transition to a supersystem for bacteria with multiple drug resistance"@en, "Синергетическая комбинации S-образной кривой и перехода в надсистему для бактерий с множественной лекарственной устойчивостью"@ru ;
     a od:Talk .
@@ -348,7 +372,8 @@
     swc:relatedToEvent track:IT ;
     dcterms:creator odp:Aminov_RB ;
     od:urlVideo <https://communities.by/events/triz-summit-2020/talks/4348> ;
-    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3173_a6/Aminov-TDS-2020.pdf> ;
+    od:urlPaper <https://r1.nubex.ru/s828-c8b/f3219_1e/Aminov-TDS-2020[1].pdf> ;
+    od:urlSlides <https://r1.nubex.ru/s828-c8b/f3231_d4/Aminov-Assumption-prezent.pdf> ; 
     od:urlVideo <https://www.youtube.com/watch?v=sBBleaqUzFc> ; 
     dcterms:title "Vorschlag eines einheitlichen Prozesses zur Lösung erfinderischer Probleme"@de, "Proposal of a unified process for solving inventive problems"@en, "Предположение о едином процессе решения изобретательских задач"@ru ;
     a od:Talk .
