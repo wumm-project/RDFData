@@ -623,9 +623,9 @@ od:TRIZMasterCouncil
 
 <http://opendiscovery.org/rdf/Certificate/L4.73>
     od:issued "2005-05" ;
-    od:owner odp:Kudrjavtsev_AV ;
+    od:owner odp:Kudryavtsev_AV ;
     a od:CertificateLevel4 ;
-    foaf:name "Aleksandr Kudrjavtsev" .
+    foaf:name "Aleksandr Kudryavtsev" .
 
 <http://opendiscovery.org/rdf/Certificate/L4.74>
     od:issued "2005-07" ;
@@ -779,9 +779,9 @@ od:TRIZMasterCouncil
 
 <http://opendiscovery.org/rdf/Certificate/L4.97>
     od:issued "2011-12" ;
-    od:owner odp:Lebedjev_Y ;
+    od:owner odp:Lebedev_Y ;
     a od:CertificateLevel4 ;
-    foaf:name "Yury Lebedjev" .
+    foaf:name "Yury Lebedev" .
 
 <http://opendiscovery.org/rdf/Certificate/L4.98>
     od:issued "2011-12" ;
@@ -791,7 +791,7 @@ od:TRIZMasterCouncil
 
 <http://opendiscovery.org/rdf/Certificate/L4.99>
     od:issued "2011-12" ;
-    od:owner odp:Won_SY ;
+    od:owner odp:Song_YW ;
     a od:CertificateLevel4 ;
     foaf:name "Song Yong Won" .
 
@@ -816,13 +816,13 @@ od:TRIZMasterCouncil
 
 <http://opendiscovery.org/rdf/Certificate/L5.101>
     od:issued "2014-09-06" ;
-    od:owner odp:Won_SY ;
+    od:owner odp:Song_YW ;
     a od:CertificateLevel5 ;
     foaf:name "Yong Won Song" .
 
 <http://opendiscovery.org/rdf/Certificate/L5.102>
     od:issued "2015-09-12" ;
-    od:owner odp:Lebedjev_Y ;
+    od:owner odp:Lebedev_Y ;
     a od:CertificateLevel5 ;
     foaf:name "Yury Lebedev" .
 

@@ -1,0 +1,147 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix odp: <http://opendiscovery.org/rdf/Person/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix : <http://opendiscovery.org/rdf/Conferences/MOF-2020/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:General
+    a swc:ConferenceEvent ;
+    rdfs:label "MOF 2020 - MATRIZ Online Forum 2020" ;
+    ical:dtend "2020-09-27"^^xsd:date ;
+    ical:dtstart "2020-09-24"^^xsd:date ;
+    ical:location "Online, supported by the Moscow TRIZ Club" ;
+    ical:summary "MOF - spelled as \"MATRIZ Online Forum\" or \"Moscow Online Forum\" - is a new format of an online event created by MATRIZ together with the Moscow TRIZ Club with its head Dmitri Bachturin as the main organizer of the MOF 2020. "@en ;
+    ical:url <https://mostrizclub.net/en/matriz-online-forum-24-27-september-2020/> .
+
+:Talk_100
+    dcterms:creator odp:Fey_VR ;
+    dcterms:language "en" ;
+    dcterms:title "Is TRIZ a Science?"@en, "Ist TRIZ eine Wissenschaft?"@de, "TRIZ是一門科學嗎？"@zh, "Так наука ли ТРИЗ?"@ru ;
+    a od:Talk .
+
+:Talk_101
+    dcterms:creator odp:Abramov_OY ;
+    dcterms:language "ru" ;
+    dcterms:title "Hidden Excesses in Engineering Systems as a Resource for Improvement"@en, "Versteckte Überschüsse in technischen Systemen als Ressource für Verbesserungen"@de, "Скрытая избыточность в технических системах как ресурс для их совершенствования"@ru, "隱藏工程系統中的過剩作為改進資源"@zh ;
+    a od:Talk .
+
+:Talk_102
+    dcterms:creator odp:Badura_A, odp:Leiner_DF ;
+    dcterms:language "en" ;
+    dcterms:title "Inwieweit ist TRIZ / TIPS eine agile Methode?"@de, "TRIZ / TIPS是一種敏捷方法？"@zh, "To what extend is TRIZ/TIPS an agile method?"@en, "Насколько ТРИЗ есть agile - метод"@ru ;
+    a od:Talk .
+
+:Talk_103
+    dcterms:creator odp:Phadnis_N, odp:Phadnis_S ;
+    dcterms:language "en" ;
+    dcterms:title "Comparing and Contrasting MPV Analysis with Jobs-To-Be-Done Theory"@en, "Vergleichen und Gegenüberstellen der MPV-Analyse mit der Theorie der zu erledigenden Aufgaben"@de, "Сравнение и сопоставление анализа ключевых параметров ценности (MPV) с теорией выполнения задач (Jobs-To-Be-Done Theory) "@ru, "將MPV分析與即將完成的理論進行比較和對比"@zh ;
+    a od:Talk .
+
+:Talk_104
+    dcterms:creator odp:Feygenson_NB, odp:Feygenson_ON ;
+    dcterms:language "ru" ;
+    dcterms:title "Instrumental Approach to Multi-Screen Scheme of Thinking"@en, "Instrumenteller Ansatz für ein Multi-Screen-Denkschema"@de, "Инструментальный подход к многоэкранной схеме мышления"@ru, "跨屏思維方案的儀器方法"@zh ;
+    a od:Talk .
+
+:Talk_105
+    dcterms:creator odp:Hong_KS, odp:Won_SY ;
+    dcterms:language "en" ;
+    dcterms:title "ETCH equipment cleaning time reduction"@en, "Reduzierung der Reinigungszeit für ETCH-Geräte"@de, "Кейс: Сокращение времени очистки травильного оборудования (Англ)"@ru, "減少ETCH設備清潔時間"@zh ;
+    a od:Talk .
+
+:Talk_106
+    dcterms:creator odp:Ghane_M, odp:Kadir_RA, odp:Kok_WN, odp:Mei_CA ;
+    dcterms:language "en" ;
+    dcterms:title "Integrating Big Data Analytics with Trends of Engineering System Evolution (TESE) for Practical Patents Analysis"@en, "Integration von Big Data Analytics in Trends der Engineering System Evolution (TESE) für die Praxis Patentanalyse "@de, "Интеграция аналитики больших данных с трендами развития инженерных систем (TESE) в практику патентного анализа"@ru, "將大數據分析與工程系統演進趨勢（TESE）集成在一起專利分析"@zh ;
+    a od:Talk .
+
+:Talk_107
+    dcterms:creator odp:Kudryavtsev_AV, odp:Minaker_VE ;
+    dcterms:language "ru" ;
+    dcterms:title "Besonderheiten beim Entfalten von Widersprüchen aus Problemsituationen"@de, "Special Features of unfolding contradictions out of problem situations"@en, "Особенности разворачивания противоречий из проблемных ситуаций"@ru, "從問題中解決矛盾的特殊功能"@zh ;
+    a od:Talk .
+
+:Talk_108
+    dcterms:creator odp:Kim_CE, odp:Seo_SM, odp:Song_YW ;
+    dcterms:language "en" ;
+    dcterms:title "Development of HPS (Hydrogen Plasma treatment System) using FOS (functional oriented search)"@en, "Entwicklung von HPS (Wasserstoffplasmabehandlungssystem) unter Verwendung von FOS (funktional orientierte Suche) ) "@de, "Разработка HPS (системы водородной плазменной обработки) с использованием FOS (функционально-ориентированного поиска) "@ru, "使用FOS（面向功能的搜索）開發HPS（氫等離子體處理系統） ）"@zh ;
+    a od:Talk .
+
+:Talk_109
+    dcterms:creator odp:Turior_R ;
+    dcterms:language "en" ;
+    dcterms:title "Patent Augmentation using TRIZ TM oder PAT"@de, "Patent Augmentation using TRIZ TM or PAT"@en, "Прирост патентов с использованием ТРИЗ TM или PAT"@ru, "使用TRIZ TM或PAT增強專利"@zh ;
+    a od:Talk .
+
+:Talk_110
+    dcterms:creator odp:Lebedev_Y ;
+    dcterms:language "ru" ;
+    dcterms:title "Besonderheiten der Analyse technologischer Prozesse bei der Durchführung von Funktions- und Stream-Analysen"@de, "Special Features of technological processes analysis when performing functional and stream analysis"@en, "Особенности анализа технологических процессов при выполнении функционального и потокового анализа"@ru, "執行功能和流分析時技術過程分析的特殊功能"@zh ;
+    a od:Talk .
+
+:Talk_111
+    dcterms:creator odp:Abramov_OY, odp:Fimin_P, odp:Smirnova_E ;
+    dcterms:language "ru" ;
+    dcterms:title "Technologie-Scouting für die Behandlung fester Abfälle: TRIZ-Ansatz"@de, "Technology Scouting for Solid Waste Treatment: TRIZ Approach"@en, "Поиск технологий по переработке твердых отходов: подход ТРИЗ"@ru, "用於固體廢物處理的技術偵查：TRIZ方法"@zh ;
+    a od:Talk .
+
+:Talk_112
+    dcterms:creator odp:Iarossi_M ;
+    dcterms:language "en" ;
+    dcterms:title "Bereitstellen von TRIZ-Techniken für die Ursachenanalyse in Serviceorganisationen"@de, "Deploying TRIZ Techniques for Causal Analysis in Service Organisations"@en, "Применение методов ТРИЗ для причинно-следственного анализа в сервисных организациях"@ru, "在服務組織中部署TRIZ技術進行因果分析"@zh ;
+    a od:Talk .
+
+:Talk_113
+    dcterms:creator odp:Litvin_SS ;
+    dcterms:language "ru" ;
+    dcterms:title "Addressing Coronavirus Challenges with TRIZ"@en, "Coronavirus-Herausforderungen mit TRIZ angehen"@de, "ТРИЗ-ответы вызовам Коронавируса"@ru, "使用TRIZ解決冠狀病毒挑戰"@zh ;
+    a od:Talk .
+
+:Talk_114
+    dcterms:creator odp:Zasedenets_I ;
+    dcterms:language "ru" ;
+    dcterms:title "Problem solving as the implementation of methods of information content management in systems"@en, "Problemlösung als Implementierung von Methoden zur Verwaltung von Informationsinhalten in Systemen"@de, "Решение проблем как реализация способов управления содержанием информации в системах "@ru, "解決問題作為系統中信息內容管理方法的實現"@zh ;
+    a od:Talk .
+
+:Talk_115
+    dcterms:creator odp:Mayer_O ;
+    dcterms:language "en" ;
+    dcterms:title "Einführung von Innovationstools und deren Wechselbeziehung zu KMU"@de, "Introduction of Innovation tools and their interrelation to SMEs"@en, "Внедрение инновационных инструментов и их взаимосвязь с малыми и средними предприятиями (МСП)"@ru, "介紹創新工具及其與中小型企業的關係"@zh ;
+    a od:Talk .
+
+:Talk_116
+    dcterms:creator odp:Fey_VR ;
+    dcterms:language "ru" ;
+    dcterms:title "How to Prepare for the Next Pandemic"@en, "Vorbereitung auf die nächste Pandemie"@de, "Как подготовиться к следующей пандемии "@ru, "如何為下一次大流行做好準備"@zh ;
+    a od:Talk .
+
+:Talk_117
+    dcterms:creator odp:Feygenson_ON, odp:Lesourd_J, odp:Savelli_S ;
+    dcterms:language "en" ;
+    dcterms:title "TRIZ integration within the Value Management job plan"@en, "TRIZ-Integration in den Value Management-Jobplan"@de, "Интеграция ТРИЗ в план Управления по Ценностям (Value Management)"@ru, "在價值管理工作計劃中整合TRIZ"@zh ;
+    a od:Talk .
+
+:Talk_118
+    dcterms:creator odp:Nesterenko_AA ;
+    dcterms:language "ru" ;
+    dcterms:title "Problem-oriented learning based on OTSM-TRIZ: current state and development prospects"@en, "Problemorientiertes Lernen basierend auf OTSM-TRIZ: aktueller Stand und Entwicklungsperspektiven"@de, "Проблемно-ориентированное обучение на базе ОТСМ-ТРИЗ: актуальное состояние и перспективы развития"@ru, "基於OTSM-TRIZ的面向問題的學習：現狀和發展前景"@zh ;
+    a od:Talk .
+
+:Talk_119
+    dcterms:creator odp:Pyao_Y ;
+    dcterms:language "en" ;
+    dcterms:title "Neue Struktur eines biologischen Forschungspapiers: Konvertierung traditioneller Schlüsselkonzepte für Fettleibigkeit -bezogene Studie unter Verwendung der TRIZ-Theorie "@de, "New structure of a biological research paper: Converting traditional key concepts of an obesity-related study by using TRIZ theory"@en, "Новая структура научой статьи по биологическому исследованию: преобразование традиционных ключевых концепций при помощи использования теории ТРИЗ (на примере исследования, посвященного вопросам ожирения)"@ru, "生物研究論文的新結構：轉變肥胖的傳統關鍵概念TRIZ理論進行相關研究"@zh ;
+    a od:Talk .
+
+:Talk_120
+    dcterms:creator odp:Fomenko_A, odp:Redkolis_EV, odp:Saunin_N, odp:Savenkov_A ;
+    dcterms:language "ru" ;
+    dcterms:title " TRIZ工具在戰略制定中的應用：TRIZ與戰略管理集成的經驗方法"@zh, "Anwendung von TRIZ-Tools in der Strategieentwicklung: Erfahrung der TRIZ-Integration mit strategischem Management Ansätze "@de, "Application of TRIZ Tools in Strategy Development: Experience of TRIZ Integration with Strategic Management Approaches"@en, "Применение инструментов ТРИЗ при разработке стратегии: опыт интеграции ТРИЗ и подходов стратегического менеджмента"@ru ;
+    a od:Talk .
+

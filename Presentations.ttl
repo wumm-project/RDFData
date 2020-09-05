@@ -103,7 +103,7 @@ od:Presentation a owl:Class ;
 
 <http://opendiscovery.org/rdf/Presentation/Lebedyev-20180128>
   a od:Presentation ;
-  dcterms:creator odp:Lebedjev_Y ;
+  dcterms:creator odp:Lebedev_Y ;
   dcterms:title  "Закон оптимизации потоков и потоковый анализ. Юрий Лебедев."@ru ;
   dcterms:abstract "Выступление Мастера ТРИЗ Юрия Лебедева на конференции «ТРИЗ. Практика применения и развитие методических инструментов» в Москве 10-11 ноября 2017г."@ru ; 
   od:urlVideo <https://www.youtube.com/watch?v=UX3uEUZUn_k> ;

@@ -95,6 +95,11 @@ odp:Baaijens_H
     foaf:affil "Philips Lighting, The Netherlnds" ;
     foaf:name "Hans Baaijens" .
 
+odp:Badura_A
+    a foaf:Person ;
+    foaf:affil "Landshut, Germany" ;
+    foaf:name "Andrea Badura" .
+
 odp:Baharom_MZ
     a foaf:Person ;
     foaf:name "Mohamad Zairi Baharom" .
@@ -640,6 +645,10 @@ odp:Gershman_MD
     foaf:fullname "Михаил Давидович Гершман"@ru ;
     foaf:name "Michael Gershman" .
 
+odp:Ghane_M
+    a foaf:Person ;
+    foaf:name "Mostafa Ghane" .
+
 odp:Gladkov_AK
     a foaf:Person ;
     foaf:affil "Russia" ;
@@ -800,6 +809,10 @@ odp:Hong_Z
     a foaf:Person ;
     foaf:name "Zhang Hong" .
 
+odp:Hong_KS
+    a foaf:Person ;
+    foaf:name "Hong Kyun Shim" .
+
 odp:Hongyul_Y
     a foaf:Person ;
     foaf:affil "TRIZ Center, South Korea" ;
@@ -838,6 +851,10 @@ odp:Ikovenko_SA
     foaf:affil "MIT, Boston, USA" ;
     foaf:fullname "Сергей Александрович Иковенко"@ru ;
     foaf:name "Sergey Ikovenko" .
+
+odp:Iarossi_M
+    a foaf:Person ;
+    foaf:name "Michael Iarossi" .
 
 odp:Ilyin_IY
     a foaf:Person ;
@@ -907,11 +924,15 @@ odp:Juravlev_YF
     foaf:fullname "Юрий Филиппович Журавлев"@ru ;
     foaf:name "Yuri F. Juravlev" .
 
+odp:Kadir_RA
+    a foaf:Person ;
+    foaf:name "Rabiah Abdul Kadir" .
+
 odp:Kagan_EL
     a foaf:Person ;
     foaf:affil "Russia" ;
     foaf:fullname "Эдуард Львович Каган"@ru ;
-    foaf:name "E.L. Kagan", "Eduard Kagan" .
+    foaf:name "Eduard L. Kagan" .
 
 odp:Kalish_VS
     a foaf:Person ;
@@ -1028,6 +1049,10 @@ odp:Kim_B
     a foaf:Person ;
     foaf:name "Bokyung Kim" .
 
+odp:Kim_CE
+    a foaf:Person ;
+    foaf:name "Kim Chang Eun" .
+
 odp:Kim_JH
     a foaf:Person ;
     foaf:affil "South Korea" ;
@@ -1090,6 +1115,10 @@ odp:Kogan_S
     a foaf:Person ;
     foaf:affil "USA" ;
     foaf:name "Sam Kogan" .
+
+odp:Kok_WN
+    a foaf:Person ;
+    foaf:name "Kok Weng Ng" .
 
 odp:Kolchanov_SA
     a foaf:Person ;
@@ -1174,11 +1203,11 @@ odp:Kucharavy_D
     foaf:affil "SeeCore Project, исследователь, преподаватель, консультант"@ru ;
     foaf:name "Dmitry Kucharavy" .
 
-odp:Kudrjavtsev_AV
+odp:Kudryavtsev_AV
     a foaf:Person ;
     foaf:affil "Russia" ;
     foaf:fullname "Александр Владимирович Кудрявцев"@ru ;
-    foaf:name "Aleksander V. Kudrjavtsev" .
+    foaf:name "Aleksander V. Kudryavtsev" .
 
 odp:Kukalev_SV
     a foaf:Person ;
@@ -1245,11 +1274,11 @@ odp:Lautenschlaeger_S
     foaf:homepage <https://triz-water.de> ;
     foaf:name "Sabine Lautenschläger" .
 
-odp:Lebedjev_Y
+odp:Lebedev_Y
     a foaf:Person ;
     foaf:affil "Russia/South Korea" ;
     foaf:fullname "Юрий Лебедев"@ru ;
-    foaf:name "Yury Lebedjev" .
+    foaf:name "Yury Lebedev" .
 
 odp:Lee_A
     a foaf:Person ;
@@ -1279,6 +1308,10 @@ odp:Lee_SI
     a foaf:Person ;
     foaf:name "Sang-Il Lee" .
 
+odp:Leiner_DF
+    a foaf:Person ;
+    foaf:name "David Fabian Leiner" .
+
 odp:Leleito_E
     a foaf:Person ;
     foaf:affil "Nagoya University, Japan" ;
@@ -1294,6 +1327,10 @@ odp:LeonhardPfleger_R
     a foaf:Person ;
     foaf:affil "Ingolstadt, Germany" ;
     foaf:name "Raphaela Leonhard-Pfleger" .
+
+odp:Lesourd_J
+    a foaf:Person ;
+    foaf:name "Jeremy Lesourd" .
 
 odp:Levenchuk_A
     a foaf:Person ;
@@ -1505,6 +1542,10 @@ odp:Meerovich_MI
     foaf:affil "Ukraina" ;
     foaf:fullname "Марк Иосифович Меерович"@ru ;
     foaf:name "Mark Meerovich" .
+
+odp:Mei_CA
+    a foaf:Person ;
+    foaf:name "Mei Choo Ang" .
 
 odp:MejiaGutierrez_R
     a foaf:Person ;
@@ -1738,6 +1779,11 @@ odp:Phadnis_S
     foaf:affil "TRIZ Association of Asia, India" ;
     foaf:name "Shree Phadnis" .
 
+odp:Phadnis_N
+    a foaf:Person ;
+    foaf:affil "TRIZ Association of Asia, India" ;
+    foaf:name "Nikhil Phadnis" .
+
 odp:Pheunghua_T
     a foaf:Person ;
     foaf:affil "Thailand" ;
@@ -1819,6 +1865,10 @@ odp:Przetakiewicz_W
     a foaf:Person ;
     foaf:affil "Maritime University of Szczecin, Poland" ;
     foaf:name "Wojciech Przetakiewicz" .
+
+odp:Pyao_Y
+    a foaf:Person ;
+    foaf:name "Yuliya Pyao" .
 
 odp:Qin_L
     a foaf:Person ;
@@ -1925,6 +1975,11 @@ odp:Savelli_S
     foaf:affil "MP Solving, Belgium" ;
     foaf:name "Stéphane Savelli" .
 
+odp:Savenkov_A
+    a foaf:Person ;
+    foaf:affil "Moscow, Russia" ;
+    foaf:name "Andrey Savenkov" .
+
 odp:Sawaguchi_M
     a foaf:Person ;
     foaf:affil "WASEDA University, Japan" ;
@@ -2003,6 +2058,10 @@ odp:Seo_J
     a foaf:Person ;
     foaf:affil "Samsung Electronics, South Korea" ;
     foaf:name "Jiho Seo" .
+
+odp:Seo_SM
+    a foaf:Person ;
+    foaf:name "Seo Seongmin" .
 
 odp:Seredinski_AV
     a foaf:Person ;
@@ -2153,7 +2212,11 @@ odp:Slugin_GI
 odp:Smirnov_EE
     a foaf:Person ;
     foaf:fullname "Е.Е. Смирнов"@ru ;
-    foaf:name "E. E. Smirnov", "E.E. Smirnov" .
+    foaf:name "E. E. Smirnov" .
+
+odp:Smirnova_E
+    a foaf:Person ;
+    foaf:name "Evgenia Smirnova" .
 
 odp:Smolnik_M
     a foaf:Person ;
@@ -2192,6 +2255,11 @@ odp:Song_MJ
 odp:Song_XL
     a foaf:Person ;
     foaf:name "Xiaolei Song" .
+
+odp:Song_YW
+    a foaf:Person ;
+    foaf:affil "South Korea" ;
+    foaf:name "Song Yong Woon" .
 
 odp:Souchkov_VV
     a foaf:Person ;
@@ -2332,6 +2400,10 @@ odp:Tsourikov_VM
     foaf:fullname "Валерий Михайлович Цуриков"@ru ;
     foaf:name "Valery M. Tsourikov" .
 
+odp:Turior_R
+    a foaf:Person ;
+    foaf:name "Rohan Turior" .
+
 odp:Tyukov_AP
     a foaf:Person ;
     foaf:affil "Volgograd, Russia" ;
@@ -2430,11 +2502,6 @@ odp:Wessner_J
     a foaf:Person ;
     foaf:affil "Gerlingen, Germany" ;
     foaf:name "Jochen Wessner" .
-
-odp:Won_SY
-    a foaf:Person ;
-    foaf:affil "South Korea" ;
-    foaf:name "Song Yong Won" .
 
 odp:Wozniak_M
     a foaf:Person ;
@@ -2553,6 +2620,10 @@ odp:Zakharov_AN
 odp:Zaleski_M
     a foaf:Person ;
     foaf:name "Marek Zaleski" .
+
+odp:Zasedenets_I
+    a foaf:Person ;
+    foaf:name "Igor Zasedenets" .
 
 odp:Zhang_E
     a foaf:Person ;

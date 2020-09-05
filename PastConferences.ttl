@@ -12,8 +12,28 @@
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
     a owl:Ontology ;
-    rdfs:label "TSN: Past Conferences" ;
+    rdfs:label "TSN: Past TRIZ Conferences" ;
     owl:imports <http://opendiscovery.org/rdf/ConferenceSeries/>, <http://opendiscovery.org/rdf/People/> .
+
+<http://opendiscovery.org/rdf/Conferences/MOF-2020> 
+    a swc:ConferenceEvent ;
+    rdfs:label "MOF 2020 - MATRIZ Online Forum 2020" ;
+    ical:dtend "2020-09-27"^^xsd:date ;
+    ical:dtstart "2020-09-24"^^xsd:date ;
+    ical:location "Online, supported by the Moscow TRIZ Club" ;
+    ical:summary "MOF - spelled as \"MATRIZ Online Forum\" or \"Moscow Online Forum\" - is a new format of an online event created by MATRIZ together with the Moscow TRIZ Club with its head Dmitri Bachturin as the main organizer of the MOF 2020. "@en ;
+    od:detailedReport <http://wumm.uni-leipzig.de/rdf/MOF-2020.rdf> ;
+    ical:url <https://mostrizclub.net/en/matriz-online-forum-24-27-september-2020/> .
+
+<http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020>
+    a swc:ConferenceEvent ;
+    rdfs:comment "Presentations of the Business Online Conference 2020" ;
+    rdfs:label "Business TRIZ Online 2020" ;
+    ical:summary "The conference MOF - spelled as \"MATRIZ Online Forum 2020\" or \"Moscow Online Forum 2020\" is a online conference format newly created by the MATRIZ with simultaneous translation of the talks to English, Russian and Chinese. "@en;
+    ical:dtend "2020-09-27"^^xsd:date ;
+    ical:dtstart "2020-09-24"^^xsd:date ;
+    ical:location "Online" ;
+    ical:url <https://mostrizclub.net/en/matriz-online-forum-24-27-september-2020/> .
 
 <http://opendiscovery.org/rdf/Conferences/GermanTRIZOnline-2020>
     a swc:ConferenceEvent ;
