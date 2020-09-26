@@ -69,7 +69,7 @@ dcterms:creator odp:Zhao_MM .
 
 :Paper_112 a od:Paper;
  dcterms:title "Coupled functions formulation";
-dcterms:creator odp:Lebedev_Y, odp:Logvinov_SA . 
+dcterms:creator odp:Lebedev_YV, odp:Logvinov_SA . 
 
 :Paper_113 a od:Paper;
  dcterms:title "Deep understanding and applying flow analysis, simplified detective flow classification models";

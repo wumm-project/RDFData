@@ -16,7 +16,7 @@
     ical:dtend "2020-09-27"^^xsd:date ;
     ical:dtstart "2020-09-24"^^xsd:date ;
     ical:location "Online, supported by the Moscow TRIZ Club" ;
-    ical:summary "MOF - spelled as \"MATRIZ Online Forum\" or \"Moscow Online Forum\" - is a new format of an online event created by MATRIZ together with the Moscow TRIZ Club with its head Dmitri Bachturin as the main organizer of the MOF 2020. "@en ;
+    ical:summary "MOF - spelled as \"MATRIZ Online Forum\" or \"Moscow Online Forum\" - is a new format of an online event created by MATRIZ together with the Moscow TRIZ Club with its head Dmitri Bachturin as the main organizer of the MOF 2020. All materials of MOF 2020 to be disseminated for participants during 1 month after event, only for personal use, without permission for open publication. A publication of the talks is not intended."@en ;
     ical:url <https://mostrizclub.net/en/matriz-online-forum-24-27-september-2020/> .
 
 :Talk_100
@@ -38,13 +38,14 @@
     a od:Talk .
 
 :Talk_103
-    dcterms:creator odp:Phadnis_N, odp:Phadnis_S ;
+    dcterms:creator odp:Phadnis_N ;
     dcterms:language "en" ;
     dcterms:title "Comparing and Contrasting MPV Analysis with Jobs-To-Be-Done Theory"@en, "Vergleichen und Gegenüberstellen der MPV-Analyse mit der Theorie der zu erledigenden Aufgaben"@de, "Сравнение и сопоставление анализа ключевых параметров ценности (MPV) с теорией выполнения задач (Jobs-To-Be-Done Theory) "@ru, "將MPV分析與即將完成的理論進行比較和對比"@zh ;
     a od:Talk .
 
 :Talk_104
     dcterms:creator odp:Feygenson_NB, odp:Feygenson_ON ;
+    od:presentedBy odp:Feygenson_NB ; 
     dcterms:language "ru" ;
     dcterms:title "Instrumental Approach to Multi-Screen Scheme of Thinking"@en, "Instrumenteller Ansatz für ein Multi-Screen-Denkschema"@de, "Инструментальный подход к многоэкранной схеме мышления"@ru, "跨屏思維方案的儀器方法"@zh ;
     a od:Talk .
@@ -63,6 +64,7 @@
 
 :Talk_107
     dcterms:creator odp:Kudryavtsev_AV, odp:Minaker_VE ;
+    od:presentedBy odp:Minaker_VE ;
     dcterms:language "ru" ;
     dcterms:title "Besonderheiten beim Entfalten von Widersprüchen aus Problemsituationen"@de, "Special Features of unfolding contradictions out of problem situations"@en, "Особенности разворачивания противоречий из проблемных ситуаций"@ru, "從問題中解決矛盾的特殊功能"@zh ;
     a od:Talk .
@@ -80,9 +82,9 @@
     a od:Talk .
 
 :Talk_110
-    dcterms:creator odp:Lebedev_Y ;
+    dcterms:creator odp:Lebedev_YV ;
     dcterms:language "ru" ;
-    dcterms:title "Besonderheiten der Analyse technologischer Prozesse bei der Durchführung von Funktions- und Stream-Analysen"@de, "Special Features of technological processes analysis when performing functional and stream analysis"@en, "Особенности анализа технологических процессов при выполнении функционального и потокового анализа"@ru, "執行功能和流分析時技術過程分析的特殊功能"@zh ;
+    dcterms:title "Besonderheiten der Analyse technologischer Prozesse bei der Durchführung von Funktions- und Fluss-Analysen"@de, "Special Features of technological processes analysis when performing functional and stream analysis"@en, "Особенности анализа технологических процессов при выполнении функционального и потокового анализа"@ru, "執行功能和流分析時技術過程分析的特殊功能"@zh ;
     a od:Talk .
 
 :Talk_111

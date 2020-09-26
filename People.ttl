@@ -1281,10 +1281,10 @@ odp:Lautenschlaeger_S
     foaf:homepage <https://triz-water.de> ;
     foaf:name "Sabine Lautenschläger" .
 
-odp:Lebedev_Y
+odp:Lebedev_YV
     a foaf:Person ;
     foaf:affil "Russia/South Korea" ;
-    foaf:fullname "Юрий Лебедев"@ru ;
+    foaf:fullname "Юрий Валентинович Лебедев"@ru ;
     foaf:name "Yury Lebedev" .
 
 odp:Lee_A

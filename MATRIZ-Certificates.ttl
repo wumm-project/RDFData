@@ -779,7 +779,7 @@ od:TRIZMasterCouncil
 
 <http://opendiscovery.org/rdf/Certificate/L4.97>
     od:issued "2011-12" ;
-    od:owner odp:Lebedev_Y ;
+    od:owner odp:Lebedev_YV ;
     a od:CertificateLevel4 ;
     foaf:name "Yury Lebedev" .
 
@@ -822,7 +822,7 @@ od:TRIZMasterCouncil
 
 <http://opendiscovery.org/rdf/Certificate/L5.102>
     od:issued "2015-09-12" ;
-    od:owner odp:Lebedev_Y ;
+    od:owner odp:Lebedev_YV ;
     a od:CertificateLevel5 ;
     foaf:name "Yury Lebedev" .
 
