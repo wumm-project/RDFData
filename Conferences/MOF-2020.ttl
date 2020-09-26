@@ -50,7 +50,7 @@
     a od:Talk .
 
 :Talk_105
-    dcterms:creator odp:Hong_KS, odp:Won_SY ;
+    dcterms:creator odp:Hong_KS, odp:Song_YW ;
     dcterms:language "en" ;
     dcterms:title "ETCH equipment cleaning time reduction"@en, "Reduzierung der Reinigungszeit für ETCH-Geräte"@de, "Кейс: Сокращение времени очистки травильного оборудования (Англ)"@ru, "減少ETCH設備清潔時間"@zh ;
     a od:Talk .

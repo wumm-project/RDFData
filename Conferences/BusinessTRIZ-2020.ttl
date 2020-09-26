@@ -20,6 +20,7 @@
     ical:dtend "2020-07-24"^^xsd:date ;
     ical:dtstart "2020-07-23"^^xsd:date ;
     ical:location "Online" ;
+    od:theVideos <https://www.youtube.com/playlist?list=PLFgocOPCN0ydxxSwLXjQOaBUFR8XVOKxA> ; 
     ical:url <http://www.biztriz.net/news/2-uncategorised/32-2020.html> .
 
 :Talk_101

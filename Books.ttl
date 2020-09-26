@@ -56,6 +56,15 @@
     bibo:isbn "9781707864195" ;
     a od:TRIZ-Book .
 
+<http://opendiscovery.org/rdf/Book/9798688642292>
+    dc:language "en"^^dcterms:RFC4646 ;
+    dc:publisher "Independently published"@en ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:issued "2020"^^dcterms:W3CDTF ;
+    dcterms:title "Inventive Thinking: TRIZ"@en ;
+    bibo:isbn "9798688642292" ;
+    a od:TRIZ-Book .
+
 <http://opendiscovery.org/rdf/Book/9781711620374>
     dc:language "en"^^dcterms:RFC4646 ;
     dc:publisher "Amazon Digital Services LLC"@en ;

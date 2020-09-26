@@ -197,11 +197,18 @@ odp:Bo_X
     a foaf:Person ;
     foaf:name "Xu Bo" .
 
-odp:Bogatyrev_N
+odp:Bogatyrev_NR
     a foaf:Person ;
+    foaf:affil "Bath, UK";
     foaf:fullname "Николай Ростиславович Богатырёв"@ru ;
     foaf:homepage <https://www.facebook.com/nikolay.bogatyrev.1> ;
     foaf:name "Nikolay Bogatyrev" .
+
+odp:Bogatyreva_OA
+    a foaf:Person ;
+    foaf:affil "Bath, UK";
+    foaf:fullname "Ольга Александровна Богатырева"@ru ;
+    foaf:name "Olga Bogatyreva" .
 
 odp:Boika_S
     a foaf:Person ;
