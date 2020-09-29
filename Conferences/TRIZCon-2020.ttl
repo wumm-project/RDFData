@@ -1,0 +1,116 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix odp: <http://opendiscovery.org/rdf/Person/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix : <http://opendiscovery.org/rdf/Conferences/TRIZCon-2020/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:General 
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZCon> ;
+    rdfs:label "TRIZCon 2020" ;
+    ical:summary "TRIZCon 2020" ;
+    ical:dtend "2020-10-07"^^xsd:date ;
+    ical:dtstart "2020-10-06"^^xsd:date ;
+    ical:location "virtual event" ;
+    ical:url <https://www.aitriz.org/trizcon2020> .
+
+:Talk_101 a od:Talk;
+dcterms:title "Artificial Intelligence assistance for TRIZ activities semi-automation"@en;
+dcterms:creator odp:Cavallucci_D ;
+dcterms:abstract """It is undeniable that our industrial era is entering the digital age. Two successive waves are overwhelming industrial strategies: the digitization of the company with its 4.0 paradigm (robotization, sensors, intelligent piloting) and the rebirth of artificial intelligence that will soon make the difference between companies that will have learned to deal intelligently with it and those that will remain on the old model.
+It is inconceivable that TRIZ will not take advantage of this digital momentum to transform itself. Already a few research organizations are trying to rebuild its tools, but the pace of this research needs to be stepped up if we are not to miss the world's digitization train. To what extent should we claim our place? Well, in that of digitization upstream of R&D, those phases where the ideation is imposed as a producer of breakthrough ideas and the synthesis of the informational states of the art to better steer and decide what to solve.
+This keynote proposes a roadmap of the intelligent digitization of the inventive activity in two phases: formulation assistance and resolution assistance. Some open source algorithms from the world of Artificial Intelligence, enriched by what the TRIZ framework imposes as a way of synthesizing knowledge and aid ideation, will be explained and the first precursor tools of an artificial assistance of the use of TRIZ will be demonstrated live. """@en .
+
+:Talk_102 a od:Talk;
+dcterms:title "The Innovation Pivot: Using strategy and the tactics of Systematic Innovation methods (TRIZ) to outcompete rivals in the marketplace"@en;
+dcterms:creator odp:Platt_R ;
+dcterms:abstract """We are indeed in a profound change underway across the globe with the “Covid19 Pandemic Recession” impacting and affecting every single person and business on the planet. With that said, no company, Fortune 500 or not, is immune from its effect, and the losses are mounting as we speak. So, in such a situation, no one company gets through this current economic & business environment unscathed without innovating their way back to profitability and competitive advantage, and more than likely, they are going to have to do it with strategy leading the way. Do any of you see how it would be any different than that?
+If all companies are really in the same boat, what is it that they are going to offer in their industry that gets their customers back uniquely? How do they get back to profitability and/or competitive advantage, so that those customers would want to hire that company’s products to meet their needs? If you don’t have an immediate answer off the top of your head, then you don’t know. I always suggest some reading of Peter Drucker, in particular, his innovation process and his Seven Sources of Innovation.  Surprisingly to me, Dr. Drucker is not typically one that people in the TRIZ and Systematic Innovation community ever really refer to, nor his innovation process and the Seven Sources of Innovation, and there is much to mine from his seminal work in this area.  However, the main thrust of my presentation here is about not only Dr. Drucker’s contribution to the TRIZ and Systematic Innovation community. It is also to illustrate how a disciplined approach to crafting strategy and the applied tactics of systematic innovation. TRIZ methods included within it enable most firms to be able to make the necessary Innovation Pivot. That will enable their opportunity to create their Minimum Winning Game (another theory that we’ve not heard used and applied in the TRIZ and Systematic Innovation community) to get back to profitability and competitive advantage.  I will also be showing how a firm can do this from a strategic standpoint and a disciplined execution of systematic innovation methods for their competitive advantage and profitability. """@en .
+
+:Talk_103 a od:Talk;
+dcterms:title "Mapping the Un-Mappable: The History of TRIZ 2020-2030"@en;
+dcterms:creator odp:Mann_D ;
+dcterms:abstract """The problem with any attempt to map the future is that we’re forced to deal with complexity, and once we acknowledge that fact, we’re also forced to acknowledge that, in a world in which everything is connected to everything else, it’s not possible to look at the evolution of one entity in isolation from all of the others. Trying to predict the future of TRIZ, in other words, is a meaningless act unless we also consider the context in which it is expected to operate. Which means we need to consider the evolution of not just the world of innovation, but the world itself. The job of mapping the potential futures of TRIZ thus begins to look like something of a fool’s errand. Especially in light of the fact that, since the arrival of Covid-19, almost nothing in life appears predictable anymore.
+But herein lies an irony. Covid-19 was not an unpredictable, ‘Black Swan’ event. Everyone knew that the arrival of the next pandemic was only a matter of time. The reason most parts of the world now find themselves in ‘unprecedented’ times is because many of those in positions of power chose not to prepare. Which, for the most part, given the type of leader many countries have right now, was also completely predictable.
+That the world has now fallen off its current S-curve, also tells us a whole bunch of things about what’s likely to happen next. The s-curve is one of the bottom-up, first-principles from which our world emerges. By understanding S-curves, we have the opportunity to better see what is coming. By examining other bottom-up, first principles – in effect the job that TRIZ researchers have been doing since Genrich Altshuller started on his accidental journey in 1946 – we become able to build a more granular, more meaningful picture of the future.
+In this presentation, we will identify some of the things that will almost inevitably happen in the next ten years and apply them to the world of innovation and thus to TRIZ. There are then a whole bunch of other things that ‘could’ happen in the future, but whether they will or not is not knowable at the moment. Knowing that something ‘could’ happen, though, means that we stand a good chance – if we know how to look at our list of first principles correctly – of identifying Black Swans. Most ‘Black Swans’, we hope to demonstrate, are neither.
+At the time of writing, the world is in the midst of what turns out to be a highly predictable, eminently mappable s-curve-related Disaster Cycle. A Cycle that provides a number of inevitable threats and opportunities over the course of the next 4-5 years. One of the biggest opportunities being that fortune favours the innovator. Another being that, in a fat-tailed, chaotic time when most things are not predictable, the innovator capable of learning the fastest predictably wins. Most innovation over mankind’s history has happened by trial and error. The current global Disaster Cycle is literally the first one in which the first-principle tools (i.e. TRIZ and others) needed in order to eliminate much of the trial and error and to enable exponentially faster learning. It might not end up being called TRIZ, but the next 10 years represent TRIZ’s once-in-a-lifetime opportunity to change the world. Whether we end up changing it for the better or not us up to us. """@en .
+
+:Talk_104 a od:Talk;
+dcterms:title "New TRIZ Business in Times of Global Crisis"@en;
+dcterms:creator odp:Obojski_J, odp:Mlynarski_M, odp:Kaplan_LA ;
+dcterms:abstract """During the emerging Global Depression, TRIZ consulting clients cut off the innovative activities as “non-essential costs.” TRIZ consulting has no chance to survive without income. What can we do?
+There are three apparent decisions.
+First, continue running TRIZ business “as usual,” pretending that Global Crisis does not exist. The majority of TRIZ consultants will opt for this apparent decision, although its window of opportunity is already closing. Working more comfortably, not harder, doing nothing new is good. But, when the crisis hits, they might lose their business wholly and unexpectedly.
+Second, stop running TRIZ business due to Global Crisis, start doing something else, unrelated to TRIZ. However, burying the talent always comes with significant losses.
+Third, find and develop the new application for TRIZ knowledge that would be in demand in times of Global Crisis. The total cost of development and marketing is high, but there is still enough time to invest the intellectual efforts and time in a real rescue of their business.
+We suggest the unique business opportunity: help people to follow the efficient survival rules in times when life principles change erratically and unexpectedly. TRIZ principles can be developed into simple, practical advice, reference sheets, and checklists.
+TRIZ services’ purpose is to help people, to improve their lives. Times of turmoil and uncertainty is the best opportunity to improve TRIZ. Let’s not waste it."""@en .
+
+:Talk_105 a od:Talk;
+dcterms:title "Tasks priority management and decision-making"@en;
+dcterms:creator odp:Agulyansky_AA, odp:Agulyansky_A ;
+dcterms:abstract """Tasks prioritization is a crucial instrument for making your work more effective. If you want to achieve more with less, and if you're going to waste less time for output, instead of being outcome-oriented, task prioritization is mandatory.
+There are plenty of tools that provide help with prioritization. Nevertheless, problem solving science is a relatively new paradigm; therefore, a lot of questions are remaining open and unclear.
+What task is? How can we define the urgency and importance of the task? How do we make a choice between several similar options or items? How to choose one out of two options or items? All these questions are not trivial and demand analyses and understanding.
+In this article, we are going to share some results of our investigations and findings in the field of task priority management. """@en .
+
+:Talk_106 a od:Talk;
+dcterms:title "World Catalogs of TRIZ Sites and Around-TRIZ Sites Built by the Voluntary WTSP Project"@en;
+dcterms:creator odp:Nakagawa_T, odp:Mann_D, odp:Orloff_MA, odp:Dewulf_S, odp:Litvin_SS, odp:Souchkov_VV ;
+od:presentedBy odp:Nakagawa_T ;
+dcterms:abstract """For information sharing and cooperation among TRIZ and related methodologies, we started a voluntary World TRIZ-related Sites Project (WTSP) in Dec. 2017.  Instead of internet surveys which give us messy collections of Web pages, we aimed at building Catalogs of Web sites. Catalogs should collect and select good ones (after evaluation) and introduce them properly one by one. Web sites are suitable as units of the information source because their contents are actively updated at a certain quality and kept openly accessible. 
+We have developed the beta edition of the World WTSP Catalogs, having good structure and practical processes of building them.  
+(A) World TRIZ Sites Catalogs currently have 23 (most important, about top 30) sites and 39 (important, about top 100) sites.  Their data come from contributions by 4 countries (missing 30-40 countries) and internet surveys in the USA and the world. 
+(B) World Around-TRIZ Sites Catalogs have 33 sites, and 127 sites.  The data are obtained by intensive Internet surveys with keywords including Creative thinking, Creative problem solving, Innovation, Quality/value/cost/productivity, Patents, etc.  About 1000 sites are visited one by one and graded and introduced briefly in 3-15 lines.  
+Both Catalogs are structured with Index files and Site-description files, separated but linked with hyperlinks, for flexible and stable management.  Catalogs for Print are also made in PDF files which contain the Index and the Site descriptions together.  The PDF files may be downloaded without charge/registration (under the copyrights kept by WTSP) and printed and used on the user’s PC with active hyperlinks. 
+Voluntary cooperation by many TRIZ colleagues and contributions of Catalog manuscripts by site owners is indispensable for further enhancement of the Catalogs. """@en .
+
+:Talk_107 a od:Talk;
+dcterms:title "How We Used TRIZ Principles to Deal with COVID19"@en;
+dcterms:creator odp:Hipple_J ;
+dcterms:abstract """As a result of the corona virus outbreak, the business world has been turned upside down. The usual interfacing with customers and suppliers has been disrupted to minimize transmission of a highly contagious disease, whose transmission is via mechanisms not seen before in this magnitude. The restrictions on many normal business behaviors such as travel, dining, and face-to-face communication have caused businesses and individuals to attempt to accomplish the same objectives without the traditional resources normally used. In other words, we have had to derive and implement solutions that look suspiciously like the TRIZ concept of the Ideal Final Result with the use of new or undiscovered resources
+A simple example of this is the use of web-based platforms (ZOOM would be one example), previously used primarily for social interactions between physically separated family members, to conduct client meetings as well as internal staff meetings. Since group dining was also greatly restricted, the “Do It in Reverse” principle has been implemented by thousands of food service and other businesses to deliver goods and services.
+This presentation will overview the use of TRIZ principles in response to this crisis and discuss their future use independent of the final outcome of the search for a cure to this virus."""@en .
+
+:Talk_108 a od:Talk;
+dcterms:title "Functional Analysis - The Value Engineering Way"@en;
+dcterms:creator odp:Drummonds_D ;
+dcterms:abstract """Did you know that Functional Analysis came to TRIZ from the Society of American Value Engineers [SAVE].  It was created by Lawrence Miles. The "Save" approach differs from that of TRIZ as you might expect. The purpose of this paper is to explain the SAVE approach and differences to and commonalities with the TRIZ approach. """@en .
+
+:Talk_109 a od:Talk;
+dcterms:title "Generative Inventions. Main Sources of Novelty"@en;
+dcterms:creator odp:Tsourikov_VM ;
+dcterms:abstract """The automatic generation of new inventions requires rich sources of novelty. Where does novelty come from? - This is an essential question. We identify the following sources of a novelty for generative inventions approach: scientific discoveries, prediction of human needs, mega-trends, system engineering, combinatorial synergy.
+Scientific discoveries, new materials, novel algorithms help generate new inventions by analogy on the functional level. Human needs prediction can be made by linking fundamental needs with new technologies. Mega-trend has a core innovation, which can be applied to many domains, thus generating inventions automatically. System engineering, in the form of technological shells, is a platform for automatic inventions in any domain. Combinatorial synergy may become a leading source of novelty but requires a very intelligent human-computer interface. """@en .
+
+:Talk_110 a od:Talk;
+dcterms:title "Using enhanced I-TRIZ to fight the pandemic Covid-19"@en;
+dcterms:creator odp:King_R ;
+dcterms:abstract """This paper will explore several contradictions of COVID-19 and how enhanced I-TRIZ can help resolve them. For example: “We need to open-up the economy, but is it safe? I can go back to work, but I am afraid. Should schools reopen? Or should online learning continue? Or what mix is best? TRIZ is very comprehensive for solving the toughest problems. It is too difficult for me”. The author has been asked to lead a worldwide effort to help resolve these contradictions for separate locations and individuals. It is enhanced I-TRIZ because it includes additional tools used by Altshuler as well as King’s extensive involvement in the improvement business
+Ideation TRIZ is calling this effort FACE Social Innovation Cafes. The focus is to grow the knowledge and use of TRIZ, at a basic level, to show how it can help deal with the COVID-19 virus. And then, to expand it, depending on participants interest, to a deeper understanding and use of I-TRIZ.
+Once the pandemic is history, participants will be encouraged to take on the UN Sustainable Development Goals (such as hunger, poverty, education, healthcare, equality, climate and the other important issues facing our planet). The author believes that enhanced I-TRIZ will be an effective path toward making significant progress on these lofty goals by 2030. """@en .
+
+:Talk_111 a od:Talk;
+dcterms:title "ISO Standards for Innovation and their Impacts on the TRIZ Community"@en;
+dcterms:creator odp:Belfiore_J ;
+dcterms:abstract """In July of 2019, the first of multiple ISO guidance standards for innovation was released.  ISO 56002 offers guidance to product and process organizations for providing continuous improvement of innovation management systems and establishes a common language for innovation practices.  Additional ISO innovation standards are in different stages of development and review, including standards for intellectual property management, strategic intelligence management, and idea management.  The release of ISO 56002 is raising questions from industry leaders and startups alike as to how the standard can be adopted, not only to shape their innovation management systems, but also combine the guidelines with other management system standards such as quality management (ISO 9001), environmental management (ISO 14001), and asset management (ISO 55001).  The emergence of ISO's innovation standards presents a unique opportunity for the TRIZ community to provide focused insight and guidance over the next few years, which could spark a renaissance in the awareness, enablement, and adoption of TRIZ methods across many industries. """@en .
+
+:Talk_112 a od:Talk;
+dcterms:title "Inventing Complex, Intelligent, Strategic Systems (CISS) - ALVIS-SCAN thinking for the Sixth Wave of Innovation"@en;
+dcterms:creator odp:Bhushan_N ;
+dcterms:abstract """We define a new class of systems and products named Complex Intelligent Strategic Systems (CISS). We propose that these systems are emerging in the Sixth Wave of Innovation (years 2015-2045). We evolve the formal definition of a system described in TRIZ and in Hubka’s Theory of Technical Systems, to include technical systems with a “mind” of their own. This also maps to the 10th Law of TRIZ proposed in 2012 – the Law of Increasing Intelligence of Technical Systems. The challenges of discovering, defining, describing, designing, developing, deploying, and deducing (7Ds) the CISS require a complete relook of their lifecycle. Besides the advent of cyber-physical systems, increasing intelligence of technical systems, the massive scale of these systems coupled with strategic nature of many of these systems leads to unprecedented challenges. 
+These systems are characterized by substantial decentralization, higher embedded/ambient algorithmic intelligence, inherently conflicting, unknowable and diverse needs/requirements, continuous evolution/deployment/learning, heterogeneous, inconsistent, and changing elements, erosion of people/system boundary, regular failures and new paradigms regeneration of parts of the system. Key aspects for 7Ds of CISS lifecycle i.e., Value, Inventiveness, Human Interaction, Computational Emergence, multi-level Design, Computational Engineering, Adaptive System Infrastructure, Adaptable and Predictable System Quality, Policy, Acquisition and Management are explained. Nine thinking dimensions proposed for CISS are Analytical, Logical, Value, Inventive, and Systems thinking (ALVIS) and Scale, Computational, Algorithmic and Network (SCAN) thinking. These thinking dimensions need to play a much larger part in an integrated manner than the current mostly analytical, logical and analogical thinking. We describe few case studies in ALVIS-SCAN thinking and describe ALVIS-SCAN thinking framework for 7Ds of CISS. """@en .
+
+:Talk_113 a od:Talk;
+dcterms:title "TRIZustainability – TRIZ for Sustainability"@en;
+dcterms:creator odp:Wankhade_SH ;
+dcterms:abstract """Sustainability is on the card now. Willing or not, all organizations are bound to stride in the fulfillment of the Sustainable Development Goals (SDG). The good news is that the intent to execute sustainability objectives is evident. However, many companies struggle to bridge the gap between commitment and actual implementation. The complex sustainability issues that businesses are dealing with can be daunting challenges. Many organizations are struggling to achieve sustainability-focused innovation.
+John Elkington has coined the concept of Triple Bottom line, though it consists of only 3 words – People, Planet, and Profit; but it encompasses all walks of life and impact on past, present and future. There are several drives and approaches to meet the SDGs, but one thing is paramount that innovation is the key for attaining it.
+TRIZ is the methodology with rich set of tools which can deal with the contradiction of pros and cons of the Sustainability development. Rather it can make it win-win situation for all by eliminating harm or converting harm to benefits. This paper will substantiate it with relevant case studies. """@en .

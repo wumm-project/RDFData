@@ -29,3 +29,9 @@
     rdfs:label "TRIZ-Fest" ;
     rdfs:seeAlso <https://matriz.org> ;
     od:description "This series of meetings is organized by MATRIZ." .
+
+<http://opendiscovery.org/rdf/ConferenceSeries/TRIZCon>
+    a od:ConferenceSeries ;
+    rdfs:label "TRIZCon" ;
+    rdfs:seeAlso <https://www.aitriz.org/> ;
+    od:description "This series of meetings is organized by the Isak Bukhman's Altshuller Institute." .

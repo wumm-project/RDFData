@@ -33,6 +33,7 @@
 
 :Talk_102
     dcterms:creator odp:Badura_A, odp:Leiner_DF ;
+    od:presentedBy odp:Leiner_DF ;
     dcterms:language "en" ;
     dcterms:title "Inwieweit ist TRIZ / TIPS eine agile Methode?"@de, "TRIZ / TIPS是一種敏捷方法？"@zh, "To what extend is TRIZ/TIPS an agile method?"@en, "Насколько ТРИЗ есть agile - метод"@ru ;
     a od:Talk .
@@ -89,6 +90,7 @@
 
 :Talk_111
     dcterms:creator odp:Abramov_OY, odp:Fimin_P, odp:Smirnova_E ;
+    od:presentedBy odp:Fimin_P ;
     dcterms:language "ru" ;
     dcterms:title "Technologie-Scouting für die Behandlung fester Abfälle: TRIZ-Ansatz"@de, "Technology Scouting for Solid Waste Treatment: TRIZ Approach"@en, "Поиск технологий по переработке твердых отходов: подход ТРИЗ"@ru, "用於固體廢物處理的技術偵查：TRIZ方法"@zh ;
     a od:Talk .

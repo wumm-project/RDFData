@@ -1,0 +1,211 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix odp: <http://opendiscovery.org/rdf/Person/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix : <http://opendiscovery.org/rdf/Conferences/TRIZCon-2019/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:General 
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZCon> ;
+    rdfs:label "TRIZCon 2019" ;
+    ical:summary "TRIZCon 2019" ;
+    ical:dtend "2019-05-22"^^xsd:date ;
+    ical:dtstart "2019-05-20"^^xsd:date ;
+    ical:location "Purdue Univ., West Lafayette, USA" ;
+    ical:url <https://www.aitriz.org/trizcon2019> .
+
+:Talk_101 a od:Talk;
+dcterms:title "AI Software that Creates new Inventions - Keynote Presentation"@en;
+dcterms:creator odp:Tsourikov_VM ;
+od:urlVideo <https://www.youtube.com/watch?v=7iats3VehCw>; 
+dcterms:abstract """Creative AI software:
+* generates novel ideas and new inventions automatically
+* uses discoveries, materials, and designs immediately after publications to create revolutionary inventions
+* dramatically multiplies creative productivity of tech teams, yet very easy in use, no training required
+The exponential increase of intellectual power of Artificial Intelligence opens a unique opportunity – to build a Creative AI system which uses newly published technical and scientific knowledge to generate novel ideas and inventions in continuous mode.
+We call this software True Machina™ because unlike other machines, which automate rather simple operations, this software is capable of finding ideas of new inventions, i.e., it automates the most difficult and the most essential human operation – creativity. """@en .
+
+:Talk_102 a od:Talk;
+dcterms:title "Outdoor rescue product design based on TRIZ"@en;
+dcterms:creator odp:Li_JY, odp:Wang_YW, odp:He_XZ ; 
+od:urlPaper <https://www.aitriz.org/trizcon2019/tz2019papers/140-outdoor-rescue-product-design-based-on-triz-1/file> ; 
+dcterms:abstract """With the rapid development of modern material life, the basic physiological needs are no longer the pursuit of people's pursuit, more people pursue a deeper level of security needs and spiritual needs. In recent years, people have paid more and more attention to safety and health issues. Among them, the most involved are health care and post-disaster relief. As people's ideology changes, outdoor activities are becoming more and more abundant. How to ensure people's safety when they are in danger outdoors becomes an important research topic. Based on the TRIZ theory, this paper uses the object field analysis method to identify the core problem quickly. Through the 40 invention principles of TRIZ theory, we study the rescue products that are the main disasters in the outdoor activities and finally, develop an outdoor encounter. Beast, drowning, companion lost, injured, lack of water and food, etc., through anesthesia needle injection, inflatable airbags, signal bombs, positioning, remote control, emergency kits, water collectors, firearms, etc. to improve their own and others' survival chances Multi-functional rescue products. """@en .
+
+:Talk_103 a od:Talk;
+dcterms:title "Design of Multi-Function Positioning Key-link"@en;
+dcterms:creator odp:Wang_T, odp:Wang_YW ; 
+od:urlPaper <https://www.aitriz.org/trizcon2019/tz2019papers/139-design-of-multi-function-positioning-key-link/file> ; 
+dcterms:abstract """It is generally accepted that personal and property security serves as the priority of all citizens and cornerstone of national security and stability, and wasting time and energy looking for keys every time before going out has greatly affects our efficiency. In this regard, we designed a multi-functional keychain featuring on positioning to save people from such troubles and improve their efficiency. As one of the wireless signal digital equipments, the product is composed of control unit chip, infrared ray and USB interface. The product is designed in the form of intelligent charging, one-button start-up of mobile phone APP, low power consumption and easy operation. Combining with the S-shaped evolution curve, causality analysis, morphological analysis and IFR in TRIZ theory, the two improvement directions of the system are obtained. The system is obtained by using the completeness rule, function analysis, object field analysis, nine-screen diagram, physical contradiction, 76 standard solutions and other tools. A series of schemes have been put forward. Finally, we evaluate these schemes and analyze their functional value to get the final scheme. Finally, we evaluate these schemes and analyze their functional value to get the final scheme. It realizes the combination of smart chip and mobile phone APP operation, single-machine locating button line locating mode, keys vibrating and luminous and sound alarm, and banknote checking, lighting, storage and alarm functions as well as an integrated positioning system. """@en .
+
+:Talk_104 a od:Talk;
+dcterms:title "Research on Innovative Application of TRIZ Theory in Vocational Education"@en;
+dcterms:creator odp:Tan_QJ, odp:Yang_H ; 
+od:urlPaper <https://www.aitriz.org/trizcon2019/tz2019papers/138-research-on-innovative-application-of-triz-theory-in-vocational-education/file> ; 
+dcterms:abstract """Engineering education model based on TRIZ, including an entrepreneurship practice platform for college students, is discussed in this paper. On the platform, the innovation and entrepreneurship project are implemented, the entrepreneurship team is formed, and Heilongjiang ZhuoAo Robot Technology Co.Ltd is established. The project implementation results showed that vocational college student’s professional skill is improved through TRIZ education. Thus it cultivates the student’s engineering practice ability, innovation ability, and Entrepreneurial ability. """@en .
+
+:Talk_105 a od:Talk;
+dcterms:title "Design of Tomato Picking Device based on TRIZ"@en;
+dcterms:creator odp:Meng_H, odp:Wang_YW, odp:Hu_J ;
+dcterms:abstract """To solve the damage of the epidermis caused by mechanical contact picking of tomato, a new type of tomato picking device, keeping the whole fruit, is designed. It consists of a separation mechanism, a positioning mechanism, and a bearing mechanism. The separation mechanism of the picking device needs to be designed with the crank-slider mechanism though TRIZ contradiction analysis, and the positioning mechanism adopts the rack and pinion mechanism applied object field analysis, and the bearing mechanism plays a supporting and guiding role to the positioning mechanism and the separating mechanism. Finally, a comparison of various solutions. A new tomato picking manipulator is designed. According to the characteristics of the tomato plant at the end of the platycodon, the growth node is connected with the fruit. Thus the tomato fruit and the platycodon is pulled into the separation mechanism by the positioning mechanism; the separation mechanism pulled the tomato platycodon node again. Recently results show that the equipment has a better ability to pick tomatoes and avoid surface damage during the picking process, and the simple structure increases the overall reliability. """@en .
+
+:Talk_106 a od:Talk;
+dcterms:title "Blockchain: Trust a scale"@en;
+dcterms:creator odp:Deborin_D, odp:Tamuzs_V ; 
+od:urlSlides <https://www.aitriz.org/trizcon2019/tz2019papers/134-blockchain-trast-at-scale/file> ; 
+dcterms:abstract """Blockchain was first used to bring greater transparency, efficiency, and trust to the financial world. Cryptocurrencies, like the notorious Bitcoin, offer a way to quickly, cheaply, and securely connect with people all over the world. Notice, I didn’t explicitly say anything about money, because Bitcoin isn’t just a digital currency, but it’s also a network. Blockchain has the power to create new networks, ecosystems, and custom market spaces around the world. While cryptocurrencies are only one application of blockchain, we will try to explore other potential applications of this very novice technology. We will discuss what makes blockchain so special – it’s decentralization, transparency, and security. Like with any tool or technology, blockchain comes with its limitations, and not every industry needs blockchain. We will try to pinpoint areas where blockchain and TRIZ can successfully intertwine. """@en .
+
+:Talk_107 a od:Talk;
+dcterms:title "New Treatment Paradigm in Fighting Multi-Drug-Resistant Bacteria, Based on TRIZ"@en;
+dcterms:creator odp:Farber_BS, odp:Kleyn_I, odp:Martynov_A ; 
+od:urlSlides <https://www.aitriz.org/trizcon2019/tz2019papers/129-new-treatment-paradigm-in-fighting-multi-drug-resistant-bacteria-based-on-triz/file> ; 
+dcterms:abstract """The discovery of antibiotics was heralded as an unprecedented breakthrough in the fields of medicine and science. Namely the phenomenon of antibiotic resistance. Scientists found that while placing an antibiotic into a culture of microorganisms, while indeed most of the bacteria will die, smaller amounts will survive and multiply. 
+This discovery led to a proliferation n of new antibiotics being produced. The problem was as fast as researchers and pharmaceutical companies could produce them the bacteria became resistant. TRIZ researchers started to examine this epidemic. The crux of the problem can be summed up as a classic TRIZ contradiction: from one side, to stop the production of virulence factors we should stop killing the microorganisms, however from another side, if they are not killed then the bacteria will persist in harming the patients. This contradiction was resolved by us using the principles of TRIZ and studying bacterial growth.
+The major TRIZ principle used in this case is called “inversion” and belongs to the group of methods for resolving contradictions due to structural changes within the system. This TRIZ principle is based on “doing the opposite,” this allows for resolution of contradictions related to the fact that a direct action dictated by the conditions of the problem is unacceptable, but the result is necessary to solve this problem. TRIZ principle: instead of the action dictated by the conditions of the task, we should carry out the reverse action.
+Using TRIZ and mathematical modeling 38,000 FDA generic drugs were analyzed, and 550 substances were selected for further testing. Of those 550 substances, three substances were selected from isoquinoline, imidazole, and pyrimidine derivatives classes in combination (synergy) to create our novel composition. We then set out to test our compound in the lab using in vitro experiments.
+We successfully performed In vitro experiments on strains of P. aeruginosa, A. Baumannii, and K. Pneumonia. The results were astounding, by the third passage on nutrient media with bacterial growth activators, in contrary to the background of rapid growth, all bacteria lost their resistance to antibiotics and ceased to release toxins into the nutrient medium. 
+Our mechanism of action is one in which the bacterium synchronization would be altered, transferring them to the phase of rapid growth which would cause the ceased release of virulence factors. Our project represents a step in a new direction in the fight against multidrug-resistant bacteria.   """@en .
+
+:Talk_108 a od:Talk;
+dcterms:title "Solving the Next Problem: Protecting Your Invention in the Context of U.S. Patent Law - Keynote"@en;
+dcterms:creator odp:Lazarev_D ;
+dcterms:abstract """Intellectual property protection is crucial both for monetization of inventions and for ensuring that they are widely available to the public. While patenting is the most common form of protection for technical inventions, it may not be possible to some other types of inventions due to certain features of U.S. patent law that regulates subject matter eligibility. These issues should be taken into consideration in the course of developing an invention. The presentation will discuss the current state of subject matter eligibility law in light of recent developments aimed at overcoming its shortcomings and internal contradictions.  """@en .
+
+:Talk_109 a od:Talk;
+dcterms:title "New Synergetic Binary Hemostatic Gemma Based on TRIZ"@en;
+dcterms:creator odp:Farber_BS, odp:Kleyn_I, odp:Martynov_A ; 
+od:urlSlides <https://www.aitriz.org/trizcon2019/tz2019papers/132-new-synergetic-binary-hemostatic-gemma-based-on-triz/file> ; 
+dcterms:abstract """Since World War II till the present time, the leading cause of death on the battlefield, in surgical wards and other severe trauma situations is active bleeding. In fact, acute bleeding accounts for up to 60% of the total number of soldiers’ death during combat. The set of complex wounds and injured body tissues cannot completely remove all the fragments of the known hemostatic agents after their application. In addition, powdery substances of non-absorbable granules form which in turn irritate and delay wound healing. Additionally, the exothermic effect of the granules can cause second-degree burns and at times non-absorbable granules may lead to necrosis of the surrounding tissues.
+We were faced with two TRIZ contradictions. The first TRIZ contradiction: from one side, a new substance must quickly stop the bleeding, and the tamponade must be tight and firm, on the other hand, the rapid and firm pressure on the bleeding site may cause ischemia and necrosis of compressed healthy tissues. To avoid that tamponade must be firm and same time must not be firm. The second TRIZ contradiction: on the one hand, in order to stop severe bleeding from multiple injuries, we would need to use a large amount of hemostatic substances, because the volume of the wound is equal to the volume of the powder placed in the wound; on the other hand, it is difficult to carry a large amount of substance on the battlefield. Hemostatic substances should be a small amount and should be big enough to cover a large wound at the same time. 
+Using TRIZ principles we created a new hemostatic agent called Gemma. Gemma has the following unique properties:
+• Biocompatibility with body tissues, thereby not causing necrosis and allergic reactions. 
+• Not cause burns during crystallization in the wound. 
+• Biodegradable in the body.
+• Absorbs 70 times the amount of blood compared to existing hemostatic products. 
+We applied the law of transition to the super-system "mono-bi-poly" and accomplished a great result, when our binary hemostatic swells up and closes a wound much faster than existing analogs. 
+We then set out to test our new hemostatic Gemma. One of the most important indicators of efficacy for hemostatic drugs is their biological inertness and complete controlled biodegradation. Accordingly, as a result of in vitro studies, we established the resorption rate of two experimental products "K1" and "K2" which were tested against Celox and Qucikclot as well. The rats treated with K1or K2 healed twice as fast as those that received Celox or Quickclot.  """@en .
+
+:Talk_110 a od:Talk;
+dcterms:title "Last Resort - Polymyxin Nephrotoxicity Reduction Based on TRIZ - Keynote"@en;
+dcterms:creator odp:Farber_BS, odp:Kleyn_I, odp:Martynov_A ; 
+od:urlSlides <https://www.aitriz.org/trizcon2019/tz2019papers/131-last-resort-polymyxin-nephrotoxicity-reduction-based-on-triz/file> ; 
+dcterms:abstract """The current crisis surrounding multi-drug resistance (MDR) bacteria has changed this situation. The CDC and WHO have sharp warnings of the risks of MDR as health pandemic. As such the CDC has recommended Polymyxin as a last resort therapy. Unfortunately, as noted Polymyxin while being effective still has extreme nephrotoxicity, severely limiting its use even as a last resort therapy. This creates a classis TRIZ contradiction: the need to utilize Polymyxin on the one hand, however using it causes severe kidney damage and is ultimately life threatening.
+TRIZ contradiction: from one side, in order to effectively treat infectious disease and save lives, we should use polymyxin however from another side, polymyxin causes kidney toxicity, preventing from it use in full therapeutic scale. This contradiction was resolved by us using TRIZ principles. 
+Using the TRIZ principles of “pay harm in favor”, imposition, and local quality, our scientists were able to solve this contradiction. We synthesized a new drug, that when added to Polymyxin, greatly reduces or eliminates nephrotoxicity. 
+The principle of imposition. Using this principle, we separate the “interfering” part from the object (the “interfering” property — in our case is nephrotoxicity) or, on the contrary, select the only necessary part (the desired property is to leave only the antimicrobial activity of polymyxin). The principle of local quality. a) To go from one object structure (or external environment, external influence) to a non-uniform (there was one polymyxin, now its combination with a nephroprotector) structure.
+b) Different parts of the object should perform different functions (the main antimicrobial polymyxin and additional nephroprotector NGL022).
+c) Each part of the object must be in the conditions most favorable for its work. The principle of "pre-planted pillows." Compensate for the relatively low reliability of the facility by prepared emergency means.
+Using these principles, we created a pharmaceutical composition containing polymyxin and an additional harmless compound (as per principle of local quality — each component of the composition performs its function), in which the affinity (tropism) to renal megalin (a target protein in the kidney that is blocked by polymyxin, thus harming the function of the kidneys) is higher than polymyxin affinity, but which does not cause any toxic effects to the kidneys. 
+Our novel product, NGL022, was tested in vivo and shown to be highly effective. NGL022 can re-potentiate Polymyxin creating a top line treatment against MDR.  """@en .
+
+:Talk_111 a od:Talk;
+dcterms:title "55 year-long Fascinating Experiment Inspired by Leonardo Da Vinci -- Keynote Presentation"@en;
+dcterms:creator odp:Farber_BS ; 
+dcterms:abstract """Two of the most important events happened during my childhood. The first was a present I received from parents for my 10th birthday, a collection of books and coins dedicated to Leonardo Da Vinci since my father’s favorite character was Da Vinci. The second event occurred when I was 11. My father introduced me to TRIZ, a new philosophy of system thinking, and a year later, he introduced me to Genrich Altshuller. These events inspired me to want to understand the legacy of Leonardo Da Vinci from different perspectives, especially from the perspective of TRIZ. Leonardo’s Notebooks became my guide. 
+I kept a list of Da Vinci’s fields of expertise, on which I based my studies. As a result, I pursued a diverse education in 19 institutions and postgraduate schools. This has helped me in creativity not only in the fields which made the cut on my list but also with overlapping their numerous combinations which have been successfully used for more than 700 hundred of my projects and inventions and hundreds of my publications. 
+The first part of the presentation is devoted to Synergy of Combination of TRIZ and Bioengineering Science.
+I have set the task of a fundamental breakthrough in technology and the creation of new prostheses of the future.
+Based on a strong scientific-mathematical foundation, mathematical models were created (for example, https://pdfs.semanticscholar.org/c228/285c8defe3dd05c88a46367a83bc15578367.pdf).
+Based on biomechanical research and mathematical modeling, a general theory of prosthetics was created. 3D results of our research were published in four-volume books titled "Theoretical Aspects of Motion Control and Electro-Stimulation" which became bestsellers for professionals in this domain. 
+We designed and implemented pioneer technology in Biomechanics and Prosthetics (for example, https://www.rehab.research.va.gov/jour/95/32/4/pdf/farber2.pdf).
+Even though hundreds of inventions and technologies in the field of Biomechanics, Bioengineering, and Prosthetics were created, in order to save space and time, we will illustrate a few examples from our extensive database that were solved by applying biomechanical research, mathematical modeling, and modern achievements of science and TRIZ.
+The second part of the presentation is devoted to Synergy of Combination of TRIZ and Biotechnologies.
+After personally having discussions with Genrich Altshuller, the next logical step was to apply this approach of self-adjusted and self-organized dynamical system for developing different aspects in the medical field including medical drugs and diagnostics. Research in self-adjusted and self-organized dynamical drugs began in 1993. As a result, a new group of 23 medical drugs and methods of diagnostics were discovered, including new approaches in synergy and the first dynamic drugs in the World. These drugs are quasi-living, self-adjusted, self-organizing dynamic medicinal and diagnostic medicines, which represent a revolutionary jump from static medicines to dynamic drugs with variable structure and synergy (for example https://zenodo.org/record/2547580#.XGVsUlVKiWE).  """@en .
+
+:Talk_112 a od:Talk;
+dcterms:title " TRIZ and Developing of Creative Imagination - Keynote Presentation"@en;
+dcterms:creator odp:Amnuel_PR ; 
+dcterms:abstract """The study of the TRIZovian methods, rules, and techniques, as well as the study of science fiction ideas in literary fiction, led to the identification of about twenty techniques with which one can develop creative imagination. Developed imagination, in turn, is an indispensable quality that a creative person should possess. Ways of developing creative fantasy are considered, including a set of standard techniques, a «floor» scheme, the method of little men, etc.  """@en .
+
+:Talk_113 a od:Talk;
+dcterms:title "Research on Enhancing the Efficiency of Fire Extinguishing Method with Water Based on TRIZ"@en;
+dcterms:creator odp:Zhao_XJ, odp:Zhong_Y, odp:Qiao_A; 
+od:urlPaper <https://www.aitriz.org/trizcon2019/tz2019papers/116-research-on-enhancing-the-efficiency-of-fire-extinguishing-method-with-water-based-on-triz/file> ; 
+dcterms:abstract """In the face of raging fire, the affected people anxious. How to effectively control the fire? How to quickly eliminate the fire? These problems are one of the most important issues that the fire brigade will continue to solve. Water is the most commonly used the most effective fire extinguishing agent. How to use the same amount of water to destroy a larger area of fire? How to put out the fire for the first time? How to better protect people's lives and property? This paper revolves around these issues.
+The fundamental problem of this paper is that the efficiency of fire engines is not high, so, that is no effective control of fire. Then, according to the three bad phenomena of the firefighting scene (insufficient, freezing, discontinued), we use causal analysis to find the three breakthrough points of the problem. We use the contradictory analysis and Substance - field analysis to solve; get the final effective solution. That is, on the basis of the existing fire engines, we will increase the heating equipment to heat the water to a high temperature which is more conducive to the fire extinguishing and quickly generate a large amount of water vapor in the fire site. And, after practice and market test, this study has achieved great social and economic benefits.
+The innovation of this paper is that the TRIZ theory is applied to the design of water heating fire engines. Through the analysis and combing of TRIZ theory, it has successfully promoted the fire-extinguishing efficiency of water fire-fighting fire engines and has succeeded in saving water resources and protecting the environment.  """@en .
+
+:Talk_114 a od:Talk;
+dcterms:title " Strong Thinking in Mordern Science - Keynote Presentation"@en;
+dcterms:creator odp:Amnuel_PR ; 
+dcterms:abstract """TRIZ is an important, necessary part of the general science of strong thinking. The qualities that distinguish strong (creative, TRIZ) thinking from the usual, unstructured are considered. A four-stage classification of scientific discoveries is introduced, and also modern problems facing science, in particular, astrophysics and cosmology, are considered. Specific examples have shown where, when and how scientists use strong thinking methods (in particular, TRIZ and creative imagination) in their work. As an example, a new classification of extraterrestrial civilizations is given.  """@en .
+
+:Talk_115 a od:Talk;
+dcterms:title "Formulating Hard Problems for Solution: Case Studies of Three Important Problems - Half-Day Workshop"@en;
+dcterms:creator odp:Ariyur_K, odp:Schollmeyer_J ; 
+od:urlSlides <https://www.aitriz.org/trizcon2019/tz2019papers/112-formulating-hard-problems-for-solution-case-studies-of-three-important-problems/file> ; 
+dcterms:abstract """The purpose of this half-day workshop is to provide TRIZCON2019 attendees a condensed version of the highly successful course on Innovation and Problem Solving taught at Purdue in conjunction with a qualitative approach that has proved efficient in finding solutions to longstanding problems in European industry. The Purdue course has resulted in students producing professional journal quality work within 3 months (something that usually takes 3-4 years) in a variety of areas.  The key to success has been a framework of problem formulation that is at once rigorous and easy to set up dynamic function chains that influence the objective of the problem solver. This framework permits iterative reformulation of the problem that enables far more efficient use of heuristics from a variety of disciplines in a TRIZ framework. Because the framework can be immediately quantified, it also permits immediate testing of solution approaches for feasibility and implementation. Once quantitative conditions are clear, qualitative methods can potentially be used to speed up the solution. The framework is demonstrated in the most fundamental challenge problems facing mankind. Because the future cannot be predicted, the fundamental challenge for human society has always been increasing future energy availability, which increases the variety of situations we can handle in the future. Unlike other animal species, human beings can reorganize to reduce wastage of energy, develop new sources of energy, and most importantly, record human experience, so the next generation solves problems more efficiently. We develop detailed formulations of these problems - finding new energy sources, overhead reduction, and education - along with a variety of feasible solution approaches accessible to today's technology.  """@en .
+
+:Talk_116 a od:Talk;
+dcterms:title "Methodology for TRIZ application in research projects"@en;
+dcterms:creator odp:Atvars_A, odp:Bukhman_IB ; 
+od:urlSlides <https://www.aitriz.org/trizcon2019/tz2019papers/110-methodology-for-triz-application-in-research-projects/file> ; 
+dcterms:abstract """Researchers are evaluated by outcomes of their activities – scientific publications and developed technologies. Researchers with highest outcome values have the highest chance to attract funding, to obtain positions of a professorship in top universities and to obtain recognition, including various prizes of the scientific community. Research projects are channels for how public and private funding is available to researchers and how research activities are financed. Research projects are typically realized within 2-3 years and during this period novel research results have to be obtained. TRIZ as a tool for solving various technical problems and forecasting the development of technology can support the realization of high-quality research projects. The methodology for TRIZ application in research projects is proposed.  """@en .
+
+:Talk_117 a od:Talk;
+dcterms:title "High-Speed PTZ Camera for Law Enforcement Vehicle Application"@en;
+dcterms:creator odp:Wan_Y ; 
+od:urlPaper <https://www.aitriz.org/trizcon2019/tz2019papers/109-high-speed-ptz-camera-for-law-enforcement-vehicle-application/file> ; 
+dcterms:abstract """High-Speed PTZ Camera developed in this study is a new camera system for law enforcement and other public-safety vehicle application. The camera has three degrees of freedom: Horizontal, Vertical, and Zoom, also known as Pan–Tilt–Zoom (PTZ). It communicates with the controller by RS-485 with PELCO-D protocol or by ethernet inside the vehicle. The current system has a limitation on vehicle speed under 50 mph. 
+In this study, we are working on improving the high-speed (above 65 mph) stability to make it suitable for pursuit environment and maneuvers. The improving will mainly focus on the Horizontal and Vertical axis. The goal is to make the camera response to every order the controller send out, within 0.5-second delay. The author is trying to improve control through PELCO-D protocol to achieve the design goals. The more stable system allows the police officers to operate the camera in a much convenience way. Furthermore, with a stable controller, developers can easily add more function to the system with Visual Identity, including real-time patrolling video transmission, automatic speed radar, and automatic tracking suspect vehicle during a pursuit.  """@en .
+
+:Talk_118 a od:Talk;
+dcterms:title "Streamlining The Medical Device And Combination Product Regulatory Approval Process"@en;
+dcterms:creator odp:Hunt_M ; 
+od:urlPaper <https://www.aitriz.org/trizcon2019/tz2019papers/105-streamlining-medical-device-and-combination-product-regulatory-approval-processes/file> ; 
+dcterms:abstract """The rise of combination products in the medical device and pharmaceutical worlds, largely resulting from the growth in research and use of biologics has led to the ever more common use of pre-filled syringes, auto-injectors, subcutaneous infusion over short or long periods using a pump, and other non-oral dosing routes of administration. Due to the timeline differences in bringing drugs and devices to market (an average of 12 years for a drug; 1-5 years for a device), the device constituent part of a combination product is sometimes developed separately from the drug as a general drug delivery system, and minor changes are made to ensure compatibility with a certain drug asset or risk level. Regulations are catching up, such as Regulation EU 2017/745, Medical Device Regulation, in Europe. Regulatory requirements around medical devices, drugs, biologics, and combination products, vary by country, although some countries (such as European Union member states) accept approval by other countries with few or no additional regulatory requirements. Unique regulatory requirements or submission requirements, particularly when involving a separate regulatory center or body, add a considerable amount of time and money to the approval process. Streamlining the approval process, while maintaining standards for safety, efficacy, and reporting can help bring therapies to patients faster and reduce the cost of bringing new treatments to market. With TRIZ tools, the processes used by different regulatory bodies will be analyzed to identify areas that can be optimized to reduce time and cost to market without compromising efficacy and patient safety.  """@en .
+
+:Talk_119 a od:Talk;
+dcterms:title "Development of an Electric Field Actuator for Thermoacoustic Instability Suppression in a Gas Turbine Combuster"@en;
+dcterms:creator odp:Cruise_DL, odp:King_GB ; 
+od:urlPaper <https://www.aitriz.org/trizcon2019/tz2019papers/107-application-of-an-electric-field-actuator-for-thermoacoustic-instability-suppression-in-a-flame/file> ; 
+dcterms:abstract """Thermoacoustic instabilities are a significant challenge to implementing lean combustion in gas turbine engines. Although many theoretical control strategies have been proposed, few have been implemented due to lack of a practical control actuator. Reported in this work is the development of such an actuator, which is based on an electric field applied directly to the flame. The actuator works on the known effects of ionic wind and chemical kinetic enhancement. A laboratory burner has been constructed which exhibits a thermoacoustic instability, contains the electrodes and high-voltage amplifier for electrical forcing, and is outfitted with sensors to measure the resulting current and acoustic pressure. Initial testing indicates the electric field effect is great enough to modulate the acoustic pressure of the flame, or completely disrupt the instability mechanism. System identification has been performed to construct a model suitable for feedback control. Initial measurements and the model are presented here.  """@en .
+
+:Talk_120 a od:Talk;
+dcterms:title "What Principles Were Used in the Euclidean Proof of the Theorem 1-47 (\"Pythagoras\")?"@en;
+dcterms:creator odp:Polkovnikov_I ; 
+od:urlPaper <https://www.aitriz.org/trizcon2019/tz2019papers/108-what-principles-were-used-in-the-euclidean-proof-of-the-theorem-1-47-pythagoras/file> ; 
+dcterms:abstract """In the proof of the famous Proposition 1-47, Euclid used several well-known TRIZ inventive principles as well as clearly establishing the Ideal Final Result and introducing an X-element. In this example, it is discussed what systems and their hierarchies, from an inventive point of view, could be in mathematics. What is the interaction? What is a field (in TRIZ terms)? The line of proof wiggling from a system level to a system level is shown.  """@en .
+
+:Talk_121 a od:Talk;
+dcterms:title "The Laws of Technical Systems Evolution as Productive Tautologies"@en;
+dcterms:creator odp:Schollmeyer_J, odp:Tamuzs_V ; 
+od:urlPaper <https://www.aitriz.org/trizcon2019/tz2019papers/99-the-laws-of-technical-systems-evolution-as-productive-tautologies-4-hour-tutorial/file> ; 
+dcterms:abstract """While the question of whether or not technological evolution can be predicted remains open, the Classical Theory of Inventive Problem Solving (TRIZ) claims that a set of laws governs the evolution of technical systems. Genrich Altshuller and his students identified eight of them. Since then, the TRIZ community continued to work on this topic, and further systems of laws or trends emerged. As it is told, Altshuller discovered his laws by studying patents and the history of technology. However, it can be shown that these laws can be reformulated as follows from the meaning of “technical system” much as the meaning of “bachelor” (an unmarried male person) implies the feature of “not being married.” By fully articulating the meaning of a technical system that tautologically implies Altshuller’s laws, the conditions under which these laws hold water will be made explicit.  """@en .
+
+:Talk_122 a od:Talk;
+dcterms:title "Logical Root Cause Analysis (LRCA)"@en;
+dcterms:creator odp:Schollmeyer_J ; 
+dcterms:abstract """Logical Root Cause Analysis (LRCA) is the product of the best features selection from state-of-the-art methods for root cause analysis such as Kepner-Tregoe (KT), Fault Tree Analysis (FTA), Anticipatory Failure Determination (AFD), Current Reality Trees (CRT), and Root Conflict Analysis (RCA+). LRCA is deductive (like FTA, AFD, and RCA+), creative (working with inversion, like AFD), and visualizes the interconnectedness of hypotheses using logical operators (like CRT, RCA+, and FTA). Each hypothesis is represented in the form of complete functional chains (like AFD), based on the resources provided by the defective system and its environment. LRCA's domino principle ensures that hypotheses can be constructed stepwise in a deductive manner, ensuring completeness of analysis and allowing one to rule out false hypotheses before they have been fully articulated. As a result, LRCA efficiently provides a map of the problem, making it possible to tackle it strategically. """@en .
+
+:Talk_123 a od:Talk;
+dcterms:title "Would doing art make you even more communicative and creative?"@en;
+dcterms:creator odp:Walesh_SG ; 
+od:urlSlides <https://www.aitriz.org/trizcon2019/tz2019papers/92-can-doing-art-make-you-even-more-communicative-and-creative/file> ; 
+dcterms:abstract """Vision dominates our senses because sight employs connections to more parts of our brain than any of the other senses. Therefore, if we want to effectively learn or teach a subject, understand or explain something, or create something new, we should make frequent and effective use of our and others’ vision. 
+This paper’s goal is to encourage the student or practitioner reader to explore doing a visual art or, if already an artist, to broaden and deepen his or her understanding of and doing visual art. Why? Because doing art will, as demonstrated in this paper, strengthen his or her vision and, as a result, enhance communication and creativity. 
+The paper begins with a summary of drawing’s history, to set the scene for an in-depth discussion of the benefits of doing art, and to introduce the pros and cons of today’s computer-aided drawing. This is followed by encouraging non-artists to experiment with doing art, arguing that essentially anyone can do so. 
+The major part of the paper describes and illustrates three benefits of doing art. These benefits are: 1) Seeing more, literally and metaphorically and, therefore, more effectively defining challenges and developing creative solutions. 2) Applying composition rules to become a better communicator. 3) Learning brain basics and applying related whole-brain methods to be even more creative. Each benefit is illustrated with varied examples.
+The paper closes with a reminder that, while doing art is likely to have career benefits, it can also be a personal pleasure.  """@en .
+
+:Talk_124 a od:Talk;
+dcterms:title "Enhancements for the 9 Windows Using Virtual Reality and Swimlane Charts"@en;
+dcterms:creator odp:Drummonds_D ; 
+od:urlPaper <https://www.aitriz.org/trizcon2019/tz2019papers/91-drummonds-paper/file> ; 
+dcterms:abstract """Nine windows is one of the primary tools of TRIZ. It depicts the condition of a Supersystem / System / Subsystem in the past, present, and future. It can be expanded to as many system levels, and as many points in time, as are necessary to visualize an invention problem fully. Unfortunately, however, it is a static representation.
+Virtual reality is a way to see a system from various vantage points. The viewer can zoom in, zoom out, and move roundabout to get a clear understanding of the viewed object. This perspective results in a crisper invention problem definition.
+Swimlane charts depict conditions from individual points of view, whether they be the supersystem, system, or subsystem or they are the different stakeholders in an invention project. They are a more holistic depiction. They also resolve deficiencies in viewing problems from a time perspective. 
+This paper discusses enhancements for the nine windows with virtual reality and swimlane charts. It should provide TRIZ practitioners with helpful tools when in the definition phase of an invention project. """@en .
+
+:Talk_125 a od:Talk;
+dcterms:title "Multi-conflict Problem Mining and Solving Process Model for Complex Product"@en;
+dcterms:creator odp:Zhang_JH, odp:Tan_RH ; 
+od:urlPaper <https://www.aitriz.org/trizcon2019/tz2019papers/86-multi-conflict-problem-mining-and-solving-process-model-for-complex-product/file> ; 
+dcterms:abstract """Finding and solving conflicts in product design is the basic idea of using TRIZ theory to solve innovation problems. Currently, in the process of solving innovation problems based on TRIZ, solving a pair of conflicts often dominates the solution direction. However, in the process of innovative design of complex products, the complexity of design problems is gradually increasing, and the number of conflicts is also dynamically increasing. Therefore, complex product innovation problems often have multiple pairs of mutual restriction and overlapping conflicts, and these conflicts will even change dynamically with the progress of the problem solving process, which is more difficult to solve. Traditional TRIZ conflict resolution tools have limitations in solving such multi-conflict problems.
+Problems in complex products are mined through functional model analysis and root cause analysis, and key problems are identified and normalized by the matter-element model method. By analyzing the influence parameters of the key problems and the relations among them, the key problems are transformed into the forms of conflicts, and then the relations among the conflict parameters are explored, to build a multi-conflict network. The correlation between multiple conflicts is analyzed, and the weight of each conflict is determined. The major key conflicts are taken as the main object of the solution. Then, the TRIZ theory is applied to solve the key conflicts, which greatly reduces the difficulty of solving multiple conflicts.
+This paper proposes multi-conflict mining and solving process model for complex product innovation, which includes the problem mining method for complex products, the standardized description of problems and the discrimination method of key problems, the transformation of conflict and the construction of multi-conflict networks, the determination of key conflicts and their solving methods. Finally, it takes the construction machinery bridge erector as an example of theoretical verification and application. """@en .

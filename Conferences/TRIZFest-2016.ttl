@@ -97,7 +97,7 @@ dcterms:creator odp:Feygenson_ON, odp:Feygenson_NB .
 
 :Paper_119 a od:Paper;
  dcterms:title "Innovation design of folding bicycle based on TRIZ theory";
-dcterms:creator odp:Wu_Q, odp:Jun_ZX . 
+dcterms:creator odp:Wu_Q, odp:Zhao_XJ . 
 
 :Paper_120 a od:Paper;
  dcterms:title "Learning TRIZ and usit by tackling real-world problems: a case study";
@@ -209,5 +209,5 @@ dcterms:creator odp:Litvin_SS .
 
 :Paper_147 a od:Paper;
  dcterms:title "Using the idealized design methods to realize product design";
-dcterms:creator odp:Ying_Z, odp:Jun_ZX, odp:Tang_DM .
+dcterms:creator odp:Ying_Z, odp:Zhao_XJ, odp:Tang_DM .
 

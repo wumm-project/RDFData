@@ -333,3 +333,25 @@ including keynote talks and presentations at plenary sessions. """ ;
     od:theProceedings <https://matriz.org/wp-content/uploads/2012/07/TRIZfest-2015-conference-Proceedings.pdf> ;
     od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZFest-2015.rdf> ; 
     ical:url <https://matriz.org/trizfest-proceedings/> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZCon-2019/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZCon> ;
+    rdfs:label "TRIZCon 2019" ;
+    ical:summary "TRIZCon 2019, organized by the Altshuller Institute" ;
+    ical:dtend "2019-05-22"^^xsd:date ;
+    ical:dtstart "2019-05-20"^^xsd:date ;
+    ical:location "Purdue Univ., West Lafayette, USA" ;
+    od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZCon-2019.rdf> ;
+    ical:url <https://www.aitriz.org/trizcon2019> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZCon-2020/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZCon> ;
+    rdfs:label "TRIZCon 2020" ;
+    ical:summary "TRIZCon 2020, organized by the Altshuller Institute" ;
+    ical:dtend "2020-10-07"^^xsd:date ;
+    ical:dtstart "2019-10-06"^^xsd:date ;
+    ical:location "Purdue Univ., West Lafayette, USA" ;
+    od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZCon-2020.rdf> ;
+    ical:url <https://www.aitriz.org/trizcon2020> .

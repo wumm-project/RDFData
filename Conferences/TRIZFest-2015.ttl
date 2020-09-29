@@ -165,7 +165,7 @@ dcterms:creator odp:Abramov_OY .
 
 :Paper_136 a od:Paper;
  dcterms:title "TRIZ-based Innovative Concept Design of a Small Mobile Horizontal Axis Wind Turbine";
-dcterms:creator odp:Emmanuel_T, odp:Jun_ZX . 
+dcterms:creator odp:Emmanuel_T, odp:Zhao_XJ . 
 
 :Paper_137 a od:Paper;
  dcterms:title "Universal Unsolvable Problem and Process of Resolving It";
