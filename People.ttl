@@ -145,6 +145,10 @@ odp:Baszczeski_A
     foaf:affil "ASK Consulting, Poland" ;
     foaf:name "Antoni Baszczeski" .
 
+odp:Bayer_T
+    a foaf:Person ;
+    foaf:name "Tobias Bayer" .
+
 odp:Bdulenko_MK
     a foaf:Person ;
     foaf:affil "Krasnogorsk, Russia" ;
