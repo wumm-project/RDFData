@@ -28,6 +28,7 @@ Die Beiträge der TRIZ Konferenz werden dieses Jahr im Springer Vieweg veröffen
     dcterms:creator odp:Graebe_HG ;
     dcterms:title "Technische Systeme und ihre Zwecke"@de, "Technical systems and their purposes"@en, "Технические системы и их цели"@ru ;
     od:urlPaper <http://dx.doi.org/10.14625/graebe_20200519> ;  
+    od:urlSlides <https://hg-graebe.de/EigeneTexte/DAT-20-Folien.pdf> ;  
     a od:Talk .
 
 :Talk_101
