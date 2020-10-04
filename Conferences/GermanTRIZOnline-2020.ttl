@@ -43,7 +43,7 @@ Die Beiträge der TRIZ Konferenz werden dieses Jahr im Springer Vieweg veröffen
 
 :Talk_103
     dcterms:creator odp:Hammer_J, odp:Bayer_T ;
-    od:presntedBy odp:Bayer_T ;
+    od:presentedBy odp:Bayer_T ;
     dcterms:title "Der Einsatz von TRIZ im Design Thinking Prozess: Erfahrungen aus der Praxis"@de, "The use of TRIZ in the Design Thinking process: practical experience"@en, "Использование ТРИЗ в процессе дизайн-мышления: практический опыт"@de ;
     a od:Talk .
 
@@ -70,11 +70,11 @@ Die Beiträge der TRIZ Konferenz werden dieses Jahr im Springer Vieweg veröffen
 
 :Talk_108
     dcterms:creator odp:Wessner_J ;
-    dcterms:title "Ressourcen-orientierte Suche (ROS) - Die Rolle des Menschen bei der Indetifizierung der richtigen Ressource"@de, "Resource Oriented Search (ROS) - The Role of the Human Being to Find the Right Resource "@en, "Ресурсно-ориентированный поиск (ROS) - роль человека в поиске подходящего ресурса"@ru ;
+    dcterms:title "Ressourcen-orientierte Suche (ROS) - Die Rolle des Menschen bei der Indentifizierung der richtigen Ressource"@de, "Resource Oriented Search (ROS) - The Role of the Human Being to Find the Right Resource "@en, "Ресурсно-ориентированный поиск (ROS) - роль человека в поиске подходящего ресурса"@ru ;
     a od:Talk .
 
 :Talk_109
     dcterms:creator odp:Wessner_J ;
-    dcterms:title "Resource Oriented Search (ROS) - Efficiently Find the Right Resource for an Innovative Task "@en, "Ressourcen-orientierte Suche (ROS) - die richtige Ressource für eine Innovationsaufgabe effizient finden"@de, "Ресурсно-ориентированный поиск (ROS) - эффективный поиск подходящего ресурса для инновационной задачи"@ru ;
+    dcterms:title "Resource Oriented Search (ROS) - Efficiently Find the Right Resource for an Innovative Task "@en, "Ressourcen-orientierte Suche (ROS) - Die richtige Ressource für eine Innovationsaufgabe effizient finden"@de, "Ресурсно-ориентированный поиск (ROS) - эффективный поиск подходящего ресурса для инновационной задачи"@ru ;
     a od:Talk .
 

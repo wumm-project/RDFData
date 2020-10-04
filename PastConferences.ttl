@@ -15,6 +15,17 @@
     rdfs:label "TSN: Past TRIZ Conferences" ;
     owl:imports <http://opendiscovery.org/rdf/ConferenceSeries/>, <http://opendiscovery.org/rdf/People/> .
 
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
+    rdfs:label "TRIZ Future 2020" ;
+    ical:summary """The 20th edition of ETRIA World Conference “TRIZ Future” invites original papers and best practices that combine systematic invention generation, design and creative thinking, digital technologies and open innovation frameworks to solve complex problems in any field of human activity.
+The Conference aims at linking industrial companies, research centers, educational organizations and individuals to share their experience on systematic innovation and promote TRIZ-based tools worldwide. It will provide an international forum for exchanging new ideas on knowledge-based innovation, presenting recent achievements in this area and enabling further advances and collaboration also between the academic and industrial communities.""" ; 
+    ical:dtend "2020-10-14"^^xsd:date ;
+    ical:dtstart "2020-10-16"^^xsd:date ;
+    ical:location "online, supported by the university of Cluj-Napoca (Romania)" ;
+    ical:url <https://tfc20.eu/> .
+
 <http://opendiscovery.org/rdf/Conferences/MOF-2020> 
     a swc:ConferenceEvent ;
     rdfs:label "MOF 2020 - MATRIZ Online Forum 2020" ;
