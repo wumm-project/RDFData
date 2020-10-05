@@ -394,7 +394,7 @@ track:Computing
 
 track:IM
     a swc:TrackEvent ;
-    rdfs:label "Crodd-fertilization of TRIZ for Innovation Management"@en .
+    rdfs:label "Cross-fertilization of TRIZ for Innovation Management"@en .
 
 track:Masterclass
     a swc:TrackEvent ;
