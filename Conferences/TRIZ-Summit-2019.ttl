@@ -318,7 +318,7 @@
     od:urlPaper <http://triz-summit.ru/file.php/id/f304813-file-original.pdf> ;
     od:urlVideo <https://triz-summit.ru/ru/confer/TDS-2019/video-2019/Severinec-2019/> ;
     dcterms:abstract "Companies in any industry regularly encounter the need to look for new solutions and plan future developments in order to cope with emerging problems or take advantage of the opportunities that have opened up. System work using TRIZ tools for fixing and solving problem areas in all (primarily in the key) areas of the company’s activity in order to develop and implement new solutions in a timely manner gives an advantage over competitors in efficiency and speed. "@en, "Компании любой отрасли регулярно сталкиваются с необходимостью искать новые решения и планировать будущие разработки, чтобы справиться с возникшими проблемами или воспользоваться открывшимися возможностями. Системная работа с использованием инструментов ТРИЗ, по фиксации и решению проблемных зон во всех (прежде всего, в ключевых) направлениях деятельности компании с целью своевременной разработки и реализации новых решений дает преимущество перед конкурентами в эффективности и скорости."@ru ;
-    dcterms:creator odp:Li_H, odp:Severinets_GA ;
+    dcterms:creator odp:Li_Hu, odp:Severinets_GA ;
     dcterms:source <https://communities.by/events/triz-summit-2019-ru/talks/601> ;
     dcterms:title "TRIZ tools for creating an effective roadmap"@en, "Инструменты ТРИЗ для создания эффективной дорожной карты"@ru ;
     a od:Talk .

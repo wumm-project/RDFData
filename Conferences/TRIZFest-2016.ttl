@@ -121,11 +121,11 @@ dcterms:creator odp:Lai_KH .
 
 :Paper_125 a od:Paper;
  dcterms:title "Popularization and application of TRIZ in internet economy";
-dcterms:creator odp:Li_H, odp:Liu_MJ, odp:Severinets_GA, odp:Wang_J . 
+dcterms:creator odp:Li_Hu, odp:Liu_MJ, odp:Severinets_GA, odp:Wang_J . 
 
 :Paper_126 a od:Paper;
  dcterms:title "Problems and countermeasures in promoting TRIZ in China";
-dcterms:creator odp:Bukhman_IB, odp:Li_H . 
+dcterms:creator odp:Bukhman_IB, odp:Li_Hu . 
 
 :Paper_127 a od:Paper;
  dcterms:title "Product-oriented MPV analysis to identify voice of the product";
@@ -185,7 +185,7 @@ dcterms:creator odp:Kaplan_LA .
 
 :Paper_141 a od:Paper;
  dcterms:title "TRIZ innovation course for adolescents in Shanghai";
-dcterms:creator odp:Li_H . 
+dcterms:creator odp:Li_Hu . 
 
 :Paper_142 a od:Paper;
  dcterms:title "TRIZ integration for project managers – discovering further TRIZ benefits";

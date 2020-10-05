@@ -647,9 +647,9 @@ od:TRIZMasterCouncil
 
 <http://opendiscovery.org/rdf/Certificate/L4.77>
     od:issued "2005-09" ;
-    od:owner odp:Belski_JV ;
+    od:owner odp:Belski_IV ;
     a od:CertificateLevel4 ;
-    foaf:name "Juri Belski" .
+    foaf:name "Iouri Belski" .
 
 <http://opendiscovery.org/rdf/Certificate/L4.78>
     od:issued "2006-01" ;
@@ -1249,7 +1249,7 @@ od:TRIZMasterCouncil
     foaf:name "Alexander Kashkarov" .
 
 <http://opendiscovery.org/rdf/Certificate/L5.75>
-    od:owner odp:Belski_JV ;
+    od:owner odp:Belski_IV ;
     a od:CertificateLevel5 ;
     foaf:name "Iouri Belski" .
 
