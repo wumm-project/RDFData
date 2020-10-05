@@ -12,401 +12,381 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 :General
-    a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
+    a swc:ConferenceEvent ;
     rdfs:label "TRIZ Future 2020" ;
-    ical:summary """The 20th edition of ETRIA World Conference “TRIZ Future” invites original papers and best practices that combine systematic invention generation, design and creative thinking, digital technologies and open innovation frameworks to solve complex problems in any field of human activity.
-The Conference aims at linking industrial companies, research centers, educational organizations and individuals to share their experience on systematic innovation and promote TRIZ-based tools worldwide. It will provide an international forum for exchanging new ideas on knowledge-based innovation, presenting recent achievements in this area and enabling further advances and collaboration also between the academic and industrial communities.""" ; 
     ical:dtend "2020-10-14"^^xsd:date ;
     ical:dtstart "2020-10-16"^^xsd:date ;
     ical:location "online, supported by the university of Cluj-Napoca (Romania)" ;
+    ical:summary """The 20th edition of ETRIA World Conference “TRIZ Future” invites original papers and best practices that combine systematic invention generation, design and creative thinking, digital technologies and open innovation frameworks to solve complex problems in any field of human activity.
+The Conference aims at linking industrial companies, research centers, educational organizations and individuals to share their experience on systematic innovation and promote TRIZ-based tools worldwide. It will provide an international forum for exchanging new ideas on knowledge-based innovation, presenting recent achievements in this area and enabling further advances and collaboration also between the academic and industrial communities.""" ;
     ical:url <https://tfc20.eu/> .
 
 :Talk_100
     swc:relatedToEvent track:Keynote ;
     dcterms:creator odp:Routley_M ;
-    dcterms:title "Consider It Solved^TM – How Emerson Makes Use of Systematic Methods to Innovate and Solve Problems"@en ;
+    dcterms:title "Consider It Solved^TM - Wie Emerson systematische Methoden zur Innovation und Lösung von Problemen nutzt"@de, "Consider It Solved^TM - Comment Emerson utilise Systematic Méthodes pour innover et résoudre les problèmes "@fr, "Consider It Solved^TM – How Emerson Makes Use of Systematic Methods to Innovate and Solve Problems"@en, "Считайте это решенным^TM. Как Emerson использует систематический Методы инноваций и решения проблем "@ru ;
     a od:Talk .
 
 :Talk_101
     swc:relatedToEvent track:Computing ;
     dcterms:creator odp:Berdyugina_D, odp:Cavallucci_D ;
-    dcterms:title "Real-time Contradiction Matrix of a Given Field Using Unstructured Texts of Patent Contents and Natural Language Processing"@en ;
+    dcterms:title "Die Echtzeit-Widerspruchsmatrix eines bestimmten Feldes unter Verwendung unstrukturierter Texte von Patentinhalten und Verarbeitung natürlicher Sprache "@de, "Matrice de contradiction en temps réel d'un champ donné utilisant des textes non structurés de Contenu des brevets et traitement du langage naturel "@fr, "Real-time Contradiction Matrix of a Given Field Using Unstructured Texts of Patent Contents and Natural Language Processing"@en, "Матрица противоречий в реальном времени данного поля с использованием неструктурированных текстов Содержание патентов и обработка естественного языка "@ru ;
     a od:Talk .
 
 :Talk_102
     swc:relatedToEvent track:Computing ;
     dcterms:creator odp:Phadnis_N ;
-    dcterms:title "Algorithmic Approach for Idea Landscaping and Prioritization"@en ;
+    dcterms:title "Algorithmic Approach for Idea Landscaping and Prioritization"@en, "Algorithmischer Ansatz für die Gestaltung von Ideenlandschaften und deren Priorisierung"@de, "Approche algorithmique pour l'aménagement paysager des idées et la priorisation"@fr, "Алгоритмический подход к ландшафтному дизайну и приоритизации идей"@ru ;
     a od:Talk .
 
 :Talk_103
     swc:relatedToEvent track:Computing ;
     dcterms:creator odp:Chechurin_L, odp:Deder_A, odp:Kaliteevski_V, odp:Peric_N ;
-    dcterms:title "Conceptual Semantic Analysis of Patents and Scientific Publications Based on TRIZ Tools"@en ;
+    dcterms:title "Analyse sémantique conceptuelle des brevets et des publications scientifiques basée sur les outils TRIZ"@fr, "Conceptual Semantic Analysis of Patents and Scientific Publications Based on TRIZ Tools"@en, "Konzeptionelle semantische Analyse von Patenten und wissenschaftlichen Veröffentlichungen basierend auf TRIZ"@de, "Концептуально-семантический анализ патентов и научных публикаций на основе инструментов ТРИЗ"@ru ;
     a od:Talk .
 
 :Talk_104
     swc:relatedToEvent track:Computing ;
     dcterms:creator odp:Cavallucci_D, odp:Guarino_G, odp:Nafi_A, odp:Samet_A ;
-    dcterms:title "Summarization as a Denoising Extraction Tool"@en ;
+    dcterms:title "Summarization as a Denoising Extraction Tool"@en, "Summarization as a Denoising Extraction Tool"@fr, "Zusammenfassung als Extraktionswerkzeug zur Rauschverminderung"@de, "Резюмирование как средство извлечения шумоподавления"@ru ;
     a od:Talk .
 
 :Talk_105
     swc:relatedToEvent track:Computing ;
     dcterms:creator odp:Zadesenets_I ;
-    dcterms:title "Problem-Solving Tools as Methods for Managing the Information Content of Systems"@en ;
+    dcterms:title "Les outils de résolution de problèmes comme méthodes de gestion du contenu informationnel des systèmes "@fr, "Problem-Solving Tools as Methods for Managing the Information Content of Systems"@en, "Tools zur Problemlösung als Methoden zur Verwaltung des Informationsgehalts von Systemen "@de, "Инструменты решения проблем как методы управления информационным содержанием систем. "@ru ;
     a od:Talk .
 
 :Talk_106
     swc:relatedToEvent track:Computing ;
     dcterms:creator odp:Cavallucci_D, odp:Ni_X, odp:Samet_A ;
-    dcterms:title "Build Links between Problems and Solutions in the Patent"@en ;
+    dcterms:title "Build Links between Problems and Solutions in the Patent"@en, "Créer des liens entre les problèmes et les solutions dans le brevet"@fr, "Verbindungen zwischen Problemen und Lösungen im Patent herstellen"@de, "Создавайте связи между проблемами и решениями в патенте"@ru ;
     a od:Talk .
 
 :Talk_107
     swc:relatedToEvent track:IM ;
     dcterms:creator odp:Cho_S ;
-    dcterms:title "A Study on the Effect of Improved Collective Intelligence Combined with TRIZ Methodology for Solving Complex Technology Systems"@en ;
+    dcterms:title "A Study on the Effect of Improved Collective Intelligence Combined with TRIZ Methodology for Solving Complex Technology Systems"@en, "A Study on the Effect of Improved Collective Intelligence Combined with TRIZ Methodology pour la résolution de systèmes technologiques complexes "@fr, "Eine Studie über den Effekt verbesserter kollektiver Intelligenz in Kombination mit der TRIZ-Methodik zur Lösung komplexer Technologiesysteme "@de, "Исследование эффекта улучшения коллективного разума в сочетании с методологией ТРИЗ для решения сложных технологических систем "@ru ;
     a od:Talk .
 
 :Talk_108
     swc:relatedToEvent track:IM ;
     dcterms:creator odp:Graebe_HG ;
-    dcterms:title "Men and Their Technical Systems"@en ;
+    dcterms:title "Les hommes et leurs systèmes techniques"@fr, "Men and Their Technical Systems"@en, "Menschen und ihre technischen Systeme"@de, "Мужчины и их технические системы"@ru ;
     a od:Talk .
 
 :Talk_109
     swc:relatedToEvent track:IM ;
     dcterms:creator odp:Brad_S, odp:Zagos_A ;
-    dcterms:title "Quantifying Sustainable Patents for Enhancing ESG Factors Using Bibliometric Indicators from Patent Portfolio Valuation"@en ;
+    dcterms:title "Quantifizierung nachhaltiger Patente zur Verbesserung von ESG-Faktoren unter Verwendung von bibliometrischen Indikatoren aus Patentportfolio-Bewertungen "@de, "Quantifying Sustainable Patents for Enhancing ESG Factors Using Bibliometric Indicators from Patent Portfolio Valuation"@en, "Quantifying Sustainable Patents for Enhancing ESG Factors Using Bibliometric Indicators from Patent Portfolio Évaluation "@fr, "Количественная оценка устойчивых патентов для улучшения факторов ESG с использованием библиометрических показателей из патентного портфеля. Оценка "@ru ;
     a od:Talk .
 
 :Talk_110
     swc:relatedToEvent track:IM ;
     dcterms:creator odp:Li_Ha, odp:Sun_J, odp:Tan_RH, odp:Wang_FF, odp:Wang_K, odp:Zhang_L ;
-    dcterms:title "Innovative Method of Patent Design Around Guided by Technological Evolution"@en ;
+    dcterms:title "Innovative Method of Patent Design Around Guided by Technological Evolution"@en, "Innovative Methode des Patentdesigns auf der Grundlage der technologischen Evolution"@de, "Méthode innovante de conception de brevets guidée par l'évolution technologique"@fr, "Инновационный метод патентного дизайна на основе технологической эволюции"@ru ;
     a od:Talk .
 
 :Talk_111
-    dcterms:creator odp:Chechurin_L, odp:Collan_M ;
     swc:relatedToEvent track:IM ;
-    dcterms:title "Dynamization and Real Options – Discussing the Economic Success of Design Inventions"@en ;
+    dcterms:creator odp:Chechurin_L, odp:Collan_M ;
+    dcterms:title "Dynamisierung und reale Optionen - Diskussion des wirtschaftlichen Erfolgs von Design-Erfindungen "@de, "Dynamization and Real Options - Discussing the Economic Success of Design Inventions "@fr, "Dynamization and Real Options – Discussing the Economic Success of Design Inventions"@en, "Динамизация и реальные возможности: обсуждение экономического успеха дизайнерских изобретений"@ru ;
     a od:Talk .
 
 :Talk_112
-    dcterms:creator odp:Brad_S, odp:Otava_E ;
     swc:relatedToEvent track:IM ;
-    dcterms:title "TRIZ-based Approach for Improving the Adoption of Open Innovation 2.0"@en ;
+    dcterms:creator odp:Brad_S, odp:Otava_E ;
+    dcterms:title "Approche basée sur TRIZ pour améliorer l'adoption de l'innovation ouverte 2.0"@fr, "TRIZ-based Approach for Improving the Adoption of Open Innovation 2.0"@en, "TRIZ-basierter Ansatz zur Verbesserung der Einführung von Open Innovation 2.0"@de, "Подход, основанный на ТРИЗ, для улучшения принятия открытых инноваций 2.0"@ru ;
     a od:Talk .
 
 :Talk_113
     swc:relatedToEvent track:Masterclass ;
     dcterms:creator odp:Bukhman_IB ;
-    dcterms:title "TRIZ-Driven Innovation in Renewable Energy Technology Design [hands on a Wind Turbine Project]"@en ;
+    dcterms:title "TRIZ-Driven Innovation in Renewable Energy Technology Design [hands on a Projet d'éolienne] "@fr, "TRIZ-Driven Innovation in Renewable Energy Technology Design [hands on a Wind Turbine Project]"@en, "TRIZ-getriebene Innovation im Design von Technologien für erneuerbare Energien [auf der Basis eines Windkraftanlagenprojekts] "@de, "Инновации на основе ТРИЗ в разработке технологий возобновляемых источников энергии. Проект ветряной турбины] "@ru ;
     a od:Talk .
 
 :Talk_114
     swc:relatedToEvent track:Keynote ;
     dcterms:creator odp:Petrov_VM ;
-    dcterms:title "TRIZ for Developing Innovative Businesses and Innovation Management Strategies"@en ;
+    dcterms:title "TRIZ for Developing Innovative Businesses and Innovation Management Strategies"@en, "TRIZ for Developing Innovative Businesses and Innovation Management Strategies"@fr, "TRIZ zur Entwicklung innovativer Unternehmen und Innovationsmanagementstrategien"@de, "ТРИЗ для развития инновационного бизнеса и стратегий управления инновациями"@ru ;
     a od:Talk .
 
 :Talk_115
     swc:relatedToEvent track:Keynote ;
     dcterms:creator odp:Daxenberger_J ;
-    dcterms:title "ArgumenText: Argument Classification and Clustering in a Generalized Search Scenario"@en ;
+    dcterms:title "ArgumenText: Argument Classification and Clustering in a Generalized Search Scenario"@en, "ArgumenText: Argument Classification and Clustering in a Generalized Search Scenario"@fr, "ArgumenText: Argumentklassifizierung und Clustering in einem verallgemeinerten Suchszenario"@de, "ArgumenText: классификация аргументов и кластеризация в общем сценарии поиска"@ru ;
     a od:Talk .
 
 :Talk_116
     swc:relatedToEvent track:SD ;
     dcterms:creator odp:Abramov_OY ;
-    dcterms:title "Excesses in Engineering Systems: A Helpful Resource"@en ;
+    dcterms:title "Excesses in Engineering Systems: A Helpful Resource"@en, "Excesses in Engineering Systems: A Helpful Resource"@fr, "Überschüsse in technischen Systemen: Eine hilfreiche Ressource"@de, "Излишки в инженерных системах: полезный ресурс"@ru ;
     a od:Talk .
 
 :Talk_117
     swc:relatedToEvent track:SD ;
     dcterms:creator odp:Livotov_P, odp:Sekaran_APC, odp:Udah_M ;
-    dcterms:title "Learning Eco-Innovation from Nature: towards Identification of Solution Principles without Secondary Eco-Problems"@en ;
+    dcterms:title "Apprendre l'éco-innovation à partir de la nature: vers l'identification des principes de solution sans Eco-problèmes secondaires "@fr, "Learning Eco-Innovation from Nature: towards Identification of Solution Principles without Secondary Eco-Problems"@en, "Öko-Innovation aus der Natur lernen: zur Identifizierung von Lösungsprinzipien ohne sekundäre Umweltprobleme "@de, "Изучение экологических инноваций от природы: к определению принципов решения без Вторичные экологические проблемы "@ru ;
     a od:Talk .
 
 :Talk_118
     swc:relatedToEvent track:SD ;
     dcterms:creator odp:Cavallucci_D, odp:Gardoni_M, odp:Mouatassim_M, odp:Silva_A ;
-    dcterms:title "A Future Eco-design Framework Based on TRIZ’s Contradictions and Bio-Inspired Design"@en ;
+    dcterms:title "A Future Eco-design Framework Based on TRIZ Contradictions and Conception bio-inspirée "@fr, "A Future Eco-design Framework Based on TRIZ’s Contradictions and Bio-Inspired Design"@en, "Ein zukünftiges Öko-Design-Framework basierend auf TRIZ Widersprüchen und bio-inspiriertes Design "@de, "Фреймворк будущего экодизайна, основанный на противоречиях ТРИЗ и Био-дизайн "@ru ;
     a od:Talk .
 
 :Talk_119
     swc:relatedToEvent track:SD ;
     dcterms:creator odp:Brad_E, odp:Stan_A ;
-    dcterms:title "TRIZ to Solve Challenges for Designing Sustainable, Intelligent and Inclusive Buildings"@en ;
+    dcterms:title "TRIZ to Solve Challenges for Designing Sustainable, Intelligent and Inclusive Buildings"@en, "TRIZ to Solve Challenges for Designing Sustainable, Intelligent and Inclusive Buildings"@fr, "TRIZ zur Lösung von Herausforderungen bei der Gestaltung nachhaltiger, intelligenter und integrativer Gebäude"@de, "ТРИЗ для решения задач по проектированию устойчивых, интеллектуальных и инклюзивных зданий"@ru ;
     a od:Talk .
 
 :Talk_120
     swc:relatedToEvent track:SD ;
     dcterms:creator odp:Cavallucci_D, odp:Chibane_H, odp:Hanifi_M, odp:Houssin_R ;
-    dcterms:title "Contribution to TRIZ Progress in Combining Lean and Inventive Design Method"@en ;
+    dcterms:title "Beitrag zum TRIZ-Fortschritt bei der Kombination von schlanker und erfinderischer Entwurfsmethode"@de, "Contribution to TRIZ Progress in Combining Lean and Inventive Design Method"@en, "Contribution to TRIZ Progress in Combining Lean and Inventive Design Method"@fr, "Вклад в прогресс ТРИЗ в сочетании экономичного и изобретательного методов проектирования"@ru ;
     a od:Talk .
 
 :Talk_121
     swc:relatedToEvent track:SD ;
     dcterms:creator odp:Brad_S, odp:Hoch_N ;
-    dcterms:title "Managing AI Technologies in Earthwork Construction: A TRIZ-based Innovation Approach"@en ;
+    dcterms:title "Managing AI Technologies in Earthwork Construction: A TRIZ-based Innovation Approach"@en, "Managing AI Technologies in Earthwork Construction: A TRIZ-based Innovation Approach "@fr, "Verwalten von KI-Technologien im Erdbau: Ein TRIZ-basierter Innovationsansatz "@de, "Управление технологиями искусственного интеллекта в земляных работах: инновационный подход на основе ТРИЗ. "@ru ;
     a od:Talk .
 
 :Talk_122
     swc:relatedToEvent track:CS ;
     dcterms:creator odp:Mann_D, odp:Zinner_V ;
-    dcterms:title "Mindful TRIZ"@en ;
+    dcterms:title "Mindful TRIZ"@de, "Mindful TRIZ"@en, "Mindful TRIZ"@fr, "Внимательная ТРИЗ"@ru ;
     a od:Talk .
 
 :Talk_123
     swc:relatedToEvent track:CS ;
     dcterms:creator odp:Junjg_YL, odp:Lee_WK, odp:Memon_A, odp:Pyao_Y, odp:Song_YW ;
-    dcterms:title "Innovative TRIZ-Based Approach to Prevent CLDE Symptoms in Silicone-Hydrogel Eye Contact Lenses"@en ;
+    dcterms:title "Approche innovante basée sur TRIZ pour prévenir les symptômes de CLDE dans le silicone-hydrogel Lentilles de contact avec les yeux "@fr, "Innovative TRIZ-Based Approach to Prevent CLDE Symptoms in Silicone-Hydrogel Eye Contact Lenses"@en, "Innovativer TRIZ-basierter Ansatz zur Verhinderung von CLDE-Symptomen in Silikon-Hydrogel Augenkontaktlinsen "@de, "Инновационный подход на основе ТРИЗ к предотвращению симптомов CLDE в силикон-гидрогеле. Контактные линзы для глаз "@ru ;
     a od:Talk .
 
 :Talk_124
     swc:relatedToEvent track:CS ;
     dcterms:creator odp:Adima_S, odp:Echaabi_J, odp:Mallil_EH, odp:Maziri_A, odp:Ouezgan_A ;
-    dcterms:title "A Novel Design of CRTM Mold by Using TRIZ Separation Principles"@en ;
+    dcterms:title "A Novel Design of CRTM Mold by Using TRIZ Separation Principles"@en, "A Novel Design of CRTM Mold by Using TRIZ Separation Principles"@fr, "Ein neuartiges Design von CRTM-Formen unter Verwendung der TRIZ-Trennungsprinzipien"@de, "Новый дизайн пресс-формы CRTM с использованием принципов разделения ТРИЗ"@ru ;
     a od:Talk .
 
 :Talk_125
     swc:relatedToEvent track:CS ;
     dcterms:creator odp:Jeon_YM, odp:Song_YW ;
-    dcterms:title "Solving Semiconductor Probe Card Problems Utilizing TRIZ and Data Analysis"@en ;
+    dcterms:title "Lösen von Problemen mit Halbleitersondenkarten mithilfe von TRIZ und Datenanalyse"@de, "Résolution des problèmes de carte de sonde semi-conductrice utilisant TRIZ et analyse de données"@fr, "Solving Semiconductor Probe Card Problems Utilizing TRIZ and Data Analysis"@en, "Решение проблем с полупроводниковой пробной картой с помощью ТРИЗ и анализа данных"@ru ;
     a od:Talk .
 
 :Talk_126
     swc:relatedToEvent track:CS ;
     dcterms:creator odp:Kim_JY, odp:Lee_KR, odp:Shim_JM ;
-    dcterms:title "Software Engineering Performance and Quality Assessment by TRIZ"@en ;
+    dcterms:title "Software Engineering Performance and Quality Assessment by TRIZ"@de, "Software Engineering Performance and Quality Assessment by TRIZ"@en, "Évaluation des performances et de la qualité de l'ingénierie logicielle par TRIZ"@fr, "Оценка эффективности и качества программной инженерии с помощью ТРИЗ"@ru ;
     a od:Talk .
 
 :Talk_127
     swc:relatedToEvent track:CS ;
     dcterms:creator odp:Joo_JM, odp:Oh_DS, odp:Park_WB, odp:Song_YW ;
-    dcterms:title "How SK Hynix Applies TRIZ to Industry Field Problems"@en ;
+    dcterms:title "How SK Hynix Applies TRIZ to Industry Field Problems"@en, "How SK Hynix Applies TRIZ to Industry Field Problems"@fr, "Wie SK Hynix TRIZ auf Branchenprobleme anwendet"@de, "Как SK Hynix применяет ТРИЗ к отраслевым проблемам"@ru ;
     a od:Talk .
 
 :Talk_128
     swc:relatedToEvent track:Complexity ;
     dcterms:creator odp:Majchrzak_J, odp:Miadowicz_M ;
-    dcterms:title "Network of Contradictions Analysis in Marketing Information Quality Management"@en ;
+    dcterms:title "Network of Contradictions Analysis in Marketing Information Quality Management"@en, "Network of Contradictions Analysis in Marketing Information Quality Management"@fr, "Netzwerk der Analyse von Widersprüchen im Qualitätsmanagement für Marketinginformationen"@de, "Сеть анализа противоречий в управлении качеством маркетинговой информации"@ru ;
     a od:Talk .
 
 :Talk_129
     swc:relatedToEvent track:Complexity ;
     dcterms:creator odp:Ghannad_N, odp:Guio_RD, odp:Parrend_P ;
-    dcterms:title "Feature Selection-based Approach for Generalized Contradiction Recognition"@en ;
+    dcterms:title "Approche basée sur la sélection des fonctionnalités pour la reconnaissance généralisée des contradictions"@fr, "Feature Selection-based Approach for Generalized Contradiction Recognition"@en, "Funktionsauswahlbasierter Ansatz für die allgemeine Erkennung von Widersprüchen"@de, "Подход на основе выбора характеристик для распознавания обобщенного противоречия"@ru ;
     a od:Talk .
 
 :Talk_130
     swc:relatedToEvent track:Complexity ;
     dcterms:creator odp:Wang_CY, odp:Wang_XR, odp:Zhang_JH, odp:Zhang_WX, odp:Zhao_RK ;
-    dcterms:title "Flow Structure Information Model for Multiflow Problem Analysis of Complex Systems"@en ;
+    dcterms:title "Flow Structure Information Model for Multiflow Problem Analysis of Complex Systems"@en, "Flow Structure Information Model for Multiflow Problem Analysis of Complex Systems"@fr, "Flussstruktur-Informationsmodell für die Multiflow-Problemanalyse komplexer Systeme"@de, "Информационная модель структуры потока для анализа многопоточных проблем сложных систем"@ru ;
     a od:Talk .
 
 :Talk_131
     swc:relatedToEvent track:Complexity ;
     dcterms:creator odp:Wang_CY, odp:Wang_XR, odp:Zhang_JH, odp:Zhang_WX, odp:Zhang_XY, odp:Zhao_RK ;
-    dcterms:title "Multi-conflict Problem Resolution Process Model of Complex Technical System"@en ;
+    dcterms:title "Multi-conflict Problem Resolution Process Model of Complex Technical System"@en, "Multi-conflict Problem Resolution Process Model of Complex Technical System"@fr, "Prozessmodell zur Lösung mehrerer Probleme bei komplexen technischen Systemen"@de, "Модель процесса разрешения проблем с множеством конфликтов сложной технической системы"@ru ;
     a od:Talk .
 
 :Talk_132
     swc:relatedToEvent track:Complexity ;
     dcterms:creator odp:Du_YJ, odp:Li_Ha, odp:Song_ZT, odp:Sun_J, odp:Tan_RH ;
-    dcterms:title "A Systematic Innovation Process Oriented to Inter-Discipline"@en ;
+    dcterms:title "A Systematic Innovation Process Oriented to Inter-Discipline"@en, "Ein systematischer Innovationsprozess, der auf Interdisziplin ausgerichtet ist"@de, "Un processus d'innovation systématique orienté vers l'inter-discipline"@fr, "Систематический инновационный процесс, ориентированный на междисциплинарный подход"@ru ;
     a od:Talk .
 
 :Talk_133
     swc:relatedToEvent track:Complexity ;
     dcterms:creator odp:Brad_S, odp:Florian_AV ;
-    dcterms:title "TRIZ Driven Identification of AI Application to Improve Navigation of Mobile Autonomous Robots"@en ;
+    dcterms:title "TRIZ Driven Identification of AI Application to Improve Navigation of Mobile Autonomous Robots"@en, "TRIZ Driven Identification of AI Application to Improve Navigation of Mobile Autonomous Robots "@fr, "TRIZ-gesteuerte Identifizierung von KI-Anwendungen zur Verbesserung der Navigation mobiler autonomer Roboter "@de, "Управляемая ТРИЗ идентификация приложения ИИ для улучшения навигации мобильных автономных роботов. "@ru ;
     a od:Talk .
 
 :Talk_134
     swc:relatedToEvent track:CS ;
     dcterms:creator odp:Abramov_OY, odp:Fimin_P, odp:Smirnova_E ;
-    dcterms:title "Technology Scouting for Solid Waste Treatment: TRIZ Approach"@en ;
+    dcterms:title "Recherche technologique pour le traitement des déchets solides: approche TRIZ"@fr, "Technologie-Scouting für die Behandlung fester Abfälle: TRIZ-Ansatz"@de, "Technology Scouting for Solid Waste Treatment: TRIZ Approach"@en, "Разведка технологий для обращения с твердыми отходами: подход ТРИЗ"@ru ;
     a od:Talk .
 
 :Talk_135
     swc:relatedToEvent track:CS ;
     dcterms:creator odp:Adima_S, odp:Echaabi_J, odp:Mallil_EH, odp:Maziri_A, odp:Ouezgan_A ;
-    dcterms:title "Development of a New Variant of Resin Film Infusion Process for Aeronautic and Automotive Industries Using Su-Field Models"@en ;
+    dcterms:title "Development of a New Variant of Resin Film Infusion Process for Aeronautic and Automotive Industries Using Su-Field Models"@en, "Développement d'une nouvelle variante du procédé d'infusion de film de résine pour l'aéronautique et Industries automobiles utilisant des modèles Su-Field "@fr, "Entwicklung einer neuen Variante des Harzfilm-Infusionsverfahrens für die Luftfahrt und Automobilindustrie mit Su-Field-Modellen "@de, "Разработка нового варианта процесса инфузии полимерной пленки для аэронавтики и Автомобильная промышленность, использующая веполевые модели "@ru ;
     a od:Talk .
 
 :Talk_136
     swc:relatedToEvent track:CS ;
     dcterms:creator odp:Schaper_S ;
-    dcterms:title "TRIZ for the Creation of Blue Oceans"@en ;
+    dcterms:title "TRIZ for the Creation of Blue Oceans"@en, "TRIZ for the Creation of Blue Oceans"@fr, "TRIZ für die Schaffung blauer Ozeane"@de, "ТРИЗ для создания голубых океанов"@ru ;
     a od:Talk .
 
 :Talk_137
     swc:relatedToEvent track:CS ;
     dcterms:creator odp:Smirnov_EE ;
-    dcterms:title "The First Level Algorithm for Finding Inventive Solutions Based on Function-Oriented Modeling of Conflicts and Analysis"@en ;
+    dcterms:title "Der Algorithmus der ersten Ebene zum Finden erfinderischer Lösungen basierend auf funktionsorientierten Lösungen Modellierung von Konflikten und Analyse "@de, "L'algorithme de premier niveau pour trouver des solutions inventives basées sur la fonction Modélisation des conflits et analyse "@fr, "The First Level Algorithm for Finding Inventive Solutions Based on Function-Oriented Modeling of Conflicts and Analysis"@en, "Алгоритм первого уровня для поиска инновационных решений, основанных на функционально-ориентированных Моделирование конфликтов и анализ "@ru ;
     a od:Talk .
 
 :Talk_138
     swc:relatedToEvent track:CS ;
     dcterms:creator odp:Carrara_P ;
-    dcterms:title "A TRIZ-Based Method for Smart Product Design"@en ;
+    dcterms:title "A TRIZ-Based Method for Smart Product Design"@en, "Eine TRIZ-basierte Methode für intelligentes Produktdesign"@de, "Une méthode basée sur TRIZ pour la conception intelligente de produits"@fr, "Метод на основе ТРИЗ для интеллектуального дизайна продукта"@ru ;
     a od:Talk .
 
 :Talk_139
     swc:relatedToEvent track:CS ;
     dcterms:creator odp:Chibane_H, odp:Colibaly_A, odp:Houssin_R, odp:Yehya_MI ;
-    dcterms:title "Towards Evaluation of Solution Concepts in Inventive Design"@en ;
+    dcterms:title "Auf dem Weg zur Bewertung von Lösungskonzepten in Inventive Design"@de, "Towards Evaluation of Solution Concepts in Inventive Design"@en, "Towards Evaluation of Solution Concepts in Inventive Design"@fr, "На пути к оценке концепций решения в изобретательном дизайне"@ru ;
     a od:Talk .
 
 :Talk_140
     swc:relatedToEvent track:Masterclass ;
     dcterms:creator odp:Bukhman_IB ;
-    dcterms:title "Creative Person Development"@en ;
+    dcterms:title "Creative Person Development"@de, "Creative Person Development"@en, "Creative Person Development"@fr, "Развитие творческой личности"@ru ;
     a od:Talk .
 
 :Talk_141
     swc:relatedToEvent track:Keynote ;
     dcterms:creator odp:Fowlkes_WY ;
-    dcterms:title "Application of Artificial Intelligence to Creativity"@en ;
+    dcterms:title "Anwendung künstlicher Intelligenz auf Kreativität"@de, "Application de l'intelligence artificielle à la créativité"@fr, "Application of Artificial Intelligence to Creativity"@en, "Применение искусственного интеллекта в творчестве"@ru ;
     a od:Talk .
 
 :Talk_142
     swc:relatedToEvent track:Keynote ;
     dcterms:creator odp:Kayser_L ;
-    dcterms:title "Radical Innovation in an Age of AI-based Engineering"@en ;
+    dcterms:title "Radical Innovation in an Age of AI-based Engineering"@en, "Radical Innovation in an Age of AI-based Engineering"@fr, "Radikale Innovation im Zeitalter der KI-basierten Technik"@de, "Радикальные инновации в эпоху инженерии на основе ИИ"@ru ;
     a od:Talk .
 
 :Talk_143
     swc:relatedToEvent track:SE ;
     dcterms:creator odp:Bielefeld_O, odp:Katzwinkel_T, odp:Loewer_M, odp:Schleicht_A, odp:Schlueter_N, odp:Sizikov_V ;
-    dcterms:title "Quantification of Influences between Components, Functions and Process Usage Stages by Linking TRIZ Methods and Systems Engineering"@en ;
+    dcterms:title "Quantification des influences entre les composants, les fonctions et les étapes d'utilisation des processus par liaison Ingénierie des méthodes et des systèmes TRIZ "@fr, "Quantification of Influences between Components, Functions and Process Usage Stages by Linking TRIZ Methods and Systems Engineering"@en, "Quantifizierung der Einflüsse zwischen Komponenten, Funktionen und Prozessnutzungsstufen durch Verknüpfung TRIZ Methoden und Systemtechnik "@de, "Количественная оценка влияний между компонентами, функциями и этапами использования процессов путем связывания Методы ТРИЗ и системная инженерия "@ru ;
     a od:Talk .
 
 :Talk_144
     swc:relatedToEvent track:SE ;
     dcterms:creator odp:Chrzaszcz_J ;
-    dcterms:title "Eliminating Disadvantages by Changing Transitions in a State Machine Cause-Effect Model"@en ;
+    dcterms:title "Beseitigung von Nachteilen durch Ändern von Übergängen in einem Ursache-Wirkungs-Modell einer Zustandsmaschine "@de, "Eliminating Disadvantages by Changing Transitions in a State Machine Cause-Effect Model"@en, "Eliminating Disadvantages by Changing Transitions in a State Machine Cause-Effect Model "@fr, "Устранение недостатков путем изменения переходов в причинно-следственной модели конечного автомата. "@ru ;
     a od:Talk .
 
 :Talk_145
     swc:relatedToEvent track:SE ;
     dcterms:creator odp:Benmoussa_R ;
-    dcterms:title "MOOCs vs Face to Face (F2F) Model: What Relevance for Creativity Development?"@en ;
+    dcterms:title "MOOCs vs Face to Face (F2F) -Modell: Welche Relevanz für Kreativitätsentwicklung? "@de, "MOOCs vs Face to Face (F2F) Model: What Relevance for Creativity Development?"@en, "MOOCs vs Face to Face (F2F) Model: What Relevance for Développement de la créativité? "@fr, "МООК против модели лицом к лицу (F2F): что актуально для Развитие творческих способностей? "@ru ;
     a od:Talk .
 
 :Talk_146
     swc:relatedToEvent track:SE ;
     dcterms:creator odp:Acker_C, odp:Braesch_A, odp:Cavallucci_D, odp:Dumangin_P, odp:Essaid_A, odp:Lauth_N ;
-    dcterms:title "Understanding and Overcoming the Low Utilization Rate of ARIZ in TRIZ Practices"@en ;
+    dcterms:title "Comprendre et surmonter le faible taux d'utilisation d'ARIZ dans les pratiques TRIZ"@fr, "Understanding and Overcoming the Low Utilization Rate of ARIZ in TRIZ Practices"@en, "Verständnis und Überwindung der niedrigen Nutzungsrate von ARIZ in TRIZ-Praktiken"@de, "Понимание и преодоление низкого уровня использования АРИЗ в практиках ТРИЗ"@ru ;
     a od:Talk .
 
 :Talk_147
     swc:relatedToEvent track:SE ;
     dcterms:creator odp:Brad_S, odp:Olariu_GV ;
-    dcterms:title "Effective Improvement Solutions in Organizations Using Data Envelopment Analysis (DEA) and TRIZ: A Case Study in Higher Education"@en ;
+    dcterms:title "Effective Improvement Solutions in Organizations Using Data Envelopment Analysis (DEA) and TRIZ: A Case Study in Higher Education"@en, "Effektive Verbesserungslösungen in Organisationen mit Datenumhüllungsanalyse (DEA) und TRIZ: Eine Fallstudie in der Hochschulbildung "@de, "Solutions d'amélioration efficaces dans les organisations utilisant l'analyse de l'enveloppe des données (DEA) et TRIZ: une étude de cas dans l'enseignement supérieur "@fr, "Эффективные решения по улучшению в организациях, использующих анализ охвата данных (DEA) и ТРИЗ: пример высшего образования "@ru ;
     a od:Talk .
 
 :Talk_148
     swc:relatedToEvent track:CS ;
     dcterms:creator odp:Dewulf_S, odp:Litvin_SS, odp:Mann_D, odp:Nakagawa_T, odp:Orloff_MA, odp:Souchkov_VV ;
-    dcterms:title "World TRIZ-Related Sites Project (WTSP) (3): World WTSP Catalogs of TRIZ and around-TRIZ Sites: First Edition (Oct. 2019) and Its Further Enhancement"@en ;
+    dcterms:title "World TRIZ-Related Sites Project (WTSP) (3): Catalogues mondiaux WTSP des sites TRIZ et autour de TRIZ: première édition (octobre 2019) et ses améliorations supplémentaires "@fr, "World TRIZ-Related Sites Project (WTSP) (3): Weltweite WTSP-Kataloge von TRIZ- und Around-TRIZ-Sites: Erstausgabe (Okt. 2019) und ihre weitere Verbesserung "@de, "World TRIZ-Related Sites Project (WTSP) (3): World WTSP Catalogs of TRIZ and around-TRIZ Sites: First Edition (Oct. 2019) and Its Further Enhancement"@en, "Всемирный проект сайтов, связанных с ТРИЗ (WTSP) (3): Всемирные каталоги WTSP ТРИЗ и сайтов вокруг ТРИЗ: первое издание (октябрь 2019 г.) и его дальнейшее развитие "@ru ;
     a od:Talk .
 
 :Talk_149
     swc:relatedToEvent track:CS ;
     dcterms:creator odp:Boca_M, odp:Botezatu_C, odp:Ciobanu_DG, odp:Condrea_I, odp:Ermolai_V, odp:Etcu_M, odp:Galmadi_G, odp:Oroian_B ;
-    dcterms:title "Use of Some TRIZ Principles in the Case of Designing Research Equipment"@en ;
+    dcterms:title "Use of Some TRIZ Principles in the Case of Designing Research Equipment"@en, "Utilisation de certains principes de TRIZ dans le cas de la conception d'équipements de recherche"@fr, "Verwendung einiger TRIZ-Prinzipien beim Entwurf von Forschungsgeräten"@de, "Использование некоторых принципов ТРИЗ в случае разработки исследовательского оборудования"@ru ;
     a od:Talk .
 
 :Talk_150
     swc:relatedToEvent track:CS ;
     dcterms:creator odp:Kang_SH, odp:Song_YW ;
-    dcterms:title "Study of a Methodology for Creating a Fantasy Story Using TRIZ"@en ;
+    dcterms:title "Studium einer Methodik zum Erstellen einer Fantasy-Story mit TRIZ"@de, "Study of a Methodology for Creating a Fantasy Story Using TRIZ"@en, "Study of a Methodology for Creating a Fantasy Story Using TRIZ"@fr, "Изучение методологии создания фантастической истории с использованием ТРИЗ"@ru ;
     a od:Talk .
 
 :Talk_151
     swc:relatedToEvent track:TT ;
     dcterms:creator odp:Livotov_P ;
-    dcterms:title "Easy-to-use Ideation Technique Based on Five Cross-Industry Analogies Enhances Engineering Creativity of Students and Specialists"@en ;
+    dcterms:title "Easy-to-use Ideation Technique Based on Five Cross-Industry Analogies Enhances Engineering Creativity of Students and Specialists"@en, "Einfach zu verwendende Ideentechnik basierend auf fünf branchenübergreifenden Ideen Analogien verbessern die technische Kreativität von Studenten und Fachleuten "@de, "Technique d'idéation facile à utiliser basée sur cinq industries intersectorielles Les analogies améliorent la créativité des étudiants et des spécialistes en ingénierie "@fr, "Простая в использовании методика создания идей, основанная на пяти межотраслевых Аналогии усиливают инженерное творчество студентов и специалистов "@ru ;
     a od:Talk .
 
 :Talk_152
     swc:relatedToEvent track:TT ;
     dcterms:creator odp:Song_ZT, odp:Sun_J, odp:Tan_RH, odp:Wang_FF, odp:Wang_Y, odp:Zhang_L ;
-    dcterms:title "An Approach of Product-type Process Trimming"@en ;
+    dcterms:title "An Approach of Product-type Process Trimming"@en, "An Approach of Product-type Process Trimming"@fr, "Ein Ansatz zum Trimmen von Produkttypen"@de, "Подход к обрезке процессов типа продукта"@ru ;
     a od:Talk .
 
 :Talk_153
     swc:relatedToEvent track:TT ;
     dcterms:creator odp:Belski_IV, odp:Harlim_J, odp:Tanoyo_T ;
-    dcterms:title "Application of TRIZ Substance-Field Analysis and Situational Analysis for Risk Analysis and Development of Common Language among Stakeholders"@en ;
+    dcterms:title "Anwendung der TRIZ-Substanzfeldanalyse und Situationsanalyse für die Risikoanalyse und Entwicklung der gemeinsamen Sprache unter den Interessengruppen "@de, "Application of TRIZ Substance-Field Analysis and Situational Analysis for Risk Analysis and Development of Common Language among Stakeholders"@en, "Application of TRIZ Substance-Field Analysis and Situationational Analysis for Risk Analysis et Développement d'un langage commun parmi les parties prenantes "@fr, "Применение анализа субстанциального поля ТРИЗ и ситуационного анализа для анализа рисков. и развитие общего языка среди заинтересованных сторон "@ru ;
     a od:Talk .
 
 :Talk_154
     swc:relatedToEvent track:TT ;
     dcterms:creator odp:Carrara_P, odp:Russo_D, odp:Spreafico_C ;
-    dcterms:title "How to Organize a Knowledge Base Using TRIZ Evolution Tree"@en ;
+    dcterms:title "Comment organiser une base de connaissances à l'aide de TRIZ Evolution Tree"@fr, "How to Organize a Knowledge Base Using TRIZ Evolution Tree"@en, "So organisieren Sie eine Wissensdatenbank mit TRIZ Evolution Tree"@de, "Как организовать базу знаний с использованием Дерева эволюции ТРИЗ"@ru ;
     a od:Talk .
 
 :Talk_155
     swc:relatedToEvent track:TT ;
     dcterms:creator odp:Borgianni_Y, odp:Concli_F, odp:Maccioni_L ;
-    dcterms:title "High Power Density Speed Reducers: A TRIZ Based Classification of Mechanical Solutions"@en ;
+    dcterms:title "Geschwindigkeitsreduzierer mit hoher Leistungsdichte: Eine TRIZ-basierte Klassifizierung mechanischer Lösungen "@en, "High Power Density Speed Reducers: A TRIZ Based Classification of Mechanical Solutions"@en, "High Power Density Speed ​​Reducers: A TRIZ Based Classification of Mechanical Solutions "@fr, "Плотные редукторы высокой мощности: классификация механических решений на основе ТРИЗ. "@ru ;
     a od:Talk .
 
 :Talk_156
     swc:relatedToEvent track:CS ;
     dcterms:creator odp:Petrov_VM, odp:Solodkina_E ;
-    dcterms:title "TRIZ: Innovation Opportunities for the Fashion Industry"@en ;
+    dcterms:title "TRIZ: Innovation Opportunities for the Fashion Industry"@en, "TRIZ: Innovationsmöglichkeiten für die Modebranche"@de, "TRIZ: Opportunités d'innovation pour l'industrie de la mode"@fr, "ТРИЗ: инновационные возможности для индустрии моды"@ru ;
     a od:Talk .
 
 :Talk_157
     swc:relatedToEvent track:CS ;
     dcterms:creator odp:Tamuzs_V ;
-    dcterms:title "Formulation of the Definition of Life Using the ARIZ 85c Methodology"@en ;
+    dcterms:title "Formulation de la définition de la vie à l'aide de la méthodologie ARIZ 85c"@fr, "Formulation of the Definition of Life Using the ARIZ 85c Methodology"@en, "Formulierung der Definition des Lebens unter Verwendung der ARIZ 85c-Methodik"@de, "Формулировка определения жизни с использованием методологии ARIZ 85c"@ru ;
     a od:Talk .
 
 :Talk_158
     swc:relatedToEvent track:Masterclass ;
     dcterms:creator odp:Garcell_E ;
-    dcterms:title "Applying AI and TRIZ based Augmented Brainstorming to Your Problem"@en ;
+    dcterms:title "Anwenden von AI und TRIZ-basiertem erweitertem Brainstorming auf Ihr Problem"@de, "Application du brainstorming augmenté basé sur l'IA et TRIZ à votre problème"@fr, "Applying AI and TRIZ based Augmented Brainstorming to Your Problem"@en, "Применение расширенного мозгового штурма на основе ИИ и ТРИЗ для решения вашей проблемы"@ru ;
     a od:Talk .
 
 :Talk_159
     swc:relatedToEvent track:Masterclass ;
     dcterms:creator odp:Bukhman_IB ;
-    dcterms:title "Magic Machine"@en ;
+    dcterms:title "Magic Machine"@de, "Magic Machine"@en, "Magic Machine"@fr, "Magic Machine"@ru ;
     a od:Talk .
 
 :Talk_160
     swc:relatedToEvent track:Keynote ;
     dcterms:creator odp:Sidorovitch_D ;
-    dcterms:title "Open Research and Innovation Platform Enabling the Next Big Thing"@en ;
+    dcterms:title "Offene Forschungs- und Innovationsplattform für das nächste große Ding"@de, "Open Research and Innovation Platform Enabling the Next Big Thing"@en, "Open Research and Innovation Platform Enabling the Next Big Thing"@fr, "Открытая платформа исследований и инноваций, открывающая новые возможности"@ru ;
     a od:Talk .
-
-track:Computing
-    a swc:TrackEvent ;
-    rdfs:label "Computing TRIZ"@en .
-
-track:IM
-    a swc:TrackEvent ;
-    rdfs:label "Cross-fertilization of TRIZ for Innovation Management"@en .
-
-track:Masterclass
-    a swc:TrackEvent ;
-    rdfs:label "Masterclass"@en .
-
-track:Keynote
-    a swc:TrackEvent ;
-    rdfs:label "Keynote"@en .
-
-track:SD
-    a swc:TrackEvent ;
-    rdfs:label "TRIZ and Sustainable Development"@en .
 
 track:CS
     a swc:TrackEvent ;
@@ -416,6 +396,26 @@ track:Complexity
     a swc:TrackEvent ;
     rdfs:label "TRIZ and Complexity"@en .
 
+track:Computing
+    a swc:TrackEvent ;
+    rdfs:label "Computing TRIZ"@en .
+
+track:IM
+    a swc:TrackEvent ;
+    rdfs:label "Cross-fertilization of TRIZ for Innovation Management"@en .
+
+track:Keynote
+    a swc:TrackEvent ;
+    rdfs:label "Keynote"@en .
+
+track:Masterclass
+    a swc:TrackEvent ;
+    rdfs:label "Masterclass"@en .
+
+track:SD
+    a swc:TrackEvent ;
+    rdfs:label "TRIZ and Sustainable Development"@en .
+
 track:SE
     a swc:TrackEvent ;
     rdfs:label "TRIZ and System Engineering and Analysis"@en .
@@ -424,126 +424,3 @@ track:TT
     a swc:TrackEvent ;
     rdfs:label "Tools and Techniques of TRIZ for Enhancing Design and Education"@en .
 
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_100> <http://purl.org/dc/terms/title> "Betrachten Sie es als gelöst^TM - Wie Emerson Systematic nutzt Methoden zur Innovation und Lösung von Problemen "@de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_101> <http://purl.org/dc/terms/title> "Echtzeit-Widerspruchsmatrix eines bestimmten Feldes unter Verwendung unstrukturierter Texte von Patentinhalt und Verarbeitung natürlicher Sprache "@de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_102> <http://purl.org/dc/terms/title> "Algorithmischer Ansatz für die Landschaftsgestaltung und Priorisierung von Ideen" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_103> <http://purl.org/dc/terms/title> "Konzeptionelle semantische Analyse von Patenten und wissenschaftlichen Veröffentlichungen basierend auf TRIZ-Tools" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_104> <http://purl.org/dc/terms/title> "Zusammenfassung als Entrauschungsextraktionswerkzeug" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_105> <http://purl.org/dc/terms/title> "Tools zur Problemlösung als Methoden zur Verwaltung des Informationsinhalts von Systemen "@de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_106> <http://purl.org/dc/terms/title> "Verbindungen zwischen Problemen und Lösungen im Patent herstellen" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_107> <http://purl.org/dc/terms/title> "Eine Studie über die Auswirkungen verbesserter kollektiver Intelligenz in Kombination mit der TRIZ-Methodik zur Lösung komplexer Technologiesysteme "@de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_108> <http://purl.org/dc/terms/title> "Männer und ihre technischen Systeme" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_109> <http://purl.org/dc/terms/title> "Quantifizierung nachhaltiger Patente zur Verbesserung von ESG-Faktoren mithilfe bibliometrischer Indikatoren aus dem Patentportfolio Bewertung "@de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_110> <http://purl.org/dc/terms/title> "Innovative Methode des Patentdesigns unter Anleitung der technologischen Evolution" @de .
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_111> <http://purl.org/dc/terms/title> "Dynamik und reale Optionen - Diskussion des wirtschaftlichen Erfolgs von Design-Erfindungen "@de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_112> <http://purl.org/dc/terms/title> "TRIZ-basierter Ansatz zur Verbesserung der Einführung von Open Innovation 2.0" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_113> <http://purl.org/dc/terms/title> "TRIZ-getriebene Innovation im Design von Technologien für erneuerbare Energien [hands on a Windkraftanlagenprojekt] "@de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_114> <http://purl.org/dc/terms/title> "TRIZ zur Entwicklung innovativer Unternehmen und Innovationsmanagementstrategien" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_115> <http://purl.org/dc/terms/title> "ArgumenText: Argumentklassifizierung und Clustering in einem verallgemeinerten Suchszenario" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_116> <http://purl.org/dc/terms/title> "Überschüsse in technischen Systemen: Eine hilfreiche Ressource" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_117> <http://purl.org/dc/terms/title> "Öko-Innovation aus der Natur lernen: zur Identifizierung von Lösungsprinzipien ohne Sekundäre Umweltprobleme "@de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_118> <http://purl.org/dc/terms/title> "Ein zukünftiges Öko-Design-Framework basierend auf TRIZ Widersprüchen und Bio-inspiriertes Design "@de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_119> <http://purl.org/dc/terms/title> "TRIZ zur Lösung von Herausforderungen bei der Gestaltung nachhaltiger, intelligenter und integrativer Gebäude" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_120> <http://purl.org/dc/terms/title> "Beitrag zum TRIZ-Fortschritt bei der Kombination von schlanker und erfinderischer Entwurfsmethode" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_121> <http://purl.org/dc/terms/title> "Verwalten von KI-Technologien im Erdbau: Ein TRIZ-basierter Innovationsansatz "@de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_122> <http://purl.org/dc/terms/title> "Mindful TRIZ" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_123> <http://purl.org/dc/terms/title> "Innovativer TRIZ-basierter Ansatz zur Verhinderung von CLDE-Symptomen in Silikon-Hydrogel Augenkontaktlinsen "@de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_124> <http://purl.org/dc/terms/title> "Ein neuartiges Design von CRTM-Formen unter Verwendung der TRIZ-Trennungsprinzipien" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_125> <http://purl.org/dc/terms/title> "Lösen von Problemen mit Halbleitersondenkarten mithilfe von TRIZ und Datenanalyse" @de .
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_126> <http://purl.org/dc/terms/title> "Software Engineering Performance and Quality Assessment by TRIZ" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_127> <http://purl.org/dc/terms/title> "Wie SK Hynix TRIZ auf Branchenprobleme anwendet" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_128> <http://purl.org/dc/terms/title> "Netzwerk der Analyse von Widersprüchen im Qualitätsmanagement für Marketinginformationen" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_129> <http://purl.org/dc/terms/title> "Funktionsauswahlbasierter Ansatz für die allgemeine Erkennung von Widersprüchen" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_130> <http://purl.org/dc/terms/title> "Flussstruktur-Informationsmodell für die Multiflow-Problemanalyse komplexer Systeme" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_131> <http://purl.org/dc/terms/title> "Prozessmodell zur Lösung mehrerer Probleme bei komplexen technischen Systemen" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_132> <http://purl.org/dc/terms/title> "Ein systematischer Innovationsprozess, der auf Interdisziplin ausgerichtet ist" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_133> <http://purl.org/dc/terms/title> "TRIZ-gesteuerte Identifizierung von KI-Anwendungen zur Verbesserung der Navigation mobiler autonomer Roboter "@de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_134> <http://purl.org/dc/terms/title> "Technologie-Scouting für die Behandlung fester Abfälle: TRIZ-Ansatz" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_135> <http://purl.org/dc/terms/title> "Entwicklung einer neuen Variante des Harzfilm-Infusionsverfahrens für die Luftfahrt und Automobilindustrie mit Su-Field-Modellen "@de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_136> <http://purl.org/dc/terms/title> "TRIZ für die Schaffung blauer Ozeane" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_137> <http://purl.org/dc/terms/title> "Der Algorithmus der ersten Ebene zum Finden erfinderischer Lösungen basierend auf funktionsorientierten Lösungen Modellierung von Konflikten und Analyse "@de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_138> <http://purl.org/dc/terms/title> "Eine TRIZ-basierte Methode für intelligentes Produktdesign" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_139> <http://purl.org/dc/terms/title> "Auf dem Weg zur Bewertung von Lösungskonzepten in Inventive Design" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_140> <http://purl.org/dc/terms/title> "Creative Person Development" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_141> <http://purl.org/dc/terms/title> "Anwendung künstlicher Intelligenz auf Kreativität" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_142> <http://purl.org/dc/terms/title> "Radikale Innovation im Zeitalter der KI-basierten Technik" @de .
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_143> <http://purl.org/dc/terms/title> "Quantifizierung der Einflüsse zwischen Komponenten, Funktionen und Prozessnutzungsstufen durch Verknüpfung TRIZ Methoden und Systemtechnik "@de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_144> <http://purl.org/dc/terms/title> "Beseitigung von Nachteilen durch Ändern von Übergängen in einem Ursache-Wirkungs-Modell einer Zustandsmaschine "@de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_145> <http://purl.org/dc/terms/title> "MOOCs vs Face to Face (F2F) -Modell: Welche Relevanz für Kreativitätsentwicklung? "@de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_146> <http://purl.org/dc/terms/title> "Verständnis und Überwindung der niedrigen Nutzungsrate von ARIZ in TRIZ-Praktiken" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_147> <http://purl.org/dc/terms/title> "Effektive Verbesserungslösungen in Organisationen mit Datenumhüllungsanalyse (DEA) und TRIZ: Eine Fallstudie in der Hochschulbildung "@de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_148> <http://purl.org/dc/terms/title> "World TRIZ-Related Sites Project (WTSP) (3): Weltweite WTSP-Kataloge von TRIZ- und Around-TRIZ-Sites: Erstausgabe (Okt. 2019) und ihre weitere Verbesserung "@de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_149> <http://purl.org/dc/terms/title> "Verwendung einiger TRIZ-Prinzipien beim Entwurf von Forschungsgeräten" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_150> <http://purl.org/dc/terms/title> "Studium einer Methodik zum Erstellen einer Fantasy-Story mit TRIZ" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_151> <http://purl.org/dc/terms/title> "Einfach zu verwendende Ideentechnik basierend auf fünf branchenübergreifenden Ideen Analogien verbessern die technische Kreativität von Studenten und Fachleuten "@de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_152> <http://purl.org/dc/terms/title> "Ein Ansatz zum Trimmen von Produkttypen" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_153> <http://purl.org/dc/terms/title> "Anwendung der TRIZ-Substanzfeldanalyse und Situationsanalyse für die Risikoanalyse und Entwicklung der gemeinsamen Sprache unter den Interessengruppen "@de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_154> <http://purl.org/dc/terms/title> "So organisieren Sie eine Wissensdatenbank mit TRIZ Evolution Tree" @de .
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_155> <http://purl.org/dc/terms/title> "Geschwindigkeitsreduzierer mit hoher Leistungsdichte: Eine TRIZ-basierte Klassifizierung mechanischer Lösungen "@en.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_156> <http://purl.org/dc/terms/title> "TRIZ: Innovationsmöglichkeiten für die Modebranche" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_157> <http://purl.org/dc/terms/title> "Formulierung der Definition des Lebens unter Verwendung der ARIZ 85c-Methodik" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_158> <http://purl.org/dc/terms/title> "Anwenden von AI und TRIZ-basiertem erweitertem Brainstorming auf Ihr Problem" @de .
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_159> <http://purl.org/dc/terms/title> "Magic Machine" @de.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_160> <http://purl.org/dc/terms/title> "Offene Forschungs- und Innovationsplattform für das nächste große Ding" @de .
-
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_100> <http://purl.org/dc/terms/title> "Считайте это решенным^TM. Как Emerson использует систематический Методы инноваций и решения проблем "@ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_101> <http://purl.org/dc/terms/title> "Матрица противоречий в реальном времени данного поля с использованием неструктурированных текстов Содержание патентов и обработка естественного языка "@ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_102> <http://purl.org/dc/terms/title> "Алгоритмический подход к ландшафтному дизайну и приоритизации идей" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_103> <http://purl.org/dc/terms/title> "Концептуально-семантический анализ патентов и научных публикаций на основе инструментов ТРИЗ" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_104> <http://purl.org/dc/terms/title> "Резюмирование как средство извлечения шумоподавления" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_105> <http://purl.org/dc/terms/title> "Инструменты решения проблем как методы управления информационным содержанием систем. "@ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_106> <http://purl.org/dc/terms/title> "Создавайте связи между проблемами и решениями в патенте" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_107> <http://purl.org/dc/terms/title> "Исследование эффекта улучшения коллективного разума в сочетании с методологией ТРИЗ для решения сложных технологических систем "@ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_108> <http://purl.org/dc/terms/title> "Мужчины и их технические системы" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_109> <http://purl.org/dc/terms/title> "Количественная оценка устойчивых патентов для улучшения факторов ESG с использованием библиометрических показателей из патентного портфеля. Оценка "@ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_110> <http://purl.org/dc/terms/title> "Инновационный метод патентного дизайна на основе технологической эволюции" @ru .
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_111> <http://purl.org/dc/terms/title> "Динамизация и реальные возможности: обсуждение экономического успеха дизайнерских изобретений"@ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_112> <http://purl.org/dc/terms/title> "Подход, основанный на ТРИЗ, для улучшения принятия открытых инноваций 2.0" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_113> <http://purl.org/dc/terms/title> "Инновации на основе ТРИЗ в разработке технологий возобновляемых источников энергии. Проект ветряной турбины] "@ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_114> <http://purl.org/dc/terms/title> "ТРИЗ для развития инновационного бизнеса и стратегий управления инновациями" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_115> <http://purl.org/dc/terms/title> "ArgumenText: классификация аргументов и кластеризация в общем сценарии поиска" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_116> <http://purl.org/dc/terms/title> "Излишки в инженерных системах: полезный ресурс" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_117> <http://purl.org/dc/terms/title> "Изучение экологических инноваций от природы: к определению принципов решения без Вторичные экологические проблемы "@ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_118> <http://purl.org/dc/terms/title> "Фреймворк будущего экодизайна, основанный на противоречиях ТРИЗ и Био-дизайн "@ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_119> <http://purl.org/dc/terms/title> "ТРИЗ для решения задач по проектированию устойчивых, интеллектуальных и инклюзивных зданий" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_120> <http://purl.org/dc/terms/title> "Вклад в прогресс ТРИЗ в сочетании экономичного и изобретательного методов проектирования" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_121> <http://purl.org/dc/terms/title> "Управление технологиями искусственного интеллекта в земляных работах: инновационный подход на основе ТРИЗ. "@ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_122> <http://purl.org/dc/terms/title> "Внимательная ТРИЗ" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_123> <http://purl.org/dc/terms/title> "Инновационный подход на основе ТРИЗ к предотвращению симптомов CLDE в силикон-гидрогеле. Контактные линзы для глаз "@ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_124> <http://purl.org/dc/terms/title> "Новый дизайн пресс-формы CRTM с использованием принципов разделения ТРИЗ" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_125> <http://purl.org/dc/terms/title> "Решение проблем с полупроводниковой пробной картой с помощью ТРИЗ и анализа данных" @ru .
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_126> <http://purl.org/dc/terms/title> "Оценка эффективности и качества программной инженерии с помощью ТРИЗ" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_127> <http://purl.org/dc/terms/title> "Как SK Hynix применяет ТРИЗ к отраслевым проблемам" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_128> <http://purl.org/dc/terms/title> "Сеть анализа противоречий в управлении качеством маркетинговой информации" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_129> <http://purl.org/dc/terms/title> "Подход на основе выбора характеристик для распознавания обобщенного противоречия" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_130> <http://purl.org/dc/terms/title> "Информационная модель структуры потока для анализа многопоточных проблем сложных систем" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_131> <http://purl.org/dc/terms/title> "Модель процесса разрешения проблем с множеством конфликтов сложной технической системы" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_132> <http://purl.org/dc/terms/title> "Систематический инновационный процесс, ориентированный на междисциплинарный подход" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_133> <http://purl.org/dc/terms/title> "Управляемая ТРИЗ идентификация приложения ИИ для улучшения навигации мобильных автономных роботов. "@ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_134> <http://purl.org/dc/terms/title> "Разведка технологий для обращения с твердыми отходами: подход ТРИЗ" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_135> <http://purl.org/dc/terms/title> "Разработка нового варианта процесса инфузии полимерной пленки для аэронавтики и Автомобильная промышленность, использующая веполевые модели "@ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_136> <http://purl.org/dc/terms/title> "ТРИЗ для создания голубых океанов" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_137> <http://purl.org/dc/terms/title> "Алгоритм первого уровня для поиска инновационных решений, основанных на функционально-ориентированных Моделирование конфликтов и анализ "@ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_138> <http://purl.org/dc/terms/title> "Метод на основе ТРИЗ для интеллектуального дизайна продукта" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_139> <http://purl.org/dc/terms/title> "На пути к оценке концепций решения в изобретательном дизайне" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_140> <http://purl.org/dc/terms/title> "Развитие творческой личности" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_141> <http://purl.org/dc/terms/title> "Применение искусственного интеллекта в творчестве" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_142> <http://purl.org/dc/terms/title> "Радикальные инновации в эпоху инженерии на основе ИИ" @ru .
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_143> <http://purl.org/dc/terms/title> "Количественная оценка влияний между компонентами, функциями и этапами использования процессов путем связывания Методы ТРИЗ и системная инженерия "@ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_144> <http://purl.org/dc/terms/title> "Устранение недостатков путем изменения переходов в причинно-следственной модели конечного автомата. "@ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_145> <http://purl.org/dc/terms/title> "МООК против модели лицом к лицу (F2F): что актуально для Развитие творческих способностей? "@ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_146> <http://purl.org/dc/terms/title> "Понимание и преодоление низкого уровня использования АРИЗ в практиках ТРИЗ" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_147> <http://purl.org/dc/terms/title> "Эффективные решения по улучшению в организациях, использующих анализ охвата данных (DEA) и ТРИЗ: пример высшего образования "@ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_148> <http://purl.org/dc/terms/title> "Всемирный проект сайтов, связанных с ТРИЗ (WTSP) (3): Всемирные каталоги WTSP ТРИЗ и сайтов вокруг ТРИЗ: первое издание (октябрь 2019 г.) и его дальнейшее развитие "@ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_149> <http://purl.org/dc/terms/title> "Использование некоторых принципов ТРИЗ в случае разработки исследовательского оборудования" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_150> <http://purl.org/dc/terms/title> "Изучение методологии создания фантастической истории с использованием ТРИЗ" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_151> <http://purl.org/dc/terms/title> "Простая в использовании методика создания идей, основанная на пяти межотраслевых Аналогии усиливают инженерное творчество студентов и специалистов "@ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_152> <http://purl.org/dc/terms/title> "Подход к обрезке процессов типа продукта" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_153> <http://purl.org/dc/terms/title> "Применение анализа субстанциального поля ТРИЗ и ситуационного анализа для анализа рисков. и развитие общего языка среди заинтересованных сторон "@ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_154> <http://purl.org/dc/terms/title> "Как организовать базу знаний с использованием Дерева эволюции ТРИЗ" @ru .
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_155> <http://purl.org/dc/terms/title> "Плотные редукторы высокой мощности: классификация механических решений на основе ТРИЗ. "@ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_156> <http://purl.org/dc/terms/title> "ТРИЗ: инновационные возможности для индустрии моды" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_157> <http://purl.org/dc/terms/title> "Формулировка определения жизни с использованием методологии ARIZ 85c" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_158> <http://purl.org/dc/terms/title> "Применение расширенного мозгового штурма на основе ИИ и ТРИЗ для решения вашей проблемы" @ru .
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_159> <http://purl.org/dc/terms/title> "Magic Machine" @ru.
-<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2020/Talk_160> <http://purl.org/dc/terms/title> "Открытая платформа исследований и инноваций, открывающая новые возможности" @ru .
