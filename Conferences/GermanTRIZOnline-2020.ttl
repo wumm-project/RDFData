@@ -27,54 +27,64 @@ Die Beiträge der TRIZ Konferenz werden dieses Jahr im Springer Vieweg veröffen
 :Talk_100
     dcterms:creator odp:Graebe_HG ;
     dcterms:title "Technische Systeme und ihre Zwecke"@de, "Technical systems and their purposes"@en, "Технические системы и их цели"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=ROmCwLEUzLE> ;
     od:urlPaper <http://dx.doi.org/10.14625/graebe_20200519> ;  
     od:urlSlides <https://hg-graebe.de/EigeneTexte/DAT-20-Folien.pdf> ;  
     a od:Talk .
 
 :Talk_101
     dcterms:creator odp:LeonhardPfleger_R ;
+    od:urlVideo <https://www.youtube.com/watch?v=voK9MN6Uk3w> ;
     dcterms:title "Comparison of TRIZ innovation principles and the St. Gallen Business Model Navigator"@en, "Vergleich TRIZ Innovationsprinzipien und St. Gallener Business Model Navigator"@de, "Сравнение инновационных принципов ТРИЗ и навигатора бизнес-модели Санкт-Галлена"@ru ;
     a od:Talk .
 
 :Talk_102
     dcterms:creator odp:Schaper_S ;
+    od:urlVideo <https://www.youtube.com/watch?v=voK9MN6Uk3w> ;
     dcterms:title "TRIZ-inspirierte Erzeugung digitaler Geschäftsmodelle"@de, "TRIZ inspired Creation of Digital Business Models"@en, "Создание цифровых бизнес-моделей на базе ТРИЗ"@ru ;
     a od:Talk .
 
 :Talk_103
     dcterms:creator odp:Hammer_J, odp:Bayer_T ;
     od:presentedBy odp:Bayer_T ;
+    od:urlVideo <https://www.youtube.com/watch?v=2RtsRf2G824> ;
     dcterms:title "Der Einsatz von TRIZ im Design Thinking Prozess: Erfahrungen aus der Praxis"@de, "The use of TRIZ in the Design Thinking process: practical experience"@en, "Использование ТРИЗ в процессе дизайн-мышления: практический опыт"@de ;
     a od:Talk .
 
 :Talk_104
     dcterms:creator odp:Schaumann_U ;
+    od:urlVideo <https://www.youtube.com/watch?v=nfBu7E6PoFA> ;
     dcterms:title "Flow analysis in TRIZ – another approach to problem solving"@en, "Flussanalyse in TRIZ – ein anderer Zugang zur Problemlösung"@de, "Анализ потоков в ТРИЗ – другой подход к решению проблем"@ru ;
     a od:Talk .
 
 :Talk_105
     dcterms:creator odp:Mayer_O ;
+    od:urlVideo <https://www.youtube.com/watch?v=Jzepbxo0Zeo> ;
     dcterms:title "Big Data in der TRIZ als Field"@de, "Big Data in TRIZ as a Field"@en, "Большие данные в ТРИЗ как поле"@ru ;
     a od:Talk .
 
 :Talk_106
     dcterms:creator odp:Schaumann_U ;
+    od:urlVideo <https://www.youtube.com/watch?v=UizbTto7Kbg> ;
     dcterms:title "Support of a bionic approach with the help of TRIZ using the example of a component development for household appliances"@en, "Unterstützung einer bionischen Vorgehensweise mit Hilfe von TRIZ am Beispiel einer Komponentenentwicklung für Haushaltsgeräte"@de, "Поддержка бионического подхода с помощью ТРИЗ на примере разработки компонента для бытовой техники"@ru ;
     a od:Talk .
 
 :Talk_107
     dcterms:creator odp:Hammer_J, odp:Kiesel_M ;
     od:presentedBy odp:Kiesel_M ;
+    od:urlVideo <https://www.youtube.com/watch?v=FsEqUTHEzwE> ;
     dcterms:title "Anwendung von TRIZ-Werkzeugen in der Produktvorausschau und Technologieprognose: eine Fallstudie aus der Industrie"@de, "Applying TRIZ tools in product foresight and technology forecasting: a case study from industry"@en, "Применение инструментов ТРИЗ в прогнозировании продукта и технологическом прогнозировании: пример из промышленности"@ru ;
     a od:Talk .
 
 :Talk_108
     dcterms:creator odp:Wessner_J ;
+    od:urlVideo <https://www.youtube.com/watch?v=-syIx3obj9M> ;
     dcterms:title "Ressourcen-orientierte Suche (ROS) - Die Rolle des Menschen bei der Indentifizierung der richtigen Ressource"@de, "Resource Oriented Search (ROS) - The Role of the Human Being to Find the Right Resource "@en, "Ресурсно-ориентированный поиск (ROS) - роль человека в поиске подходящего ресурса"@ru ;
     a od:Talk .
 
 :Talk_109
     dcterms:creator odp:Wessner_J ;
+    od:urlVideo <https://www.youtube.com/watch?v=FA0eGJONIOg> ;
     dcterms:title "Resource Oriented Search (ROS) - Efficiently Find the Right Resource for an Innovative Task "@en, "Ressourcen-orientierte Suche (ROS) - Die richtige Ressource für eine Innovationsaufgabe effizient finden"@de, "Ресурсно-ориентированный поиск (ROS) - эффективный поиск подходящего ресурса для инновационной задачи"@ru ;
     a od:Talk .
 
