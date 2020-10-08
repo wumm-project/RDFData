@@ -40,7 +40,7 @@ Die Beiträge der TRIZ Konferenz werden dieses Jahr im Springer Vieweg veröffen
 
 :Talk_102
     dcterms:creator odp:Schaper_S ;
-    od:urlVideo <https://www.youtube.com/watch?v=voK9MN6Uk3w> ;
+    od:urlVideo <https://www.youtube.com/watch?v=CVWBMYJr0wY> ;
     dcterms:title "TRIZ-inspirierte Erzeugung digitaler Geschäftsmodelle"@de, "TRIZ inspired Creation of Digital Business Models"@en, "Создание цифровых бизнес-моделей на базе ТРИЗ"@ru ;
     a od:Talk .
 
