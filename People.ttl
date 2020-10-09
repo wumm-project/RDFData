@@ -2914,6 +2914,7 @@ odp:Vihorev_VN
 odp:Vikentiev_IL
     a foaf:Person ;
     foaf:affil "Russia" ;
+    foaf:homepage <https://vikent.ru> ; 
     foaf:fullname "Игорь Леонардович Викентьев"@ru ;
     foaf:name "Igor L. Vikentiev" .
 
