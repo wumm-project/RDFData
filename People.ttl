@@ -842,6 +842,7 @@ odp:Gladkov_AK
 
 odp:Goldovsky_BI
     a foaf:Person ;
+    foaf:affil "Nishnyi Novgorod, Russia" ;
     foaf:fullname "Борис Израйлевич Голдовский"@ru ;
     foaf:name "Boris I. Goldovsky" .
 
@@ -1278,9 +1279,9 @@ odp:Khorenyan_RG
     foaf:fullname "Ростислав Григорьевич Хоренян"@ru ;
     foaf:name "Rostislav G. Khorenyan" .
 
-odp:Khotimliansky_Y
+odp:Khotimlyansky_Y
     a foaf:Person ;
-    foaf:name "Y. Khotimliansky" .
+    foaf:name "Yu. Khotimlyansky" .
 
 odp:Khovanov_S
     a foaf:Person ;

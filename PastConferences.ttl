@@ -24,6 +24,7 @@ The Conference aims at linking industrial companies, research centers, education
     ical:dtend "2020-10-14"^^xsd:date ;
     ical:dtstart "2020-10-16"^^xsd:date ;
     ical:location "online, supported by the university of Cluj-Napoca (Romania)" ;
+    od:theProceedings <https://doi.org/10.1007/978-3-030-61295-5> ; 
     od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZ-Future-2020.rdf> ;
     ical:url <https://tfc20.eu/> .
 

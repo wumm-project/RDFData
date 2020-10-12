@@ -1426,19 +1426,19 @@ a od:Reference .
     dcterms:title "Перенос технических решений в изобретательском творчестве"@ru ;
     a od:Reference .
 
-<http://opendiscovery.org/rdf/BIB/Khotimliansky_1974_2b7d26101eb136276eb66d35b5c5635e>
+<http://opendiscovery.org/rdf/BIB/Khotimlyansky_1974_2b7d26101eb136276eb66d35b5c5635e>
     od:hatVerweis <http://opendiscovery.org/rdf/TBK1/Verweis.8>, odv2:B21 ;
     dc:publisher "Baku: The Public Laboratory for the Innovation Methodology"@en, "Баку: ОЛМИ, 1974. — 5 с. (рукопись)."@ru ;
-    dcterms:creator odp:Khotimliansky_Y ;
+    dcterms:creator odp:Khotimlyansky_Y ;
     dcterms:issued "1974" ;
     dcterms:title "The Reflectivity Principle and its Application for Inventive Problem Solving"@en, "Принцип отзычивости и его применение при решении изобретательских задач. Для слушателей курса АзОИИТ"@ru ;
     a od:Reference .
 
-<http://opendiscovery.org/rdf/BIB/Khotimliansky_1974_79a1a780d8b61badcb9107908bb53871>
+<http://opendiscovery.org/rdf/BIB/Khotimlyansky_1974_79a1a780d8b61badcb9107908bb53871>
     od:Quelle "Хотимлянский Ю. Энергетический анализ технических систем. Баку, 1974. — 18 с. (рукопись)." ;
     od:hatVerweis odv2:B22 ;
     dc:publisher "Баку, 1974. — 18 с. (рукопись)."@ru ;
-    dcterms:creator odp:Khotimliansky_Y ;
+    dcterms:creator odp:Khotimlyansky_Y ;
     dcterms:issued "1974" ;
     dcterms:title "Энергетический анализ технических систем"@ru ;
     a od:Reference .
