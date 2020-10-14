@@ -1176,6 +1176,7 @@ odp:Kalish_VS
 
 odp:Kaliteevski_V
     a foaf:Person ;
+    foaf:affil "St. Petersburg, Russia" ;
     foaf:name "Vasili Kaliteevski" .
 
 odp:Kaloshin_NG
@@ -2316,14 +2317,14 @@ odp:Royzen_ZY
 
 odp:Rubin_MS
     a foaf:Person ;
-    foaf:affil "Moscow, Russia" ;
+    foaf:affil "St. Petersburg, Russia" ;
     foaf:fullname "Михаил Семенович Рубин"@ru ;
     foaf:homepage <https://www.facebook.com/mihail.rubin> ;
     foaf:name "Mikhail S. Rubin" .
 
 odp:Rubina_NV
     a foaf:Person ;
-    foaf:affil "ST. Petersburg, Russia" ;
+    foaf:affil "St. Petersburg, Russia" ;
     foaf:fullname "Наталия Викторовна Рубина"@ru ;
     foaf:name "Natalja Rubina" .
 
