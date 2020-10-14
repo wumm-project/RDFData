@@ -99,7 +99,7 @@ The presentation will cover background information on Emerson’s innovation eco
 
 :Talk_110
     swc:relatedToEvent track:IM ;
-    dcterms:creator odp:Li_Ha, odp:Sun_J, odp:Tan_RH, odp:Wang_FF, odp:Wang_K, odp:Zhang_L ;
+    dcterms:creator odp:Li_Ha, odp:Sun_JG, odp:Tan_RH, odp:Wang_FF, odp:Wang_K, odp:Zhang_L ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-61295-5_32> ; 
     dcterms:title "Innovative Method of Patent Design Around Guided by Technological Evolution"@en, "Innovative Methode des Patentdesigns auf der Grundlage der technologischen Evolution"@de, "Méthode innovante de conception de brevets guidée par l'évolution technologique"@fr, "Инновационный метод патентного дизайна на основе технологической эволюции"@ru ;
     a od:Talk .
@@ -151,14 +151,14 @@ Using the improvement of Wind Turbine Development as a case study, this master c
 
 :Talk_117
     swc:relatedToEvent track:SD ;
-    dcterms:creator odp:Livotov_P, odp:Sekaran_APC, odp:Udah_M ;
+    dcterms:creator odp:Livotov_P, odp:Sekaran_APC, odp:MasUdah ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-61295-5_14> ; 
     dcterms:title "Apprendre l'éco-innovation à partir de la nature: vers l'identification des principes de solution sans Eco-problèmes secondaires "@fr, "Learning Eco-Innovation from Nature: towards Identification of Solution Principles without Secondary Eco-Problems"@en, "Öko-Innovation aus der Natur lernen: zur Identifizierung von Lösungsprinzipien ohne sekundäre Umweltprobleme "@de, "Изучение экологических инноваций в природе: определение принципов решения без вторичных экологических проблем "@ru ;
     a od:Talk .
 
 :Talk_118
     swc:relatedToEvent track:SD ;
-    dcterms:creator odp:Cavallucci_D, odp:Gardoni_M, odp:Mouatassim_M, odp:Silva_A ;
+    dcterms:creator odp:Cavallucci_D, odp:Gardoni_M, odp:Mouatassim_M, odp:Silva_A, odp:Dammak_H, odp:Dkhil_A ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-61295-5_15> ; 
     dcterms:title "Un futur cadre d'éco-conception basé sur les contradictions de TRIZ et la conception bio-inspirée"@fr, "A Future Eco-design Framework Based on TRIZ’s Contradictions and Bio-Inspired Design"@en, "Ein zukünftiges Öko-Design-Framework basierend auf TRIZ Widersprüchen und bio-inspiriertes Design "@de, "Фреймворк будущего экодизайна, основанный на противоречиях ТРИЗ и био-дизайн "@ru ;
     a od:Talk .
@@ -250,7 +250,7 @@ Using the improvement of Wind Turbine Development as a case study, this master c
 
 :Talk_132
     swc:relatedToEvent track:Complexity ;
-    dcterms:creator odp:Du_YJ, odp:Li_Ha, odp:Song_ZT, odp:Sun_J, odp:Tan_RH ;
+    dcterms:creator odp:Du_YJ, odp:Li_Ha, odp:Song_ZT, odp:Sun_JG, odp:Tan_RH ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-61295-5_21> ; 
     dcterms:title "A Systematic Innovation Process Oriented to Inter-Discipline"@en, "Ein systematischer Innovationsprozess, der auf Interdisziplinarität ausgerichtet ist"@de, "Un processus d'innovation systématique orienté vers l'inter-discipline"@fr, "Систематический инновационный процесс, ориентированный на междисциплинарный подход"@ru ;
     a od:Talk .
@@ -384,7 +384,7 @@ CPD contains three parts (formation of the creative man; higher to heaven, to pe
 
 :Talk_152
     swc:relatedToEvent track:TT ;
-    dcterms:creator odp:Song_ZT, odp:Sun_J, odp:Tan_RH, odp:Wang_FF, odp:Wang_Y, odp:Zhang_L ;
+    dcterms:creator odp:Song_ZT, odp:Sun_JG, odp:Tan_RH, odp:Wang_FF, odp:Wang_Y, odp:Zhang_L ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-61295-5_19> ; 
     dcterms:title "An Approach of Product-type Process Trimming"@en, "Une approche du découpage des processus par type de produit"@fr, "Ein Ansatz zum Trimmen von Produkttypen-Prozessen"@de, "Подход к свертыванию процессов продуктовых типов"@ru ;
     a od:Talk .
