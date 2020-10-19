@@ -16,11 +16,11 @@
     cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
     a owl:Ontology ;
     rdfs:comment """Uses the terminological conventions as explained 
-      in <http://eprints.rclis.org/22454/1/LODE-BD-2.pdf>""" ;
+      in <http://eprints.rclis.org/22454/1/LODE-BD-2.pdf>""", "2020-10-19 graebe: URIs changed to prefix rdf/BIB/Book" ;
     rdfs:label "Open Discovery Collection of TRIZ Books" ;
     owl:imports <http://opendiscovery.org/rdf/People/> .
 
-<http://opendiscovery.org/rdf/Book/3326001312>
+<http://opendiscovery.org/rdf/BIB/Book/3326001312>
     dc:language "de"^^dcterms:RFC4646 ;
     dc:publisher "Deutscher Verlag der Wissenschaften, Berlin" ;
     dcterms:creator odp:Zobel_D ;
@@ -29,7 +29,7 @@
     bibo:isbn "3326001312" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/3326006543>
+<http://opendiscovery.org/rdf/BIB/Book/3326006543>
     dc:language "de"^^dcterms:RFC4646 ;
     dc:publisher "Deutscher Verlag der Wissenschaften, Berlin" ;
     dcterms:creator odp:Zobel_D ;
@@ -38,7 +38,7 @@
     bibo:isbn "3326006543" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/3930903083>
+<http://opendiscovery.org/rdf/BIB/Book/3930903083>
     dc:language "de"^^dcterms:RFC4646 ;
     dcterms:creator odp:Zobel_D ;
     dcterms:issued "1995"^^dcterms:W3CDTF ;
@@ -47,7 +47,7 @@
     a od:TRIZ-Book ;
     rdfs:comment "DABEI-Materialien Nr. 10, Bonn 1995" .
 
-<http://opendiscovery.org/rdf/Book/9781707864195>
+<http://opendiscovery.org/rdf/BIB/Book/9781707864195>
     dc:language "en"^^dcterms:RFC4646 ;
     dc:publisher "Amazon Digital Services LLC"@en ;
     dcterms:creator odp:Petrov_VM ;
@@ -56,7 +56,7 @@
     bibo:isbn "9781707864195" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9798688642292>
+<http://opendiscovery.org/rdf/BIB/Book/9798688642292>
     dc:language "en"^^dcterms:RFC4646 ;
     dc:publisher "Independently published"@en ;
     dcterms:creator odp:Petrov_VM ;
@@ -65,7 +65,7 @@
     bibo:isbn "9798688642292" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9781711620374>
+<http://opendiscovery.org/rdf/BIB/Book/9781711620374>
     dc:language "en"^^dcterms:RFC4646 ;
     dc:publisher "Amazon Digital Services LLC"@en ;
     dcterms:abstract """This book is devoted to the systematic presentation of the Theory of Inventive Problem Solving (TRIZ). It details methods for formulating non-standard problems and ways to solve them, laws of system evolution, method of forecasting development of system, structural analysis and synthesis of system, systems modeling methods, methods to identify and resolve contradictions, methods of detection and use of resources.
@@ -78,7 +78,7 @@ The book is intended for students of engineering disciplines. It can also be use
     bibo:isbn "9781711620374" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9783030042530>
+<http://opendiscovery.org/rdf/BIB/Book/9783030042530>
     od:relatedLinks <https://link.springer.com/book/10.1007/978-3-030-04254-7>, <https://www.springer.com/in/book/9783030042530> ;
     dc:language "en"^^dcterms:RFC4646 ;
     dc:publisher "Springer"@en ;
@@ -90,7 +90,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9783030042530", "9783030042547" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9783540340591>
+<http://opendiscovery.org/rdf/BIB/Book/9783540340591>
     dc:publisher "Springer: Heidelberg, Germany" ;
     dcterms:creator odp:Orloff_MA ;
     dcterms:issued "2006"^^dcterms:W3CDTF ;
@@ -98,7 +98,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9783540332237", "9783540340591" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9783816926134>
+<http://opendiscovery.org/rdf/BIB/Book/9783816926134>
     dc:language "de"^^dcterms:RFC4646 ;
     dc:publisher "Expert-Verlag, Renningen" ;
     dcterms:creator odp:Zobel_D ;
@@ -107,7 +107,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9783816926134", "9783816929390" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9783816927136>
+<http://opendiscovery.org/rdf/BIB/Book/9783816927136>
     dc:language "de"^^dcterms:RFC4646 ;
     dc:publisher "Expert-Verlag, Renningen" ;
     dcterms:creator odp:Zobel_D ;
@@ -116,7 +116,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9783816927136" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9783816927600>
+<http://opendiscovery.org/rdf/BIB/Book/9783816927600>
     dc:language "de"^^dcterms:RFC4646 ;
     dc:publisher "Expert-Verlag, Renningen" ;
     dcterms:creator odp:Zobel_D ;
@@ -125,7 +125,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9783816927600" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9783816929048>
+<http://opendiscovery.org/rdf/BIB/Book/9783816929048>
     dc:language "de"^^dcterms:RFC4646 ;
     dc:publisher "Expert-Verlag, Renningen" ;
     dcterms:creator odp:Hartmann_R, odp:Zobel_D ;
@@ -134,7 +134,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9783816929048" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785005100726>
+<http://opendiscovery.org/rdf/BIB/Book/9785005100726>
     od:relatedLinks <https://ridero.ru/books/upravlenie_innovaciyami/> ;
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
@@ -148,7 +148,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785005100726" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785449085474>
+<http://opendiscovery.org/rdf/BIB/Book/9785449085474>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:creator odp:Petrov_VM ;
@@ -157,7 +157,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785449085474" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785449099853>
+<http://opendiscovery.org/rdf/BIB/Book/9785449099853>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:creator odp:Petrov_VM ;
@@ -166,7 +166,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785449099853" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785449300003>
+<http://opendiscovery.org/rdf/BIB/Book/9785449300003>
     od:relatedLinks <https://ridero.ru/books/istoriya_razvitiya_ariz/> ;
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
@@ -178,7 +178,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785449300003" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785449300362>
+<http://opendiscovery.org/rdf/BIB/Book/9785449300362>
     od:relatedLinks <https://ridero.ru/books/istoriya_razvitiya_priemov/> ;
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
@@ -190,7 +190,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785449300362" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785449300370>
+<http://opendiscovery.org/rdf/BIB/Book/9785449300370>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:creator odp:Petrov_VM ;
@@ -199,7 +199,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785449300370" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785449308634>
+<http://opendiscovery.org/rdf/BIB/Book/9785449308634>
     od:relatedLinks <https://ridero.ru/books/istoriya_razvitiya_standartov/> ;
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
@@ -211,7 +211,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785449308634" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785449309723>
+<http://opendiscovery.org/rdf/BIB/Book/9785449309723>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:creator odp:Petrov_VM ;
@@ -220,7 +220,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785449309723" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785449314451>
+<http://opendiscovery.org/rdf/BIB/Book/9785449314451>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:creator odp:Petrov_VM ;
@@ -229,7 +229,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785449314451" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785449327727>
+<http://opendiscovery.org/rdf/BIB/Book/9785449327727>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:creator odp:Petrov_VM ;
@@ -238,7 +238,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785449327727" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785449330185>
+<http://opendiscovery.org/rdf/BIB/Book/9785449330185>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:creator odp:Petrov_VM ;
@@ -247,7 +247,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785449330185" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785449330840>
+<http://opendiscovery.org/rdf/BIB/Book/9785449330840>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:creator odp:Petrov_VM ;
@@ -256,7 +256,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785449330840" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785449337269>
+<http://opendiscovery.org/rdf/BIB/Book/9785449337269>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:abstract """Данный учебник посвящен системному изложению теории решения изобретательских задач (ТРИЗ). В книге подробно рассмотрены методы постановки нестандартных задач и способы их решения, законы развития систем, методика прогнозирования развития систем, структурный (вепольный) анализ и синтез систем, методы моделирования систем, способы выявления и разрешения противоречий, методика выявления и использования ресурсов.
@@ -268,7 +268,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785449337269" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785449351272>
+<http://opendiscovery.org/rdf/BIB/Book/9785449351272>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:creator odp:Petrov_VM ;
@@ -277,7 +277,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785449351272" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785449353696>
+<http://opendiscovery.org/rdf/BIB/Book/9785449353696>
     od:relatedLinks <https://ridero.ru/books/fotoalbom_triz/> ;
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
@@ -291,7 +291,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785449353696", "9785449353702" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785449353726>
+<http://opendiscovery.org/rdf/BIB/Book/9785449353726>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:creator odp:Petrov_VM ;
@@ -300,7 +300,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785449353726" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785449357854>
+<http://opendiscovery.org/rdf/BIB/Book/9785449357854>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:creator odp:Petrov_VM ;
@@ -309,7 +309,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785449357854" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785449360793>
+<http://opendiscovery.org/rdf/BIB/Book/9785449360793>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:abstract """Книга написана по материалам исследований, которые автор собирал для разработки законов развития технических систем.
@@ -321,7 +321,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785449360793" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785449363329>
+<http://opendiscovery.org/rdf/BIB/Book/9785449363329>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:creator odp:Petrov_VM ;
@@ -330,7 +330,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785449363329" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785449399700>
+<http://opendiscovery.org/rdf/BIB/Book/9785449399700>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:creator odp:Petrov_VM ;
@@ -339,7 +339,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785449399700" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/97854496001902>
+<http://opendiscovery.org/rdf/BIB/Book/97854496001902>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:creator odp:Petrov_VM ;
@@ -348,7 +348,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "97854496001902" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/97854496001919>
+<http://opendiscovery.org/rdf/BIB/Book/97854496001919>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:creator odp:Petrov_VM ;
@@ -357,7 +357,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "97854496001919" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785449606785>
+<http://opendiscovery.org/rdf/BIB/Book/9785449606785>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:creator odp:Petrov_VM ;
@@ -366,7 +366,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785449606785" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785449681836>
+<http://opendiscovery.org/rdf/BIB/Book/9785449681836>
     od:relatedLinks <https://ridero.ru/books/osnovy_znanii_po_triz/> ;
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
@@ -378,7 +378,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785449681836" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785449681881>
+<http://opendiscovery.org/rdf/BIB/Book/9785449681881>
     od:relatedLinks <https://ridero.ru/books/obuchenie_triz/> ;
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
@@ -392,7 +392,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785449681881" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9785449684158>
+<http://opendiscovery.org/rdf/BIB/Book/9785449684158>
     od:relatedLinks <https://ridero.ru/books/ariz2010/> ;
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
@@ -403,7 +403,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9785449684158" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/9798622683022>
+<http://opendiscovery.org/rdf/BIB/Book/9798622683022>
     dc:language "en"^^dcterms:RFC4646 ;
     dc:publisher "Amazon Digital Services LLC"@en ;
     dcterms:creator odp:Petrov_VM ;
@@ -413,21 +413,21 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:isbn "9798622683022" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/Altshuller_40Principles>
+<http://opendiscovery.org/rdf/BIB/Book/Altshuller_40Principles>
     dc:publisher "Technical Innovation Center Inc.: Worcester, MA, USA." ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "2005"^^dcterms:W3CDTF ;
     dcterms:title "40 Principles. Extended Edition: TRIZ Keys to Technical Innovation."@en ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/Altshuller_ARIZ85c>
+<http://opendiscovery.org/rdf/BIB/Book/Altshuller_ARIZ85c>
     od:relatedLinks <http://www.evolocus.com/Textbooks/ariz85c.pdf> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1985"^^dcterms:W3CDTF ;
     dcterms:title "Algorithm of Inventive Problem Solving (ARIZ85c)."@en ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/B073GZCSDT>
+<http://opendiscovery.org/rdf/BIB/Book/B073GZCSDT>
     dc:language "en"^^dcterms:RFC4646 ;
     dc:publisher "Amazon Digital Services LLC" ;
     dcterms:contributor odp:Petrov_VP, odp:Zlotin_BL, odp:Zusman_AA ;
@@ -438,7 +438,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     a od:TRIZ-Book ;
     rdfs:comment "Vladimir Petrov (Illustrator, Editor), Boris Zlotin (Translator), Alla Zusman (Translator)" .
 
-<http://opendiscovery.org/rdf/Book/B07XTR56HM>
+<http://opendiscovery.org/rdf/BIB/Book/B07XTR56HM>
     dc:language "en"^^dcterms:RFC4646 ;
     dc:publisher "Amazon Digital Services LLC" ;
     dcterms:creator odp:Petrov_VM ;
@@ -447,7 +447,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     bibo:asin "B07XTR56HM" ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/BIB.102>
+<http://opendiscovery.org/rdf/BIB/Book/BIB.102>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Moscow: Moskovsky Rabotchy" ;
     dcterms:creator odp:Altshuller_GS ;
@@ -455,18 +455,18 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:title "The Invention Algorithm"@en, "Алгоритм Изобретения"@ru ;
     a od:TRIZ-Book ;
     rdfs:comment "2nd edition" ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.102> .
+    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.102> .
 
-<http://opendiscovery.org/rdf/Book/BIB.103>
+<http://opendiscovery.org/rdf/BIB/Book/BIB.103>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Leningrad: IPK SP" ;
     dcterms:creator odp:Petrov_VM, odp:Zhuckov_RF ;
     dcterms:issued "1980" ;
     dcterms:title "Modern Methods of Scientific and Engineering Creativity. Guidebook"@en, "Современные методы научно-технического творчества. Учебное пособие."@ru ;
     a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.103> .
+    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.103> .
 
-<http://opendiscovery.org/rdf/Book/BIB.103a>
+<http://opendiscovery.org/rdf/BIB/Book/BIB.103a>
     od:relatedLinks <http://www.trizland.ru/trizba.php?id=105> ;
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Tel Aviv" ;
@@ -475,7 +475,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:title "Алгоритм решения изобретательских задач. Учебное пособие."@ru ;
     a od:TRIZ-Book .
 
-<http://opendiscovery.org/rdf/Book/BIB.107>
+<http://opendiscovery.org/rdf/BIB/Book/BIB.107>
     dc:language "ru"^^dcterms:RFC4646 ;
     dcterms:creator odp:Selyutsky_AB ;
     dcterms:issued "1991" ;
@@ -483,70 +483,70 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     a od:TRIZ-Book ;
     rdfs:comment "Petrozavodsk: Karelia, 1991." .
 
-<http://opendiscovery.org/rdf/Book/BIB.108>
+<http://opendiscovery.org/rdf/BIB/Book/BIB.108>
     dc:language "en"^^dcterms:RFC4646 ;
     dc:publisher "Cambridge University Press" ;
     dcterms:creator odp:Fey_VR, odp:Rivin_E ;
     dcterms:issued "2005" ;
     dcterms:title "Innovation on Demand: New Product Development Using TRIZ"@en ;
     a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.108> .
+    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.108> .
 
-<http://opendiscovery.org/rdf/Book/BIB.109>
+<http://opendiscovery.org/rdf/BIB/Book/BIB.109>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "M: Inform-VEA" ;
     dcterms:creator odp:Gerasimov_VM, odp:Kalish_VS, odp:Karpunin_MG, odp:Kuzmin_AM, odp:Litvin_SS ;
     dcterms:issued "1991" ;
     dcterms:title "Basics of the Methodology for Conducting Value Engineering Analysis: Methodological Recommendations"@en ;
     a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.109> .
+    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.109> .
 
-<http://opendiscovery.org/rdf/Book/BIB.110>
+<http://opendiscovery.org/rdf/BIB/Book/BIB.110>
     dc:language "en"^^dcterms:RFC4646 ;
     dc:publisher "Invention Machine Educational Services" ;
     dcterms:creator odp:Arel_AT, odp:Devojno_IG, odp:Ikovenko_SA, odp:Verbitsky_M ;
     dcterms:issued "2002" ;
     dcterms:title "TechOptimizer Fundamentals"@en ;
     a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.110> .
+    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.110> .
 
-<http://opendiscovery.org/rdf/Book/BIB.113>
+<http://opendiscovery.org/rdf/BIB/Book/BIB.113>
     dc:language "en"^^dcterms:RFC4646 ;
     dc:publisher "Worcester: Technical Innovation Center, Inc." ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1999" ;
     dcterms:title "The Innovation Algorithm"@en ;
     a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.113> .
+    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.113> .
 
-<http://opendiscovery.org/rdf/Book/BIB.114>
+<http://opendiscovery.org/rdf/BIB/Book/BIB.114>
     dc:language "ru"^^dcterms:RFC4646 ;
     dcterms:creator odp:Altshuller_GS, odp:Flickstein_IM, odp:Gadjiev_Ch ;
     dcterms:issued "1973" ;
     dcterms:title "Introduction to Substance-Field Analysis"@en ;
     a od:TRIZ-Book ;
     rdfs:commentQ "Baku: OLMI" ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.114> .
+    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.114> .
 
-<http://opendiscovery.org/rdf/Book/BIB.115>
+<http://opendiscovery.org/rdf/BIB/Book/BIB.115>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Baku: OLMI" ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1973" ;
     dcterms:title "Sufield Analysis: Methodological Guidelines"@en ;
     a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.115> .
+    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.115> .
 
-<http://opendiscovery.org/rdf/Book/BIB.116>
+<http://opendiscovery.org/rdf/BIB/Book/BIB.116>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Baku: OLMI" ;
     dcterms:creator odp:Altshuller_GS, odp:Flickstein_IM ;
     dcterms:issued "1973" ;
     dcterms:title "Problem Solving Using Sufield Analysis"@en ;
     a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.116> .
+    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.116> .
 
-<http://opendiscovery.org/rdf/Book/BIB.118>
+<http://opendiscovery.org/rdf/BIB/Book/BIB.118>
     od:relatedLinks <http://www.altshuller.ru/triz/zrts1.asp> ;
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "M: Sovietskoje radio" ;
@@ -554,54 +554,54 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:issued "1979" ;
     dcterms:title "Creativity as an Exact Science. Theory of Inventive Problem Solving"@en, "Творчество как точная наука"@ru ;
     a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.118> .
+    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.118> .
 
-<http://opendiscovery.org/rdf/Book/BIB.119>
+<http://opendiscovery.org/rdf/BIB/Book/BIB.119>
     dc:language "en"^^dcterms:RFC4646 ;
     dc:publisher "NY: Gordon and Breach" ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1988" ;
     dcterms:title "Creativity as an Exact Science"@en ;
     a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.119> .
+    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.119> .
 
-<http://opendiscovery.org/rdf/Book/BIB.120>
+<http://opendiscovery.org/rdf/BIB/Book/BIB.120>
     dc:language "ru"^^dcterms:RFC4646 ;
     dcterms:creator odp:Altshuller_GS, odp:Selyutsky_AB ;
     dcterms:issued "1980" ;
     dcterms:title "Wings for Icarus: How to solve inventive problems"@en, "Крылья для Икара: как решить изобретательские проблемы"@ru ;
     a od:TRIZ-Book ;
     rdfs:comment "Petrozavodsk: Karelia, 1980. (p. 58-72)." ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.120> .
+    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.120> .
 
-<http://opendiscovery.org/rdf/Book/BIB.121>
+<http://opendiscovery.org/rdf/BIB/Book/BIB.121>
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Novosibirsk: Nauka" ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1986" ;
     dcterms:title "To Find an Idea: Introduction to the Theory of Inventive Problem Solving"@en ;
     a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.121> .
+    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.121> .
 
-<http://opendiscovery.org/rdf/Book/BIB.123>
-    od:hatVerweis <http://opendiscovery.org/rdf/Book/Verweis.6> ;
+<http://opendiscovery.org/rdf/BIB/Book/BIB.123>
+    od:hatVerweis <http://opendiscovery.org/rdf/BIB/Book/Verweis.6> ;
     dc:language "ru"^^dcterms:RFC4646 ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:title "Daring Formulae of Creativity"@en ;
     a od:TRIZ-Book ;
     rdfs:comment "Compiled by Selyutsky, A.B.. - Petrozavodsk: Karelia, 1987. - 269 p. - (Engineering - Young people - Creativity), p. 67-74." ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.123> .
+    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.123> .
 
-<http://opendiscovery.org/rdf/Book/BIB.125>
+<http://opendiscovery.org/rdf/BIB/Book/BIB.125>
     dc:language "en"^^dcterms:RFC4646 ;
     dc:publisher "Southfield: Ideation International Inc." ;
     dcterms:creator odp:Altshuller_GS, odp:Filatov_VI, odp:Zlotin_BL, odp:Zusman_AV ;
     dcterms:issued "1999" ;
     dcterms:title "Tools of Classical TRIZ"@en ;
     a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.125> .
+    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.125> .
 
-<http://opendiscovery.org/rdf/Book/BIB.128>
+<http://opendiscovery.org/rdf/BIB/Book/BIB.128>
     dc:language "ru"^^dcterms:RFC4646 ;
     dcterms:creator odp:Selyutsky_AB ;
     dcterms:issued "1989" ;
@@ -609,34 +609,34 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     a od:TRIZ-Book ;
     rdfs:comment "Petrozavodsk: Karelia, 1989." .
 
-<http://opendiscovery.org/rdf/Book/BIB.131>
+<http://opendiscovery.org/rdf/BIB/Book/BIB.131>
     dc:language "ru"^^dcterms:RFC4646 ;
     dcterms:creator odp:Royzen_Z ;
     dcterms:issued "1986" ;
     dcterms:title "Specific Features of Resources Utilization for Problem Solving and Improving Obtained Solutions"@en ;
     a od:TRIZ-Book ;
     rdfs:comment "Kishinev: 1986" ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.131> .
+    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.131> .
 
-<http://opendiscovery.org/rdf/Book/BIB.147>
+<http://opendiscovery.org/rdf/BIB/Book/BIB.147>
     dc:language "en"^^dcterms:RFC4646 ;
     dc:publisher "Ieper: CREAX Press" ;
     dcterms:creator odp:Mann_D ;
     dcterms:issued "2002" ;
     dcterms:title "Hands-On Systematic Innovation"@en ;
     a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.147> .
+    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.147> .
 
-<http://opendiscovery.org/rdf/Book/BIB.148>
+<http://opendiscovery.org/rdf/BIB/Book/BIB.148>
     dc:language "en"^^dcterms:RFC4646 ;
     dc:publisher "Boca Raton: CRC Press" ;
     dcterms:creator odp:Domb_E, odp:Rantanen_K ;
     dcterms:issued "2002" ;
     dcterms:title "Simplified TRIZ"@en ;
     a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.148> .
+    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.148> .
 
-<http://opendiscovery.org/rdf/Book/BIB.162a>
+<http://opendiscovery.org/rdf/BIB/Book/BIB.162a>
     dc:language "ru"^^dcterms:RFC4646 ;
     dcterms:creator odp:Selyutsky_AB ;
     dcterms:issued "1988" ;
@@ -644,23 +644,23 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     a od:TRIZ-Book ;
     rdfs:comment "Petrozavodsk: Karelia, 1988." .
 
-<http://opendiscovery.org/rdf/Book/BIB.206>
+<http://opendiscovery.org/rdf/BIB/Book/BIB.206>
     dc:language "en"^^dcterms:RFC4646 ;
     dcterms:creator odp:Altshuller_GS, odp:Filatov_VI, odp:Zlotin_BL, odp:Zusman_AV ;
     dcterms:issued "1999" ;
     dcterms:title "Tools of Classical TRIZ"@en ;
     a od:TRIZ-Book ;
     rdfs:comment "Ideation International Inc. 1999." ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.206> .
+    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.206> .
 
-<http://opendiscovery.org/rdf/Book/BIB.243>
+<http://opendiscovery.org/rdf/BIB/Book/BIB.243>
     dc:language "en"^^dcterms:RFC4646 ;
     dc:publisher "Ideation International Inc." ;
     dcterms:creator odp:Kaplan_S, odp:Visnepolski_S, odp:Zlotin_BL, odp:Zusman_AV ;
     dcterms:issued "1999" ;
     dcterms:title "New Tools for Failure and Risk Analysis"@en ;
     a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/Book/BIB.243> .
+    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.243> .
 
 od:TRIZ-Book
     a owl:Class ;

@@ -8,7 +8,7 @@
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
 @prefix : <http://opendiscovery.org/rdf/Glossary/> .
 
-<http://opendiscovery.org/rdf/TheGlossary/>
+<http://opendiscovery.org/rdf/VDI-Glossary/>
     cc:attributionName "The Open Discovery Project" ;
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
@@ -18,7 +18,7 @@
 
 :theTRIZGlossary
     a skos:ConceptScheme ;
-    skos:prefLabel "Das TRIZ-Glossar"@de, "The TRIZ Glossary"@en, "Глоссарий ТРИЗ"@ru .
+    skos:prefLabel "Das VDI TRIZ-Glossar"@de, "The VDI TRIZ Glossary"@en, "Глоссарий ТРИЗ VDI"@ru .
 
 :40_inventive_principles
     a od:GlossaryEntry, skos:Concept ;

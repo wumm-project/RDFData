@@ -1053,9 +1053,9 @@ od:TRIZMasterCouncil
 
 <http://opendiscovery.org/rdf/Certificate/L5.42>
     od:issued "1998-09-27" ;
-    od:owner odp:Pevsner_LK ;
+    od:owner odp:Pevzner_LK ;
     a od:CertificateLevel5 ;
-    foaf:name "Lev Pevsner" .
+    foaf:name "Lev Pevzner" .
 
 <http://opendiscovery.org/rdf/Certificate/L5.43>
     od:issued "1998-09-27" ;

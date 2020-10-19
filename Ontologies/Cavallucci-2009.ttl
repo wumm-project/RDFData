@@ -1,0 +1,118 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix tc: <http://opendiscovery.org/rdf/Concept/> .
+
+<http://opendiscovery.org/rdf/Cavallucci-2009/>
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
+    a owl:Ontology ;
+    rdfs:comment "The ontology developed in rdf/BIB/Cavallucci_2011", "2020-10-19 graebe: compilation started" ;
+    rdfs:label "TRIZ Ontology Project - Another Ontology" .
+
+tc:EvolutionScenario a skos:Concept ;
+  skos:prefLabel "Evolution Scenario"@en .
+
+tc:EvolutionHypotheses a skos:Concept ;
+  skos:prefLabel "Evolution Hypotheses"@en .
+
+tc:Laws a skos:Concept ;
+  skos:prefLabel "Laws"@en .
+
+tc:EvaluationParameters a skos:Concept ;
+  skos:prefLabel "Evaluation Parameters"@en .
+
+tc:Value a skos:Concept ;
+  skos:prefLabel "Value"@en .
+
+tc:ActionParameter a skos:Concept ;
+  skos:prefLabel "Action Parameter"@en .
+
+tc:OppositeValue a skos:Concept ;
+  skos:prefLabel "Opposite Value"@en .
+
+tc:Contradiction a skos:Concept ;
+  skos:prefLabel "Contradiction"@en .
+
+tc:Element a skos:Concept ;
+  skos:prefLabel "Element"@en .
+
+tc:Parameter a skos:Concept ;
+  skos:prefLabel "Parameter"@en ;
+  skos:broader tc:EvaluationParameter, tc:ActionParameter .
+
+tc:PartialSolution a skos:Concept ;
+  skos:prefLabel "Partial Solution"@en .
+
+tc:Problem a skos:Concept ;
+  skos:prefLabel "Problem"@en .
+
+tc:NetworkofProblemsandPartialSolutions a skos:Concept ;
+  skos:prefLabel "Network of Problems and Partial Solutions"@en .
+
+tc:NetworkofContradictions a skos:Concept ;
+  skos:prefLabel "Network of Contradictions"@en .
+
+tc:Energy a skos:Concept ;
+  skos:prefLabel "Energy"@en .
+
+tc:Engine a skos:Concept ;
+  skos:prefLabel "Engine"@en .
+
+tc:TRIZSystemModel a skos:Concept ;
+  skos:prefLabel "TRIZ System Model"@en .
+
+tc:Transmission a skos:Concept ;
+  skos:prefLabel "Transmission"@en .
+
+tc:Control a skos:Concept ;
+  skos:prefLabel "Control"@en .
+
+tc:Work a skos:Concept ;
+  skos:prefLabel "Work"@en .
+
+tc:Product a skos:Concept ;
+  skos:prefLabel "Product"@en .
+
+tc:MainUsefulFunction a skos:Concept ;
+  skos:prefLabel "Main Useful Function"@en .
+
+tc:Resource a skos:Concept ;
+  skos:prefLabel "Resource"@en .
+
+tc:Time a skos:Concept ;
+  skos:prefLabel "Time"@en .
+
+tc:Space a skos:Concept ;
+  skos:prefLabel "Space"@en .
+
+tc:Field a skos:Concept ;
+  skos:prefLabel "Field"@en .
+
+tc:Substance a skos:Concept ;
+  skos:prefLabel "Substance"@en .
+
+tc:S-Field a skos:Concept ;
+  skos:prefLabel "S-Field"@en .
+
+tc:S-FieldModel a skos:Concept ;
+  skos:prefLabel "S-Field Model"@en .
+
+tc:isInducedBy a rdfs:Property ;
+  rdfs:domain tc:EvolutionHypothesis ;
+  rdfs:range tc:Laws, tc:EvolutionParameter .
+  
+tc:describes a rdfs:Property ;
+  rdfs:domain tc:Parameter ;
+  rdfs:range tc:Element .
+  
+tc:influences a rdfs:Property ;
+  rdfs:domain tc:Value, tc:OppositeValue ;
+  rdfs:range tc:EvaluationParameter .
+
+
