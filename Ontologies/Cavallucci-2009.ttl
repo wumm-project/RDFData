@@ -5,15 +5,17 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
-@prefix tc: <http://opendiscovery.org/rdf/Concept/> .
+@prefix tc: <http://opendiscovery.org/rdf/C-Model/> .
 
 <http://opendiscovery.org/rdf/Cavallucci-2009/>
     cc:attributionName "The Open Discovery Project" ;
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
     a owl:Ontology ;
-    rdfs:comment "The ontology developed in rdf/BIB/Cavallucci_2011", "2020-10-19 graebe: compilation started" ;
+    rdfs:comment "The ontology developed in rdf/BIB/Cavallucci_2011", "2020-10-20 graebe: a version as displayed in Fig. 2 of that paper" ;
     rdfs:label "TRIZ Ontology Project - Another Ontology" .
+
+# ---- the concepts -------------
 
 tc:EvolutionScenario a skos:Concept ;
   skos:prefLabel "Evolution Scenario"@en .
@@ -24,8 +26,8 @@ tc:EvolutionHypotheses a skos:Concept ;
 tc:Laws a skos:Concept ;
   skos:prefLabel "Laws"@en .
 
-tc:EvaluationParameters a skos:Concept ;
-  skos:prefLabel "Evaluation Parameters"@en .
+tc:EvaluationParameter a skos:Concept ;
+  skos:prefLabel "Evaluation Parameter"@en .
 
 tc:Value a skos:Concept ;
   skos:prefLabel "Value"@en .
@@ -103,16 +105,292 @@ tc:S-Field a skos:Concept ;
 tc:S-FieldModel a skos:Concept ;
   skos:prefLabel "S-Field Model"@en .
 
-tc:isInducedBy a rdfs:Property ;
-  rdfs:domain tc:EvolutionHypothesis ;
-  rdfs:range tc:Laws, tc:EvolutionParameter .
+# ---- the concept collections -------------
+
+tc:Collection-1 a skos:Collection ;
+  skos:member tc:ContradictionsNetwork,
+  tc:NetworkofProblemsandPartialSolutions, tc:Problem, tc:PartialSolution .
+
+tc:Collection-2 a skos:Collection ;
+  skos:member tc:EvolutionScenario, tc:EvolutionHypotheses, tc:Laws .
+
+tc:Collection-3 a skos:Collection ;
+  skos:member tc:EvaluationParameter, tc:Value, tc:OppositeValue,
+  tc:Contradiction, tc:Element, tc:Parameter .
+
+tc:Collection-4 a skos:Collection ;
+  skos:member tc:Energy, tc:Engine, tc:TRIZSystemModel, tc:Transmission,
+  tc:Control, tc:Work, tc:Product, tc:MainUsefulFunction .
   
-tc:describes a rdfs:Property ;
+tc:Collection-5 a skos:Collection ;
+  skos:member tc:Resource, tc:Time, tc:Space, tc:Field, tc:Substance .
+  
+tc:Collection-6 a skos:Collection ;
+  skos:member tc:S-Field, tc:S-FieldModel, tc:Field, tc:Substance .
+
+# ---- the properties -------------
+
+tc:issubclassof a rdf:Property;
+  rdfs:domain tc:EvolutionParameter ; 
+  rdfs:range tc:Parameter .
+
+tc:issubclassof a rdf:Property;
+  rdfs:domain tc:ActionParameter ; 
+  rdfs:range tc:Parameter .
+
+tc:issubclassof a rdf:Property;
+  rdfs:domain tc:Space ; 
+  rdfs:range tc:Resource .
+
+tc:issubclassof a rdf:Property;
+  rdfs:domain tc:Time ; 
+  rdfs:range tc:Resource .
+
+tc:issubclassof a rdf:Property;
+  rdfs:domain tc:Field ; 
+  rdfs:range tc:Resource .
+
+tc:issubclassof a rdf:Property;
+  rdfs:domain tc:Substance ; 
+  rdfs:range tc:Resource .
+
+tc:issubclassof a rdf:Property;
+  rdfs:domain tc:Energy ; 
+  rdfs:range tc:Field .
+
+tc:issubclassof a rdf:Property;
+  rdfs:domain tc:Product ; 
+  rdfs:range tc:Substance .
+
+tc:issubclassof a rdf:Property;
+  rdfs:domain tc:Work ; 
+  rdfs:range tc:Substance .
+
+tc:ispartof a rdf:Property;
+  rdfs:domain tc:Problem ; 
+  rdfs:range tc:NetworkofProblemsandPartialSolutions .
+
+tc:ispartof a rdf:Property;
+  rdfs:domain tc:PartialSolution ; 
+  rdfs:range tc:NetworkofProblemsandPartialSolutions .
+
+tc:ispartof a rdf:Property;
+  rdfs:domain tc:EvolutionParameter ; 
+  rdfs:range tc:Contradiction .
+
+tc:ispartof a rdf:Property;
+  rdfs:domain tc:ActionParameter ; 
+  rdfs:range tc:Contradiction .
+
+tc:ispartof a rdf:Property;
+  rdfs:domain tc:Value ; 
+  rdfs:range tc:ActionParameter .
+
+tc:ispartof a rdf:Property;
+  rdfs:domain tc:OppositeValue ; 
+  rdfs:range tc:ActionParameter .
+
+tc:ispartof a rdf:Property;
+  rdfs:domain tc:Element ; 
+  rdfs:range tc:Substance .
+
+tc:ispartof a rdf:Property;
+  rdfs:domain tc:Field ; 
+  rdfs:range tc:S-Field .
+
+tc:ispartof a rdf:Property;
+  rdfs:domain tc:Substance ; 
+  rdfs:range tc:S-Field .
+
+tc:ispartof a rdf:Property;
+  rdfs:domain tc:S-Field ; 
+  rdfs:range tc:S-FieldModel .
+
+tc:ispartof a rdf:Property;
+  rdfs:domain tc:Engine ; 
+  rdfs:range tc:TRIZSystemModel .
+
+tc:ispartof a rdf:Property;
+  rdfs:domain tc:Transaction ; 
+  rdfs:range tc:TRIZSystemModel .
+
+tc:ispartof a rdf:Property;
+  rdfs:domain tc:Control ; 
+  rdfs:range tc:TRIZSystemModel .
+
+tc:ispartof a rdf:Property;
+  rdfs:domain tc:Work ; 
+  rdfs:range tc:TRIZSystemModel .
+
+tc:hasMaturityState a rdf:Property;
+  rdfs:domain tc:EvolutionScenario ;
+  rdfs:range rdfs:Literal .
+
+tc:hasFutureState a rdf:Property;
+  rdfs:domain tc:EvolutionScenario ;
+  rdfs:range rdfs:Literal .
+
+tc:hasDesiredState a rdf:Property;
+  rdfs:domain tc:Evolutionparameter ;
+  rdfs:range rdfs:Literal .
+
+tc:hasDescription a rdf:Property;
+  rdfs:domain tc:Problem ;
+  rdfs:range rdfs:Literal .
+
+tc:hasSubject a rdf:Property;
+  rdfs:domain tc:Problem ;
+  rdfs:range rdfs:Literal .
+
+tc:hasVerb a rdf:Property;
+  rdfs:domain tc:Problem ;
+  rdfs:range rdfs:Literal .
+
+tc:hasComplement a rdf:Property;
+  rdfs:domain tc:Problem ;
+  rdfs:range rdfs:Literal .
+
+tc:hasDescription a rdf:Property;
+  rdfs:domain tc:PartialSolution ;
+  rdfs:range rdfs:Literal .
+
+tc:hasVerb a rdf:Property;
+  rdfs:domain tc:PartialSolution ;
+  rdfs:range rdfs:Literal .
+
+tc:hasComplement a rdf:Property;
+  rdfs:domain tc:PartialSolution ;
+  rdfs:range rdfs:Literal .
+
+tc:hasDescription a rdf:Property;
+  rdfs:domain tc:Contradiction ;
+  rdfs:range rdfs:Literal .
+
+tc:hasImportance a rdf:Property;
+  rdfs:domain tc:Contradiction ;
+  rdfs:range rdfs:Literal .
+
+tc:hasDescription a rdf:Property;
   rdfs:domain tc:Parameter ;
-  rdfs:range tc:Element .
-  
-tc:influences a rdfs:Property ;
-  rdfs:domain tc:Value, tc:OppositeValue ;
+  rdfs:range rdfs:Literal .
+
+tc:hasName a rdf:Property;
+  rdfs:domain tc:Parameter ;
+  rdfs:range rdfs:Literal .
+
+tc:hasMeasuredValue a rdf:Property;
+  rdfs:domain tc:Parameter ;
+  rdfs:range rdfs:Literal .
+
+tc:hasImportance a rdf:Property;
+  rdfs:domain tc:Parameter ;
+  rdfs:range rdfs:Literal .
+
+tc:hasCharacter a rdf:Property;
+  rdfs:domain tc:S-FieldModel ;
+  rdfs:range rdfs:Literal .
+
+tc:hasInteraction a rdf:Property;
+  rdfs:domain tc:S-Field ;
+  rdfs:range rdfs:Literal .
+
+tc:hasType a rdf:Property;
+  rdfs:domain tc:S-Field ;
+  rdfs:range rdfs:Literal .
+
+tc:hasLocalisation a rdf:Property;
+  rdfs:domain tc:Resource ;
+  rdfs:range rdfs:Literal .
+
+tc:hasPresent a rdf:Property;
+  rdfs:domain tc:Resource ;
+  rdfs:range rdfs:Literal .
+
+tc:inducesfollowuprate a rdf:Property;
+  rdfs:domain tc:EvolutionScenario ; 
+  rdfs:range tc:Laws .
+
+tc:isinducedby a rdf:Property;
+  rdfs:domain tc:EvolutionHypotheses ; 
+  rdfs:range tc:Laws .
+
+tc:isevolutioninducedby a rdf:Property;
+  rdfs:domain tc:EvolutionHypotheses ; 
   rdfs:range tc:EvaluationParameter .
 
+tc:influences a rdf:Property;
+  rdfs:domain tc:Value ; 
+  rdfs:range tc:EvaluationParameter .
+
+tc:oppositelyinfluences a rdf:Property;
+  rdfs:domain tc:OppositeValue ; 
+  rdfs:range tc:EvaluationParameter .
+
+tc:implies a rdf:Property;
+  rdfs:domain tc:Problem ; 
+  rdfs:range tc:Problem .
+
+tc:isdecomposedin a rdf:Property;
+  rdfs:domain tc:Problem ; 
+  rdfs:range tc:Problem .
+
+tc:leadsto a rdf:Property;
+  rdfs:domain tc:Problem ; 
+  rdfs:range tc:PartialSolution .
+
+tc:ispartiallysolvedby a rdf:Property;
+  rdfs:domain tc:PartialSolution ; 
+  rdfs:range tc:Problem .
+
+tc:isassociatedwith a rdf:Property;
+  rdfs:domain tc:Parameter ; 
+  rdfs:range tc:PartialSolution .
+
+tc:describes a rdf:Property;
+  rdfs:domain tc:Parameter ; 
+  rdfs:range tc:Element .
+
+tc:delivers a rdf:Property;
+  rdfs:domain tc:TRIZSystemModel ; 
+  rdfs:range tc:MainUsefulFunction .
+
+tc:actson a rdf:Property;
+  rdfs:domain tc:MainUsefulFunction ; 
+  rdfs:range tc:Product .
+
+tc:contacts a rdf:Property;
+  rdfs:domain tc:Work ; 
+  rdfs:range tc:Product .
+
+tc:transmits a rdf:Property;
+  rdfs:domain tc:Transmission ; 
+  rdfs:range tc:Work .
+
+tc:transmits a rdf:Property;
+  rdfs:domain tc:Engine ; 
+  rdfs:range tc:Transmission .
+
+tc:feeds a rdf:Property;
+  rdfs:domain tc:Energy ; 
+  rdfs:range tc:Engine .
+
+tc:controls a rdf:Property;
+  rdfs:domain tc:Control ; 
+  rdfs:range tc:Engine .
+
+tc:controls a rdf:Property;
+  rdfs:domain tc:Control ; 
+  rdfs:range tc:Transmission .
+
+tc:controls a rdf:Property;
+  rdfs:domain tc:Control ; 
+  rdfs:range tc:Work .
+
+tc:issubstanceone a rdf:Property;
+  rdfs:domain tc:Work ; 
+  rdfs:range tc:S-Field .
+
+tc:issubstancetwo a rdf:Property;
+  rdfs:domain tc:Product ; 
+  rdfs:range tc:S-Field .
 
