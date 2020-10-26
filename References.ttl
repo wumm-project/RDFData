@@ -1,0 +1,180 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+
+<http://opendiscovery.org/Data/Sources/References/>
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
+    a owl:Ontology ;
+    rdfs:comment """Uses the terminological conventions as explained 
+      in <http://eprints.rclis.org/22454/1/LODE-BD-2.pdf>""" ;
+    rdfs:label "Open Discovery References Collection"  .
+
+<http://opendiscovery.org/rdf/BIB/Lippert-19/Ref.01>
+  a od:Publication; 
+  dcterms:creator odp:Blackburn_TD, odp:Mazzuchi_TA, odp:Sarkani_S ;
+  dcterms:title "Using a TRIZ framework for systems engineering trade studies systems engineering";
+  dc:language "en" ; 
+  dcterms:issued "2012" ; 
+  dc:publisher "Syst. Eng. 2012, 15, 355–367" . 
+
+<http://opendiscovery.org/rdf/BIB/Lippert-19/Ref.02>
+  a od:Publication; 
+  dcterms:creator odp:Kasravi_K ;
+  dcterms:title "Applications of TRIZ to IT: Cases and Lessons Learned";
+  dc:language "en" ; 
+  dcterms:issued "2010" ; 
+  dc:publisher "In TRIZCON 2010; The Altshuller Institute for TRIZ Studies: Dayton, OH, USA, 2010." . 
+
+<http://opendiscovery.org/rdf/BIB/Lippert-19/Ref.06>
+  a od:Publication; 
+  dcterms:creator odp:Czinki_A, odp:Hentschel_C ;
+  dcterms:title "Solving Complex Problems and TRIZ";
+  dc:language "en" ; 
+  dcterms:issued "2015" ; 
+  dc:publisher "In TRIZ Future 2015 (TFC 2015); Elsevier: Berlin, Germany, 2016; pp. 27–32." . 
+
+<http://opendiscovery.org/rdf/BIB/Lippert-19/Ref.15>
+  a od:Publication; 
+  dcterms:creator odp:Spreafico_C, odp:Russo_D ;
+  dcterms:title "TRIZ industrial case studies: A critical survey";
+  dc:language "en" ; 
+  dcterms:issued "2015" ; 
+  dc:publisher "In TRIZ Future 2015 (TFC 2015); Elsevier: Berlin, Germany, 2016; pp. 51–56." . 
+
+<http://opendiscovery.org/rdf/BIB/Lippert-19/Ref.17>
+  a od:Publication; 
+  dcterms:creator odp:Mann_D ;
+  dcterms:title "Emergent Contradictions: A Synthesis of Triz and Complex Systems Theory";
+  dc:language "en" ; 
+  dcterms:issued "2007" ; 
+  dc:publisher "In 2ND IFIP TC-5 Working Conference on CAI; Springer: Brighton, MI, USA, 2007." . 
+
+<http://opendiscovery.org/rdf/BIB/Lippert-19/Ref.18>
+  a od:Publication; 
+  dcterms:creator odp:Rea_KC ;
+  dcterms:title "TRIZ and Software-40 Principles Analogies, Part I";
+  dc:language "en" ; 
+  dcterms:issued "2001" ; 
+  dc:publisher "TRIZ Journal 2001, 9, 1–8" . 
+
+<http://opendiscovery.org/rdf/BIB/Lippert-19/Ref.19>
+  a od:Publication; 
+  dcterms:creator odp:Rea_KC ;
+  dcterms:title "TRIZ and Software-40 Principles Analogies, Part II";
+  dc:language "en" ; 
+  dcterms:issued "2001" ; 
+  dc:publisher "TRIZ Journal 2001, 11, 1–7" . 
+
+<http://opendiscovery.org/rdf/BIB/Lippert-19/Ref.20>
+  a od:Publication; 
+  dcterms:creator odp:Fulbright_R ;
+  dcterms:title "TRIZ and Software Fini";
+  dc:language "en" ;
+  dcterms:issued "2004" ; 
+  dcterms:source <https://triz-journal.com/triz-software-fini/> ;
+  dc:publisher "TRIZ Journal 2004" . 
+
+<http://opendiscovery.org/rdf/BIB/Lippert-19/Ref.21>
+  a od:Publication; 
+  dcterms:creator odp:Mishra_U ;
+  dcterms:title "The Revised 40 principles for Software Inventions";
+  dc:language "en" ;
+  dcterms:issued "2005" ; 
+  dc:publisher "SSRN Electron. J. 2005" . 
+
+<http://opendiscovery.org/rdf/BIB/Lippert-19/Ref.22>
+  a od:Publication; 
+  dcterms:creator odp:Tillaart_R ;
+  dcterms:title "TRIZ and Software - 40 Principle Analogies, a sequel";
+  dc:language "en" ;
+  dcterms:issued "2006" ; 
+  dcterms:source <https://triz-journal.com/triz-software-40-principle-analogies-sequel/> ;
+  dc:publisher "TRIZ Journal 2006" . 
+
+<http://opendiscovery.org/rdf/BIB/Lippert-19/Ref.23>
+  a od:Publication; 
+  dcterms:creator odp:Ahmed_SS ;
+  dcterms:title "Rapid Innovation with TRIZ — Part 2";
+  dc:language "en" ;
+  dcterms:issued "2005" ; 
+  dcterms:source <https://triz-journal.com/rapid-innovation-triz-part-2-using-triz-symbols-schematics-continuous-innovation/> ;
+  dc:publisher "TRIZ Journal 2005" . 
+
+<http://opendiscovery.org/rdf/BIB/Lippert-19/Ref.25>
+  a od:Publication; 
+  dcterms:creator odp:Filmore_P ;
+  dcterms:title "Teaching TRIZ: Breaking Mindsets";
+  dc:language "en" ;
+  dcterms:issued "2008" ; 
+  dcterms:source <https://triz-journal.com/key-to-teaching-triz-breaking-mindsets/> ;
+  dc:publisher "TRIZ Journal 2008" . 
+
+<http://opendiscovery.org/rdf/BIB/Lippert-19/Ref.27>
+  a od:Publication; 
+  dcterms:creator odp:Andersen_B, odp:Fagerhaug_T ;
+  dcterms:title "Root Cause Analysis: Simplified Tools and Techniques";
+  dc:language "en" ;
+  dcterms:issued "2006" ; 
+  dc:publisher "American Society for Quality, Quality Press: Milwaukee, WI, USA, 2006." . 
+
+<http://opendiscovery.org/rdf/BIB/Lippert-19/Ref.28>
+  a od:Publication; 
+  dcterms:creator odp:Domb_E, odp:Miller_J, odp:MacGran_E, odp:Slocum_M ;
+  dcterms:title "The 39 Features of Altshuller’s Contradiction Matrix";
+  dc:language "en" ;
+  dcterms:issued "2007" ; 
+  dcterms:source <http://www.eng.uwaterloo.ca/~jzelek/teaching/syde361/TRIZ39.pdf> . 
+
+<http://opendiscovery.org/rdf/BIB/Lippert-19/Ref.29>
+  a od:Publication; 
+  dcterms:creator odp:Domb_E ;
+  dcterms:title "TRIZ Matrix/40 Principles/TRIZ Contradictions Table";
+  dc:language "en" ;
+  dcterms:issued "2007" ; 
+  dcterms:source <http://triz40.com/> . 
+
+<http://opendiscovery.org/rdf/BIB/Lippert-19/Ref.42>
+  a od:Publication; 
+  dcterms:creator odp:Nagappan_A, odp:Shahrul_K, odp:Ishak_AA, odp:Yeoh_TS ;
+  dcterms:title "Evolution of Triz Application for Manufacturing Industries";
+  dc:language "en" ;
+  dcterms:issued "2013" ; 
+  dc:publisher "Appl. Mech. Mater. 2013, 330, 760–767".
+
+<http://opendiscovery.org/rdf/BIB/Lippert-19>
+  a od:Publication; 
+  dcterms:creator odp:Lippert_K, odp:Cloutier_R ;
+  dcterms:title "TRIZ for Digital Systems Engineering: New Characteristics and Principles Redefined";
+  dc:language "en" ;
+  dcterms:issued "2019" ; 
+  dc:publisher "Systems 2019, 7(3), 39; doi: 10.3390/systems7030039".
+
+<http://opendiscovery.org/rdf/BIB/Goldovsky_1983>
+  a od:Publication; 
+  dcterms:creator odp:Goldovsky_BI ;
+  dc:language "ru";
+  dcterms:title "Система закономерностей построения и развития технических систем"@ru ;
+  dcterms:source <https://triz-summit.ru/file.php/id/f303253-file-original.pdf>; 
+  dcterms:issued "1983"  . 
+
+<http://opendiscovery.org/rdf/BIB/Goldovsky_2018>
+  a od:Publication; 
+  dcterms:creator odp:Goldovsky_BI ;
+  dc:language "ru";
+  dcterms:title "О законах построения технических систем"@ru ;
+  dcterms:source <https://www.metodolog.ru/node/2164>; 
+  dcterms:issued "2018"  . 
+
+<http://opendiscovery.org/rdf/BIB/Cavallucci_2011>
+  a od:Publication; 
+  dcterms:creator odp:Cavallucci_D, odp:Rousselet_F, odp:Zanni_C ;
+  dc:language "en";
+  dcterms:title "An Ontology for TRIZ"@en ;
+  dcterms:source <https://doi.org/10.1016/j.proeng.2011.03.116> ; 
+  dcterms:issued "2011"  . 

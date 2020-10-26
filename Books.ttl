@@ -20,6 +20,10 @@
     rdfs:label "Open Discovery Collection of TRIZ Books" ;
     owl:imports <http://opendiscovery.org/rdf/People/> .
 
+od:TRIZ-Book
+    a owl:Class ;
+    rdfs:label "DCMI Metarecord of a TRIZ book" .
+
 <http://opendiscovery.org/rdf/BIB/Book/3326001312>
     dc:language "de"^^dcterms:RFC4646 ;
     dc:publisher "Deutscher Verlag der Wissenschaften, Berlin" ;
@@ -96,6 +100,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:issued "2006"^^dcterms:W3CDTF ;
     dcterms:title "Grundlagen der klassischen TRIZ"@de, "Inventive Thinking Through TRIZ"@en ;
     bibo:isbn "9783540332237", "9783540340591" ;
+    dc:language "de", "en";
     a od:TRIZ-Book .
 
 <http://opendiscovery.org/rdf/BIB/Book/9783816926134>
@@ -135,7 +140,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     a od:TRIZ-Book .
 
 <http://opendiscovery.org/rdf/BIB/Book/9785005100726>
-    od:relatedLinks <https://ridero.ru/books/upravlenie_innovaciyami/> ;
+    rdfs:seeAlso <https://ridero.ru/books/upravlenie_innovaciyami/> ;
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:abstract """Книга посвящена стратегиям выбора продукта для создания инноваций и достижения бизнес успеха компаний с учетом жизненных циклов продукта, компании и рынка.
@@ -167,7 +172,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     a od:TRIZ-Book .
 
 <http://opendiscovery.org/rdf/BIB/Book/9785449300003>
-    od:relatedLinks <https://ridero.ru/books/istoriya_razvitiya_ariz/> ;
+    rdfs:seeAlso <https://ridero.ru/books/istoriya_razvitiya_ariz/> ;
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:abstract """В работе изложена история развития алгоритма решения изобретательских задач (АРИЗ), который являются разделом теории решения изобретательских задач — ТРИЗ. Автор ТРИЗ и АРИЗ Г. Альтшуллер. В работе проведен анализ всех известных модификаций АРИЗ, разработанных Г. Альтшуллером.
@@ -179,7 +184,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     a od:TRIZ-Book .
 
 <http://opendiscovery.org/rdf/BIB/Book/9785449300362>
-    od:relatedLinks <https://ridero.ru/books/istoriya_razvitiya_priemov/> ;
+    rdfs:seeAlso <https://ridero.ru/books/istoriya_razvitiya_priemov/> ;
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:abstract """В работе изложена история развития приемов разрешения противоречий, разработанных основателем теории решения изобретательских задач — ТРИЗ Г. С. Альтшуллером. Приемы являются разделом информационного фонда ТРИЗ. В работе проведен анализ всех известных автору модификаций приемов.
@@ -200,7 +205,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     a od:TRIZ-Book .
 
 <http://opendiscovery.org/rdf/BIB/Book/9785449308634>
-    od:relatedLinks <https://ridero.ru/books/istoriya_razvitiya_standartov/> ;
+    rdfs:seeAlso <https://ridero.ru/books/istoriya_razvitiya_standartov/> ;
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:abstract """Описана история развития стандартов на решение изобретательских задач, являющаяся разделом теории решения изобретательских задач — ТРИЗ, созданная Г. С. Альтшуллером. В работе проведен анализ всех известных автору модификаций стандартов. Приведены тексты первых 11 стандартов в оригинальном виде.
@@ -278,7 +283,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     a od:TRIZ-Book .
 
 <http://opendiscovery.org/rdf/BIB/Book/9785449353696>
-    od:relatedLinks <https://ridero.ru/books/fotoalbom_triz/> ;
+    rdfs:seeAlso <https://ridero.ru/books/fotoalbom_triz/> ;
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:abstract """Это уникальное издание, которое впервые публикуется в виде книги.
@@ -367,7 +372,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     a od:TRIZ-Book .
 
 <http://opendiscovery.org/rdf/BIB/Book/9785449681836>
-    od:relatedLinks <https://ridero.ru/books/osnovy_znanii_po_triz/> ;
+    rdfs:seeAlso <https://ridero.ru/books/osnovy_znanii_po_triz/> ;
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:abstract "The TRIZ Body of Knowledge in Russian"@en, """Описаны основные разделы ТРИЗ и источники знаний, версия 2007 года.
@@ -379,7 +384,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     a od:TRIZ-Book .
 
 <http://opendiscovery.org/rdf/BIB/Book/9785449681881>
-    od:relatedLinks <https://ridero.ru/books/obuchenie_triz/> ;
+    rdfs:seeAlso <https://ridero.ru/books/obuchenie_triz/> ;
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:abstract """Эта книга — своего рода путеводитель (инструкция), как для самостоятельного освоения теории решения изобретательских задач (ТРИЗ).
@@ -393,7 +398,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     a od:TRIZ-Book .
 
 <http://opendiscovery.org/rdf/BIB/Book/9785449684158>
-    od:relatedLinks <https://ridero.ru/books/ariz2010/> ;
+    rdfs:seeAlso <https://ridero.ru/books/ariz2010/> ;
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Издательские решения"@ru ;
     dcterms:abstract "Данная работа проводилась к подготовке Саммита разработчиков ТРИЗ2010. Первая редакция АРИЗ2010 была выполнена в конце 2009 года. Последняя версия этой работы была закончена 27.07.2012. "@ru ;
@@ -416,14 +421,16 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
 <http://opendiscovery.org/rdf/BIB/Book/Altshuller_40Principles>
     dc:publisher "Technical Innovation Center Inc.: Worcester, MA, USA." ;
     dcterms:creator odp:Altshuller_GS ;
+    dc:language "en" ; 
     dcterms:issued "2005"^^dcterms:W3CDTF ;
     dcterms:title "40 Principles. Extended Edition: TRIZ Keys to Technical Innovation."@en ;
     a od:TRIZ-Book .
 
 <http://opendiscovery.org/rdf/BIB/Book/Altshuller_ARIZ85c>
-    od:relatedLinks <http://www.evolocus.com/Textbooks/ariz85c.pdf> ;
+    dcterms:source <http://www.evolocus.com/Textbooks/ariz85c.pdf> ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1985"^^dcterms:W3CDTF ;
+    dc:language "en" ; 
     dcterms:title "Algorithm of Inventive Problem Solving (ARIZ85c)."@en ;
     a od:TRIZ-Book .
 
@@ -454,8 +461,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:issued "1973" ;
     dcterms:title "The Invention Algorithm"@en, "Алгоритм Изобретения"@ru ;
     a od:TRIZ-Book ;
-    rdfs:comment "2nd edition" ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.102> .
+    rdfs:comment "2nd edition" .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.103>
     dc:language "ru"^^dcterms:RFC4646 ;
@@ -463,8 +469,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:creator odp:Petrov_VM, odp:Zhuckov_RF ;
     dcterms:issued "1980" ;
     dcterms:title "Modern Methods of Scientific and Engineering Creativity. Guidebook"@en, "Современные методы научно-технического творчества. Учебное пособие."@ru ;
-    a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.103> .
+    a od:TRIZ-Book  .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.103a>
     od:relatedLinks <http://www.trizland.ru/trizba.php?id=105> ;
@@ -481,7 +486,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:issued "1991" ;
     dcterms:title "A Chance for Adventure"@en ;
     a od:TRIZ-Book ;
-    rdfs:comment "Petrozavodsk: Karelia, 1991." .
+    rdfs:comment "Petrozavodsk: Karelia" .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.108>
     dc:language "en"^^dcterms:RFC4646 ;
@@ -489,8 +494,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:creator odp:Fey_VR, odp:Rivin_E ;
     dcterms:issued "2005" ;
     dcterms:title "Innovation on Demand: New Product Development Using TRIZ"@en ;
-    a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.108> .
+    a od:TRIZ-Book  .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.109>
     dc:language "ru"^^dcterms:RFC4646 ;
@@ -498,8 +502,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:creator odp:Gerasimov_VM, odp:Kalish_VS, odp:Karpunin_MG, odp:Kuzmin_AM, odp:Litvin_SS ;
     dcterms:issued "1991" ;
     dcterms:title "Basics of the Methodology for Conducting Value Engineering Analysis: Methodological Recommendations"@en ;
-    a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.109> .
+    a od:TRIZ-Book .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.110>
     dc:language "en"^^dcterms:RFC4646 ;
@@ -507,8 +510,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:creator odp:Arel_AT, odp:Devojno_IG, odp:Ikovenko_SA, odp:Verbitsky_M ;
     dcterms:issued "2002" ;
     dcterms:title "TechOptimizer Fundamentals"@en ;
-    a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.110> .
+    a od:TRIZ-Book .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.113>
     dc:language "en"^^dcterms:RFC4646 ;
@@ -516,8 +518,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1999" ;
     dcterms:title "The Innovation Algorithm"@en ;
-    a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.113> .
+    a od:TRIZ-Book .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.114>
     dc:language "ru"^^dcterms:RFC4646 ;
@@ -525,8 +526,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:issued "1973" ;
     dcterms:title "Introduction to Substance-Field Analysis"@en ;
     a od:TRIZ-Book ;
-    rdfs:commentQ "Baku: OLMI" ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.114> .
+    rdfs:comment "Baku: OLMI" .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.115>
     dc:language "ru"^^dcterms:RFC4646 ;
@@ -534,8 +534,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1973" ;
     dcterms:title "Sufield Analysis: Methodological Guidelines"@en ;
-    a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.115> .
+    a od:TRIZ-Book .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.116>
     dc:language "ru"^^dcterms:RFC4646 ;
@@ -543,8 +542,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:creator odp:Altshuller_GS, odp:Flickstein_IM ;
     dcterms:issued "1973" ;
     dcterms:title "Problem Solving Using Sufield Analysis"@en ;
-    a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.116> .
+    a od:TRIZ-Book  .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.118>
     od:relatedLinks <http://www.altshuller.ru/triz/zrts1.asp> ;
@@ -553,17 +551,16 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1979" ;
     dcterms:title "Creativity as an Exact Science. Theory of Inventive Problem Solving"@en, "Творчество как точная наука"@ru ;
-    a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.118> .
+    a od:TRIZ-Book  .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.119>
     dc:language "en"^^dcterms:RFC4646 ;
     dc:publisher "NY: Gordon and Breach" ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1988" ;
+    rdfs:comment "English translation of BIB/Book/BIB.118" ; 
     dcterms:title "Creativity as an Exact Science"@en ;
-    a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.119> .
+    a od:TRIZ-Book .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.120>
     dc:language "ru"^^dcterms:RFC4646 ;
@@ -571,8 +568,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:issued "1980" ;
     dcterms:title "Wings for Icarus: How to solve inventive problems"@en, "Крылья для Икара: как решить изобретательские проблемы"@ru ;
     a od:TRIZ-Book ;
-    rdfs:comment "Petrozavodsk: Karelia, 1980. (p. 58-72)." ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.120> .
+    rdfs:comment "Petrozavodsk: Karelia"  .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.121>
     dc:language "ru"^^dcterms:RFC4646 ;
@@ -580,8 +576,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1986" ;
     dcterms:title "To Find an Idea: Introduction to the Theory of Inventive Problem Solving"@en ;
-    a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.121> .
+    a od:TRIZ-Book .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.123>
     od:hatVerweis <http://opendiscovery.org/rdf/BIB/Book/Verweis.6> ;
@@ -589,8 +584,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:creator odp:Altshuller_GS ;
     dcterms:title "Daring Formulae of Creativity"@en ;
     a od:TRIZ-Book ;
-    rdfs:comment "Compiled by Selyutsky, A.B.. - Petrozavodsk: Karelia, 1987. - 269 p. - (Engineering - Young people - Creativity), p. 67-74." ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.123> .
+    rdfs:comment "Compiled by Selyutsky, A.B.. - Petrozavodsk: Karelia, 1987. - 269 p. - (Engineering - Young people - Creativity), p. 67-74."  .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.125>
     dc:language "en"^^dcterms:RFC4646 ;
@@ -598,8 +592,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:creator odp:Altshuller_GS, odp:Filatov_VI, odp:Zlotin_BL, odp:Zusman_AV ;
     dcterms:issued "1999" ;
     dcterms:title "Tools of Classical TRIZ"@en ;
-    a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.125> .
+    a od:TRIZ-Book  .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.128>
     dc:language "ru"^^dcterms:RFC4646 ;
@@ -607,7 +600,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:issued "1989" ;
     dcterms:title "Rules for a Game Without Rules"@en, "Правила для игры без правил"@ru ;
     a od:TRIZ-Book ;
-    rdfs:comment "Petrozavodsk: Karelia, 1989." .
+    rdfs:comment "Petrozavodsk: Karelia" .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.131>
     dc:language "ru"^^dcterms:RFC4646 ;
@@ -615,8 +608,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:issued "1986" ;
     dcterms:title "Specific Features of Resources Utilization for Problem Solving and Improving Obtained Solutions"@en ;
     a od:TRIZ-Book ;
-    rdfs:comment "Kishinev: 1986" ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.131> .
+    rdfs:comment "Kishinev" .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.147>
     dc:language "en"^^dcterms:RFC4646 ;
@@ -624,8 +616,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:creator odp:Mann_D ;
     dcterms:issued "2002" ;
     dcterms:title "Hands-On Systematic Innovation"@en ;
-    a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.147> .
+    a od:TRIZ-Book  .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.148>
     dc:language "en"^^dcterms:RFC4646 ;
@@ -633,8 +624,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:creator odp:Domb_E, odp:Rantanen_K ;
     dcterms:issued "2002" ;
     dcterms:title "Simplified TRIZ"@en ;
-    a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.148> .
+    a od:TRIZ-Book .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.162a>
     dc:language "ru"^^dcterms:RFC4646 ;
@@ -642,7 +632,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:issued "1988" ;
     dcterms:title "A Thread in the Labyrinth"@en, "Нить в Лабиринте"@ru ;
     a od:TRIZ-Book ;
-    rdfs:comment "Petrozavodsk: Karelia, 1988." .
+    rdfs:comment "Petrozavodsk: Karelia" .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.206>
     dc:language "en"^^dcterms:RFC4646 ;
@@ -650,8 +640,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:issued "1999" ;
     dcterms:title "Tools of Classical TRIZ"@en ;
     a od:TRIZ-Book ;
-    rdfs:comment "Ideation International Inc. 1999." ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.206> .
+    dc:publisher "Ideation International Inc." .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.243>
     dc:language "en"^^dcterms:RFC4646 ;
@@ -659,10 +648,20 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dcterms:creator odp:Kaplan_S, odp:Visnepolski_S, odp:Zlotin_BL, odp:Zusman_AV ;
     dcterms:issued "1999" ;
     dcterms:title "New Tools for Failure and Risk Analysis"@en ;
+    a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/BIB/Book/Shpakovsky_2010>
     a od:TRIZ-Book ;
-    rdfs:seeAlso <http://opendiscovery.org/rdf/BIB/Book/BIB.243> .
+  dcterms:creator odp:Shpakovsky_NN ;
+  dc:language "ru";
+  dc:publisher "Forum, Moscow" ;
+  dcterms:title "ТРИЗ. Анализ технической и патентной информации и генерация новых идей"@ru ;
+  dcterms:issued "2010"  . 
 
-od:TRIZ-Book
-    a owl:Class ;
-    rdfs:label "DCMI Metarecord of a TRIZ book" .
-
+<http://opendiscovery.org/rdf/BIB/Book/Shpakovsky_2016>
+    a od:TRIZ-Book ;
+  dcterms:creator odp:Shpakovsky_NN ;
+  dc:language "en";
+  dcterms:title "Tree of Technology Evolution"@en ;
+  rdfs:comment "English translation of BIB/Book/Shpakovsky_2010, available from the OpenDiscovery collection" ; 
+  dcterms:issued "2016"  . 

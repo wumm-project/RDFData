@@ -1320,9 +1320,9 @@ od:TRIZMasterCouncil
 
 <http://opendiscovery.org/rdf/Certificate/L5.86>
     od:issued "2012-05-28" ;
-    od:owner odp:Leniashin_VA ;
+    od:owner odp:Lenyashin_VA ;
     a od:CertificateLevel5 ;
-    foaf:name "Vasily Leniachin" .
+    foaf:name "Vasily Lenyachin" .
 
 <http://opendiscovery.org/rdf/Certificate/L5.87>
     od:issued "2012-05-28" ;

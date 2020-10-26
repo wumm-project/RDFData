@@ -1,0 +1,428 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix tc: <http://opendiscovery.org/rdf/Concept/> .
+
+<http://opendiscovery.org/rdf/Thesaurus/>
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
+    dcterms:source <https://www.altshuller.ru/thesaur/thesaur.asp> ;
+    a owl:Ontology ;
+    rdfs:comment "Thesaurus compiled from the List of terms on the Altshuller website" ;  
+    rdfs:comment "2020-10-26 graebe: first part ru-en-de transformed" ;
+    rdfs:label "TRIZ Ontology Project - Thesaurus" .
+
+tc:ARIZ
+    a skos:Concept ;
+    skos:prefLabel "Algorithm of Inventive Problem Solving (ARIZ)"@en, "Algorithmus zur Lösung erfinderischer Probleme (ARIZ)"@de, "Алгоритм решения изобретательских задач (АРИЗ)"@ru .
+
+tc:AdministrativeContradiction
+    a skos:Concept ;
+    skos:prefLabel "Administrative contradiction"@en, "Administrativer Widerspruch"@de, "Противоречие административное"@ru .
+
+tc:AnalogousProblem
+    a skos:Concept ;
+    skos:prefLabel "Analoge Aufgabe"@de, "Analogous problem"@en, "Задача-аналог"@ru .
+
+tc:AntiSystem
+    a skos:Concept ;
+    skos:prefLabel "Anti-system"@en, "Antisystem"@de, "Анти-система"@ru .
+
+tc:BankWorthyGoals
+    a skos:Concept ;
+    skos:prefLabel "Fonds würdiger Ziele"@de, "The Bank of Worthy Goals"@en, "Фонд Достойных Целей"@ru .
+
+tc:BiologicalEffect
+    a skos:Concept ;
+    skos:prefLabel "Biological effect"@en, "Biologischer Effekt"@de, "Биологический эффект"@ru .
+
+tc:Bisystem
+    a skos:Concept ;
+    skos:prefLabel "Bi-system"@en, "Bisystem"@de, "Бисистема"@ru .
+
+tc:CentralCardIndex
+    a skos:Concept ;
+    skos:prefLabel "Central card index"@en, "Zentrale Kartothek"@de, "Сводная картотека"@ru .
+
+tc:ChemicalEffect
+    a skos:Concept ;
+    skos:prefLabel "Chemical effect"@en, "Chemischer Effekt"@de, "Химический эффект"@ru .
+
+tc:CompletionSuField
+    a skos:Concept ;
+    skos:prefLabel "Completion of a Su-Field"@en, "Ergänzung eines Stoff-Feldes"@de, "Достройка веполя"@ru .
+
+tc:ConceptVerticalMobility
+    a skos:Concept ;
+    skos:prefLabel "Concept of vertical mobility"@en, "Konzept der maximalen Aufwärtsbewegung"@de, "Концепция максимального движения вверх"@ru .
+
+tc:ConflictResolution
+    a skos:Concept ;
+    skos:prefLabel "Conflict resolution"@en, "Lösung eines Widerspruchs"@de, "Разрешение противоречия"@ru .
+
+tc:ConflictingPair
+    a skos:Concept ;
+    skos:prefLabel "Conflicting pair"@en, "Paar im Konflikt"@de, "Конфликтующая пара"@ru .
+
+tc:ContradictionMatrix
+    a skos:Concept ;
+    skos:prefLabel "Contradiction matrix"@en, "Widerspruchsmatrix"@de, "Таблица основных приемов для устранения типовых технических противоречий"@ru .
+
+tc:ContradictionTypes
+    a skos:Concept ;
+    skos:prefLabel "Contradiction Types"@en, "Widerspruchstypen"@de, "Противоречия (виды)"@ru .
+
+tc:CoordinationRhythms
+    a skos:Concept ;
+    skos:prefLabel "Abstimmung der Rhythmen"@de, "Coordination of rhythms"@en, "Согласование ритмики"@ru .
+
+tc:DevelopmentCreativeImagination
+    a skos:Concept ;
+    skos:prefLabel "Development of creative imagination"@en, "Entwicklung des schöpferischen Vorstellungsvermögens"@de, "Развитие Творческого Воображения"@ru .
+
+tc:DiagramTechnicalContradiction
+    a skos:Concept ;
+    skos:prefLabel "Diagram of a technical contradiction"@en, "Diagramm eines technischen Widerspruchs"@de, "Графическая схема технического противоречия (ТП)"@ru .
+
+tc:DiagramsTypicalConflictsProbelmModel
+    a skos:Concept ;
+    skos:prefLabel "Diagrams of typical conflicts in the probelm models"@en, "Schemata typischer Konflikt in den Aufgabenmodellen"@de, "Схемы типичных конфликтов в моделях задач"@ru .
+
+tc:EField
+    a skos:Concept ;
+    skos:prefLabel "E-Feld"@de, "E-Field"@en, "Эполь"@ru .
+
+tc:Effect
+    a skos:Concept ;
+    skos:prefLabel "Effect"@en, "Effekt"@de, "Эффект"@ru .
+
+tc:EngineeringProblem
+    a skos:Concept ;
+    skos:prefLabel "Engineering problem"@en, "Ingenieur-technische Aufgabe"@de, "Задача инженерная"@ru .
+
+tc:EvaluationTRIZDevelopments
+    a skos:Concept ;
+    skos:prefLabel "Bewertung von TRIZ-Entwicklungen "@de, "Evaluation of TRIZ developments"@en, "Оценка разработок по ТРИЗ"@ru .
+
+tc:ExternalConditions
+    a skos:Concept ;
+    skos:prefLabel "External conditions"@en, "Äußere Umstände"@de, "Внешние обстоятельства"@ru .
+
+tc:Fantogram
+    a skos:Concept ;
+    skos:prefLabel "Fantogram"@en, "Fantogramm"@de, "Фантограмма"@ru .
+
+tc:FeField
+    a skos:Concept ;
+    skos:prefLabel "Fe-Feld"@de, "Fe-Field"@en, "Феполь"@ru .
+
+tc:Field
+    a skos:Concept ;
+    skos:prefLabel "Feld"@de, "Field"@en, "Поле"@ru .
+
+tc:Forecast
+    a skos:Concept ;
+    skos:prefLabel "Forecast, prediction"@en, "Prognose"@de, "Прогноз"@ru .
+
+tc:FourLevelSchemeFantasyIdeas
+    a skos:Concept ;
+    skos:prefLabel "Four-level scheme of fantasy ideas"@en, "Vier-Ebenen-Schema der fantastischen Ideen"@de, "Четырехэтажная схема создания фантастических идей"@ru .
+
+tc:GeometricalEffect
+    a skos:Concept ;
+    skos:prefLabel "Geometrical effect"@en, "Geometrischer Effekt"@de, "Геометрический эффект"@ru .
+
+tc:GreatSurprise
+    a skos:Concept ;
+    skos:prefLabel "Die grosse Ueberraschung"@de, "Great Surprise"@en, "Большая Неожиданность "@ru .
+
+tc:Heuristics
+    a skos:Concept ;
+    skos:prefLabel "Heuristics"@en, "Heuristik"@de, "Эвристика"@ru .
+
+tc:IdealFinalResult
+    a skos:Concept ;
+    skos:prefLabel "Ideal Final Result (IFR)"@en, "Ideales Endresultat (IER)"@de, "Идеальный конечный результат (ИКР)"@ru .
+
+tc:IdealMachine
+    a skos:Concept ;
+    skos:prefLabel "Ideal machine"@en, "Ideale Maschine"@de, "Машина идеальная"@ru .
+
+tc:IndexEffects
+    a skos:Concept ;
+    skos:prefLabel "Index der Effekte"@de, "Index of effects"@en, "Указатели эффектов"@ru .
+
+tc:InformationFonds
+    a skos:Concept ;
+    skos:prefLabel "Information fonds"@en, "Informations-Fonds"@de, "Фонд информационный"@ru .
+
+tc:IntensificationContradiction
+    a skos:Concept ;
+    skos:prefLabel "Intensification of contradiction"@en, "Zuspitzung eines Widerspruchs"@de, "Обострение противоречия"@ru .
+
+tc:IntensifiedConflictFormulation
+    a skos:Concept ;
+    skos:prefLabel "Intensified conflict formulation"@en, "Intensivierte Widerspruchsformulierung"@de, "Усиленная формулировка конфликта"@ru .
+
+tc:InventiveProblem
+    a skos:Concept ;
+    skos:prefLabel "Erfinderische Aufgabe"@de, "Inventive problem"@en, "Задача изобретательская"@ru .
+
+tc:InventiveSituation
+    a skos:Concept ;
+    skos:prefLabel "Erfinderische Situation"@de, "Inventive situation"@en, "Ситуация изобретательская"@ru .
+
+tc:LawCompleteness
+    a skos:Concept ;
+    skos:prefLabel "Gesetz der Vollständigkeit der Systemteile"@de, "Law of completeness of system parts"@en, "Закон полноты частей системы"@ru .
+
+<http://opendiscovery.org/rdf/Concept/LawEnergyConductivity”>
+    a skos:Concept ;
+    skos:prefLabel "Gesetz der Energieleitfähigkeit eines Systems"@de, "Law of energy conductivity of a system"@en, "Закон энергетической проводимости системы"@ru .
+
+tc:LawIncreasingIdeality
+    a skos:Concept ;
+    skos:prefLabel "Gesetz der wachsenden Idealität eines Systems"@de, "Law of increasing degree of ideality of a system"@en, "Закон увеличения степени идеальности системы"@ru .
+
+tc:LawIncreasingSuFieldInteractions
+    a skos:Concept ;
+    skos:prefLabel "Gesetz der Zunahme der Stoff-Feld-Interaktionen"@de, "Law of increasing Su-Field interactions"@en, "Закон увеличения степени вепольности"@ru .
+
+tc:LawNonuniformEvolutionSubsystems
+    a skos:Concept ;
+    skos:prefLabel "Gesetz der ungleichmäßigen Entwicklung der Subsysteme"@de, "Law of non-uniform evolution of sub-systems"@en, "Закон неравномерности развития частей системы"@ru .
+
+tc:LawRhythmCoordination
+    a skos:Concept ;
+    skos:prefLabel "Gesetz der Abstimmung (Harmonisierung) der Rhythmen in einem System"@de, "Law of coordination (harmonization) of rhythms in a system"@en, "Закон согласования ритмики частей системы"@ru .
+
+tc:LawSCurveEvolution
+    a skos:Concept ;
+    skos:prefLabel "Gesetz der Entwicklung längs einer S-Kurve"@de, "Law of evolution along the S-curve"@en, "Закон S-образного развития"@ru .
+
+tc:LawTransitionMicrolevel
+    a skos:Concept ;
+    skos:prefLabel "Gesetz des Übergangs von der Makro- zur Mikroebene"@de, "Law of transition from macrolevel to microlevel"@en, "Закон перехода с макроуровня на микроуровень"@ru .
+
+tc:LawTransitionSupersystem
+    a skos:Concept ;
+    skos:prefLabel "Gesetz des Übergangs in ein Obersystem"@de, "Law of transition to a super-system"@en, "Закон перехода в надсистему"@ru .
+
+tc:LawsTechnicalSystemEvolution
+    a skos:Concept ;
+    skos:prefLabel "Gesetze der Entwicklung technischer Systeme"@de, "Laws of Technical System Evolution"@en, "Законы развития технических систем:"@ru .
+
+tc:LeadingFieldTechnology
+    a skos:Concept ;
+    skos:prefLabel "Führende Technik-Branche"@de, "Leading field of technology"@en, "Ведущая область техники"@ru .
+
+tc:LevelInventionProblem
+    a skos:Concept ;
+    skos:prefLabel "Level of invention problem"@en, "Nivea der erfinderischen Aufgaben"@de, "Уровень изобретательских задач"@ru .
+
+tc:LifeStrategyCreativePersonality
+    a skos:Concept ;
+    skos:prefLabel "Lebensstrategie einer kreativen Persönlichkeit"@de, "Life Strategy of creative personality"@en, "Жизненная Стратегия Творческой Личности"@ru .
+
+tc:ListScienceFictionIdeas
+    a skos:Concept ;
+    skos:prefLabel "List of science fiction ideas"@en, "Register der Science-Fiction-Ideen"@de, "Регистр НФ-идей"@ru .
+
+tc:MainManufacturingProcess
+    a skos:Concept ;
+    skos:prefLabel "Hauptproduktionsprozess"@de, "Main manufacturing process"@en, "Главный производственный процесс"@ru .
+
+tc:MaxiProblem
+    a skos:Concept ;
+    skos:prefLabel "Maximal-problem (Maxi-problem)"@en, "Maximalaufgabe (Maxi-Aufgabe)"@de, "Задача максимальная (макси-задача)"@ru .
+
+tc:MicroProblem
+    a skos:Concept ;
+    skos:prefLabel "Micro-problem"@en, "Mikroaufgabe"@de, "Задача микро"@ru .
+
+tc:MiniProblem
+    a skos:Concept ;
+    skos:prefLabel "Mini-problem"@en, "Minimalaufgabe (Mini-Aufgabe)"@de, "Задача минимальная (мини-задача)"@ru .
+
+tc:ModelInventiveProblem
+    a skos:Concept ;
+    skos:prefLabel "Model of an inventive problem"@en, "Modell einer erfinderischen Aufgabe"@de, "Модель изобретательской задачи"@ru .
+
+tc:MonoSystem
+    a skos:Concept ;
+    skos:prefLabel "Mono-system"@en, "Monosystem"@de, "Моносистема"@ru .
+
+tc:MultiScreenDiagram
+    a skos:Concept ;
+    skos:prefLabel "Mehrfelder-Diagramm"@de, "Multi-screen diagram"@en, "Многоэкранная схема"@ru .
+
+tc:NonStandardProblem
+    a skos:Concept ;
+    skos:prefLabel "Nicht-Standard-Aufgabe"@de, "Non-routine problem"@en, "Задача нетиповая, нестандартная"@ru .
+
+tc:NonalgorithmicMethods
+    a skos:Concept ;
+    skos:prefLabel "Nicht-algorithmische Methoden"@de, "Non-algorithmic methods"@en, "Неалгоритмические методы"@ru .
+
+tc:Object
+    a skos:Concept ;
+    skos:prefLabel "Object"@en, "Objekt"@de, "Изделие"@ru .
+
+tc:OperationalTime
+    a skos:Concept ;
+    skos:prefLabel "Operational time"@en, "Operative Zeit"@de, "Оперативное время"@ru .
+
+tc:OperationalZone
+    a skos:Concept ;
+    skos:prefLabel "Operational zone"@en, "Operative Zone"@de, "Оперативная зона"@ru .
+
+tc:OperatorSizeTimeCost
+    a skos:Concept ;
+    skos:prefLabel "Der MZK-Operator (Menge, Zeit, Kosten)"@de, "Size-Time-Cost Operator (STC)"@en, "Оператор РВС"@ru .
+
+tc:PhysicalContradiction
+    a skos:Concept ;
+    skos:prefLabel "Naturgesetzlicher Widerspruch"@de, "Physical contradiction"@en, "Противоречие физическое"@ru .
+
+tc:PhysicalEffect
+    a skos:Concept ;
+    skos:prefLabel "Naturgesetzlicher Effekt"@de, "Physical effect"@en, "Физический эффект"@ru .
+
+tc:PolySystem
+    a skos:Concept ;
+    skos:prefLabel "Poly-system"@en, "Polysystem"@de, "Полисистема"@ru .
+
+tc:Principle
+    a skos:Concept ;
+    skos:prefLabel "Prinzip"@de, "principle"@en, "Прием"@ru .
+
+tc:PrincipleChangeMacrolevel
+    a skos:Concept ;
+    skos:prefLabel "Principle of changing to a macro-level"@en, "Prinzip des Übergangs auf die Makroebene"@de, "Прием на макроуровне"@ru .
+
+tc:ProblemStatement
+    a skos:Concept ;
+    skos:prefLabel "Aufgabenstellung"@de, "Problem statement"@en, "Постановка задачи"@ru .
+
+tc:PsychologicalInertia
+    a skos:Concept ;
+    skos:prefLabel "Psychological inertia"@en, "Psychologische Trägheit"@de, "Инерция мышления"@ru .
+
+tc:QualitiesCreativePersonality
+    a skos:Concept ;
+    skos:prefLabel "Qualities of a creative personality"@en, "Qualitäten einer kreativen Persönlichkeit"@de, "Качества Творческой Личности"@ru .
+
+tc:Resource
+    a skos:Concept ;
+    skos:prefLabel "Resource"@en, "Ressourse"@de, "Ресурс"@ru .
+
+tc:Scurve
+    a skos:Concept ;
+    skos:prefLabel "S-förmige Kurve"@de, "S-shaped curve"@en, "S-образная кривая"@ru .
+
+tc:SmartLittlePeople
+    a skos:Concept ;
+    skos:prefLabel "Modeling with “smart little people”"@en, "Zwergenmethode"@de, "Метод моделирования маленькими человечками"@ru .
+
+tc:SpecialTerm
+    a skos:Concept ;
+    skos:prefLabel "Special (professional) term"@en, "Spezialbegriff"@de, "Специальный термин (спецтермин)"@ru .
+
+tc:StandardProblem
+    a skos:Concept ;
+    skos:prefLabel "Standard problem"@en, "Standard-Aufgabe"@de, "Задача типовая, стандартная"@ru .
+
+tc:StandardsSolvingInventiveProblems
+    a skos:Concept ;
+    skos:prefLabel "Standards for solving inventive problems"@en, "Standards zur Lösung erfinderischer Aufgaben"@de, "Стандарт (на решение изобретательских задач)"@ru .
+
+tc:StepBackFromIFR
+    a skos:Concept ;
+    skos:prefLabel "Schritt zurück von IER"@de, "Step back from IFR"@en, "Шаг назад от ИКР"@ru .
+
+tc:SuField
+    a skos:Concept ;
+    skos:prefLabel "Stoff-Feld"@de, "Su-Field"@en, "Веполь"@ru .
+
+tc:SuFieldAnalysis
+    a skos:Concept ;
+    skos:prefLabel "Stoff-Feld-Analyse"@de, "Substance-Field (Su-Field) analysis"@en, "Анализ вепольный (вепанализ)"@ru .
+
+tc:SuFieldBreakup
+    a skos:Concept ;
+    skos:prefLabel "Su-Field breakup"@en, "Zerstörung eines Stoff-Feldes"@de, "Разрушение веполя"@ru .
+
+tc:SuFieldDiagram
+    a skos:Concept ;
+    skos:prefLabel "Stoff-Feld-Diagramm"@de, "Su-Field diagram"@en, "Графическое изображение веполя"@ru .
+
+tc:SuFieldFormula
+    a skos:Concept ;
+    skos:prefLabel "Stoff-Feld-Formel"@de, "Su-Field formula"@en, "Вепольная формула"@ru .
+
+tc:Substance
+    a skos:Concept ;
+    skos:prefLabel "Stoff"@de, "Substance"@en, "Вещество"@ru .
+
+tc:SubstanceFieldResource
+    a skos:Concept ;
+    skos:prefLabel "Stoff-Feld-Ressurse"@de, "Substance-Field resources"@en, "Вещественно-полевые ресурсы"@ru .
+
+tc:SystemPrinciples
+    a skos:Concept ;
+    skos:prefLabel "Die TRIZ-Prinzipien"@de, "System of TRIZ principles"@en, "Система приемов"@ru .
+
+tc:SystemicOperator
+    a skos:Concept ;
+    skos:prefLabel "Systemic operator"@en, "Systemoperator"@de, "Оператор системный"@ru .
+
+tc:TField
+    a skos:Concept ;
+    skos:prefLabel "T-Feld"@de, "T-Field"@en, "Теполь"@ru .
+
+tc:TRIZ
+    a skos:Concept ;
+    skos:prefLabel "TRIZ"@en, "TRIZ (Theorie zur Lösung erfinderischer Aufgaben)"@de, "ТРИЗ"@ru .
+
+tc:TechnicalContradiction
+    a skos:Concept ;
+    skos:prefLabel "Technical contradiction"@en, "Technischer Widerspruch"@de, "Противоречие техническое"@ru .
+
+tc:TechnicalSystem
+    a skos:Concept ;
+    skos:prefLabel "Technical system"@en, "Technisches System"@de, "Система техническая"@ru .
+
+tc:TheoryDevelopmentCreativePersonality
+    a skos:Concept ;
+    skos:prefLabel "Theorie der Entwicklung kreativer Persönlichkeiten"@de, "Theory of Development of a Creative Personality"@en, "Теория Развития Творческой Личности (ТРТЛ)"@ru .
+
+tc:Tool
+    a skos:Concept ;
+    skos:prefLabel "Tool"@en, "Werkzeug"@de, "Инструмент"@ru .
+
+tc:TypicalSystemConflicts
+    a skos:Concept ;
+    skos:prefLabel "Typical system conflicts"@en, "Typische Systemkonflikte"@de, "Конфликты типовые"@ru .
+
+tc:Void
+    a skos:Concept ;
+    skos:prefLabel "Leere"@de, "Void"@en, "Пустота"@ru .
+
+tc:WorthyGoal
+    a skos:Concept ;
+    skos:prefLabel "Worthy goal"@en, "Würdiges Ziel"@de, "Достойная цель"@ru .
+
+tc:XElement
+    a skos:Concept ;
+    skos:prefLabel "X-Element"@de, "X-element"@en, "Икс-элемент"@ru .
+
+tc:principleChangeMicrolevel
+    a skos:Concept ;
+    skos:prefLabel "Principle of changing to a micro-level"@en, "Prinzip des Übergangs auf eine Mikroebene"@de, "Прием на микроуровне"@ru .
+
