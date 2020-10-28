@@ -2,6 +2,13 @@
 
 The RDFData collected within the Open Discovery Project.
 
+See more about that also in the github pages
+* <https://wumm-project.github.io/Ontology.html>
+* <https://wumm-project.github.io/OntologyDetails>
+
+of the WUMM project and the
+[WUMM Demonstration Site](http://wumm.uni-leipzig.de/index.php).
+
 ## Naming Conventions
 
 ### Namespaces
@@ -10,6 +17,7 @@ The RDFData collected within the Open Discovery Project.
 * odp: <http://opendiscovery.org/rdf/Person/> - namespace for people
 * odq: <http://opendiscovery.org/rdf/Principle/> - namespace for the principles
 * odr: <http://opendiscovery.org/rdf/Parameter/> - namespace for the parameters within the matrix
+* tc: <http://opendiscovery.org/rdf/Concept/> - namespace for TRIZ concepts
 
 ### External Ontologies Used
 
@@ -37,36 +45,58 @@ The RDFData collected within the Open Discovery Project.
   a namespace prefix <http://opendiscovery.org/rdf/xxx/> in common where xxx
   is usually in singular form.
 
-* We try to supply all graphs with information in english, german and russian.
-  It is a raw translation by Google Translate that requires additional QA. 
-
 ## RDF Graphs
+
+### References
 
 * Books.ttl - A list of TRIZ-related books.
   * Uses terminology as recommended in <http://eprints.rclis.org/22454/1/LODE-BD-2.pdf>
   * Contains bibliography supplied by V.M.Petrov
   * Contains bibliography supplied by D.Zobel
-  * Contains selected books freom the TRIZ Body of Knowledge reference list
+  * Contains selected books from the TRIZ Body of Knowledge reference list
+  * Continuously updated
+* Presentations.ttl - Metadata about selected TRIZ related presentations
+  available in the internet, either as video recording (mainly YouTube) or as
+  slide deck
+  * Continuously updated
+* References.ttl - Collection of metadata about selected TRIZ publications,
+  referenced in other parts of this RDF Database
+* TBK-References.ttl - Literature referenced in the TRIZ Bodies of Knowledge
+  TBK1 and TBK2
+  * This has yet to be consolidated in the following directions
+    * Provide link between different editions and translations of the same source.
+    * Align this with Books.ttl (we use different URIs but link with
+      rdfs:seeAlso to Books.ttl)
+
+### Conferences
+
 * ConferenceSeries.ttl - information about TRIZ Conference Series
-* Conferences - information about several TRIZ Conferences 
-* Glossary.ttl - A glossary extracted from the German VDI norm
-* MATRIZ-Certificates.ttl - Data of MATRIZ certificates
-  * 2020-04-06 graebe: Level 4 certificates
-  * 2020-04-18 graebe: Level 5 certificates
-* Ontology.ttl - A first RDF version of the ontology proposed at <https://r1.nubex.ru/s828-c8b/ca459bfe73_fit-in~160x160__f3107_7e> 
-* PastConferences.ttl - Information about Past TRIZ Conferences, in particular links to the proceedings, if published.
+* Conferences - directory containing detailed information about selected TRIZ
+  Conferences
+  * This directory is regularly updated. Each RDF-Graph there is referenced by
+    the od:detailedReport predicate in PastConferences.ttl  
+* PastConferences.ttl - Information about Past TRIZ Conferences, in particular
+  links to the proceedings, if published.
+
+### People
+
 * People.ttl - People within the TRIZ Social Network
-  * 2020-04-01 graebe: Update with the authors listed in the TBK-2012
-  * 2020-04-06 graebe: Update with the MATRIZ Level 4 certificates
-  * 2020-04-17 graebe: Update with the authors listed in the TBK-2007
-  * 2020-04-18 graebe: Update with the MATRIZ Level 5 certificates
+  * Regularly updated from different  sources
+* MATRIZ-Certificates.ttl - Data of MATRIZ certificates
+  * 2020-04-06 graebe: Level 4 certificates added
+  * 2020-04-18 graebe: Level 5 certificates added
+
+### Ontology Project
+
+This has to be moved and incorporated into the Ontology Project in the
+directory __Ontologies__.  See also the README.md in that directory.
+
 * SeparationPrinciples.ttl - The 4 Separation Principles
 * StandardSolutions.ttl - The 76 Standard Solutions 
 * TBK1-Concepts.ttl - Concepts in the TRIZ Body of Knowledge (2012 English
   version) as RDF Data
 * TBK2-Concepts.ttl - Concepts in the TRIZ Body of Knowledge (2007 Russian
   version) as RDF Data
-* TBK-References.ttl - Literature referenced in TBK1 and TBK2
 * TheBusinessStandards.ttl - V. Souchkovs Business Standard Solutions 
 * TheMatrix.ttl - Altshullers 39x39 matrix 
 * TheParameters.ttl - The 39 parameters as in the matrix of Altshuller 1985 
