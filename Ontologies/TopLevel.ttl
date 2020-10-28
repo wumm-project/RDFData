@@ -7,13 +7,13 @@
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
 @prefix tc: <http://opendiscovery.org/rdf/Concept/> .
 
-<http://opendiscovery.org/rdf/Concepts/>
+<http://opendiscovery.org/rdf/TopLevel/>
     cc:attributionName "The Open Discovery Project" ;
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
     a owl:Ontology ;
-    rdfs:comment "2020-07-13 graebe: project started", "2020-08-31 graebe: English and Russian labels added", "2020-10-19 graebe: Concepts separated" ;
-    rdfs:label "TRIZ Ontology Project - Concepts" .
+    rdfs:comment "2020-07-13 graebe: extracted from the Ontopicture at those times available at <https://triz-summit.ru/onto_triz/>", "2020-08-31 graebe: English and Russian labels added" ;
+    rdfs:label "TRIZ Ontology Project - Onto Bird's Eye" .
 
 tc:ARIZ
     a skos:Concept ;
