@@ -17,1942 +17,430 @@
     rdfs:comment "Thesaurus compiled from the List of terms on the Altshuller website" ;
     rdfs:label "TRIZ Ontology Project - Thesaurus" .
 
-
-<http://opendiscovery.org/rdf/Concept/ARIZ> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Алгоритм решения изобретательских задач (АРИЗ)"@ru;
-	skos:prefLabel "Algorithm of Inventive Problem Solving (ARIZ)"@en;
-	skos:prefLabel "Algorithmus zum Lösen erfinderischer Probleme (ARIZ)"@de;
-	skos:prefLabel "Algorithme de Résolution de Problèmes Innovants (ARIZ)"@fr;
-	skos:prefLabel "Algoritmo de resolución de problemas inventivos (ARIZ)"@es;
-	skos:prefLabel "Algoritmo da Solução Inventiva de Problemas"@pt;
-	skos:prefLabel "Algoritmo per la Soluzione Inventiva di Problemi (ARIZ)"@it;
-	skos:prefLabel "Algoritmus řešení vynálezcovských (inovačních / invenčních) zadání - (ARIZ)"@cz;
-	skos:prefLabel "Альгарытм разьвязаньня вынаходніцкіх задачаў (АРВЗ)"@by;
-	skos:prefLabel "Алгоритм вирiшення винахiдницьких задач"@ua;
-	skos:prefLabel "Algorytm Rozwiązywania Innowacyjnych Zadań (ARIZ)"@pl;
-	skos:prefLabel "Algoritam rešavanja inventivnih problema (ARIZ)"@rs;
-	skos:prefLabel "Algôrit giải các bài toán sáng chế (ARIZ)"@vn;
-	skos:prefLabel "Algoritme voor het oplossen van innovatievraagstukken"@nl;
-	skos:prefLabel "発明級問題の解決手順（ＡＲＩＺ）"@jp;
-	skos:prefLabel "אלגוריתם לפתרון בעיות המצאתי"@he;
-	skos:prefLabel "Yaratıcı Problem Çözme Algoritması (ARIZ)"@tr .
-
-<http://opendiscovery.org/rdf/Concept/SuFieldFormula> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Вепольная формула"@ru;
-	skos:prefLabel "Su-Field formula"@en;
-	skos:prefLabel "Stoff-Feld-Formel"@de;
-	skos:prefLabel "Formule vépole"@fr;
-	skos:prefLabel "Fórmula sustancia-campo"@es;
-	skos:prefLabel "Fórmula de substância-campo"@pt;
-	skos:prefLabel "Formula Su-Field"@it;
-	skos:prefLabel "Vepolový vzorec"@cz;
-	skos:prefLabel "Вэпольная формула"@by;
-	skos:prefLabel "Вiпольна формула"@ua;
-	skos:prefLabel "Zapis wepolowy"@pl;
-	skos:prefLabel "Formula Su-Polje"@rs;
-	skos:prefLabel "Công thức Vepol"@vn;
-	skos:prefLabel "V-pool formule"@nl;
-	skos:prefLabel "物質・場の公式"@jp;
-	skos:prefLabel "נוסחת חומר-שדה"@he;
-	skos:prefLabel "Tüm Madde-Alanların formulü"@tr .
-
-<http://opendiscovery.org/rdf/Concept/Substance> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Вещество"@ru;
-	skos:prefLabel "Substance"@en;
-	skos:prefLabel "Stoff"@de;
-	skos:prefLabel "Substance"@fr;
-	skos:prefLabel "Sustancia"@es;
-	skos:prefLabel "Substância"@pt;
-	skos:prefLabel "Sostanza"@it;
-	skos:prefLabel "Látka"@cz;
-	skos:prefLabel "Рэчыва"@by;
-	skos:prefLabel "Речовина"@ua;
-	skos:prefLabel "Substancja"@pl;
-	skos:prefLabel "Supstanca"@rs;
-	skos:prefLabel "Chất"@vn;
-	skos:prefLabel "Substantie"@nl;
-	skos:prefLabel "物質"@jp;
-	skos:prefLabel "חומר"@he;
-	skos:prefLabel "Madde"@tr .
-
-<http://opendiscovery.org/rdf/Concept/ExternalConditions> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Внешние обстоятельства"@ru;
-	skos:prefLabel "External conditions"@en;
-	skos:prefLabel "Äußere Bedingungen"@de;
-	skos:prefLabel "Circonstances extérieures"@fr;
-	skos:prefLabel "Condiciones externas"@es;
-	skos:prefLabel "Condições externas"@pt;
-	skos:prefLabel "Condizioni esterne"@it;
-	skos:prefLabel "Vnější okolnosti"@cz;
-	skos:prefLabel "Зьнешнія абставіны"@by;
-	skos:prefLabel "Зовнiшнi обставини"@ua;
-	skos:prefLabel "Warunki zewnętrzne"@pl;
-	skos:prefLabel "Spoljni uslovi"@rs;
-	skos:prefLabel "Các hoàn cảnh (điều kiện) bên ngoài"@vn;
-	skos:prefLabel "Externe omstandigheden"@nl;
-	skos:prefLabel "外部環境"@jp;
-	skos:prefLabel "תנאים חיצוניים"@he;
-	skos:prefLabel "Günümüzün şartları (dış şartlar)"@tr .
-
-<http://opendiscovery.org/rdf/Concept/GeometricalEffect> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Геометрический эффект"@ru;
-	skos:prefLabel "Geometrical effect"@en;
-	skos:prefLabel "Geometrischer Effekt"@de;
-	skos:prefLabel "Effet géométrique"@fr;
-	skos:prefLabel "Efectos geométricos"@es;
-	skos:prefLabel "Efeito geométrico"@pt;
-	skos:prefLabel "Effetto Geometrico"@it;
-	skos:prefLabel "Geometrický efekt"@cz;
-	skos:prefLabel "Геамэтрычны эфэкт"@by;
-	skos:prefLabel "Геометрiчний ефект"@ua;
-	skos:prefLabel "Efekt geometryczny"@pl;
-	skos:prefLabel "Geometrijski efekt"@rs;
-	skos:prefLabel "Hiệu ứng hình học"@vn;
-	skos:prefLabel "Geometrisch effect"@nl;
-	skos:prefLabel "幾何学的効果"@jp;
-	skos:prefLabel "תופעה גיאומטרית"@he;
-	skos:prefLabel "Geometrik etki"@tr .
-
-<http://opendiscovery.org/rdf/Concept/MainManufacturingProcess> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Главный производственный процесс"@ru;
-	skos:prefLabel "Main manufacturing process"@en;
-	skos:prefLabel "Hauptproduktionsprozess"@de;
-	skos:prefLabel "Processus productif principal"@fr;
-	skos:prefLabel "Proceso principal de manufactura"@es;
-	skos:prefLabel "Processo produtivo principal"@pt;
-	skos:prefLabel "Processo produttivo principale"@it;
-	skos:prefLabel "Hlavní výrobní / produkční proces"@cz;
-	skos:prefLabel "Галоўны вытворчы працэс"@by;
-	skos:prefLabel "Головний виробничий процес"@ua;
-	skos:prefLabel "Główny proces technologiczny (produkcyjny)"@pl;
-	skos:prefLabel "Glavni proizvodni proces"@rs;
-	skos:prefLabel "Quá trình sản xuất chính"@vn;
-	skos:prefLabel "Voornaamste productieproces"@nl;
-	skos:prefLabel "基本生産プロセス"@jp;
-	skos:prefLabel "תהליך היצור העיקרי"@he;
-	skos:prefLabel "Ana üretim süreci"@tr .
-
-<http://opendiscovery.org/rdf/Concept/SuFieldDiagram> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Графическое изображение веполя"@ru;
-	skos:prefLabel "Su-Field diagram"@en;
-	skos:prefLabel "Grafische Darstellung eines Stoff-Feldes"@de;
-	skos:prefLabel "Schéma du vépole"@fr;
-	skos:prefLabel "Diagrama sustancia-Campo"@es;
-	skos:prefLabel "Diagrama substância-campo"@pt;
-	skos:prefLabel "diagramma Su-Field"@it;
-	skos:prefLabel "Grafické vyjádření vepolu"@cz;
-	skos:prefLabel "Графічная выява вэполю"@by;
-	skos:prefLabel "Графiчне зображення вiполю"@ua;
-	skos:prefLabel "Graficzny zapis wepola"@pl;
-	skos:prefLabel "Dijagram Su-Polja"@rs;
-	skos:prefLabel "Sơ đồ biểu diễn Vepol"@vn;
-	skos:prefLabel "Grafische weergave van de V-pool"@nl;
-	skos:prefLabel "物質・場モデル"@jp;
-	skos:prefLabel "תצוגה גראפית של חומר-שדה"@he;
-	skos:prefLabel "Tüm Madde-Alanı grafiği"@tr .
-
-<http://opendiscovery.org/rdf/Concept/DiagramTechnicalContradiction> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Графическая схема технического противоречия (ТП)"@ru;
-	skos:prefLabel "Diagram (model) of a technical contradiction"@en;
-	skos:prefLabel "Grafische Darstellung eines technischen Widerspruchs"@de;
-	skos:prefLabel "Schéma (modèle) d’une contradiction technique"@fr;
-	skos:prefLabel "Diagrama (modelo) de una contradicción del sistema"@es;
-	skos:prefLabel "Esquema diagramático da contradição técnica"@pt;
-	skos:prefLabel "Diagramma (modello) di una contraddizione tecnica"@it;
-	skos:prefLabel "Grafické vyjádření rozporu (TR)"@cz;
-	skos:prefLabel "Графічная схема тэхнічнай супярэчнасьці (ТС)"@by;
-	skos:prefLabel "Графiчна схема техничного протирiччя"@ua;
-	skos:prefLabel "Schemat sprzeczności technicznej (ST)"@pl;
-	skos:prefLabel "Dijagram tehhničke protivrečnosti (TP)"@rs;
-	skos:prefLabel "Sơ đồ mâu thuẫn kỹ thuật (MK)"@vn;
-	skos:prefLabel "Grafische schema van de technische tegenstelling"@nl;
-	skos:prefLabel "技術的矛盾の図式モデル"@jp;
-	skos:prefLabel "תרשים גראפי של הסתירה הטכנולוגית"@he;
-	skos:prefLabel "Çelişki sisteminin grafiksel şeması"@tr .
-
-<http://opendiscovery.org/rdf/Concept/WorthyGoal> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Достойная цель"@ru;
-	skos:prefLabel "Worthy goal"@en;
-	skos:prefLabel "Würdiges Ziel"@de;
-	skos:prefLabel "Le but digne"@fr;
-	skos:prefLabel "Objetivo digno"@es;
-	skos:prefLabel "Meta digna"@pt;
-	skos:prefLabel "Obiettivo prioritario"@it;
-	skos:prefLabel "Důstojný cíl"@cz;
-	skos:prefLabel "Годная мэта"@by;
-	skos:prefLabel "Гiдна мета"@ua;
-	skos:prefLabel "Poważny cel"@pl;
-	skos:prefLabel "Dostojan cilj"@rs;
-	skos:prefLabel "Mục đích xứng đáng"@vn;
-	skos:prefLabel "Een waardig doel"@nl;
-	skos:prefLabel "意義ある目標"@jp;
-	skos:prefLabel "מטרה ערכית"@he;
-	skos:prefLabel "Değer amaç (uğruna değer amaç)"@tr .
-
-<http://opendiscovery.org/rdf/Concept/CompletionSuField> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Достройка веполя"@ru;
-	skos:prefLabel "Completion of a Su-Field"@en;
-	skos:prefLabel "Komplettierung eines Stoff-Feldes"@de;
-	skos:prefLabel "Compléter la construction du vépole"@fr;
-	skos:prefLabel "consumación de una sustancia –campo"@es;
-	skos:prefLabel "Completitude de um su-campo"@pt;
-	skos:prefLabel "Completamento di un Su-Field"@it;
-	skos:prefLabel "Dostavba vepolu"@cz;
-	skos:prefLabel "Дабудова вэполю"@by;
-	skos:prefLabel "Добудова вiполю"@ua;
-	skos:prefLabel "Uzupełnienie wepola"@pl;
-	skos:prefLabel "Dogradnja Su-Polja"@rs;
-	skos:prefLabel "Dựng đủ Vepol"@vn;
-	skos:prefLabel "Vervollediging van een V-pool"@nl;
-	skos:prefLabel "物質・場の完成"@jp;
-	skos:prefLabel "השלמת חומר-שדה"@he;
-	skos:prefLabel "Tüm Madde-Alan’ın tamamlanması"@tr .
-
-<http://opendiscovery.org/rdf/Concept/LifeStrategyCreativePersonality> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Жизненная Стратегия Творческой Личности"@ru;
-	skos:prefLabel "Life Strategy of creative personality"@en;
-	skos:prefLabel "Lebensstrategie einer kreativen Persönlichkeit"@de;
-	skos:prefLabel "Stratégie de vie d’une personne creative"@fr;
-	skos:prefLabel "Estrategia de una persona creativa"@es;
-	skos:prefLabel "Estratégia de vida da pessoa criativa"@pt;
-	skos:prefLabel "Strategia di vita di una persona creativa"@it;
-	skos:prefLabel "Životní Strategie Tvůrčí Osobnosti"@cz;
-	skos:prefLabel "Жыцьцёвая Стратэгія Творчай Асобы"@by;
-	skos:prefLabel "Життєва стратегiя творчої особи"@ua;
-	skos:prefLabel "Taktyka Rozwoju Osobowości Twórczej (TROT)"@pl;
-	skos:prefLabel "Životna Strategija Stvaralačke Ličnosti"@rs;
-	skos:prefLabel "Chiến Lược Sống Của Nhân Cách Sáng Tạo"@vn;
-	skos:prefLabel "Levensstrategie van een Creatieve Persoonlijkheid"@nl;
-	skos:prefLabel "創造的個性の人生戦略"@jp;
-	skos:prefLabel "אסטרטגית חיים של אישיות יצירתית"@he;
-	skos:prefLabel "Yaratıcı bireyin yaşam stratejisi"@tr .
-
-<http://opendiscovery.org/rdf/Concept/SubstanceFieldAnalysis> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Анализ вепольный (вепанализ)"@ru;
-	skos:prefLabel "Substance-Field (Su-Field) analysis"@en;
-	skos:prefLabel "Stoff-Feld-Analyse"@de;
-	skos:prefLabel "Analyse vépole"@fr;
-	skos:prefLabel "Análisis de sustancia-campo"@es;
-	skos:prefLabel "Análise de substância-campo (su-campo)"@pt;
-	skos:prefLabel "Analisi Su-Field"@it;
-	skos:prefLabel "Vepolová analýza"@cz;
-	skos:prefLabel "Аналіз вэпольны (вэпаналіз)"@by;
-	skos:prefLabel "Аналiз вiпольний (вiпаналiз)"@ua;
-	skos:prefLabel "Analiza wepolowa"@pl;
-	skos:prefLabel "Analiza Supstanca-Polje (Su-Polje)"@rs;
-	skos:prefLabel "Phân tích Vepol (Phân tích chất-trường)"@vn;
-	skos:prefLabel "V-Pool analyse (afgeleid van de Russische woorden &quot;substantie&quot; en &quot;veld&quot;)"@nl;
-	skos:prefLabel "物質・場分析（ＳＦ分析）"@jp;
-	skos:prefLabel "ניתוח חומר-שדה"@he;
-	skos:prefLabel "Tüm Madde-Alan Analizi"@tr .
-
-<http://opendiscovery.org/rdf/Concept/AnalogousProblem> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Задача-аналог"@ru;
-	skos:prefLabel "Analogous problem"@en;
-	skos:prefLabel "Analoges Problem"@de;
-	skos:prefLabel "Problème analogue"@fr;
-	skos:prefLabel "Problemas análogos"@es;
-	skos:prefLabel "Problema análogo"@pt;
-	skos:prefLabel "Problema analogo"@it;
-	skos:prefLabel "Zadání-analogie"@cz;
-	skos:prefLabel "Задача-аналяг"@by;
-	skos:prefLabel "Задача-аналог"@ua;
-	skos:prefLabel "Analogiczne zadanie"@pl;
-	skos:prefLabel "Analogni problem"@rs;
-	skos:prefLabel "Bài toán tương tự"@vn;
-	skos:prefLabel "Analoge probleemstelling"@nl;
-	skos:prefLabel "類似問題"@jp;
-	skos:prefLabel "בעיה אנלוגית"@he;
-	skos:prefLabel "Benzeşen problem"@tr .
-
-<http://opendiscovery.org/rdf/Concept/InventiveProblem> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Задача изобретательская"@ru;
-	skos:prefLabel "Inventive problem"@en;
-	skos:prefLabel "Erfinderisches Problem"@de;
-	skos:prefLabel "Problème d’invention"@fr;
-	skos:prefLabel "Problema Inventivo"@es;
-	skos:prefLabel "Problema inventivo"@pt;
-	skos:prefLabel "Problema inventivo"@it;
-	skos:prefLabel "Invenční (vynálezcovské) zadání"@cz;
-	skos:prefLabel "Задача вынаходніцкая"@by;
-	skos:prefLabel "Задача винахiдницька"@ua;
-	skos:prefLabel "Zadanie wynalazcze"@pl;
-	skos:prefLabel "Inventivni problem"@rs;
-	skos:prefLabel "Bài toán sáng chế"@vn;
-	skos:prefLabel "Innovatievraagstuk"@nl;
-	skos:prefLabel "発明級の問題"@jp;
-	skos:prefLabel "בעיה המצאתית"@he;
-	skos:prefLabel "Yaratıcı problem"@tr .
-
-<http://opendiscovery.org/rdf/Concept/EngineeringProblem> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Задача инженерная"@ru;
-	skos:prefLabel "Engineering problem"@en;
-	skos:prefLabel "Ingenieur-technische Aufgabe"@de;
-	skos:prefLabel "Problème d’ingénierie"@fr;
-	skos:prefLabel "Problema de ingeniería"@es;
-	skos:prefLabel "Problema de engenharia"@pt;
-	skos:prefLabel "Problema tecnico"@it;
-	skos:prefLabel "Inženýrské zadání"@cz;
-	skos:prefLabel "Задача інжынерная"@by;
-	skos:prefLabel "Задача iнженерна"@ua;
-	skos:prefLabel "Zadanie inżynierskie"@pl;
-	skos:prefLabel "Inženjerski problem"@rs;
-	skos:prefLabel "Bài toán kỹ thuật (của kỹ sư)"@vn;
-	skos:prefLabel "Engineeringsvraagstuk"@nl;
-	skos:prefLabel "技術的問題"@jp;
-	skos:prefLabel "בעיה הנדסית"@he;
-	skos:prefLabel "Mühendislik problemi"@tr .
-
-<http://opendiscovery.org/rdf/Concept/MaximalProblem> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Задача максимальная (макси-задача)"@ru;
-	skos:prefLabel "Maximal-problem (Maxi-problem)"@en;
-	skos:prefLabel "Maximalaufgabe"@de;
-	skos:prefLabel "Problème maximal (maxi-problème)"@fr;
-	skos:prefLabel "Maxiproblema"@es;
-	skos:prefLabel "Maxiproblema"@pt;
-	skos:prefLabel "Maxi-problema"@it;
-	skos:prefLabel "Maximální zadání (maxi-zadání)"@cz;
-	skos:prefLabel "Задача максымальная (максы-задача)"@by;
-	skos:prefLabel "Задача максимальна (макси-задача)"@ua;
-	skos:prefLabel "Maksymalne zadanie (maksizadanie)"@pl;
-	skos:prefLabel "Najveći problem (maksi-problem)"@rs;
-	skos:prefLabel "Bài toán cực đại (Bài toán maxi)"@vn;
-	skos:prefLabel "maximaal vraagstuk (maxi vraagstuk)"@nl;
-	skos:prefLabel "最大問題"@jp;
-	skos:prefLabel "בעיה מקסימלית"@he;
-	skos:prefLabel "Büyütülmüş problem (maksi-problem)"@tr .
-
-<http://opendiscovery.org/rdf/Concept/MicroProblem> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Задача микро"@ru;
-	skos:prefLabel "Micro-problem"@en;
-	skos:prefLabel "Mikroaufgabe"@de;
-	skos:prefLabel "Problème micro"@fr;
-	skos:prefLabel "Microproblema"@es;
-	skos:prefLabel "Microproblema"@pt;
-	skos:prefLabel "Micro-problema"@it;
-	skos:prefLabel "Mikro zadání"@cz;
-	skos:prefLabel "Задача мікра"@by;
-	skos:prefLabel "Задача мiкро"@ua;
-	skos:prefLabel "Mikrozadanie"@pl;
-	skos:prefLabel "Mikro problem"@rs;
-	skos:prefLabel "Bài toán vi mô"@vn;
-	skos:prefLabel "micro-vraagstuk"@nl;
-	skos:prefLabel "ミクロ問題"@jp;
-	skos:prefLabel "בעיית מיקרו"@he;
-	skos:prefLabel "Küçültülmüş problem (mikro-problem)"@tr .
-
-<http://opendiscovery.org/rdf/Concept/MiniProblem> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Задача минимальная (мини-задача)"@ru;
-	skos:prefLabel "Mini-problem"@en;
-	skos:prefLabel "Miniaufgabe"@de;
-	skos:prefLabel "Problème minimal (mini-problème)"@fr;
-	skos:prefLabel "Miniproblema"@es;
-	skos:prefLabel "Miniproblema"@pt;
-	skos:prefLabel "Mini-problema"@it;
-	skos:prefLabel "Minimální zadání (mini-zadání)"@cz;
-	skos:prefLabel "Задача мінімальная (міні-задача)"@by;
-	skos:prefLabel "Задача мiнiмальна (мiнi-задача)"@ua;
-	skos:prefLabel "Zadanie minimum (minizadanie)"@pl;
-	skos:prefLabel "Minimalni problem (mini-problem)"@rs;
-	skos:prefLabel "Bài toán cực tiểu (Bài toán mini)"@vn;
-	skos:prefLabel "Minimaal vraagstuk (mini vraagstuk)"@nl;
-	skos:prefLabel "最小問題"@jp;
-	skos:prefLabel "בעיית מיני"@he;
-	skos:prefLabel "Mini-problem"@tr .
-
-<http://opendiscovery.org/rdf/Concept/NonRoutineProblems> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Задачи нетиповые / нестандартные"@ru;
-	skos:prefLabel "Non-routine problems"@en;
-	skos:prefLabel "Nicht-Standard-Aufgaben"@de;
-	skos:prefLabel "Problèmes non-types, non standards"@fr;
-	skos:prefLabel "Problema no rutinario"@es;
-	skos:prefLabel "Problemas não rotineiros"@pt;
-	skos:prefLabel "Problema non standard"@it;
-	skos:prefLabel "Netypové / nestandardní zadání"@cz;
-	skos:prefLabel "Задачы нетыповыя / нестандартныя"@by;
-	skos:prefLabel "Задача нетипова / нестандартна"@ua;
-	skos:prefLabel "Nietypowe zadanie"@pl;
-	skos:prefLabel "Netipski / nestandardni problemi"@rs;
-	skos:prefLabel "Các bài toán không chuẩn"@vn;
-	skos:prefLabel "Atypische/niet-standaard vraagstukken"@nl;
-	skos:prefLabel "非標準的問題"@jp;
-	skos:prefLabel "בעיות בלתי שגרתיות"@he;
-	skos:prefLabel "Tipsiz (standart dışı) problemler"@tr .
-
-<http://opendiscovery.org/rdf/Concept/StandardProblems> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Задачи типовые / стандартные"@ru;
-	skos:prefLabel "Standard problems"@en;
-	skos:prefLabel "Standardaufgaben"@de;
-	skos:prefLabel "Problèmes types, standards"@fr;
-	skos:prefLabel "Problemas estándares"@es;
-	skos:prefLabel "Problemas padrão"@pt;
-	skos:prefLabel "Problema standard"@it;
-	skos:prefLabel "Zadání typová / standardní"@cz;
-	skos:prefLabel "Задачы тыповыя / стандартныя"@by;
-	skos:prefLabel "Задача типова / стандартна"@ua;
-	skos:prefLabel "Typowe zadanie"@pl;
-	skos:prefLabel "Tipski/standardni problemi"@rs;
-	skos:prefLabel "Các bài toán chuẩn"@vn;
-	skos:prefLabel "Standaard vraagstukken"@nl;
-	skos:prefLabel "標準的問題"@jp;
-	skos:prefLabel "בעיות סטנדרטיות"@he;
-	skos:prefLabel "Standart problemler"@tr .
-
-<http://opendiscovery.org/rdf/Concept/LawsTechnicalSystemEvolution> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Законы развития технических систем:"@ru;
-	skos:prefLabel "Laws of Technical System Evolution"@en;
-	skos:prefLabel "Gesetze der Entwicklung technischer Systeme"@de;
-	skos:prefLabel "Lois d’évolution de systèmes techniques"@fr;
-	skos:prefLabel "Leyes de la evolución de los sistemas técnicos"@es;
-	skos:prefLabel "Leis da evolução dos sistemas técnicos"@pt;
-	skos:prefLabel "Leggi di Evoluzione dei sistemi tecnici"@it;
-	skos:prefLabel "Zákony rozvoje technických systémů:"@cz;
-	skos:prefLabel "Законы разьвіцьця тэхнічных сыстэмаў"@by;
-	skos:prefLabel "Закони розвитку технiчних систем"@ua;
-	skos:prefLabel "Prawa rozwoju systemów technicznych"@pl;
-	skos:prefLabel "Zakoni razvoja tehničkih sistema"@rs;
-	skos:prefLabel "Các quy luật phát triển của các hệ thống kỹ thuật"@vn;
-	skos:prefLabel "Wetten van de ontwikkeling van technische systemen"@nl;
-	skos:prefLabel "技術システムの進化の法則"@jp;
-	skos:prefLabel "חוקי ההתפתחות של מערכות טכנולוגיות"@he;
-	skos:prefLabel "Teknik Sistemin Gelişim Kanunları"@tr .
-
-<http://opendiscovery.org/rdf/Concept/LawSystemCompleteness> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Закон полноты частей системы"@ru;
-	skos:prefLabel "Law of system completeness"@en;
-	skos:prefLabel "Gesetz der Vollständigkeit der Systemteile"@de;
-	skos:prefLabel "Loi d’intégralité des parties du système"@fr;
-	skos:prefLabel "Leyes de la completitud del sistema"@es;
-	skos:prefLabel "Lei da completeza de um sistema"@pt;
-	skos:prefLabel "Legge di completamento dei sistemi"@it;
-	skos:prefLabel "Zákon úplnosti částí systémů"@cz;
-	skos:prefLabel "Закон паўнаты частак сыстэмы"@by;
-	skos:prefLabel "Закон повноти частин системы"@ua;
-	skos:prefLabel "Zasada kompletności elementów systemu"@pl;
-	skos:prefLabel "Zakon kompletnosti sistema"@rs;
-	skos:prefLabel "Quy luật về tính đầy đủ các phần của hệ thống"@vn;
-	skos:prefLabel "Wet van de volledigheid van deelsystemen"@nl;
-	skos:prefLabel "システム完全性の法則"@jp;
-	skos:prefLabel "חוק השלמות של מערכת"@he;
-	skos:prefLabel "Sistem bütünlüğü kanunu (sistemin tüm parçalarının kanunu)"@tr .
-
-<http://opendiscovery.org/rdf/Concept/LawEvolutionAlongScurve> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Закон S-образного развития"@ru;
-	skos:prefLabel "Law of evolution along the S-curve"@en;
-	skos:prefLabel "Gesetz der Entwicklung längs einer S-Kurve"@de;
-	skos:prefLabel "Loi de développement sur une courbe en S"@fr;
-	skos:prefLabel "Ley de la evolución a lo largo de la curva-S"@es;
-	skos:prefLabel "Lei da evolução ao longo da curva S"@pt;
-	skos:prefLabel "Legge di evoluzione secondo la curva a Esse"@it;
-	skos:prefLabel "Zákon rozvoje podle S - křivky"@cz;
-	skos:prefLabel "Закон S-падобнага разьвіцьця"@by;
-	skos:prefLabel "Закон S-образного розвитку"@ua;
-	skos:prefLabel "Zasada rozwoju wg S-krzywej"@pl;
-	skos:prefLabel "Zakon razvoja duž S-krive"@rs;
-	skos:prefLabel "Quy luật phát triển chữ S"@vn;
-	skos:prefLabel "Wet van de ontwikkeling volgens de S-curve"@nl;
-	skos:prefLabel "Ｓ－カーブに沿った進化の法則"@jp;
-	skos:prefLabel "S חוק התפתחות בהתאם לעקומת"@he;
-	skos:prefLabel "S-Eğri’li gelişim kanunu"@tr .
-
-<http://opendiscovery.org/rdf/Concept/LawEnergyConductivity> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Закон энергетической проводимости системы"@ru;
-	skos:prefLabel "Law of energy conductivity of a system"@en;
-	skos:prefLabel "Gesetz der Energieleitfähigkeit eines Systems"@de;
-	skos:prefLabel "Loi de conductibilité énergétique du sustéme"@fr;
-	skos:prefLabel "Ley de la “conductibilidad de la energía”"@es;
-	skos:prefLabel "Lei da &quot;condutibilidade da energia&quot; num sistema"@pt;
-	skos:prefLabel "Legge di minimizzazione del percorso energetico"@it;
-	skos:prefLabel "Zákon &quot;energetické průchodnosti&quot; systému"@cz;
-	skos:prefLabel "Закон “энэргетычнай праводнасьці” праз часткі сыстэмы"@by;
-	skos:prefLabel "Закон «енергетичної провiдностi» системи"@ua;
-	skos:prefLabel "Zasada energetycznej drożności systemu"@pl;
-	skos:prefLabel "Zakon “energetske provodljivosti” sistema"@rs;
-	skos:prefLabel "Quy luật về tính thông suốt năng lượng của hệ thống"@vn;
-	skos:prefLabel "Wet van het vermogen van een systeem om energie door te geven"@nl;
-	skos:prefLabel "エネルギー伝導性の法則"@jp;
-	skos:prefLabel "חוק &quot;המוליכות האנרגטית&quot; הפנים מערכתית"@he;
-	skos:prefLabel "“enerji iletkenliği” sistemi kanunu"@tr .
-
-<http://opendiscovery.org/rdf/Concept/LawHarmonizationRhythms> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Закон согласования ритмики частей системы"@ru;
-	skos:prefLabel "Law of harmonization of rhythms in a system"@en;
-	skos:prefLabel "Gesetz der Harmonisierung der Rhythmik in einem System"@de;
-	skos:prefLabel "Loi de coordination du rythme des parties"@fr;
-	skos:prefLabel "Ley de coordinación del ritmo de las partes de un sistema"@es;
-	skos:prefLabel "Lei da coordenação dos ritmos das partes de um sistema"@pt;
-	skos:prefLabel "Legge di incremento di coordinamento"@it;
-	skos:prefLabel "Zákon sladění rytmiky činností částí systému"@cz;
-	skos:prefLabel "Закон узгадненьня рытмікі частак сыстэмы"@by;
-	skos:prefLabel "Закон узгодження  ритмiки частин системи"@ua;
-	skos:prefLabel "Zasada synchronizacji elementów systemu"@pl;
-	skos:prefLabel "Zakon koordinacije ritma (harmonizacije) delova sistema"@rs;
-	skos:prefLabel "Quy luật tương hợp về nhịp điệu các phần của hệ thống"@vn;
-	skos:prefLabel "Wet van coördinatie van het ritme van deelsystemen"@nl;
-	skos:prefLabel "システム各部リズム対応性の法則"@jp;
-	skos:prefLabel "חוק תאום תנודות חלקי המערכת"@he;
-	skos:prefLabel "Sistemin parçalarının ritmik uyum kanunu"@tr .
-
-<http://opendiscovery.org/rdf/Concept/LawIncreasingIdeality> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Закон увеличения степени идеальности системы"@ru;
-	skos:prefLabel "Law of increasing degree of system's ideality"@en;
-	skos:prefLabel "Gesetz des wachsenden Grads der Idealität eines Systems"@de;
-	skos:prefLabel "Loi d’accroissement du niveau d’idéalité du système"@fr;
-	skos:prefLabel "Ley del grado de incremento de la idealidad del sistema"@es;
-	skos:prefLabel "Lei do aumento do grau de idealidade de um sistema"@pt;
-	skos:prefLabel "Legge di incremento dell’idealità dei sistemi"@it;
-	skos:prefLabel "Zákon zvyšování stupně ideálnosti systému"@cz;
-	skos:prefLabel "Закон павелічэньня ступені ідэальнасьці сыстэмы"@by;
-	skos:prefLabel "Закон збiльшення ступенi iдеальностi"@ua;
-	skos:prefLabel "Zasada podnoszenia stopnia doskonałości systemu"@pl;
-	skos:prefLabel "Zakon porasta stepena idealnosti sistema"@rs;
-	skos:prefLabel "Quy luật về tăng mức độ lý tưởng của hệ thống"@vn;
-	skos:prefLabel "Wet van de stijgende idealiteit van het systeem"@nl;
-	skos:prefLabel "理想性増加の法則"@jp;
-	skos:prefLabel "חוק הגדלת רמת האידיאליות של המערכת"@he;
-	skos:prefLabel "Sistemin ideallik seviyesinin artış kanunu"@tr .
-
-<http://opendiscovery.org/rdf/Concept/LawNonuniformEvolutionSystemParts> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Закон неравномерности развития частей системы"@ru;
-	skos:prefLabel "Law of non-uniform evolution of systems parts"@en;
-	skos:prefLabel "Gesetz der nicht-uniformen Entwicklung der Teile eines Systems"@de;
-	skos:prefLabel "Loi de développement inégal des parties du système"@fr;
-	skos:prefLabel "Ley de evolución no uniforme de los subsistemas"@es;
-	skos:prefLabel "Lei do desenvolvimento não uniforme dos subsistemas"@pt;
-	skos:prefLabel "Legge di evoluzione non uniforme dei sotto sistemi"@it;
-	skos:prefLabel "Zákon nerovno-měrnosti rozvoje částí systému"@cz;
-	skos:prefLabel "Закон нераўна-мернасьці разьвіцьця частак сыстэмы"@by;
-	skos:prefLabel "Закон неравно-мiрностi розвитку частин системи"@ua;
-	skos:prefLabel "Zasada nierównomiernego rozwoju elementów systemu"@pl;
-	skos:prefLabel "Zakon neravnomernog razvoja delova sistema"@rs;
-	skos:prefLabel "Quy luật về tính không đồng đều trong sự phát triển các phần của hệ thống"@vn;
-	skos:prefLabel "Wet van ongelijkmatige ontwikkeling van deelsystemen"@nl;
-	skos:prefLabel "システム各部不均等進化の法則"@jp;
-	skos:prefLabel "חוק ההתפתחות האי שוויונית של תת מערכות"@he;
-	skos:prefLabel "Sistem parçalarının düzensiz gelişme kanunu (alt sistemlerin düzensiz gelişme kanunu)"@tr .
-
-<http://opendiscovery.org/rdf/Concept/LawTransitionSupersystem> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Закон перехода в надсистему"@ru;
-	skos:prefLabel "Law of transition to a super-system (higher-level system)"@en;
-	skos:prefLabel "Gesetz des Übergangs zum Obersystem"@de;
-	skos:prefLabel "Loi de transition vers un super-système"@fr;
-	skos:prefLabel "Ley de la transición a un supersistema (sistema de alto nivel)"@es;
-	skos:prefLabel "Lei da transição para um supersistema"@pt;
-	skos:prefLabel "Legge di  transizione a supersistema"@it;
-	skos:prefLabel "Zákon přechodu do nadsystému"@cz;
-	skos:prefLabel "Закон пераходу ў надсыстэму"@by;
-	skos:prefLabel "Закон переходу в надсистему"@ua;
-	skos:prefLabel "Zasada przejścia do nadsystemu"@pl;
-	skos:prefLabel "Zakon prelaza u nadsistem (viši nivo sistema)"@rs;
-	skos:prefLabel "Quy luật chuyển sang hệ trên"@vn;
-	skos:prefLabel "Wet van transitie naar een super-systeem"@nl;
-	skos:prefLabel "上位システム移行の法則"@jp;
-	skos:prefLabel "חוק המעבר למערכת-על"@he;
-	skos:prefLabel "Üst-sistem’e geçiş kanunu"@tr .
-
-<http://opendiscovery.org/rdf/Concept/LawTransitionMicrolevel> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Закон перехода с макроуровня на микроуровень"@ru;
-	skos:prefLabel "Law of transition from a macro-level to a micro-level"@en;
-	skos:prefLabel "Gesetz des Übergangs von der Makro- zur Mikroebene"@de;
-	skos:prefLabel "Loi de transition du macro-niveau vers le micro-niveau"@fr;
-	skos:prefLabel "Ley de la transición desde el macronivel hacia un micronivel"@es;
-	skos:prefLabel "Lei da transição para um micronível"@pt;
-	skos:prefLabel "Legge di transizione da macro a micro"@it;
-	skos:prefLabel "Zákon přechodu z makroúrovně na mikroúroveň"@cz;
-	skos:prefLabel "Закон пераходу з макраўзроўню да мікраўзроўню"@by;
-	skos:prefLabel "Закон переходу з макрорiвня на мiкрорiвень"@ua;
-	skos:prefLabel "Zasada przechodzenia z makropoziomu na mikropoziom"@pl;
-	skos:prefLabel "Zakon prelaza sa makro-nivoa na mikro-nivo"@rs;
-	skos:prefLabel "Quy luật chuyển từ mức vĩ mô sang mức vi mô"@vn;
-	skos:prefLabel "Wet van transitie van een macro-niveau naar een micro-niveau"@nl;
-	skos:prefLabel "マクロからミクロへの移行の法則"@jp;
-	skos:prefLabel "חוק המעבר מרמת מאקרו לרמת מיקרו"@he;
-	skos:prefLabel "makro seviyeden mikro seviyeye geçiş kanunu"@tr .
-
-<http://opendiscovery.org/rdf/Concept/LawIncreasingSuFieldInteractions> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Закон увеличения степени вепольности"@ru;
-	skos:prefLabel "Law of increasing Su-Field interactions"@en;
-	skos:prefLabel "Gesetz der Verstärkung der Stoff-Feld-Interaktionen"@de;
-	skos:prefLabel "Loi d’accroissement du rôle de vépole"@fr;
-	skos:prefLabel "Ley del incremento de las interacciones sustancia-campo"@es;
-	skos:prefLabel "Lei do aumento das interações su-campo"@pt;
-	skos:prefLabel "Legge di incremento dell’interazione di Su-Field"@it;
-	skos:prefLabel "Zákon zvyšování stupně &quot;vepolnosti&quot;"@cz;
-	skos:prefLabel "Закон павелічэньня ступені вэпольнасьці"@by;
-	skos:prefLabel "Закон збiльшення ступенi вiпольностi"@ua;
-	skos:prefLabel "Zasada podnoszenia stopnia struktury wepolowej"@pl;
-	skos:prefLabel "Zakon povećanja stepena supoljnosti"@rs;
-	skos:prefLabel "Quy luật về tăng mức Vepol"@vn;
-	skos:prefLabel "Wet van toename van de graad van de vpool"@nl;
-	skos:prefLabel "物質・場高度化の法則"@jp;
-	skos:prefLabel "חוק הגדלת רמת מבני חומר-שדה במערכת"@he;
-	skos:prefLabel "Tüm-Madde Alanlarının Etkileşimlerinin Artış Kanunu"@tr .
-
-<http://opendiscovery.org/rdf/Concept/IdealFinalResult> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Идеальный конечный результат (ИКР)"@ru;
-	skos:prefLabel "Ideal Final Result (IFR)"@en;
-	skos:prefLabel "Ideales Endresultat (IER)"@de;
-	skos:prefLabel "Résultat Final Idéal (RFI)"@fr;
-	skos:prefLabel "Resultado final ideal (RFI)"@es;
-	skos:prefLabel "Resultado Final Ideal (RFI)"@pt;
-	skos:prefLabel "Risultato Finale Ideale (IFR)"@it;
-	skos:prefLabel "Ideální konečný výsledek (IKV)"@cz;
-	skos:prefLabel "Ідэальны канчатковы вынік (ІКВ)"@by;
-	skos:prefLabel "Iдеальний кiнцевий результат (IКР)"@ua;
-	skos:prefLabel "Idealny wynik końcowy"@pl;
-	skos:prefLabel "Idealni konačni rezultat (IKR)"@rs;
-	skos:prefLabel "Kết quả lý tưởng cuối cùng (KLC)"@vn;
-	skos:prefLabel "Ideaal Eind Resultaat (IER)"@nl;
-	skos:prefLabel "理想解"@jp;
-	skos:prefLabel "פתרון אידיאלי"@he;
-	skos:prefLabel "İdeal Nihai Sonuç (Ideal Final Result:IFR)"@tr .
-
-<http://opendiscovery.org/rdf/Concept/AntiSystem> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Анти-система"@ru;
-	skos:prefLabel "Antisystem"@en;
-	skos:prefLabel "Antisystem"@de;
-	skos:prefLabel "Anti-Système"@fr;
-	skos:prefLabel "Antisistema"@es;
-	skos:prefLabel "Antisistema"@pt;
-	skos:prefLabel "Anti-sistema"@it;
-	skos:prefLabel "Anti-systém"@cz;
-	skos:prefLabel "Анты-сыстэма"@by;
-	skos:prefLabel "Антисистема"@ua;
-	skos:prefLabel "Antysystem"@pl;
-	skos:prefLabel "Anti-sistem"@rs;
-	skos:prefLabel "Phản hệ"@vn;
-	skos:prefLabel "Anti-systeem"@nl;
-	skos:prefLabel "反システム"@jp;
-	skos:prefLabel "אנטי מערכת"@he;
-	skos:prefLabel "Anti-sistem"@tr .
-
-<http://opendiscovery.org/rdf/Concept/Object> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Изделие"@ru;
-	skos:prefLabel "Object"@en;
-	skos:prefLabel "Objekt"@de;
-	skos:prefLabel "Objet, pièce, composant, produit"@fr;
-	skos:prefLabel "Objeto"@es;
-	skos:prefLabel "Objeto"@pt;
-	skos:prefLabel "Oggetto"@it;
-	skos:prefLabel "Výrobek"@cz;
-	skos:prefLabel "Выраб"@by;
-	skos:prefLabel "Вироб"@ua;
-	skos:prefLabel "Obiekt, przedmiot"@pl;
-	skos:prefLabel "Objekt"@rs;
-	skos:prefLabel "Sản phẩm"@vn;
-	skos:prefLabel "Product"@nl;
-	skos:prefLabel "物体"@jp;
-	skos:prefLabel "אובייקט"@he;
-	skos:prefLabel "Nesne"@tr .
-
-<http://opendiscovery.org/rdf/Concept/XElement> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Икс-элемент"@ru;
-	skos:prefLabel "X-element"@en;
-	skos:prefLabel "X-Element"@de;
-	skos:prefLabel "Elément X"@fr;
-	skos:prefLabel "Elemento X"@es;
-	skos:prefLabel "Elemento X"@pt;
-	skos:prefLabel "elemento X"@it;
-	skos:prefLabel "X-element"@cz;
-	skos:prefLabel "Ікс-элемэнт"@by;
-	skos:prefLabel "Iкс-елемент"@ua;
-	skos:prefLabel "X-element"@pl;
-	skos:prefLabel "X-element"@rs;
-	skos:prefLabel "Yếu tố X"@vn;
-	skos:prefLabel "X-element"@nl;
-	skos:prefLabel "Ｘ要素"@jp;
-	skos:prefLabel "X מרכיב"@he;
-	skos:prefLabel "X-elemanı"@tr .
-
-<http://opendiscovery.org/rdf/Concept/PsychologicalInertia> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Инерция мышления"@ru;
-	skos:prefLabel "Psychological inertia"@en;
-	skos:prefLabel "Psychologische Trägheit"@de;
-	skos:prefLabel "Inertie psychologique"@fr;
-	skos:prefLabel "Inercia psicológica"@es;
-	skos:prefLabel "Inércia psicológica"@pt;
-	skos:prefLabel "Inerzia psicologica"@it;
-	skos:prefLabel "Setrvačnost myšlení"@cz;
-	skos:prefLabel "Інэрцыя мысьленьня"@by;
-	skos:prefLabel "Iнерцiя мислення"@ua;
-	skos:prefLabel "Inercja myślenia"@pl;
-	skos:prefLabel "Psihološka inercija"@rs;
-	skos:prefLabel "Tính ì tư duy (tính ì tâm lý)"@vn;
-	skos:prefLabel "Inertie van het denken"@nl;
-	skos:prefLabel "心理的惰性"@jp;
-	skos:prefLabel "האינרציה הפסיכולוגית"@he;
-	skos:prefLabel "Düşünce ataleti"@tr .
-
-<http://opendiscovery.org/rdf/Concept/Tool> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Инструмент"@ru;
-	skos:prefLabel "Tool"@en;
-	skos:prefLabel "Werkzeug"@de;
-	skos:prefLabel "Instrument"@fr;
-	skos:prefLabel "Herramienta"@es;
-	skos:prefLabel "Ferramenta"@pt;
-	skos:prefLabel "strumento"@it;
-	skos:prefLabel "Nástroj"@cz;
-	skos:prefLabel "Інструмэнт"@by;
-	skos:prefLabel "Iнструмент"@ua;
-	skos:prefLabel "Narzędzie"@pl;
-	skos:prefLabel "Instrument"@rs;
-	skos:prefLabel "Công cụ"@vn;
-	skos:prefLabel "Instrument"@nl;
-	skos:prefLabel "ツール"@jp;
-	skos:prefLabel "כלי"@he;
-	skos:prefLabel "Araç"@tr .
-
-<http://opendiscovery.org/rdf/Concept/QualitiesCreativePersonality> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Качества Творческой Личности"@ru;
-	skos:prefLabel "Qualities of a creative personality"@en;
-	skos:prefLabel "Qualitäten einer kreativen Persönlichkeit"@de;
-	skos:prefLabel "Qualités d’une Personnalité Créative"@fr;
-	skos:prefLabel "Cualidades de un individuo creativo"@es;
-	skos:prefLabel "Qualidades da pessoa criativa"@pt;
-	skos:prefLabel "Qualità di una persona creativa"@it;
-	skos:prefLabel "Kvality Tvůrčí Osobnosti"@cz;
-	skos:prefLabel "Якасьці Творчай Асобы"@by;
-	skos:prefLabel "Якостi творчої особи"@ua;
-	skos:prefLabel "Zalety twórczej osobowości"@pl;
-	skos:prefLabel "Osobine kreativne ličnosti"@rs;
-	skos:prefLabel "Các Phẩm Chất Của Nhân Cách Sáng Tạo"@vn;
-	skos:prefLabel "Kwaliteiten van een creatieve persoonlijkheid"@nl;
-	skos:prefLabel "創造的個性の特質"@jp;
-	skos:prefLabel "איכויות של אישיות יצירתית"@he;
-	skos:prefLabel "Yaratıcı bireyin kalitesi"@tr .
-
-<http://opendiscovery.org/rdf/Concept/TypicalConflicts> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Конфликты типовые"@ru;
-	skos:prefLabel "Typical conflicts"@en;
-	skos:prefLabel "Typische Konflikte"@de;
-	skos:prefLabel "Conflits type"@fr;
-	skos:prefLabel "Conflictos típicos de los sistemas"@es;
-	skos:prefLabel "Conflitos típicos"@pt;
-	skos:prefLabel "Contraddizione tipica di un sistema"@it;
-	skos:prefLabel "Typové konflikty"@cz;
-	skos:prefLabel "Канфлікты тыповыя"@by;
-	skos:prefLabel "Конфлiкт типовий"@ua;
-	skos:prefLabel "Typowe konflikty"@pl;
-	skos:prefLabel "Tipski konflikti"@rs;
-	skos:prefLabel "Các xung đột mẫu (chuẩn)"@vn;
-	skos:prefLabel "Soorten conflicten"@nl;
-	skos:prefLabel "典型的技術矛盾"@jp;
-	skos:prefLabel "הניגודים האופייניים"@he;
-	skos:prefLabel "Tipik Çatışmalar"@tr .
-
-<http://opendiscovery.org/rdf/Concept/ConflictingPair> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Конфликтующая пара"@ru;
-	skos:prefLabel "Conflicting pair"@en;
-	skos:prefLabel "Widersprüchliches Paar"@de;
-	skos:prefLabel "Paire en conflit"@fr;
-	skos:prefLabel "Par en conflicto"@es;
-	skos:prefLabel "Par conflitante"@pt;
-	skos:prefLabel "Coppia di elementi in conflitto"@it;
-	skos:prefLabel "Konfliktní dvojice"@cz;
-	skos:prefLabel "Пара, якая канфліктуе"@by;
-	skos:prefLabel "Конфлiктуюча пара"@ua;
-	skos:prefLabel "Skonfliktowana para"@pl;
-	skos:prefLabel "Konfliktni par"@rs;
-	skos:prefLabel "Đôi xung đột"@vn;
-	skos:prefLabel "Conflicterend paar"@nl;
-	skos:prefLabel "矛盾対"@jp;
-	skos:prefLabel "זוג אובייקטים המהווה ניגוד"@he;
-	skos:prefLabel "Çatışan çift"@tr .
-
-<http://opendiscovery.org/rdf/Concept/ConceptVerticalMobility> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Концепция максимального движения вверх"@ru;
-	skos:prefLabel "Concept of vertical mobility"@en;
-	skos:prefLabel "Konzept der maximalen Bewegung nach oben"@de;
-	skos:prefLabel "Concept du mouvement maximal en haut"@fr;
-	skos:prefLabel "Concepto de máxima movilidad vertical"@es;
-	skos:prefLabel "Conceito de máxima mobilidade vertical"@pt;
-	skos:prefLabel "Concetto di mobilità verticale"@it;
-	skos:prefLabel "Koncepce maximálního zdvihu"@cz;
-	skos:prefLabel "Канцэпцыя максымальнага руху ўверх"@by;
-	skos:prefLabel "Концепцiя максимального руху угору"@ua;
-	skos:prefLabel "Koncepcja maksymalnego dążenia w górę"@pl;
-	skos:prefLabel "Koncepcija maksimalne vertikalne mobilnosti"@rs;
-	skos:prefLabel "Quan niệm chuyển động tối đa về phía trên"@vn;
-	skos:prefLabel "Concept van maximale beweging naar boven"@nl;
-	skos:prefLabel " "@jp;
-	skos:prefLabel "הרעיון של התמדת תנועה למעלה"@he;
-	skos:prefLabel "Maksimum dikey hareketler kavramı (dikey hareket kavramı)"@tr .
-
-<http://opendiscovery.org/rdf/Concept/IdealMachine> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Машина идеальная"@ru;
-	skos:prefLabel "Ideal machine"@en;
-	skos:prefLabel "Ideale Maschine"@de;
-	skos:prefLabel "Machine idéale"@fr;
-	skos:prefLabel "Máquina ideal"@es;
-	skos:prefLabel "Máquina ideal"@pt;
-	skos:prefLabel "Sistema ideale"@it;
-	skos:prefLabel "Ideální stroj"@cz;
-	skos:prefLabel "Машына ідэальная"@by;
-	skos:prefLabel "Машина iдеальна"@ua;
-	skos:prefLabel "Idealna maszyna"@pl;
-	skos:prefLabel "Idealna mašina"@rs;
-	skos:prefLabel "Máy lý tưởng"@vn;
-	skos:prefLabel "Ideale machine"@nl;
-	skos:prefLabel "理想機械"@jp;
-	skos:prefLabel "המכונה האידיאלית"@he;
-	skos:prefLabel "İdeal makine"@tr .
-
-<http://opendiscovery.org/rdf/Concept/ModelingSmartLittlePeople> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Метод моделирования маленькими человечками"@ru;
-	skos:prefLabel "Modeling with “smart little people”"@en;
-	skos:prefLabel "Zwergenmodell"@de;
-	skos:prefLabel "Méthode des Petits Bonshommes, Méthode des Hommes miniatures"@fr;
-	skos:prefLabel "Modelización con “Pequeños hombres inteligentes”"@es;
-	skos:prefLabel "Método da modelagem com pequeninas pessoas espertas"@pt;
-	skos:prefLabel "Modellare con i folletti"@it;
-	skos:prefLabel "Metoda modelování malinkými človíčky"@cz;
-	skos:prefLabel "Мэтад мадэляваньня маленькімі чалавечкамі"@by;
-	skos:prefLabel "Метод моделювання маленькими чоловiчками"@ua;
-	skos:prefLabel "Metoda modelowania maleńkimi ludzikami"@pl;
-	skos:prefLabel "Metod modelovanja “malim čovečuljcima”"@rs;
-	skos:prefLabel "Phương pháp mô hình hóa bằng những người tý hon"@vn;
-	skos:prefLabel "Simulatiemodel met de hulp van de kleine ventjes"@nl;
-	skos:prefLabel "小さな賢人法（スマート・リトル・ピープル）"@jp;
-	skos:prefLabel "שיטת הננסים"@he;
-	skos:prefLabel "Minyatür Cüce Modeli ile modelleme yöntemi"@tr .
-
-<http://opendiscovery.org/rdf/Concept/BiologicalEffect> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Биологический эффект"@ru;
-	skos:prefLabel "Biological effect"@en;
-	skos:prefLabel "Biologischer Effekt"@de;
-	skos:prefLabel "Effet biologique"@fr;
-	skos:prefLabel "Efecto biológico"@es;
-	skos:prefLabel "Efeito biológico"@pt;
-	skos:prefLabel "Effetto Biologico"@it;
-	skos:prefLabel "Biologický efekt"@cz;
-	skos:prefLabel "Біялягічны эфэкт"@by;
-	skos:prefLabel "Бiологiчний ефект"@ua;
-	skos:prefLabel "Biologiczny efekt"@pl;
-	skos:prefLabel "Biološki efekt"@rs;
-	skos:prefLabel "Hiệu ứng sinh học"@vn;
-	skos:prefLabel "Biologische effecten"@nl;
-	skos:prefLabel "生物学的効果"@jp;
-	skos:prefLabel "תופעה ביולוגית"@he;
-	skos:prefLabel "Biyolojik etki"@tr .
-
-<http://opendiscovery.org/rdf/Concept/ModelInventiveProblem> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Модель изобретательской задачи"@ru;
-	skos:prefLabel "Model of an inventive problem"@en;
-	skos:prefLabel "Modell einer erfinderischen Aufgabe"@de;
-	skos:prefLabel "Modèle du problème innovant"@fr;
-	skos:prefLabel "Modelo de un problema inventivo"@es;
-	skos:prefLabel "Modelo de um problema inventivo"@pt;
-	skos:prefLabel "Modello di un problema inventivo"@it;
-	skos:prefLabel "Model invenčního / vynálezcovského zadání"@cz;
-	skos:prefLabel "Мадэль вынаходніцкай задачы"@by;
-	skos:prefLabel "Модель винахiдницької задачi"@ua;
-	skos:prefLabel "Model zadania wynalazczego, innowacyjnego"@pl;
-	skos:prefLabel "Model inventivnog problema"@rs;
-	skos:prefLabel "Mô hình bài toán sáng chế"@vn;
-	skos:prefLabel "Model van de innovatievraagstukken"@nl;
-	skos:prefLabel "発明級問題のモデル"@jp;
-	skos:prefLabel "דגם של בעיה המצאתית"@he;
-	skos:prefLabel "Yaratıcı bir problem modeli"@tr .
-
-<http://opendiscovery.org/rdf/Concept/Monosystem> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Моносистема"@ru;
-	skos:prefLabel "Mono-system"@en;
-	skos:prefLabel "Monosystem"@de;
-	skos:prefLabel "Mono-système"@fr;
-	skos:prefLabel "Monosistema"@es;
-	skos:prefLabel "Monosistema"@pt;
-	skos:prefLabel "Sistema singolo"@it;
-	skos:prefLabel "Monosystém"@cz;
-	skos:prefLabel "Монасыстэма"@by;
-	skos:prefLabel "Моносистема"@ua;
-	skos:prefLabel "Monosystem"@pl;
-	skos:prefLabel "Mono-sistem"@rs;
-	skos:prefLabel "Hệ đơn"@vn;
-	skos:prefLabel "Mono-systeem"@nl;
-	skos:prefLabel "モノ・システム"@jp;
-	skos:prefLabel "המערכת הבודדה"@he;
-	skos:prefLabel "Mono-sistem"@tr .
-
-<http://opendiscovery.org/rdf/Concept/MultiScreenDiagram> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Многоэкранная схема"@ru;
-	skos:prefLabel "Multi-screen diagram"@en;
-	skos:prefLabel "Mehr-Felder-Schema"@de;
-	skos:prefLabel "Schéma multi-écrans"@fr;
-	skos:prefLabel "Diagrama multipantalla"@es;
-	skos:prefLabel "Matriz multitela"@pt;
-	skos:prefLabel "Diagramma multi-finestra"@it;
-	skos:prefLabel "Mnohoobrazovkové schéma"@cz;
-	skos:prefLabel "Шматэкранная схема"@by;
-	skos:prefLabel "Багатоекранна схема"@ua;
-	skos:prefLabel "Schemat wieloekranowy"@pl;
-	skos:prefLabel "Multi-ekranski dijagram"@rs;
-	skos:prefLabel "Sơ đồ đa màn hình"@vn;
-	skos:prefLabel "Veelschermige schema"@nl;
-	skos:prefLabel "マルチ・スクリーン"@jp;
-	skos:prefLabel "תרשים מרובה מסכים"@he;
-	skos:prefLabel "Çoklu-ekran şeması"@tr .
-
-<http://opendiscovery.org/rdf/Concept/NonAlgorithmicMethods> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Неалгоритмические методы"@ru;
-	skos:prefLabel "Non-algorithmic methods"@en;
-	skos:prefLabel "Nichtalgorithmische Methoden"@de;
-	skos:prefLabel "Méthodes non-algorithmiques"@fr;
-	skos:prefLabel "Método no algorítmico"@es;
-	skos:prefLabel "Métodos não algorítmicos"@pt;
-	skos:prefLabel "Metodi non algoritmici"@it;
-	skos:prefLabel "Nealgoritmické metody"@cz;
-	skos:prefLabel "Неальгарытмі-чныя мэтады"@by;
-	skos:prefLabel "Неалгорiтмiчнi методи"@ua;
-	skos:prefLabel "Metody niealgorytmiczne"@pl;
-	skos:prefLabel "Nealgoritamske metode"@rs;
-	skos:prefLabel "Các phương pháp phi algôrit"@vn;
-	skos:prefLabel "Niet-algoritmische methodes"@nl;
-	skos:prefLabel "非体系的方法"@jp;
-	skos:prefLabel "שיטות בלתי אלגוריתמיות"@he;
-	skos:prefLabel "Algoritmik olmayan yöntemler"@tr .
-
-<http://opendiscovery.org/rdf/Concept/IntensificationContradiction> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Обострение противоречия"@ru;
-	skos:prefLabel "Intensification of contradiction"@en;
-	skos:prefLabel "Intensivierung eines Konflikts"@de;
-	skos:prefLabel "Intensification de la contradiction"@fr;
-	skos:prefLabel "Intensificación de la contradicción"@es;
-	skos:prefLabel "Intensificação da contradição"@pt;
-	skos:prefLabel "Intensificazione della contraddizione"@it;
-	skos:prefLabel "Vyostřený rozpor"@cz;
-	skos:prefLabel "Абвастрэньне супярэчнасьці"@by;
-	skos:prefLabel "Загострення протирiччя"@ua;
-	skos:prefLabel "Wzmocnienie sprzeczności"@pl;
-	skos:prefLabel "Zaoštrena protivrečnost"@rs;
-	skos:prefLabel "Làm tăng mức độ mâu thuẫn"@vn;
-	skos:prefLabel "Verscherping van de tegenspraak"@nl;
-	skos:prefLabel "矛盾の尖鋭化"@jp;
-	skos:prefLabel "התחדדות הסתירה"@he;
-	skos:prefLabel "Çelişkinin yoğunlaştırılması"@tr .
-
-<http://opendiscovery.org/rdf/Concept/OperationTime> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Оперативное время"@ru;
-	skos:prefLabel "Operation time"@en;
-	skos:prefLabel "Operative Zeit (Betriebszeit)"@de;
-	skos:prefLabel "Temps opératoire"@fr;
-	skos:prefLabel "Tiempo de operación"@es;
-	skos:prefLabel "Tempo de operação"@pt;
-	skos:prefLabel "tempo operativo"@it;
-	skos:prefLabel "Operační čas"@cz;
-	skos:prefLabel "Апэратыўны час"@by;
-	skos:prefLabel "Оперативний час"@ua;
-	skos:prefLabel "Czas operacyjny"@pl;
-	skos:prefLabel "Operativno vreme"@rs;
-	skos:prefLabel "Thời gian hành động"@vn;
-	skos:prefLabel "Operatieve tijd"@nl;
-	skos:prefLabel "作用時間"@jp;
-	skos:prefLabel "זמן הפעילות"@he;
-	skos:prefLabel "İşlem zamanı"@tr .
-
-<http://opendiscovery.org/rdf/Concept/OperationalZone> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Оперативная зона"@ru;
-	skos:prefLabel "Operational zone"@en;
-	skos:prefLabel "Operative Zone (Betriebsbereich)"@de;
-	skos:prefLabel "Zone opératoire"@fr;
-	skos:prefLabel "Zona de operación"@es;
-	skos:prefLabel "Zona de operação"@pt;
-	skos:prefLabel "Zona operativa"@it;
-	skos:prefLabel "Operační zóna"@cz;
-	skos:prefLabel "Апэратыўная прастора"@by;
-	skos:prefLabel "Оперативна зона"@ua;
-	skos:prefLabel "Strefa operacyjna"@pl;
-	skos:prefLabel "Operativna zona"@rs;
-	skos:prefLabel "Vùng hành động"@vn;
-	skos:prefLabel "Operatieve zone"@nl;
-	skos:prefLabel "作用領域"@jp;
-	skos:prefLabel "אזור הפעילות"@he;
-	skos:prefLabel "Kullanıma hazır bölge (çalışma bölgesi)"@tr .
-
-<http://opendiscovery.org/rdf/Concept/OperatorSizeTimeCost> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Оператор РВС"@ru;
-	skos:prefLabel "Operator “Size-Time-Cost” (STC)"@en;
-	skos:prefLabel "Operator &quot;Maße-Zeit-Kosten&quot; (MZK) "@de;
-	skos:prefLabel "Opérateur &quot;Dimension-Temps-Coûts&quot; (DTC)"@fr;
-	skos:prefLabel "Técnica “Dimensión-tiempo-costo”"@es;
-	skos:prefLabel "Operador TTC (tamanho-tempo-custo)"@pt;
-	skos:prefLabel "Tecnica &quot;Dimensione-Tempo-Costi&quot;"@it;
-	skos:prefLabel "Operátor RČN (Rozměry-Čas-Náklady)"@cz;
-	skos:prefLabel "Апэратар ПЧК"@by;
-	skos:prefLabel "Оператор РЧВ"@ua;
-	skos:prefLabel "Operator RSP"@pl;
-	skos:prefLabel "Operator “Dimenzije-Vreme-Troškovi” (DVT)"@rs;
-	skos:prefLabel "Toán tử Kích thước-Thời gian-Giá thành (KTG)"@vn;
-	skos:prefLabel "ATK techniek (Afmetingen-Tijd-Kostprijs)"@nl;
-	skos:prefLabel "サイズ/時間/コスト・オペレータ"@jp;
-	skos:prefLabel "(מנגנון ג.ז.ע. (גודל-זמן-עלות"@he;
-	skos:prefLabel "Boyut-Süre-Maliyet Operatörü"@tr .
-
-<http://opendiscovery.org/rdf/Concept/SystemicOperator> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Оператор системный"@ru;
-	skos:prefLabel "Systemic Operator"@en;
-	skos:prefLabel "Systemischer Operator"@de;
-	skos:prefLabel "Opérateur systémique"@fr;
-	skos:prefLabel "Operador del sistema"@es;
-	skos:prefLabel "Operador de sistema"@pt;
-	skos:prefLabel "Tecnica di analisi di sistema"@it;
-	skos:prefLabel "Systémový operátor"@cz;
-	skos:prefLabel "Апэратар сыстэмны"@by;
-	skos:prefLabel "Оператор системний"@ua;
-	skos:prefLabel "Operator systemowy"@pl;
-	skos:prefLabel "Sistemski operator"@rs;
-	skos:prefLabel "Toán tử hệ thống"@vn;
-	skos:prefLabel "Systeem Operator"@nl;
-	skos:prefLabel "システム・オペレータ"@jp;
-	skos:prefLabel "מנגנון מערכתי"@he;
-	skos:prefLabel "Sistem Operatörü"@tr .
-
-<http://opendiscovery.org/rdf/Concept/EvaluationTRIZDevelopments> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Оценка разработок по ТРИЗ"@ru;
-	skos:prefLabel "Evaluation of TRIZ developments"@en;
-	skos:prefLabel "Bewertung von TRIZ-Entwicklungen"@de;
-	skos:prefLabel "Evaluation de travaux en TRIZ"@fr;
-	skos:prefLabel "Evaluación del desarrollo del TRIZ"@es;
-	skos:prefLabel "Avaliação do desenvolvimento da TRIZ"@pt;
-	skos:prefLabel "Valutazione degli sviluppi di TRIZ"@it;
-	skos:prefLabel "Hodnocení výsledků podle TRIZ"@cz;
-	skos:prefLabel "Ацэнка распрацовак ў ТРВЗ"@by;
-	skos:prefLabel "Оцiнка розробок по ТВВЗ"@ua;
-	skos:prefLabel "Ocena opracowań wykonanych wg. TRIZ"@pl;
-	skos:prefLabel "Procena razvoja TRIZ-a"@rs;
-	skos:prefLabel "Đánh giá những triển khai về TRIZ"@vn;
-	skos:prefLabel "Beoordeling van de ontwikkelingen in TRIZ"@nl;
-	skos:prefLabel "ＴＲＩＺ研究の評価"@jp;
-	skos:prefLabel "TRIZ הערכת מחקרי"@he;
-	skos:prefLabel "TRIZ Çalışmalarının Değerlendirilmesi"@tr .
-
-<http://opendiscovery.org/rdf/Concept/Bisystem> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Бисистема"@ru;
-	skos:prefLabel "Bi-system"@en;
-	skos:prefLabel "Bisystem"@de;
-	skos:prefLabel "Bi-système"@fr;
-	skos:prefLabel "Bisistema"@es;
-	skos:prefLabel "Bisistema"@pt;
-	skos:prefLabel "Sistema doppio"@it;
-	skos:prefLabel "Bi-systém"@cz;
-	skos:prefLabel "Бісыстэма"@by;
-	skos:prefLabel "Бiсистема"@ua;
-	skos:prefLabel "Bi-system"@pl;
-	skos:prefLabel "Bi-sistem"@rs;
-	skos:prefLabel "Lưỡng hệ"@vn;
-	skos:prefLabel "Bi-systeem"@nl;
-	skos:prefLabel "バイ・システム"@jp;
-	skos:prefLabel "דו-מערכת"@he;
-	skos:prefLabel "Bi-sistem"@tr .
-
-<http://opendiscovery.org/rdf/Concept/Field> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Поле"@ru;
-	skos:prefLabel "Field"@en;
-	skos:prefLabel "Feld"@de;
-	skos:prefLabel "Champ"@fr;
-	skos:prefLabel "Campo"@es;
-	skos:prefLabel "Campo"@pt;
-	skos:prefLabel "Campo"@it;
-	skos:prefLabel "Pole"@cz;
-	skos:prefLabel "Поле"@by;
-	skos:prefLabel "Поле"@ua;
-	skos:prefLabel "Pole"@pl;
-	skos:prefLabel "Polje"@rs;
-	skos:prefLabel "Trường"@vn;
-	skos:prefLabel "Veld"@nl;
-	skos:prefLabel "場"@jp;
-	skos:prefLabel "שדה"@he;
-	skos:prefLabel "Alan"@tr .
-
-<http://opendiscovery.org/rdf/Concept/Polysystem> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Полисистема"@ru;
-	skos:prefLabel "Poly-system"@en;
-	skos:prefLabel "Polysystem"@de;
-	skos:prefLabel "Poly-système"@fr;
-	skos:prefLabel "Poli sistema"@es;
-	skos:prefLabel "Polisistema"@pt;
-	skos:prefLabel "Sistema multiplo"@it;
-	skos:prefLabel "Polysystém"@cz;
-	skos:prefLabel "Полісыстэма"@by;
-	skos:prefLabel "Полiсистема"@ua;
-	skos:prefLabel "Polisystem"@pl;
-	skos:prefLabel "Poli-sistem"@rs;
-	skos:prefLabel "Đa hệ"@vn;
-	skos:prefLabel "Poly-systeem"@nl;
-	skos:prefLabel "ポリ・システム"@jp;
-	skos:prefLabel "רב-מערכת"@he;
-	skos:prefLabel "Çoklu-sistem"@tr .
-
-<http://opendiscovery.org/rdf/Concept/InventivePrinciple> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Прием"@ru;
-	skos:prefLabel "Inventive principle"@en;
-	skos:prefLabel "Vorgehensweise (erfinderisches Prinzip)"@de;
-	skos:prefLabel "Principe"@fr;
-	skos:prefLabel "Principio inventivo"@es;
-	skos:prefLabel "Princípio"@pt;
-	skos:prefLabel "Principio inventivo"@it;
-	skos:prefLabel "Postup"@cz;
-	skos:prefLabel "Прыём"@by;
-	skos:prefLabel "Засiб"@ua;
-	skos:prefLabel "„Chwyt”, zasada"@pl;
-	skos:prefLabel "Princip"@rs;
-	skos:prefLabel "Thủ thuật"@vn;
-	skos:prefLabel "Werkwijze (principe)"@nl;
-	skos:prefLabel "発明原理"@jp;
-	skos:prefLabel "תכסיס"@he;
-	skos:prefLabel "Kabul (prensip)"@tr .
-
-<http://opendiscovery.org/rdf/Concept/PrincipleTransistionMacrolevel> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Прием на макроуровне"@ru;
-	skos:prefLabel "Principle of transition to the macro-level"@en;
-	skos:prefLabel "Prinzip des Übergangs auf die Makroebene"@de;
-	skos:prefLabel "Principe au niveau macro"@fr;
-	skos:prefLabel "Principio inventivo usado sobre un macronivel"@es;
-	skos:prefLabel "Princípio no macronível"@pt;
-	skos:prefLabel "Principio inventivo usato a livello macro"@it;
-	skos:prefLabel "Postup na makroúrovni"@cz;
-	skos:prefLabel "Прыём на макраўзроўні"@by;
-	skos:prefLabel "Засiб на макрорiвнi"@ua;
-	skos:prefLabel "„Chwyt“ na makropoziomie"@pl;
-	skos:prefLabel "Princip na makro-nivou"@rs;
-	skos:prefLabel "Thủ thuật ở mức vĩ mô"@vn;
-	skos:prefLabel "Werkwijze op macro niveau"@nl;
-	skos:prefLabel "マクロレベルでの解法"@jp;
-	skos:prefLabel "תכסיס ברמת מאקרו"@he;
-	skos:prefLabel "makro-seviyede kullanılan kabul"@tr .
-
-<http://opendiscovery.org/rdf/Concept/PrincipleTransistionMicrolevel> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Прием на микроуровне"@ru;
-	skos:prefLabel "Principle of transition to the micro-level"@en;
-	skos:prefLabel "Prinzip des Übergangs auf die Mikroebene"@de;
-	skos:prefLabel "Principe au niveau micro"@fr;
-	skos:prefLabel "Principio inventivo usado sobre un micro nivel"@es;
-	skos:prefLabel "Princípio no micronível"@pt;
-	skos:prefLabel "Principio inventivo usato a livello micro"@it;
-	skos:prefLabel "Postup na mikroúrovni"@cz;
-	skos:prefLabel "Прыём на мікраўзроўні"@by;
-	skos:prefLabel "Засiб на мiкрорiвнi"@ua;
-	skos:prefLabel "„Chwyt“ na mikropoziomie"@pl;
-	skos:prefLabel "Princip na mikro-nivou"@rs;
-	skos:prefLabel "Thủ thuật ở mức vi mô"@vn;
-	skos:prefLabel "Werkwijze op micro niveau"@nl;
-	skos:prefLabel "ミクロレベルでの解法"@jp;
-	skos:prefLabel "תכסיס ברמת מיקרו"@he;
-	skos:prefLabel "mikro-seviyede kullanılan kabul"@tr .
-
-<http://opendiscovery.org/rdf/Concept/ProblemStatement> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Постановка задачи"@ru;
-	skos:prefLabel "Problem statement"@en;
-	skos:prefLabel "Aufgabestellung"@de;
-	skos:prefLabel "Formulation du problème"@fr;
-	skos:prefLabel "Planteo del problema"@es;
-	skos:prefLabel "Formulação do problema"@pt;
-	skos:prefLabel "Definizione del problema"@it;
-	skos:prefLabel "Formulace zadání"@cz;
-	skos:prefLabel "Пастаноўка задачы"@by;
-	skos:prefLabel "Ставлення задачи"@ua;
-	skos:prefLabel "Sformułowanie zadania"@pl;
-	skos:prefLabel "Formulisanje problema"@rs;
-	skos:prefLabel "Đặt bài toán"@vn;
-	skos:prefLabel "Probleemstelling"@nl;
-	skos:prefLabel "問題設定"@jp;
-	skos:prefLabel "הגדרת הבעיה"@he;
-	skos:prefLabel "Problem ifadesi"@tr .
-
-<http://opendiscovery.org/rdf/Concept/Forecast> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Прогноз"@ru;
-	skos:prefLabel "Forecast, prediction"@en;
-	skos:prefLabel "Prognose"@de;
-	skos:prefLabel "Pronostic, prévision"@fr;
-	skos:prefLabel "Pronóstico, predicción"@es;
-	skos:prefLabel "Prognóstico"@pt;
-	skos:prefLabel "Previsione"@it;
-	skos:prefLabel "Prognóza"@cz;
-	skos:prefLabel "Прагноз"@by;
-	skos:prefLabel "Прогноз"@ua;
-	skos:prefLabel "Prognoza"@pl;
-	skos:prefLabel "Prognoza, predikcija"@rs;
-	skos:prefLabel "Dự báo"@vn;
-	skos:prefLabel "Prognose"@nl;
-	skos:prefLabel "予測"@jp;
-	skos:prefLabel "תחזית"@he;
-	skos:prefLabel "Tahmin"@tr .
-
-<http://opendiscovery.org/rdf/Concept/ContradictionTypes> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Противоречия (виды)"@ru;
-	skos:prefLabel "Contradiction types"@en;
-	skos:prefLabel "Widerspruchstypen"@de;
-	skos:prefLabel "Contradictions (types)"@fr;
-	skos:prefLabel "Contradicciones (tipos)"@es;
-	skos:prefLabel "Contradições (tipos)"@pt;
-	skos:prefLabel "Contraddizione"@it;
-	skos:prefLabel "Rozpory (druhy)"@cz;
-	skos:prefLabel "Супярэчнасьці (віды)"@by;
-	skos:prefLabel "Протирiччя (види)"@ua;
-	skos:prefLabel "Sprzeczności (rodzaje)"@pl;
-	skos:prefLabel "Protivrečnosti (vrste)"@rs;
-	skos:prefLabel "(Các loại) mâu thuẫn"@vn;
-	skos:prefLabel "Tegenstrijdigheid (types)"@nl;
-	skos:prefLabel "矛盾（タイプ）"@jp;
-	skos:prefLabel "סוגי סתירות"@he;
-	skos:prefLabel "Çelişkiler (tipleri)"@tr .
-
-<http://opendiscovery.org/rdf/Concept/AdministrativeContradiction> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Противоречие административное"@ru;
-	skos:prefLabel "Administrative contradiction"@en;
-	skos:prefLabel "Administrativer Widerspruch"@de;
-	skos:prefLabel "Contradiction organisationnelle"@fr;
-	skos:prefLabel "Contradicción organizacional"@es;
-	skos:prefLabel "Contradição administrativa"@pt;
-	skos:prefLabel "Contraddizione organizzativa / gestionale"@it;
-	skos:prefLabel "Rozpor adminis-trativní"@cz;
-	skos:prefLabel "Супярэчнасьць адмініс-тратыўная"@by;
-	skos:prefLabel "Протирiччя адмiнiс-тративне"@ua;
-	skos:prefLabel "Sprzeczność administracyjna"@pl;
-	skos:prefLabel "Administrativna protivrečnost"@rs;
-	skos:prefLabel "Mâu thuẫn hành chính"@vn;
-	skos:prefLabel "Administratieve tegenstrijdigheid"@nl;
-	skos:prefLabel "組織レベルでの矛盾"@jp;
-	skos:prefLabel "סתירה מנהלתית"@he;
-	skos:prefLabel "İdarî çelişki"@tr .
-
-<http://opendiscovery.org/rdf/Concept/TechnicalContradiction> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Противоречие техническое"@ru;
-	skos:prefLabel "Technical contradiction"@en;
-	skos:prefLabel "Technischer Widerspruch"@de;
-	skos:prefLabel "Contradiction technique"@fr;
-	skos:prefLabel "Contradicción técnica"@es;
-	skos:prefLabel "Contradição técnica"@pt;
-	skos:prefLabel "Contraddizione tecnica"@it;
-	skos:prefLabel "Rozpor technický"@cz;
-	skos:prefLabel "Супярэчнасьць тэхнічная"@by;
-	skos:prefLabel "Протирiччя технiчне"@ua;
-	skos:prefLabel "Sprzeczność techniczna"@pl;
-	skos:prefLabel "Tehnička protivrečnost"@rs;
-	skos:prefLabel "Mâu thuẫn kỹ thuật"@vn;
-	skos:prefLabel "Technische tegenstrijdigheid"@nl;
-	skos:prefLabel "技術的矛盾"@jp;
-	skos:prefLabel "סתירה טכנולוגית"@he;
-	skos:prefLabel "Teknik Çelişki"@tr .
-
-<http://opendiscovery.org/rdf/Concept/PhysicalContradiction> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Противоречие физическое"@ru;
-	skos:prefLabel "Physical contradiction"@en;
-	skos:prefLabel "Physikalischer Widerspruch (Naturgesetzlicher Widerspruch)"@de;
-	skos:prefLabel "Contradiction physique"@fr;
-	skos:prefLabel "Contradicción física"@es;
-	skos:prefLabel "Contradição física"@pt;
-	skos:prefLabel "Contraddizione fisica"@it;
-	skos:prefLabel "Rozpor fyzikální"@cz;
-	skos:prefLabel "Супярэчнасьць фізычная"@by;
-	skos:prefLabel "Протирiччя фiзичне"@ua;
-	skos:prefLabel "Sprzeczność fizyczna"@pl;
-	skos:prefLabel "Fizička protivrečnost"@rs;
-	skos:prefLabel "Mâu thuẫn vật lý"@vn;
-	skos:prefLabel "Fysische  tegenstrijdigheid"@nl;
-	skos:prefLabel "物理的矛盾"@jp;
-	skos:prefLabel "סתירה פיזיקאלית"@he;
-	skos:prefLabel "Fiziksel Çelişki"@tr .
-
-<http://opendiscovery.org/rdf/Concept/Void> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Пустота"@ru;
-	skos:prefLabel "Void"@en;
-	skos:prefLabel "Leere"@de;
-	skos:prefLabel "Vide"@fr;
-	skos:prefLabel "Vacío"@es;
-	skos:prefLabel "Vazio"@pt;
-	skos:prefLabel "Assenza Strutturale"@it;
-	skos:prefLabel "Prázdnota"@cz;
-	skos:prefLabel "Пустата"@by;
-	skos:prefLabel "Порожнеча"@ua;
-	skos:prefLabel "Pustka"@pl;
-	skos:prefLabel "Praznina"@rs;
-	skos:prefLabel "Trống rỗng"@vn;
-	skos:prefLabel "Leegte"@nl;
-	skos:prefLabel "空隙（ボイド）"@jp;
-	skos:prefLabel "ריק"@he;
-	skos:prefLabel "Boşluk"@tr .
-
-<http://opendiscovery.org/rdf/Concept/DevelopmentCreativeImagination> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Развитие Творческого Воображения"@ru;
-	skos:prefLabel "Development of creative imagination"@en;
-	skos:prefLabel "Entwicklung des kreativen Vorstellungsvermögens"@de;
-	skos:prefLabel "Développement de l’Imagination Créative"@fr;
-	skos:prefLabel "Desarrollo de la imaginación creativa"@es;
-	skos:prefLabel "Desenvolvimento da imaginação criativa"@pt;
-	skos:prefLabel "Sviluppo dell’immaginazione creativa"@it;
-	skos:prefLabel "Rozvoj Technické Představivosti"@cz;
-	skos:prefLabel "Разьвіцьцё Творчай Фантазіі"@by;
-	skos:prefLabel "Розвиток творчоi уяви"@ua;
-	skos:prefLabel "Rozwój Twórczej Wyobraźni (RTW)"@pl;
-	skos:prefLabel "Razvoj kreativne imaginacije"@rs;
-	skos:prefLabel "Sự Phát Triển Trí Tưởng Tượng Sáng Tạo"@vn;
-	skos:prefLabel "Ontwikkeling van een scheppende verbeelding"@nl;
-	skos:prefLabel "創造的発想力の開発"@jp;
-	skos:prefLabel "פיתוח דמיון יצירתי"@he;
-	skos:prefLabel "Yaratıcı hayâlin gelişimi"@tr .
-
-<http://opendiscovery.org/rdf/Concept/GreatSurprise> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Большая Неожиданность "@ru;
-	skos:prefLabel "Great Surprise"@en;
-	skos:prefLabel "Die große Überraschung"@de;
-	skos:prefLabel "Grande surprise"@fr;
-	skos:prefLabel "Grandes sorpresas"@es;
-	skos:prefLabel "Grande surpresa"@pt;
-	skos:prefLabel "Scoperta della soluzione ideale/innovativa"@it;
-	skos:prefLabel "Velká neočekávanost (?)"@cz;
-	skos:prefLabel "Вялікая Нечаканасьць"@by;
-	skos:prefLabel "Велика несподiванка"@ua;
-	skos:prefLabel "Duża niespodzianka"@pl;
-	skos:prefLabel "Velika neočekivanost"@rs;
-	skos:prefLabel "Bất ngờ lớn"@vn;
-	skos:prefLabel "Het grote onverwachte"@nl;
-	skos:prefLabel "意外な状況"@jp;
-	skos:prefLabel "הפתעה גדולה"@he;
-	skos:prefLabel "Büyük sürpriz"@tr .
-
-<http://opendiscovery.org/rdf/Concept/ConflictResolution> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Разрешение противоречия"@ru;
-	skos:prefLabel "Conflict (contradiction) resolution"@en;
-	skos:prefLabel "Widerspruchs-Lösung"@de;
-	skos:prefLabel "Résolution d’une contradiction"@fr;
-	skos:prefLabel "Resolución de conflictos (contradicción)"@es;
-	skos:prefLabel "Solução de conflito"@pt;
-	skos:prefLabel "Soluzione di una contraddizione"@it;
-	skos:prefLabel "Řešení rozporu"@cz;
-	skos:prefLabel "Разьвязаньне супярэчнасьці"@by;
-	skos:prefLabel "Розв’язування протирiччя"@ua;
-	skos:prefLabel "Rie sprzeczności"@pl;
-	skos:prefLabel "Razrešenje protivrečnosti"@rs;
-	skos:prefLabel "Giải quyết mâu thuẫn"@vn;
-	skos:prefLabel "Oplossen van een tegenstrijdigheid"@nl;
-	skos:prefLabel "矛盾の解決"@jp;
-	skos:prefLabel "יישוב הסתירה"@he;
-	skos:prefLabel "Çatışma için izin alma (çatışma çözünürlüğü)"@tr .
-
-<http://opendiscovery.org/rdf/Concept/SuFieldBreakup> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Разрушение веполя"@ru;
-	skos:prefLabel "Su-Field breakup"@en;
-	skos:prefLabel "Zerstörung des Stoff-Feldes"@de;
-	skos:prefLabel "Destruction du vépole"@fr;
-	skos:prefLabel "Destrucción de sustancia-campo"@es;
-	skos:prefLabel "Destruição de su-campo"@pt;
-	skos:prefLabel "distruzione di un Su-field"@it;
-	skos:prefLabel "Rozbití vepolu"@cz;
-	skos:prefLabel "Зьнішчэньне вэполю"@by;
-	skos:prefLabel "Руйнування вiполю"@ua;
-	skos:prefLabel "Burzenie wepola"@pl;
-	skos:prefLabel "Razaranje Su-Polja"@rs;
-	skos:prefLabel "Phá Vepol"@vn;
-	skos:prefLabel "Vernieling van de V-pool"@nl;
-	skos:prefLabel "物質・場モデルの分解"@jp;
-	skos:prefLabel "שבירת נוסחת חומר-שדה"@he;
-	skos:prefLabel "Tüm Madde-Alanı’nın bozulması"@tr .
-
-<http://opendiscovery.org/rdf/Concept/ListScienceFictionIdeas> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Регистр НФ-идей"@ru;
-	skos:prefLabel "A list of science fiction ideas"@en;
-	skos:prefLabel "Register der Science-Fiction-Ideen"@de;
-	skos:prefLabel "Registre des idées science-fiction"@fr;
-	skos:prefLabel "Una lista de ideas de ciencia-ficción"@es;
-	skos:prefLabel "Lista de idéias de ficção científica"@pt;
-	skos:prefLabel "Lista di idee fantascientifiche"@it;
-	skos:prefLabel "Registr vědecko fantastických ideí"@cz;
-	skos:prefLabel "Рэгістар НФ-ідэяў"@by;
-	skos:prefLabel "Регiстр НФ-iдей"@ua;
-	skos:prefLabel "Rejestr idei SF"@pl;
-	skos:prefLabel "Registar naučno-fantastičnih (NF) ideja"@rs;
-	skos:prefLabel "Danh sách các ý tưởng khoa học viễn tưởng"@vn;
-	skos:prefLabel "Register van SF-ideeën"@nl;
-	skos:prefLabel "ＳＦ小説アイデア集"@jp;
-	skos:prefLabel "אוסף רעיונות של מדע בדיוני"@he;
-	skos:prefLabel "Bilim-kurgu fikirlerinin kaydedilmesi"@tr .
-
-<http://opendiscovery.org/rdf/Concept/Resources> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Ресурсы"@ru;
-	skos:prefLabel "Resources"@en;
-	skos:prefLabel "Ressoursen"@de;
-	skos:prefLabel "Ressources"@fr;
-	skos:prefLabel "Recursos"@es;
-	skos:prefLabel "Recursos"@pt;
-	skos:prefLabel "Risorse"@it;
-	skos:prefLabel "Zdroje"@cz;
-	skos:prefLabel "Рэсурсы"@by;
-	skos:prefLabel "Ресурси"@ua;
-	skos:prefLabel "Resursy"@pl;
-	skos:prefLabel "Resursi"@rs;
-	skos:prefLabel "Các nguồn dự trữ"@vn;
-	skos:prefLabel "Ressources"@nl;
-	skos:prefLabel "資源"@jp;
-	skos:prefLabel "משאבים"@he;
-	skos:prefLabel "Kaynaklar"@tr .
-
-<http://opendiscovery.org/rdf/Concept/CompositeCardIndex> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Сводная картотека"@ru;
-	skos:prefLabel "Composite card index"@en;
-	skos:prefLabel "Zentrale Kartothek"@de;
-	skos:prefLabel "Fichier général"@fr;
-	skos:prefLabel "Fichero general"@es;
-	skos:prefLabel "Arquivo de cartões (de soluções inventivas)"@pt;
-	skos:prefLabel " "@it;
-	skos:prefLabel "Souhrnná kartotéka"@cz;
-	skos:prefLabel "Зводная картатэка"@by;
-	skos:prefLabel "Зведена картотека"@ua;
-	skos:prefLabel "Zbiorcza kartoteka"@pl;
-	skos:prefLabel "Zbirna kartoteka"@rs;
-	skos:prefLabel "Tủ phiếu thông tin tổng quát"@vn;
-	skos:prefLabel "Samengestelde kartotheek"@nl;
-	skos:prefLabel " "@jp;
-	skos:prefLabel "TRIZ אוסף הרעיונות שנותחו על פי"@he;
-	skos:prefLabel "Karışık kart raflığı (dizini)"@tr .
-
-<http://opendiscovery.org/rdf/Concept/TechnicalSystem> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Система техническая"@ru;
-	skos:prefLabel "Technical system"@en;
-	skos:prefLabel "Technisches System"@de;
-	skos:prefLabel "Système technique"@fr;
-	skos:prefLabel "Sistema técnico"@es;
-	skos:prefLabel "Sistema técnico"@pt;
-	skos:prefLabel "Sistema tecnico"@it;
-	skos:prefLabel "Technický systém"@cz;
-	skos:prefLabel "Сыстэма тэхнічная"@by;
-	skos:prefLabel "Система технiчна"@ua;
-	skos:prefLabel "System techniczny"@pl;
-	skos:prefLabel "Tehnički sistem"@rs;
-	skos:prefLabel "Hệ kỹ thuật"@vn;
-	skos:prefLabel "Technisch systeem"@nl;
-	skos:prefLabel "技術システム"@jp;
-	skos:prefLabel "מערכת טכנולוגית"@he;
-	skos:prefLabel "Teknik sistem"@tr .
-
-<http://opendiscovery.org/rdf/Concept/SystemInventivePrinciples> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Система приемов"@ru;
-	skos:prefLabel "System of inventive principles"@en;
-	skos:prefLabel "System der Vorgehensweisen (Prinzipe)"@de;
-	skos:prefLabel "Système de principes"@fr;
-	skos:prefLabel "Sistema de los principios inventivos"@es;
-	skos:prefLabel "Sistema de princípios"@pt;
-	skos:prefLabel "Sistema dei principi inventivi"@it;
-	skos:prefLabel "Systém postupů (principů, heuristik)"@cz;
-	skos:prefLabel "Сыстэма прыёмаў"@by;
-	skos:prefLabel "Система прийомiв"@ua;
-	skos:prefLabel "System „chwytów”, zasad elementarnych,"@pl;
-	skos:prefLabel "Sistem principa"@rs;
-	skos:prefLabel "Hệ thống các thủ thuật"@vn;
-	skos:prefLabel "Systeem van methodes en werkwijzen"@nl;
-	skos:prefLabel "発明原理体系"@jp;
-	skos:prefLabel "מערכת תכסיסים"@he;
-	skos:prefLabel "Kabuller sistemi (yaratıcı prensipler sistemi)"@tr .
-
-<http://opendiscovery.org/rdf/Concept/InventiveSituation> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Ситуация изобретательская"@ru;
-	skos:prefLabel "Inventive situation"@en;
-	skos:prefLabel "Erfinderische Situation"@de;
-	skos:prefLabel "Situation innovante"@fr;
-	skos:prefLabel "Situación inventiva"@es;
-	skos:prefLabel "Situação inventiva"@pt;
-	skos:prefLabel "Termine specialistico"@it;
-	skos:prefLabel "Vynálezcovská situace"@cz;
-	skos:prefLabel "Сытуацыя вынаходніцкая"@by;
-	skos:prefLabel "Сiтуацiя винахiдницька"@ua;
-	skos:prefLabel "Sytuacja innowacyjna, wynalazcza"@pl;
-	skos:prefLabel "Inventivna situacija"@rs;
-	skos:prefLabel "Tình huống sáng chế"@vn;
-	skos:prefLabel "De situatie van een uitvinder (uitgangspunt bij innovatie)"@nl;
-	skos:prefLabel "発明級の問題状況"@jp;
-	skos:prefLabel "תרחיש המצאתי"@he;
-	skos:prefLabel "Yaratıcı durum"@tr .
-
-<http://opendiscovery.org/rdf/Concept/RhythmHarmonization> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Согласование ритмики"@ru;
-	skos:prefLabel "Rhythm harmonization"@en;
-	skos:prefLabel "Harmonisierung der Rhythmik"@de;
-	skos:prefLabel "Coordination du rythme"@fr;
-	skos:prefLabel "Coordinación del ritmo"@es;
-	skos:prefLabel "Coordenação dos ritmos"@pt;
-	skos:prefLabel "Coordinamento dei ritmi"@it;
-	skos:prefLabel "Slaďováni rytmiky"@cz;
-	skos:prefLabel "Узгадненьне рытмікі"@by;
-	skos:prefLabel "Узгодження ритмiки"@ua;
-	skos:prefLabel "Suchronizacja rytmu"@pl;
-	skos:prefLabel "Usaglašavanje ritma"@rs;
-	skos:prefLabel "Tương hợp nhịp điệu"@vn;
-	skos:prefLabel "Coordinatie van ritme"@nl;
-	skos:prefLabel "リズムの一致"@jp;
-	skos:prefLabel "התאמת התנודות"@he;
-	skos:prefLabel "ritim uyumu (ritim koordinasyonu)"@tr .
-
-<http://opendiscovery.org/rdf/Concept/SpecialTerm> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Специальный термин (спецтермин)"@ru;
-	skos:prefLabel "Special (professional) term"@en;
-	skos:prefLabel "Spezialbegriff"@de;
-	skos:prefLabel "Terme spécial"@fr;
-	skos:prefLabel "Término especial (profesional)"@es;
-	skos:prefLabel "Termo técnico (profissional)"@pt;
-	skos:prefLabel "Termine specialistico"@it;
-	skos:prefLabel "Speciální termín"@cz;
-	skos:prefLabel "Спэцыяльны тэрмін (спэцтэрмін)"@by;
-	skos:prefLabel "Спецiальний термiн (спецтермiн)"@ua;
-	skos:prefLabel "Termin specjalistyczny"@pl;
-	skos:prefLabel "Specijalni (profesionalni) termin"@rs;
-	skos:prefLabel "Thuật ngữ chuyên môn"@vn;
-	skos:prefLabel "Speciale term (beroepsterminologie)"@nl;
-	skos:prefLabel "専門用語"@jp;
-	skos:prefLabel "מונח מיקצועי"@he;
-	skos:prefLabel "Özel (meslekî) terim"@tr .
-
-<http://opendiscovery.org/rdf/Concept/LeadingFieldTechnology> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Ведущая область техники"@ru;
-	skos:prefLabel "Leading field of technology"@en;
-	skos:prefLabel "Die führende Technik-Branche"@de;
-	skos:prefLabel "Industrie Leader"@fr;
-	skos:prefLabel "Líder en el campo de la tecnología"@es;
-	skos:prefLabel "Área tecnológica líder"@pt;
-	skos:prefLabel "Tecnologia leader"@it;
-	skos:prefLabel "Vedoucí oblast techniky"@cz;
-	skos:prefLabel "Асноўная галіна тэхнікі"@by;
-	skos:prefLabel "Ведуча галузь технiки"@ua;
-	skos:prefLabel "Wiodąca dziedzina techniki"@pl;
-	skos:prefLabel "Vodeća oblast tehnike"@rs;
-	skos:prefLabel "Lĩnh vực kỹ thuật chủ đạo"@vn;
-	skos:prefLabel "Het leidende domein van de Techniek"@nl;
-	skos:prefLabel "主要技術分野"@jp;
-	skos:prefLabel "התחום המוביל בטכנולוגיה"@he;
-	skos:prefLabel "Teknolojinin rehber alanı"@tr .
-
-<http://opendiscovery.org/rdf/Concept/StandardSolvingInventiveProblems> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Стандарт (на решение изобретательских задач)"@ru;
-	skos:prefLabel "Standard for solving inventive problems"@en;
-	skos:prefLabel "Standards zur Lösung erfinderischer Aufgaben"@de;
-	skos:prefLabel "Standard (pour la résolution de problèmes innovants)"@fr;
-	skos:prefLabel "Estándares para resolver problemas inventivo"@es;
-	skos:prefLabel "Padrão (para a solução de problemas inventivos)"@pt;
-	skos:prefLabel "Standard per la soluzione di problemi inventivi"@it;
-	skos:prefLabel "Standard (pro řešení invenčních zadání)"@cz;
-	skos:prefLabel "Стандарт (дзеля разьвязаньня вынаходніцкай задачы)"@by;
-	skos:prefLabel "Стандарт (на розв’язання  винахiдницьких задач)"@ua;
-	skos:prefLabel "Standard rozwiązywania zadań wynalazczych"@pl;
-	skos:prefLabel "Standard za rešavanje inventivnih problema"@rs;
-	skos:prefLabel "Chuẩn (để giải các bài toán sáng chế)"@vn;
-	skos:prefLabel "Standaard  (voor de oplossing van innovatievraagstukken)"@nl;
-	skos:prefLabel "標準解"@jp;
-	skos:prefLabel "סטנדרט לפתרון בעיות המצאתיות"@he;
-	skos:prefLabel "Yaratıcı problemleri çözmede standart"@tr .
-
-<http://opendiscovery.org/rdf/Concept/DiagramsTypicalConflictsProblemModels> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Схемы типичных конфликтов в моделях задач"@ru;
-	skos:prefLabel "Diagrams of typical conflicts in problem models"@en;
-	skos:prefLabel "Grafische Darstellung der typischen Konflikte in Aufgabenmodellen"@de;
-	skos:prefLabel "Schémas des conflits types dans un modèle de problème"@fr;
-	skos:prefLabel "Diagramas de los conflictos típico en los modelos de problemas"@es;
-	skos:prefLabel "Diagramas de conflitos típicos na modelagem de problemas"@pt;
-	skos:prefLabel "Diagramma dei conflitti tipici presenti nei modelli dei problemi"@it;
-	skos:prefLabel "Schémata typových konfliktů v modelech zadání"@cz;
-	skos:prefLabel "Схема тыповых канфліктаў у мадэлях задачаў"@by;
-	skos:prefLabel "Схеми типових конфлiктiв у моделях задач"@ua;
-	skos:prefLabel "Schematy typowych konfliktów w modelach zadań"@pl;
-	skos:prefLabel "Dijagram tipičnih konflikata u modelskim problemima"@rs;
-	skos:prefLabel "Các sơ đồ các loại xung đột hay xảy ra trong các mô hình bài toán"@vn;
-	skos:prefLabel "Schema’s van typische confilcten bij model-vraagstukken"@nl;
-	skos:prefLabel "問題類型における典型的矛盾の図式モデル"@jp;
-	skos:prefLabel "תרשימי ניגודים אופייניים לבעיות מדגמיות"@he;
-	skos:prefLabel "Problemdeki modellerde tipik çatışmaların şeması"@tr .
-
-<http://opendiscovery.org/rdf/Concept/Scurve> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "S-образная кривая"@ru;
-	skos:prefLabel "S-curve"@en;
-	skos:prefLabel "S-Kurve "@de;
-	skos:prefLabel "Courbe «en S», S-courbe"@fr;
-	skos:prefLabel "Curva S"@es;
-	skos:prefLabel "Curva S"@pt;
-	skos:prefLabel "Curva ad Esse"@it;
-	skos:prefLabel "S-křivka"@cz;
-	skos:prefLabel "S-падобная крывая"@by;
-	skos:prefLabel "S-образна крива"@ua;
-	skos:prefLabel "S- kształtna krzywa, sinusoidalna krzywa"@pl;
-	skos:prefLabel "S-kriva "@rs;
-	skos:prefLabel "Đường cong hình chữ S"@vn;
-	skos:prefLabel "S-curve"@nl;
-	skos:prefLabel "Ｓ－カーブ"@jp;
-	skos:prefLabel "S גרף של עקומת"@he;
-	skos:prefLabel "S-Eğrisi"@tr .
-
-<http://opendiscovery.org/rdf/Concept/ContradictionMatrix> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Таблица основных приемов для устранения типовых технических противоречий"@ru;
-	skos:prefLabel "Contradiction (conflict) matrix"@en;
-	skos:prefLabel "Die Widerspruchsmatrix"@de;
-	skos:prefLabel "Tableau de résolution des contradictions techniques"@fr;
-	skos:prefLabel "Tabla de Contradicciones  (matriz)  "@es;
-	skos:prefLabel "Matriz de contradições"@pt;
-	skos:prefLabel "Matrice delle contraddizioni"@it;
-	skos:prefLabel "Tabulka základních postupů (principů, heuristik) k odstranění rozporů"@cz;
-	skos:prefLabel "Табліца асноўных прыёмаў дзеля разьвязаньня тыповых тэхнічных супярэчнасьцяў"@by;
-	skos:prefLabel "Таблиця основних заходiв для усунення типових технiчних протирiч (супереч-ностей)"@ua;
-	skos:prefLabel "Tabela podstawowych zasad likwidacji sprzeczności technicznych"@pl;
-	skos:prefLabel "Tabela osnovnih principa za uklanjanje tipskih tehničkih protivrečnosti"@rs;
-	skos:prefLabel "Bảng các thủ thuật cơ bản dùng khắc phục các loại mâu thuẫn kỹ thuật mẫu (chuẩn)"@vn;
-	skos:prefLabel "Matrix voor het oplossen van typische technische tegenstrijdigheden"@nl;
-	skos:prefLabel "矛盾表"@jp;
-	skos:prefLabel "טבלת התכסיסים העיקריים ליישוב סתירות טכנולוגיות"@he;
-	skos:prefLabel "Çelişki Matriksi"@tr .
-
-<http://opendiscovery.org/rdf/Concept/TheoryDevelopmentCreativePersonality> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Теория Развития Творческой Личности (ТРТЛ)"@ru;
-	skos:prefLabel "Theory of Creative Life Strategy (TCLS)"@en;
-	skos:prefLabel "Theorie der Entwicklung kreativer Persönlichkeiten"@de;
-	skos:prefLabel "Théorie de développement d’une personne créative"@fr;
-	skos:prefLabel "Teorha de Desarrollo Creativo Individual"@es;
-	skos:prefLabel "Teoria da Estratégia de Vida Criativa"@pt;
-	skos:prefLabel "Teoria dello Sviluppo della persona creativa"@it;
-	skos:prefLabel "Teorie Rozvoje Tvůrčí Osobnosti (TRTO)"@cz;
-	skos:prefLabel " "@by;
-	skos:prefLabel "Теорiя розвитку творчої особи"@ua;
-	skos:prefLabel "Teoria Rozwoju Osobowości Twórczej (TROT)"@pl;
-	skos:prefLabel "Teorija Razvitka Stvaralačke Ličnosti (TRSL)"@rs;
-	skos:prefLabel "Lý Thuyết Phát Triển Nhân Cách Sáng Tạo"@vn;
-	skos:prefLabel "Theorie van de ontwikkeling van een creatieve persoonlijkheid"@nl;
-	skos:prefLabel "創造的個性開発理論"@jp;
-	skos:prefLabel "תיאורית התפתחות אישיות יצירתית"@he;
-	skos:prefLabel "Yaratıcı kişilik gelişim teorisi"@tr .
-
-<http://opendiscovery.org/rdf/Concept/ThermalField> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Теполь"@ru;
-	skos:prefLabel "Thermal Field"@en;
-	skos:prefLabel "Wärmefeld"@de;
-	skos:prefLabel "Thépole"@fr;
-	skos:prefLabel "Campo Termico"@es;
-	skos:prefLabel "Campo térmico"@pt;
-	skos:prefLabel "Campo termico"@it;
-	skos:prefLabel "Tepol"@cz;
-	skos:prefLabel "Тэполь (ТЭмпература + ПОЛе)"@by;
-	skos:prefLabel "Теполь"@ua;
-	skos:prefLabel "Tepole"@pl;
-	skos:prefLabel "T-Polje"@rs;
-	skos:prefLabel "Vepol nhiệt"@vn;
-	skos:prefLabel "T-pool"@nl;
-	skos:prefLabel "温度の場"@jp;
-	skos:prefLabel "נוסחת חומר-שדה עם שדה חום"@he;
-	skos:prefLabel "T-Alanı"@tr .
-
-<http://opendiscovery.org/rdf/Concept/TRIZ> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "ТРИЗ"@ru;
-	skos:prefLabel "TRIZ"@en;
-	skos:prefLabel "TRIZ (Theorie der Lösung erfinderischer Probleme)"@de;
-	skos:prefLabel "TRIZ"@fr;
-	skos:prefLabel "TRIZ"@es;
-	skos:prefLabel "TRIZ"@pt;
-	skos:prefLabel "TRIZ"@it;
-	skos:prefLabel "TRIZ"@cz;
-	skos:prefLabel "ТРВЗ"@by;
-	skos:prefLabel "ТВВЗ"@ua;
-	skos:prefLabel "TRIZ"@pl;
-	skos:prefLabel "TRIZ"@rs;
-	skos:prefLabel "TRIZ"@vn;
-	skos:prefLabel "TRIZ (Theorie van het Oplossen van Innovatievraagstukken)"@nl;
-	skos:prefLabel "ＴＲＩＺ"@jp;
-	skos:prefLabel "TRIZ"@he;
-	skos:prefLabel "TRIZ"@tr .
-
-<http://opendiscovery.org/rdf/Concept/IndexesEffects> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Указатели эффектов"@ru;
-	skos:prefLabel "Indexes of effects"@en;
-	skos:prefLabel "Effekte-Datenbank"@de;
-	skos:prefLabel "Bases des effets"@fr;
-	skos:prefLabel "Indicadores de efectos"@es;
-	skos:prefLabel "Indicadores de efeitos"@pt;
-	skos:prefLabel "Database degli effetti"@it;
-	skos:prefLabel "Ukazatelé efektů"@cz;
-	skos:prefLabel "Указальнік эфэктаў"@by;
-	skos:prefLabel "Покажчики ефектiв"@ua;
-	skos:prefLabel "Wskaźniki efektów"@pl;
-	skos:prefLabel "Registri efekta"@rs;
-	skos:prefLabel "Sách hướng dẫn sử dụng các hiệu ứng"@vn;
-	skos:prefLabel "Index van effecten"@nl;
-	skos:prefLabel "科学的効果集"@jp;
-	skos:prefLabel "(אינדקס של תופעות מדעיות(פיזיקאליות,כימיות וכו’"@he;
-	skos:prefLabel "Etkilerin Fihristi"@tr .
-
-<http://opendiscovery.org/rdf/Concept/LevelInvention> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Уровень изобретательских задач"@ru;
-	skos:prefLabel "Level of invention"@en;
-	skos:prefLabel "Niveau der erfinderischen Aufgabe"@de;
-	skos:prefLabel "Niveaux d’inventivité"@fr;
-	skos:prefLabel "Niveles de problemas inventivos"@es;
-	skos:prefLabel "Níveis de problemas inventivos"@pt;
-	skos:prefLabel "Grado di contenuto innovativo di un invenzione"@it;
-	skos:prefLabel "Úroveň invenčních / vynálezcovských zadání"@cz;
-	skos:prefLabel "Узровень вынаходніцкіх задачаў"@by;
-	skos:prefLabel "Рiвень винахiдницьких задач"@ua;
-	skos:prefLabel "Poziomy zadań wynalazczych"@pl;
-	skos:prefLabel "Nivo inventivnih problema"@rs;
-	skos:prefLabel "Mức khó của các bài toán sáng chế"@vn;
-	skos:prefLabel "Niveau van een innovatievraagstuk"@nl;
-	skos:prefLabel "発明のレベル"@jp;
-	skos:prefLabel "דרוג הבעיות ההמצאתיות"@he;
-	skos:prefLabel "Yaratıcı problemin seviyeleri (icatların seviyesi)"@tr .
-
-<http://opendiscovery.org/rdf/Concept/IntensifiedConflict> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Усиленная формулировка конфликта"@ru;
-	skos:prefLabel "Intensified conflict (contradiction)"@en;
-	skos:prefLabel "Intensivierter Konflikt"@de;
-	skos:prefLabel "Conflit intensifié"@fr;
-	skos:prefLabel "Conflicto intensificado (contradicción)"@es;
-	skos:prefLabel "Conflito intensificado"@pt;
-	skos:prefLabel "Contraddizione intensificata"@it;
-	skos:prefLabel "Zesílená formulace konfliktu"@cz;
-	skos:prefLabel "Узмоцненая фармулёўка канфлікту"@by;
-	skos:prefLabel "Посилене формулювання конфлiкту"@ua;
-	skos:prefLabel "Wzmocnione sformułowania sprzeczności"@pl;
-	skos:prefLabel "Zaoštrena formulacija konflikta"@rs;
-	skos:prefLabel "Phát biểu tăng cường xung đột"@vn;
-	skos:prefLabel "Versterkte formulering van een conflict"@nl;
-	skos:prefLabel "矛盾状況の尖鋭化"@jp;
-	skos:prefLabel "סתירה מועצמת"@he;
-	skos:prefLabel "Yoğunlaştırılmış Çelişki"@tr .
-
-<http://opendiscovery.org/rdf/Concept/Fantogram> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Фантограмма"@ru;
-	skos:prefLabel "Fantogram"@en;
-	skos:prefLabel "Fantogramm"@de;
-	skos:prefLabel "Fantogramme"@fr;
-	skos:prefLabel "Fantogram (Diagrama fantastico)"@es;
-	skos:prefLabel "Fantograma"@pt;
-	skos:prefLabel "Fantogramma"@it;
-	skos:prefLabel "Fantograma"@cz;
-	skos:prefLabel "Фантаграма"@by;
-	skos:prefLabel "Фантограма"@ua;
-	skos:prefLabel "Fantograma"@pl;
-	skos:prefLabel "Fantogram"@rs;
-	skos:prefLabel "Các bảng giúp tưởng tượng"@vn;
-	skos:prefLabel "Fantogram"@nl;
-	skos:prefLabel "ファントグラム（空想アイデア分析）"@jp;
-	skos:prefLabel "שימוש בניתוח מורפולוגי לחיפוש רעיונות לא שגרתיים"@he;
-	skos:prefLabel "Fantogram (yaratıcı-yeni tür fikirler ve ürünler geliştirmek için kullanılan bir araç)"@tr .
-
-<http://opendiscovery.org/rdf/Concept/SuField> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Веполь"@ru;
-	skos:prefLabel "Su-Field"@en;
-	skos:prefLabel "Stoff-Feld"@de;
-	skos:prefLabel "Vépole"@fr;
-	skos:prefLabel "Sustancia-Campo"@es;
-	skos:prefLabel "Su-campo"@pt;
-	skos:prefLabel "Su-Field"@it;
-	skos:prefLabel "Vepól"@cz;
-	skos:prefLabel "Вэполь"@by;
-	skos:prefLabel "Вiполь"@ua;
-	skos:prefLabel "Wepole"@pl;
-	skos:prefLabel "Su-Polje"@rs;
-	skos:prefLabel "Vepol (mô hình chất-trường)"@vn;
-	skos:prefLabel "V-Pool (afgeleid van de Russische woorden &quot;substantie&quot; en &quot;veld&quot;)"@nl;
-	skos:prefLabel "物質・場"@jp;
-	skos:prefLabel "חומר-שדה"@he;
-	skos:prefLabel "Tüm Madde-Alan"@tr .
-
-<http://opendiscovery.org/rdf/Concept/FerromagnticField> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Феполь"@ru;
-	skos:prefLabel "Ferromagnetic Field"@en;
-	skos:prefLabel "Ferromagnetisches Feld"@de;
-	skos:prefLabel "Fépole"@fr;
-	skos:prefLabel "Campo ferromagnético"@es;
-	skos:prefLabel "Campo ferromagnético"@pt;
-	skos:prefLabel "Campo ferromagnetico"@it;
-	skos:prefLabel "Fepol"@cz;
-	skos:prefLabel "Фэполь (ФЭррамагнітнае рэчыва+ПОЛе)"@by;
-	skos:prefLabel "Феполь"@ua;
-	skos:prefLabel "Fepole"@pl;
-	skos:prefLabel "Fe-Polje"@rs;
-	skos:prefLabel "Fepol (Vepol sắt từ)"@vn;
-	skos:prefLabel "F-pool"@nl;
-	skos:prefLabel "磁性場"@jp;
-	skos:prefLabel "נוסחת חומר-שדה עם שדה פרומגנטי"@he;
-	skos:prefLabel "Fe-Alanı"@tr .
-
-<http://opendiscovery.org/rdf/Concept/PhysicalEffect> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Физический эффект"@ru;
-	skos:prefLabel "Physical effect"@en;
-	skos:prefLabel "Physikalischer Effekt (Naturgesetzlicher Effekt)"@de;
-	skos:prefLabel "Effet physique"@fr;
-	skos:prefLabel "Efecto físico"@es;
-	skos:prefLabel "Efeito físico"@pt;
-	skos:prefLabel "Effetto Fisico"@it;
-	skos:prefLabel "Fyzikální efekt"@cz;
-	skos:prefLabel "Фізычны эфэкт"@by;
-	skos:prefLabel "Фiзичний ефект"@ua;
-	skos:prefLabel "Efekt fizyczny"@pl;
-	skos:prefLabel "Fizički efekt"@rs;
-	skos:prefLabel "Hiệu ứng vật lý"@vn;
-	skos:prefLabel "Fysisch effect"@nl;
-	skos:prefLabel "物理的効果"@jp;
-	skos:prefLabel "תופעה פיזיקאלית"@he;
-	skos:prefLabel "Fiziksel etki"@tr .
-
-<http://opendiscovery.org/rdf/Concept/BankWorthyGoals> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Фонд Достойных Целей"@ru;
-	skos:prefLabel "The Bank of Worthy Goals"@en;
-	skos:prefLabel "Fonds würdiger Ziele"@de;
-	skos:prefLabel "Réserve des Buts Dignes"@fr;
-	skos:prefLabel "Banco de reserva de objetivos dignos"@es;
-	skos:prefLabel "Banco de metas dignas"@pt;
-	skos:prefLabel "Banca dati degli obiettivi prioritari"@it;
-	skos:prefLabel "Fond Důstojných Cílů"@cz;
-	skos:prefLabel "Фонд Годных Мэтаў"@by;
-	skos:prefLabel "Фонд Гiдних Цiлей"@ua;
-	skos:prefLabel "Zbiór godnych, poważnych celów"@pl;
-	skos:prefLabel "Baza dostojnih ciljeva"@rs;
-	skos:prefLabel "Quỹ Các Mục Đích Xứng Đáng"@vn;
-	skos:prefLabel "Fonds van waardevolle doelen"@nl;
-	skos:prefLabel "意義ある目標集"@jp;
-	skos:prefLabel "אוסף הרעיונות הערכיים"@he;
-	skos:prefLabel "Değer amaç bankası (uğruna değer amaçlar için kaynak fonu)"@tr .
-
-<http://opendiscovery.org/rdf/Concept/InformationFonds> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Фонд информационный"@ru;
-	skos:prefLabel "Information fonds"@en;
-	skos:prefLabel "Fonds von Informationen (über die TRIZ)"@de;
-	skos:prefLabel "Réserve d’information"@fr;
-	skos:prefLabel "Base de datos del TRIZ"@es;
-	skos:prefLabel "Bancos de informações (de TRIZ)"@pt;
-	skos:prefLabel "TRIZ Database"@it;
-	skos:prefLabel "Informační fond"@cz;
-	skos:prefLabel "Фонд інфармацыйны"@by;
-	skos:prefLabel "Фонд iнформацiйний"@ua;
-	skos:prefLabel "Baza informacji"@pl;
-	skos:prefLabel "Informaciona baza"@rs;
-	skos:prefLabel "Kho (Quỹ) thông tin (của TRIZ)"@vn;
-	skos:prefLabel "Ariz-gegevensbank"@nl;
-	skos:prefLabel "ＴＲＩＺの知識ベース"@jp;
-	skos:prefLabel "מאגר מידע"@he;
-	skos:prefLabel "TRIZ veritabanı (bilgi sağlayan kaynak)"@tr .
-
-<http://opendiscovery.org/rdf/Concept/ChemicalEffect> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Химический эффект"@ru;
-	skos:prefLabel "Chemical effect"@en;
-	skos:prefLabel "Chemischer Effekt"@de;
-	skos:prefLabel "Effet chimique"@fr;
-	skos:prefLabel "Efecto químico"@es;
-	skos:prefLabel "Efeito químico"@pt;
-	skos:prefLabel "Effetto chimico"@it;
-	skos:prefLabel "Chemický efekt"@cz;
-	skos:prefLabel "Хімічны эфэкт"@by;
-	skos:prefLabel "Хiмiчний ефект"@ua;
-	skos:prefLabel "Efekt chemiczny"@pl;
-	skos:prefLabel "Hemijski efekt"@rs;
-	skos:prefLabel "Hiệu ứng hóa học"@vn;
-	skos:prefLabel "Chemisch effect"@nl;
-	skos:prefLabel "化学的効果"@jp;
-	skos:prefLabel "תופעה כימיקאלית"@he;
-	skos:prefLabel "Kimyasal etki"@tr .
-
-<http://opendiscovery.org/rdf/Concept/FourLevelSchemeFantasticIdeas> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Четырехэтажная схема создания фантастических идей"@ru;
-	skos:prefLabel "Four-level scheme of sci-fi ideas"@en;
-	skos:prefLabel "Vier-Etagen-Schema der fantastischen Ideen"@de;
-	skos:prefLabel "Schéma de création des idées fantastiques à quatre niveaux"@fr;
-	skos:prefLabel "Esquema de cuatro niveles de creación de ideas inventivas"@es;
-	skos:prefLabel "Esquema de quatro níveis para a geração de idéias fantásticas"@pt;
-	skos:prefLabel "Algoritmo a 4 livelli per la generazipne di idee tecnico  fanta - scientifiche"@it;
-	skos:prefLabel "Čtyřúrovňové schéma vytváření fantastických ideí"@cz;
-	skos:prefLabel "Чатырох-павярховая схема стварэньня фантастычных ідэяў"@by;
-	skos:prefLabel "Чотирьох-поверхова схема створення фантастичних iдей"@ua;
-	skos:prefLabel "Czteropoziomowy system kreowania fantastycznych idei"@pl;
-	skos:prefLabel "Algoritam od četiri nivoa za generisanje NF ideja"@rs;
-	skos:prefLabel "Sơ đồ bốn giai đoạn tạo các ý tưởng viễn tưởng"@vn;
-	skos:prefLabel "Creatieschema voor fantastische ideeën, met 4 levels"@nl;
-	skos:prefLabel "空想科学アイデア発想の４段階構造"@jp;
-	skos:prefLabel "תוכנית ארבע שלבית ליצירת רעיונות דמיוניים"@he;
-	skos:prefLabel "Hayal ürünü fikirlerin oluşumu için dört katlı şema (bilim-kurgu fikirlerinin oluşumu için dört seviyeli algoritma)"@tr .
-
-<http://opendiscovery.org/rdf/Concept/StepBackFromIFR> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Шаг назад от ИКР"@ru;
-	skos:prefLabel "Step back from IFR"@en;
-	skos:prefLabel "Schritt zurück vom IER"@de;
-	skos:prefLabel "Un pas en arrière du RIF"@fr;
-	skos:prefLabel "Retroceder desde el RFI (Resultado Final Ideal)"@es;
-	skos:prefLabel "Recuar do RFI"@pt;
-	skos:prefLabel "Un passo prima del IFR"@it;
-	skos:prefLabel "Krok zpět od IKV"@cz;
-	skos:prefLabel "Крок назад ад ІКВ"@by;
-	skos:prefLabel "Крок назад вiд IКР"@ua;
-	skos:prefLabel "Krok wstecz od IWK"@pl;
-	skos:prefLabel "Korak unazad od IKR"@rs;
-	skos:prefLabel "Bước lùi khỏi KLC (Kết quả lý tưởng cuối cùng)"@vn;
-	skos:prefLabel "Stap terug van IER"@nl;
-	skos:prefLabel "理想解から一歩後退"@jp;
-	skos:prefLabel "נסיגה מפתרון אידיאלי"@he;
-	skos:prefLabel "İdeal Nihai Sonuç’dan bir adım gerisi"@tr .
-
-<http://opendiscovery.org/rdf/Concept/Heuristics> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Эвристика"@ru;
-	skos:prefLabel "Heuristics"@en;
-	skos:prefLabel "Heuristik"@de;
-	skos:prefLabel "Euristique"@fr;
-	skos:prefLabel "Heurística"@es;
-	skos:prefLabel "Heurísticas"@pt;
-	skos:prefLabel "Euristica"@it;
-	skos:prefLabel "Heuristika"@cz;
-	skos:prefLabel "Эўрыстыка"@by;
-	skos:prefLabel "Еврiстiка"@ua;
-	skos:prefLabel "Heurystyka"@pl;
-	skos:prefLabel "Heuristika"@rs;
-	skos:prefLabel "Sáng tạo học (Khoa học về sáng tạo)"@vn;
-	skos:prefLabel "Heuristieken"@nl;
-	skos:prefLabel "解法"@jp;
-	skos:prefLabel "יוריסטיקה"@he;
-	skos:prefLabel "Heuristik (buluşsal, sezgisel)"@tr .
-
-<http://opendiscovery.org/rdf/Concept/ElectricalField> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Эполь"@ru;
-	skos:prefLabel "Electrical Field"@en;
-	skos:prefLabel "Elektrisches Feld"@de;
-	skos:prefLabel "Epole"@fr;
-	skos:prefLabel "Campo eléctrico"@es;
-	skos:prefLabel "Campo elétrico"@pt;
-	skos:prefLabel "Campo Elettrico"@it;
-	skos:prefLabel "Epol"@cz;
-	skos:prefLabel "Эполь (Электрыч-насьць + ПОЛе)"@by;
-	skos:prefLabel "Еполь"@ua;
-	skos:prefLabel "Epole"@pl;
-	skos:prefLabel "E-Polje"@rs;
-	skos:prefLabel "Epol (Vepol điện)"@vn;
-	skos:prefLabel "E-pool"@nl;
-	skos:prefLabel "電気の場"@jp;
-	skos:prefLabel "נוסחת חומר-שדה עם שדה חשמלי"@he;
-	skos:prefLabel "E-Alanı"@tr .
-
-<http://opendiscovery.org/rdf/Concept/Effect> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Эффект"@ru;
-	skos:prefLabel "Effect"@en;
-	skos:prefLabel "Effekt"@de;
-	skos:prefLabel "Effet"@fr;
-	skos:prefLabel "Efecto"@es;
-	skos:prefLabel "Efeito"@pt;
-	skos:prefLabel "Effetto"@it;
-	skos:prefLabel "Efekt"@cz;
-	skos:prefLabel "Эфэкт"@by;
-	skos:prefLabel "Ефект"@ua;
-	skos:prefLabel "Efekt"@pl;
-	skos:prefLabel "Efekt"@rs;
-	skos:prefLabel "Hiệu ứng"@vn;
-	skos:prefLabel "Effect"@nl;
-	skos:prefLabel "科学的効果"@jp;
-	skos:prefLabel "תופעה"@he;
-	skos:prefLabel "Etki"@tr .
-
-<http://opendiscovery.org/rdf/Concept/SubstanceFieldResources> a skos:Concept, tc:GlossaryEntry;
-	skos:prefLabel "Вещественно-полевые ресурсы"@ru;
-	skos:prefLabel "Substance-Field resources"@en;
-	skos:prefLabel "Stoff-Feld-Ressourcen"@de;
-	skos:prefLabel "Ressources de Substances et de Champs"@fr;
-	skos:prefLabel "Recursos de la sustancia-campo"@es;
-	skos:prefLabel "Recursos de substância-campo"@pt;
-	skos:prefLabel "Risorse"@it;
-	skos:prefLabel "Látkově-energetické zdroje"@cz;
-	skos:prefLabel "Рэчыўна-палявыя рэсурсы"@by;
-	skos:prefLabel "Речовинно-польовi ресурси"@ua;
-	skos:prefLabel "Resursy substancjalno - polowe"@pl;
-	skos:prefLabel "Resursi Supstanca-Polje"@rs;
-	skos:prefLabel "Các nguồn dự trữ chất-trường"@vn;
-	skos:prefLabel "Resources van substantie en velden"@nl;
-	skos:prefLabel "物質・場資源"@jp;
-	skos:prefLabel "משאבי חומר ושדה"@he;
-	skos:prefLabel "Tüm Madde-Alanının kaynakları"@tr .
+tc:ARIZ
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Algoritam rešavanja inventivnih problema (ARIZ)"@rs, "Algorithm of Inventive Problem Solving (ARIZ)"@en, "Algorithme de Résolution de Problèmes Innovants (ARIZ)"@fr, "Algorithmus zum Lösen erfinderischer Probleme (ARIZ)"@de, "Algoritme voor het oplossen van innovatievraagstukken"@nl, "Algoritmo da Solução Inventiva de Problemas"@pt, "Algoritmo de resolución de problemas inventivos (ARIZ)"@es, "Algoritmo per la Soluzione Inventiva di Problemi (ARIZ)"@it, "Algoritmus řešení vynálezcovských (inovačních / invenčních) zadání - (ARIZ)"@cz, "Algorytm Rozwiązywania Innowacyjnych Zadań (ARIZ)"@pl, "Algôrit giải các bài toán sáng chế (ARIZ)"@vn, "Yaratıcı Problem Çözme Algoritması (ARIZ)"@tr, "Алгоритм вирiшення винахiдницьких задач"@ua, "Алгоритм решения изобретательских задач (АРИЗ)"@ru, "Альгарытм разьвязаньня вынаходніцкіх задачаў (АРВЗ)"@by, "אלגוריתם לפתרון בעיות המצאתי"@he, "発明級問題の解決手順（ＡＲＩＺ）"@jp .
+
+tc:AdministrativeContradiction
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:narrower tc:ContradictionTypes ; 
+    skos:prefLabel "Administratieve tegenstrijdigheid"@nl, "Administrative contradiction"@en, "Administrativer Widerspruch"@de, "Administrativna protivrečnost"@rs, "Contraddizione organizzativa / gestionale"@it, "Contradicción organizacional"@es, "Contradiction organisationnelle"@fr, "Contradição administrativa"@pt, "Mâu thuẫn hành chính"@vn, "Rozpor adminis-trativní"@cz, "Sprzeczność administracyjna"@pl, "İdarî çelişki"@tr, "Противоречие административное"@ru, "Протирiччя адмiнiс-тративне"@ua, "Супярэчнасьць адмініс-тратыўная"@by, "סתירה מנהלתית"@he, "組織レベルでの矛盾"@jp .
+
+tc:AnalogousProblem
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Analoge probleemstelling"@nl, "Analoges Problem"@de, "Analogiczne zadanie"@pl, "Analogni problem"@rs, "Analogous problem"@en, "Benzeşen problem"@tr, "Bài toán tương tự"@vn, "Problema analogo"@it, "Problema análogo"@pt, "Problemas análogos"@es, "Problème analogue"@fr, "Zadání-analogie"@cz, "Задача-аналог"@ru, "Задача-аналог"@ua, "Задача-аналяг"@by, "בעיה אנלוגית"@he, "類似問題"@jp .
+
+tc:AntiSystem
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Anti-Système"@fr, "Anti-sistem"@rs, "Anti-sistem"@tr, "Anti-sistema"@it, "Anti-systeem"@nl, "Anti-systém"@cz, "Antisistema"@es, "Antisistema"@pt, "Antisystem"@de, "Antisystem"@en, "Antysystem"@pl, "Phản hệ"@vn, "Анти-система"@ru, "Антисистема"@ua, "Анты-сыстэма"@by, "אנטי מערכת"@he, "反システム"@jp .
+
+tc:BankWorthyGoals
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Banca dati degli obiettivi prioritari"@it, "Banco de metas dignas"@pt, "Banco de reserva de objetivos dignos"@es, "Baza dostojnih ciljeva"@rs, "Değer amaç bankası (uğruna değer amaçlar için kaynak fonu)"@tr, "Fond Důstojných Cílů"@cz, "Fonds van waardevolle doelen"@nl, "Fonds würdiger Ziele"@de, "Quỹ Các Mục Đích Xứng Đáng"@vn, "Réserve des Buts Dignes"@fr, "The Bank of Worthy Goals"@en, "Zbiór godnych, poważnych celów"@pl, "Фонд Гiдних Цiлей"@ua, "Фонд Годных Мэтаў"@by, "Фонд Достойных Целей"@ru, "אוסף הרעיונות הערכיים"@he, "意義ある目標集"@jp .
+
+tc:BiologicalEffect
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Biological effect"@en, "Biologický efekt"@cz, "Biologiczny efekt"@pl, "Biologische effecten"@nl, "Biologischer Effekt"@de, "Biološki efekt"@rs, "Biyolojik etki"@tr, "Efecto biológico"@es, "Efeito biológico"@pt, "Effet biologique"@fr, "Effetto Biologico"@it, "Hiệu ứng sinh học"@vn, "Бiологiчний ефект"@ua, "Биологический эффект"@ru, "Біялягічны эфэкт"@by, "תופעה ביולוגית"@he, "生物学的効果"@jp .
+
+tc:Bisystem
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Bi-sistem"@rs, "Bi-sistem"@tr, "Bi-systeem"@nl, "Bi-system"@en, "Bi-system"@pl, "Bi-système"@fr, "Bi-systém"@cz, "Bisistema"@es, "Bisistema"@pt, "Bisystem"@de, "Lưỡng hệ"@vn, "Sistema doppio"@it, "Бiсистема"@ua, "Бисистема"@ru, "Бісыстэма"@by, "דו-מערכת"@he, "バイ・システム"@jp .
+
+tc:ChemicalEffect
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Chemical effect"@en, "Chemický efekt"@cz, "Chemisch effect"@nl, "Chemischer Effekt"@de, "Efecto químico"@es, "Efeito químico"@pt, "Efekt chemiczny"@pl, "Effet chimique"@fr, "Effetto chimico"@it, "Hemijski efekt"@rs, "Hiệu ứng hóa học"@vn, "Kimyasal etki"@tr, "Хiмiчний ефект"@ua, "Химический эффект"@ru, "Хімічны эфэкт"@by, "תופעה כימיקאלית"@he, "化学的効果"@jp .
+
+tc:CompletionSuField
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Completamento di un Su-Field"@it, "Completion of a Su-Field"@en, "Completitude de um su-campo"@pt, "Compléter la construction du vépole"@fr, "Dogradnja Su-Polja"@rs, "Dostavba vepolu"@cz, "Dựng đủ Vepol"@vn, "Komplettierung eines Stoff-Feldes"@de, "Tüm Madde-Alan’ın tamamlanması"@tr, "Uzupełnienie wepola"@pl, "Vervollediging van een V-pool"@nl, "consumación de una sustancia –campo"@es, "Дабудова вэполю"@by, "Добудова вiполю"@ua, "Достройка веполя"@ru, "השלמת חומר-שדה"@he, "物質・場の完成"@jp .
+
+tc:CompositeCardIndex
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel " "@it, " "@jp, "Arquivo de cartões (de soluções inventivas)"@pt, "Composite card index"@en, "Fichero general"@es, "Fichier général"@fr, "Karışık kart raflığı (dizini)"@tr, "Samengestelde kartotheek"@nl, "Souhrnná kartotéka"@cz, "TRIZ אוסף הרעיונות שנותחו על פי"@he, "Tủ phiếu thông tin tổng quát"@vn, "Zbiorcza kartoteka"@pl, "Zbirna kartoteka"@rs, "Zentrale Kartothek"@de, "Зведена картотека"@ua, "Зводная картатэка"@by, "Сводная картотека"@ru .
+
+tc:ConceptVerticalMobility
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel " "@jp, "Conceito de máxima mobilidade vertical"@pt, "Concept du mouvement maximal en haut"@fr, "Concept of vertical mobility"@en, "Concept van maximale beweging naar boven"@nl, "Concepto de máxima movilidad vertical"@es, "Concetto di mobilità verticale"@it, "Koncepce maximálního zdvihu"@cz, "Koncepcija maksimalne vertikalne mobilnosti"@rs, "Koncepcja maksymalnego dążenia w górę"@pl, "Konzept der maximalen Bewegung nach oben"@de, "Maksimum dikey hareketler kavramı (dikey hareket kavramı)"@tr, "Quan niệm chuyển động tối đa về phía trên"@vn, "Канцэпцыя максымальнага руху ўверх"@by, "Концепцiя максимального руху угору"@ua, "Концепция максимального движения вверх"@ru, "הרעיון של התמדת תנועה למעלה"@he .
+
+tc:ConflictResolution
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Conflict (contradiction) resolution"@en, "Giải quyết mâu thuẫn"@vn, "Oplossen van een tegenstrijdigheid"@nl, "Razrešenje protivrečnosti"@rs, "Resolución de conflictos (contradicción)"@es, "Rie sprzeczności"@pl, "Résolution d’une contradiction"@fr, "Soluzione di una contraddizione"@it, "Solução de conflito"@pt, "Widerspruchs-Lösung"@de, "Çatışma için izin alma (çatışma çözünürlüğü)"@tr, "Řešení rozporu"@cz, "Разрешение противоречия"@ru, "Разьвязаньне супярэчнасьці"@by, "Розв’язування протирiччя"@ua, "יישוב הסתירה"@he, "矛盾の解決"@jp .
+
+tc:ConflictingPair
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Conflicterend paar"@nl, "Conflicting pair"@en, "Coppia di elementi in conflitto"@it, "Konfliktni par"@rs, "Konfliktní dvojice"@cz, "Paire en conflit"@fr, "Par conflitante"@pt, "Par en conflicto"@es, "Skonfliktowana para"@pl, "Widersprüchliches Paar"@de, "Çatışan çift"@tr, "Đôi xung đột"@vn, "Конфлiктуюча пара"@ua, "Конфликтующая пара"@ru, "Пара, якая канфліктуе"@by, "זוג אובייקטים המהווה ניגוד"@he, "矛盾対"@jp .
+
+tc:ContradictionMatrix
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Bảng các thủ thuật cơ bản dùng khắc phục các loại mâu thuẫn kỹ thuật mẫu (chuẩn)"@vn, "Contradiction (conflict) matrix"@en, "Die Widerspruchsmatrix"@de, "Matrice delle contraddizioni"@it, "Matrix voor het oplossen van typische technische tegenstrijdigheden"@nl, "Matriz de contradições"@pt, "Tabela osnovnih principa za uklanjanje tipskih tehničkih protivrečnosti"@rs, "Tabela podstawowych zasad likwidacji sprzeczności technicznych"@pl, "Tabla de Contradicciones (matriz)"@es, "Tableau de résolution des contradictions techniques"@fr, "Tabulka základních postupů (principů, heuristik) k odstranění rozporů"@cz, "Çelişki Matriksi"@tr, "Таблица основных приемов для устранения типовых технических противоречий"@ru, "Таблиця основних заходiв для усунення типових технiчних протирiч (супереч-ностей)"@ua, "Табліца асноўных прыёмаў дзеля разьвязаньня тыповых тэхнічных супярэчнасьцяў"@by, "טבלת התכסיסים העיקריים ליישוב סתירות טכנולוגיות"@he, "矛盾表"@jp .
+
+tc:ContradictionTypes
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "(Các loại) mâu thuẫn"@vn, "Contraddizione"@it, "Contradicciones (tipos)"@es, "Contradiction types"@en, "Contradictions (types)"@fr, "Contradições (tipos)"@pt, "Protivrečnosti (vrste)"@rs, "Rozpory (druhy)"@cz, "Sprzeczności (rodzaje)"@pl, "Tegenstrijdigheid (types)"@nl, "Widerspruchstypen"@de, "Çelişkiler (tipleri)"@tr, "Противоречия (виды)"@ru, "Протирiччя (види)"@ua, "Супярэчнасьці (віды)"@by, "סוגי סתירות"@he, "矛盾（タイプ）"@jp .
+
+tc:DevelopmentCreativeImagination
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Desarrollo de la imaginación creativa"@es, "Desenvolvimento da imaginação criativa"@pt, "Development of creative imagination"@en, "Développement de l’Imagination Créative"@fr, "Entwicklung des kreativen Vorstellungsvermögens"@de, "Ontwikkeling van een scheppende verbeelding"@nl, "Razvoj kreativne imaginacije"@rs, "Rozvoj Technické Představivosti"@cz, "Rozwój Twórczej Wyobraźni (RTW)"@pl, "Sviluppo dell’immaginazione creativa"@it, "Sự Phát Triển Trí Tưởng Tượng Sáng Tạo"@vn, "Yaratıcı hayâlin gelişimi"@tr, "Развитие Творческого Воображения"@ru, "Разьвіцьцё Творчай Фантазіі"@by, "Розвиток творчоi уяви"@ua, "פיתוח דמיון יצירתי"@he, "創造的発想力の開発"@jp .
+
+tc:DiagramTechnicalContradiction
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Diagram (model) of a technical contradiction"@en, "Diagrama (modelo) de una contradicción del sistema"@es, "Diagramma (modello) di una contraddizione tecnica"@it, "Dijagram tehhničke protivrečnosti (TP)"@rs, "Esquema diagramático da contradição técnica"@pt, "Grafické vyjádření rozporu (TR)"@cz, "Grafische Darstellung eines technischen Widerspruchs"@de, "Grafische schema van de technische tegenstelling"@nl, "Schemat sprzeczności technicznej (ST)"@pl, "Schéma (modèle) d’une contradiction technique"@fr, "Sơ đồ mâu thuẫn kỹ thuật (MK)"@vn, "Çelişki sisteminin grafiksel şeması"@tr, "Графiчна схема техничного протирiччя"@ua, "Графическая схема технического противоречия (ТП)"@ru, "Графічная схема тэхнічнай супярэчнасьці (ТС)"@by, "תרשים גראפי של הסתירה הטכנולוגית"@he, "技術的矛盾の図式モデル"@jp .
+
+tc:DiagramsTypicalConflictsProblemModels
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Các sơ đồ các loại xung đột hay xảy ra trong các mô hình bài toán"@vn, "Diagramas de conflitos típicos na modelagem de problemas"@pt, "Diagramas de los conflictos típico en los modelos de problemas"@es, "Diagramma dei conflitti tipici presenti nei modelli dei problemi"@it, "Diagrams of typical conflicts in problem models"@en, "Dijagram tipičnih konflikata u modelskim problemima"@rs, "Grafische Darstellung der typischen Konflikte in Aufgabenmodellen"@de, "Problemdeki modellerde tipik çatışmaların şeması"@tr, "Schematy typowych konfliktów w modelach zadań"@pl, "Schema’s van typische confilcten bij model-vraagstukken"@nl, "Schémas des conflits types dans un modèle de problème"@fr, "Schémata typových konfliktů v modelech zadání"@cz, "Схема тыповых канфліктаў у мадэлях задачаў"@by, "Схеми типових конфлiктiв у моделях задач"@ua, "Схемы типичных конфликтов в моделях задач"@ru, "תרשימי ניגודים אופייניים לבעיות מדגמיות"@he, "問題類型における典型的矛盾の図式モデル"@jp .
+
+tc:Effect
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Efecto"@es, "Efeito"@pt, "Efekt"@cz, "Efekt"@pl, "Efekt"@rs, "Effect"@en, "Effect"@nl, "Effekt"@de, "Effet"@fr, "Effetto"@it, "Etki"@tr, "Hiệu ứng"@vn, "Ефект"@ua, "Эффект"@ru, "Эфэкт"@by, "תופעה"@he, "科学的効果"@jp .
+
+tc:ElectricalField
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Campo Elettrico"@it, "Campo eléctrico"@es, "Campo elétrico"@pt, "E-Alanı"@tr, "E-Polje"@rs, "E-pool"@nl, "Electrical Field"@en, "Elektrisches Feld"@de, "Epol"@cz, "Epol (Vepol điện)"@vn, "Epole"@fr, "Epole"@pl, "Еполь"@ua, "Эполь"@ru, "Эполь (Электрыч-насьць + ПОЛе)"@by, "נוסחת חומר-שדה עם שדה חשמלי"@he, "電気の場"@jp .
+
+tc:EngineeringProblem
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Bài toán kỹ thuật (của kỹ sư)"@vn, "Engineering problem"@en, "Engineeringsvraagstuk"@nl, "Ingenieur-technische Aufgabe"@de, "Inženjerski problem"@rs, "Inženýrské zadání"@cz, "Mühendislik problemi"@tr, "Problema de engenharia"@pt, "Problema de ingeniería"@es, "Problema tecnico"@it, "Problème d’ingénierie"@fr, "Zadanie inżynierskie"@pl, "Задача iнженерна"@ua, "Задача инженерная"@ru, "Задача інжынерная"@by, "בעיה הנדסית"@he, "技術的問題"@jp .
+
+tc:EvaluationTRIZDevelopments
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Avaliação do desenvolvimento da TRIZ"@pt, "Beoordeling van de ontwikkelingen in TRIZ"@nl, "Bewertung von TRIZ-Entwicklungen"@de, "Evaluación del desarrollo del TRIZ"@es, "Evaluation de travaux en TRIZ"@fr, "Evaluation of TRIZ developments"@en, "Hodnocení výsledků podle TRIZ"@cz, "Ocena opracowań wykonanych wg. TRIZ"@pl, "Procena razvoja TRIZ-a"@rs, "TRIZ Çalışmalarının Değerlendirilmesi"@tr, "TRIZ הערכת מחקרי"@he, "Valutazione degli sviluppi di TRIZ"@it, "Đánh giá những triển khai về TRIZ"@vn, "Ацэнка распрацовак ў ТРВЗ"@by, "Оцiнка розробок по ТВВЗ"@ua, "Оценка разработок по ТРИЗ"@ru, "ＴＲＩＺ研究の評価"@jp .
+
+tc:ExternalConditions
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Circonstances extérieures"@fr, "Condiciones externas"@es, "Condizioni esterne"@it, "Condições externas"@pt, "Các hoàn cảnh (điều kiện) bên ngoài"@vn, "External conditions"@en, "Externe omstandigheden"@nl, "Günümüzün şartları (dış şartlar)"@tr, "Spoljni uslovi"@rs, "Vnější okolnosti"@cz, "Warunki zewnętrzne"@pl, "Äußere Bedingungen"@de, "Внешние обстоятельства"@ru, "Зовнiшнi обставини"@ua, "Зьнешнія абставіны"@by, "תנאים חיצוניים"@he, "外部環境"@jp .
+
+tc:Fantogram
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Các bảng giúp tưởng tượng"@vn, "Fantogram"@en, "Fantogram"@nl, "Fantogram"@rs, "Fantogram (Diagrama fantastico)"@es, "Fantogram (yaratıcı-yeni tür fikirler ve ürünler geliştirmek için kullanılan bir araç)"@tr, "Fantograma"@cz, "Fantograma"@pl, "Fantograma"@pt, "Fantogramm"@de, "Fantogramma"@it, "Fantogramme"@fr, "Фантаграма"@by, "Фантограма"@ua, "Фантограмма"@ru, "שימוש בניתוח מורפולוגי לחיפוש רעיונות לא שגרתיים"@he, "ファントグラム（空想アイデア分析）"@jp .
+
+tc:FerromagnticField
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Campo ferromagnetico"@it, "Campo ferromagnético"@es, "Campo ferromagnético"@pt, "F-pool"@nl, "Fe-Alanı"@tr, "Fe-Polje"@rs, "Fepol"@cz, "Fepol (Vepol sắt từ)"@vn, "Fepole"@pl, "Ferromagnetic Field"@en, "Ferromagnetisches Feld"@de, "Fépole"@fr, "Феполь"@ru, "Феполь"@ua, "Фэполь (ФЭррамагнітнае рэчыва+ПОЛе)"@by, "נוסחת חומר-שדה עם שדה פרומגנטי"@he, "磁性場"@jp .
+
+tc:Field
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Alan"@tr, "Campo"@es, "Campo"@it, "Campo"@pt, "Champ"@fr, "Feld"@de, "Field"@en, "Pole"@cz, "Pole"@pl, "Polje"@rs, "Trường"@vn, "Veld"@nl, "Поле"@by, "Поле"@ru, "Поле"@ua, "שדה"@he, "場"@jp .
+
+tc:Forecast
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Dự báo"@vn, "Forecast, prediction"@en, "Previsione"@it, "Prognose"@nl, "Prognose, Vorhersage"@de, "Prognoza"@pl, "Prognoza, predikcija"@rs, "Prognóstico"@pt, "Prognóza"@cz, "Pronostic, prévision"@fr, "Pronóstico, predicción"@es, "Tahmin"@tr, "Прагноз"@by, "Прогноз"@ru, "Прогноз"@ua, "תחזית"@he, "予測"@jp .
+
+tc:FourLevelSchemeFantasticIdeas
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Algoritam od četiri nivoa za generisanje NF ideja"@rs, "Algoritmo a 4 livelli per la generazipne di idee tecnico  fanta - scientifiche"@it, "Creatieschema voor fantastische ideeën, met 4 levels"@nl, "Czteropoziomowy system kreowania fantastycznych idei"@pl, "Esquema de cuatro niveles de creación de ideas inventivas"@es, "Esquema de quatro níveis para a geração de idéias fantásticas"@pt, "Four-level scheme of sci-fi ideas"@en, "Hayal ürünü fikirlerin oluşumu için dört katlı şema (bilim-kurgu fikirlerinin oluşumu için dört seviyeli algoritma)"@tr, "Schéma de création des idées fantastiques à quatre niveaux"@fr, "Sơ đồ bốn giai đoạn tạo các ý tưởng viễn tưởng"@vn, "Vier-Etagen-Schema der fantastischen Ideen"@de, "Čtyřúrovňové schéma vytváření fantastických ideí"@cz, "Чатырох-павярховая схема стварэньня фантастычных ідэяў"@by, "Четырехэтажная схема создания фантастических идей"@ru, "Чотирьох-поверхова схема створення фантастичних iдей"@ua, "תוכנית ארבע שלבית ליצירת רעיונות דמיוניים"@he, "空想科学アイデア発想の４段階構造"@jp .
+
+tc:GeometricalEffect
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Efectos geométricos"@es, "Efeito geométrico"@pt, "Efekt geometryczny"@pl, "Effet géométrique"@fr, "Effetto Geometrico"@it, "Geometrical effect"@en, "Geometrický efekt"@cz, "Geometrijski efekt"@rs, "Geometrik etki"@tr, "Geometrisch effect"@nl, "Geometrischer Effekt"@de, "Hiệu ứng hình học"@vn, "Геамэтрычны эфэкт"@by, "Геометрiчний ефект"@ua, "Геометрический эффект"@ru, "תופעה גיאומטרית"@he, "幾何学的効果"@jp .
+
+tc:GreatSurprise
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Büyük sürpriz"@tr, "Bất ngờ lớn"@vn, "Die große Überraschung"@de, "Duża niespodzianka"@pl, "Grande surpresa"@pt, "Grande surprise"@fr, "Grandes sorpresas"@es, "Great Surprise"@en, "Het grote onverwachte"@nl, "Scoperta della soluzione ideale/innovativa"@it, "Velika neočekivanost"@rs, "Velká neočekávanost (?)"@cz, "Большая Неожиданность "@ru, "Велика несподiванка"@ua, "Вялікая Нечаканасьць"@by, "הפתעה גדולה"@he, "意外な状況"@jp .
+
+tc:Heuristics
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Euristica"@it, "Euristique"@fr, "Heuristics"@en, "Heuristieken"@nl, "Heuristik"@de, "Heuristik (buluşsal, sezgisel)"@tr, "Heuristika"@cz, "Heuristika"@rs, "Heurystyka"@pl, "Heurística"@es, "Heurísticas"@pt, "Sáng tạo học (Khoa học về sáng tạo)"@vn, "Еврiстiка"@ua, "Эвристика"@ru, "Эўрыстыка"@by, "יוריסטיקה"@he, "解法"@jp .
+
+tc:IdealFinalResult
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Ideaal Eind Resultaat (IER)"@nl, "Ideal Final Result (IFR)"@en, "Ideales Endresultat (IER)"@de, "Idealni konačni rezultat (IKR)"@rs, "Idealny wynik końcowy"@pl, "Ideální konečný výsledek (IKV)"@cz, "Iдеальний кiнцевий результат (IКР)"@ua, "Kết quả lý tưởng cuối cùng (KLC)"@vn, "Resultado Final Ideal (RFI)"@pt, "Resultado final ideal (RFI)"@es, "Risultato Finale Ideale (IFR)"@it, "Résultat Final Idéal (RFI)"@fr, "İdeal Nihai Sonuç (Ideal Final Result:IFR)"@tr, "Ідэальны канчатковы вынік (ІКВ)"@by, "Идеальный конечный результат (ИКР)"@ru, "פתרון אידיאלי"@he, "理想解"@jp .
+
+tc:IdealMachine
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Ideal machine"@en, "Ideale Maschine"@de, "Ideale machine"@nl, "Idealna maszyna"@pl, "Idealna mašina"@rs, "Ideální stroj"@cz, "Machine idéale"@fr, "Máquina ideal"@es, "Máquina ideal"@pt, "Máy lý tưởng"@vn, "Sistema ideale"@it, "İdeal makine"@tr, "Машина iдеальна"@ua, "Машина идеальная"@ru, "Машына ідэальная"@by, "המכונה האידיאלית"@he, "理想機械"@jp .
+
+tc:IndexesEffects
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "(אינדקס של תופעות מדעיות(פיזיקאליות,כימיות וכו’"@he, "Bases des effets"@fr, "Database degli effetti"@it, "Effekte-Datenbank"@de, "Etkilerin Fihristi"@tr, "Index van effecten"@nl, "Indexes of effects"@en, "Indicadores de efectos"@es, "Indicadores de efeitos"@pt, "Registri efekta"@rs, "Sách hướng dẫn sử dụng các hiệu ứng"@vn, "Ukazatelé efektů"@cz, "Wskaźniki efektów"@pl, "Покажчики ефектiв"@ua, "Указальнік эфэктаў"@by, "Указатели эффектов"@ru, "科学的効果集"@jp .
+
+tc:InformationFonds
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Ariz-gegevensbank"@nl, "Bancos de informações (de TRIZ)"@pt, "Base de datos del TRIZ"@es, "Baza informacji"@pl, "Fonds von Informationen (über die TRIZ)"@de, "Informaciona baza"@rs, "Information fonds"@en, "Informační fond"@cz, "Kho (Quỹ) thông tin (của TRIZ)"@vn, "Réserve d’information"@fr, "TRIZ Database"@it, "TRIZ veritabanı (bilgi sağlayan kaynak)"@tr, "Фонд iнформацiйний"@ua, "Фонд информационный"@ru, "Фонд інфармацыйны"@by, "מאגר מידע"@he, "ＴＲＩＺの知識ベース"@jp .
+
+tc:IntensificationContradiction
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Intensificación de la contradicción"@es, "Intensification de la contradiction"@fr, "Intensification of contradiction"@en, "Intensificazione della contraddizione"@it, "Intensificação da contradição"@pt, "Intensivierung eines Konflikts"@de, "Làm tăng mức độ mâu thuẫn"@vn, "Verscherping van de tegenspraak"@nl, "Vyostřený rozpor"@cz, "Wzmocnienie sprzeczności"@pl, "Zaoštrena protivrečnost"@rs, "Çelişkinin yoğunlaştırılması"@tr, "Абвастрэньне супярэчнасьці"@by, "Загострення протирiччя"@ua, "Обострение противоречия"@ru, "התחדדות הסתירה"@he, "矛盾の尖鋭化"@jp .
+
+tc:IntensifiedConflict
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Conflicto intensificado (contradicción)"@es, "Conflit intensifié"@fr, "Conflito intensificado"@pt, "Contraddizione intensificata"@it, "Intensified conflict (contradiction)"@en, "Intensivierter Konflikt"@de, "Phát biểu tăng cường xung đột"@vn, "Versterkte formulering van een conflict"@nl, "Wzmocnione sformułowania sprzeczności"@pl, "Yoğunlaştırılmış Çelişki"@tr, "Zaoštrena formulacija konflikta"@rs, "Zesílená formulace konfliktu"@cz, "Посилене формулювання конфлiкту"@ua, "Узмоцненая фармулёўка канфлікту"@by, "Усиленная формулировка конфликта"@ru, "סתירה מועצמת"@he, "矛盾状況の尖鋭化"@jp .
+
+tc:InventivePrinciple
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Inventive principle"@en, "Kabul (prensip)"@tr, "Postup"@cz, "Princip"@rs, "Principe"@fr, "Principio inventivo"@es, "Principio inventivo"@it, "Princípio"@pt, "Thủ thuật"@vn, "Vorgehensweise (erfinderisches Prinzip)"@de, "Werkwijze (principe)"@nl, "Засiб"@ua, "Прием"@ru, "Прыём"@by, "תכסיס"@he, "„Chwyt”, zasada"@pl, "発明原理"@jp .
+
+tc:InventiveProblem
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Bài toán sáng chế"@vn, "Erfinderisches Problem"@de, "Innovatievraagstuk"@nl, "Inventive problem"@en, "Inventivni problem"@rs, "Invenční (vynálezcovské) zadání"@cz, "Problema Inventivo"@es, "Problema inventivo"@it, "Problema inventivo"@pt, "Problème d’invention"@fr, "Yaratıcı problem"@tr, "Zadanie wynalazcze"@pl, "Задача винахiдницька"@ua, "Задача вынаходніцкая"@by, "Задача изобретательская"@ru, "בעיה המצאתית"@he, "発明級の問題"@jp .
+
+tc:InventiveSituation
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "De situatie van een uitvinder (uitgangspunt bij innovatie)"@nl, "Erfinderische Situation"@de, "Inventive situation"@en, "Inventivna situacija"@rs, "Situación inventiva"@es, "Situation innovante"@fr, "Situação inventiva"@pt, "Sytuacja innowacyjna, wynalazcza"@pl, "Termine specialistico"@it, "Tình huống sáng chế"@vn, "Vynálezcovská situace"@cz, "Yaratıcı durum"@tr, "Сiтуацiя винахiдницька"@ua, "Ситуация изобретательская"@ru, "Сытуацыя вынаходніцкая"@by, "תרחיש המצאתי"@he, "発明級の問題状況"@jp .
+
+tc:LawEnergyConductivity
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:narrower tc:LawsTechnicalSystemEvolution; 
+    skos:prefLabel "Gesetz der Energieleitfähigkeit eines Systems"@de, "Law of energy conductivity of a system"@en, "Legge di minimizzazione del percorso energetico"@it, "Lei da “condutibilidade da energia“ num sistema"@pt, "Ley de la “conductibilidad de la energía”"@es, "Loi de conductibilité énergétique du sustéme"@fr, "Quy luật về tính thông suốt năng lượng của hệ thống"@vn, "Wet van het vermogen van een systeem om energie door te geven"@nl, "Zakon “energetske provodljivosti” sistema"@rs, "Zasada energetycznej drożności systemu"@pl, "Zákon “energetické průchodnosti“ systému"@cz, "Закон «енергетичної провiдностi» системи"@ua, "Закон энергетической проводимости системы"@ru, "Закон “энэргетычнай праводнасьці” праз часткі сыстэмы"@by, "חוק “המוליכות האנרגטית“ הפנים מערכתית"@he, "“enerji iletkenliği” sistemi kanunu"@tr, "エネルギー伝導性の法則"@jp .
+
+tc:LawEvolutionAlongScurve
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:narrower tc:LawsTechnicalSystemEvolution; 
+    skos:prefLabel "Gesetz der Entwicklung längs einer S-Kurve"@de, "Law of evolution along the S-curve"@en, "Legge di evoluzione secondo la curva a Esse"@it, "Lei da evolução ao longo da curva S"@pt, "Ley de la evolución a lo largo de la curva-S"@es, "Loi de développement sur une courbe en S"@fr, "Quy luật phát triển chữ S"@vn, "S חוק התפתחות בהתאם לעקומת"@he, "S-Eğri’li gelişim kanunu"@tr, "Wet van de ontwikkeling volgens de S-curve"@nl, "Zakon razvoja duž S-krive"@rs, "Zasada rozwoju wg S-krzywej"@pl, "Zákon rozvoje podle S-křivky"@cz, "Закон S-образного развития"@ru, "Закон S-образного розвитку"@ua, "Закон S-падобнага разьвіцьця"@by, "Ｓ－カーブに沿った進化の法則"@jp .
+
+tc:LawHarmonizationRhythms
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:narrower tc:LawsTechnicalSystemEvolution; 
+    skos:prefLabel "Gesetz der Harmonisierung der Rhythmik in einem System"@de, "Law of harmonization of rhythms in a system"@en, "Legge di incremento di coordinamento"@it, "Lei da coordenação dos ritmos das partes de um sistema"@pt, "Ley de coordinación del ritmo de las partes de un sistema"@es, "Loi de coordination du rythme des parties"@fr, "Quy luật tương hợp về nhịp điệu các phần của hệ thống"@vn, "Sistemin parçalarının ritmik uyum kanunu"@tr, "Wet van coördinatie van het ritme van deelsystemen"@nl, "Zakon koordinacije ritma (harmonizacije) delova sistema"@rs, "Zasada synchronizacji elementów systemu"@pl, "Zákon sladění rytmiky činností částí systému"@cz, "Закон согласования ритмики частей системы"@ru, "Закон узгадненьня рытмікі частак сыстэмы"@by, "Закон узгодження  ритмiки частин системи"@ua, "חוק תאום תנודות חלקי המערכת"@he, "システム各部リズム対応性の法則"@jp .
+
+tc:LawIncreasingIdeality
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:narrower tc:LawsTechnicalSystemEvolution; 
+    skos:prefLabel "Gesetz des wachsenden Grads der Idealität eines Systems"@de, "Law of increasing degree of system's ideality"@en, "Legge di incremento dell’idealità dei sistemi"@it, "Lei do aumento do grau de idealidade de um sistema"@pt, "Ley del grado de incremento de la idealidad del sistema"@es, "Loi d’accroissement du niveau d’idéalité du système"@fr, "Quy luật về tăng mức độ lý tưởng của hệ thống"@vn, "Sistemin ideallik seviyesinin artış kanunu"@tr, "Wet van de stijgende idealiteit van het systeem"@nl, "Zakon porasta stepena idealnosti sistema"@rs, "Zasada podnoszenia stopnia doskonałości systemu"@pl, "Zákon zvyšování stupně ideálnosti systému"@cz, "Закон збiльшення ступенi iдеальностi"@ua, "Закон павелічэньня ступені ідэальнасьці сыстэмы"@by, "Закон увеличения степени идеальности системы"@ru, "חוק הגדלת רמת האידיאליות של המערכת"@he, "理想性増加の法則"@jp .
+
+tc:LawIncreasingSuFieldInteractions
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:narrower tc:LawsTechnicalSystemEvolution; 
+    skos:prefLabel "Gesetz der Verstärkung der Stoff-Feld-Interaktionen"@de, "Law of increasing Su-Field interactions"@en, "Legge di incremento dell’interazione di Su-Field"@it, "Lei do aumento das interações su-campo"@pt, "Ley del incremento de las interacciones sustancia-campo"@es, "Loi d’accroissement du rôle de vépole"@fr, "Quy luật về tăng mức Vepol"@vn, "Tüm-Madde Alanlarının Etkileşimlerinin Artış Kanunu"@tr, "Wet van toename van de graad van de vpool"@nl, "Zakon povećanja stepena supoljnosti"@rs, "Zasada podnoszenia stopnia struktury wepolowej"@pl, "Zákon zvyšování stupně “vepolnosti“"@cz, "Закон збiльшення ступенi вiпольностi"@ua, "Закон павелічэньня ступені вэпольнасьці"@by, "Закон увеличения степени вепольности"@ru, "חוק הגדלת רמת מבני חומר-שדה במערכת"@he, "物質・場高度化の法則"@jp .
+
+tc:LawNonuniformEvolutionSystemParts
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:narrower tc:LawsTechnicalSystemEvolution; 
+    skos:prefLabel "Gesetz der nicht-uniformen Entwicklung der Teile eines Systems"@de, "Law of non-uniform evolution of systems parts"@en, "Legge di evoluzione non uniforme dei sotto sistemi"@it, "Lei do desenvolvimento não uniforme dos subsistemas"@pt, "Ley de evolución no uniforme de los subsistemas"@es, "Loi de développement inégal des parties du système"@fr, "Quy luật về tính không đồng đều trong sự phát triển các phần của hệ thống"@vn, "Sistem parçalarının düzensiz gelişme kanunu (alt sistemlerin düzensiz gelişme kanunu)"@tr, "Wet van ongelijkmatige ontwikkeling van deelsystemen"@nl, "Zakon neravnomernog razvoja delova sistema"@rs, "Zasada nierównomiernego rozwoju elementów systemu"@pl, "Zákon nerovno-měrnosti rozvoje částí systému"@cz, "Закон неравно-мiрностi розвитку частин системи"@ua, "Закон неравномерности развития частей системы"@ru, "Закон нераўна-мернасьці разьвіцьця частак сыстэмы"@by, "חוק ההתפתחות האי שוויונית של תת מערכות"@he, "システム各部不均等進化の法則"@jp .
+
+tc:LawSystemCompleteness
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:narrower tc:LawsTechnicalSystemEvolution; 
+    skos:prefLabel "Gesetz der Vollständigkeit der Systemteile"@de, "Law of system completeness"@en, "Legge di completamento dei sistemi"@it, "Lei da completeza de um sistema"@pt, "Leyes de la completitud del sistema"@es, "Loi d’intégralité des parties du système"@fr, "Quy luật về tính đầy đủ các phần của hệ thống"@vn, "Sistem bütünlüğü kanunu (sistemin tüm parçalarının kanunu)"@tr, "Wet van de volledigheid van deelsystemen"@nl, "Zakon kompletnosti sistema"@rs, "Zasada kompletności elementów systemu"@pl, "Zákon úplnosti částí systémů"@cz, "Закон паўнаты частак сыстэмы"@by, "Закон повноти частин системы"@ua, "Закон полноты частей системы"@ru, "חוק השלמות של מערכת"@he, "システム完全性の法則"@jp .
+
+tc:LawTransitionMicrolevel
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:narrower tc:LawsTechnicalSystemEvolution; 
+    skos:prefLabel "Gesetz des Übergangs von der Makro- zur Mikroebene"@de, "Law of transition from a macro-level to a micro-level"@en, "Legge di transizione da macro a micro"@it, "Lei da transição para um micronível"@pt, "Ley de la transición desde el macronivel hacia un micronivel"@es, "Loi de transition du macro-niveau vers le micro-niveau"@fr, "Quy luật chuyển từ mức vĩ mô sang mức vi mô"@vn, "Wet van transitie van een macro-niveau naar een micro-niveau"@nl, "Zakon prelaza sa makro-nivoa na mikro-nivo"@rs, "Zasada przechodzenia z makropoziomu na mikropoziom"@pl, "Zákon přechodu z makroúrovně na mikroúroveň"@cz, "makro seviyeden mikro seviyeye geçiş kanunu"@tr, "Закон пераходу з макраўзроўню да мікраўзроўню"@by, "Закон перехода с макроуровня на микроуровень"@ru, "Закон переходу з макрорiвня на мiкрорiвень"@ua, "חוק המעבר מרמת מאקרו לרמת מיקרו"@he, "マクロからミクロへの移行の法則"@jp .
+
+tc:LawTransitionSupersystem
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:narrower tc:LawsTechnicalSystemEvolution; 
+    skos:prefLabel "Gesetz des Übergangs zum Obersystem"@de, "Law of transition to a super-system (higher-level system)"@en, "Legge di  transizione a supersistema"@it, "Lei da transição para um supersistema"@pt, "Ley de la transición a un supersistema (sistema de alto nivel)"@es, "Loi de transition vers un super-système"@fr, "Quy luật chuyển sang hệ trên"@vn, "Wet van transitie naar een super-systeem"@nl, "Zakon prelaza u nadsistem (viši nivo sistema)"@rs, "Zasada przejścia do nadsystemu"@pl, "Zákon přechodu do nadsystému"@cz, "Üst-sistem’e geçiş kanunu"@tr, "Закон пераходу ў надсыстэму"@by, "Закон перехода в надсистему"@ru, "Закон переходу в надсистему"@ua, "חוק המעבר למערכת-על"@he, "上位システム移行の法則"@jp .
+
+tc:LawsTechnicalSystemEvolution
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Các quy luật phát triển của các hệ thống kỹ thuật"@vn, "Gesetze der Entwicklung technischer Systeme"@de, "Laws of Technical System Evolution"@en, "Leggi di Evoluzione dei sistemi tecnici"@it, "Leis da evolução dos sistemas técnicos"@pt, "Leyes de la evolución de los sistemas técnicos"@es, "Lois d’évolution de systèmes techniques"@fr, "Prawa rozwoju systemów technicznych"@pl, "Teknik Sistemin Gelişim Kanunları"@tr, "Wetten van de ontwikkeling van technische systemen"@nl, "Zakoni razvoja tehničkih sistema"@rs, "Zákony rozvoje technických systémů:"@cz, "Закони розвитку технiчних систем"@ua, "Законы развития технических систем:"@ru, "Законы разьвіцьця тэхнічных сыстэмаў"@by, "חוקי ההתפתחות של מערכות טכנולוגיות"@he, "技術システムの進化の法則"@jp .
+
+tc:LeadingFieldTechnology
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Die führende Technik-Branche"@de, "Het leidende domein van de Techniek"@nl, "Industrie Leader"@fr, "Leading field of technology"@en, "Líder en el campo de la tecnología"@es, "Lĩnh vực kỹ thuật chủ đạo"@vn, "Tecnologia leader"@it, "Teknolojinin rehber alanı"@tr, "Vedoucí oblast techniky"@cz, "Vodeća oblast tehnike"@rs, "Wiodąca dziedzina techniki"@pl, "Área tecnológica líder"@pt, "Асноўная галіна тэхнікі"@by, "Ведуча галузь технiки"@ua, "Ведущая область техники"@ru, "התחום המוביל בטכנולוגיה"@he, "主要技術分野"@jp .
+
+tc:LevelInvention
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Grado di contenuto innovativo di un invenzione"@it, "Level of invention"@en, "Mức khó của các bài toán sáng chế"@vn, "Niveau der erfinderischen Aufgabe"@de, "Niveau van een innovatievraagstuk"@nl, "Niveaux d’inventivité"@fr, "Niveles de problemas inventivos"@es, "Nivo inventivnih problema"@rs, "Níveis de problemas inventivos"@pt, "Poziomy zadań wynalazczych"@pl, "Yaratıcı problemin seviyeleri (icatların seviyesi)"@tr, "Úroveň invenčních / vynálezcovských zadání"@cz, "Рiвень винахiдницьких задач"@ua, "Узровень вынаходніцкіх задачаў"@by, "Уровень изобретательских задач"@ru, "דרוג הבעיות ההמצאתיות"@he, "発明のレベル"@jp .
+
+tc:LifeStrategyCreativePersonality
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Chiến Lược Sống Của Nhân Cách Sáng Tạo"@vn, "Estrategia de una persona creativa"@es, "Estratégia de vida da pessoa criativa"@pt, "Lebensstrategie einer kreativen Persönlichkeit"@de, "Levensstrategie van een Creatieve Persoonlijkheid"@nl, "Life Strategy of creative personality"@en, "Strategia di vita di una persona creativa"@it, "Stratégie de vie d’une personne creative"@fr, "Taktyka Rozwoju Osobowości Twórczej (TROT)"@pl, "Yaratıcı bireyin yaşam stratejisi"@tr, "Životna Strategija Stvaralačke Ličnosti"@rs, "Životní Strategie Tvůrčí Osobnosti"@cz, "Жизненная Стратегия Творческой Личности"@ru, "Життєва стратегiя творчої особи"@ua, "Жыцьцёвая Стратэгія Творчай Асобы"@by, "אסטרטגית חיים של אישיות יצירתית"@he, "創造的個性の人生戦略"@jp .
+
+tc:ListScienceFictionIdeas
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "A list of science fiction ideas"@en, "Bilim-kurgu fikirlerinin kaydedilmesi"@tr, "Danh sách các ý tưởng khoa học viễn tưởng"@vn, "Lista de idéias de ficção científica"@pt, "Lista di idee fantascientifiche"@it, "Registar naučno-fantastičnih (NF) ideja"@rs, "Register der Science-Fiction-Ideen"@de, "Register van SF-ideeën"@nl, "Registr vědecko fantastických ideí"@cz, "Registre des idées science-fiction"@fr, "Rejestr idei SF"@pl, "Una lista de ideas de ciencia-ficción"@es, "Регiстр НФ-iдей"@ua, "Регистр НФ-идей"@ru, "Рэгістар НФ-ідэяў"@by, "אוסף רעיונות של מדע בדיוני"@he, "ＳＦ小説アイデア集"@jp .
+
+tc:MainManufacturingProcess
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Ana üretim süreci"@tr, "Glavni proizvodni proces"@rs, "Główny proces technologiczny (produkcyjny)"@pl, "Hauptproduktionsprozess"@de, "Hlavní výrobní / produkční proces"@cz, "Main manufacturing process"@en, "Proceso principal de manufactura"@es, "Processo produtivo principal"@pt, "Processo produttivo principale"@it, "Processus productif principal"@fr, "Quá trình sản xuất chính"@vn, "Voornaamste productieproces"@nl, "Галоўны вытворчы працэс"@by, "Главный производственный процесс"@ru, "Головний виробничий процес"@ua, "תהליך היצור העיקרי"@he, "基本生産プロセス"@jp .
+
+tc:MaximalProblem
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Bài toán cực đại (Bài toán maxi)"@vn, "Büyütülmüş problem (maksi-problem)"@tr, "Maksymalne zadanie (maksizadanie)"@pl, "Maxi-problema"@it, "Maximal-problem (Maxi-problem)"@en, "Maximalaufgabe"@de, "Maximální zadání (maxi-zadání)"@cz, "Maxiproblema"@es, "Maxiproblema"@pt, "Najveći problem (maksi-problem)"@rs, "Problème maximal (maxi-problème)"@fr, "maximaal vraagstuk (maxi vraagstuk)"@nl, "Задача максимальна (макси-задача)"@ua, "Задача максимальная (макси-задача)"@ru, "Задача максымальная (максы-задача)"@by, "בעיה מקסימלית"@he, "最大問題"@jp .
+
+tc:MicroProblem
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Bài toán vi mô"@vn, "Küçültülmüş problem (mikro-problem)"@tr, "Micro-problem"@en, "Micro-problema"@it, "Microproblema"@es, "Microproblema"@pt, "Mikro problem"@rs, "Mikro zadání"@cz, "Mikroaufgabe"@de, "Mikrozadanie"@pl, "Problème micro"@fr, "micro-vraagstuk"@nl, "Задача мiкро"@ua, "Задача микро"@ru, "Задача мікра"@by, "בעיית מיקרו"@he, "ミクロ問題"@jp .
+
+tc:MiniProblem
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Bài toán cực tiểu (Bài toán mini)"@vn, "Mini-problem"@en, "Mini-problem"@tr, "Mini-problema"@it, "Miniaufgabe"@de, "Minimaal vraagstuk (mini vraagstuk)"@nl, "Minimalni problem (mini-problem)"@rs, "Minimální zadání (mini-zadání)"@cz, "Miniproblema"@es, "Miniproblema"@pt, "Problème minimal (mini-problème)"@fr, "Zadanie minimum (minizadanie)"@pl, "Задача мiнiмальна (мiнi-задача)"@ua, "Задача минимальная (мини-задача)"@ru, "Задача мінімальная (міні-задача)"@by, "בעיית מיני"@he, "最小問題"@jp .
+
+tc:ModelInventiveProblem
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Model inventivnog problema"@rs, "Model invenčního / vynálezcovského zadání"@cz, "Model of an inventive problem"@en, "Model van de innovatievraagstukken"@nl, "Model zadania wynalazczego, innowacyjnego"@pl, "Modell einer erfinderischen Aufgabe"@de, "Modello di un problema inventivo"@it, "Modelo de um problema inventivo"@pt, "Modelo de un problema inventivo"@es, "Modèle du problème innovant"@fr, "Mô hình bài toán sáng chế"@vn, "Yaratıcı bir problem modeli"@tr, "Мадэль вынаходніцкай задачы"@by, "Модель винахiдницької задачi"@ua, "Модель изобретательской задачи"@ru, "דגם של בעיה המצאתית"@he, "発明級問題のモデル"@jp .
+
+tc:ModelingSmartLittlePeople
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Metod modelovanja “malim čovečuljcima”"@rs, "Metoda modelování malinkými človíčky"@cz, "Metoda modelowania maleńkimi ludzikami"@pl, "Minyatür Cüce Modeli ile modelleme yöntemi"@tr, "Modeling with “smart little people”"@en, "Modelización con “Pequeños hombres inteligentes”"@es, "Modellare con i folletti"@it, "Méthode des Petits Bonshommes, Méthode des Hommes miniatures"@fr, "Método da modelagem com pequeninas pessoas espertas"@pt, "Phương pháp mô hình hóa bằng những người tý hon"@vn, "Simulatiemodel met de hulp van de kleine ventjes"@nl, "Zwergenmodell"@de, "Метод моделирования маленькими человечками"@ru, "Метод моделювання маленькими чоловiчками"@ua, "Мэтад мадэляваньня маленькімі чалавечкамі"@by, "שיטת הננסים"@he, "小さな賢人法（スマート・リトル・ピープル）"@jp .
+
+tc:Monosystem
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Hệ đơn"@vn, "Mono-sistem"@rs, "Mono-sistem"@tr, "Mono-systeem"@nl, "Mono-system"@en, "Mono-système"@fr, "Monosistema"@es, "Monosistema"@pt, "Monosystem"@de, "Monosystem"@pl, "Monosystém"@cz, "Sistema singolo"@it, "Монасыстэма"@by, "Моносистема"@ru, "Моносистема"@ua, "המערכת הבודדה"@he, "モノ・システム"@jp .
+
+tc:MultiScreenDiagram
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Diagrama multipantalla"@es, "Diagramma multi-finestra"@it, "Matriz multitela"@pt, "Mehr-Felder-Schema"@de, "Mnohoobrazovkové schéma"@cz, "Multi-ekranski dijagram"@rs, "Multi-screen diagram"@en, "Schemat wieloekranowy"@pl, "Schéma multi-écrans"@fr, "Sơ đồ đa màn hình"@vn, "Veelschermige schema"@nl, "Çoklu-ekran şeması"@tr, "Багатоекранна схема"@ua, "Многоэкранная схема"@ru, "Шматэкранная схема"@by, "תרשים מרובה מסכים"@he, "マルチ・スクリーン"@jp .
+
+tc:NonAlgorithmicMethods
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Algoritmik olmayan yöntemler"@tr, "Các phương pháp phi algôrit"@vn, "Metodi non algoritmici"@it, "Metody niealgorytmiczne"@pl, "Méthodes non-algorithmiques"@fr, "Método no algorítmico"@es, "Métodos não algorítmicos"@pt, "Nealgoritamske metode"@rs, "Nealgoritmické metody"@cz, "Nichtalgorithmische Methoden"@de, "Niet-algoritmische methodes"@nl, "Non-algorithmic methods"@en, "Неалгорiтмiчнi методи"@ua, "Неалгоритмические методы"@ru, "Неальгарытмі-чныя мэтады"@by, "שיטות בלתי אלגוריתמיות"@he, "非体系的方法"@jp .
+
+tc:NonRoutineProblems
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:altLabel "Nestandardní zadání"@cz, "Niet-standaard vraagstukken"@nl, "Задача нестандартна"@ua, "Задачи нестандартные"@ru, "Задачы нестандартныя"@by ;
+    skos:ltLabel "Nestandardni problemi"@rs ;
+    skos:prefLabel "Atypische vraagstukken"@nl, "Các bài toán không chuẩn"@vn, "Netipski problemi"@rs, "Netypové zadání"@cz, "Nicht-Standard-Aufgaben"@de, "Nietypowe zadanie"@pl, "Non-routine problems"@en, "Problema no rutinario"@es, "Problema non standard"@it, "Problemas não rotineiros"@pt, "Problèmes non-types, non standards"@fr, "Tipsiz (standart dışı) problemler"@tr, "Задача нетипова"@ua, "Задачи нетиповые"@ru, "Задачы нетыповыя"@by, "בעיות בלתי שגרתיות"@he, "非標準的問題"@jp .
+
+tc:Object
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Nesne"@tr, "Obiekt, przedmiot"@pl, "Object"@en, "Objekt"@de, "Objekt"@rs, "Objet, pièce, composant, produit"@fr, "Objeto"@es, "Objeto"@pt, "Oggetto"@it, "Product"@nl, "Sản phẩm"@vn, "Výrobek"@cz, "Вироб"@ua, "Выраб"@by, "Изделие"@ru, "אובייקט"@he, "物体"@jp .
+
+tc:OperationTime
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:altLabel "Betriebszeit"@de ;
+    skos:prefLabel "Czas operacyjny"@pl, "Operatieve tijd"@nl, "Operation time"@en, "Operative Zeit"@de, "Operativno vreme"@rs, "Operační čas"@cz, "Tempo de operação"@pt, "Temps opératoire"@fr, "Thời gian hành động"@vn, "Tiempo de operación"@es, "tempo operativo"@it, "İşlem zamanı"@tr, "Апэратыўны час"@by, "Оперативний час"@ua, "Оперативное время"@ru, "זמן הפעילות"@he, "作用時間"@jp .
+
+tc:OperationalZone
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:altLabel "Betriebsbereich"@de ;
+    skos:prefLabel "Kullanıma hazır bölge (çalışma bölgesi)"@tr, "Operatieve zone"@nl, "Operational zone"@en, "Operative Zone"@de, "Operativna zona"@rs, "Operační zóna"@cz, "Strefa operacyjna"@pl, "Vùng hành động"@vn, "Zona de operación"@es, "Zona de operação"@pt, "Zona operativa"@it, "Zone opératoire"@fr, "Апэратыўная прастора"@by, "Оперативна зона"@ua, "Оперативная зона"@ru, "אזור הפעילות"@he, "作用領域"@jp .
+
+tc:OperatorSizeTimeCost
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "(מנגנון ג.ז.ע. (גודל-זמן-עלות"@he, "ATK techniek (Afmetingen-Tijd-Kostprijs)"@nl, "Boyut-Süre-Maliyet Operatörü"@tr, "Operador TTC (tamanho-tempo-custo)"@pt, "Operator RSP"@pl, "Operator “Dimenzije-Vreme-Troškovi” (DVT)"@rs, "Operator “Maße-Zeit-Kosten“ (MZK) "@de, "Operator “Size-Time-Cost” (STC)"@en, "Operátor RČN (Rozměry-Čas-Náklady)"@cz, "Opérateur “Dimension-Temps-Coûts“ (DTC)"@fr, "Tecnica “Dimensione-Tempo-Costi“"@it, "Toán tử Kích thước-Thời gian-Giá thành (KTG)"@vn, "Técnica “Dimensión-tiempo-costo”"@es, "Апэратар ПЧК"@by, "Оператор РВС"@ru, "Оператор РЧВ"@ua, "サイズ/時間/コスト・オペレータ"@jp .
+
+tc:PhysicalContradiction
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:narrower tc:ContradictionTypes ; 
+    skos:altLabel "Naturgesetzlicher Widerspruch"@de ;
+    skos:prefLabel "Contraddizione fisica"@it, "Contradicción física"@es, "Contradiction physique"@fr, "Contradição física"@pt, "Fiziksel Çelişki"@tr, "Fizička protivrečnost"@rs, "Fysische  tegenstrijdigheid"@nl, "Mâu thuẫn vật lý"@vn, "Physical contradiction"@en, "Physikalischer Widerspruch"@de, "Rozpor fyzikální"@cz, "Sprzeczność fizyczna"@pl, "Противоречие физическое"@ru, "Протирiччя фiзичне"@ua, "Супярэчнасьць фізычная"@by, "סתירה פיזיקאלית"@he, "物理的矛盾"@jp .
+
+tc:PhysicalEffect
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:altLabel "Naturgesetzlicher Effekt"@de ;
+    skos:prefLabel "Efecto físico"@es, "Efeito físico"@pt, "Efekt fizyczny"@pl, "Effet physique"@fr, "Effetto Fisico"@it, "Fiziksel etki"@tr, "Fizički efekt"@rs, "Fysisch effect"@nl, "Fyzikální efekt"@cz, "Hiệu ứng vật lý"@vn, "Physical effect"@en, "Physikalischer Effekt"@de, "Фiзичний ефект"@ua, "Физический эффект"@ru, "Фізычны эфэкт"@by, "תופעה פיזיקאלית"@he, "物理的効果"@jp .
+
+tc:Polysystem
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Poli sistema"@es, "Poli-sistem"@rs, "Polisistema"@pt, "Polisystem"@pl, "Poly-systeem"@nl, "Poly-system"@en, "Poly-système"@fr, "Polysystem"@de, "Polysystém"@cz, "Sistema multiplo"@it, "Çoklu-sistem"@tr, "Đa hệ"@vn, "Полiсистема"@ua, "Полисистема"@ru, "Полісыстэма"@by, "רב-מערכת"@he, "ポリ・システム"@jp .
+
+tc:PrincipleTransistionMacrolevel
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Postup na makroúrovni"@cz, "Princip na makro-nivou"@rs, "Principe au niveau macro"@fr, "Principio inventivo usado sobre un macronivel"@es, "Principio inventivo usato a livello macro"@it, "Principle of transition to the macro-level"@en, "Princípio no macronível"@pt, "Prinzip des Übergangs auf die Makroebene"@de, "Thủ thuật ở mức vĩ mô"@vn, "Werkwijze op macro niveau"@nl, "makro-seviyede kullanılan kabul"@tr, "Засiб на макрорiвнi"@ua, "Прием на макроуровне"@ru, "Прыём на макраўзроўні"@by, "תכסיס ברמת מאקרו"@he, "„Chwyt“ na makropoziomie"@pl, "マクロレベルでの解法"@jp .
+
+tc:PrincipleTransistionMicrolevel
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Postup na mikroúrovni"@cz, "Princip na mikro-nivou"@rs, "Principe au niveau micro"@fr, "Principio inventivo usado sobre un micro nivel"@es, "Principio inventivo usato a livello micro"@it, "Principle of transition to the micro-level"@en, "Princípio no micronível"@pt, "Prinzip des Übergangs auf die Mikroebene"@de, "Thủ thuật ở mức vi mô"@vn, "Werkwijze op micro niveau"@nl, "mikro-seviyede kullanılan kabul"@tr, "Засiб на мiкрорiвнi"@ua, "Прием на микроуровне"@ru, "Прыём на мікраўзроўні"@by, "תכסיס ברמת מיקרו"@he, "„Chwyt“ na mikropoziomie"@pl, "ミクロレベルでの解法"@jp .
+
+tc:ProblemStatement
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Aufgabenstellung"@de, "Definizione del problema"@it, "Formulace zadání"@cz, "Formulation du problème"@fr, "Formulação do problema"@pt, "Formulisanje problema"@rs, "Planteo del problema"@es, "Probleemstelling"@nl, "Problem ifadesi"@tr, "Problem statement"@en, "Sformułowanie zadania"@pl, "Đặt bài toán"@vn, "Пастаноўка задачы"@by, "Постановка задачи"@ru, "Ставлення задачи"@ua, "הגדרת הבעיה"@he, "問題設定"@jp .
+
+tc:PsychologicalInertia
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Düşünce ataleti"@tr, "Inercia psicológica"@es, "Inercja myślenia"@pl, "Inertie psychologique"@fr, "Inertie van het denken"@nl, "Inerzia psicologica"@it, "Inércia psicológica"@pt, "Iнерцiя мислення"@ua, "Psihološka inercija"@rs, "Psychological inertia"@en, "Psychologische Trägheit"@de, "Setrvačnost myšlení"@cz, "Tính ì tư duy (tính ì tâm lý)"@vn, "Інэрцыя мысьленьня"@by, "Инерция мышления"@ru, "האינרציה הפסיכולוגית"@he, "心理的惰性"@jp .
+
+tc:QualitiesCreativePersonality
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Cualidades de un individuo creativo"@es, "Các Phẩm Chất Của Nhân Cách Sáng Tạo"@vn, "Kvality Tvůrčí Osobnosti"@cz, "Kwaliteiten van een creatieve persoonlijkheid"@nl, "Osobine kreativne ličnosti"@rs, "Qualidades da pessoa criativa"@pt, "Qualities of a creative personality"@en, "Qualità di una persona creativa"@it, "Qualitäten einer kreativen Persönlichkeit"@de, "Qualités d’une Personnalité Créative"@fr, "Yaratıcı bireyin kalitesi"@tr, "Zalety twórczej osobowości"@pl, "Качества Творческой Личности"@ru, "Якасьці Творчай Асобы"@by, "Якостi творчої особи"@ua, "איכויות של אישיות יצירתית"@he, "創造的個性の特質"@jp .
+
+tc:Resources
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Các nguồn dự trữ"@vn, "Kaynaklar"@tr, "Recursos"@es, "Recursos"@pt, "Resources"@en, "Ressourcen"@de, "Ressources"@fr, "Ressources"@nl, "Resursi"@rs, "Resursy"@pl, "Risorse"@it, "Zdroje"@cz, "Ресурси"@ua, "Ресурсы"@ru, "Рэсурсы"@by, "משאבים"@he, "資源"@jp .
+
+tc:RhythmHarmonization
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Coordenação dos ritmos"@pt, "Coordinación del ritmo"@es, "Coordinamento dei ritmi"@it, "Coordinatie van ritme"@nl, "Coordination du rythme"@fr, "Harmonisierung der Rhythmik"@de, "Rhythm harmonization"@en, "Slaďováni rytmiky"@cz, "Suchronizacja rytmu"@pl, "Tương hợp nhịp điệu"@vn, "Usaglašavanje ritma"@rs, "ritim uyumu (ritim koordinasyonu)"@tr, "Согласование ритмики"@ru, "Узгадненьне рытмікі"@by, "Узгодження ритмiки"@ua, "התאמת התנודות"@he, "リズムの一致"@jp .
+
+tc:Scurve
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Courbe «en S», S-courbe"@fr, "Curva S"@es, "Curva S"@pt, "Curva ad Esse"@it, "S גרף של עקומת"@he, "S- kształtna krzywa, sinusoidalna krzywa"@pl, "S-Eğrisi"@tr, "S-Kurve"@de, "S-curve"@en, "S-curve"@nl, "S-kriva "@rs, "S-křivka"@cz, "S-образна крива"@ua, "S-образная кривая"@ru, "S-падобная крывая"@by, "Đường cong hình chữ S"@vn, "Ｓ－カーブ"@jp .
+
+tc:SpecialTerm
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Special (professional) term"@en, "Speciale term (beroepsterminologie)"@nl, "Specijalni (profesionalni) termin"@rs, "Speciální termín"@cz, "Spezialbegriff"@de, "Terme spécial"@fr, "Termin specjalistyczny"@pl, "Termine specialistico"@it, "Termo técnico (profissional)"@pt, "Thuật ngữ chuyên môn"@vn, "Término especial (profesional)"@es, "Özel (meslekî) terim"@tr, "Спецiальний термiн (спецтермiн)"@ua, "Специальный термин (спецтермин)"@ru, "Спэцыяльны тэрмін (спэцтэрмін)"@by, "מונח מיקצועי"@he, "専門用語"@jp .
+
+tc:StandardProblems
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:altLabel "Standardni problemi"@rs, "Zadání standardní"@cz, "Задача стандартна"@ua, "Задачи стандартные"@ru, "Задачы стандартныя"@by ;
+    skos:prefLabel "Các bài toán chuẩn"@vn, "Problema standard"@it, "Problemas estándares"@es, "Problemas padrão"@pt, "Problèmes types, standards"@fr, "Standaard vraagstukken"@nl, "Standard problems"@en, "Standardaufgaben"@de, "Standart problemler"@tr, "Tipski problemi"@rs, "Typowe zadanie"@pl, "Zadání typová"@cz, "Задача типова"@ua, "Задачи типовые"@ru, "Задачы тыповыя"@by, "בעיות סטנדרטיות"@he, "標準的問題"@jp .
+
+tc:StandardSolvingInventiveProblems
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Chuẩn để giải các bài toán sáng chế"@vn, "Estándares para resolver problemas inventivo"@es, "Padrão para a solução de problemas inventivos"@pt, "Standaard voor de oplossing van innovatievraagstukken"@nl, "Standard for solving inventive problems"@en, "Standard per la soluzione di problemi inventivi"@it, "Standard pour la résolution de problèmes innovants"@fr, "Standard pro řešení invenčních zadání"@cz, "Standard rozwiązywania zadań wynalazczych"@pl, "Standard za rešavanje inventivnih problema"@rs, "Standards zur Lösung erfinderischer Aufgaben"@de, "Yaratıcı problemleri çözmede standart"@tr, "Стандарт дзеля разьвязаньня вынаходніцкай задачы"@by, "Стандарт на решение изобретательских задач"@ru, "Стандарт на розв’язання  винахiдницьких задач"@ua, "סטנדרט לפתרון בעיות המצאתיות"@he, "標準解"@jp .
+
+tc:StepBackFromIFR
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Bước lùi khỏi KLC (Kết quả lý tưởng cuối cùng)"@vn, "Korak unazad od IKR"@rs, "Krok wstecz od IWK"@pl, "Krok zpět od IKV"@cz, "Recuar do RFI"@pt, "Retroceder desde el RFI (Resultado Final Ideal)"@es, "Schritt zurück vom IER"@de, "Stap terug van IER"@nl, "Step back from IFR"@en, "Un pas en arrière du RIF"@fr, "Un passo prima del IFR"@it, "İdeal Nihai Sonuç’dan bir adım gerisi"@tr, "Крок назад ад ІКВ"@by, "Крок назад вiд IКР"@ua, "Шаг назад от ИКР"@ru, "נסיגה מפתרון אידיאלי"@he, "理想解から一歩後退"@jp .
+
+tc:SuField
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Stoff-Feld"@de, "Su-Field"@en, "Su-Field"@it, "Su-Polje"@rs, "Su-campo"@pt, "Sustancia-Campo"@es, "Tüm Madde-Alan"@tr, "V-Pool (afgeleid van de Russische woorden “substantie“ en “veld“)"@nl, "Vepol (mô hình chất-trường)"@vn, "Vepól"@cz, "Vépole"@fr, "Wepole"@pl, "Вiполь"@ua, "Веполь"@ru, "Вэполь"@by, "חומר-שדה"@he, "物質・場"@jp .
+
+tc:SuFieldBreakup
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Burzenie wepola"@pl, "Destrucción de sustancia-campo"@es, "Destruction du vépole"@fr, "Destruição de su-campo"@pt, "Phá Vepol"@vn, "Razaranje Su-Polja"@rs, "Rozbití vepolu"@cz, "Su-Field breakup"@en, "Tüm Madde-Alanı’nın bozulması"@tr, "Vernieling van de V-pool"@nl, "Zerstörung des Stoff-Feldes"@de, "distruzione di un Su-field"@it, "Зьнішчэньне вэполю"@by, "Разрушение веполя"@ru, "Руйнування вiполю"@ua, "שבירת נוסחת חומר-שדה"@he, "物質・場モデルの分解"@jp .
+
+tc:SuFieldDiagram
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Diagrama substância-campo"@pt, "Diagrama sustancia-Campo"@es, "Dijagram Su-Polja"@rs, "Grafické vyjádření vepolu"@cz, "Graficzny zapis wepola"@pl, "Grafische Darstellung eines Stoff-Feldes"@de, "Grafische weergave van de V-pool"@nl, "Schéma du vépole"@fr, "Su-Field diagram"@en, "Sơ đồ biểu diễn Vepol"@vn, "Tüm Madde-Alanı grafiği"@tr, "diagramma Su-Field"@it, "Графiчне зображення вiполю"@ua, "Графическое изображение веполя"@ru, "Графічная выява вэполю"@by, "תצוגה גראפית של חומר-שדה"@he, "物質・場モデル"@jp .
+
+tc:SuFieldFormula
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Công thức Vepol"@vn, "Formula Su-Field"@it, "Formula Su-Polje"@rs, "Formule vépole"@fr, "Fórmula de substância-campo"@pt, "Fórmula sustancia-campo"@es, "Stoff-Feld-Formel"@de, "Su-Field formula"@en, "Tüm Madde-Alanların formulü"@tr, "V-pool formule"@nl, "Vepolový vzorec"@cz, "Zapis wepolowy"@pl, "Вiпольна формула"@ua, "Вепольная формула"@ru, "Вэпольная формула"@by, "נוסחת חומר-שדה"@he, "物質・場の公式"@jp .
+
+tc:Substance
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Chất"@vn, "Látka"@cz, "Madde"@tr, "Sostanza"@it, "Stoff"@de, "Substance"@en, "Substance"@fr, "Substancja"@pl, "Substantie"@nl, "Substância"@pt, "Supstanca"@rs, "Sustancia"@es, "Вещество"@ru, "Речовина"@ua, "Рэчыва"@by, "חומר"@he, "物質"@jp .
+
+tc:SubstanceFieldAnalysis
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Analisi Su-Field"@it, "Analiza Supstanca-Polje (Su-Polje)"@rs, "Analiza wepolowa"@pl, "Analyse vépole"@fr, "Análise de substância-campo (su-campo)"@pt, "Análisis de sustancia-campo"@es, "Phân tích Vepol (Phân tích chất-trường)"@vn, "Stoff-Feld-Analyse"@de, "Substance-Field (Su-Field) analysis"@en, "Tüm Madde-Alan Analizi"@tr, "V-Pool analyse (afgeleid van de Russische woorden “substantie“ en “veld“)"@nl, "Vepolová analýza"@cz, "Аналiз вiпольний (вiпаналiз)"@ua, "Анализ вепольный (вепанализ)"@ru, "Аналіз вэпольны (вэпаналіз)"@by, "ניתוח חומר-שדה"@he, "物質・場分析（ＳＦ分析）"@jp .
+
+tc:SubstanceFieldResources
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Các nguồn dự trữ chất-trường"@vn, "Látkově-energetické zdroje"@cz, "Recursos de la sustancia-campo"@es, "Recursos de substância-campo"@pt, "Resources van substantie en velden"@nl, "Ressources de Substances et de Champs"@fr, "Resursi Supstanca-Polje"@rs, "Resursy substancjalno - polowe"@pl, "Risorse"@it, "Stoff-Feld-Ressourcen"@de, "Substance-Field resources"@en, "Tüm Madde-Alanının kaynakları"@tr, "Вещественно-полевые ресурсы"@ru, "Речовинно-польовi ресурси"@ua, "Рэчыўна-палявыя рэсурсы"@by, "משאבי חומר ושדה"@he, "物質・場資源"@jp .
+
+tc:SystemInventivePrinciples
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Hệ thống các thủ thuật"@vn, "Kabuller sistemi (yaratıcı prensipler sistemi)"@tr, "Sistem principa"@rs, "Sistema de los principios inventivos"@es, "Sistema de princípios"@pt, "Sistema dei principi inventivi"@it, "Systeem van methodes en werkwijzen"@nl, "System der Vorgehensweisen (Prinzipe)"@de, "System of inventive principles"@en, "System „chwytów”, zasad elementarnych,"@pl, "Système de principes"@fr, "Systém postupů (principů, heuristik)"@cz, "Система приемов"@ru, "Система прийомiв"@ua, "Сыстэма прыёмаў"@by, "מערכת תכסיסים"@he, "発明原理体系"@jp .
+
+tc:SystemicOperator
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Operador de sistema"@pt, "Operador del sistema"@es, "Operator systemowy"@pl, "Opérateur systémique"@fr, "Sistem Operatörü"@tr, "Sistemski operator"@rs, "Systeem Operator"@nl, "Systemic Operator"@en, "Systemischer Operator"@de, "Systémový operátor"@cz, "Tecnica di analisi di sistema"@it, "Toán tử hệ thống"@vn, "Апэратар сыстэмны"@by, "Оператор системний"@ua, "Оператор системный"@ru, "מנגנון מערכתי"@he, "システム・オペレータ"@jp .
+
+tc:TRIZ
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "TRIZ"@cz, "TRIZ"@en, "TRIZ"@es, "TRIZ"@fr, "TRIZ"@he, "TRIZ"@it, "TRIZ"@pl, "TRIZ"@pt, "TRIZ"@rs, "TRIZ"@tr, "TRIZ"@vn, "TRIZ (Theorie der Lösung erfinderischer Probleme)"@de, "TRIZ (Theorie van het Oplossen van Innovatievraagstukken)"@nl, "ТВВЗ"@ua, "ТРВЗ"@by, "ТРИЗ"@ru, "ＴＲＩＺ"@jp .
+
+tc:TechnicalContradiction
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:narrower tc:ContradictionTypes ; 
+    skos:prefLabel "Contraddizione tecnica"@it, "Contradicción técnica"@es, "Contradiction technique"@fr, "Contradição técnica"@pt, "Mâu thuẫn kỹ thuật"@vn, "Rozpor technický"@cz, "Sprzeczność techniczna"@pl, "Technical contradiction"@en, "Technische tegenstrijdigheid"@nl, "Technischer Widerspruch"@de, "Tehnička protivrečnost"@rs, "Teknik Çelişki"@tr, "Противоречие техническое"@ru, "Протирiччя технiчне"@ua, "Супярэчнасьць тэхнічная"@by, "סתירה טכנולוגית"@he, "技術的矛盾"@jp .
+
+tc:TechnicalSystem
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Hệ kỹ thuật"@vn, "Sistema tecnico"@it, "Sistema técnico"@es, "Sistema técnico"@pt, "System techniczny"@pl, "Système technique"@fr, "Technical system"@en, "Technický systém"@cz, "Technisch systeem"@nl, "Technisches System"@de, "Tehnički sistem"@rs, "Teknik sistem"@tr, "Система технiчна"@ua, "Система техническая"@ru, "Сыстэма тэхнічная"@by, "מערכת טכנולוגית"@he, "技術システム"@jp .
+
+tc:TheoryDevelopmentCreativePersonality
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel " "@by, "Lý Thuyết Phát Triển Nhân Cách Sáng Tạo"@vn, "Teorha de Desarrollo Creativo Individual"@es, "Teoria Rozwoju Osobowości Twórczej (TROT)"@pl, "Teoria da Estratégia de Vida Criativa"@pt, "Teoria dello Sviluppo della persona creativa"@it, "Teorie Rozvoje Tvůrčí Osobnosti (TRTO)"@cz, "Teorija Razvitka Stvaralačke Ličnosti (TRSL)"@rs, "Theorie der Entwicklung kreativer Persönlichkeiten"@de, "Theorie van de ontwikkeling van een creatieve persoonlijkheid"@nl, "Theory of Creative Life Strategy (TCLS)"@en, "Théorie de développement d’une personne créative"@fr, "Yaratıcı kişilik gelişim teorisi"@tr, "Теорiя розвитку творчої особи"@ua, "Теория Развития Творческой Личности (ТРТЛ)"@ru, "תיאורית התפתחות אישיות יצירתית"@he, "創造的個性開発理論"@jp .
+
+tc:ThermalField
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Campo Termico"@es, "Campo termico"@it, "Campo térmico"@pt, "T-Alanı"@tr, "T-Polje"@rs, "T-pool"@nl, "Tepol"@cz, "Tepole"@pl, "Thermal Field"@en, "Thépole"@fr, "Vepol nhiệt"@vn, "Wärmefeld"@de, "Теполь"@ru, "Теполь"@ua, "Тэполь (ТЭмпература + ПОЛе)"@by, "נוסחת חומר-שדה עם שדה חום"@he, "温度の場"@jp .
+
+tc:Tool
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Araç"@tr, "Công cụ"@vn, "Ferramenta"@pt, "Herramienta"@es, "Instrument"@fr, "Instrument"@nl, "Instrument"@rs, "Iнструмент"@ua, "Narzędzie"@pl, "Nástroj"@cz, "Tool"@en, "Werkzeug"@de, "strumento"@it, "Інструмэнт"@by, "Инструмент"@ru, "כלי"@he, "ツール"@jp .
+
+tc:TypicalConflicts
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Conflictos típicos de los sistemas"@es, "Conflitos típicos"@pt, "Conflits type"@fr, "Contraddizione tipica di un sistema"@it, "Các xung đột mẫu (chuẩn)"@vn, "Soorten conflicten"@nl, "Tipik Çatışmalar"@tr, "Tipski konflikti"@rs, "Typical conflicts"@en, "Typische Konflikte"@de, "Typové konflikty"@cz, "Typowe konflikty"@pl, "Канфлікты тыповыя"@by, "Конфлiкт типовий"@ua, "Конфликты типовые"@ru, "הניגודים האופייניים"@he, "典型的技術矛盾"@jp .
+
+tc:Void
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Assenza Strutturale"@it, "Boşluk"@tr, "Leegte"@nl, "Leere"@de, "Praznina"@rs, "Prázdnota"@cz, "Pustka"@pl, "Trống rỗng"@vn, "Vacío"@es, "Vazio"@pt, "Vide"@fr, "Void"@en, "Порожнеча"@ua, "Пустата"@by, "Пустота"@ru, "ריק"@he, "空隙（ボイド）"@jp .
+
+tc:WorthyGoal
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Değer amaç (uğruna değer amaç)"@tr, "Dostojan cilj"@rs, "Důstojný cíl"@cz, "Een waardig doel"@nl, "Le but digne"@fr, "Meta digna"@pt, "Mục đích xứng đáng"@vn, "Obiettivo prioritario"@it, "Objetivo digno"@es, "Poważny cel"@pl, "Worthy goal"@en, "Würdiges Ziel"@de, "Гiдна мета"@ua, "Годная мэта"@by, "Достойная цель"@ru, "מטרה ערכית"@he, "意義ある目標"@jp .
+
+tc:XElement
+    a tc:GlossaryEntry, skos:Concept ;
+    skos:prefLabel "Elemento X"@es, "Elemento X"@pt, "Elément X"@fr, "Iкс-елемент"@ua, "X מרכיב"@he, "X-Element"@de, "X-elemanı"@tr, "X-element"@cz, "X-element"@en, "X-element"@nl, "X-element"@pl, "X-element"@rs, "Yếu tố X"@vn, "elemento X"@it, "Ікс-элемэнт"@by, "Икс-элемент"@ru, "Ｘ要素"@jp .
 
