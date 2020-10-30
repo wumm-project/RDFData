@@ -952,6 +952,8 @@ odp:Gladkov_AK
 
 odp:Goldovsky_BI
     a foaf:Person ;
+    dbo:birthDate "1946-01-14" ;
+    dbo:deathDate "2020-10-28" ;
     foaf:affil "Nishnyi Novgorod, Russia" ;
     foaf:fullname "Борис Израйлевич Голдовский"@ru ;
     foaf:name "Boris I. Goldovsky" .
@@ -2256,6 +2258,7 @@ odp:Nanrudaiyan_N
 
 odp:Narayan_PV
     a foaf:Person ;
+    foaf:homepage <http://trizassociation.org> ;
     foaf:affil "TRIZ Association of Asia, India" ;
     foaf:name "P.V. Narayan" .
 
@@ -2454,11 +2457,13 @@ odp:Pevzner_LK
 odp:Phadnis_N
     a foaf:Person ;
     rdfs:seeAlso <http://orcid.org/0000-0003-0003-561X> ;
-    foaf:affil "Lappeenranta, Finland" ;
+    foaf:homepage <http://trizassociation.org> ;
+    foaf:affil "TRIZ Association of Asia, India" ;
     foaf:name "Nikhil Phadnis" .
 
 odp:Phadnis_S
     a foaf:Person ;
+    foaf:homepage <http://trizassociation.org> ;
     foaf:affil "TRIZ Association of Asia, India" ;
     foaf:name "Shree Phadnis" .
 
@@ -3402,6 +3407,8 @@ odp:Wang_YW
 
 odp:Wankhade_SH
     a foaf:Person ;
+    foaf:homepage <http://trizassociation.org> ;
+    foaf:affil "TRIZ Association of Asia, India" ;
     foaf:name "Sandeep H. Wankhade" .
 
 odp:Weber_O
