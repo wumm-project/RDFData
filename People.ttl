@@ -3334,7 +3334,7 @@ odp:Vishnepolschi_SV
     foaf:affil "USA" ;
     foaf:name "Svetlana V. Vishnepolschi" .
 
-odp:Volotkin_YI
+odp:Volokitin_YI
     a foaf:Person ;
     foaf:affil "Moscow, Russia" ;
     foaf:fullname "Юрий Иванович Волокитин"@ru ;
@@ -3530,10 +3530,10 @@ odp:Yermolov_KA
     foaf:fullname "К.А. Ермолов"@ru ;
     foaf:name "K.A. Yermolov" .
 
-odp:Yevstifeyeva_O
+odp:Yevstifeyeva_OA
     a foaf:Person ;
     foaf:affil "Pensa, Russia" ;
-    foaf:fullname "Ольга Евстифеева"@ru ;
+    foaf:fullname "Ольга Александровна Евстифеева"@ru ;
     foaf:name "Olga Yevstifeyeva" .
 
 odp:Yezersky_G

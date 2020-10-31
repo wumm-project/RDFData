@@ -18,7 +18,8 @@ directory.
   IDM school (Cavallucci, Zanni-Merk et al.) already in 2007-2015.
 * Concepts.ttl - A first RDF version of the ontology proposed at
   <https://r1.nubex.ru/s828-c8b/ca459bfe73_fit-in~160x160__f3107_7e>
-  * Yet to  be aligned with the Thesaurus.
+  * Yet to be aligned with the Thesaurus.
+* OntoCards.ttl - The tree of OntoCards from the TRIZ Ontology Project
 * VDI-Glossary.ttl - A glossary extracted from the German VDI norm
   * Yet to  be aligned with the Thesaurus.
 * Thesaurus.ttl - Terminology (102 terms) in 17 languages, extracted from
