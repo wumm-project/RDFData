@@ -1715,6 +1715,7 @@ odp:Kuzmin_KI
 odp:Kynin_AT
     a foaf:Person ;
     foaf:affil "Russia" ;
+    dbo:deathDate "2020-11-16" ;
     foaf:fullname "Александр Тимофеевич Кынин"@ru ;
     foaf:name "Alexander Kynin" .
 
@@ -2431,6 +2432,12 @@ odp:Petrov_D
     a foaf:Person ;
     foaf:name "Dmitrij Petrov" .
 
+odp:Petrov_PA
+    a foaf:Person ;
+    foaf:affil "Moscow, Russia" ;
+    foaf:fullname "Павел Петров"@ru ;
+    foaf:name "Pavel A. Petrov" .
+
 odp:Petrov_VM
     a foaf:Person ;
     foaf:affil "Israel" ;
@@ -2441,12 +2448,6 @@ odp:Petrov_VM
 odp:Petrov_VP
     a foaf:Person ;
     foaf:name "V.P. Petrov" .
-
-odp:Petrov_P
-    a foaf:Person ;
-    foaf:affil "Moscow, Russia" ;
-    foaf:fullname "Павел Петров"@ru ;
-    foaf:name "Pavel Petrov" .
 
 odp:Pevzner_LK
     a foaf:Person ;
@@ -3073,7 +3074,7 @@ odp:Song_ZT
 odp:Souchkov_VV
     a foaf:Person ;
     foaf:affil "Enschede, Netherlands" ;
-    foaf:fullname "Валерий Сушков"@ru ;
+    foaf:fullname "Валерий Викторович Сушков"@ru ;
     foaf:homepage <https://www.facebook.com/valeri.souchkov> ;
     foaf:name "Valeri V. Souchkov" .
 

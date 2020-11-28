@@ -271,3 +271,268 @@
     skos:narrower <http://opendiscovery.org/rdf/Concept/theory/> ;
     skos:prefLabel "Онтология \"Эволюционное системоведение. Эволюциоведение.\""@ru .
 
+<http://opendiscovery.org/rdf/Concept/307080/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Spezialisierung auf TRIZ" @de.
+
+<http://opendiscovery.org/rdf/Concept/307080/Skills/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Fähigkeiten und Kompetenzen "@de.
+
+<http://opendiscovery.org/rdf/Concept/307080/cert/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Zertifizierungssystem"@de.
+
+<http://opendiscovery.org/rdf/Concept/307080/comp/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Berufsverbände und Unternehmen"@de.
+
+<http://opendiscovery.org/rdf/Concept/307080/study/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie TRIZ-Training"@de.
+
+<http://opendiscovery.org/rdf/Concept/Areas/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie TRIZ-Anwendungsbereiche"@de.
+
+<http://opendiscovery.org/rdf/Concept/Areas/Subject/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Themenbereiche der TRIZ-Anwendung"@de.
+
+<http://opendiscovery.org/rdf/Concept/Areas/pro/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Projektaktivitäten basierend auf TRIZ" @de.
+
+<http://opendiscovery.org/rdf/Concept/history/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Geschichte der TRIZ" @de.
+
+<http://opendiscovery.org/rdf/Concept/history/authors/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology TRIZ Gründer"@de.
+
+<http://opendiscovery.org/rdf/Concept/history/schools/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologies TRIZ Schulen" @de.
+
+<http://opendiscovery.org/rdf/Concept/law/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Gesetze der Systementwicklung"@de.
+
+<http://opendiscovery.org/rdf/Concept/law/drift/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Linien (Tendenzen) der allgemeinen Systementwicklung "@de.
+
+<http://opendiscovery.org/rdf/Concept/law/interaction/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Beziehung von Gesetzen und Trends zu TRIZ-Tools "@de.
+
+<http://opendiscovery.org/rdf/Concept/law/trend/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Linien (Tendenzen) der technischen Systementwicklung "@de.
+
+<http://opendiscovery.org/rdf/Concept/law/zrs/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Gesetze der Entwicklung allgemeiner Systeme (ZRS) " @de.
+
+<http://opendiscovery.org/rdf/Concept/law/zrts/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Gesetze der Evolution technischer Systeme (ZRTS) "@de.
+
+<http://opendiscovery.org/rdf/Concept/mod/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie TRIZ-Modell "@de.
+
+<http://opendiscovery.org/rdf/Concept/mod/metod/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Methoden der TRIZ" @de.
+
+<http://opendiscovery.org/rdf/Concept/mod/ob/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie TRIZ-Modellobjekte"@de.
+
+<http://opendiscovery.org/rdf/Concept/proj/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Über das TRIZ Ontology-Projekt" @de.
+
+<http://opendiscovery.org/rdf/Concept/rtv/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Instrumente für die Entwicklung des kreativen Vorstellungsvermögens (RTV) "@de.
+
+<http://opendiscovery.org/rdf/Concept/rtv/NFLklass/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Klassifizierung und Bewertung von NF-Ideen "@de.
+
+<http://opendiscovery.org/rdf/Concept/rtv/Prognoz/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Prognose und Erstellung neuer Ideen basierend auf NF"@de.
+
+<http://opendiscovery.org/rdf/Concept/rtv/courses/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie RTV Kurse" @de.
+
+<http://opendiscovery.org/rdf/Concept/rtv/metodTRIZ/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Methoden zur Entwicklung kreativer Vorstellungskraft basierend auf TRIZ "@de.
+
+<http://opendiscovery.org/rdf/Concept/rtv/metodpsico/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Methoden der psychologischen Aktivierung des erfinderischen Denkens "@de.
+
+<http://opendiscovery.org/rdf/Concept/rtv/psychologicalbases/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Psychologische Grundlagen der Entwicklung kreativer Vorstellungskraft "@de.
+
+<http://opendiscovery.org/rdf/Concept/science/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Wissenschaftliche Grundlagen der TRIZ "@de.
+
+<http://opendiscovery.org/rdf/Concept/science/Function_approach/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Funktionsansatz "@de.
+
+<http://opendiscovery.org/rdf/Concept/science/Psychology/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Psychologie des kreativen Denkens "@de.
+
+<http://opendiscovery.org/rdf/Concept/science/TRIZ_ap/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie TRIZ Anwendungen "@de.
+
+<http://opendiscovery.org/rdf/Concept/science/dial/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Dialektik" @de.
+
+<http://opendiscovery.org/rdf/Concept/science/dial/dial/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Dialektischer Widerspruch "@de.
+
+<http://opendiscovery.org/rdf/Concept/science/evo/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology Evolutionärer Ansatz" @de.
+
+<http://opendiscovery.org/rdf/Concept/science/inf/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Entwicklungsfonds für Informationssysteme"@de.
+
+<http://opendiscovery.org/rdf/Concept/science/model/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Modellansatz" @de.
+
+<http://opendiscovery.org/rdf/Concept/science/param_approach/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Parametrischer Ansatz "@de.
+
+<http://opendiscovery.org/rdf/Concept/science/sys/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Systemsansatz" @de.
+
+<http://opendiscovery.org/rdf/Concept/theory/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Theorien in der TRIZ" @de.
+
+<http://opendiscovery.org/rdf/Concept/theory/OTSM/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie der Allgemeine Theorie des starken Denkens (OTSM-TRIZ) "@de.
+
+<http://opendiscovery.org/rdf/Concept/theory/TIM/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie der Theorie des erfinderischen Denkens "@de.
+
+<http://opendiscovery.org/rdf/Concept/theory/TRTL/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie der Theorie der kreativen Persönlichkeitsentwicklung (TRTL) "@de.
+
+<http://opendiscovery.org/rdf/Concept/theory/evos/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontologie Evolutionäre Systemwissenschaft. Evolutionsstudien. " @de.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+<http://opendiscovery.org/rdf/Concept/307080/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology  Specialization in TRIZ " @en.
+
+<http://opendiscovery.org/rdf/Concept/307080/Skills/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology  Skills and Competencies " @en.
+
+<http://opendiscovery.org/rdf/Concept/307080/cert/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology  Certification Systems " @en.
+
+<http://opendiscovery.org/rdf/Concept/307080/comp/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology  Professional associations and companies " @en.
+
+<http://opendiscovery.org/rdf/Concept/307080/study/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology  of TRIZ trainings " @en.
+
+<http://opendiscovery.org/rdf/Concept/Areas/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology  of TRIZ Application Areas " @en.
+
+<http://opendiscovery.org/rdf/Concept/Areas/Subject/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology  od Subject areas of TRIZ application " @en.
+
+<http://opendiscovery.org/rdf/Concept/Areas/pro/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology  of Project activities based on TRIZ " @en.
+
+<http://opendiscovery.org/rdf/Concept/history/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology  of the History of TRIZ " @en.
+
+<http://opendiscovery.org/rdf/Concept/history/authors/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology  of the TRIZ Founders " @en.
+
+<http://opendiscovery.org/rdf/Concept/history/schools/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology  of TRIZ Schools " @en.
+
+<http://opendiscovery.org/rdf/Concept/law/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of Laws of systems evolution " @en.
+
+<http://opendiscovery.org/rdf/Concept/law/drift/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of Lines (tendencies) of systems development " @en.
+
+<http://opendiscovery.org/rdf/Concept/law/interaction/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of Relationship of laws and trends with TRIZ tools " @en.
+
+<http://opendiscovery.org/rdf/Concept/law/trend/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology  of Lines (tendencies) of technical systems development " @en.
+
+<http://opendiscovery.org/rdf/Concept/law/zrs/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of Laws of systems development (ZRS) " @en.
+
+<http://opendiscovery.org/rdf/Concept/law/zrts/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of  Laws of Engineering Systems Evolution (ZRTS) " @en.
+
+<http://opendiscovery.org/rdf/Concept/mod/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "TRIZ Model Ontology " @en.
+
+<http://opendiscovery.org/rdf/Concept/mod/metod/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of Methods in TRIZ " @en.
+
+<http://opendiscovery.org/rdf/Concept/mod/ob/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of TRIZ model objects " @en.
+
+<http://opendiscovery.org/rdf/Concept/proj/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "About the TRIZ Ontology project" @en.
+
+<http://opendiscovery.org/rdf/Concept/rtv/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of Instruments for the Development of Creative Imagination (RTV) " @en.
+
+<http://opendiscovery.org/rdf/Concept/rtv/NFLklass/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of Classification and evaluation of NF ideas " @en.
+
+<http://opendiscovery.org/rdf/Concept/rtv/Prognoz/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of Forecasting and creation of new ideas based on NF " @en.
+
+<http://opendiscovery.org/rdf/Concept/rtv/courses/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of RTV courses " @en.
+
+<http://opendiscovery.org/rdf/Concept/rtv/metodTRIZ/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of Methods for the development of creative imagination based on TRIZ " @en.
+
+<http://opendiscovery.org/rdf/Concept/rtv/metodpsico/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of Methods of psychological activation of inventive thinking " @en.
+
+<http://opendiscovery.org/rdf/Concept/rtv/psychologicalbases/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of Psychological foundations of the development of creative imagination " @en.
+
+<http://opendiscovery.org/rdf/Concept/science/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of Scientific Foundations of TRIZ " @en.
+
+<http://opendiscovery.org/rdf/Concept/science/Function_approach/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of Functional approach " @en.
+
+<http://opendiscovery.org/rdf/Concept/science/Psychology/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of Psychology of Creative Thinking " @en.
+
+<http://opendiscovery.org/rdf/Concept/science/TRIZ_ap/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of TRIZ Approaches " @en.
+
+<http://opendiscovery.org/rdf/Concept/science/dial/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of Dialectics " @en.
+
+<http://opendiscovery.org/rdf/Concept/science/dial/dial/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of Dialectical contradictions " @en.
+
+<http://opendiscovery.org/rdf/Concept/science/evo/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of Evolutionary Approach " @en.
+
+<http://opendiscovery.org/rdf/Concept/science/inf/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of Information systems development funds " @en.
+
+<http://opendiscovery.org/rdf/Concept/science/model/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of the Model Approach " @en.
+
+<http://opendiscovery.org/rdf/Concept/science/param_approach/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology  of the Parametric approach " @en.
+
+<http://opendiscovery.org/rdf/Concept/science/sys/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of the Systems Approach " @en.
+
+<http://opendiscovery.org/rdf/Concept/theory/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of the Theories in TRIZ " @en.
+
+<http://opendiscovery.org/rdf/Concept/theory/OTSM/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of a  General Theory of Strong Thinking (OTSM-TRIZ) " @en.
+
+<http://opendiscovery.org/rdf/Concept/theory/TIM/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of a Theory of inventive thinking " @en.
+
+<http://opendiscovery.org/rdf/Concept/theory/TRTL/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of a Theory of Creative Personality Development (TRTL) " @en.
+
+<http://opendiscovery.org/rdf/Concept/theory/evos/>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontology of Evolutionary systems science. Evolutionary studies. " @en.
+

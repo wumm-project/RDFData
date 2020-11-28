@@ -16,257 +16,257 @@
     rdfs:label "TRIZ Ontology Project - Onto Bird's Eye" .
 
 tc:ARIZ
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "ARIZ - Algorithm for Solving Inventive Problems"@en, "ARIZ - Algorithmus zum Lösen erfinderischer Probleme"@de, "АРИЗ - алгоритм решения изобретательских задач"@ru .
 
 tc:Benchmarking
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Benchmarking"@de, "Benchmarking"@en, "Бенчмаркинг"@ru .
 
 tc:CausalAnalysis
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Cause and Effect Analysis"@en, "Ursache-Wirkungs-Analyse"@de, "Причинно-следственный анализ"@ru .
 
 tc:CertificationSystem
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Certification System"@en, "Zertifikationssystem"@de, "Система сертификации"@ru .
 
 tc:ComplexSystemDevelopmentTools
     od:hasPart tc:ARIZ, tc:PrognosticTools, tc:SF-AnalysisAndStandards, tc:TRIZEnterpriseAnalysis, tc:ZRTSApplication ;
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Complex tools for system development"@en, "Komplexe Werkzeuge der Systementwicklung"@de, "Комплексные инструменты для разработки системы"@ru .
 
 tc:ComponentAnalysis
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Component Analysis"@en, "Komponentenanalyse"@de, "Анализ компонентов"@ru .
 
 tc:ContradictionAnalysis
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Herausarbeiten und Analyse von Widersprüchen"@de, "Working out and analyzing contradictions"@en, "Выработка и анализ противоречий"@ru .
 
 tc:ContradictionMatrix
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Widerspruchsmatrix"@de, "contradiction matrix"@en, "матрица противоречий"@ru .
 
 tc:ContradictoryRequirements
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Conflicting requirements"@en, "Contradictions of the requirements"@en, "Widersprüche der Anforderungen"@de, "Widersprüchliche Anforderungen"@de, "Конфликтующие требования"@ru, "Противоречия требований"@ru .
 
 tc:DevelopmentInventiveThinking
     od:includes tc:RTV ;
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Development of creative thinking"@en, "Entwicklung des kreativen Denkens"@de, "Развитие творческого мышления"@ru .
 
 tc:Dialectics
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Dialectics"@en, "Dialektik"@de, "Диалектика"@ru .
 
 tc:EvaluationOfConceptsTools
     od:includes tc:Benchmarking ;
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Tools for evaluating and developing concepts"@en, "Werkzeuge zur Evaluierung und Entwicklung von Konzepten"@de, "Инструменты для оценки и разработки концепций"@ru .
 
 tc:EvolutionalApproach
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Evolutionary Access"@en, "Evolutionärer Zugang"@de, "Эволюционный доступ"@ru .
 
 tc:FOS
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Function-oriented search (FOS)"@en, "Funktionsorientierte Suche (FOS)"@de, "Функционально-ориентированный поиск (FOS)"@ru .
 
 tc:FlowAnalysis
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Flow analysis"@en, "Flussanalyse"@de, "Анализ потока"@ru .
 
 tc:FunctionalAnalysis
     od:includes tc:StructuralAnalysis ;
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Functional Analysis"@en, "Funktionale Analyse"@de, "Функциональный анализ"@ru .
 
 tc:IFR
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Ideal end result (IER)"@en, "Ideales Endresultat (IER)"@de, "Идеальный конечный результат (IER)"@ru .
 
 tc:InformationFondsofSystemDevelopment
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Information Fund for System Development"@en, "Informationsfonds der Systementwicklung"@de, "Информационный фонд для развития системы"@ru .
 
 tc:InventiveProblem
     od:includes tc:ContradictoryRequirements, tc:InventiveSolution ;
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Erfindungsaufgabe"@de, "Invention Task"@en, "Задание на изобретение"@ru .
 
 tc:InventiveSolution
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Lösung von Erfundungsaufgaben"@de, "Solution of Invention Tasks"@en, "Решение изобретательских задач"@ru .
 
 tc:LawsOfZRS
     od:includes tc:ContradictoryRequirements ;
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Gesetze im Komplex der Systementwicklung (ZRS)"@de, "Laws in the Complex of System Development (ZRS)"@en, "Законы в комплексе системного развития (ЗРС)"@ru .
 
 tc:Principles
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Principles of contradiction resolution"@en, "Prinzipien der Widerspruchslösung"@de, "Принципы разрешения противоречий"@ru .
 
 tc:ProfessionalInstitutions
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Berufsorganisationen und Unternehmen"@de, "Professional organizations and companies"@en, "Профессиональные организации и компании"@ru .
 
 tc:PrognosticTools
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Forecasting tools"@en, "Prognose-Werkzeuge"@de, "Инструменты прогнозирования"@ru .
 
 tc:QualifyingSystem
     od:includes tc:CertificationSystem ;
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "System der Weiterbildung"@de, "System of further education"@en, "Система дополнительного образования"@ru .
 
 tc:RTV
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Development of the creative imagination"@en, "Entwicklung des kreativen Vorstellungsvermögens"@de, "Развитие творческого воображения"@ru .
 
 tc:ResourceAnalysis
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Analyse der Ressourcen"@de, "Analysis of resources"@en, "Анализ ресурсов"@ru .
 
 tc:SF-AnalysisAndStandards
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "SF analysis and application of the standards"@en, "SF-Analyse und Anwendung der Standards"@de, "Анализ SF и применение стандартов"@ru .
 
 tc:ScientificTRIZBase
     od:hasPart tc:Dialectics, tc:EvolutionalApproach, tc:InformationFondsofSystemDevelopment, tc:SystemFunctionApproach ;
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Scientific basis of TRIZ"@en, "Wissenschaftliche Basis der TRIZ"@de, "Научные основы ТРИЗ"@ru .
 
 tc:StructuralAnalysis
     od:includes tc:ComponentAnalysis ;
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Structure analysis"@en, "Strukturanalyse"@de, "Анализ структуры"@ru .
 
 tc:SyntheseMethods
     od:includes tc:ContradictionMatrix, tc:FOS, tc:IFR, tc:Principles, tc:ResourceAnalysis ;
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Methoden der Synthese"@de, "Methods of Synthesis"@en, "Методы синтеза"@ru .
 
 tc:SystemAnalysisTools
     od:includes tc:CausalAnalysis, tc:ContradictionAnalysis, tc:FlowAnalysis, tc:FunctionalAnalysis, tc:SystemOperator ;
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Instrumente der Systemanalyse"@de, "Systems Analysis Instruments"@en, "Инструменты системного анализа"@ru .
 
 tc:SystemFunctionApproach
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Systemic-functional access"@en, "Systemisch-funktionaler Zugang"@de, "Системно-функциональный доступ"@ru .
 
 tc:SystemOperator
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "System operator"@en, "Systemoperator"@de, "Systemoperator"@ru .
 
 tc:TRIZ
     od:forms tc:ScientificTRIZBase ;
     od:includes tc:DevelopmentInventiveThinking, tc:InventiveProblem, tc:ProfessionalInstitutions, tc:QualifyingSystem, tc:RTV, tc:TRIZApplicationDomains, tc:TRIZHistory, tc:TRIZModel, tc:TRIZTrends, tc:TRTL ;
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "TRIZ"@de, "TRIZ"@en, "ТРИЗ"@ru .
 
 tc:TRIZApplicationDomains
     od:specialCase tc:TRIZinInnovation, tc:TRIZinNontechnicalDomains, tc:TRIZinProductiveEnterprises ;
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "TRIZ applications in different domains"@en, "TRIZ-Anwendungen in verschiedenen Domänen"@de, "Приложения ТРИЗ в разных доменах"@ru .
 
 tc:TRIZEnterpriseAnalysis
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "TRIZ analysis of companies"@en, "TRIZ-Analyse von Betrieben"@de, "ТРИЗ-анализ компаний"@ru .
 
 tc:TRIZFounders
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "TRIZ Founding Fathers"@en, "TRIZ Gründungsväter"@de, "Отцы-основатели ТРИЗ"@ru .
 
 tc:TRIZHistory
     od:includes tc:TRIZFounders, tc:TRIZSchools ;
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Geschichte der Entwicklung der TRIZ"@de, "History of the development of TRIZ"@en, "История развития ТРИЗ"@ru .
 
 tc:TRIZModel
     od:composedFrom tc:InventiveSolution ;
     od:includes tc:ComplexSystemDevelopmentTools, tc:EvaluationOfConceptsTools, tc:SyntheseMethods, tc:SystemAnalysisTools ;
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Model of TRIZ"@en, "Modell der TRIZ"@de, "Модель ТРИЗ"@ru .
 
 tc:TRIZSchoolBaku
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "TRIZ School in Baku"@en, "TRIZ Schule in Baku"@de, "Школа ТРИЗ в Баку"@ru .
 
 tc:TRIZSchoolGorki
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "TRIZ School in Gorki"@en, "TRIZ Schule in Gorki"@de, "Школа ТРИЗ в Горках"@ru .
 
 tc:TRIZSchoolKishinev
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "TRIZ School In Kishinev"@en, "TRIZ Schule In Kischinjow"@de, "Школа ТРИЗ в Кишиневе"@ru .
 
 tc:TRIZSchoolKrasnoyarsk
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "TRIZ School in Krasnoyarsk"@en, "TRIZ Schule im Krasnojarsk"@de, "Школа ТРИЗ в Красноярске"@ru .
 
 tc:TRIZSchoolLeningrad
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "TRIZ School in Leningrad"@en, "TRIZ Schule in Leningrad"@de, "Школа ТРИЗ в Ленинграде"@ru .
 
 tc:TRIZSchoolMinsk
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "TRIZ School in Minsk"@en, "TRIZ Schule in Minsk"@de, "Школа ТРИЗ в Минске"@ru .
 
 tc:TRIZSchools
     od:includes tc:TRIZSchoolBaku, tc:TRIZSchoolGorki, tc:TRIZSchoolKishinev, tc:TRIZSchoolKrasnoyarsk, tc:TRIZSchoolLeningrad, tc:TRIZSchoolMinsk ;
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "TRIZ Schulen"@de, "TRIZ schools"@en, "Школы ТРИЗ"@ru .
 
 tc:TRIZTrends
     od:includes tc:ZRS, tc:ZRTS ;
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Gesetze und Trends der TRIZ"@de, "TRIZ Laws and Trends"@en, "Законы и тенденции ТРИЗ"@ru .
 
 tc:TRIZinInnovation
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "TRIZ applications for innovations"@en, "TRIZ-Anwendungen für Innovationen"@de, "Приложения ТРИЗ для инноваций"@ru .
 
 tc:TRIZinNontechnicalDomains
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "TRIZ applications in non-technical areas"@en, "TRIZ-Anwendungen in nicht-technischen Bereichen"@de, "Приложения ТРИЗ в нетехнических областях"@ru .
 
 tc:TRIZinProductiveEnterprises
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "TRIZ applications in production companies"@en, "TRIZ-Anwendungen in Produktionsbetrieben"@de, "Приложения ТРИЗ в производственных компаниях"@ru .
 
 tc:TRTL
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Theorie der Entwicklung kreativer Persönlichkeiten"@de, "Theory of the Development of Creative Personalities"@en, "Теория развития творческих личностей"@ru .
 
 tc:TrendsOfSystemDevelopment
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Trends der Systementwicklung"@de, "Trends in system development"@en, "Тенденции в развитии системы"@ru .
 
 tc:ZRS
     od:hasPartialCase tc:ZRTS ;
     od:includes tc:LawsOfZRS, tc:TrendsOfSystemDevelopment ;
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Complex of laws and trends in system development (ZRS)"@en, "Komplex der Gesetze und Trends der Systemenwicklung (ZRS)"@de, "Комплекс законов и тенденций развития систем (ZRS)"@ru .
 
 tc:ZRTS
     od:includes tc:ZRTSLaws, tc:ZRTSTrends ;
     od:relatedTo tc:ZRTSApplication ;
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Complex of laws and trends in the development of technical systems (ZRTS)"@en, "Komplex der Gesetze und Trends der Entwicklung technischer Systeme (ZRTS)"@de, "Комплекс законов и тенденций развития технических систем (ZRTS)"@ru .
 
 tc:ZRTSApplication
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Anwendung der Gesetze der Entwicklung schöpferischer Persönlichkeiten"@de, "Application of the Laws of the Development of Creative Personalities"@en, "Применение законов развития творческих личностей"@ru .
 
 tc:ZRTSLaws
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Gesetze im Komplex der Entwicklung technischer Systeme (ZRTS)"@de, "Laws in the Complex of the Development of Technical Systems (ZRTS)"@en, "Законы в комплексе разработки технических систем (ЗРТС)"@ru .
 
 tc:ZRTSTrends
-    a skos:Concept ;
+    a skos:Concept, tc:TopLevelConcept ;
     skos:prefLabel "Trends im Komplex der Entwicklung technischer Systeme (ZRTS)"@de, "Trends in the complex of the development of technical systems (ZRTS)"@en, "Тенденции в комплексе развития технических систем (ЗРТС)"@ru .
 
