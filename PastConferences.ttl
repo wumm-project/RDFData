@@ -21,7 +21,7 @@
     rdfs:label "Moscow TRIZ Conference 2020" ;
     ical:description "Moscow TRIZ Conference 2020" ;
     ical:dtend "2020-11-29"^^xsd:date ;
-    ical:dtstart "2019-11-28"^^xsd:date ;
+    ical:dtstart "2020-11-28"^^xsd:date ;
     ical:location "Online, supported by TRIZ Club, Moscow, Russia" ;
     od:detailedReport <http://wumm.uni-leipzig.de/rdf/MTC-2020.rdf> ;
     ical:url <https://metodolog.ru/node/2200> .
