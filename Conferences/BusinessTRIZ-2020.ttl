@@ -80,7 +80,7 @@
     a od:Talk .
 
 :Talk_111
-    dcterms:creator odp:Domkin_KI, odp:Trostyanski_A ;
+    dcterms:creator odp:Domkin_KI, odp:Trostyansky_AG ;
     od:presentedBy odp:Domkin_KI ;
     od:urlVideo <https://www.youtube.com/watch?v=a9k_uEa4-o4> ;
     dcterms:title "Применение инструментов ТРИЗ для противодействия угроз работе коммерческих сетей"@ru, "Application of TRIZ tools to counter threats to commercial networks"@en ;

@@ -990,6 +990,7 @@ odp:Gorobchenko_SL
     foaf:name "S.L. Gorobchenko" .
 
 odp:Graebe_HG
+    dbo:birthDate "1955-11-13" ;
     a foaf:Person ;
     rdfs:seeAlso <https://orcid.org/0000-0002-3934-413X> ;
     foaf:affil "Leipzig, Germany" ;
@@ -2651,6 +2652,7 @@ odp:Royzen_ZY
 
 odp:Rubin_MS
     a foaf:Person ;
+    dbo:birthDate "1954-11-12" ;
     foaf:affil "St. Petersburg, Russia" ;
     foaf:fullname "Михаил Семенович Рубин"@ru ;
     foaf:homepage <https://www.facebook.com/mihail.rubin> ;
@@ -3251,11 +3253,11 @@ odp:Trigub_AV
     foaf:fullname "Александр Васильевич Тригуб"@ru ;
     foaf:name "Alexander V. Trigub" .
 
-odp:Trostyanski_A
+odp:Trostyansky_AG
     a foaf:Person ;
     foaf:affil "Moscow, Russia" ;
     foaf:fullname "Андрей Тростянский"@ru ;
-    foaf:name "Andrei Trostyanski" .
+    foaf:name "Andrei G. Trostyansky" .
 
 odp:Tsourikov_VM
     a foaf:Person ;

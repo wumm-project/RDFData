@@ -22,71 +22,83 @@
     dcterms:creator odp:Petrov_VM  ;
     dcterms:title "Некоторые аспекты в понятии система "@ru ;
     dcterms:title "Some aspects in the concept of a system"@en ;
+    dcterms:abstract "Статья посвящена уточнению понятие система и ее компонентов, используемых в ТРИЗ."@ru ; 
     a od:Talk .
 
 :Talk_101
     dcterms:creator odp:Minaker_VE  ;
     dcterms:title "Системы и Технические системы "@ru ;
     dcterms:title "Systems and Technical Systems"@en ;
+    dcterms:abstract "В докладе рассматриваются возможные варианты отнесения Систем к Техническим Системам, вопросы их классификации и достаточности известных инструментов ТРИЗ для выполнения эффективного анализа."@ru ; 
     a od:Talk .
 
 :Talk_102
     dcterms:creator odp:Bakhturin_DA  ;
     dcterms:title "Некоторые версии нетризовских системных представлений, по итогам докладов в Мос ТРИЗ клубе. "@ru ;
     dcterms:title "Some versions of non-TRIZ system views, based on the results of reports delivered to the Moscow TRIZ Club"@en ;
+    dcterms:abstract ""@ru ; 
     a od:Talk .
 
 :Talk_103
     dcterms:creator odp:Soushkov_VV  ;
     dcterms:title "Развитие структуры технической системы в соответствии с линией развития функциональности "@ru ;
     dcterms:title "Development of the structure of a technical system in accordance with the lines of development of its functionality"@en ;
+    dcterms:abstract "В современной ТРИЗ описаны разные линии развития ТС, в частности, ее структуры, формы, энергетических потоков. Подавляющее большинство технических систем создаются в утилитарном контексте для реализации некоей надсистемной цели или ряда надсистемных целей. Удовлетворение целей в рамках требуемых условий и ограничений осуществляется через функции, реализуемые ТС. Совокупность таких функций определяет общую функциональность ТС, развитие которой зависит от этапа S-кривой, на которой находится ТС. Соответственно, развитие функциональности ТС коррелирует с развитием структуры ТС. Данная работа предлагает линию развития функциональности ТС, включающую 18 шагов, где каждый шаг иллюстрируется соответствующим изменением в структуре ТС."@ru ; 
     a od:Talk .
 
 :Talk_104
     dcterms:creator odp:Lebedev_YV, odp:Mogilina_MN, odp:Mogilin_AA, odp:Panchikhin_EV ;
     dcterms:title "В защиту закона полноты частей системы. О применении закона в практических проектах"@ru ;
     dcterms:title "In defense of the law of completeness of system parts. On the application of the law in practical projects"@en ;
+    dcterms:abstract "В работе показаны возможности применения закона в анализе (выделение ключевых компонентов в существующих системах) и решении задач (синтез систем путем последовательного навешивания функций на доступные компоненты)."@ru ; 
     a od:Talk .
 
 :Talk_105
     dcterms:creator odp:Kudryavtsev_AV ;
     dcterms:title "Предельное состояние технических систем. Классы систем и траектории их развития "@ru ;
     dcterms:title "Limiting state of technical systems. Classes of systems and trajectories of their development"@en ;
+    dcterms:abstract "Рассмотрено понятие комплексного предела развития системы, возможные варианты описания таких пределов. Показана взаимозаменяемость ресурсов при реализации функций."@ru ; 
     a od:Talk .
 
 :Talk_106
     dcterms:creator odp:Nikitin_VN, odp:Bystritsky_AA  ;
     dcterms:title "Части технической системы и их функции "@ru ;
     dcterms:title "Parts of a technical systems and their functions"@en ;
+    dcterms:abstract "В работе рассматривается вопрос о частях ТС: двигателе, трансмиссии и рабочем органе, как о каналах, через которые проходит поток энергии при функционировании технической системы. Определяются специфические функции частей системы, выполняющие определённую роль в отношении потока энергии. Также в работе сопоставляются функции частей системы с главными функциями технических систем, и на этой основе предлагается классификация ТС."@ru ; 
     a od:Talk .
 
 :Talk_107
     dcterms:creator odp:Gafitulin_TM  ;
     dcterms:title "О новом понимании пути. Особенности движителя как рабочего органа транспортной системы "@ru ;
     dcterms:title "On a new understanding of paths. Specifics of the mover as working body of a transport system"@en ;
+    dcterms:abstract "В докладе предлагается классификация транспортных систем, рассматривается их устройство с точки зрения ЗРТС, обозначается методологическая проблема при выделении рабочего органа и предлагается её решение. Также эскизно даются вероятные линии развития транспортных систем."@ru ; 
     a od:Talk .
 
 :Talk_108
     dcterms:creator odp:Bakhturin_DA ;
     dcterms:title "Сравнение Функционального анализа Продукта и Функционального анализа Технологии, некоторые выводы и рекомендации"@ru ;
     dcterms:title "Comparison of Functional Analysis of the Product and Functional Analysis of the Technology, some conclusions and recommendations"@en ;
+    dcterms:abstract "Предложен механизм объединения Проведен поиск общего и предложена унифицированная схема проведения Функционального анализа изделия, и Функционального анализа Технологии."@ru ; 
     a od:Talk .
 
 :Talk_109
     dcterms:creator odp:Olikevich_AA ;
     dcterms:title "Практический подход к определению структуры технических систем "@ru ;
     dcterms:title "Practical approach to the definition of the structure of a technical systems"@en ;
+    dcterms:abstract "В практике разработки сложных программно-аппаратных комплексов опробованы разные подходы к определению структуры систем. Описана постепенная эволюция классической модели в сторону древовидной с явным выделением функциональных и обслуживающих подсистем, где последние играют роль адаптивной связующей прослойки. Рассмотрена эволюция характера рассматриваемых потоков между частями системы. "@ru ; 
     a od:Talk .
 
 :Talk_110
     dcterms:creator odp:Tokarev_AS, odp:Polonsky_LM ;
     dcterms:title "Расширенное описание систем"@ru ;
     dcterms:title "Extended description of systems"@en ;
+    dcterms:abstract "Предлагается вариант формирования языка описания Систем, основанный на функциональном подходе. Рассматривается расширение количества видов технических систем и вариант описания систем из различных сфер применения. Приводятся примеры описания и использование этих описаний для задач создания, модернизации и прогноза развития."@ru ; 
     a od:Talk .
 
 :Talk_111
     dcterms:creator odp:Domkin_KI, odp:Gerasimov_OM, odp:Severinets_GA, odp:Trostyansky_AG ;
     dcterms:title "Закономерности развития вредных систем "@ru ;
     dcterms:title "Laws of development of harmful systems"@en ;
+    dcterms:abstract "Исследуются закономерности развития вредных систем. Рассматривается вопрос множественности элементов вредных систем, когда одни и те же объекты являются элементами нескольких вредных систем."@ru ; 
     a od:Talk .
 

@@ -12,6 +12,12 @@
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://www.apache.org/licenses/LICENSE-2.0> .
 
+<http://opendiscovery.org/rdf/ConferenceSeries/MTC>
+    a od:ConferenceSeries ;
+    rdfs:label "Moscow TRIZ Conferences" ;
+    rdfs:seeAlso <https://metodolog.ru/> ;
+    od:description "This series of conferences is organized by the Moscow TRIZ Club." .
+
 <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit>
     a od:ConferenceSeries ;
     rdfs:label "TRIZ Developers Summit" ;
