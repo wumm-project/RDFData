@@ -73,17 +73,17 @@ odp:Akkubekov_PA
     foaf:name "Pavel Akkubekov" .
 
 odp:Altov_G
-    a foaf:Person ;
     dbo:birthDate "1926-10-15" ;
     dbo:deathDate "1998-09-24" ;
+    a foaf:Person ;
     rdfs:comment "Altshuller's pseudonym as author of fantasy" ;
     foaf:fullname "Г. Альтов"@ru ;
     foaf:name "Grigori Altov" .
 
 odp:Altshuller_GS
-    a foaf:Person ;
     dbo:birthDate "1926-10-15" ;
     dbo:deathDate "1998-09-24" ;
+    a foaf:Person ;
     foaf:fullname "Генрих Саулович Альтшуллер"@ru ;
     foaf:name "Genrich Saulowich Altshuller" .
 
@@ -134,15 +134,15 @@ odp:Axelrod_BM
     foaf:fullname "Борис Моисеевич Аксельрод"@ru ;
     foaf:name "Boris M. Axelrod" .
 
+odp:Azgaldov_G
+    a foaf:Person ;
+    foaf:name "Garry Azgaldov" .
+
 odp:Azizova_I
     a foaf:Person ;
     foaf:affil "St. Petersburg, Russia" ;
     foaf:fullname "Ирина Азизова"@ru ;
     foaf:name "Irina Azizova" .
-
-odp:Azgaldov_G
-    a foaf:Person ;
-    foaf:name "Garry Azgaldov" .
 
 odp:Baaijens_H
     a foaf:Person ;
@@ -863,6 +863,12 @@ odp:Gafitulin_MS
     foaf:fullname "Марат Семенович Гафитулин"@ru ;
     foaf:name "Marat S. Gafitulin" .
 
+odp:Gafitulin_TM
+    a foaf:Person ;
+    foaf:affil "Russia" ;
+    foaf:fullname "Гафитулин Т.М."@ru ;
+    foaf:name "T.M. Gafitulin" .
+
 odp:Galmadi_G
     a foaf:Person ;
     foaf:name "Gheorghe Galmadi" .
@@ -951,9 +957,9 @@ odp:Gladkov_AK
     foaf:name "Aleksandr Gladkov" .
 
 odp:Goldovsky_BI
-    a foaf:Person ;
     dbo:birthDate "1946-01-14" ;
     dbo:deathDate "2020-10-28" ;
+    a foaf:Person ;
     foaf:affil "Nishnyi Novgorod, Russia" ;
     foaf:fullname "Борис Израйлевич Голдовский"@ru ;
     foaf:name "Boris I. Goldovsky" .
@@ -1323,8 +1329,7 @@ odp:Kalish_VS
 
 odp:Kaliteevski_V
     a foaf:Person ;
-    foaf:affil "St. Petersburg, Russia" ;
-    foaf:affil "Lappeenranta, Finland" ;
+    foaf:affil "Lappeenranta, Finland", "St. Petersburg, Russia" ;
     foaf:name "Vasili Kaliteevski" .
 
 odp:Kaloshin_NG
@@ -1344,13 +1349,6 @@ odp:Kanaan_H
     a foaf:Person ;
     foaf:affil "St. Josephs Univ., Lebanon" ;
     foaf:name "Hadi Kanaan" .
-
-odp:Kamayev_VA
-    dbo:birthDate "1940-05-30" ;
-    dbo:deathDate "2016-09-13" ;
-    a foaf:Person ;
-    foaf:fullname "Валерий Анатольевич Камаев"@ru ;
-    foaf:name "Valeri A. Kamayev" .
 
 odp:Kandelinsky_S
     a foaf:Person ;
@@ -1426,23 +1424,23 @@ odp:Kengerli_TA
     foaf:fullname "Т.А. Кенгерли"@ru ;
     foaf:name "T.A. Kengerli" .
 
-odp:Kholkin_IN
-    a foaf:Person ;
-    foaf:affil "Moscow, Russia" ;
-    foaf:fullname "Игорь Николаевич Холкин"@ru ;
-    foaf:name "Igor Kholkin" .
-
 odp:Kharitonov_A
     a foaf:Person ;
     foaf:affil "Moscow, Russia" ;
     foaf:fullname "Антон Харитонов"@ru ;
     foaf:name "Anton Kharitonov" .
 
-odp:Khomenko_NN
+odp:Kholkin_IN
     a foaf:Person ;
+    foaf:affil "Moscow, Russia" ;
+    foaf:fullname "Игорь Николаевич Холкин"@ru ;
+    foaf:name "Igor Kholkin" .
+
+odp:Khomenko_NN
     dbo:birthDate "1954" ;
     dbo:deathDate "2011" ;
-    rdfs:seeAlso <http://www.trizminsk.org/d/Khomenko_Heritage(EN).pdf> ; 
+    a foaf:Person ;
+    rdfs:seeAlso <http://www.trizminsk.org/d/Khomenko_Heritage(EN).pdf> ;
     foaf:fullname "Николай Николаевич Хоменко"@ru ;
     foaf:name "Nikolai Khomenko" .
 
@@ -1714,9 +1712,9 @@ odp:Kuzmin_KI
     foaf:name "Konstantin I. Kuzmin" .
 
 odp:Kynin_AT
+    dbo:deathDate "2020-11-16" ;
     a foaf:Person ;
     foaf:affil "Russia" ;
-    dbo:deathDate "2020-11-16" ;
     foaf:fullname "Александр Тимофеевич Кынин"@ru ;
     foaf:name "Alexander Kynin" .
 
@@ -1976,15 +1974,15 @@ odp:Lyubomirsky_AL
     foaf:fullname "Александр Львович Любомирский"@ru ;
     foaf:name "Alexander L. Lyubomirsky" .
 
+odp:MacGran_E
+    a foaf:Person ;
+    foaf:name "E. MacGran" .
+
 odp:Maccioni_L
     a foaf:Person ;
     rdfs:seeAlso <http://orcid.org/0000-0002-2368-6821> ;
     foaf:affil "Bolzano, Italy" ;
     foaf:name "Lorenzo Maccioni" .
-
-odp:MacGran_E
-    a foaf:Person ;
-    foaf:name "E. MacGran" .
 
 odp:Magidenko_VY
     a foaf:Person ;
@@ -2039,15 +2037,15 @@ odp:Mansoor_M
     a foaf:Person ;
     foaf:name "Muhammad Mansoor" .
 
-odp:Markosov_SA
-    a foaf:Person ;
-    foaf:affil "Russia" ;
-    foaf:name "Sergey A. Markosov" .
-
 odp:Marchenko_G
     a foaf:Person ;
     foaf:affil "Russia" ;
     foaf:name "Galina Marchenko" .
+
+odp:Markosov_SA
+    a foaf:Person ;
+    foaf:affil "Russia" ;
+    foaf:name "Sergey A. Markosov" .
 
 odp:Martinovskij_G
     a foaf:Person ;
@@ -2188,6 +2186,18 @@ odp:Mlynarski_M
     foaf:fullname "Волюслав Владимирович Митрофанов"@ru ;
     foaf:name "Maciej Młynarski" .
 
+odp:Mogilin_AA
+    a foaf:Person ;
+    foaf:affil "Russia" ;
+    foaf:fullname "Могилин А.А."@ru ;
+    foaf:name "A.A. Mogilin" .
+
+odp:Mogilina_MN
+    a foaf:Person ;
+    foaf:affil "Russia" ;
+    foaf:fullname "Могилина М.Н."@ru ;
+    foaf:name "M.N. Mogilina" .
+
 odp:Mosman_P
     a foaf:Person ;
     foaf:affil "Krasnoyarsk, Russia" ;
@@ -2241,13 +2251,13 @@ odp:Nafi_A
     a foaf:Person ;
     foaf:name "Amir Nafi" .
 
-odp:Nagashiresha_G
-    a foaf:Person ;
-    foaf:name "G. Nagashiresha" .
-
 odp:Nagappan_A
     a foaf:Person ;
     foaf:name "A. Nagappan" .
+
+odp:Nagashiresha_G
+    a foaf:Person ;
+    foaf:name "G. Nagashiresha" .
 
 odp:Nakagawa_T
     a foaf:Person ;
@@ -2260,8 +2270,8 @@ odp:Nanrudaiyan_N
 
 odp:Narayan_PV
     a foaf:Person ;
-    foaf:homepage <http://trizassociation.org> ;
     foaf:affil "TRIZ Association of Asia, India" ;
+    foaf:homepage <http://trizassociation.org> ;
     foaf:name "P.V. Narayan" .
 
 odp:Narbut_AF
@@ -2342,6 +2352,12 @@ odp:Olariu_GV
     foaf:affil "Cluj-Napoca, Romania" ;
     foaf:name "Gabriela Vica Olariu" .
 
+odp:Olikevich_AA
+    a foaf:Person ;
+    foaf:affil "Russia" ;
+    foaf:fullname "Оликевич А.А."@ru ;
+    foaf:name "A.A. Olikevich" .
+
 odp:Orloff_MA
     a foaf:Person ;
     foaf:affil "Academy of Instrumental Modern TRIZ, Germany" ;
@@ -2375,6 +2391,12 @@ odp:Palcak_F
     a foaf:Person ;
     foaf:affil "Civic Association TRIZ SK, Slovak Republic" ;
     foaf:name "František Palčák" .
+
+odp:Panchikhin_EV
+    a foaf:Person ;
+    foaf:affil "Russia" ;
+    foaf:fullname "Панчихин Е.В."@ru ;
+    foaf:name "E.V. Panchikhin" .
 
 odp:Papini_F
     a foaf:Person ;
@@ -2459,14 +2481,14 @@ odp:Pevzner_LK
 odp:Phadnis_N
     a foaf:Person ;
     rdfs:seeAlso <http://orcid.org/0000-0003-0003-561X> ;
-    foaf:homepage <http://trizassociation.org> ;
     foaf:affil "TRIZ Association of Asia, India" ;
+    foaf:homepage <http://trizassociation.org> ;
     foaf:name "Nikhil Phadnis" .
 
 odp:Phadnis_S
     a foaf:Person ;
-    foaf:homepage <http://trizassociation.org> ;
     foaf:affil "TRIZ Association of Asia, India" ;
+    foaf:homepage <http://trizassociation.org> ;
     foaf:name "Shree Phadnis" .
 
 odp:Pheunghua_T
@@ -2529,6 +2551,12 @@ odp:Polkovnikov_I
     a foaf:Person ;
     foaf:name "Igor Polkovnikov" .
 
+odp:Polonsky_LM
+    a foaf:Person ;
+    foaf:affil "Russia" ;
+    foaf:fullname "Леонид Моисеевич Полонский"@ru ;
+    foaf:name "L.M. Polonsky" .
+
 odp:Pomeranets_MS
     a foaf:Person ;
     foaf:fullname "М.С. Померанец"@ru ;
@@ -2584,14 +2612,14 @@ odp:Qin_L
     a foaf:Person ;
     foaf:name "Liu Qin" .
 
+odp:Rabchynskaya_K
+    a foaf:Person ;
+    foaf:name "Kseniya Rabchynskaya" .
+
 odp:Rahim_ZA
     a foaf:Person ;
     foaf:affil "Proton Holding, Malaysia" ;
     foaf:name "Zulhasni Abdul Rahim" .
-
-odp:Rabchynskaya_K
-    a foaf:Person ;
-    foaf:name "Kseniya Rabchynskaya" .
 
 odp:Rajan_S
     a foaf:Person ;
@@ -2640,19 +2668,19 @@ odp:Roxas_JPB
     foaf:affil "University of the Philippines, Philippines" ;
     foaf:name "Joseph Patrick B. Roxas" .
 
-odp:Rubanov_IS
-    a foaf:Person ;
-    foaf:name "Ivan Rubanov" .
-
 odp:Royzen_ZY
     a foaf:Person ;
     foaf:affil "Moldova" ;
     foaf:fullname "Зиновий Ефимович Ройзен"@ru ;
     foaf:name "Zinovy Royzen" .
 
-odp:Rubin_MS
+odp:Rubanov_IS
     a foaf:Person ;
+    foaf:name "Ivan Rubanov" .
+
+odp:Rubin_MS
     dbo:birthDate "1954-11-12" ;
+    a foaf:Person ;
     foaf:affil "St. Petersburg, Russia" ;
     foaf:fullname "Михаил Семенович Рубин"@ru ;
     foaf:homepage <https://www.facebook.com/mihail.rubin> ;
@@ -3000,14 +3028,14 @@ odp:Skuratovich_AI
     foaf:fullname "Александр Иванович Скуратович"@ru ;
     foaf:name "Alexander Skuratovich" .
 
+odp:Slocum_M
+    a foaf:Person ;
+    foaf:name "M. Slocum" .
+
 odp:Slugin_GI
     a foaf:Person ;
     foaf:fullname "Г.И. Слугин"@ru ;
     foaf:name "G.I. Slugin" .
-
-odp:Slocum_M
-    a foaf:Person ;
-    foaf:name "M. Slocum" .
 
 odp:Smirnov_EE
     a foaf:Person ;
@@ -3241,6 +3269,12 @@ odp:Toeters_M
     foaf:affil "by-wire.net, The Netherlands" ;
     foaf:name "Marina Toeters" .
 
+odp:Tokarev_AS
+    a foaf:Person ;
+    foaf:affil "Russia" ;
+    foaf:fullname "Александр Сергеевич Токарев"@ru ;
+    foaf:name "A.S. Tokarev" .
+
 odp:Torgashev_AS
     a foaf:Person ;
     foaf:affil "Russia" ;
@@ -3323,8 +3357,8 @@ odp:Viik_R
 odp:Vikentiev_IL
     a foaf:Person ;
     foaf:affil "Russia" ;
-    foaf:homepage <https://vikent.ru> ; 
     foaf:fullname "Игорь Леонардович Викентьев"@ru ;
+    foaf:homepage <https://vikent.ru> ;
     foaf:name "Igor L. Vikentiev" .
 
 odp:Villarroe_JRE
@@ -3410,8 +3444,8 @@ odp:Wang_YW
 
 odp:Wankhade_SH
     a foaf:Person ;
-    foaf:homepage <http://trizassociation.org> ;
     foaf:affil "TRIZ Association of Asia, India" ;
+    foaf:homepage <http://trizassociation.org> ;
     foaf:name "Sandeep H. Wankhade" .
 
 odp:Weber_O

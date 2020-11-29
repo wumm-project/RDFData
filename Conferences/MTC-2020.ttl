@@ -14,9 +14,8 @@
     rdfs:label "Moscow TRIZ Conference 2020" ;
     ical:description "Moscow TRIZ Conference 2020" ;
     ical:dtend "2020-11-29"^^xsd:date ;
-    ical:dtstart "2019-11-28"^^xsd:date ;
-    ical:location "Online, supported by TRIZ Club, Moscow, Russia" ;
-    ical:url <https://triz-summit.ru/confer/tds-2020/> .
+    ical:dtstart "2020-11-28"^^xsd:date ;
+    ical:location "Online, supported by TRIZ Club, Moscow, Russia"  .
 
 :Talk_100
     dcterms:creator odp:Petrov_VM  ;
@@ -36,7 +35,7 @@
     dcterms:creator odp:Bakhturin_DA  ;
     dcterms:title "Некоторые версии нетризовских системных представлений, по итогам докладов в Мос ТРИЗ клубе. "@ru ;
     dcterms:title "Some versions of non-TRIZ system views, based on the results of reports delivered to the Moscow TRIZ Club"@en ;
-    dcterms:abstract ""@ru ; 
+    dcterms:abstract "В работе представлены и кратко охарактеризованы некоторые версии представлений о системах и технических системах из различных интеллектуальных традиций"@ru ; 
     a od:Talk .
 
 :Talk_103
