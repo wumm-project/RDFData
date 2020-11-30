@@ -40,6 +40,7 @@ dcterms:creator odp:Chybowski_L, odp:Gawdzinska_K, odp:Przetakiewicz_W .
 dcterms:creator odp:Liu_MY . 
 
 :Paper_105 a od:Paper;
+rdfs:comment "Republished in TRIZ Review 1, Febr. 2019"; 
  dcterms:title "Application of TRIZ in business systems";
 dcterms:creator odp:Boika_S, odp:Kuryan_AG, odp:Ogievich_D . 
 
@@ -80,6 +81,7 @@ dcterms:creator odp:Obojski_J .
 dcterms:creator odp:Phadnis_S . 
 
 :Paper_115 a od:Paper;
+rdfs:comment "Republished in TRIZ Review 1, Febr. 2019"; 
  dcterms:title "Evolution map based in advance invention, process and case studies";
 dcterms:creator odp:Song_MJ, odp:Jang_D, odp:Jang_S, odp:Heo_C, odp:Son_DI, odp:Cho_C, odp:Kim_B, odp:Seo_J . 
 
@@ -108,6 +110,7 @@ dcterms:creator odp:Schmidt_A, odp:Thurnes_C, odp:Naether_S .
 dcterms:creator odp:Mayer_O . 
 
 :Paper_122 a od:Paper;
+rdfs:comment "Republished in TRIZ Review 1, Febr. 2019"; 
  dcterms:title "Initial disadvantages identification";
 dcterms:creator odp:Sun_YW . 
 
@@ -132,6 +135,7 @@ dcterms:creator odp:Feygenson_ON, odp:Feygenson_NB .
 dcterms:creator odp:Lok_A . 
 
 :Paper_128 a od:Paper;
+rdfs:comment "Republished in TRIZ Review 1, Febr. 2019";
  dcterms:title "Nature as a source of function-leading areas for FOS-derived solutions";
 dcterms:creator odp:Savelli_S, odp:Abramov_OY . 
 
@@ -140,8 +144,9 @@ dcterms:creator odp:Savelli_S, odp:Abramov_OY .
 dcterms:creator odp:Souchkov_VV . 
 
 :Paper_130 a od:Paper;
+rdfs:comment "Republished in TRIZ Review 1, Febr. 2019";
  dcterms:title "Open innovation: TRIZ approach vs. crowd sourcing";
-dcterms:creator odp:Litvin_SS . 
+dcterms:creator odp:Litvin_SS, odp:Rutten_P . 
 
 :Paper_131 a od:Paper;
  dcterms:title "Open TRIZ second wave. TRIZ & toc tool";

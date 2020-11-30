@@ -84,6 +84,7 @@ dcterms:creator odp:Liu_MY, odp:Liu_BY .
 dcterms:creator odp:Fan_J, odp:Wenxin_C, odp:Zhijun_Z, odp:Yijun_W . 
 
 :Paper_116 a od:Paper;
+rdfs:comment "Republished in TRIZ Review 1, Febr. 2019"; 
  dcterms:title "Developing creative and critical thinking skills in next generation workforce";
 dcterms:creator odp:Barkan_MG, odp:Guin_AA . 
 
@@ -140,6 +141,7 @@ dcterms:creator odp:Bo_X, odp:Tan_RH, odp:Qin_L .
 dcterms:creator odp:Kim_SJ . 
 
 :Paper_130 a od:Paper;
+rdfs:comment "Republished in TRIZ Review 1, Febr. 2019";
  dcterms:title "Solving the toner adhesion problem to cyclone in toner manufacturing plant";
 dcterms:creator odp:Kang_SW, odp:Kim_JH . 
 
@@ -168,6 +170,7 @@ dcterms:creator odp:Mayer_O .
 dcterms:creator odp:Nagashiresha_G, odp:Mewani_V . 
 
 :Paper_137 a od:Paper;
+rdfs:comment "Republished in TRIZ Review 1, Febr. 2019";
  dcterms:title "TRIZ and value engineering: deeper integration as innovation enhancer";
 dcterms:creator odp:Bertoncelli_T, odp:Nanrudaiyan_N, odp:Mainardi_P, odp:Simpson_M, odp:Gardner_M, odp:Mayer_O . 
 

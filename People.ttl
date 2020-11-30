@@ -2707,6 +2707,11 @@ odp:Russo_D
     foaf:affil "Bergamo, Italy" ;
     foaf:name "Davide Russo" .
 
+odp:Rutten_P
+    a foaf:Person ;
+    foaf:affil "IDC Technologies, Boston, MA, USA" ;
+    foaf:name "Peter Rutten" .
+
 odp:Ryabchuk_A
     a foaf:Person ;
     foaf:affil "CTTIT, St. Peterburg, Russia" ;

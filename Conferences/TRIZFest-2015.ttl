@@ -32,6 +32,7 @@ dcterms:creator odp:Zhao_MM, odp:Zhang_W .
 dcterms:creator odp:Izumi_H, odp:Sawaguchi_M . 
 
 :Paper_103 a od:Paper;
+rdfs:comment "Republished in TRIZ Review 1, Febr. 2019"; 
  dcterms:title "Advanced Function Approach in Modern TRIZ";
 dcterms:creator odp:Feygenson_ON, odp:Feygenson_NB . 
 
@@ -44,6 +45,7 @@ dcterms:creator odp:Hongyul_Y .
 dcterms:creator odp:Lok_A . 
 
 :Paper_106 a od:Paper;
+rdfs:comment "Republished in TRIZ Review 1, Febr. 2019"; 
  dcterms:title "Applying TRIZ Across Companies";
 dcterms:creator odp:Mayer_O, odp:Bertoncelli_T, odp:Gardner_M, odp:Adunka_R . 
 
@@ -120,6 +122,7 @@ dcterms:creator odp:Benjaboonyazit_T .
 dcterms:creator odp:Savelli_S, odp:Feygenson_ON . 
 
 :Paper_125 a od:Paper;
+rdfs:comment "Republished in TRIZ Review 1, Febr. 2019";
  dcterms:title "Systematic Business Innovation: a Roadmap";
 dcterms:creator odp:Souchkov_VV . 
 
@@ -168,6 +171,7 @@ dcterms:creator odp:Abramov_OY .
 dcterms:creator odp:Emmanuel_T, odp:Zhao_XJ . 
 
 :Paper_137 a od:Paper;
+rdfs:comment "Republished in TRIZ Review 1, Febr. 2019";
  dcterms:title "Universal Unsolvable Problem and Process of Resolving It";
 dcterms:creator odp:Kaplan_LA, odp:Cho_S, odp:Prevost_E . 
 
