@@ -15,89 +15,77 @@
     ical:description "Moscow TRIZ Conference 2020" ;
     ical:dtend "2020-11-29"^^xsd:date ;
     ical:dtstart "2020-11-28"^^xsd:date ;
-    ical:location "Online, supported by TRIZ Club, Moscow, Russia"  .
+    ical:location "Online, supported by TRIZ Club, Moscow, Russia" .
 
 :Talk_100
-    dcterms:creator odp:Petrov_VM  ;
-    dcterms:title "Некоторые аспекты в понятии система "@ru ;
-    dcterms:title "Some aspects in the concept of a system"@en ;
-    dcterms:abstract "Статья посвящена уточнению понятие система и ее компонентов, используемых в ТРИЗ."@ru ; 
+    dcterms:abstract "Der Artikel ist der Klärung des Konzepts des Systems und seiner Komponenten gewidmet, das in der TRIZ verwendet wird."@de, "The article is dedicated to clarifying the concept of the system and its components used in TRIZ."@en, "Статья посвящена уточнению понятие система и ее компонентов, используемых в ТРИЗ."@ru ;
+    dcterms:creator odp:Petrov_VM ;
+    dcterms:title "Some aspects in the concept of a system"@en, "Некоторые аспекты в понятии система "@ru ;
     a od:Talk .
 
 :Talk_101
-    dcterms:creator odp:Minaker_VE  ;
-    dcterms:title "Системы и Технические системы "@ru ;
-    dcterms:title "Systems and Technical Systems"@en ;
-    dcterms:abstract "В докладе рассматриваются возможные варианты отнесения Систем к Техническим Системам, вопросы их классификации и достаточности известных инструментов ТРИЗ для выполнения эффективного анализа."@ru ; 
+    dcterms:abstract "Der Bericht befasst sich mit möglichen Varianten der Beziehungen zwischen allgemeinen und technischen Systemen, mit Fragen ihrer Klassifizierung und mit der Eignung bekannter TRIZ-Tools zur Durchführung einer effektiven Analyse."@de, "The report discusses possible options for classifying general and technical Systems, discusses issues of their classification and the sufficiency of known TRIZ tools to perform an effective analysis."@en, "В докладе рассматриваются возможные варианты отнесения Систем к Техническим Системам, вопросы их классификации и достаточности известных инструментов ТРИЗ для выполнения эффективного анализа."@ru ;
+    dcterms:creator odp:Minaker_VE ;
+    dcterms:title "Systems and Technical Systems"@en, "Системы и Технические системы "@ru ;
     a od:Talk .
 
 :Talk_102
-    dcterms:creator odp:Bakhturin_DA  ;
-    dcterms:title "Некоторые версии нетризовских системных представлений, по итогам докладов в Мос ТРИЗ клубе. "@ru ;
-    dcterms:title "Some versions of non-TRIZ system views, based on the results of reports delivered to the Moscow TRIZ Club"@en ;
-    dcterms:abstract "В работе представлены и кратко охарактеризованы некоторые версии представлений о системах и технических системах из различных интеллектуальных традиций"@ru ; 
+    dcterms:abstract "Das Werk präsentiert und beschreibt kurz einige Versionen der Ideen über Systeme und technische Systeme aus verschiedenen intellektuellen Traditionen."@de, "The work presents and briefly describes some versions of the concepts of systems and technical systems from different intellectual traditions."@en, "В работе представлены и кратко охарактеризованы некоторые версии представлений о системах и технических системах из различных интеллектуальных традиций."@ru ;
+    dcterms:creator odp:Bakhturin_DA ;
+    dcterms:title "Some versions of non-TRIZ system views, based on the results of reports delivered to the Moscow TRIZ Club"@en, "Некоторые версии нетризовских системных представлений, по итогам докладов в Мос ТРИЗ клубе. "@ru ;
     a od:Talk .
 
 :Talk_103
-    dcterms:creator odp:Souchkov_VV  ;
-    dcterms:title "Развитие структуры технической системы в соответствии с линией развития функциональности "@ru ;
-    dcterms:title "Development of the structure of a technical system in accordance with the lines of development of its functionality"@en ;
-    dcterms:abstract "В современной ТРИЗ описаны разные линии развития ТС, в частности, ее структуры, формы, энергетических потоков. Подавляющее большинство технических систем создаются в утилитарном контексте для реализации некоей надсистемной цели или ряда надсистемных целей. Удовлетворение целей в рамках требуемых условий и ограничений осуществляется через функции, реализуемые ТС. Совокупность таких функций определяет общую функциональность ТС, развитие которой зависит от этапа S-кривой, на которой находится ТС. Соответственно, развитие функциональности ТС коррелирует с развитием структуры ТС. Данная работа предлагает линию развития функциональности ТС, включающую 18 шагов, где каждый шаг иллюстрируется соответствующим изменением в структуре ТС."@ru ; 
+    dcterms:abstract "In der modernen TRIZ werden verschiedene Entwicklungslinien TS beschrieben, insbesondere ihre Struktur, Form, Energieflüsse. Die überwältigende Mehrheit der technischen Systeme wird in einem utilitaristischen Kontext für die Realisierung eines oder mehrerer übergeordneter Ziele geschaffen. Die Befriedigung der Ziele innerhalb der erforderlichen Bedingungen und Einschränkungen wird durch die vom TS implementierten Funktionen erreicht. Der Satz solcher Funktionen bestimmt die allgemeine Funktionalität der TS, deren Entwicklung von der Stufe der S-Kurve abhängt, auf welcher sich das TS befindet. Dementsprechend korreliert die Entwicklung der Funktionalität mit der Entwicklung der Struktur. Dieser Aufsatz schlägt eine Linie der TS-Funktionalitätsentwicklung vor, die 18 Schritte umfasst, wobei jeder Schritt durch eine entsprechende Änderung in der TS-Struktur veranschaulicht wird. "@de, "Modern TRIZ describes the different lines of development of TS, in particular its structure, forms and energy flows. The overwhelming majority of technical systems are created in a utilitarian context for the implementation of a certain supersystem goal or a number of supersystem goals. The satisfaction of the objectives within the required conditions and restrictions is carried out through the functions implemented by the TS. The totality of such functions determines the general functionality of the TS, the development of which depends on the stage of the S-curve on which the TS is located. Accordingly, the development of the TS functionality correlates with the development of the TS structure. This paper proposes a line of development of the TS functionality, which includes 18 steps, where each step is illustrated by a corresponding change in the TS structure."@en, "В современной ТРИЗ описаны разные линии развития ТС, в частности, ее структуры, формы, энергетических потоков. Подавляющее большинство технических систем создаются в утилитарном контексте для реализации некоей надсистемной цели или ряда надсистемных целей. Удовлетворение целей в рамках требуемых условий и ограничений осуществляется через функции, реализуемые ТС. Совокупность таких функций определяет общую функциональность ТС, развитие которой зависит от этапа S-кривой, на которой находится ТС. Соответственно, развитие функциональности ТС коррелирует с развитием структуры ТС. Данная работа предлагает линию развития функциональности ТС, включающую 18 шагов, где каждый шаг иллюстрируется соответствующим изменением в структуре ТС."@ru ;
+    dcterms:creator odp:Souchkov_VV ;
+    dcterms:title "Development of the structure of a technical system in accordance with the lines of development of its functionality"@en, "Развитие структуры технической системы в соответствии с линией развития функциональности "@ru ;
     a od:Talk .
 
 :Talk_104
-    dcterms:creator odp:Lebedev_YV, odp:Mogilina_MN, odp:Mogilin_AA, odp:Panchikhin_EV ;
-    dcterms:title "В защиту закона полноты частей системы. О применении закона в практических проектах"@ru ;
-    dcterms:title "In defense of the law of completeness of system parts. On the application of the law in practical projects"@en ;
-    dcterms:abstract "В работе показаны возможности применения закона в анализе (выделение ключевых компонентов в существующих системах) и решении задач (синтез систем путем последовательного навешивания функций на доступные компоненты)."@ru ; 
+    dcterms:abstract "In der Arbeit werden die Möglichkeiten der Anwendung des Gesetzes bei der Analyse (Hervorhebung von Schlüsselkomponenten in bestehenden Systemen) und der Problemlösung (Synthese von Systemen durch schrittweises Anhängen von Funktionen an verfügbaren Komponenten) gezeigt."@de, "The paper shows how the law can be applied in analysis (highlighting key components in existing systems) and problem solving (synthesizing systems by successively hanging functions on available components)."@en, "В работе показаны возможности применения закона в анализе (выделение ключевых компонентов в существующих системах) и решении задач (синтез систем путем последовательного навешивания функций на доступные компоненты)."@ru ;
+    dcterms:creator odp:Lebedev_YV, odp:Mogilin_AA, odp:Mogilina_MN, odp:Panchikhin_EV ;
+    dcterms:title "In defense of the law of completeness of system parts. On the application of the law in practical projects"@en, "В защиту закона полноты частей системы. О применении закона в практических проектах"@ru ;
     a od:Talk .
 
 :Talk_105
+    dcterms:abstract "Es wird das Konzept einer komplexen Grenze der Systementwicklung betrachtet, sowie mögliche Varianten der Beschreibung solcher Grenzen. Es wird die Austauschbarkeit von Ressourcen bei der Implementierung von Funktionen gezeigt."@de, "The concept of a complex limit of the system's development has been considered, as well as possible options for describing such limits. The interchangeability of resources in the implementation of functions is shown."@en, "Рассмотрено понятие комплексного предела развития системы, возможные варианты описания таких пределов. Показана взаимозаменяемость ресурсов при реализации функций."@ru ;
     dcterms:creator odp:Kudryavtsev_AV ;
-    dcterms:title "Предельное состояние технических систем. Классы систем и траектории их развития "@ru ;
-    dcterms:title "Limiting state of technical systems. Classes of systems and trajectories of their development"@en ;
-    dcterms:abstract "Рассмотрено понятие комплексного предела развития системы, возможные варианты описания таких пределов. Показана взаимозаменяемость ресурсов при реализации функций."@ru ; 
+    dcterms:title "Limiting state of technical systems. Classes of systems and trajectories of their development"@en, "Предельное состояние технических систем. Классы систем и траектории их развития "@ru ;
     a od:Talk .
 
 :Talk_106
-    dcterms:creator odp:Nikitin_VN, odp:Bystritsky_AA  ;
-    dcterms:title "Части технической системы и их функции "@ru ;
-    dcterms:title "Parts of a technical systems and their functions"@en ;
-    dcterms:abstract "В работе рассматривается вопрос о частях ТС: двигателе, трансмиссии и рабочем органе, как о каналах, через которые проходит поток энергии при функционировании технической системы. Определяются специфические функции частей системы, выполняющие определённую роль в отношении потока энергии. Также в работе сопоставляются функции частей системы с главными функциями технических систем, и на этой основе предлагается классификация ТС."@ru ; 
+    dcterms:abstract "Die Arbeit befasst sich mit der Frage der Teile eines TS: Beweger, Transmission und Arbeitskörper, als Kanäle, durch die Energie während des Betriebs des technischen Systems fließt. Spezifische Funktionen von Teilen des Systems, die in Bezug auf den Energiefluss eine bestimmte Rolle spielen, werden definiert. Auch werden in der Arbeit Funktionen von Systemteilen mit den Hauptfunktionen technischer Systeme verglichen, und auf dieser Grundlage wird eine Klassifizierung TS vorgeschlagen. "@de, "The work deals with parts of a TS: engine, transmission and working body as channels through which energy flows when the technical system is in operation. It defines the specific functions of the parts of the system that have a specific role in relation to the energy flow. The functions of the system parts are also compared to the main functions of the technical systems, and on this basis the classification of the TS is proposed."@en, "В работе рассматривается вопрос о частях ТС: двигателе, трансмиссии и рабочем органе, как о каналах, через которые проходит поток энергии при функционировании технической системы. Определяются специфические функции частей системы, выполняющие определённую роль в отношении потока энергии. Также в работе сопоставляются функции частей системы с главными функциями технических систем, и на этой основе предлагается классификация ТС."@ru ;
+    dcterms:creator odp:Bystritsky_AA, odp:Nikitin_VN ;
+    dcterms:title "Parts of a technical systems and their functions"@en, "Части технической системы и их функции "@ru ;
     a od:Talk .
 
 :Talk_107
-    dcterms:creator odp:Gafitulin_TM  ;
-    dcterms:title "О новом понимании пути. Особенности движителя как рабочего органа транспортной системы "@ru ;
-    dcterms:title "On a new understanding of paths. Specifics of the mover as working body of a transport system"@en ;
-    dcterms:abstract "В докладе предлагается классификация транспортных систем, рассматривается их устройство с точки зрения ЗРТС, обозначается методологическая проблема при выделении рабочего органа и предлагается её решение. Также эскизно даются вероятные линии развития транспортных систем."@ru ; 
+    dcterms:abstract "Im Bericht wird eine Klassifizierung von Verkehrssystemen vorgeschlagen, ihre Struktur aus der Sicht des Gesetze der Entwicklung technischer Systeme  betrachtet, das methodische Problem bei der Zuweisung eines Arbeitsorgans benannt und eine Lösung vorgeschlagen. Auch wahrscheinliche Entwicklungslinien von Transportsystemen werden skizziert."@de, "The report proposes the classification of transport systems, considers their arrangement from the point of view of the Laws of Development of Technical Systems, indicates the methodological problem in the allocation of the working body and proposes its solution. The probable lines of development of transport systems are also sketched out."@en, "В докладе предлагается классификация транспортных систем, рассматривается их устройство с точки зрения ЗРТС, обозначается методологическая проблема при выделении рабочего органа и предлагается её решение. Также эскизно даются вероятные линии развития транспортных систем."@ru ;
+    dcterms:creator odp:Gafitulin_TM ;
+    dcterms:title "On a new understanding of paths. Specifics of the mover as working body of a transport system"@en, "О новом понимании пути. Особенности движителя как рабочего органа транспортной системы "@ru ;
     a od:Talk .
 
 :Talk_108
+    dcterms:abstract "Es wird der Mechanismus der Vereinigung beider Sichten vorgeschlagen. Es wird Gemeinsames herausgesucht und ein vereinheitlichtes Schema der Durchführung der Funktionsanalyse eines Produktes, sowie der Funktionsanalyse der Technologie vorgeschlagen."@de, "A merger mechanism between both analyses is proposed. We search for common elements and propose an uniform scheme for the Functional Analysis of the Product and the Functional Analysis of Technology."@en, "Предложен механизм объединения. Проведен поиск общего и предложена унифицированная схема проведения Функционального анализа изделия, и Функционального анализа Технологии."@ru ;
     dcterms:creator odp:Bakhturin_DA ;
-    dcterms:title "Сравнение Функционального анализа Продукта и Функционального анализа Технологии, некоторые выводы и рекомендации"@ru ;
-    dcterms:title "Comparison of Functional Analysis of the Product and Functional Analysis of the Technology, some conclusions and recommendations"@en ;
-    dcterms:abstract "Предложен механизм объединения Проведен поиск общего и предложена унифицированная схема проведения Функционального анализа изделия, и Функционального анализа Технологии."@ru ; 
+    dcterms:title "Comparison of Functional Analysis of the Product and Functional Analysis of the Technology, some conclusions and recommendations"@en, "Сравнение Функционального анализа Продукта и Функционального анализа Технологии, некоторые выводы и рекомендации"@ru ;
     a od:Talk .
 
 :Talk_109
+    dcterms:abstract "In der Praxis der Entwicklung komplexer Hardware-Software-Lösungen sind verschiedene Ansätze zur Definition der Struktur von Systemen getestet worden. Die schrittweise Entwicklung des klassischen Modells hin zu einem Baummodell mit einer expliziten Zuordnung von Funktions- und unterstützenden Systemen wird beschrieben, wobei letztere die Rolle der adaptiven Bindungsschicht spielen. Die Entwicklung des Charakters der betrachteten Ströme zwischen Teilen des Systems wird betrachtet. "@de, "In the practice of developing complex hardware and software systems, different approaches to defining the structure of systems have been tested. The gradual evolution of the classical model towards a tree-like one is described, with a clear distinction between functional and service subsystems, where the latter play the role of an adaptive bonding layer. The evolution of the nature of the flows under consideration between parts of the system is considered. "@en, "В практике разработки сложных программно-аппаратных комплексов опробованы разные подходы к определению структуры систем. Описана постепенная эволюция классической модели в сторону древовидной с явным выделением функциональных и обслуживающих подсистем, где последние играют роль адаптивной связующей прослойки. Рассмотрена эволюция характера рассматриваемых потоков между частями системы. "@ru ;
     dcterms:creator odp:Olikevich_AA ;
-    dcterms:title "Практический подход к определению структуры технических систем "@ru ;
-    dcterms:title "Practical approach to the definition of the structure of a technical systems"@en ;
-    dcterms:abstract "В практике разработки сложных программно-аппаратных комплексов опробованы разные подходы к определению структуры систем. Описана постепенная эволюция классической модели в сторону древовидной с явным выделением функциональных и обслуживающих подсистем, где последние играют роль адаптивной связующей прослойки. Рассмотрена эволюция характера рассматриваемых потоков между частями системы. "@ru ; 
+    dcterms:title "Practical approach to the definition of the structure of a technical systems"@en, "Практический подход к определению структуры технических систем "@ru ;
     a od:Talk .
 
 :Talk_110
-    dcterms:creator odp:Tokarev_AS, odp:Polonsky_LM ;
-    dcterms:title "Расширенное описание систем"@ru ;
-    dcterms:title "Extended description of systems"@en ;
-    dcterms:abstract "Предлагается вариант формирования языка описания Систем, основанный на функциональном подходе. Рассматривается расширение количества видов технических систем и вариант описания систем из различных сфер применения. Приводятся примеры описания и использование этих описаний для задач создания, модернизации и прогноза развития."@ru ; 
+    dcterms:abstract "A functional approach is proposed to form a description language for systems. An expansion of the number of types of technical systems and a description of systems from various applications are considered. Examples of description and use of these descriptions for tasks of creation, modernisation and development forecasting are given."@en, "Es wird eine Beschreibungssprache für Systeme vorgeschlagen, die auf einem funktionalen Ansatz basiert. Die Erweiterung der Anzahl der Typen technischer Systeme und die Variante der Beschreibung von Systemen aus verschiedenen Anwendungsbereichen werden betrachtet. Es werden Beispiele für die Beschreibung und die Verwendung dieser Beschreibungen für Aufgaben der Schöpfung, Modernisierung und Entwicklungsprognose gegeben."@de, "Предлагается вариант формирования языка описания Систем, основанный на функциональном подходе. Рассматривается расширение количества видов технических систем и вариант описания систем из различных сфер применения. Приводятся примеры описания и использование этих описаний для задач создания, модернизации и прогноза развития."@ru ;
+    dcterms:creator odp:Polonsky_LM, odp:Tokarev_AS ;
+    dcterms:title "Extended description of systems"@en, "Расширенное описание систем"@ru ;
     a od:Talk .
 
 :Talk_111
+    dcterms:abstract "Die Entwicklungsmuster schädlicher Systeme werden untersucht. Die Frage der Pluralität von Elementen schädlicher Systeme wird in Betracht gezogen, wenn die gleichen Objekte Elemente mehrerer schädlicher Systeme sind."@de, "The development patterns of harmful systems are investigated. The question of plurality of elements of harmful systems is considered, when the same objects are elements of several harmful systems."@en, "Исследуются закономерности развития вредных систем. Рассматривается вопрос множественности элементов вредных систем, когда одни и те же объекты являются элементами нескольких вредных систем."@ru ;
     dcterms:creator odp:Domkin_KI, odp:Gerasimov_OM, odp:Severinets_GA, odp:Trostyansky_AG ;
-    dcterms:title "Закономерности развития вредных систем "@ru ;
-    dcterms:title "Laws of development of harmful systems"@en ;
-    dcterms:abstract "Исследуются закономерности развития вредных систем. Рассматривается вопрос множественности элементов вредных систем, когда одни и те же объекты являются элементами нескольких вредных систем."@ru ; 
+    dcterms:title "Laws of development of harmful systems"@en, "Закономерности развития вредных систем "@ru ;
     a od:Talk .
 
