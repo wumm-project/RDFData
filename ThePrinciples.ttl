@@ -47,7 +47,7 @@ odq:Separation
     od:hasAltshuller73Id "02" ;
     od:hasAltshuller84Id "02" ;
     a od:Principle ;
-    rdfs:label "Principle of separation"@en, "Prinzip der Abtrennung"@de, "Приём вынесения"@ru .
+    rdfs:label "Principle of separation"@en, "Gesonderte Behandlung"@de, "Prinzip der Abtrennung"@de, "Приём вынесения"@ru .
 
 odq:Separation_1 a od:Recommendation; 
     od:description "Remove the disturbing part or property from the object."@en, "Trenne vom Objekt das störende Teil, die störende Eigenschaft, ab."@de, "Из объекта отделить мешающую часть с вредным свойством."@ru .
@@ -145,7 +145,7 @@ odq:PreferredAction
     od:hasAltshuller73Id "10" ;
     od:hasAltshuller84Id "10" ;
     a od:Principle ;
-    rdfs:label "Principle of the preferred action"@en, "Prinzip der vorherigen Wirkung"@de, "Приём предварительного действия (заранее выполненное действие)"@ru .
+    rdfs:label "Principle of the preferred action"@en, "Vorfertigung"@de, "Prinzip der vorherigen Wirkung"@de, "Приём предварительного действия (заранее выполненное действие)"@ru .
 
 odq:PreferredAction_1 a od:Recommendation; 
     od:description "Bereite die Objekte vorab so vor, dass sie ohne Zeitverlust vom geeignetsten Ort aus wirken können."@de, "Prepare the objects in advance in such a way that they can work without delay at the most suitable place."@en, "Объекты сначала должны быть настроены таким образом, чтобы они могли работать без задержки из наиболее подходящего места."@ru .
@@ -171,7 +171,7 @@ odq:Equipotentiality
     od:hasAltshuller73Id "12" ;
     od:hasAltshuller84Id "12" ;
     a od:Principle ;
-    rdfs:label "Principle of Equipotentiality"@en, "Prinzip der Äquipotenzialität"@de, "Приём эквипотенциальности"@ru .
+    rdfs:label "Principle of Equipotentiality"@en, "Äquipotentieller Transport"@de, "Prinzip der Äquipotenzialität"@de, "Приём эквипотенциальности"@ru .
 
 odq:Equipotentiality_1 a od:Recommendation; 
     od:description "Verändere die Arbeitsbedingungen so, dass das Objekt mit konstantem Energiepotenzial arbeiten kann, z.B. nicht angehoben oder herabgelassen werden muss."@de, "Change the working conditions in such a way that the object can work with a constant energy potential, and has not to be raised or lowered."@en, "Рабочие условия должны быть изменены таким образом, чтобы объект мог работать с постоянным энергетическим потенциалом, его не нужно поднимать или опускать."@ru .
@@ -213,7 +213,7 @@ odq:Dynamization
     od:hasAltshuller73Id "15" ;
     od:hasAltshuller84Id "15" ;
     a od:Principle ;
-    rdfs:label "Principle of dynamization"@en, "Prinzip der Anpassung"@de, "Prinzip der Dynamisierung"@de, "Приём динамичности"@ru .
+    rdfs:label "Principle of dynamization"@en, "Prinzip der ständigen Anpassung"@de, "Prinzip der Dynamisierung"@de, "Приём динамичности"@ru .
 
 odq:Dynamization_1 a od:Recommendation;
     od:description "If the object as a whole is immobile, make it movable (adjustable)."@en, "Если объект в целом неподвижен, он должен стать подвижным (регулируемым)."@ru, "Falls das Objekt insgesamt unbeweglich ist, gestalte es beweglich (verstellbar)."@de .
@@ -472,7 +472,7 @@ odq:EliminationAndRegenerationOfParts
     od:hasAltshuller73Id "34" ;
     od:hasAltshuller84Id "34" ;
     a od:Principle ;
-    rdfs:label "Principle of elimination and regeneration of parts"@en, "Prinzip der Beseitigung und Regenerierung von Teilen"@de, "Приём отброса и регенерации частей"@ru .
+    rdfs:label "Principle of elimination and regeneration of parts"@en, "Ballast abwerfen"@de, "Prinzip der Beseitigung und Regenerierung von Teilen"@de, "Приём отброса и регенерации частей"@ru .
 
 odq:EliminationAndRegenerationOfParts_1 a od:Recommendation;
     od:description "Part of an object that has served its purpose or has become unusable is eliminated (dissolved, vaporized, or the like) or converted immediately during the operation."@en, "Teile eines Objektes, die ihren Zweck erfüllt haben oder unbrauchbar geworden ist, werden beseitigt (aufgelöst, verdampft o. ä.) oder unmittelbar im Arbeitsgang umgewandelt."@de, "Часть объекта, которая выполнила свою задачу или стала непригодной для использования, устраняется (растворяется, испаряется и т. п.) или преобразуется непосредственно во время операции."@ru .
@@ -485,7 +485,7 @@ odq:ChangePhysicalOrChemicalParameters
     od:hasAltshuller73Id "35" ;
     od:hasAltshuller84Id "35" ;
     a od:Principle ;
-    rdfs:label "Principle of changing the physical or chemical parameters of an object"@en, "Prinzip der Veränderung der physikalischen oder chemischen Parameter eines Objekts"@de, "Приём изменения физико-химических параметров объекта"@ru .
+    rdfs:label "Principle of changing the physical or chemical parameters of an object"@en, "Aggregatzustände und deren Übergänge beherrschen"@de, "Prinzip der Veränderung der physikalischen oder chemischen Parameter eines Objekts"@de, "Приём изменения физико-химических параметров объекта"@ru .
 
 odq:ChangePhysicalOrChemicalParameters_1 a od:Recommendation;
     od:description "Hierzu gehören nicht nur einfache Übergänge, z.B. vom festen in den flüssigen Zustand, sondern auch die Übergänge in „Pseudo- oder Quasizustände“, z.B. Quasiflüssigkeiten, und Zwischenzustände, z.B. die Verwendung elastischer Festkörper."@de, "This includes not only simple transitions, e.g. from the solid to the liquid state, but also transitions into pseudo or quasi states, e.g. the quasi-liquid, and intermediate states, e.g. the use of elastic solid body."@en, "К ним относятся не только простые переходы, например, из твердого состояния в жидкое, но также переходы в псевдо или квазизначные состояния, например, квазижидкость, и в промежуточные состояния, например, использование упругого твердого тела."@ru .

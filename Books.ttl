@@ -458,10 +458,9 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dc:language "ru"^^dcterms:RFC4646 ;
     dc:publisher "Moscow: Moskovsky Rabotchy" ;
     dcterms:creator odp:Altshuller_GS ;
-    dcterms:issued "1973" ;
+    dcterms:issued "1969" ;
     dcterms:title "The Invention Algorithm"@en, "Алгоритм Изобретения"@ru ;
-    a od:TRIZ-Book ;
-    rdfs:comment "2nd edition" .
+    a od:TRIZ-Book .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.103>
     dc:language "ru"^^dcterms:RFC4646 ;
@@ -547,10 +546,10 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
 <http://opendiscovery.org/rdf/BIB/Book/BIB.118>
     od:relatedLinks <http://www.altshuller.ru/triz/zrts1.asp> ;
     dc:language "ru"^^dcterms:RFC4646 ;
-    dc:publisher "M: Sovietskoje radio" ;
+    dc:publisher "Moscow: Sovietskoje radio" ;
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1979" ;
-    dcterms:title "Creativity as an Exact Science. Theory of Inventive Problem Solving"@en, "Творчество как точная наука"@ru ;
+    dcterms:title "Creativity as an Exact Science"@en, "Творчество как точная наука"@ru ;
     a od:TRIZ-Book  .
 
 <http://opendiscovery.org/rdf/BIB/Book/BIB.119>
@@ -653,7 +652,7 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
 <http://opendiscovery.org/rdf/BIB/Book/Shpakovsky_2010>
     a od:TRIZ-Book ;
   dcterms:creator odp:Shpakovsky_NN ;
-  dc:language "ru";
+  dc:language "ru"^^dcterms:RFC4646;
   dc:publisher "Forum, Moscow" ;
   dcterms:title "ТРИЗ. Анализ технической и патентной информации и генерация новых идей"@ru ;
   dcterms:issued "2010"  . 
@@ -661,7 +660,34 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
 <http://opendiscovery.org/rdf/BIB/Book/Shpakovsky_2016>
     a od:TRIZ-Book ;
   dcterms:creator odp:Shpakovsky_NN ;
-  dc:language "en";
+  dc:language "en"^^dcterms:RFC4646;
   dcterms:title "Tree of Technology Evolution"@en ;
   rdfs:comment "English translation of BIB/Book/Shpakovsky_2010, available from the OpenDiscovery collection" ; 
   dcterms:issued "2016"  . 
+
+<http://opendiscovery.org/rdf/BIB/Book/Altshuller_1973_de>
+  dc:publisher "Verlag Tribüne, Berlin" ;
+  dc:translationOf <http://opendiscovery.org/rdf/BIB/Book/BIB.102>;
+  dcterms:creator odp:Altshuller_GS ;
+  dcterms:issued "1973" ;
+  dc:language "de"^^dcterms:RFC4646;
+  dcterms:title "Erfinden - (k)ein Problem?"@en ;
+  a od:TRIZ-Book .
+
+<http://opendiscovery.org/rdf/BIB/Book/Altshuller_1983_de>
+    dc:language "de"^^dcterms:RFC4646 ;
+  dc:publisher "Urania-Verlag, Leipzig, und MIR, Moskau" ;
+    dcterms:creator odp:Altshuller_GS, odp:Selyutsky_AB ;
+  dc:translationOf <http://opendiscovery.org/rdf/BIB/Book/BIB.120>;
+    dcterms:issued "1983" ;
+    dcterms:title "Flügel für Ikarus"@de ;
+    a od:TRIZ-Book   .
+
+<http://opendiscovery.org/rdf/BIB/Book/Altshuller_1984_de>
+    dc:language "de"^^dcterms:RFC4646 ;
+    dc:publisher "Verlag Technik, Berlin" ;
+  dc:translationOf <http://opendiscovery.org/rdf/BIB/Book/BIB.118>;
+    dcterms:creator odp:Altshuller_GS ;
+    dcterms:issued "1984" ;
+    dcterms:title "Erfinden. Wege zur Lösung technischer Probleme"@en ;
+    a od:TRIZ-Book  .
