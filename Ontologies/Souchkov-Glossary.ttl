@@ -1,0 +1,2581 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix tc: <http://opendiscovery.org/rdf/Concept/> .
+
+<http://opendiscovery.org/rdf/VDI-Glossary/>
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    a owl:Ontology ;
+    rdfs:comment "2020-12-26 graebe: compiled from the v 1.2 Excel source" ;
+    rdfs:label "TRIZ Glossary v. 1.2 of Valeri Souchkov" .
+
+tc:AbstractTerm
+    od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A term (word or phrase) which describes a generic feature, property or a function that can be instantiated to a number or more specific terms by adding relevant context. There is no strict dividing line between specific and abstract terms."@en ;
+    od:SouchkovExamples "The term \"separate\" can be considered as abstract while the term \"to cut through\" is specific."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Abstract Term"@en, "Абстрактный термин"@ru .
+
+tc:AdditionalFunction
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A function that is not directly necessary to provide main process but which accompanies a main function or helps to achieve it."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Additional Function"@en, "Дополнительная функция"@ru .
+
+tc:AdditionalInventivePrinciple
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovComments "Additional Inventive Principles are used in different versions of the Contradiction Matrix."@en ;
+    od:SouchkovDefinition "A number of Inventive Principles which were identified after the first collection of 40 Inventive Principles had been completed. Currently there are 10 additional Inventive Principles known."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Additional Inventive Principle"@en, "Дополнительный изобретательский прием"@ru .
+
+tc:AdministrativeContradiction
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovComments "Although an administrative contradiction might not look as a contradiction since it misses a conflict between parameters or requirements, it indicates a conflict between the necessity to achieve the desired  goal and available means to do it."@en ;
+    od:SouchkovDefinition "A description of either a negative (undesired) effect or a necessity to create something new in a situation when neither a problem solving method nor ready to use solution is available."@en ;
+    od:SouchkovTerms "Negative (undesired) effect, Something new, Unknown method -> unknwon change of technical system"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Surface Contradiction"@en ;
+    skos:prefLabel "Administrative Contradiction"@en, "Противоречие административное"@ru .
+
+tc:AlgorithmofInventiveProblemSolving
+    od:SouchkovAbbreviation "ARIZ"@en, "In older translations from Russian can be abbreviated as AIPS or ASIP"@en ;
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovComments "1) ARIZ is the acronym abbreviated from Russian term \"Алгоритм Решения Изобретательских Задач (Algorithm Reshenya Izobretatelskyh Zadach)\" written in Latin letters. 2) The latest officially accepted version of ARIZ is ARIZ-85C (or AРИЗ-85В in Russian). 3) There are later versions of ARIZ proposed by different TRIZ Schools but they have not been formally approved yet."@en ;
+    od:SouchkovDefinition "The central analytical tool of TRIZ (ARIZ is a Russian abbreviation).  Its basis is a sequence of logical procedures to analyze a vague or ill-defined initial problem/situation and transform it into a distinct system conflict. Consideration of the system conflict leads to the formulation of a physical contradiction whose elimination is provided with the help of the separation principles, and by the maximal utilization of the resources of the subject system. ARIZ is a system of the most fundamental concepts and methods of TRIZ, such as ideal technical system (ideal system), system conflict, physical contradiction, the Su-Field analysis, the Inventive Standards and the Laws of Technical Systems Evolution. The technique includes a number of psychological and systemic operators to support its procedures. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Algorithm of Solving Inventive Problems"@en ;
+    skos:prefLabel "Algorithm of Inventive Problem Solving"@en, "Алгоритм решения изобретательских задач (АРИЗ)"@ru .
+
+tc:AlternativeTechnicalSystem
+    od:SouchkovCategory tc:FeatureTransfer ;
+    od:SouchkovDefinition "A particular type of a competing technical system that has a complementary pair of advantages and disadvantages with respect to a technical system given."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Competing Technical System"@en ;
+    skos:prefLabel "Alternative Technical System"@en, "Альтернативная техническая система"@ru .
+
+tc:AltshullerMatrix
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovDefinition "The first version of the Contradiction Matrix developed by G. Altshuller, the founder of TRIZ (see Contradiction Matrix)"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Altshuller Matrix"@en, "Таблица основных приемов для устранения типовых технических противоречий"@ru .
+
+tc:AnalogousProblem
+    od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ ;
+    od:SouchkovDefinition "An inventive problem, usually in a different technology area, that has the same abstract problem model (a contradiction, or a Su-Field model, or a function) as an inventive problem given. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Analogous Problem"@en, "Задача-аналог"@ru .
+
+tc:AnalogousSolution
+    od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ ;
+    od:SouchkovComments "Analogous problems might be defined not only through a resolving the same physical contradiction but by having the same Su-Field model or the same function."@en ;
+    od:SouchkovDefinition "An inventive solution that was obtained by resolving the same type of a physical contradiction with the use of the same problem solving method as some other solution."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Analogous Solution"@en, "Решение-аналог"@ru .
+
+tc:AntiFunction
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovDefinition "A function which is opposite to a function given. "@en ;
+    od:SouchkovExamples "\"To accelerate\" vs. \"to decelerate\"."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Anti-Function"@en, "Анти-функция"@ru .
+
+tc:AntiPrinciple
+    od:SouchkovDefinition "An Inventive Principle that contains a problem solving recommendation opposite to a recommendation given in one of the known Inventive Principles known. "@en ;
+    od:SouchkovExamples "\"Principle of Taking Away\" can be considered as anti-principle with respect to the \"Principle of Merging\"."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Anti-Principle"@en, "Анти-прием"@ru .
+
+tc:AntiProcess
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovComments "The use of \"anti-process\" helps to formulate physical contradictions."@en ;
+    od:SouchkovDefinition "A process which has its direction opposite to a process given."@en ;
+    od:SouchkovExamples "\"Cooling\" vs. \"heating\""@en, "\"assembly\" vs. \"disassembly\""@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Opposite Process"@en ;
+    skos:prefLabel "Anti-Process"@en, "Анти-процесс"@ru .
+
+tc:AntiSystem
+    od:SouchkovCategory tc:GeneralTRIZ, tc:MultiScreenDiagramofThinking ;
+    od:SouchkovComments "In some references, the term \"anti-system\" is used to describe a system which is competitive to a system given."@en ;
+    od:SouchkovDefinition "A technical system whose main useful function is opposite to a function of the technical system given."@en ;
+    od:SouchkovExamples "A cooler vs. a heater."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Anti-System"@en, "Анти-система"@ru .
+
+tc:AnticipatoryFailureDetermination
+    od:SouchkovAbbreviation "AFD"@en ;
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovDefinition "A method and a technique for identification of potential problems and failures either within a technical system or in its supersystem caused by the technical system. Anticipatory Failure Analysis includes two strategies: 1) AFD Failure Analysis to reveal causes of a negative or undesired effect (see Diversion Analysis), and 2) AFD Prediction Analysis which focuses on predicting potential negative or undesired effects."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Anticipatory Failure Determination"@en .
+
+tc:Attribute
+    od:SouchkovCategory tc:FunctionAnalysis, tc:GeneralTRIZ ;
+    od:SouchkovComments "Examples include electrical conductivity, viscosity, or strength. "@en ;
+    od:SouchkovDefinition "A fundamental quality of a material object that characterizes its interaction with other material objects. An attribute can always be associated with a value which can be either linear, non-linear, or discrete. A parameter is a subset of an attribute."@en ;
+    od:SouchkovExamples "Color"@en, "Complexity"@en, "Phase state"@en, "Weight"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Attribute"@en, "Аттрибут"@ru .
+
+tc:AuxiliaryFunction
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A useful function provided with respect to a component which can be considered as a subsystem or a component of a higher-system level."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Auxiliary Function"@en, "Вспомогательная функция"@ru .
+
+tc:BaseTechnicalSystem
+    od:SouchkovCategory tc:FeatureTransfer ;
+    od:SouchkovDefinition "A system to which features from the alternative system are transferred. The base system is one of the two alternative systems selected for improvement.   "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Base Technical System"@en, "Базовая техническая система"@ru .
+
+tc:BasicFunction
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A useful function directed toward a target object of a technical system being analyzed."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Main function"@en, "Primary function"@en ;
+    skos:prefLabel "Basic Function"@en, "Основная функция"@ru .
+
+tc:BasicPrinciple
+    od:SouchkovCategory tc:CataloguestoEffects, tc:GeneralTRIZ, tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "see Operational Principle"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Basic Principle"@en, "Принцип действия"@ru .
+
+tc:CurveofEvolution
+    od:SouchkovCategory tc:TRIZEvolutionModels ;
+    od:SouchkovDefinition "A curve shaped as a bell depicting a non-linear relation between costs of resources required to provide the main parameter of value or delivery of a main useful function of a technical system and time during evolution of the technical system. The Bell-Curve of evolution includes two phases: Expansion (growth) and Convolution (reduction)."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Bell-Curve of Evolution"@en, "Колоколообразная кривая (Волнообразная кривая)"@ru .
+
+tc:BiSystem
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "A technical system which includes two components with identical, biased, or inverse functions or values of the same attribute to create a positive synergetic effect: either a considerable multiplication or decrease of a value of an attribute, or delivering a new property, or production of a new function: either a considerable multiplication or decrease of a value of an attribute, or delivering a new property, or production of a new function. In addition to two components, two complete technical systems can form a bi-system as well in case if they produce synergetic effect."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Bi-System"@en, "Би-система"@ru .
+
+tc:BiSystemwithBiasedParameters
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "A technical system which includes two components with biased functions or values of the same attribute to create a positive synergetic effect: either a considerable multiplication or decrease of a value of an attribute, or delivering a new property, or production of a new function. Two complete technical systems with biased parameters can form a bi-system in case if they produce synergetic effect."@en ;
+    od:SouchkovExamples "An electric bicycle that can also be driven by pedals."@en, "An electric switch which consists of two metal plates with different coefficients of thermal expansion."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Bi-system with similar parameters"@en ;
+    skos:prefLabel "Bi-System with Biased Parameters"@en, "Би-система со сдвинутыми характеристиками"@ru .
+
+tc:BiSystemwithIdenticalParameters
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "A technical system which includes two components with identical functions or values of the same attribute to create a positive synergetic effect: either a considerable multiplication or decrease of a value of an attribute, or delivering a new property, or production of a new function. Two identical complete technical systems can form a bi-system as well in case if they produce synergetic effect. "@en ;
+    od:SouchkovExamples "A catamaran consisting of two identical boats provides stability of the ride unachievable by a single boat."@en, "Spectacles consisting of two lens provide stereoscopic vision"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Homogeneous bi-system"@en ;
+    skos:prefLabel "Bi-system with Identical Parameters"@en, "Би-система одинаковыми характеристиками"@ru .
+
+tc:BiSystemwithInverseParameters
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "A technical system which includes two components with inverse functions or values of the same attribute to create a positive synergetic effect:  either a considerable multiplication or decrease of a value of an attribute, or delivering a new property, or production of a new function. Two complete technical systems with inverse functions (anti-systems) can form a bi-system as well in case if they produce synergetic effect. "@en ;
+    od:SouchkovExamples "A pencil with an attached rubber"@en, "An air conditioner consists of a refrigerator and a heater."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Inverse bi-system"@en ;
+    skos:prefLabel "Bi-system with Inverse Parameters"@en, "Би-система с противоположными характеристиками"@ru .
+
+tc:BiologicalEffect
+    od:SouchkovCategory tc:CataloguesofEffects ;
+    od:SouchkovDefinition "An effect produced by a biological object (animal, microbe, insect, plant) or combination of such that could be used for inventive problem solving. "@en ;
+    od:SouchkovExamples "To extract a certain substance from environment, a biological object can be used which can accumulate such a substance during metabolic process and then the substance can be extracted from the biological object."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Biological Effect"@en, "Биологический эффект"@ru .
+
+tc:CatalogueofEffects
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovDefinition "A database of scientific effects from a scientific discipline in which the effects are structured and categorized according to generic technical functions that can be obtained on the basis of specific scientific effects. In each Catalogue, the effects are combined to different groups which include those effects that can deliver a generic technical function. The following Catalogues of Scientific Effects are known: 1) Catalogue of Physical Effects, 2) Catalogue of Chemical Effects, 3) Catalogue of Geometric Effects, 4) Catalogue of Biological Effects."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Catalogue of Effects"@en, "Указатель эффектов"@ru .
+
+tc:CauseEffectChain
+    od:SouchkovCategory tc:CauseEffectChainAnalysis ;
+    od:SouchkovDefinition "A graphical model of a technical system being analyzed which maps causes which lead to its disadvantage(s). "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Cause-Effect Chain"@en, "Причинно-следственная цепочка недостатков"@ru .
+
+tc:CauseEffectChainsAnalysis
+    od:SouchkovAbbreviation "CECA"@en ;
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovDefinition "An analytical tool that identifies the Key Disadvantages of the analyzed Technical system. This is accomplished by building cause-effect chains of disadvantages that link the Target Disadvantage to its fundamental causes."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Cause-Effect Chains Analysis (CECA)"@en, "Анализ Причинно-Следственных Цепочек Недостатков"@ru .
+
+tc:CauseDisadvantage
+    od:SouchkovCategory tc:CauseEffectChainAnalysis ;
+    od:SouchkovDefinition "A disadvantage in the Cause-Effect Chain that is a direct cause of a given disadvantage."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Cause Disadvantage"@en, "Недостаток - следствие другого недостатка"@ru .
+
+tc:SuFieldChain
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A combination of at least two su-fields where a substance of one of the su-fields is controlled by another su-field."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Chain Su-Field"@en, "Цепной веполь"@ru .
+
+tc:ChemicalEffect
+    od:SouchkovCategory tc:TRIZKnowledgeBases, tc:TRIZTools ;
+    od:SouchkovDefinition "A natural phenomenon known in science of chemistry or combination of such that could be used for inventive problem solving by providing a change required at molecular level."@en ;
+    od:SouchkovExamples "To extract certain types of substances from environment, electrolytic chemical reaction can be used."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Chemical Effect"@en, "Химический эффект"@ru .
+
+tc:ClassicalTRIZ
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A collection of TRIZ theoretical postulates and practical tools primarily developed by the founder of TRIZ G. Altshuller or either under his guidance or with his assistance."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Classical TRIZ"@en, "Классическая ТРИЗ"@ru .
+
+tc:CloneProblems
+    od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ ;
+    od:SouchkovDefinition "Different inventive problems that have identical physical contradictions."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Clone Problems"@en, "Здачи-клоны"@ru .
+
+tc:CompetitiveTechnicalSystem
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A technical system that provides the same technical function as a technical system being analyzed but differs either slightly or radically from the technical system being analyzed. The concept of a competitive technical system is similar to the concept of alternative technical system."@en ;
+    od:SouchkovExamples "Both a car and a bicycle are used to transport a passenger or a cargo.  "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Competing Technical system"@en ;
+    skos:prefLabel "Competitive Technical System"@en, "Конкурирующая техническая система"@ru .
+
+tc:CompleteSuField
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A Su-Field which represents a model of a problem or a solution to the problem expressed in terms of Su-Field Analysis in which at least two substances and a field are present to create a working technical system or a subsystem."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Complete Su-Field"@en, "Полный веполь"@ru .
+
+tc:CompleteTechnicalSystem
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "A technical system that according to the Trend of Technical System Completeness, includes at least four components (subsystems) which provide functions of Engine, Transmission, Control Unit, and Working Unit."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Complete Technical System"@en, "Полная техническая система"@ru .
+
+tc:CompletionofaSuField
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "Synthesis of a minimal technical system whose model includes at least, two substance components and a field that provides interaction between the two substance components (complete Su-field). "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Completion of a Su-Field"@en, "Достройка веполя"@ru .
+
+tc:ComplexSuField
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A complete Su-Field with extra substance or field components and extra interactions that provide conditions necessary for solving an inventive problem."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Complex Su-Field"@en, "Комплексный веполь"@ru .
+
+tc:Component
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A material object (substance, field, or substance-field combination) that constitutes a part of a technical system or its supersystem. A component might represent both a single object and a group of objects. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Component"@en, "Элемент (компонент)"@ru .
+
+tc:ComponentAnalysis
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A step in Function Analysis that identifies components of a technical system being analyzed and its supersystem."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Component and Structural Analysis"@en ;
+    skos:prefLabel "Component  Analysis"@en, "Компонентный Анализ"@ru .
+
+tc:ComponentCost
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "The monetary cost of the component. Cost can be relative or absolute."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Component Cost"@en, "Стоимость компонента"@ru .
+
+tc:ComponentFunctionality
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A range of operations produced by a component to contribute to the overall functionality of a system."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Component Functionality"@en, "Функциональность компонента"@ru .
+
+tc:ComponentModel
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A model of a technical system and its supersystem in Function Analysis which consists of function carriers and objects of functions."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Component Model"@en, "Компонентная модель."@ru .
+
+tc:CompositeCardIndex
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A bank of documents and examples collected during the process of working on a specific research or development topic within a particular TRIZ development project."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Composite Card Index"@en, "Сводная картотека"@ru .
+
+tc:ConceptofVerticalMobility
+    od:SouchkovCategory tc:TheoryofCreativeIndividualDevelopment ;
+    od:SouchkovDefinition "A strategy of stepwise upgrade of goals and tasks by a person dealing with technical creativity which defines three phases of evolution during the creative person's lifetime: 1) Solving specific engineering problems in a narrow area, 2) Solving large-scale engineering or scientific problems, 3) Solving large-scale social problems with the help of breakthrough innovative solutions."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Concept of Vertical Mobility"@en, "Концепция максимального движения вверх"@ru .
+
+tc:ConceptualDirection
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A specific method to achieve the project goals based on solving of a key problem."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Conceptual Direction"@en, "Концептуальное направление"@ru .
+
+tc:ConceptualSubdirection
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A specific method of solving a key problem within the frame of the conceptual direction."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Conceptual Sub-direction"@en, "Концептуальное под-направление"@ru .
+
+tc:Conflict
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovComments "The term \"conflict\" in TRIZ  is often used to present a physical contradiction."@en ;
+    od:SouchkovDefinition "see Contradiction"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Contradiction"@en ;
+    skos:prefLabel "Conflict"@en, "Конфликт"@ru .
+
+tc:ConflictResolution
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A type of a solution to an inventive problem which eliminates influence of one parameter on another parameter by decoupling the conflicting parameters instead of parametric optimization, compromise or trade-off."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Conflict resolution"@en, "Elimination of a contradiction"@en ;
+    skos:prefLabel "Conflict Resolution"@en, "Разрешение противоречия"@ru .
+
+tc:ConflictingComponents
+    od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ ;
+    od:SouchkovDefinition "The system's components which are involved in a technical contradiction."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Conflict Components"@en ;
+    skos:prefLabel "Conflicting Components"@en, "Конфликтующие элементы"@ru .
+
+tc:ConflictingPair
+    od:SouchkovCategory tc:ARIZ ;
+    od:SouchkovDefinition "A pair of components formed by a tool and a product interaction between which causes a conflict that prevents from reaching a result required."@en ;
+    od:SouchkovTerms "Tool, Product, Required result"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Conflicting Pair"@en, "Конфликтующая пара"@ru .
+
+tc:ContemporaryTRIZ
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "Further extension of Classical TRIZ which includes theories, methods and tools developed after the founder of TRIZ G. Altshuller passed away."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Modern TRIZ"@en ;
+    skos:prefLabel "Contemporary TRIZ"@en, "Современная ТРИЗ"@ru .
+
+tc:Contradiction
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A situation that emerges when two opposite demands have to be met in order to provide the result required. A contradiction is argued to be a major obstacle to solve an inventive problem and is used as an abstract inventive problem model in a number of TRIZ tools. Three types of contradictions are known in TRIZ: 1) Administrative, 2) Engineering, 3) Physical. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Conflict"@en ;
+    skos:prefLabel "Contradiction"@en, "Противоречиe "@ru .
+
+tc:ContradictionChain
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A sequence which shows that a specific Administrative Contradiction is converted to a specific Technical Contradiction and then the Technical Contradiction to the Physical Contradiction."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Conflict Chain"@en ;
+    skos:prefLabel "Contradiction Chain"@en, "Цепочка противоречий"@ru .
+
+tc:ContradictionMatrix
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovComments "The original matrix was developed by G. Altshuller and later updated by other TRIZ developers. Later revisions and modification of the original matrix are usually called \"Contradiction Matrix\""@en ;
+    od:SouchkovDefinition "A matrix which provides a systematic access to the most frequently used inventive principles to resolve a specific type of a technical contradiction. In the Contradiction Matrix, the specific type of a contradiction is selected by the pre-defined typical engineering parameters."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Altshuller Matrix"@en, "Conflict Matrix"@en, "Contradictions Table"@en, "System Conflict Matrix"@en, "Table of Basic Principles for Elimination of Typical Technical Contradictions"@en ;
+    skos:prefLabel "Contradiction Matrix"@en, "Таблица основных приемов для устранения типовых технических противоречий (Таблица Альтшуллера)"@ru .
+
+tc:ContradictionsTree
+    od:SouchkovCategory tc:CauseandEffectChainAnalysis, tc:Root-ConflictAnalysis ;
+    od:SouchkovDefinition "A tree which relates different contradictions causing a problem. A contradiction tree is obtained as a result of top-down decomposition of the main negative or undesired effect to a number of inter-related causing contradictions."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Contradictions Tree"@en, "Дерево противоречий"@ru .
+
+tc:ControlUnit
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "One of the key components (subsystems) of a Complete Technical System which according to the Law of System Completeness of a technical system provides control over supply of energy to the other parts of the technical system and coordinates their operation. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Control Unit"@en, "Орган управления"@ru .
+
+tc:Convolution
+    od:SouchkovCategory tc:TrendsofTechnical ;
+    od:SouchkovDefinition "An interval on the timeline of a technical system evolution according to the Bell-curve of evolution which follows the phase of the system's Expansion. During Convolution, innovative changes of the technical system result in the decrease of the overall complication of the system, decrease of its dimensions and energy consumption; and decrease of costs required to deliver the system's main useful function or provide the main parameter of value required while still ensuring that the required degrees of quality and performance do not degrade. Three possible scenarios of covolution are possible: 1) Minimal, when all subsystems still remain independent; 2) Partial, when a number of subsystems become a single subsystem; 3) Full, when all subsystems may not work independently. In many cases, partial and full convolution require change of operational principles."@en ;
+    od:SouchkovExamples "An electronic circuit which consists of independent electronic devices is replaced by a microchip."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Convolution"@en .
+
+tc:CostAnalysis
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A step in Function Analysis that identifies the absolute and relative costs of components that constitute a technical system being analyzed."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Cost Analysis"@en, "Стоимостной Анализ"@ru .
+
+tc:CoupledInteraction
+    od:SouchkovCategory tc:ARIZ, tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A type of a relationship between two components either in a technical system or the technical system and its supersystem which emerges when the same interaction provides both positive and negative functions.  "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Coupled Interaction"@en, "Сопряженное полезно-вредное взаимодействие"@ru .
+
+tc:CoupledInventivePrinciples
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A pair consisting of a combination of an Inventive Principle and its Anti-Principle. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Coupled Inventive Principles"@en, "Парные приемы"@ru .
+
+tc:CreativeImaginationDevelopment
+    od:SouchkovCategory tc:TheoryofCreativeIndividualDevelopment ;
+    od:SouchkovDefinition "A process of improving personal creative imagination skills supported by a number of methods and tools."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Creative Imagination Development"@en, "Развитие Творческого Воображения"@ru .
+
+tc:CreativeImaginationDevelopmentTechniques
+    od:SouchkovCategory tc:TheoryofCreativeIndividualDevelopment ;
+    od:SouchkovDefinition "A number of methods and tools which comprise various processes and steps to develop creative imagination skills."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Creative Imagination Development Techniques"@en, "Инструменты развития творческого воображения"@ru .
+
+tc:CreativityTrigger
+    od:SouchkovCategory tc:TheoryofCreativeIndividualDevelopment ;
+    od:SouchkovDefinition "Any factor that activates or boosts creative capabilities of a person within a specific situation."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Creativity Trigger"@en .
+
+tc:DecompositionofSuFieldSystems
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A group of methods of solving inventive problems by eliminating harmful interactions in Su-Fields. These methods are presented by relevant Inventive Standards in the System of 76 Inventive Standards."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Elimination of harmful actions"@en ;
+    skos:prefLabel "Decomposition of Su-Field Systems"@en, "Разрушение веполей"@ru .
+
+tc:DegreeofIdeality
+    od:SouchkovCategory tc:TRIZEvolutionModels ;
+    od:SouchkovDefinition "A dimensionless measure of an inventive solution, or a technical system, or a process, which identifies the degree of efficiency of the solution, the system, or the process through qualitative estimation of the ratio between useful functionality provided by the system/process/solution and a sum of costs to produce, maintain and utilize the useful functionality. The Degree of Ideality is primarily used to evaluate if a technical system/process/solution being analyzed is more ideal than a competing system/process/solution that provides the same main useful function."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Degree of Ideality"@en, "Степень идеальности"@ru .
+
+tc:DelayZone
+    od:SouchkovCategory tc:FlowAnalysis ;
+    od:SouchkovDefinition "A location in a flow in which the integral flow speed is significantly lower than local flow speed. A Delay Zone is a typical disadvantage identified by Flow Analysis."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Delay Zone"@en, "Зона задержки"@ru .
+
+tc:Demand
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "An expression of necessity of producing a change or preventing something from a change usually expressed in engineering or physical terms."@en ;
+    od:SouchkovExamples "1) Cargo must be moved. 2) Temperature has to increase. 3) Weight of a load must not change."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Demand"@en, "Требование"@ru .
+
+tc:DerivativeResource
+    od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ ;
+    od:SouchkovDefinition "New substances, fields, their properties and parameters that can be obtained on the basis of the existing substance-field resources by subjecting the latter to certain actions."@en ;
+    od:SouchkovExamples "Such actions can be heating, cooling, decomposition, changing phase state, etc. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Derivative Resource"@en, "Производный ресурс"@ru .
+
+tc:DiagnosticAnalysis
+    od:SouchkovDefinition "A method for analysis of a technical system based on comparing the levels of functions delivery and related problems."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Diagnostic Analysis"@en, "Диагностический анализ"@ru .
+
+tc:DiagramsofTypicalConflicts
+    od:SouchkovCategory tc:ARIZ ;
+    od:SouchkovComments "Listed in ARIZ"@en ;
+    od:SouchkovDefinition "A number of drawings which present different models of technical contradictions emerging most frequently when solving inventive problems."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Diagrams of Typical Conflicts in the Models of Problems"@en, "Схемы типичных конфликтов в моделях задач"@ru .
+
+tc:Dialectics
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovComments "Although dialectics is not a TRIZ term but dialectics is not widely known while is important to understand the basic foundations of TRIZ."@en ;
+    od:SouchkovDefinition "A direction in philosophy which proposes a method of examining and discussing opposing ideas in order to resolve a conflict. Several underlying concepts from dialectics were used by the founder of TRIZ G. Altshuller to define the fundamental background of TRIZ and its major concepts such as ideality, technical and physical contradictions."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Dialectics"@en, "Диалектика"@ru .
+
+tc:DirectedEvolution
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovComments "Directed Evolution was developed by Ideation International, Inc."@en ;
+    od:SouchkovDefinition "A method and a tool for performing the forecast of further evolution of a technical system or a technology with the use of the Models, Trends, and Lines of Technical Systems Evolution."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Directed Evolution"@en, "Направленная эволюция"@ru .
+
+tc:Disadvantage
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A particular feature that reduces the degree of ideality or perceived value of a technical system or a process."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Disadvantage"@en, "Недостаток"@ru .
+
+tc:DisruptiveInnovation
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "An inventive solution of high level according to the TRIZ system of Five Levels of Inventions that either resolves a long-standing contradiction or proposes a new technical system that disrupts the existing technology. Usually such a disruptive innovation provides either an S-jump in the evolution of an existing technical system or launches a radically new Technology S-curve."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Disruptive Innovation"@en, "Прорывное изобретение"@ru .
+
+tc:DoubleSuField
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A Su-field which has at least two components made of substance and two different fields providing interaction between the components."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Double Su-Field"@en, "Двойной веполь"@ru .
+
+tc:Dynamisation
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "Evolution in the direction toward more flexible structures capable of adapting to changing environmental conditions (multi-functionality) and to varying performance regimes."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Dynamisation"@en, "Динамизация"@ru .
+
+tc:EField
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A Su-Field in which one of components is made from material possessing electrical conductivity and which is controlled by electrical field."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "E-Field"@en, "Эполь"@ru .
+
+tc:EffectDisadvantage
+    od:SouchkovCategory tc:CauseandEffectChainAnalysis ;
+    od:SouchkovDefinition "Disadvantage in the Cause-Effect Chain that is directly caused by a given disadvantage."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Effect Disadvantage"@en .
+
+tc:EnergySource
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "A component of either a technical system or its supersystem that stores and provides energy required to operate the system."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Energy Source"@en, "Источник энергии"@ru .
+
+tc:Engine
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "One of the key components (subsystems) of a Complete Technical System which according to the Law of System Completeness of a technical system converts energy to a specific type required to operate a working unit."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Engine"@en, "Двигатель"@ru .
+
+tc:EngineeringContradiction
+    od:SouchkovCategory tc:GeneralTRIZ, tc:TRIZTools ;
+    od:SouchkovDefinition "See Technical Contradiction"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Contradiction of demands"@en, "System Contradiction"@en ;
+    skos:prefLabel "Engineering Contradiction"@en .
+
+tc:EngineeringParameter
+    od:SouchkovCategory tc:ARIZ, tc:ContradictionMatrix, tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A variable dimensional or dimensionless measurable factor, either specific or aggregated, that participates in the definition of an attribute of a technical system, its subsystem, or supersystem and is expressed in terms related to technology (physical, chemical, etc.)  "@en ;
+    od:SouchkovExamples "Specific level of conductivity, specific level of viscosity measured in Pascal seconds."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Technical Parameter"@en ;
+    skos:prefLabel "Engineering Parameter"@en, "Технический параметр"@ru .
+
+tc:EngineeringProblem
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A situation which requires to perform a certain change to create new technical system, or improve an existing technical system, or to prevent the technical system from harmful internal or external factors."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Engineering Problem"@en, "Задача техническая"@ru .
+
+tc:EngineeringSystem
+    od:SouchkovDefinition "See Technical System"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Engineering System"@en .
+
+tc:EnvironmentComponent
+    od:SouchkovCategory tc:ARIZ, tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A component in the environment of a Su-Field given that can be used to build a new Su-Field, or decompose or evolve the existing Su-Field."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Environment Resource"@en ;
+    skos:prefLabel "Environment Component"@en, "Элемент внешней среды"@ru .
+
+tc:EvolutionPattern
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "A description of a specific transformation experienced by a technical system during its evolution which is common for majority of other technical systems independently of technology domains they belong to. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Evolution Pattern"@en, "Шаблон эволюции"@ru .
+
+tc:EvolutionaryPotentialAnalysis
+    od:SouchkovAbbreviation "EPA"@en ;
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovComments "Modern versions of Contemporary TRIZ from various TRIZ development centers present their own versions of EPA with different collections of the Trends of Technical Systems evolution."@en ;
+    od:SouchkovDefinition "An analytical tool that helps to determine the potential of a technical system or its subsystem to evolve based on completing a chart with indication of current position of the system or a specific subsystem with respect to each Trend of Technical Systems Evolution."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Evolutionary Trends Analysis"@en ;
+    skos:prefLabel "Evolutionary Potential Analysis"@en, "Анализ эволюционного потенциала"@ru .
+
+tc:EvolutionaryTrendsAnalysis
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "see Evolutionary Potential Analysis."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Evolutionary Potential Analysis"@en ;
+    skos:prefLabel "Evolutionary Trends Analysis"@en, "Анализ эволюционного потенциала"@ru .
+
+tc:EvolutionofSuFieldSystems
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A hypothesis which states that elementary Su-Fields tend to evolve over the time in order to increase their performance, quality and other parameters. A group of problem solving methods based on the evolution of Su-Field Systems is presented in the System of 76 Inventive Standards."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Evolution of Su-Field Systems"@en, "Развитие веполей"@ru .
+
+tc:EvolutionofTechnicalSystems
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "A continuous process of introducing changes to the existing technical systems or developing radically new technical systems in order to provide a better satisfaction of the supersystem's needs. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Technology Evolution"@en ;
+    skos:prefLabel "Evolution of Technical Systems"@en, "Развитие технических систем"@ru .
+
+tc:ExcessiveAction
+    od:SouchkovCategory tc:ARIZ, tc:FunctionalAnalysisandModeling ;
+    od:SouchkovDefinition "see Excessive Interaction."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Excessive Action"@en, "Избыточное действие"@ru .
+
+tc:ExcessiveFunction
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A physical action performed by an object that results in a positive change or preservation of a value of a parameter or a state of an object of the function but the action is performed with too much effort or with the use of non-optimal amount of resources. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Excessive Function"@en, "Избыточная функция"@ru .
+
+tc:ExcessiveInteraction
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A type of a relationship between two components either in a technical system or the technical system and its supersystem which emerges when one component provides a positive function towards another component but the delivery of the function or obtaining the result from the function delivery requires more resources than necessary.  "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Excessive Interaction"@en, "Избыточное взаимодействие"@ru .
+
+tc:ExistingSystem
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A technical system that exists at a given moment of time and is capable of delivering its main useful function under predefined conditions."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Existing System"@en, "Существующая система"@ru .
+
+tc:Expansion
+    od:SouchkovCategory tc:TRIZEvolutionModels ;
+    od:SouchkovDefinition "An interval on the timeline of a technical system evolution when innovative changes targeted at reaching the desired performance of its Main Useful Function result in overall complication of the system, increase of its dimensions and energy consumption, and costs required to deliver the Main Useful Function. Usually the phase of system's Expansion is replaced with a phase of the system's Convolution."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Unfolding"@en ;
+    skos:prefLabel "Expansion"@en, "Развертывание"@ru .
+
+tc:ExternalComplexSuField
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A complete Su-Field in which one of the substances presents a combination of two different substances while one the two substances is physically attached to another one."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "External Complex Su-Field"@en, "Внешний комплексный веполь"@ru .
+
+tc:ExternalConditions
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "All types of factors in a supersystem which influence behavior of a technical system and produce impact on its features and values of its attributes."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "External Conditions"@en, "Внешние обстоятельства"@ru .
+
+tc:Fantogramma
+    od:SouchkovCategory tc:TheoryofCreativeIndividualDevelopment ;
+    od:SouchkovDefinition "A method and a tool for creative imagination development and generating new science-fiction ideas. The tool uses a two-dimensional matrix with one axis along which the so-called universal indicators representing various aspects of life-cycle and functioning of a system are listed and another axis along which a number of principles for generating ideas are presented. New ideas are obtained by applying a specific principle to a specific instance of a universal indicator."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Fantogramma"@en, "Фантограмма"@ru .
+
+tc:FeField
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A Su-Field in which one of the components is made from ferromagnetic material and is controlled by electromagnetic field."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Fe-Field"@en, "Феполь"@ru .
+
+tc:Feature
+    od:SouchkovCategory tc:FeatureTransfer ;
+    od:SouchkovDefinition "A characteristic of an alternative technical system to be transferred to the base technical system to eliminate the disadvantage of the base system. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Feature"@en, "Признак"@ru .
+
+tc:FeatureProvidingAlternativeTechnicalSystem
+    od:SouchkovCategory tc:FeatureTransfer ;
+    od:SouchkovDefinition "An alternative technical system chosen for Feature Transfer."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Feature Providing Alternative Technical System"@en, "Выбранная альтернативная система"@ru .
+
+tc:FeatureTransfer
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovDefinition "A method and a tool for improvement of a technical system given (base technical system) by transferring certain features from the alternative technical system (competitive technical system) with the aim to combine the useful features in a single system."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Feature Transfer"@en, "Объединение альтернативных систем"@ru .
+
+tc:FeaturesofCreativePersonality
+    od:SouchkovCategory tc:TheoryofCreativeIndividualDevelopment ;
+    od:SouchkovDefinition "A set of personal talents and skills which enable a person to perform creative tasks and reach successful results in diverse areas of activities."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Features of Creative Personality"@en, "Качества творческой личности"@ru .
+
+tc:Field
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovComments "In Substance-Field Analysis definition of a field varies from definition of a field in physics. More specific terms presenting different types of energy exchange can be used. For example, such terms can be used as \"acoustic field\" or \"thermal field\", or \"friction forces\"."@en ;
+    od:SouchkovDefinition "A material object without rest mass that transmits interaction between components (subsystems) of a technical system that are represented as substances. "@en ;
+    od:SouchkovExamples "Examples of fields in TRIZ include the following fields: mechanical, acoustic, thermal, magnetic, electric, electromagnetic. Sometime additional fileds like intermolecular, biological, informational are added."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Field"@en, "Поле"@ru .
+
+tc:Flow
+    od:SouchkovCategory tc:FlowAnalysis ;
+    od:SouchkovDefinition "A sequence of events that have the same common feature."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Flow"@en, "Поток"@ru .
+
+tc:FlowAnalysis
+    od:SouchkovCategory tc:FlowAnalysis ;
+    od:SouchkovDefinition "An analytical method and a tool which identifies disadvantages in flows of energy, substances, and information in a technical system."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Flow Analysis"@en, "Потоковый анализ"@ru .
+
+tc:FlowDisadvantage
+    od:SouchkovCategory tc:FlowAnalysis ;
+    od:SouchkovDefinition "A disadvantage of a technical system being analyzed identified during Flow Analysis."@en ;
+    od:SouchkovExamples "Bottlenecks, \"Gray Zones\", \"Stagnation Zones\", etc."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Flow Disadvantage"@en, "Недостаток потока"@ru .
+
+tc:FlowDistributionAnalysis
+    od:SouchkovCategory tc:FlowAnalysis ;
+    od:SouchkovDefinition "A part of Flow Analysis that identifies distribution of flows and their disadvantages."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Flow Distribution Analysis"@en, "Анализ распределения потоков"@ru .
+
+tc:FocalObjectsMethod
+    od:SouchkovCategory tc:TheoryofCreativeIndividualDevelopment ;
+    od:SouchkovDefinition "A method and a tool for reducing the degree of psychological inertia and generating new out-of-the box ideas based on transferring features and functions of randomly chosen objects towards an object given (a focal object)."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Focal Objects Method"@en, "Метод фокальных объектов"@ru .
+
+tc:FourLevelAlgorithmforGeneratingScienceFictionIdeas
+    od:SouchkovCategory tc:CreativeImaginationDevelopment ;
+    od:SouchkovComments "While the original version of the technique comprised of four levels only, its modern version does not impose limits on how many levels can be introduced."@en ;
+    od:SouchkovDefinition "A method and a technique which use TRIZ concepts such as Ideality and Macro-Level Transition to produce new science-fiction ideas. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Four-storied algorithm for generating sci-fi ideas"@en, "Multi-Level Algorithm for Generating Sci-fi Ideas"@en ;
+    skos:prefLabel "Four-Level Algorithm for Generating Science-Fiction Ideas"@en, "Четырехэтажная схема создания фантастических идей"@ru .
+
+tc:Function
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "Specification of an action performed by a material object (Function Carrier) that results in a change or preservation of a value of an attribute of another material object (Object of the Function). "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Function"@en, "Функция"@ru .
+
+tc:FunctionIdealModeling
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovDefinition "A method of increasing the degree of ideality of a technical system or a process by decreasing a number of components providing the system's or the process' functionality without loss of quality and performance of the system or the process. A tool which implements Function-Ideal Modeling is called \"Trimming\"."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Function-Ideal Modeling"@en, "Функционально-идеальное моделирование"@ru .
+
+tc:FunctionOrientedSearch
+    od:SouchkovAbbreviation "FOS"@en ;
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovComments "Function-Oriented Search (FOS) was proposed and developed by Gen3 Partners, USA."@en ;
+    od:SouchkovDefinition "A method and a tool for problem solving based upon identifying existing technologies in other areas of technology using function criteria."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Function-Oriented Search"@en, "Функционально-Ориентированный Поиск"@ru .
+
+tc:FunctionAnalysis
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "An analytical method and a tool to model technical systems and their supersystems in terms of functional carriers, objects of the functions, their functions, and the costs of functions delivery and system components. A resulting Function Model of a technical system helps to better understand, extract, visualize, and categorize functional relationships in the system, to rank functions and identify problems."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Function-Attribute Analysis"@en, "Function-Cost Analysis"@en, "Functional Analysis"@en, "Value-Engineering Analysis"@en ;
+    skos:prefLabel "Function Analysis"@en, "Функционально-Стоимостной Анализ"@ru .
+
+tc:FunctionCarrier
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A material object that performs (delivers) a function. Can be either a substance, or a field, or a combination of both."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Function Carrier"@en, "Носитель функции"@ru .
+
+tc:FunctionCategory
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A characteristic of a function that describes its usefulness. A function can be useful, harmful, or neutral."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Function Category"@en, "Категория функции"@ru .
+
+tc:FunctionDisadvantage
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A drawback of a technical system identified during Function Modeling. These drawbacks include harmful functions, as well as inadequately (i.e., excessively or insufficiently) performed useful functions. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Function Disadvantage"@en, "Функциональный недостаток"@ru .
+
+tc:FunctionModel
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A model of a technical system resulting from Function Analysis that identifies and describes functional relationships between by the components of the System and its Supersystem. Functions representing the functional relationships are characterized by category (useful, harmful, neutral), quality of performance (insufficient, excessive), cost level (insignificant, acceptable and unacceptable) and cost of corresponding components. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Function Model"@en, "Функциональная модель"@ru .
+
+tc:FunctionModeling
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A part of Function Analysis which defines a process and rules for building a Function Model."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Function Modeling"@en, "Функциональное моделирование"@ru .
+
+tc:FunctionParameter
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A parameter that identifies the performance of a function."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Function Parameter"@en, "Параметр функции"@ru .
+
+tc:FunctionRank
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A dimensionless measure that determines the importance of the useful function based on the type of its object (i.e., target object of a technical system being analyzed, another component of the technical system, or component of the supersystem). "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Function Rank"@en, "Ранг функции"@ru .
+
+tc:FunctionRedistribution
+    od:SouchkovCategory tc:Trimming ;
+    od:SouchkovDefinition "Redistribution of useful functions of a component that has been trimmed as a result of Trimming to other components of the technical system being analyzed, or its supersystem"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Function Redistribution"@en, "Распределение функции"@ru .
+
+tc:Functionality
+    od:SouchkovCategory tc:FunctionalAnalysisandModeling, tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A dimensionless measure of the overall functional contribution by a component or a technical system's to the overall functional value delivered by the component or by the technical system. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Functionality"@en, "Функциональность"@ru .
+
+tc:GeneralizedFunction
+    od:SouchkovCategory tc:CataloguesofEffects ;
+    od:SouchkovDefinition "An abstract function for which a specific object and associated action are reduced to universal terms."@en ;
+    od:SouchkovExamples "Specific function \"remove water\" can be generalized to \"transport liquid\"."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Generalized Function"@en, "Обобщенная функция"@ru .
+
+tc:GenericEngineeringFunction
+    od:SouchkovCategory tc:ContradictionMatrix ;
+    od:SouchkovDefinition "An abstract engineering function that can be instantiated to a multitude of more specific engineering functions."@en ;
+    od:SouchkovExamples "The generalized technical function \"transport liquid\" can be instantiated to such functions as \"remove water\", \"absorb vapor\", etc."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Generic Engineering Function"@en, "Обобщенная техническая функция"@ru .
+
+tc:GenericEngineeringParameter
+    od:SouchkovCategory tc:ContradictionMatrix ;
+    od:SouchkovDefinition "see Typical Parameter"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Typical parameter"@en ;
+    skos:prefLabel "Generic Engineering Parameter"@en, "Обобщенный технический параметр"@ru .
+
+tc:GeometricalEffect
+    od:SouchkovCategory tc:CataloguesofEffects ;
+    od:SouchkovDefinition "A specific shape or combination of shapes that can be used for inventive problem solving. "@en ;
+    od:SouchkovExamples "The use of hyperbolic shape helps to improve displacement of solid bodies."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Geometrical Effect"@en, "Геометрический эффект"@ru .
+
+tc:GoldfishMethod
+    od:SouchkovCategory tc:CreativeImaginationDevelopment ;
+    od:SouchkovDefinition "A method and a technique of dealing with a situation when the result desired is first formulated as \"impossible to achieve\" and then transformed to a set of problem formulations presented in terms of manageable contradictions."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Goldfish Method"@en, "Метод золотой рыбки"@ru .
+
+tc:Harm
+    od:SouchkovCategory tc:TRIZEvolutionModels ;
+    od:SouchkovDefinition "Any type of a negative effect produced by a technical system during any moment of its lifecycle with respect to its subsystem or its supersystem and which decreases the overall degree of ideality of the technical system."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Harm"@en, "Вред"@ru .
+
+tc:HarmfulAction
+    od:SouchkovCategory tc:ARIZ, tc:FunctionalAnalysisandModeling ;
+    od:SouchkovDefinition "see function, negative"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Harmful Action"@en, "Вредное действие"@ru .
+
+tc:HarmfulFunction
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A physical action performed by an object that results in inacceptable change or inacceptable preservation of value of an attribute (parameter) or a state of another material object. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "negative Function"@en ;
+    skos:prefLabel "Harmful Function"@en, "Вредная функция"@ru .
+
+tc:HarmfulInteraction
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A type of a relationship between two components either in a technical system or between the technical system and its supersystem which emerges when one component provides a negative function towards another component.  "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Harmful Interaction"@en, "Вредное взаимодействие"@ru .
+
+tc:HarmfulMachine
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A model of a technical system which results from the process of extracting and understanding processes in the system which create negative effects."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Harmful System"@en ;
+    skos:prefLabel "Harmful Machine"@en, "Вредная машина"@ru .
+
+tc:SumofHarms
+    od:SouchkovCategory tc:TRIZEvolutionModels ;
+    od:SouchkovDefinition "A sum of all harms produced by a specific technical system."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Sum of Harms"@en, "Сумма вреда"@ru .
+
+tc:Heuristics
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A method of achieving a result required based on using statistically determined rules with high probability of success under specific conditions due to the lack of exact theory proposing how to obtain the result required with the 100% guarantee of success."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Heuristics"@en, "Эвристика"@ru .
+
+tc:Hybridization
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovDefinition "A technique of merging two or more technical systems that have identical, similar or inverse main useful functions to a single technical system."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Hybridization"@en, "Гибридизация"@ru .
+
+tc:Idea
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "An author's expression of a potential solution to an inventive problem whose feasibility has not been proven."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Idea"@en, "Идея"@ru .
+
+tc:IdealFinalResult
+    od:SouchkovAbbreviation "IFR"@en ;
+    od:SouchkovCategory tc:GeneralTRIZ, tc:TRIZTools ;
+    od:SouchkovComments "During development of TRIZ, definition of Ideal Final Result was continuously upgraded, therefore different definitions may be found in the TRIZ literature. In modern TRIZ, Ideal Final Result is used primarily in ARIZ."@en ;
+    od:SouchkovDefinition "A solution to an Inventive Problem which helps to obtain the result required with zero compensation factors. As follows from the laws of physics such a solution may never be achieved and therefore the concept of the Ideal Final Result serves to reduce the degree of psychological inertia during the problem solving process by targeting a problem solver towards searching for a solution with the highest degree of ideality."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Ideal Final Result (IFR)"@en, "Идеальный конечный результат (ИКР)"@ru .
+
+tc:IdealFinalResultARIZ
+    od:SouchkovAbbreviation "IFR"@en ;
+    od:SouchkovCategory tc:ARIZ ;
+    od:SouchkovDefinition "A model of a solution to an inventive problem formulated as a set of justified requirements towards the X-component."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Ideal Final Result (in ARIZ)"@en, "Идеальный конечный результат (ИКР)"@ru .
+
+tc:IdealFunction
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A function that does not exist but its effect is produced."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Ideal Function"@en, "Идеальная функция"@ru .
+
+tc:IdealMachine
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "see Ideal Technical System"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Ideal Machine"@en, "Машина идеальная"@ru .
+
+tc:IdealResource
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovComments "Due to laws of physics the Ideal Resource may not exist but its definition is used to search for inventive solutions with high degree of ideality."@en ;
+    od:SouchkovDefinition "A substance-field resource that does not exist but its property is available and can be used to solve an inventive problem. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Ideal Resource"@en, "Идеальный ресурс"@ru .
+
+tc:IdealSolution
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "see Ideal Final Result"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Ideal Solution"@en, "Идеальное решение"@ru .
+
+tc:IdealSubstance
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovComments "Due to laws of physics the Ideal Substance may not exist but its definition is used to search for inventive solutions with high degree of ideality."@en ;
+    od:SouchkovDefinition "A substance that does not exist but its property is available and can be used to solve an inventive problem.  "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Ideal Substance"@en, "Идеальное вещество"@ru .
+
+tc:IdealTechnicalSystem
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A technical system that has an infinite value. For example, it may have neither components nor associated costs, but still deliver the intended functionality. Similar to the Ideal Final Result such the system may not exist but its definition serves as a target to design the technical system with the highest degree of ideality possible."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Ideal Technical System"@en, "Идеальная техническая система"@ru .
+
+tc:Ideality
+    od:SouchkovCategory tc:TRIZEvolutionModels ;
+    od:SouchkovDefinition "A dimensionless measure of an inventive solution which qualitatively identifies how closely the sum of compensation factors to produce, maintain and utilize the solution approaches zero value. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Ideality"@en, "Идеальность"@ru .
+
+tc:IdealityAudit
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A process of identification of the degree of ideality of a technical system being analyzed by comparing it with one or more competitive technical systems."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Ideality Audit"@en, "Оценка идеальности"@ru .
+
+tc:IdealityEquation
+    od:SouchkovCategory tc:TRIZEvolutionModels ;
+    od:SouchkovComments "There are several types of ideality equations proposed by different TRIZ Schools. E.g., some other type of the ideality equation (by Ideation International, Inc.) proposes to add costs to harms in the denominator."@en ;
+    od:SouchkovDefinition "The ratio between Useful Functionality of the technical system versus Harms that are produced by the system."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Ideality Formula"@en ;
+    skos:prefLabel "Ideality Equation"@en, "Формула идеальности"@ru .
+
+tc:IdeasLandscape
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovDefinition "A graphical chart that represents ideas evaluated and positioned respectively two or more dimensions representing different evaluation criteria."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Ideas Landscape"@en, "Ландшафт идей"@ru .
+
+tc:IdeasPortfolio
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovDefinition "A list of inventive solution ideas in which all the ideas generated are grouped, structured or categorized according to a certain criterion or a set of criteria. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Ideas Portfolio"@en, "Портфолио идей"@ru .
+
+tc:ImprovingParameter
+    od:SouchkovCategory tc:ContradictionMatrix ;
+    od:SouchkovDefinition "A typical technical parameter whose value of an attribute must be improved or changed to solve an inventive problem. A list of Improving Parameters in used in the Contradiction Matrix."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Improving Feature"@en, "Positive Parameter"@en ;
+    skos:prefLabel "Improving Parameter"@en, "Улучшаемый параметр"@ru .
+
+tc:IncompleteSuField
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A Su-Field which represents a model of a problem expressed in terms of Substance-Field Analysis and which lacks one or more substances, or a field, or an interaction to create a working technical system."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Incomplete Su-Field"@en, "Неполный веполь"@ru .
+
+tc:Innovation
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "An implemented inventive solution. Innovations in engineering and technology are primarily based on a single or a number of inventions or scientific discovery."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Innovation"@en, "Инновация"@ru .
+
+tc:InnovationAgenda
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "Multi-year plan for innovation projects directly linked to the organization's growth objectives."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Innovation Agenda"@en, "Инновационнный план"@ru .
+
+tc:InnovationProcess
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A process of transforming an idea of an inventive solution to a working solution including its further implementation. Depending on the initial situation, the innovation process can include the inventive process to generate a new solution idea or exclude it if the inventive idea is brought from outside."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Innovative Process"@en ;
+    skos:prefLabel "Innovation Process"@en, "Инновационный процесс"@ru .
+
+tc:InnovativeConcept
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "An idea of innovative solution whose feasibility has been proven but not necessarily implemented."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Innovative Concept"@en, "Концепция "@ru .
+
+tc:InnovativeTask
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A specific category of a goal that has to be reached by performing an inventive process. "@en ;
+    od:SouchkovExamples "1) To eliminate negative effect, 2) to increase performance, 3) to radically cut costs, etc."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Innovative Task"@en, "Инновационная задача"@ru .
+
+tc:InsufficientFunction
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A physical action performed by an object - function carrier that results in a positive change or preservation of a value of a attribute of an object of the function but the action is performed with fewer degree of performance than required. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Insufficient Function"@en, "Недостаточная функция"@ru .
+
+tc:InsufficientInteraction
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A type of a relationship between two components either in a technical system or in the technical system and its supersystem which emerges when one component provides a positive function towards another component but the degree of performance of the function delivery or the required result from the function delivery do not reach the value required.  "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Insufficient Interaction"@en, "Недостаточное взаимодействие"@ru .
+
+tc:IntensificationofContradictingDemands
+    od:SouchkovCategory tc:ARIZ ;
+    od:SouchkovDefinition "Increasing values of attributes in a contradiction towards their limits or infinity."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Conflict Intensification"@en ;
+    skos:prefLabel "Intensification of Contradicting Demands"@en, "Обострение противоречия"@ru .
+
+tc:IntensifiedContradiction
+    od:SouchkovCategory tc:ARIZ ;
+    od:SouchkovDefinition "A formulation of a contradiction in which values of attributes involved to the contradiction approach their limits or infinity."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Intensified Conflict"@en ;
+    skos:prefLabel "Intensified Contradiction"@en, "Усиленная формулировка конфликта"@ru .
+
+tc:InteractionAnalysis
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A part of Function Analysis that identifies interactions between  components included in a Component Model."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Structure Analysis"@en ;
+    skos:prefLabel "Interaction Analysis"@en, "Анализ взаимодействий"@ru .
+
+tc:InteractionMatrix
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A matrix that identifies present or potentially possible interactions both between components of a technical system and between the components of the technical system and components of its supersystem."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Interaction Matrix"@en, "Матрица взаимодействий"@ru .
+
+tc:IntermediateDisadvantage
+    od:SouchkovCategory tc:CauseandEffectChainAnalysis ;
+    od:SouchkovDefinition "A disadvantage in the Cause-Effect Chain that is not a Target or a Key Disadvantage."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Intermediate Disadvantage"@en, "Промежуточный недостаток"@ru .
+
+tc:InternalComplexSuField
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A complete Su-Field in which one of the substances presents combination of two different substances while one the two substances is added physically (inserted inside, mixed, etc.) to another substance."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Internal Complex Su-Field"@en, "Внутренний комплексный веполь"@ru .
+
+tc:Invention
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "Either a significant improvement of an existing technical system or a process or development of a radically new technical system or a process, which possesses novelty and provides social value. An Invention can be obtained by either 1) on the result of resolving a contradiction caused by an existing technical system or a process, or 2) on the use of a scientific effect and discoveries used to develop a radically new engineering solution with a new technical function."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Invention"@en, "Изобретение"@ru .
+
+tc:InventivePrinciple
+    od:SouchkovCategory tc:TRIZKnowledgeBases, tc:TRIZTools ;
+    od:SouchkovDefinition "A recommendation that provides generic guideline(s) indicating how to solve an inventive problem represented as an engineering or physical contradiction. Inventive Principles were extracted and formulated on the basis of extensive studies of diverse documents describing inventions (such as patents) and innovations."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Inventive Principle"@en, "Изобретательские прием"@ru .
+
+tc:InventivePrincipleatMacroLevel
+    od:SouchkovCategory tc:TRIZKnowledgeBases, tc:TRIZTools ;
+    od:SouchkovDefinition "A method of applying an Inventive Principle without utilizing advantages of scientific effects which can be used to provide a result required by using properties of substances and fields at micro scale."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Inventive Principle at Macro-Level"@en, "Прием на макроуровне"@ru .
+
+tc:InventivePrincipleatMicroLevel
+    od:SouchkovCategory tc:TRIZKnowledgeBases, tc:TRIZTools ;
+    od:SouchkovDefinition "A method of applying an inventive principle with utilizing advantages of scientific effects which can be used to provide an action required by using properties of substances and fields at micro scale. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Inventive Principle at Micro-Level"@en, "Прием на микроуровне"@ru .
+
+tc:InventivePrinciples
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovComments "Although it is widely claimed that approximately 40.000 patents and patent certificates were examined to develop 40 Inventive Principles, there is no known reference to the proof of this statement made by G. Altshuller."@en ;
+    od:SouchkovDefinition "A collection of 40 Inventive Principles developed by the founder of TRIZ G. Altshuller on the basis of extensive studies of information on numerous inventions. The 40 Inventive Principles can be used in combination with the Contradiction Matrix (also known as Altshuller Matrix) or independently."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "40 Inventive Principles"@en, "Список изобретательских приемов"@ru .
+
+tc:InventiveProblem
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A situation which requires to perform a certain action either to create a new technical system to deliver a new main useful function, or to improve the function delivery by an existing technical system, or to prevent the technical system or its product from harmful internal or external factors in the situation when all known solution methods can not be applied to achieve the result required. The same inventive problem can be presented by different inventive problem models."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Inventive Problem"@en, "Изобретательская проблема"@ru .
+
+tc:InventiveProblemDefinition
+    od:SouchkovCategory tc:GeneralTRIZ, tc:TRIZTools ;
+    od:SouchkovDefinition "A textual description (sometimes including graphics) which presents specific information related to an inventive situation given and indicates what exactly has to be changed, a goal and constraints."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Inventive Problem Definition"@en, "Определение изобретательской задачи"@ru .
+
+tc:InventiveProblemModel
+    od:SouchkovCategory tc:GeneralTRIZ, tc:TRIZTools ;
+    od:SouchkovDefinition "A model which only includes those components that are essential for further solving the problem with a specific TRIZ Problem Solving Tool. In TRIZ, inventive problems can be modeled as technical or physical contradictions, inefficient or harmful Su-Fields, inefficient or harmful functional interactions, generic technical functions. A model that represents an inventive problem often is used as a part of Inventive Problem Definition."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Inventive Problem Model"@en, "Модель изобретательской задачи"@ru .
+
+tc:InventiveProblemSolving
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A process which consists of a number of steps to find an Inventive Solution to an Inventive Problem. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Inventive Problem Solving"@en, "Решение изобретательских задач"@ru .
+
+tc:InventiveProcess
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A process of transforming an initial ill-defined inventive situation to the description of a patentable solution idea (Invention)"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Inventive Process"@en, "Изобретательский процесс"@ru .
+
+tc:InventiveSituation
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A situation which is featured by a presence of a need to satisfy a specific supersystem's demand without either a clearly defined problem to solve or a problem solving direction to be chosen."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Inventive Situation"@en, "Изобретательская ситуация"@ru .
+
+tc:InventiveSituationAnalysis
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A process of decomposing an ill-defined inventive situation to a set of goals, tasks, inventive problems definitions, and constraints."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Inventive Situation Analysis"@en, "Анализ изобретательской ситуации"@ru .
+
+tc:InventiveSituationQuestionnaire
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A list of generic questions which have to be answered before starting a TRIZ process to describe and present an inventive situation. The questions are aimed at collecting useful information about needs, goals, demands, constraints as well as about existing solutions."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Inventive Situation Questionnaire"@en .
+
+tc:InventiveSolution
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A solution to a specific Inventive Problem that matches the requirements of invention."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Inventive Solution"@en, "Изобретательское решение"@ru .
+
+tc:InventiveStandard
+    od:SouchkovCategory tc:TRIZKnowledgeBases, tc:TRIZTools ;
+    od:SouchkovComments "A number of Inventive Standards do not contain drawings of Su-Fields and use textual explanations instead."@en ;
+    od:SouchkovDefinition "A problem-solving method which proposes a rule presenting how to transform a Su-Field given to achieve the result required. The description of the rule consists of two parts: its left part presents an existing Su-Field  that has to be improved (a generic model of a problem) and its right part presents a Su-Field that implements such an improvement (a generic model of a solution). "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Inventive Standard"@en, "Изобретательский стандарт"@ru .
+
+tc:InventiveStandardsforChange
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovComments "Standards for system modification"@en ;
+    od:SouchkovDefinition "A group of Inventive Standards which propose methods of solving  Inventive Problems of Change that require to improve performance or quality of a technical system, to add a new feature, or to eliminate a negative effect. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Inventive Standards for Change"@en, "Изобретательский стандарт на изменение"@ru .
+
+tc:InventiveStandardsforMeasurementandDetection
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A group of Inventive Standards which propose methods of solving  Inventive Problems of Measurement and Detection that require to measure value of a specific parameter or detect a change in of a specific attribute of a component at a moment given.  "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Inventive Standards for Measurement and Detection"@en, "Изобретательский стандарт на обнаружение или измерение"@ru .
+
+tc:InventiveStandardsonApplication
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A group of Inventive Standards which propose methods of enhancing the use of Inventive Standards of Change or Inventive Standards of Measurement and Detection, or to use these Inventive Standards when the problem constraints do not allow their use. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Inventive Standards on Application of Inventive Standards"@en, "Стандарты на применение стандартов"@ru .
+
+tc:KeyDisadvantage
+    od:SouchkovDefinition "A disadvantage to be eliminated to achieve the project goal. Usually, Key Disadvantages appear at the root of a Cause-Effect Chain."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Key Disadvantage"@en, "Ключевой недостаток"@ru .
+
+tc:KeyProblem
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovDefinition "A problem to be solved to achieve project goals within the specified constraints. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Key Problem"@en, "Ключевая проблема"@ru .
+
+tc:KeyProblemAnalysis
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovDefinition "An analytical method and a tool that first eliminates redundant Key Problems from all the Key Problems identified during the Problem Identification stage, then identifies trivial Key Problems and, finally, classifies non-trivial problems as function- or contradiction-based. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Key Problem Analysis"@en, "Анализ ключевой проблемы"@ru .
+
+tc:LawsofTechnicalSystemsEvolution
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovComments "Later the term started to be replaced with the term \"Trends of Technical Systems Evolution\" due to the lack of exact statistical proof that the laws of technical systems evolution are valid for all technical systems under certain circumstances without exception."@en ;
+    od:SouchkovDefinition "Original and still in use term originated by the founder of TRIZ G. Altshuller to present a number of common generic patterns, trends and lines which govern evolution of all technical systems. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Laws of Technical Systems Evolution"@en, "Законы развития технических систем"@ru .
+
+tc:LevelofInvention
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovComments "Currently 5 levels of inventions are known: 1) \"Non-inventive invention\": very simple invention that does not produce any significant impact on the evolution of a technical system, 2) Invention that emerges from resolving a technical contradiction by a method available in the narrow engineering domain where the invention belongs to, 3) Invention that emerges from resolving a complex technical contradiction by a method known in the engineering domain given, 4) Invention that emerges from resolving a technical contradiction by a method available in a different engineering domain; 5) Pioneering invention that deals with complex inventive situations and which launches a radically new technology area."@en ;
+    od:SouchkovDefinition "A dimensionless qualitative measure which evaluates an inventive solution according to an estimated number of trials necessary to produce such the solution and the degree of its contribution to the general evolution of technology and engineering. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Level of Invention"@en, "Уровень изобретательских решений"@ru .
+
+tc:LevelofUsefulFunctionPerformance
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "The ratio between the actual and required values of the function parameter. If the actual value is higher than the required value the level is excessive. If the actual value is lower than the required value, the level is insufficient. If the actual value is equal to the required value, the level is normal."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Level of Useful Function Performance"@en, "Уровень производительности функции"@ru .
+
+tc:LifeStrategyofCreativePersonality
+    od:SouchkovCategory tc:TheoryofCreativeIndividualDevelopment ;
+    od:SouchkovDefinition "A field of study which explores biographies of known creative persons to extract specific patterns indicating how a creative person solves all types of personal and social problems and what path a creative person follows during his or her lifetime to achieve his goals. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Life Strategy of Creative Personality"@en, "Жизненная Стратегия Творческой Личности"@ru .
+
+tc:LineofTechnicalSystemsEvolution
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovComments "Some Trends of Technical Systems Evolution can include several specific lines of evolution."@en ;
+    od:SouchkovDefinition "A line presenting a general direction of evolution which shows a number of specific non-contradictory successive transformations a technical system or its part passes through during its evolution according to a specific criterion. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Line of Technical Systems Evolution"@en, "Линия развития технических систем"@ru .
+
+tc:CollectionofLinesofTechnicalSystemsEvolution
+    od:SouchkovDefinition "A collection of the Lines of Technical Systems Evolution which brings together all the  Lines of Technical Systems Evolution that belong to corresponding Trends of Technical Systems Evolution. Each transformation in the Line of Technical Systems Evolution is presented as a specific Evolution Pattern."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Lines of Technical Systems Evolution"@en, "Линии развития технических систем"@ru .
+
+tc:MATChEM
+    od:SouchkovCategory tc:GeneralTRIZ, tc:InventiveStandards ;
+    od:SouchkovDefinition "Abbreviation use to memorize common type of fields used in TRIZ to solve Inventive Problems: Mechanical, Acoustic, Thermal, Chemical, Electrical, Magnetic. The last two letters EM also stand for \"Electromagnetic\"."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "MATChEM"@en, "МАТХЭМ"@ru .
+
+tc:MacroLevel
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovComments "The term \"Macro-Level\" can have two meanings: 1) Indication of a supersystem, 2) Indication of the fact that changes are produced at macro scale, without the use of particles or fields."@en ;
+    od:SouchkovDefinition "A supersystem where a selected component or a technical system belongs to."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Macro-Level"@en, "Макро-уровень"@ru .
+
+tc:MacroLevelPhysicalContradiction
+    od:SouchkovCategory tc:ARIZ ;
+    od:SouchkovDefinition "A type of a physical contradiction used in ARIZ, in which the contradicting demands are applied to relatively large-scale components or their attributes expressed in terms of physical parameters or states."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Macro-Level Physical Contradiction"@en, "Физическое противоречие на макро-уровне"@ru .
+
+tc:MainFunction
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A primary function for which a technical system is assigned. Main Function realizes a purpose of the technical system with respect to its supersystem."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Prime Function"@en ;
+    skos:prefLabel "Main Function"@en, "Основная функция"@ru .
+
+tc:MainFunctionalParametersofValue
+    od:SouchkovAbbreviation "MFPVs"@en ;
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "The objective technical (physical, chemical, geometrical, biological, etc.) characteristics that underlie the Main Parameter of Value."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Main Functional Parameters of Value"@en, "Основные функциональные параметры ценности"@ru .
+
+tc:MainParametersofValue
+    od:SouchkovAbbreviation "MPV"@en ;
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "Characteristics and features of a technical system that impact customer's perceived value and purchase decisions."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Main Parameters of Value"@en, "Главные параметры ценности "@ru .
+
+tc:MainProductionProcess
+    od:SouchkovCategory tc:ARIZ ;
+    od:SouchkovDefinition "A process that ensures delivery of a main useful function by a system or its subsystem."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Main Useful Process"@en ;
+    skos:prefLabel "Main Production Process"@en, "Главный производственный процесс"@ru .
+
+tc:MainUsefulFunction
+    od:SouchkovAbbreviation "MUF"@en ;
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "see Main Function"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Main Useful Function"@en, "Главная полезная функция"@ru .
+
+tc:MaterialObject
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A part of environment that has at least one specific feature that distinguishes this part from the rest of the environment. A material object can be represented by a substance, a field, or combination of both."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Material Object"@en, "Материальный объект"@ru .
+
+tc:MaxiProblem
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "An Inventive Problem Definition which does not impose constraints on future inventive solutions."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Maxi-Problem"@en, "Задача максимальная (макси-задача)"@ru .
+
+tc:MeasurementFunction
+    od:SouchkovCategory tc:CataloguesofEffects ;
+    od:SouchkovDefinition "A providing Function that reveals information about components."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Measurement Function"@en, "Измеритьельная функция"@ru .
+
+tc:MeasurementSuField
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A special type of a Su-Field which is used to present models of inventive problems where measurement or detection is required in terms of Substance-Field Analysis."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Measurement Su-Field"@en, "Измерительный веполь"@ru .
+
+tc:MethodofTrends
+    od:SouchkovCategory tc:CreativeImaginationDevelopment ;
+    od:SouchkovDefinition "A technique which explores what contradictions will emerge in a future if two current trends in the technology and society will evolve to reach their limits."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Method of Trends"@en, "Метод тенденций"@ru .
+
+tc:MethodofTrialandError
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A non-algorithmic way to generate new solution ideas based on a direct mental jump from a problem given to an idea. A primary drawback of the method is a necessity in most cases to generate a large number of ideas to solve a difficult problem that might result in a long period of time and many problem solving attempts till a feasible idea is found."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Method of Trial and Error"@en, "Метод проб и ошибок (МПиО)"@ru .
+
+tc:MethodsforEliminatingPsychologicalinertia
+    od:SouchkovCategory tc:CreativeImaginationDevelopment ;
+    od:SouchkovDefinition "A group of methods which focus on using special psychological means for reducing the degree of psychological inertia to expand the ideas search area. Most known methods of reducing psychological inertia were known before TRIZ, such as brainstorm, Synectics, etc."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Methods for Eliminating Psychological inertia"@en, "Методы устранения психологической инерции"@ru .
+
+tc:MicroLevelPhysicalContradiction
+    od:SouchkovCategory tc:ARIZ ;
+    od:SouchkovDefinition "A type of a physical contradiction used in ARIZ, in which the contradicting demands are applied to particles comprising large scale objects."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Micro-Level Physical Contradiction"@en, "Физическое противоречие на микро-уровне"@ru .
+
+tc:MicroProblem
+    od:SouchkovCategory tc:ARIZ ;
+    od:SouchkovDefinition "A type of Inventive Problem Definition which is formulated after a problem solving direction has been identified after application of the method \"Step Back from IFR\". "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Micro-Problem"@en, "Задача микро"@ru .
+
+tc:MiniProblem
+    od:SouchkovCategory tc:ARIZ ;
+    od:SouchkovDefinition "A type of Inventive Problem Definition which is obtained by imposing the following constraints on a given inventive situation: everything remains as is (without any changes) or becomes even simpler but the required positive effect is provided or the harmful effect disappears. Definition of a Mini-Problem targets at obtaining a solution required with as minimal changes in the existing technical system as possible."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Mini-Problem"@en, "Задача минимальная (мини-задача)"@ru .
+
+tc:ModelofaContradiction
+    od:SouchkovCategory tc:ARIZ ;
+    od:SouchkovComments "In ARIZ, two diagrams of mutually exclusive contradictions are used."@en ;
+    od:SouchkovDefinition "A drawing which presents a tool, a product and interactions between them. Sometimes some other component of a technical system being analyzed or its supersystem can be included to the drawing."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Diagram (Model) of a Contradiction"@en, "Графическая схема технического противоречия (ТП)"@ru .
+
+tc:ModelofanInventiveProblem
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "see Inventive Problem Model"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Model of an Inventive Problem"@en, "Модель изобретательской задачи"@ru .
+
+tc:ModifiedEnvironment
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A part of a system or its supersystem which usually surrounds a subsystem where an inventive problem emerged with permanently or temporarily changed physical or chemical parameters in order to acquire properties required for solving the inventive problem."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Modified Environment"@en, "Измененная среда"@ru .
+
+tc:MonoSystem
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "A system or a subsystem consisting of non-repeating components."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Mono-system"@en, "Моносистема"@ru .
+
+tc:MorphologicalTable
+    od:SouchkovCategory tc:ARIZ, tc:CreativeImaginationDevelopment ;
+    od:SouchkovDefinition "A method developed outside TRIZ for exploring all possible solutions to a multi-dimensional, non-quantified complex problem. The method is based on exhaustive search for all combinations of values of attributes representing a system causing the problem."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Morphological Table"@en, "Морфологический ящик"@ru .
+
+tc:MultiScreenAnalysis
+    od:SouchkovAbbreviation "MSA"@en ;
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovDefinition "A method and a tool based on the use of Multi-Screen Diagram of Thinking to forecast future evolution of a system based on the comparative analysis of a past generation of the system, its subsystems and supersystem and a current generation of the system and its projection to the future generations of the system."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Multi-Screen Analysis"@en, "Многоэкранный Анализ"@ru .
+
+tc:MultiScreenDiagram
+    od:SouchkovCategory tc:CreativeImaginationDevelopment, tc:GeneralTRIZ, tc:TheoryofCreativeIndividualDevelopment ;
+    od:SouchkovDefinition "A method of analyzing a technical system which considers properties and features of the system in their relationships with subsystems and supersystem as well as with previous generations of the system, its subsystems and supersystem, and their projections to the future generations of the system.  "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Multi-Screen Scheme of Talented Thinking"@en, "Multi-Screen of Talented Thinking"@en, "Nine Boxes"@en, "Nine Screens"@en, "Nine Windows"@en, "System Operator"@en ;
+    skos:prefLabel "Multi-Screen Diagram"@en, "Многоэкранная схема"@ru .
+
+tc:NegativeEffect
+    od:SouchkovDefinition "A result of a function, action or interaction which negatively impacts the required specifications."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Negative Effect"@en, "Отрицательный эффект"@ru .
+
+tc:NeutralFunction
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A physical action performed by a material object - function carrier - that results in neither any meaningful change nor preservation of a value of an attribute of an object of the function."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Neutral Function"@en, "Нейтральная функция"@ru .
+
+tc:NonAlgorithmicMethods
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "Methods of solving problems and generating new ideas that do not incorporate a structured approach to stepwise transition from a problem to a solution."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Non-Algorithmic Methods"@en, "Неалгоритмические методы"@ru .
+
+tc:NonRoutineInventiveProblem
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "see Non-Standard Inventive Problem"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Non-Routine Inventive Problem"@en, "Задача изобретательская нетиповая / нестандартная"@ru .
+
+tc:NonStandardInventiveProblem
+    od:SouchkovCategory tc:ARIZ ;
+    od:SouchkovDefinition "An inventive problem whose solution model is either not available in the TRIZ Knowledge Bases or can not be solved with an application of available solution models."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Non-Typical Inventive Problem"@en, "Routine Inventive Problem"@en ;
+    skos:prefLabel "Non-Standard Inventive Problem"@en, "Нестандартная изобретательская проблема"@ru .
+
+tc:OTSM-TRIZ
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovComments "The term \"OTSM\" is an abbreviation of the Russian term \"Общая Теория Сильного Мышления\" written in Latin letters."@en ;
+    od:SouchkovDefinition "An abbreviation standing for \"The General Theory of Powerful Thinking - TRIZ\" and presenting a field of study which emerged from Classical TRIZ. OTSM-TRIZ aims at understanding how a systematic approach to organizing a thinking process can enhance personal thinking skills and convert it to so-called \"talented thinking\" irrespectively of an application area. OTSM-TRIZ uses fundamental TRIZ Postulates added with a number of OTSM-TRIZ Axioms as its background."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "OTSM-TRIZ"@en, "ОТСМ-ТРИЗ"@ru .
+
+tc:OTSM-TRIZAxiom
+    od:SouchkovCategory tc:OTSM-TRIZ ;
+    od:SouchkovDefinition "A statement that must be accepted without proof and which introduces a specific postulate to form fundamental basis on which the theories, methods and tools of OTSM-TRIZ are being constructed."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "OTSM-TRIZ Axiom"@en, "Аксимома ОТСМ-ТРИЗ"@ru .
+
+tc:ObjectofFunction
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A material object, whose value of a certain attribute is changed as a result of performing a function targeted at the material object."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Object of Function"@en, "Объект функции"@ru .
+
+tc:OpenEndedProblem
+    od:SouchkovCategory tc:GeneralTRIZ, tc:TRIZ-Pedagogy ;
+    od:SouchkovDefinition "A problem to which an algorithmic solution doesn’t exists. As a rule, conditions of an open-ended problems are fuzzy, which means that they either lack sufficient data, or the data is available in latent form, or there can be excessive data (information noise). The open-ended problem implies the possibility of different ways of solving the problem and different variants of its solution."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Open-ended Problem"@en, "Открытая задача"@ru .
+
+tc:Operation
+    od:SouchkovCategory tc:FunctionalAnalysisandModeling, tc:GeneralTRIZ ;
+    od:SouchkovDefinition "An action produced on a material object with the goal of changing value of an attribute of the material object."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Operation"@en, "Операция"@ru .
+
+tc:OperationalPrinciple
+    od:SouchkovCategory tc:CataloguestoEffects, tc:GeneralTRIZ ;
+    od:SouchkovDefinition "An abstract concept presenting how a required function can be obtained on the basis of a scientific effect or combination of scientific effects. Operational Principle can be instantiated into a multitude of different designs of technical systems or components."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Basic Principle"@en, "Operation Principle"@en, "Working principle"@en ;
+    skos:prefLabel "Operational Principle"@en, "Принцип действия"@ru .
+
+tc:OperationalTime
+    od:SouchkovCategory tc:ARIZ ;
+    od:SouchkovDefinition "A time interval during which a physical conflict (or a negative effect) that creates a problem occurs. Three time intervals can be defined: 1) Time before conflict, 2) Time of conflict, 3) Time after conflict."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Operation Time"@en ;
+    skos:prefLabel "Operational Time"@en, "Оперативное время"@ru .
+
+tc:OperationalZone
+    od:SouchkovCategory tc:ARIZ ;
+    od:SouchkovDefinition "A part of physical space where a conflict (or a negative effect) that causes an inventive problem occurs. Usually Operational Zone includes material objects directly involved to the conflict."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Operation Zone"@en ;
+    skos:prefLabel "Operational Zone"@en, "Оперативная зона"@ru .
+
+tc:Parameter
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovComments "Parameters can be measured by absolute or relative values."@en ;
+    od:SouchkovDefinition "A variable dimensional or dimensionless measurable factor, either specific or aggregated, that participates in the definition of an attribute of a material object of a technical system or its supersystem and determining its borders and behaviors. Parameters can be physical and non-physical."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Parameter"@en, "Параметр"@ru .
+
+tc:ParameterChange
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "Change of a measurable value of a Parameter."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Parameter Change"@en, "Изменение параметра"@ru .
+
+tc:PartialAction
+    od:SouchkovCategory tc:ARIZ, tc:FunctionalAnalysisandModeling ;
+    od:SouchkovDefinition "see Insufficient Function"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Partial Action"@en, "Частичное действие"@ru .
+
+tc:Patent
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A legal document issued by a national or international authority to protect intellectual property rights of an owner of a patent concerning a specific invention for a limited period of time."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Patent"@en, "Патент"@ru .
+
+tc:PatentBenchmarking
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A comparative study of two or more patents protecting competitive technical systems or inventive solutions against a specific TRIZ Trend of Technical Systems Evolution or a selected number of trends."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Patent Benchmarking (in TRIZ)"@en .
+
+tc:PatentCircumvention
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A method to legally circumvent constraints imposed by a competitive patent, i.e., to obtain the freedom to operate without infringing on the patent owner's rights."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Patent Circumvention"@en, "Обход патента"@ru .
+
+tc:PatentableSolution
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A novel inventive solution that matches all the formal requirements that have to be met in order to issue a patent to protect the solution."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Patentable Solution"@en, "Патентноспособное решение"@ru .
+
+tc:PerformanceofMainParameterofValue
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "An aggregate measure of how well a product fulfills market demands and requirements."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Performance of Main Parameter of Value"@en, "Производительность главного параметра ценности"@ru .
+
+tc:PhysicalConflict
+    od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ ;
+    od:SouchkovDefinition "see Physical Contradiction"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Physical Conflict"@en, "Конфликт, физический"@ru .
+
+tc:PhysicalContradiction
+    od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A situation that emerges when a certain attribute of a material object must have two different values at the same time to provide a result required. An attribute can be a physical parameter, aggregate state, location, etc."@en ;
+    od:SouchkovTerms "material object, parameter, value of parameter"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Contradiction of properties"@en, "Physical Conflict"@en, "Sharpened Contradiction"@en ;
+    skos:prefLabel "Physical Contradiction"@en, "Физическое противоречие"@ru .
+
+tc:PhysicalEffect
+    od:SouchkovCategory tc:CataloguesofEffects ;
+    od:SouchkovDefinition "A natural phenomenon known in science of physics or combination of such that could be used for inventive problem solving."@en ;
+    od:SouchkovExamples "Bernoulli's Principle is used to control pressure in fluids, or centrifugal motion can be used to mix two liquids. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Physical Effect"@en, "Физический эффект"@ru .
+
+tc:PhysicalParameter
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A variable dimensional or dimensionless measurable factor, either specific or aggregated, that participates in the definition of an attribute of a material object expressed in terms of physics."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Physical Parameter"@en, "Физические параметры"@ru .
+
+tc:PolySystem
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "A technical system which includes three of more components with identical, biased, or inverse functions or values of the same attribute to create a positive synergetic effect: either a considerable multiplication or decrease of a value of an attribute, or delivering a new property, or production of a new function. Three or more complete technical systems can form a poly-system as well in case if they produce a synergetic effect."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Poly-system"@en, "Полисистема"@ru .
+
+tc:PolySystemwithBiasedParameters
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "A technical system which includes three of more components with biased functions or values of the same attribute to create a positive synergetic effect: either a considerable multiplication or decrease of a value of an attribute, or delivering a new property, or production of a new function. A poly-system can be formed by three or more complete technical systems with biased functions or values of the same attribute. "@en ;
+    od:SouchkovExamples "1) A pen containing several rods filled by ink of different colors. 2) Set of crayons of different colors. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Poly-system with similar parameters"@en ;
+    skos:prefLabel "Poly-system with Biased Parameters"@en, "Полисистема со сдвинутыми характеристиками"@ru .
+
+tc:PolySystemwithIdenticalParameters
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "A technical system which includes three of more components with identical functions or values of the same attribute to create a positive synergetic effect: either a considerable multiplication or decrease of a value of an attribute, or delivering a new property, or production of a new function Three or more complete technical systems can form a poly-system as well in case if they produce a synergetic effect. "@en ;
+    od:SouchkovExamples "1) A propeller with three or more blades. 2) A computer network that consists of identical computers."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Poly-system with Identical Parameters"@en, "Полисистема с одинаковыми характеристиками"@ru .
+
+tc:PolySystemwithInverseParameters
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "A technical system which includes three of more components with inverse functions or values of the same attribute to create a synergetic effect. Three or more complete technical systems with inverse functions (anti-systems) can form a poly-system as well in case if they produce a synergetic effect. "@en ;
+    od:SouchkovExamples "1) An electronic component which consists of a number of electricty conducting and isolating components. 2)"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Poly-system with Inverse Parameters"@en, "Полисистема с противоположными характеристиками"@ru .
+
+tc:PoorlyControllableInteraction
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A type of a relationship between two components either in a technical system or the technical system and its supersystem which emerges when one component provides a positive function towards another component but the degree of control over the function delivery or over the result from the function delivery is not sufficient.  "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Poorly Controllable Interaction"@en, "Плохо регулируемое взаимодействие"@ru .
+
+tc:PositiveEffect
+    od:SouchkovCategory tc:CauseandEffectChainAnalysis, tc:Root-ConflictAnalysis ;
+    od:SouchkovDefinition "A situation when a function, action, or interaction leads to the result required."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Positive Effect"@en, "Положительный эффект"@ru .
+
+tc:PositiveInteraction
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A type of a relationship between two components either in a technical system or the technical system and its supersystem which emerges when one component provides a positive function towards another component.  "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Positive Interaction"@en, "Положительное взаимодействие"@ru .
+
+tc:PrincipleAntiPrincipleDuality
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A hypothesis which states that every inventive problem solving method can be complemented with an inventive problem solving method proposing an opposite recommendation. Many couples of the TRIZ inventive principles can be considered as opposite."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Duality “Principle-Anti-Principle”"@en, "Дуальность \"Прием-Антиприем\""@ru .
+
+tc:PrincipleofSeparatingContradictoryDemands
+    od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A particular method which proposes a specific solution direction for separation of contradiction demands."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Principle of Separating Conflicting Demands"@en, "Principle of Separating Contradicting Demands"@en ;
+    skos:prefLabel "Principle of Separating Contradictory Demands"@en, "Прием разделения противоречивый требований"@ru .
+
+tc:ProblemAnalysis
+    od:SouchkovCategory tc:GeneralTRIZ, tc:TRIZTools ;
+    od:SouchkovDefinition "A process of transformation of an inventive problem definition given to a well-defined problem formulated in terms of a problem model valid for a specific TRIZ problem solving tools and extracting information needed to find a solution to the problem."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Problem Analysis"@en, "Анализ проблемы"@ru .
+
+tc:ProblemFormulator
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovComments "Developed by Ideation International, Inc."@en ;
+    od:SouchkovDefinition "A technique which presents a situation that causes a specific model in terms of interrelated functions and effects caused by the functions."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "N/A"@ru, "Problem Formulator"@en .
+
+tc:ProblemModel
+    od:SouchkovCategory tc:GeneralTRIZ, tc:TRIZTools ;
+    od:SouchkovDefinition "See Inventive Problem Model"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Problem Model"@en, "Модель проблемы"@ru .
+
+tc:ProblemStatement
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "Description of goals, constraints, demands and conditions that have to be met in order to search for a relevant solution."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Problem Statement"@en, "Постановка задачи"@ru .
+
+tc:ProblemofChange
+    od:SouchkovCategory tc:CataloguestoEffects, tc:InventiveStandards ;
+    od:SouchkovDefinition "An inventive problem which requires to improve performance or quality of a technical system, to add a new feature, or to eliminate a negative effect. Solutions to such problems mostly result from changing a technical system given."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Problem of Change"@en, "Задача на изменение"@ru .
+
+tc:ProblemofMeasurementorDetection
+    od:SouchkovCategory tc:CataloguestoEffects, tc:InventiveStandards ;
+    od:SouchkovDefinition "A problem which requires to measure value of a specific parameter or detect presence or a change in a specific attribute of a component at a moment given. Most often solutions to such problems result from creating new technical systems or improvement of the existing technical systems for measurement or detection."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Problem of Measurement or Detection"@en, "Задача измерения или обнаружения"@ru .
+
+tc:ProcessModel
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A model of a technical system built in the form of a sequence of actions."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Process Model"@en, "Модель процесса"@ru .
+
+tc:Product
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A technical system that is an object of Innovation."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Product"@en, "Продукт"@ru .
+
+tc:ProductARIZ
+    od:SouchkovCategory tc:ARIZ ;
+    od:SouchkovDefinition "A conflicting component that is an object of the function performed by the Tool (term originated in ARIZ; corresponds to Object of function)."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Product (in ARIZ)"@en, "Изделие"@ru .
+
+tc:ProductiveFunction
+    od:SouchkovDefinition "A Useful Function that irreversibly changes a value of an attribute of a technical system."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Productive Function"@en, "Создающая функция"@ru .
+
+tc:Property
+    od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ, tc:InventiveStandards ;
+    od:SouchkovDefinition "An attribute of a material object that represents one of its specific abilities which can be used for producing either a positive or a negative effect. "@en ;
+    od:SouchkovExamples "Fragility of the glass can be used to break the glass."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Property"@en, "Свойство"@ru .
+
+tc:ProtoSuField
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "see Incomplete Su-Field"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Proto Su-Field"@en, "Прото-веполь"@ru .
+
+tc:ProvidingFunction
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A Useful Function that helps perform other Useful Functions."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Providing Function"@en, "Обеспечивающая функция"@ru .
+
+tc:PsychologicalInertia
+    od:SouchkovCategory tc:CreativeImaginationDevelopment ;
+    od:SouchkovDefinition "Accumulated personal experience, knowledge and associations that prevent a person from thinking out of the box."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Mental Inertia"@en ;
+    skos:prefLabel "Psychological Inertia"@en, "Инерция мышления"@ru .
+
+tc:RelativeCost
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A cost of a component expressed as a percentage of the overall cost of the entire technical system."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Relative Cost"@en, "Относительная стоимость"@ru .
+
+tc:RelativeValue
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "Ratio of product's value to the value of competitive products."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Relative Value"@en, "Относительная значимость"@ru .
+
+tc:RelativeValueofMainParameterofValue
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A dimensionless indicator of relative position. Reflects what is commonly referred to as our \"Value Proposition\"."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Relative Value of Main Parameter of Value"@en, "Относительное значение Главного параметра ценности"@ru .
+
+tc:RepositoryofScienceFictionIdeas
+    od:SouchkovCategory tc:CreativeImaginationDevelopment ;
+    od:SouchkovDefinition "A database of science-fiction ideas drawn from science-fiction literature in which each idea is evaluated and categorized according to a number of criteria."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Repository of Science Fiction Ideas"@en, "Регистр НФ-идей"@ru .
+
+tc:Resource
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "Any type of tangible or intangible matter that can be used to solve an inventive problem: time, space, substances, fields, their properties and parameters, etc."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Resource"@en, "Ресурс"@ru .
+
+tc:ResourceAnalysis
+    od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ ;
+    od:SouchkovDefinition "Examination of resources available in the technical system and its supersystem in order to compile a list of resources that can be used for solving a particular inventive problem."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Resource Analysis"@en, "Анализ ресурсов"@ru .
+
+tc:RhythmHarmonization
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "Coordination of working frequencies of interacting subsystems or components."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Rhythm Harmonization"@en, "Согласование ритмики"@ru .
+
+tc:RootConflict
+    od:SouchkovCategory tc:GeneralTRIZ, tc:RootConflictAnalysis ;
+    od:SouchkovDefinition "A contradiction that causes emergence of other contradictions and negative effects."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Root Contradiction"@en ;
+    skos:prefLabel "Root Conflict"@en, "Корневой конфликт"@ru .
+
+tc:RootConflictAnalysis
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovComments "Developed by ICG Training & Consulting"@en ;
+    od:SouchkovDefinition "A method and technique for top-down decomposition of an inventive problem formulated in terms of a negative effect to a tree of interrelated contradiction causes, negative, and positive effects."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Root Conflict Analysis"@en, "Причинно-конфликтный анализ"@ru .
+
+tc:RoutineInventiveProblem
+    od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ, tc:InventiveStandards ;
+    od:SouchkovDefinition "see Standard Inventive Problem"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Routine Inventive Problem"@en, "Стандартная задача"@ru .
+
+tc:SCurveAnalysis
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "Determining the potential of further evolution of a specific Technical system or a specific technology with respect to defining their current positions on the S-Curve of Evolution. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "S-Curve Analysis"@en, "Анализ S-кривой"@ru .
+
+tc:SCurveJump
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "A transition from one S-Curve featuring evolution of a technical system to another S-Curve due to a disruptive innovation that makes it possible to radically rise a value of one of the most important attributes of the system at the phases of maturity or stagnation of the existing system.  "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "S-Jump"@en ;
+    skos:prefLabel "S-Curve Jump"@en, "Прыжок на S-кривой"@ru .
+
+tc:SCurveofEvolution
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovComments "S-Curve is similar to a logistic curve known in other disciplines beyond TRIZ."@en ;
+    od:SouchkovDefinition "A curve which represents a non-linear relation between a change of a value of one of the most important attributes of a technical system and time. The value of the attribute is presented along the vertical axis while time is presented along the horizontal axis. A typical S-Curve has shape similar to Latin letter \"S\" due to three distinct time intervals: 1) Phase of a System Birth and Early Development where the value of the attribute rises relatively slowly, 2) Phase of System Growth where the value of the attribute rises rapidly and 3) Phase of Maturity where the value of the attribute rises relatively slowly or does not rise at all. Sometimes an extra interval is added to S-Curve presenting the phase of stagnation."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "S-Curve of Evolution"@en, "S-образная кривая "@ru .
+
+tc:ScientificEffect
+    od:SouchkovCategory tc:CataloguesofEffects ;
+    od:SouchkovDefinition "A natural phenomenon or combination of such that can be used for inventive problem solving or generation of a new technical system or its subsystem based on a new operational principle."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Scientific Effect"@en, "Научный эффект"@ru .
+
+tc:SecondaryProblem
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A problem that has to be solved in order to implement an inventive solution proposed to an inventive problem given.  "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Secondary Problem"@en, "Вторичная проблема"@ru .
+
+tc:SeparationPrinciple
+    od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A description of a particular method of resolving two contradicting demands."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Separation Principle"@en, "Прием разделения противоречивых требований"@ru .
+
+tc:SeparationofContradictingDemands
+    od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A method of solving an inventive problem by satisfying two contradicting demands in the win-win way through decoupling the demands rather than by using optimization or trade-off."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Separation of Conflicting Demands"@en ;
+    skos:prefLabel "Separation of Contradicting Demands"@en, "Разделение противоречивых требований"@ru .
+
+tc:SeparationofContradictingDemandsinCondition
+    od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A method of separating two contradicting demands that create a  physical contradiction which proposes to provide specific conditions within a technical system or its supersystem to avoid emergence of the conflict of the demands."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Separation of Contradicting Demands in Condition"@en, "Разделение противоречивых требований по условию"@ru .
+
+tc:SeparationofContradictingDemandsinSpace
+    od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A method of separating two contradicting demands that create a  physical contradiction which proposes to provide meeting of the conflicting demands in different parts of space."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Separation of Contradicting Demands in Space"@en, "Разделение противоречивых требований в пространстве"@ru .
+
+tc:SeparationofContradictingDemandsinStructure
+    od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A method of separating two contradicting demands that create a physical contradiction which proposes to impair a certain property to components of a technical system or its subsystem while the whole system will possess an opposite property."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Separation of Contradicting Demands in Structure"@en, "Разделение противоречивых требований в структуре"@ru .
+
+tc:SeparationofContradictingDemandsinTime
+    od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A method of separating two contradicting demands involved to a physical contradiction which proposes to provide meeting of the conflicting demands during different time intervals."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Separation of Contradicting Demands in Time"@en, "Разделение противоречивых требований во времени"@ru .
+
+tc:SimilarFunctions
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "Functions with similar objects and/or actions."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Similar Functions"@en, "Схожие функции"@ru .
+
+tc:SizeTimeCostOperator
+    od:SouchkovAbbreviation "STC Operator"@en ;
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovDefinition "A method and a technique which proposes to reduce psychological inertia to come up with innovative solutions while solving an inventive problem by either radical increase or decrease of one of three parameters of a technical system or a material object: size, time costs."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Dimensions-Time-Cost Operator (DTC Operator)"@en ;
+    skos:prefLabel "Size-Time-Cost Operator"@en, "Оператор РВС"@ru .
+
+tc:SmartLittlePeople
+    od:SouchkovCategory tc:ARIZ, tc:CreativeImaginationDevelopment ;
+    od:SouchkovDefinition "A method and a technique for generating new solutions through graphic presentation a physical contradiction in a technical system by acting crowds of \"little people\" and proposing new solution ideas by modifying behavior of the \"little people\". A primary goal of the method is to decrease the degree of psychological inertia when solving a problem."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Modeling with Miniature Dwarfs"@en, "Modeling with Smart Little Men"@en ;
+    skos:prefLabel "Modeling with “Smart Little People”"@en, "Метод моделирования маленькими человечками"@ru .
+
+tc:SolutionDirection
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "Identification of a particular way or a method of solving an inventive problem."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Solution Direction"@en, "Направление решения"@ru .
+
+tc:SpatialGeometryOperator
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A method which introduces a number of principles of innovative improvement of technical systems based on transformation of geometric shapes to enable a better use of resources available in a technical system or its supersystem."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Geometry Evolution Operator"@en ;
+    skos:prefLabel "Spatial Geometry Operator"@en, "Пространственный геометрический оператор"@ru .
+
+tc:SpecialTerm
+    od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A specific word which describes either a material object, or a system, or a function, or property, or an attribute within the context of its specific application. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Special Term"@en, "Специальный термин (спецтермин)"@ru .
+
+tc:StagnationZone
+    od:SouchkovCategory tc:FlowAnalysis ;
+    od:SouchkovDefinition "A part of a flow in which the flow stops temporarily or permanently. A Stagnation Zone is a typical disadvantage identified by Flow Analysis."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Stagnation Zone"@en, "Застойная зона"@ru .
+
+tc:StandardInventiveProblem
+    od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ, tc:InventiveStandards ;
+    od:SouchkovDefinition "An inventive problem whose model matches one of the predefined Inventive Problem Models described in the TRIZ Problem Solving Tools (primarily Inventive Standards) and TRIZ Knowledge Bases and which can be solved directly with their use. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Typical Problem"@en ;
+    skos:prefLabel "Standard Inventive Problem"@en, "Стандартная изобретательская проблема"@ru .
+
+tc:StandardSolutionforSolvingInventiveProblems
+    od:SouchkovCategory tc:InventiveStandards ;
+    od:SouchkovDefinition "see Inventive Standard"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Inventive Standard"@en, "Standard Solution"@en ;
+    skos:prefLabel "Standard Solution for Solving Inventive Problems"@en, "Стандарт (на решение изобретательских задач)"@ru .
+
+tc:StandardSolutions
+    od:SouchkovAbbreviation "76IS"@en ;
+    od:SouchkovCategory tc:InventiveStandards, tc:TRIZKnowledgeBases, tc:TRIZTools ;
+    od:SouchkovDefinition "see System of Inventive Standards"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "76 Standard Solutions"@en, "76 Изобретательских стандартов"@ru .
+
+tc:StepbackfromIdealFinalResult
+    od:SouchkovCategory tc:ARIZ ;
+    od:SouchkovDefinition "A technique which proposes to formulate the Ideal Final Result and then consider if it is possible to reach the goal desired by achieving slightly less then it would be required to reach the Ideal Final Result in full."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Step back from Ideal Final Result"@en, "Шаг назад от ИКР"@ru .
+
+tc:SuField
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovComments "The term \"substance\" is a Su-Field can have a broad meaning: it can be both a specific material (e.g. \"water\") as well as a component of a technical system (e.g. \"chain\")."@en ;
+    od:SouchkovDefinition "A model of a minimal technical system which consists of two components made of substance and a field providing interaction between the substance components. A minimal complete Su-field is presented graphically as a triangle with symbolic nodes depicting the two substances, the field, and lines between the nodes depicting interactions between the components. Any technical system can be considered either as a single or as a network of Su-fields. A special type of Su-Fields is known as “Measurement Su-Field” which might include only one substance component."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "S-Field"@en, "Su-Fi"@en, "Vepol"@en ;
+    skos:prefLabel "Su-Field"@en, "Веполь"@ru .
+
+tc:SuFieldComponent
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "Any Substance or a Field presented as a part of a particular Su-Field."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Su-field element"@en ;
+    skos:prefLabel "Su-Field Component"@en, "Элемент веполя"@ru .
+
+tc:SuFieldDecomposition
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A change of a Su-Field given by eliminating an interaction that provides a negative effect (negative interaction)."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Su-Field destruction"@en, "Su-field break-up"@en ;
+    skos:prefLabel "Su-Field Decomposition"@en, "Разрушение веполя"@ru .
+
+tc:SuFieldDiagram
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A graphic presentation of Su-Field in shape of triangle with nodes representing two substances and a field and lines between the nodes representing interactions between the Su-Field components. The number of nodes and lines may vary."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Su-Field Diagram"@en, "Графическое изображение веполя"@ru .
+
+tc:SuFieldFormula
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "See Su-Field Diagram."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Su-Field Formula"@en, "Вепольная формула"@ru .
+
+tc:SubjectActionObject
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A triad which identifies a Function Carrier, its specific Function, and Target Object."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Subject - Action - Object"@en, "Субъект - Действие - Объект"@ru .
+
+tc:Substance
+    od:SouchkovCategory tc:GeneralTRIZ, tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovComments "In Substance-Field Analysis and Inventive Standards the use of the term \"substance\" is not limited to describing types of materials only. It can be a part of technical system of the entire technical system. "@en ;
+    od:SouchkovDefinition "Type of discrete matter which possesses rest mass. Substance can be in gaseous, liquid, solid and plasma states. In certain cases and TRIZ Tools, the term \"substance\" can be considered in a broader sense, for example, a material component or an assembly of material components can be called \"substance\" in the Inventive Standards or ARIZ."@en ;
+    od:SouchkovExamples "1) Water, 2) Sand, 3) Oxygen, 4) Concrete, 5) A cutting tool, 6) A brick."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Substance"@en, "Вещество"@ru .
+
+tc:SuFieldAnalysis
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovComments "1. In Substance-Field Modeling the use of the term \"substance\" is not limited to describing types of materials only. It can be a part of technical system of the entire technical system. "@en ;
+    od:SouchkovDefinition "A method of abstract symbolic modeling of a technical system or a part of the technical system (sometimes in combination with a part of its supersystem) in terms of substance components, fields, and physical interactions between them."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "S-Field Analysis"@en, "Su-Fi Analysis."@en ;
+    skos:prefLabel "Substance-Field Analysis"@en, "Анализ вепольный (вепанализ)"@ru .
+
+tc:SuFieldResource
+    od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ, tc:InventiveStandards ;
+    od:SouchkovDefinition "Substances, fields, and their properties and parameters that belong to a technical system under analysis or to its supersystem and that can be used to solve a problem or realize a new function. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Substance-Field Resource"@en, "Вещественно-полевые ресурсы"@ru .
+
+tc:Subsystem
+    od:SouchkovCategory tc:GeneralTRIZ, tc:Multi-ScreenDiagramofThinking ;
+    od:SouchkovDefinition "A component or a set of interacting components limited by specific borders that belong to a technical system. Both a separate material object and a larger system's part combining several components (material objects) can be regarded as a subsystem."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Sub-system"@en ;
+    skos:prefLabel "Subsystem"@en, "Подсистема"@ru .
+
+tc:SubversionAnalysis
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovDefinition "A method and a technique for understanding causes of a problem expressed in terms of a negative or undesired effect by inverting the way the problem analysis is performed: instead of attempts to reveal causes of the negative or the undesired effect the process is set up as to explore how to create the negative or undesired effect under conditions and constraints given."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Subversion Analysis"@en, "Диверсионный анализ"@ru .
+
+tc:SuperEffect
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "An unexpected additional useful benefit that emerges as a result of solving an inventive problem whose definition did not include the requirement to obtain such the benefit."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Super-Effect"@en, "Сверх-эффект"@ru .
+
+tc:SuperEffectDiscovery
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A process of discovering a Super-Effect."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Super-Effect Identification"@en ;
+    skos:prefLabel "Super-Effect Discovery"@en, "Обнаружение сверх-эффекта"@ru .
+
+tc:Supersystem
+    od:SouchkovCategory tc:GeneralTRIZ, tc:Multi-ScreenDiagramofThinking ;
+    od:SouchkovDefinition "A system that includes a technical system given as its part (sub-system). "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Higher System"@en, "Super-system"@en ;
+    skos:prefLabel "Supersystem"@en, "Надсистема"@ru .
+
+tc:SuFieldSystemsSynthesis
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A group of methods of solving inventive problems by adding new substances and fields to existing Su-Fields. These methods are presented by relevant Inventive Standards in the System of Inventive Standards."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Synthesis of Su-Field Systems"@en, "Построение вепольных систем"@ru .
+
+tc:SystemComplexity
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A relative dimensionless measure which identifies a number of processes within a technical system which are used to deliver the system's functionality."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "System Complexity"@en, "Сложность системы"@ru .
+
+tc:SystemConflict
+    od:SouchkovDefinition "See Technical Contradiction"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Engineering Contradiction"@en ;
+    skos:prefLabel "System Conflict"@en .
+
+tc:SystemOperator
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovDefinition "see Multi-Screen Diagram of Thinking."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "System Operator"@en, "Оператор системный"@ru .
+
+tc:SystemQuality
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A property or a function that may only be obtained by combining two or more material objects or components to a system and may not be obtained on the basis of a single material object or a single component. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "System Quality"@en, "Системное качество"@ru .
+
+tc:SCurveofaSystem
+    od:SouchkovCategory tc:GeneralTRIZ, tc:TRIZEvolutionTrends ;
+    od:SouchkovDefinition "An S-curve presenting evolution of a specific technical system or its subsystem based on the same operational principle."@en ;
+    od:SouchkovExamples "S-curve of evolution of a hammer based exclusively on a mechanical principle."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "S-образная кривая технической системы"@ru, "System S-Curve"@en .
+
+tc:SystematicInnovation
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A framework which combines various theories, methods and tools based on a systematic approach to support innovative process from the initial situation analysis towards developing patentable solutions."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Systematic Innovation"@en, "Системные инновации"@ru .
+
+tc:SystematicTechnologyEvolution
+    od:SouchkovCategory tc:GeneralTRIZ, tc:TRIZEvolutionTrends ;
+    od:SouchkovDefinition "A hypothesis which states that evolution of majority of technical systems is governed by the same principles and patterns irrespectively an engineering domain or a technology area. Systematic Technology Evolution includes models of technical systems evolution (such as S-Curve and Bell-Curve of Evolution) and a collection of more specific Trends and Lines of Technical Systems evolution."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Systematic Technology Evolution"@en, "Системное развитие техники"@ru .
+
+tc:SystemofInventiveStandards
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovComments "Currently, the System of Inventive Standards contains 76 Inventive Standards. There are proposals to extend the System of Inventive Standards with newly described Inventive Standards."@en ;
+    od:SouchkovDefinition "A collection of 76 Inventive Standards which includes five classes of Inventive Standards categorized in accord with the type of inventive problems the Inventive Standards can deal with: 1) Completion and Decomposition of Su-Fields, 2) Evolution of Su-Fields, 3) Transition to Macro- and Micro- Levels, 4) Measurement and Detection Su-Fields, 5) Application of Inventive Standards."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "A System of Standard Inventive Solutions"@en ;
+    skos:prefLabel "System of Inventive Standards"@en, "Система изобретательских стандартов"@ru .
+
+tc:SystemsBirthandEarlyDevelopment
+    od:SouchkovCategory tc:TRIZEvolutionModels ;
+    od:SouchkovDefinition "An interval on the evolution timeline of a technical system which starts after the system has been invented and continues till value of its main attribute achieves minimal value required."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Phase of System's Birth and Early Development"@en, "Этап зарождения технической системы и раннего развития"@ru .
+
+tc:SystemsEvolution
+    od:SouchkovDefinition "Свертывание"@en ;
+    od:SouchkovExamples "1) Folding, 2) Trimming"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Systems Evolution"@en .
+
+tc:SystemsGrowth
+    od:SouchkovCategory tc:TRIZEvolutionModels ;
+    od:SouchkovDefinition "An interval on the evolution timeline of a technical system which starts after a system's main attribute has achieved the value required and continues to grow till reaching its limit due to exhausting resources provided by an operational principle behind the technical system."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Phase of System's Growth"@en, "Этап роста технической системы"@ru .
+
+tc:SystemsMaturity
+    od:SouchkovCategory tc:TRIZEvolutionModels ;
+    od:SouchkovDefinition "An interval on the evolution timeline of a technical system which starts when value of a system's main attribute has stopped to grow rapidly."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Phase of System's Maturity"@en, "Этап взросления технической системы"@ru .
+
+tc:SystemsStagnation
+    od:SouchkovCategory tc:TRIZEvolutionModels ;
+    od:SouchkovDefinition "An interval on the evolution timeline of a technical system which starts when value of a system's main attribute has stopped growing."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Phase of System's Stagnation"@en, "Этап застоя в развитии системы"@ru .
+
+tc:TField
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovDefinition "A Su-Field in which one of components is subjected to the action of thermal field."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "T-Field"@en, "Теполь"@ru .
+
+tc:EvolutionForecast
+    od:SouchkovCategory tc:GeneralTRIZ, tc:TRIZEvolutionTrends ;
+    od:SouchkovDefinition "A process of short- or a long-term forecasting and roadmapping further evolution of a technical system given based on using the analytical and problem solving TRIZ tools in combination with TRIZ Knowledge Bases. In addition to the TRIZ Tools and Knowledge Bases, during the process of TRIZ-Based Evolution Forecast external knowledge sources are extensively used from different knowledge areas."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Prediction"@en, "TRIZ-based Innovation Roadmapping"@en ;
+    skos:prefLabel "TRIZ-Based Evolution Forecast"@en, "Прогноз"@ru .
+
+tc:TRIZPedagogy
+    od:SouchkovCategory tc:GeneralTRIZ, tc:TheoryofCreativeIndividualDevelopment ;
+    od:SouchkovDefinition "TRIZ provides TRIZ-Pedagogy with main content (or, more precisely, certain elements of TRIZ are adapted to didactic goals, as appropriate for different age peculiarities) as well as with the methodology for the development of the theory and practice of TRIZ-Pedagogy."@en, "TRIZ-Pedagogy, which combines Project-based learning and Problem-based learning approaches, is conducted in a dynamic classroom in which students actively explore real-world interdisciplinary, open-ended type problems and challenges and acquire a deeper knowledge about the environment. It also teaches students the worldwide recognized methods of searching for new ideas, primarily on the basis of TRIZ, the Theory of Inventive Problem Solving."@en, "The goal of TRIZ-pedagogy is to nurture the Creative Individual, who possesses productive (creative, critical, systemic) thinking skills and productive character (social and communication skills, as well as the desire for continual improvement)."@en, "The main tasks: to involve the child into the process of intellectual creativity, to provide a positive experience with creativity, to equip with the tools for cognition and improvement of the environment, to develop imagination."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "TRIZ-Pedagogy"@en, "ТРИЗ-Педагогика"@ru .
+
+tc:TRIZInstrument
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "see TRIZ Tool"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "TRIZ Instrument"@en, "Инструмент ТРИЗ"@ru .
+
+tc:TRIZKnowledgeBank
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A collection which includes databases containing high-level patterns, heuristics, best practices, and case studies discovered and described as a result of research performed in TRIZ. Currently the TRIZ Knowledge Bank consists of databases of Inventive Principles, Inventive Standards, Scientific Effects, Technological Effects, Trends and Lines of Evolution, Analogous Problems and Solutions."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "TRIZ Knowledge Bank"@en, "Фонд информационный"@ru .
+
+tc:TRIZKnowledgeBase
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A database which contains high-level patterns and heuristics supporting inventive problem solving discovered as a result of research performed in TRIZ."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "TRIZ Knowledge Base"@en .
+
+tc:TRIZPostulate
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A statement which describes a particular fundamental reason on the basis of which TRIZ is being developed. The following TRIZ Postulates are known: 1) Theoretical basis of TRIZ is formed by the Trends of Technical Systems Evolution, 2) the Trends of Technical Systems Evolution can be revealed, studied and used in practical inventive problem solving to avoid numerous trials and errors; 3) A primary TRIZ Trend of Technical Systems Evolution of is the Trend of Increasing the Degree of Ideality; 4) A process of solving an inventive problem can be considered as a process of identification and resolving of a contradiction. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "TRIZ Postulate"@en, "Постулат ТРИЗ"@ru .
+
+tc:TRIZProcess
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A specification of phases and steps with indication of the TRIZ Tools to be used to achieve the goals of a specific inventive process. There are might be different phases, steps and TRIZ Tools included to a specific TRIZ process depending on a type of Innovative Task."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "TRIZ Process"@en, "ТРИЗ-процесс"@ru .
+
+tc:TRIZSchool
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovComments "Most of the TRIZ Schools were founded in the cities of the former USSR."@en ;
+    od:SouchkovDefinition "Usually an informal training, research and development center in a certain geographic location that provides (or provided in the past) significant contribution to the development of TRIZ theories, methods and tools."@en ;
+    od:SouchkovExamples "St. Petersburg TRIZ School, Krasnoyarsk TRIZ School, Kishinev TRIZ School, etc."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "TRIZ School"@en, "Школа ТРИЗ"@ru .
+
+tc:TRIZTechnique
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "see TRIZ Tool"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "TRIZ Tool"@en ;
+    skos:prefLabel "TRIZ Technique"@en, "Инструмент ТРИЗ"@ru .
+
+tc:TRIZTool
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A technique based on a specific approach which describes a number of procedures to support one or another phase of the TRIZ Process. Some TRIZ tools include databases of abstract solution patterns, such as the System of 76 Inventive Standards."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "TRIZ Technique"@en ;
+    skos:prefLabel "TRIZ Tool"@en, "Инструмент ТРИЗ"@ru .
+
+tc:TalentedThinking
+    od:SouchkovCategory tc:TheoryofCreativeIndividualDevelopment ;
+    od:SouchkovComments "As noted by G. Altshuller, talented thinkers use the Multi-Screen Diagram of Thinking during their reasoning processes either consciously or unconsciously"@en ;
+    od:SouchkovDefinition "A type of thinking based on a systemic view which is capable of producing breakthrough ideas and following the consequences of implementation of such ideas."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Talented Thinking"@en, "Талантливое мышление"@ru .
+
+tc:TargetComponent
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "An object of the main function of a technical system being analyzed."@en, "An object that must be changed or preserved."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Target Component"@en, "Целевой компонент"@ru .
+
+tc:TargetDisadvantage
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A disadvantage in the analyzed technical system, the elimination of which is the goal of a project."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Target Disadvantage"@en, "Целевой недостаток"@ru .
+
+tc:TechnicalConflict
+    od:SouchkovCategory tc:ARIZ, tc:ContradictionMatrix, tc:GeneralTRIZ ;
+    od:SouchkovDefinition "see Technical Contradiction"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Technical Conflict"@en, "Конфликт, технический"@ru .
+
+tc:TechnicalContradiction
+    od:SouchkovCategory tc:ARIZ, tc:ContradictionMatrix, tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A situation which emerges when an attempt to solve an inventive problem by improving a certain attribute (parameter) of a technical system leads to unacceptable degradation of another attribute (parameter) of the same system."@en ;
+    od:SouchkovExamples "Improving the strength (one parameter) of the airplane wing leads to the increased weight (another parameter) of its wing."@en ;
+    od:SouchkovTerms "inventive problem, technical system, improving parameter, degraded parameter"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Technical Contradiction"@en, "Техническое противоречие"@ru .
+
+tc:TechnicalEffect
+    od:SouchkovCategory tc:CataloguesofEffects ;
+    od:SouchkovDefinition "A specific engineering solution that can provide a delivery of an technical function in various technology areas."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Technical Effect"@en, "Технический эффект"@ru .
+
+tc:TechnicalFunction
+    od:SouchkovCategory tc:CataloguesofEffects, tc:FunctionAnalysisandModeling, tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A specific type of a function which deals with an attribute of a technical system or its supersystem."@en ;
+    od:SouchkovExamples "1) Change temperature, 2) Measure distance, 3) Accumulate heat."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Technical Function"@en, "Техническая функция"@ru .
+
+tc:TechnicalParameter
+    od:SouchkovDefinition "see Engineering Parameter"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Technical Parameter"@en, "Технический параметр"@ru .
+
+tc:TechnicalSystem
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A number of components (material objects) that were consciously combined to a system by establishing specific interactions between the components. A technical system is designed, developed, manufactured, and assigned to perform a controllable main useful function or a number of functions within a particular context. A technical system can include subsystems which can be considered as separate technical systems."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Engineering System"@en, "Technological System"@en ;
+    skos:prefLabel "Technical  System"@en, "Техническая система"@ru .
+
+tc:TechnologicalProcess
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A process that uses material objects, such as raw materials, equipment, tools, energy, parts, assemblies, people, etc., to create or modify a product."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Manufacturing Process"@en ;
+    skos:prefLabel "Technological Process"@en, "Технологический (производственный) процесс"@ru .
+
+tc:TechnologyEvolution
+    od:SouchkovCategory tc:GeneralTRIZ, tc:TRIZEvolutionTrends ;
+    od:SouchkovDefinition "see Evolution of Technical Systems"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Technology Evolution"@en, "Эволюция техники"@ru .
+
+tc:TechnologySCurve
+    od:SouchkovCategory tc:GeneralTRIZ, tc:TRIZEvolutionTrends ;
+    od:SouchkovDefinition "An S-curve presenting a number of more specific S-curves demonstrating evolution of different means based on different operational principles to provide the same main parameter of value."@en ;
+    od:SouchkovExamples "S-curve of evolution of a hammer technology including various operation principles of the hammer's head: mechanical, hydraulic, electromagnetic."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "S-образная кривая технической области"@ru, "Technology S-Curve"@en .
+
+tc:BankofWorthyGoals
+    od:SouchkovCategory tc:GeneralTRIZ, tc:TheoryofCreativeIndividualDevelopment ;
+    od:SouchkovDefinition "A database of specifically expressed goals that would considerably contribute to the development of society and solving large-scale problems once achieved."@en ;
+    od:SouchkovExamples "1) To find a cure for cancer, 2) To develop means for instant transportation."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "The Bank of Worthy Goals"@en, "Фонд Достойных Целей"@ru .
+
+tc:TheoryofCreativeIndividualDevelopment
+    od:SouchkovAbbreviation "TRTL"@en ;
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovComments "Often, abbreviation \"TRTL\" is used derived from the Russian term \"Теория Развития Творческой Личности\" written in Latin letters."@en ;
+    od:SouchkovDefinition "A theory which studies development of creative skills, behavior and life strategy of an individual on the basis of analysis of a vast massive of documents presenting biographies of talented creative thinkers and inventors with a special focus on how a creative person solves problems he or she faces during lifetime."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Theory of Creative Personality Development"@en ;
+    skos:prefLabel "Theory of Creative Individual Development"@en, "Теория Развития Творческой Личности (ТРТЛ)"@ru .
+
+tc:TheoryofInventiveProblemSolving
+    od:SouchkovAbbreviation "TRIZ"@en ;
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovComments "1) In the first translations from Russian to English, TRIZ was translated as TIPS. 2) The abbreviation \"TRIZ\" is the Russian acronym for the \"Theory of Inventive Problem Solving\" (\"Теория Решения Изобретательских Задач\") in Latin letters."@en ;
+    od:SouchkovDefinition "A scientific and applied discipline which comprises studying directions of technical systems evolution and a process of inventive problem solving in order to develop methods and tools to support innovative improvement of the technical systems based on a systematic and knowledge-based approach. Lately, the TRIZ studies and developments have been extended to non-technology areas, such as business, social, and other types of artificial systems. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Theory of Inventive Problem Solving"@en, "Терия Решения Изобретательских Задач"@ru .
+
+tc:TheoryofTechnicalSystemsEvolution
+    od:SouchkovAbbreviation "TESE"@en ;
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "A theory which emerged during evolution of TRIZ and which studies models of evolution of technical systems as well as laws, trends and lines of the technical systems evolution."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "TRTS"@en ;
+    skos:prefLabel "Theory of Technical Systems Evolution"@en, "Теория Развития Технических Систем (ТРТС)"@ru .
+
+tc:ARIZTool
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A component of a technical system that delivers a function targeted at another component of the system with a goal to realize a main purpose of a technical system given or its part."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Tool (In ARIZ)"@en, "Инструмент"@ru .
+
+tc:TTETool
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "see Working Unit"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Tool (In Trends of Technology Evolution)"@en, "Инструмент "@ru .
+
+tc:TransformableSubstance
+    od:SouchkovCategory tc:InventiveStandards ;
+    od:SouchkovDefinition "A substance (usually presented by a material) that can be transformed in order to obtain new properties required for solving a problem by subjecting the substance to external action."@en ;
+    od:SouchkovExamples "A liquid substance converts to gaseous when heated to certain degree."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Transformable Substance"@en, "Модифицируемое вещество"@ru .
+
+tc:TransitiontoMacroLevel
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "A method of solving an inventive problem or directly evolving a technical system by either 1) increasing a number of components or interactions forming the system, or 2) forming bi- and poli-systems, or 3) assigning dual properties to the system."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Transition to Macro-Level"@en, "Переход на макроуровень"@ru .
+
+tc:TransitiontoMicroLevel
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "A method of solving an inventive problem or evolving a technical system by replacing an operational principle behind its subsystem with a new principle that utilizes properties of micro-scale material objects: fragmented substances, molecules, particles, or fields."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Transition to Micro-Level"@en, "Переход на микроуровень"@ru .
+
+tc:Transmission
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "One of the key components (subsystems) of a Complete Technical System which according to the Law of System Completeness of a technical system transmits a flow of energy required to operate a working unit from an engine to the working unit."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Transmission"@en, "Трансмиссия"@ru .
+
+tc:TransportFunction
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A Providing Function that changes a position of its Object in space."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Transport Function"@en, "Транспортная функция"@ru .
+
+tc:TrendofEnergyConductivity
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovComments "In Classical TRIZ, the term is known as “Law of Energy Conductivity”"@en ;
+    od:SouchkovDefinition "A direction of evolution of technical systems which states that any technical system must provide full energy conductivity throughout the system to become viable and later tends to decrease the number of energy losses within the system. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Trend of Energy Conductivity"@en, "Закон \"энергетической проводимости\" системы"@ru .
+
+tc:TrendofEvolutionalongSCurve
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovComments "In Classical TRIZ, the term is known as “Law of Evolution along the S-curve“"@en ;
+    od:SouchkovDefinition "A direction of evolution of technical systems which states that every technical systems tends to evolve along the S-curve of evolution."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Trend of Evolution along the S-curve"@en, "Закон S-образного развития"@ru .
+
+tc:TrendofHarmonizationofRhythms
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovComments "In Classical TRIZ, the term is known as “Law of Harmonization of Rhythms“"@en ;
+    od:SouchkovDefinition "A direction of evolution of technical systems which states that technical systems tend to harmonize rhythms of their components during evolution. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Law of Frequencies Coordination"@en, "Law of Matching Rhythms"@en ;
+    skos:prefLabel "Trend of Harmonization of Rhythms"@en, "Закон согласования ритмики частей системы"@ru .
+
+tc:TrendofIncreasingCompletenessandDecreasingHumanInvolvement
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovComments "In Classical TRIZ, the term is known as “Law of Increasing the Degree of Technical System Completeness and Decreasing Human Involvement“"@en ;
+    od:SouchkovDefinition "A direction of evolution of technical systems which states that any technical systems tends to increase a number of functions delivered within the system or by the system that do not require presence or involvement of a human operator.  "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Trend of Increasing the Degree of Technical System Completeness and Decreasing Human Involvement"@en, "Закон повышения полноты технической системы и вытеснения из неё человека"@ru .
+
+tc:TrendofIncreasingIdeality
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovComments "In Classical TRIZ, the term is known as “Law of Increasing the Degree of System's Ideality“"@en ;
+    od:SouchkovDefinition "A direction of evolution of technical systems which states that every technical systems tends to increase the degree of its ideality during evolution. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Trend of Increasing the Degree of System's Ideality"@en, "Закон увеличения степени идеальности системы"@ru .
+
+tc:TrendofIncreasingSuFieldInteractions
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovComments "In Classical TRIZ, the term is known as “Law of Increasing The Degree of Substance-Field Interactions“"@en ;
+    od:SouchkovDefinition "A direction of evolution of technical systems which states that every technical system tends to increase a number of substances, fields and interactions between them during evolution. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Trend of Increasing The Degree of Substance-Field Interactions"@en, "Закон увеличения степени вепольности"@ru .
+
+tc:TrendofNonUniformEvolutionofParts
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovComments "In Classical TRIZ, the term is known as “Law of Non-Uniform Evolution of System's Parts“"@en ;
+    od:SouchkovDefinition "A direction of evolution of technical systems which states that subsystems of any technical systems tend to develop non-uniformly during evolution. The more complex a technical system is the greater degree of non-uniformity is observed."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Trend of Non-Uniform Evolution of System's Parts"@en, "Закон неравномерности развития частей системы"@ru .
+
+tc:TrendofSystemCompleteness
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovComments "In Classical TRIZ, the term is known as “Law of System Completeness“"@en ;
+    od:SouchkovDefinition "A direction of evolution of technical systems which states that to become a technical system, at least four key components (subsystems) must be combined to a system: Engine, Transmission, Control Unit, and Working Unit while each of these components have to provide a relevant function."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Trend of System Completeness"@en, "Закон полноты частей системы"@ru .
+
+tc:TrendofTechnicalSystemsEvolution
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovComments "Some Trends of Technical Systems Evolution include more specific Lines of Technical Systems Evolution defined according to more narrow criteria."@en ;
+    od:SouchkovDefinition "A generic pattern representing a common direction of technical systems evolution through a range of successive transitions of a technical system from one state to another according to a certain domain-independent criteria. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Trends of Technology Evolution"@en ;
+    skos:prefLabel "Trend of Technical Systems Evolution"@en, "Законы Развития Технических Систем"@ru .
+
+tc:TrendofTransitiontoMicrolevel
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovComments "In Classical TRIZ, the term is known as “Law of Transition to Micro-level“"@en ;
+    od:SouchkovDefinition "A direction of evolution of technical systems which states that evolution of a operational principle behind a working unit of any technical systems tends to utilize properties of more fragmented substances, molecules, particles, or fields over the time."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Trend of Transition to Micro-level"@en, "Закон перехода с макроуровня на микроуровень"@ru .
+
+tc:TrendofTransitiontoSupersystem
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovComments "In Classical TRIZ, the term is known as “Law of Transition to Super-system“"@en ;
+    od:SouchkovDefinition "A direction of evolution of technical systems which states that every technical systems tends to become a part of a supersystem if conditions demand the system to evolve further but internal resources on the basis of which the system could have been evolved are exhausted. After transition to Super-system the system ceases to be an independent system and becomes a subsystem of a larger system."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Trend of Transition to Super-system"@en, "Закон перехода в надсистему"@ru .
+
+tc:TrendsofCinematic
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovComments "In Classical TRIZ, the term is known as “Laws of Cinematic“"@en ;
+    od:SouchkovDefinition "A group of Trends of Technical systems Evolution which are observed independently from specific technological and physical factors that produce impact on evolution of a technical system: 1) Trend of Increasing the Degree of System's Ideality, 2) Trend of Non-Uniform Evolution of System's Parts, 3) Trend of Transition to Super-system."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Trends of Cinematic"@en, "Законы кинематики"@ru .
+
+tc:TrendsofDynamics
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovComments "In Classical TRIZ, the term is known as “Laws of Dynamics“"@en ;
+    od:SouchkovDefinition "A group of Trends of Technical Systems Evolution which imply that evolution of every technical system depends on specific technological and physical factors that produce impact on evolution of a technical system: 1)Trend of Increasing The Degree of Substance-Field Interactions, 2) Trend of Transition to Micro-level, 3) Trend of Increasing the Degree of Technical System Completeness and Decreasing Human Involvement."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Trends of Dynamics"@en, "Законы динамики"@ru .
+
+tc:TrendsofStatics
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovComments "In Classical TRIZ, the term is known as “Laws of Statics“"@en ;
+    od:SouchkovDefinition "A group of Trends of Technical Systems Evolution which are observed during the early stages of evolution of a technical system: 1) Trend of System Completeness, 2) Trend of Energy Conductivity, 3) Trend of Harmonization of Rhythms."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Trends of Statics"@en, "Законы статики"@ru .
+
+tc:TrendsofTechnicalSystemsEvolution
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovComments "1) In addition to 9 classical TRIZ Trends of Evolution defined by G. Altshuller, contemporary developers of TRIZ offer a number of additional trends that are not included to this Glossary. 2)The term \"TRTS\" is an abbreviation of the Russian term \"Теория Развития Технических Систем\" written in Latin letters."@en ;
+    od:SouchkovDefinition "A collection of TRIZ Trends of Technical Systems Evolution. Classical TRIZ presents 11 trends, 9 of which are categorized to three groups: 1)Trends of Statics, 2) Trends of Cinematic, 3) Trends of Dynamics, and two trends are considered independent."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "TRTS"@en ;
+    skos:prefLabel "Trends of Technical Systems Evolution"@en, "Законы развития технических систем"@ru .
+
+tc:TrendsofTechnicalSystemsEvolutionAnalysis
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "An analytical tool that identifies the directions of development of a technical system related to the Trends of Technical Systems Evolution."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Evolutionary Potential Analysis"@en ;
+    skos:prefLabel "Trends of Technical Systems Evolution Analysis"@en, "Анализ по законам развития технических систем"@ru .
+
+tc:Trimming
+    od:SouchkovCategory tc:TRIZTools ;
+    od:SouchkovDefinition "A method and a technique for improvement of a technical system by removing (trimming) certain components and redistributing their useful functions among the remaining system or supersystem components while preserving quality and performance of the system. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Simplification"@en ;
+    skos:prefLabel "Trimming"@en, "Свертывание"@ru .
+
+tc:TrimmingCondition
+    od:SouchkovCategory tc:Trimming ;
+    od:SouchkovDefinition "An option for eliminating a component of a technical system by either eliminating its useful function or redistributing its useful functions to other system components."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Trimming Condition"@en, "Условие свертывания"@ru .
+
+tc:TrimmingModel
+    od:SouchkovCategory tc:Trimming ;
+    od:SouchkovDefinition "A model of an improved technical system developed through Trimming."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Trimming Model"@en, "Модель свертывания"@ru .
+
+tc:TrimmingProblem
+    od:SouchkovCategory tc:Trimming ;
+    od:SouchkovDefinition "A problem that must be solved to realize the Trimming Model."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Trimming Problem"@en, "Задача свертывания"@ru .
+
+tc:TrimmingRule
+    od:SouchkovCategory tc:Trimming ;
+    od:SouchkovDefinition "see Trimming Condition"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Trimming Rule"@en, "Правило свертывания"@ru .
+
+tc:TypicalConflict
+    od:SouchkovCategory tc:ARIZ ;
+    od:SouchkovComments "ARIZ-85C includes a list of 10 typical conflicts"@en ;
+    od:SouchkovDefinition "see Typical Contradiction"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Standard Contradiction"@en, "Typical Contradiction"@en ;
+    skos:prefLabel "Typical Conflict"@en, "Типовой конфликт"@ru .
+
+tc:TypicalTechnicalParameter
+    od:SouchkovCategory tc:ContradictionMatrix ;
+    od:SouchkovComments "The original Altshuller's Matrix includes a list of 39 typical parameters."@en ;
+    od:SouchkovDefinition "A technical parameter that is supposed to generalize over a number of more specific technical parameters. A limited set of the pre-defined generalized parameters that typically need improvement in the technical systems, is used in the Contradiction Matrix. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Typical Technical Parameter"@en, "Типовой параметр"@ru .
+
+tc:UndesiredEffect
+    od:SouchkovCategory tc:CauseandEffectChainAnalysis, tc:GeneralTRIZ, tc:Root-ConflictAnalysis ;
+    od:SouchkovDefinition "A result which occurs during functioning of a technical system and which leads to either decrease of the degree of ideality of the system and its perceived value or produces a negative impact on a product or the rest of the supersystem."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Undesired Effect"@en, "Нежелательный эффект"@ru .
+
+tc:UsefulFunction
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A physical action performed by an object -  function carrier that results in a positive (required) change or preservation of a value of a parameter or a state of an object of the function. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Useful Function"@en, "Полезная функция"@ru .
+
+tc:Value
+    od:SouchkovCategory tc:FunctionAnalysisandModeling ;
+    od:SouchkovDefinition "A ratio between the performance of main parameters of value and price."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Value"@en, "Ценность"@ru .
+
+tc:ValueofMainParameterofValue
+    od:SouchkovCategory tc:GeneralTRIZ ;
+    od:SouchkovDefinition "The relationship between performance of main parameters of value of a technical system and its market price."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Value of Main Parameter of Value"@en, "Значение главного параметра ценности"@ru .
+
+tc:VectorofPsychologicalInertia
+    od:SouchkovCategory tc:CreativeImaginationDevelopment ;
+    od:SouchkovDefinition "A direction of searching for a solution to an inventive problem within a limited part of the solution search space which is usually chosen unconsciously by a problem solver based on his personal experience, knowledge, and associations without using any structured or systematic methods of search. "@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Vector of Psychological Inertia"@en, "Вектор психологической инерции"@ru .
+
+tc:Vepol
+    od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
+    od:SouchkovComments "Russian abbreviation of \"Veshchestvo – Pole Model\" (\"Substance-Field Model\")"@en ;
+    od:SouchkovDefinition "see Su-Field"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Vepol"@en, "Веполь"@ru .
+
+tc:Void
+    od:SouchkovCategory tc:ARIZ ;
+    od:SouchkovDefinition "A part of space that is not occupied by solid substance."@en ;
+    od:SouchkovExamples "A part of space filled with gas can be considered as void."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Void"@en, "Пустота"@ru .
+
+tc:WorkingPrinciple
+    od:SouchkovDefinition "see Operational Principle"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Working Principle"@en, "Принцип действия"@ru .
+
+tc:WorkingUnit
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovDefinition "One of the key components (subsystems) of a Complete Technical System that, according to the Law of System Completeness performs a function acting on a product for which the technical system has been developed."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Operating Tool"@en, "Tool"@en ;
+    skos:prefLabel "Working Unit"@en, "Рабочий орган"@ru .
+
+tc:WorseningParameter
+    od:SouchkovCategory tc:ContradictionMatrix ;
+    od:SouchkovDefinition "A typical technical parameter whose value of an attribute  changes negatively as a result of a change proposed to solve a problem."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Negative Parameter"@en, "Worsening Feature"@en, "Worsening Parameter"@en ;
+    skos:prefLabel "Worsening Parameter"@en, "Ухудшающийся параметр"@ru .
+
+tc:WorthyGoal
+    od:SouchkovCategory tc:TheoryofCreativeIndividualDevelopment ;
+    od:SouchkovDefinition "A goal that is set up by a creative person that he/she would like to achieve. There are a number of features which identify the worthy goal, for example: a) novelty, b) social value, c) independence, d) scale, e) practicality, f) heresy g) impossibility to achieve at a given moment of time. The worthy goal has to mean a certain specific result with a large technological and social impact rather than an abstract wish. "@en ;
+    od:SouchkovExamples "The goal \"to make life better\" cannot be considered as a worthy goal while the goal \"to develop a method for interstellar travel\" can be considered as worthy."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "Ultimate Goal"@en ;
+    skos:prefLabel "Worthy Goal"@en, "Достойная цель"@ru .
+
+tc:XComponent
+    od:SouchkovCategory tc:ARIZ ;
+    od:SouchkovDefinition "An unknown entity that must provide a specific change in a technical system (e.g., change in its components, parameters, physical states, chemical composition, etc.) that should be incorporated into the system in order to solve a problem."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "X-Element"@en, "X-Factor"@en ;
+    skos:prefLabel "X-Component"@en, "Икс-элемент"@ru .
+
+tc:XElement
+    od:SouchkovDefinition "See X-component"@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
+    skos:altLabel "X-Component"@en, "X-Factor"@en ;
+    skos:prefLabel "X-Element"@en .
+
