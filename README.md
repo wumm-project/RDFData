@@ -85,6 +85,8 @@ of the WUMM project and the
 * MATRIZ-Certificates.ttl - Data of MATRIZ certificates
   * 2020-04-06 graebe: Level 4 certificates added
   * 2020-04-18 graebe: Level 5 certificates added
+* AllMATRIZCertificates.ttl - All Certificates, extracted from the MATRIZ
+  Database <https://www.nanoq.pl/matriz_database/all/>
 
 ### Ontology Project
 

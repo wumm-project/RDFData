@@ -1389,6 +1389,11 @@ odp:Karim_MSA
     foaf:affil "Universiti Tenaga Nasional, Malaysia" ;
     foaf:name "Mohd Sufian Abdul Karim" .
 
+odp:Karimi_M
+    a foaf:Person ;
+    foaf:affil "Teheran, Iran" ;
+    foaf:name "Mahmoud Karimi" .
+
 odp:Karpunin_MG
     a foaf:Person ;
     foaf:fullname "М.Г. Карпунин"@ru ;
@@ -1438,7 +1443,7 @@ odp:Kholkin_IN
 
 odp:Khomenko_NN
     dbo:birthDate "1954" ;
-    dbo:deathDate "2011" ;
+    dbo:deathDate "2011-03-27" ;
     a foaf:Person ;
     rdfs:seeAlso <http://www.trizminsk.org/d/Khomenko_Heritage(EN).pdf> ;
     foaf:fullname "Николай Николаевич Хоменко"@ru ;
@@ -1592,6 +1597,11 @@ odp:Korotkih_S
     foaf:fullname "Светлана Коротких"@ru ;
     foaf:name "Svetlana Korotkih" .
 
+odp:Korzun_A
+    a foaf:Person ;
+    foaf:fullname "Анна Корзун"@ru ;
+    foaf:name "Anna Kurzun" .
+
 odp:Kostin_A
     a foaf:Person ;
     foaf:affil "Central Economics and Mathematics Institute RAS, Russia" ;
@@ -1613,6 +1623,7 @@ odp:Kozhevnikova_LA
 odp:Kozyreva_N
     a foaf:Person ;
     foaf:affil "Moscow, Russia" ;
+    foaf:fullname "Нелли Козырева"@ru ;
     foaf:homepage <https://kozyreva.ucoz.ru/> ;
     foaf:name "Nelly Kozyreva" .
 
@@ -2224,7 +2235,7 @@ odp:Murashkovska_IN
     a foaf:Person ;
     foaf:affil "Latvia" ;
     foaf:fullname "Ингрида Николаевна Мурашковска"@ru ;
-    foaf:name "Ingrida Murashkovska" .
+    foaf:name "Ingrīda Muraškovska" .
 
 odp:Murashkovsky_JS
     a foaf:Person ;
