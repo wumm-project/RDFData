@@ -1,0 +1,77 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix tc: <http://opendiscovery.org/rdf/Concept/> .
+
+tc:FlowAnalysis
+    cc:attributionName "Flow Analysis Model" ;
+    a owl:Ontology ;
+    a rdfs:class, od:SouchkovGlossaryEntry, skos:Concept;
+    od:includes tc:Flow, tc:FlowModel, tc:MethodOfDescription ;
+    rdfs:comment "prescriptive base of the flow analysis model" ;
+    rdfs:label "Flow Analysis Model of Olga Eckardt" ;
+    skos:prefLabel "Flow Analysis Model"@en, "Modell der Flussanalyse"@de .
+
+tc:FlowModel
+    od:includes tc:ActualFlowModel, tc:TargetFlowModel .
+
+tc:ActualFlowModel
+    od:includes tc:RulesOfEvaluation, tc:RulesOfConstruction ;
+    od:relatedTo tc:TechniquesOfModification ;
+    od:isPartOf tc:FlowModel .
+
+tc:TargetFlowModel
+    od:includes tc:RulesOfConstructionOfInConformRequirements, tc:RulesOfApplyingLawsOfDevelopmentOfTechnicalSystems ;
+    od:relatedTo tc:TechniquesOfModification ;
+    od:isPartOf tc:FlowModel .
+
+tc:TechniquesOfModification
+    od:issuedAt tc:ActualFlowModel ;
+    od:forms tc:TargetFlowModel .
+
+
+tc:RulesOfEvaluation
+    od:issuedAt tc:ActualFlowModel ;
+    od:isPartOf tc:RulesOfFlowAnalysis .
+
+tc:RulesOfConstruction
+    od:forms tc:ActualFlowModel ;
+    od:isPartOf tc:RulesOfFlowAnalysis .
+
+tc:RulesOfConstructionOfInConformRequirements
+    od:isPartOf tc:RulesOfFlowAnalysis, tc:TargetFlowModel .
+# Problemmodell??
+
+td:RulesOfApplyingLawsOfDevelopmentOfTechnicalSystems
+    od:isPartOf tc:RulesOfFlowAnalysis, tc:TargetFlowModel .
+
+tc:RulesOfFlowAnalysis
+    od:isPartOf tc:FlowAnalysis ;
+    od:includes tc:Flow, tc:Goal, tc:RulesOfFlowAnalysis .
+
+tc:Goal
+    od:isPartOf tc:FlowAnalysis ;
+    od:isDefinedBy tc:SetupContext ;
+    od:defines tc:ProofRequirements .
+
+tc:SetupContext
+    od:IsDefinedBy tc:Goal ;
+    od:defines tc:Goal .
+
+tc:ProofRequirements
+    od:isPartOf tc:Goal ;
+    od:leadsTo tc:IncreaseUsefulFlow, tc:ReduceHarmfulFlow, tc:ReduceParasiticFlow .
+
+tc:IncreaseUsefulFlow
+    od:basedOn tc:ProofRequirements .
+
+tc:ReduceHarmfulFlow
+    od:basedOn tc:ProofRequirements ;
+    od:includes tc:ReduceParasiticFlow .
+
+tc:ReduceParasiticFlow
+    od:isPartOf tc:ReduceHarmfulFlow ;
+    od:basedOn tc:ProofRequirements .
