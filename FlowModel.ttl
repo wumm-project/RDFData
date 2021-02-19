@@ -28,7 +28,7 @@ tc:Flow
 
 tc:FlowType
     a skos:Concept, od:AdditionalConcept ;
-    rdfs:subClassOf tc:Flow ;
+    od:isPartOf tc:Flow ;
     rdf:type tc:complexFlow, tc:discreteFlow, tc:continousFlow ;
     skos:prefLabel "Type of flow"@en, "Flussart"@de ;
     skos:altLabel "Art der Strömung"@de .
@@ -68,7 +68,7 @@ tc:FlowSource
 
 tc:StaticFlowComponent
     a skos:Concept, od:AdditionalConcept ;
-    rdfs:subClassOf tc:FlowModel ;
+    od:isPartOf tc:FlowModel ;
     od:LebedevDefinition "forming the stream and specify its initial parameters" ;
     od:includes tc:ControlUnit, tc:Receiver, tc:Source, tc:Channel ;
     skos:prefLabel "static components of the flow"@en, "statische Flusskomponenten"@de .
@@ -103,7 +103,7 @@ tc:Channel
 
 tc:MethodOfDescription
     a skos:Concept, od:AdditionalConcept ;
-    rdfs:subClassOf tc:FlowModel ;
+    od:isPartOf tc:FlowModel ;
     od:includes tc:TextDescription, tc:ParametricDescription, tc:GraphicDescription ;
     skos:prefLabel "Method of description"@en, "Methode zur Beschreibung"@de .
 
