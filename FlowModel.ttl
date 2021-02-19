@@ -18,9 +18,12 @@ tc:FlowModel
 tc:Flow
     skos:prefLabel "Flow"@en ;
     rdfs:subClassOf tc:FlowModel ;
+    od:SouchkovCategory tc:FlowAnalysis ;
+    od:SouchkovDefinition "A sequence of events that have the same common feature."@en ;
+    a od:SouchkovGlossaryEntry, skos:Concept ;
     od:LebedevDefinition "motion of material, energetic or informational objects within a system" ;
     od:includes tc:FlowType, tc:FlowComposition, tc:FlowFunctionality, tc:FlowSource ;
-    skos:prefLabel "Flow"@en, "Fluss"@de ;
+    skos:prefLabel "Flow"@en, "Fluss"@de, "Поток"@ru ;
     skos:altLabel "Stream"@en, "Strom"@de .
 
 tc:FlowType
