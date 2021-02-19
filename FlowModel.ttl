@@ -7,7 +7,7 @@
 @prefix tc: <http://opendiscovery.org/rdf/Concept/> .
 
 tc:FlowModel
-    cc:atributionName "Flow Description Model" ;
+    cc:attributionName "Flow Description Model" ;
     a owl:Ontology ;
     a rdfs:class, skos:Concept, od:AdditionalConcept ;
     od:includes tc:Flow, tc:StaticFlowComponent, tc:MethodOfDescription ;
