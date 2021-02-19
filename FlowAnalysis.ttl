@@ -45,7 +45,7 @@ tc:RulesOfConstructionOfInConformRequirements
     od:isPartOf tc:RulesOfFlowAnalysis, tc:TargetFlowModel .
 # Problemmodell??
 
-td:RulesOfApplyingLawsOfDevelopmentOfTechnicalSystems
+tc:RulesOfApplyingLawsOfDevelopmentOfTechnicalSystems
     od:isPartOf tc:RulesOfFlowAnalysis, tc:TargetFlowModel .
 
 tc:RulesOfFlowAnalysis
