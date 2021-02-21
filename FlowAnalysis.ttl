@@ -10,127 +10,208 @@
 tc:FlowModel
     cc:attributionName "Flow Description Model" ;
     a owl:Ontology ;
-    a rdfs:class, skos:Concept, od:AdditionalConcept ;
+    a rdfs:Container ;
+    a skos:Concept, od:AdditionalConcept ;
+    od:specialCase tc:FlowInstance ;
     od:includes tc:Flow, tc:StaticFlowComponent, tc:MethodOfDescription ;
     rdfs:comment "descriptive base of the flow analysis model" ;
     rdfs:label "Flow Model of Olga Eckardt" ;
     skos:prefLabel "FlowModel"@en, "Flussmodell"@de .
 
 tc:Flow
-    skos:prefLabel "Flow"@en ;
+    a rdfs:Container, skos:Concept ;
     rdfs:subClassOf tc:FlowModel ;
     od:SouchkovCategory tc:FlowAnalysis ;
+    a od:SouchkovGlossaryEntry ;
     od:SouchkovDefinition "A sequence of events that have the same common feature."@en ;
-    a od:SouchkovGlossaryEntry, skos:Concept ;
     od:LebedevDefinition "motion of material, energetic or informational objects within a system" ;
-    od:specialCase tc:FlowType ;
     od:includes tc:FlowType, tc:FlowComposition, tc:FlowFunctionality, tc:FlowSource ;
-    od:hasPartialCase tc:FlowExample ;
     skos:prefLabel "Flow"@en, "Fluss"@de, "Поток"@ru ;
     skos:altLabel "Stream"@en, "Strom"@de .
 
-tc:FlowExample ;
-    od:specialCase tc:Flow .
-
+# Flow subclasses
+## Flow types
 tc:FlowType
+    rdfs:domain tc:Flow ;
+    rdfs:range tc:FlowInstance ;
+    od:includes tc:complexFlow, tc:discreteFlow, tc:continousFlow ;
     a skos:Concept, od:AdditionalConcept ;
-    od:isPartOf tc:Flow ;
-    od:forms tc:Flow ;
-    rdf:type tc:complexFlow, tc:discreteFlow, tc:continousFlow ;
     skos:prefLabel "Type of flow"@en, "Flussart"@de ;
     skos:altLabel "Art der Strömung"@de .
 
+ tc:complexFlow
+    rdfs:domain tc:FlowType ;
+    a skos:Concept, od:AdditionalConcept .
 
-# tc:complexFlow
-#    a skos:Concept, od:AdditionalConcept ;
-#    rdfs:subClassOf tc:FlowType ;
-#
-# tc:discreteFlow
-#     a skos:Concept, od:AdditionalConcept ;
-#     rdfs:subClassOf tc:FlowType ;
-#
-# tc:continousFlow
-#     a skos:Concept, od:AdditionalConcept ;
-#     rdfs:subClassOf tc:FlowType ;
+ tc:discreteFlow
+    rdfs:domain tc:FlowType ;
+    a skos:Concept, od:AdditionalConcept .
 
+ tc:continousFlow
+    rdfs:domain tc:FlowType ;
+    a skos:Concept, od:AdditionalConcept .
+
+## composition of flows
 tc:FlowComposition
+    rdfs:domain tc:Flow ;
+    rdfs:range tc:FlowInstance ;
+    od:includes tc:InformationFlow, tc:EnergyFlow, tc:SubstanceFlow ;
     a skos:Concept, od:AdditionalConcept ;
-    rdfs:subClassOf tc:Flow ;
-    od:forms tc:Flow ;
-    rdf:type tc:InformationFlow, tc:EnergyFlow, tc:SubstanceFlow ;
     skos:prefLabel "Composition of flow"@en, "Flusskomposition"@de ;
     skos:altLabel "Zusammensetzung des Flusses"@de .
 
+tc:InformationFlow
+    rdfs:domain tc:FlowComposition ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:EnergyFlow
+    rdfs:domain tc:FlowComposition ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:SubstanceFlow
+    rdfs:domain tc:FlowComposition ;
+    a skos:Concept, od:AdditionalConcept .
+
+##Functions of Flow
 tc:FlowFunctionality
+    rdfs:domain tc:Flow ;
+    rdfs:range tc:FlowInstance ;
+    od:includes tc:usefulFlow, tc:harmfulFlow, tc:parasiticFlow ;
     a skos:Concept, od:AdditionalConcept ;
-    rdfs:subClassOf tc:Flow ;
-    od:forms tc:Flow ;
-    rdf:type tc:usefulFlow, tc:usefulFlowWith tc:harmfulFlow, tc:parasiticFlow ;
     skos:prefLabel "Functionality of the flow"@en, "Funktionalität des Flusses"@de .
 
-tc:FlowSource
+tc:usefulFlow
+    rdfs:domain tc:FlowFunctionality ;
+    a skos:Concept, od:AdditionalConcept .
+
+###Evaluation of Functions for flow analysis
+tc:usefulFlowWithFlaws
+    rdfs:domain tc:usefulFlow ;
+    rdfs:range tc:FlowInstance ;
     a skos:Concept, od:AdditionalConcept ;
-    rdfs:subClassOf tc:Flow ;
-    od:forms tc:Flow ;
-    rdf:type tc:primaryFlow, tc:secondaryFlow ;
+    od:includes tc:insufficientFlow, tc:excessiveFlow, tc:badControllableFlow, tc:absentFlow .
+
+tc:insufficientFlow
+    rdfs:domain tc:usefulFlow ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:excessiveFlow
+    rdfs:domain tc:usefulFlow ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:badControllableFlow
+    rdfs:domain tc:usefulFlow ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:absentFlow
+    rdfs:domain tc:usefulFlow ;
+    a skos:Concept, od:AdditionalConcept .
+###
+
+tc:harmfulFlow
+    rdfs:domain tc:FlowFunctionality ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:parasiticFlow
+    rdfs:domain tc:FlowFunctionality ;
+    a skos:Concept, od:AdditionalConcept .
+
+## Flow Source
+tc:FlowSource
+    rdfs:domain tc:Flow ;
+    rdfs:range tc:FlowInstance ;
+    od:includes tc:primaryFlow, tc:secondaryFlow ;
+    a skos:Concept, od:AdditionalConcept ;
     skos:prefLabel "Source of flow"@en, "Flussquelle"@de .
 
+tc:primaryFlow
+    rdfs:domain tc:FlowSource ;
+    a skos:Concept, od:AdditionalConcept .
 
+tc:secondaryFlow
+    rdfs:domain tc:FlowSource ;
+    a skos:Concept, od:AdditionalConcept .
+
+## static components
 tc:StaticFlowComponent
-    a skos:Concept, od:AdditionalConcept ;
-    od:isPartOf tc:FlowModel ;
-    od:LebedevDefinition "forming the stream and specify its initial parameters" ;
+    a rdfs:Container ;
+    rdfs:subClassOf tc:FlowModel ;
     od:includes tc:ControlUnit, tc:Receiver, tc:Source, tc:Channel ;
+    od:LebedevDefinition "forming the stream and specify its initial parameters" ;
+    a skos:Concept, od:AdditionalConcept ;
     skos:prefLabel "static components of the flow"@en, "statische Flusskomponenten"@de .
 
 tc:ControlUnit
-    skos:prefLabel "ControlUnit"@en ;
-    rdfs:subClassOf tc:StaticFlowComponent ;
-    rdf:type tc:Pump, tc:Valve ;
+    rdfs:domain tc:StaticFlowComponent ;
+    rdfs:range tc:FlowInstance ;
+    rdfs:member tc:Pump, tc:Valve ;
     skos:prefLabel "Control Unit"@en, "Steuerungssystem"@de ;
     skos:altLabel "Management System"@en, "Managementsystem"@de .
 
+tc:Pump
+    rdfs:domain tc:ControlUnit ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:Valve
+    rdfs:domain tc:ControlUnit ;
+    a skos:Concept, od:AdditionalConcept .
+
 tc:Receiver
-    a skos:Concept, od:AdditionalConcept ;
+    rdfs:domain tc:StaticFlowComponent ;
+    rdfs:range tc:FlowInstance ;
     od:LebedevTerm "Product" ;
     od:LebedevDefinition "That component of the system that is transformed under the influence of a given useful flow(changing at least one of its parameters), or which is directly damaged by the considered harmful flow" ;
-    rdfs:subClassOf tc:StaticFlowComponent ;
+    a skos:Concept, od:AdditionalConcept ;
     skos:prefLabel "Receiver"@en, "Empfänger"@de ;
     skos:altLabel "Product"@en .
 
 tc:Source
+    rdfs:domain tc:StaticFlowComponent ;
+    rdfs:range tc:EnergySource, tc:SourceOfPotential ;
     a skos:Concept, od:AdditionalConcept ;
-    rdfs:subClassOf tc:StaticFlowComponent ;
-    rdf:type tc:EnergySource, tc:SourceOfPotential ;
     skos:prefLabel "Source"@en, "Quelle"@de .
 
+tc:EnergySource
+    rdfs:domain tc:Source ;
+    rdfs:range tc:FlowInstance ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:SourceOfPotential
+    rdfs:domain tc:Source ;
+    rdfs:range tc:FlowInstance ;
+    a skos:Concept, od:AdditionalConcept .
+
 tc:Channel
-    a skos:Concept, od:AdditionalConcept ;
+    rdfs:domain tc:Source ;
+    rdfs:range tc:FlowInstance ;
     od:LebedevDefinition "The component in which the flow moves directly through the system." ;
-    rdfs:subClassOf tc:StaticFlowComponent ;
+    a skos:Concept, od:AdditionalConcept ;
     skos:prefLabel "Channel"@en, "Kanal"@de .
 
-
+##Method of Description
 tc:MethodOfDescription
-    a skos:Concept, od:AdditionalConcept ;
-    od:isPartOf tc:FlowModel ;
+    a rdfs:Container ;
+    rdfs:subClassOf tc:FlowModel ;
     od:includes tc:TextDescription, tc:ParametricDescription, tc:GraphicDescription ;
+    a skos:Concept, od:AdditionalConcept ;
     skos:prefLabel "Method of description"@en, "Methode zur Beschreibung"@de .
 
-
 tc:TextDescription
+    rdfs:domain tc:MethodOfDescription ;
+    rdfs:range tc:FlowInstance ;
     a skos:Concept, od:AdditionalConcept ;
-    rdfs:subClassOf tc:MethodOfDescription ;
     skos:prefLabel "textual description"@en, "Beschreibungstext"@de .
 
 tc:ParametricDescription
+    rdfs:domain tc:MethodOfDescription ;
+    rdfs:range tc:FlowInstance ;
     a skos:Concept, od:AdditionalConcept ;
-    rdfs:subClassOf tc:MethodOfDescription ;
     skos:prefLabel "parametric description"@en, "parametrische Beschreibung"@de .
 
 tc:GraphicDescription
+    rdfs:domain tc:MethodOfDescription ;
+    rdfs:range tc:FlowInstance ;
     a skos:Concept, od:AdditionalConcept ;
-    rdfs:subClassOf tc:MethodOfDescription ;
     skos:prefLabel "graphical description"@en, "graphische Beschreibung"@de .
 
 # Top Level Flow Analysis Model
@@ -143,7 +224,10 @@ tc:FlowAnalysis
     rdfs:label "Flow Analysis Model of Olga Eckardt" ;
     skos:prefLabel "Flow Analysis Model"@en, "Modell der Flussanalyse"@de .
 
-tc:FlowModel
+tc:FlowInstance ;
+    a skos:Concept, od:AdditionalConcept ;
+    a rdfs:ConstraintResource ;
+    rdfs:isDefinedBy tc:FlowModel ;
     od:includes tc:ActualFlowModel, tc:TargetFlowModel .
 
 tc:ActualFlowModel
@@ -159,7 +243,6 @@ tc:TargetFlowModel
 tc:TechniquesOfModification
     od:issuedAt tc:ActualFlowModel ;
     od:forms tc:TargetFlowModel .
-
 
 tc:RulesOfEvaluation
     od:issuedAt tc:ActualFlowModel ;
