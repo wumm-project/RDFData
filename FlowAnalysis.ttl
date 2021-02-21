@@ -56,6 +56,7 @@ tc:FlowType
 tc:FlowComposition
     a skos:Concept, od:AdditionalConcept ;
     rdfs:subClassOf tc:Flow ;
+    od:forms tc:Flow ;
     rdf:type tc:InformationFlow, tc:EnergyFlow, tc:SubstanceFlow ;
     skos:prefLabel "Composition of flow"@en, "Flusskomposition"@de ;
     skos:altLabel "Zusammensetzung des Flusses"@de .
@@ -63,12 +64,14 @@ tc:FlowComposition
 tc:FlowFunctionality
     a skos:Concept, od:AdditionalConcept ;
     rdfs:subClassOf tc:Flow ;
+    od:forms tc:Flow ;
     rdf:type tc:usefulFlow, tc:usefulFlowWith tc:harmfulFlow, tc:parasiticFlow ;
     skos:prefLabel "Functionality of the flow"@en, "Funktionalität des Flusses"@de .
 
 tc:FlowSource
     a skos:Concept, od:AdditionalConcept ;
     rdfs:subClassOf tc:Flow ;
+    od:forms tc:Flow ;
     rdf:type tc:primaryFlow, tc:secondaryFlow ;
     skos:prefLabel "Source of flow"@en, "Flussquelle"@de .
 
