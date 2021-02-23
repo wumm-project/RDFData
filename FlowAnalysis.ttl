@@ -268,6 +268,71 @@ od:usesDescriptionMethod
     rdfs:domain tc:FlowModel, tc:FlowAsIs, tc:FlowModelAsShouldBe ;
     rdfs:range tc:MethodOfDescription .
 
+od:analysesFlow
+    a rdfs:Property ;
+    rdfs:domain tc:FlowAnalysis ;
+    rdfs:range tc:Flow ;
+
+od:definesGoals
+    a rdfs:Property ;
+    rdfs:domain tc:Context, tc:Requirements ;
+    rdfs:range tc:Goals .
+
+od:followsGoals
+    a rdfs:Property ;
+    rdfs:domain tc:FlowAnalysis ;
+    rdfs:range tc:Goals ;
+
+od:proofRequirements
+    a rdfs:Property ;
+    rdfs:domain tc:Goals ;
+    rdfs:range tc:Requirements .
+
+od:compliesRulesOfFlowAnalysis
+    a rdfs:Property ;
+    rdfs:domain tc:FlowAnalysis ;
+    rdfs:range tc:RulesOfFlowAnalysis ; 
+
+od:usesTechniquesOfModification
+    a rdfs:Property ;
+    rdfs:domain tc:FlowModelAsIs ;
+    rdfs:range tc:FlowModelAsShouldBe .
+
+od:applyChanges
+    a rdfs:Property ;
+    rdfs:domain tc:FlowModelAsShouldBe ;
+    rdfs:range tc:Flow .
+
+tc:Goals
+    od:hasSubConcept tc:Context, tc: Requirements ;
+    skos:prefLabel "goals"@en, "Ziele"@de ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:Context
+    od:subConceptOf tc:Goals ;
+    skos:prefLabel "context"@en, "Kontext"@de ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:Requirements
+    od:subConceptOf tc:Goals ;
+    od:hasPartialCase tc:IncreaseUsefulFlow, tc:ReduceHarmfulFlow, tc:ReduceParasiticFlow ;
+    skos:prefLabel "requirements"@en, "Anforderungen"@de ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:IncreaseUsefulFlow
+    od:isPartOf tc:Requirements ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:ReduceHarmfulFlow
+    od:isPartOf tc:Requirements ;
+    od:includes tc:ReduceParasiticFlow ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:ReduceParasiticFlow
+    od:isPartOf tc:ReduceHarmfulFlow, tc:Requirements ;
+    a skos:Concept, od:AdditionalConcept .
+
+-----------------------------------------WORK IN PROGRESS-------------------------------------------------------------------------------------------------------------------
 tc:TechniquesOfModification
     od:issuedAt tc:ActualFlowModel ;
     od:forms tc:TargetFlowModel ;
@@ -275,44 +340,26 @@ tc:TechniquesOfModification
 
 ##Rules of Flow Analysis
 tc:RulesOfFlowAnalysis
-    rdfs:domain tc:FlowAnalysis ;
-    rdfs:range tc:RulesOfEvaluation, tc:RulesOfConstruction, tc:RulesOfConstructionOfInconformRequirements, tc:RulesOfApplyingLawsOfDevelopmentOfTechnicalSystems .
+    a skos:Concept, od:AdditionalConcept ;
+    od:hasSubConcept tc:RulesOfEvaluation, tc:RulesOfConstruction, tc:RulesOfConstructionOfInconformRequirements, tc:RulesOfApplyingLawsOfDevelopmentOfTechnicalSystems ;
+    a skos:Concept, od:AdditionalConcept .
 
 tc:RulesOfEvaluation
     od:issuedAt tc:ActualFlowModel ;
-    od:isPartOf tc:RulesOfFlowAnalysis .
+    od:subConceptOf tc:RulesOfFlowAnalysis ;
+    a skos:Concept, od:AdditionalConcept .
 
 tc:RulesOfConstruction
     od:forms tc:ActualFlowModel ;
-    od:isPartOf tc:RulesOfFlowAnalysis .
+    od:subConceptOf tc:RulesOfFlowAnalysis ;
+    a skos:Concept, od:AdditionalConcept .
 
 tc:RulesOfConstructionOfInconformRequirements
-    od:isPartOf tc:RulesOfFlowAnalysis, tc:TargetFlowModel .
-# Problemmodell??
+    od:subConceptOf tc:RulesOfFlowAnalysis ;
+    od:isPartOf tc:RulesOfFlowAnalysis, tc:TargetFlowModel ;
+    a skos:Concept, od:AdditionalConcept .
 
 tc:RulesOfApplyingLawsOfDevelopmentOfTechnicalSystems
-    od:isPartOf tc:RulesOfFlowAnalysis, tc:TargetFlowModel .
-
-tc:Goals
-    od:isPartOf tc:FlowAnalysis ;
-    od:isDefinedBy tc:SetupContext ;
-    od:defines tc:ProofRequirements .
-
-tc:SetupContext
-    od:IsDefinedBy tc:Goals ;
-    od:defines tc:Goals .
-
-tc:ProofRequirements
-    od:isPartOf tc:Goals ;
-    od:leadsTo tc:IncreaseUsefulFlow, tc:ReduceHarmfulFlow, tc:ReduceParasiticFlow .
-
-tc:IncreaseUsefulFlow
-    od:basedOn tc:ProofRequirements .
-
-tc:ReduceHarmfulFlow
-    od:basedOn tc:ProofRequirements ;
-    od:includes tc:ReduceParasiticFlow .
-
-tc:ReduceParasiticFlow
-    od:isPartOf tc:ReduceHarmfulFlow ;
-    od:basedOn tc:ProofRequirements .
+    od:subConceptOf tc:RulesOfFlowAnalysis ;
+    od:isPartOf tc:RulesOfFlowAnalysis, tc:TargetFlowModel ;
+    a skos:Concept, od:AdditionalConcept .
