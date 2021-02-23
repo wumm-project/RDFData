@@ -48,7 +48,7 @@ od:hasStaticFlowComponent
 
 od:hasMethodOfDescription
     a rdfs:Property;
-    rdfs:domain tc:Flow;
+    rdfs:domain tc:FlowModel, tc:FlowAsIs, tc:FlowModelAsShouldBe
     rdfs:range tc:MethodOfDescription .
 
 # Flow subclasses
@@ -237,34 +237,36 @@ tc:FlowAnalysis
     rdfs:label "Flow Analysis Model of Olga Eckardt" ;
     skos:prefLabel "Flow Analysis Model"@en, "Modell der Flussanalyse"@de .
 
+## modal description
+tc:Mode
+    a skos:Concept, od:AdditionalConcept ;
+    skos:prefLabel "Modeling mode"@en, "Modellierungsmodus"@de ;
+    od:allowedValues od:FlowModel, od:FlowModelAsIs, od:FlowModelAsShouldBe .
+
+tc:FlowModel
+    a skos:Concept, od:AdditionalConcept ;
+    od:valueOf tc:Mode ;   
+    skos:prefLabel "the Flow Model"@en, "Flussmodell"@de .
+
+ tc:FlowModelAsIs
+    a skos:Concept, od:AdditionalConcept ;
+    od:valueOf tc:Mode ;   
+    skos:prefLabel "the Flow Model as is"@en, "Flussmodell, wie es ist"@de .
+
+tc:FlowModelAsShouldBe
+    a skos:Concept, od:AdditionalConcept ;
+    od:valueOf tc:Mode ;   
+    skos:prefLabel "the Flow Model as it should be"@en, "Flussmodell, wie sein sollte"@de .
+
 od:describesFlow
     a rdfs:Property;
-    rdfs:domain tc:FlowAnalysis;
+    rdfs:domain tc:FlowModel, tc:FlowAsIs, tc:FlowModelAsShouldBe;
     rdfs:range tc:Flow .
 
 od:usesDescriptionMethod
     a rdfs:Property;
-    rdfs:domain tc:FlowAnalysis;
+    rdfs:domain tc:FlowModel, tc:FlowAsIs, tc:FlowModelAsShouldBe;
     rdfs:range tc:MethodOfDescription .
-tc:FlowInstance ;
-    a rdfs:ConstraintResource ;
-    rdfs:isDefinedBy tc:FlowModel, tc:FlowAnalysis ;
-    od:includes tc:ActualFlowModel, tc:TargetFlowModel ;
-    a skos:Concept, od:AdditionalConcept .
-
-tc:ActualFlowModel
-    rdfs:domain tc:FlowModel ;
-    rdfs:range tc:FlowInstance ;
-    od:includes tc:RulesOfEvaluation, tc:RulesOfConstruction ;
-    od:relatedTo tc:TechniquesOfModification ;
-    a skos:Concept, od:AdditionalConcept .
-
-tc:TargetFlowModel
-    rdfs:domain tc:FlowModel ;
-    rdfs:range tc:FlowInstance ;
-    od:includes tc:RulesOfConstructionOfInConformRequirements, tc:RulesOfApplyingLawsOfDevelopmentOfTechnicalSystems ;
-    od:relatedTo tc:TechniquesOfModification ;
-    a skos:Concept, od:AdditionalConcept .
 
 tc:TechniquesOfModification
     od:issuedAt tc:ActualFlowModel ;
