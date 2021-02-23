@@ -6,243 +6,275 @@
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
 @prefix tc: <http://opendiscovery.org/rdf/Concept/> .
 
-# descriptive Flow Model
-tc:FlowModel
-    cc:attributionName "Flow Description Model" ;
-    a owl:Ontology ;
-    a rdfs:Container ;
-    a skos:Concept, od:AdditionalConcept ;
-    od:specialCase tc:FlowInstance ;
-    od:includes tc:Flow, tc:StaticFlowComponent, tc:MethodOfDescription ;
-    rdfs:comment "descriptive base of the flow analysis model" ;
-    rdfs:label "Flow Model of Olga Eckardt" ;
-    skos:prefLabel "FlowModel"@en, "Flussmodell"@de .
-
+# Flow 
 tc:Flow
-    a rdfs:Container, skos:Concept ;
-    rdfs:subClassOf tc:FlowModel ;
+    a skos:Concept ;
     od:SouchkovCategory tc:FlowAnalysis ;
     a od:SouchkovGlossaryEntry ;
     od:SouchkovDefinition "A sequence of events that have the same common feature."@en ;
     od:LebedevDefinition "motion of material, energetic or informational objects within a system" ;
-    od:includes tc:FlowType, tc:FlowComposition, tc:FlowFunctionality, tc:FlowSource ;
     skos:prefLabel "Flow"@en, "Fluss"@de, "Поток"@ru ;
     skos:altLabel "Stream"@en, "Strom"@de .
 
+od:hasFlowType
+    a rdfs:Property;
+    rdfs:domain tc:Flow;
+    rdfs:range tc:FlowType .
+
+od:hasFlowSubstance
+    a rdfs:Property;
+    rdfs:domain tc:Flow;
+    rdfs:range tc:FlowSubstance .
+    
+od:hasFlowFunctionality
+    a rdfs:Property;
+    rdfs:domain tc:Flow;
+    rdfs:range tc:FlowFunctionality .
+
+od:hasFlowDefect
+    a rdfs:Property;
+    rdfs:domain tc:Flow;
+    rdfs:range tc:FlowDefect .
+    
+od:hasFlowSource
+    a rdfs:Property;
+    rdfs:domain tc:Flow;
+    rdfs:range tc:FlowSource .
+
+od:hasStaticFlowComponent
+    a rdfs:Property;
+    rdfs:domain tc:Flow;
+    rdfs:range tc:StaticFlowComponent .
+
+od:hasMethodOfDescription
+    a rdfs:Property;
+    rdfs:domain tc:Flow;
+    rdfs:range tc:MethodOfDescription .
+
 # Flow subclasses
 ## Flow types
+
 tc:FlowType
-    rdfs:domain tc:Flow ;
-    rdfs:range tc:FlowInstance ;
-    od:includes tc:complexFlow, tc:discreteFlow, tc:continousFlow ;
+    od:allowedValues tc:complexFlow, tc:discreteFlow, tc:continousFlow ;
     a skos:Concept, od:AdditionalConcept ;
     skos:prefLabel "Type of flow"@en, "Flussart"@de ;
     skos:altLabel "Art der Strömung"@de .
 
  tc:complexFlow
-    rdfs:domain tc:FlowType ;
+    od:valueOf tc:FlowType ;
+    skos:prefLabel "complex flow"@en, "Komplexer Fluss"@de ;
     a skos:Concept, od:AdditionalConcept .
 
  tc:discreteFlow
-    rdfs:domain tc:FlowType ;
+    od:valueOf tc:FlowType ;
+    skos:prefLabel "discrete flow"@en, "Diskreter Fluss"@de ;
     a skos:Concept, od:AdditionalConcept .
 
  tc:continousFlow
-    rdfs:domain tc:FlowType ;
+    od:valueOf tc:FlowType ;
+    skos:prefLabel "continuous flow"@en, "Kontinuierlicher Fluss"@de ;
     a skos:Concept, od:AdditionalConcept .
 
-## composition of flows
-tc:FlowComposition
-    rdfs:domain tc:Flow ;
-    rdfs:range tc:FlowInstance ;
-    od:includes tc:InformationFlow, tc:EnergyFlow, tc:SubstanceFlow ;
+## substance of flows
+tc:FlowSubstance
+    od:allowedValues tc:InformationFlow, tc:EnergyFlow, tc:SubstanceFlow ;
     a skos:Concept, od:AdditionalConcept ;
-    skos:prefLabel "Composition of flow"@en, "Flusskomposition"@de ;
+    skos:prefLabel "Substance of flow"@en, "Fluss-Substanz"@de ;
     skos:altLabel "Zusammensetzung des Flusses"@de .
 
 tc:InformationFlow
-    rdfs:domain tc:FlowComposition ;
+    od:valueOf tc:FlowSubstance ;
+    skos:prefLabel "information flow"@en, "Informationsfluss"@de ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:EnergyFlow
-    rdfs:domain tc:FlowComposition ;
+    od:valueOf tc:FlowSubstance ;
+    skos:prefLabel "energy flow"@en, "Energiefluss"@de ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:SubstanceFlow
-    rdfs:domain tc:FlowComposition ;
+    od:valueOf tc:FlowSubstance ;
+    skos:prefLabel "substance flow"@en, "Stofffluss"@de ;
     a skos:Concept, od:AdditionalConcept .
 
 ##Functions of Flow
 tc:FlowFunctionality
-    rdfs:domain tc:Flow ;
-    rdfs:range tc:FlowInstance ;
-    od:includes tc:usefulFlow, tc:harmfulFlow, tc:parasiticFlow ;
+    od:allowedValues tc:usefulFlow, tc:harmfulFlow, tc:parasiticFlow ;
     a skos:Concept, od:AdditionalConcept ;
     skos:prefLabel "Functionality of the flow"@en, "Funktionalität des Flusses"@de .
 
 tc:usefulFlow
-    rdfs:domain tc:FlowFunctionality ;
+    od:valueOf tc:FlowFunctionality ;
+    skos:prefLabel "useful flow"@en, "Nützlicher Fluss"@de ;
     a skos:Concept, od:AdditionalConcept .
-
-###Evaluation of Functions for flow analysis
-tc:usefulFlowWithFlaws
-    rdfs:domain tc:usefulFlow ;
-    rdfs:range tc:FlowInstance ;
-    a skos:Concept, od:AdditionalConcept ;
-    od:includes tc:insufficientFlow, tc:excessiveFlow, tc:badControllableFlow, tc:absentFlow .
-
-tc:insufficientFlow
-    rdfs:domain tc:usefulFlow ;
-    a skos:Concept, od:AdditionalConcept .
-
-tc:excessiveFlow
-    rdfs:domain tc:usefulFlow ;
-    a skos:Concept, od:AdditionalConcept .
-
-tc:badControllableFlow
-    rdfs:domain tc:usefulFlow ;
-    a skos:Concept, od:AdditionalConcept .
-
-tc:absentFlow
-    rdfs:domain tc:usefulFlow ;
-    a skos:Concept, od:AdditionalConcept .
-###
 
 tc:harmfulFlow
-    rdfs:domain tc:FlowFunctionality ;
+    od:valueOf tc:FlowFunctionality ;
+    skos:prefLabel "harmful flow"@en, "Schädlicher Fluss"@de ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:parasiticFlow
-    rdfs:domain tc:FlowFunctionality ;
+    od:valueOf tc:FlowFunctionality ;
+    skos:prefLabel "parasitic flow"@en, "Parasitärer Fluss"@de ;
+    a skos:Concept, od:AdditionalConcept .
+
+##Defect of Flow
+tc:FlowDefect
+    od:allowedValues tc:insufficientFlow, tc:excessiveFlow, tc:badControllableFlow, tc:absentFlow ;
+    a skos:Concept, od:AdditionalConcept ;
+    skos:prefLabel "Defect of the flow"@en, "Unzulänglichkeit des Flusses"@de .
+
+tc:insufficientFlow
+    od:valueOf tc:FlowDefect ;
+    skos:prefLabel "insufficient flow"@en, "Zu schwacher Fluss"@de ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:excessiveFlow
+    od:valueOf tc:FlowDefect ;
+    skos:prefLabel "excessive flow"@en, "Zu starker Fluss"@de ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:badControllableFlow
+    od:valueOf tc:FlowDefect ;
+    skos:prefLabel "bad controllable flow"@en, "Schlecht kontrollierbarer Fluss"@de ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:absentFlow
+    od:valueOf tc:FlowDefect ;
+    skos:prefLabel "absent flow"@en, "Fehlender Fluss"@de ;
     a skos:Concept, od:AdditionalConcept .
 
 ## Flow Source
 tc:FlowSource
-    rdfs:domain tc:Flow ;
-    rdfs:range tc:FlowInstance ;
-    od:includes tc:primaryFlow, tc:secondaryFlow ;
+    od:allowedValues tc:primaryFlow, tc:secondaryFlow ;
     a skos:Concept, od:AdditionalConcept ;
     skos:prefLabel "Source of flow"@en, "Flussquelle"@de .
 
 tc:primaryFlow
-    rdfs:domain tc:FlowSource ;
+    od:valueOf tc:FlowSource ;
+    skos:prefLabel "primary flow"@en, "Primärer Fluss"@de ;
     a skos:Concept, od:AdditionalConcept .
 
-tc:secondaryFlow
-    rdfs:domain tc:FlowSource ;
+tc:secondaryFlow 
+    od:valueOf tc:FlowSourcex ;
+    skos:prefLabel "secondary flow"@en, "Sekundärer Fluss"@de ;
     a skos:Concept, od:AdditionalConcept .
 
 ## static components
 tc:StaticFlowComponent
-    a rdfs:Container ;
-    rdfs:subClassOf tc:FlowModel ;
-    od:includes tc:ControlUnit, tc:Receiver, tc:Source, tc:Channel ;
+    od:hasSubConcept tc:ControlUnit, tc:Receiver, tc:Source, tc:Channel ;
     od:LebedevDefinition "forming the stream and specify its initial parameters" ;
     a skos:Concept, od:AdditionalConcept ;
     skos:prefLabel "static components of the flow"@en, "statische Flusskomponenten"@de .
 
 tc:ControlUnit
-    rdfs:domain tc:StaticFlowComponent ;
-    rdfs:range tc:FlowInstance ;
-    rdfs:member tc:Pump, tc:Valve ;
+    od:subConceptOf tc:StaticFlowComponent ;
+    od:hasSubConcept tc:Pump, tc:Valve ;
     skos:prefLabel "Control Unit"@en, "Steuerungssystem"@de ;
     skos:altLabel "Management System"@en, "Managementsystem"@de .
 
 tc:Pump
-    rdfs:domain tc:ControlUnit ;
+    od:subConceptOf tc:ControlUnit ;
+    skos:prefLabel "pump"@en, "Pumpe"@de ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:Valve
-    rdfs:domain tc:ControlUnit ;
+    od:subConceptOf tc:ControlUnit ;
+    skos:prefLabel "valve"@en, "Ventil"@de ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:Receiver
-    rdfs:domain tc:StaticFlowComponent ;
-    rdfs:range tc:FlowInstance ;
-    od:LebedevTerm "Product" ;
-    od:LebedevDefinition "That component of the system that is transformed under the influence of a given useful flow(changing at least one of its parameters), or which is directly damaged by the considered harmful flow" ;
+    od:subConceptOf tc:StaticFlowComponent ;
+    od:LebedevTerm "Product"@en ;
+    od:LebedevDefinition "That component of the system that is transformed under the influence of a given useful flow (changing at least one of its parameters), or which is directly damaged by the considered harmful flow"@en ;
     a skos:Concept, od:AdditionalConcept ;
     skos:prefLabel "Receiver"@en, "Empfänger"@de ;
     skos:altLabel "Product"@en .
 
 tc:Source
-    rdfs:domain tc:StaticFlowComponent ;
-    rdfs:range tc:EnergySource, tc:SourceOfPotential ;
+    od:subConceptOf tc:StaticFlowComponent ;
     a skos:Concept, od:AdditionalConcept ;
     skos:prefLabel "Source"@en, "Quelle"@de .
 
 tc:EnergySource
-    rdfs:domain tc:Source ;
-    rdfs:range tc:FlowInstance ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:SourceOfPotential
-    rdfs:domain tc:Source ;
-    rdfs:range tc:FlowInstance ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:Channel
-    rdfs:domain tc:Source ;
-    rdfs:range tc:FlowInstance ;
+    od:subConceptOf tc:StaticFlowComponent ;
     od:LebedevDefinition "The component in which the flow moves directly through the system." ;
     a skos:Concept, od:AdditionalConcept ;
     skos:prefLabel "Channel"@en, "Kanal"@de .
 
 ##Method of Description
 tc:MethodOfDescription
-    a rdfs:Container ;
-    rdfs:subClassOf tc:FlowModel ;
-    od:includes tc:TextDescription, tc:ParametricDescription, tc:GraphicDescription ;
+    od:allowedValues tc:TextDescription, tc:ParametricDescription, tc:GraphicDescription ;
     a skos:Concept, od:AdditionalConcept ;
     skos:prefLabel "Method of description"@en, "Methode zur Beschreibung"@de .
 
 tc:TextDescription
-    rdfs:domain tc:MethodOfDescription ;
-    rdfs:range tc:FlowInstance ;
+    od:valueOf tc:MethodOfDescription ;
     a skos:Concept, od:AdditionalConcept ;
     skos:prefLabel "textual description"@en, "Beschreibungstext"@de .
 
 tc:ParametricDescription
-    rdfs:domain tc:MethodOfDescription ;
-    rdfs:range tc:FlowInstance ;
+    od:valueOf tc:MethodOfDescription ;
     a skos:Concept, od:AdditionalConcept ;
     skos:prefLabel "parametric description"@en, "parametrische Beschreibung"@de .
 
 tc:GraphicDescription
-    rdfs:domain tc:MethodOfDescription ;
-    rdfs:range tc:FlowInstance ;
+    od:valueOf tc:MethodOfDescription ;
     a skos:Concept, od:AdditionalConcept ;
     skos:prefLabel "graphical description"@en, "graphische Beschreibung"@de .
 
 # Top Level Flow Analysis Model
 tc:FlowAnalysis
     cc:attributionName "Flow Analysis Model" ;
-    a owl:Ontology ;
-    a rdfs:class, od:SouchkovGlossaryEntry, skos:Concept;
-    od:includes tc:Flow, tc:FlowModel, tc:MethodOfDescription ;
+    a od:SouchkovGlossaryEntry, skos:Concept;
     rdfs:comment "prescriptive base of the flow analysis model" ;
     rdfs:label "Flow Analysis Model of Olga Eckardt" ;
     skos:prefLabel "Flow Analysis Model"@en, "Modell der Flussanalyse"@de .
 
+od:describesFlow
+    a rdfs:Property;
+    rdfs:domain tc:FlowAnalysis;
+    rdfs:range tc:Flow .
+
+od:usesDescriptionMethod
+    a rdfs:Property;
+    rdfs:domain tc:FlowAnalysis;
+    rdfs:range tc:MethodOfDescription .
 tc:FlowInstance ;
-    a skos:Concept, od:AdditionalConcept ;
     a rdfs:ConstraintResource ;
-    rdfs:isDefinedBy tc:FlowModel ;
-    od:includes tc:ActualFlowModel, tc:TargetFlowModel .
+    rdfs:isDefinedBy tc:FlowModel, tc:FlowAnalysis ;
+    od:includes tc:ActualFlowModel, tc:TargetFlowModel ;
+    a skos:Concept, od:AdditionalConcept .
 
 tc:ActualFlowModel
+    rdfs:domain tc:FlowModel ;
+    rdfs:range tc:FlowInstance ;
     od:includes tc:RulesOfEvaluation, tc:RulesOfConstruction ;
     od:relatedTo tc:TechniquesOfModification ;
-    od:isPartOf tc:FlowModel .
+    a skos:Concept, od:AdditionalConcept .
 
 tc:TargetFlowModel
+    rdfs:domain tc:FlowModel ;
+    rdfs:range tc:FlowInstance ;
     od:includes tc:RulesOfConstructionOfInConformRequirements, tc:RulesOfApplyingLawsOfDevelopmentOfTechnicalSystems ;
     od:relatedTo tc:TechniquesOfModification ;
-    od:isPartOf tc:FlowModel .
+    a skos:Concept, od:AdditionalConcept .
 
 tc:TechniquesOfModification
     od:issuedAt tc:ActualFlowModel ;
-    od:forms tc:TargetFlowModel .
+    od:forms tc:TargetFlowModel ;
+    a skos:Concept, od:AdditionalConcept .
+
+##Rules of Flow Analysis
+tc:RulesOfFlowAnalysis
+    rdfs:domain tc:FlowAnalysis ;
+    rdfs:range tc:RulesOfEvaluation, tc:RulesOfConstruction, tc:RulesOfConstructionOfInconformRequirements, tc:RulesOfApplyingLawsOfDevelopmentOfTechnicalSystems .
 
 tc:RulesOfEvaluation
     od:issuedAt tc:ActualFlowModel ;
@@ -252,28 +284,24 @@ tc:RulesOfConstruction
     od:forms tc:ActualFlowModel ;
     od:isPartOf tc:RulesOfFlowAnalysis .
 
-tc:RulesOfConstructionOfInConformRequirements
+tc:RulesOfConstructionOfInconformRequirements
     od:isPartOf tc:RulesOfFlowAnalysis, tc:TargetFlowModel .
 # Problemmodell??
 
 tc:RulesOfApplyingLawsOfDevelopmentOfTechnicalSystems
     od:isPartOf tc:RulesOfFlowAnalysis, tc:TargetFlowModel .
 
-tc:RulesOfFlowAnalysis
-    od:isPartOf tc:FlowAnalysis ;
-    od:includes tc:Flow, tc:Goal, tc:RulesOfFlowAnalysis .
-
-tc:Goal
+tc:Goals
     od:isPartOf tc:FlowAnalysis ;
     od:isDefinedBy tc:SetupContext ;
     od:defines tc:ProofRequirements .
 
 tc:SetupContext
-    od:IsDefinedBy tc:Goal ;
-    od:defines tc:Goal .
+    od:IsDefinedBy tc:Goals ;
+    od:defines tc:Goals .
 
 tc:ProofRequirements
-    od:isPartOf tc:Goal ;
+    od:isPartOf tc:Goals ;
     od:leadsTo tc:IncreaseUsefulFlow, tc:ReduceHarmfulFlow, tc:ReduceParasiticFlow .
 
 tc:IncreaseUsefulFlow
