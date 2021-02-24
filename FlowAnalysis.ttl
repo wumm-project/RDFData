@@ -152,35 +152,43 @@ tc:FlowSource
 
 tc:primaryFlow
     od:valueOf tc:FlowSource ;
+    od:LebedevDefinition "flow defined by the supersystem" ;
     skos:prefLabel "primary flow"@en, "Primärer Fluss"@de ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:secondaryFlow 
     od:valueOf tc:FlowSourcex ;
+    od:LebedevDefinition "A flow, that emerged within the system as a result of a working body performing some useful function." ;
     skos:prefLabel "secondary flow"@en, "Sekundärer Fluss"@de ;
     a skos:Concept, od:AdditionalConcept .
 
 ## static components
 tc:StaticFlowComponent
     od:hasSubConcept tc:ControlUnit, tc:Receiver, tc:Source, tc:Channel ;
-    od:LebedevDefinition "forming the stream and specify its initial parameters" ;
-    a skos:Concept, od:AdditionalConcept ;
+    od:LebedevDefinition "(trans)forms the stream and specifies its initial parameters" ;
     skos:prefLabel "static components of the flow"@en, "statische Flusskomponenten"@de .
+    skos:altLabel "source flow system components"@en, "Flusskanalsystem"@de ;
+    a skos:Concept, od:AdditionalConcept .
 
 tc:ControlUnit
     od:subConceptOf tc:StaticFlowComponent ;
     od:hasSubConcept tc:Pump, tc:Valve ;
     skos:prefLabel "Control Unit"@en, "Steuerungssystem"@de ;
-    skos:altLabel "Management System"@en, "Managementsystem"@de .
+    skos:altLabel "Management System"@en, "Managementsystem"@de ;
+    a skos:Concept, od:AdditionalConcept .
 
 tc:Pump
     od:subConceptOf tc:ControlUnit ;
+    od:LebedevDefinition "control unit to regulate the flow" ;
     skos:prefLabel "pump"@en, "Pumpe"@de ;
+    skos:altLabel "flow regulation control"@en, "Durchflussregelungssteuerung"@de ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:Valve
     od:subConceptOf tc:ControlUnit ;
+    od:LebedevDefinition "unit to control channel conductivity" ;
     skos:prefLabel "valve"@en, "Ventil"@de ;
+    skos:altLabel "channel conductivity control"@en, "Kanalleitfähigkeitssteuerung"@de ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:Receiver
@@ -204,7 +212,7 @@ tc:SourceOfPotential
 
 tc:Channel
     od:subConceptOf tc:StaticFlowComponent ;
-    od:LebedevDefinition "The component in which the flow moves directly through the system." ;
+    od:LebedevDefinition "The component in which the flow moves directly through the system; holds, limits and determines the direction of the flow" ;
     a skos:Concept, od:AdditionalConcept ;
     skos:prefLabel "Channel"@en, "Kanal"@de .
 
@@ -306,6 +314,7 @@ od:applyChanges
 tc:Goals
     od:hasSubConcept tc:Context, tc: Requirements ;
     skos:prefLabel "goals"@en, "Ziele"@de ;
+    od:EckardtDefinition "descriptive and perfomative frame of the flow analysis" ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:Context
@@ -363,3 +372,5 @@ tc:RulesOfApplyingLawsOfDevelopmentOfTechnicalSystems
     od:subConceptOf tc:RulesOfFlowAnalysis ;
     od:isPartOf tc:RulesOfFlowAnalysis, tc:TargetFlowModel ;
     a skos:Concept, od:AdditionalConcept .
+
+#list of special flows with own definition
