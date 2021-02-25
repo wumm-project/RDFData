@@ -162,6 +162,8 @@ tc:secondaryFlow
     skos:prefLabel "secondary flow"@en, "Sekundärer Fluss"@de ;
     a skos:Concept, od:AdditionalConcept .
 
+#list of special flows with own definition
+
 ## static components
 tc:StaticFlowComponent
     od:hasSubConcept tc:ControlUnit, tc:Receiver, tc:Source, tc:Channel ;
@@ -341,25 +343,40 @@ tc:ReduceParasiticFlow
     od:isPartOf tc:ReduceHarmfulFlow, tc:Requirements ;
     a skos:Concept, od:AdditionalConcept .
 
------------------------------------------WORK IN PROGRESS-------------------------------------------------------------------------------------------------------------------
-tc:TechniquesOfModification
-    od:issuedAt tc:ActualFlowModel ;
-    od:forms tc:TargetFlowModel ;
-    a skos:Concept, od:AdditionalConcept .
-
 ##Rules of Flow Analysis
+
+od:applyRulesofConstruction
+    a rdfs:Property ;
+    rdfs:domain tc:FlowAnalysis ;
+    rdfs:range tc:FlowModelAsIs ;
+
+od:applyRulesofEvaluation
+    a rdfs:Property ;
+    rdfs:domain tc:FlowAnalysis ;
+    rdfs:range tc:FlowModelAsIs ;
+
+od:applyRulesofConstructionOfInconformRequirements
+    a rdfs:Property ;
+    rdfs:domain tc:FlowAnalysis ;
+    rdfs:range tc:FlowModelAsShouldBe ;
+
+od:applyRulesofApplyingLawsOfDevelopmentOfTechnicalSystems
+    a rdfs:Property ;
+    rdfs:domain tc:FlowAnalysis ;
+    rdfs:range tc:FlowModelAsShouldBe ;
+
 tc:RulesOfFlowAnalysis
     a skos:Concept, od:AdditionalConcept ;
     od:hasSubConcept tc:RulesOfEvaluation, tc:RulesOfConstruction, tc:RulesOfConstructionOfInconformRequirements, tc:RulesOfApplyingLawsOfDevelopmentOfTechnicalSystems ;
     a skos:Concept, od:AdditionalConcept .
 
-tc:RulesOfEvaluation
-    od:issuedAt tc:ActualFlowModel ;
+tc:RulesOfConstruction
+    od:forms tc:ActualFlowModel ;
     od:subConceptOf tc:RulesOfFlowAnalysis ;
     a skos:Concept, od:AdditionalConcept .
 
-tc:RulesOfConstruction
-    od:forms tc:ActualFlowModel ;
+tc:RulesOfEvaluation
+    od:issuedAt tc:ActualFlowModel ;
     od:subConceptOf tc:RulesOfFlowAnalysis ;
     a skos:Concept, od:AdditionalConcept .
 
@@ -373,4 +390,22 @@ tc:RulesOfApplyingLawsOfDevelopmentOfTechnicalSystems
     od:isPartOf tc:RulesOfFlowAnalysis, tc:TargetFlowModel ;
     a skos:Concept, od:AdditionalConcept .
 
-#list of special flows with own definition
+-----------------------------------------WORK IN PROGRESS-------------------------------------------------------------------------------------------------------------------
+
+## Techniques of modification
+
+od:improves
+    a rdfs:Property ;
+    rdfs:domain tc:FlowModelAsShouldBe ;
+    rdfs:range tc:StaticFlowComponent .
+
+od:removes
+    a rdfs:Property ;
+    rdfs:domain tc:FlowModelAsShouldBe ;
+    rdfs:range tc:FlowDisadvantage .
+
+
+tc:TechniquesOfModification
+    od:issuedAt tc:FlowModelAsIs ;
+    od:forms tc:FlowModelAsShouldBe ;
+    a skos:Concept, od:AdditionalConcept .
