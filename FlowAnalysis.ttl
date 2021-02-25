@@ -157,7 +157,7 @@ tc:primaryFlow
     a skos:Concept, od:AdditionalConcept .
 
 tc:secondaryFlow 
-    od:valueOf tc:FlowSourcex ;
+    od:valueOf tc:FlowSource ;
     od:LebedevDefinition "A flow, that emerged within the system as a result of a working body performing some useful function." ;
     skos:prefLabel "secondary flow"@en, "Sekundärer Fluss"@de ;
     a skos:Concept, od:AdditionalConcept .
@@ -365,47 +365,213 @@ od:applyRulesofApplyingLawsOfDevelopmentOfTechnicalSystems
     rdfs:domain tc:FlowAnalysis ;
     rdfs:range tc:FlowModelAsShouldBe ;
 
+od:detects
+    a rdfs:Property ;
+    rdfs:domain tc:RulesOfEvaluation ;
+    rdfs:range tc:FlowDefect ;
+
 tc:RulesOfFlowAnalysis
     a skos:Concept, od:AdditionalConcept ;
     od:hasSubConcept tc:RulesOfEvaluation, tc:RulesOfConstruction, tc:RulesOfConstructionOfInconformRequirements, tc:RulesOfApplyingLawsOfDevelopmentOfTechnicalSystems ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:RulesOfConstruction
-    od:forms tc:ActualFlowModel ;
+    od:forms tc:FlowModelAsIs ;
     od:subConceptOf tc:RulesOfFlowAnalysis ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:RulesOfEvaluation
-    od:issuedAt tc:ActualFlowModel ;
+    od:issuedAt tc:FlowModelAsIs ;
     od:subConceptOf tc:RulesOfFlowAnalysis ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:RulesOfConstructionOfInconformRequirements
     od:subConceptOf tc:RulesOfFlowAnalysis ;
-    od:isPartOf tc:RulesOfFlowAnalysis, tc:TargetFlowModel ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:RulesOfApplyingLawsOfDevelopmentOfTechnicalSystems
     od:subConceptOf tc:RulesOfFlowAnalysis ;
-    od:isPartOf tc:RulesOfFlowAnalysis, tc:TargetFlowModel ;
     a skos:Concept, od:AdditionalConcept .
-
------------------------------------------WORK IN PROGRESS-------------------------------------------------------------------------------------------------------------------
 
 ## Techniques of modification
 
-od:improves
-    a rdfs:Property ;
-    rdfs:domain tc:FlowModelAsShouldBe ;
-    rdfs:range tc:StaticFlowComponent .
-
-od:removes
-    a rdfs:Property ;
-    rdfs:domain tc:FlowModelAsShouldBe ;
-    rdfs:range tc:FlowDisadvantage .
-
+# od:improves
+#    a rdfs:Property ;
+#    rdfs:domain tc:FlowModelAsShouldBe ;
+#    rdfs:range tc:StaticFlowComponent .
+#
+# od:setsup
+#    a rdfs:Property ;
+#    rdfs:domain  ;
+#    rdfs:range  .
+#
+# od:removes
+#    a rdfs:Property ;
+#    rdfs:domain tc:FlowModelAsShouldBe ;
+#    rdfs:range tc:FlowDisadvantage .
 
 tc:TechniquesOfModification
     od:issuedAt tc:FlowModelAsIs ;
     od:forms tc:FlowModelAsShouldBe ;
+    od:hasSubConcept tc:ModificationOfReceiver, tc:ModificationOfSource, tc:ModificationOfChannel, tc:ModificationOfControlUnit ;
     a skos:Concept, od:AdditionalConcept .
+
+##
+tc:ModificationOfControlUnit
+    od:subConceptOf tc:TechniquesOfModification ;
+    a skos:Concept, od:AdditionalConcept .
+
+##
+tc:ModificationOfReceiver
+    od:subConceptOf tc:TechniquesOfModification ;
+    od:hasSubConcept tc:fortifyWorkspace, tc:improveAdmission, tc:impairAdmission ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:fortifyWorkspace
+    od:subConceptOf tc:ModificationOfReceiver ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:improveAdmission
+    od:subConceptOf tc:ModificationOfReceiver ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:impairAdmission
+    od:subConceptOf tc:ModificationOfReceiver ;
+    a skos:Concept, od:AdditionalConcept .
+##
+
+tc:ModificationOfSource
+    od:subConceptOf tc:TechniquesOfModification ;
+    od:hasSubConcept tc:improveRelativeCharacteristica, tc:ModulationOfFlow, tc:addUsefulProperties, tc:exploitGradient, tc:reuseFlow, tc:useAdditionalFlow, tc:exploitResonance, tc:reduceIntensity, tc:avoidFlow, tc:distributeFlowEquallyInTime, tc:turnHarmfulFlowIntoUsefulFlow, tc:compensateWithSecondFlow, tc:overlayWithAntiFlow, tc:annihilateWithSelf, tc:avoidResonance ;
+    a skos:Concept, od:AdditionalConcept .
+
+## affect harmful flow  by upgrading source##
+tc:impairRelativeCharacteristica
+    od:subConceptOf tc:ModificationOfSource ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:avoidFlow
+    od:subConceptOf tc:ModificationOfSource ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:distributeFlowEquallyInTime
+    od:subConceptOf tc:ModificationOfSource ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:turnHarmfulFlowIntoUsefulFlow
+    od:subConceptOf tc:ModificationOfSource ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:compensateWithSecondFlow
+    od:subConceptOf tc:ModificationOfSource ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:overlayWithAntiFlow
+    od:subConceptOf tc:ModificationOfSource ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:annihilateWithSelf
+    od:subConceptOf tc:ModificationOfSource ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:avoidResonance
+    od:subConceptOf tc:ModificationOfSource ;
+    a skos:Concept, od:AdditionalConcept .
+
+## affect useful flow  by upgrading source##
+tc:improveRelativeCharacteristica
+    od:subConceptOf tc:ModificationOfSource ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:ModulationOfFlow
+    od:subConceptOf tc:ModificationOfSource ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:addUsefulProperties
+    od:subConceptOf tc:ModificationOfSource ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:exploitGradient
+    od:subConceptOf tc:ModificationOfSource ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:reuseFlow
+    od:subConceptOf tc:ModificationOfSource ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:useAdditionalFlow
+    od:subConceptOf tc:ModificationOfSource ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:exploitResonance
+    od:subConceptOf tc:ModificationOfSource ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:reduceIntensity
+    od:subConceptOf tc:ModificationOfSource ;
+    a skos:Concept, od:AdditionalConcept .
+##
+
+tc:ModificationOfChannel
+    od:subConceptOf tc:TechniquesOfModification ;
+    od:hasSubConcept tc:removeBottleNeck, tc:removeDeadZone, tc:removeGreyZone ,tc:changeFlowMedium, tc:outsourceFlow, tc:reduceAmountOfTransformations, tc:improvePermeability, tc:reduceLength, tc:ModificationOfControlUnit, tc:combineUsefulFlows, tc:channelFlow, tc:implementBottleNeck, tc:implementDeadZone, tc:reducePermeability, tc:extendLength ;
+    a skos:Concept, od:AdditionalConcept .
+
+## affect useful flow by upgrading channel##
+tc:removeBottleNeck
+    od:subConceptOf tc:ModificationOfChannel ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:removeDeadZone
+    od:subConceptOf tc:ModificationOfChannel ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:removeGreyZone
+    od:subConceptOf tc:ModificationOfChannel ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:changeFlowMedium
+    od:subConceptOf tc:ModificationOfChannel ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:outsourceFlow
+    od:subConceptOf tc:ModificationOfChannel ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:reduceAmountOfTransformations
+    od:subConceptOf tc:ModificationOfChannel ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:improvePermeability
+    od:subConceptOf tc:ModificationOfChannel ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:reduceLength
+    od:subConceptOf tc:ModificationOfChannel ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:combineUsefulFlows
+    od:subConceptOf tc:ModificationOfChannel ;
+    a skos:Concept, od:AdditionalConcept .
+
+## affect harmful flow by upgrading channel##
+tc:channelFlow
+    od:subConceptOf tc:ModificationOfChannel ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:implementBottleNeck
+    od:subConceptOf tc:ModificationOfChannel ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:implementDeadZone
+    od:subConceptOf tc:ModificationOfChannel ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:reducePermeability
+    od:subConceptOf tc:ModificationOfChannel ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:extendLength
+    od:subConceptOf tc:ModificationOfChannel ;
+    a skos:Concept, od:AdditionalConcept .
+##
