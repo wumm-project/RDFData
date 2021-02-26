@@ -12,8 +12,8 @@
     cc:attributionName "The Open Discovery Project" ;
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
-    rdfs:comment "2021-02-15 graebe: foaf:fullname changed to name surname fathername according to the convention in the MATRIZ certificate list" ;  
     a owl:Ontology ;
+    rdfs:comment "2021-02-15 graebe: foaf:fullname changed to name surname fathername according to the convention in the MATRIZ certificate list" ;
     rdfs:label "People in the TRIZ Community" .
 
 odp:Abramov_OY
@@ -665,6 +665,11 @@ odp:Dongyan_S
     a foaf:Person ;
     foaf:name "Shi Dongyan" .
 
+odp:Dou_EX
+    a foaf:Person ;
+    foaf:affil "Peking, PR China"@en ;
+    foaf:name "Dou Erxiang" .
+
 odp:Doubrov_VY
     a foaf:Person ;
     foaf:name "V.Yu. Doubrov" .
@@ -709,7 +714,7 @@ odp:Echaabi_J
 
 odp:Eckardt_O
     a foaf:Person ;
-    foaf:affil "Wilo, Dortmund, Germany" ;
+    foaf:affil "Wilo SE, Sparkling Spring GmbH, Germany" ;
     foaf:name "Olga Eckardt" .
 
 odp:Eidloth_R
@@ -922,6 +927,11 @@ odp:Gasanov_AI
 odp:Gawdzinska_K
     a foaf:Person ;
     foaf:name "Katarzyna Gawdzińska" .
+
+odp:Gekeler_M
+    a foaf:Person ;
+    foaf:affil "ZMI Strategy Consulting, Germany" ;
+    foaf:name "Moritz Gekeler" .
 
 odp:Gerasimov_OM
     a foaf:Person ;
@@ -1208,6 +1218,7 @@ odp:Hunt_M
 
 odp:Iarossi_M
     a foaf:Person ;
+    foaf:affil "Redshift Consulting, Australia" ;
     foaf:name "Michael Iarossi" .
 
 odp:Ikovenko_SA
@@ -1684,6 +1695,11 @@ odp:Kulakov_KE
     foaf:fullname "Кулаков К.Э."@ru ;
     foaf:name "K.E. Kulakov" .
 
+odp:Kulathuramaiyer_N
+    a foaf:Person ;
+    foaf:affil "Sarawak, Malaysia" ;
+    foaf:name "Narayanan Kulathuramaiyer" .
+
 odp:Kurgi_EE
     a foaf:Person ;
     foaf:affil "Russia" ;
@@ -1750,6 +1766,11 @@ odp:Lasota_M
     a foaf:Person ;
     foaf:affil "Novismo, Poland" ;
     foaf:name "Maciej Lasota" .
+
+odp:Laue_R
+    a foaf:Person ;
+    foaf:affil "Zwickau, Germany" ;
+    foaf:name "Ralf Laue" .
 
 odp:Lautenschlaeger_S
     a foaf:Person ;
@@ -1887,6 +1908,11 @@ odp:Lin_A
     a foaf:Person ;
     foaf:name "Alp Lin" .
 
+odp:Lin_SJ
+    a foaf:Person ;
+    foaf:affil "Taiwan, China"@en ;
+    foaf:name "Show-Jane Lin" .
+
 odp:Lin_Y
     a foaf:Person ;
     foaf:affil "Peoples Republic of China" ;
@@ -1894,7 +1920,7 @@ odp:Lin_Y
 
 odp:Lin_YJ
     a foaf:Person ;
-    foaf:affil "Minghsin University, Professor, TRIZ trainer"@en ;
+    foaf:affil "Minghsin University, Taiwan, China"@en ;
     foaf:name "Youn-Jan Lin" .
 
 odp:Linkova_NP
@@ -1995,6 +2021,11 @@ odp:Maccioni_L
     rdfs:seeAlso <http://orcid.org/0000-0002-2368-6821> ;
     foaf:affil "Bolzano, Italy" ;
     foaf:name "Lorenzo Maccioni" .
+
+odp:Maddalena_R
+    a foaf:Person ;
+    foaf:affil "ZMI Strategy Consulting, Germany" ;
+    foaf:name "Roberta Maddalena" .
 
 odp:Magidenko_VY
     a foaf:Person ;
@@ -2209,6 +2240,11 @@ odp:Mogilina_MN
     foaf:affil "Russia" ;
     foaf:fullname "М.Н. Могилина"@ru ;
     foaf:name "M.N. Mogilina" .
+
+odp:Mohd-Nor_R
+    a foaf:Person ;
+    foaf:affil "Sarawak, Malaysia" ;
+    foaf:name "Rohaya Mohd-Nor" .
 
 odp:Mosman_P
     a foaf:Person ;
@@ -2466,6 +2502,11 @@ odp:Petiy_II
 odp:Petrov_D
     a foaf:Person ;
     foaf:name "Dmitrij Petrov" .
+
+odp:Petrov_De
+    a foaf:Person ;
+    foaf:affil "Kazakhstan" ;
+    foaf:name "Denys Petrov" .
 
 odp:Petrov_PA
     a foaf:Person ;
@@ -2828,6 +2869,11 @@ odp:Schollmeyer_J
     foaf:affil "Second Negation, Berlin, Germany" ;
     foaf:name "Justus Schollmeyer" .
 
+odp:Schueler-Hainsch_E
+    a foaf:Person ;
+    foaf:affil "ZMI Strategy Consulting, Germany" ;
+    foaf:name "Eckhard Schueler-Hainsch" .
+
 odp:Schusterman_MN
     a foaf:Person ;
     foaf:affil "Norilsk, Russia" ;
@@ -3178,6 +3224,11 @@ odp:Stupniker_YI
     foaf:fullname "Ступникер Юрий Иосифович"@ru ;
     foaf:name "Yuri Stupniker" .
 
+odp:Suaidi_MK
+    a foaf:Person ;
+    foaf:affil "Sarawak, Malaysia" ;
+    foaf:name "Mohamad Kadim Suaidi" .
+
 odp:Sun_JG
     a foaf:Person ;
     foaf:affil "Tianjin, China" ;
@@ -3439,6 +3490,11 @@ odp:Wang_T
     foaf:affil "Harbin, PR China" ;
     foaf:name "Wang Tian" .
 
+odp:Wang_WF
+    a foaf:Person ;
+    foaf:affil "Tianjin, PR China"@en ;
+    foaf:name "Wang Wenfu" .
+
 odp:Wang_WL
     a foaf:Person ;
     foaf:name "Wenlong Wang" .
@@ -3670,6 +3726,11 @@ odp:Zhang_P
     a foaf:Person ;
     foaf:name "Peng Zhang" .
 
+odp:Zhang_T
+    a foaf:Person ;
+    foaf:affil "Chongqing, PR China"@en ;
+    foaf:name "Zhang Ting" .
+
 odp:Zhang_W
     a foaf:Person ;
     foaf:affil "Tsinghua University, China" ;
@@ -3728,6 +3789,11 @@ odp:Zhong_Y
     foaf:affil "Northeastern University, Shenyang, PR China" ;
     foaf:name "Zhong Yingb" .
 
+odp:Zhou_ZL
+    a foaf:Person ;
+    foaf:affil "Hubei, PR China"@en ;
+    foaf:name "Zhou Zaolin" .
+
 odp:Zhuckov_RF
     a foaf:Person ;
     foaf:name "R.F. Zhuckov" .
@@ -3769,4 +3835,9 @@ odp:Zusman_AV
     a foaf:Person ;
     foaf:fullname "Зусман Алла Вениаминовна"@ru ;
     foaf:name "Alla V. Zusman" .
+
+odp:deSaeger_I
+    a foaf:Person ;
+    foaf:affil "P41, Belgium"@en ;
+    foaf:name "Ives de Saeger" .
 
