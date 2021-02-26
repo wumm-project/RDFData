@@ -428,15 +428,15 @@ tc:ModificationOfReceiver
     a skos:Concept, od:AdditionalConcept .
 
 tc:fortifyWorkspace
-    od:subConceptOf tc:ModificationOfReceiver ;
+    od:subConceptOf tc:ModificationOfReceiver, tc:IncreaseUsefulFlow, tc:ReduceHarmfulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:improveAdmission
-    od:subConceptOf tc:ModificationOfReceiver ;
+    od:subConceptOf tc:ModificationOfReceiver, tc:IncreaseUsefulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:impairAdmission
-    od:subConceptOf tc:ModificationOfReceiver ;
+    od:subConceptOf tc:ModificationOfReceiver, tc:ReduceHarmfulFlow ;
     a skos:Concept, od:AdditionalConcept .
 ##
 
@@ -447,68 +447,68 @@ tc:ModificationOfSource
 
 ## affect harmful flow  by upgrading source##
 tc:impairRelativeCharacteristica
-    od:subConceptOf tc:ModificationOfSource ;
+    od:subConceptOf tc:ModificationOfSource, tc:ReduceHarmfulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:avoidFlow
-    od:subConceptOf tc:ModificationOfSource ;
+    od:subConceptOf tc:ModificationOfSource, tc:ReduceHarmfulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:distributeFlowEquallyInTime
-    od:subConceptOf tc:ModificationOfSource ;
+    od:subConceptOf tc:ModificationOfSource, tc:ReduceHarmfulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:turnHarmfulFlowIntoUsefulFlow
-    od:subConceptOf tc:ModificationOfSource ;
+    od:subConceptOf tc:ModificationOfSource, tc:ReduceHarmfulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:compensateWithSecondFlow
-    od:subConceptOf tc:ModificationOfSource ;
+    od:subConceptOf tc:ModificationOfSource, tc:ReduceHarmfulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:overlayWithAntiFlow
-    od:subConceptOf tc:ModificationOfSource ;
+    od:subConceptOf tc:ModificationOfSource, tc:ReduceHarmfulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:annihilateWithSelf
-    od:subConceptOf tc:ModificationOfSource ;
+    od:subConceptOf tc:ModificationOfSource, tc:ReduceHarmfulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:avoidResonance
-    od:subConceptOf tc:ModificationOfSource ;
+    od:subConceptOf tc:ModificationOfSource, tc:ReduceHarmfulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 ## affect useful flow  by upgrading source##
 tc:improveRelativeCharacteristica
-    od:subConceptOf tc:ModificationOfSource ;
+    od:subConceptOf tc:ModificationOfSource, tc:IncreaseUsefulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:ModulationOfFlow
-    od:subConceptOf tc:ModificationOfSource ;
+    od:subConceptOf tc:ModificationOfSource, tc:IncreaseUsefulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:addUsefulProperties
-    od:subConceptOf tc:ModificationOfSource ;
+    od:subConceptOf tc:ModificationOfSource, tc:IncreaseUsefulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:exploitGradient
-    od:subConceptOf tc:ModificationOfSource ;
+    od:subConceptOf tc:ModificationOfSource, tc:IncreaseUsefulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:reuseFlow
-    od:subConceptOf tc:ModificationOfSource ;
+    od:subConceptOf tc:ModificationOfSource, tc:IncreaseUsefulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:useAdditionalFlow
-    od:subConceptOf tc:ModificationOfSource ;
+    od:subConceptOf tc:ModificationOfSource, tc:IncreaseUsefulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:exploitResonance
-    od:subConceptOf tc:ModificationOfSource ;
+    od:subConceptOf tc:ModificationOfSource, tc:IncreaseUsefulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:reduceIntensity
-    od:subConceptOf tc:ModificationOfSource ;
+    od:subConceptOf tc:ModificationOfSource, tc:IncreaseUsefulFlow ;
     a skos:Concept, od:AdditionalConcept .
 ##
 
@@ -519,59 +519,59 @@ tc:ModificationOfChannel
 
 ## affect useful flow by upgrading channel##
 tc:removeBottleNeck
-    od:subConceptOf tc:ModificationOfChannel ;
+    od:subConceptOf tc:ModificationOfChannel, tc:IncreaseUsefulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:removeDeadZone
-    od:subConceptOf tc:ModificationOfChannel ;
+    od:subConceptOf tc:ModificationOfChannel, tc:IncreaseUsefulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:removeGreyZone
-    od:subConceptOf tc:ModificationOfChannel ;
+    od:subConceptOf tc:ModificationOfChannel, tc:IncreaseUsefulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:changeFlowMedium
-    od:subConceptOf tc:ModificationOfChannel ;
+    od:subConceptOf tc:ModificationOfChannel, tc:IncreaseUsefulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:outsourceFlow
-    od:subConceptOf tc:ModificationOfChannel ;
+    od:subConceptOf tc:ModificationOfChannel, tc:IncreaseUsefulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:reduceAmountOfTransformations
-    od:subConceptOf tc:ModificationOfChannel ;
+    od:subConceptOf tc:ModificationOfChannel, tc:IncreaseUsefulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:improvePermeability
-    od:subConceptOf tc:ModificationOfChannel ;
+    od:subConceptOf tc:ModificationOfChannel, tc:IncreaseUsefulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:reduceLength
-    od:subConceptOf tc:ModificationOfChannel ;
+    od:subConceptOf tc:ModificationOfChannel, tc:IncreaseUsefulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:combineUsefulFlows
-    od:subConceptOf tc:ModificationOfChannel ;
+    od:subConceptOf tc:ModificationOfChannel, tc:IncreaseUsefulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 ## affect harmful flow by upgrading channel##
 tc:channelFlow
-    od:subConceptOf tc:ModificationOfChannel ;
+    od:subConceptOf tc:ModificationOfChannel, tc:ReduceHarmfulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:implementBottleNeck
-    od:subConceptOf tc:ModificationOfChannel ;
+    od:subConceptOf tc:ModificationOfChannel, tc:ReduceHarmfulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:implementDeadZone
-    od:subConceptOf tc:ModificationOfChannel ;
+    od:subConceptOf tc:ModificationOfChannel, tc:ReduceHarmfulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:reducePermeability
-    od:subConceptOf tc:ModificationOfChannel ;
+    od:subConceptOf tc:ModificationOfChannel, tc:ReduceHarmfulFlow ;
     a skos:Concept, od:AdditionalConcept .
 
 tc:extendLength
-    od:subConceptOf tc:ModificationOfChannel ;
+    od:subConceptOf tc:ModificationOfChannel, tc:ReduceHarmfulFlow ;
     a skos:Concept, od:AdditionalConcept .
 ##
