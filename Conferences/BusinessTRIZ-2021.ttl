@@ -1,0 +1,100 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix odp: <http://opendiscovery.org/rdf/Person/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix : <http://opendiscovery.org/rdf/Conferences/BusinessTRIZ-2021/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:General
+    a swc:ConferenceEvent ;
+    rdfs:comment "Presentations of the Business TRIZ Online Winter 2021" ;
+    rdfs:label "Business TRIZ Online Winter 2021" ;
+    ical:summary "The \"Business TRIZ Online Winter 2021\" conference invites anyone interested in learning and what current state of the art of Business TRIZ is, how to apply it, and to discuss challenges and prospects for both business and management TRIZ and the Business TRIZ community."@en;
+    ical:description """One of the key skills of management professions in today's world is the ability to solve difficult, non-standard problems. The competitive environment and demands of the 21st century society require acting quickly. The need to effectively find new non-standard solutions, as well as to create new successful innovative business systems and business products are becoming the highest priority requirements. Most of such tasks require extraordinary, creative thinking.
+
+Technology and tools of systematic innovative thinking based on TRIZ - Theory of Inventive Problem Solving - are now actively implemented in various organizations all over the world. Originally developed to support technical innovation and used by many global companies, TRIZ is used in other areas as well. The term "Business TRIZ" is now used for TRIZ methods and tools created and adapted to support the search for innovative business and management solutions.
+
+The "BUSINESS TRIZ ONLINE WINTER 2021" conference invites anyone interested in learning and what current state of the art of Business TRIZ is, how to apply it, and to discuss challenges and prospects for both business and management TRIZ and the Business TRIZ community."""@en ;
+    ical:dtend "2021-02-27"^^xsd:date ;
+    ical:dtstart "2021-02-26"^^xsd:date ;
+    ical:location "Online" ;
+    ical:url <http://www.biztriz.net/36-conference-business-triz-online-winter-2021.html> .
+
+:Talk_101
+    dcterms:creator odp:Souchkov_VV ;
+    dcterms:title "TRIZ for Business and Management Training and Certification Curricula"@en ;
+    a od:Talk .
+
+:Talk_102
+    dcterms:creator odp:Iarossi_M ;
+    dcterms:title "Rapid Prototyping for Business TRIZ: Accelerating TRIZ solutions using Agile"@en ;
+    a od:Talk .
+
+:Talk_103
+    dcterms:creator odp:Kozhemyako_A ;
+    dcterms:title "Getting started on a business problem"@en ;
+    a od:Talk .
+
+:Talk_104
+    dcterms:creator odp:Mohd-Nor_R, odp:Kulathuramaiyer_N, odp:Suaidi_MK ;
+    dcterms:title "Constructing an ecosystem for a sustainable innovation culture using TRIZ tools"@en ;
+    a od:Talk .
+
+:Talk_105
+    dcterms:creator odp:Schueler-Hainsch_E, odp:Maddalena_R, odp:Gekeler_M ;
+    dcterms:title "Game of Conflicts – A playful way to analyze contradictions in TRIZ"@en ;
+    a od:Talk .
+
+:Talk_106
+    dcterms:creator odp:Eckardt_O ;
+    dcterms:title "Remote work challenges"@en ;
+    a od:Talk .
+
+:Talk_107
+    dcterms:creator odp:Petrov_VM, odp:Petrov_De ;
+    dcterms:title "Analysis and practice of solving business problems"@en ;
+    a od:Talk .
+
+:Talk_108
+    dcterms:creator odp:Laue_R ;
+    dcterms:title "The Power of the Ideal Final Result for Identifying Process Optimization Potential"@en ;
+    a od:Talk .
+
+:Talk_109
+    dcterms:creator odp:Lin_YJ, odp:Lin_SJ ;
+    dcterms:title "Resolving the Dilemma of Monitors in Kindergartens by Business TRIZ"@en ;
+    a od:Talk .
+
+:Talk_110
+    dcterms:creator odp:Dou_EX, odp:Zhou_ZL ;
+    dcterms:title "Application of \"TRIZ Field and TIF Field\" Method in Financial Innovation"@en ;
+    a od:Talk .
+
+:Talk_111
+    dcterms:creator odp:Han_B, odp:Wang_WF ;
+    dcterms:title "Solving the problem of construction mode for traditional industry park in the large cities"@en ;
+    a od:Talk .
+
+:Talk_112
+    dcterms:creator odp:Lin_YJ, odp:Lin_SJ ;
+    dcterms:title "Using Business TRIZ Method to Improve the Speed of Checkout Process of Convenience Stores"@en ;
+    a od:Talk .
+
+:Talk_113
+    dcterms:creator odp:Zhang_T ;
+    dcterms:title "How to use TRIZ on information flow management"@en ;
+    a od:Talk .
+
+:Talk_114
+    dcterms:creator odp:deSaeger_I ;
+    dcterms:title "Smart Cases for Business TRIZ"@en ;
+    a od:Talk .
+
+:Talk_115
+    dcterms:creator odp:Souchkov_VV ;
+    dcterms:title "Further development of Business TRIZ"@en ;
+    a od:Talk .

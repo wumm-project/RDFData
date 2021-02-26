@@ -15,6 +15,16 @@
     rdfs:label "TSN: Past TRIZ Conferences" ;
     owl:imports <http://opendiscovery.org/rdf/ConferenceSeries/>, <http://opendiscovery.org/rdf/People/> .
 
+<http://opendiscovery.org/rdf/Conferences/BusinessTRIZ-2021/> 
+    a swc:ConferenceEvent ;
+    rdfs:label "Business TRIZ Online Winter 2021" ;
+    ical:summary "The \"Business TRIZ Online Winter 2021\" conference invites anyone interested in learning and what current state of the art of Business TRIZ is, how to apply it, and to discuss challenges and prospects for both business and management TRIZ and the Business TRIZ community."@en;
+    ical:dtend "2021-02-27"^^xsd:date ;
+    ical:dtstart "2021-02-26"^^xsd:date ;
+    ical:location "Online" ;
+    od:detailedReport <http://wumm.uni-leipzig.de/rdf/BusinessTRIZ-2021.rdf> ;
+    ical:url <http://www.biztriz.net/36-conference-business-triz-online-winter-2021.html> .
+
 <http://opendiscovery.org/rdf/Conferences/MTC-2020/>
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/MTC> ;
@@ -80,7 +90,7 @@ The Conference aims at linking industrial companies, research centers, education
     od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZ-Summit-2020.rdf> ;
     ical:url <https://triz-summit.ru/confer/tds-2020/> .
 
-<http://opendiscovery.org/rdf/Conferences/Business-TRIZ-2020/>
+<http://opendiscovery.org/rdf/Conferences/BusinessTRIZ-2020/>
     a swc:ConferenceEvent ;
     rdfs:label "Business TRIZ Online 2020" ;
     ical:summary "The conference \"Business TRIZ Online 2020\" will be held on July 23-24, 2020. This year the conference will be limited to Russian language only to encourage participation of Russian speaking TRIZ community and avoid difficulties that may emerge due to online translation issues. "@en;
