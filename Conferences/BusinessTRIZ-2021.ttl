@@ -41,11 +41,13 @@ The "BUSINESS TRIZ ONLINE WINTER 2021" conference invites anyone interested in l
 
 :Talk_104
     dcterms:creator odp:Mohd-Nor_R, odp:Kulathuramaiyer_N, odp:Suaidi_MK ;
+    od:presentedBy odp:Mohd-Nor_R ;
     dcterms:title "Constructing an ecosystem for a sustainable innovation culture using TRIZ tools"@en ;
     a od:Talk .
 
 :Talk_105
     dcterms:creator odp:Schueler-Hainsch_E, odp:Maddalena_R, odp:Gekeler_M ;
+    od:presentedBy odp:Schueler-Hainsch_E, odp:Maddalena_R, odp:Gekeler_M ;
     dcterms:title "Game of Conflicts – A playful way to analyze contradictions in TRIZ"@en ;
     a od:Talk .
 
@@ -66,12 +68,13 @@ The "BUSINESS TRIZ ONLINE WINTER 2021" conference invites anyone interested in l
 
 :Talk_109
     dcterms:creator odp:Lin_YJ, odp:Lin_SJ ;
+    od:presentedBy odp:Lin_SJ ;
     dcterms:title "Resolving the Dilemma of Monitors in Kindergartens by Business TRIZ"@en ;
     a od:Talk .
 
 :Talk_110
-    dcterms:creator odp:Dou_EX, odp:Zhou_ZL ;
-    dcterms:title "Application of \"TRIZ Field and TIF Field\" Method in Financial Innovation"@en ;
+    dcterms:creator odp:Souchkov_VV ;
+    dcterms:title "TRIZ in Financial Industry"@en ;
     a od:Talk .
 
 :Talk_111

@@ -1910,17 +1910,17 @@ odp:Lin_A
 
 odp:Lin_SJ
     a foaf:Person ;
-    foaf:affil "Taiwan, China"@en ;
+    foaf:affil "Taipeh, Taiwan"@en ;
     foaf:name "Show-Jane Lin" .
 
 odp:Lin_Y
     a foaf:Person ;
-    foaf:affil "Peoples Republic of China" ;
+    foaf:affil "PR China" ;
     foaf:name "Yue Lin" .
 
 odp:Lin_YJ
     a foaf:Person ;
-    foaf:affil "Minghsin University, Taiwan, China"@en ;
+    foaf:affil "Ming-Hsin University, Taiwan"@en ;
     foaf:name "Youn-Jan Lin" .
 
 odp:Linkova_NP
