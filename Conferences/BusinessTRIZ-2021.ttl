@@ -79,11 +79,13 @@ The "BUSINESS TRIZ ONLINE WINTER 2021" conference invites anyone interested in l
 
 :Talk_111
     dcterms:creator odp:Han_B, odp:Wang_WF ;
+    od:presentedBy odp:Han_B ;
     dcterms:title "Solving the problem of construction mode for traditional industry park in the large cities"@en ;
     a od:Talk .
 
 :Talk_112
     dcterms:creator odp:Lin_YJ, odp:Lin_SJ ;
+    od:presentedBy odp:Lin_YJ ;
     dcterms:title "Using Business TRIZ Method to Improve the Speed of Checkout Process of Convenience Stores"@en ;
     a od:Talk .
 

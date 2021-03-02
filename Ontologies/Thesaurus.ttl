@@ -8,7 +8,7 @@
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
 @prefix tc: <http://opendiscovery.org/rdf/Concept/> .
 
-<http://opendiscovery.org/rdf/Thesaurus/>
+<http://opendiscovery.org/rdf/Ontologies/Thesaurus/>
     cc:attributionName "The Open Discovery Project" ;
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;

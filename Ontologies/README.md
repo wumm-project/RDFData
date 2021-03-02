@@ -16,11 +16,17 @@ directory.
 
 * Cavallucci-2011.ttl - a first try to restore the ontology proposed by the
   IDM school (Cavallucci, Zanni-Merk et al.) already in 2007-2015.
-* Concepts.ttl - A first RDF version of the ontology proposed at
+* OntoCards.ttl - The tree of OntoCards from the TRIZ Ontology Project
+* TopLevel.ttl - A first RDF version of the ontology proposed at
   <https://r1.nubex.ru/s828-c8b/ca459bfe73_fit-in~160x160__f3107_7e>
   * Yet to be aligned with the Thesaurus.
-* OntoCards.ttl - The tree of OntoCards from the TRIZ Ontology Project
-* VDI-Glossary.ttl - A glossary extracted from the German VDI norm
-  * Yet to  be aligned with the Thesaurus.
+
+### Glossaries and Thesaurus
+
+* Lippert-Glossary.ttl - A small glossary proposed by (Lippert/Cloutier 2019) 
+* Souchkov-Glossary.ttl - Souchkov's glossary v. 1.2
 * Thesaurus.ttl - Terminology (102 terms) in 17 languages, extracted from
   <https://www.altshuller.ru/thesaur/thesaur.asp>.
+* TOP-Glossary.ttl - The 100 terms glossary of the TRIZ Ontology Project
+  <https://triz-summit.ru/onto_triz/100/> 
+* VDI-Glossary.ttl - The glossary in the German VDI norm

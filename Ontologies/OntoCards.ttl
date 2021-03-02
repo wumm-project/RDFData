@@ -7,7 +7,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
 
-<http://opendiscovery.org/rdf/OntoCards/>
+<http://opendiscovery.org/rdf/Ontologies/OntoCards/>
     cc:attributionName "The Open Discovery Project" ;
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
@@ -17,258 +17,273 @@
     "2021-01-25 graebe: tc:OntoCard changed to od:OntoCard";
     rdfs:label "TRIZ Ontology Project - OntoCards" .
 
-<http://opendiscovery.org/rdf/Concept/307080/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/307080/> ;
+<http://opendiscovery.org/rdf/Concept/TRIZ>
+    od:hasWebPage <https://triz-summit.ru/onto_triz> ;
     a od:OntoCard, skos:Concept ;
+    skos:note """Теория решения изобретательских задач (ТРИЗ) – это область знаний о законах и тенденциях развития технических систем, методах и инструментах прогнозирования, выявления, анализа и решения противоречий развития систем. В основе ТРИЗ лежат законы диалектики, используется эволюционный, системный, функциональный, модельный,  и другие фундаментальные научные подходы. Модель ТРИЗ включает в себя связи моделей изобретательских задач с моделями их решения, а также модели систем с моделями их развития. В ТРИЗ выявляются закономерности и методы формирования и развития изобретательского мышления, методы развития творческого воображения. Методы и инструменты ТРИЗ применимы для решения изобретательских задач не только в технике, но и для нетехнических систем. ТРИЗ используется на практике для развития творческой личности, решения изобретательских задач в различных областях, в инновационном предпринимательстве, при решении задач на предприятиях."""@ru ; 
+    skos:prefLabel "Ontologie der TRIZ"@de, "Ontology of TRIZ"@en, "Онтология \"ТРИЗ\""@ru .
+
+<http://opendiscovery.org/rdf/Concept/307080>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/307080> ;
+    a od:OntoCard, skos:Concept ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/TRIZ> ;
     skos:prefLabel "Ontologie der Spezialisierung in der TRIZ"@de, "Ontology of Specialization in TRIZ"@en, "Онтология \"Специализация в ТРИЗ\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/307080/Skills/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/307080/Skills/> ;
+<http://opendiscovery.org/rdf/Concept/307080/Skills>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/307080/Skills> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/307080/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/307080> ;
     skos:prefLabel "Ontologie der Fähigkeiten und Kompetenzen"@de, "Ontology of Skills and Competencies"@en, "Онтология \"Навыки и компетенции\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/307080/cert/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/307080/cert/> ;
+<http://opendiscovery.org/rdf/Concept/307080/cert>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/307080/cert> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/307080/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/307080> ;
     skos:prefLabel "Ontologie der Zertifizierungssysteme"@de, "Ontology of the Certification Systems"@en, "Онтология \"Системы сертификации\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/307080/comp/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/307080/comp/> ;
+<http://opendiscovery.org/rdf/Concept/307080/comp>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/307080/comp> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/307080/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/307080> ;
     skos:prefLabel "Ontologie der Berufsverbände und Unternehmen"@de, "Ontology  of Professional associations and companies "@en, "Онтология \"Профессиональные объединения и компании\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/307080/study/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/307080/study/> ;
+<http://opendiscovery.org/rdf/Concept/307080/study>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/307080/study> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/307080/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/307080> ;
     skos:prefLabel "Ontologie TRIZ-Training"@de, "Ontology of TRIZ trainings "@en, "Онтология \"Обучение ТРИЗ\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/Areas/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/Areas/> ;
+<http://opendiscovery.org/rdf/Concept/Areas>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/Areas> ;
     a od:OntoCard, skos:Concept ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/TRIZ> ;
     skos:prefLabel "Ontologie der TRIZ-Anwendungsbereiche"@de, "Ontology  of TRIZ Application Areas "@en, "Онтология \"Области применения ТРИЗ\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/Areas/Subject/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/Areas/Subject/> ;
+<http://opendiscovery.org/rdf/Concept/Areas/Subject>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/Areas/Subject> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/Areas/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/Areas> ;
     skos:prefLabel "Ontologie der Themenbereiche von TRIZ-Anwendungen"@de, "Ontology of Subject areas of TRIZ applications"@en, "Онтология \"Предметные области применения ТРИЗ\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/Areas/pro/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/Areas/pro/> ;
+<http://opendiscovery.org/rdf/Concept/Areas/pro>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/Areas/pro> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/Areas/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/Areas> ;
     skos:prefLabel "Ontologie der Projektaktivitäten basierend auf TRIZ"@de, "Ontology of Project activities based on TRIZ"@en, "Онтология \"Проектная деятельность на основе ТРИЗ\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/history/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/history/> ;
+<http://opendiscovery.org/rdf/Concept/history>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/history> ;
     a od:OntoCard, skos:Concept ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/TRIZ> ;
     skos:prefLabel "Ontologie der Geschichte der TRIZ"@de, "Ontology of the History of TRIZ"@en, "Онтология \"История ТРИЗ\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/history/authors/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/history/authors/> ;
+<http://opendiscovery.org/rdf/Concept/history/authors>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/history/authors> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/history/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/history> ;
     skos:prefLabel "Ontology of the TRIZ Founders "@en, "Ontologie der TRIZ Gründer"@de, "Онтология \"Основоположники ТРИЗ\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/history/schools/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/history/schools/> ;
+<http://opendiscovery.org/rdf/Concept/history/schools>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/history/schools> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/history/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/history> ;
     skos:prefLabel "Ontologie der TRIZ Schulen"@de, "Ontology of TRIZ Schools "@en, "Онтологии \"Школы ТРИЗ\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/law/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/law/> ;
+<http://opendiscovery.org/rdf/Concept/law>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/law> ;
     a od:OntoCard, skos:Concept ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/TRIZ> ;
     skos:prefLabel "Ontologie der Gesetze der Systementwicklung"@de, "Ontology of Laws of systems evolution"@en, "Онтология \"Законы развития систем\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/law/drift/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/law/drift/> ;
+<http://opendiscovery.org/rdf/Concept/law/drift>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/law/drift> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/law/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/law> ;
     skos:prefLabel "Ontologie der Linien (Tendenzen) der allgemeinen Systementwicklung"@de, "Ontology of Lines (tendencies) of general systems development"@en, "Онтология \"Линии (тенденции) развития систем\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/law/interaction/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/law/interaction/> ;
+<http://opendiscovery.org/rdf/Concept/law/interaction>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/law/interaction> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/law/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/law> ;
     skos:prefLabel "Ontologie der Beziehungen von Gesetzen und Trends zu TRIZ-Tools"@de, "Ontology of Relationship of laws and trends with TRIZ tools"@en, "Онтология \"Связь законов и тенденций с инструментами ТРИЗ\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/law/trend/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/law/trend/> ;
+<http://opendiscovery.org/rdf/Concept/law/trend>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/law/trend> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/law/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/law> ;
     skos:prefLabel "Ontologie der Linien (Tendenzen) der Entwicklung technischer Systeme"@de, "Ontology of Lines (tendencies) of technical systems development"@en, "Онтология \"Линии (тенденции) развития технических систем\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/law/zrs/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/law/zrs/> ;
+<http://opendiscovery.org/rdf/Concept/law/zrs>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/law/zrs> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/law/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/law> ;
     skos:prefLabel "Ontologie der Gesetze der Entwicklung allgemeiner Systeme (ZRS) "@de, "Ontology of Laws of development of genral systems (ZRS)"@en, "Онтология \"Законы развития систем (ЗРС)\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/law/zrts/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/law/zrts/> ;
+<http://opendiscovery.org/rdf/Concept/law/zrts>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/law/zrts> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/law/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/law> ;
     skos:prefLabel "Ontologie der Gesetze der Evolution technischer Systeme (ZRTS)"@de, "Ontology of Laws of Engineering Systems Evolution (ZRTS) "@en, "Онтология \"Законы развития технических систем (ЗРТС)\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/mod/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/mod/> ;
+<http://opendiscovery.org/rdf/Concept/mod>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/mod> ;
     a od:OntoCard, skos:Concept ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/TRIZ> ;
     skos:prefLabel "TRIZ-Modell-Ontologie"@de, "TRIZ Model Ontology"@en, "Онтология \"Модель ТРИЗ\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/mod/metod/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/mod/metod/> ;
+<http://opendiscovery.org/rdf/Concept/mod/metod>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/mod/metod> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/mod/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/mod> ;
     skos:prefLabel "Ontologie der Methoden der TRIZ"@de, "Ontology of Methods in TRIZ"@en, "Онтология \"Методы в ТРИЗ\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/mod/ob/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/mod/ob/> ;
+<http://opendiscovery.org/rdf/Concept/mod/ob>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/mod/ob> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/mod/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/mod> ;
     skos:prefLabel "Ontologie der TRIZ-Modellobjekte"@de, "Ontology of TRIZ model objects"@en, "Онтология \"Объекты модели ТРИЗ\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/proj/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/proj/> ;
+<http://opendiscovery.org/rdf/Concept/proj>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/proj> ;
     a od:OntoCard, skos:Concept ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/TRIZ> ;
     skos:prefLabel "About the TRIZ Ontology project"@en, "Über das TRIZ Ontologie-Projekt"@de, "О проекте Онтология ТРИЗ"@ru .
 
-<http://opendiscovery.org/rdf/Concept/rtv/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/rtv/> ;
+<http://opendiscovery.org/rdf/Concept/rtv>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/rtv> ;
     a od:OntoCard, skos:Concept ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/TRIZ> ;
     skos:prefLabel "Ontologie der Instrumente zur Entwicklung kreativen Vorstellungsvermögens (RTV)"@de, "Ontology of Instruments for the Development of Creative Imagination (RTV) "@en, "Онтология \"Инструменты Развития Творческого Воображения (РТВ)\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/rtv/NFLklass/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/rtv/NFLklass/> ;
+<http://opendiscovery.org/rdf/Concept/rtv/NFLklass>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/rtv/NFLklass> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/rtv/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/rtv> ;
     skos:prefLabel "Ontologie der Klassifizierung und Bewertung von Ideen der wissenschaftlichen Fantastik (NF)"@de, "Ontology of Classification and evaluation of ideas in science based fantasy (NF)"@en, "Онтология \"Классификация и оценка НФ идей\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/rtv/Prognoz/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/rtv/Prognoz/> ;
+<http://opendiscovery.org/rdf/Concept/rtv/Prognoz>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/rtv/Prognoz> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/rtv/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/rtv> ;
     skos:prefLabel "Ontologie der Prognose und Erstellung neuer Ideen basierend auf NF"@de, "Ontology of Forecasting and creation of new ideas based on NF"@en, "Онтология \"Прогнозирование и создание новых идей на основе НФ\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/rtv/courses/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/rtv/courses/> ;
+<http://opendiscovery.org/rdf/Concept/rtv/courses>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/rtv/courses> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/rtv/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/rtv> ;
     skos:prefLabel "Ontologie der RTV Kurse"@de, "Ontology of RTV courses"@en, "Онтология \"Курсы РТВ\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/rtv/metodTRIZ/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/rtv/metodTRIZ/> ;
+<http://opendiscovery.org/rdf/Concept/rtv/metodTRIZ>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/rtv/metodTRIZ> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/rtv/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/rtv> ;
     skos:prefLabel "Ontologie der Methoden zur Entwicklung kreativer Vorstellungskraft basierend auf TRIZ "@de, "Ontology of Methods for the development of creative imagination based on TRIZ"@en, "Онтология \"Методы развития творческого воображения на основе ТРИЗ\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/rtv/metodpsico/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/rtv/metodpsico/> ;
+<http://opendiscovery.org/rdf/Concept/rtv/metodpsico>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/rtv/metodpsico> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/rtv/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/rtv> ;
     skos:prefLabel "Ontologie der Methoden der psychologischen Aktivierung des erfinderischen Denkens"@de, "Ontology of Methods of psychological activation of inventive thinking"@en, "Онтология \"Методы психологической активизации изобретательского мышления\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/rtv/psychologicalbases/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/rtv/psychologicalbases/> ;
+<http://opendiscovery.org/rdf/Concept/rtv/psychologicalbases>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/rtv/psychologicalbases> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/rtv/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/rtv> ;
     skos:prefLabel "Ontologie der Psychologischen Grundlagen der Entwicklung kreativer Vorstellungskraft"@de, "Ontology of Psychological foundations of the development of creative imagination"@en, "Онтология \"Психологические основы развития творческого воображения\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/science/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/science/> ;
+<http://opendiscovery.org/rdf/Concept/science>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/science> ;
     a od:OntoCard, skos:Concept ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/TRIZ> ;
     skos:prefLabel "Ontologie der Wissenschaftlichen Grundlagen der TRIZ"@de, "Ontology of Scientific Foundations of TRIZ"@en, "Онтология \"Научные основы ТРИЗ\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/science/Function_approach/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/science/Function_approach/> ;
+<http://opendiscovery.org/rdf/Concept/science/Function_approach>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/science/Function_approach> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/science/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/science> ;
     skos:prefLabel "Ontologie des Funktionsansatz"@de, "Ontology of the Functional approach"@en, "Онтология \"Функциональный подход\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/science/Psychology/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/science/Psychology/> ;
+<http://opendiscovery.org/rdf/Concept/science/Psychology>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/science/Psychology> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/science/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/science> ;
     skos:prefLabel "Ontologie der Psychologie des kreativen Denkens"@de, "Ontology of Psychology of Creative Thinking"@en, "Онтология \"Психология творческого мышления\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/science/TRIZ_ap/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/science/TRIZ_ap/> ;
+<http://opendiscovery.org/rdf/Concept/science/TRIZ_ap>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/science/TRIZ_ap> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/science/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/science> ;
     skos:prefLabel "Ontologie der TRIZ Ansätze"@de, "Ontology of TRIZ Approaches"@en, "Онтология \"Подходы ТРИЗ\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/science/dial/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/science/dial/> ;
+<http://opendiscovery.org/rdf/Concept/science/dial>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/science/dial> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/science/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/science> ;
     skos:prefLabel "Dialektik-Ontologie"@de, "Ontology of Dialectics "@en, "Онтология \"Диалектика\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/science/dial/dial/>
+<http://opendiscovery.org/rdf/Concept/science/dial/dial>
     od:hasWebPage <https://triz-summit.ru/onto_triz/science/dial/dial> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/science/dial/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/science/dial> ;
     skos:prefLabel "Ontologie des Dialektischen Widerspruchs"@de, "Ontology of Dialectical contradiction"@en, "Онтология \"Диалектическое противоречие\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/science/evo/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/science/evo/> ;
+<http://opendiscovery.org/rdf/Concept/science/evo>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/science/evo> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/science/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/science> ;
     skos:prefLabel "Ontologie der Evolutionären Ansatz"@de, "Ontology of Evolutionary Approach"@en, "Онтология \"Эволюционный подход\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/science/inf/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/science/inf/> ;
+<http://opendiscovery.org/rdf/Concept/science/inf>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/science/inf> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/science/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/science> ;
     skos:prefLabel "Ontologie der Entwicklungsfonds für Informationssysteme"@de, "Ontology of Information systems development funds"@en, "Онтология \"Информационные фонды развития систем\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/science/model/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/science/model/> ;
+<http://opendiscovery.org/rdf/Concept/science/model>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/science/model> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/science/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/science> ;
     skos:prefLabel "Ontologie des Modellansatzes"@de, "Ontology of the Model Approach "@en, "Онтология \"Модельный подход\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/science/param_approach/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/science/param_approach/> ;
+<http://opendiscovery.org/rdf/Concept/science/param_approach>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/science/param_approach> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/science/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/science> ;
     skos:prefLabel "Ontologie des Parametrischen Ansatzes"@de, "Ontology  of the Parametric approach"@en, "Онтология \"Параметрический подход\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/science/sys/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/science/sys/> ;
+<http://opendiscovery.org/rdf/Concept/science/sys>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/science/sys> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/science/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/science> ;
     skos:prefLabel "Ontologie des Systemansatz"@de, "Ontology of System Approach"@en, "Онтология \"Системный подход\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/theory/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/theory/> ;
+<http://opendiscovery.org/rdf/Concept/theory>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/theory> ;
     a od:OntoCard, skos:Concept ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/TRIZ> ;
     skos:prefLabel "Ontologie der Theorien in der TRIZ"@de, "Ontology of the Theories in TRIZ"@en, "Онтология \"Теории в ТРИЗ\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/theory/OTSM/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/theory/OTSM/> ;
+<http://opendiscovery.org/rdf/Concept/theory/OTSM>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/theory/OTSM> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/theory/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/theory> ;
     skos:prefLabel "Ontologie der Allgemeinen Theorie starken Denkens (OTSM-TRIZ)"@de, "Ontology of a General Theory of Strong Thinking (OTSM-TRIZ)"@en, "Онтология \"Общая теория сильного мышления (ОТСМ-ТРИЗ)\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/theory/TIM/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/theory/TIM/> ;
+<http://opendiscovery.org/rdf/Concept/theory/TIM>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/theory/TIM> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/theory/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/theory> ;
     skos:prefLabel "Ontologie der Theorie des erfinderischen Denkens"@de, "Ontology of a Theory of inventive thinking"@en, "Онтология \"Теория изобретательского мышления\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/theory/TRTL/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/theory/TRTL/> ;
+<http://opendiscovery.org/rdf/Concept/theory/TRTL>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/theory/TRTL> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/theory/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/theory> ;
     skos:prefLabel "Ontologie der Theorie der kreativen Persönlichkeitsentwicklung (TRTL)"@de, "Ontology of a Theory of Creative Personality Development (TRTL)"@en, "Онтология \"Теория развития творческой личности (ТРТЛ)\""@ru .
 
-<http://opendiscovery.org/rdf/Concept/theory/evos/>
-    od:hasWebPage <https://triz-summit.ru/onto_triz/theory/evos/> ;
+<http://opendiscovery.org/rdf/Concept/theory/evos>
+    od:hasWebPage <https://triz-summit.ru/onto_triz/theory/evos> ;
     a od:OntoCard, skos:Concept ;
-    skos:narrower <http://opendiscovery.org/rdf/Concept/theory/> ;
+    od:hasSuperConcept <http://opendiscovery.org/rdf/Concept/theory> ;
     skos:prefLabel "Ontologie der Evolutionären Systemwissenschaft. Evolutionsstudien. "@de, "Ontology of Evolutionary system science. Evolutionary studies. "@en, "Онтология \"Эволюционное системоведение. Эволюциоведение.\""@ru .
 
