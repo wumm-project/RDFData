@@ -16,6 +16,7 @@ directory.
 
 * Cavallucci-2011.ttl - a first try to restore the ontology proposed by the
   IDM school (Cavallucci, Zanni-Merk et al.) already in 2007-2015.
+* GeneralConcepts.ttl - General Concepts that apply to a large number of concepts
 * OntoCards.ttl - The tree of OntoCards from the TRIZ Ontology Project
 * TopLevel.ttl - A first RDF version of the ontology proposed at
   <https://r1.nubex.ru/s828-c8b/ca459bfe73_fit-in~160x160__f3107_7e>

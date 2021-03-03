@@ -1,0 +1,152 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix tc: <http://opendiscovery.org/rdf/Concept/> .
+
+<http://opendiscovery.org/rdf/Ontologies/Lippert-Glossary/>
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    a owl:Ontology ;
+    rdfs:comment "2021-02-27 graebe: Extracted and transformed from the paper doi:10.3390/systems7030039";
+    rdfs:label "Glossary from (Lippert/Cloutier 2019)" .
+
+tc:Availability
+    od:hasLippertNote """The simplest representation of availability is as a ratio of the expected value (E) of the uptime of a system to the aggregate of the expected values of up and down time:
+A = E_{uptime}/(E_{uptime} + E_{downtime}) (1)
+Classification of availability is based on the span of time to which the availability refers and to the type of downtime used. 
+Common classifications include instantaneous, mean, steady state, inherent, achieved, and operational."""@en ;
+    a od:LippertGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Availability"@en .
+
+tc:Capacity
+    od:hasLippertNote "The highest rate at which information can be reliably transmitted over a communication channel is a measure of its capacity."@en ;
+    a od:LippertGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Capacity"@en .
+
+tc:ComplexityOfControl
+    od:hasLippertNote """Complexity is determined by the number of integrated factors being dealt with simultaneously.
+When applied to the control of a system, it is the number and interrelations of the functions of a system that adjusts its operations as required."""@en ;
+    a od:LippertGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Complexity of control"@en .
+
+tc:DataRate
+    od:hasLippertNote """The speed with which data can be transmitted from one device to another. 
+Data rates are often measured in megabits (million bits) or megabytes (million bytes) per second."""@en ;
+    a od:LippertGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Data rate"@en .
+
+tc:DigitalSize
+    od:hasLippertNote """The size of a digital system can be measured in several ways but is often expressed as a measure of how much storage it consumes. 
+Typically, storage size is expressed in units of measurement based on the byte."""@en ;
+    a od:LippertGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Digital size"@en .
+
+tc:EcologicalImpact
+    od:hasLippertNote """Ecological impact is the effect of system activities on living organisms and their nonliving environment. 
+Digital systems have ecological impact through their power and cooling needs, as well as their component production and disposal.
+"""@en ;
+    a od:LippertGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Ecological impact"@en .
+
+tc:Efficiency
+    od:hasLippertNote "Efficiency is a measurable concept, quantitatively determined by the ratio of useful output to total input. It indicates the system’s ability to avoid waste of materials, energy, and time in operation."@en ;
+    a od:LippertGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Efficiency"@en .
+
+tc:Elegance
+    od:hasLippertNote """In general, elegance is unusual effectiveness, simplicity, and consistency of design. 
+In engineering, a solution may be considered elegant if it uses a nonobvious method to produce a solution which is highly effective and simple. 
+An elegant solution may solve multiple problems at once, especially problems not thought to be inter-related."""@en ;
+    a od:LippertGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Elegance"@en .
+
+tc:FidelityOfData
+    od:hasLippertNote """Fidelity refers to the degree to which a model or simulation reproduces the state and behavior of a real-world object, feature or condition. 
+Fidelity is therefore a measure of the realism of a model or simulation, outputs of digital systems."""@en ;
+    a od:LippertGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Fidelity of data"@en .
+
+tc:Latency
+    od:hasLippertNote "The time delay experienced by a system during data communication is its latency."@en ;
+    a od:LippertGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Latency"@en .
+
+tc:MeanTimeBetweenFailure
+    od:hasLippertNote """Mean time between failures (MTBF) is the predicted elapsed time between inherent failures of a mechanical or electronic system during normal system operation. 
+MTBF can be calculated as the average time between failures of a system. 
+The term is used for repairable systems, while mean time to failure (MTTF) denotes the expected time to failure for a nonrepairable system. 
+The definition of MTBF depends on the definition of what is considered a failure for the system."""@en ;
+    a od:LippertGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Mean time between failure"@en .
+
+tc:MeanTimeToRepair
+    od:hasLippertNote """Mean time to repair (MTTR) is a basic measure of the maintainability of repairable items.
+It represents the average time required to repair a failed component or device. 
+Expressed mathematically, the MTTR formula is the total maintenance time divided by the total number of maintenance actions over a specific period.
+MTTR = total maintenance time/number of repairs (2)"""@en ;
+    a od:LippertGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Mean time to repair"@en .
+
+tc:MemoryCapacity
+    od:hasLippertNote "The memory capacity is the maximum or minimum amount of memory a computer or hardware device can have, or the required amount of memory required to run a process or program."@en ;
+    a od:LippertGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Memory capacity"@en .
+
+tc:MemoryEfficiency
+    od:hasLippertNote """This metric represents how efficiently the memory subsystem is used by the digital system. 
+It is a component of algorithmic efficiency which can be thought of as analogous to engineering productivity for a repeating or continuous process."""@en ;
+    a od:LippertGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Memory efficiency"@en .
+
+tc:NumberOfDependencies
+    od:hasLippertNote """In software engineering, coupling is the degree of interdependence between software modules. 
+It is a measure of how closely connected two routines or modules are and indicates the strength of the relationships between modules. 
+In digital systems, the number of dependencies can be measured as physical interdependence or as coupling. 
+Low coupling is often a sign of a well-structured computer system and a good design."""@en ;
+    a od:LippertGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Number of dependencies"@en .
+
+tc:PrecisionOfOperation
+    od:hasLippertNote """Precision in operations is a measure of reproducibility. 
+Variance can be introduced into systems through random numbers, varying levels of precision of calculations, and precision of inputs."""@en ;
+    a od:LippertGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Precision of operation"@en .
+
+tc:PrecisionOfOutput
+    od:hasLippertNote "Precision of output in a digital system is a measure of the numerical precision required, as higher precision requires more capacity in communication, storage, and display."@en ;
+    a od:LippertGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Precision of output"@en .
+
+tc:ResourceConsumption
+    od:hasLippertNote "Resource intensity is a measure of the quantity of resources (e.g., time, energy, materials) needed for the completion of a process or activity."@en ;
+    a od:LippertGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Resource consumption"@en .
+
+tc:Scalability
+    od:hasLippertNote "Scalability a measure of the capability of a system, network, or process to handle a growing amount of work, or its potential to be enlarged to accommodate that growth."@en ;
+    a od:LippertGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Scalability"@en .
+
+tc:Security
+    od:hasLippertNote """Security is freedom from, or resilience against, potential harm (or other unwanted coercive change) from external forces. It refers to protection from hostile forces, but it has a wide range of application.
+Security also includes secrecy and containment of information when applied to digital system."""@en ;
+    a od:LippertGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Security"@en .
+
+tc:Throughput
+    od:hasLippertNote "In a digital system, the throughput is the maximum rate at which data can be processed."@en ;
+    a od:LippertGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Throughput"@en .
+
+tc:UsefulLife
+    od:hasLippertNote """Useful life is the estimated lifespan of any component of a digital system. 
+Useful life may be impacted by dependencies between system components."""@en ;
+    a od:LippertGlossaryEntry, skos:Concept ;
+    skos:prefLabel "Useful life"@en .
+

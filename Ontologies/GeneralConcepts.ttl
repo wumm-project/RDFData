@@ -1,0 +1,82 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix tc: <http://opendiscovery.org/rdf/Concept/> .
+
+<http://opendiscovery.org/rdf/Ontologies/GeneralConcepts/>
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    a owl:Ontology ;
+    rdfs:comment "2021-03-03 graebe: General Concepts started";
+    rdfs:label "WUMM TRIZ Ontology - General Concepts" .
+
+# Mode, a general concept
+od:hasMode
+    a rdfs:Property ;
+    rdfs:range tc:ModeValue .
+
+tc:Mode a skos:Concept, od:AdditionalConcept ;
+  skos:prefLabel "Modeling mode"@en, "Modellierungsmodus"@de .
+
+tc:ModeValue a skos:Concept, od:AdditionalConcept ;
+  skos:prefLabel "Allowed values for Modeling mode"@en, "Erlaubte Werte für Modellierungsmodus"@de ;
+  od:allowedValues tc:System, tc:Model, tc:SystemAsIs, tc:SystemAsRequired,
+  		   tc:ModelAsIs, tc:ModelAsRequired .
+
+tc:System a skos:Concept, od:AdditionalConcept ;
+  od:valueOf tc:ModeValue;
+  od:TOPDefinition """A well defined set of elements in relationship and
+  connection with each other, which forms a certain integrity, unity. The need
+  to use the term «system» arises when it is necessary to emphasize that
+  something is large, complex, not fully immediately understandable, yet
+  whole, unified. In contrast to the notions of «set» and «aggregate», the
+  concept of a system emphasises order, integrity, regularities of
+  construction, functioning and development. The notion of system is part of
+  the system and functional approach, and is used in the system
+  operator."""@en ;
+  skos:prefLabel "System"@en, "System"@de .
+
+tc:Model a skos:Concept, od:AdditionalConcept ;
+  od:valueOf tc:ModeValue;
+  od:TOPDefinition """A  schematic notation of gradual transition
+  from the problem to TRIZ model of the problem, then to TRIZ model of the
+  solution and then to the solution itself; or from the system to TRIZ model
+  of the system, then to TRIZ model of the new system and then to actual
+  change of the system («system as required»). The TRIZ model includes the
+  basic components of inventive thinking: analysis, synthesis, evaluation."""@en ;
+  skos:prefLabel "Model"@en, "Modell"@de .
+
+tc:SystemAsIs a skos:Concept, od:AdditionalConcept ;
+  od:valueOf tc:ModeValue;
+  od:TOPDefinition """A system in its original state before
+  it is analysed and transformed into a new «system as is»."""@en ;
+  skos:prefLabel "The system as is"@en, "System, wie es ist"@de .
+
+tc:ModelAsIs a skos:Concept, od:AdditionalConcept ;
+  od:valueOf tc:ModeValue;
+  od:TOPDefinition """The «model of the system as is» is formed from the «system as
+  is» by means of various TRIZ models: component-structural and functional
+  models, su-field or ele-field models, description of contradictions or of
+  typical conflict schemes, etc. Depending on the chosen model type, the model
+  will be transformed into the «model of the system as required»."""@en ;
+  skos:prefLabel "The model of the system as is"@en, "Modell des Systems, wie es ist"@de .
+
+tc:ModelAsRequired a skos:Concept, od:AdditionalConcept ;
+  od:valueOf tc:ModeValue;
+  od:TOPDefinition """The «model of the system as required» is formed from the
+  «model of the system as is» by procedures which correspond to the selected
+  model transformation method (functional, su-field, ele-field, solution of
+  the contradictions in requirements and properties, etc.)."""@en ;
+  skos:prefLabel "The model of the system as required"@en, "Modell des Systems, wie gefordert"@de .
+
+tc:SystemAsRequired a skos:Concept, od:AdditionalConcept ;
+  od:valueOf tc:ModeValue;
+  od:TOPDefinition """The «system as required» is a system derived from the «system
+  as is» through a transformation, based on the «model of the system as required»."""@en ;
+  skos:prefLabel "The system as required"@en, "System, wie gefordert"@de .
