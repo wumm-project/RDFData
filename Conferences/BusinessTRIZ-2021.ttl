@@ -58,6 +58,7 @@ The "BUSINESS TRIZ ONLINE WINTER 2021" conference invites anyone interested in l
 
 :Talk_107
     dcterms:creator odp:Petrov_VM, odp:Petrov_De ;
+    od:presentedBy odp:Petrov_De ;
     dcterms:title "Analysis and practice of solving business problems"@en ;
     a od:Talk .
 

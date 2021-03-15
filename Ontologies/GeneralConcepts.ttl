@@ -17,15 +17,12 @@
     rdfs:label "WUMM TRIZ Ontology - General Concepts" .
 
 # Mode, a general concept
-od:hasMode
+od:belongsTo
     a rdfs:Property ;
-    rdfs:range tc:ModeValue .
+    rdfs:range tc:StageValue .
 
-tc:Mode a skos:Concept, od:AdditionalConcept ;
-  skos:prefLabel "Modeling mode"@en, "Modellierungsmodus"@de .
-
-tc:ModeValue a skos:Concept, od:AdditionalConcept ;
-  skos:prefLabel "Allowed values for Modeling mode"@en, "Erlaubte Werte für Modellierungsmodus"@de ;
+tc:StageValue a skos:Concept, od:AdditionalConcept ;
+  skos:prefLabel "Modeling stage"@en, "Modellierungsmodus"@de ;
   od:allowedValues tc:System, tc:Model, tc:SystemAsIs, tc:SystemAsRequired,
   		   tc:ModelAsIs, tc:ModelAsRequired .
 

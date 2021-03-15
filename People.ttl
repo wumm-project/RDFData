@@ -2734,14 +2734,14 @@ odp:Rubanov_IS
 odp:Rubin_MS
     dbo:birthDate "1954-11-12" ;
     a foaf:Person ;
-    foaf:affil "St. Petersburg, Russia" ;
+    foaf:affil "Moscow, Russia" ;
     foaf:fullname "Рубин Михаил Семенович"@ru ;
     foaf:homepage <https://www.facebook.com/mihail.rubin> ;
     foaf:name "Mikhail S. Rubin" .
 
 odp:Rubina_NV
     a foaf:Person ;
-    foaf:affil "St. Petersburg, Russia" ;
+    foaf:affil "Moscow, Russia" ;
     foaf:fullname "Рубина Наталия Викторовна"@ru ;
     foaf:name "Natalja Rubina" .
 
@@ -2933,6 +2933,7 @@ odp:Shapiro_RB
 
 odp:Shchedrin_N
     a foaf:Person ;
+    foaf:affil "Moscow, Russia" ;
     foaf:fullname "Щедрин Николай"@ru ;
     foaf:name "Nikolai Shchedrin" .
 
