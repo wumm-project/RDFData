@@ -2,7 +2,7 @@
 
 See more about that also in the github pages
 * <https://wumm-project.github.io/Ontology.html>
-* <https://wumm-project.github.io/OntologyDetails>
+* <https://wumm-project.github.io/WOP-General>
 * <https://wumm-project.github.io/OntologyWebinar>
 
 of the WUMM project and the
@@ -31,3 +31,13 @@ directory.
 * TOP-Glossary.ttl - The 100 terms glossary of the TRIZ Ontology Project
   <https://triz-summit.ru/onto_triz/100/> 
 * VDI-Glossary.ttl - The glossary in the German VDI norm
+
+## Parts of the TRIZ Theory Corpus
+
+* SeparationPrinciples.ttl - The 4 Separation Principles
+* StandardSolutions.ttl - The 76 Standard Solutions 
+* BusinessStandards.ttl - V. Souchkovs Business Standard Solutions 
+* Matrix1985.ttl - Altshullers 39x39 matrix 
+* Parameters.ttl - The 39 parameters as in the matrix of Altshuller 1985 
+* Principles.ttl - The 40 principles according to Altshuller 1985 
+

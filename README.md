@@ -15,8 +15,6 @@ of the WUMM project and the
 
 * od: <http://opendiscovery.org/rdf/Model#> is the RDF model.
 * odp: <http://opendiscovery.org/rdf/Person/> - namespace for people
-* odq: <http://opendiscovery.org/rdf/Principle/> - namespace for the principles
-* odr: <http://opendiscovery.org/rdf/Parameter/> - namespace for the parameters within the matrix
 * tc: <http://opendiscovery.org/rdf/Concept/> - namespace for TRIZ concepts
 
 ### External Ontologies Used
@@ -82,9 +80,8 @@ of the WUMM project and the
 
 * People.ttl - People within the TRIZ Social Network
   * Regularly updated from different  sources
-* MATRIZ-Certificates.ttl - Data of MATRIZ certificates
-  * 2020-04-06 graebe: Level 4 certificates added
-  * 2020-04-18 graebe: Level 5 certificates added
+* MATRIZ-Certificates.ttl - People in the Database with MATRIZ certificates
+  level 4 and 5
 * AllMATRIZCertificates.ttl - All Certificates, extracted from the MATRIZ
   Database <https://www.nanoq.pl/matriz_database/all/>
 
@@ -93,14 +90,8 @@ of the WUMM project and the
 This has to be moved and incorporated into the Ontology Project in the
 directory __Ontologies__.  See also the README.md in that directory.
 
-* SeparationPrinciples.ttl - The 4 Separation Principles
-* StandardSolutions.ttl - The 76 Standard Solutions 
 * TBK1-Concepts.ttl - Concepts in the TRIZ Body of Knowledge (2012 English
   version) as RDF Data
 * TBK2-Concepts.ttl - Concepts in the TRIZ Body of Knowledge (2007 Russian
   version) as RDF Data
-* TheBusinessStandards.ttl - V. Souchkovs Business Standard Solutions 
-* TheMatrix.ttl - Altshullers 39x39 matrix 
-* TheParameters.ttl - The 39 parameters as in the matrix of Altshuller 1985 
-* ThePrinciples.ttl - The 40 principles according to Altshuller 1985 
 
