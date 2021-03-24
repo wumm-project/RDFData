@@ -1603,6 +1603,11 @@ odp:Kondrakov_IM
     a foaf:Person ;
     foaf:name "I.M. Kondrakov" .
 
+odp:Korolev_VA
+    a foaf:Person ;
+    foaf:fullname "Королёв В. А."@ru ;
+    foaf:name "V. A. Korolev" .
+
 odp:Korotkih_S
     a foaf:Person ;
     foaf:affil "Krasnoyarsk, Russia" ;
@@ -2103,6 +2108,12 @@ odp:MasUdah
     a foaf:Person ;
     foaf:affil "Malang, Indonesia" ;
     foaf:name "Mas'Udah" .
+
+odp:Matvienko_NN
+    a foaf:Person ;
+    foaf:affil "Russia" ;
+    foaf:fullname "Матвиенко Н. Н."@ru ;
+    foaf:name "N. N. Matvienko" .
 
 odp:Matyushenko_AV
     a foaf:Person ;

@@ -19,7 +19,7 @@
 tc:AbstractTerm
     od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ ;
     od:SouchkovDefinition "A term (word or phrase) which describes a generic feature, property or a function that can be instantiated to a number or more specific terms by adding relevant context. There is no strict dividing line between specific and abstract terms."@en ;
-    od:SouchkovExamples "The term \"separate\" can be considered as abstract while the term \"to cut through\" is specific."@en ;
+    od:SouchkovExample "The term \"separate\" can be considered as abstract while the term \"to cut through\" is specific."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Abstract Term"@en, "Абстрактный термин"@ru .
 
@@ -83,13 +83,13 @@ tc:AnalogousSolution
 tc:AntiFunction
     od:SouchkovCategory tc:TRIZTools ;
     od:SouchkovDefinition "A function which is opposite to a function given. "@en ;
-    od:SouchkovExamples "\"To accelerate\" vs. \"to decelerate\"."@en ;
+    od:SouchkovExample "\"To accelerate\" vs. \"to decelerate\"."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Anti-Function"@en, "Анти-функция"@ru .
 
 tc:AntiPrinciple
     od:SouchkovDefinition "An Inventive Principle that contains a problem solving recommendation opposite to a recommendation given in one of the known Inventive Principles known. "@en ;
-    od:SouchkovExamples "\"Principle of Taking Away\" can be considered as anti-principle with respect to the \"Principle of Merging\"."@en ;
+    od:SouchkovExample "\"Principle of Taking Away\" can be considered as anti-principle with respect to the \"Principle of Merging\"."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Anti-Principle"@en, "Анти-прием"@ru .
 
@@ -97,7 +97,7 @@ tc:AntiProcess
     od:SouchkovCategory tc:GeneralTRIZ ;
     od:SouchkovComments "The use of \"anti-process\" helps to formulate physical contradictions."@en ;
     od:SouchkovDefinition "A process which has its direction opposite to a process given."@en ;
-    od:SouchkovExamples "\"Cooling\" vs. \"heating\""@en, "\"assembly\" vs. \"disassembly\""@en ;
+    od:SouchkovExample "\"Cooling\" vs. \"heating\""@en, "\"assembly\" vs. \"disassembly\""@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:altLabel "Opposite Process"@en ;
     skos:prefLabel "Anti-Process"@en, "Анти-процесс"@ru .
@@ -106,7 +106,7 @@ tc:AntiSystem
     od:SouchkovCategory tc:GeneralTRIZ, tc:MultiScreenDiagramofThinking ;
     od:SouchkovComments "In some references, the term \"anti-system\" is used to describe a system which is competitive to a system given."@en ;
     od:SouchkovDefinition "A technical system whose main useful function is opposite to a function of the technical system given."@en ;
-    od:SouchkovExamples "A cooler vs. a heater."@en ;
+    od:SouchkovExample "A cooler vs. a heater."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Anti-System"@en, "Анти-система"@ru .
 
@@ -121,7 +121,7 @@ tc:Attribute
     od:SouchkovCategory tc:FunctionAnalysis, tc:GeneralTRIZ ;
     od:SouchkovComments "Examples include electrical conductivity, viscosity, or strength. "@en ;
     od:SouchkovDefinition "A fundamental quality of a material object that characterizes its interaction with other material objects. An attribute can always be associated with a value which can be either linear, non-linear, or discrete. A parameter is a subset of an attribute."@en ;
-    od:SouchkovExamples "Color"@en, "Complexity"@en, "Phase state"@en, "Weight"@en ;
+    od:SouchkovExample "Color"@en, "Complexity"@en, "Phase state"@en, "Weight"@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Attribute"@en, "Аттрибут"@ru .
 
@@ -165,7 +165,7 @@ tc:BiSystem
 tc:BiSystemwithBiasedParameters
     od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
     od:SouchkovDefinition "A technical system which includes two components with biased functions or values of the same attribute to create a positive synergetic effect: either a considerable multiplication or decrease of a value of an attribute, or delivering a new property, or production of a new function. Two complete technical systems with biased parameters can form a bi-system in case if they produce synergetic effect."@en ;
-    od:SouchkovExamples "An electric bicycle that can also be driven by pedals."@en, "An electric switch which consists of two metal plates with different coefficients of thermal expansion."@en ;
+    od:SouchkovExample "An electric bicycle that can also be driven by pedals."@en, "An electric switch which consists of two metal plates with different coefficients of thermal expansion."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:altLabel "Bi-system with similar parameters"@en ;
     skos:prefLabel "Bi-System with Biased Parameters"@en, "Би-система со сдвинутыми характеристиками"@ru .
@@ -173,7 +173,7 @@ tc:BiSystemwithBiasedParameters
 tc:BiSystemwithIdenticalParameters
     od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
     od:SouchkovDefinition "A technical system which includes two components with identical functions or values of the same attribute to create a positive synergetic effect: either a considerable multiplication or decrease of a value of an attribute, or delivering a new property, or production of a new function. Two identical complete technical systems can form a bi-system as well in case if they produce synergetic effect. "@en ;
-    od:SouchkovExamples "A catamaran consisting of two identical boats provides stability of the ride unachievable by a single boat."@en, "Spectacles consisting of two lens provide stereoscopic vision"@en ;
+    od:SouchkovExample "A catamaran consisting of two identical boats provides stability of the ride unachievable by a single boat."@en, "Spectacles consisting of two lens provide stereoscopic vision"@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:altLabel "Homogeneous bi-system"@en ;
     skos:prefLabel "Bi-system with Identical Parameters"@en, "Би-система одинаковыми характеристиками"@ru .
@@ -181,7 +181,7 @@ tc:BiSystemwithIdenticalParameters
 tc:BiSystemwithInverseParameters
     od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
     od:SouchkovDefinition "A technical system which includes two components with inverse functions or values of the same attribute to create a positive synergetic effect:  either a considerable multiplication or decrease of a value of an attribute, or delivering a new property, or production of a new function. Two complete technical systems with inverse functions (anti-systems) can form a bi-system as well in case if they produce synergetic effect. "@en ;
-    od:SouchkovExamples "A pencil with an attached rubber"@en, "An air conditioner consists of a refrigerator and a heater."@en ;
+    od:SouchkovExample "A pencil with an attached rubber"@en, "An air conditioner consists of a refrigerator and a heater."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:altLabel "Inverse bi-system"@en ;
     skos:prefLabel "Bi-system with Inverse Parameters"@en, "Би-система с противоположными характеристиками"@ru .
@@ -189,7 +189,7 @@ tc:BiSystemwithInverseParameters
 tc:BiologicalEffect
     od:SouchkovCategory tc:CataloguesofEffects ;
     od:SouchkovDefinition "An effect produced by a biological object (animal, microbe, insect, plant) or combination of such that could be used for inventive problem solving. "@en ;
-    od:SouchkovExamples "To extract a certain substance from environment, a biological object can be used which can accumulate such a substance during metabolic process and then the substance can be extracted from the biological object."@en ;
+    od:SouchkovExample "To extract a certain substance from environment, a biological object can be used which can accumulate such a substance during metabolic process and then the substance can be extracted from the biological object."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Biological Effect"@en, "Биологический эффект"@ru .
 
@@ -227,7 +227,7 @@ tc:SuFieldChain
 tc:ChemicalEffect
     od:SouchkovCategory tc:TRIZKnowledgeBases, tc:TRIZTools ;
     od:SouchkovDefinition "A natural phenomenon known in science of chemistry or combination of such that could be used for inventive problem solving by providing a change required at molecular level."@en ;
-    od:SouchkovExamples "To extract certain types of substances from environment, electrolytic chemical reaction can be used."@en ;
+    od:SouchkovExample "To extract certain types of substances from environment, electrolytic chemical reaction can be used."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Chemical Effect"@en, "Химический эффект"@ru .
 
@@ -246,7 +246,7 @@ tc:CloneProblems
 tc:CompetitiveTechnicalSystem
     od:SouchkovCategory tc:GeneralTRIZ ;
     od:SouchkovDefinition "A technical system that provides the same technical function as a technical system being analyzed but differs either slightly or radically from the technical system being analyzed. The concept of a competitive technical system is similar to the concept of alternative technical system."@en ;
-    od:SouchkovExamples "Both a car and a bicycle are used to transport a passenger or a cargo.  "@en ;
+    od:SouchkovExample "Both a car and a bicycle are used to transport a passenger or a cargo.  "@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:altLabel "Competing Technical system"@en ;
     skos:prefLabel "Competitive Technical System"@en, "Конкурирующая техническая система"@ru .
@@ -403,7 +403,7 @@ tc:ControlUnit
 tc:Convolution
     od:SouchkovCategory tc:TrendsofTechnical ;
     od:SouchkovDefinition "An interval on the timeline of a technical system evolution according to the Bell-curve of evolution which follows the phase of the system's Expansion. During Convolution, innovative changes of the technical system result in the decrease of the overall complication of the system, decrease of its dimensions and energy consumption; and decrease of costs required to deliver the system's main useful function or provide the main parameter of value required while still ensuring that the required degrees of quality and performance do not degrade. Three possible scenarios of covolution are possible: 1) Minimal, when all subsystems still remain independent; 2) Partial, when a number of subsystems become a single subsystem; 3) Full, when all subsystems may not work independently. In many cases, partial and full convolution require change of operational principles."@en ;
-    od:SouchkovExamples "An electronic circuit which consists of independent electronic devices is replaced by a microchip."@en ;
+    od:SouchkovExample "An electronic circuit which consists of independent electronic devices is replaced by a microchip."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Convolution"@en .
 
@@ -465,14 +465,14 @@ tc:DelayZone
 tc:Demand
     od:SouchkovCategory tc:GeneralTRIZ ;
     od:SouchkovDefinition "An expression of necessity of producing a change or preventing something from a change usually expressed in engineering or physical terms."@en ;
-    od:SouchkovExamples "1) Cargo must be moved. 2) Temperature has to increase. 3) Weight of a load must not change."@en ;
+    od:SouchkovExample "1) Cargo must be moved. 2) Temperature has to increase. 3) Weight of a load must not change."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Demand"@en, "Требование"@ru .
 
 tc:DerivativeResource
     od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ ;
     od:SouchkovDefinition "New substances, fields, their properties and parameters that can be obtained on the basis of the existing substance-field resources by subjecting the latter to certain actions."@en ;
-    od:SouchkovExamples "Such actions can be heating, cooling, decomposition, changing phase state, etc. "@en ;
+    od:SouchkovExample "Such actions can be heating, cooling, decomposition, changing phase state, etc. "@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Derivative Resource"@en, "Производный ресурс"@ru .
 
@@ -560,7 +560,7 @@ tc:EngineeringContradiction
 tc:EngineeringParameter
     od:SouchkovCategory tc:ARIZ, tc:ContradictionMatrix, tc:GeneralTRIZ ;
     od:SouchkovDefinition "A variable dimensional or dimensionless measurable factor, either specific or aggregated, that participates in the definition of an attribute of a technical system, its subsystem, or supersystem and is expressed in terms related to technology (physical, chemical, etc.)  "@en ;
-    od:SouchkovExamples "Specific level of conductivity, specific level of viscosity measured in Pascal seconds."@en ;
+    od:SouchkovExample "Specific level of conductivity, specific level of viscosity measured in Pascal seconds."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:altLabel "Technical Parameter"@en ;
     skos:prefLabel "Engineering Parameter"@en, "Технический параметр"@ru .
@@ -701,7 +701,7 @@ tc:Field
     od:SouchkovCategory tc:InventiveStandards, tc:SuFieldAnalysis ;
     od:SouchkovComments "In Substance-Field Analysis definition of a field varies from definition of a field in physics. More specific terms presenting different types of energy exchange can be used. For example, such terms can be used as \"acoustic field\" or \"thermal field\", or \"friction forces\"."@en ;
     od:SouchkovDefinition "A material object without rest mass that transmits interaction between components (subsystems) of a technical system that are represented as substances. "@en ;
-    od:SouchkovExamples "Examples of fields in TRIZ include the following fields: mechanical, acoustic, thermal, magnetic, electric, electromagnetic. Sometime additional fileds like intermolecular, biological, informational are added."@en ;
+    od:SouchkovExample "Examples of fields in TRIZ include the following fields: mechanical, acoustic, thermal, magnetic, electric, electromagnetic. Sometime additional fileds like intermolecular, biological, informational are added."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Field"@en, "Поле"@ru .
 
@@ -720,7 +720,7 @@ tc:FlowAnalysis
 tc:FlowDisadvantage
     od:SouchkovCategory tc:FlowAnalysis ;
     od:SouchkovDefinition "A disadvantage of a technical system being analyzed identified during Flow Analysis."@en ;
-    od:SouchkovExamples "Bottlenecks, \"Gray Zones\", \"Stagnation Zones\", etc."@en ;
+    od:SouchkovExample "Bottlenecks, \"Gray Zones\", \"Stagnation Zones\", etc."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Flow Disadvantage"@en, "Недостаток потока"@ru .
 
@@ -828,14 +828,14 @@ tc:Functionality
 tc:GeneralizedFunction
     od:SouchkovCategory tc:CataloguesofEffects ;
     od:SouchkovDefinition "An abstract function for which a specific object and associated action are reduced to universal terms."@en ;
-    od:SouchkovExamples "Specific function \"remove water\" can be generalized to \"transport liquid\"."@en ;
+    od:SouchkovExample "Specific function \"remove water\" can be generalized to \"transport liquid\"."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Generalized Function"@en, "Обобщенная функция"@ru .
 
 tc:GenericEngineeringFunction
     od:SouchkovCategory tc:ContradictionMatrix ;
     od:SouchkovDefinition "An abstract engineering function that can be instantiated to a multitude of more specific engineering functions."@en ;
-    od:SouchkovExamples "The generalized technical function \"transport liquid\" can be instantiated to such functions as \"remove water\", \"absorb vapor\", etc."@en ;
+    od:SouchkovExample "The generalized technical function \"transport liquid\" can be instantiated to such functions as \"remove water\", \"absorb vapor\", etc."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Generic Engineering Function"@en, "Обобщенная техническая функция"@ru .
 
@@ -849,7 +849,7 @@ tc:GenericEngineeringParameter
 tc:GeometricalEffect
     od:SouchkovCategory tc:CataloguesofEffects ;
     od:SouchkovDefinition "A specific shape or combination of shapes that can be used for inventive problem solving. "@en ;
-    od:SouchkovExamples "The use of hyperbolic shape helps to improve displacement of solid bodies."@en ;
+    od:SouchkovExample "The use of hyperbolic shape helps to improve displacement of solid bodies."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Geometrical Effect"@en, "Геометрический эффект"@ru .
 
@@ -1041,7 +1041,7 @@ tc:InnovativeConcept
 tc:InnovativeTask
     od:SouchkovCategory tc:GeneralTRIZ ;
     od:SouchkovDefinition "A specific category of a goal that has to be reached by performing an inventive process. "@en ;
-    od:SouchkovExamples "1) To eliminate negative effect, 2) to increase performance, 3) to radically cut costs, etc."@en ;
+    od:SouchkovExample "1) To eliminate negative effect, 2) to increase performance, 3) to radically cut costs, etc."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Innovative Task"@en, "Инновационная задача"@ru .
 
@@ -1569,7 +1569,7 @@ tc:PhysicalContradiction
 tc:PhysicalEffect
     od:SouchkovCategory tc:CataloguesofEffects ;
     od:SouchkovDefinition "A natural phenomenon known in science of physics or combination of such that could be used for inventive problem solving."@en ;
-    od:SouchkovExamples "Bernoulli's Principle is used to control pressure in fluids, or centrifugal motion can be used to mix two liquids. "@en ;
+    od:SouchkovExample "Bernoulli's Principle is used to control pressure in fluids, or centrifugal motion can be used to mix two liquids. "@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Physical Effect"@en, "Физический эффект"@ru .
 
@@ -1588,7 +1588,7 @@ tc:PolySystem
 tc:PolySystemwithBiasedParameters
     od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
     od:SouchkovDefinition "A technical system which includes three of more components with biased functions or values of the same attribute to create a positive synergetic effect: either a considerable multiplication or decrease of a value of an attribute, or delivering a new property, or production of a new function. A poly-system can be formed by three or more complete technical systems with biased functions or values of the same attribute. "@en ;
-    od:SouchkovExamples "1) A pen containing several rods filled by ink of different colors. 2) Set of crayons of different colors. "@en ;
+    od:SouchkovExample "1) A pen containing several rods filled by ink of different colors. 2) Set of crayons of different colors. "@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:altLabel "Poly-system with similar parameters"@en ;
     skos:prefLabel "Poly-system with Biased Parameters"@en, "Полисистема со сдвинутыми характеристиками"@ru .
@@ -1596,14 +1596,14 @@ tc:PolySystemwithBiasedParameters
 tc:PolySystemwithIdenticalParameters
     od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
     od:SouchkovDefinition "A technical system which includes three of more components with identical functions or values of the same attribute to create a positive synergetic effect: either a considerable multiplication or decrease of a value of an attribute, or delivering a new property, or production of a new function Three or more complete technical systems can form a poly-system as well in case if they produce a synergetic effect. "@en ;
-    od:SouchkovExamples "1) A propeller with three or more blades. 2) A computer network that consists of identical computers."@en ;
+    od:SouchkovExample "1) A propeller with three or more blades. 2) A computer network that consists of identical computers."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Poly-system with Identical Parameters"@en, "Полисистема с одинаковыми характеристиками"@ru .
 
 tc:PolySystemwithInverseParameters
     od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
     od:SouchkovDefinition "A technical system which includes three of more components with inverse functions or values of the same attribute to create a synergetic effect. Three or more complete technical systems with inverse functions (anti-systems) can form a poly-system as well in case if they produce a synergetic effect. "@en ;
-    od:SouchkovExamples "1) An electronic component which consists of a number of electricty conducting and isolating components. 2)"@en ;
+    od:SouchkovExample "1) An electronic component which consists of a number of electricty conducting and isolating components. 2)"@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Poly-system with Inverse Parameters"@en, "Полисистема с противоположными характеристиками"@ru .
 
@@ -1701,7 +1701,7 @@ tc:ProductiveFunction
 tc:Property
     od:SouchkovCategory tc:ARIZ, tc:GeneralTRIZ, tc:InventiveStandards ;
     od:SouchkovDefinition "An attribute of a material object that represents one of its specific abilities which can be used for producing either a positive or a negative effect. "@en ;
-    od:SouchkovExamples "Fragility of the glass can be used to break the glass."@en ;
+    od:SouchkovExample "Fragility of the glass can be used to break the glass."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Property"@en, "Свойство"@ru .
 
@@ -1972,7 +1972,7 @@ tc:Substance
     od:SouchkovCategory tc:GeneralTRIZ, tc:InventiveStandards, tc:SuFieldAnalysis ;
     od:SouchkovComments "In Substance-Field Analysis and Inventive Standards the use of the term \"substance\" is not limited to describing types of materials only. It can be a part of technical system of the entire technical system. "@en ;
     od:SouchkovDefinition "Type of discrete matter which possesses rest mass. Substance can be in gaseous, liquid, solid and plasma states. In certain cases and TRIZ Tools, the term \"substance\" can be considered in a broader sense, for example, a material component or an assembly of material components can be called \"substance\" in the Inventive Standards or ARIZ."@en ;
-    od:SouchkovExamples "1) Water, 2) Sand, 3) Oxygen, 4) Concrete, 5) A cutting tool, 6) A brick."@en ;
+    od:SouchkovExample "1) Water, 2) Sand, 3) Oxygen, 4) Concrete, 5) A cutting tool, 6) A brick."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Substance"@en, "Вещество"@ru .
 
@@ -2056,7 +2056,7 @@ tc:SystemQuality
 tc:SCurveofaSystem
     od:SouchkovCategory tc:GeneralTRIZ, tc:TRIZEvolutionTrends ;
     od:SouchkovDefinition "An S-curve presenting evolution of a specific technical system or its subsystem based on the same operational principle."@en ;
-    od:SouchkovExamples "S-curve of evolution of a hammer based exclusively on a mechanical principle."@en ;
+    od:SouchkovExample "S-curve of evolution of a hammer based exclusively on a mechanical principle."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "S-образная кривая технической системы"@ru, "System S-Curve"@en .
 
@@ -2088,7 +2088,7 @@ tc:SystemsBirthandEarlyDevelopment
 
 tc:SystemsEvolution
     od:SouchkovDefinition "Свертывание"@en ;
-    od:SouchkovExamples "1) Folding, 2) Trimming"@en ;
+    od:SouchkovExample "1) Folding, 2) Trimming"@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Systems Evolution"@en .
 
@@ -2163,7 +2163,7 @@ tc:TRIZSchool
     od:SouchkovCategory tc:GeneralTRIZ ;
     od:SouchkovComments "Most of the TRIZ Schools were founded in the cities of the former USSR."@en ;
     od:SouchkovDefinition "Usually an informal training, research and development center in a certain geographic location that provides (or provided in the past) significant contribution to the development of TRIZ theories, methods and tools."@en ;
-    od:SouchkovExamples "St. Petersburg TRIZ School, Krasnoyarsk TRIZ School, Kishinev TRIZ School, etc."@en ;
+    od:SouchkovExample "St. Petersburg TRIZ School, Krasnoyarsk TRIZ School, Kishinev TRIZ School, etc."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "TRIZ School"@en, "Школа ТРИЗ"@ru .
 
@@ -2209,7 +2209,7 @@ tc:TechnicalConflict
 tc:TechnicalContradiction
     od:SouchkovCategory tc:ARIZ, tc:ContradictionMatrix, tc:GeneralTRIZ ;
     od:SouchkovDefinition "A situation which emerges when an attempt to solve an inventive problem by improving a certain attribute (parameter) of a technical system leads to unacceptable degradation of another attribute (parameter) of the same system."@en ;
-    od:SouchkovExamples "Improving the strength (one parameter) of the airplane wing leads to the increased weight (another parameter) of its wing."@en ;
+    od:SouchkovExample "Improving the strength (one parameter) of the airplane wing leads to the increased weight (another parameter) of its wing."@en ;
     od:SouchkovTerms "inventive problem, technical system, improving parameter, degraded parameter"@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Technical Contradiction"@en, "Техническое противоречие"@ru .
@@ -2223,7 +2223,7 @@ tc:TechnicalEffect
 tc:TechnicalFunction
     od:SouchkovCategory tc:CataloguesofEffects, tc:FunctionAnalysisandModeling, tc:GeneralTRIZ ;
     od:SouchkovDefinition "A specific type of a function which deals with an attribute of a technical system or its supersystem."@en ;
-    od:SouchkovExamples "1) Change temperature, 2) Measure distance, 3) Accumulate heat."@en ;
+    od:SouchkovExample "1) Change temperature, 2) Measure distance, 3) Accumulate heat."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Technical Function"@en, "Техническая функция"@ru .
 
@@ -2255,14 +2255,14 @@ tc:TechnologyEvolution
 tc:TechnologySCurve
     od:SouchkovCategory tc:GeneralTRIZ, tc:TRIZEvolutionTrends ;
     od:SouchkovDefinition "An S-curve presenting a number of more specific S-curves demonstrating evolution of different means based on different operational principles to provide the same main parameter of value."@en ;
-    od:SouchkovExamples "S-curve of evolution of a hammer technology including various operation principles of the hammer's head: mechanical, hydraulic, electromagnetic."@en ;
+    od:SouchkovExample "S-curve of evolution of a hammer technology including various operation principles of the hammer's head: mechanical, hydraulic, electromagnetic."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "S-образная кривая технической области"@ru, "Technology S-Curve"@en .
 
 tc:BankofWorthyGoals
     od:SouchkovCategory tc:GeneralTRIZ, tc:TheoryofCreativeIndividualDevelopment ;
     od:SouchkovDefinition "A database of specifically expressed goals that would considerably contribute to the development of society and solving large-scale problems once achieved."@en ;
-    od:SouchkovExamples "1) To find a cure for cancer, 2) To develop means for instant transportation."@en ;
+    od:SouchkovExample "1) To find a cure for cancer, 2) To develop means for instant transportation."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "The Bank of Worthy Goals"@en, "Фонд Достойных Целей"@ru .
 
@@ -2306,7 +2306,7 @@ tc:TTETool
 tc:TransformableSubstance
     od:SouchkovCategory tc:InventiveStandards ;
     od:SouchkovDefinition "A substance (usually presented by a material) that can be transformed in order to obtain new properties required for solving a problem by subjecting the substance to external action."@en ;
-    od:SouchkovExamples "A liquid substance converts to gaseous when heated to certain degree."@en ;
+    od:SouchkovExample "A liquid substance converts to gaseous when heated to certain degree."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Transformable Substance"@en, "Модифицируемое вещество"@ru .
 
@@ -2535,7 +2535,7 @@ tc:Vepol
 tc:Void
     od:SouchkovCategory tc:ARIZ ;
     od:SouchkovDefinition "A part of space that is not occupied by solid substance."@en ;
-    od:SouchkovExamples "A part of space filled with gas can be considered as void."@en ;
+    od:SouchkovExample "A part of space filled with gas can be considered as void."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Void"@en, "Пустота"@ru .
 
@@ -2561,7 +2561,7 @@ tc:WorseningParameter
 tc:WorthyGoal
     od:SouchkovCategory tc:TheoryofCreativeIndividualDevelopment ;
     od:SouchkovDefinition "A goal that is set up by a creative person that he/she would like to achieve. There are a number of features which identify the worthy goal, for example: a) novelty, b) social value, c) independence, d) scale, e) practicality, f) heresy g) impossibility to achieve at a given moment of time. The worthy goal has to mean a certain specific result with a large technological and social impact rather than an abstract wish. "@en ;
-    od:SouchkovExamples "The goal \"to make life better\" cannot be considered as a worthy goal while the goal \"to develop a method for interstellar travel\" can be considered as worthy."@en ;
+    od:SouchkovExample "The goal \"to make life better\" cannot be considered as a worthy goal while the goal \"to develop a method for interstellar travel\" can be considered as worthy."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:altLabel "Ultimate Goal"@en ;
     skos:prefLabel "Worthy Goal"@en, "Достойная цель"@ru .

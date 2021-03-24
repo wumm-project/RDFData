@@ -25,6 +25,7 @@ directory.
 ### Glossaries and Thesaurus
 
 * Lippert-Glossary.ttl - A small glossary proposed by (Lippert/Cloutier 2019) 
+* Matvienko-Glossary.ttl - A critical glossary proposed by N.N. Matvienko 
 * Souchkov-Glossary.ttl - Souchkov's glossary v. 1.2
 * Thesaurus.ttl - Terminology (102 terms) in 17 languages, extracted from
   <https://www.altshuller.ru/thesaur/thesaur.asp>.
