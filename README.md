@@ -95,3 +95,11 @@ directory __Ontologies__.  See also the README.md in that directory.
 * TBK2-Concepts.ttl - Concepts in the TRIZ Body of Knowledge (2007 Russian
   version) as RDF Data
 
+### Evolution Trees
+
+This are modellings of an ontology (basic evolution tree) and several examples
+of special evolution trees concerning the concept of Evolution Trees developed
+by N. Shpakovsky.
+
+Main work on this part was done by Tom Strempel in the context of the Leipzig
+Seminar in the winter semester 2020/21.

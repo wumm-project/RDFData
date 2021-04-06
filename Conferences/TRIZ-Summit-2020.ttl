@@ -111,7 +111,7 @@ Beim Vergleich von ARIZ-Modifikationen untereinander wird eine Erhöhung des Anw
     od:urlPaper <https://r1.nubex.ru/s828-c8b/f3294_3b/TDS-2020_TRIZ%20Ontology.pdf> ;
     od:urlSlides <https://r1.nubex.ru/s828-c8b/f3236_b7/TDS-2020-Ontology_Intro-prezent.pdf> ;
     od:urlVideo <https://www.youtube.com/watch?v=IXvR3iX5DQ4> ;
-    dcterms:creator odp:Eckardt_O, odp:Kuryan_AG, odp:Rubin_MS, odp:Shchedrin_N ;
+    dcterms:creator odp:Eckardt_O, odp:Kuryan_AG, odp:Rubin_MS, odp:Shchedrin_NA ;
     dcterms:title "TRIZ Ontologie"@de, "TRIZ Ontology"@en, "Онтология ТРИЗ"@ru ;
     a od:Talk .
 
@@ -292,7 +292,7 @@ Im Vortrag wird über Gesetzmäßigkeiten der Stadtentwicklung, die Entwicklung 
     od:urlPaper <https://r1.nubex.ru/s828-c8b/f3212_bf/Rubin-TDS-2020-RUSAL[1].pdf> ;
     od:urlSlides <https://r1.nubex.ru/s828-c8b/f3223_e9/TDS-2020-Rubin-RUSAL-TRIZ-prezent.pdf> ;
     od:urlVideo <https://www.youtube.com/watch?v=uUC6c8F8wfg> ;
-    dcterms:creator odp:Akkubekov_PA, odp:Khronik_A, odp:Krayev_OA, odp:Lopatin_S, odp:Rubin_MS, odp:Shchedrin_N ;
+    dcterms:creator odp:Akkubekov_PA, odp:Khronik_A, odp:Krayev_OA, odp:Lopatin_S, odp:Rubin_MS, odp:Shchedrin_NA ;
     dcterms:title "Development of TRIZ infrastructure at industrial enterprises. Experience of RUSAL"@en, "Entwicklung der TRIZ-Infrastruktur in Industrieunternehmen. Erfahrung von RUSAL"@de, "Развитие инфраструктуры ТРИЗ на промышленных предприятиях. Опыт РУСАЛ"@ru ;
     a od:Talk .
 

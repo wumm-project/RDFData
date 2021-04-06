@@ -315,8 +315,8 @@
 <http://opendiscovery.org/rdf/Standard/S_4.1.1>
     a od:StandardSolution, skos:Concept ;
     skos:broader <http://opendiscovery.org/rdf/Standard/S_4.1> ;
-    skos:example "To protect an electric motor from overheating, a temperature sensor must measure the temperature and initiate actions, and make the poles of the engine from an alloy Curie point just at the temperature where the overheating begins, then the engine stops by itself. "@en, "Um einen Elektromotor vor Überhitzung zu schützen, muß ein Temperatursensor die Temperatur messen und Aktionen initiieren. Fertigt man die Pole des Motors aus einer Legierung mit Curie-Punkt genau bei der Temperatur, wo die Überhitzung beginnt, dann stoppt sich der Motor von selbst."@de, "Чтобы защитить электродвигатель от перегрева, датчик температуры должен измерять температуру и инициировать действия, а также изготавливать опоры двигателя из сплава. Кюри указывает только на температуру, где начинается перегрев, а затем двигатель останавливается сам по себе. "@ru ;
-    skos:prefLabel "Learn Detect and Measure"@en, "Umgehe Erkennen und Messen"@de, "Учиться обнаруживать и измерять"@ru .
+    skos:example "To protect an electric motor from overheating, a temperature sensor must measure the temperature and initiate actions, and make the poles of the engine from an alloy Curie point just at the temperature where the overheating begins, then the engine stops by itself. "@en, "Um einen Elektromotor vor Überhitzung zu schützen, muss ein Temperatursensor die Temperatur messen und Aktionen initiieren. Fertigt man die Pole des Motors aus einer Legierung mit Curie-Punkt genau bei der Temperatur, wo die Überhitzung beginnt, dann stoppt sich der Motor von selbst."@de, "Чтобы защитить электродвигатель от перегрева, датчик температуры должен измерять температуру и инициировать действия, а также изготавливать опоры двигателя из сплава. Кюри указывает только на температуру, где начинается перегрев, а затем двигатель останавливается сам по себе. "@ru ;
+    skos:prefLabel "Learn Detect and Measure"@en, "Lerne Erkennen und Messen"@de, "Учиться обнаруживать и измерять"@ru .
 
 <http://opendiscovery.org/rdf/Standard/S_4.1.2>
     a od:StandardSolution, skos:Concept ;
@@ -327,7 +327,7 @@
 <http://opendiscovery.org/rdf/Standard/S_4.1.3>
     a od:StandardSolution, skos:Concept ;
     skos:broader <http://opendiscovery.org/rdf/Standard/S_4.1> ;
-    skos:example "To measure temperature, you can use thermochromic substances that have a different color depending on the temperature, but are only interested in exceeding a temperature limit, then only two distinct color states are the more efficient way. "@en, "Um Temperatur zu messen, kann man thermochrome Substanzen einsetzen, die je nach Temperatur eine andere Farbe haben. Interessiert jedoch nur das Überschreiten einer Temperaturgrenze, dann sind ausschließlich zwei sicher unterscheidbare Farbzustände der effizientere Weg."@de, "Для измерения температуры можно использовать термохромные вещества, которые имеют разные цвета в зависимости от температуры, но заинтересованы только в превышении температурного предела, тогда только два различных цветовых состояния являются более эффективным способом. "@ru ;
+    skos:example "To measure temperature, you can use thermochromic substances that have a different color depending on the temperature, but are only interested in exceeding a temperature limit, then only two distinct color states are the more efficient way. "@en, "Um Temperatur zu messen, kann man thermochrome Substanzen einsetzen, die je nach Temperatur eine andere Farbe haben. Interessiert jedoch nur das Überschreiten einer Temperaturgrenze, dann sind zwei sicher unterscheidbare Farbzustände der effizientere Weg."@de, "Для измерения температуры можно использовать термохромные вещества, которые имеют разные цвета в зависимости от температуры, но заинтересованы только в превышении температурного предела, тогда только два различных цветовых состояния являются более эффективным способом. "@ru ;
     skos:prefLabel "Ersetze Messen durch zwei aufeinanderfolgende Erkennungsvorgänge"@de, "Replace measurement with two consecutive detection processes"@en, "Заменить измерение двумя последовательными процессами обнаружения"@ru .
 
 <http://opendiscovery.org/rdf/Standard/S_4.2>
@@ -370,7 +370,8 @@
 <http://opendiscovery.org/rdf/Standard/S_4.3.2>
     a od:StandardSolution, skos:Concept ;
     skos:broader <http://opendiscovery.org/rdf/Standard/S_4.3> ;
-    skos:prefLabel "Nutze Resonanzphänomene zur Messung z.B.: Um die Masse eines Festkörpers in einem geschlossen Behälter zu ermitteln, werden mechanische Schwingungen angeregt, deren Frequenz von der Masse abhängt."@de, "Use resonance phenomena to measure, for example: To determine the mass of a solid in a closed container, mechanical vibrations are excited, their frequency from the mass depends. "@en, "Используйте резонансные явления для измерения, например: для определения массы твердого тела в закрытом контейнере возбуждаются механические колебания, их частота зависит от массы зависит. "@ru .
+    skos:prefLabel "Nutze Resonanzphänomene zur Messung."@de, "Use resonance phenomena to measure. "@en, "Используйте резонансные явления для измерения. "@ru ;
+    skos:prefLabel "Um die Masse eines Festkörpers in einem geschlossen Behälter zu ermitteln, werden mechanische Schwingungen angeregt, deren Frequenz von der Masse abhängt."@de, "To determine the mass of a solid in a closed container, mechanical vibrations are excited, their frequency from the mass depends. "@en, "Для определения массы твердого тела в закрытом контейнере возбуждаются механические колебания, их частота зависит от массы зависит. "@ru .
 
 <http://opendiscovery.org/rdf/Standard/S_4.3.3>
     a od:StandardSolution, skos:Concept ;
@@ -405,12 +406,12 @@
 <http://opendiscovery.org/rdf/Standard/S_4.4.5>
     a od:StandardSolution, skos:Concept ;
     skos:broader <http://opendiscovery.org/rdf/Standard/S_4.4> ;
-    skos:prefLabel "Nutze die Effekte-Datenbank (Curie-Punkt, Hopkins- und Barkhausen-Effekt), magnetoelastische Effekte, etc.)."@de, "Use the effects database (Curie point, Hopkins and Barkhausen effect), magnetoelastic effects, etc.)."@en, "Используйте базу данных эффектов (точка Кюри, эффект Хопкинса и Баркгаузена), магнитоупругие эффекты и т. д.)."@ru .
+    skos:prefLabel "Nutze die Effekte-Datenbank (Curie-Punkt, Hopkins- und Barkhausen-Effekt), magnetoelastische Effekte, etc."@de, "Use the effects database (Curie point, Hopkins and Barkhausen effect), magnetoelastic effects, etc."@en, "Используйте базу данных эффектов (точка Кюри, эффект Хопкинса и Баркгаузена), магнитоупругие эффекты и т. д."@ru .
 
 <http://opendiscovery.org/rdf/Standard/S_4.5>
     a od:StandardSolution, skos:Concept ;
     skos:broader :S_4 ;
-    skos:prefLabel "Evolution of Recognize and Measure"@en, "Evolution von Erkenn und Messen"@de, "Эволюция распознавания и измерения"@ru .
+    skos:prefLabel "Evolution of Recognize and Measure"@en, "Evolution von Erkennen und Messen"@de, "Эволюция распознавания и измерения"@ru .
 
 <http://opendiscovery.org/rdf/Standard/S_4.5.1>
     a od:StandardSolution, skos:Concept ;
@@ -446,13 +447,13 @@
 <http://opendiscovery.org/rdf/Standard/S_5.1.3>
     a od:StandardSolution, skos:Concept ;
     skos:broader <http://opendiscovery.org/rdf/Standard/S_5.1> ;
-    skos:example "Der temporär eingeführte Stoff erfällt nach erfolgreicher Aktion oder wird chemisch zersetzt."@de, "The temporarily introduced substance will fail after a successful action or will be chemically decomposed."@en, "Временно введенное вещество выйдет из строя после успешного действия или будет химически разложено."@ru ;
+    skos:example "Der temporär eingeführte Stoff zerfällt nach erfolgreicher Aktion oder wird chemisch zersetzt."@de, "The temporarily introduced substance will fail after a successful action or will be chemically decomposed."@en, "Временно введенное вещество выйдет из строя после успешного действия или будет химически разложено."@ru ;
     skos:prefLabel "Nutze die Selbstelimination von Stoffen"@de, "Use self-elimination of substances"@en, "Используйте самоликвидацию веществ"@ru .
 
 <http://opendiscovery.org/rdf/Standard/S_5.1.4>
     a od:StandardSolution, skos:Concept ;
     skos:broader <http://opendiscovery.org/rdf/Standard/S_5.1> ;
-    skos:example "By using foams, it is possible to meet both demands for low mass and high volume of material (volume) (voids in excess)."@en, "Lässt sich durch Nutzung von Schaumstoffen beiden Forderungen nach wenig Masse und viel Stoffmenge (Volumen) Rechnung tragen (Hohlräume im Überschuss)."@de, "Используя пенопласт, можно удовлетворить как потребности в малой массе и большом объеме материала (объем) (пустоты в избытке)."@ru ;
+    skos:example "By using foams, it is possible to meet both demands for low mass and high volume of material (volume) (voids in excess)."@en, "Durch Nutzung von Schaumstoffen lässt sich beiden Forderungen nach wenig Masse und viel Volumen Rechnung tragen (Hohlräume im Überschuss)."@de, "Используя пенопласт, можно удовлетворить как потребности в малой массе и большом объеме материала (объем) (пустоты в избытке)."@ru ;
     skos:prefLabel "Nutze Stoffe im Überschuss"@de, "Use substances in excess"@en, "Используйте вещества в избытке"@ru .
 
 <http://opendiscovery.org/rdf/Standard/S_5.2>
@@ -473,7 +474,7 @@
 <http://opendiscovery.org/rdf/Standard/S_5.2.3>
     a od:StandardSolution, skos:Concept ;
     skos:broader <http://opendiscovery.org/rdf/Standard/S_5.2> ;
-    skos:example "magnetic materials."@en, "magnetische Stoffe."@de, "магнитные материалы"@ru ;
+    skos:example "Magnetic materials."@en, "Magnetische Stoffe."@de, "Магнитные материалы"@ru ;
     skos:prefLabel "Nutze felderzeugende Stoffe"@de, "Use field-generating substances"@en, "Использовать вещества, генерирующие поле"@ru .
 
 <http://opendiscovery.org/rdf/Standard/S_5.3>
@@ -489,7 +490,7 @@
 <http://opendiscovery.org/rdf/Standard/S_5.3.2>
     a od:StandardSolution, skos:Concept ;
     skos:broader <http://opendiscovery.org/rdf/Standard/S_5.3> ;
-    skos:example "Wasser und Eis zusammen fixieren die Temperatur auf genau 0° Celsius."@de, "Water and ice together fix the temperature at exactly 0 ° Celsius."@en, "Вода и лед вместе устанавливают температуру ровно 0 ° по Цельсию."@ru ;
+    skos:example "Wasser und Eis zusammen fixieren die Temperatur auf genau 0° Celsius."@de, "Water and ice together fix the temperature at exactly 0° Celsius."@en, "Вода и лед вместе устанавливают температуру ровно 0° по Цельсию."@ru ;
     skos:prefLabel "Nutze verschiedene Aggregatzustände oder Phasen eines Stoffes in Abhängigkeit von den Arbeitsbedingungen"@de, "Use different states of matter or phases of a substance depending on the working conditions"@en, "Использовать два состояния вещества или фазы вещества"@ru .
 
 <http://opendiscovery.org/rdf/Standard/S_5.3.3>

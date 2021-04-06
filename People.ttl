@@ -1227,6 +1227,11 @@ odp:Ikovenko_SA
     foaf:fullname "Иковенко Сергей Александрович"@ru ;
     foaf:name "Sergey Ikovenko" .
 
+odp:Ilovaisky_IV
+    a foaf:Person ;
+    foaf:fullname "Иловайский Игорь Вячеславович"@ru ;
+    foaf:name "Igor V. Ilovaisky" .
+
 odp:Ilyin_IY
     a foaf:Person ;
     foaf:affil "Russia" ;
@@ -1368,6 +1373,12 @@ odp:Kandelinsky_S
     foaf:fullname "Канделинский Сергей"@ru ;
     foaf:name "Sergey Kandelinsky" .
 
+odp:Kaner_VF
+    a foaf:Person ;
+    foaf:affil "Russia" ;
+    foaf:fullname "Канер Вадим Фроимович"@ru ;
+    foaf:name "Vadim F. Kaner" .
+
 odp:Kang_SH
     a foaf:Person ;
     foaf:name "Seunghyun Kang" .
@@ -1384,7 +1395,7 @@ odp:Kang_TW
 odp:Kang_YJ
     a foaf:Person ;
     foaf:affil "South Korea" ;
-    foaf:name "Young–Ju Kang" .
+    foaf:name "Young-Ju Kang" .
 
 odp:Kaplan_LA
     a foaf:Person ;
@@ -1505,7 +1516,12 @@ odp:Kim_JH
 odp:Kim_JY
     a foaf:Person ;
     foaf:affil "South Korea" ;
-    foaf:name "Jae Yeon Kim", "Jinyong Kim" .
+    foaf:name "Jae Yeon Kim" .
+
+odp:Kim_JinY
+    a foaf:Person ;
+    foaf:affil "South Korea" ;
+    foaf:name "Jinyong Kim" .
 
 odp:Kim_MS
     a foaf:Person ;
@@ -2140,7 +2156,7 @@ odp:Mazzuchi_TA
     a foaf:Person ;
     foaf:name "T.A. Mazzuchi" .
 
-odp:Medvedev_AV
+odp:Medvedyev_AV
     a foaf:Person ;
     foaf:affil "Russia" ;
     foaf:fullname "Медведев Александр Витальевич"@ru ;
@@ -2237,7 +2253,6 @@ odp:Mitrofanov_VV
 odp:Mlynarski_M
     a foaf:Person ;
     foaf:affil "Poland" ;
-    foaf:fullname "Митрофанов Волюслав Владимирович"@ru ;
     foaf:name "Maciej Młynarski" .
 
 odp:Mogilin_AA
@@ -2337,7 +2352,12 @@ odp:Narbut_AF
     a foaf:Person ;
     foaf:affil "Ukraina" ;
     foaf:fullname "Нарбут Александр Федорович"@ru ;
-    foaf:name "Alexander Narbut" .
+    foaf:name "Alexander F. Narbut" .
+
+odp:Narbut_NN
+    a foaf:Person ;
+    foaf:fullname "Нарбут Наталья Николаевна"@ru ;
+    foaf:name "Natalya N. Narbut" .
 
 odp:Nekhoroshkin_NI
     a foaf:Person ;
@@ -2805,6 +2825,11 @@ odp:Salikhzyanov_R
     foaf:fullname "Салихзянов Радик"@ru ;
     foaf:name "Radik Salikhzyanov" .
 
+odp:Salnikov_VN
+    a foaf:Person ;
+    foaf:fullname "Сальников Вадим Николаевич"@ru ;
+    foaf:name "Vadim N. Salnikov" .
+
 odp:Samet_A
     a foaf:Person ;
     foaf:affil "Strasbourg, France" ;
@@ -2885,12 +2910,6 @@ odp:Schueler-Hainsch_E
     foaf:affil "ZMI Strategy Consulting, Germany" ;
     foaf:name "Eckhard Schueler-Hainsch" .
 
-odp:Schusterman_MN
-    a foaf:Person ;
-    foaf:affil "Norilsk, Russia" ;
-    foaf:fullname "Шустерман Михаил Наумович"@ru ;
-    foaf:name "Michail Schusterman" .
-
 odp:Sedykh_P
     a foaf:Person ;
     foaf:affil "Algorithm Ltd., Russia" ;
@@ -2942,10 +2961,15 @@ odp:Shapiro_RB
     a foaf:Person ;
     foaf:name "R.B. Shapiro" .
 
-odp:Shchedrin_N
+odp:Sharapov_MI
+    a foaf:Person ;
+    foaf:fullname "Шарапов Михаил Иванович"@ru ;
+    foaf:name "Mikhail Sharapov" .
+
+odp:Shchedrin_NA
     a foaf:Person ;
     foaf:affil "Moscow, Russia" ;
-    foaf:fullname "Щедрин Николай"@ru ;
+    foaf:fullname "Щедрин Николай Александрович"@ru ;
     foaf:name "Nikolai Shchedrin" .
 
 odp:Shchinnikov_A
@@ -3168,7 +3192,7 @@ odp:Song_XL
 odp:Song_YW
     a foaf:Person ;
     foaf:affil "South Korea" ;
-    foaf:name "Yongwon Song" .
+    foaf:name "Yong Won Song" .
 
 odp:Song_ZT
     a foaf:Person ;
@@ -3827,8 +3851,8 @@ odp:Zlotin_BL
 
 odp:Zlotina_ES
     a foaf:Person ;
-    foaf:fullname "Злотина Э.С."@ru ;
-    foaf:name "E.S. Zlotina" .
+    foaf:fullname "Злотина Эсфирь Семеновна"@ru ;
+    foaf:name "Esther S. Zlotina" .
 
 odp:Zobel_D
     a foaf:Person ;

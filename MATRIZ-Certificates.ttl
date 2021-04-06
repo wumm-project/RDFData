@@ -14,9 +14,9 @@
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     a owl:Ontology ;
-    rdfs:comment """2021-03-20 graebe: MATRIZ certificates level 4..5 od
-    people in the WUMM People database, aligned with the lit of all certificates""" ;
-    rdfs:label "TRIZ Database - Selected MATRIZ Certificates" ;
+    rdfs:comment "2021-03-20 graebe: MATRIZ certificates level 4..5",
+    "2021-03-26 graebe: aligned with People.ttl" ;
+    rdfs:label "TRIZ Database - MATRIZ Certificates Level 4 and 5" ;
     owl:imports <http://opendiscovery.org/rdf/People/> .
 
 odp:Abramov_OY
@@ -273,6 +273,10 @@ odp:Ikovenko_SA
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_54>, <http://opendiscovery.org/rdf/Certificate/5_68> ;
     od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 .
 
+odp:Ilovaisky_IV
+    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_20> ;
+    od:theLevel tc:CertificateLevel5 .
+
 odp:Ilyin_IY
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_36> ;
     od:theLevel tc:CertificateLevel4 .
@@ -317,13 +321,9 @@ odp:Kang_YJ
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_82>, <http://opendiscovery.org/rdf/Certificate/5_77> ;
     od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 .
 
-odp:Kaplan_L
-    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_19> ;
-    od:theLevel tc:CertificateLevel4 .
-
 odp:Kaplan_LA
-    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_80> ;
-    od:theLevel tc:CertificateLevel5 .
+    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_19>, <http://opendiscovery.org/rdf/Certificate/5_80> ;
+    od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 .
 
 odp:Kashkarov_AG
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_37>, <http://opendiscovery.org/rdf/Certificate/5_74> ;
@@ -353,24 +353,16 @@ odp:Kim_JY
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_109>, <http://opendiscovery.org/rdf/Certificate/5_107> ;
     od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 .
 
-odp:Kim_M
-    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_91> ;
-    od:theLevel tc:CertificateLevel4 .
-
 odp:Kim_MS
-    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_103> ;
-    od:theLevel tc:CertificateLevel5 .
+    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_91>, <http://opendiscovery.org/rdf/Certificate/5_103> ;
+    od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 .
 
 odp:Kim_SC
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_103> ;
     od:theLevel tc:CertificateLevel4 .
 
-odp:Kim_Y
-    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_67> ;
-    od:theLevel tc:CertificateLevel4 .
-
 odp:Kim_YS
-    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_107> ;
+    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_107>, <http://opendiscovery.org/rdf/Certificate/4_67> ;
     od:theLevel tc:CertificateLevel4 .
 
 odp:Kislov_AV
@@ -433,6 +425,10 @@ odp:Ladoshkin_VS
 odp:Lebedev_YV
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_97>, <http://opendiscovery.org/rdf/Certificate/5_102> ;
     od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 .
+
+odp:Lee_A
+    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_135> ;
+    od:theLevel tc:CertificateLevel4 .
 
 odp:Lee_HC
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_92> ;
@@ -507,13 +503,9 @@ odp:Mayer_O
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_108>, <http://opendiscovery.org/rdf/Certificate/5_106> ;
     od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 .
 
-odp:Medvedev_AV
-    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_40> ;
-    od:theLevel tc:CertificateLevel4 .
-
 odp:Medvedyev_AV
-    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_95> ;
-    od:theLevel tc:CertificateLevel5 .
+    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_40>, <http://opendiscovery.org/rdf/Certificate/5_95> ;
+    od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 .
 
 odp:Meerovich_MI
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_33> ;
@@ -527,13 +519,9 @@ odp:MinSoo_K
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_96> ;
     od:theLevel tc:CertificateLevel4 .
 
-odp:Minaker_V
-    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_102> ;
-    od:theLevel tc:CertificateLevel4 .
-
 odp:Minaker_VE
-    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_91> ;
-    od:theLevel tc:CertificateLevel5 ;
+    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_102>, <http://opendiscovery.org/rdf/Certificate/5_91> ;
+    od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 ;
     org:memberOf od:TRIZMasterCouncil .
 
 odp:Mitrofanov_VV
@@ -554,6 +542,10 @@ odp:Na_H
 
 odp:Narbut_AF
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_38> ;
+    od:theLevel tc:CertificateLevel5 .
+
+odp:Narbut_NN
+    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_39> ;
     od:theLevel tc:CertificateLevel5 .
 
 odp:Nesterenko_AA
@@ -640,6 +632,10 @@ odp:Salamatov_YP
     od:theLevel tc:CertificateLevel5 ;
     org:memberOf od:TRIZMasterCouncil .
 
+odp:Salnikov_VN
+    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_50> ;
+    od:theLevel tc:CertificateLevel5 .
+
 odp:Samochvalov_JV
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_10> ;
     od:theLevel tc:CertificateLevel4 .
@@ -665,6 +661,10 @@ odp:Severinets_GA
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_51>, <http://opendiscovery.org/rdf/Certificate/5_98> ;
     od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 ;
     org:memberOf od:TRIZMasterCouncil .
+
+odp:Sharapov_MI
+    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_64> ;
+    od:theLevel tc:CertificateLevel5 .
 
 odp:Shin_DL
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_59> ;
@@ -794,6 +794,10 @@ odp:Waldman_MK
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_29> ;
     od:theLevel tc:CertificateLevel4 .
 
+odp:Wessner_J
+    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_129> ;
+    od:theLevel tc:CertificateLevel4 .
+
 odp:Yatsunenko_S
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_125> ;
     od:theLevel tc:CertificateLevel4 .
@@ -820,6 +824,10 @@ odp:Zinovkina_MM
 
 odp:Zlotin_BL
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_15> ;
+    od:theLevel tc:CertificateLevel5 .
+
+odp:Zlotina_ES
+    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_17> ;
     od:theLevel tc:CertificateLevel5 .
 
 odp:Zusman_AV
