@@ -46,13 +46,14 @@ directory.
 
 ### Evolution Tree
 
-A conceptualisation of the TRIZ Evolution Trees as developed in (Shpakovsky 2016). 
+A conceptualisation of the TRIZ Evolution Trees as developed in (Shpakovsky
+2016).
 
 * EvolutionTrees/AircraftPropulsionDeviceExample.ttl - Application to the
   Aircraft Propulsion Device Evolution described in a paper of N. Shpakovsky
 * EvolutionTrees/BoatExample.ttl - Application to the Boat Evolution in
   (Koltze/Souchkov 2018)
 * EvolutionTrees/EvolutionTrees.ttl  - The Evolution Tree Ontology (ETO)
-* EvolutionTrees/ScreenExample.ttl - Application to the Screen Evolution in
+* EvolutionTrees/DisplayExample.ttl - Application to the Display Evolution in
   (Shpakovsky 2016)
 

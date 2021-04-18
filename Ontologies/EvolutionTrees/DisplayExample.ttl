@@ -6,18 +6,19 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
 @prefix tc: <http://opendiscovery.org/rdf/Concept/> .
-@prefix ex: <http://example.orf/EvolutionExample/> .
+@prefix ex: <http://opendiscovery.org/rdf/DisplayEvolution/> .
 
-<http://opendiscovery.org/rdf/Ontologies/ScreenExample/>
+<http://opendiscovery.org/rdf/Ontologies/DisplayExample/>
     cc:attributionName "The Open Discovery Project" ;
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     a owl:Ontology ;
-    rdfs:comment "from Tree of Technology Evolution";
-    skos:prefLabel "Evolution Trees - an Example" ;
-    owl:imports <http://opendiscovery.org/rdf/Ontologies/EvolutionTrees/> .
+    rdfs:comment "from Tree of Technology Evolution",
+    "2021-04-18 graebe: Name changed to DisplayExample" ;
+    skos:prefLabel "Evolution Trees - the Display Evolution Example" ;
+    owl:imports <http://opendiscovery.org/rdf/Ontologies/GeneralConcepts/> .
 
-# makes modelling easier
+# model specific evoultion patterns
 ex:transitionsTo 
     a rdf:Property, skos:Concept ;
     skos:prefLabel "Transition without changing the object"@en .
@@ -27,7 +28,7 @@ ex:segmentation
     skos:prefLabel "Segment the object"@en .
 
 # specific evolution tree of the screen
-ex:Screen
+ex:DisplayEvolution
     a tc:SpecificEvolutionTree ;
     skos:prefLabel "Specific evolution tree of the screen"@en ;
     skos:altLabel "Specific evolution tree of the display"@en .
