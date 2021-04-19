@@ -1,17 +1,14 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix cc: <http://creativecommons.org/ns#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
 @prefix tc: <http://opendiscovery.org/rdf/Concept/> .
-@prefix tc: <http://opendiscovery.org/rdf/Principle/> .
-
-@prefix cc: <http://creativecommons.org/ns#> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
 
 <http://opendiscovery.org/rdf/BIB/Book/9781539892182>
     dc:language "en"^^dcterms:RFC4646 ;
@@ -19,7 +16,6 @@
     dcterms:creator tc:Shpakovsky_NA ;
     dcterms:issued "2016"^^dcterms:W3CDTF ;
     dcterms:title "Tree of Technology Evolution"@en ;
-    dcterms:abstract """multiline abstract""" ;
     bibo:isbn "9781539892182" ;
     a od:TRIZ-Book .
 
@@ -28,7 +24,9 @@
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     a owl:Ontology ;
-    rdfs:comment "";
+    dcterms:source <http://opendiscovery.org/rdf/BIB/Book/9781539892182> ;
+    rdfs:comment "compiled by Tom Strempel. Leipzig-Seminar, Winter term 2020/21",
+    "2021-04-19 graebe: tc:CTS added" ;
     rdfs:label "WUMM TRIZ Ontology - Evolution Trees" ;
     owl:imports <http://opendiscovery.org/rdf/Ontologies/GeneralConcepts/> .
 
@@ -39,6 +37,10 @@ tc:EvolutionTree
     od:hasSubConcept tc:EvolutionPattern ;
     a skos:Concept, od:AdditionalConcept ;
     skos:prefLabel "Evolutionsbaum"@de, "Evolution trees"@en .
+
+tc:CTS
+    a skos:Concept, od:AdditionalConcept ;
+    skos:prefLabel "Class of Technical Systems"@de, "Klasse technischer Systeme"@en .
 
 tc:EvolutionPattern
     od:subConceptOf tc:EvolutionTree ;
