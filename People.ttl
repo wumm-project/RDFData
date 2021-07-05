@@ -90,8 +90,8 @@ odp:Altshuller_GS
 
 odp:Aminov_RB
     a foaf:Person ;
-    foaf:fullname "Аминов Р.Б."@ru ;
-    foaf:name "R.B. Aminov" .
+    foaf:fullname "Аминов Рустем Булатович"@ru ;
+    foaf:name "Rustem B. Aminov" .
 
 odp:Amnuel_PR
     a foaf:Person ;
@@ -102,6 +102,10 @@ odp:Amnuel_PR
 odp:Andersen_B
     a foaf:Person ;
     foaf:name "B. Andersen" .
+
+odp:Andrushchenko_M
+    a foaf:Person ;
+    foaf:name "Miroslav Andrushchenko" .
 
 odp:Arel_AT
     a foaf:Person ;
@@ -149,6 +153,11 @@ odp:Baaijens_H
     a foaf:Person ;
     foaf:affil "Philips Lighting, The Netherlnds" ;
     foaf:name "Hans Baaijens" .
+
+odp:Babko_A
+    a foaf:Person ;
+    foaf:affil "Minsk, Belarus" ;
+    foaf:name "Aliaksandr Babko" .
 
 odp:Badura_A
     a foaf:Person ;
@@ -303,7 +312,7 @@ odp:Bogatyreva_OA
 
 odp:Boika_S
     a foaf:Person ;
-    foaf:name "Sergej Boika" .
+    foaf:name "Siarhei Boika" .
 
 odp:Boko_A
     a foaf:Person ;
@@ -418,6 +427,12 @@ odp:Burov_LG
     foaf:affil "Russia" ;
     foaf:fullname "Буров Лев Григорьевич"@ru ;
     foaf:name "Leo Burov" .
+
+odp:Bushuyev_AB
+    a foaf:Person ;
+    foaf:affil "Russia" ;
+    foaf:fullname "Бушуев Александр Борисович"@ru ;
+    foaf:name "Alexander B. Bushuyev" .
 
 odp:Bystritsky_AA
     a foaf:Person ;
@@ -839,6 +854,7 @@ odp:Florian_AV
 odp:Fomenko_A
     a foaf:Person ;
     foaf:affil "Moscow, Russia" ;
+    foaf:fullname "Фоменко Алексей"@ru ;
     foaf:name "Aleksej Fomenko" .
 
 odp:Fowlkes_WY
@@ -1242,6 +1258,12 @@ odp:Ishak_AA
     a foaf:Person ;
     foaf:name "A.A. Ishak" .
 
+odp:Ivanov_A
+    a foaf:Person ;
+    foaf:affil "Minsk, Belarus" ;
+    foaf:fullname "Иванов Антон"@ru ;
+    foaf:name "Anton Ivanov" .
+
 odp:Ivanov_GI
     a foaf:Person ;
     foaf:affil "Angarsk, Russia" ;
@@ -1452,11 +1474,11 @@ odp:Kengerli_TA
     foaf:fullname "Кенгерли Т.А."@ru ;
     foaf:name "T.A. Kengerli" .
 
-odp:Kharitonov_A
+odp:Kharitonov_AS
     a foaf:Person ;
     foaf:affil "Moscow, Russia" ;
-    foaf:fullname "Харитонов Антон"@ru ;
-    foaf:name "Anton Kharitonov" .
+    foaf:fullname "Харитонов Антон Сергеевич"@ru ;
+    foaf:name "Anton S. Kharitonov" .
 
 odp:Kholkin_IN
     a foaf:Person ;
@@ -1705,11 +1727,11 @@ odp:Kukalev_SV
     foaf:fullname "Кукалев Сергей Васильевич"@ru ;
     foaf:name "Sergei Kukalev" .
 
-odp:Kulakov_A
+odp:Kulakov_AV
     a foaf:Person ;
     foaf:affil "Moscow, Russia" ;
-    foaf:fullname "Кулаков Антон"@ru ;
-    foaf:name "Anton Kulakov" .
+    foaf:fullname "Кулаков Антон Васильевич"@ru ;
+    foaf:name "Anton V. Kulakov" .
 
 odp:Kulakov_KE
     a foaf:Person ;
@@ -1878,7 +1900,7 @@ odp:Lesourd_J
 odp:Levenchuk_A
     a foaf:Person ;
     foaf:affil "Moscow, Russia" ;
-    foaf:fullname "Левенчук  Анатолий"@ru ;
+    foaf:fullname "Левенчук Анатолий"@ru ;
     foaf:homepage <https://ailev.livejournal.com/> ;
     foaf:name "Anatoly Levenchuk" .
 
@@ -2114,7 +2136,7 @@ odp:Markosov_SA
 odp:Martinovskij_G
     a foaf:Person ;
     foaf:affil "EPAM Systems, Главный бизнес консультант"@ru ;
-    foaf:name "Georgij Martinovskij" .
+    foaf:name "Georgii Marsinovskii" .
 
 odp:Martynov_A
     a foaf:Person ;
@@ -2128,8 +2150,8 @@ odp:MasUdah
 odp:Matvienko_NN
     a foaf:Person ;
     foaf:affil "Russia" ;
-    foaf:fullname "Матвиенко Н. Н."@ru ;
-    foaf:name "N. N. Matvienko" .
+    foaf:fullname "Матвиенко Н. Николай"@ru ;
+    foaf:name "Nikolai N. Matvienko" .
 
 odp:Matyushenko_AV
     a foaf:Person ;
@@ -2592,11 +2614,11 @@ odp:Pinyayev_AM
     foaf:fullname "Пиняев Алексей Михайлович"@ru ;
     foaf:name "Aleksey M. Pinyayev" .
 
-odp:Plaksin_M
+odp:Plaksin_MA
     a foaf:Person ;
     foaf:affil "Perm, Russia" ;
-    foaf:fullname "Плаксин Михаил"@ru ;
-    foaf:name "Michail Plaksin" .
+    foaf:fullname "Плаксин Михаил Александрович"@ru ;
+    foaf:name "Michail A. Plaksin" .
 
 odp:Platek_R
     a foaf:Person ;
@@ -2848,6 +2870,7 @@ odp:Sarkani_S
 odp:Saunin_N
     a foaf:Person ;
     foaf:affil "Moscow, Russia" ;
+    foaf:fullname "Саунин Николай"@ru ;
     foaf:name "Nikolaj Saunin" .
 
 odp:Savelli_S
@@ -3384,6 +3407,12 @@ odp:Torgashev_AS
     foaf:affil "Russia" ;
     foaf:fullname "Торгашев Александр Сергеевич"@ru ;
     foaf:name "Aleksander Torgashev" .
+
+odp:Trantin_AV
+    a foaf:Person ;
+    foaf:affil "Russia" ;
+    foaf:fullname "Трантин Александр Владимирович"@ru ;
+    foaf:name "Alexander V. Trantin" .
 
 odp:Trigub_AV
     a foaf:Person ;

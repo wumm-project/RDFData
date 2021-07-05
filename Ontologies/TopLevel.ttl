@@ -164,8 +164,7 @@ tc:SystemOperator
     a skos:Concept, od:TopLevelConcept ;
     skos:prefLabel "System operator"@en, "Systemoperator"@de, "Systemoperator"@ru .
 
-tc:TRIZ
-    od:forms tc:ScientificTRIZBase ;
+tc:ScientificTRIZBase 
     od:includes tc:DevelopmentInventiveThinking, tc:InventiveProblem, tc:ProfessionalInstitutions, tc:QualifyingSystem, tc:RTV, tc:TRIZApplicationDomains, tc:TRIZHistory, tc:TRIZModel, tc:TRIZTrends, tc:TRTL ;
     a skos:Concept, od:TopLevelConcept ;
     skos:prefLabel "TRIZ"@de, "TRIZ"@en, "ТРИЗ"@ru .
@@ -195,27 +194,27 @@ tc:TRIZModel
     skos:prefLabel "Model of TRIZ"@en, "Modell der TRIZ"@de, "Модель ТРИЗ"@ru .
 
 tc:TRIZSchoolBaku
-    a skos:Concept, od:TopLevelConcept ;
+    a skos:Concept, od:TRIZSchool ;
     skos:prefLabel "TRIZ School in Baku"@en, "TRIZ Schule in Baku"@de, "Школа ТРИЗ в Баку"@ru .
 
 tc:TRIZSchoolGorki
-    a skos:Concept, od:TopLevelConcept ;
+    a skos:Concept, od:TRIZSchool ;
     skos:prefLabel "TRIZ School in Gorki"@en, "TRIZ Schule in Gorki"@de, "Школа ТРИЗ в Горках"@ru .
 
 tc:TRIZSchoolKishinev
-    a skos:Concept, od:TopLevelConcept ;
+    a skos:Concept, od:TRIZSchool ;
     skos:prefLabel "TRIZ School In Kishinev"@en, "TRIZ Schule In Kischinjow"@de, "Школа ТРИЗ в Кишиневе"@ru .
 
 tc:TRIZSchoolKrasnoyarsk
-    a skos:Concept, od:TopLevelConcept ;
+    a skos:Concept, od:TRIZSchool ;
     skos:prefLabel "TRIZ School in Krasnoyarsk"@en, "TRIZ Schule im Krasnojarsk"@de, "Школа ТРИЗ в Красноярске"@ru .
 
 tc:TRIZSchoolLeningrad
-    a skos:Concept, od:TopLevelConcept ;
+    a skos:Concept, od:TRIZSchool ;
     skos:prefLabel "TRIZ School in Leningrad"@en, "TRIZ Schule in Leningrad"@de, "Школа ТРИЗ в Ленинграде"@ru .
 
 tc:TRIZSchoolMinsk
-    a skos:Concept, od:TopLevelConcept ;
+    a skos:Concept, od:TRIZSchool ;
     skos:prefLabel "TRIZ School in Minsk"@en, "TRIZ Schule in Minsk"@de, "Школа ТРИЗ в Минске"@ru .
 
 tc:TRIZSchools
