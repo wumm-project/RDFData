@@ -19,8 +19,9 @@
     "2019-10-05 graebe: A first raw translation to Russian and English added",
     "2020-01-12 graebe: Adjustment of the German terms with (Koltze/Souchkov 2017)",
     "2020-04-16 graebe: namespace abbreviation and principle names fixed",
-    "2020-07-12 graebe: od:hasRecommendation split off, Altshuller73 Ids added" ,
-    "2021-02-27 graebe: Lippert-2019 Glossary added, URIs translated to namespace tc:" ;
+    "2020-07-12 graebe: od:hasRecommendation split off, Altshuller73 Ids added",
+    "2021-02-27 graebe: Lippert-2019 Glossary added, URIs translated to namespace tc:" ,
+    "2021-07-17 graebe: Matrix2003 Ids from Stelzle's work added";
     rdfs:label "TRIZ Database - The 40 Principles" .
 
 od:Principle
@@ -29,6 +30,7 @@ od:Principle
 
 tc:Asymmetry
     od:LippertGlossaryNote "Asymmetry is the process of transitioning from isotropic to anisotropic or vice-versa. That is, a property invariant with respect to direction of measurement will transition to a property that differs according to the direction of measurement."@en, "In computer and systems science, customization could result in this type of change."@en, "In manufacturing, asymmetry in parts reduces errors in assembly [39]. This exemplifies changing the shape of the object or system to suit external asymmetries."@en, "Making something asymmetrical can be challenging, but it is accomplished in many solutions such as dynamic load balancing and resource allocation."@en, "Since engineers seem to have an unconscious bias towards symmetrical design [4], changing symmetry will often result in new innovation."@en ;
+    od:Matrix2003Id "04" ;
     od:hasAltshuller73Id "04" ;
     od:hasAltshuller84Id "04" ;
     od:hasRecommendation tc:Asymmetry_1, tc:Asymmetry_2 ;
@@ -45,6 +47,7 @@ tc:Asymmetry_2
 
 tc:ChangeColorAndTransparency
     od:LippertGlossaryNote "A change in color of a system can enhance value or make it easier to detect change."@en, "As well, objects (or the environment) can be made translucent with this principle."@en, "Graphical user interfaces for computers make excellent use of this principle."@en, "In nature at least, the ability to change color can insure survival [8]."@en, "It can also be used to improve measurement or improve visibility."@en, "State change or status can easily be represented by alteration of color, translucency, and or size."@en ;
+    od:Matrix2003Id "32" ;
     od:hasAltshuller73Id "32" ;
     od:hasAltshuller84Id "32" ;
     od:hasRecommendation tc:ChangeColorAndTransparency_1, tc:ChangeColorAndTransparency_2, tc:ChangeColorAndTransparency_3, tc:ChangeColorAndTransparency_4 ;
@@ -68,6 +71,7 @@ tc:ChangeColorAndTransparency_4
     a od:Recommendation .
 
 tc:ChangePhysicalOrChemicalParameters
+    od:Matrix2003Id "35" ;
     od:hasAltshuller73Id "35" ;
     od:hasAltshuller84Id "35" ;
     od:hasRecommendation tc:ChangePhysicalOrChemicalParameters_1, tc:ChangePhysicalOrChemicalParameters_2 ;
@@ -83,11 +87,12 @@ tc:ChangePhysicalOrChemicalParameters_2
     a od:Recommendation .
 
 tc:CompositeMaterials
+    od:LippertGlossaryNote "In systems engineering, the use of commodity hardware from a variety of sources to create a system creates a composite."@en, "It is the replacement of homogeneous materials with composites."@en, "Such a replacement often results in layering."@en, "The emerging process of mash-ups in the digital domain is an implementation of this principle."@en, "This principle is the opposite of homogeneity."@en ;
+    od:Matrix2003Id "40" ;
     od:hasAltshuller84Id "40" ;
     od:hasRecommendation tc:CompositeMaterials_1 ;
     a od:Principle, skos:Concept ;
-    skos:prefLabel "Principle of the application of composite materials"@en, "Prinzip der Verwendung von Verbundstoffen"@de, "Приём применения составных материалов"@ru ;
-    od:LippertGlossaryNote "In systems engineering, the use of commodity hardware from a variety of sources to create a system creates a composite."@en, "It is the replacement of homogeneous materials with composites."@en, "Such a replacement often results in layering."@en, "The emerging process of mash-ups in the digital domain is an implementation of this principle."@en, "This principle is the opposite of homogeneity."@en .
+    skos:prefLabel "Principle of the application of composite materials"@en, "Prinzip der Verwendung von Verbundstoffen"@de, "Приём применения составных материалов"@ru .
 
 tc:CompositeMaterials_1
     od:description "Convert simple substances into composite ones."@en, "Gehe von einfachen Stoffen zu zusammengesetzten Stoffen über."@de, "Однородные вещества должны быть заменены составными."@ru ;
@@ -100,6 +105,7 @@ tc:Consolidation
 
 tc:ContinuityOfUsefulAction
     od:LippertGlossaryNote "A system with continuous, useful action should remain that way after being updated."@en, "Hardware implementations provide continuous action by avoiding system restarts and by employing continuous refreshing and failover."@en, "Having a constant, continuous flow can eliminate system idleness and sometimes intermediate actions. This principle avoids starting and stopping an action as well as the elimination of nondynamic parts of a flow. It leads to balanced utilization and is also a part of lean manufacturing."@en, "In computer science, continuity of useful action can be extrapolated to the adage “don’t fix what isn’t broken” with regards to upgrading systems."@en, "On the other hand, the continuous action might not be of the system, but of the user of the system which would be the case with software."@en ;
+    od:Matrix2003Id "20" ;
     od:hasAltshuller73Id "20" ;
     od:hasAltshuller84Id "20" ;
     od:hasRecommendation tc:ContinuityOfUsefulAction_1, tc:ContinuityOfUsefulAction_2 ;
@@ -117,6 +123,7 @@ tc:ContinuityOfUsefulAction_2
 
 tc:Copying
     od:LippertGlossaryNote "A copy is a replica of something that is used when the original itself is too valuable to be used."@en, "Computer emulators implement this principle by providing a copy of an operating system or environment."@en, "Computer viruses create multiple copies to achieve a broader distribution than would be possible without it."@en, "Copies can be abstractions, images, dimensional models, or simulations."@en, "For example, approximately 10% of the Vatican library holdings have been digitized so that scholars may “examine” minute details on computer generated images of the originals. (According to the Vatican librarian, the ability to magnify any area of the digitized image has revealed an amazing quantity of information for scholars who would not otherwise be allowed to handle the original materials.)"@en, "Utilizing a copy can allow adjustments in scale and material."@en ;
+    od:Matrix2003Id "26" ;
     od:hasAltshuller73Id "26" ;
     od:hasAltshuller84Id "26" ;
     od:hasRecommendation tc:Copying_1, tc:Copying_2 ;
@@ -133,6 +140,7 @@ tc:Copying_2
 
 tc:Countermass
     od:LippertGlossaryNote "Floating is enabled by weight being countered by hydrodynamic forces; flying is enabled by aerodynamic lift."@en, "In systems engineering, this principle is manifest in distributed architectures where a more uniform distribution of resources is evident."@en, "Other environmental forces that require balancing in digital systems include power, space, cooling, bandwidth constraints, and network latency."@en, "The act of counterbalancing is compensation, or opposition, to bring into balance an environmental force."@en, "The encouragement with this principle is to examine the environment to find existing opposing forces that can be applied."@en, "This can be achieved through a more uniform distribution, or it can be achieved by use of a contrary action or force to alleviate an effect."@en ;
+    od:Matrix2003Id "08" ;
     od:hasAltshuller73Id "08" ;
     od:hasAltshuller84Id "08" ;
     od:hasRecommendation tc:Countermass_1, tc:Countermass_2 ;
@@ -149,6 +157,7 @@ tc:Countermass_2
     a od:Recommendation .
 
 tc:Coupling
+    od:Matrix2003Id "05" ;
     od:hasAltshuller73Id "05" ;
     od:hasAltshuller84Id "05" ;
     od:hasRecommendation tc:Coupling_1 ;
@@ -161,6 +170,7 @@ tc:Coupling_1
 
 tc:Dynamization
     od:LippertGlossaryNote "Computers have enabled a great deal of dynamism by moving print to digital media."@en, "Dynamic scaling is one property of the principle of timesharing found in cloud computing."@en, "It is also possible to divide the object into parts that can change their position relative to one another."@en, "It is also possible to make similar changes in the environment as opposed to the object."@en, "Most recently, programs utilize dynamic load libraries and have dynamic cache, dynamic menus, and dynamic scaling."@en, "One means of implementing this principle is to make the stationary and moveable dimensions interchangeable."@en, "The focus is to change characteristics of the object or environment to achieve optimal performance or action."@en, "This principle focuses on change and adaptability. A system, state, or property is made ephemeral, temporary, moveable, adaptive, flexible, or changeable."@en ;
+    od:Matrix2003Id "15" ;
     od:hasAltshuller73Id "15" ;
     od:hasAltshuller84Id "15" ;
     od:hasRecommendation tc:Dynamization_1, tc:Dynamization_2, tc:Dynamization_3 ;
@@ -181,6 +191,7 @@ tc:Dynamization_3
 
 tc:EarlyCounteraction
     od:LippertGlossaryNote "Counteraction can apply equally to functions, events, and conditions."@en, "Critical to this principal is the recognition that every system has some capacity for unreliability which cannot be eliminated."@en, "Cushioning the system in advance is a means to deal with types of unreliability that cannot be eliminated."@en, "Error-handling routines are programmed into systems anticipating user and system errors."@en, "Fail-overs are designed into systems as protection from component failure."@en, "In digital systems that includes uninterruptible power supplies to cushion against loss of power in critical systems, scheduled backups to safeguard data, timed"@en, "In systems engineering, determining what might go wrong is the foundation for risk management and for potential failure modes analysis."@en, "Preliminary counteraction involves determining what might go wrong in advance and taking a counter action to eliminate, reduce, or prevent the occurrence of the undesirable effect."@en, "RAID storage divides and duplicates information stored on a computer disk because of the assumption that there will be failures on the disk."@en, "Several solutions seen in risk mitigation are applications of this principle."@en, "These analyses examine known failures, invent failures to expose weak points in a design, expose potentially dangerous conditions, and show the effect of (unanticipated) human interaction and exposure of the system to different sources of energy."@en, "These steps are all examples of preliminary counteraction."@en, "Throttling is a mechanism that can control a flow which could overwhelm the receiving system."@en, "releases to prevent blocking in resource access, as well as input handlers that eliminate error [40]."@en ;
+    od:Matrix2003Id "09" ;
     od:hasAltshuller73Id "09" ;
     od:hasAltshuller84Id "09" ;
     od:hasRecommendation tc:EarlyCounteraction_1 ;
@@ -198,6 +209,7 @@ tc:EarlyCounteraction_2
 
 tc:EliminationAndRegenerationOfParts
     od:LippertGlossaryNote "An example of rejecting is a biodegradable packaging material."@en, "In computer programming, the process of garbage collection is a regeneration of computer memory."@en, "In databases, a transaction rollback implements both parts of this principle."@en, "In network communications, packet headers are handled according to this principle."@en, "Regeneration is the repair or restoration of a part so that it might be reused."@en, "Rejecting is removing, discarding, dissolving, or evaporating, a part of an object or system that is no longer needed."@en ;
+    od:Matrix2003Id "34" ;
     od:hasAltshuller73Id "34" ;
     od:hasAltshuller84Id "34" ;
     od:hasRecommendation tc:EliminationAndRegenerationOfParts_1, tc:EliminationAndRegenerationOfParts_2 ;
@@ -218,6 +230,7 @@ tc:Equipotentiality
 * create associations with the system to support equal potential.
 * create uniform potential to achieve a system benefit.
 * establish contiguous relationships and associations."""@en, "This is an integral part of lean manufacturing: eliminating undesirable or wasteful action."@en, "Ultimately, the condition of the work is changed so that it will not require unnecessary movement such as lifting and lowering."@en, "Within a computer, memory swapping helps create uniformity in the access of information."@en ;
+    od:Matrix2003Id "12" ;
     od:hasAltshuller73Id "12" ;
     od:hasAltshuller84Id "12" ;
     od:hasRecommendation tc:Equipotentiality_1 ;
@@ -230,6 +243,7 @@ tc:Equipotentiality_1
 
 tc:Feedback
     od:LippertGlossaryNote "A common application of this principle is a gas pump nozzle which senses the increasing pressure inside the tank to stop the flow of gasoline."@en, "Feedback is some output of a system that is used as a control mechanism for that system."@en, "If a system is already using feedback, the frequency or amplitude of the feedback can be altered, or new sources of feedback can be sought."@en, "In systems engineering, feedback is used as an improvement driver and incremental development of systems relies heavily on feedback."@en, "This output can be a useful or a harmful output."@en ;
+    od:Matrix2003Id "23" ;
     od:hasAltshuller84Id "23" ;
     od:hasRecommendation tc:Feedback_1, tc:Feedback_2 ;
     a od:Principle, skos:Concept ;
@@ -245,6 +259,7 @@ tc:Feedback_2
 
 tc:FlexibleCoversOrThinFilms
     od:LippertGlossaryNote "Flexible membranes, covers, or thin films can replace traditional materials and isolate components, objects, or systems from their environment."@en, "Graphical user interfaces are another example where the separation is between the “guts” of a program and the end user."@en, "In computer systems, middleware can be considered a thin film that separates the algorithms and display from the databases."@en, "These membranes can be layered to achieve the protection desired."@en, "Wrappers (for functions or data) can also be considered as thin films or flexible membranes."@en ;
+    od:Matrix2003Id "30" ;
     od:hasAltshuller73Id "30" ;
     od:hasAltshuller84Id "30" ;
     od:hasRecommendation tc:FlexibleCoversOrThinFilms_1, tc:FlexibleCoversOrThinFilms_2 ;
@@ -261,6 +276,7 @@ tc:FlexibleCoversOrThinFilms_2
 
 tc:Homogeneity
     od:LippertGlossaryNote "Creating homogeneity eliminates translation and transposition."@en, "Homogeneity states that if two or more objects or substances interact, they should consist of the same material, energy, or information."@en, "In information science, this principle can be implemented through abstraction, and can also refer to the creation of a unified data model."@en, "In systems design, homogeneity is achieved by having all the components provided by the same source thereby eliminating the need for integration."@en, "In the digital domain, this principle can be implemented by combining functions that access the same data into a single application."@en, "Marginal homogeneity can also be employed where there are inconsequential differences between the objects or substances."@en, "These interactions can be through action, features, functions or objects."@en ;
+    od:Matrix2003Id "33" ;
     od:hasAltshuller73Id "33" ;
     od:hasAltshuller84Id "33" ;
     od:hasRecommendation tc:Homogeneity_1 ;
@@ -272,6 +288,8 @@ tc:Homogeneity_1
     a od:Recommendation .
 
 tc:InertMedium
+    od:LippertGlossaryNote "A clean room is a good example of an inert environment."@en, "A test environment (harness) for system testing and a virtual sandbox are both examples of inert environments."@en, "An inert environment is a neutral atmosphere or environment that supports a desired function."@en, "Implementation of this principle requires first the determination of what it is which is preventing the desired function and then requires the creation of the inert environment to protect or enable that function."@en, "In operational environments, this would be the removal of extraneous electromagnetic emissions from the environment of the system."@en, "This is often achieved through shielding."@en ;
+    od:Matrix2003Id "39" ;
     od:hasAltshuller84Id "39" ;
     od:hasRecommendation tc:InertMedium_1, tc:InertMedium_2 ;
     a od:Principle, skos:Concept ;
@@ -287,6 +305,7 @@ tc:InertMedium_2
 
 tc:InexpensiveShortLifeObject
     od:LippertGlossaryNote "A common example is that of temporary staffing or computer timesharing."@en, "Cheaper, simpler, or more disposable objects can be used to reduce cost, to increase convenience and to improve the service life of an object."@en, "Disposability often requires a change from complication to simplicity or the replacement of a high cost material with something of lower cost."@en, "Implementing this principle requires a tradeoff of one or more properties."@en, "System and software engineering uses this principle in the development of prototypes that can help improve the actual system being created."@en ;
+    od:Matrix2003Id "27" ;
     od:hasAltshuller73Id "27" ;
     od:hasAltshuller84Id "27" ;
     od:hasRecommendation tc:InexpensiveShortLifeObject_1 ;
@@ -300,6 +319,7 @@ tc:InexpensiveShortLifeObject_1
 
 tc:InverseAction
     od:LippertGlossaryNote "A common manifestation of this principle is a treadmill where the walking person does not advance but instead the “ground” does so."@en, "For example, a moveable part may be made stationary or vice versa; or the object can be turned upside down or inside out."@en, "For example, action vs. no action is not the same as action vs. antiaction."@en, "In computer systems, sorting is approached in this fashion in databases where the indices can be inverted for faster search time."@en, "It is important to understand that there are two possibilities for reverse — one where there is nothing, and one where the opposite is taken."@en, "This principle is focused on thinking of the opposite. In place of a direct action, the opposite action is implemented."@en ;
+    od:Matrix2003Id "13" ;
     od:hasAltshuller73Id "13" ;
     od:hasAltshuller84Id "13" ;
     od:hasRecommendation tc:InverseAction_1, tc:InverseAction_2, tc:InverseAction_3 ;
@@ -321,6 +341,7 @@ tc:InverseAction_3
 
 tc:LocalQuality
     od:LippertGlossaryNote "Another recent transition from a homogeneous structure to a heterogeneous one is in the development of distributed computing platforms such as the cloud."@en, "Changing the characteristics of something in a specific area (location) to gain the desired functionality will, in turn, increase the quality in that area."@en, "Improving local quality can improve efficiency."@en, "In the mechanical world, this type of specialization may be exemplified by a pencil with an eraser at one end. To achieve optimum function, each part must be placed in conditions that favor it."@en, "Local quality can also be achieved by having different parts of an object carry out different functions. Also referred to as specialization, this is observed in service-oriented architecture (SOA)."@en, "Optimum functions can be achieved by varying interactions over time for various characteristics of the system."@en, "Such improvement can result from the transition of a homogeneous to a heterogeneous structure for the object or its environment. This may result in the use of a gradient as that being created to produce multistate memory [38] which can replace binary memory for computer systems."@en, "Systems engineering is working to achieve local quality of systems through localization techniques. One such system that has automated this principle is self-positioning solar panels that can track the movement of the sun and reposition to optimize their energy producing ability."@en ;
+    od:Matrix2003Id "03" ;
     od:hasAltshuller73Id "03" ;
     od:hasAltshuller84Id "03" ;
     od:hasRecommendation tc:LocalQuality_1, tc:LocalQuality_2 ;
@@ -337,6 +358,7 @@ tc:LocalQuality_2
 
 tc:MechanicalVibrations
     od:LippertGlossaryNote "Full and complete utilization of the electromagnetic spectrum also utilizes this principle."@en, "Mechanical vibration requires understanding that a stable system is not always best and recognizes that there is a place for controlled instability or variation."@en, "Scheduling, queue handling, and randomness in systems demonstrate this principle."@en, "This principle is concerned with the use of vibration or oscillation to involve a regular, periodic variation in value about a mean."@en ;
+    od:Matrix2003Id "18" ;
     od:hasAltshuller84Id "18" ;
     od:hasRecommendation tc:MechanicalVibrations_1, tc:MechanicalVibrations_2, tc:MechanicalVibrations_3, tc:MechanicalVibrations_4, tc:MechanicalVibrations_5 ;
     a od:Principle, skos:Concept ;
@@ -365,6 +387,7 @@ tc:MechanicalVibrations_5
 
 tc:Mediator
     od:LippertGlossaryNote "A mediator negotiates a temporary link between incompatible parties, functions, or conditions."@en, "Dedicated devices such as print servers also serve as mediators between computers and a printer and routers serve as mediators on a network."@en, "In system and software engineering, interface engineering accomplishes mediation using wrappers, mappings, and middleware."@en, "It uses an intermediate carrier, a blocker or a process, and any of these can easily be removed once the link is no longer needed."@en, "Mediators exist at interfaces, and they can manifest themselves in many ways."@en ;
+    od:Matrix2003Id "24" ;
     od:hasAltshuller84Id "24" ;
     od:hasRecommendation tc:Mediator_1, tc:Mediator_2 ;
     a od:Principle, skos:Concept ;
@@ -380,6 +403,7 @@ tc:Mediator_2
 
 tc:Nesting
     od:LippertGlossaryNote "Another perspective of nesting is that of an object passing through a void in another object, such as is common in a camera’s zoom lens."@en, "In computer network communication, the use of tunneling is an example of this type of nesting."@en, "In computer science, this is most commonly referred to as encapsulation, in which data and functions are protected from “outside” influence."@en, "In computer systems, nesting of objects is manifest in programming through multiple layers of abstraction and inheritance as well as programming in layered computer network architecture such as the OSI model."@en, "Modulation, where a message signal is conveyed inside another signal that can be physically transmitted, is a type of nesting. "@en, "Nesting is the quality of being made to fit closely, to fit together, or to fit one inside of another."@en, "Nesting optimizes space utilization and can be used to protect objects. Subassemblies can exhibit this quality."@en, "Steganography, the hiding of information within digital images, can also be considered a special form of matrioshka."@en, "These wrappers allow ease of movement of information through a system that might reject the native form. Such wrappers are common in digital communications."@en, "Wrappers are another common artifact of computer data processing systems."@en ;
+    od:Matrix2003Id "07" ;
     od:hasAltshuller73Id "07" ;
     od:hasAltshuller84Id "07" ;
     od:hasRecommendation tc:Nesting_1, tc:Nesting_2 ;
@@ -404,6 +428,7 @@ tc:PartialOrExcessEffect
     skos:altLabel "Partial or Excessive Effect or Action"@en .
 
 tc:PartialOrExcessiveEffect
+    od:Matrix2003Id "16" ;
     od:hasAltshuller73Id "16" ;
     od:hasAltshuller84Id "16" ;
     od:hasRecommendation tc:PartialOrExcessiveEffect_1 ;
@@ -417,6 +442,7 @@ tc:PartialOrExcessiveEffect_1
 
 tc:PeriodicAction
     od:LippertGlossaryNote "Additionally, both uniform and random patterns can be applied to the frequency and amplitude to alter the periodicity of the action."@en, "Continuous actions can be made periodic by changing how the action is done."@en, "In computer screens, the refresh frequency can be altered to suit the viewer’s requirements."@en, "In transmission of images, layers of the image are transmitted through bursts of data transmission providing an increasingly sharper image."@en, "Some major examples of this principle are: burst-mode transmissions, batch processing, and image projection."@en, "Variation can be introduced by changing the frequency or amplitude of the periodic action."@en ;
+    od:Matrix2003Id "19" ;
     od:hasAltshuller73Id "19" ;
     od:hasAltshuller84Id "19" ;
     od:hasRecommendation tc:PeriodicAction_1, tc:PeriodicAction_2, tc:PeriodicAction_3 ;
@@ -438,6 +464,7 @@ tc:PeriodicAction_3
 
 tc:PhaseTransition
     od:LippertGlossaryNote "A change from physical to digital can also be considered a phase transition and is exemplified by the transition from postal mail to electronic mail."@en, "Materials that change phase (gas to liquid, liquid to solid, solid to gas) can be used to implement an effect on an object or system."@en, "Phase transitions are accommodated by alteration of other properties of the material, alterations which include volume changes and altered heat capacity which can be captured for benefit to the system."@en ;
+    od:Matrix2003Id "36" ;
     od:hasAltshuller84Id "36" ;
     od:hasRecommendation tc:PhaseTransition_1 ;
     a od:Principle, skos:Concept ;
@@ -449,6 +476,7 @@ tc:PhaseTransition_1
 
 tc:PneumaticOrHydraulicConstructions
     od:LippertGlossaryNote "Data and information can be compressed for more rapid transmission."@en, "Packing materials utilize this principle in the form of adjustable air bags and moldable forms."@en, "System properties that can be considered for replacement include compressibility, flow, turbulence, springiness, and energy absorption."@en, "The energy absorption property of water is superior to that of air, and water has replaced air to cool microelectronics especially in large computers and data centers [10]."@en, "This principle replaces a solid part of an object with gas or liquid (air or water commonly)."@en ;
+    od:Matrix2003Id "29" ;
     od:hasAltshuller73Id "29" ;
     od:hasAltshuller84Id "29" ;
     od:hasRecommendation tc:PneumaticOrHydraulicConstructions_1 ;
@@ -461,6 +489,7 @@ tc:PneumaticOrHydraulicConstructions_1
 
 tc:PorousMaterials
     od:LippertGlossaryNote "In digital transmissions, protocols often contain “reserved” fields that are unused (or empty) space."@en, "In the physical construction of a system, empty space is left for room to expand the system."@en, "It should not be limited just to materials as it can be applied equally as well to space, time, fields, functions, and information."@en, "Materials (gasses, solids, and liquids) can be made more porous by creating voids. Such voids change the condition of the materials and increase their surface area."@en, "This principle can be utilized to increase air flow or achieve filtering."@en ;
+    od:Matrix2003Id "31" ;
     od:hasAltshuller84Id "31" ;
     od:hasRecommendation tc:PorousMaterials_1, tc:PorousMaterials_2 ;
     a od:Principle, skos:Concept ;
@@ -475,6 +504,7 @@ tc:PorousMaterials_2
     a od:Recommendation .
 
 tc:PreferredAction
+    od:Matrix2003Id "10" ;
     od:hasAltshuller73Id "10" ;
     od:hasAltshuller84Id "10" ;
     od:hasRecommendation tc:PreferredAction_1, tc:PreferredAction_2 ;
@@ -491,6 +521,7 @@ tc:PreferredAction_2
 
 tc:PreliminaryAction
     od:LippertGlossaryNote "In computer systems, preliminary action can be implemented as preprocessing, prefetching, and caching of information. Another means of implementation is to place an object in a position that is in advance of the object’s need, so it can go into action from the most convenient location. Preliminary action is a critical part of lean manufacturing and process improvement and applies to any process that uses materials or information."@en, "One way to implement this principle is by performing required changes to an object completely or partially in advance. This is an anticipatory application; as such, it is preventative maintenance."@en, "Preliminary action can be used to increase performance and safety, as well as to support correct actions and outcomes."@en, "The principle of preliminary action refers to the performance of an action earlier in time than the occurrence of another event."@en, "This principle should not be confused with preliminary counteraction that requires an opposing action."@en ;
+    od:Matrix2003Id "11" ;
     od:hasAltshuller73Id "11" ;
     od:hasAltshuller84Id "11" ;
     od:hasRecommendation tc:PreliminaryAction_1, tc:PreliminaryAction_2 ;
@@ -508,6 +539,7 @@ tc:PreliminaryAction_2
 
 tc:ReplacementOfMechanicalSchemes
     od:LippertGlossaryNote "A good example of an implementation of this principle is the development of voice recognition capabilities that are replacing the keyboard as an interface to a computer."@en, "In systems where there is a human in the loop, the mechanical system can be replaced with a sensory system."@en, "The replacement of mechanical systems with digital systems, such as the replacement of the punched paper tape reader with a computer file system, has been taking place for many years."@en, "These substitutions change or replace the principle of operation."@en, "This principle deals with the substitution of interactions, devices, mechanisms, and systems with physical fields or other forms, actions, and states."@en ;
+    od:Matrix2003Id "28" ;
     od:hasAltshuller84Id "28" ;
     od:hasRecommendation tc:ReplacementOfMechanicalSchemes_1, tc:ReplacementOfMechanicalSchemes_2, tc:ReplacementOfMechanicalSchemes_3 ;
     a od:Principle, skos:Concept ;
@@ -527,6 +559,7 @@ tc:ReplacementOfMechanicalSchemes_3
 
 tc:RushingThrough
     od:LippertGlossaryNote "The speed of the action can be increased to reduce or eliminate the bad effects."@en, "There is no analogy to this in the digital systems domain."@en, "This is why running over hot coals does less damage to the soles of the feet than walking over them would."@en, "This principle is useful when overcoming something that goes wrong at one given speed."@en ;
+    od:Matrix2003Id "21" ;
     od:hasAltshuller73Id "21" ;
     od:hasAltshuller84Id "21" ;
     od:hasRecommendation tc:RushingThrough_1 ;
@@ -539,6 +572,7 @@ tc:RushingThrough_1
 
 tc:Segmentation
     od:LippertGlossaryNote "A third approach applies when an object is already segmented and requires increasing the degree of segmentation. In systems engineering, this is manifest by the definition of increasing levels of sub system definition."@en, "Dividing an object into independent parts results in segmentation."@en, "Division of a means of transport into smaller and smaller independent parts (used to improve air flow) is an innovation that has been applied in improving the cooling of electronics [36]."@en, "In addition, segmentation can alter system properties and introduce new properties."@en, "In keeping with the true sense of division of parts, the application of segmentation to programming is done by object-oriented methods, or functional modularity. This type of segmentation is used in systems engineering to achieve decoupling between systems, to implement service-oriented architecture (SOA), and to develop a work breakdown structure."@en, "In software systems, this segmentation has been proposed to be the division into intelligent agents [18]."@en, "Isolation of the harmful properties into an individual segment allows such properties to be considered independently of the rest of the system."@en, "Making an object sectional — easy to take apart and put together — was an innovation which resulted in “ready to assemble” furniture. When applied to software and systems, this approach invokes the principles of modular design."@en, "Segmentation has already been implemented within computer systems in transitioning from mainframes to personal computers."@en, "Segmentation is the process of dividing a system into parts. Such a division permits the isolation of system properties."@en, "The divisions applied can be real or artificial, psychological, or physical."@en ;
+    od:Matrix2003Id "01" ;
     od:hasAltshuller73Id "01" ;
     od:hasAltshuller84Id "01" ;
     od:hasRecommendation tc:Segmentation_1, tc:Segmentation_2, tc:Segmentation_3 ;
@@ -559,6 +593,7 @@ tc:Segmentation_3
 
 tc:SelfService
     od:LippertGlossaryNote "A common computer example is the automated spelling and grammar checking (in a word processor) which is executed while the user is typing."@en, "Automatic detection and treatment for viruses and worms is also a type of self-service performed by a computer."@en, "Computer viruses and worms are a special case of self-service through self-replication."@en, "It can overlap with feedback for timing and often makes use of excess or wasted material and energy."@en, "One common application of self-service is a self-healing cutting surface."@en, "Programs self-service through autoupdating, and clocks can self-synchronize."@en, "The object services itself, repairs itself, or carries out supplementary useful actions."@en, "The self-service can be the result of physical, chemical, geometric, spatial, or temporal arrangement of actions or objects."@en, "This principle refers to the ability of an object or system to process related functions in conjunction with its primary function."@en ;
+    od:Matrix2003Id "25" ;
     od:hasAltshuller73Id "25" ;
     od:hasAltshuller84Id "25" ;
     od:hasRecommendation tc:SelfService_1, tc:SelfService_2 ;
@@ -575,6 +610,7 @@ tc:SelfService_2
 
 tc:Separation
     od:LippertGlossaryNote "Extracting only the necessary part or property from an object is exemplified by the isolation of a signal from a noisy transmission; or, in the case of computer systems, the extraction of user interface components (monitors and keyboards) from the processing unit."@en, "Extraction can enable reuse and can be formalized through the development of patterns. It implies a refinement of the system."@en, "In a computer system, extraction is represented in the identification and removal of bugs and in the correction of system failures."@en, "In a computer, the removal of heat is an extraction."@en, "In contrast to segmentation, extraction involves the removal of things from the system. Extraction requires the separation of useful or harmful parts or properties from the whole system. This allows what is needed, or conversely what is not needed, to be taken from the system. This can be achieved by extracting the cause of the undesirable property or function."@en, "In process improvement, extraction is achieved by the application of Lean principles [37]."@en, "Similarly, extraction of the disturbing part or property from an object is seen in the development of an X-ray shield that has cut-outs in the shape of the lungs to better protect the parts of the body that do not need to be exposed."@en ;
+    od:Matrix2003Id "02" ;
     od:hasAltshuller73Id "02" ;
     od:hasAltshuller84Id "02" ;
     od:hasRecommendation tc:Separation_1, tc:Separation_2 ;
@@ -592,6 +628,7 @@ tc:Separation_2
 
 tc:SphericalShape
     od:LippertGlossaryNote "Basic structuring of networks and information also show a shift from more linear"@en, "Circular buffering also demonstrates this principle."@en, "Computer program processing has also gone from linear (procedural) code to nonlinear (event oriented)."@en, "Data input to computers has followed this principle and has moved from cards and linear tape to circular disks."@en, "Feedback can create a spherical path in a system."@en, "Spheroidality is achieved by replacing linear attributes with curved or spherical ones."@en, "This can be a change from linear to nonlinear, or it can be a change in a coordinate system (Cartesian to polar)."@en, "arrangements (e.g., hierarchical) to more circular ones (e.g., graphs)."@en ;
+    od:Matrix2003Id "14" ;
     od:hasAltshuller73Id "14" ;
     od:hasAltshuller84Id "14" ;
     od:hasRecommendation tc:SphericalShape_1, tc:SphericalShape_2, tc:SphericalShape_3 ;
@@ -612,6 +649,7 @@ tc:SphericalShape_3
 
 tc:StrongOxidants
     od:LippertGlossaryNote "An example is the format in which information is held. The format can obfuscate or facilitate use and understanding of the information."@en, "Application to the digital domain requires focusing on the catalytic function."@en, "Optimization of functions can be achieved in several ways in the digital environment."@en, "The various states of oxygen can be leveraged as a catalyst for change, improving an action or function. Catalysts can be used to accelerate or decelerate an action and support optimization of functions."@en, "Visualization is another catalyst for understanding."@en ;
+    od:Matrix2003Id "38" ;
     od:hasAltshuller84Id "38" ;
     od:hasRecommendation tc:StrongOxidants_1, tc:StrongOxidants_2, tc:StrongOxidants_3, tc:StrongOxidants_4, tc:StrongOxidants_5 ;
     a od:Principle, skos:Concept ;
@@ -640,6 +678,7 @@ tc:StrongOxidants_5
 
 tc:ThermalExpansion
     od:LippertGlossaryNote "In systems where there is a heat-induced change, the heat can be used to benefit the system, or it can be negated."@en, "The principle can be extended to other phenomena such as gravity, light, and pressure."@en, "This principle uses the conversion of heat energy into mechanical energy."@en ;
+    od:Matrix2003Id "37" ;
     od:hasAltshuller84Id "37" ;
     od:hasRecommendation tc:ThermalExpansion_1, tc:ThermalExpansion_2 ;
     a od:Principle, skos:Concept ;
@@ -655,6 +694,7 @@ tc:ThermalExpansion_2
 
 tc:TransformationOfHarmfulIntoUseful
     od:LippertGlossaryNote "Combining two harmful factors can eliminate both; increasing the degree of harm can sometimes eliminate it completely."@en, "Often the waste can be converted into something that can be of use to another part of the object or system [41]."@en, "The conversion of harm into benefit for a system requires a change in attitude."@en, "The conversion of waste heat to power using a turbine is an example of this principle."@en, "The system must be examined for wasted materials, energy, information, functions, space, time, etc. to find the harmful factors. Once identified, they can be dealt with."@en ;
+    od:Matrix2003Id "22" ;
     od:hasAltshuller73Id "22" ;
     od:hasAltshuller84Id "22" ;
     od:hasRecommendation tc:TransformationOfHarmfulIntoUseful_1, tc:TransformationOfHarmfulIntoUseful_2, tc:TransformationOfHarmfulIntoUseful_3 ;
@@ -681,6 +721,7 @@ tc:TransformationOfProperties
 
 tc:TransitionToAnotherDimension
     od:LippertGlossaryNote "All dimensions are considered by this principle. Vertical to horizontal, straight or perpendicular to diagonal, two dimensional to three dimensional or to four dimensional are all transitions into new dimensions."@en, "Computer memory caching can transition from a permanent (disk) to a temporary (RAM) dimension."@en, "Computer-based visualization allows transition from two dimensions to three or four and beyond into augmented and virtual reality."@en, "Disruptive technologies, developed outside of the normal technology strategy, can be in a different dimension."@en, "Format changes, such as binary to hex, can also be considered dimensional changes."@en, "These transitions can be applied multiple times and in either (or all) directions."@en, "This change in dimension allows their undetected maturation."@en ;
+    od:Matrix2003Id "17" ;
     od:hasAltshuller84Id "17" ;
     od:hasRecommendation tc:TransitionToAnotherDimension_1, tc:TransitionToAnotherDimension_2, tc:TransitionToAnotherDimension_3, tc:TransitionToAnotherDimension_4 ;
     a od:Principle, skos:Concept ;
@@ -704,6 +745,7 @@ tc:TransitionToAnotherDimension_4
 
 tc:Universality
     od:LippertGlossaryNote "Additionally, universality can refer to the same requirement or use of different objects for the same purpose or result."@en, "Allowing customization, patterns form the foundation for reuse."@en, "In systems engineering, this is manifest in localization and multifunctional resources."@en, "Objects can be adjusted by removing system elements, thereby allowing a single object to perform several different functions."@en, "Patterns are derived by the recognition of universality."@en, "This universality can refer to a feature, an action or a condition of the system over space and/or time as well as the use of an object for different purposes."@en, "To achieve this result, a system can be made more dynamic, with interchangeable elements, or the system can use adjustable features."@en, "Universality addresses making a system more uniform and more comprehensive in its function."@en ;
+    od:Matrix2003Id "06" ;
     od:hasAltshuller73Id "06" ;
     od:hasAltshuller84Id "06" ;
     od:hasRecommendation tc:Universality_1 ;
@@ -713,7 +755,4 @@ tc:Universality
 tc:Universality_1
     od:description "Das Objekt erfüllt mehrere unterschiedliche Funktionen, wodurch weitere gesonderte Objekte überflüssig werden."@de, "The object fulfills several different functions, which makes additional separate objects superfluous."@en, "Объект выполняет несколько различных функций, что делает ненужными дополнительные объекты."@ru ;
     a od:Recommendation .
-
-tc:UseInertMedium
-    od:LippertGlossaryNote "A clean room is a good example of an inert environment."@en, "A test environment (harness) for system testing and a virtual sandbox are both examples of inert environments."@en, "An inert environment is a neutral atmosphere or environment that supports a desired function."@en, "Implementation of this principle requires first the determination of what it is which is preventing the desired function and then requires the creation of the inert environment to protect or enable that function."@en, "In operational environments, this would be the removal of extraneous electromagnetic emissions from the environment of the system."@en, "This is often achieved through shielding."@en .
 
