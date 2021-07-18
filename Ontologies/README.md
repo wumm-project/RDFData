@@ -38,6 +38,8 @@ directory.
 * SeparationPrinciples.ttl - The 4 Separation Principles
 * StandardSolutions.ttl - The 76 Standard Solutions 
 * BusinessStandards.ttl - V. Souchkovs Business Standard Solutions 
+
+This was moved to ../Matrix (graebe: 2021-07-18)
 * Matrix1985.ttl - Altshullers 39x39 matrix 
 * Parameters.ttl - The 39 parameters as in the matrix of Altshuller 1985 
 * Principles.ttl - The 40 principles according to Altshuller 1985 
