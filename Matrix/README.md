@@ -63,7 +63,7 @@ numbering of the respective version of the MATRIX.
 The versions of the MATRIX itself are available in JSON format as a JSON
 dictionary with keys
 ```
-attribution, title, theMatrix
+attribution, title, (theParameters), theMatrix
 ```
 where the value of the "theMatrix" is a list of triples
 ```
@@ -71,6 +71,17 @@ where the value of the "theMatrix" is a list of triples
 ```
 in which i and d indicate the numbers of the respective parameters and l is a
 list of the numbers of the recommended procedures.
+
+_theParameters_ is an optional field with value a dictionary of entries
+"id": "russian name" for future processing. 
+
+## Matrix-1965
+
+The data was retrieved from <https://www.altshuller.ru/triz/triz022.asp>.
+
+## Matrix-1971
+
+The data was retrieved from <https://www.altshuller.ru/triz/technique2.asp>.
 
 ## Matrix-1985
 
