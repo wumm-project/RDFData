@@ -145,7 +145,7 @@ tc:BasicFunction
     skos:prefLabel "Basic Function"@en, "Основная функция"@ru .
 
 tc:BasicPrinciple
-    od:SouchkovCategory tc:CataloguestoEffects, tc:GeneralTRIZ, tc:TrendsofTechnicalSystemsEvolution ;
+    od:SouchkovCategory tc:CatalogueofEffects, tc:GeneralTRIZ, tc:TrendsofTechnicalSystemsEvolution ;
     od:SouchkovDefinition "see Operational Principle"@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Basic Principle"@en, "Принцип действия"@ru .
@@ -187,7 +187,7 @@ tc:BiSystemwithInverseParameters
     skos:prefLabel "Bi-system with Inverse Parameters"@en, "Би-система с противоположными характеристиками"@ru .
 
 tc:BiologicalEffect
-    od:SouchkovCategory tc:CataloguesofEffects ;
+    od:SouchkovCategory tc:CatalogueofEffects ;
     od:SouchkovDefinition "An effect produced by a biological object (animal, microbe, insect, plant) or combination of such that could be used for inventive problem solving. "@en ;
     od:SouchkovExample "To extract a certain substance from environment, a biological object can be used which can accumulate such a substance during metabolic process and then the substance can be extracted from the biological object."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
@@ -205,7 +205,7 @@ tc:CauseEffectChain
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Cause-Effect Chain"@en, "Причинно-следственная цепочка недостатков"@ru .
 
-tc:CauseEffectChainsAnalysis
+tc:CauseEffectChainAnalysis
     od:SouchkovAbbreviation "CECA"@en ;
     od:SouchkovCategory tc:TRIZTools ;
     od:SouchkovDefinition "An analytical tool that identifies the Key Disadvantages of the analyzed Technical system. This is accomplished by building cause-effect chains of disadvantages that link the Target Disadvantage to its fundamental causes."@en ;
@@ -389,7 +389,7 @@ tc:ContradictionMatrix
     skos:prefLabel "Contradiction Matrix"@en, "Таблица основных приемов для устранения типовых технических противоречий (Таблица Альтшуллера)"@ru .
 
 tc:ContradictionsTree
-    od:SouchkovCategory tc:CauseandEffectChainAnalysis, tc:Root-ConflictAnalysis ;
+    od:SouchkovCategory tc:CauseEffectChainAnalysis, tc:RootConflictAnalysis ;
     od:SouchkovDefinition "A tree which relates different contradictions causing a problem. A contradiction tree is obtained as a result of top-down decomposition of the main negative or undesired effect to a number of inter-related causing contradictions."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Contradictions Tree"@en, "Дерево противоречий"@ru .
@@ -401,7 +401,7 @@ tc:ControlUnit
     skos:prefLabel "Control Unit"@en, "Орган управления"@ru .
 
 tc:Convolution
-    od:SouchkovCategory tc:TrendsofTechnical ;
+    od:SouchkovCategory tc:TrendsofTechnicalSystemsEvolution ;
     od:SouchkovDefinition "An interval on the timeline of a technical system evolution according to the Bell-curve of evolution which follows the phase of the system's Expansion. During Convolution, innovative changes of the technical system result in the decrease of the overall complication of the system, decrease of its dimensions and energy consumption; and decrease of costs required to deliver the system's main useful function or provide the main parameter of value required while still ensuring that the required degrees of quality and performance do not degrade. Three possible scenarios of covolution are possible: 1) Minimal, when all subsystems still remain independent; 2) Partial, when a number of subsystems become a single subsystem; 3) Full, when all subsystems may not work independently. In many cases, partial and full convolution require change of operational principles."@en ;
     od:SouchkovExample "An electronic circuit which consists of independent electronic devices is replaced by a microchip."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
@@ -533,7 +533,7 @@ tc:EField
     skos:prefLabel "E-Field"@en, "Эполь"@ru .
 
 tc:EffectDisadvantage
-    od:SouchkovCategory tc:CauseandEffectChainAnalysis ;
+    od:SouchkovCategory tc:CauseEffectChainAnalysis ;
     od:SouchkovDefinition "Disadvantage in the Cause-Effect Chain that is directly caused by a given disadvantage."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Effect Disadvantage"@en .
@@ -826,7 +826,7 @@ tc:Functionality
     skos:prefLabel "Functionality"@en, "Функциональность"@ru .
 
 tc:GeneralizedFunction
-    od:SouchkovCategory tc:CataloguesofEffects ;
+    od:SouchkovCategory tc:CatalogueofEffects ;
     od:SouchkovDefinition "An abstract function for which a specific object and associated action are reduced to universal terms."@en ;
     od:SouchkovExample "Specific function \"remove water\" can be generalized to \"transport liquid\"."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
@@ -847,7 +847,7 @@ tc:GenericEngineeringParameter
     skos:prefLabel "Generic Engineering Parameter"@en, "Обобщенный технический параметр"@ru .
 
 tc:GeometricalEffect
-    od:SouchkovCategory tc:CataloguesofEffects ;
+    od:SouchkovCategory tc:CatalogueofEffects ;
     od:SouchkovDefinition "A specific shape or combination of shapes that can be used for inventive problem solving. "@en ;
     od:SouchkovExample "The use of hyperbolic shape helps to improve displacement of solid bodies."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
@@ -1085,7 +1085,7 @@ tc:InteractionMatrix
     skos:prefLabel "Interaction Matrix"@en, "Матрица взаимодействий"@ru .
 
 tc:IntermediateDisadvantage
-    od:SouchkovCategory tc:CauseandEffectChainAnalysis ;
+    od:SouchkovCategory tc:CauseEffectChainAnalysis ;
     od:SouchkovDefinition "A disadvantage in the Cause-Effect Chain that is not a Target or a Key Disadvantage."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Intermediate Disadvantage"@en, "Промежуточный недостаток"@ru .
@@ -1329,7 +1329,7 @@ tc:MaxiProblem
     skos:prefLabel "Maxi-Problem"@en, "Задача максимальная (макси-задача)"@ru .
 
 tc:MeasurementFunction
-    od:SouchkovCategory tc:CataloguesofEffects ;
+    od:SouchkovCategory tc:CatalogueofEffects ;
     od:SouchkovDefinition "A providing Function that reveals information about components."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Measurement Function"@en, "Измеритьельная функция"@ru .
@@ -1483,7 +1483,7 @@ tc:Operation
     skos:prefLabel "Operation"@en, "Операция"@ru .
 
 tc:OperationalPrinciple
-    od:SouchkovCategory tc:CataloguestoEffects, tc:GeneralTRIZ ;
+    od:SouchkovCategory tc:CatalogueofEffects, tc:GeneralTRIZ ;
     od:SouchkovDefinition "An abstract concept presenting how a required function can be obtained on the basis of a scientific effect or combination of scientific effects. Operational Principle can be instantiated into a multitude of different designs of technical systems or components."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:altLabel "Basic Principle"@en, "Operation Principle"@en, "Working principle"@en ;
@@ -1567,7 +1567,7 @@ tc:PhysicalContradiction
     skos:prefLabel "Physical Contradiction"@en, "Физическое противоречие"@ru .
 
 tc:PhysicalEffect
-    od:SouchkovCategory tc:CataloguesofEffects ;
+    od:SouchkovCategory tc:CatalogueofEffects ;
     od:SouchkovDefinition "A natural phenomenon known in science of physics or combination of such that could be used for inventive problem solving."@en ;
     od:SouchkovExample "Bernoulli's Principle is used to control pressure in fluids, or centrifugal motion can be used to mix two liquids. "@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
@@ -1614,7 +1614,7 @@ tc:PoorlyControllableInteraction
     skos:prefLabel "Poorly Controllable Interaction"@en, "Плохо регулируемое взаимодействие"@ru .
 
 tc:PositiveEffect
-    od:SouchkovCategory tc:CauseandEffectChainAnalysis, tc:Root-ConflictAnalysis ;
+    od:SouchkovCategory tc:CauseEffectChainAnalysis, tc:RootConflictAnalysis ;
     od:SouchkovDefinition "A situation when a function, action, or interaction leads to the result required."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Positive Effect"@en, "Положительный эффект"@ru .
@@ -1664,13 +1664,13 @@ tc:ProblemStatement
     skos:prefLabel "Problem Statement"@en, "Постановка задачи"@ru .
 
 tc:ProblemofChange
-    od:SouchkovCategory tc:CataloguestoEffects, tc:InventiveStandards ;
+    od:SouchkovCategory tc:CatalogueofEffects, tc:InventiveStandards ;
     od:SouchkovDefinition "An inventive problem which requires to improve performance or quality of a technical system, to add a new feature, or to eliminate a negative effect. Solutions to such problems mostly result from changing a technical system given."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Problem of Change"@en, "Задача на изменение"@ru .
 
 tc:ProblemofMeasurementorDetection
-    od:SouchkovCategory tc:CataloguestoEffects, tc:InventiveStandards ;
+    od:SouchkovCategory tc:CatalogueofEffects, tc:InventiveStandards ;
     od:SouchkovDefinition "A problem which requires to measure value of a specific parameter or detect presence or a change in a specific attribute of a component at a moment given. Most often solutions to such problems result from creating new technical systems or improvement of the existing technical systems for measurement or detection."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Problem of Measurement or Detection"@en, "Задача измерения или обнаружения"@ru .
@@ -1807,7 +1807,7 @@ tc:SCurveofEvolution
     skos:prefLabel "S-Curve of Evolution"@en, "S-образная кривая "@ru .
 
 tc:ScientificEffect
-    od:SouchkovCategory tc:CataloguesofEffects ;
+    od:SouchkovCategory tc:CatalogueofEffects ;
     od:SouchkovDefinition "A natural phenomenon or combination of such that can be used for inventive problem solving or generation of a new technical system or its subsystem based on a new operational principle."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Scientific Effect"@en, "Научный эффект"@ru .
@@ -1991,7 +1991,7 @@ tc:SuFieldResource
     skos:prefLabel "Substance-Field Resource"@en, "Вещественно-полевые ресурсы"@ru .
 
 tc:Subsystem
-    od:SouchkovCategory tc:GeneralTRIZ, tc:Multi-ScreenDiagramofThinking ;
+    od:SouchkovCategory tc:GeneralTRIZ, tc:MultiScreenDiagramofThinking ;
     od:SouchkovDefinition "A component or a set of interacting components limited by specific borders that belong to a technical system. Both a separate material object and a larger system's part combining several components (material objects) can be regarded as a subsystem."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:altLabel "Sub-system"@en ;
@@ -2017,7 +2017,7 @@ tc:SuperEffectDiscovery
     skos:prefLabel "Super-Effect Discovery"@en, "Обнаружение сверх-эффекта"@ru .
 
 tc:Supersystem
-    od:SouchkovCategory tc:GeneralTRIZ, tc:Multi-ScreenDiagramofThinking ;
+    od:SouchkovCategory tc:GeneralTRIZ, tc:MultiScreenDiagramofThinking ;
     od:SouchkovDefinition "A system that includes a technical system given as its part (sub-system). "@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:altLabel "Higher System"@en, "Super-system"@en ;
@@ -2215,13 +2215,13 @@ tc:TechnicalContradiction
     skos:prefLabel "Technical Contradiction"@en, "Техническое противоречие"@ru .
 
 tc:TechnicalEffect
-    od:SouchkovCategory tc:CataloguesofEffects ;
+    od:SouchkovCategory tc:CatalogueofEffects ;
     od:SouchkovDefinition "A specific engineering solution that can provide a delivery of an technical function in various technology areas."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Technical Effect"@en, "Технический эффект"@ru .
 
 tc:TechnicalFunction
-    od:SouchkovCategory tc:CataloguesofEffects, tc:FunctionAnalysisandModeling, tc:GeneralTRIZ ;
+    od:SouchkovCategory tc:CatalogueofEffects, tc:FunctionAnalysisandModeling, tc:GeneralTRIZ ;
     od:SouchkovDefinition "A specific type of a function which deals with an attribute of a technical system or its supersystem."@en ;
     od:SouchkovExample "1) Change temperature, 2) Measure distance, 3) Accumulate heat."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
@@ -2496,7 +2496,7 @@ tc:TypicalTechnicalParameter
     skos:prefLabel "Typical Technical Parameter"@en, "Типовой параметр"@ru .
 
 tc:UndesiredEffect
-    od:SouchkovCategory tc:CauseandEffectChainAnalysis, tc:GeneralTRIZ, tc:Root-ConflictAnalysis ;
+    od:SouchkovCategory tc:CauseEffectChainAnalysis, tc:GeneralTRIZ, tc:RootConflictAnalysis ;
     od:SouchkovDefinition "A result which occurs during functioning of a technical system and which leads to either decrease of the degree of ideality of the system and its perceived value or produces a negative impact on a product or the rest of the supersystem."@en ;
     a od:SouchkovGlossaryEntry, skos:Concept ;
     skos:prefLabel "Undesired Effect"@en, "Нежелательный эффект"@ru .

@@ -412,11 +412,17 @@ In closing, the author makes recommendations on how to most effectively use TRIZ
     dc:language "en"^^dcterms:RFC4646 ;
     dc:publisher "Amazon Digital Services LLC"@en ;
     dcterms:creator odp:Petrov_VM ;
-    dcterms:issued "2019"^^dcterms:W3CDTF ;
+    dcterms:issued "2020"^^dcterms:W3CDTF ;
     dcterms:title "TRIZ Basics. Theory of Inventive Problem Solving"@en ;
+    dcterms:abstract """ 
+This book is devoted to the systematic presentation of the Theory of Inventive Problem Solving (TRIZ). It details methods for formulating non-standard problems and ways to solve them, laws of system evolution, method of forecasting development of system, structural analysis and synthesis of system, systems modeling methods, methods to identify and resolve contradictions, methods of detection and use of resources.
+The theoretical material is illustrated by many examples, problems, and graphical material (approximately 300 examples and problems, and approximately 400 illustrations). It describes more than 300 concepts. Material for independent work is provided at the end of each chapter.
+The book is intended for students of engineering disciplines. It can also be useful for engineers and inventors, scientists, university professors, and those who solve creative problems.
+""";
     bibo:asin "B081D6VGFJ" ;
     bibo:isbn "9798622683022" ;
     a od:TRIZ-Book .
+
 
 <http://opendiscovery.org/rdf/BIB/Book/Altshuller_40Principles>
     dc:publisher "Technical Innovation Center Inc.: Worcester, MA, USA." ;
