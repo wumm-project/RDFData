@@ -856,11 +856,11 @@ odp:Florian_AV
     foaf:affil "Cluj-Napoca, Romania" ;
     foaf:name "Andrei Vlad Florian" .
 
-odp:Fomenko_A
+odp:Fomenko_AY
     a foaf:Person ;
     foaf:affil "Moscow, Russia" ;
-    foaf:fullname "Фоменко Алексей"@ru ;
-    foaf:name "Aleksej Fomenko" .
+    foaf:fullname "Фоменко Алексей Юрьевич"@ru ;
+    foaf:name "Aleksey Y. Fomenko" .
 
 odp:Fowlkes_WY
     a foaf:Person ;
@@ -2872,11 +2872,11 @@ odp:Sarkani_S
     a foaf:Person ;
     foaf:name "S. Sarkani" .
 
-odp:Saunin_N
+odp:Saunin_NY
     a foaf:Person ;
     foaf:affil "Moscow, Russia" ;
-    foaf:fullname "Саунин Николай"@ru ;
-    foaf:name "Nikolaj Saunin" .
+    foaf:fullname "Саунин Николай Евгеньевич"@ru ;
+    foaf:name "Nikolay Y. Saunin" .
 
 odp:Savelli_S
     a foaf:Person ;

@@ -182,16 +182,16 @@
 
 :Talk_127
     dcterms:title "Построение системы интенсивного развития корпорации на базе инструментов ТРИЗ"@ru ; 
-    dcterms:creator odp:Saunin_N, odp:Fomenko_A ;
+    dcterms:creator odp:Saunin_NY, odp:Fomenko_AY ;
     a od:Talk .
 
 :Talk_128
     dcterms:title "Системный оператор: 4 подхода к применению для разработки стратегии развития систем"@ru ; 
-    dcterms:creator odp:Saunin_N, odp:Fomenko_A ;
+    dcterms:creator odp:Saunin_NY, odp:Fomenko_AY ;
     a od:Talk .
 
 :Talk_129
     dcterms:title "Совершенстование методики анализа пределов развития систем, опыт применения в крупном бизнесе"@ru ; 
-    dcterms:creator odp:Fomenko_A ;
+    dcterms:creator odp:Fomenko_AY ;
     a od:Talk .
 

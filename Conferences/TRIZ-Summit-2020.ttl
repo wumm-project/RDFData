@@ -196,7 +196,7 @@ Beim Vergleich von ARIZ-Modifikationen untereinander wird eine Erhöhung des Anw
     od:urlPaper <https://r1.nubex.ru/s828-c8b/f3243_b6/%D0%A4%D0%BE%D0%BC%D0%B5%D0%BD%D0%BA%D0%BE-%D0%A1%D0%B0%D1%83%D0%BD%D0%B8%D0%BD-TDS2010_Business[1].pdf> ;
     od:urlSlides <https://r1.nubex.ru/s828-c8b/f3249_85/Fomenko-Saunin-TDS-2020-prezent.pdf> ;
     od:urlVideo <https://www.youtube.com/watch?v=IXvR3iX5DQ4> ;
-    dcterms:creator odp:Fomenko_A, odp:Saunin_N ;
+    dcterms:creator odp:Fomenko_AY, odp:Saunin_NY ;
     dcterms:title "\"Das Programm für innovative Entwicklung\" als Ansatz zum Aufbau einer regulären Funktion des Innovationsmanagements"@de, "\"Программа Инновационного Развития\" как подход к построению регулярной функции внедрения инноваций"@ru, "The \"Program for Innovative Development\" as an approach to set up a regular function of innovation management"@en ;
     a od:Talk .
 
