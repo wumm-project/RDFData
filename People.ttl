@@ -760,6 +760,11 @@ odp:Faer_SA
     foaf:fullname "Фаер Сергей"@ru ;
     foaf:name "Sergey A. Faer" .
 
+odp:Faber_B
+    a foaf:Person ;
+    foaf:affil "TRIZ Biopharma International Corp" ;
+    foaf:name "Boris Faber" .
+
 odp:Fagerhaug_T
     a foaf:Person ;
     foaf:name "T. Fagerhaug" .

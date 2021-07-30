@@ -13,8 +13,8 @@
 :General
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit> ;
     a swc:ConferenceEvent ;
-    rdfs:label "TRIZ Summit 2021 Online" ;
-    ical:description "TRIZ Summit 2021 Online" ;
+    rdfs:label "TRIZ Summit 2021 Online, Main" ;
+    ical:description "TRIZ Summit 2021 Online, Main" ;
     ical:dtend "2021-09-10"^^xsd:date ;
     ical:dtstart "2021-09-09"^^xsd:date ;
     ical:location "Online, supported by EPAM, Minsk, Belarus" ;
