@@ -15,707 +15,709 @@
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     a owl:Ontology ;
-    rdfs:comment "Graebe 2020-04-17: Extracted and transformed from the 2007 Russian Version of the \"TRIZ Body of Knowledge\"", "graebe 2020-10-19: odv2 prefix changed"  ;
+    rdfs:comment "graebe 2020-04-17: Extracted and transformed from the 2007 Russian Version of the \"TRIZ Body of Knowledge\"",
+    "graebe 2020-10-19: odv2 prefix changed" ,
+    "graebe 2021-08-01: English and German prefLabels added" ;
     rdfs:label "TRIZ Database - The TRIZ Body of Knowledge, Russian Version 2007" .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.1>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.Root> ;
-    skos:preflabel "Общие вопросы теории решения изобретательских задач"@ru .
+    skos:prefLabel "Allgemeine Fragen der Theorie des erfinderischen Problemlösens"@de, "General questions of the theory of inventive problem solving"@en, "Общие вопросы теории решения изобретательских задач"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.1.1>
     od:hatVerweis odv2:B1, odv2:B2 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.1> ;
-    skos:preflabel "Изобретательская ситуация. Изобретательская задача. Уровни решения задач (уровни изобретения)"@ru .
+    skos:prefLabel "Erfinderische Situation. Erfinderisches Problem. Ebenen der Problemlösung (Erfindungsebenen)"@de, "Inventive situation. Inventive problem. Levels of problem solving (levels of invention)"@en, "Изобретательская ситуация. Изобретательская задача. Уровни решения задач (уровни изобретения)"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.1.2>
     od:hatVerweis odv2:B3 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.1> ;
-    skos:preflabel "Основные идеи ТРИЗ"@ru .
+    skos:prefLabel "Basic ideas of TRIZ"@en, "Grundideen der TRIZ"@de, "Основные идеи ТРИЗ"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.1.3>
     od:hatVerweis odv2:B4 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.1> ;
-    skos:preflabel "Философские аспекты ТРИЗ. Диалектика — философская основа ТРИЗ."@ru .
+    skos:prefLabel "Philosophical aspects of TRIZ. Dialectics - the philosophical basis of TRIZ."@en, "Philosophische Aspekte der TRIZ. Dialektik – die philosophische Grundlage der TRIZ."@de, "Философские аспекты ТРИЗ. Диалектика — философская основа ТРИЗ."@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.1.4>
     od:hatVerweis odv2:B5 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.1> ;
-    skos:preflabel "Системный оператор. Многоэкранная схема талантливого мышления."@ru .
+    skos:prefLabel "System operator. Multi-screen scheme of talented thinking."@en, "Systemoperator. Multi-Screen-Schema des talentierten Denkens."@de, "Системный оператор. Многоэкранная схема талантливого мышления."@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.1.5>
     od:hatVerweis odv2:B6 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.1> ;
-    skos:preflabel "Методология исследований по ТРИЗ"@ru .
+    skos:prefLabel "TRIZ Research Methodology"@en, "TRIZ-Forschungsmethodik"@de, "Методология исследований по ТРИЗ"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.1.6>
     od:hatVerweis odv2:B7 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.1> ;
-    skos:preflabel "Методы использования аналогий, как перенос решений и методов"@ru .
+    skos:prefLabel "Methoden zur Verwendung von Analogien als Transferlösungen und Methoden"@de, "Methods of using analogies as transferring solutions and methods"@en, "Методы использования аналогий, как перенос решений и методов"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.Root> ;
-    skos:preflabel "Методические инструменты ТРИЗ"@ru .
+    skos:prefLabel "TRIZ Methodological Tools"@en, "TRIZ Methodologische Werkzeuge"@de, "Методические инструменты ТРИЗ"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.1>
     od:hatVerweis odv2:B8 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2> ;
-    skos:preflabel "Законы развития технических систем"@ru .
+    skos:prefLabel "Gesetze der Entwicklung technischer Systeme"@de, "Laws of development of technical systems"@en, "Законы развития технических систем"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.1.1>
     od:hatVerweis odv2:B9 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.1> ;
-    skos:preflabel "«Линии жизни» технических систем"@ru .
+    skos:prefLabel "Lebenslinien technischer Systeme"@de, "Life lines of technical systems"@en, "«Линии жизни» технических систем"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.1.10>
     od:hatVerweis odv2:B19 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.1> ;
-    skos:preflabel "Законы перехода с макроуровня на микроуровень"@ru .
+    skos:prefLabel "Gesetze des Übergangs von der Makroebene zur Mikroebene"@de, "Laws of transition from macrolevel to microlevel"@en, "Законы перехода с макроуровня на микроуровень"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.1.11>
     od:hatVerweis odv2:B20 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.1> ;
-    skos:preflabel "Закон увеличения пустотности"@ru .
+    skos:prefLabel "Das Gesetz der zunehmenden Leerheit"@de, "The law of increasing voidness"@en, "Закон увеличения пустотности"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.1.12>
     od:hatVerweis odv2:B21 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.1> ;
-    skos:preflabel "Принцип отзывчивости"@ru .
+    skos:prefLabel "Prinzip der Reaktionsfähigkeit"@de, "Responsiveness Principle"@en, "Принцип отзывчивости"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.1.13>
     od:hatVerweis odv2:B22 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.1> ;
-    skos:preflabel "Энергетический анализ технических систем"@ru .
+    skos:prefLabel "Energieanalyse technischer Systeme"@de, "Energy analysis of technical systems"@en, "Энергетический анализ технических систем"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.1.14>
     od:hatVerweis odv2:B23 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.1> ;
-    skos:preflabel "Общая схема развития технических систем"@ru .
+    skos:prefLabel "Allgemeines Schema der Entwicklung technischer Systeme"@de, "General scheme of technical systems development"@en, "Общая схема развития технических систем"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.1.15>
     od:hatVerweis odv2:B24 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.1> ;
-    skos:preflabel "Закон вытеснения человека из систем"@ru .
+    skos:prefLabel "Das Gesetz der Vertreibung des Menschen aus Systemen"@de, "The law of human displacement from systems"@en, "Закон вытеснения человека из систем"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.1.16>
     od:hatVerweis odv2:B25 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.1> ;
-    skos:preflabel "Закон повышения динамичности и управляемости"@ru .
+    skos:prefLabel "Das Gesetz der zunehmenden Dynamik und Kontrollierbarkeit"@de, "The law of increasing dynamism and controllability"@en, "Закон повышения динамичности и управляемости"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.1.2>
     od:hatVerweis odv2:B10 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.1> ;
-    skos:preflabel "Закон полноты частей системы"@ru .
+    skos:prefLabel "Das Gesetz der Vollständigkeit von Teilen des Systems"@de, "The law of completeness of parts of the system"@en, "Закон полноты частей системы"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.1.3>
     od:hatVerweis odv2:B11 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.1> ;
-    skos:preflabel "Закон «энергетической проводимости» системы"@ru .
+    skos:prefLabel "Das Gesetz der \"Energieleitfähigkeit\" des Systems"@de, "The law of \"energy conductivity\" of the system"@en, "Закон «энергетической проводимости» системы"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.1.4>
     od:hatVerweis odv2:B12, odv2:B13 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.1> ;
-    skos:preflabel "Закон согласования ритмики частей системы. Закон согласования — рассогласования."@ru .
+    skos:prefLabel "Das Gesetz der Koordination des Rhythmus der Teile des Systems. Das Gesetz der Koordination - Nichtübereinstimmung."@de, "The law of coordination of the rhythm of parts of the system. The law of coordination - mismatch."@en, "Закон согласования ритмики частей системы. Закон согласования — рассогласования."@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.1.5>
     od:hatVerweis odv2:B14 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.1> ;
-    skos:preflabel "Закон увеличения степени идеальности"@ru .
+    skos:prefLabel "Das Gesetz der Erhöhung des Idealitätsgrades"@de, "The law of increasing the degree of ideality"@en, "Закон увеличения степени идеальности"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.1.6>
     od:hatVerweis odv2:B15 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.1> ;
-    skos:preflabel "Закон развертывания — свертывания"@ru .
+    skos:prefLabel "Das Gesetz der Expansion – Zusammenbruch"@de, "The Law of Expansion - Collapse"@en, "Закон развертывания — свертывания"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.1.7>
     od:hatVerweis odv2:B16 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.1> ;
-    skos:preflabel "Закон неравномерности развития частей системы"@ru .
+    skos:prefLabel "Das Gesetz der ungleichmäßigen Entwicklung von Teilen des Systems"@de, "The law of uneven development of parts of the system"@en, "Закон неравномерности развития частей системы"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.1.8>
     od:hatVerweis odv2:B17 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.1> ;
-    skos:preflabel "Закон увеличения степени вепольности"@ru .
+    skos:prefLabel "Das Gesetz der Erhöhung des Stoff-Feld-Anteils"@de, "The law of increasing the degree of su-field"@en, "Закон увеличения степени вепольности"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.1.9>
     od:hatVerweis odv2:B18 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.1> ;
-    skos:preflabel "Закон перехода в надсистему. От моносистемы к бисистеме и полисистеме."@ru .
+    skos:prefLabel "Das Gesetz des Übergangs zu einem Supersystem. Von einem Monosystem zu einem Bisystem und einem Polysystem."@de, "The law of transition to a supersystem. From a monosystem to a bisystem and a polysystem."@en, "Закон перехода в надсистему. От моносистемы к бисистеме и полисистеме."@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.2>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2> ;
-    skos:preflabel "Алгоритм решения изобретательских задач (АРИЗ)"@ru .
+    skos:prefLabel "Algorithm for solving inventive problems (ARIZ)"@en, "Algorithmus zur Lösung erfinderischer Probleme (ARIZ)"@de, "Алгоритм решения изобретательских задач (АРИЗ)"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.2.1>
     od:hatVerweis odv2:C01 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.2> ;
-    skos:preflabel "АРИЗ — программа для решения изобретательских задач путем выявления и разрешения противоречий. Виды противоречий: административное, техническое, физическое."@ru .
+    skos:prefLabel "ARIZ is a program for solving inventive problems by identifying and resolving contradictions. Types of contradictions: administrative, technical, physical."@en, "ARIZ ist ein Programm zur Lösung erfinderischer Probleme durch das Erkennen und Auflösen von Widersprüchen. Arten von Widersprüchen: administrativ, technisch, physikalisch."@de, "АРИЗ — программа для решения изобретательских задач путем выявления и разрешения противоречий. Виды противоречий: административное, техническое, физическое."@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.2.2>
     od:hatVerweis odv2:C02 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.2> ;
-    skos:preflabel "Идеальный конечный результат (ИКР)"@ru .
+    skos:prefLabel "Ideal Final Result (IFR)"@en, "Ideales Endergebnis (IFR)"@de, "Идеальный конечный результат (ИКР)"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.2.3>
     od:hatVerweis odv2:C03 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.2> ;
-    skos:preflabel "Основная линия решения задач по АРИЗ и логика АРИЗ"@ru .
+    skos:prefLabel "Die Hauptlinie zur Lösung von ARIZ-Problemen und die ARIZ-Logik"@de, "The main line for solving ARIZ problems and the ARIZ logic"@en, "Основная линия решения задач по АРИЗ и логика АРИЗ"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.2.4>
     od:hatVerweis odv2:C04, odv2:C05 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.2> ;
-    skos:preflabel "АРИЗ — алгоритм решения изобретательских задач. История разработки АРИЗ. Структура и основные понятия АРИЗ-85В."@ru .
+    skos:prefLabel "ARIZ is an algorithm for solving inventive problems. History of ARIZ development. Structure and basic concepts of ARIZ-85V."@en, "ARIZ ist ein Algorithmus zur Lösung erfinderischer Probleme. Geschichte der ARIZ-Entwicklung. Struktur und Grundkonzepte von ARIZ-85V."@de, "АРИЗ — алгоритм решения изобретательских задач. История разработки АРИЗ. Структура и основные понятия АРИЗ-85В."@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.3>
     od:hatVerweis odv2:C06 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2> ;
-    skos:preflabel "Вепольный анализ"@ru .
+    skos:prefLabel "Stoff-Feld-Analyse"@de, "Su-Field Analysis"@en, "Вепольный анализ"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.3.1>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.3> ;
-    skos:preflabel "Основные понятия и правила"@ru .
+    skos:prefLabel "Basic concepts and rules"@en, "Grundlegende Konzepte und Regeln"@de, "Основные понятия и правила"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.3.2>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.3> ;
-    skos:preflabel "Логика и закономерности развития вепольных систем"@ru .
+    skos:prefLabel "Logic and patterns of development of su-field systems"@en, "Logik und Entwicklungsmuster von Su-Feldsystemen"@de, "Логика и закономерности развития вепольных систем"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2> ;
-    skos:preflabel "Информационный фонд"@ru .
+    skos:prefLabel "Information Fund"@en, "Informationsfonds"@de, "Информационный фонд"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.1>
     od:hatVerweis odv2:D01 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4> ;
-    skos:preflabel "Стандарты на решение изобретательских задач"@ru .
+    skos:prefLabel "Standards for Inventive Problem Solving"@en, "Standards für erfinderische Problemlösung"@de, "Стандарты на решение изобретательских задач"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.1.1>
     od:hatVerweis odv2:D02, odv2:D03 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4.1> ;
-    skos:preflabel "Стандарты — система типовых решений изобретательских задач. Структура системы стандартов. История развития стандартов и первые 10 стандартов."@ru .
+    skos:prefLabel "Normen sind ein System typischer Lösungen für erfinderische Probleme. Die Struktur des Normensystems. Die Geschichte der Normenentwicklung und die ersten 10 Normen ."@de, "Standards are a system of typical solutions for inventive problems. The structure of the standards system. The history of standards development and the first 10 standards."@en, "Стандарты — система типовых решений изобретательских задач. Структура системы стандартов. История развития стандартов и первые 10 стандартов."@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.1.2>
     od:hatVerweis odv2:D04 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4.1> ;
-    skos:preflabel "Система 76 стандартов"@ru .
+    skos:prefLabel "System 76 standards"@en, "System der 76 Standards"@de, "Система 76 стандартов"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.2>
     od:hatVerweis odv2:D05 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4> ;
-    skos:preflabel "Задачи-аналоги"@ru .
+    skos:prefLabel "Analog Tasks"@en, "Analoge Aufgaben"@de, "Задачи-аналоги"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.3>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4> ;
-    skos:preflabel "Приемы разрешения противоречий"@ru .
+    skos:prefLabel "Techniken zur Auflösung von Widersprüchen"@de, "Techniques for resolving contradictions"@en, "Приемы разрешения противоречий"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.3.1>
     od:hatVerweis odv2:D06 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4.3> ;
-    skos:preflabel "История развития приемов"@ru .
+    skos:prefLabel "Die Geschichte der Entwicklung von Techniken"@de, "The history of the development of techniques"@en, "История развития приемов"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.3.2>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4.3> ;
-    skos:preflabel "Приемы разрешения технических противоречий"@ru .
+    skos:prefLabel "Techniken zur Auflösung technischer Widersprüche"@de, "Techniques for resolving technical contradictions"@en, "Приемы разрешения технических противоречий"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.3.2.1>
     od:hatVerweis odv2:D07 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4.3.2> ;
-    skos:preflabel "40 основных приемов"@ru .
+    skos:prefLabel "40 basic techniques"@en, "40 grundlegende Techniken"@de, "40 основных приемов"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.3.2.2>
     od:hatVerweis odv2:D08 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4.3.2> ;
-    skos:preflabel "10 дополнительных"@ru .
+    skos:prefLabel "10 additional"@en, "10 zusätzliche"@de, "10 дополнительных"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.3.3>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4.3> ;
-    skos:preflabel "Приемы разрешения физических противоречий"@ru .
+    skos:prefLabel "Techniken zur Auflösung physikalischer Widersprüche"@de, "Techniques for resolving physical contradictions"@en, "Приемы разрешения физических противоречий"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.3.3.1>
     od:hatVerweis odv2:D09 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4.3.3> ;
-    skos:preflabel "Приемы — антиприемы"@ru .
+    skos:prefLabel "Techniken - Antitechniken"@de, "Techniques - anti-techniques"@en, "Приемы — антиприемы"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.3.3.2>
     od:hatVerweis odv2:D10 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4.3.3> ;
-    skos:preflabel "Приемы, разбитые на группы"@ru .
+    skos:prefLabel "In Gruppen unterteilte Techniken"@de, "Techniques divided into groups"@en, "Приемы, разбитые на группы"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.3.3.3>
     od:hatVerweis odv2:D11 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4.3.3> ;
-    skos:preflabel "Способы разрешения физического противоречия"@ru .
+    skos:prefLabel "Methoden zur Auflösung eines physikalischen Widerspruchs"@de, "Methods for resolving a physical contradiction"@en, "Способы разрешения физического противоречия"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.3.4>
     od:hatVerweis odv2:D12 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4.3> ;
-    skos:preflabel "Макро- и микроуровни приемов устранения противоречий"@ru .
+    skos:prefLabel "Macro and micro levels of contradiction elimination techniques"@en, "Makro- und Mikroebenen von Techniken zur Beseitigung von Widersprüchen"@de, "Макро- и микроуровни приемов устранения противоречий"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.4>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4> ;
-    skos:preflabel "Эффекты"@ru .
+    skos:prefLabel "Effects"@en, "Effekte"@de, "Эффекты"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.4.1>
     od:hatVerweis odv2:D13 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4.4> ;
-    skos:preflabel "Понятие об эффектах. История развития системы эффектов."@ru .
+    skos:prefLabel "Das Konzept der Effekte. Die Geschichte der Entwicklung des Effektsystems."@de, "The concept of effects. History of the development of the system of effects."@en, "Понятие об эффектах. История развития системы эффектов."@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.4.2>
     od:hatVerweis odv2:D14 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4.4> ;
-    skos:preflabel "Физические эффекты"@ru .
+    skos:prefLabel "Physical Effects"@en, "Physische Effekte"@de, "Физические эффекты"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.4.3>
     od:hatVerweis odv2:D15 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4.4> ;
-    skos:preflabel "Химические эффекты"@ru .
+    skos:prefLabel "Chemical Effects"@en, "Chemische Effekte"@de, "Химические эффекты"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.4.4>
     od:hatVerweis odv2:D16 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4.4> ;
-    skos:preflabel "Биологические эффекты"@ru .
+    skos:prefLabel "Biological Effects"@en, "Biologische Effekte"@de, "Биологические эффекты"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.4.5>
     od:hatVerweis odv2:D17 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4.4> ;
-    skos:preflabel "Математические эффекты"@ru .
+    skos:prefLabel "Mathematical Effects"@en, "Mathematische Effekte"@de, "Математические эффекты"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.4.5.1>
     od:hatVerweis odv2:D18 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4.4.5> ;
-    skos:preflabel "Геометрические эффекты"@ru .
+    skos:prefLabel "Geometric Effects"@en, "Geometrische Effekte"@de, "Геометрические эффекты"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.4.6>
     od:hatVerweis odv2:D19 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4.4> ;
-    skos:preflabel "Технические эффекты"@ru .
+    skos:prefLabel "Technical Effects"@en, "Technische Effekte"@de, "Технические эффекты"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.5>
     od:hatVerweis odv2:D20 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4> ;
-    skos:preflabel "Вещественно полевые ресурсы"@ru .
+    skos:prefLabel "Substantial field resources"@en, "Wesentliche Feldressourcen"@de, "Вещественно полевые ресурсы"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.5.1>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4.5> ;
-    skos:preflabel "Понятие о вещественно-полевых ресурсах (ВПР)"@ru .
+    skos:prefLabel "Das Konzept der Materialfeldressourcen (VLR)"@de, "The concept of material-field resources (WFR)"@en, "Понятие о вещественно-полевых ресурсах (ВПР)"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.5.2>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4.5> ;
-    skos:preflabel "Структура и виды ВПР"@ru .
+    skos:prefLabel "SVERWEIS-Struktur und -Typen"@de, "VLOOKUP structure and types"@en, "Структура и виды ВПР"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.5.3>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4.5> ;
-    skos:preflabel "Способы и методика применения ВПР"@ru .
+    skos:prefLabel "Ways and methods of using VPR"@en, "Wege und Methoden zur Verwendung von VPR"@de, "Способы и методика применения ВПР"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.4.6>
     od:hatVerweis odv2:D21, odv2:D22, odv2:D23 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.4> ;
-    skos:preflabel "Личные картотеки, сводные картотеки. Технология сбора и ведения картотек."@ru .
+    skos:prefLabel "Personal files, summary files. Technology for collecting and maintaining files."@en, "Persönliche Dateien, Zusammenfassungsdateien. Technologie zum Sammeln und Verwalten von Dateien."@de, "Личные картотеки, сводные картотеки. Технология сбора и ведения картотек."@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.5>
     od:hatVerweis odv2:D24 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2> ;
-    skos:preflabel "ТРИЗ и ФСА"@ru .
+    skos:prefLabel "TRIZ and FSA"@en, "TRIZ und FSA"@de, "ТРИЗ и ФСА"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.5.1>
     od:hatVerweis odv2:D25 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.5> ;
-    skos:preflabel "Сущность ФСА с позиций ТРИЗ"@ru .
+    skos:prefLabel "Das Wesen der FSA aus Sicht der TRIZ"@de, "The essence of the FSA from the perspective of TRIZ"@en, "Сущность ФСА с позиций ТРИЗ"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.5.10>
     od:hatVerweis odv2:E04 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.5> ;
-    skos:preflabel "Диверсионный анализ технических систем"@ru .
+    skos:prefLabel "Sabotage analysis of technical systems"@en, "Sabotageanalyse technischer Systeme"@de, "Диверсионный анализ технических систем"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.5.11>
     od:hatVerweis odv2:E05 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.5> ;
-    skos:preflabel "Причинно — следственный анализ. Постановка ключевых задач."@ru .
+    skos:prefLabel "Cause and effect analysis. Setting key objectives."@en, "Ursachen- und Wirkungsanalyse"@de, "Причинно — следственный анализ. Постановка ключевых задач."@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.5.12>
     od:hatVerweis odv2:E06 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.5> ;
-    skos:preflabel "Компонентно-структурный анализ"@ru .
+    skos:prefLabel "Komponenten-Strukturanalyse"@de, "Structural Analysis"@en, "Компонентно-структурный анализ"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.5.13>
     od:hatVerweis odv2:E07 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.5> ;
-    skos:preflabel "Диагностический анализ"@ru .
+    skos:prefLabel "Diagnoseanalyse"@de, "Diagnostic Analysis"@en, "Диагностический анализ"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.5.14>
     od:hatVerweis odv2:F01 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.5> ;
-    skos:preflabel "Эволюционный анализ"@ru .
+    skos:prefLabel "Evolutionary Analysis"@en, "Evolutionsanalyse"@de, "Эволюционный анализ"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.5.15>
     od:hatVerweis odv2:F02 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.5> ;
-    skos:preflabel "Функциональный анализ"@ru .
+    skos:prefLabel "Functional Analysis"@en, "Funktionsanalyse"@de, "Функциональный анализ"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.5.16>
     od:hatVerweis odv2:F03 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.5> ;
-    skos:preflabel "Объединение альтернативных систем"@ru .
+    skos:prefLabel "Combining Alternative Systems"@en, "Kombinieren alternativer Systeme"@de, "Объединение альтернативных систем"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.5.17>
     od:hatVerweis odv2:F04 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.5> ;
-    skos:preflabel "Совершенствование ТС без решения задач (анализом)"@ru .
+    skos:prefLabel "Improving TS without solving problems (analysis)"@en, "Verbesserung von TS ohne Problemlösung (Analyse)"@de, "Совершенствование ТС без решения задач (анализом)"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.5.2>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.5> ;
-    skos:preflabel "Теоретические основы ФСА с позиций ТРИЗ. Функциональный подход, разработанный в ТРИЗ."@ru .
+    skos:prefLabel "Theoretical foundations of FSA from the perspective of TRIZ. Functional approach developed in TRIZ."@en, "Theoretische Grundlagen der FSA aus Sicht der TRIZ. Funktioneller Ansatz in TRIZ entwickelt."@de, "Теоретические основы ФСА с позиций ТРИЗ. Функциональный подход, разработанный в ТРИЗ."@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.5.3>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.5> ;
-    skos:preflabel "Использование ТРИЗ при проведении ФСА"@ru .
+    skos:prefLabel "Der Einsatz von TRIZ bei der Durchführung des FSA"@de, "The use of TRIZ in conducting the FSA"@en, "Использование ТРИЗ при проведении ФСА"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.5.4>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.5> ;
-    skos:preflabel "Особенности проведения ФСА на разных этапах жизненного цикла изделия с позиций ТРИЗ"@ru .
+    skos:prefLabel "Features of VAS at different stages of the product life cycle from the perspective of TRIZ"@en, "Funktionen von VAS in verschiedenen Phasen des Produktlebenszyklus aus Sicht der TRIZ"@de, "Особенности проведения ФСА на разных этапах жизненного цикла изделия с позиций ТРИЗ"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.5.5>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.5> ;
-    skos:preflabel "Технология проведения ФСА с позиций ТРИЗ"@ru .
+    skos:prefLabel "Technologie der VEA aus Sicht der TRIZ"@de, "Technology of VEA from the perspective of TRIZ"@en, "Технология проведения ФСА с позиций ТРИЗ"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.5.6>
     od:hatVerweis odv2:D26 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.5> ;
-    skos:preflabel "ТРИЗ-анализ"@ru .
+    skos:prefLabel "TRIZ-Analyse"@de, "TRIZ-analysis"@en, "ТРИЗ-анализ"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.5.7>
     od:hatVerweis odv2:E01 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.5> ;
-    skos:preflabel "Методы поиска и постановки изобретательских задач"@ru .
+    skos:prefLabel "Methoden zum Suchen und Aufstellen erfinderischer Probleme"@de, "Methods for searching and setting inventive problems"@en, "Методы поиска и постановки изобретательских задач"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.5.8>
     od:hatVerweis odv2:E02 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.5> ;
-    skos:preflabel "Потоковый анализ"@ru .
+    skos:prefLabel "Flow Analysis"@en, "Fluss-Analyse"@de, "Потоковый анализ"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.5.9>
     od:hatVerweis odv2:E03 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.5> ;
-    skos:preflabel "Функционально-идеальное моделирование (свертывание)"@ru .
+    skos:prefLabel "Functional Ideal Modeling (Collapsing)"@en, "Funktionale Idealmodellierung (Zusammenklappen)"@de, "Функционально-идеальное моделирование (свертывание)"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.6>
     od:hatVerweis odv2:F05 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2> ;
-    skos:preflabel "Прогнозирование развития систем"@ru .
+    skos:prefLabel "Forecasting the development of systems"@en, "Prognosen der Entwicklung von Systemen"@de, "Прогнозирование развития систем"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.6.1>
     od:hatVerweis odv2:F06 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.6> ;
-    skos:preflabel "Методы прогнозирования с позиций ТРИЗ"@ru .
+    skos:prefLabel "Forecasting methods from the perspective of TRIZ"@en, "Prognosemethoden aus Sicht der TRIZ"@de, "Методы прогнозирования с позиций ТРИЗ"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.6.2>
     od:hatVerweis odv2:F07 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.6> ;
-    skos:preflabel "Использование аппарата ТРИЗ для прогнозирования развития технических систем. Методика прогнозирования."@ru .
+    skos:prefLabel "Using the TRIZ apparatus for forecasting the development of technical systems. Forecasting methodology."@en, "Verwendung des TRIZ-Apparats zur Vorhersage der Entwicklung technischer Systeme. Prognosemethodik."@de, "Использование аппарата ТРИЗ для прогнозирования развития технических систем. Методика прогнозирования."@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.6.3>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.6> ;
-    skos:preflabel "Дальнесрочное прогнозирование"@ru .
+    skos:prefLabel "Long Range Forecasting"@de, "Long Range Forecasting"@en, "Дальнесрочное прогнозирование"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.6.3.1>
     od:hatVerweis odv2:F08 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.6.3> ;
-    skos:preflabel "Дальнесрочное прогнозирование технических систем:"@ru .
+    skos:prefLabel "Langzeitprognose technischer Systeme:"@de, "Long-term forecasting of technical systems:"@en, "Дальнесрочное прогнозирование технических систем:"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.6.3.2>
     od:hatVerweis odv2:F09 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.6.3> ;
-    skos:preflabel "Развитие человека и общества"@ru .
+    skos:prefLabel "Entwicklung von Mensch und Gesellschaft"@de, "Human and Society Development"@en, "Развитие человека и общества"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.6.3.3>
     od:hatVerweis odv2:F10 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.6.3> ;
-    skos:preflabel "Выявления новых научно-технических и социальных задач"@ru .
+    skos:prefLabel "Aufdecken neuer wissenschaftlicher, technischer und sozialer Probleme"@de, "Revealing new scientific, technical and social problems"@en, "Выявления новых научно-технических и социальных задач"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.6.4>
     od:hatVerweis odv2:F11 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.6> ;
-    skos:preflabel "Функциональная структура информационного обеспечения прогнозирования"@ru .
+    skos:prefLabel "Functional structure of forecasting information support"@en, "Funktionsstruktur der Unterstützung von Prognoseinformationen"@de, "Функциональная структура информационного обеспечения прогнозирования"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.7>
     od:hatVerweis odv2:F12 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2> ;
-    skos:preflabel "Особенности инструментов ТРИЗ, применяемых в не технических системах"@ru .
+    skos:prefLabel "Eigenschaften von TRIZ-Tools, die in nicht-technischen Systemen verwendet werden"@de, "Features of TRIZ tools used in non-technical systems"@en, "Особенности инструментов ТРИЗ, применяемых в не технических системах"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.7.1>
     od:hatVerweis odv2:F13 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.7> ;
-    skos:preflabel "ТРИЗ в науке"@ru .
+    skos:prefLabel "TRIZ in Science"@en, "TRIZ in der Wissenschaft"@de, "ТРИЗ в науке"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.7.2>
     od:hatVerweis odv2:F14 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.7> ;
-    skos:preflabel "ТРИЗ в бизнесе"@ru .
+    skos:prefLabel "TRIZ in Business"@en, "TRIZ in der Wirtschaft"@de, "ТРИЗ в бизнесе"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.7.3>
     od:hatVerweis odv2:F15 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.7> ;
-    skos:preflabel "ТРИЗ в социально-технических системах"@ru .
+    skos:prefLabel "TRIZ in socio-technical systems"@en, "TRIZ in sozio-technischen Systemen"@de, "ТРИЗ в социально-технических системах"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.7.4>
     od:hatVerweis odv2:F16 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.7> ;
-    skos:preflabel "ТРИЗ в биологии"@ru .
+    skos:prefLabel "TRIZ in Biologie"@de, "TRIZ in Biology"@en, "ТРИЗ в биологии"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.7.5>
     od:hatVerweis odv2:F17 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.7> ;
-    skos:preflabel "ТРИЗ в искусстве и литературе"@ru .
+    skos:prefLabel "TRIZ in Kunst und Literatur"@de, "TRIZ in art and literature"@en, "ТРИЗ в искусстве и литературе"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.2.7.6>
     od:hatVerweis odv2:F18 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.2.7> ;
-    skos:preflabel "Закономерности развития коллективов"@ru .
+    skos:prefLabel "Muster kollektiver Entwicklung"@de, "Patterns of collective development"@en, "Закономерности развития коллективов"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.Root> ;
-    skos:preflabel "ТРИЗ и развитие личности"@ru .
+    skos:prefLabel "TRIZ and personality development"@en, "TRIZ und Persönlichkeitsentwicklung"@de, "ТРИЗ и развитие личности"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.1>
     od:hatVerweis odv2:F19 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3> ;
-    skos:preflabel "Развитие творческого воображения"@ru .
+    skos:prefLabel "Development of creative imagination"@en, "Entwicklung kreativer Vorstellungskraft"@de, "Развитие творческого воображения"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.1.1>
     od:hatVerweis odv2:F20 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.1> ;
-    skos:preflabel "Психологическая инерция. Приемы борьбы с психологической инерцией."@ru .
+    skos:prefLabel "Psychological inertia. Techniques for dealing with psychological inertia."@en, "Psychologische Trägheit. Techniken zum Umgang mit psychologischer Trägheit."@de, "Психологическая инерция. Приемы борьбы с психологической инерцией."@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.1.10>
     od:hatVerweis odv2:F26 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.1> ;
-    skos:preflabel "Метод ассоциаций"@ru .
+    skos:prefLabel "Association Method"@en, "Assoziationsmethode"@de, "Метод ассоциаций"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.1.11>
     od:hatVerweis odv2:F27 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.1> ;
-    skos:preflabel "Метод тенденций"@ru .
+    skos:prefLabel "Trend Method"@en, "Trendmethode"@de, "Метод тенденций"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.1.12>
     od:hatVerweis odv2:F28 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.1> ;
-    skos:preflabel "Метод скрытых свойств объекта"@ru .
+    skos:prefLabel "Method of hidden object properties"@en, "Methode der Eigenschaften von versteckten Objekten"@de, "Метод скрытых свойств объекта"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.1.13>
     od:hatVerweis odv2:F29 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.1> ;
-    skos:preflabel "Взгляд со стороны"@ru .
+    skos:prefLabel "Ansicht von der Seite"@de, "View from the side"@en, "Взгляд со стороны"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.1.14>
     od:hatVerweis odv2:F30 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.1> ;
-    skos:preflabel "Изменение системы ценностей"@ru .
+    skos:prefLabel "Changing the system of values"@en, "Das Wertesystem ändern"@de, "Изменение системы ценностей"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.1.15>
     od:hatVerweis odv2:F31 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.1> ;
-    skos:preflabel "Ситуационные задания"@ru .
+    skos:prefLabel "Situational tasks"@en, "Situative Aufgaben"@de, "Ситуационные задания"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.1.16>
     od:hatVerweis odv2:F32 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.1> ;
-    skos:preflabel "Приемы фантазирования (приемы генерирования фантастических идей)"@ru .
+    skos:prefLabel "Fantasy techniques (techniques for generating fantastic ideas)"@en, "Fantasy-Techniken (Techniken zur Generierung fantastischer Ideen)"@de, "Приемы фантазирования (приемы генерирования фантастических идей)"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.1.17>
     od:hatVerweis odv2:F33 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.1> ;
-    skos:preflabel "Шкала оценки НФ-идей «Фантазия-»3"@ru .
+    skos:prefLabel "Scale for evaluating SF ideas \"Fantasy-3\""@en, "Skala für die Bewertung von SF-Ideen \"Fantasy-3\""@de, "Шкала оценки НФ-идей «Фантазия-»3"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.1.2>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.1> ;
-    skos:preflabel "Управление психологическими факторами в процессе решения задач"@ru .
+    skos:prefLabel "Management of psychological factors in the process of solving problems"@en, "Management psychologischer Faktoren im Prozess der Problemlösung"@de, "Управление психологическими факторами в процессе решения задач"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.1.3>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.1> ;
-    skos:preflabel "Роль воображения. Система упражнений по развитию творческого воображения (РТВ)."@ru .
+    skos:prefLabel "Die Rolle der Vorstellungskraft. Das Übungssystem zur Entwicklung der kreativen Vorstellungskraft (RTV)."@de, "The role of imagination. The system of exercises for the development of creative imagination (RTV)."@en, "Роль воображения. Система упражнений по развитию творческого воображения (РТВ)."@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.1.4>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.1> ;
-    skos:preflabel "Роль научно-фантастической литературы (НФЛ) в развитии творческого воображения. Методика работы с НФЛ. Прогностические функции научно-фантастической литературы."@ru .
+    skos:prefLabel "Die Rolle der Science-Fiction-Literatur (NFL) bei der Entwicklung kreativer Vorstellungskraft. Technik für die Arbeit mit der NFL. Vorhersagefunktionen von Science-Fiction Literatur."@de, "The role of science fiction literature (NFL) in the development of creative imagination. Methodology for working with the NFL. Predictive functions of science fiction literature."@en, "Роль научно-фантастической литературы (НФЛ) в развитии творческого воображения. Методика работы с НФЛ. Прогностические функции научно-фантастической литературы."@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.1.5>
     od:hatVerweis odv2:F21 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.1> ;
-    skos:preflabel "Оператор РВС (параметрический оператор)"@ru .
+    skos:prefLabel "PBC operator (parametric operator)"@en, "PBC-Operator (parametrischer Operator)"@de, "Оператор РВС (параметрический оператор)"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.1.6>
     od:hatVerweis odv2:F22 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.1> ;
-    skos:preflabel "Метод моделирования «маленькими человечками» (МММЧ)"@ru .
+    skos:prefLabel "Modeling method by \"little men\""@en, "Zwergen-Modellierungsmethode"@de, "Метод моделирования «маленькими человечками» (МММЧ)"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.1.7>
     od:hatVerweis odv2:F23 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.1> ;
-    skos:preflabel "Фантограммы"@ru .
+    skos:prefLabel "Phantogramme"@de, "Phantograms"@en, "Фантограммы"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.1.8>
     od:hatVerweis odv2:F24 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.1> ;
-    skos:preflabel "Метод золотой рыбки (метод разложения и синтеза фантастических идей)"@ru .
+    skos:prefLabel "Goldfischmethode (Methode der Zerlegung und Synthese fantastischer Ideen)"@de, "Goldfish method (method of decomposition and synthesis of fantastic ideas)"@en, "Метод золотой рыбки (метод разложения и синтеза фантастических идей)"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.1.9>
     od:hatVerweis odv2:F25 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.1> ;
-    skos:preflabel "Ступенчатое конструирование"@ru .
+    skos:prefLabel "Stepped construction"@en, "Stufenkonstruktion"@de, "Ступенчатое конструирование"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.2>
     od:hatVerweis odv2:F34 ;
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3> ;
-    skos:preflabel "Теория развития творческой личности (ТРТЛ) и жизненная стратегия творческой личности (ЖСТЛ)"@ru .
+    skos:prefLabel "Theorie der Entwicklung einer kreativen Persönlichkeit (TRTL) und die Lebensstrategie einer kreativen Persönlichkeit (ZSTL)"@de, "Theory of the development of a creative personality (TRTL) and the life strategy of a creative personality (ZSTL)"@en, "Теория развития творческой личности (ТРТЛ) и жизненная стратегия творческой личности (ЖСТЛ)"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.2.1>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.2> ;
-    skos:preflabel "Основные качества творческой личности"@ru .
+    skos:prefLabel "Die wichtigsten Eigenschaften einer kreativen Persönlichkeit"@de, "The main qualities of a creative personality"@en, "Основные качества творческой личности"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.2.2>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.2> ;
-    skos:preflabel "Достойная Цель Критерии ДЦ."@ru .
+    skos:prefLabel "DC-Kriterien für menschenwürdige Zwecke."@de, "Decent Purpose DC Criteria."@en, "Достойная Цель Критерии ДЦ."@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.2.2.1>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.2.2> ;
-    skos:preflabel "Фонд ДЦ Дебют."@ru .
+    skos:prefLabel "DC Debut Fund."@de, "DC Debut Fund."@en, "Фонд ДЦ Дебют."@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.2.3>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.2> ;
-    skos:preflabel "Рациональная программа жизни ТЛ"@ru .
+    skos:prefLabel "Rational program of life of THB"@en, "Rationelles Lebensprogramm des Menschenhandels"@de, "Рациональная программа жизни ТЛ"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.2.4>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.2> ;
-    skos:preflabel "Как обеспечить высокий к.п.д. интеллектуальной деятельности? Творческая личность: техника самоконтроля."@ru .
+    skos:prefLabel "How to ensure high efficiency of intellectual activity? Creative personality: a technique of self-control."@en, "Wie kann eine hohe Effizienz der intellektuellen Aktivität sichergestellt werden? Kreative Persönlichkeit: eine Technik der Selbstkontrolle."@de, "Как обеспечить высокий к.п.д. интеллектуальной деятельности? Творческая личность: техника самоконтроля."@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.2.5>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.2> ;
-    skos:preflabel "Умение держать удар"@ru .
+    skos:prefLabel "Die Fähigkeit, einen Schlag einzustecken"@de, "The ability to take a punch"@en, "Умение держать удар"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.3.2.6>
     a od:TRIZ-Concept, skos:Concept ;
     skos:narrower <http://opendiscovery.org/rdf/TBK2/Concept.3.2> ;
-    skos:preflabel "Идеальная жизненная стратегия ТЛ"@ru .
+    skos:prefLabel "Die ideale Lebensstrategie von Menschenhandel"@de, "The ideal life strategy of THB"@en, "Идеальная жизненная стратегия ТЛ"@ru .
 
 <http://opendiscovery.org/rdf/TBK2/Concept.Root>
     a od:TRIZ-Concept, skos:Concept ;
-    skos:preflabel "The Root Concept"@en .
+    skos:prefLabel "Das Wurzelkonzept"@de, "The Root Concept"@en, "Корневая концепция"@ru .
 
