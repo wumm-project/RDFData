@@ -165,7 +165,7 @@ Interventi confermati:
 
 :Talk_116
     swc:relatedToEvent track:IP ;
-    dcterms:creator odp:Kaliteevskii_V, odp:Deder_A, odp:Peric_N, odp:Chechurin_L ;
+    dcterms:creator odp:Kaliteevski_V, odp:Deder_A, odp:Peric_N, odp:Chechurin_L ;
     dcterms:title "Concept extraction based on semantic models using big amount of patents and scientific publications data"@en ;
     a od:Talk .
 
@@ -195,7 +195,7 @@ Interventi confermati:
 
 :Talk_121
     swc:relatedToEvent track:Keynote ;
-    dcterms:creator odp:Prushinskiy_VO ;
+    dcterms:creator odp:Prushinsky_VO ;
     dcterms:title "How much TRIZ in recent creative developments of smart products?"@en ;
     a od:Talk .
 
