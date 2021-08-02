@@ -96,7 +96,7 @@ The "BUSINESS TRIZ ONLINE WINTER 2021" conference invites anyone interested in l
     a od:Talk .
 
 :Talk_114
-    dcterms:creator odp:deSaeger_I ;
+    dcterms:creator odp:DeSaeger_I ;
     dcterms:title "Smart Cases for Business TRIZ"@en ;
     a od:Talk .
 

@@ -1,0 +1,435 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix odp: <http://opendiscovery.org/rdf/Person/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix : <http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/> .
+@prefix track: <http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/track/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:General
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
+    a swc:ConferenceEvent ;
+    rdfs:label "TRIZ Future 2021" ;
+    ical:dtend "2021-09-24"^^xsd:date ;
+    ical:dtstart "2021-09-22"^^xsd:date ;
+    ical:location "online, supported by the Free University of Bozen-Bolzano (Italy)" ;
+    ical:summary """TFC21, the ETRIA World Conference “TRIZ Future” 2021 “Creative solutions for a sustainable development” will take place online on 22-24 September 2021. The Conference is organized by the European TRIZ Association (ETRIA) together with the Free University of Bozen-Bolzano (unibz). The conference’s main partner is the International Federation for Information Processing (IFIP). The local unibz organization team managed the online sessions in Bolzano, at the unibz facilities. The conference delegates will be free to join the local organization team in Bolzano and the other delegates attending in presence upon communication of their intentions. No socialization event will be organized in any case to help combat the spread of the virus. """ ;
+    ical:url <https://tfc21.events.unibz.it/> .
+
+:Workshop_100
+    dcterms:creator odp:Mayer_O, odp:Bertoncelli_T ;
+    dcterms:title "Introducing TRIZ to Small and Medium size Enterprises (SMEs) via SIT (Systematic Innovation Thinking)"@en ;
+    dcterms:abstract "Im Workshop wird die “Handregel” vermittelt, die man sich sehr leicht merken kann, die sehr schnell Erfolge aufweist und die man auch sehr einfach an Mitarbeiter vermitteln kann."@de ,
+"The workshop teaches the “rule of the hand”, which is very easy to remember, shows success very quickly and is also very easy to communicate to employees."@en ; 
+    a od:Workshop .
+
+:Workshop_101
+    dcterms:creator odp:Jantschgi_J, odp:Brabek_W, odp:Jantschgi_P ;
+    dcterms:title "“Easy to new ideas with TRIZ” – Basic TRIZ tools and their effect on creativity and problem solving – some experiences from Austria."@en ;
+    dcterms:abstract """Die Workshopteilnehmer erhalten einen praktischen Einblick in die Verwendung einiger Basis-Werkzeuge der TRIZ / SI (Systematic Innovation) zur Ideengenerierung und Problemformulierung.
+• Entwicklungstrends technischer Systeme
+• 40 Innovationsprinzipien (inkl. Vorstellung der “TRIZBOX”)
+• Definition technischer und physikalischer Widersprüche
+
+Außerdem werden
+• die vier Rollen des Kreativitätsprozesses sowie
+• das Konzept eines Kreativitäts-Brettpiels “Create Products”
+vorgestellt."""@de;
+    a od:Workshop .
+
+:Workshop_102
+    dcterms:creator odp:Kofler_I, odp:Habicher_D, odp:Borgianni_Y ;
+    dcterms:title "Research-craftsmanship alliances for sustainability in South Tyrol: the Tiny FOP MOB as a case study."@en ;
+    dcterms:abstract "The workshop illustrates results and aims of the project “Tiny FOP MOB – Real world laboratory for ecological experimentation of the future building sector”, which is financed by the European Regional Development Fund (FESR1161). The discussion will highlight how an interdisciplinary team can support SMEs in developing and evaluating new products. More specifically, the product of the project is a real world laboratory on wheels, built with sustainable and locally resourced materials and according to newly tested practices. Further, the mobile tiny house stops for a two week period in various villages in the Val Venosta valley to raise awareness among entrepreneurs and interested locals about the urgency and relevance of sustainable design, manufacturing and consumption in the construction industry and beyond. The chairs are looking forward to receiving feedback and new ideas, as well as meeting new partners to replicate the project approach with."@en, 
+"Il workshop illustra i risultati e gli scopi del progetto “Tiny FOP MOB –Sperimentazione sostenibile nel settore delle costruzioni del futuro”, finanziato tramite il Fondo Europeo di Sviluppo Regionale (FESR1161). La discussione evidenzierà come un team interdisciplinare possa sostenere le PMI nello sviluppo e nella valutazione di nuovi prodotti. Il prodotto in questione é un real world laboratory su ruote, una casetta mobile costruita con materiali locali e secondo pratiche sostenibili. Inoltre, il real laboratory mobile si ferma per due settimane alla volta in vari paesi della Val Venosta per sensibilizzare gli imprenditori e i residenti nelle aree periferiche dell’Alto Adige sull’urgenza e l’importanza della progettazione, della produzione e del consumo sostenibile nell’edilizia e oltre. I chair saranno felici di ricevere feedback e nuove idee, nonché di conoscere nuovi partner con i quali replicare l’approccio del progetto."@it, 
+"Der Workshop stellt die Ergebnisse und Ziele des Projekts „Tiny FOP MOB – nachhaltige Realexperimente im Bausektor der Zukunft” vor, welches durch den Europäischen Fond für regionale Entwicklung (EFRE1161) finanziert wird. In der Diskussion wird aufgezeigt, wie ein interdisziplinäres Team KMU bei der Entwicklung und Bewertung neuer Produkte unterstützen kann. Konkret handelt es sich um ein Reallabor auf Rädern, das mit nachhaltigen und lokal erzeugten Materialien und nach neuerprobten Praktiken erbaut wurde. Das mobile Reallabor macht für jeweils zwei Wochen in diversen Dörfern im Vinschgau halt, um das Bewusstsein der UnternehmerInnen und interessierten Einheimischen für die Dringlichkeit und Relevanz von nachhaltigem Design, Produktion und Konsum in der Baubranche aber auch darüber hinaus zu stärken. Die Lehrstühle freuen sich auf Feedback und neue Ideen sowie darauf, neue Partner zu treffen, mit denen sie den Ansatz des Projekts replizieren können."@de ; 
+    a od:Workshop .
+
+:Workshop_103
+    dcterms:creator odp:Sacco_P, odp:Orzes_G ;
+    dcterms:title "The assessment of Circular Economy to trigger sustainable innovation."@en ;
+    dcterms:abstract "Il workshop vuole portare l’attenzione su due aspetti. In primo, luogo come attraverso l’economia circolare sia possibile supportare obiettivi di sostenibilità aziendale. In secondo luogo, sul fatto che per raggiungere obiettivi legati alla sostenibilità è necessario definire in modo dettagliato questi obiettivi, conoscere la situazione attuale dell’azienda, e individuare il percorso da intraprendere per arrivare dalla situazione attuale a quella prefissata. Sarà presentato un framework che ha come obiettivo proprio quello di essere uno strumento per supportare decisioni aziendali in ambiti legati all’economia circolare, che aiuta ad individuare i settori aziendali e la tipologia di innovazione da mettere in atto (per esempio se di natura organizzativa o tecnologica)."@it ;  
+    a od:Workshop .
+
+:Workshop_104
+    dcterms:creator odp:Russo_D ;
+    dcterms:title "Use, diffusion and adoption of TRIZ in Italian companies."@en ;
+    dcterms:abstract """L’obiettivo del workshop è di offrire uno spaccato dell’uso di TRIZ nelle aziende italiane, partendo da punti di osservazione diversi tra loro. Il TRIZ raccontato dalle istituzioni che lo promuovono, dai consulenti che lo vendono, dalle aziende piccole e grandi che lo usano (da sole o mediante consulenti/facilitatori). Vogliamo creare uno spazio comune di confronto e di dibattito.
+
+Interventi confermati:
+    Alfonso Surace – R&D manager
+    Sergio Lorenzi – Soluzioni Inventive
+    Antonio Zambigliani – Caprari S.p.A.
+    Nicola Frigo – Your Technical Division YTD
+    Filippo Silipigni – Centro di Competenza per l’Innovazione Sistematica
+    Paolo Carrara – Warrant Innovation Lab WIL
+    Emanuele Gecele – EGG Solutions
+    Niccoló Sala – Quickly PRO"""@it ; 
+    a od:Workshop .
+
+
+:Talk_101
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Maccioni_L, odp:Borgianni_Y ;
+    dcterms:title "An ideality-based map to describe sustainable design initiatives"@en ;
+    a od:Talk .
+
+:Talk_102
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Sacco_P, odp:Gargano_ER, odp:Cornella_A ;
+    dcterms:title "Sustainable digitalization: a systematic literature review to identify how to make digitization more sustainable"@en ;
+    a od:Talk .
+
+:Talk_103
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:MasUdah, odp:Santosa_S, odp:Livotov_P, odp:Sekaran_APC, odp:Rubianto_L ;
+    dcterms:title "Nature-Inspired Principles for Sustainable Process Design in Chemical Engineering"@en ;
+    a od:Talk .
+
+:Talk_104
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:DeAraujo_RGM, odp:DeCarvalho_MA ;
+    dcterms:title "Comparative Analysis of Methods for Identifying Opportunities for Reusing Solid Waste"@en ;
+    a od:Talk .
+
+:Talk_105
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Lee_CH, odp:Li_L, odp:Zhong_P ;
+    dcterms:title "TRIZ Evolution Trend-based Public Service Innovation for Enhancing Social Participation of Life Garbage Classification"@en ;
+    a od:Talk .
+
+:Talk_106
+    swc:relatedToEvent track:Keynote ;
+    dcterms:creator odp:Pigosso_D ;
+    dcterms:title "When Innovation meets Circular Economy"@en ;
+    a od:Talk .
+
+:Talk_107
+    swc:relatedToEvent track:IA ;
+    dcterms:creator odp:Cho_S ;
+    dcterms:title "Concept Design of Appropriate Technology Based on Circular Economy for Sustainable Development Inferred from Korea Traditional Heating System"@en ;
+    a od:Talk .
+
+:Talk_108
+    swc:relatedToEvent track:IA ;
+    dcterms:creator odp:Carmosino_G, odp:Bionda_A, odp:Ratti_A ;
+    dcterms:title "Sustainability in yacht and vessel design through smart spaces: opportunities offered by digital technologies and new materiality"@en ;
+    a od:Talk .
+
+:Talk_109
+    swc:relatedToEvent track:IA ;
+    dcterms:creator odp:Carrara_P, odp:Morandi_W, odp:Tandoi_E ;
+    dcterms:title "Building a green development roadmap using 5Rs and TRIZ"@en ;
+    a od:Talk .
+
+:Talk_110
+    swc:relatedToEvent track:IA ;
+    dcterms:creator odp:Dobrusskin_C, odp:Wijnoltz_L, odp:Bouwkamp_T ;
+    dcterms:title "Sustainable Cooking"@en ;
+    a od:Talk .
+
+:Talk_111
+    swc:relatedToEvent track:IA ;
+    dcterms:creator odp:Roccatello_E, odp:Prada_A, odp:Baratieri_M ;
+    dcterms:title "Hybrid heat pump systems as a possible solution for the energy transition towards sustainable heating systems for buildings"@en ;
+    a od:Talk .
+
+:Talk_112
+    swc:relatedToEvent track:IA ;
+    dcterms:creator odp:DePaiva_CL, odp:DeCarvalho_MA ;
+    dcterms:title "Reducing the Effects of Ice Accumulation in Evaporators Using TRIZ"@en ;
+    a od:Talk .
+
+:Talk_113
+    swc:relatedToEvent track:Keynote ;
+    dcterms:creator odp:Rezzaghi_P ;
+    dcterms:title "TRIZ and Intellectual Property Rights: how to protect ideas coming from TRIZ activities?"@en ;
+    a od:Talk .
+
+:Talk_114
+    swc:relatedToEvent track:IP ;
+    dcterms:creator odp:Spreafico_M, odp:Russo_D ;
+    dcterms:title "Identifying new application fields of a given technology"@en ;
+    a od:Talk .
+
+:Talk_115
+    swc:relatedToEvent track:IP ;
+    dcterms:creator odp:Sun_Y, odp:Cao_G, odp:Gao_C, odp:Yang_WD, odp:Han_WP, odp:Wang_K ;
+    dcterms:title "Extraction and Modeling of Chinese Patent Information for Technical Advancement Evaluation"@en ;
+    a od:Talk .
+
+:Talk_116
+    swc:relatedToEvent track:IP ;
+    dcterms:creator odp:Kaliteevskii_V, odp:Deder_A, odp:Peric_N, odp:Chechurin_L ;
+    dcterms:title "Concept extraction based on semantic models using big amount of patents and scientific publications data"@en ;
+    a od:Talk .
+
+:Talk_117
+    swc:relatedToEvent track:IP ;
+    dcterms:creator odp:Berdyugina_D, odp:Cavallucci_D ;
+    dcterms:title "Automatic extraction of potentially contradictory parameters from specific field patent texts"@en ;
+    a od:Talk .
+
+:Talk_118
+    swc:relatedToEvent track:IP ;
+    dcterms:creator odp:Guarino_G, odp:Samet_A, odp:Cavallucci_D ;
+    dcterms:title "Patent specialization for deep learning information retrieval algorithms"@en ;
+    a od:Talk .
+
+:Talk_119
+    swc:relatedToEvent track:IP ;
+    dcterms:creator odp:Dewulf_S ;
+    dcterms:title "Patent Data Driven Innovation Logic: Textual pattern exploration to identify innovation logic data"@en ;
+    a od:Talk .
+
+:Talk_120
+    swc:relatedToEvent track:IP ;
+    dcterms:creator odp:Bersano_G, odp:Spreafico_M ;
+    dcterms:title "Patent intelligence analysis to support technology roadmap on the sector of renewable energy"@en ;
+    a od:Talk .
+
+:Talk_121
+    swc:relatedToEvent track:Keynote ;
+    dcterms:creator odp:Prushinskiy_VO ;
+    dcterms:title "How much TRIZ in recent creative developments of smart products?"@en ;
+    a od:Talk .
+
+:Talk_122
+    swc:relatedToEvent track:TT ;
+    dcterms:creator odp:Mann_D ;
+    dcterms:title "Matrix 2022: Re-Imagining The Contradiction Matrix"@en ;
+    a od:Talk .
+
+:Talk_123
+    swc:relatedToEvent track:TT ;
+    dcterms:creator odp:Vaneker_THJ, odp:Laoh_S ;
+    dcterms:title "Improving the construction of RCA+ contradiction trees"@en ;
+    a od:Talk .
+
+:Talk_124
+    swc:relatedToEvent track:TT ;
+    dcterms:creator odp:Graebe_HG, odp:Thiel_R ;
+    dcterms:title "ProHEAL Social needs and sustainability aspects in the methodology of the GDR Inventor Schools"@en ;
+    a od:Talk .
+
+:Talk_125
+    swc:relatedToEvent track:TT ;
+    dcterms:creator odp:Chrzaszcz_J ;
+    dcterms:title "Indicating and assessing quality criteria for cause-effect models"@en ;
+    a od:Talk .
+
+:Talk_126
+    swc:relatedToEvent track:TT ;
+    dcterms:creator odp:Hanifi_M, odp:Chibane_H, odp:Houssin_R, odp:Cavallucci_D ;
+    dcterms:title "Application of an FMEA based method to prioritize the initial problem choices in Inventive Design"@en ;
+    a od:Talk .
+
+:Talk_127
+    swc:relatedToEvent track:TT ;
+    dcterms:creator odp:Kaliteevski_V, odp:Bryksin_M, odp:Chechurin_L ;
+    dcterms:title "TRIZ Application for Digital Product Design and Management"@en ;
+    a od:Talk .
+
+:Talk_128
+    swc:relatedToEvent track:Keynote ;
+    dcterms:creator odp:Kiesel_M ;
+    dcterms:title "The Future of TRIZ in a VUCA (volatility, uncertainty, complexity, and ambiguity) world"@en ;
+    a od:Talk .
+
+:Talk_129
+    swc:relatedToEvent track:NA ;
+    dcterms:creator odp:Bietresato_M, odp:Mazzetto_F ;
+    dcterms:title "A reasoned evolutionary study on the actual design of farm tractors"@en ;
+    a od:Talk .
+
+:Talk_130
+    swc:relatedToEvent track:NA ;
+    dcterms:creator odp:Petrov_VM, odp:Petrov_De ;
+    dcterms:title "Practice of solving business problems using TRIZ"@en ;
+    a od:Talk .
+
+:Talk_131
+    swc:relatedToEvent track:NA ;
+    dcterms:creator odp:Majchrzak_J, odp:WiecekJanka_E ;
+    dcterms:title "TRIZ contradiction modelling in family business succession process management: quantitative approach with an application of Grey Incidence Analysis."@en ;
+    a od:Talk .
+
+:Talk_132
+    swc:relatedToEvent track:NA ;
+    dcterms:creator odp:Carrara_P, odp:Morandi_W, odp:Campagiorni_V, odp:Tandoi_E ;
+    dcterms:title "An Innovation Management framework to enhance TRIZ diffusion in SMEs"@en ;
+    a od:Talk .
+
+:Talk_133
+    swc:relatedToEvent track:NA ;
+    dcterms:creator odp:Frigo_N, odp:Russo_D, odp:DeglInnocenti_R, odp:Spreafico_C, odp:Peri_P ;
+    dcterms:title "A pioneering project on laser pyrolysis based entirely on TRIZ"@en ;
+    a od:Talk .
+
+:Talk_134
+    swc:relatedToEvent track:NA ;
+    dcterms:creator odp:ElYoussoufi_S, odp:Mazouzi_M, odp:Cherrafi_A, odp:Haroufi_A ;
+    dcterms:title "A Holistic Model for Sustainable and Innovative Business Empowerment"@en ;
+    a od:Talk .
+
+:Talk_135
+    swc:relatedToEvent track:Keynote ;
+    dcterms:creator odp:Spasic_I ;
+    dcterms:title "Emerging applications of natural language processing in health and well being"@en ;
+    a od:Talk .
+
+:Talk_136
+    swc:relatedToEvent track:AI ;
+    dcterms:creator odp:Feng_LJ, odp:Niu_Y, odp:Wang_JF, odp:Chen_Y, odp:Liu_ZF, odp:Li_K ;
+    dcterms:title "Element Variation Innovation Thinking: A method of simplifying and reorganizing TRIZ"@en ;
+    a od:Talk .
+
+:Talk_137
+    swc:relatedToEvent track:AI ;
+    dcterms:creator odp:Cavaliere_G, odp:Borgianni_Y, odp:Schaefer_C ;
+    dcterms:title "Study of an in-line automated system for surface defects analysis of aluminium diecast components using Artificial Intelligence"@en ;
+    a od:Talk .
+
+:Talk_138
+    swc:relatedToEvent track:AI ;
+    dcterms:creator odp:Graebe_HG ;
+    dcterms:title "Towards a Linked Open Data TRIZ Ontology"@en ;
+    a od:Talk .
+
+:Talk_139
+    swc:relatedToEvent track:AI ;
+    dcterms:creator odp:Livotov_P ;
+    dcterms:title "Method for formulation, selection and application of elementary TRIZ inventive principles for automated idea generation"@en ;
+    a od:Talk .
+
+:Talk_140
+    swc:relatedToEvent track:AI ;
+    dcterms:creator odp:Ni_X, odp:Samet_A, odp:Cavallucci_D ;
+    dcterms:title "Replicating TRIZ Reasoning through Deep Learning"@en ;
+    a od:Talk .
+
+:Talk_141
+    swc:relatedToEvent track:AI ;
+    dcterms:creator odp:Boufeloussen_O, odp:Cavallucci_D ;
+    dcterms:title "Bringing together engineering problems and basic science knowledge, one step closer to systematic invention"@en ;
+    a od:Talk .
+
+:Talk_142
+    swc:relatedToEvent track:Keynote ;
+    dcterms:creator odp:Belski_IV ;
+    dcterms:title "TRIZ education: victories, defeats, and challenges"@en ;
+    a od:Talk .
+
+:Talk_143
+    swc:relatedToEvent track:TE ;
+    dcterms:creator odp:Soosay_AER, odp:Kulathuramaiyer_N ;
+    dcterms:title "Triz-based Remodelling of Multiple True-False Questions"@en ;
+    a od:Talk .
+
+:Talk_144
+    swc:relatedToEvent track:TE ;
+    dcterms:creator odp:Kaliteevski_V, odp:Chechurin_L ;
+    dcterms:title "TRIZ for problems of classical physics on the experience of the European project based on nanowires research."@en ;
+    a od:Talk .
+
+:Talk_145
+    swc:relatedToEvent track:TE ;
+    dcterms:creator odp:Jantschgi_P ;
+    dcterms:title "Simplified Trend system for TRIZ beginners"@en ;
+    a od:Talk .
+
+:Talk_146
+    swc:relatedToEvent track:TE ;
+    dcterms:creator odp:Singh_H, odp:Nolte_H, odp:Becattini_N ;
+    dcterms:title "Pedagogical approaches and course modality affecting students’ self-efficacy and problem-solving attitudes in a TRIZ-oriented course"@en ;
+    a od:Talk .
+
+:Talk_147
+    swc:relatedToEvent track:TE ;
+    dcterms:creator odp:Tanoyo_T, odp:Harlim_J, odp:Belski_IV ;
+    dcterms:title "Facilitation of a creative culture through the implementation and initial evaluation of a TRIZ course within an organisation"@en ;
+    a od:Talk .
+
+:Talk_148
+    swc:relatedToEvent track:TE ;
+    dcterms:creator odp:Nakagawa_T, odp:Mann_D, odp:Orloff_MA, odp:Dewulf_S, odp:Litvin_SS, odp:Souchkov_VV ;
+    dcterms:title "World TRIZ-related Sites Project (WTSP) (4): World WTSP Catalogs of TRIZ and Around-TRIZ Sites, Let's Make Them Attractive and Useful!"@en ;
+    a od:Talk .
+
+:Talk_149
+    swc:relatedToEvent track:ID ;
+    dcterms:creator odp:Abramov_OY, odp:Medvedyev_AV, odp:Tomashevskaya_N ;
+    dcterms:title "Main Parameters of Value (MPV) Analysis: Where MPV Candidates Come From"@en ;
+    a od:Talk .
+
+:Talk_150
+    swc:relatedToEvent track:ID ;
+    dcterms:creator odp:Dubois_S, odp:Chibane_H, odp:Hafer_L, odp:Trillat_S ;
+    dcterms:title "A global approach to point out priority problems out of experts’ qualitative data"@en ;
+    a od:Talk .
+
+:Talk_151
+    swc:relatedToEvent track:ID ;
+    dcterms:creator odp:Fiorineschi_L, odp:Frillici_FS, odp:Rotini_F ;
+    dcterms:title "Integrated Use of TRIZ Tools in Systematic Conceptual Design"@en ;
+    a od:Talk .
+
+:Talk_152
+    swc:relatedToEvent track:ID ;
+    dcterms:creator odp:Brad_S ;
+    dcterms:title "Domain analysis with TRIZ to define an effective “design for excellence” framework "@en ;
+    a od:Talk .
+
+:Talk_153
+    swc:relatedToEvent track:ID ;
+    dcterms:creator odp:Wessner_J ;
+    dcterms:title "The Efficient Work with Resources in TRIZ - Resource-Oriented Search (ROS)"@en ;
+    a od:Talk .
+
+:Talk_154
+    swc:relatedToEvent track:ID ;
+    dcterms:creator odp:Yehya_MI, odp:Coulibaly_A, odp:Chibane_H, odp:Houssin_R ;
+    dcterms:title "Solution Concept Modeling and Evaluation Based on Function-Structure and Behavior Approach in the Context of Inventive Design"@en ;
+    a od:Talk .
+
+track:SD
+    a swc:TrackEvent ;
+    rdfs:label "Sustainable Development through Innovative approaches"@en .
+
+track:IA
+    a swc:TrackEvent ;
+    rdfs:label "Inventive applications targeting sustainability"@en .
+
+track:IP
+    a swc:TrackEvent ;
+    rdfs:label "TRIZ, Intellectual Property and Smart Technologies"@en .
+
+track:TT
+    a swc:TrackEvent ;
+    rdfs:label "Moving forward in TRIZ theory and development"@en .
+
+track:NA
+    a swc:TrackEvent ;
+    rdfs:label "TRIZ in non-conventional fields of application"@en .
+
+track:AI
+    a swc:TrackEvent ;
+    rdfs:label "TRIZ, data processing and Artificial Intelligence"@en .
+
+track:TE
+    a swc:TrackEvent ;
+    rdfs:label "TRIZ training, education and divulgation"@en .
+
+track:ID
+    a swc:TrackEvent ;
+    rdfs:label "TRIZ and Inventive Design"@en .
+
+track:Keynote
+    a swc:TrackEvent ;
+    rdfs:label "Keynote"@en .
+
