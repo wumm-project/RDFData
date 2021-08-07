@@ -39,7 +39,7 @@
 
 :Talk_104
     dcterms:abstract "The possibilities of using and integrating TRIZ-technology tools in training students in woodworking professions of the open source software system for the development of professionals are prsented."@en, "В докладе представлены возможности применения и интеграции инструментов ТРИЗ-технологии в обучении студентов профессий деревообрабатывающего профиля системы СПО для становления профессионалов."@ru ;
-    dcterms:creator odp:Korotkih_S ;
+    dcterms:creator odp:Korotkikh_SN ;
     dcterms:title "TRIZ technologies in high-quality training of specialists"@en, "ТРИЗ-технологии в качественной подготовке специалистов"@ru ;
     a od:Talk .
 

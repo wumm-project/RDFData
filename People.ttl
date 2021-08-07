@@ -815,10 +815,10 @@ odp:Dusmikeev_A
     foaf:affil "Компания МедиуМ, бренд SolarEnrg, Директор"@ru ;
     foaf:name "Andrei Dusmikeev" .
 
-odp:Dyachenko_A
+odp:Dyachenko_AP
     a foaf:Person ;
     foaf:fullname "Дьяченко Андрей Петрович"@ru ;
-    foaf:name "Andrei Dyachenko" .
+    foaf:name "Andrei P. Dyachenko" .
 
 odp:Echaabi_J
     a foaf:Person ;
@@ -1828,11 +1828,11 @@ odp:Korolev_VA
     foaf:fullname "Королёв В. А."@ru ;
     foaf:name "V. A. Korolev" .
 
-odp:Korotkih_S
+odp:Korotkikh_SN
     a foaf:Person ;
     foaf:affil "Krasnoyarsk, Russia" ;
-    foaf:fullname "Коротких Светлана"@ru ;
-    foaf:name "Svetlana Korotkih" .
+    foaf:fullname "Коротких Светлана Николаевна"@ru ;
+    foaf:name "Svetlana Korotkikh" .
 
 odp:Korzun_A
     a foaf:Person ;
@@ -1843,6 +1843,11 @@ odp:Kostin_A
     a foaf:Person ;
     foaf:affil "Central Economics and Mathematics Institute RAS, Russia" ;
     foaf:name "Alexander Kostin" .
+
+odp:Kozyreva_NA
+    a foaf:Person ;
+    foaf:fullname "Козырева Нелли Арнольдовна"@ru ;
+    foaf:name "Nelli A. Kozyreva" .
 
 odp:Kozhemyako_A
     a foaf:Person ;
@@ -1880,6 +1885,11 @@ odp:Krayev_OA
     a foaf:Person ;
     foaf:fullname "Краев Олег"@ru ;
     foaf:name "Oleg A. Krayev" .
+
+odp:Krokhina_IN
+    a foaf:Person ;
+    foaf:fullname "Крохина Инна Николаевна"@ru ;
+    foaf:name "Inna N. Krokhina" .
 
 odp:Kruglik_S
     a foaf:Person ;
@@ -2511,13 +2521,19 @@ odp:Mogilin_AA
 odp:Mogilina_MN
     a foaf:Person ;
     foaf:affil "Russia" ;
-    foaf:fullname "М.Н. Могилина"@ru ;
+    foaf:fullname "Могилина М.Н."@ru ;
     foaf:name "M.N. Mogilina" .
 
 odp:Mohd-Nor_R
     a foaf:Person ;
     foaf:affil "Sarawak, Malaysia" ;
     foaf:name "Rohaya Mohd-Nor" .
+
+odp:Mokhova_KS
+    a foaf:Person ;
+    foaf:affil "Russia" ;
+    foaf:fullname "Мохова Ксения Сергеевна"@ru ;
+    foaf:name "K. S. Mokhova" .
 
 odp:Morandi_W
     a foaf:Person ;
@@ -3318,6 +3334,11 @@ odp:Sheng_ILS
     foaf:affil "Monash University Malaysia, Malaysia" ;
     foaf:name "Issac Lim Sing Sheng" .
 
+odp:Shevelyeva_EV
+    a foaf:Person ;
+    foaf:fullname "Шевелева Елена Владимировна"@ru ;
+    foaf:name "E. V. Shevelyeva" .
+
 odp:Shim_JM
     a foaf:Person ;
     foaf:name "Jaemin Shim" .
@@ -3698,10 +3719,11 @@ odp:Tarar_MA
     foaf:affil "University of Nottingham, Malaysia" ;
     foaf:name "Mariam Altaf Tarar" .
 
-odp:Terekhova_G
+odp:Terekhova_GV
     a foaf:Person ;
     foaf:affil "Chelyabinsk, Russia" ;
-    foaf:name "Galina Terekhova" .
+    foaf:fullname "Терехова Галина Владимировна"@ru ;
+    foaf:name "Galina V. Terekhova" .
 
 odp:Terninko_J
     a foaf:Person ;
@@ -4073,6 +4095,11 @@ odp:Yeremin_VY
     foaf:fullname "Еремин Владислав"@ru ;
     foaf:name "Vladislav Yu. Yeremin" .
 
+odp:Yeremina_OI
+    a foaf:Person ;
+    foaf:fullname "Еремина Оксана Ивановна"@ru ;
+    foaf:name "Oksana I. Yeremina" .
+
 odp:Yermolov_KA
     a foaf:Person ;
     foaf:fullname "Ермолов К.А."@ru ;
@@ -4130,6 +4157,11 @@ odp:Zakharov_AN
     a foaf:Person ;
     foaf:affil "USA" ;
     foaf:name "Alex N. Zakharov" .
+
+odp:Zakharova_OR
+    a foaf:Person ;
+    foaf:fullname "Захарова Оксана Рэмовна"@ru ;
+    foaf:name "Oksana R. Zakharova" .
 
 odp:Zaleski_M
     a foaf:Person ;
