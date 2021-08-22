@@ -1,0 +1,200 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix odp: <http://opendiscovery.org/rdf/Person/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/> .
+@prefix track: <http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/Track/> .
+
+:General 
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest> ;
+    rdfs:label "TRIZ Fest 2021" ;
+    ical:summary "TRIZ Fest 2021 Online, Odessa, Ukraine" ;
+    ical:dtend "2021-09-18"^^xsd:date ;
+    ical:dtstart "2021-09-15"^^xsd:date ;
+    ical:location "Online" .
+
+:Talk_100
+    swc:relatedToEvent track:Tutorial ;
+    dcterms:creator odp:Fey_VR ;
+    dcterms:title "Are You Solving the Right Problem?"@en ;
+    a od:Talk .
+
+:Talk_101
+    swc:relatedToEvent track:Tutorial ;
+    dcterms:creator odp:Souchkov_VV ;
+    dcterms:title "How to Inventively Develop Business Services"@en ;
+    a od:Talk .
+
+:Talk_102
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Popova_SL, odp:Garzon_S, odp:Bauch_M, odp:Guenther_S ;
+    dcterms:title "TRIZ Reverse – Specification and application of a 7 step-by-step approach for systematic knowledge and technology transfer"@en ;
+    a od:Talk .
+
+:Talk_103
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Chrzaszcz_J ;
+    dcterms:title "Imperceptible Detection of Fluorescence – Using TRIZ to See the Invisible"@en ;
+    a od:Talk .
+
+:Talk_104
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Lesourd_J, odp:Savelli_S, odp:Emanuilov_E, odp:Feygenson_ON ;
+    dcterms:title "Pockets of Knowledge (PoK) – TRIZ"@en ;
+    a od:Talk .
+
+:Talk_105
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Logvinov_SA ;
+    dcterms:title "The Issues of Transition to Supersystem"@en ;
+    a od:Talk .
+
+:Talk_106
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Belfiore_J ;
+    dcterms:title "ISO Standards for Innovation and their Impacts to the TRIZ Community"@en ;
+    a od:Talk .
+
+:Talk_107
+    swc:relatedToEvent track:Pedagogy ;
+    dcterms:creator odp:Guin_Evgenia ;
+    dcterms:title "What Can TRIZ Bring to Pedagogy?"@en ;
+    a od:Talk .
+
+:Talk_108
+    swc:relatedToEvent track:Pedagogy ;
+    dcterms:creator odp:Gafitulin_MS ;
+    dcterms:title "Non-ordinary View of Ordinary Things"@en ;
+    a od:Talk .
+
+:Talk_109
+    swc:relatedToEvent track:Pedagogy ;
+    dcterms:creator odp:Pchelkina_E ;
+    dcterms:title "Approaches to TRIZ-Pedagogy at RA TRIZ"@en ;
+    a od:Talk .
+
+:Talk_110
+    swc:relatedToEvent track:Pedagogy ;
+    dcterms:creator odp:Nesterenko_AA ;
+    dcterms:title "Integration of TRIZ to Education: Issues and Approaches"@en ;
+    a od:Talk .
+
+:Talk_111
+    swc:relatedToEvent track:Pedagogy ;
+    dcterms:creator odp:Kozyreva_NA ;
+    dcterms:title "Using TRIZ to Designing Toys and Games with Pedagogy Students"@en ;
+    a od:Talk .
+
+:Talk_112
+    swc:relatedToEvent track:Pedagogy ;
+    dcterms:creator odp:Sokol_A ;
+    dcterms:title "TRIZ and Thinking Skills: Can There Bee Added Value and Where Should We Look for It?"@en ;
+    a od:Talk .
+
+:Talk_113
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Zhang_K, odp:Hao_Z ;
+    dcterms:title "Patent Circumvention and Strengthening in Wind Turbine Blade Noise Reduction"@en ;
+    a od:Talk .
+
+:Talk_114
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Mohammadi_A ;
+    dcterms:title "Application of TRIZ in Designing a Simple Monitoring Device for Checking Electrical Grounding Connections"@en ;
+    a od:Talk .
+
+:Talk_115
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Strempel_T, odp:Graebe_HG ;
+    dcterms:title "Semantic Web Modelling of TRIZ System Evolution Concepts"@en ;
+    a od:Talk .
+
+:Talk_116
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Lin_YJ ;
+    dcterms:title "Apply Functional Analysis and Inventive Standards of TRIZ for Business And Management To Solve Teaching Problems"@en ;
+    a od:Talk .
+
+:Talk_117
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Kassou_R ;
+    dcterms:title "Architecture and Design Implementation of Innometric System"@en ;
+    a od:Talk .
+
+:Talk_118
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Litvin_SS ;
+    dcterms:title "TRIZ Application to Successful Startups Development"@en ;
+    a od:Talk .
+
+:Talk_119
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Kozhemyako_A ;
+    dcterms:title "How To Hold Strategic Sessions Via TRIZ Tools"@en ;
+    a od:Talk .
+
+:Talk_120
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Souchkov_VV ;
+    dcterms:title "Modern Tools for Business TRIZ"@en ;
+    a od:Talk .
+
+:Talk_121
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Keiper_D, odp:Hausmann_B, odp:Schaefer_T ;
+    dcterms:title "What TRIZ Tools Where Used in the Pre-TRIZ Age? - a Study of an Aircraft Engineering Project"@en ;
+    a od:Talk .
+
+:Talk_122
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Mayer_O ;
+    dcterms:title "Big Data Analysis: A Component / Resource to be Considered in TRIZ"@en ;
+    a od:Talk .
+
+:Talk_123
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Shpakovsky_NA ;
+    dcterms:title "Implementing TRIZ at a Company with Solving Mill Software (Samsung Case)"@en ;
+    a od:Talk .
+
+:Talk_124
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Zhao_Y, odp:Lin_Y, odp:Xu_DS ;
+    dcterms:title "Research on Enterprise Product Research and Development Based on Customer Demand - The Practice Record of Innovative Methods in Enterprise Product R&D"@en ;
+    a od:Talk .
+
+:Talk_125
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Dobrusskin_C ;
+    dcterms:title "Horological TRIZ Ruminations"@en ;
+    a od:Talk .
+
+:Talk_126
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Garzon_S, odp:Popova_SL, odp:Bauch_M, odp:Guenther_S ;
+    dcterms:title "TRIZ Reverse: A Systematic Review And Comparison With Existing Knowledge And"@en ;
+    a od:Talk .
+
+:Talk_127
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Palcak_F ;
+    dcterms:title "Benefits Of TRIZ Approach To Enable Proper Holistic Education"@en ;
+    a od:Talk .
+
+track:Tutorial
+    a swc:TrackEvent ;
+    rdfs:label "Tutorial"@en .
+
+track:Main
+    a swc:TrackEvent ;
+    rdfs:label "Paper Track"@en .
+
+track:Pedagogy
+    a swc:TrackEvent ;
+    rdfs:label "TRIZ Pedagogy Session"@en .

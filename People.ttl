@@ -200,6 +200,10 @@ odp:Baszczeski_A
     foaf:affil "ASK Consulting, Poland" ;
     foaf:name "Antoni Baszczeski" .
 
+odp:Bauch_M
+    a foaf:Person ;
+    foaf:name "Matthias Bauch" .
+
 odp:Bayer_T
     a foaf:Person ;
     foaf:name "Tobias Bayer" .
@@ -843,6 +847,10 @@ odp:Elfvengren_K
     foaf:affil "LUT School of Engineering Science, Finland" ;
     foaf:name "Kalle Elfvengren" .
 
+odp:Emanuilov_E
+    a foaf:Person ;
+    foaf:name "Emmanuil Emanuilov" .
+
 odp:Emmanuel_T
     a foaf:Person ;
     foaf:name "Thursday Emmanuel" .
@@ -1081,6 +1089,10 @@ odp:GarinaDomchenko_AN
     foaf:fullname "Гарина-Домченко А.Н."@ru ;
     foaf:name "A.N. Garina-Domchenko" .
 
+odp:Garzon_S
+    a foaf:Person ;
+    foaf:name "Sergio Garzon" .
+
 odp:Gasanov_AI
     a foaf:Person ;
     foaf:affil "Moscow, Russia" ;
@@ -1213,6 +1225,10 @@ odp:Gubanov_SN
     foaf:fullname "Губанов Сергей Николаевич"@ru ;
     foaf:name "Sergei Gubanov" .
 
+odp:Guenther_S
+    a foaf:Person ;
+    foaf:name "Swen Günther" .
+
 odp:Guin_AA
     a foaf:Person ;
     foaf:affil "Association «Education for a New Era», Russia" ;
@@ -1227,7 +1243,7 @@ odp:Guin_Elena
 odp:Guin_Evgenia
     a foaf:Person ;
     foaf:affil "Association «Education for a New Era», Russia" ;
-    foaf:name "Evgenia Guin" .
+    foaf:name "Eugenia Guin" .
 
 odp:Guio_RD
     a foaf:Person ;
@@ -1285,6 +1301,10 @@ odp:Hanifi_M
     foaf:affil "Strasbourg, France" ;
     foaf:name "Masih Hanifi" .
 
+odp:Hao_Z
+    a foaf:Person ;
+    foaf:name "Zhuang Hao" .
+
 odp:Harlim_J
     a foaf:Person ;
     foaf:affil "Melbourne, Australia" ;
@@ -1297,6 +1317,10 @@ odp:Haroufi_A
 odp:Hartmann_R
     a foaf:Person ;
     foaf:name "Rainer Hartmann" .
+
+odp:Hausmann_B
+    a foaf:Person ;
+    foaf:name "Bernd Hausmann" .
 
 odp:He_XZ
     a foaf:Person ;
@@ -1636,7 +1660,7 @@ odp:Kassou_R
     a foaf:Person ;
     foaf:affil "NPK Consult, Moscow, Russia" ;
     foaf:fullname "Кассу Рамез"@ru ;
-    foaf:name "Ramez Kassou" .
+    foaf:name "Ahmad-Ramez Kassou" .
 
 odp:Katzwinkel_T
     a foaf:Person ;
@@ -1646,6 +1670,10 @@ odp:Katzwinkel_T
 odp:Kayser_L
     a foaf:Person ;
     foaf:name "Lin Kayser" .
+
+odp:Keiper_D
+    a foaf:Person ;
+    foaf:name "Dietmar Keiper" .
 
 odp:Kengerli_TA
     a foaf:Person ;
@@ -1844,11 +1872,6 @@ odp:Kostin_A
     foaf:affil "Central Economics and Mathematics Institute RAS, Russia" ;
     foaf:name "Alexander Kostin" .
 
-odp:Kozyreva_NA
-    a foaf:Person ;
-    foaf:fullname "Козырева Нелли Арнольдовна"@ru ;
-    foaf:name "Nelli A. Kozyreva" .
-
 odp:Kozhemyako_A
     a foaf:Person ;
     foaf:affil "Business Association TRIZ", "Russia" ;
@@ -1868,6 +1891,11 @@ odp:Kozyreva_N
     foaf:fullname "Козырева Нелли"@ru ;
     foaf:homepage <https://kozyreva.ucoz.ru/> ;
     foaf:name "Nelly Kozyreva" .
+
+odp:Kozyreva_NA
+    a foaf:Person ;
+    foaf:fullname "Козырева Нелли Арнольдовна"@ru ;
+    foaf:name "Nelli A. Kozyreva" .
 
 odp:Krasnoslobodtsev_VJ
     a foaf:Person ;
@@ -2524,6 +2552,10 @@ odp:Mogilina_MN
     foaf:fullname "Могилина М.Н."@ru ;
     foaf:name "M.N. Mogilina" .
 
+odp:Mohammadi_A
+    a foaf:Person ;
+    foaf:name "Ali Mohammadi" .
+
 odp:Mohd-Nor_R
     a foaf:Person ;
     foaf:affil "Sarawak, Malaysia" ;
@@ -2808,6 +2840,10 @@ odp:Pavlov_VV
     foaf:fullname "Павлов Валерий Валентинович"@ru ;
     foaf:name "Valeri V. Pavlov" .
 
+odp:Pchelkina_E
+    a foaf:Person ;
+    foaf:name "Ekaterina Pchelkina" .
+
 odp:Peri_P
     a foaf:Person ;
     foaf:name "Paolo Peri" .
@@ -2942,6 +2978,10 @@ odp:Pomeranets_MS
     a foaf:Person ;
     foaf:fullname "Померанец М.С."@ru ;
     foaf:name "M.S. Pomeranets" .
+
+odp:Popova_SL
+    a foaf:Person ;
+    foaf:name "Silvia Liubenova Popova" .
 
 odp:Prada_A
     a foaf:Person ;
@@ -3209,6 +3249,10 @@ odp:Sawaguchi_M
 odp:Schaefer_C
     a foaf:Person ;
     foaf:name "Carmen Schaefer" .
+
+odp:Schaefer_T
+    a foaf:Person ;
+    foaf:name "Tobias Schaefer" .
 
 odp:Schaper_S
     a foaf:Person ;
@@ -3620,6 +3664,10 @@ odp:Strelchenko_O
     foaf:fullname "Стрельченко Олег"@ru ;
     foaf:name "Oleg Strelchenko" .
 
+odp:Strempel_T
+    a foaf:Person ;
+    foaf:name "Tom Strempel" .
+
 odp:Stroganov_B
     a foaf:Person ;
     foaf:fullname "Строганов Борис"@ru ;
@@ -4026,6 +4074,10 @@ odp:Xiaoyan_Z
     a foaf:Person ;
     foaf:name "Zheng Xiaoyan" .
 
+odp:Xu_DS
+    a foaf:Person ;
+    foaf:name "Dongshuang Xu" .
+
 odp:Xu_H
     a foaf:Person ;
     foaf:name "He Xu" .
@@ -4186,6 +4238,10 @@ odp:Zhang_JH
     foaf:affil "Tianjin, PR China" ;
     foaf:name "Zhang Jianhui" .
 
+odp:Zhang_K
+    a foaf:Person ;
+    foaf:name "Karl Zhang" .
+
 odp:Zhang_L
     a foaf:Person ;
     rdfs:seeAlso <http://orcid.org/0000-0002-3271-461X> ;
@@ -4230,6 +4286,10 @@ odp:Zhao_XJ
     a foaf:Person ;
     foaf:affil "Northeastern University, Shenyang, PR China" ;
     foaf:name "Zhao Xin-jun" .
+
+odp:Zhao_Y
+    a foaf:Person ;
+    foaf:name "Yan Zhao" .
 
 odp:Zhen_L
     a foaf:Person ;
