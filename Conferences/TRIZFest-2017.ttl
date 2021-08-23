@@ -83,7 +83,7 @@ dcterms:creator odp:Phadnis_S .
 :Paper_115 a od:Paper;
 rdfs:comment "Republished in TRIZ Review 1, Febr. 2019"; 
  dcterms:title "Evolution map based in advance invention, process and case studies";
-dcterms:creator odp:Song_MJ, odp:Jang_D, odp:Jang_S, odp:Heo_C, odp:Son_DI, odp:Cho_C, odp:Kim_B, odp:Seo_J . 
+dcterms:creator odp:Song_MJ, odp:Jang_D, odp:Jang_S, odp:Heo_CR, odp:Son_DI, odp:Cho_C, odp:Kim_B, odp:Seo_J . 
 
 :Paper_116 a od:Paper;
  dcterms:title "From problem to objective – complementing TRIZ with NLP";
@@ -150,7 +150,7 @@ dcterms:creator odp:Litvin_SS, odp:Rutten_P .
 
 :Paper_131 a od:Paper;
  dcterms:title "Open TRIZ second wave. TRIZ & toc tool";
-dcterms:creator odp:Villarroe_JRE . 
+dcterms:creator odp:Villarroel_JRE . 
 
 :Paper_132 a od:Paper;
  dcterms:title "Opportunities from integrating TRIZ and IT project management for alignment IT-business";

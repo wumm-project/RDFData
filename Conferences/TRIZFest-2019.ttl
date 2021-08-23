@@ -1,0 +1,414 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix odp: <http://opendiscovery.org/rdf/Person/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://opendiscovery.org/rdf/Conferences/TRIZFest-2019/> .
+@prefix track: <http://opendiscovery.org/rdf/Conferences/TRIZFest-2019/track/> .
+
+:General 
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest> ;
+    rdfs:label "TRIZ Fest 2019" ;
+    ical:summary "TRIZ Fest 2019 in Heilbronn, Germany" ;
+    ical:dtend "2019-09-14"^^xsd:date ;
+    ical:dtstart "2019-09-11"^^xsd:date ;
+    ical:location "Heilbronn, Germany" ;
+    bibo:issn "2374-2275" ;
+    bibo:isbn "978-0-578-62617-8" ; 
+    od:theProceedings <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ;
+    ical:url <https://matriz.org/trizfest-proceedings/> .
+
+:Talk_100
+    swc:relatedToEvent track:Tutorial ;
+    dcterms:creator odp:Ikovenko_SA ;
+    dcterms:title "Design for patentability"@en ;
+    a od:Talk .
+
+:Talk_101
+    swc:relatedToEvent track:Tutorial ;
+    dcterms:creator odp:Prushinsky_VO ;
+    dcterms:title "Basics of hybridization"@en ;
+    a od:Talk .
+
+:Talk_102
+    swc:relatedToEvent track:Tutorial ;
+    dcterms:creator odp:Fey_VR ;
+    dcterms:title "How to find your innovation sweet spot"@en ;
+    a od:Talk .
+
+:Talk_103
+    swc:relatedToEvent track:Tutorial ;
+    dcterms:creator odp:Feygenson_ON ;
+    dcterms:title "Advanced information analysis with TRIZ"@en ;
+    a od:Talk .
+
+:Talk_104
+    swc:relatedToEvent track:Tutorial ;
+    dcterms:creator odp:Souchkov_VV ;
+    dcterms:title "Laws and trends of innovative development of business systems and products"@en ;
+    a od:Talk .
+
+:Talk_105
+    swc:relatedToEvent track:Tutorial ;
+    dcterms:creator odp:Litvin_SS ;
+    dcterms:title "Creative imagination development"@en ;
+    a od:Talk .
+
+:Talk_106
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Litvin_SS ;
+    dcterms:title "TRIZ tools for disruptive cost reduction"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_107
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Mayer_O, odp:Bertoncelli_T ;
+    od:presentedBy odp:Mayer_O; 
+    dcterms:title "Big data analysis: a resource to be considered in TRIZ"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_108
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Chrzaszcz_J ;
+    dcterms:title "Logical negation in CECA model"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_109
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Abramov_OY, odp:Medvedyev_AV, odp:Tomashevskaya_N ;
+    dcterms:title "TRIZ roadmap for identifying adjacent markets"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_110
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Sizikov_V, odp:Gabor_M ;
+    dcterms:title "Increasing of customer experience with vacuum cleaner using the trends of engineering system evolution"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_111
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Graf_M ;
+    dcterms:title "Process innovation in packaging chocolate cookies"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_112
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Kim_J, odp:Han_Y, odp:Lee_A, odp:Cho_G, odp:Jeong_W ;
+    dcterms:title "FOS with operating time"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_112a
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Kim_J, odp:Han_Y, odp:Lee_A, odp:Cho_G, odp:Jeong_W ;
+    od:presentedBy odp:Lee_A; 
+    dcterms:title "The method of step back from ideal system"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_113
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Jing_Z, odp:Xiangmin_Z, odp:Kai_G ;
+    dcterms:title "Study on the TESE application roadmap under the strategic development of S-curve"@en ;
+    a od:Talk .
+
+:Talk_114
+    swc:relatedToEvent track:Keynote ;
+    dcterms:creator odp:Eidloth_R, odp:Lau_A ;
+    dcterms:title "TRIZ at Schaeffler"@en ;
+    a od:Talk .
+
+:Talk_115
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Cheng_M, odp:Xu_H, odp:Sun_F, odp:Jiao_L, odp:Yu_FS ;
+    dcterms:title "Study on erosion resistance of control valve cage based on TRIZ and bionics"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_116
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Lee_YJ ;
+    dcterms:title "Function analysis for convert system"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_117
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Domkin_KI, odp:Severinets_GA, odp:Gerasimov_OM ;
+    dcterms:title "TRIZ tools for effective roadmaps"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_118
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Obojski_J ;
+    dcterms:title "Playing as a way to resolve the contradictory demands. A case studies review"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_119
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Kassou_R ;
+    dcterms:title "My first long-term TRIZ-based project in Heilbronn"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_120
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Kneisel_BO ;
+    dcterms:title "Extending the concept of contradictions – TRIZ application in non-technical, management related contexts"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_121
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Engelhard_S, odp:Kiesel_AK, odp:Adunka_R ;
+    dcterms:title "How to bring the successful concept of TRIZ to small and medium-sized companies and to support them during the implementation of TRIZ"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_122
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Schoewel_M ;
+    dcterms:title "Flow enhancement interpretation experience"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_123
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Doan_MD ;
+    dcterms:title "An analysis of 40 years teaching enlarged TRIZ in Vietnam"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_124
+    swc:relatedToEvent track:Pedagogy ;
+    dcterms:creator odp:Guin_Evgenia, odp:Guin_AA ;
+    dcterms:title "Interview lesson"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_125
+    swc:relatedToEvent track:Pedagogy ;
+    dcterms:creator odp:Dobrusskin_C ;
+    dcterms:title "The case of the case. How do I find or create a good case that I can use to teach TRIZ in my class?"@en ;
+    a od:Talk .
+
+:Talk_126
+    swc:relatedToEvent track:Pedagogy ;
+    dcterms:creator odp:Gredynarova_O ;
+    dcterms:title "Competency based approach in \"education without lesson\" at school using the system approach"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_127
+    swc:relatedToEvent track:Pedagogy ;
+    dcterms:creator odp:Barkan_MG ;
+    dcterms:title "The skills and attributes I need in order to be successful"@en ;
+    a od:Talk .
+
+:Talk_128
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Sun_YW, odp:Long_Y, odp:Ma_S ;
+    od:presentedBy odp:Sun_YW; 
+    dcterms:title "Patent circumvention and portfolio design based on initial disadvantages identification and cause effect chain analysis"@en ; 
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_129
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Chrzaszcz_J ;
+    dcterms:title "Deriving quantitative characteristics from CECA model"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_130
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Wessner_J ;
+    dcterms:title "TRIZ - time and fault tree analysis with function analysis"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_131
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Prushinsky_VO ;
+    dcterms:title "Applying of hybridization for development of flexible display device"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_132
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Abramov_OY, odp:Fimin_P, odp:Smirnova_E ;
+    dcterms:title "Technology scouting in chemistry: roadmap and case studies"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_133
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Flohr_AM, odp:Schaper_S ;
+    dcterms:title "Trends in healthcare"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_134
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Chen_JL, odp:Xu_H, odp:Pooneeth_V, odp:Zhao_Z, odp:Zhou_X, odp:Wang_HH, odp:Sun_F ;
+    dcterms:title "Design of robot self-cleaning vision system based on TRIZ and multi-coupling biomimetic technology"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_135
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Liu_MJ, odp:Zhong_XL ;
+    dcterms:title "Application of systematic innovation method in BF hearth erosion problem"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_136
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Yu_FS, odp:Xu_H, odp:Sun_F, odp:Li_P ;
+    dcterms:title "Design of variable diameter flexible arm based on TRIZ theory and bionics"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_137
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Chen_SQ, odp:Xu_H, odp:Wang_HH, odp:Zhang_YH, odp:Li_P, odp:Pooneeth_V ;
+    dcterms:title "Stiffness improvement of flexible arm based on TRIZ theory"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_138
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Naehler_HT, odp:Gronauer_B, odp:Bertoncelli_T, odp:Nagel_T ;
+    dcterms:title "The barcamp-format as a perfect setting for inventive situations – what the first German TRIZ barcamp teaches us about innovation challenges"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_139
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Cooke_J, odp:Dobrusskin_C, odp:Sire_P ;
+    dcterms:title "The 3rd European remote TRIZ workshop"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_140
+    swc:relatedToEvent track:Keynote ;
+    dcterms:creator odp:Bayer_T ;
+    dcterms:title "The TRIZ based invention process in the knowledge – creativity – abstraction - sphere of disruptive innovations. A practical report by the example of the Galaxie Getriebes® of the WITTENSTEIN SE"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_141
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Savelli_S, odp:Feygenson_ON ;
+    dcterms:title "Algorithm of enhanced function-oriented search"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_142
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Hiltmann_N, odp:Hiltmann_K ;
+    od:presentedBy odp:Hiltmann_N; 
+    dcterms:title "Application of TRIZ techniques for identifying ideas for digital anti-trolling"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_143
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Lyubomirsky_AL ;
+    dcterms:title "Physical contradiction resolving by separation of contradictory requirements in space or time on micro-level"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_144
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Souchkov_VV ;
+    dcterms:title "Extension of function modeling to non-technical systems"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_145
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Peddi_S ;
+    dcterms:title "Forecasting digital radiology medical devices"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_146
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Zhang_K, odp:Lin_Y ;
+    dcterms:title "Evolution analysis and prediction of shower"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_147
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Zhang_Y, odp:Xu_H, odp:Wang_HH, odp:Chen_SQ, odp:Zhao_Z, odp:Pooneeth_V ;
+    od:presentedBy odp:Xu_H; 
+    dcterms:title "Innovative design of the anti-erosion structure in a water hydraulic valve based on TRIZ combining with bionics and fractal theory"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_148
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Su_XF, odp:Yu_N, odp:Qiang_F, odp:Wang_Y, odp:Lv_L ;
+    dcterms:title "Talking about the practical application of the standard solution"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_149
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Redkolis_EV ;
+    dcterms:title "Experience of large holding companies: internal TRIZ trainers education"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_150
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Barkan_MG ;
+    dcterms:title "The world is dynamic, the education is linear"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_151
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Graebe_HG ;
+    dcterms:title "The contribution to TRIZ by the inventor schools in the GDR"@en ;
+    od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
+    a od:Talk .
+
+:Talk_152
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Farber_BS, odp:Kleyn_I, odp:Martynov_A ;
+    dcterms:title "Tactics fighting superbugs by the last resort super drugs based on scientific foundation and TRIZ"@en ;
+    a od:Talk .
+
+track:Keynote
+    a swc:TrackEvent ;
+    rdfs:label "Keynote"@en .
+
+track:Tutorial
+    a swc:TrackEvent ;
+    rdfs:label "Tutorial"@en .
+
+track:Main
+    a swc:TrackEvent ;
+    rdfs:label "Main track"@en .
+
+track:Pedagogy
+    a swc:TrackEvent ;
+    rdfs:label "Special Session TRIZ-Pedagogy"@en .
+

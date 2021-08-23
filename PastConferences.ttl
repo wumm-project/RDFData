@@ -376,6 +376,30 @@ including keynote talks and presentations at plenary sessions. """ ;
     ical:location "Bath University, Bath, UK"  ;
     od:hasReports <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eforum/eETRIACon2001/eETRIACon2001.html> .
 
+<http://opendiscovery.org/rdf/Conferences/TRIZFest-2019/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest> ;
+    rdfs:label "TRIZ Fest 2019" ;
+    ical:summary "TRIZ Fest 2019 in Heilbronn, Germany" ;
+    ical:dtend "2019-09-14"^^xsd:date ;
+    ical:dtstart "2019-09-11"^^xsd:date ;
+    ical:location "Heilbronn, Germany" ;
+    od:theProceedings <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ;
+    od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZFest-2019.rdf> ; 
+    ical:url <https://matriz.org/trizfest-proceedings/> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest> ;
+    rdfs:label "TRIZ Fest 2018" ;
+    ical:summary "TRIZ Fest 2018 in Lisbon, Portugal" ;
+    ical:dtend "2018-09-15"^^xsd:date ;
+    ical:dtstart "2018-09-13"^^xsd:date ;
+    ical:location "Heilbronn, Germany" ;
+    od:theProceedings <https://matriz.org/wp-content/uploads/2018/12/TRIZfest-2018-Proceedings.pdf> ;
+    od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZFest-2018.rdf> ; 
+    ical:url <https://matriz.org/trizfest-proceedings/> .
+
 <http://opendiscovery.org/rdf/Conferences/TRIZFest-2017/>
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest> ;

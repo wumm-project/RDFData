@@ -1,0 +1,176 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix odp: <http://opendiscovery.org/rdf/Person/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://opendiscovery.org/rdf/Conferences/TRIZFest-2018/> .
+
+:General 
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest> ;
+    rdfs:label "TRIZ Fest 2018" ;
+    ical:summary "TRIZ Fest 2018 in Lisbon, Portugal" ;
+    ical:dtend "2018-09-15"^^xsd:date ;
+    ical:dtstart "2018-09-13"^^xsd:date ;
+    ical:location "Lisbon, Portugal" ;
+    bibo:issn "2374-2275" ;
+    bibo:isbn "978-0-942442-95-3" ; 
+    od:theProceedings <https://matriz.org/wp-content/uploads/2019/01/TRIZfest-2018-Proceedings.pdf> ;
+    ical:url <https://matriz.org/trizfest-proceedings/> .
+
+:Talk_100
+    dcterms:creator odp:Guedes_LC ;
+    dcterms:title "TRIZ and Software Evolution"@en ;
+    a od:Talk .
+
+:Talk_101
+    dcterms:creator odp:Bertoncelli_T, odp:Mayer_O, odp:Cozzini_C, odp:Kudielka_G ;
+    dcterms:title "TRIZ Modelling of X-Ray Phase Contrast System for Medical Applications"@en ;
+    a od:Talk .
+
+:Talk_102
+    dcterms:creator odp:Chrzaszcz_J ;
+    dcterms:title "Indicating System Vulnerabilities Within Ceca Model"@en ;
+    a od:Talk .
+
+:Talk_103
+    dcterms:creator odp:Kudielka_G, odp:Bertoncelli_T, odp:Mayer_O ;
+    dcterms:title "Application of TRIZ Methods for Alternatives in Cardiac Activity Detection in Magnetic Resonance Imaging"@en ;
+    a od:Talk .
+
+:Talk_104
+    dcterms:creator odp:Feygenson_ON, odp:Feygenson_NB ;
+    dcterms:title "Identification and Utilization of the Most Efficient Resources Among Those Available"@en ;
+    a od:Talk .
+
+:Talk_105
+    dcterms:creator odp:Abramov_OY, odp:Savelli_S ;
+    dcterms:title "Identifying Key Problems and Conceptual Directions: Using the Analytical Tools of Modern TRIZ"@en ;
+    a od:Talk .
+
+:Talk_106
+    dcterms:creator odp:Heesen_R, odp:Dobrusskin_C ;
+    dcterms:title "Paradigming TRIZ as Design Frames in Philosophy Education"@en ;
+    a od:Talk .
+
+:Talk_107
+    dcterms:creator odp:Mewani_V, odp:Nagashiresha_G ;
+    dcterms:title "Identifying Key Problems and Conceptual Directions Using the Analytical Tools of Modern TRIZ"@en ;
+    a od:Talk .
+
+:Talk_108
+    dcterms:creator odp:Pande_I, odp:Mewani_V ;
+    dcterms:title "Contact Lens Technology Evolution - A Study of Correlation Between Patents and TRIZ Trends"@en ;
+    a od:Talk .
+
+:Talk_109
+    dcterms:creator odp:Abramov_OY, odp:Markosov_SA, odp:Medvedyev_AV, odp:Rychagov_VY ;
+    dcterms:title "Innovation Funnel of Modern Triz: Experimental Study to Show the Efficacy of the TRIZ-Assisted Stage-Gate Process"@en ;
+    a od:Talk .
+
+:Talk_110
+    dcterms:creator odp:Fimin_P, odp:Rychagov_VY ;
+    dcterms:title "Su-field Analysis in Optics: Research and Practice"@en ;
+    a od:Talk .
+
+:Talk_111
+    dcterms:creator odp:Muiambo_C, odp:Joao_IM, odp:Navas_H ;
+    dcterms:title "The Integration of TRIZ Methods With Eco-design and Lean Design: A Literature Review and Future Research Directions to the Development of a New Model"@en ;
+    a od:Talk .
+
+:Talk_112
+    dcterms:creator odp:Hiltmann_K ;
+    dcterms:title "The Fast Diagram for Triz"@en ;
+    a od:Talk .
+
+:Talk_113
+    dcterms:creator odp:Litvin_S, odp:Prokofiev_A ;
+    dcterms:title "TRIZ Approach to Internet of Things"@en ;
+    a od:Talk .
+
+:Talk_114
+    dcterms:creator odp:Lok_A ;
+    dcterms:title "Selecting and Validating Key Problems in TRIZ Projects"@en ;
+    a od:Talk .
+
+:Talk_115
+    dcterms:creator odp:Vermeijlen_A, odp:Dobrusskin_C, odp:Baaijens_H, odp:Vennix_A, odp:Upperman_C, odp:Rovers_M ;
+    dcterms:title "Triz in Schoolproject Sensus"@en ;
+    a od:Talk .
+
+:Talk_116
+    dcterms:creator odp:Faer_SA, odp:Barkan_MG ;
+    dcterms:title "Taking Human Factor Out of Equation. A Technical Remedy for a Managerial Challenge"@en ;
+    a od:Talk .
+
+:Talk_117
+    dcterms:creator odp:Faer_SA, odp:Barkan_MG ;
+    dcterms:title "Method of Paradoxes. For Those Who Have Mastered the Basic Concepts of Classical Triz: Ideality, IFRs, Resources, Contradictions."@en ;
+    a od:Talk .
+
+:Talk_118
+    dcterms:creator odp:Ruin_A, odp:Konovalenko_A ;
+    dcterms:title "Automating TRIZ for Crowdsourcing Applications"@en ;
+    a od:Talk .
+
+:Talk_119
+    dcterms:creator odp:Kim_M, odp:Kim_H, odp:Heo_CR, odp:Song_MJ, odp:Baek_K, odp:Yeo_HS, odp:Cho_K ;
+    dcterms:title "Study of Evolution Patterns of Display and TSP Technology"@en ;
+    a od:Talk .
+
+:Talk_120
+    dcterms:creator odp:Villarroel_JRE ;
+    dcterms:title "Triz&Toc Tool Innovation: Vibration Sensory (Vs) Language for Deaf"@en ;
+    a od:Talk .
+
+:Talk_121
+    dcterms:creator odp:Prushinskiy_VO ;
+    dcterms:title "Contradictions of User Interface (UI)"@en ;
+    a od:Talk .
+
+:Talk_122
+    dcterms:creator odp:Lok_A ;
+    dcterms:title "A Theoretical Model and Roadmap for Applying TRIZ in an R&D Organization"@en ;
+    a od:Talk .
+
+:Talk_123
+    dcterms:creator odp:Lianjun_H, odp:Jizhong_Y, odp:Yongxing_W, odp:Xiaoyan_Z, odp:Zhigang_Y ;
+    dcterms:title "Research on Seismic Structure of High Pier Railway Bridge Based on TRIZ"@en ;
+    a od:Talk .
+
+:Talk_124
+    dcterms:creator odp:Zhao_Z, odp:Xu_H, odp:Wang_HH, odp:Jiao_L, odp:Pooneeth_V ;
+    dcterms:title "Design for Innovative Hydraulic Valve Structure Based on TRIZ and Multi-element Coupled Biomimetic Method"@en ;
+    a od:Talk .
+
+:Talk_125
+    dcterms:creator odp:Zhou_X, odp:Xu_H, odp:Li_P, odp:Zhao_W, odp:Sharma_K, odp:Wang_HH ;
+    dcterms:title "Design of Flexible Arm Based on Biotriz and Multi-Factor Coupled Bionic Technology"@en ;
+    a od:Talk .
+
+:Talk_126
+    dcterms:creator odp:Schoewel_M ;
+    dcterms:title "Feedback to Intermediate Steps in Practical Substance-Field Generation"@en ;
+    a od:Talk .
+
+:Talk_127
+    dcterms:creator odp:Obojski_J ;
+    dcterms:title "Trends of Engineering System Evolution in Toy/Kids Industry"@en ;
+    a od:Talk .
+
+:Talk_128
+    dcterms:creator odp:Lin_A ;
+    dcterms:title "Research on Cultivation Mode of Consultants in TRIZ Methodology"@en ;
+    a od:Talk .
+
+:Talk_129
+    dcterms:creator odp:Yakovenko_SA, odp:Kudryavtsev_AV, odp:Minaker_VE, odp:Redkolis_EV, odp:Tarasov_AA, odp:Feygenson_NB, odp:Rubin_MS, odp:Saunin_NY, odp:Litvak_YN, odp:Rozhnov_AB, odp:Tkachev_BI, odp:Fomenko_AY, odp:Gerasimov_OM, odp:Lebedev_YV, odp:Logvinov_SA, odp:Kondrat_SA, odp:Schedrin_NA, odp:Nikitin_VN, odp:Panchikhin_EV, odp:Scherbakov_MA, odp:Krayev_OA ;
+    dcterms:title "The TRIZ Introduction at the Enterprises of the Group of Companies Basic Element "@en ;
+    a od:Talk .
+
+ 
