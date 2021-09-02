@@ -107,6 +107,8 @@ Interventi confermati:
     swc:relatedToEvent track:Keynote ;
     dcterms:creator odp:Pigosso_D ;
     dcterms:title "When Innovation meets Circular Economy"@en ;
+    dcterms:abstract """We stand at a tipping point in society, which calls for innovative and transformative solutions capable of addressing the global sustainability challenges (e.g. climate change, loss of biodiversity, resource depletion).
+Circular Economy is increasingly seen as a promising approach to decouple resource consumption from value creation through business and product innovation. But how to ensure that circular innovations are systematically more sustainable? In this keynote speech, we will explore the potential of circular innovations to transform the world around us and lead to enhanced sustainability performance. The key challenges and potential sustainability gains will be discussed through a number of provocative examples focusing on a diverse set of innovation strategies. Throughout the argumentation, the participants will be invited to reflect on how to expand the TRIZ best practices towards circular innovation."""@en;
     a od:Talk .
 
 :Talk_107
@@ -149,6 +151,7 @@ Interventi confermati:
     swc:relatedToEvent track:Keynote ;
     dcterms:creator odp:Rezzaghi_P ;
     dcterms:title "TRIZ and Intellectual Property Rights: how to protect ideas coming from TRIZ activities?"@en ;
+    dcterms:abstract """The keynote addresses Intellectual Property (IP) management and the best solutions and methods to protect the ideas coming from R&D activities. The topic is extremely relevant in the industry, as Innovation management plays a central and fundamental role in the development of new solutions, which can protected, for example by a patent, to have a competitive advantage against competitors. In particular, the speaker presents how IP Management can be used in juxtaposition with all phases of a problem-solving task driven by TRIZ. In this regard, it is highlighted how IP training during TRIZ classes is crucial and IP competencies of technicians is a must-be. In addition, the talk illustrates the concept of Design for patentability, its way of working, and the differences between various IP approaches. """@en ;
     a od:Talk .
 
 :Talk_114
@@ -197,6 +200,7 @@ Interventi confermati:
     swc:relatedToEvent track:Keynote ;
     dcterms:creator odp:Prushinsky_VO ;
     dcterms:title "How much TRIZ in recent creative developments of smart products?"@en ;
+    dcterms:abstract """The birth of TRIZ is traditionally attributed to Altshuller’s extensive work of analyzing patents. This took place decades ago before considerable technological progress was made. Some might challenge the universal validity of TRIZ principles and methods, as Altshuller’s efforts were spent in a specific geographical and historical context. Therefore, the question the speech focuses on is, what can be achieved from analyzing nowadays’ patents? Accordingly, the speech targets patents of companies mastering cutting-edge technologies, developing smart products, which feature contradictory innovative situations. In the selected cases, inventions are subjectively explained from TRIZ point of view. During the presented study, the speaker tried to understand which contradictions were resolved by inventors in given inventive situation, which inventive principles may be applicable, and which short-term trends or patterns of technological evolution were involved. Although some principles might have assumed more importance today, the general architecture of TRIZ seemingly endures technological and digital transformation. We can conclude that TRIZ is smart itself. """@en ; 
     a od:Talk .
 
 :Talk_122
@@ -239,6 +243,8 @@ Interventi confermati:
     swc:relatedToEvent track:Keynote ;
     dcterms:creator odp:Kiesel_M ;
     dcterms:title "The Future of TRIZ in a VUCA (volatility, uncertainty, complexity, and ambiguity) world"@en ;
+    dcterms:asbtract """Across industries, companies face the need to increase development speed in a volatile and uncertain market environment, and digitalization, cloud computing, and artificial intelligence are game-changers. Classical theory of inventive problem-solving (TRIZ) is derived from patent analysis and based on technical/mechanical problem-solving. Many TRIZ methods and tools exist to address the changing and difficult-to-predict marketplace. However, in a VUCA (volatility, uncertainty, complexity, and ambiguity) world, we face situations that are increasingly complex and potentially require different approaches. This keynote provides insights into what extent existing TRIZ methods and tools are helpful in a “VUCA world” and how TRIZ should be adapted in this changing environment. The keynote investigates where TRIZ can provide helpful directions and in which dimensions it should evolve.
+A potential “TRIZ Picture of the Future” is derived based on a literature review and long-term experience in Systems Engineering, Lean development, TRIZ, and foresight technologies. """@en;
     a od:Talk .
 
 :Talk_129
@@ -281,6 +287,7 @@ Interventi confermati:
     swc:relatedToEvent track:Keynote ;
     dcterms:creator odp:Spasic_I ;
     dcterms:title "Emerging applications of natural language processing in health and well being"@en ;
+    dcterms:abstract """Text and speech are used as a key communication stream in discussions about health and well being. Text provides a rich context of an individual’s circumstances that can be used to support clinical decision making. Natural language processing (NLP) has repeatedly demonstrated its feasibility to unlock information described in free text efficiently and effectively. Recent developments in NLP have been facilitated by increased adoption of machine learning techniques. In particular, recent years have witnessed the greatest leap in performance following the arrival of deep learning. Human-like performance in a wide range of NLP tasks has opened the gate to its routine use in supporting health and well being based on a wide range of practical applications in healthcare such as the triage of patients, clinical decision support, further epidemiological and clinical research including pharmacovigilance. These applications share a common end goal of improving health outcomes and survival rates at either individual or population level. This talk will focus on the ways in which NLP can support innovation in health services and well being. """@en ; 
     a od:Talk .
 
 :Talk_136
@@ -323,6 +330,7 @@ Interventi confermati:
     swc:relatedToEvent track:Keynote ;
     dcterms:creator odp:Belski_IV ;
     dcterms:title "TRIZ education: victories, defeats, and challenges"@en ;
+    dcterms:abstgract """The growing pace of change in the 21st Century has significantly reduced the lifetimes of many products and increased the pressure on companies to offer novel and improved products to customers on a perpetual basis. The need for companies to innovate continuously has intensified the demand for skillful engineers and scientists. This demand has strengthened the expectation that university graduates must be capable of solving complex problems quickly and creatively. To make graduates more creative, academics turned their attention to ideation methods that can help students in enhancing their problem solving skills. As a result, many engineering and science programs have introduced their students to TRIZ heuristics. Unfortunately, neither published nor anecdotal evidence provides many examples of the successes of TRIZ education at university. Some universities that introduced TRIZ at engineering and science schools refrained from teaching it after just a few years. Only a fraction of academics have been able to report on sustainable TRIZ educational successes. Based on over 20 years of teaching TRIZ at RMIT, the speaker will reflect on the defeats and victories of TRIZ education and will discuss the ways to make TRIZ education at university sustainable. """@en;
     a od:Talk .
 
 :Talk_143
