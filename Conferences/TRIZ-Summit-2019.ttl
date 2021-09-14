@@ -558,3 +558,68 @@ track:PT
     a swc:TrackEvent ;
     rdfs:label "Plenary Talks", "Пленарные доклады"@ru .
 
+:Talk_E101
+    dcterms:abstract "TRIZ Summit Cup is an annual TRIZ correspondence competition for schoolchildren and students. For half a year, participants can try themselves in various Cup nominations. \"Invention\" - solving inventional tasks; \"Fantasy\" - composing fantastic stories, fairy tales; \"TRIZ Tools\" - possession of TRIZ tools; \"Research in TRIZ\" - defense of a research project; \"Videos on TRIZ\" - try yourself in film profession. "@en, "Кубок ТРИЗ Саммита - ежегодный заочный конкурс по ТРИЗ для школьников и студентов. В течение полугода участники могут попробовать себя в различных номинациях Кубка. \"Изобретательство\" - решение изобретательских задач; \"Фантазирование\" - сочинение фантастических рассказов, сказок; \"Инструменты ТРИЗ\" - владение инстрементами ТРИЗ; \"Исследования в ТРИЗ\" - защита исследовательского проекта; \"Видео-ролики по ТРИЗ\" - попробовать себя в кинопрофессии. ."@ru ;
+    dcterms:creator odp:Rubina_NV ;
+    dcterms:title "TRIZ Summit Cup 2021"@en, "Кубок ТРИЗ Саммита 2021"@ru ;
+    a od:Talk .
+
+:Talk_E102
+    dcterms:abstract "G.S. Altshuller is the founder of the direction of application of TRIZ in non-technical systems. TRIZ methods are universal, they can be applied both to the improvement of a specific technical system and to forecast development of genres of music or cinema. "@en, "Г.С. Альтушеллер - основатель направления применение ТРИЗ в нетехнических системах. Методы ТРИЗ - универсальны, они могут быть применимы как к совершенствованию конкретной технической системы, так и к прогнозированию развития жанров музыки или кино."@ru ;
+    dcterms:creator odp:Rubin_MS ;
+    dcterms:title "TRIZ beyond technology. Anniversary of G.S. Altshuller"@en, "ТРИЗ вне техники. Юбилей ГСА"@ru ;
+    a od:Talk .
+
+:Talk_E103
+    dcterms:abstract "Research work with senior schoolchildren and students dies before it starts for several reasons. When interviewing the leaders of such projects, most often they mention poor motivation of adolescents, lack of sufficient technical base and budget. Groups gather and disintegrate faster than the first results can be demonstrated. In the report, the author shows the contradictions underlying such problems and ways to eliminate them. Resources and opportunities for development are offered. The use of new socio-technical opportunities provides a variety of resources for resolving these contradictions. "@en, "Исследовательская работа со старшими школьниками и студентами умирает не начавшись по нескольким причинам. При опросе руководителей таких проектов чаще всего упоминается - слабая мотивация подростков, отсутсвие достаточной технической базы и бюджета. Группы собираются и распадаются быстрее чем первые результаты можно демонстрировать. В докладе автор показывает противоречия лежащие в основе таких проблем и пути их устранения. Предлагаются ресурсы и возможности развития. Применение новых социально-технических возможностей даёт разнообразие ресурсов для решения этих противоречий."@ru ;
+    dcterms:creator odp:Eckardt_O ;
+    dcterms:title "New approaches in organizing research activities using TRIZ methods among schoolchildren and students"@en, "Новые подходы в организации исследовательской деятельности методами ТРИЗ у школьников и студентов"@ru ;
+    a od:Talk .
+
+:Talk_E104
+    dcterms:abstract "The possibilities of using and integrating TRIZ-technology tools in training students in woodworking professions of the open source software system for the development of professionals are prsented."@en, "В докладе представлены возможности применения и интеграции инструментов ТРИЗ-технологии в обучении студентов профессий деревообрабатывающего профиля системы СПО для становления профессионалов."@ru ;
+    dcterms:creator odp:Korotkikh_SN ;
+    dcterms:title "TRIZ technologies in high-quality training of specialists"@en, "ТРИЗ-технологии в качественной подготовке специалистов"@ru ;
+    a od:Talk .
+
+:Talk_E105
+    dcterms:abstract "The experience of using educational experiments to form scientific ideas and get ideas for children's inventions are presented."@en, "В докладе представлен опыт использования учебных экспериментов для формирования научных представлений и получения идей для детского изобретательства."@ru ;
+    dcterms:creator odp:Nesterenko_AA ;
+    dcterms:title "Digital Laboratory \"Triz Inventor\""@en, "Цифровая лаборатория \"Тризобретатель\""@ru ;
+    a od:Talk .
+
+:Talk_E106
+    dcterms:abstract "The purpose of the report is to outline the possibilities of OTSM-TRIZ to solve main issues of education in the 21st century. We characterise the situation of the modern educational system and draw on its main problems. The need for the ability to manage problems at different levels of the education system is emphasized. "@en, "Целью доклада является обозначить возможности ОТСМ-ТРИЗ для решения актуальных вопросов образования 21-го века. В докладе с точки зрения ОТСМ-ТРИЗ дана характеристика состояния современной системы образования и выявлены основные проблемы. Акцентируется необходимость в умении управлять проблемами на разных уровнях системы образования."@ru ;
+    dcterms:creator odp:Murashkovska_IN ;
+    dcterms:title "OTSM-TRIZ: within and beyond educational innovations of the third millennium"@en, "ОТСМ-ТРИЗ: в рамках и за пределами образовательных инноваций третьего тысячелетия"@ru ;
+    a od:Talk .
+
+:Talk_E107
+    dcterms:abstract "Forecast of the development of civilization, which is characterized by the fact that algorithms and machines are used to inhibit the natural aggression of people, which are included in civilization processes as full members of the community, and which is characterized by the description of models are which use anti-elemental fields of braking and destruction. "@en, "Прогноз развития цивилизации, отличающийся тем, что для торможения природной агрессии людей используются алгоритмы и машины, которые входят в цивилизационные процессы как полноправные члены сообщества, отличающийся тем, что описания таких моделей предлагается использовать анти-элеполи торможения и разрушения."@ru ;
+    dcterms:creator odp:Rubin_MS ;
+    dcterms:title "\"Traffic lights\" of a smart civilization"@en, "\"Светофоры\" смарт-цивилизации"@ru ;
+    a od:Talk .
+
+:Talk_E108
+    dcterms:abstract "The problem of the \"black box\" of civilization is a large research project proposed by G.S. Altshuller, which includes both purely technical solutions and the solution of social problems. "@en, "Задача о \"черном ящике\" цивилизации - большой исследовательский проект, предложенный Г.С. Альтшуллером, включающий в себя как чисто технические решения, так и решение социальных проблем."@ru ;
+    dcterms:creator odp:Rubina_NV ;
+    dcterms:title "The problem of the \"black box\" of civilization at the TRIZ Summit Cup"@en, "Задача о \"черном ящике\" цивилизации на Кубке ТРИЗ-Саммита"@ru ;
+    a od:Talk .
+
+:Talk_E109
+    dcterms:abstract "The TRIZ model reflects both the process of solving inventive problems using various tools, and the process of transforming systems, including transformations using RTV tools. The report discusses the features of application of the TRIZ model to RTV tools, as well as the classification of RTV methods and techniques based on the TRIZ model. "@en, "Модель ТРИЗ отражает как процесс решения изобретательских задач с использованием различных инструментов, так и процесс преобразования систем, в том числе и с помощью инструментов РТВ. В докладе обсуждаются особенности применения модели ТРИЗ к инструментам РТВ, а также классификация методов и приемов РТВ на оснвое модели ТРИЗ."@ru ;
+    dcterms:creator odp:Rubina_NV ;
+    dcterms:title "Development of creative imaging (RTV) ontology and TRIZ model"@en, "Онтология РТВ и модель ТРИЗ"@ru ;
+    a od:Talk .
+
+:Talk_E110
+    dcterms:abstract "The report is devoted to the evolution of SciFi ideas, illustrated with the example of specific SciFi ideas. Addressed to all those interested in science fiction and teaching RTV and TRIZ."@en, "Доклад посвящен эволюции НФ идей, проиллюстрирована на примере конкретных НФ идей. Адресована всем интересующимся фантастикой и преподаванием РТВ и ТРИЗ."@ru ;
+    dcterms:creator odp:Amnuel_PR ;
+    dcterms:title "Using SciFi Ideas in the RTV Course"@en, "Использование НФ идей в курсе РТВ"@ru ;
+    a od:Talk .
+
+:Talk_E111
+    dcterms:creator odp:Faber_B ;
+    dcterms:title "TRIZ Training System"@en, "Система обучения ТРИЗ"@ru ;
+    a od:Talk .
+

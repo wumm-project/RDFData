@@ -15,8 +15,9 @@
     a swc:ConferenceEvent ;
     rdfs:label "TRIZ Summit 2021 Online, Main" ;
     ical:description "TRIZ Summit 2021 Online, Main" ;
-    ical:dtend "2021-09-10"^^xsd:date ;
-    ical:dtstart "2021-09-09"^^xsd:date ;
+    ical:dtend "2021-10-23"^^xsd:date ;
+    ical:dtstart "2021-10-15"^^xsd:date ;
+    rdfs:comment "Three sessions on 15, 16, 23 October 2021" ;
     ical:location "Online, supported by EPAM, Minsk, Belarus" ;
     ical:url <https://triz-summit.ru/confer/tds2021/> .
 

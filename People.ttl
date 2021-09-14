@@ -1288,6 +1288,8 @@ odp:Guedes_LC
 
 odp:Guenther_S
     a foaf:Person ;
+    foaf:affil "HTW Dresden, Germany" ;
+    foaf:homepage <https://www.htw-dresden.de/hochschule/fakultaeten/wirtschaftswissenschaften/personen/prof-swen-guenther> ;
     foaf:name "Swen Günther" .
 
 odp:Guin_AA
@@ -3275,7 +3277,7 @@ odp:Redkolis_EV
     a foaf:Person ;
     foaf:affil "NPK Consultants, Moscow, Russia" ;
     foaf:fullname "Редколис Елена Валерьевна"@ru ;
-    foaf:homepage <https://www.facebook.com/eredkolis> ;
+    foaf:homepage <https://redkolis.com> ;
     foaf:name "Elena Redkolis" .
 
 odp:Regen_W
