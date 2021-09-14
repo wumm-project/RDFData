@@ -165,7 +165,7 @@
 
 :Talk_124
     swc:relatedToEvent track:Main ;
-    dcterms:creator odp:Zhao_Y, odp:Lin_Y, odp:Xu_DS ;
+    dcterms:creator odp:Zhao_Y, odp:Lin_A, odp:Xu_DS ;
     dcterms:title "Research on Enterprise Product Research and Development Based on Customer Demand - The Practice Record of Innovative Methods in Enterprise Product R&D"@en ;
     a od:Talk .
 
@@ -182,6 +182,12 @@
     a od:Talk .
 
 :Talk_127
+    swc:relatedToEvent track:Main ;
+    dcterms:creator odp:Ishrat_I, odp:Hasan_M, odp:Khan_FM  ;
+    dcterms:title "Benefits Of TRIZ Approach To Enable Proper Holistic Education"@en ;
+    a od:Talk .
+
+:Talk_128
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Palcak_F ;
     dcterms:title "Benefits Of TRIZ Approach To Enable Proper Holistic Education"@en ;

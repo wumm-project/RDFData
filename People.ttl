@@ -1385,6 +1385,10 @@ odp:Hartmann_R
     a foaf:Person ;
     foaf:name "Rainer Hartmann" .
 
+odp:Hasan_M
+    a foaf:Person ;
+    foaf:name "Mohammad Hasan" .
+
 odp:Hausmann_B
     a foaf:Person ;
     foaf:name "Bernd Hausmann" .
@@ -1531,6 +1535,10 @@ odp:Ilyin_IY
 odp:Ishak_AA
     a foaf:Person ;
     foaf:name "A.A. Ishak" .
+
+odp:Ishrat_I
+    a foaf:Person ;
+    foaf:name "Irna Ishrat" .
 
 odp:Ivanov_A
     a foaf:Person ;
@@ -1785,6 +1793,10 @@ odp:Kharitonov_AS
     foaf:affil "Moscow, Russia" ;
     foaf:fullname "Харитонов Антон Сергеевич"@ru ;
     foaf:name "Anton S. Kharitonov" .
+
+odp:Khan_FM
+    a foaf:Person ;
+    foaf:name "Fateh Mohd Khan" .
 
 odp:Kholkin_IN
     a foaf:Person ;
@@ -4529,7 +4541,7 @@ odp:Zhang_JH
 
 odp:Zhang_K
     a foaf:Person ;
-    foaf:name "Kai Zhang", "Karl Zhang" .
+    foaf:name "Karl Zhang" .
 
 odp:Zhang_L
     a foaf:Person ;
