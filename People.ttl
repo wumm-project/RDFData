@@ -3190,6 +3190,7 @@ odp:Pooneeth_V
 
 odp:Popova_SL
     a foaf:Person ;
+    foaf:affil "HTW Dresden, Germany" ;
     foaf:name "Silvia Liubenova Popova" .
 
 odp:Prada_A
