@@ -207,6 +207,7 @@ odp:Baszczeski_A
 
 odp:Bauch_M
     a foaf:Person ;
+    foaf:affil "HTW Dresden, Germany" ;
     foaf:name "Matthias Bauch" .
 
 odp:Bayer_T
@@ -1143,6 +1144,7 @@ odp:GarinaDomchenko_AN
 
 odp:Garzon_S
     a foaf:Person ;
+    foaf:affil "HTW Dresden, Germany" ;
     foaf:name "Sergio Garzon" .
 
 odp:Gasanov_AI
@@ -3190,6 +3192,7 @@ odp:Pooneeth_V
 
 odp:Popova_SL
     a foaf:Person ;
+    foaf:affil "HTW Dresden, Germany" ;
     foaf:name "Silvia Liubenova Popova" .
 
 odp:Prada_A
