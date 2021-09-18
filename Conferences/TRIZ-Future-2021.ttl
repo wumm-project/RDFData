@@ -219,6 +219,9 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
     swc:relatedToEvent track:TT ;
     dcterms:creator odp:Graebe_HG, odp:Thiel_R ;
     dcterms:title "ProHEAL Social needs and sustainability aspects in the methodology of the GDR Inventor Schools"@en ;
+    od:urlPaper <http://dx.doi.org/10.14625/graebe_20210815> ;
+    od:urlSlides <https://hg-graebe.de/EigeneTexte/TFC21-ProHEAL.pdf> ;
+    od:urlVideo <https://hg-graebe.de/Videos/TFC2021-GraebeThiel-ProHEAL.mp4> ;
     a od:Talk .
 
 :Talk_125
@@ -306,6 +309,9 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
     swc:relatedToEvent track:AI ;
     dcterms:creator odp:Graebe_HG ;
     dcterms:title "Towards a Linked Open Data TRIZ Ontology"@en ;
+    od:urlPaper <http://dx.doi.org/10.14625/graebe_20210813> ;
+    od:urlSlides <https://hg-graebe.de/EigeneTexte/TFC21-LOD.pdf> ;
+    od:urlVideo <https://hg-graebe.de/Videos/TFC2021-Graebe-LinkedOpenData.mp4> ;
     a od:Talk .
 
 :Talk_139

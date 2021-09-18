@@ -34,6 +34,7 @@
 :Talk_102
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Popova_SL, odp:Garzon_S, odp:Bauch_M, odp:Guenther_S ;
+    od:presentedBy odp:Popova_SL;
     dcterms:title "TRIZ Reverse – Specification and application of a 7 step-by-step approach for systematic knowledge and technology transfer"@en ;
     a od:Talk .
 
@@ -100,18 +101,21 @@
 :Talk_113
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Zhang_K, odp:Hao_Z ;
+    od:presentedBy odp:Zhang_K;
     dcterms:title "Patent Circumvention and Strengthening in Wind Turbine Blade Noise Reduction"@en ;
     a od:Talk .
 
 :Talk_114
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Mohammadi_A ;
+    rdfs:comment "was not presented";
     dcterms:title "Application of TRIZ in Designing a Simple Monitoring Device for Checking Electrical Grounding Connections"@en ;
     a od:Talk .
 
 :Talk_115
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Strempel_T, odp:Graebe_HG ;
+    od:presentedBy  odp:Graebe_HG ;
     dcterms:title "Semantic Web Modelling of TRIZ System Evolution Concepts"@en ;
     a od:Talk .
 
@@ -130,6 +134,7 @@
 :Talk_118
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Litvin_SS ;
+    rdfs:comment "was not presented";
     dcterms:title "TRIZ Application to Successful Startups Development"@en ;
     a od:Talk .
 
@@ -139,7 +144,7 @@
     dcterms:title "How To Hold Strategic Sessions Via TRIZ Tools"@en ;
     a od:Talk .
 
-:Talk_120
+:Talk_125
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Souchkov_VV ;
     dcterms:title "Modern Tools for Business TRIZ"@en ;
@@ -169,7 +174,7 @@
     dcterms:title "Research on Enterprise Product Research and Development Based on Customer Demand - The Practice Record of Innovative Methods in Enterprise Product R&D"@en ;
     a od:Talk .
 
-:Talk_125
+:Talk_120
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Dobrusskin_C ;
     dcterms:title "Horological TRIZ Ruminations"@en ;
@@ -178,12 +183,14 @@
 :Talk_126
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Garzon_S, odp:Popova_SL, odp:Bauch_M, odp:Guenther_S ;
+    od:presentedBy odp:Guenther_S ;
     dcterms:title "TRIZ Reverse: A Systematic Review And Comparison With Existing Knowledge And"@en ;
     a od:Talk .
 
 :Talk_127
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Ishrat_I, odp:Hasan_M, odp:Khan_FM  ;
+    od:presentedBy odp:Ishrat_I ;
     dcterms:title "Benefits Of TRIZ Approach To Enable Proper Holistic Education"@en ;
     a od:Talk .
 

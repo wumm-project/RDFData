@@ -129,7 +129,7 @@ odp:Conley_DW
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_88> ;
     od:theLevel tc:CertificateLevel4 .
 
-odp:Danilovski_YE
+odp:Danilovsky_YE
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_75> ;
     od:theLevel tc:CertificateLevel4 .
 
@@ -285,7 +285,7 @@ odp:Ivanov_GI
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_19> ;
     od:theLevel tc:CertificateLevel5 .
 
-odp:Jefimov_AV
+odp:Yefimov_AV
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_62> ;
     od:theLevel tc:CertificateLevel4 .
 

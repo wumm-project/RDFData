@@ -1,0 +1,2104 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix tc: <http://opendiscovery.org/rdf/Concept/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://opendiscovery.org/rdf/MATRIZ-Certificates/>
+    a owl:Ontology ;
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    rdfs:comment "Extracted and transformed from the MATRIZ Certificates published at matriz.org", "2021-09-18 graebe, last update" ; 
+    rdfs:label "TRIZ Database - MATRIZ Certificates, Level 4 and 5" .
+
+tc:MATRIZCertificate a skos:Concept;
+skos:prefLabel "MATRIZ Certificate" . 
+
+tc:CertificateLevel1 a tc:MATRIZCertificate;
+rdfs:label "MATRIZ Certificate Level 1" .
+
+tc:CertificateLevel2 a tc:MATRIZCertificate;
+rdfs:label "MATRIZ Certificate Level 2" .
+
+tc:CertificateLevel3 a tc:MATRIZCertificate;
+rdfs:label "MATRIZ Certificate Level 3" .
+
+tc:CertificateLevel4 a tc:MATRIZCertificate;
+rdfs:label "MATRIZ Certificate Level 4" .
+
+tc:CertificateLevel5 a tc:MATRIZCertificate;
+rdfs:label "MATRIZ Certificate Level 5" .
+
+<http://opendiscovery.org/rdf/Certificate/4_1>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "1" ;
+    od:issuedAt "2000-01-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Кожевникова Любовь Анатольевна"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_10>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "10" ;
+    od:issuedAt "2000-11-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Самохвалов Юрий Викторович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_100>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "100" ;
+    od:issuedAt "2012-04-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Sergey Faer", "Сергей Фаер"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_101>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "101" ;
+    od:issuedAt "2012-07-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Alexander Bystritskiy" .
+
+<http://opendiscovery.org/rdf/Certificate/4_102>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "102" ;
+    od:issuedAt "2012-07-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Виктор Минакер"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_103>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "103" ;
+    od:issuedAt "2012-07-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Dr. Sung Cheol Kim" .
+
+<http://opendiscovery.org/rdf/Certificate/4_104>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "104" ;
+    od:issuedAt "2012-10-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Aleksei Ruin" .
+
+<http://opendiscovery.org/rdf/Certificate/4_105>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "105" ;
+    od:issuedAt "2012-10-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Irina Sigalovsky" .
+
+<http://opendiscovery.org/rdf/Certificate/4_106>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "106" ;
+    od:issuedAt "2013-02-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Jung-Hyeon Kim" .
+
+<http://opendiscovery.org/rdf/Certificate/4_107>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "107" ;
+    od:issuedAt "2013-07-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "YunSeok Kim" .
+
+<http://opendiscovery.org/rdf/Certificate/4_108>
+    od:fromCountry "Germany" ;
+    od:hasCertificateId "108" ;
+    od:issuedAt "2013-07-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Oliver Mayer" .
+
+<http://opendiscovery.org/rdf/Certificate/4_109>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "109" ;
+    od:issuedAt "2013-07-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Jae Yeon Kim" .
+
+<http://opendiscovery.org/rdf/Certificate/4_11>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "11" ;
+    od:issuedAt "2000-11-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Брагина Любовь Михайловна"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_110>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "110" ;
+    od:issuedAt "2013-07-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "TaeWook Kang" .
+
+<http://opendiscovery.org/rdf/Certificate/4_111>
+    od:fromCountry "Netherlands" ;
+    od:hasCertificateId "111" ;
+    od:issuedAt "2014-07-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Christoph Dobrusskin" .
+
+<http://opendiscovery.org/rdf/Certificate/4_112>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "112" ;
+    od:issuedAt "2014-07-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Sergey A. Markosov" .
+
+<http://opendiscovery.org/rdf/Certificate/4_114>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "114" ;
+    od:issuedAt "2014-07-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Mark Bakhrakh" .
+
+<http://opendiscovery.org/rdf/Certificate/4_115>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "115" ;
+    od:issuedAt "2014-07-31" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Cho Jun Hee" .
+
+<http://opendiscovery.org/rdf/Certificate/4_116>
+    od:fromCountry "Thailand" ;
+    od:hasCertificateId "116" ;
+    od:issuedAt "2014-09-30" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Trizit Benjaboonyazit" .
+
+<http://opendiscovery.org/rdf/Certificate/4_117>
+    od:fromCountry "Thailand" ;
+    od:hasCertificateId "117" ;
+    od:issuedAt "2015-01-21" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Tanasak Pheunghua" .
+
+<http://opendiscovery.org/rdf/Certificate/4_118>
+    od:fromCountry "PR China" ;
+    od:hasCertificateId "118" ;
+    od:issuedAt "2015-04-20" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Yongwei Sun" .
+
+<http://opendiscovery.org/rdf/Certificate/4_119>
+    od:fromCountry "Germany" ;
+    od:hasCertificateId "119" ;
+    od:issuedAt "2015-07-07" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Barbara Gronauer" .
+
+<http://opendiscovery.org/rdf/Certificate/4_138> a tc:MATRIZCertificate;
+   foaf:name "Huang Yan";
+   od:fromCountry "PR China";
+   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
+   od:hasCertificateId "138";
+   od:issuedAt "2021-09-02" .
+
+<http://opendiscovery.org/rdf/Certificate/4_139> a tc:MATRIZCertificate;
+   foaf:name "Xing Fenglei";
+   od:fromCountry "PR China";
+   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
+   od:hasCertificateId "139";
+   od:issuedAt "2021-09-02" .
+
+<http://opendiscovery.org/rdf/Certificate/4_137> a tc:MATRIZCertificate;
+   foaf:name "Jerzy Chrzaszcz";
+   od:fromCountry "Poland";
+   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
+   od:hasCertificateId "137";
+   od:issuedAt "2021-08-20" .
+
+<http://opendiscovery.org/rdf/Certificate/4_136> a tc:MATRIZCertificate;
+   foaf:name "Hyung-Seok Yeo";
+   od:fromCountry "Republic of Korea";
+   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
+   od:hasCertificateId "136";
+   od:issuedAt "2021-03-31" .
+
+<http://opendiscovery.org/rdf/Certificate/4_134> a tc:MATRIZCertificate;
+   foaf:name "Dr. Huan-Chu Huang";
+   od:fromCountry "PR China";
+   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
+   od:hasCertificateId "134";
+   od:issuedAt "2020-12-24" .
+
+<http://opendiscovery.org/rdf/Certificate/4_135> a tc:MATRIZCertificate;
+   foaf:name "Ahreum Lee";
+   od:fromCountry "Republic of Korea";
+   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
+   od:hasCertificateId "135";
+   od:issuedAt "2020-12-08" .
+
+<http://opendiscovery.org/rdf/Certificate/4_133> a tc:MATRIZCertificate;
+   foaf:name "Yongmou Liu";
+   od:fromCountry "PR China";
+   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
+   od:hasCertificateId "133";
+   od:issuedAt "2020-06-30" .
+
+<http://opendiscovery.org/rdf/Certificate/4_131> a tc:MATRIZCertificate;
+   foaf:name "Michael Graf";
+   od:fromCountry "Germany";
+   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
+   od:hasCertificateId "131";
+   od:issuedAt "2020-05-25" .
+
+<http://opendiscovery.org/rdf/Certificate/4_132> a tc:MATRIZCertificate;
+   foaf:name "Stepan Schaper";
+   od:fromCountry "Germany";
+   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
+   od:hasCertificateId "132";
+   od:issuedAt "2020-05-25" .
+
+<http://opendiscovery.org/rdf/Certificate/4_130> a tc:MATRIZCertificate;
+   foaf:name "Kim JaiHak";
+   od:fromCountry "Republic of Korea";
+   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
+   od:hasCertificateId "130";
+   od:issuedAt "2020-02-26" .
+
+<http://opendiscovery.org/rdf/Certificate/4_129> a tc:MATRIZCertificate;
+   foaf:name "Jochen Wessner";
+   od:fromCountry "Germany";
+   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
+   od:hasCertificateId "129";
+   od:issuedAt "2019-09-27" .
+
+<http://opendiscovery.org/rdf/Certificate/4_128> a tc:MATRIZCertificate;
+   foaf:name "Arthur Lok";
+   od:fromCountry "PR China";
+   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
+   od:hasCertificateId "128";
+   od:issuedAt "2019-07-19" .
+
+<http://opendiscovery.org/rdf/Certificate/4_127> a tc:MATRIZCertificate;
+   foaf:name "Alexey Fomenko";
+   od:fromCountry "Russia";
+   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
+   od:hasCertificateId "127";
+   od:issuedAt "2019-07-10" .
+
+<http://opendiscovery.org/rdf/Certificate/4_125> a tc:MATRIZCertificate;
+   foaf:name "Sergey Yatsunenko";
+   od:fromCountry "Poland";
+   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
+   od:hasCertificateId "125";
+   od:issuedAt "2019-04-16" .
+
+<http://opendiscovery.org/rdf/Certificate/4_126> a tc:MATRIZCertificate;
+   foaf:name "Pavel Fimin";
+   od:fromCountry "Russia";
+   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
+   od:hasCertificateId "126";
+   od:issuedAt "2019-04-16" .
+
+<http://opendiscovery.org/rdf/Certificate/4_124> a tc:MATRIZCertificate;
+   foaf:name "Elena Redkolis";
+   od:fromCountry "Russia";
+   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
+   od:hasCertificateId "124";
+   od:issuedAt "2019-02-11" .
+
+<http://opendiscovery.org/rdf/Certificate/4_123> a tc:MATRIZCertificate;
+   foaf:name "Hyunsoo Ahn";
+   od:fromCountry "Republic of Korea";
+   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
+   od:hasCertificateId "123";
+   od:issuedAt "2018-08-31" .
+
+<http://opendiscovery.org/rdf/Certificate/4_122> a tc:MATRIZCertificate;
+   foaf:name "Tiziana Bertoncelli"@ru;
+   od:fromCountry "Germany";
+   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
+   od:hasCertificateId "122";
+   od:issuedAt "2018-05-17" .
+
+<http://opendiscovery.org/rdf/Certificate/4_121> a tc:MATRIZCertificate;
+   foaf:name "Martha Gardner"@ru;
+   od:fromCountry "United States";
+   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
+   od:hasCertificateId "121";
+   od:issuedAt "2017-09-14" .
+
+<http://opendiscovery.org/rdf/Certificate/4_120> a tc:MATRIZCertificate;
+   foaf:name "Антон Кожемяко"@ru;
+   od:fromCountry "Russia";
+   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
+   od:hasCertificateId "120";
+   od:issuedAt "2016-05-05" .
+
+<http://opendiscovery.org/rdf/Certificate/4_12>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "12" ;
+    od:issuedAt "2000-11-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Кукалев Сергей Васильевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_120>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "120" ;
+    od:issuedAt "2016-05-05" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Антон Кожемяко"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_121>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "121" ;
+    od:issuedAt "2017-09-14" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Martha Gardner"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_122>
+    od:fromCountry "Germany" ;
+    od:hasCertificateId "122" ;
+    od:issuedAt "2018-05-17" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Tiziana Bertoncelli"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_123>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "123" ;
+    od:issuedAt "2018-08-31" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Hyunsoo Ahn" .
+
+<http://opendiscovery.org/rdf/Certificate/4_124>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "124" ;
+    od:issuedAt "2019-02-11" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Elena Redkolis" .
+
+<http://opendiscovery.org/rdf/Certificate/4_125>
+    od:fromCountry "Poland" ;
+    od:hasCertificateId "125" ;
+    od:issuedAt "2019-04-16" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Sergey Yatsunenko" .
+
+<http://opendiscovery.org/rdf/Certificate/4_126>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "126" ;
+    od:issuedAt "2019-04-16" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Pavel Fimin" .
+
+<http://opendiscovery.org/rdf/Certificate/4_127>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "127" ;
+    od:issuedAt "2019-07-10" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Alexey Fomenko" .
+
+<http://opendiscovery.org/rdf/Certificate/4_128>
+    od:fromCountry "PR China" ;
+    od:hasCertificateId "128" ;
+    od:issuedAt "2019-07-19" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Arthur Lok" .
+
+<http://opendiscovery.org/rdf/Certificate/4_129>
+    od:fromCountry "Germany" ;
+    od:hasCertificateId "129" ;
+    od:issuedAt "2019-09-27" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Jochen Wessner" .
+
+<http://opendiscovery.org/rdf/Certificate/4_13>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "13" ;
+    od:issuedAt "2000-11-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Герасимов Олег Михайлович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_130>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "130" ;
+    od:issuedAt "2020-02-26" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Kim JaiHak" .
+
+<http://opendiscovery.org/rdf/Certificate/4_131>
+    od:fromCountry "Germany" ;
+    od:hasCertificateId "131" ;
+    od:issuedAt "2020-05-25" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Michael Graf" .
+
+<http://opendiscovery.org/rdf/Certificate/4_132>
+    od:fromCountry "Germany" ;
+    od:hasCertificateId "132" ;
+    od:issuedAt "2020-05-25" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Stepan Schaper" .
+
+<http://opendiscovery.org/rdf/Certificate/4_133>
+    od:fromCountry "PR China" ;
+    od:hasCertificateId "133" ;
+    od:issuedAt "2020-06-30" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Yongmou Liu" .
+
+<http://opendiscovery.org/rdf/Certificate/4_134>
+    od:fromCountry "PR China" ;
+    od:hasCertificateId "134" ;
+    od:issuedAt "2020-12-24" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Dr. Huan-Chu Huang" .
+
+<http://opendiscovery.org/rdf/Certificate/4_135>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "135" ;
+    od:issuedAt "2020-12-08" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Ahreum Lee" .
+
+<http://opendiscovery.org/rdf/Certificate/4_14>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "14" ;
+    od:issuedAt "2001-03-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Сидорчук Татьяна Александровна"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_15>
+    od:fromCountry "Latvia" ;
+    od:hasCertificateId "15" ;
+    od:issuedAt "2001-03-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Ingrida Murashkovska", "Мурашковска Ингрида Николаевна"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_16>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "16" ;
+    od:issuedAt "2001-03-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Vladimir Proseanic" .
+
+<http://opendiscovery.org/rdf/Certificate/4_17>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "17" ;
+    od:issuedAt "2001-03-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Svetlana Visnepolschi" .
+
+<http://opendiscovery.org/rdf/Certificate/4_18>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "18" ;
+    od:issuedAt "2001-03-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Sergey Malkin" .
+
+<http://opendiscovery.org/rdf/Certificate/4_19>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "19" ;
+    od:issuedAt "2001-03-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Leonid Kaplan" .
+
+<http://opendiscovery.org/rdf/Certificate/4_2>
+    od:fromCountry "France" ;
+    od:hasCertificateId "2" ;
+    od:issuedAt "2000-01-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Avraam Seredinski", "Серединский Авраам Вульфович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_20>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "20" ;
+    od:issuedAt "2001-03-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Peter Ulan" .
+
+<http://opendiscovery.org/rdf/Certificate/4_21>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "21" ;
+    od:issuedAt "2001-03-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Gafur Zainiev" .
+
+<http://opendiscovery.org/rdf/Certificate/4_22>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "22" ;
+    od:issuedAt "2001-03-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Valeriy Prushinskiy" .
+
+<http://opendiscovery.org/rdf/Certificate/4_23>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "23" ;
+    od:issuedAt "2001-03-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Dana W. Clarke, Sr." .
+
+<http://opendiscovery.org/rdf/Certificate/4_24>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "24" ;
+    od:issuedAt "2001-06-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Alexander Kynin", "Кынин Александр Тимофеевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_25>
+    od:fromCountry "France" ;
+    od:hasCertificateId "25" ;
+    od:issuedAt "2001-06-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Denis Cavallucci" .
+
+<http://opendiscovery.org/rdf/Certificate/4_26>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "26" ;
+    od:issuedAt "2001-07-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Alex N. Zakharov" .
+
+<http://opendiscovery.org/rdf/Certificate/4_27>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "27" ;
+    od:issuedAt "2001-07-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Mark G. Barkan" .
+
+<http://opendiscovery.org/rdf/Certificate/4_28>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "28" ;
+    od:issuedAt "2001-07-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Sam Kogan" .
+
+<http://opendiscovery.org/rdf/Certificate/4_29>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "29" ;
+    od:issuedAt "2001-07-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Michael K. Waldman" .
+
+<http://opendiscovery.org/rdf/Certificate/4_3>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "3" ;
+    od:issuedAt "2000-01-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Семёнова Людмила Николаевна"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_30>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "30" ;
+    od:issuedAt "2001-07-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Nikolay Shkolnik" .
+
+<http://opendiscovery.org/rdf/Certificate/4_31>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "31" ;
+    od:issuedAt "2001-07-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Len Malinin" .
+
+<http://opendiscovery.org/rdf/Certificate/4_32>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "32" ;
+    od:issuedAt "2001-07-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Larisa Dmitrienko" .
+
+<http://opendiscovery.org/rdf/Certificate/4_33>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "33" ;
+    od:issuedAt "2002-01-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Valery Krasnoslobodtsev", "Краснослободцев Валерий Яковлевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_34>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "34" ;
+    od:issuedAt "2002-10-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Boris M. Axelrod", "Аксельрод Борис Моисеевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_35>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "35" ;
+    od:issuedAt "2002-10-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Leo Burov", "Буров Лев Григорьевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_36>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "36" ;
+    od:issuedAt "2002-10-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Ilya Y. Ilyin", "Ильин Илья Юрьевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_37>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "37" ;
+    od:issuedAt "2002-10-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Alexander G. Kashkarov", "Кашкаров Александр Германович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_38>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "38" ;
+    od:issuedAt "2002-10-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Stanislav A. Koltchanov", "Колчанов Станислав Аркадьевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_39>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "39" ;
+    od:issuedAt "2002-10-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Sergey A. Logvinov", "Логвинов Сергей Анатольевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_4>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "4" ;
+    od:issuedAt "2000-04-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Рубина Наталия Викторовна"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_40>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "40" ;
+    od:issuedAt "2002-10-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Alexander V. Medvedev", "Медведев Александр Витальевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_41>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "41" ;
+    od:issuedAt "2002-10-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Valeriy V. Pavlov", "Павлов Валерий Валентинович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_42>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "42" ;
+    od:issuedAt "2002-10-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Naum B. Feygenson", "Фейгенсон Наум Борисович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_43>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "43" ;
+    od:issuedAt "2002-10-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Sergey A. Dmitriev", "Дмитриев Сергей Анатольевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_44>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "44" ;
+    od:issuedAt "2002-10-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Vladimir A. Dmitriev", "Дмитриев Владимир Анатольевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_45>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "45" ;
+    od:issuedAt "2002-10-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Sergey A. Privalihin", "Привалихин Сергей Александрович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_46>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "46" ;
+    od:issuedAt "2002-10-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Yuri F. Juravlev", "Журавлев Юрий Филиппович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_47>
+    od:fromCountry "Belarus" ;
+    od:hasCertificateId "47" ;
+    od:issuedAt "2003-03-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Nikolay Shpakovsky", "Шпаковский Николай Андреевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_48>
+    od:fromCountry "Belarus" ;
+    od:hasCertificateId "48" ;
+    od:issuedAt "2003-03-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Peter Chuksin", "Чуксин Петр Иванович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_49>
+    od:fromCountry "Belarus" ;
+    od:hasCertificateId "49" ;
+    od:issuedAt "2003-03-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Oleg Shmigelsky", "Шмигельский Олег Чеславович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_5>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "5" ;
+    od:issuedAt "2000-05-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Нестеренко Алла Александровна"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_50>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "50" ;
+    od:issuedAt "2003-03-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Peter Pavel Surkov", "Сурков Пётр Павел Владимирович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_51>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "51" ;
+    od:issuedAt "2003-03-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Georgi Severinets", "Северинец Георгий Анатольевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_52>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "52" ;
+    od:issuedAt "2003-06-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Beliltseva Natalya Borisovna", "Белильцева Наталья Борисовна"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_53>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "53" ;
+    od:issuedAt "2003-06-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Vihorev Vladimir Nicolayevich", "Вихорев Владимир Николаевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_54>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "54" ;
+    od:issuedAt "2003-06-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Sergey Ikovenko", "Яковенко Сергей"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_55>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "55" ;
+    od:issuedAt "2003-06-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Бубенцов Владимир Юрьевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_56>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "56" ;
+    od:issuedAt "2003-06-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Гареев Рифкат Тагирович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_57>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "57" ;
+    od:issuedAt "2003-06-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Oleg Abramov", "Абрамов Олег Юрьевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_58>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "58" ;
+    od:issuedAt "2003-06-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Петий Игорь Иванович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_59>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "59" ;
+    od:issuedAt "2003-12-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Dong–Lyoul Shin", "Донг–Лиёл Шин"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_6>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "6" ;
+    od:issuedAt "2000-05-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Каган Эдуард Львович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_60>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "60" ;
+    od:issuedAt "2004-04-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Kim Hyo June", "Ким Хё Джун"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_61>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "61" ;
+    od:issuedAt "2004-04-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Леняшин Василий Алексеевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_62>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "62" ;
+    od:issuedAt "2004-04-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Ефимов Андрей Вячеславович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_63>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "63" ;
+    od:issuedAt "2004-09-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Hongyul Yoon" .
+
+<http://opendiscovery.org/rdf/Certificate/4_64>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "64" ;
+    od:issuedAt "2004-10-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Хомяков Олег Николаевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_65>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "65" ;
+    od:issuedAt "2004-12-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Jin–Ha Jeong" .
+
+<http://opendiscovery.org/rdf/Certificate/4_66>
+    od:fromCountry "Belarus" ;
+    od:hasCertificateId "66" ;
+    od:issuedAt "2004-12-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Skuratovich Alexander Ivanovich", "Скуратович Александр Иванович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_67>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "67" ;
+    od:issuedAt "2004-12-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Youngil Kim", "Ким Янг–ил"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_68>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "68" ;
+    od:issuedAt "2005-01-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Jeong–Seon Kim" .
+
+<http://opendiscovery.org/rdf/Certificate/4_69>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "69" ;
+    od:issuedAt "2005-01-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Jun–Young Lee" .
+
+<http://opendiscovery.org/rdf/Certificate/4_7>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "7" ;
+    od:issuedAt "2000-11-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Гладков Александр Кузьмич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_70>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "70" ;
+    od:issuedAt "2005-03-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "James Bradley" .
+
+<http://opendiscovery.org/rdf/Certificate/4_71>
+    od:fromCountry "Israel" ;
+    od:hasCertificateId "71" ;
+    od:issuedAt "2005-03-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Gershman Michael", "Гершман Михаил Давидович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_72>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "72" ;
+    od:issuedAt "2005-05-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Mihail Verbitsky", "Вербицкий Михаил Яковлевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_73>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "73" ;
+    od:issuedAt "2005-05-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Кудрявцев Александр Владимирович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_74>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "74" ;
+    od:issuedAt "2005-07-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Курги Эдуард Эйнович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_75>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "75" ;
+    od:issuedAt "2005-08-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Даниловский Юрий Эдуардович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_76>
+    od:fromCountry "Spain" ;
+    od:hasCertificateId "76" ;
+    od:issuedAt "2005-08-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Jose Vicente Gomila" .
+
+<http://opendiscovery.org/rdf/Certificate/4_77>
+    od:fromCountry "Australia" ;
+    od:hasCertificateId "77" ;
+    od:issuedAt "2005-09-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Бельский Юрий Владимирович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_78>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "78" ;
+    od:issuedAt "2006-01-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Уразаев Владимир Георгиевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_79>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "79" ;
+    od:issuedAt "2006-04-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Нилов Алексей Петрович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_8>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "8" ;
+    od:issuedAt "2000-11-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Максимов Николай Иванович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_80>
+    od:fromCountry "Italy" ;
+    od:hasCertificateId "80" ;
+    od:issuedAt "2006-10-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Gaetano Cascini" .
+
+<http://opendiscovery.org/rdf/Certificate/4_81>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "81" ;
+    od:issuedAt "2006-10-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Valeri S. Chernyak", "Черняк Валерий Семенович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_82>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "82" ;
+    od:issuedAt "2006-12-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Young–Ju Kang" .
+
+<http://opendiscovery.org/rdf/Certificate/4_83>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "83" ;
+    od:issuedAt "2007-03-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Andrey V. Matyushenko", "Матюшенко Андрей Владимирович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_84>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "84" ;
+    od:issuedAt "2007-11-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Victor Berdonosov", "Бердоносов Виктор Дмитриевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_85>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "85" ;
+    od:issuedAt "2007-11-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Oleg N. Feygenson", "Фейгенсон Олег Наумович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_86>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "86" ;
+    od:issuedAt "2008-01-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Шарипов Рашид Хамзович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_87>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "87" ;
+    od:issuedAt "2008-03-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Devoino Igor", "Девойно Игорь Георгиевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_88>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "88" ;
+    od:issuedAt "2009-12-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "David Worrell Conley" .
+
+<http://opendiscovery.org/rdf/Certificate/4_89>
+    od:fromCountry "Germany" ;
+    od:hasCertificateId "89" ;
+    od:issuedAt "2009-12-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Robert Adunka" .
+
+<http://opendiscovery.org/rdf/Certificate/4_9>
+    od:fromCountry "Latvia" ;
+    od:hasCertificateId "9" ;
+    od:issuedAt "2000-11-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Alexander Sokol" .
+
+<http://opendiscovery.org/rdf/Certificate/4_90>
+    od:fromCountry "PR China" ;
+    od:hasCertificateId "90" ;
+    od:issuedAt "2009-12-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Yue Lin" .
+
+<http://opendiscovery.org/rdf/Certificate/4_91>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "91" ;
+    od:issuedAt "2010-02-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Mansoo Kim" .
+
+<http://opendiscovery.org/rdf/Certificate/4_92>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "92" ;
+    od:issuedAt "2010-02-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Hee Choon Lee" .
+
+<http://opendiscovery.org/rdf/Certificate/4_93>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "93" ;
+    od:issuedAt "2010-04-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "You-Shin Han" .
+
+<http://opendiscovery.org/rdf/Certificate/4_94>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "94" ;
+    od:issuedAt "2010-04-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Rostislav G. Khorenyan", "Хоренян, Ростислав Григорьевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_95>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "95" ;
+    od:issuedAt "2010-07-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Mi Jeong Song" .
+
+<http://opendiscovery.org/rdf/Certificate/4_96>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "96" ;
+    od:issuedAt "2011-11-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Kim Min-Soo" .
+
+<http://opendiscovery.org/rdf/Certificate/4_97>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "97" ;
+    od:issuedAt "2011-12-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Юрий Лебедев"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_98>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "98" ;
+    od:issuedAt "2011-12-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Na, Heungyeol" .
+
+<http://opendiscovery.org/rdf/Certificate/4_99>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "99" ;
+    od:issuedAt "2011-12-01" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Song Yong Won" .
+
+<http://opendiscovery.org/rdf/Certificate/5_1>
+    od:fromCountry "Azerbaijan" ;
+    od:hasCertificateId "1" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Amnuel Pesakh", "Амнуэль Песах Рафаэлович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_10>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "10" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Gorchakov, Igor", "Горчаков Игорь Петрович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_100>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "100" ;
+    od:issuedAt "2014-09-06" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Igor Petiy" .
+
+<http://opendiscovery.org/rdf/Certificate/5_101>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "101" ;
+    od:issuedAt "2014-09-06" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Yong Won Song" .
+
+<http://opendiscovery.org/rdf/Certificate/5_102>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "102" ;
+    od:issuedAt "2015-09-12" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Юрий Лебедев"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_103>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "103" ;
+    od:issuedAt "2015-09-12" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Minsoo Kim" .
+
+<http://opendiscovery.org/rdf/Certificate/5_104>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "104" ;
+    od:issuedAt "2016-07-30" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Jung-Hyeon Kim" .
+
+<http://opendiscovery.org/rdf/Certificate/5_105>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "105" ;
+    od:issuedAt "2016-07-30" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Heungyeol Na" .
+
+<http://opendiscovery.org/rdf/Certificate/5_106>
+    od:fromCountry "Germany" ;
+    od:hasCertificateId "106" ;
+    od:issuedAt "2017-09-16" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Oliver Mayer" .
+
+<http://opendiscovery.org/rdf/Certificate/5_107>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "107" ;
+    od:issuedAt "2018-09-15" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Jae Yeon Kim" .
+
+<http://opendiscovery.org/rdf/Certificate/5_108>
+    od:fromCountry "PR China" ;
+    od:hasCertificateId "108" ;
+    od:issuedAt "2018-09-15" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Yongwei Sun" .
+
+<http://opendiscovery.org/rdf/Certificate/5_11>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "11" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Golovchenko, Georgi", "Головченко Георгий Григорьевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_12>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "12" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Gubanov, Sergei", "Губанов Сергей Николаевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_13>
+    od:fromCountry "Belarus" ;
+    od:hasCertificateId "13" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Guin,Anatoli", "Гин Анатолий Александрович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_14>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "14" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Gafitulin, Marat", "Гафитулин Марат Семенович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_15>
+    od:fromCountry "Moldava" ;
+    od:hasCertificateId "15" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Zlotin, Boris", "Злотин Борис Львович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_16>
+    od:fromCountry "Moldava" ;
+    od:hasCertificateId "16" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Zusman, Alla", "Зусман Алла Вениаминовна"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_17>
+    od:hasCertificateId "17" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Zlotina, Esther", "Злотина Эсфирь Семеновна"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_18>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "18" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Zinovkina, Miloslava", "Зиновкина Милослава Михайловна"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_19>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "19" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Ivanov, Gennady", "Иванов Геннадий Иванович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_2>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "2" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Bdulenko, Margarita", "Бдуленко Маргарита Капитоновна"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_20>
+    od:hasCertificateId "20" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Ilovaisky, Igor", "Иловайский Игорь Вячеславович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_21>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "21" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Kaloshin, Nikolai", "Калошин Николай Григорьевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_22>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "22" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Kriachko, Valentina", "Крячко Валентина Борисовна"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_23>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "23" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Kaner,Vadim", "Канер Вадим Фроимович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_24>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "24" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Kislov, Alexander", "Кислов Александр Васильевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_25>
+    od:fromCountry "Kazakhstan" ;
+    od:hasCertificateId "25" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Kravzov, Sergei", "Кравцов Сергей Петрович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_26>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "26" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Kolchev, Nikolai", "Колчев Николай Петрович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_27>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "27" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Linkova, Nina", "Линькова Нина Петровна"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_28>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "28" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Litvin, Simon", "Литвин Семен Соломонович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_29>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "29" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Limarenko, Anatoli", "Лимаренко Анатолий Васильевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_3>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "3" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Beliltsev, Valery", "Белильцев Валерий Константинович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_30>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "30" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Ladoshkin, Victor", "Ладошкин Виктор Селиверствович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_31>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "31" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Lyubomirskiy, Alexander", "Любомирский Александр Львович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_32>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "32" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Magidenko, Vladimir", "Магиденко Владимир Евгеньевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_33>
+    od:fromCountry "Ukraine" ;
+    od:hasCertificateId "33" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Meerovich, Mark", "Меерович Марк Иосифович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_34>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "34" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Mikhailov, Valeri", "Михайлов Валерий Алексеевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_35>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "35" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Mitrofanov, Voluslav", "Митрофанов Волюслав Владимирович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_36>
+    od:fromCountry "Latvia" ;
+    od:hasCertificateId "36" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Murashkovski, Julius", "Мурашковский Юлий Самойлович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_37>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "37" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Nikashin, Aleksander", "Никашин Александр Иванович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_38>
+    od:fromCountry "Ukraine" ;
+    od:hasCertificateId "38" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Narbut, Alexander", "Нарбут Александр Федорович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_39>
+    od:hasCertificateId "39" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Narbut, Natalia", "Нарбут Наталья Николаевна"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_4>
+    od:fromCountry "Latvia" ;
+    od:hasCertificateId "4" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Buhman, Isak", "Бухман Исак Бейнцевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_40>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "40" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Podkatilin, Alexei", "Подкатилин Алексей Васильевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_41>
+    od:fromCountry "Ukraine" ;
+    od:hasCertificateId "41" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Pigorov, Georgi", "Пигоров Георгий Семенович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_42>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "42" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Pevsner, Lev", "Певзнер Лев Хатиевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_43>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "43" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Petrov, Vladimir", "Петров Владимир Михайлович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_44>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "44" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Rubin, Mikhail", "Рубин Михаил Семенович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_45>
+    od:fromCountry "Moldava" ;
+    od:hasCertificateId "45" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Royzen, Zinovy", "Ройзен Зиновий Ефимович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_46>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "46" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Salamatov, Yuri", "Саламатов Юрий Петрович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_47>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "47" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Sibiryakov, Vissarion", "Сибиряков Виссарион Григорьевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_48>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "48" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Selyutsky, Alexander", "Селюцкий Александр Борисович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_49>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "49" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Sichev,Valeri", "Сычев Валерий Викторович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_5>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "5" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Vikentiev, Igor", "Викентьев Игорь Леонардович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_50>
+    od:hasCertificateId "50" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Salnikov, Vadim", "Сальников Вадим Николаевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_51>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "51" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Sklobovsky, Kiril", "Склобовский Кирилл Афанасьевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_52>
+    od:fromCountry "Ukraine" ;
+    od:hasCertificateId "52" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Stupniker, Yuri", "Ступникер Юрий Иосифович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_53>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "53" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Trigub, Alexander", "Тригуб Александр Васильевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_54>
+    od:fromCountry "Belarus" ;
+    od:hasCertificateId "54" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Timohov Viktor", "Тимохов Виктор Иванович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_55>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "55" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Torgashev, Aleksander", "Торгашев Александр Сергеевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_56>
+    od:fromCountry "Azerbaijan" ;
+    od:hasCertificateId "56" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Fey, Victor", "Фей Виктор Рувимович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_57>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "57" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Fedosov, Yury", "Федосов Юрий Игорьевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_58>
+    od:fromCountry "Azerbaijan" ;
+    od:hasCertificateId "58" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Filkovski, Gennady", "Фильковский Геннадий Леонидович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_59>
+    od:fromCountry "Belarus" ;
+    od:hasCertificateId "59" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Khomenko, Nikolai", "Хоменко Николай Николаевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_6>
+    od:fromCountry "Azerbaijan" ;
+    od:hasCertificateId "6" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Vertkin, Igor", "Верткин Игорь Михайлович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_60>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "60" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Kholkin, Igor", "Холкин Игорь Николаевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_61>
+    od:fromCountry "Belarus" ;
+    od:hasCertificateId "61" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Tzourikov, Valeri", "Цуриков Валерий Михайлович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_62>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "62" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Shusterman, Mikhail", "Шустерман Михаил Наумович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_63>
+    od:hasCertificateId "63" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Shulyak, Lev", "Шуляк Лев Абрамович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_64>
+    od:hasCertificateId "64" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Sharapov, Mikhail", "Шарапов Михаил Иванович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_65>
+    od:fromCountry "Ukraine" ;
+    od:hasCertificateId "65" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Shragina, Larisa", "Шрагина Лариса Исааковна"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_66>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "66" ;
+    od:issuedAt "2006-10-14" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Kynin, Alexander", "Кынин Александр Тимофеевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_67>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "67" ;
+    od:issuedAt "2006-10-14" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Kudryavtsev, Alexander", "Кудрявцев Александ Владимирович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_68>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "68" ;
+    od:issuedAt "2006-10-14" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Ikovenko, Sergei", "Яковенко Сергей Александрович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_69>
+    od:fromCountry "Belarus" ;
+    od:hasCertificateId "69" ;
+    od:issuedAt "2006-10-14" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Shpakovsky, Nikolay", "Шпаковский Николай Андреевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_7>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "7" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Gasanov, Alexander", "Гасанов Александр Искандерович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_70>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "70" ;
+    od:issuedAt "2007-07-08" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Pinyaev, Alexey", "Пиняев Алексей Михайлович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_71>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "71" ;
+    od:issuedAt "2008-07-27" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Axelrod, Boris", "Аксельрод Борис Моисеевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_72>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "72" ;
+    od:issuedAt "2008-07-27" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Feygenson, Naum", "Фейгенсон Наум Борисович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_73>
+    od:fromCountry "Belarus" ;
+    od:hasCertificateId "73" ;
+    od:issuedAt "2009-08-29" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Devoino, Igor", "Девойно Игорь"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_74>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "74" ;
+    od:issuedAt "2009-08-29" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Kashkarov, Alexander", "Кашкаров Александр"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_75>
+    od:fromCountry "Australia" ;
+    od:hasCertificateId "75" ;
+    od:issuedAt "2009-08-29" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Belski, Iouri", "Бельский Юрий"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_76>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "76" ;
+    od:issuedAt "2010-07-27" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Gerasimov, Oleg", "Герасимов Олег Михайлович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_77>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "77" ;
+    od:issuedAt "2010-07-27" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Young-Ju Kang" .
+
+<http://opendiscovery.org/rdf/Certificate/5_78>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "78" ;
+    od:issuedAt "2010-07-27" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Feygenson, Oleg", "О.Фейгенсон"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_79>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "79" ;
+    od:issuedAt "2010-07-27" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Logvinov, Sergei", "Логвинов Сергей Анатольеввич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_8>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "8" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Gerasimov, Vladimir", "Герасимов Владимир Михайлович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_80>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "80" ;
+    od:issuedAt "2011-07-23" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Len Kaplan" .
+
+<http://opendiscovery.org/rdf/Certificate/5_81>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "81" ;
+    od:issuedAt "2011-07-23" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Andrei Efimov", "Ефимов Андрей"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_82>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "82" ;
+    od:issuedAt "2012-05-28" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Boris Goldovsky", "Голдовский Борис Израйлевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_83>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "83" ;
+    od:issuedAt "2012-05-28" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Mark Barkan", "Баркан Марк"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_84>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "84" ;
+    od:issuedAt "2012-05-28" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Jim Bradley", "Джим Брэдли"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_85>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "85" ;
+    od:issuedAt "2012-05-28" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Jura Danilovskiy", "Даниловский Юрий Эдуардович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_86>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "86" ;
+    od:issuedAt "2012-05-28" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Vasily Leniachin", "Леняшин Василий Алексеевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_87>
+    od:fromCountry "United States" ;
+    od:hasCertificateId "87" ;
+    od:issuedAt "2012-05-28" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Valeriy Prushinskiy", "Прушинский Валерий Олегович"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_88>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "88" ;
+    od:issuedAt "2012-08-04" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Oleg Abramov", "Олег Абрамов"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_89>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "89" ;
+    od:issuedAt "2012-08-04" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Mi Jeong Song" .
+
+<http://opendiscovery.org/rdf/Certificate/5_9>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "9" ;
+    od:issuedAt "1998-09-01" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Gorin, Yury", "Горин Юрий Васильевич"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_90>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "90" ;
+    od:issuedAt "2012-08-04" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Sergey Faer", "Сергей Фаер"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_91>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "91" ;
+    od:issuedAt "2013-08-03" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Виктор Минакер"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_92>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "92" ;
+    od:issuedAt "2013-08-03" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Jun-Young Lee" .
+
+<http://opendiscovery.org/rdf/Certificate/5_93>
+    od:fromCountry "Netherlands" ;
+    od:hasCertificateId "93" ;
+    od:issuedAt "2013-08-03" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Valeri Souchkov", "Валерий Сушков"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_94>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "94" ;
+    od:issuedAt "2013-08-03" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Наталия Рубина"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_95>
+    od:fromCountry "Russia" ;
+    od:hasCertificateId "95" ;
+    od:issuedAt "2013-08-03" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Александр Медведев"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/5_96>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "96" ;
+    od:issuedAt "2014-09-06" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Hongyul Yoon" .
+
+<http://opendiscovery.org/rdf/Certificate/5_97>
+    od:fromCountry "Germany" ;
+    od:hasCertificateId "97" ;
+    od:issuedAt "2014-06-06" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Robert Adunka" .
+
+<http://opendiscovery.org/rdf/Certificate/5_98>
+    od:fromCountry "Belarus" ;
+    od:hasCertificateId "98" ;
+    od:issuedAt "2014-09-06" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Georgi Severinets" .
+
+<http://opendiscovery.org/rdf/Certificate/5_99>
+    od:fromCountry "Israel" ;
+    od:hasCertificateId "99" ;
+    od:issuedAt "2014-09-06" ;
+    od:theLevel tc:CertificateLevel5 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Michael Gershman" .
