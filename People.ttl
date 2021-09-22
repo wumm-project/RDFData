@@ -416,6 +416,7 @@ odp:Bozhkov_V
 
 odp:Brabek_W
     a foaf:Person ;
+    foaf:affil "Austria" ;
     foaf:name "Walter Brabek" .
 
 odp:Brad_E
@@ -560,6 +561,10 @@ odp:Chibane_H
     a foaf:Person ;
     foaf:affil "INSA Strasbourg, France" ;
     foaf:name "Hicham Chibane" .
+
+odp:Childs_PRN
+    a foaf:Person ;
+    foaf:name "Peter R. N. Childs" .
 
 odp:Chinghatam_T
     a foaf:Person ;
@@ -710,7 +715,7 @@ odp:DeAraujo_RGM
 odp:DeCarvalho_MA
     a foaf:Person ;
     foaf:affil "UTFP, Brazil" ;
-    foaf:name "Marco Aurelio De Carvalho" .
+    foaf:name "Marco Aurélio de Carvalho" .
 
 odp:DePaiva_CL
     a foaf:Person ;
@@ -3478,11 +3483,11 @@ odp:Sawaguchi_M
 
 odp:Schaefer_C
     a foaf:Person ;
-    foaf:name "Carmen Schaefer" .
+    foaf:name "Carmen Schäfer" .
 
 odp:Schaefer_T
     a foaf:Person ;
-    foaf:name "Tobias Schaefer" .
+    foaf:name "Tobias Schäfer" .
 
 odp:Schaper_S
     a foaf:Person ;
@@ -4668,6 +4673,11 @@ odp:Zinovkina_MM
     foaf:affil "Russia" ;
     foaf:fullname "Зиновкина Милослава Михайловна"@ru ;
     foaf:name "Miloslava Zinovkina" .
+
+odp:Zippl_G
+    a foaf:Person ;
+    foaf:affil "Austria" ;
+    foaf:name "Günther Zippl" .
 
 odp:Zlotin_BL
     a foaf:Person ;

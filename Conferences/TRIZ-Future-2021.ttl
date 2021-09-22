@@ -19,6 +19,8 @@
     ical:dtstart "2021-09-22"^^xsd:date ;
     ical:location "online, supported by the Free University of Bozen-Bolzano (Italy)" ;
     ical:summary """TFC21, the ETRIA World Conference “TRIZ Future” 2021 “Creative solutions for a sustainable development” will take place online on 22-24 September 2021. The Conference is organized by the European TRIZ Association (ETRIA) together with the Free University of Bozen-Bolzano (unibz). The conference’s main partner is the International Federation for Information Processing (IFIP). The local unibz organization team managed the online sessions in Bolzano, at the unibz facilities. The conference delegates will be free to join the local organization team in Bolzano and the other delegates attending in presence upon communication of their intentions. No socialization event will be organized in any case to help combat the spread of the virus. """ ;
+    od:theProceedings <https://doi.org/10.1007/978-3-030-86614-3> ; 
+    od:theProceedings <https://atna-mam.utcluj.ro/index.php/Acta/issue/view/56> ;  
     ical:url <https://tfc21.events.unibz.it/> .
 
 :Workshop_100
@@ -29,7 +31,7 @@
     a od:Workshop .
 
 :Workshop_101
-    dcterms:creator odp:Jantschgi_J, odp:Brabek_W, odp:Jantschgi_P ;
+    dcterms:creator odp:Jantschgi_J, odp:Brabek_W, odp:Zippl_G ;
     dcterms:title "“Easy to new ideas with TRIZ” – Basic TRIZ tools and their effect on creativity and problem solving – some experiences from Austria."@en ;
     dcterms:abstract """Die Workshopteilnehmer erhalten einen praktischen Einblick in die Verwendung einiger Basis-Werkzeuge der TRIZ / SI (Systematic Innovation) zur Ideengenerierung und Problemformulierung.
 • Entwicklungstrends technischer Systeme
@@ -77,30 +79,35 @@ Interventi confermati:
     swc:relatedToEvent track:SD ;
     dcterms:creator odp:Maccioni_L, odp:Borgianni_Y ;
     dcterms:title "An ideality-based map to describe sustainable design initiatives"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_1> ; 
     a od:Talk .
 
 :Talk_102
     swc:relatedToEvent track:SD ;
     dcterms:creator odp:Sacco_P, odp:Gargano_ER, odp:Cornella_A ;
     dcterms:title "Sustainable digitalization: a systematic literature review to identify how to make digitization more sustainable"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_2> ; 
     a od:Talk .
 
 :Talk_103
     swc:relatedToEvent track:SD ;
     dcterms:creator odp:MasUdah, odp:Santosa_S, odp:Livotov_P, odp:Sekaran_APC, odp:Rubianto_L ;
     dcterms:title "Nature-Inspired Principles for Sustainable Process Design in Chemical Engineering"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_3> ; 
     a od:Talk .
 
 :Talk_104
     swc:relatedToEvent track:SD ;
     dcterms:creator odp:DeAraujo_RGM, odp:DeCarvalho_MA ;
     dcterms:title "Comparative Analysis of Methods for Identifying Opportunities for Reusing Solid Waste"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_4> ; 
     a od:Talk .
 
 :Talk_105
     swc:relatedToEvent track:SD ;
     dcterms:creator odp:Lee_CH, odp:Li_L, odp:Zhong_P ;
     dcterms:title "TRIZ Evolution Trend-based Public Service Innovation for Enhancing Social Participation of Life Garbage Classification"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_5> ; 
     a od:Talk .
 
 :Talk_106
@@ -115,36 +122,42 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
     swc:relatedToEvent track:IA ;
     dcterms:creator odp:Cho_S ;
     dcterms:title "Concept Design of Appropriate Technology Based on Circular Economy for Sustainable Development Inferred from Korea Traditional Heating System"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_6> ; 
     a od:Talk .
 
 :Talk_108
     swc:relatedToEvent track:IA ;
     dcterms:creator odp:Carmosino_G, odp:Bionda_A, odp:Ratti_A ;
     dcterms:title "Sustainability in yacht and vessel design through smart spaces: opportunities offered by digital technologies and new materiality"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_7> ; 
     a od:Talk .
 
 :Talk_109
     swc:relatedToEvent track:IA ;
     dcterms:creator odp:Carrara_P, odp:Morandi_W, odp:Tandoi_E ;
     dcterms:title "Building a green development roadmap using 5Rs and TRIZ"@en ;
+    od:urlPaper <https://atna-mam.utcluj.ro/index.php/Acta/article/view/1618> ;
     a od:Talk .
 
 :Talk_110
     swc:relatedToEvent track:IA ;
     dcterms:creator odp:Dobrusskin_C, odp:Wijnoltz_L, odp:Bouwkamp_T ;
     dcterms:title "Sustainable Cooking"@en ;
+  od:urlPaper <https://atna-mam.utcluj.ro/index.php/Acta/article/view/1620> ;
     a od:Talk .
 
 :Talk_111
     swc:relatedToEvent track:IA ;
     dcterms:creator odp:Roccatello_E, odp:Prada_A, odp:Baratieri_M ;
     dcterms:title "Hybrid heat pump systems as a possible solution for the energy transition towards sustainable heating systems for buildings"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_8> ; 
     a od:Talk .
 
 :Talk_112
     swc:relatedToEvent track:IA ;
     dcterms:creator odp:DePaiva_CL, odp:DeCarvalho_MA ;
     dcterms:title "Reducing the Effects of Ice Accumulation in Evaporators Using TRIZ"@en ;
+  od:urlPaper <https://atna-mam.utcluj.ro/index.php/Acta/article/view/1621> ;
     a od:Talk .
 
 :Talk_113
@@ -158,42 +171,49 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
     swc:relatedToEvent track:IP ;
     dcterms:creator odp:Spreafico_M, odp:Russo_D ;
     dcterms:title "Identifying new application fields of a given technology"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_9> ; 
     a od:Talk .
 
 :Talk_115
     swc:relatedToEvent track:IP ;
     dcterms:creator odp:Sun_Y, odp:Cao_G, odp:Gao_C, odp:Yang_WD, odp:Han_WP, odp:Wang_K ;
     dcterms:title "Extraction and Modeling of Chinese Patent Information for Technical Advancement Evaluation"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_10> ; 
     a od:Talk .
 
 :Talk_116
     swc:relatedToEvent track:IP ;
     dcterms:creator odp:Kaliteevski_V, odp:Deder_A, odp:Peric_N, odp:Chechurin_L ;
     dcterms:title "Concept extraction based on semantic models using big amount of patents and scientific publications data"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_11> ; 
     a od:Talk .
 
 :Talk_117
     swc:relatedToEvent track:IP ;
     dcterms:creator odp:Berdyugina_D, odp:Cavallucci_D ;
     dcterms:title "Automatic extraction of potentially contradictory parameters from specific field patent texts"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_12> ; 
     a od:Talk .
 
 :Talk_118
     swc:relatedToEvent track:IP ;
     dcterms:creator odp:Guarino_G, odp:Samet_A, odp:Cavallucci_D ;
     dcterms:title "Patent specialization for deep learning information retrieval algorithms"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_13> ; 
     a od:Talk .
 
 :Talk_119
     swc:relatedToEvent track:IP ;
-    dcterms:creator odp:Dewulf_S ;
+    dcterms:creator odp:Dewulf_S, odp:Childs_PRN ;
     dcterms:title "Patent Data Driven Innovation Logic: Textual pattern exploration to identify innovation logic data"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_14> ; 
     a od:Talk .
 
 :Talk_120
     swc:relatedToEvent track:IP ;
     dcterms:creator odp:Bersano_G, odp:Spreafico_M ;
     dcterms:title "Patent intelligence analysis to support technology roadmap on the sector of renewable energy"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_15> ; 
     a od:Talk .
 
 :Talk_121
@@ -207,12 +227,14 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
     swc:relatedToEvent track:TT ;
     dcterms:creator odp:Mann_D ;
     dcterms:title "Matrix 2022: Re-Imagining The Contradiction Matrix"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_16> ; 
     a od:Talk .
 
 :Talk_123
     swc:relatedToEvent track:TT ;
     dcterms:creator odp:Vaneker_THJ, odp:Laoh_S ;
     dcterms:title "Improving the construction of RCA+ contradiction trees"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_17> ; 
     a od:Talk .
 
 :Talk_124
@@ -228,18 +250,21 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
     swc:relatedToEvent track:TT ;
     dcterms:creator odp:Chrzaszcz_J ;
     dcterms:title "Indicating and assessing quality criteria for cause-effect models"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_18> ; 
     a od:Talk .
 
 :Talk_126
     swc:relatedToEvent track:TT ;
     dcterms:creator odp:Hanifi_M, odp:Chibane_H, odp:Houssin_R, odp:Cavallucci_D ;
     dcterms:title "Application of an FMEA based method to prioritize the initial problem choices in Inventive Design"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_19> ; 
     a od:Talk .
 
 :Talk_127
     swc:relatedToEvent track:TT ;
     dcterms:creator odp:Kaliteevski_V, odp:Bryksin_M, odp:Chechurin_L ;
     dcterms:title "TRIZ Application for Digital Product Design and Management"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_20> ; 
     a od:Talk .
 
 :Talk_128
@@ -254,36 +279,42 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
     swc:relatedToEvent track:NA ;
     dcterms:creator odp:Bietresato_M, odp:Mazzetto_F ;
     dcterms:title "A reasoned evolutionary study on the actual design of farm tractors"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_21> ; 
     a od:Talk .
 
 :Talk_130
     swc:relatedToEvent track:NA ;
     dcterms:creator odp:Petrov_VM, odp:Petrov_De ;
-    dcterms:title "Practice of solving business problems using TRIZ"@en ;
+    dcterms:title "Practice of solving business problems using TRIZ tools"@en ;
+  od:urlPaper <https://atna-mam.utcluj.ro/index.php/Acta/article/view/1625> ;
     a od:Talk .
 
 :Talk_131
     swc:relatedToEvent track:NA ;
     dcterms:creator odp:Majchrzak_J, odp:WiecekJanka_E ;
     dcterms:title "TRIZ contradiction modelling in family business succession process management: quantitative approach with an application of Grey Incidence Analysis."@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_22> ; 
     a od:Talk .
 
 :Talk_132
     swc:relatedToEvent track:NA ;
     dcterms:creator odp:Carrara_P, odp:Morandi_W, odp:Campagiorni_V, odp:Tandoi_E ;
     dcterms:title "An Innovation Management framework to enhance TRIZ diffusion in SMEs"@en ;
+    od:urlPaper <https://atna-mam.utcluj.ro/index.php/Acta/article/view/1617> ;	
     a od:Talk .
 
 :Talk_133
     swc:relatedToEvent track:NA ;
     dcterms:creator odp:Frigo_N, odp:Russo_D, odp:DeglInnocenti_R, odp:Spreafico_C, odp:Peri_P ;
     dcterms:title "A pioneering project on laser pyrolysis based entirely on TRIZ"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_23> ; 
     a od:Talk .
 
 :Talk_134
     swc:relatedToEvent track:NA ;
     dcterms:creator odp:ElYoussoufi_S, odp:Mazouzi_M, odp:Cherrafi_A, odp:Haroufi_A ;
     dcterms:title "A Holistic Model for Sustainable and Innovative Business Empowerment"@en ;
+  od:urlPaper <https://atna-mam.utcluj.ro/index.php/Acta/article/view/1622> ;
     a od:Talk .
 
 :Talk_135
@@ -297,12 +328,14 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
     swc:relatedToEvent track:AI ;
     dcterms:creator odp:Feng_LJ, odp:Niu_Y, odp:Wang_JF, odp:Chen_Y, odp:Liu_ZF, odp:Li_K ;
     dcterms:title "Element Variation Innovation Thinking: A method of simplifying and reorganizing TRIZ"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_24> ; 
     a od:Talk .
 
 :Talk_137
     swc:relatedToEvent track:AI ;
     dcterms:creator odp:Cavaliere_G, odp:Borgianni_Y, odp:Schaefer_C ;
     dcterms:title "Study of an in-line automated system for surface defects analysis of aluminium diecast components using Artificial Intelligence"@en ;
+    od:urlPaper <https://atna-mam.utcluj.ro/index.php/Acta/article/view/1619> ;
     a od:Talk .
 
 :Talk_138
@@ -318,18 +351,21 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
     swc:relatedToEvent track:AI ;
     dcterms:creator odp:Livotov_P ;
     dcterms:title "Method for formulation, selection and application of elementary TRIZ inventive principles for automated idea generation"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_25> ; 
     a od:Talk .
 
 :Talk_140
     swc:relatedToEvent track:AI ;
     dcterms:creator odp:Ni_X, odp:Samet_A, odp:Cavallucci_D ;
     dcterms:title "Replicating TRIZ Reasoning through Deep Learning"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_26> ; 
     a od:Talk .
 
 :Talk_141
     swc:relatedToEvent track:AI ;
     dcterms:creator odp:Boufeloussen_O, odp:Cavallucci_D ;
     dcterms:title "Bringing together engineering problems and basic science knowledge, one step closer to systematic invention"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_27> ; 
     a od:Talk .
 
 :Talk_142
@@ -343,77 +379,97 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
     swc:relatedToEvent track:TE ;
     dcterms:creator odp:Soosay_AER, odp:Kulathuramaiyer_N ;
     dcterms:title "Triz-based Remodelling of Multiple True-False Questions"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_28> ; 
     a od:Talk .
 
 :Talk_144
     swc:relatedToEvent track:TE ;
     dcterms:creator odp:Kaliteevski_V, odp:Chechurin_L ;
     dcterms:title "TRIZ for problems of classical physics on the experience of the European project based on nanowires research."@en ;
+  od:urlPaper <https://atna-mam.utcluj.ro/index.php/Acta/article/view/1622> ;
     a od:Talk .
 
 :Talk_145
     swc:relatedToEvent track:TE ;
     dcterms:creator odp:Jantschgi_P ;
     dcterms:title "Simplified Trend system for TRIZ beginners"@en ;
+  od:urlPaper <https://atna-mam.utcluj.ro/index.php/Acta/article/view/1624> ;
     a od:Talk .
 
 :Talk_146
     swc:relatedToEvent track:TE ;
     dcterms:creator odp:Singh_H, odp:Nolte_H, odp:Becattini_N ;
     dcterms:title "Pedagogical approaches and course modality affecting students’ self-efficacy and problem-solving attitudes in a TRIZ-oriented course"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_29> ; 
     a od:Talk .
 
 :Talk_147
     swc:relatedToEvent track:TE ;
     dcterms:creator odp:Tanoyo_T, odp:Harlim_J, odp:Belski_IV ;
     dcterms:title "Facilitation of a creative culture through the implementation and initial evaluation of a TRIZ course within an organisation"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_30> ; 
     a od:Talk .
 
 :Talk_148
     swc:relatedToEvent track:TE ;
     dcterms:creator odp:Nakagawa_T, odp:Mann_D, odp:Orloff_MA, odp:Dewulf_S, odp:Litvin_SS, odp:Souchkov_VV ;
     dcterms:title "World TRIZ-related Sites Project (WTSP) (4): World WTSP Catalogs of TRIZ and Around-TRIZ Sites, Let's Make Them Attractive and Useful!"@en ;
+  od:urlPaper <https://atna-mam.utcluj.ro/index.php/Acta/article/view/1626> ;
     a od:Talk .
 
 :Talk_149
     swc:relatedToEvent track:ID ;
     dcterms:creator odp:Abramov_OY, odp:Medvedyev_AV, odp:Tomashevskaya_N ;
     dcterms:title "Main Parameters of Value (MPV) Analysis: Where MPV Candidates Come From"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_31> ; 
     a od:Talk .
 
 :Talk_150
     swc:relatedToEvent track:ID ;
     dcterms:creator odp:Dubois_S, odp:Chibane_H, odp:Hafer_L, odp:Trillat_S ;
     dcterms:title "A global approach to point out priority problems out of experts’ qualitative data"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_32> ; 
     a od:Talk .
 
 :Talk_151
     swc:relatedToEvent track:ID ;
     dcterms:creator odp:Fiorineschi_L, odp:Frillici_FS, odp:Rotini_F ;
     dcterms:title "Integrated Use of TRIZ Tools in Systematic Conceptual Design"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_33> ; 
     a od:Talk .
 
 :Talk_152
     swc:relatedToEvent track:ID ;
     dcterms:creator odp:Brad_S ;
     dcterms:title "Domain analysis with TRIZ to define an effective “design for excellence” framework "@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_34> ; 
     a od:Talk .
 
 :Talk_153
     swc:relatedToEvent track:ID ;
     dcterms:creator odp:Wessner_J ;
     dcterms:title "The Efficient Work with Resources in TRIZ - Resource-Oriented Search (ROS)"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_35> ; 
     a od:Talk .
 
 :Talk_154
     swc:relatedToEvent track:ID ;
     dcterms:creator odp:Yehya_MI, odp:Coulibaly_A, odp:Chibane_H, odp:Houssin_R ;
     dcterms:title "Solution Concept Modeling and Evaluation Based on Function-Structure and Behavior Approach in the Context of Inventive Design"@en ;
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_36> ; 
+    a od:Talk .
+
+:Talk_155
+    swc:relatedToEvent track:ID ;
+    dcterms:creator odp:Brad_S, odp:Stan_A;
+    rdfs:comment "not in  the program but in the proceedings in Acta Napocensis"; 
+    dcterms:title "Applying TRIZ and CMFD to design sustainable, intelligent, and inclusive buildings"@en ;
+  od:urlPaper <https://atna-mam.utcluj.ro/index.php/Acta/article/view/1627> ;
     a od:Talk .
 
 track:SD
     a swc:TrackEvent ;
-    rdfs:label "Sustainable Development through Innovative approaches"@en .
+    rdfs:label "Inventiveness and TRIZ for Sustainable Development"@en .
 
 track:IA
     a swc:TrackEvent ;

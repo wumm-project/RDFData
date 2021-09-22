@@ -35,6 +35,8 @@
     ical:dtstart "2021-09-22"^^xsd:date ;
     ical:location "online, supported by the Free University of Bozen-Bolzano (Italy)" ;
     od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZ-Future-2021.rdf> ;
+    od:theProceedings <https://doi.org/10.1007/978-3-030-86614-3> ; 
+    od:theProceedings <https://atna-mam.utcluj.ro/index.php/Acta/issue/view/56> ;  
     ical:url <https://tfc21.events.unibz.it/> .
 
 <http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2021/>
