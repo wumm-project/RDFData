@@ -8,30 +8,37 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <http://opendiscovery.org/rdf/MATRIZ-Certificates/>
-    a owl:Ontology ;
     cc:attributionName "The Open Discovery Project" ;
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    rdfs:comment "Extracted and transformed from the MATRIZ Certificates published at matriz.org", "2021-09-18 graebe, last update" ; 
+    a owl:Ontology ;
+    rdfs:comment "2021-09-18 graebe, last update",
+    "Extracted and transformed from the MATRIZ Certificates published at matriz.org" ;
     rdfs:label "TRIZ Database - MATRIZ Certificates, Level 4 and 5" .
 
-tc:MATRIZCertificate a skos:Concept;
-skos:prefLabel "MATRIZ Certificate" . 
+tc:CertificateLevel1
+    a tc:MATRIZCertificate ;
+    rdfs:label "MATRIZ Certificate Level 1" .
 
-tc:CertificateLevel1 a tc:MATRIZCertificate;
-rdfs:label "MATRIZ Certificate Level 1" .
+tc:CertificateLevel2
+    a tc:MATRIZCertificate ;
+    rdfs:label "MATRIZ Certificate Level 2" .
 
-tc:CertificateLevel2 a tc:MATRIZCertificate;
-rdfs:label "MATRIZ Certificate Level 2" .
+tc:CertificateLevel3
+    a tc:MATRIZCertificate ;
+    rdfs:label "MATRIZ Certificate Level 3" .
 
-tc:CertificateLevel3 a tc:MATRIZCertificate;
-rdfs:label "MATRIZ Certificate Level 3" .
+tc:CertificateLevel4
+    a tc:MATRIZCertificate ;
+    rdfs:label "MATRIZ Certificate Level 4" .
 
-tc:CertificateLevel4 a tc:MATRIZCertificate;
-rdfs:label "MATRIZ Certificate Level 4" .
+tc:CertificateLevel5
+    a tc:MATRIZCertificate ;
+    rdfs:label "MATRIZ Certificate Level 5" .
 
-tc:CertificateLevel5 a tc:MATRIZCertificate;
-rdfs:label "MATRIZ Certificate Level 5" .
+tc:MATRIZCertificate
+    a skos:Concept ;
+    skos:prefLabel "MATRIZ Certificate" .
 
 <http://opendiscovery.org/rdf/Certificate/4_1>
     od:fromCountry "Russia" ;
@@ -209,146 +216,6 @@ rdfs:label "MATRIZ Certificate Level 5" .
     a tc:MATRIZCertificate ;
     foaf:name "Barbara Gronauer" .
 
-<http://opendiscovery.org/rdf/Certificate/4_138> a tc:MATRIZCertificate;
-   foaf:name "Huang Yan";
-   od:fromCountry "PR China";
-   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
-   od:hasCertificateId "138";
-   od:issuedAt "2021-09-02" .
-
-<http://opendiscovery.org/rdf/Certificate/4_139> a tc:MATRIZCertificate;
-   foaf:name "Xing Fenglei";
-   od:fromCountry "PR China";
-   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
-   od:hasCertificateId "139";
-   od:issuedAt "2021-09-02" .
-
-<http://opendiscovery.org/rdf/Certificate/4_137> a tc:MATRIZCertificate;
-   foaf:name "Jerzy Chrzaszcz";
-   od:fromCountry "Poland";
-   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
-   od:hasCertificateId "137";
-   od:issuedAt "2021-08-20" .
-
-<http://opendiscovery.org/rdf/Certificate/4_136> a tc:MATRIZCertificate;
-   foaf:name "Hyung-Seok Yeo";
-   od:fromCountry "Republic of Korea";
-   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
-   od:hasCertificateId "136";
-   od:issuedAt "2021-03-31" .
-
-<http://opendiscovery.org/rdf/Certificate/4_134> a tc:MATRIZCertificate;
-   foaf:name "Dr. Huan-Chu Huang";
-   od:fromCountry "PR China";
-   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
-   od:hasCertificateId "134";
-   od:issuedAt "2020-12-24" .
-
-<http://opendiscovery.org/rdf/Certificate/4_135> a tc:MATRIZCertificate;
-   foaf:name "Ahreum Lee";
-   od:fromCountry "Republic of Korea";
-   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
-   od:hasCertificateId "135";
-   od:issuedAt "2020-12-08" .
-
-<http://opendiscovery.org/rdf/Certificate/4_133> a tc:MATRIZCertificate;
-   foaf:name "Yongmou Liu";
-   od:fromCountry "PR China";
-   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
-   od:hasCertificateId "133";
-   od:issuedAt "2020-06-30" .
-
-<http://opendiscovery.org/rdf/Certificate/4_131> a tc:MATRIZCertificate;
-   foaf:name "Michael Graf";
-   od:fromCountry "Germany";
-   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
-   od:hasCertificateId "131";
-   od:issuedAt "2020-05-25" .
-
-<http://opendiscovery.org/rdf/Certificate/4_132> a tc:MATRIZCertificate;
-   foaf:name "Stepan Schaper";
-   od:fromCountry "Germany";
-   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
-   od:hasCertificateId "132";
-   od:issuedAt "2020-05-25" .
-
-<http://opendiscovery.org/rdf/Certificate/4_130> a tc:MATRIZCertificate;
-   foaf:name "Kim JaiHak";
-   od:fromCountry "Republic of Korea";
-   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
-   od:hasCertificateId "130";
-   od:issuedAt "2020-02-26" .
-
-<http://opendiscovery.org/rdf/Certificate/4_129> a tc:MATRIZCertificate;
-   foaf:name "Jochen Wessner";
-   od:fromCountry "Germany";
-   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
-   od:hasCertificateId "129";
-   od:issuedAt "2019-09-27" .
-
-<http://opendiscovery.org/rdf/Certificate/4_128> a tc:MATRIZCertificate;
-   foaf:name "Arthur Lok";
-   od:fromCountry "PR China";
-   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
-   od:hasCertificateId "128";
-   od:issuedAt "2019-07-19" .
-
-<http://opendiscovery.org/rdf/Certificate/4_127> a tc:MATRIZCertificate;
-   foaf:name "Alexey Fomenko";
-   od:fromCountry "Russia";
-   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
-   od:hasCertificateId "127";
-   od:issuedAt "2019-07-10" .
-
-<http://opendiscovery.org/rdf/Certificate/4_125> a tc:MATRIZCertificate;
-   foaf:name "Sergey Yatsunenko";
-   od:fromCountry "Poland";
-   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
-   od:hasCertificateId "125";
-   od:issuedAt "2019-04-16" .
-
-<http://opendiscovery.org/rdf/Certificate/4_126> a tc:MATRIZCertificate;
-   foaf:name "Pavel Fimin";
-   od:fromCountry "Russia";
-   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
-   od:hasCertificateId "126";
-   od:issuedAt "2019-04-16" .
-
-<http://opendiscovery.org/rdf/Certificate/4_124> a tc:MATRIZCertificate;
-   foaf:name "Elena Redkolis";
-   od:fromCountry "Russia";
-   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
-   od:hasCertificateId "124";
-   od:issuedAt "2019-02-11" .
-
-<http://opendiscovery.org/rdf/Certificate/4_123> a tc:MATRIZCertificate;
-   foaf:name "Hyunsoo Ahn";
-   od:fromCountry "Republic of Korea";
-   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
-   od:hasCertificateId "123";
-   od:issuedAt "2018-08-31" .
-
-<http://opendiscovery.org/rdf/Certificate/4_122> a tc:MATRIZCertificate;
-   foaf:name "Tiziana Bertoncelli"@ru;
-   od:fromCountry "Germany";
-   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
-   od:hasCertificateId "122";
-   od:issuedAt "2018-05-17" .
-
-<http://opendiscovery.org/rdf/Certificate/4_121> a tc:MATRIZCertificate;
-   foaf:name "Martha Gardner"@ru;
-   od:fromCountry "United States";
-   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
-   od:hasCertificateId "121";
-   od:issuedAt "2017-09-14" .
-
-<http://opendiscovery.org/rdf/Certificate/4_120> a tc:MATRIZCertificate;
-   foaf:name "Антон Кожемяко"@ru;
-   od:fromCountry "Russia";
-   od:theLevel <http://opendiscovery.org/rdf/Concept/CertificateLevel4>;
-   od:hasCertificateId "120";
-   od:issuedAt "2016-05-05" .
-
 <http://opendiscovery.org/rdf/Certificate/4_12>
     od:fromCountry "Russia" ;
     od:hasCertificateId "12" ;
@@ -492,6 +359,38 @@ rdfs:label "MATRIZ Certificate Level 5" .
     od:theLevel tc:CertificateLevel4 ;
     a tc:MATRIZCertificate ;
     foaf:name "Ahreum Lee" .
+
+<http://opendiscovery.org/rdf/Certificate/4_136>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "136" ;
+    od:issuedAt "2021-03-31" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Hyung-Seok Yeo" .
+
+<http://opendiscovery.org/rdf/Certificate/4_137>
+    od:fromCountry "Poland" ;
+    od:hasCertificateId "137" ;
+    od:issuedAt "2021-08-20" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Jerzy Chrzaszcz" .
+
+<http://opendiscovery.org/rdf/Certificate/4_138>
+    od:fromCountry "PR China" ;
+    od:hasCertificateId "138" ;
+    od:issuedAt "2021-09-02" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Huang Yan" .
+
+<http://opendiscovery.org/rdf/Certificate/4_139>
+    od:fromCountry "PR China" ;
+    od:hasCertificateId "139" ;
+    od:issuedAt "2021-09-02" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Xing Fenglei" .
 
 <http://opendiscovery.org/rdf/Certificate/4_14>
     od:fromCountry "Russia" ;

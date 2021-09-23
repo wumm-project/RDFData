@@ -78,6 +78,7 @@ Interventi confermati:
 :Talk_101
     swc:relatedToEvent track:SD ;
     dcterms:creator odp:Maccioni_L, odp:Borgianni_Y ;
+    od:presentedBy odp:Maccioni_L;
     dcterms:title "An ideality-based map to describe sustainable design initiatives"@en ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_1> ; 
     a od:Talk .
@@ -85,6 +86,7 @@ Interventi confermati:
 :Talk_102
     swc:relatedToEvent track:SD ;
     dcterms:creator odp:Sacco_P, odp:Gargano_ER, odp:Cornella_A ;
+    od:presentedBy odp:Sacco_P ;
     dcterms:title "Sustainable digitalization: a systematic literature review to identify how to make digitization more sustainable"@en ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_2> ; 
     a od:Talk .
@@ -92,6 +94,7 @@ Interventi confermati:
 :Talk_103
     swc:relatedToEvent track:SD ;
     dcterms:creator odp:MasUdah, odp:Santosa_S, odp:Livotov_P, odp:Sekaran_APC, odp:Rubianto_L ;
+    od:presentedBy odp:MasUdah ;
     dcterms:title "Nature-Inspired Principles for Sustainable Process Design in Chemical Engineering"@en ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_3> ; 
     a od:Talk .
@@ -99,6 +102,7 @@ Interventi confermati:
 :Talk_104
     swc:relatedToEvent track:SD ;
     dcterms:creator odp:DeAraujo_RGM, odp:DeCarvalho_MA ;
+    od:presentedBy odp:DeAraujo_RGM ;
     dcterms:title "Comparative Analysis of Methods for Identifying Opportunities for Reusing Solid Waste"@en ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_4> ; 
     a od:Talk .
@@ -106,6 +110,7 @@ Interventi confermati:
 :Talk_105
     swc:relatedToEvent track:SD ;
     dcterms:creator odp:Lee_CH, odp:Li_L, odp:Zhong_P ;
+    od:presentedBy odp:Li_L ;
     dcterms:title "TRIZ Evolution Trend-based Public Service Innovation for Enhancing Social Participation of Life Garbage Classification"@en ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_5> ; 
     a od:Talk .
@@ -128,6 +133,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
 :Talk_108
     swc:relatedToEvent track:IA ;
     dcterms:creator odp:Carmosino_G, odp:Bionda_A, odp:Ratti_A ;
+    od:presentedBy odp:Carmosino_G ;
     dcterms:title "Sustainability in yacht and vessel design through smart spaces: opportunities offered by digital technologies and new materiality"@en ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_7> ; 
     a od:Talk .
@@ -135,6 +141,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
 :Talk_109
     swc:relatedToEvent track:IA ;
     dcterms:creator odp:Carrara_P, odp:Morandi_W, odp:Tandoi_E ;
+    od:presentedBy odp:Morandi_W ;
     dcterms:title "Building a green development roadmap using 5Rs and TRIZ"@en ;
     od:urlPaper <https://atna-mam.utcluj.ro/index.php/Acta/article/view/1618> ;
     a od:Talk .
@@ -142,6 +149,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
 :Talk_110
     swc:relatedToEvent track:IA ;
     dcterms:creator odp:Dobrusskin_C, odp:Wijnoltz_L, odp:Bouwkamp_T ;
+    od:presentedBy odp:Dobrusskin_C ;
     dcterms:title "Sustainable Cooking"@en ;
   od:urlPaper <https://atna-mam.utcluj.ro/index.php/Acta/article/view/1620> ;
     a od:Talk .
@@ -149,6 +157,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
 :Talk_111
     swc:relatedToEvent track:IA ;
     dcterms:creator odp:Roccatello_E, odp:Prada_A, odp:Baratieri_M ;
+    od:presentedBy odp:Roccatello_E ;
     dcterms:title "Hybrid heat pump systems as a possible solution for the energy transition towards sustainable heating systems for buildings"@en ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_8> ; 
     a od:Talk .
@@ -156,6 +165,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
 :Talk_112
     swc:relatedToEvent track:IA ;
     dcterms:creator odp:DePaiva_CL, odp:DeCarvalho_MA ;
+    od:presentedBy odp:DeCarvalho_MA ;
     dcterms:title "Reducing the Effects of Ice Accumulation in Evaporators Using TRIZ"@en ;
   od:urlPaper <https://atna-mam.utcluj.ro/index.php/Acta/article/view/1621> ;
     a od:Talk .
@@ -170,6 +180,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
 :Talk_114
     swc:relatedToEvent track:IP ;
     dcterms:creator odp:Spreafico_M, odp:Russo_D ;
+    od:presentedBy odp:Spreafico_M ;
     dcterms:title "Identifying new application fields of a given technology"@en ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_9> ; 
     a od:Talk .
@@ -177,6 +188,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
 :Talk_115
     swc:relatedToEvent track:IP ;
     dcterms:creator odp:Sun_Y, odp:Cao_G, odp:Gao_C, odp:Yang_WD, odp:Han_WP, odp:Wang_K ;
+    od:presentedBy odp:Sun_Y ;
     dcterms:title "Extraction and Modeling of Chinese Patent Information for Technical Advancement Evaluation"@en ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_10> ; 
     a od:Talk .
@@ -184,6 +196,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
 :Talk_116
     swc:relatedToEvent track:IP ;
     dcterms:creator odp:Kaliteevski_V, odp:Deder_A, odp:Peric_N, odp:Chechurin_L ;
+    od:presentedBy odp:Kaliteevski_V ;
     dcterms:title "Concept extraction based on semantic models using big amount of patents and scientific publications data"@en ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_11> ; 
     a od:Talk .
@@ -191,6 +204,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
 :Talk_117
     swc:relatedToEvent track:IP ;
     dcterms:creator odp:Berdyugina_D, odp:Cavallucci_D ;
+    od:presentedBy odp:Berdyugina_D ;
     dcterms:title "Automatic extraction of potentially contradictory parameters from specific field patent texts"@en ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_12> ; 
     a od:Talk .
@@ -198,6 +212,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
 :Talk_118
     swc:relatedToEvent track:IP ;
     dcterms:creator odp:Guarino_G, odp:Samet_A, odp:Cavallucci_D ;
+    od:presentedBy odp:Guarino_G ;
     dcterms:title "Patent specialization for deep learning information retrieval algorithms"@en ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_13> ; 
     a od:Talk .
@@ -205,6 +220,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
 :Talk_119
     swc:relatedToEvent track:IP ;
     dcterms:creator odp:Dewulf_S, odp:Childs_PRN ;
+    od:presentedBy  odp:Dewulf_S ;
     dcterms:title "Patent Data Driven Innovation Logic: Textual pattern exploration to identify innovation logic data"@en ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_14> ; 
     a od:Talk .
@@ -212,6 +228,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
 :Talk_120
     swc:relatedToEvent track:IP ;
     dcterms:creator odp:Bersano_G, odp:Spreafico_M ;
+    od:presentedBy odp:Bersano_G ;
     dcterms:title "Patent intelligence analysis to support technology roadmap on the sector of renewable energy"@en ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_15> ; 
     a od:Talk .
@@ -240,6 +257,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
 :Talk_124
     swc:relatedToEvent track:TT ;
     dcterms:creator odp:Graebe_HG, odp:Thiel_R ;
+    od:presentedBy odp:Graebe_HG ;
     dcterms:title "ProHEAL Social needs and sustainability aspects in the methodology of the GDR Inventor Schools"@en ;
     od:urlPaper <http://dx.doi.org/10.14625/graebe_20210815> ;
     od:urlSlides <https://hg-graebe.de/EigeneTexte/TFC21-ProHEAL.pdf> ;
@@ -256,6 +274,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
 :Talk_126
     swc:relatedToEvent track:TT ;
     dcterms:creator odp:Hanifi_M, odp:Chibane_H, odp:Houssin_R, odp:Cavallucci_D ;
+    od:presentedBy odp:Hanifi_M ;
     dcterms:title "Application of an FMEA based method to prioritize the initial problem choices in Inventive Design"@en ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_19> ; 
     a od:Talk .
@@ -263,6 +282,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
 :Talk_127
     swc:relatedToEvent track:TT ;
     dcterms:creator odp:Kaliteevski_V, odp:Bryksin_M, odp:Chechurin_L ;
+    od:presentedBy odp:Kaliteevski_V ;
     dcterms:title "TRIZ Application for Digital Product Design and Management"@en ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_20> ; 
     a od:Talk .
@@ -278,6 +298,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
 :Talk_129
     swc:relatedToEvent track:NA ;
     dcterms:creator odp:Bietresato_M, odp:Mazzetto_F ;
+    od:presentedBy odp:Bietresato_M ;
     dcterms:title "A reasoned evolutionary study on the actual design of farm tractors"@en ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_21> ; 
     a od:Talk .
@@ -285,6 +306,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
 :Talk_130
     swc:relatedToEvent track:NA ;
     dcterms:creator odp:Petrov_VM, odp:Petrov_De ;
+    od:presentedBy odp:Petrov_De ;
     dcterms:title "Practice of solving business problems using TRIZ tools"@en ;
   od:urlPaper <https://atna-mam.utcluj.ro/index.php/Acta/article/view/1625> ;
     a od:Talk .
@@ -292,6 +314,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
 :Talk_131
     swc:relatedToEvent track:NA ;
     dcterms:creator odp:Majchrzak_J, odp:WiecekJanka_E ;
+    od:presentedBy odp:Majchrzak_J ;
     dcterms:title "TRIZ contradiction modelling in family business succession process management: quantitative approach with an application of Grey Incidence Analysis."@en ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_22> ; 
     a od:Talk .
@@ -299,6 +322,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
 :Talk_132
     swc:relatedToEvent track:NA ;
     dcterms:creator odp:Carrara_P, odp:Morandi_W, odp:Campagiorni_V, odp:Tandoi_E ;
+    od:presentedBy odp:Carrara_P ;
     dcterms:title "An Innovation Management framework to enhance TRIZ diffusion in SMEs"@en ;
     od:urlPaper <https://atna-mam.utcluj.ro/index.php/Acta/article/view/1617> ;	
     a od:Talk .
@@ -306,6 +330,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
 :Talk_133
     swc:relatedToEvent track:NA ;
     dcterms:creator odp:Frigo_N, odp:Russo_D, odp:DeglInnocenti_R, odp:Spreafico_C, odp:Peri_P ;
+    od:presentedBy odp:Russo_D ;
     dcterms:title "A pioneering project on laser pyrolysis based entirely on TRIZ"@en ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_23> ; 
     a od:Talk .
@@ -313,6 +338,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
 :Talk_134
     swc:relatedToEvent track:NA ;
     dcterms:creator odp:ElYoussoufi_S, odp:Mazouzi_M, odp:Cherrafi_A, odp:Haroufi_A ;
+    od:presentedBy odp:ElYoussoufi_S ;
     dcterms:title "A Holistic Model for Sustainable and Innovative Business Empowerment"@en ;
   od:urlPaper <https://atna-mam.utcluj.ro/index.php/Acta/article/view/1622> ;
     a od:Talk .
@@ -327,6 +353,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
 :Talk_136
     swc:relatedToEvent track:AI ;
     dcterms:creator odp:Feng_LJ, odp:Niu_Y, odp:Wang_JF, odp:Chen_Y, odp:Liu_ZF, odp:Li_K ;
+    od:presentedBy odp:Niu_Y ;
     dcterms:title "Element Variation Innovation Thinking: A method of simplifying and reorganizing TRIZ"@en ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_24> ; 
     a od:Talk .
@@ -334,6 +361,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
 :Talk_137
     swc:relatedToEvent track:AI ;
     dcterms:creator odp:Cavaliere_G, odp:Borgianni_Y, odp:Schaefer_C ;
+    od:presentedBy odp:Cavaliere_G ;
     dcterms:title "Study of an in-line automated system for surface defects analysis of aluminium diecast components using Artificial Intelligence"@en ;
     od:urlPaper <https://atna-mam.utcluj.ro/index.php/Acta/article/view/1619> ;
     a od:Talk .
@@ -357,6 +385,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
 :Talk_140
     swc:relatedToEvent track:AI ;
     dcterms:creator odp:Ni_X, odp:Samet_A, odp:Cavallucci_D ;
+    od:presentedBy odp:Ni_X ;
     dcterms:title "Replicating TRIZ Reasoning through Deep Learning"@en ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_26> ; 
     a od:Talk .
@@ -364,6 +393,7 @@ A potential “TRIZ Picture of the Future” is derived based on a literature re
 :Talk_141
     swc:relatedToEvent track:AI ;
     dcterms:creator odp:Boufeloussen_O, odp:Cavallucci_D ;
+    od:presentedBy odp:Boufeloussen_O ;
     dcterms:title "Bringing together engineering problems and basic science knowledge, one step closer to systematic invention"@en ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_27> ; 
     a od:Talk .

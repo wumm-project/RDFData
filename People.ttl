@@ -1507,6 +1507,14 @@ odp:Hu_J
     a foaf:Person ;
     foaf:name "Jun Hu" .
 
+odp:Huang_HC
+    a foaf:Person ;
+    foaf:name "Huan-Chu Huang" .
+
+odp:Huang_Y
+    a foaf:Person ;
+    foaf:name "Huang Yan" .
+
 odp:Huber_N
     a foaf:Person ;
     foaf:affil "HS Weihenstephan-Triesdorf, Germany" ;
@@ -1872,6 +1880,10 @@ odp:Kim_JH
     a foaf:Person ;
     foaf:affil "South Korea" ;
     foaf:name "Jung-Hyeon Kim" .
+
+odp:Kim_JHk
+    a foaf:Person ;
+    foaf:name "Kim JaiHak" .
 
 odp:Kim_JY
     a foaf:Person ;
@@ -3694,6 +3706,11 @@ odp:Shukov_RF
     foaf:fullname "Жуков Р.Ф."@ru ;
     foaf:name "R.F. Shukov" .
 
+odp:Shulyak_LA
+    a foaf:Person ;
+    foaf:fullname "Шуляк Лев Абрамович"@ru ;
+    foaf:name "Lev Shulyak" .
+
 odp:Shuqin_W
     a foaf:Person ;
     foaf:name "Wu Shuqin" .
@@ -3874,6 +3891,7 @@ odp:Souchkov_VV
 
 odp:Spasic_I
     a foaf:Person ;
+    foaf:affil "Cardiff University, UK" ;
     foaf:name "Irena Spasić" .
 
 odp:Spreafico_C
@@ -3884,6 +3902,7 @@ odp:Spreafico_C
 
 odp:Spreafico_M
     a foaf:Person ;
+    foaf:affil "Dalmine, Belgium" ;
     foaf:name "Matteo Spreafico" .
 
 odp:Stan_A
@@ -4367,6 +4386,10 @@ odp:Xiaoyan_Z
     a foaf:Person ;
     foaf:affil "China Railway Engineering Group, China" ;
     foaf:name "Zheng Xiaoyan" .
+
+odp:Xing_F
+    a foaf:Person ;
+    foaf:name "Xing Fenglei" .
 
 odp:Xu_DS
     a foaf:Person ;
