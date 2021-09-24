@@ -1,4 +1,4 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix dbo: <http://dbpedia.org/ontology/> .
@@ -605,7 +605,7 @@ odp:Chomyakov_ON
 odp:Chrzaszcz_J
     a foaf:Person ;
     rdfs:seeAlso <http://orcid.org/0000-0003-3257-9726> ;
-    foaf:affil "Warsaw University of Technology, Warsaw, Poland" ;
+    foaf:affil "University of Technology, Warsaw, Poland" ;
     foaf:name "Jerzy Chrząszcz" .
 
 odp:Chuang_CT
@@ -805,7 +805,8 @@ odp:Dobrusskin_C
 
 odp:Domb_E
     a foaf:Person ;
-    foaf:name "E. Domb" .
+    foaf:affil "USA" ;
+    foaf:name "Ellen Domb" .
 
 odp:Domkin_KI
     a foaf:Person ;
@@ -1357,6 +1358,10 @@ odp:Han_HS
     a foaf:Person ;
     foaf:name "Hak-Shon Han" .
 
+odp:Han_N
+    a foaf:Person ;
+    foaf:name "Nan Han" .
+
 odp:Han_WP
     a foaf:Person ;
     foaf:name "Wie-pei Han" .
@@ -1654,6 +1659,11 @@ odp:June_KH
     foaf:affil "South Korea" ;
     foaf:name "Kim Hyo June" .
 
+odp:Jung_KJ
+    a foaf:Person ;
+    foaf:affil "South Korea" ;
+    foaf:name "Kyujin Jung" .
+
 odp:Junjg_YL
     a foaf:Person ;
     foaf:name "Ye Lin Junjg" .
@@ -1670,7 +1680,7 @@ odp:Kadir_RA
 
 odp:Kagan_EL
     a foaf:Person ;
-    foaf:affil "Russia" ;
+    foaf:affil "Israel" ;
     foaf:fullname "Каган Эдуард Львович"@ru ;
     foaf:name "Eduard L. Kagan" .
 
@@ -2191,6 +2201,11 @@ odp:Lampetova_NV
     foaf:affil "Pensa, Russia" ;
     foaf:fullname "Лампетова Наталья Владимировна"@ru ;
     foaf:name "Natalya V. Lampetova" .
+
+odp:Langevin_R
+    a foaf:Person ;
+    foaf:affil "USA" ;
+    foaf:name "Richard Langevin" .
 
 odp:Laoh_S
     a foaf:Person ;
@@ -2935,6 +2950,10 @@ odp:Nolte_H
     a foaf:Person ;
     foaf:name "Hannah Nolte" .
 
+odp:Nowak_R
+    a foaf:Person ;
+    foaf:name "Robert Nowak" .
+
 odp:Nowak_T
     a foaf:Person ;
     foaf:name "Tomasz Nowak" .
@@ -3061,6 +3080,7 @@ odp:Pavlov_VV
 
 odp:Pchelkina_E
     a foaf:Person ;
+    foaf:affil "Russia" ;
     foaf:name "Ekaterina Pchelkina" .
 
 odp:Peddi_S
@@ -3290,7 +3310,8 @@ odp:Rajan_S
 
 odp:Rantanen_K
     a foaf:Person ;
-    foaf:name "K. Rantanen" .
+    foaf:affil "Finland" ;
+    foaf:name "Kalevi Rantanen" .
 
 odp:Ratti_A
     a foaf:Person ;
@@ -3880,6 +3901,7 @@ odp:Song_ZT
 
 odp:Soosay_AER
     a foaf:Person ;
+    foaf:affil "Sarawak University, Malaysia" ;
     foaf:name "Ashley Edward Roy Soosay" .
 
 odp:Souchkov_VV
@@ -4228,6 +4250,11 @@ odp:Villarroel_JRE
     a foaf:Person ;
     foaf:affil "Open TRIZ Second Wave Chile SpA, Chile" ;
     foaf:name "José Roberto Espinoza Villarroel" .
+
+odp:Vintman_Z
+    a foaf:Person ;
+    foaf:affil "Ukraine" ;
+    foaf:name "Zakhar Vintman" .
 
 odp:Vishnepolschi_SV
     a foaf:Person ;

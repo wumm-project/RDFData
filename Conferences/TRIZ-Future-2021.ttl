@@ -251,7 +251,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
     swc:relatedToEvent track:TT ;
     dcterms:creator odp:Vaneker_THJ, odp:Laoh_S ;
     dcterms:title "Improving the construction of RCA+ contradiction trees"@en ;
-    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_17> ; 
+    od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_17>, <http://essay.utwente.nl/86183/> ; 
     a od:Talk .
 
 :Talk_124

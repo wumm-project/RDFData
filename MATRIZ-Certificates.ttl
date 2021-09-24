@@ -14,8 +14,12 @@
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     a owl:Ontology ;
-    rdfs:comment "2021-03-20 graebe: MATRIZ certificates level 4..5", "2021-03-26 graebe: aligned with People.ttl", "2021-09-23 graebe: update to 4_139 and 5_108" ;
-    rdfs:label "TRIZ Database - MATRIZ Certificates Level 4 and 5" ;
+    rdfs:comment
+    "2021-03-20 graebe: MATRIZ certificates level 4..5",
+    "2021-03-26 graebe: aligned with People.ttl",
+    "2021-09-23 graebe: update to 4_139 and 5_108",
+    "2021-09-24 graebe: MATRIZ Champions added" ;
+    rdfs:label "TRIZ Database - MATRIZ Certificates Level 4 and 5 and MATRIZ Awards" ;
     owl:imports <http://opendiscovery.org/rdf/People/> .
 
 odp:Abramov_OY
@@ -156,6 +160,9 @@ odp:Dobrusskin_C
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_111> ;
     od:theLevel tc:CertificateLevel4 .
 
+odp:Domb_E
+    od:hasMATRIZAward "TRIZ Champion 2016" .
+
 odp:Faer_SA
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_100>, <http://opendiscovery.org/rdf/Certificate/5_90> ;
     od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 .
@@ -252,6 +259,9 @@ odp:Graf_M
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_131> ;
     od:theLevel tc:CertificateLevel4 .
 
+odp:Gredynarova_O
+    od:hasMATRIZAward "TRIZ Champion 2018" .
+
 odp:Gronauer_B
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_119> ;
     od:theLevel tc:CertificateLevel4 .
@@ -264,6 +274,9 @@ odp:Guin_AA
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_13> ;
     od:theLevel tc:CertificateLevel5 .
 
+odp:Han_N
+    od:hasMATRIZAward "TRIZ Champion 2021" .
+
 odp:Han_YS
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_93> ;
     od:theLevel tc:CertificateLevel4 .
@@ -271,6 +284,9 @@ odp:Han_YS
 odp:Hee_CJ
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_115> ;
     od:theLevel tc:CertificateLevel4 .
+
+odp:Hiltmann_K
+    od:hasMATRIZAward "TRIZ Champion 2021" .
 
 odp:Huang_HC
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_134> ;
@@ -296,13 +312,22 @@ odp:Ivanov_GI
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_19> ;
     od:theLevel tc:CertificateLevel5 .
 
+odp:Jantschgi_J
+    od:hasMATRIZAward "TRIZ Champion 2018" .
+
 odp:Jeong_JH
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_65> ;
     od:theLevel tc:CertificateLevel4 .
 
+odp:Jirman_P
+    od:hasMATRIZAward "TRIZ Champion 2018" .
+
 odp:June_KH
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_60> ;
     od:theLevel tc:CertificateLevel4 .
+
+odp:Jung_KJ
+    od:hasMATRIZAward "TRIZ Champion 2020" .
 
 odp:Juravlev_YF
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_46> ;
@@ -310,6 +335,7 @@ odp:Juravlev_YF
 
 odp:Kagan_EL
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_6> ;
+    od:hasMATRIZAward "TRIZ Champion 2016" ;
     od:theLevel tc:CertificateLevel4 .
 
 odp:Kaloshin_NG
@@ -398,6 +424,7 @@ odp:Kozhemyako_A
 
 odp:Kozhevnikova_LA
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_1> ;
+    od:hasMATRIZAward "TRIZ Champion 2016" ;
     od:theLevel tc:CertificateLevel4 .
 
 odp:Krasnoslobodtsev_VJ
@@ -432,6 +459,9 @@ odp:Kynin_AT
 odp:Ladoshkin_VS
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_30> ;
     od:theLevel tc:CertificateLevel5 .
+
+odp:Langevin_R
+    od:hasMATRIZAward "TRIZ Champion 2019" .
 
 odp:Lebedev_YV
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_97>, <http://opendiscovery.org/rdf/Certificate/5_102> ;
@@ -555,6 +585,12 @@ odp:Na_H
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_98>, <http://opendiscovery.org/rdf/Certificate/5_105> ;
     od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 .
 
+odp:Nakagawa_T
+    od:hasMATRIZAward "TRIZ Champion 2021" .
+
+odp:Narayan_PV
+    od:hasMATRIZAward "TRIZ Champion 2021" .
+
 odp:Narbut_AF
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_38> ;
     od:theLevel tc:CertificateLevel5 .
@@ -565,6 +601,7 @@ odp:Narbut_NN
 
 odp:Nesterenko_AA
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_5> ;
+    od:hasMATRIZAward "TRIZ Champion 2017" ;
     od:theLevel tc:CertificateLevel4 .
 
 odp:Nikashin_AI
@@ -578,6 +615,9 @@ odp:Nilov_AP
 odp:Pavlov_VV
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_41> ;
     od:theLevel tc:CertificateLevel4 .
+
+odp:Pchelkina_E
+    od:hasMATRIZAward "TRIZ Champion 2020" .
 
 odp:Petiy_II
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_58>, <http://opendiscovery.org/rdf/Certificate/5_100> ;
@@ -619,6 +659,9 @@ odp:Proseanic_V
 odp:Prushinsky_VO
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_22>, <http://opendiscovery.org/rdf/Certificate/5_87> ;
     od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 .
+
+odp:Rantanen_K
+    od:hasMATRIZAward "TRIZ Champion 2017" .
 
 odp:Redkolis_EV
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_124> ;
@@ -674,6 +717,7 @@ odp:Semyonova_LN
 
 odp:Seredinski_AV
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_2> ;
+    od:hasMATRIZAward "TRIZ Champion 2016" ;
     od:theLevel tc:CertificateLevel4 .
 
 odp:Severinets_GA
@@ -809,6 +853,9 @@ odp:Vikentiev_IL
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_5> ;
     od:theLevel tc:CertificateLevel5 .
 
+odp:Vintman_Z
+    od:hasMATRIZAward "TRIZ Champion 2017" .
+
 odp:Visnepolschi_S
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_17> ;
     od:theLevel tc:CertificateLevel4 .
@@ -824,6 +871,9 @@ odp:Wessner_J
 odp:Xing_F
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_139> ;
     od:theLevel tc:CertificateLevel4 .
+
+odp:Yakovenko_SA
+    od:hasMATRIZAward "TRIZ Champion 2020" .
 
 odp:Yatsunenko_S
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_125> ;
