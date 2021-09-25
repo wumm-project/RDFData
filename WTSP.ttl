@@ -1,0 +1,111 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix : <https://www.osaka-gu.ac.jp/php/nakagawa/WSTP/> .
+
+<http://opendiscovery.org/rdf/WTSP/>
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
+    a owl:Ontology ;
+    dcterms:source <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-A1-Policies.html>; 
+    rdfs:comment "2021-09-25 graebe: A first extract of metadata from the website" ;
+    rdfs:label "Metadata from the WTSP of Toru Nakagawa" .
+
+:RUL-01 a od:WSTPEntry ;
+ od:hasLink <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-B-ru/Sites-RUL.html#RUL-01> ;
+ rdfs:label "The official foundation of G.S. Altshuller" .
+
+:RUL-02 a od:WSTPEntry ;
+ od:hasLink <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-B-ru/Sites-RUL.html#RUL-02> ;
+ rdfs:label "OTSM by Nikolai Khomenko" .
+
+:TN2A-04 a od:WSTPEntry ;
+ od:hasLink <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-TN2A-English/Sites-TN2A.html#TN2A-04> ;
+ rdfs:label "TJ (The TRIZ Journal)" .
+
+:JP-01 a od:WSTPEntry ;
+ od:hasLink <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-D-jp/Sites-JP.html#JP-01> ;
+ rdfs:label "TRIZ Home Page in Japan (Toru Nakagawa)" .
+
+:RUL-03 a od:WSTPEntry ;
+ od:hasLink <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-B-ru/Sites-RUL.html#RUL-03> ;
+ rdfs:label "Methodologist" .
+
+:RUL-05 a od:WSTPEntry ;
+ od:hasLink <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-B-ru/Sites-RUL.html#RUL-05> ;
+ rdfs:label "Education for a New Era" .
+
+:RUL-30 a od:WSTPEntry ;
+ od:hasLink <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-B-ru/Sites-RUL.html#RUL-30> ;
+ rdfs:label "TRIZ Master Leonard Vikentjev" .
+
+:RUL-20 a od:WSTPEntry ;
+ od:hasLink <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-B-ru/Sites-RUL.html#RUL-20> ;
+ rdfs:label "TRIZ-Art school of Roman Florescu \"TRIZ-CREATIVITY\"" .
+
+:TN2F-06 a od:WSTPEntry ;
+ od:hasLink <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-TN2F-USAEnglish/Sites-TN2F.html#TN2F-06> ;
+ rdfs:label "TRIZ Power Tools (OpenSourceTRIZ.com)" .
+
+:RUL-04 a od:WSTPEntry ;
+ od:hasLink <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-B-ru/Sites-RUL.html#RUL-04> ;
+ rdfs:label "MATRIZ (The International TRIZ Association)" .
+
+:TN2F-02 a od:WSTPEntry ;
+ od:hasLink <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-TN2F-USAEnglish/Sites-TN2F.html#TN2F-02> ;
+ rdfs:label "AI (The Altshuller Institute for TRIZ Studies)" .
+
+:TN2A-03 a od:WSTPEntry ;
+ od:hasLink <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-TN2A-English/Sites-TN2A.html#TN2A-03> ;
+ rdfs:label "ETRIA (The European TRIZ Association)" .
+
+:RUL-36 a od:WSTPEntry ;
+ od:hasLink <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-B-ru/Sites-RUL.html#RUL-36> ;
+ rdfs:label "TRIZ Developer Summit / TDS" .
+
+:MY-01 a od:WSTPEntry ;
+ od:hasLink <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-D-my/Sites-MY.html#MY-01> ;
+ rdfs:label "MyTRIZ (Malaysia TRIZ Innovation Association) Official Website" .
+
+:CN-01 a od:WSTPEntry ;
+ od:hasLink <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-D-cn/Sites-CN.html#CN-01> ;
+ rdfs:label "National Engineering Research Center for Technological Innovation Method and tool" .
+
+:TN2A-47 a od:WSTPEntry ;
+ od:hasLink <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-TN2A-English/Sites-TN2A.html#TN2A-47> ;
+ rdfs:label "Systematic Innovation Inc." .
+
+:TN2A-48 a od:WSTPEntry ;
+ od:hasLink <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-TN2A-English/Sites-TN2A.html#TN2A-48> ;
+ rdfs:label "AULIVE" .
+
+:TN2F-04 a od:WSTPEntry ;
+ od:hasLink <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-TN2A-English/Sites-TN2A.html#TN2F-04> ;
+ rdfs:label "Ideation International, Inc. (Where Innovation Begins)" .
+
+:TN2F-07 a od:WSTPEntry ;
+ od:hasLink <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-TN2F-USAEnglish/Sites-TN2F.html#TN2F-07> ;
+ rdfs:label "GEN-TRIZ" .
+
+:TN2A-06 a od:WSTPEntry ;
+ od:hasLink <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-TN2F-USAEnglish/Sites-TN2F.html#TN2A-06> ;
+ rdfs:label "ICG (ICG Training and Consulting)" .
+
+:RUL-12 a od:WSTPEntry ;
+ od:hasLink <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-B-ru/Sites-RUL.html#RUL-12> ;
+ rdfs:label "Institute of Innovative Design" .
+
+:RUL-07 a od:WSTPEntry ;
+ od:hasLink <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-B-ru/Sites-RUL.html#RUL-07> ;
+ rdfs:label "GRAMTRIZ (Global Russian Academy of Modern TRIZ) by Prof. Michael Orloff" .
+
+:TN2A-12 a od:WSTPEntry ;
+ od:hasLink <https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-WorldCatalog/eWTSP-WorldCatalog-TN2A-English/Sites-TN2A.html#TN2A-12> ;
+ rdfs:label "Wikipedia" .

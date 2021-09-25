@@ -76,14 +76,24 @@ of the WUMM project and the
 * PastConferences.ttl - Information about Past TRIZ Conferences, in particular
   links to the proceedings, if published.
 
-### People
+### People and Sites
 
-* People.ttl - People within the TRIZ Social Network
-  * Regularly updated from different  sources
-* MATRIZ-Certificates.ttl - People in the Database with MATRIZ certificates
-  level 4 and 5
 * AllMATRIZCertificates.ttl - All Certificates, extracted from the MATRIZ
-  Database <https://www.nanoq.pl/matriz_database/all/>
+  Database <https://www.nanoq.pl/matriz_database/all/>.
+  * A proof of concept, will not updated any more.
+* Certificates-Level45.ttl - Certificates level 4 and 5, extracted from the
+  MATRIZ Database <https://www.nanoq.pl/matriz_database/all/>.
+  * Last update Sept 2021.
+* MATRIZ-Certificates.ttl - People in the Database with MATRIZ certificates
+  level 4 and 5 and other MATRIZ Awards.
+  * Last update Sept 2021.
+* People.ttl - People within the TRIZ Social Network
+  * Regularly updated from different sources
+* WTSP.ttl - Some metadata from the [World TRIZ-related Sites
+  Project](https://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/eTRIZ/eWTSP/eWTSP-A1-Policies.html)
+  of Toru Nakagawa
+  * This is a first attempt to join forces with the WUMM project. 
+
 
 ### Ontology Project
 
