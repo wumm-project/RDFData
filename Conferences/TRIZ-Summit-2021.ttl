@@ -39,20 +39,10 @@
     dcterms:title "Trends in Physical Effects"@en, "Тренды физических эффектов"@ru ;
     a od:Talk .
 
-:Talk_104
-    dcterms:abstract """Business today faces many different challenges: lack of a digital development strategy, instability in emerging markets, increased competition, dilemmas that require a compromise (they have to sacrifice something, or quality, or time, or money), etc. To solve these problems, it is proposed to use the ARIZ tool.
-Examples of using ARIZ for finding and resolving contradictions in the business environment are given. Conflicting is one of the key business discoveries. The practice of using ARIZ in one of the leading IT companies in the world is shown and what results were obtained. For example, with the help of ARIZ, it was possible to increase the sales of an IT company by 50% and at the same time to optimize (reduce) the use of resources by 35%.
-Key words: ARIZ, business, contradictions """@en, """Сегодня Бизнес сталкивается с большим количеством различных трудностей: отсутствие стратегии развития в цифровой среде, нестабильность на развивающихся рынках, усложнение конкуренции, наличие дилемм, которые требуют принятие компромиссного решения (те чем-то приходиться жертвовать, или качеством, или временем, или деньгами) и т.д. Для решения данных задач предложено использование инструмента АРИЗ.
-Приведены примеры использования АРИЗ для нахождения и решения противоречий в бизнес среде. Наличие противоречия – это один из ключевых открытий для бизнеса. Показана практика использования АРИЗ в одной из ведущих ИТ компаний в мире и какие результаты были получены. Например, с помощью АРИЗ удалось увеличить продажи ИТ компании на 50% и при этом оптимизировать (сократить) использование ресурсов на 35%.
-Ключевые слова: АРИЗ, бизнес, противоречия"""@ru ;
-    dcterms:creator odp:Petrov_De, odp:Petrov_VM ;
-    dcterms:title "Using TRIZ technical tools for solving Business problems"@en, "Использование технического инструментария ТРИЗ для решения Бизнес задач"@ru ;
-    a od:Talk .
-
 :Talk_105
     dcterms:abstract "We consider the usage of the process approach which was previously used to describe and analyze business processes to analyze the processes of functioning and modernization of technical systems. It is shown that the process approach allows: 1. to form new analytical capabilities in assessing the operation of equipment and carrying out technological processes and to minimize the subjectivity of assessments and decisions made, 2. to identify additional resources for the modernization of technical systems. "@en, "Рассмотрено использование процессного подхода, ранее применяемого для описания и анализа бизнес-процессов к анализу процессов функционирования и модернизации технических систем. Показано, что процессный подход позволяет: 1. сформировать новые аналитические возможности при оценке работы оборудования и проведения технологических процессов и минимизировать субъективность оценок и принимаемых решений, 2. выявлять дополнительные ресурсы модернизации технических систем."@ru ;
     dcterms:creator odp:Bystritsky_AA, odp:Nikitin_VN ;
-    dcterms:title "Process product in the analysis and modernization of technical systems"@en, "Процессный продход при анализе и модернизации технических систем"@ru ;
+    dcterms:title "Process approach in the analysis and modernisation of technical systems"@en, "Процессный подход при анализе и модернизации технических систем"@ru ;
     a od:Talk .
 
 :Talk_106
@@ -67,28 +57,10 @@ Key words: ARIZ, business, contradictions """@en, """Сегодня Бизнес
     dcterms:title "Can TRIZ become an enabler for digital transformation?"@en, "Может ли ТРИЗ стать инструментом цифровой трансформации?"@ru;
     a od:Talk .
 
-:Talk_108
-    dcterms:abstract "Formulation and resolution of contradictions is one of the main tools for solving inventive problems. It is important for students of TRIZ courses to learn how to correctly formulate contradictions and apply well-known principles of their resolution. The practice of training engineers shows that the formulated contradictions do not always accurately reflect the essence of the described conflict. The analysis of errors made it possible to reveal some features of the application of the dialectical approach in solving problems. "@en, "Формулирование и разрешение противоречий является одним из основных инструментов решения изобретательских задач. Для слушателей курсов ТРИЗ важно научиться правильно формулировать противоречия и применять известные принципы их разрешения. Практика обучения инженеров показывает, что сформулированные противоречия не всегда точно отражают суть описываемого конфликта. Анализ ошибок позволил выявить некоторые особенности применения диалектического подхода при решении задач."@ru ;
-    dcterms:creator odp:Nikitin_VN ;
-    dcterms:title "Features of the formulation and resolution of contradictions"@en, "Особенности формулирования и разрешения противоречий"@ru ;
-    a od:Talk .
-
-:Talk_109
-    dcterms:abstract "We present cases of CECA within information systems"@en, "В докладе показаны кейсы причинно-следственного анализа на примере информационных системах"@ru ;
-    dcterms:creator odp:Domkin_KI, odp:Petrov_VM, odp:Trostyansky_AG ;
-    dcterms:title "CECA in information systems: examples of application"@en, "ПСА в информационных системах: примеры применения"@ru ;
-    a od:Talk .
-
-:Talk_110
-    dcterms:abstract "We present methods for improving information systems, including TRIZ tools."@en, "В докладе приведены методики совершенствования информационных систем, включающие в себя инструменты ТРИЗ."@ru ;
-    dcterms:creator odp:Domkin_KI, odp:Petrov_VM, odp:Trostyansky_AG ;
-    dcterms:title "Application of TRIZ methods in improving information systems"@en, "Применение методов ТРИЗ при совершенствовании информационных систем"@ru ;
-    a od:Talk .
-
 :Talk_111
-    dcterms:abstract "We examine the methodology for improving technological processes based on the step-by-step implementation of the main analytical procedures. It is shown that the most effective tool for improving processes is trimming."@en, "В докладе рассматривается методика работы над совершенствованием технологических процессав на основе поэтапного выполнения основных аналилитических процедур. Показано, что наиболее эффективным инструментом совершенствования процессов является свертывание."@ru ;
+    dcterms:abstract "The methodology under consideration for working on process improvement involves a step-by-step implementation of basic analytical procedures. The most effective tool for process improvement is trimming. It is carried out after functional modelling and the construction of a diagnostic table, taking into account the presence of key shortcomings in the elements to be rolled up (technological operations). "@en, "Рассматриваемая методика работы над совершенствованием технологических процессов предусматривает поэтапное выполнение основных аналитических процедур. Наиболее эффективным инструментом совершенствования технологических процессов является свертывание. Оно проводится после функционального моделирования и построения диагностической таблицы, при этом учитывается наличие у свертываемых элементов (технологических операций) ключевых недостатков. "@ru ;
     dcterms:creator odp:Domkin_KI, odp:Gerasimov_OM, odp:Severinets_GA ;
-    dcterms:title "Express methodology for improving technological processes"@en, "Экспресс методика совершенствования технологических процессов"@ru ;
+    dcterms:title "Specifics of the application of trimming of constructive elements in the improvement of technical processes"@en, "Особенности применения методики свертывания элементов конструкций при совершенствовании технологических процессов"@ru ;
     a od:Talk .
 
 :Talk_112
@@ -97,14 +69,14 @@ The use of the online training system TRIZ-trainer, in addition to traditional t
 The features of distance learning for solving inventive problems of company employees and university students within restricted time frames are shown. """@en, """Статья посвящена применению ТРИЗ в инновационной деятельности компании. Большое значение имеет грамотное внедрение ТРИЗ в структуру инновационных подразделений компании. В первую очередь это относится к организации обучения специалистов решению изобретательских задач.
 Применение онлайновой обучающей системы ТРИЗ-тренер в дополнение к традиционному обучению, позволяет получить значительные преимущества. Основное преимущество подхода, используемого в дистанционном курсе ТРИЗ-тренер – обучение студентов посредством решения учебных задач под руководством опытного тренера. Такая система обучения хорошо зарекомендовала себя при обучении студентов университетов и специалистов компаний.
 Показаны особенности дистанционного обучения решению изобретательских задач сотрудников компаний и студентов университетов в условиях дефицита времени."""@ru ;
-    dcterms:creator odp:Ivanov_A, odp:Shpakovsky_NA ;
+    dcterms:creator odp:Shpakovsky_NA ;
     dcterms:title "TRIZ Training of employees of companies within restricted time frames."@en, "Обучение сотрудников компаний ТРИЗ в условиях дефицита времени."@ru ;
     a od:Talk .
 
 :Talk_113
     dcterms:abstract "This article is devoted to the topic of resolving contradictions. In this article, we call a technical contradiction (TC) a contradiction within the requirements (CR), and a physical contradiction (PC) - a contradiction of properties (CP). The contradiction within the requirements (CR) is resolved using a system of methods for resolving TC. Resolving the contradiction of properties (CP) is not so easy. We propose methods for analyzing the contradiction of requirements (CR) and contradiction of properties (CP), which makes it possible to deal with these contradictions more accurately and to choose a way of separating conflicting properties. The author called this Analysis of CR and CP. "@en, "Статья посвящена теме разрешения противоречий. В данной статье принято техническое противоречие (ТП) называть противоречие требований (ПТ), а физическое противоречие (ФП) – противоречие свойств (ПС). Противоречие требований (ПТ) разрешается с помощью системы приемов разрешения ТП. Разрешение противоречия свойств (ПС) не так-то и просто. В статье предлагается способы анализа противоречия требований (ПТ) и противоречия свойств (ПС), позволяющий точнее разобраться с этими противоречиями и выбрать способ разделения противоречивых свойств. Автор назвал это Анализ ПТ и ПС."@ru ;
     dcterms:creator odp:Petrov_VM ;
-    dcterms:title "Rigged contradiction analysis"@en, "Углабленный анализ противоречий"@ru ;
+    dcterms:title "Deepened contradiction analysis"@en, "Углубленный анализ противоречий"@ru ;
     a od:Talk .
 
 :Talk_114
@@ -116,7 +88,7 @@ The features of distance learning for solving inventive problems of company empl
 :Talk_115
     dcterms:abstract "Shared Staff and Home-office bring new challenges in Team Management. How TRIZ can help in this process and improve efectivnes and efficiency. What is contradiction in Team management and how to solve this."@en, "Разделенный персонал и домашний офис ставят новые задачи в управлении командой. Как ТРИЗ может помочь в этом процессе и повысить эффективность и результативность. Что такое противоречие в управлении командой и как его решить."@ru ;
     dcterms:creator odp:Eckardt_O ;
-    dcterms:title "TRIZ tools for shared and speaded team management"@en, "Инструменты ТРИЗ для управления общей и разделенной командой"@ru ;
+    dcterms:title "TRIZ tools for management of distributed teams"@en, "Инструменты ТРИЗ для управления распределенными командами"@ru ;
     a od:Talk .
 
 :Talk_116
@@ -132,11 +104,7 @@ The features of distance learning for solving inventive problems of company empl
     a od:Talk .
 
 :Talk_118
-    dcterms:abstract """TRIZ contains a wide range of models for analyzing technical systems, identifying and solving inventive problems in them, as well as for synthesizing new technical systems and predicting their development. They include system, functional, flow models.
-For the application of TRIZ in new areas of engineering and technology, primarily in the IT sphere and business, process models are also important.
-We present the ontology of process models, as well as their integration with TRIZ tools and approaches."""@en, """В ТРИЗ имеется широкий спектр моделей для анализа технических систем, выявления и решения в них изобретательских задач, а также для синтеза новых технических систем и прогноза их развития. К ним можно отнести системные, функциональные, потоковые модели.
-Для применния ТРИЗ в новых областях техники и технологий, в первую очередь, в ИТ-сфере и бизнесе, важны также модели процессов.
-В докладе будет представлена онтология моделей процессов, а также их интеграция с инструментами и подходами ТРИЗ. """@ru ;
+    dcterms:abstract """TRIZ contains a wide range of models for analyzing technical systems, identifying and solving inventive problems in them, as well as for synthesizing new technical systems and predicting their development. They include system, functional, flow models. For the application of TRIZ in new areas of engineering and technology, primarily in the IT sphere and business, process models are also important. We present the ontology of process models, as well as their integration with TRIZ tools and approaches."""@en, """В ТРИЗ имеется широкий спектр моделей для анализа технических систем, выявления и решения в них изобретательских задач, а также для синтеза новых технических систем и прогноза их развития. К ним можно отнести системные, функциональные, потоковые модели. Для применния ТРИЗ в новых областях техники и технологий, в первую очередь, в ИТ-сфере и бизнесе, важны также модели процессов. В докладе будет представлена онтология моделей процессов, а также их интеграция с инструментами и подходами ТРИЗ. """@ru ;
     dcterms:creator odp:Kuryan_AG ;
     dcterms:title "Process models in TRIZ"@en, "Модели процессов в ТРИЗ"@ru ;
     a od:Talk .
@@ -144,7 +112,7 @@ We present the ontology of process models, as well as their integration with TRI
 :Talk_119
     dcterms:abstract "Will be presented Flow analysis which is adjusted accordingly to Functional Analysis. Differences with previous versions would be specially highlighted. New terminology will be presented with definition and connection with other TRIZ areas."@en, "Будет представлен анализ потока, который корректируется в соответствии с функциональным анализом. Различия с предыдущей версией будут особо выделены. Будет представлена новая терминология с определением и связью с другими областями ТРИЗ. "@ru ;
     dcterms:creator odp:Eckardt_O ;
-    dcterms:title "Flow analysis 2.0"@en, "Потоковый анализ 2.0"@ru ;
+    dcterms:title "Flow analysis 2.0"@en, "Анализ потоков 2.0"@ru ;
     a od:Talk .
 
 :Talk_120
@@ -153,30 +121,12 @@ We present the ontology of process models, as well as their integration with TRI
     dcterms:title "GS Altshuller - the founder of the use of TRIZ outside of technology"@en, "Г.С. Альтшуллер – основоположник применения ТРИЗ вне техники"@ru ;
     a od:Talk .
 
-:Talk_121
-    dcterms:abstract "The analysis of one-year training in TRIZ in a distance format at the enterprises of the industry is given. The main reasons for the problems of training are revealed. Some directions of increasing the effectiveness of distance learning are shown."@en, "Приводится анализ годичного обучения ТРИЗ в дистанционном формате на предприятиях отрасли. Выявлены основные причины проблем обучения. Показаны некоторые направления повышения эффективности дистанционного обучения."@ru ;
-    dcterms:creator odp:Domkin_KI, odp:Gerasimov_OM, odp:Severinets_GA ;
-    dcterms:title "Problems of TRIZ Learning in Distance Format"@en, "Проблемы обучения ТРИЗ в дистанционном формате"@ru ;
-    a od:Talk .
-
-:Talk_122
-    dcterms:abstract "The key problem for IoT solutions is a design of \"green energy\" solutions in IoT. This problem is related to the lack of data about the available energy in the places where sensors will be installed. EH Calculator allows the designer to develop the IoT system and calculate energy balance of this system. EH Calculator was created by TRIZ methods."@en, "Ключевой проблемой для решений IoT является разработка решений \"зеленой энергии\" в IoT. Эта проблема связана с отсутствием данных о доступной энергии в местах, где будут установлены датчики. EH Calculator позволяет проектировщику разработать систему IoT и рассчитать энергетический баланс этой системы. EH Calculator был создан с помощью методов ТРИЗ."@ru ;
-    dcterms:creator odp:Andrushchenko_M, odp:Babko_A, odp:Dusmikeev_A, odp:Kuryan_AG ;
-    dcterms:title "Energy Harvesting Calculator as a key \"green energy\" technology for IoT solutions"@en, "Калькулятор сбора энергии как ключевая технология \"зеленой энергии\" для решений IoT"@ru ;
-    a od:Talk .
-
 :Talk_123
     dcterms:abstract """TRIZ and Production System* methods differ in properties and capabilities, despite some similarities in their primary purpose when applied at production sites (search and solution of problems and shortcomings). This difference is due to the difference between the classes and the nature of the problems being worked out. The experience of introducing TRIZ at enterprises that have already accumulated quite a lot of experience in implementing the Production System shows both the advantages and disadvantages of the interaction of two concepts in a single space of resources and limitations. We present our experience how the tools of these two methodologies should or can be integrated. Such reviews are carried out in the publications of many authors. This article proposes an approach to such integration, based on the experience of the existence of two methodically directed infrastructures (TRIZ and Production System) in domestic enterprises.
 *Production System is a concept of lean manufacturing management at domestic enterprises, derived from Lean manufacturing """@en, """Методы ТРИЗ и Производственной системы* отличаются по свойствам и возможностям, несмотря на некоторую схожесть в их первичном назначении при применении на производственных площадках (поиск/решение проблем и недостатков). Это различие обусловлено разности классов и характере прорабатываемых проблем. Опыт внедрения ТРИЗ на предприятиях, в которых уже накоплен достаточно большой опыт внедрения Производственной системы показывает как и преимущества так и недостатки взаимодействия двух концепций в едином пространстве ресурсов и ограничений. Имеется множество видений того, как инструменты этих двух методологий должны или могут быть интегрированы. Их обзор проведен в публикациях множества авторов. В данной статье предложен подход по такой интеграции, исходя из опыта существования двух методически направленных инфраструктур (ТРИЗ и Производственная система) на отечественных предприятиях.
 * Производственная система – это концепция управления бережливого производства на отечественных предприятиях, производная от Lean manufacturing"""@ru ;
-    dcterms:creator odp:Kassou_R ;
+    dcterms:creator odp:Kassou_R, odp:Yakovenko_SA ;
     dcterms:title "TRIZ and the Production System: Methodological and Organizational View of Their Interaction"@en, "ТРИЗ и Производственная система: Методологический и организационный взгляд на их взаимодействие"@ru ;
-    a od:Talk .
-
-:Talk_125
-    dcterms:abstract "Solving inventive problems is presented as compiling a model of a technical system based on knowledge of the laws of nature in order to satisfy the requirements of supersystems. Even having access to all the knowledge of mankind, an ideal solver can operate only with a limited amount of knowledge. This work is dedicated to the search of a way to select the necessary knowledge for the requirements of the supersystems. "@en, "Решение изобретательских задач представляется как составление модели ТС на основе знаний законов природы с целью удовлетворения требований надсистем. Имеющий доступ ко всем знаниям человечества идеальный решатель может оперировать только с ограниченным количеством знаний. Поиску способа подбора необходимых знаний под требования надсистем и посвящается эта работа."@ru ;
-    dcterms:creator odp:Aminov_RB ;
-    dcterms:title "Reformulation of the problem by an ideal solver"@en, "Переформулировка задачи идеальным решателем"@ru ;
     a od:Talk .
 
 :Talk_126
@@ -187,20 +137,127 @@ The article shows that all variants of the system that can be used in solving in
 В статье показано, что все варианты системы, которые могут применяться в решении изобретательских задач, являются частями полной функционирующей системы, производящий продукт."""@ru ;
     dcterms:creator odp:Shpakovsky_NA ;
     dcterms:title "Using the concept \"System\" in solving inventive problems."@en, "Использование понятия «Система» при решении изобретательских задач."@ru ;
+    dcterms:abstract """Здесь об опыте построения системы «принуждения» к инновационной деятельности.
+Мы исходим из того, что в стабильной компании нет лиц по-настоящему заинтересованных в инновациях (у всех всё хорошо) и нужна система, которая бы не только заставляла запускать инновационные проекты, но и обеспечивала их адекватность целям бизнеса (а не смузи-хайповость). Мы такую систему начали строить. Есть первые результаты, которыми хотели поделиться на вашей конференции."""@ru , """The talk is about the experience of building a system to 'force' innovation. 
+Our premise is that in a stable company, there are no individuals truly interested in innovation (everyone is doing well) and we need a system that would not only force the launch of innovative projects, but also ensure that they are adequate to business goals (rather than smoothie-hype). We have begun to build such a system. There are initial results, which we want to share at the conference. """@en ;
     a od:Talk .
 
 :Talk_127
     dcterms:creator odp:Fomenko_AY, odp:Saunin_NY ;
-    dcterms:title "Building a system of intensive corporate development based on TRIZ tools"@en, "Построение системы интенсивного развития корпорации на базе инструментов ТРИЗ"@ru ;
+    dcterms:title "Forcing development as an effective way to change the organisation: the INTENSIVE EVOLUTION SYSTEM"@en, "Принуждение к развитию как эффективно изменять организацию: INTENSIVE EVOLUTION SYSTEM"@ru ;
     a od:Talk .
 
 :Talk_128
     dcterms:creator odp:Fomenko_AY, odp:Saunin_NY ;
-    dcterms:title "System Operator: 4 approaches to application for planning systems development strategy"@en, "Системный оператор: 4 подхода к применению для разработки стратегии развития систем"@ru ;
+    dcterms:abstract """Здесь о доработке инструмента «Системный оператор» и опыте применения доработанного варианта на кейсах различных бизнесов (страховая, управление недвижимостью, производство и т.д.) в т.ч. для разработки стратегий. """@ru, """In this talk we discuss the refinement of the System Operator as tool and the experience of applying the refined version to cases from different businesses (insurance, property management, manufacturing, etc.) including strategic development """@en ; 
+    dcterms:title "Approaches to the application of the System Operator in solving organisational and management problems"@en, "Подходы к применению Системного оператора в решении организационно-управленческих задач"@ru ;
     a od:Talk .
 
-:Talk_129
-    dcterms:creator odp:Fomenko_AY ;
-    dcterms:title "Improving the methodology for analyzing the limits of systems development, application experience in large business"@en, "Совершенстование методики анализа пределов развития систем, опыт применения в крупном бизнесе"@ru ;
+:Talk_130
+    dcterms:creator odp:Faber_B ;
+    dcterms:abstract """Медицина - важная область, связанная со здоровьем человека и животных, но ТРИЗ редко используется в такой важной сфере. У нас накоплен большой опыт (45+) в различных областях медицины и смежных областях, которые я условно объединил в 5 групп.
+Для внедрения ТРИЗ в медицину, включая разработку лекарств, необходимы обширные знания в нескольких областях, основанных на методе Silico modeling- молекулярного моделирования. Этот метод включает в себя знания поведения молекул в различных ситуациях и их взаимодействия друг с другом при разных температурах, а также в присутствии солей и других соединений. """@ru, """Medicine is an important field related to human and animal health, but TRIZ is rarely used there. We have extensive experience (45+) in various fields of medicine and related areas, which I have conventionally grouped into 5 groups.
+The implementation of TRIZ in medicine, including drug development, requires extensive knowledge in several areas based on the Silico modeling-molecular method. This method involves knowledge of the behaviour of molecules in different situations and their interactions with each other at different temperatures and in the presence of salts and other compounds. """@en ; 
+    dcterms:title "TRIZ in medicine"@en, "ТРИЗ в медицине"@ru ;
+    a od:Talk .
+
+:Talk_131
+    dcterms:creator odp:Gafitulin_MS ;
+    dcterms:abstract """Крупные российские Компании, понимая свою роль на рынке и выстраивая стратегию своего развития, стремятся целенаправленно создавать постоянно действующую внутреннюю инновационную среду. Как следствие, Компании организуют различные курсы повышения квалификации для своих сотрудников, предоставляя возможность специалистам развиваться и соответствовать современным профессиональным требованиям. Практика показала, что Компании готовы к ознакомлению и освоению методов постоянного совершенствования производственных процессов, в том числе готовы к знакомству и последующему применению инструментов ТРИЗ.
+
+Автор доклада имеет значительный и уникальный опыт взаимодействия с крупными российскими промышленными Компаниями (в основном металлургическими) по тематике «ТРИЗ», что дает возможность сделать промежуточное обобщение личного опыта и публично предоставить полученные результаты.
+
+Цель доклада познакомить с опытом применения ТРИЗ в промышленных Компаниях. В материале доклада обозначены и подробно раскрыты основные этапы взаимодействия с промышленными Компаниями: от первоначального контакта до итоговой обратной связи.
+
+В процессе взаимодействия со специалистами Компаний были рассмотрены сотни реальных производственных проблем. Производственных проблем много и все они разные. В качестве иллюстрации в материале доклада приведены названия только двух десятков производственных проблем, которые анализировались и решались во время ТРИЗ-обучения.
+
+В материале приводятся названия более десятка исходных областей постановки производственных проблем. Даны примеры отзывов специалистов, прошедших ТРИЗ-обучение, а также несколько отзывов Компаний на результаты реализации утвержденных Договоров. В конце материала приводится субъективная оценка достоинств и недостатков онлайн обучения. Сделаны текущие выводы по данной теме."""@ru, """Large Russian companies, understanding their role in the market and building their development strategy, seek to purposefully create an ongoing internal innovation environment. As a consequence, the companies organise various professional development courses for their employees, providing an opportunity for specialists to develop and meet modern professional requirements. Practice has shown that companies are ready to learn and master methods for continuous improvement of production processes, including being ready to learn and subsequently apply TRIZ tools.
+
+The author of the report has considerable and unique experience of interaction with large Russian industrial companies (mainly metallurgical companies) in the field of "TRIZ", which makes it possible to make an intermediate summary of personal experience and publicly present the obtained results.
+
+The goal of the report is to introduce the experience of TRIZ application in industrial companies. The material of the report identifies and discloses the main stages of interaction with industrial companies: from the initial contact to the final feedback.
+
+Hundreds of real production problems were considered in the process of interaction with Company specialists. Production problems are numerous and all of them are different. As an illustration, the names of only two dozens of production problems analysed and solved during TRIZ training are given in the report material.
+
+The material gives names of more than a dozen initial areas of production problems formulation. Examples of feedback from TRIZ-trained specialists are given, as well as some feedback from companies on the results of implementation of the approved agreements. At the end of the material a subjective evaluation of the advantages and disadvantages of the online training is given. Current conclusions on the topic are drawn."""@en ; 
+    dcterms:title "Experience of applying TRIZ in industrial companies"@en, "Опыт применения ТРИЗ в промышленных компаниях"@ru ;
+    a od:Talk .
+
+:EduTalk_101
+    dcterms:abstract "TRIZ Summit Cup is an annual TRIZ correspondence competition for schoolchildren and students. For half a year, participants can try themselves in various Cup nominations. \"Invention\" - solving inventional tasks; \"Fantasy\" - composing fantastic stories, fairy tales; \"TRIZ Tools\" - possession of TRIZ tools; \"Research in TRIZ\" - defense of a research project; \"Videos on TRIZ\" - try yourself in film profession. "@en, "Кубок ТРИЗ Саммита - ежегодный заочный конкурс по ТРИЗ для школьников и студентов. В течение полугода участники могут попробовать себя в различных номинациях Кубка. \"Изобретательство\" - решение изобретательских задач; \"Фантазирование\" - сочинение фантастических рассказов, сказок; \"Инструменты ТРИЗ\" - владение инстрементами ТРИЗ; \"Исследования в ТРИЗ\" - защита исследовательского проекта; \"Видео-ролики по ТРИЗ\" - попробовать себя в кинопрофессии. ."@ru ;
+    dcterms:creator odp:Rubina_NV ;
+    dcterms:title "TRIZ Summit Cup 2021"@en, "Кубок ТРИЗ Саммита 2021"@ru ;
+    a od:Talk .
+
+:EduTalk_102
+    dcterms:abstract "G.S. Altshuller is the founder of the direction of application of TRIZ in non-technical systems. TRIZ methods are universal, they can be applied both to the improvement of a specific technical system and to forecast development of genres of music or cinema. "@en, "Г.С. Альтушеллер - основатель направления применение ТРИЗ в нетехнических системах. Методы ТРИЗ - универсальны, они могут быть применимы как к совершенствованию конкретной технической системы, так и к прогнозированию развития жанров музыки или кино."@ru ;
+    dcterms:creator odp:Rubin_MS ;
+    dcterms:title "TRIZ beyond technology. Anniversary of G.S. Altshuller"@en, "ТРИЗ вне техники. Юбилей ГСА"@ru ;
+    a od:Talk .
+
+:EduTalk_103
+    dcterms:abstract "Research work with senior schoolchildren and students dies before it starts for several reasons. When interviewing the leaders of such projects, most often they mention poor motivation of adolescents, lack of sufficient technical base and budget. Groups gather and disintegrate faster than the first results can be demonstrated. In the report, the author shows the contradictions underlying such problems and ways to eliminate them. Resources and opportunities for development are offered. The use of new socio-technical opportunities provides a variety of resources for resolving these contradictions. "@en, "Исследовательская работа со старшими школьниками и студентами умирает не начавшись по нескольким причинам. При опросе руководителей таких проектов чаще всего упоминается - слабая мотивация подростков, отсутсвие достаточной технической базы и бюджета. Группы собираются и распадаются быстрее чем первые результаты можно демонстрировать. В докладе автор показывает противоречия лежащие в основе таких проблем и пути их устранения. Предлагаются ресурсы и возможности развития. Применение новых социально-технических возможностей даёт разнообразие ресурсов для решения этих противоречий."@ru ;
+    dcterms:creator odp:Eckardt_O ;
+    dcterms:title "New approaches in organizing research activities using TRIZ methods among schoolchildren and students"@en, "Новые подходы в организации исследовательской деятельности методами ТРИЗ у школьников и студентов"@ru ;
+    a od:Talk .
+
+:EduTalk_104
+    dcterms:abstract "The possibilities of using and integrating TRIZ-technology tools in training students in woodworking professions of the open source software system for the development of professionals are prsented."@en, "В докладе представлены возможности применения и интеграции инструментов ТРИЗ-технологии в обучении студентов профессий деревообрабатывающего профиля системы СПО для становления профессионалов."@ru ;
+    dcterms:creator odp:Korotkih_S ;
+    dcterms:title "TRIZ technologies in high-quality training of specialists"@en, "ТРИЗ-технологии в качественной подготовке специалистов"@ru ;
+    a od:Talk .
+
+:EduTalk_105
+    dcterms:abstract "The experience of using educational experiments to form scientific ideas and get ideas for children's inventions are presented."@en, "В докладе представлен опыт использования учебных экспериментов для формирования научных представлений и получения идей для детского изобретательства."@ru ;
+    dcterms:creator odp:Nesterenko_AA ;
+    dcterms:title "Digital Laboratory \"Triz Inventor\""@en, "Цифровая лаборатория \"Тризобретатель\""@ru ;
+    a od:Talk .
+
+:EduTalk_106
+    dcterms:abstract "The purpose of the report is to outline the possibilities of OTSM-TRIZ to solve main issues of education in the 21st century. We characterise the situation of the modern educational system and draw on its main problems. The need for the ability to manage problems at different levels of the education system is emphasized. "@en, "Целью доклада является обозначить возможности ОТСМ-ТРИЗ для решения актуальных вопросов образования 21-го века. В докладе с точки зрения ОТСМ-ТРИЗ дана характеристика состояния современной системы образования и выявлены основные проблемы. Акцентируется необходимость в умении управлять проблемами на разных уровнях системы образования."@ru ;
+    dcterms:creator odp:Murashkovska_IN ;
+    dcterms:title "OTSM-TRIZ: within and beyond educational innovations of the third millennium"@en, "ОТСМ-ТРИЗ: в рамках и за пределами образовательных инноваций третьего тысячелетия"@ru ;
+    a od:Talk .
+
+:EduTalk_107
+    dcterms:abstract "Forecast of the development of civilization, which is characterized by the fact that algorithms and machines are used to inhibit the natural aggression of people, which are included in civilization processes as full members of the community, and which is characterized by the description of models are which use anti-elemental fields of braking and destruction. "@en, "Прогноз развития цивилизации, отличающийся тем, что для торможения природной агрессии людей используются алгоритмы и машины, которые входят в цивилизационные процессы как полноправные члены сообщества, отличающийся тем, что описания таких моделей предлагается использовать анти-элеполи торможения и разрушения."@ru ;
+    dcterms:creator odp:Rubin_MS ;
+    dcterms:title "\"Traffic lights\" of a smart civilization"@en, "\"Светофоры\" смарт-цивилизации"@ru ;
+    a od:Talk .
+
+:EduTalk_108
+    dcterms:abstract """Improvisation as a practice forms a creative approach to solving various tasks, helps to develop multivariate thinking, contributes to the development of emotional and body intelligence in a person, and has a positive effect on health.
+
+All methods of teaching that use improvisation can be promising for uncovering a person's creative potential, identifying his/her giftedness, further developing and realizing his/her personal qualities, as well as solving problems of professional orientation. This article discusses the possibilities of systematic use of music and dance improvisation in schools and kindergartens.
+
+On the basis of 20 educational organizations of the Republic of Karelia (10 schools and 10 kindergartens) the use of art-technologies in the educational process was approbated in order to support creative development of children and health during the pandemic of coronavirus infection.
+
+The results of the study showed that the inclusion of art technologies in the educational process has a positive effect on the psychoemotional sphere of school and pre-school children, promotes creative development, reduces stress, anxiety, liberates children, helps to relieve fatigue and reduces the risk of hypodynamia."""@en, """Импровизация как практика формирует творческий подход к решению различных задач, помогает развивать многовариантное мышление, способствует развитию эмоционального и телесного интеллекта у человека, положительно влияет на здоровье.
+
+Для раскрытия творческого потенциала человека, выявление его одарённости, дальнейшего развития и реализации его личностных качеств, также решения проблем профессиональной ориентации перспективными могут стать все методы обучения, использующие импровизацию. В данной статье раскрываются возможности системного использования музыкальной и танцевальной импровизации в школах и детских садах.
+
+На базе 20 образовательных организаций Республики Карелия (10 школ и 10 детских садов) была проведена апробация использования арт-технологий в образовательном процессе с целью творческого развития детей и поддержания здоровья в период пандемии коронавирусной инфекции.
+
+Результаты исследования показали, что включение в образовательный процесс арт-технологий положительно влияет на психоэмоциональную сферу детей школьного и дошкольного возраста, способствует творческому развитию, снимает стресс, тревожность, раскрепощает детей, способствует снятию усталости и уменьшает риск гиподинамии."""@ru ;
+    dcterms:creator odp:Smirnova_I, odp:Kozin_A, odp:Fradkova_L;
+    dcterms:title "ImproChildhood - life as creativity. Art technology in kindergartens and schools."@en, "Импродетство — жизнь как творчество. Арт-технологии в детских садах и школах"@ru ;
+    a od:Talk .
+
+:EduTalk_109
+    dcterms:abstract "The TRIZ model reflects both the process of solving inventive problems using various tools, and the process of transforming systems, including transformations using RTV tools. The report discusses the features of application of the TRIZ model to RTV tools, as well as the classification of RTV methods and techniques based on the TRIZ model. "@en, "Модель ТРИЗ отражает как процесс решения изобретательских задач с использованием различных инструментов, так и процесс преобразования систем, в том числе и с помощью инструментов РТВ. В докладе обсуждаются особенности применения модели ТРИЗ к инструментам РТВ, а также классификация методов и приемов РТВ на оснвое модели ТРИЗ."@ru ;
+    dcterms:creator odp:Rubina_NV ;
+    dcterms:title "Development of creative imaging (RTV) ontology and TRIZ model"@en, "Онтология РТВ и модель ТРИЗ"@ru ;
+    a od:Talk .
+
+:EduTalk_110
+    dcterms:abstract "The report is devoted to the evolution of SciFi ideas, illustrated with the example of specific SciFi ideas. Addressed to all those interested in science fiction and teaching RTV and TRIZ."@en, "Доклад посвящен эволюции НФ идей, проиллюстрирована на примере конкретных НФ идей. Адресована всем интересующимся фантастикой и преподаванием РТВ и ТРИЗ."@ru ;
+    dcterms:creator odp:Amnuel_PR ;
+    dcterms:title "Using SciFi Ideas in the RTV Course"@en, "Использование НФ идей в курсе РТВ"@ru ;
+    a od:Talk .
+
+:EduTalk_111
+    dcterms:creator odp:Faber_B ;
+    dcterms:abstract """В статье мы описали наш 46 летний опыт применения ТРИЗ в образовании. С позиции ТРИЗ были проанализированы сотни тысяч задач по математике, физике, химии, разработал систему операций и алгоритмов, установлены стандарты по их решению, включены аспекты новейших достижений дидактики, психологии, психофизиологии, объектно-ориентированного программирования. При обучении обобщенным действиям и операциям, мы обучаем наглядно-образному использованию графического материала, опорных сигналов, диаграмм, схем и развиваем экранное и образное мышление. Ключевые слова: ТРИЗ, Образование, Метод Образов, История Метода Образов, категории Метода Образов. """@ru, """In this article, we have described our 46 years of experience in applying TRIZ in education. We have analysed hundreds of thousands of problems in mathematics, physics, chemistry, developed a system of operations and algorithms, set standards for solving them, and included aspects of the latest achievements of didactics, psychology, psychophysiology, and object-oriented programming. When teaching generalized actions and operations, we teach visual and figurative use of graphic material, reference signals, diagrams, schemes, and develop screen and figurative thinking. Key words: TRIZ, Education, Image Method, History of Image Method, Categories of Image Method. """@en ; 
+    dcterms:title "TRIZ in Education, History of the Development of Image-based Teaching, Business Experience"@en, "ТРИЗ в Образовании, История развития преподавания на основе Метода Образов, бизнес-опыт"@ru ;
     a od:Talk .
 

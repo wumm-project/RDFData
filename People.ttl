@@ -1049,6 +1049,10 @@ odp:Fowlkes_WY
     a foaf:Person ;
     foaf:name "William Y. Fowlkes" .
 
+odp:Fradkova_L
+    a foaf:Person ;
+    foaf:name "Ludmila Fradkova" .
+
 odp:Fresner_J
     a foaf:Person ;
     foaf:affil "TRIZ Campus Vienna, Vienna, Austria"@en ;
@@ -2028,6 +2032,12 @@ odp:Korolev_VA
     foaf:fullname "Королёв В. А."@ru ;
     foaf:name "V. A. Korolev" .
 
+odp:Korneev_SG
+    a foaf:Person ;
+    rdfs:comment "Died in 1964";
+    foaf:fullname "Корнеев Станислав Георгиевич"@ru ;
+    foaf:name "Stanislav Korneev" .
+
 odp:Korotkikh_SN
     a foaf:Person ;
     foaf:affil "Krasnoyarsk, Russia" ;
@@ -2057,15 +2067,15 @@ odp:Kozhevnikova_LA
     foaf:fullname "Кожевникова Любовь Анатольевна"@ru ;
     foaf:name "Ljubov Kozhevnikova" .
 
-odp:Kozyreva_N
+odp:Kozin_A
     a foaf:Person ;
-    foaf:affil "Moscow, Russia" ;
-    foaf:fullname "Козырева Нелли"@ru ;
-    foaf:homepage <https://kozyreva.ucoz.ru/> ;
-    foaf:name "Nelly Kozyreva" .
+    foaf:fullname "Козин Александр"@ru ;
+    foaf:name "Alexander Kozin" .
 
 odp:Kozyreva_NA
     a foaf:Person ;
+    foaf:affil "Moscow, Russia" ;
+    foaf:homepage <https://kozyreva.ucoz.ru/> ;
     foaf:fullname "Козырева Нелли Арнольдовна"@ru ;
     foaf:name "Nelli A. Kozyreva" .
 
@@ -2304,8 +2314,9 @@ odp:Leleito_E
 odp:Lenyashin_VA
     a foaf:Person ;
     foaf:affil "Russia - South Korea" ;
+    rdfs:comment "Died already" ; 
     foaf:fullname "Леняшин Василий Алексеевич"@ru ;
-    foaf:name "Vassili Lenyaschin" .
+    foaf:name "Vasily Lenyaschin" .
 
 odp:LeonhardPfleger_R
     a foaf:Person ;
@@ -2863,7 +2874,7 @@ odp:Nagel_T
 
 odp:Nakagawa_T
     a foaf:Person ;
-    foaf:affil "Osaka Gakuin University, Japan" ;
+    foaf:affil "Professor Emeritus at Osaka Gakuin University, Japan" ;
     foaf:name "Toru Nakagawa" .
 
 odp:Nanrudaiyan_N
@@ -3046,6 +3057,11 @@ odp:Paputin_A
     foaf:affil "Minsk, Belarus" ;
     foaf:fullname "Папутин Александр"@ru ;
     foaf:name "Alexander Paputin" .
+
+odp:Parenchik_GI
+    a foaf:Person ;
+    foaf:fullname "Паренчик Геннадий Иванович"@ru ;
+    foaf:name "Gennadi Parenchik" .
 
 odp:Park_H
     a foaf:Person ;
@@ -3630,7 +3646,8 @@ odp:Shahrul_K
 
 odp:Shapiro_RB
     a foaf:Person ;
-    foaf:name "R.B. Shapiro" .
+    foaf:fullname "Шапиро Рафаэль Борисович"@ru ;
+    foaf:name "Rafael Shapiro" .
 
 odp:Sharapov_MI
     a foaf:Person ;
@@ -3843,6 +3860,10 @@ odp:Smirnov_EE
 odp:Smirnova_E
     a foaf:Person ;
     foaf:name "Evgenia Smirnova" .
+
+odp:Smirnova_I
+    a foaf:Person ;
+    foaf:name "Irina Smirnova" .
 
 odp:Smirnova_S
     a foaf:Person ;
