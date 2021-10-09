@@ -53,7 +53,7 @@
 
 :Talk_107
     dcterms:abstract "Many companies from different industries are going through digital transformation chasing a higher efficiency and new opportunities for game changing services and products. Such transformational changes affect different aspects of the enterprise including business lines, organization, customer segments, experiences, technology and result in multiple contradictions that must be addressed during the transformation. We discuss the potential of TRIZ application for solving multiple interrelated problems in a complex system of evolving enterprise. We also outline the gaps in TRIZ tools during solving these problems."@en, "Многие компании из разных отраслей проходят через цифровую трансформацию в погоне за более высокой эффективностью и новыми возможностями для предоставления услуг и продуктов, меняющих игру. Такие трансформационные изменения затрагивают различные аспекты предприятия, включая направления бизнеса, организацию, сегменты потребителей, опыт, технологии и приводят к многочисленным противоречиям, которые необходимо решать в ходе трансформации. Мы обсуждаем потенциал применения ТРИЗ для решения многочисленных взаимосвязей в сложной системе эволюционирующего предприятия. Мы также описываем недостатки инструментов ТРИЗ при решении этих проблем. "@ru ;
-    dcterms:creator odp:Boika_S, odp:Martinovskij_G ;
+    dcterms:creator odp:Boiko_SS, odp:Martinovskij_G ;
     dcterms:title "Can TRIZ become an enabler for digital transformation?"@en, "Может ли ТРИЗ стать инструментом цифровой трансформации?"@ru;
     a od:Talk .
 

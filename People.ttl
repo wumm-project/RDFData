@@ -96,7 +96,7 @@ odp:Aminov_RB
 odp:Amnuel_PR
     a foaf:Person ;
     foaf:affil "Beit She'an, Israel" ;
-    foaf:fullname "Амнуэль Песах Рафаэлович"@ru ;
+    foaf:fullname "Амнуэль Павел Рафаэлович"@ru ;
     foaf:name "Pesakh R. Amnuel" .
 
 odp:Andersen_B
@@ -341,8 +341,10 @@ odp:Bogatyreva_OA
     foaf:fullname "Богатырева Ольга Александровна"@ru ;
     foaf:name "Olga Bogatyreva" .
 
-odp:Boika_S
+odp:Boiko_SS
     a foaf:Person ;
+    foaf:affil "EPAM, Minsk, Belarus" ;
+    foaf:fullname "Бойко Сергей Сергеевич"@ru ;
     foaf:name "Siarhei Boika" .
 
 odp:Boko_A
@@ -353,7 +355,7 @@ odp:Boko_A
 odp:Bolotovsky_VN
     a foaf:Person ;
     foaf:fullname "Болотовский В.Н."@ru ;
-    foaf:name "Siarhei Boika", "V.N. Bolotovsky" .
+    foaf:name "V.N. Bolotovsky" .
 
 odp:BoratynskaSala_A
     a foaf:Person ;
@@ -2608,10 +2610,11 @@ odp:Markosov_SA
     foaf:affil "Algorithm Ltd., Russia" ;
     foaf:name "Sergey A. Markosov" .
 
-odp:Martinovskij_G
+odp:Martsinovskii_GA
     a foaf:Person ;
-    foaf:affil "EPAM Systems, Главный бизнес консультант"@ru ;
-    foaf:name "Georgii Marsinovskii" .
+    foaf:affil "EPAM Systems, Minsk, Belarus" ;
+    foaf:fullname "Марциновский Георгий Артемьевич"@ru ;
+    foaf:name "Georgi A. Martsinovskii" .
 
 odp:Martynov_A
     a foaf:Person ;

@@ -42,7 +42,7 @@ dcterms:creator odp:Liu_MY .
 :Paper_105 a od:Paper;
 rdfs:comment "Republished in TRIZ Review 1, Febr. 2019"; 
  dcterms:title "Application of TRIZ in business systems";
-dcterms:creator odp:Boika_S, odp:Kuryan_AG, odp:Ogievich_D . 
+dcterms:creator odp:Boiko_SS, odp:Kuryan_AG, odp:Ogievich_D . 
 
 :Paper_106 a od:Paper;
  dcterms:title "Application of TRIZ in ultrasonic brazing quality";

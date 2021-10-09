@@ -256,7 +256,7 @@ Beim Vergleich von ARIZ-Modifikationen untereinander wird eine Erhöhung des Anw
     dcterms:abstract """Smart City Technologien verbessern die Lebensqualität spürbar. Sensoren für Standort und Geschwindigkeit des öffentlichen Verkehrs, automatisierte Straßenbeleuchtung - all dies ist nur ein kleiner Teil, und TRIZ hilft bei der Erstellung weiterer Möglichkeiten für unseren Komfort.
 Im Vortrag wird über Gesetzmäßigkeiten der Stadtentwicklung, die Entwicklung ihrer Funktionen und darüber gesprochen, wie im Verlauf dieser Veränderungen erfinderische Probleme identifiziert und gelöst wurden. """@de, """Технологии «умного города» заметно улучшают качество нашей жизни. Датчики местоположения и скорости общественного транспорта, автоматизированное уличное освещение – все это лишь малая часть, и ТРИЗ помогает создать еще больше возможностей для нашего комфорта.
 В докладе эксперты расскажут о закономерностях развития городов, эволюции их функций и как в процессе всех изменений возникали и решались изобретательские задачи. """@ru ;
-    dcterms:creator odp:Boika_S, odp:Kuryan_AG ;
+    dcterms:creator odp:Boiko_SS, odp:Kuryan_AG ;
     dcterms:title "TRIZ in SmartCity systems"@en, "TRIZ in SmartCity-Systemen"@de, "ТРИЗ в системах SmartCity"@ru ;
     a od:Talk .
 
