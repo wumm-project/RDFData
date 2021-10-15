@@ -35,7 +35,7 @@
 
 :ATalk_203
     dcterms:abstract "Many companies from different industries are going through digital transformation chasing a higher efficiency and new opportunities for game changing services and products. Such transformational changes affect different aspects of the enterprise including business lines, organization, customer segments, experiences, technology and result in multiple contradictions that must be addressed during the transformation. We discuss the potential of TRIZ application for solving multiple interrelated problems in a complex system of evolving enterprise. We also outline the gaps in TRIZ tools during solving these problems."@en, "Многие компании из разных отраслей проходят через цифровую трансформацию в погоне за более высокой эффективностью и новыми возможностями для предоставления услуг и продуктов, меняющих игру. Такие трансформационные изменения затрагивают различные аспекты предприятия, включая направления бизнеса, организацию, сегменты потребителей, опыт, технологии и приводят к многочисленным противоречиям, которые необходимо решать в ходе трансформации. Мы обсуждаем потенциал применения ТРИЗ для решения многочисленных взаимосвязей в сложной системе эволюционирующего предприятия. Мы также описываем недостатки инструментов ТРИЗ при решении этих проблем. "@ru ;
-    dcterms:creator odp:Boiko_SS, odp:Martinovskij_G ;
+    dcterms:creator odp:Boiko_SS, odp:Martinovskii_G ;
     dcterms:title "Can TRIZ become an enabler for digital transformation?"@en, "Может ли ТРИЗ стать инструментом цифровой трансформации?"@ru ;
     a od:Talk .
 
@@ -82,6 +82,7 @@
 :ATalk_210
     od:presentedBy odp:Fomenko_AY ;
     dcterms:creator odp:Fomenko_AY, odp:Saunin_NY ;
+    dcterms:abstract "Здесь об опыте построения системы «принуждения» к инновационной деятельности. Мы исходим из того, что в стабильной компании нет лиц по-настоящему заинтересованных в инновациях (у всех всё хорошо) и нужна система, которая бы не только заставляла запускать инновационные проекты, но и обеспечивала их адекватность целям бизнеса (а не смузи-хайповость). Мы такую систему начали строить. Есть первые результаты, которыми хотели поделиться на вашей конференции. "@ru, "We report about the experience of building a system to 'force' innovative action. Our premise is that in a stable company, there are no individuals truly interested in innovation (everyone is doing well) and we need a system that would not only force the launch of innovative projects, but also ensure that they are adequate to business goals (rather than smoothie-hype). We have begun to build such a system. There are initial results, which we wanted to share at your conference. "@en ;
     dcterms:title "Forcing development. An effective way to change the organisation: the Intensive Evolution System"@en, "Принуждение к развитию. Как эффективно изменять организацию: Intensive Evolution System"@ru ;
     a od:Talk .
 
