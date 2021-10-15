@@ -27,80 +27,109 @@ The "BUSINESS TRIZ ONLINE WINTER 2021" conference invites anyone interested in l
 :Talk_101
     dcterms:creator odp:Souchkov_VV ;
     dcterms:title "TRIZ for Business and Management Training and Certification Curricula"@en ;
+    od:urlSlides <http://www.xtriz.com/presentations/IBTA2021W/IBTA%20Winter%202021%20Day%201%20-%201%20-%20Souchkov.pdf> ;
+    od:urlVideo <https://youtu.be/Ix7Qk5Do_38> ;
     a od:Talk .
 
 :Talk_102
     dcterms:creator odp:Iarossi_M ;
     dcterms:title "Rapid Prototyping for Business TRIZ: Accelerating TRIZ solutions using Agile"@en ;
+    od:urlSlides <http://www.xtriz.com/presentations/IBTA2021W/IBTA%20Winter%202021%20Day%201%20-%202%20-%20Iarossi.pdf> ;
+    od:urlVideo <https://youtu.be/Al3PlMqmyyg> ;
     a od:Talk .
 
 :Talk_103
     dcterms:creator odp:Kozhemyako_A ;
     dcterms:title "Getting started on a business problem"@en ;
+    od:urlSlides <hhttp://www.xtriz.com/presentations/IBTA2021W/IBTA%20Winter%202021%20Day%201%20-%203%20-%20Kozhemyako.pdf> ;
+    od:urlVideo <https://youtu.be/AKvjFMz4bEs> ;
     a od:Talk .
 
 :Talk_104
     dcterms:creator odp:Mohd-Nor_R, odp:Kulathuramaiyer_N, odp:Suaidi_MK ;
     od:presentedBy odp:Mohd-Nor_R ;
     dcterms:title "Constructing an ecosystem for a sustainable innovation culture using TRIZ tools"@en ;
+    od:urlSlides <http://www.xtriz.com/presentations/IBTA2021W/IBTA%20Winter%202021%20Day%201%20-%204%20-%20Mohd-Nor.pdf> ;
+    od:urlVideo <https://youtu.be/np8GXA2E0Do> ;
     a od:Talk .
 
 :Talk_105
     dcterms:creator odp:Schueler-Hainsch_E, odp:Maddalena_R, odp:Gekeler_M ;
     od:presentedBy odp:Schueler-Hainsch_E, odp:Maddalena_R, odp:Gekeler_M ;
     dcterms:title "Game of Conflicts – A playful way to analyze contradictions in TRIZ"@en ;
+    od:urlSlides <http://www.xtriz.com/presentations/IBTA2021W/IBTA%20Winter%202021%20Day%201%20-%205%20-%20Schueler-Hainsch.pdf> ;
+    od:urlVideo <https://youtu.be/zq3ba_Y5XVY> ;
     a od:Talk .
 
 :Talk_106
     dcterms:creator odp:Eckardt_O ;
     dcterms:title "Remote work challenges"@en ;
+    od:urlSlides <http://www.xtriz.com/presentations/IBTA2021W/IBTA%20Winter%202021%20Day%201%20-%206%20-%20Eckardt.pdf> ;
+    od:urlVideo <https://youtu.be/Zmtoo4EMIHo> ;
     a od:Talk .
 
 :Talk_107
     dcterms:creator odp:Petrov_VM, odp:Petrov_De ;
     od:presentedBy odp:Petrov_De ;
     dcterms:title "Analysis and practice of solving business problems"@en ;
+    od:urlSlides <http://www.xtriz.com/presentations/IBTA2021W/IBTA%20Winter%202021%20Day%201%20-%207%20-%20Petrov.pdf> ;
+    od:urlVideo <https://youtu.be/jgBbI0qSnxU> ;
     a od:Talk .
 
 :Talk_108
     dcterms:creator odp:Laue_R ;
     dcterms:title "The Power of the Ideal Final Result for Identifying Process Optimization Potential"@en ;
+    od:urlSlides <http://www.xtriz.com/presentations/IBTA2021W/IBTA%20Winter%202021%20Day%201%20-%208%20-%20Laue.pdf> ;
+    od:urlVideo <https://youtu.be/GQ4yl8SsP9A> ;
     a od:Talk .
 
 :Talk_109
     dcterms:creator odp:Lin_YJ, odp:Lin_SJ ;
     od:presentedBy odp:Lin_SJ ;
     dcterms:title "Resolving the Dilemma of Monitors in Kindergartens by Business TRIZ"@en ;
+    od:urlSlides <http://www.xtriz.com/presentations/IBTA2021W/IBTA%20Winter%202021%20Day%202%20-%201%20-%20Show-Jane%20Lin.pdf> ;
+    od:urlVideo <https://youtu.be/xt5UwH-r55k> ;
     a od:Talk .
 
 :Talk_110
     dcterms:creator odp:Souchkov_VV ;
     dcterms:title "TRIZ in Financial Industry"@en ;
+    od:urlSlides <http://www.xtriz.com/presentations/IBTA2021W/IBTA%20Winter%202021%20Day%202%20-%202%20-%20Souchkov.pdf> ;
+    od:urlVideo <https://youtu.be/C6l-ZdwRTfs> ;
     a od:Talk .
 
 :Talk_111
     dcterms:creator odp:Han_B, odp:Wang_WF ;
     od:presentedBy odp:Han_B ;
     dcterms:title "Solving the problem of construction mode for traditional industry park in the large cities"@en ;
+    od:urlSlides <http://www.xtriz.com/presentations/IBTA2021W/IBTA%20Winter%202021%20Day%202%20-%203%20-%20Han%20Bing.pdf> ;
+    od:urlVideo <https://youtu.be/_VKVcMtoEN4> ;
     a od:Talk .
 
 :Talk_112
     dcterms:creator odp:Lin_YJ, odp:Lin_SJ ;
     od:presentedBy odp:Lin_YJ ;
     dcterms:title "Using Business TRIZ Method to Improve the Speed of Checkout Process of Convenience Stores"@en ;
+    od:urlSlides <http://www.xtriz.com/presentations/IBTA2021W/IBTA%20Winter%202021%20Day%202%20-%204%20-%20Youn-Jan%20Lin.pdf> ;
+    od:urlVideo <https://youtu.be/txU0cIg1VVI> ;
     a od:Talk .
 
 :Talk_113
     dcterms:creator odp:Zhang_T ;
     dcterms:title "How to use TRIZ on information flow management"@en ;
+    od:urlSlides <http://www.xtriz.com/presentations/IBTA2021W/IBTA%20Winter%202021%20Day%202%20-%205%20-%20Zhang%20Ting.pdf> ;
+    od:urlVideo <https://youtu.be/V9qnD-_zeQo> ;
     a od:Talk .
 
 :Talk_114
     dcterms:creator odp:DeSaeger_I ;
     dcterms:title "Smart Cases for Business TRIZ"@en ;
+    od:urlSlides <http://www.xtriz.com/presentations/IBTA2021W/IBTA%20Winter%202021%20Day%202%20-%206%20-%20de%20Saeger.pdf> ;
+    od:urlVideo <https://youtu.be/HvETS0Mqc24> ;
     a od:Talk .
 
 :Talk_115
     dcterms:creator odp:Souchkov_VV ;
     dcterms:title "Further development of Business TRIZ"@en ;
+    od:urlVideo <https://youtu.be/M13Fz5_JwGY> ;
     a od:Talk .

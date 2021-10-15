@@ -17,6 +17,7 @@
     ical:summary "TRIZ Fest 2021 Online, Odessa, Ukraine" ;
     ical:dtend "2021-09-18"^^xsd:date ;
     ical:dtstart "2021-09-15"^^xsd:date ;
+    od:urlVideo <https://www.youtube.com/playlist?list=PLhYQKCyM7_WwhRp4v--4yz1hO8B6XH4kt> ;
     ical:location "Online" .
 
 :Talk_100
@@ -36,66 +37,78 @@
     dcterms:creator odp:Popova_SL, odp:Garzon_S, odp:Bauch_M, odp:Guenther_S ;
     od:presentedBy odp:Popova_SL;
     dcterms:title "TRIZ Reverse – Specification and application of a 7 step-by-step approach for systematic knowledge and technology transfer"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=07dBmo75nE4>;
     a od:Talk .
 
 :Talk_103
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Chrzaszcz_J ;
     dcterms:title "Imperceptible Detection of Fluorescence – Using TRIZ to See the Invisible"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=1j9pUh6FTEw>;
     a od:Talk .
 
 :Talk_104
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Lesourd_J, odp:Savelli_S, odp:Emanuilov_E, odp:Feygenson_ON ;
+    od:presentedBy odp:Feygenson_ON;
     dcterms:title "Pockets of Knowledge (PoK) – TRIZ"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=YAaLCm6RWh4>;
     a od:Talk .
 
 :Talk_105
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Logvinov_SA ;
     dcterms:title "The Issues of Transition to Supersystem"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=fH9kEZ71ry0>;
     a od:Talk .
 
 :Talk_106
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Belfiore_J ;
     dcterms:title "ISO Standards for Innovation and their Impacts to the TRIZ Community"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=SXCqQxckxpA>;
     a od:Talk .
 
 :Talk_107
     swc:relatedToEvent track:Pedagogy ;
     dcterms:creator odp:Guin_Evgenia ;
     dcterms:title "What Can TRIZ Bring to Pedagogy?"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=HrJGKZLClmY>;
     a od:Talk .
 
 :Talk_108
     swc:relatedToEvent track:Pedagogy ;
     dcterms:creator odp:Gafitulin_MS ;
     dcterms:title "Non-ordinary View of Ordinary Things"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=iVLGoB4qIok>;
     a od:Talk .
 
 :Talk_109
     swc:relatedToEvent track:Pedagogy ;
     dcterms:creator odp:Pchelkina_E ;
     dcterms:title "Approaches to TRIZ-Pedagogy at RA TRIZ"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=wYgshhpRIko>; 
     a od:Talk .
 
 :Talk_110
     swc:relatedToEvent track:Pedagogy ;
     dcterms:creator odp:Nesterenko_AA ;
     dcterms:title "Integration of TRIZ to Education: Issues and Approaches"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=nwiyLJ6AXsU>;
     a od:Talk .
 
 :Talk_111
     swc:relatedToEvent track:Pedagogy ;
     dcterms:creator odp:Kozyreva_NA ;
     dcterms:title "Using TRIZ to Designing Toys and Games with Pedagogy Students"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=86aZMqnpecA>;
     a od:Talk .
 
 :Talk_112
     swc:relatedToEvent track:Pedagogy ;
     dcterms:creator odp:Sokol_A ;
     dcterms:title "TRIZ and Thinking Skills: Can There Bee Added Value and Where Should We Look for It?"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=yQZSprcMZLA>;
     a od:Talk .
 
 :Talk_113
@@ -103,6 +116,7 @@
     dcterms:creator odp:Zhang_K, odp:Hao_Z ;
     od:presentedBy odp:Zhang_K;
     dcterms:title "Patent Circumvention and Strengthening in Wind Turbine Blade Noise Reduction"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=t2n-KPoBfrE>;
     a od:Talk .
 
 :Talk_114
@@ -117,18 +131,21 @@
     dcterms:creator odp:Strempel_T, odp:Graebe_HG ;
     od:presentedBy  odp:Graebe_HG ;
     dcterms:title "Semantic Web Modelling of TRIZ System Evolution Concepts"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=6TPKrumFehY>;
     a od:Talk .
 
 :Talk_116
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Lin_YJ ;
     dcterms:title "Apply Functional Analysis and Inventive Standards of TRIZ for Business And Management To Solve Teaching Problems"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=GX9fVN_bcSY>;
     a od:Talk .
 
 :Talk_117
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Kassou_R ;
     dcterms:title "Architecture and Design Implementation of Innometric System"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=_2FmAPx1Ew4>;
     a od:Talk .
 
 :Talk_118
@@ -142,42 +159,49 @@
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Kozhemyako_A ;
     dcterms:title "How To Hold Strategic Sessions Via TRIZ Tools"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=qQBH2SBCqtI>;
     a od:Talk .
 
 :Talk_125
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Souchkov_VV ;
     dcterms:title "Modern Tools for Business TRIZ"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=19BOeEjbA-w>; 
     a od:Talk .
 
 :Talk_121
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Keiper_D, odp:Hausmann_B, odp:Schaefer_T ;
     dcterms:title "What TRIZ Tools Where Used in the Pre-TRIZ Age? - a Study of an Aircraft Engineering Project"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=A7PEU7PSlUc>;
     a od:Talk .
 
 :Talk_122
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Mayer_O ;
     dcterms:title "Big Data Analysis: A Component / Resource to be Considered in TRIZ"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=ALVzz-6pFW0>;
     a od:Talk .
 
 :Talk_123
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Shpakovsky_NA ;
     dcterms:title "Implementing TRIZ at a Company with Solving Mill Software (Samsung Case)"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=S_b42TlIKMc> ; 
     a od:Talk .
 
 :Talk_124
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Zhao_Y, odp:Lin_A, odp:Xu_DS ;
     dcterms:title "Research on Enterprise Product Research and Development Based on Customer Demand - The Practice Record of Innovative Methods in Enterprise Product R&D"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=4noEo95ZvoQ>;
     a od:Talk .
 
 :Talk_120
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Dobrusskin_C ;
     dcterms:title "Horological TRIZ Ruminations"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=reO4J5Po2H8> ; 
     a od:Talk .
 
 :Talk_126
@@ -185,6 +209,7 @@
     dcterms:creator odp:Garzon_S, odp:Popova_SL, odp:Bauch_M, odp:Guenther_S ;
     od:presentedBy odp:Guenther_S ;
     dcterms:title "TRIZ Reverse: A Systematic Review And Comparison With Existing Knowledge And"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=cZ70-bdJyFQ>;
     a od:Talk .
 
 :Talk_127
@@ -192,12 +217,14 @@
     dcterms:creator odp:Ishrat_I, odp:Hasan_M, odp:Khan_FM  ;
     od:presentedBy odp:Ishrat_I ;
     dcterms:title "Benefits Of TRIZ Approach To Enable Proper Holistic Education"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=IzfjQWSVCcw>;
     a od:Talk .
 
 :Talk_128
     swc:relatedToEvent track:Main ;
     dcterms:creator odp:Palcak_F ;
     dcterms:title "Benefits Of TRIZ Approach To Enable Proper Holistic Education"@en ;
+    od:urlVideo <https://www.youtube.com/watch?v=vRTlsicWEKY>;
     a od:Talk .
 
 track:Tutorial
