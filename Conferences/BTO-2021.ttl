@@ -13,88 +13,88 @@
     a swc:ConferenceEvent ;
     rdfs:comment "Presentations of the Business TRIZ Online Autumn 2021" ;
     rdfs:label "Business TRIZ Online Autumn 2021" ;
-    ical:summary "BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to learn what Business TRIZ is, how to apply it, and to discuss current challenges and perspectives for both Business and Management TRIZ and the Business TRIZ community."@en;
-    ical:description """Одним из ключевых навыков управленческих профессий в современном мире является умение решать сложные нестандартные проблемы. Конкурентная среда и запросы общества 21 века требуют действовать быстро. Наиболее приоритетными требованиями становятся необходимость эффективно находить новые нестандартные решения, а также создавать новые успешные инновационные бизнес системы и бизнес продукты. Большинство таких задач требует неординарного, творческого мышления.
+    ical:description """One of the key skills of management professions in today's world is the ability to solve complex, non-standard problems. The competitive environment and demands of 21st century society require acting quickly. The need to effectively find new non-standard solutions and to create new successful and innovative business systems and business products are becoming the highest priority. Most of these tasks require extraordinary, creative thinking.
+
+Technology and tools for systems innovation thinking based on TRIZ - Theory of Inventive Problem Solving - are now being actively implemented in various organisations around the world. Originally developed to support technical innovation and used by many global companies, TRIZ has found application in other areas as well. The term \"Business TRIZ\" is now used for TRIZ methods and tools created and adapted to support the search for innovative business and management solutions.
+
+BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to learn what Business TRIZ is, how to apply it, and to discuss current challenges and perspectives for both Business and Management TRIZ and the Business TRIZ community."""@en, """Одним из ключевых навыков управленческих профессий в современном мире является умение решать сложные нестандартные проблемы. Конкурентная среда и запросы общества 21 века требуют действовать быстро. Наиболее приоритетными требованиями становятся необходимость эффективно находить новые нестандартные решения, а также создавать новые успешные инновационные бизнес системы и бизнес продукты. Большинство таких задач требует неординарного, творческого мышления.
 
 Технология и инструменты системного инновационного мышления, основанные на ТРИЗ – Теории Решения Изобретательских задач – сегодня активно внедряются в различных организациях по всему миру. Изначально разработанная для поддержки технических инноваций и использующаяся многими глобальными компаниями, ТРИЗ находит применение и других областях. Термин «Бизнес ТРИЗ» сегодня используется для методов и инструментов ТРИЗ, созданных и адаптированных для поддержки поиска инновационных решений в области бизнеса и управления.
 
-Онлайн форум «БИЗНЕС ТРИЗ ОНЛАЙН 2020» приглашает всех, кто заинтересован узнать, что такое Бизнес ТРИЗ, как его применять, а также обсудить текущие проблемы и перспективы развития как ТРИЗ для бизнеса и управления, так и сообщества Бизнес ТРИЗ."""@ru, """One of the key skills of management professions in today's world is the ability to solve complex, non-standard problems. The competitive environment and demands of 21st century society require acting quickly. The need to effectively find new non-standard solutions and to create new successful and innovative business systems and business products are becoming the highest priority. Most of these tasks require extraordinary, creative thinking.
-
-Technology and tools for systems innovation thinking based on TRIZ - Theory of Inventive Problem Solving - are now being actively implemented in various organisations around the world. Originally developed to support technical innovation and used by many global companies, TRIZ has found application in other areas as well. The term "Business TRIZ" is now used for TRIZ methods and tools created and adapted to support the search for innovative business and management solutions.
-
-BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to learn what Business TRIZ is, how to apply it, and to discuss current challenges and perspectives for both Business and Management TRIZ and the Business TRIZ community."""@en ;
+Онлайн форум «БИЗНЕС ТРИЗ ОНЛАЙН 2020» приглашает всех, кто заинтересован узнать, что такое Бизнес ТРИЗ, как его применять, а также обсудить текущие проблемы и перспективы развития как ТРИЗ для бизнеса и управления, так и сообщества Бизнес ТРИЗ."""@ru ;
     ical:dtend "2021-10-29"^^xsd:date ;
     ical:dtstart "2021-10-29"^^xsd:date ;
     ical:location "Online" ;
+    ical:summary "BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to learn what Business TRIZ is, how to apply it, and to discuss current challenges and perspectives for both Business and Management TRIZ and the Business TRIZ community."@en ;
     ical:url <http://www.biztriz.net/2-uncategorised/39-business-triz-online-fall-2021.html> .
-
 
 :Talk_100
     dcterms:creator odp:Souchkov_VV ;
-    dcterms:title "Открытие. Бизнес-ТРИЗ: современное состояние и перспективы развития."@ru ;
+    dcterms:title "Opening. Business TRIZ: current state and development prospects."@en, "Открытие. Бизнес-ТРИЗ: современное состояние и перспективы развития."@ru ;
     a od:Talk .
 
 :Talk_101
     dcterms:creator odp:Kozhemyako_A ;
-    dcterms:title "Проведение стратегических сессий с применением инструментов ТРИЗ"@ru ;
+    dcterms:title "Conducting strategic sessions using TRIZ tools"@en, "Проведение стратегических сессий с применением инструментов ТРИЗ"@ru ;
     a od:Talk .
 
 :Talk_102
     dcterms:creator odp:Kustov_Y ;
-    dcterms:title "Социократия и ТРИЗ"@ru ;
+    dcterms:title "Sociocracy and TRIZ"@en, "Социократия и ТРИЗ"@ru ;
     a od:Talk .
 
 :Talk_103
     dcterms:creator odp:Blagich_A ;
-    dcterms:title "Как увеличить аудиторию подкаста на миллион человек всего за один месяц и без затрат"@ru ;
+    dcterms:title "How to increase your podcast audience by a million people in just one month and no cost"@en, "Как увеличить аудиторию подкаста на миллион человек всего за один месяц и без затрат"@ru ;
     a od:Talk .
 
 :Talk_104
     dcterms:creator odp:Svobodov_V ;
-    dcterms:title "Деньги как источник противоречий"@ru ;
+    dcterms:title "Money as a source of contradictions"@en, "Деньги как источник противоречий"@ru ;
     a od:Talk .
 
 :Talk_105
     dcterms:creator odp:Shapiro_A ;
-    dcterms:title "Дерево роста продукта/услуги как стратегический инструмент"@ru ;
+    dcterms:title "Product/Service growth tree as a strategic tool"@en, "Дерево роста продукта/услуги как стратегический инструмент"@ru ;
     a od:Talk .
 
 :Talk_106
     dcterms:creator odp:Pravkin_D ;
-    dcterms:title "Применение ИКР и ресурсного подхода к задаче по поиску и удержанию специалистов в федеральной компании."@ru ;
+    dcterms:title "Application of IFR and resource approach to the task of finding and retaining specialists in a federal company."@en, "Применение ИКР и ресурсного подхода к задаче по поиску и удержанию специалистов в федеральной компании."@ru ;
     a od:Talk .
 
 :Talk_107
     dcterms:creator odp:Domkin_KI, odp:Gerasimov_OM, odp:Severinets_GA ;
-    dcterms:title "Особенности применения методики свертывания при совершенствовании бизнес процессов на производстве"@ru ;
+    dcterms:title "Peculiarities of the application of the method of trimming to improve business processes in production"@en, "Особенности применения методики свертывания при совершенствовании бизнес процессов на производстве"@ru ;
     a od:Talk .
 
 :Talk_108
     dcterms:creator odp:Kuryan_AG ;
-    dcterms:title "Навигатор бизнес моделей: как возникают и устраняются противоречия в продуктах и бизнес моделях"@ru ;
+    dcterms:title "Business Model Navigator: How contradictions in products and business models arise and are eliminated"@en, "Навигатор бизнес моделей: как возникают и устраняются противоречия в продуктах и бизнес моделях"@ru ;
     a od:Talk .
 
 :Talk_109
     dcterms:creator odp:Sidoretz_A ;
-    dcterms:title "ТРИЗ в Управлении Цепями Поставок. Основы"@ru ;
+    dcterms:title "TRIZ in Supply Chain Management. Basics"@en, "ТРИЗ в Управлении Цепями Поставок. Основы"@ru ;
     a od:Talk .
 
 :Talk_110
     dcterms:creator odp:Saunin_NY ;
-    dcterms:title "ТРИЗ для руководителей: методика принятия эффективных решений (МПЭР). Внедрение ТРИЗ в Группе ГАЗ через обучение руководителей на примере кейсов."@ru ;
+    dcterms:title "TRIZ for managers: a methodology for making effective decisions. Implementation of TRIZ in the GAZ Group through training of leaders on use cases."@en, "ТРИЗ для руководителей: методика принятия эффективных решений (МПЭР). Внедрение ТРИЗ в Группе ГАЗ через обучение руководителей на примере кейсов."@ru ;
     a od:Talk .
 
 :Talk_111
     dcterms:creator odp:Redkolis_EV ;
-    dcterms:title "Практика применения ТРИЗ в непромышленных бизнесах"@ru ;
+    dcterms:title "Practice of TRIZ application in non-industrial businesses"@en, "Практика применения ТРИЗ в непромышленных бизнесах"@ru ;
     a od:Talk .
 
 :Talk_112
     dcterms:creator odp:Domkin_KI, odp:Shpakovsky_NA, odp:Trostyansky_AG ;
-    dcterms:title "Использование \"Солвинг Милл\" для решения бизнес задач (разбор кейса)"@ru ;
+    dcterms:title "Using \"Solving Mill\" for solving business problems - a case study"@en, "Использование \"Солвинг Милл\" для решения бизнес задач (разбор кейса)"@ru ;
     a od:Talk .
 
 :Talk_113
     dcterms:creator odp:Souchkov_VV ;
-    dcterms:title "Результаты применения Бизнес-ТРИЗ в реальных проектах"@ru ;
+    dcterms:title "Results of Business TRIZ application in real projects"@en, "Результаты применения Бизнес-ТРИЗ в реальных проектах"@ru ;
     a od:Talk .
+
