@@ -1,0 +1,100 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix odp: <http://opendiscovery.org/rdf/Person/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://opendiscovery.org/rdf/Conferences/BTO-2021/> .
+
+:General
+    a swc:ConferenceEvent ;
+    rdfs:comment "Presentations of the Business TRIZ Online Autumn 2021" ;
+    rdfs:label "Business TRIZ Online Autumn 2021" ;
+    ical:summary "BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to learn what Business TRIZ is, how to apply it, and to discuss current challenges and perspectives for both Business and Management TRIZ and the Business TRIZ community."@en;
+    ical:description """Одним из ключевых навыков управленческих профессий в современном мире является умение решать сложные нестандартные проблемы. Конкурентная среда и запросы общества 21 века требуют действовать быстро. Наиболее приоритетными требованиями становятся необходимость эффективно находить новые нестандартные решения, а также создавать новые успешные инновационные бизнес системы и бизнес продукты. Большинство таких задач требует неординарного, творческого мышления.
+
+Технология и инструменты системного инновационного мышления, основанные на ТРИЗ – Теории Решения Изобретательских задач – сегодня активно внедряются в различных организациях по всему миру. Изначально разработанная для поддержки технических инноваций и использующаяся многими глобальными компаниями, ТРИЗ находит применение и других областях. Термин «Бизнес ТРИЗ» сегодня используется для методов и инструментов ТРИЗ, созданных и адаптированных для поддержки поиска инновационных решений в области бизнеса и управления.
+
+Онлайн форум «БИЗНЕС ТРИЗ ОНЛАЙН 2020» приглашает всех, кто заинтересован узнать, что такое Бизнес ТРИЗ, как его применять, а также обсудить текущие проблемы и перспективы развития как ТРИЗ для бизнеса и управления, так и сообщества Бизнес ТРИЗ."""@ru, """One of the key skills of management professions in today's world is the ability to solve complex, non-standard problems. The competitive environment and demands of 21st century society require acting quickly. The need to effectively find new non-standard solutions and to create new successful and innovative business systems and business products are becoming the highest priority. Most of these tasks require extraordinary, creative thinking.
+
+Technology and tools for systems innovation thinking based on TRIZ - Theory of Inventive Problem Solving - are now being actively implemented in various organisations around the world. Originally developed to support technical innovation and used by many global companies, TRIZ has found application in other areas as well. The term "Business TRIZ" is now used for TRIZ methods and tools created and adapted to support the search for innovative business and management solutions.
+
+BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to learn what Business TRIZ is, how to apply it, and to discuss current challenges and perspectives for both Business and Management TRIZ and the Business TRIZ community."""@en ;
+    ical:dtend "2021-10-29"^^xsd:date ;
+    ical:dtstart "2021-10-29"^^xsd:date ;
+    ical:location "Online" ;
+    ical:url <http://www.biztriz.net/2-uncategorised/39-business-triz-online-fall-2021.html> .
+
+
+:Talk_100
+    dcterms:creator odp:Souchkov_VV ;
+    dcterms:title "Открытие. Бизнес-ТРИЗ: современное состояние и перспективы развития."@ru ;
+    a od:Talk .
+
+:Talk_101
+    dcterms:creator odp:Kozhemyako_A ;
+    dcterms:title "Проведение стратегических сессий с применением инструментов ТРИЗ"@ru ;
+    a od:Talk .
+
+:Talk_102
+    dcterms:creator odp:Kustov_Y ;
+    dcterms:title "Социократия и ТРИЗ"@ru ;
+    a od:Talk .
+
+:Talk_103
+    dcterms:creator odp:Blagich_A ;
+    dcterms:title "Как увеличить аудиторию подкаста на миллион человек всего за один месяц и без затрат"@ru ;
+    a od:Talk .
+
+:Talk_104
+    dcterms:creator odp:Svobodov_V ;
+    dcterms:title "Деньги как источник противоречий"@ru ;
+    a od:Talk .
+
+:Talk_105
+    dcterms:creator odp:Shapiro_A ;
+    dcterms:title "Дерево роста продукта/услуги как стратегический инструмент"@ru ;
+    a od:Talk .
+
+:Talk_106
+    dcterms:creator odp:Pravkin_D ;
+    dcterms:title "Применение ИКР и ресурсного подхода к задаче по поиску и удержанию специалистов в федеральной компании."@ru ;
+    a od:Talk .
+
+:Talk_107
+    dcterms:creator odp:Domkin_KI, odp:Gerasimov_OM, odp:Severinets_GA ;
+    dcterms:title "Особенности применения методики свертывания при совершенствовании бизнес процессов на производстве"@ru ;
+    a od:Talk .
+
+:Talk_108
+    dcterms:creator odp:Kuryan_AG ;
+    dcterms:title "Навигатор бизнес моделей: как возникают и устраняются противоречия в продуктах и бизнес моделях"@ru ;
+    a od:Talk .
+
+:Talk_109
+    dcterms:creator odp:Sidoretz_A ;
+    dcterms:title "ТРИЗ в Управлении Цепями Поставок. Основы"@ru ;
+    a od:Talk .
+
+:Talk_110
+    dcterms:creator odp:Saunin_NY ;
+    dcterms:title "ТРИЗ для руководителей: методика принятия эффективных решений (МПЭР). Внедрение ТРИЗ в Группе ГАЗ через обучение руководителей на примере кейсов."@ru ;
+    a od:Talk .
+
+:Talk_111
+    dcterms:creator odp:Redkolis_EV ;
+    dcterms:title "Практика применения ТРИЗ в непромышленных бизнесах"@ru ;
+    a od:Talk .
+
+:Talk_112
+    dcterms:creator odp:Domkin_KI, odp:Shpakovsky_NA, odp:Trostyansky_AG ;
+    dcterms:title "Использование \"Солвинг Милл\" для решения бизнес задач (разбор кейса)"@ru ;
+    a od:Talk .
+
+:Talk_113
+    dcterms:creator odp:Souchkov_VV ;
+    dcterms:title "Результаты применения Бизнес-ТРИЗ в реальных проектах"@ru ;
+    a od:Talk .

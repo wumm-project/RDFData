@@ -15,6 +15,16 @@
     rdfs:label "TSN: Past TRIZ Conferences" ;
     owl:imports <http://opendiscovery.org/rdf/ConferenceSeries/>, <http://opendiscovery.org/rdf/People/> .
 
+<http://opendiscovery.org/rdf/Conferences/BTO-2021/> 
+    a swc:ConferenceEvent ;
+    rdfs:label "Business TRIZ Online Autumn 2021" ;
+    ical:summary "BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to learn what Business TRIZ is, how to apply it, and to discuss current challenges and perspectives for both Business and Management TRIZ and the Business TRIZ community."@en;
+    ical:dtend "2021-10-29"^^xsd:date ;
+    ical:dtstart "2021-10-29"^^xsd:date ;
+    ical:location "Online" ;
+    od:detailedReport <http://wumm.uni-leipzig.de/rdf/BTO-2021.rdf> ;
+    ical:url <http://www.biztriz.net/2-uncategorised/39-business-triz-online-fall-2021.html> .
+
 <http://opendiscovery.org/rdf/Conferences/TRIZFest-2021/>
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest> ;

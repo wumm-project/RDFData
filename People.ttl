@@ -2058,7 +2058,7 @@ odp:Kostin_A
 
 odp:Kozhemyako_A
     a foaf:Person ;
-    foaf:affil "Business Association TRIZ", "Russia" ;
+    foaf:affil "Business Association TRIZ, Russia" ;
     foaf:fullname "Кожемяко Антон"@ru ;
     foaf:homepage <http://batriz.ru/>, <http://bmtriz.ru/> ;
     foaf:name "Anton Kozhemyako" .
@@ -2160,7 +2160,7 @@ odp:Kurgi_EE
 
 odp:Kuryan_AG
     a foaf:Person ;
-    foaf:affil "Minsk, Belarus" ;
+    foaf:affil "EPAM Gdansk, Poland" ;
     foaf:fullname "Курьян Андрей Георгиевич"@ru ;
     foaf:homepage <https://www.facebook.com/andrew.kuryan> ;
     foaf:name "Andrei G. Kuryan" .
@@ -3255,6 +3255,12 @@ odp:Prada_A
     a foaf:Person ;
     foaf:name "Alessandro Prada" .
 
+odp:Pravkin_D
+    a foaf:Person ;
+    foaf:affil "InGosStrach, Russia" ;
+    foaf:fullname "Правкин Даниил"@ru ;
+    foaf:name "Daniil Pravkin" .
+
 odp:Prevost_E
     a foaf:Person ;
     foaf:affil "TRIZ France, France" ;
@@ -3647,6 +3653,12 @@ odp:Shahrul_K
     a foaf:Person ;
     foaf:name "K. Shahrul" .
 
+odp:Shapiro_A
+    a foaf:Person ;
+    foaf:affil "Byndyusoft, Russia" ;
+    foaf:fullname "Шапиро Андрей"@ru ;
+    foaf:name "Andrey Shapiro" .
+
 odp:Shapiro_RB
     a foaf:Person ;
     foaf:fullname "Шапиро Рафаэль Борисович"@ru ;
@@ -3778,6 +3790,12 @@ odp:Sidorchuk_TA
     foaf:affil "Russia" ;
     foaf:fullname "Сидорчук Татьяна Александровна"@ru ;
     foaf:name "Tatjana Sidorchuk" .
+
+odp:Sidoretz_A
+    a foaf:Person ;
+    foaf:affil "Cognizant, Switzerland" ;
+    foaf:fullname "Сидорецс Алекс"@ru ;
+    foaf:name "Alex Sidoretz" .
 
 odp:Sidorovitch_D
     a foaf:Person ;
@@ -4167,6 +4185,12 @@ odp:Trigub_AV
     foaf:affil "Russia" ;
     foaf:fullname "Тригуб Александр Васильевич"@ru ;
     foaf:name "Alexander V. Trigub" .
+
+odp:Tregubov_AN
+    a foaf:Person ;
+    foaf:affil "Russia" ;
+    foaf:fullname "Трегубов Александр Наумович"@ru ;
+    foaf:name "Alexander N. Tregubov" .
 
 odp:Trillat_S
     a foaf:Person ;

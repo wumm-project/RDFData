@@ -103,6 +103,8 @@ The implementation of TRIZ in medicine, including drug development, requires ext
     a od:Talk .
 
 :ATalk_213
+    od:urlPaper <https://wumm-project.github.io/Texts/Petrov/TDS-21-ru.pdf> ;
+    od:urlSlides <https://wumm-project.github.io/Texts/Petrov/TDS-21-Slides.pdf> ;
     dcterms:abstract "This article is devoted to the topic of resolving contradictions. In this article, we call a technical contradiction (TC) a contradiction within the requirements (CR), and a physical contradiction (PC) - a contradiction of properties (CP). The contradiction within the requirements (CR) is resolved using a system of methods for resolving TC. Resolving the contradiction of properties (CP) is not so easy. We propose methods for analyzing the contradiction of requirements (CR) and contradiction of properties (CP), which makes it possible to deal with these contradictions more accurately and to choose a way of separating conflicting properties. The author called this Analysis of CR and CP. "@en, "Статья посвящена теме разрешения противоречий. В данной статье принято техническое противоречие (ТП) называть противоречие требований (ПТ), а физическое противоречие (ФП) – противоречие свойств (ПС). Противоречие требований (ПТ) разрешается с помощью системы приемов разрешения ТП. Разрешение противоречия свойств (ПС) не так-то и просто. В статье предлагается способы анализа противоречия требований (ПТ) и противоречия свойств (ПС), позволяющий точнее разобраться с этими противоречиями и выбрать способ разделения противоречивых свойств. Автор назвал это Анализ ПТ и ПС."@ru ;
     dcterms:creator odp:Petrov_VM ;
     dcterms:title "Deepened contradiction analysis"@en, "Углубленный анализ противоречий"@ru ;
@@ -157,6 +159,7 @@ The use of ARIZ tool is proposed to solve these problems. Examples of using ARIZ
     a od:Talk .
 
 :ATalk_221
+    od:urlSlides <https://wumm-project.github.io/Texts/Shpakovsky/TDS-21-Slides.pdf> ;
     dcterms:abstract """The article is devoted to the use of TRIZ in innovative activities of a company. It is of great importance to correctly introduce TRIZ into the structure of the innovative subdivisions of the company. This is primarily relevant to the organisation of specialist training in inventive problem solving.
 The use of the online training system TRIZ-trainer, in addition to traditional training, provides significant advantages. The main advantage of the approach used in the TRIZ-trainer distance course is teaching students through solving selected problems under the guidance of an experienced trainer. Such a training system has proven itself well in teaching university students and company specialists.
 The features of distance learning for solving inventive problems of company employees and university students within restricted time frames are shown. """@en, """Статья посвящена применению ТРИЗ в инновационной деятельности компании. Большое значение имеет грамотное внедрение ТРИЗ в структуру инновационных подразделений компании. В первую очередь это относится к организации обучения специалистов решению изобретательских задач.
@@ -208,13 +211,13 @@ The material gives names of more than a dozen initial areas of production proble
 
 :EduTalk_104
     dcterms:abstract "The possibilities of using and integrating TRIZ-technology tools in training students in woodworking professions of the open source software system for the development of professionals are prsented."@en, "В докладе представлены возможности применения и интеграции инструментов ТРИЗ-технологии в обучении студентов профессий деревообрабатывающего профиля системы СПО для становления профессионалов."@ru ;
-    dcterms:creator odp:Korotkih_S ;
+    dcterms:creator odp:Korotkih_SN ;
     dcterms:title "TRIZ technologies in high-quality training of specialists"@en, "ТРИЗ-технологии в качественной подготовке специалистов"@ru ;
     a od:Talk .
 
 :EduTalk_105
     dcterms:abstract "The experience of using educational experiments to form scientific ideas and get ideas for children's inventions are presented."@en, "В докладе представлен опыт использования учебных экспериментов для формирования научных представлений и получения идей для детского изобретательства."@ru ;
-    dcterms:creator odp:Nesterenko_AA ;
+    dcterms:creator odp:Nesterenko_AA, odp:Terekhova_GV;
     dcterms:title "Digital Laboratory \"Triz Inventor\""@en, "Цифровая лаборатория \"Тризобретатель\""@ru ;
     a od:Talk .
 
