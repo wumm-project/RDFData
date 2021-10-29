@@ -17,7 +17,7 @@
 
 <http://opendiscovery.org/rdf/Conferences/BTO-2021/> 
     a swc:ConferenceEvent ;
-    rdfs:label "Business TRIZ Online Autumn 2021" ;
+    rdfs:label "Business TRIZ Online Fall 2021" ;
     ical:summary "BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to learn what Business TRIZ is, how to apply it, and to discuss current challenges and perspectives for both Business and Management TRIZ and the Business TRIZ community."@en;
     ical:dtend "2021-10-29"^^xsd:date ;
     ical:dtstart "2021-10-29"^^xsd:date ;

@@ -11,7 +11,7 @@
 
 :General
     a swc:ConferenceEvent ;
-    rdfs:comment "Presentations of the Business TRIZ Online Autumn 2021" ;
+    rdfs:comment "Presentations of the Business TRIZ Online Fall 2021" ;
     rdfs:label "Business TRIZ Online Autumn 2021" ;
     ical:description """One of the key skills of management professions in today's world is the ability to solve complex, non-standard problems. The competitive environment and demands of 21st century society require acting quickly. The need to effectively find new non-standard solutions and to create new successful and innovative business systems and business products are becoming the highest priority. Most of these tasks require extraordinary, creative thinking.
 
@@ -65,6 +65,7 @@ BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to lea
 
 :Talk_107
     dcterms:creator odp:Domkin_KI, odp:Gerasimov_OM, odp:Severinets_GA ;
+    od:presentedBy odp:Domkin_KI; 
     dcterms:title "Peculiarities of the application of the method of trimming to improve business processes in production"@en, "Особенности применения методики свертывания при совершенствовании бизнес процессов на производстве"@ru ;
     a od:Talk .
 
@@ -74,7 +75,7 @@ BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to lea
     a od:Talk .
 
 :Talk_109
-    dcterms:creator odp:Sidoretz_A ;
+    dcterms:creator odp:Sidorec_A ;
     dcterms:title "TRIZ in Supply Chain Management. Basics"@en, "ТРИЗ в Управлении Цепями Поставок. Основы"@ru ;
     a od:Talk .
 
@@ -86,11 +87,6 @@ BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to lea
 :Talk_111
     dcterms:creator odp:Redkolis_EV ;
     dcterms:title "Practice of TRIZ application in non-industrial businesses"@en, "Практика применения ТРИЗ в непромышленных бизнесах"@ru ;
-    a od:Talk .
-
-:Talk_112
-    dcterms:creator odp:Domkin_KI, odp:Shpakovsky_NA, odp:Trostyansky_AG ;
-    dcterms:title "Using \"Solving Mill\" for solving business problems - a case study"@en, "Использование \"Солвинг Милл\" для решения бизнес задач (разбор кейса)"@ru ;
     a od:Talk .
 
 :Talk_113

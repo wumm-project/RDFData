@@ -3791,11 +3791,11 @@ odp:Sidorchuk_TA
     foaf:fullname "Сидорчук Татьяна Александровна"@ru ;
     foaf:name "Tatjana Sidorchuk" .
 
-odp:Sidoretz_A
+odp:Sidorec_A
     a foaf:Person ;
     foaf:affil "Cognizant, Switzerland" ;
     foaf:fullname "Сидорецс Алекс"@ru ;
-    foaf:name "Alex Sidoretz" .
+    foaf:name "Alex Sidorec" .
 
 odp:Sidorovitch_D
     a foaf:Person ;

@@ -19,36 +19,43 @@
     ical:dtend "2021-10-23"^^xsd:date ;
     ical:dtstart "2021-10-15"^^xsd:date ;
     ical:location "Online, supported by EPAM, Minsk, Belarus" ;
+    od:theVideos <https://www.youtube.com/playlist?list=PLTCt_2Wj3LtObcbU4gkhb6EEIOTpNyhDF> ; 
     ical:url <https://triz-summit.ru/confer/tds2021/> .
 
 :ATalk_201
     dcterms:abstract "G.S. Altshuller has been conducting research on the application of TRIZ methods in non-technical fields since the 1960s. He published works about methods of teaching TRIZ to children and many other developments showing the possibility and necessity of using TRIZ in non-technical fields. The article will analyse this area of G.S. Altshuller's work and the impact of these works on the current state of the topic of \"TRIZ outside of technology\"."@en, "Г.С. Альтшуллер проводил исследования в области по применению методов ТРИЗ в нетехнических областях уже с 1960-х годов. Известны его работы по методам создания научных открытий, синтезу сюжетов литературных произведений, методики преподавания ТРИЗ детям и многие другие разработки, показывающие возможность и необходимость применения ТРИЗ в нетехнических областях. В статье будет приведен анализ этого направления деятельности Г.С. Альтшуллера и влияния этих работ на современное состояние темы \"ТРИЗ вне техники\"."@ru ;
     dcterms:creator odp:Amnuel_PR, odp:Petrov_VM, odp:Rubin_MS ;
+    od:presentedBy odp:Rubin_MS ;
     dcterms:title "GS Altshuller - the founder of the use of TRIZ outside of technology"@en, "Г.С. Альтшуллер – основоположник применения ТРИЗ вне техники"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=5MGphKfI3Vg>;
     a od:Talk .
 
 :ATalk_202
     dcterms:abstract "Function Oriented Search (FOS) is quite successfully used to solve technical problems. Its main advantage is to reduce the cost of implementing the found solution and increase the likelihood of successful implementation. In the service area - both in the consumer and business segments - problems constantly arise that can also be solved applying FOS. The article provides both the methodology itself, adapted to the business sector, and use cases of the methodology. "@en, "Функционально-Ориентированный Поиск (ФОП) достаточно успешно применяется для решения технических проблем. Его основное достоинство - сокращаниие затрат на внедрение найденного решения и повышение вероятности успешного внедрения. В сфере оказания услуг - как в потребительском, так и бизнес сегментах - постоянно возникают проблемы, которые также могут быть устранены с помощью ФОП. В статье приводится как сама методика, адаптированная к сфере бизнеса, так и кейсы применения методики."@ru ;
     dcterms:creator odp:Souchkov_VV ;
     dcterms:title "Application of Function Oriented Search (FOS) in the innovative improvement of business services"@en, "Применение Функционально-Ориентированного Поиска (ФОП) при инновационном совершенствовании бизнес сервисов"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=JvF5no8HzSY>;
     a od:Talk .
 
 :ATalk_203
     dcterms:abstract "Many companies from different industries are going through digital transformation chasing a higher efficiency and new opportunities for game changing services and products. Such transformational changes affect different aspects of the enterprise including business lines, organization, customer segments, experiences, technology and result in multiple contradictions that must be addressed during the transformation. We discuss the potential of TRIZ application for solving multiple interrelated problems in a complex system of evolving enterprise. We also outline the gaps in TRIZ tools during solving these problems."@en, "Многие компании из разных отраслей проходят через цифровую трансформацию в погоне за более высокой эффективностью и новыми возможностями для предоставления услуг и продуктов, меняющих игру. Такие трансформационные изменения затрагивают различные аспекты предприятия, включая направления бизнеса, организацию, сегменты потребителей, опыт, технологии и приводят к многочисленным противоречиям, которые необходимо решать в ходе трансформации. Мы обсуждаем потенциал применения ТРИЗ для решения многочисленных взаимосвязей в сложной системе эволюционирующего предприятия. Мы также описываем недостатки инструментов ТРИЗ при решении этих проблем. "@ru ;
     dcterms:creator odp:Boiko_SS, odp:Martinovskii_G ;
     dcterms:title "Can TRIZ become an enabler for digital transformation?"@en, "Может ли ТРИЗ стать инструментом цифровой трансформации?"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=kONLGsJp6Ww>, <https://www.youtube.com/watch?v=y92xTb2RtOI>; 
     a od:Talk .
 
 :ATalk_204
     dcterms:abstract "Shared Staff and Home-office bring new challenges in Team Management. How TRIZ can help in this process and improve efectivnes and efficiency. What is contradiction in Team management and how to solve this."@en, "Разделенный персонал и домашний офис ставят новые задачи в управлении командой. Как ТРИЗ может помочь в этом процессе и повысить эффективность и результативность. Что такое противоречие в управлении командой и как его решить."@ru ;
     dcterms:creator odp:Eckardt_O ;
     dcterms:title "Shared and distributed team management with TRIZ tools"@en, "Инструменты ТРИЗ для управления распределенными командами"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=28Yq-4suax0>, <https://www.youtube.com/watch?v=jBa7eluT7UQ>; 
     a od:Talk .
 
 :ATalk_205
     od:presentedBy odp:Kuryan_AG ;
     dcterms:abstract "We present the results of the second year of the TRIZ Ontology Project"@en, "В докладе будут представлены результаты 2-го года проекта по созданию Онтологии ТРИЗ"@ru ;
     dcterms:creator odp:Eckardt_O, odp:Kuryan_AG, odp:Rubin_MS, odp:Rubina_NV, odp:Shchedrin_NA ;
+    od:urlVideo <https://www.youtube.com/watch?v=TkFN39V5emw>;
     dcterms:title "TRIZ Ontology. Results of the second year of the project and prospects"@en, "ТРИЗ Онтология. Результаты 2-го года проекта и перспективы"@ru ;
     a od:Talk .
 
@@ -57,11 +64,13 @@
     dcterms:abstract "We consider the usage of the process approach which was previously used to describe and analyze business processes to analyze the processes of functioning and modernization of technical systems. It is shown that the process approach allows: 1. to form new analytical capabilities in assessing the operation of equipment and carrying out technological processes and to minimize the subjectivity of assessments and decisions made, 2. to identify additional resources for the modernization of technical systems. "@en, "Рассмотрено использование процессного подхода, ранее применяемого для описания и анализа бизнес-процессов к анализу процессов функционирования и модернизации технических систем. Показано, что процессный подход позволяет: 1. сформировать новые аналитические возможности при оценке работы оборудования и проведения технологических процессов и минимизировать субъективность оценок и принимаемых решений, 2. выявлять дополнительные ресурсы модернизации технических систем."@ru ;
     dcterms:creator odp:Bystritsky_AA, odp:Nikitin_VN ;
     dcterms:title "Process approach in the analysis and modernisation of technical systems"@en, "Процессный подход при анализе и модернизации технических систем"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=8v9GAhcwtfM>;
     a od:Talk .
 
 :ATalk_207
     dcterms:abstract "Will be presented Flow analysis which is adjusted accordingly to Functional Analysis. Differences with previous versions would be specially highlighted. New terminology will be presented with definition and connection with other TRIZ areas."@en, "Будет представлен анализ потока, который корректируется в соответствии с функциональным анализом. Различия с предыдущей версией будут особо выделены. Будет представлена новая терминология с определением и связью с другими областями ТРИЗ. "@ru ;
     dcterms:creator odp:Eckardt_O ;
+    od:urlVideo <https://www.youtube.com/watch?v=yWdBMvieBcg>;
     dcterms:title "Flow analysis 2.0"@en, "Анализ потоков 2.0"@ru ;
     a od:Talk .
 
@@ -70,6 +79,7 @@
     dcterms:abstract "The density of a problem is a numerical indicator of the problem situation, showing the specific value of the parameter characterizing the problem under consideration. As parameter may be considered energy, consumables, the number of rejects, the wage bill and other parameters characterizing numerically a particular problem situation under consideration. The specific density value of this parameter can be reduced to the area on which the total value of this parameter is formed, to a unit of the total amount of equipment, the total number of operations or elements, to a unit of time, etc. Based on the values ​​of the specific density of a problem situation, it is possible to rank various problem situations and tasks. The higher the specific density of the problem, the more relevant is the problem under consideration and the more promising its solution can be. We present practical examples of this type of analysis for setting tasks on enterprise. "@en, "Плотность проблемы — это численный показатель проблемной ситуации, показывающий удельное значение параметра, характеризующего рассматриваемую проблему. В качестве параметра может рассматриваться энергия, расходные материалы, количество брака, фонд оплаты труда и другие параметры, характеризующие в численном значении ту или иную рассматриваемую проблемную ситуацию. Удельное значение этого параметра может приводиться к площади, на которой формируется суммарное значение этого параметра, к единице общего количества оборудования, общего количества операций или элементов, к единице времени и т.д. На основе значений удельной плотности проблемной ситуации можно ранжировать различные проблемные ситуации и поставленные задачи. Чем выше удельная плотность проблемы, тем более актуальной может быть рассматриваемая проблема и более перспективной ее решение. В статье будут показаны практические примеры этого вида анализа для постановки задач на предприятии."@ru ;
     dcterms:creator odp:Kulakov_AV, odp:Rubin_MS, odp:Trantin_AV ;
     dcterms:title "Problem Density Analysis as a Tool for Ranking a Complex of Problems"@en, "Анализ плотности проблемы как инструмент ранжирования комплекса задач"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=kmIVrKp8FcQ>; 
     a od:Talk .
 
 :ATalk_209
@@ -77,6 +87,7 @@
     dcterms:abstract "Analysis of dissonance of characteristics of a system is a method of analyzing different characteristics of a system related to each other or of the same characteristic of different systems to isolate problem situations and formulate problems. To analyze dissonance characteristics, the same characteristic of the same system can be used, but at different times or at different stages of the system's life cycle. Dissonance in TRIZ is a violation of consistency (harmony) in the interconnected characteristics of one or several similar systems. Analysis of the dissonance of the characteristics of systems is a generalization of a set of types of analysis united by a similar approach: Functional Value Analysis (FVA), sociometry, analysis of developmental limits, theory of cognitive dissonance, functional analysis, etc. These types of analysis can be considered as a special case of the analysis of the dissonance of the characteristics of the system. We present practical examples of this type of analysis for setting tasks in enterprises. "@en, "Анализ диссонанса характеристик системы — это метод анализа связанных между собой разных характеристик одной системы или одной и той же характеристики разных систем для выделения проблемных ситуаций и постановки задач. Для анализа диссонанса характеристик можно использовать одну и ту же характеристику одной и той же системы, но в разное время или на разных этапах жизненного цикла системы. Диссонанс в ТРИЗ — это нарушение согласованности (гармонии) в связанных между собой характеристиках одной или нескольких схожих систем. Анализ диссонанса характеристик систем – это выявление возможных противоречий в развитии систем на основе сравнения связанных между собой характеристик систем, нарушающих ожидаемые или желаемые связи между этими характеристиками. Анализ диссонанса характеристик систем является обобщением комплекса видов анализа, объединенных схожим подходом: функционально-стоимостный анализ (ФСА), социометрия, анализ пределов развития, теория когнетивного диссонанса, функциональный анализ и др. Эти виды анализа можно рассматривать как частный случай анализа диссонанса характеристик системы. В статье будут показаны практические примеры этого вида анализа для постановки задач на предприятии."@ru ;
     dcterms:creator odp:Kharitonov_AS, odp:Kulakov_AV, odp:Rubin_MS, odp:Trantin_AV ;
     dcterms:title "Analysis of the dissonance of system characteristics as a method for problem setting"@en, "Анализ диссонанса характеристик системы как методика постановки задач"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=5mhuCt52y8s>;
     a od:Talk .
 
 :ATalk_210
@@ -84,6 +95,7 @@
     dcterms:creator odp:Fomenko_AY, odp:Saunin_NY ;
     dcterms:abstract "Здесь об опыте построения системы «принуждения» к инновационной деятельности. Мы исходим из того, что в стабильной компании нет лиц по-настоящему заинтересованных в инновациях (у всех всё хорошо) и нужна система, которая бы не только заставляла запускать инновационные проекты, но и обеспечивала их адекватность целям бизнеса (а не смузи-хайповость). Мы такую систему начали строить. Есть первые результаты, которыми хотели поделиться на вашей конференции. "@ru, "We report about the experience of building a system to 'force' innovative action. Our premise is that in a stable company, there are no individuals truly interested in innovation (everyone is doing well) and we need a system that would not only force the launch of innovative projects, but also ensure that they are adequate to business goals (rather than smoothie-hype). We have begun to build such a system. There are initial results, which we wanted to share at your conference. "@en ;
     dcterms:title "Forcing development. An effective way to change the organisation: the Intensive Evolution System"@en, "Принуждение к развитию. Как эффективно изменять организацию: Intensive Evolution System"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=Obw5HY6hr-U>;
     a od:Talk .
 
 :ATalk_211
@@ -92,6 +104,7 @@ The implementation of TRIZ in medicine, including drug development, requires ext
 Для внедрения ТРИЗ в медицину, включая разработку лекарств, необходимы обширные знания в нескольких областях, основанных на методе Silico modeling- молекулярного моделирования. Этот метод включает в себя знания поведения молекул в различных ситуациях и их взаимодействия друг с другом при разных температурах, а также в присутствии солей и других соединений. """@ru ;
     dcterms:creator odp:Faber_B ;
     dcterms:title "TRIZ in medicine"@en, "ТРИЗ в медицине"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=czV-cplo4dE>; 
     a od:Talk .
 
 :ATalk_212
@@ -100,6 +113,7 @@ The implementation of TRIZ in medicine, including drug development, requires ext
 * Производственная система – это концепция управления бережливого производства на отечественных предприятиях, производная от Lean manufacturing"""@ru ;
     dcterms:creator odp:Kassou_R, odp:Yakovenko_SA ;
     dcterms:title "TRIZ and the Production System: Methodological and Organizational View of Their Interaction"@en, "ТРИЗ и Производственная система: Методологический и организационный взгляд на их взаимодействие"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=hq8RcpCHI9w> ;
     a od:Talk .
 
 :ATalk_213
@@ -107,12 +121,14 @@ The implementation of TRIZ in medicine, including drug development, requires ext
     od:urlSlides <https://wumm-project.github.io/Texts/Petrov/TDS-21-Slides.pdf> ;
     dcterms:abstract "This article is devoted to the topic of resolving contradictions. In this article, we call a technical contradiction (TC) a contradiction within the requirements (CR), and a physical contradiction (PC) - a contradiction of properties (CP). The contradiction within the requirements (CR) is resolved using a system of methods for resolving TC. Resolving the contradiction of properties (CP) is not so easy. We propose methods for analyzing the contradiction of requirements (CR) and contradiction of properties (CP), which makes it possible to deal with these contradictions more accurately and to choose a way of separating conflicting properties. The author called this Analysis of CR and CP. "@en, "Статья посвящена теме разрешения противоречий. В данной статье принято техническое противоречие (ТП) называть противоречие требований (ПТ), а физическое противоречие (ФП) – противоречие свойств (ПС). Противоречие требований (ПТ) разрешается с помощью системы приемов разрешения ТП. Разрешение противоречия свойств (ПС) не так-то и просто. В статье предлагается способы анализа противоречия требований (ПТ) и противоречия свойств (ПС), позволяющий точнее разобраться с этими противоречиями и выбрать способ разделения противоречивых свойств. Автор назвал это Анализ ПТ и ПС."@ru ;
     dcterms:creator odp:Petrov_VM ;
+    od:urlVideo <https://www.youtube.com/watch?v=BecYTCZMk6s> ; 
     dcterms:title "Deepened contradiction analysis"@en, "Углубленный анализ противоречий"@ru ;
     a od:Talk .
 
 :ATalk_214
     dcterms:abstract "We consider the concept of a physical effect as the effect of transformation of one measurable physical quantity into another, a method for constructing trends in physical effects based on the concept of an invariant - a general property. The search for an invariant is based on mathematical formulas that specify the transformation of the input into the output of a physical effect. A method is also proposed for the numerical calculation of the complexity of different trends, which makes it possible to compare them when choosing the physical principle of operation of the technical system. "@en, "В докладе предполагается рассмотреть понятие физического эффекта как эффекта преобразования одной измеряемой физической величину в другую, рассмотреть методику построения трендов физических эффектов, основанную на понятии инварианта - общего свойства. Поиск инварианта основан на математических формулах, задающих преобразование входа в выход физического эффекта. Предлагается также методика численного расчета сложности разных трендов, позволяющая сравнивать их при выборе физического принципа действия технической системы."@ru ;
     dcterms:creator odp:Bushuyev_AB ;
+    od:urlVideo <https://www.youtube.com/watch?v=aPJ0wukRJs0> ;
     dcterms:title "Trends in Physical Effects"@en, "Тренды физических эффектов"@ru ;
     a od:Talk .
 
@@ -120,17 +136,20 @@ The implementation of TRIZ in medicine, including drug development, requires ext
     dcterms:abstract "In this talk we discuss the refinement of the System Operator as tool and the experience of applying the refined version to cases from different businesses (insurance, property management, manufacturing, etc.) including strategic development "@en, "Здесь о доработке инструмента «Системный оператор» и опыте применения доработанного варианта на кейсах различных бизнесов (страховая, управление недвижимостью, производство и т.д.) в т.ч. для разработки стратегий. "@ru ;
     dcterms:creator odp:Fomenko_AY, odp:Saunin_NY ;
     dcterms:title "Approaches to the application of the System Operator in solving organisational and management problems"@en, "Подходы к применению Системного оператора в решении организационно-управленческих задач"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=goWEA5s0dGA>;
     a od:Talk .
 
 :ATalk_216
     dcterms:abstract "The report outlines a methodology for using Functional Value Analysis (FVA) in software development. The methodology is formed as the result of five years of experimentation in carrying out functional value analysis of more than six dozen software systems. The methodology takes into account the differences in the production of material and software products (the low cost of “making an instance“ of the software system in comparison with its design, greater flexibility, the ability to move functions between components, ease of implementation of insignificant functions, the problem of ensuring conceptual unity - the so-called second order effect - etc. The method uses ideas of improving functional analysis (proposed in 2017 by N.B. and O.N. Feigenson, Yu.I. Fedosov) and risk management methods. Executing FVA of software systems includes building functional and structural models; combining them into a single functional-structural model; assessment of the significance of functions and the value of components; the transfer of significance from functions to components, and the value from components to functions, the use of “significance-value” and “problematic-utility” diagrams to select “weak links”; functionally ideal modeling to find ways to improve the system; comparison of “AS IS“ and “TO BE“ models to assess the effectiveness of the proposed changes. "@en, "В докладе излагается методика применения функционально-стоимостного анализа (ФСА) при разработке программного обеспечения. Методика сформирована в результате проводившихся в течение пяти лет экспериментов по проведению функционально-стоимостного анализа более шести десятков программных систем. Методика учитывает различия в производстве материальных и программных продуктов (дешевизну «изготовления экземпляра» программной системы по сравнению с ее проектированием, большую гибкость, возможность перемещения функций между компонентами, простоту реализации малозначимых функций, проблему обеспечения концептуального единства (т.н. «эффект второй системы») и пр.). Методика использует идеи усовершенствованного функционального анализа (предложенные в 2017 г. Н.Б. и О.Н. Фейгенсонами, Ю.И. Федосовым) и методы управления рисками. Проведение ФСА программной системы включает в себя построение функциональной и структурной моделей; объединение их в единую функционально-структурную модель; оценку значимости функций и стоимости компонент; перенос значимости с функций на компоненты, а стоимости с компонент на функции, использование диаграмм «значимость-стоимость» и «проблемность-полезность» для выбора «слабых звеньев»; функционально-идеальное моделирование для поиска путей усовершенствования системы; сопоставление моделей «AS IS» и «TO BE» для оценки результативности предлагаемых изменений."@ru ;
     dcterms:creator odp:Plaksin_MA ;
     dcterms:title "On the application of Functional Value Analysis in software development"@en, "О применении функционально-стоимостного анализа при разработке программного обеспечения"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=KTj2LBZq_xo>; 
     a od:Talk .
 
 :ATalk_217
     dcterms:abstract "TRIZ contains a wide range of models for analyzing technical systems, identifying and solving inventive problems in them, as well as for synthesizing new technical systems and predicting their development. They include system, functional, flow models. For the application of TRIZ in new areas of engineering and technology, primarily in the IT sphere and business, process models are also important. We present the ontology of process models, as well as their integration with TRIZ tools and approaches."@en, "В ТРИЗ имеется широкий спектр моделей для анализа технических систем, выявления и решения в них изобретательских задач, а также для синтеза новых технических систем и прогноза их развития. К ним можно отнести системные, функциональные, потоковые модели. Для применния ТРИЗ в новых областях техники и технологий, в первую очередь, в ИТ-сфере и бизнесе, важны также модели процессов. В докладе будет представлена онтология моделей процессов, а также их интеграция с инструментами и подходами ТРИЗ. "@ru ;
     dcterms:creator odp:Kuryan_AG ;
+    od:urlVideo <https://www.youtube.com/watch?v=kucCiY01Tw0>;
     dcterms:title "Process models in TRIZ"@en, "Модели процессов в ТРИЗ"@ru ;
     a od:Talk .
 
@@ -138,6 +157,7 @@ The implementation of TRIZ in medicine, including drug development, requires ext
     dcterms:abstract "The methodology under consideration for working on process improvement involves a step-by-step implementation of basic analytical procedures. The most effective tool for process improvement is trimming. It is carried out after functional modelling and the construction of a diagnostic table, taking into account the presence of key shortcomings in the elements to be rolled up (technological operations). "@en, "Рассматриваемая методика работы над совершенствованием технологических процессов предусматривает поэтапное выполнение основных аналитических процедур. Наиболее эффективным инструментом совершенствования технологических процессов является свертывание. Оно проводится после функционального моделирования и построения диагностической таблицы, при этом учитывается наличие у свертываемых элементов (технологических операций) ключевых недостатков. "@ru ;
     dcterms:creator odp:Domkin_KI, odp:Gerasimov_OM, odp:Severinets_GA ;
     dcterms:title "Specifics of the application of trimming of constructive elements in the improvement of technical processes"@en, "Особенности применения методики свертывания элементов конструкций при совершенствовании технологических процессов"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=HaxvKmyWUSM>;
     a od:Talk .
 
 :ATalk_219
@@ -148,6 +168,7 @@ The use of ARIZ tool is proposed to solve these problems. Examples of using ARIZ
 Для решения данных задач предложено использование инструмента АРИЗ. Приведены примеры использования АРИЗ для нахождения и решения противоречий в бизнес среде. Наличие противоречия – это один из ключевых открытий для бизнеса. Показана практика использования АРИЗ в одной из ведущих ИТ компаний в мире и какие результаты были получены. Например, с помощью АРИЗ удалось увеличить продажи ИТ компании на 50% и при этом оптимизировать (сократить) использование ресурсов на 35%. """@ru ;
     dcterms:creator odp:Petrov_De, odp:Petrov_VM ;
     dcterms:title "Using TRIZ tools to solve business problems"@en, "Использование инструментария ТРИЗ для решения бизнес-задач"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=5RhZMq4VWc0>;
     a od:Talk .
 
 :ATalk_220
@@ -156,6 +177,7 @@ The use of ARIZ tool is proposed to solve these problems. Examples of using ARIZ
     dcterms:abstract "The contribution of the GDR inventor schools of the 1980s to the further development of the TRIZ methodology has received little international attention yet. In the two algorithmic versions ProHEAL (Rindfleisch, Thiel) and WOIS (Linde), the social social conditions and needs as well as their articulation in administrative contradictions are emphasized more strongly than in Altshuller's traditional TRIZ approach, which often start with the actual technical problems. The instrument of the ABER matrix allows for a much more objective analysis of the societal embedding and conditions of engineering activities compared to widespread demand-oriented methods of requirements analysis such as Design Thinking. Within the WUMM project based on available historical documents as well as in discussions with contemporary witnesses who are still alive we extracted the main findings of this methodology. These results will be presented. "@en, "Вклад школ изобретателей ГДР 1980-х годов в дальнейшее развитие методологии ТРИЗ до сих пор не получил должного международного внимания. В двух алгоритмических версиях ProHEAL (Rindfleisch, Thiel) и WOIS (Linde) общественные социальные условия и потребности, а также их артикуляция в административных противоречиях подчеркиваются сильнее, чем в традиционном ТРИЗ-подходе Альтшуллера, который часто начинается с фактических технических проблем. Инструмент матрицы ABER позволяет гораздо более объективно анализировать встраивание в общество и условия инженерной деятельности по сравнению с широко распространенными методами анализа требований, ориентированными на спрос, такими как Design Thinking. В рамках проекта WUMM на основе имеющихся исторических документов, а также в беседах с современниками, которые еще живы, мы извлекли основные выводы из этой методологии. Эти результаты будут представлены."@ru ;
     dcterms:creator odp:Graebe_HG ;
     dcterms:title "ProHEAL - on the methodology of the GDR inventor schools"@en, "ProHEAL - о методологии школ-изобретателей ГДР"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=hI9Ws_MXD1c>;
     a od:Talk .
 
 :ATalk_221
@@ -167,6 +189,7 @@ The features of distance learning for solving inventive problems of company empl
 Показаны особенности дистанционного обучения решению изобретательских задач сотрудников компаний и студентов университетов в условиях дефицита времени."""@ru ;
     dcterms:creator odp:Shpakovsky_NA ;
     dcterms:title "TRIZ Training of employees of companies within restricted time frames."@en, "Обучение сотрудников компаний ТРИЗ в условиях дефицита времени."@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=ixYeXz0C4Ws>;
     a od:Talk .
 
 :ATalk_222
@@ -189,41 +212,48 @@ The material gives names of more than a dozen initial areas of production proble
 В материале приводятся названия более десятка исходных областей постановки производственных проблем. Даны примеры отзывов специалистов, прошедших ТРИЗ-обучение, а также несколько отзывов Компаний на результаты реализации утвержденных Договоров. В конце материала приводится субъективная оценка достоинств и недостатков онлайн обучения. Сделаны текущие выводы по данной теме."""@ru ;
     dcterms:creator odp:Gafitulin_MS ;
     dcterms:title "Experience of applying TRIZ in industrial companies"@en, "Опыт применения ТРИЗ в промышленных компаниях"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=Rc0mv1ajQYw>;
     a od:Talk .
 
 :EduTalk_101
     dcterms:abstract "TRIZ Summit Cup is an annual TRIZ correspondence competition for schoolchildren and students. For half a year, participants can try themselves in various Cup nominations. \"Invention\" - solving inventional tasks; \"Fantasy\" - composing fantastic stories, fairy tales; \"TRIZ Tools\" - possession of TRIZ tools; \"Research in TRIZ\" - defense of a research project; \"Videos on TRIZ\" - try yourself in film profession. "@en, "Кубок ТРИЗ Саммита - ежегодный заочный конкурс по ТРИЗ для школьников и студентов. В течение полугода участники могут попробовать себя в различных номинациях Кубка. \"Изобретательство\" - решение изобретательских задач; \"Фантазирование\" - сочинение фантастических рассказов, сказок; \"Инструменты ТРИЗ\" - владение инстрементами ТРИЗ; \"Исследования в ТРИЗ\" - защита исследовательского проекта; \"Видео-ролики по ТРИЗ\" - попробовать себя в кинопрофессии. ."@ru ;
     dcterms:creator odp:Rubina_NV ;
     dcterms:title "TRIZ Summit Cup 2021"@en, "Кубок ТРИЗ Саммита 2021"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=MVL-uraKvOM>;
     a od:Talk .
 
 :EduTalk_102
     dcterms:abstract "G.S. Altshuller is the founder of the direction of application of TRIZ in non-technical systems. TRIZ methods are universal, they can be applied both to the improvement of a specific technical system and to forecast development of genres of music or cinema. "@en, "Г.С. Альтушеллер - основатель направления применение ТРИЗ в нетехнических системах. Методы ТРИЗ - универсальны, они могут быть применимы как к совершенствованию конкретной технической системы, так и к прогнозированию развития жанров музыки или кино."@ru ;
     dcterms:creator odp:Rubin_MS ;
     dcterms:title "TRIZ beyond technology. Anniversary of G.S. Altshuller"@en, "ТРИЗ вне техники. Юбилей ГСА"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=X4QLZ8eLGso>;
     a od:Talk .
 
 :EduTalk_103
     dcterms:abstract "Research work with senior schoolchildren and students dies before it starts for several reasons. When interviewing the leaders of such projects, most often they mention poor motivation of adolescents, lack of sufficient technical base and budget. Groups gather and disintegrate faster than the first results can be demonstrated. In the report, the author shows the contradictions underlying such problems and ways to eliminate them. Resources and opportunities for development are offered. The use of new socio-technical opportunities provides a variety of resources for resolving these contradictions. "@en, "Исследовательская работа со старшими школьниками и студентами умирает не начавшись по нескольким причинам. При опросе руководителей таких проектов чаще всего упоминается - слабая мотивация подростков, отсутсвие достаточной технической базы и бюджета. Группы собираются и распадаются быстрее чем первые результаты можно демонстрировать. В докладе автор показывает противоречия лежащие в основе таких проблем и пути их устранения. Предлагаются ресурсы и возможности развития. Применение новых социально-технических возможностей даёт разнообразие ресурсов для решения этих противоречий."@ru ;
     dcterms:creator odp:Eckardt_O ;
     dcterms:title "New approaches in organizing research activities using TRIZ methods among schoolchildren and students"@en, "Новые подходы в организации исследовательской деятельности методами ТРИЗ у школьников и студентов"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=3kdCJlFpJ24>;
     a od:Talk .
 
 :EduTalk_104
     dcterms:abstract "The possibilities of using and integrating TRIZ-technology tools in training students in woodworking professions of the open source software system for the development of professionals are prsented."@en, "В докладе представлены возможности применения и интеграции инструментов ТРИЗ-технологии в обучении студентов профессий деревообрабатывающего профиля системы СПО для становления профессионалов."@ru ;
     dcterms:creator odp:Korotkih_SN ;
     dcterms:title "TRIZ technologies in high-quality training of specialists"@en, "ТРИЗ-технологии в качественной подготовке специалистов"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=OUDmLbi9dpE>;
     a od:Talk .
 
 :EduTalk_105
     dcterms:abstract "The experience of using educational experiments to form scientific ideas and get ideas for children's inventions are presented."@en, "В докладе представлен опыт использования учебных экспериментов для формирования научных представлений и получения идей для детского изобретательства."@ru ;
     dcterms:creator odp:Nesterenko_AA, odp:Terekhova_GV;
     dcterms:title "Digital Laboratory \"Triz Inventor\""@en, "Цифровая лаборатория \"Тризобретатель\""@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=mWR2IdrAv90>;
     a od:Talk .
 
 :EduTalk_106
     dcterms:abstract "The purpose of the report is to outline the possibilities of OTSM-TRIZ to solve main issues of education in the 21st century. We characterise the situation of the modern educational system and draw on its main problems. The need for the ability to manage problems at different levels of the education system is emphasized. "@en, "Целью доклада является обозначить возможности ОТСМ-ТРИЗ для решения актуальных вопросов образования 21-го века. В докладе с точки зрения ОТСМ-ТРИЗ дана характеристика состояния современной системы образования и выявлены основные проблемы. Акцентируется необходимость в умении управлять проблемами на разных уровнях системы образования."@ru ;
     dcterms:creator odp:Murashkovska_IN ;
+    od:urlVideo <https://www.youtube.com/watch?v=dI5ZzTR1-1k>;
     dcterms:title "OTSM-TRIZ: within and beyond educational innovations of the third millennium"@en, "ОТСМ-ТРИЗ: в рамках и за пределами образовательных инноваций третьего тысячелетия"@ru ;
     a od:Talk .
 
@@ -231,6 +261,7 @@ The material gives names of more than a dozen initial areas of production proble
     dcterms:abstract "Forecast of the development of civilization, which is characterized by the fact that algorithms and machines are used to inhibit the natural aggression of people, which are included in civilization processes as full members of the community, and which is characterized by the description of models are which use anti-elemental fields of braking and destruction. "@en, "Прогноз развития цивилизации, отличающийся тем, что для торможения природной агрессии людей используются алгоритмы и машины, которые входят в цивилизационные процессы как полноправные члены сообщества, отличающийся тем, что описания таких моделей предлагается использовать анти-элеполи торможения и разрушения."@ru ;
     dcterms:creator odp:Rubin_MS ;
     dcterms:title "\"Traffic lights\" of a smart civilization"@en, "\"Светофоры\" смарт-цивилизации"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=zURCmDvPCKg>;
     a od:Talk .
 
 :EduTalk_108
@@ -249,22 +280,26 @@ The results of the study showed that the inclusion of art technologies in the ed
 Результаты исследования показали, что включение в образовательный процесс арт-технологий положительно влияет на психоэмоциональную сферу детей школьного и дошкольного возраста, способствует творческому развитию, снимает стресс, тревожность, раскрепощает детей, способствует снятию усталости и уменьшает риск гиподинамии."""@ru ;
     dcterms:creator odp:Fradkova_L, odp:Kozin_A, odp:Smirnova_I ;
     dcterms:title "ImproChildhood - life as creativity. Art technology in kindergartens and schools."@en, "Импродетство — жизнь как творчество. Арт-технологии в детских садах и школах"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=JxDi38N3m08>;
     a od:Talk .
 
 :EduTalk_109
     dcterms:abstract "The TRIZ model reflects both the process of solving inventive problems using various tools, and the process of transforming systems, including transformations using RTV tools. The report discusses the features of application of the TRIZ model to RTV tools, as well as the classification of RTV methods and techniques based on the TRIZ model. "@en, "Модель ТРИЗ отражает как процесс решения изобретательских задач с использованием различных инструментов, так и процесс преобразования систем, в том числе и с помощью инструментов РТВ. В докладе обсуждаются особенности применения модели ТРИЗ к инструментам РТВ, а также классификация методов и приемов РТВ на оснвое модели ТРИЗ."@ru ;
     dcterms:creator odp:Rubina_NV ;
     dcterms:title "Development of creative imaging (RTV) ontology and TRIZ model"@en, "Онтология РТВ и модель ТРИЗ"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=FTmzhybNbTs>;
     a od:Talk .
 
 :EduTalk_110
     dcterms:abstract "The report is devoted to the evolution of SciFi ideas, illustrated with the example of specific SciFi ideas. Addressed to all those interested in science fiction and teaching RTV and TRIZ."@en, "Доклад посвящен эволюции НФ идей, проиллюстрирована на примере конкретных НФ идей. Адресована всем интересующимся фантастикой и преподаванием РТВ и ТРИЗ."@ru ;
     dcterms:creator odp:Amnuel_PR ;
     dcterms:title "Using SciFi Ideas in the RTV Course"@en, "Использование НФ идей в курсе РТВ"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=x5YqBF3S9NI>;
     a od:Talk .
 
 :EduTalk_111
     dcterms:abstract "In this article, we have described our 46 years of experience in applying TRIZ in education. We have analysed hundreds of thousands of problems in mathematics, physics, chemistry, developed a system of operations and algorithms, set standards for solving them, and included aspects of the latest achievements of didactics, psychology, psychophysiology, and object-oriented programming. When teaching generalized actions and operations, we teach visual and figurative use of graphic material, reference signals, diagrams, schemes, and develop screen and figurative thinking. Key words: TRIZ, Education, Image Method, History of Image Method, Categories of Image Method. "@en, "В статье мы описали наш 46 летний опыт применения ТРИЗ в образовании. С позиции ТРИЗ были проанализированы сотни тысяч задач по математике, физике, химии, разработал систему операций и алгоритмов, установлены стандарты по их решению, включены аспекты новейших достижений дидактики, психологии, психофизиологии, объектно-ориентированного программирования. При обучении обобщенным действиям и операциям, мы обучаем наглядно-образному использованию графического материала, опорных сигналов, диаграмм, схем и развиваем экранное и образное мышление. Ключевые слова: ТРИЗ, Образование, Метод Образов, История Метода Образов, категории Метода Образов. "@ru ;
     dcterms:creator odp:Faber_B ;
     dcterms:title "TRIZ in Education, History of the Development of Image-based Teaching, Business Experience"@en, "ТРИЗ в Образовании, История развития преподавания на основе Метода Образов, бизнес-опыт"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=CVsAF6SfLfM>;
     a od:Talk .
