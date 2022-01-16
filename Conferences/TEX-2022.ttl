@@ -1,0 +1,54 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix odp: <http://opendiscovery.org/rdf/Person/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://opendiscovery.org/rdf/Conferences/TEX-2022/> .
+
+:General
+    a swc:ConferenceEvent ;
+    rdfs:label "German TRIZ Experts Meeting 2022" ;
+    ical:dtend "2022-01-14"^^xsd:date ;
+    ical:dtstart "2022-01-13"^^xsd:date ;
+    ical:location "Sulzbach-Rosenberg, Germany" ;
+    ical:summary "Das TRIZ-Expertentreffen wurde exklusiv für TRIZ-Ausgebildete geschaffen. Um an diesem Treffen teilnehmen zu können, sollten Sie zumindest eine Basisschulung besucht haben oder die TRIZ-Methoden schon erfolgreich auf eigene Problemstellungen angewendet haben. Am besten beides."@de, "The TRIZ Expert Meeting was created exclusively for TRIZ-trained people. To participate in this meeting, you should have attended at least a basic training course or have already successfully applied the TRIZ methods to your own problems. Preferably both."@en, "Встреча экспертов ТРИЗ специально обращается к ТРИЗ-стажерам. Чтобы принять участие в этой встрече, вы, по крайней мере, прош9ли базовый курс обучения или уже успешно применяли методы ТРИЗ к собственным проблемам. "@ru ;
+    ical:url <https://www.triz-consulting.de/angebote/triz-schulungen-kurse/triz-expertentreffen-2022/> .
+
+:Talk_100
+    dcterms:abstract "Nachhaltigkeit ist das kommende MUSS für Unternehmen. Wir müssen in eine Circular Economy. Es gibt auch schon viele Tools, die zeigen, wie ein Nachhaltigkeitsstatement auf C-Level Ebene formuliert werden kann. Aber wie bekomme ich Nachhaltigkeit in ein Produkt designed? Hier kann die Funktionsanalyse von TRIZ helfen. In der Kombination mit PESTLE Feldern, lässt sich ein System zielgerichtet mit Nachhaltigkeit verbinden und dadurch konkrete Entwicklungsaufträge ableiten. "@de, "Sustainability is the upcoming MUST for companies. We have to move into a circular economy. There are already many tools that show how a sustainability statement can be formulated at C-level. But how do I get sustainability designed in a product? Here TRIZ functional analysis  can help. In combination with PESTLE fields, a system can be connected with sustainability in a targeted manner and concrete development orders can be derived from this. "@en, "Направление на устойчивость в будущем является ОБЯЗАТЕЛЬНЫМ требованием для компаний. Мы должны перейти к экономике замкнутого цикла. Уже существует множество инструментов, которые показывают, как заявление об устойчивом развитии может быть выражено на уровне высшего руководства. Но как интегрировать устойчивость в разработку продуктa? Здесь может помочь функциональный анализ ТРИЗ. В сочетании с полями PESTLE система может быть связана с устойчивостью целенаправленным образом, и конкретные заказы на разработку могут быть получены из это."@ru ;
+    dcterms:creator odp:Mayer_O, odp:Schaumann_U ;
+    dcterms:title "TRIZ and Sustainability"@en, "TRIZ und Nachhaltigkeit"@de, "ТРИЗ и устойчивость"@ru ;
+    a od:Talk .
+
+:Talk_101
+    dcterms:creator odp:Wessner_J ;
+    dcterms:title "Erweiterung der 9-Felder und Verknüpfung mit Ressourcen"@de, "Expanding 9 fields and linking to resources"@en, "Расширение 9 полей и связь с ресурсами"@ru ;
+    a od:Talk .
+
+:Talk_102
+    dcterms:abstract """Customer benefits: More yield, easier work and more time! Meeting the highest quality requirements by combining the functional analysis of TRIZ with an increase in process capability through Six Sigma. """@en, """Kunden-Nutzen: Mehr Ertrag, einfachere Arbeit und mehr Zeit! Höchsten Qualitäts-Anforderungen gerecht werden durch die Kombination der Funktions-Analyse von TRIZ mit Steigerung der Prozessfähigkeit durch Six-Sigma. """@de, """Преимущества для клиентов: больше прибыли, более простая работа и больше времени! Удовлетворение самых высоких требований к качеству за счет сочетания функционального анализа ТРИЗ с повышением производительности процесса с помощью Six Sigm . """@ru ;
+    dcterms:creator odp:Hierl_R ;
+    dcterms:title "Extreme Quality"@en, "Extreme Qualität"@de, "Экстремальное качество"@ru ;
+    a od:Talk .
+
+:Talk_103
+    dcterms:creator odp:Gerundt_O, odp:Wagner_L ;
+    dcterms:title "TRIZ trends for business model development"@en, "TRIZ-Trends für Businessmodell-Entwicklung"@de, "Тренды ТРИЗ для разработки бизнес-моделей"@ru ;
+    a od:Talk .
+
+:Talk_104
+    dcterms:abstract """Many \"optimizers\" face this exact equation, and often see the greatest leverage in reducing costs. This is also a tried and tested means to increase ideality (or \"value\" in value analysis). At the same time, market companions/competitors come and offer comparable benefits at unattainable prices. Two methods, cleverly combined with one another, could open up additional possibilities here.
+How can the DFMA and TRIZ methods be used in working groups? How can the two methods be used to complement each other? Which indicators are provided in the DFMA as a starting point for optimization? Which indicators are made available in TRIZ, whether and how to work with DFMA ...
+These and other questions will be discussed and answered in the presentation. """@en, """Viele „Optimierer“ sehen sich vor genau dieser Gleichung, und sehen oft den größten Hebel in der Reduzierung der Kosten. Dies ist auch ein probates Mittel, um die Idealität (oder in der Wertanalyse den „Wert“) zu erhöhen. Gleichzeitig kommen Marktbegleiter/Wettbewerber und bieten vergleichbaren Nutzen zu unerreichbaren Preisen an. Zwei Methoden, geschickt miteinander kombiniert, könnten hierbei zusätzliche Möglichkeiten eröffnen.
+Wie können die DFMA- und die TRIZ Methode in Arbeitsgruppen angewendet werden? Wie können die beiden Methoden als Ergänzung zueinander eingesetzt werden? Welche Indikatoren werden in der DFMA als Ausgangspunkt für Optimierung geliefert? Welche Indikatoren werden in der TRIZ zur Verfügung gestellt, ob und wie mit DFMA zu arbeiten…
+Diese und weitere Fragen werden im Vortrag behandelt und beantwortet. """@de, """Многие \"оптимизаторы\" сталкиваются именно с этим уравнением и часто видят наибольший эффект в снижении затрат. Это также проверенный метод повышения идеальности (или «ценности» в стоимостном анализе). В то же время приходят компаньоны или конкуренты на рынок и предлагают сопоставимую выгоду по недостижимым ценам. Два метода, умело объединенные друг с другом, могут открыть здесь дополнительные возможности.
+Как можно использовать методы DFMA и ТРИЗ в рабочих группах? Как эти два метода могут быть использованы для дополнения друг друга? Какие индикаторы предусмотрены в DFMA в качестве отправной точки для оптимизации? Какие индикаторы используются в ТРИЗ, можно ли и как работать с DFMA ...
+Эти и другие вопросы будут обсудждены в презентации. """@ru ;
+    dcterms:creator odp:Haussmann_B ;
+    dcterms:title "DFMA and TRIZ - Brothers in spirit ... - Possibilities and delimitation of the two methods"@en, "DFMA und TRIZ – Brüder im Geiste… – Möglichkeiten und Abgrenzung der beiden Methoden"@de, "ДФМА и ТРИЗ - Братья по духу... - Возможности и разграничение двух методов"@ru ;
+    a od:Talk .
+

@@ -171,7 +171,7 @@
 
 :Talk_121
     swc:relatedToEvent track:Main ;
-    dcterms:creator odp:Keiper_D, odp:Hausmann_B, odp:Schaefer_T ;
+    dcterms:creator odp:Keiper_D, odp:Haussmann_B, odp:Schaefer_T ;
     dcterms:title "What TRIZ Tools Where Used in the Pre-TRIZ Age? - a Study of an Aircraft Engineering Project"@en ;
     od:urlVideo <https://www.youtube.com/watch?v=A7PEU7PSlUc>;
     a od:Talk .

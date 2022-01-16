@@ -33,7 +33,7 @@ odp:Adima_S
 
 odp:Adunka_R
     a foaf:Person ;
-    foaf:affil "TRIZ Consulting Group, Germany" ;
+    foaf:affil "TRIZ Consulting Group, Sulzbach-Rosenberg, Germany" ;
     foaf:homepage <http://www.adunka.de/> ;
     foaf:name "Robert Adunka" .
 
@@ -1197,6 +1197,12 @@ odp:Gershman_MD
     foaf:fullname "Гершман Михаил Давидович"@ru ;
     foaf:name "Michael Gershman" .
 
+
+odp:Gerundt_O
+    a foaf:Person ;
+    foaf:affil "Bosch, Stuttgart, Germany" ;
+    foaf:name "Oliver Gerundt" .
+
 odp:Ghane_M
     a foaf:Person ;
     foaf:name "Mostafa Ghane" .
@@ -1262,6 +1268,7 @@ odp:Graebe_HG
 
 odp:Graf_M
     a foaf:Person ;
+    foaf:affil "Schubert Packaging, Crailsheim, Germany" ;
     foaf:name "Michael Graf" .
 
 odp:Gredynarov_I
@@ -1407,9 +1414,10 @@ odp:Hasan_M
     a foaf:Person ;
     foaf:name "Mohammad Hasan" .
 
-odp:Hausmann_B
+odp:Haussmann_B
     a foaf:Person ;
-    foaf:name "Bernd Hausmann" .
+    foaf:affil "Konzept:Werk, Ulm, Germany" ;
+    foaf:name "Bernd Haussmann" .
 
 odp:He_XZ
     a foaf:Person ;
@@ -1453,6 +1461,11 @@ odp:Hiltmann_K
     a foaf:Person ;
     foaf:affil "Coburg University of Applied Sciences, Germany" ;
     foaf:name "Kai Hiltmann" .
+
+odp:Hierl_R
+    a foaf:Person ;
+    foaf:affil "Leadership Service, Freudenberg, Germany" ;
+    foaf:name "Robert Hierl" .
 
 odp:Hiltmann_N
     a foaf:Person ;
@@ -2645,7 +2658,7 @@ odp:Maximov_NI
 
 odp:Mayer_O
     a foaf:Person ;
-    foaf:affil "Bayern Innovativ, Germany" ;
+    foaf:affil "Bayern Innovativ, Nürnberg, Germany" ;
     foaf:name "Oliver Mayer" .
 
 odp:Maziri_A
@@ -3028,6 +3041,11 @@ odp:Otava_E
 odp:Ouezgan_A
     a foaf:Person ;
     foaf:name "Ahmed Ouezgan" .
+
+odp:Paasche_N
+    a foaf:Person ;
+    foaf:affil "Mittweida, Germany" ;
+    foaf:name "Norman Paasche" .
 
 odp:Pai_T
     a foaf:Person ;
@@ -3441,6 +3459,11 @@ odp:Rubina_NV
     foaf:fullname "Рубина Наталия Викторовна"@ru ;
     foaf:name "Natalja Rubina" .
 
+odp:Ruck_J
+    a foaf:Person ;
+    foaf:affil "Linz, Austria" ;
+    foaf:name "Joachim Ruck" .
+
 odp:Rui_Z
     a foaf:Person ;
     foaf:name "Zhang Rui" .
@@ -3648,6 +3671,11 @@ odp:Severinets_GA
     foaf:affil "Moscow, Russia" ;
     foaf:fullname "Северинец Георгий Анатольевич"@ru ;
     foaf:name "Georgi Severinets" .
+
+odp:Seydlitz_T
+    a foaf:Person ;
+    foaf:affil "FH Westküste, Heide, Germany" ;
+    foaf:name "Thomas Seydlitz" .
 
 odp:Shahrul_K
     a foaf:Person ;
@@ -3952,6 +3980,16 @@ odp:Souchkov_VV
     foaf:fullname "Сушков Валерий Викторович"@ru ;
     foaf:homepage <https://www.facebook.com/valeri.souchkov> ;
     foaf:name "Valeri V. Souchkov" .
+
+odp:Spasic_I
+    a foaf:Person ;
+    foaf:affil "Cardiff University, UK" ;
+    foaf:name "Irena Spasić" .
+
+odp:Spaeth_A
+    a foaf:Person ;
+    foaf:affil "FAU Erlangen, Germany" ;
+    foaf:name "Andreas Späth" .
 
 odp:Spasic_I
     a foaf:Person ;
@@ -4315,6 +4353,11 @@ odp:Volokitin_YI
     foaf:fullname "Волокитин Юрий Иванович"@ru ;
     foaf:name "Yuri I. Volotkin" .
 
+odp:Wagner_L
+    a foaf:Person ;
+    foaf:affil "Bosch, Stuttgart, Geremany" ;
+    foaf:name "Luisa Wagner" .
+
 odp:Waldman_MK
     a foaf:Person ;
     foaf:affil "USA" ;
@@ -4410,13 +4453,23 @@ odp:Weigang_S
     a foaf:Person ;
     foaf:name "Shi Weigang" .
 
+odp:Weigert_S
+    a foaf:Person ;
+    foaf:affil "Oberhaching, Germany" ;
+    foaf:name "Siegfried Weigert" .
+
 odp:Wenxin_C
     a foaf:Person ;
     foaf:name "Chen Wenxin" .
 
+odp:Werninghaus_E
+    a foaf:Person ;
+    foaf:affil "Kolbenschmidt, Heilbronn, Germany" ;
+    foaf:name "Edward Werninghaus" .
+
 odp:Wessner_J
     a foaf:Person ;
-    foaf:affil "Gerlingen, Germany" ;
+    foaf:affil "Bosch, Gerlingen, Germany" ;
     foaf:name "Jochen Wessner" .
 
 odp:WiecekJanka_E
