@@ -18,7 +18,7 @@
 <http://opendiscovery.org/rdf/Conferences/GermanTEX-2022/> 
     a swc:ConferenceEvent ;
     rdfs:label "German TRIZ Experts Meeting 2022" ;
-    ical:summary "Das TRIZ-Expertentreffen wurde exklusiv für TRIZ-Ausgebildete geschaffen. Um an diesem Treffen teilnehmen zu können, sollten Sie zumindest eine Basisschulung besucht haben oder die TRIZ-Methoden schon erfolgreich auf eigene Problemstellungen angewendet haben. Am besten beides."@de, "The TRIZ Expert Meeting was created exclusively for TRIZ-trained people. To participate in this meeting, you should have attended at least a basic training course or have already successfully applied the TRIZ methods to your own problems. Preferably both."@en;
+    ical:summary "The German TRIZ Expert Meeting was created exclusively for TRIZ-trained people. To participate in this meeting, you should have attended at least a basic training course or have already successfully applied the TRIZ methods to your own problems. ";
     ical:dtend "2022-01-14"^^xsd:date ;
     ical:dtstart "2022-01-13"^^xsd:date ;
     ical:location "Sulzbach-Rosenberg, Germany" ;
@@ -28,7 +28,7 @@
 <http://opendiscovery.org/rdf/Conferences/BTO-2021/> 
     a swc:ConferenceEvent ;
     rdfs:label "Business TRIZ Online Fall 2021" ;
-    ical:summary "BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to learn what Business TRIZ is, how to apply it, and to discuss current challenges and perspectives for both Business and Management TRIZ and the Business TRIZ community."@en;
+    ical:summary "BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to learn what Business TRIZ is, how to apply it, and to discuss current challenges and perspectives for both Business and Management TRIZ and the Business TRIZ community.";
     ical:dtend "2021-10-29"^^xsd:date ;
     ical:dtstart "2021-10-29"^^xsd:date ;
     ical:location "Online" ;
@@ -50,7 +50,7 @@
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
     rdfs:label "TRIZ Future 2021" ;
-    ical:summary """The 21st edition of ETRIA World Conference “TRIZ Future” invites the submission of original papers and best practices that combine systematic invention generation, creative design, and digital technologies to solve complex problems in any field of human activity with a particular focus on advanced systems for tackling environmental issues and other global challenges. Therefore, the conference welcomes scientific and practitioners’ contributions, as well as posters, about the main issues summarized in the list below, which however should not be considered exhaustive.""" ; 
+    ical:summary "The 21st edition of ETRIA World Conference “TRIZ Future” invites the submission of original papers and best practices that combine systematic invention generation, creative design, and digital technologies to solve complex problems in any field of human activity with a particular focus on advanced systems for tackling environmental issues and other global challenges. Therefore, the conference welcomes scientific and practitioners’ contributions, as well as posters, about the main issues summarized in the list below, which however should not be considered exhaustive." ; 
     ical:dtend "2021-09-24"^^xsd:date ;
     ical:dtstart "2021-09-22"^^xsd:date ;
     ical:location "online, supported by the Free University of Bozen-Bolzano (Italy)" ;

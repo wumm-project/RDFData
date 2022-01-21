@@ -13,8 +13,7 @@
 :General
     a swc:ConferenceEvent ;
     rdfs:comment "Presentations of the Business Online Conference 2020" ;
-    rdfs:label "Business TRIZ Online 2020" ;
-    rdfs:label "1. Deutsche TRIZ-Konferenz Online 2020"@de, "1. German TRIZ Online Coference 2020"@en ;
+    rdfs:label "1. German TRIZ Online Conference 2020"@en ;
     ical:summary "Coronabedingt gehen wir neue Wege und haben die 1. Deutsche TRIZ Konferenz online entwickeln. Wir wollen bei dieser Veranstaltung TRIZ relevanten Beiträgen aus dem akademischen Bereich und auch aus der industriellen Branche eine Plattform bieten, die auch veröffentlicht werden (Springer Verlag)."@de, "Caused by Corona we are breaking new ground and have developed the 1st German TRIZ Conference online. At this event we want to offer a platform for TRIZ relevant contributions from the academic field and also from the industrial sector that will also be published (Springer Verlag)."@en ; 
     ical:dtend "2020-10-02"^^xsd:date ;
     ical:dtstart "2020-10-02"^^xsd:date ;
@@ -48,7 +47,7 @@ Die Beiträge der TRIZ Konferenz werden dieses Jahr im Springer Vieweg veröffen
     dcterms:creator odp:Hammer_J, odp:Bayer_T ;
     od:presentedBy odp:Bayer_T ;
     od:urlVideo <https://www.youtube.com/watch?v=2RtsRf2G824> ;
-    dcterms:title "Der Einsatz von TRIZ im Design Thinking Prozess: Erfahrungen aus der Praxis"@de, "The use of TRIZ in the Design Thinking process: practical experience"@en, "Использование ТРИЗ в процессе дизайн-мышления: практический опыт"@de ;
+    dcterms:title "Der Einsatz von TRIZ im Design Thinking Prozess: Erfahrungen aus der Praxis"@de, "The use of TRIZ in the Design Thinking process: practical experience"@en, "Использование ТРИЗ в процессе дизайн-мышления: практический опыт"@ru ;
     a od:Talk .
 
 :Talk_104
