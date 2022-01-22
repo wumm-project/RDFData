@@ -54,7 +54,6 @@ od:goodStanding2021
     foaf:phone "(0562)-96-71-25" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_004>
-    od:Verification "министерство юстиции РФ Управление юстиции СПб 12 апреля 1999 г. свидетельство №3350-ЮР" ;
     od:createdAt "1999" ;
     od:hasMemberNumber "4" ;
     od:location "St. Petersburg, Russia" ;
@@ -96,7 +95,8 @@ od:goodStanding2021
     skos:prefLabel "New England TRIZ Organization" ;
     foaf:homepage "http://www.GEN3Partners.com" ;
     foaf:mbox "slitvin@gen-triz.com" ;
-    foaf:phone "1 (617) 728-7011", "1 (617) 728-7500" .
+    foaf:phone "1 (617) 728-7011", "1 (617) 728-7500" ;
+    od:hasChair "Simon Litvin" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_008>
     od:address "663305, г. Норильск, ул. Талнахская д.6, кв. 8"@ru ;
@@ -770,7 +770,6 @@ Seocho-gu, Seoul, Korea""" ;
     od:hasMemberNumber "72" ;
     od:location "Brno, Czech Republic" ;
     a od:MATRIZMember, org:Organization ;
-    rdfs:comment "No more active due to health reasons" ;
     skos:prefLabel "TRIZing, Public Association" ;
     foaf:mbox "Busov@feec.vutbr.cz" ;
     od:hasChair "Dr. Bohuslav Busov" ;
