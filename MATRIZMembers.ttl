@@ -3,6 +3,8 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix cc: <http://creativecommons.org/ns#> .
 
@@ -11,7 +13,7 @@
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     a owl:Ontology ;
-    rdfs:comment "2019-09-08 graebe: Extracted and transformed from https://matriz.org/wp-content/uploads/2019/08/2019-08-List-of-MATRIZ-members.docx", "2022-01-21 graebe: consolidated" ;
+    rdfs:comment "2019-09-08 graebe: Extracted and transformed from https://matriz.org/wp-content/uploads/2019/08/2019-08-List-of-MATRIZ-members.docx", "2022-01-22 graebe: consolidated and https://matriz.org/wp-content/uploads/2021/11/2021-11-MATRIZ-members-in-good-standing.xlsx incorporated" ;
     rdfs:label "MATRIZ Members" .
 
 od:goodStanding2021
@@ -23,10 +25,10 @@ od:goodStanding2021
     od:createdAt "1999" ;
     od:hasMemberNumber "1" ;
     od:location "Petrozavodsk, Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "ООО «ТРИЗ Карелия»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "ООО «ТРИЗ Карелия»"@ru ;
     foaf:mbox "selioutski@psu.karelia.ru" ;
-    foaf:name "Селюцкий Александр Борисович"@ru ;
+    od:hasChair "Селюцкий Александр Борисович"@ru ;
     foaf:phone "7-(814-2)-767-641185031" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_002>
@@ -34,10 +36,10 @@ od:goodStanding2021
     od:createdAt "1999" ;
     od:hasMemberNumber "2" ;
     od:location "Novosibirsk, Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "НГОО «Ключевые технологии»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "НГОО «Ключевые технологии»"@ru ;
     foaf:mbox "trizdiol@mail.ru", "viss@online.nsk.su" ;
-    foaf:name "Сибиряков Виссарион Григорьевич"@ru ;
+    od:hasChair "Сибиряков Виссарион Григорьевич"@ru ;
     foaf:phone "(383-2)-256058", "(3832)-25-60-58" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_003>
@@ -45,10 +47,10 @@ od:goodStanding2021
     od:createdAt "1999" ;
     od:hasMemberNumber "3" ;
     od:location "Dnepropetrovsk, Ukraina" ;
-    a od:MATRIZMember ;
-    rdfs:label "ОО «ДнепроТРИЗ»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "ОО «ДнепроТРИЗ»"@ru ;
     foaf:mbox "dn_triz@ukr.net", "ocntt@a-teleport.com" ;
-    foaf:name "Резник Николай Антонович"@ru ;
+    od:hasChair "Резник Николай Антонович"@ru ;
     foaf:phone "(0562)-96-71-25" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_004>
@@ -56,11 +58,11 @@ od:goodStanding2021
     od:createdAt "1999" ;
     od:hasMemberNumber "4" ;
     od:location "St. Petersburg, Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "РОО «ТРИЗ-Петербург»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "РОО «ТРИЗ-Петербург»"@ru ;
     foaf:homepage "http://www.triz-spb.ru/" ;
     foaf:mbox "av_kislov@mail.ru", "kptriz@mail.ru" ;
-    foaf:name "Кислов Александр Васильевич"@ru ;
+    od:hasChair "Кислов Александр Васильевич"@ru ;
     foaf:phone "8-(812)-316-37-49" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_005>
@@ -68,21 +70,21 @@ od:goodStanding2021
     od:createdAt "1999" ;
     od:hasMemberNumber "5" ;
     od:location "Shukovsky, Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "ОО «Восхождение»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "ОО «Восхождение»"@ru ;
     foaf:mbox "marat@zhukovskiy.ru" ;
-    foaf:name "Гафитулин Марат Семенович"@ru ;
+    od:hasChair "Гафитулин Марат Семенович"@ru ;
     foaf:phone "(09648)-31020" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_006>
     od:createdAt "2000" ;
     od:hasMemberNumber "6" ;
     od:location "Gomel, Belarus" ;
-    a od:MATRIZMember ;
-    rdfs:label "«БелООТРИЗ»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "«БелООТРИЗ»"@ru ;
     foaf:homepage "http://www.trizland.ru/" ;
     foaf:mbox "tim@trizland.ru" ;
-    foaf:name "Тимохов Виктор Иванович"@ru .
+    od:hasChair "Тимохов Виктор Иванович"@ru .
 
 <http://opendiscovery.org/rdf/MATRIZMember_007>
     od:address "GEN3 Partners, Ten Post Office Square 9th Floor, South Boston, MA 02109" ;
@@ -90,8 +92,8 @@ od:goodStanding2021
     od:hasMemberNumber "7" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "Boston, USA" ;
-    a od:MATRIZMember ;
-    rdfs:label "New England TRIZ Organization" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "New England TRIZ Organization" ;
     foaf:homepage "http://www.GEN3Partners.com" ;
     foaf:mbox "slitvin@gen-triz.com" ;
     foaf:phone "1 (617) 728-7011", "1 (617) 728-7500" .
@@ -101,10 +103,10 @@ od:goodStanding2021
     od:createdAt "2000" ;
     od:hasMemberNumber "8" ;
     od:location "Norilsk, Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "ОО «ТРИЗ - Норильск»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "ОО «ТРИЗ - Норильск»"@ru ;
     foaf:mbox "m4852@norcom.ru" ;
-    foaf:name "Шустерман Михаил Наумович"@ru ;
+    od:hasChair "Шустерман Михаил Наумович"@ru ;
     foaf:phone "(3919)-410-028", "(3919)-42-91-12" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_009>
@@ -112,10 +114,10 @@ od:goodStanding2021
     od:createdAt "2000" ;
     od:hasMemberNumber "9" ;
     od:location "Tel Aviv, Israel" ;
-    a od:MATRIZMember ;
-    rdfs:label "Ассоциация ТРИЗ Израиля «АТИ»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Ассоциация ТРИЗ Израиля «АТИ»"@ru ;
     foaf:mbox "ATrI@bigfoot.com", "vladpetr@netvision.net.il" ;
-    foaf:name "Петров Владимир Михайлович"@ru ;
+    od:hasChair "Петров Владимир Михайлович"@ru ;
     foaf:phone "+972-(0)9-7481667" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_010>
@@ -123,20 +125,20 @@ od:goodStanding2021
     od:createdAt "2000" ;
     od:hasMemberNumber "10" ;
     od:location "Krasnoyarsk, Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "ОО «ТРИЗ-Красноярск»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "ОО «ТРИЗ-Красноярск»"@ru ;
     foaf:mbox "ysal@siberianet.ru" ;
-    foaf:name "Саламатов Юрий Петрович"@ru .
+    od:hasChair "Саламатов Юрий Петрович"@ru .
 
 <http://opendiscovery.org/rdf/MATRIZMember_011>
     od:address "173023, Великий Новгород, ул. Зелинского, 22/1-7"@ru ;
     od:createdAt "2001" ;
     od:hasMemberNumber "11" ;
     od:location "Velikij Novgorod, Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "«НООО ТРИЗ»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "«НООО ТРИЗ»"@ru ;
     foaf:mbox "irand@mail.natm.ru", "tamberg@novgorod.net" ;
-    foaf:name "Тамберг Юрий Гергардович"@ru ;
+    od:hasChair "Тамберг Юрий Гергардович"@ru ;
     foaf:phone "(8-81622)-20261" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_012>
@@ -144,10 +146,10 @@ od:goodStanding2021
     od:createdAt "2001" ;
     od:hasMemberNumber "12" ;
     od:location "Cheboksary, Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "ОО «ТРИЗ Чебоксары»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "ОО «ТРИЗ Чебоксары»"@ru ;
     foaf:mbox "mikhailov30@mail.ru", "mikhilov@chuvsu.ru" ;
-    foaf:name "Михайлов Валерий Алексеевич"@ru ;
+    od:hasChair "Михайлов Валерий Алексеевич"@ru ;
     foaf:phone "(8352)-25-93-23", "(8352)-30-57-22" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_013>
@@ -155,10 +157,10 @@ od:goodStanding2021
     od:createdAt "2001" ;
     od:hasMemberNumber "13" ;
     od:location "Jelgava, Latvia" ;
-    a od:MATRIZMember ;
-    rdfs:label "ОО «Альтернатива»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "ОО «Альтернатива»"@ru ;
     foaf:mbox "julijsmur@inbox.ru" ;
-    foaf:name "Мурашковский Юлий Самойлович"@ru ;
+    od:hasChair "Мурашковский Юлий Самойлович"@ru ;
     foaf:phone "(30)-24966" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_014>
@@ -166,52 +168,52 @@ od:goodStanding2021
     od:createdAt "2001" ;
     od:hasMemberNumber "14" ;
     od:location "Voronesh, Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "ОО при ТРИЗ Тренинг Центр «ОО ТТЦ»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "ОО при ТРИЗ Тренинг Центр «ОО ТТЦ»"@ru ;
     foaf:mbox "master@triztc.vrn.ru" ;
-    foaf:name "Белильцев Валерий Константинович"@ru ;
+    od:hasChair "Белильцев Валерий Константинович"@ru ;
     foaf:phone "(8-0732)-73-77-68" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_015>
     od:createdAt "2001" ;
     od:hasMemberNumber "15" ;
     od:location "Detroit, USA" ;
-    a od:MATRIZMember ;
-    rdfs:label "Ideation TRIZ Research Lab (ITRL) of International TRIZ Association" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Ideation TRIZ Research Lab (ITRL) of International TRIZ Association" ;
     foaf:homepage "http://www.ideationtriz.com" ;
     foaf:mbox "bzlotin@ideationtriz.com" ;
-    foaf:name "Злотин Борис Львович"@ru .
+    od:hasChair "Злотин Борис Львович"@ru .
 
 <http://opendiscovery.org/rdf/MATRIZMember_016>
     od:address "Москва 115142, ул. Затонная д.10,к.1, кв.14"@ru ;
     od:createdAt "2002" ;
     od:hasMemberNumber "16" ;
     od:location "Moscow, Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "«Московская ОО ТРИЗ»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "«Московская ОО ТРИЗ»"@ru ;
     foaf:mbox "bubenzow@yandex.ru" ;
-    foaf:name "Бубенцов Владимир Юрьевич"@ru ;
+    od:hasChair "Бубенцов Владимир Юрьевич"@ru ;
     foaf:phone "8-499-616-60-21" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_017>
     od:createdAt "2002" ;
     od:hasMemberNumber "17" ;
     od:location "Paris, France" ;
-    a od:MATRIZMember ;
-    rdfs:label "TRIZ-France" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "TRIZ-France" ;
     foaf:homepage "http://www.triz-ensais.com" ;
     foaf:mbox "denis.cavallucci@ensais.u-strasbg.fr", "ghislain.grevy@ema.fr" ;
-    foaf:name "Grevy Ghislain" .
+    od:hasChair "Grevy Ghislain" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_018>
     od:address "320635 Украина, Днепропетровск, пр. Гагарина 4"@ru ;
     od:createdAt "2002" ;
     od:hasMemberNumber "18" ;
     od:location "Dnepropetrovsk, Ukraina" ;
-    a od:MATRIZMember ;
-    rdfs:label "Украинский Центр ТРИЗ общественное объединение «ОО УЦТРИЗ»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Украинский Центр ТРИЗ общественное объединение «ОО УЦТРИЗ»"@ru ;
     foaf:mbox "dmeti@dmeti.dp.ua" ;
-    foaf:name "Пигоров Георгий Семенович"@ru ;
+    od:hasChair "Пигоров Георгий Семенович"@ru ;
     foaf:phone "(0562)-410028" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_019>
@@ -219,26 +221,27 @@ od:goodStanding2021
     od:createdAt "2002" ;
     od:hasMemberNumber "19" ;
     od:location "Moscow, Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "ООО «ТРИЗ МНОЦИТ МГИУ»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "ООО «ТРИЗ МНОЦИТ МГИУ»"@ru ;
     foaf:mbox "mkc@msiu.ru" ;
-    foaf:name "Зиновкина Милослава Михайловна"@ru ;
+    od:hasChair "Зиновкина Милослава Михайловна"@ru ;
     foaf:phone "(095)-312-10-26" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_020>
     od:hasMemberNumber "20" ;
+    a org:Organization;
     rdfs:comment "Left MATRIZ by own decision 01.06.2008" ;
-    rdfs:label "ОО «ТРИЗ-педагогика Украины»"@ru .
+    skos:prefLabel "ОО «ТРИЗ-педагогика Украины»"@ru .
 
 <http://opendiscovery.org/rdf/MATRIZMember_021>
     od:address "432045 г. Ульяновск, ул. Рябикова. д. 38А"@ru ;
     od:createdAt "2003" ;
     od:hasMemberNumber "21" ;
     od:location "Ulyanovsk, Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "ОО «Волга ТРИЗ»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "ОО «Волга ТРИЗ»"@ru ;
     foaf:mbox "sid@sid.ul.ru", "sidlj@mv.ru" ;
-    foaf:name "Гуткович Ирина Яковлевна"@ru ;
+    od:hasChair "Гуткович Ирина Яковлевна"@ru ;
     foaf:phone "(8422)-61-29-59", "(8422)-63-07-01" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_022>
@@ -246,20 +249,20 @@ od:goodStanding2021
     od:createdAt "2003" ;
     od:hasMemberNumber "22" ;
     od:location "Samara, Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "ОО «ТРИЗ Самара»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "ОО «ТРИЗ Самара»"@ru ;
     foaf:mbox "shrh567@yandex.ru" ;
-    foaf:name "Шарипов Рашид Хамзович"@ru .
+    od:hasChair "Шарипов Рашид Хамзович"@ru .
 
 <http://opendiscovery.org/rdf/MATRIZMember_023>
     od:address "Mustamae-tee 141-46 Estonia, Tallinn" ;
     od:createdAt "2003" ;
     od:hasMemberNumber "23" ;
     od:location "Tallinn, Estonia" ;
-    a od:MATRIZMember ;
-    rdfs:label "ОО «ТРИЗ Таллин»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "ОО «ТРИЗ Таллин»"@ru ;
     foaf:mbox "ecsd@stv.ee" ;
-    foaf:name "Mark Luchin" ;
+    od:hasChair "Mark Luchin" ;
     foaf:phone "(372) 6543001" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_024>
@@ -267,10 +270,10 @@ od:goodStanding2021
     od:createdAt "2003" ;
     od:hasMemberNumber "24" ;
     od:location "Tomsk, Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "ОО «ТРИЗ Томск»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "ОО «ТРИЗ Томск»"@ru ;
     foaf:mbox "kpf@ct.ectpu.edu.ru" ;
-    foaf:name "Коробко Петр Федорович"@ru ;
+    od:hasChair "Коробко Петр Федорович"@ru ;
     foaf:phone "(83822) 410-372" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_025>
@@ -278,38 +281,40 @@ od:goodStanding2021
     od:createdAt "2003" ;
     od:hasMemberNumber "25" ;
     od:location "Vladivostok, Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "ОО «ТРИЗ Владивосток»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "ОО «ТРИЗ Владивосток»"@ru ;
     foaf:mbox "alimar@mail.primorye.ru" ;
-    foaf:name "Лимаренко Анатолий Васильевич"@ru .
+    od:hasChair "Лимаренко Анатолий Васильевич"@ru .
 
 <http://opendiscovery.org/rdf/MATRIZMember_026>
     od:hasMemberNumber "26" ;
+    a org:Organization;
     rdfs:comment "Is not a member" ;
-    rdfs:label "European TRIZ Association (ETRIA)" .
+    skos:prefLabel "European TRIZ Association (ETRIA)" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_027>
     od:hasMemberNumber "27" ;
+    a org:Organization;
     rdfs:comment "Organisation left MATRIZ by own decision 10.09.2008" ;
-    rdfs:label "COMCON*TRIZ" .
+    skos:prefLabel "COMCON*TRIZ" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_028>
     od:createdAt "2003" ;
     od:hasMemberNumber "28" ;
     od:location "Saratov, Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "СГОБО «Исток»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "СГОБО «Исток»"@ru ;
     foaf:mbox "vicsasha@rol.ru" ;
-    foaf:name "Ширяева Виктория Александровна"@ru .
+    od:hasChair "Ширяева Виктория Александровна"@ru .
 
 <http://opendiscovery.org/rdf/MATRIZMember_029>
     od:createdAt "2004" ;
     od:hasMemberNumber "29" ;
     od:location "Lima, Peru" ;
-    a od:MATRIZMember ;
-    rdfs:label "«TRIZ LATINOAMERICA" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "«TRIZ LATINOAMERICA" ;
     foaf:mbox "e_cieza@yahoo.com" ;
-    foaf:name "Eduardo Cieza de Leon" .
+    od:hasChair "Eduardo Cieza de Leon" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_030>
     od:address """VIP Center Samsung Electronics 129
@@ -317,10 +322,10 @@ od:goodStanding2021
     od:createdAt "2004" ;
     od:hasMemberNumber "30" ;
     od:location "Suwon, South Korea" ;
-    a od:MATRIZMember ;
-    rdfs:label "Samsung TRIZ Association (STA)" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Samsung TRIZ Association (STA)" ;
     foaf:mbox "bang@samsung.com", "trizlee@daum.net" ;
-    foaf:name "Jun-Young Lee" ;
+    od:hasChair "Jun-Young Lee" ;
     foaf:phone "82-10-2408-6047" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_031>
@@ -330,10 +335,10 @@ od:goodStanding2021
     od:createdAt "2004" ;
     od:hasMemberNumber "31" ;
     od:location "Seoul, South Korea" ;
-    a od:MATRIZMember ;
-    rdfs:label "The Korea TRIZ Association" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "The Korea TRIZ Association" ;
     foaf:mbox "prettymike@naver.com" ;
-    foaf:name "Kim, Mansoo" ;
+    od:hasChair "Kim, Mansoo" ;
     foaf:phone "+82-2-3442-5526" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_032>
@@ -341,10 +346,10 @@ od:goodStanding2021
     od:createdAt "2004" ;
     od:hasMemberNumber "32" ;
     od:location "Seoul, South Korea" ;
-    a od:MATRIZMember ;
-    rdfs:label "NFTM-TRIZ Sunmoon University" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "NFTM-TRIZ Sunmoon University" ;
     foaf:mbox "khj@sunmoon.ac.kr" ;
-    foaf:name "Hyun-Jong, Kwon" ;
+    od:hasChair "Hyun-Jong, Kwon" ;
     foaf:phone "82-41-530-2831", "82-41-541-8604" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_033>
@@ -352,10 +357,10 @@ od:goodStanding2021
     od:createdAt "2004" ;
     od:hasMemberNumber "33" ;
     od:location "Komsomolsk on Amur, Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "«ТРИЗ Амур»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "«ТРИЗ Амур»"@ru ;
     foaf:mbox "ktriz@knastu.ru" ;
-    foaf:name "В.Д. Бердоносов"@ru ;
+    od:hasChair "В.Д. Бердоносов"@ru ;
     foaf:phone "(42172)-3-52-59", "(42172)-4-68-54" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_034>
@@ -366,49 +371,49 @@ Suwon-si, Kyeonggi-do, 442-749, the Republic of Korea""" ;
     od:createdAt "03.2005" ;
     od:hasMemberNumber "34" ;
     od:location "Seoul, South Korea" ;
-    a od:MATRIZMember ;
-    rdfs:label "The Professional Society of TRIZ Korea (TRIZ Korea)" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "The Professional Society of TRIZ Korea (TRIZ Korea)" ;
     foaf:mbox "marino@triz.co.kr" ;
-    foaf:name "Youngil Kim" ;
+    od:hasChair "Youngil Kim" ;
     foaf:phone "+82.31.214.1740", "+82.31.217.1746" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_035>
     od:createdAt "03.2005" ;
     od:hasMemberNumber "35" ;
     od:location "Seoul, South Korea" ;
-    a od:MATRIZMember ;
-    rdfs:label "TRIZ Association at SDI" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "TRIZ Association at SDI" ;
     foaf:mbox "bdsuh@samsung.co.kr", "bdsuh@samsung.com" ;
-    foaf:name "Suh, Byung-Do" .
+    od:hasChair "Suh, Byung-Do" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_036>
     od:createdAt "03.2006" ;
     od:hasMemberNumber "36" ;
     od:location "Rome, Italy" ;
-    a od:MATRIZMember ;
-    rdfs:label "Apeiron the Italian TRIZ Association" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Apeiron the Italian TRIZ Association" ;
     foaf:mbox "cascini@ing.unifi.it", "gaetano.cascini@unifi.it" ;
-    foaf:name "Gaetano Cascini" .
+    od:hasChair "Gaetano Cascini" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_037>
     od:address "LS Cable Co., Ltd. 555, Hogye-dong, Dongan-gu, Anyang-si, Kyungki-do, 431-080, Republic of Korea" ;
     od:createdAt "03.2006" ;
     od:hasMemberNumber "37" ;
     od:location "Seoul, South Korea" ;
-    a od:MATRIZMember ;
-    rdfs:label "LS-LG TRIZ Association, the Korean Public TRIZ Organization" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "LS-LG TRIZ Association, the Korean Public TRIZ Organization" ;
     foaf:mbox "ischoi@lscable.com" ;
-    foaf:name "In-Sik Choi" ;
+    od:hasChair "In-Sik Choi" ;
     foaf:phone "+82.31.450.8290", "+82.31.450.8331" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_038>
     od:createdAt "03.2007" ;
     od:hasMemberNumber "38" ;
     od:location "Angarsk, Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "ОО «Ангарск ТРИЗ»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "ОО «Ангарск ТРИЗ»"@ru ;
     foaf:mbox "aleksey_3802@mail.ru", "ivano@irmail.ru" ;
-    foaf:name "Игнатьева Альбина Георгиевна"@ru ;
+    od:hasChair "Игнатьева Альбина Георгиевна"@ru ;
     foaf:phone "(3951) 51-21-47", "(3951) 67-25-58" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_039>
@@ -416,20 +421,20 @@ Suwon-si, Kyeonggi-do, 442-749, the Republic of Korea""" ;
     od:createdAt "03.2007" ;
     od:hasMemberNumber "39" ;
     od:location "Moscow, Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "ОО «ТРИЗ-профи»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "ОО «ТРИЗ-профи»"@ru ;
     foaf:mbox "tim@trizland.ru" ;
-    foaf:name "Тимохов Виктор Иванович"@ru .
+    od:hasChair "Тимохов Виктор Иванович"@ru .
 
 <http://opendiscovery.org/rdf/MATRIZMember_040>
     od:createdAt "03.2008" ;
     od:hasMemberNumber "40" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "Boston, USA" ;
-    a od:MATRIZMember ;
-    rdfs:label "Intel Corporate TRIZ Chapter" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Intel Corporate TRIZ Chapter" ;
     foaf:mbox "vendetta.s.holz@intel.com" ;
-    foaf:name "Vendetta Holtz" ;
+    od:hasChair "Vendetta Holtz" ;
     foaf:phone "972-8-6666968" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_041>
@@ -437,30 +442,30 @@ Suwon-si, Kyeonggi-do, 442-749, the Republic of Korea""" ;
     od:hasMemberNumber "41" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "Vienna, Austria" ;
-    a od:MATRIZMember ;
-    rdfs:label "TRIZ Campus" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "TRIZ Campus" ;
     foaf:mbox "j.fresner@stenum.at" ;
-    foaf:name "J. Fresner" .
+    od:hasChair "J. Fresner" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_042>
     od:address "445057, Самарская обл., г.Тольятти, ул.Юбилейная, 73-109"@ru ;
     od:createdAt "03.2008" ;
     od:hasMemberNumber "42" ;
     od:location "Togliatti, Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "ОО «ТРИЗ - Тольятти»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "ОО «ТРИЗ - Тольятти»"@ru ;
     foaf:mbox "triz@bk.ru" ;
-    foaf:name "Абрамкина Олеся Юрьевна"@ru .
+    od:hasChair "Абрамкина Олеся Юрьевна"@ru .
 
 <http://opendiscovery.org/rdf/MATRIZMember_043>
     od:address "TRIZ4U, PO Box 12775, Melbourne Victoria 8006, Australia" ;
     od:createdAt "03.2008" ;
     od:hasMemberNumber "43" ;
     od:location "Melbourne, Australia" ;
-    a od:MATRIZMember ;
-    rdfs:label "Asia-Pacific TRIZ Association (APTA)" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Asia-Pacific TRIZ Association (APTA)" ;
     foaf:mbox "Iouri.belski@triz4u.com" ;
-    foaf:name "Iouri Belski" ;
+    od:hasChair "Iouri Belski" ;
     foaf:phone "613 9467 4424" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_044>
@@ -468,90 +473,90 @@ Suwon-si, Kyeonggi-do, 442-749, the Republic of Korea""" ;
     od:hasMemberNumber "44" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "Beijing, PR China" ;
-    a od:MATRIZMember ;
-    rdfs:label "Innovation Technology Institute" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Innovation Technology Institute" ;
     foaf:mbox "alp.lin@iwintall.com" ;
-    foaf:name "Yue Lin" .
+    od:hasChair "Yue Lin" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_045>
     od:createdAt "03.2008" ;
     od:hasMemberNumber "45" ;
     od:location "Seoul, South Korea" ;
-    a od:MATRIZMember ;
-    rdfs:label "My Guru Tao-TRIZ Association" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "My Guru Tao-TRIZ Association" ;
     foaf:mbox "davidlee@myguru.co.kr" ;
-    foaf:name "Myoung Soo Han" .
+    od:hasChair "Myoung Soo Han" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_046>
     od:createdAt "03.2008" ;
     od:hasMemberNumber "46" ;
     od:location "Boston,  USA" ;
-    a od:MATRIZMember ;
-    rdfs:label "Iowa TRIZ Association" ;
-    foaf:name "Timothy P. Schweizer" .
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Iowa TRIZ Association" ;
+    od:hasChair "Timothy P. Schweizer" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_047>
     od:address "#511 TIP, Korea Polytechnic University, Jeongwang-Dong, Siheung-City, Kyungki Province, Korea Post code:429-793" ;
     od:createdAt "03.2008" ;
     od:hasMemberNumber "47" ;
     od:location "Seoul, South Korea" ;
-    a od:MATRIZMember ;
-    rdfs:label "TRIZ Design Innovation Center" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "TRIZ Design Innovation Center" ;
     foaf:mbox "lkw@kpu.ac.kr" ;
-    foaf:name "Lee Kyung Won" .
+    od:hasChair "Lee Kyung Won" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_048>
     od:address "Via Enrico Fermi 134, 36100 Vicenza, Italia", "с/o C.C.I.A.A. Vicenza. Corso Fogazzaro 37, 36100 Vicenza, Italia" ;
     od:createdAt "03.2008" ;
     od:hasMemberNumber "48" ;
     od:location "Vicenza, Italy" ;
-    a od:MATRIZMember ;
-    rdfs:label "Fondazione Giacomo Rumor Centro Producttivià Veneto (FGR CPV)" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Fondazione Giacomo Rumor Centro Producttivià Veneto (FGR CPV)" ;
     foaf:homepage "http://www.cpv.org/" ;
     foaf:mbox "info@cpv.org" ;
-    foaf:name "Дмитрий Вульфсон"@ru ;
+    od:hasChair "Дмитрий Вульфсон"@ru ;
     foaf:phone "39 0444 994 700", "39 0444 994 710" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_049>
     od:createdAt "03.2008" ;
     od:hasMemberNumber "49" ;
     od:location "Stary Oskol, Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "ОО «ТРИЗ-Оскол»"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "ОО «ТРИЗ-Оскол»"@ru ;
     foaf:mbox "boranshe@front.ru" ;
-    foaf:name "Шевченко Борис Андреевич"@ru .
+    od:hasChair "Шевченко Борис Андреевич"@ru .
 
 <http://opendiscovery.org/rdf/MATRIZMember_050>
     od:address "261 East Vinedo Lane, Tempe, Arizona, 85284" ;
     od:createdAt "03.2008" ;
     od:hasMemberNumber "50" ;
     od:location "Tempe, USA" ;
-    a od:MATRIZMember ;
-    rdfs:label "Arizona TRIZ Association" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Arizona TRIZ Association" ;
     foaf:mbox "camshie@cox.net" ;
-    foaf:name "Gordon Cameron" ;
+    od:hasChair "Gordon Cameron" ;
     foaf:phone "480-831-9903" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_051>
     od:createdAt "09.2008" ;
     od:hasMemberNumber "51" ;
     od:location "St. Petersburg, Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "Российская ассоциация ТРИЗ"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Российская ассоциация ТРИЗ"@ru ;
     foaf:homepage "http://www.ratriz.ru" ;
     foaf:mbox "ratriz@mail.ru" ;
-    foaf:name "Кислов Александр Васильевич"@ru ;
+    od:hasChair "Кислов Александр Васильевич"@ru ;
     foaf:phone "(812) 316-3749" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_052>
     od:createdAt "09.2008" ;
     od:hasMemberNumber "52" ;
     od:location "South Korea" ;
-    a od:MATRIZMember ;
-    rdfs:label "“Hynix TRIZ Creativity Center” (Hynix-TCC)" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "“Hynix TRIZ Creativity Center” (Hynix-TCC)" ;
     foaf:homepage "http://www.hynix.com" ;
     foaf:mbox "jeongseon.kim@hynix.com" ;
-    foaf:name "JeongSeon Kim" ;
+    od:hasChair "JeongSeon Kim" ;
     foaf:phone "+82-016-359-1229", "+82-31-639-0644" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_053>
@@ -560,10 +565,10 @@ Suwon-si, Kyeonggi-do, 442-749, the Republic of Korea""" ;
     od:hasMemberNumber "53" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "New Delhi, India" ;
-    a od:MATRIZMember ;
-    rdfs:label "TRIZ ASSOCIATION OF ASIA (TAA)" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "TRIZ ASSOCIATION OF ASIA (TAA)" ;
     foaf:mbox "shreephadnis@usa.net" ;
-    foaf:name "Shree Phadnis" ;
+    od:hasChair "Shree Phadnis" ;
     foaf:phone "+91-22-65077453" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_054>
@@ -571,20 +576,20 @@ Suwon-si, Kyeonggi-do, 442-749, the Republic of Korea""" ;
     od:hasMemberNumber "54" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "St. Petersburg, Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "St. Petersburg Innovative Technology" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "St. Petersburg Innovative Technology" ;
     foaf:mbox "fedosov@matriz.org" ;
-    foaf:name "Федосов Ю.И"@ru .
+    od:hasChair "Федосов Ю.И"@ru .
 
 <http://opendiscovery.org/rdf/MATRIZMember_055>
     od:address "6th Fl., # 352, Sec. 2, Kuan-Fu Rd Hsinchu, Taiwan, R.O.C. 300" ;
     od:createdAt "06.2009" ;
     od:hasMemberNumber "55" ;
     od:location "Taiwan" ;
-    a od:MATRIZMember ;
-    rdfs:label "The Society of Systematic Innovation" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "The Society of Systematic Innovation" ;
     foaf:mbox "dsheu@systematic-innovation.org", "sheu.daniel@gmail.com" ;
-    foaf:name "D. Daniel Sheu" ;
+    od:hasChair "D. Daniel Sheu" ;
     foaf:phone "+886-572-3200 x 11" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_056>
@@ -594,48 +599,48 @@ Seocho-gu, Seoul, Korea""" ;
     od:createdAt "06.2009" ;
     od:hasMemberNumber "56" ;
     od:location "Seoul, South Korea" ;
-    a od:MATRIZMember ;
-    rdfs:label "PTA - Posco TRIZ Association" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "PTA - Posco TRIZ Association" ;
     foaf:mbox "prettymike@paran.com" ;
-    foaf:name "Hee-Choon Lee" ;
+    od:hasChair "Hee-Choon Lee" ;
     foaf:phone "82-11-9029-3701", "82-2-3472-9001" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_057>
     od:createdAt "09.2009" ;
     od:hasMemberNumber "57" ;
     od:location "Moscow,  Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "Ассоциация центров решения проблем"@ru ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Ассоциация центров решения проблем"@ru ;
     foaf:mbox "metodolog1@yandex.ru" ;
-    foaf:name "Кудрявцев Александр Владимирович"@ru .
+    od:hasChair "Кудрявцев Александр Владимирович"@ru .
 
 <http://opendiscovery.org/rdf/MATRIZMember_058>
     od:createdAt "09.2009" ;
     od:hasMemberNumber "58" ;
     od:location "Taipei, Taiwan" ;
-    a od:MATRIZMember ;
-    rdfs:label "Taiwan TRIZ Association (TTA)" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Taiwan TRIZ Association (TTA)" ;
     foaf:mbox "eugene@triz.tw" ;
-    foaf:name "Dr. D.Y. Sha" ;
+    od:hasChair "Dr. D.Y. Sha" ;
     foaf:phone "886-02-2368-8882" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_059>
     od:createdAt "10.2010" ;
     od:hasMemberNumber "59" ;
     od:location "Heilongjiang, China" ;
-    a od:MATRIZMember ;
-    rdfs:label "Heilongjiang TRIZ Association" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Heilongjiang TRIZ Association" ;
     foaf:mbox "hhkjqxj@gmail.com" ;
-    foaf:name "Qin Xiaojian" .
+    od:hasChair "Qin Xiaojian" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_060>
     od:createdAt "02.2011" ;
     od:hasMemberNumber "60" ;
     od:location "Seoul, Korea" ;
-    a od:MATRIZMember ;
-    rdfs:label "KMAC TRIZ Association" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "KMAC TRIZ Association" ;
     foaf:mbox "jjclub8281@kmac.co.kr" ;
-    foaf:name "Kim Jong-Lib" ;
+    od:hasChair "Kim Jong-Lib" ;
     foaf:phone "82-2-3786-0345", "82-2-3786-0472" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_061>
@@ -643,11 +648,11 @@ Seocho-gu, Seoul, Korea""" ;
     od:createdAt "05.2011" ;
     od:hasMemberNumber "61" ;
     od:location "Seoul, South Korea" ;
-    a od:MATRIZMember ;
-    rdfs:label "Korean Standards Association (KSA)" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Korean Standards Association (KSA)" ;
     foaf:homepage "http://www.ksa.or.kr" ;
     foaf:mbox "m@ksa.or.kr" ;
-    foaf:name "Changryong Kim" ;
+    od:hasChair "Changryong Kim" ;
     foaf:phone "(82)-2-2624-0180~5" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_062>
@@ -656,10 +661,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:hasMemberNumber "62" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "Seongnam, South Korea" ;
-    a od:MATRIZMember ;
-    rdfs:label "Product Development Management Association-Korea (PDMA-Korea)" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Product Development Management Association-Korea (PDMA-Korea)" ;
     foaf:mbox "mbdhsoo@gmail.com" ;
-    foaf:name "Minsoo Shin" ;
+    od:hasChair "Minsoo Shin" ;
     foaf:phone "(82) 02-562-1552" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_063>
@@ -667,10 +672,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:createdAt "09.2011" ;
     od:hasMemberNumber "63" ;
     od:location "New Delhi, India" ;
-    a od:MATRIZMember ;
-    rdfs:label "TRIZ Asia Forum" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "TRIZ Asia Forum" ;
     foaf:mbox "adityabhalla@yahoo.com" ;
-    foaf:name "Aditya Bhalla" .
+    od:hasChair "Aditya Bhalla" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_064>
     od:address "20, Jalan USJ 11/1B, Subang Jaya 47620 langor, Malaysia" ;
@@ -678,10 +683,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:hasMemberNumber "64" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "Selangor, Malaysia" ;
-    a od:MATRIZMember ;
-    rdfs:label "Malaysia TRIZ Innovation Association" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Malaysia TRIZ Innovation Association" ;
     foaf:mbox "tsyeoh@yahoo.com" ;
-    foaf:name "Dr. Teong San Yeoh" ;
+    od:hasChair "Dr. Teong San Yeoh" ;
     foaf:phone "+6012-4717120" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_065>
@@ -690,10 +695,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:hasMemberNumber "65" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "Hong Kong, China " ;
-    a od:MATRIZMember ;
-    rdfs:label "Institute of Systematic Innovation - ISI-HK" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Institute of Systematic Innovation - ISI-HK" ;
     foaf:mbox "dwkwanhk@gmail.com" ;
-    foaf:name "Dr. Victor Lo" ;
+    od:hasChair "Dr. Victor Lo" ;
     foaf:phone "852-90147209" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_066>
@@ -701,10 +706,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:hasMemberNumber "66" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "Germany" ;
-    a od:MATRIZMember ;
-    rdfs:label "Siemens TRIZ Association SiTrA" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Siemens TRIZ Association SiTrA" ;
     foaf:mbox "martin.kiesel@siemens.com" ;
-    foaf:name "Martin Kiesel" .
+    od:hasChair "Martin Kiesel" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_067>
     od:address "Korea Polytechnic University P-208 2121, Jungwang-dong, Siheung-city, Gyeonggi-do, 423-793, Korea" ;
@@ -712,39 +717,40 @@ Seocho-gu, Seoul, Korea""" ;
     od:hasMemberNumber "67" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "South Korea" ;
-    a od:MATRIZMember ;
-    rdfs:label "TRIZ Innovation Institute (TII)" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "TRIZ Innovation Institute (TII)" ;
     foaf:mbox "ywsong82@gmail.com" ;
-    foaf:name "Prof. Yong Won Song" .
+    od:hasChair "Prof. Yong Won Song" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_068>
     od:address "GE Global Research, Freisinger Landstr. 50, 87548 Garching b. München, Germany" ;
     od:createdAt "03.2013" ;
     od:hasMemberNumber "68" ;
     od:location "Garching, Germany" ;
-    a od:MATRIZMember ;
-    rdfs:label "GETRA-M GE TRIZ Association Munich" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "GETRA-M GE TRIZ Association Munich" ;
     foaf:mbox "lynass@ge.com" ;
-    foaf:name "Dr. Mark Lynass" .
+    od:hasChair "Dr. Mark Lynass" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_069>
     od:address "#95 Samsung 2-ro, Giheung-gu, Youngin-City, Gyeonggi-Do, 446-711 South Korea" ;
     od:createdAt "03.2013" ;
     od:hasMemberNumber "69" ;
     od:location "South Korea" ;
-    a od:MATRIZMember ;
-    rdfs:label "Samsung Display TRIZ Association" ;
-    foaf:name "Tae Wook Kang" .
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Samsung Display TRIZ Association" ;
+    od:hasChair "Tae Wook Kang" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_070>
     od:address "National Institute of low-carbon and Clean Energy, Future Technology City, Beiqijia, Changping District, Beijing, China" ;
     od:createdAt "01.2014" ;
     od:hasMemberNumber "70" ;
     od:location "Beijing, China" ;
+    a org:Organization;
     rdfs:comment "Expelled in 2021, all gradings revoked" ;
-    rdfs:label "China TRIZ Club" ;
+    skos:prefLabel "China TRIZ Club" ;
     foaf:mbox "matriz@matrizchina.cn", "ywsun@yeah.net" ;
-    foaf:name "Yongwei Sun" ;
+    od:hasChair "Yongwei Sun" ;
     foaf:phone "+86-136-119-32321" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_071>
@@ -752,10 +758,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:createdAt "02.2014" ;
     od:hasMemberNumber "71" ;
     od:location "South Korea" ;
-    a od:MATRIZMember ;
-    rdfs:label "QM&E TRIZ Consulting & Education Center (TC&EC)" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "QM&E TRIZ Consulting & Education Center (TC&EC)" ;
     foaf:mbox "kjjung@gme.co.kr" ;
-    foaf:name "Kyu Jin Jung" ;
+    od:hasChair "Kyu Jin Jung" ;
     foaf:phone "+8210-394-01960" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_072>
@@ -763,11 +769,11 @@ Seocho-gu, Seoul, Korea""" ;
     od:createdAt "02.2014" ;
     od:hasMemberNumber "72" ;
     od:location "Brno, Czech Republic" ;
-    a od:MATRIZMember ;
+    a od:MATRIZMember, org:Organization ;
     rdfs:comment "No more active due to health reasons" ;
-    rdfs:label "TRIZing, Public Association" ;
+    skos:prefLabel "TRIZing, Public Association" ;
     foaf:mbox "Busov@feec.vutbr.cz" ;
-    foaf:name "Dr. Bohuslav Busov" ;
+    od:hasChair "Dr. Bohuslav Busov" ;
     foaf:phone "+420 541 146 734" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_073>
@@ -775,10 +781,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:createdAt "05.2014" ;
     od:hasMemberNumber "73" ;
     od:location "Ljubljana, Slovenia" ;
-    a od:MATRIZMember ;
-    rdfs:label "South East Europe TRIZ Association" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "South East Europe TRIZ Association" ;
     foaf:mbox "Matej.hohnjec@3zen.si" ;
-    foaf:name "Matej Hohnjec" ;
+    od:hasChair "Matej Hohnjec" ;
     foaf:phone "+386 31 663 110" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_074>
@@ -786,10 +792,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:createdAt "09.2014" ;
     od:hasMemberNumber "74" ;
     od:location "Thailand" ;
-    a od:MATRIZMember ;
-    rdfs:label "TRIZ Institute Thailand" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "TRIZ Institute Thailand" ;
     foaf:mbox "TriZit@gmail.com" ;
-    foaf:name "TriZit Benjaboonyazit" ;
+    od:hasChair "TriZit Benjaboonyazit" ;
     foaf:phone "+6685-955-3031" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_075>
@@ -798,10 +804,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:hasMemberNumber "75" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "Ukraina" ;
-    a od:MATRIZMember ;
-    rdfs:label "Ukrainian TRIZ Association" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Ukrainian TRIZ Association" ;
     foaf:mbox "gredinarova.eidos@gmail.com" ;
-    foaf:name "Igor Gredynarov" ;
+    od:hasChair "Igor Gredynarov" ;
     foaf:phone "+38-061-220-02-13" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_076>
@@ -809,10 +815,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:createdAt "01.2015" ;
     od:hasMemberNumber "76" ;
     od:location "Seoul, South Korea" ;
-    a od:MATRIZMember ;
-    rdfs:label "HanYang TRIZ Center - HTC" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "HanYang TRIZ Center - HTC" ;
     foaf:mbox "itriz@hanyang.ac.kr" ;
-    foaf:name "Jinho Ahn" ;
+    od:hasChair "Jinho Ahn" ;
     foaf:phone "+82-2-2220-2978" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_077>
@@ -820,10 +826,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:createdAt "01.2015" ;
     od:hasMemberNumber "77" ;
     od:location "Chengdu, China" ;
-    a od:MATRIZMember ;
-    rdfs:label "Global Engineering Technology Group, GET Group" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Global Engineering Technology Group, GET Group" ;
     foaf:mbox "michael.liu@get-technologys.com", "yongmou.liu@ima-cax.com" ;
-    foaf:name "Yongmou Liu" ;
+    od:hasChair "Yongmou Liu" ;
     foaf:phone "+86-139-080-39515" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_078>
@@ -831,10 +837,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:createdAt "01.2015" ;
     od:hasMemberNumber "78" ;
     od:location "Shanghai, China" ;
-    a od:MATRIZMember ;
-    rdfs:label "ShangHai Intellectual Property Training Center SIPTC" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "ShangHai Intellectual Property Training Center SIPTC" ;
     foaf:mbox "siptc@siptc.com", "yihongd@sh163.net" ;
-    foaf:name "YiHong  Dong" ;
+    od:hasChair "YiHong  Dong" ;
     foaf:phone "+86-21-54703918", "13916639528" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_079>
@@ -842,10 +848,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:createdAt "01.2015" ;
     od:hasMemberNumber "79" ;
     od:location "Beijing, China" ;
-    a od:MATRIZMember ;
-    rdfs:label "Shenhua TRIZ Association, STA" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Shenhua TRIZ Association, STA" ;
     foaf:mbox "yhlong023@sina.com" ;
-    foaf:name "Dr.  Yinhua Long" ;
+    od:hasChair "Dr.  Yinhua Long" ;
     foaf:phone "86-139-1009-1896" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_080>
@@ -853,10 +859,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:createdAt "01.2015" ;
     od:hasMemberNumber "80" ;
     od:location "Sichuan, China" ;
-    a od:MATRIZMember ;
-    rdfs:label "Tuopai shede TRIZ Association, TSTA" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Tuopai shede TRIZ Association, TSTA" ;
     foaf:mbox "651204349@qq.com" ;
-    foaf:name "Jiamin Li" ;
+    od:hasChair "Jiamin Li" ;
     foaf:phone "+86-0825 6618786", "15828981806" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_081>
@@ -865,11 +871,11 @@ Seocho-gu, Seoul, Korea""" ;
     od:hasMemberNumber "81" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "Shenzhen, China" ;
-    a od:MATRIZMember ;
+    a od:MATRIZMember, org:Organization ;
     rdfs:comment "Nr. 79 in the 2021 member list" ;
-    rdfs:label "Shenzhen Intellectual Property Society" ;
+    skos:prefLabel "Shenzhen Intellectual Property Society" ;
     foaf:mbox "Chinayinxfzl@126.com" ;
-    foaf:name "Yin Hanfan" ;
+    od:hasChair "Yin Hanfan" ;
     foaf:phone "+86-139-0291-0801" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_082>
@@ -877,20 +883,20 @@ Seocho-gu, Seoul, Korea""" ;
     od:createdAt "04.2015" ;
     od:hasMemberNumber "82" ;
     od:location "Seoul, South Korea" ;
-    a od:MATRIZMember ;
-    rdfs:label "VE-TRIZ Association" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "VE-TRIZ Association" ;
     foaf:mbox "bsktriz@naver.com" ;
-    foaf:name "Kang, Bong Sup" .
+    od:hasChair "Kang, Bong Sup" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_083>
     od:address "# 301, Chang-lim Building, Dogok-ro 175, Gangnam-gu, Seoul, Korea 135-930" ;
     od:createdAt "04.2015" ;
     od:hasMemberNumber "83" ;
     od:location "Seoul, South Korea" ;
-    a od:MATRIZMember ;
-    rdfs:label "Korean Academic TRIZ Association - KATA" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Korean Academic TRIZ Association - KATA" ;
     foaf:mbox "koreatriz@daum.net" ;
-    foaf:name "Dong-Yol Yang" ;
+    od:hasChair "Dong-Yol Yang" ;
     foaf:phone "82-2-574-2207" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_084>
@@ -898,10 +904,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:createdAt "04.2015" ;
     od:hasMemberNumber "84" ;
     od:location "Japan" ;
-    a od:MATRIZMember ;
-    rdfs:label "Japan TRIZ society (JTS)" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Japan TRIZ society (JTS)" ;
     foaf:mbox "info@triz-japan.org" ;
-    foaf:name "Yuji Mihara" ;
+    od:hasChair "Yuji Mihara" ;
     foaf:phone "81-0426-73-3417" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_085>
@@ -910,10 +916,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:hasMemberNumber "85" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "The Netherlands" ;
-    a od:MATRIZMember ;
-    rdfs:label "Philips TRIZ Association" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Philips TRIZ Association" ;
     foaf:mbox "c.dobrusskin@philips.com" ;
-    foaf:name "Christoph Dobrusskin" ;
+    od:hasChair "Christoph Dobrusskin" ;
     foaf:phone "+31 40 2740827" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_086>
@@ -921,10 +927,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:hasMemberNumber "86" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "Poland" ;
-    a od:MATRIZMember ;
-    rdfs:label "Association TRIZ Poland" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Association TRIZ Poland" ;
     foaf:mbox "j.boratynski@triz-innowacje.pl" ;
-    foaf:name "Lukasz Syska" ;
+    od:hasChair "Lukasz Syska" ;
     foaf:phone "797-590-974" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_087>
@@ -933,10 +939,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:hasMemberNumber "87" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "Bangalore, India" ;
-    a od:MATRIZMember ;
-    rdfs:label "Association for TRIZ and Technical Innovation" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Association for TRIZ and Technical Innovation" ;
     foaf:mbox "titokishan@proinnconsultancy.com" ;
-    foaf:name "Tito Kishan Vemuri" ;
+    od:hasChair "Tito Kishan Vemuri" ;
     foaf:phone "+91 895 135 9774" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_088>
@@ -944,10 +950,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:createdAt "02.2016" ;
     od:hasMemberNumber "88" ;
     od:location "South Korea" ;
-    a od:MATRIZMember ;
-    rdfs:label "LG TRIZ EXPERT ASSOCIATION - LTEA" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "LG TRIZ EXPERT ASSOCIATION - LTEA" ;
     foaf:mbox "yshin.han@lge.com" ;
-    foaf:name "Youshin Han" ;
+    od:hasChair "Youshin Han" ;
     foaf:phone "82-10-4662-2843" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_089>
@@ -956,10 +962,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:hasMemberNumber "89" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "Taiwan" ;
-    a od:MATRIZMember ;
-    rdfs:label "TRIZ Innovation and Development Association - TIDA" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "TRIZ Innovation and Development Association - TIDA" ;
     foaf:mbox "innopatman@gmail.com", "yjlin@must.edu.tw" ;
-    foaf:name "Youn-Jan Lin" ;
+    od:hasChair "Youn-Jan Lin" ;
     foaf:phone "886-3-5593142#3593", "886-3-5912621" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_090>
@@ -967,10 +973,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:hasMemberNumber "90" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "Poland" ;
-    a od:MATRIZMember ;
-    rdfs:label "Scientific-Industry Society TRIZ Poland" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Scientific-Industry Society TRIZ Poland" ;
     foaf:mbox "sergey.yatsunenko@novismo.com" ;
-    foaf:name "Sergey Yatsunenko" ;
+    od:hasChair "Sergey Yatsunenko" ;
     foaf:phone "+48 697 404 957" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_091>
@@ -978,10 +984,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:hasMemberNumber "91" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "Taiwan" ;
-    a od:MATRIZMember ;
-    rdfs:label "TRIZ Innovation Value Association" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "TRIZ Innovation Value Association" ;
     foaf:mbox "innopatman@gmail.com" ;
-    foaf:name "Jou-Li Wang" ;
+    od:hasChair "Jou-Li Wang" ;
     foaf:phone "886-2-28372349", "886-938738976" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_092>
@@ -990,10 +996,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:hasMemberNumber "92" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "Poland" ;
-    a od:MATRIZMember ;
-    rdfs:label "NOVISMO TRIZ-Lab Center" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "NOVISMO TRIZ-Lab Center" ;
     foaf:mbox "sergey.yatsunenko@novismo.com" ;
-    foaf:name "Sergey Yatsunenko" ;
+    od:hasChair "Sergey Yatsunenko" ;
     foaf:phone "+48 697404956" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_093>
@@ -1001,10 +1007,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:createdAt "2018" ;
     od:hasMemberNumber "93" ;
     od:location "Xiamen, China" ;
-    a od:MATRIZMember ;
-    rdfs:label "Fujian TRIZ Association, FTA" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Fujian TRIZ Association, FTA" ;
     foaf:mbox "zbb@xmu.edu.cn" ;
-    foaf:name "Zhang Binbin" ;
+    od:hasChair "Zhang Binbin" ;
     foaf:phone "+86-138-0602-7243" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_094>
@@ -1012,10 +1018,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:hasMemberNumber "94" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "TRIZ Practitioners Association" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "TRIZ Practitioners Association" ;
     foaf:mbox "anton.kojemyako@yandex.ru" ;
-    foaf:person "Кожемяко Антон Петрович"@ru .
+    od:hasChair "Кожемяко Антон Петрович"@ru .
 
 <http://opendiscovery.org/rdf/MATRIZMember_095>
     od:address "San Martin 1175 Campana, Argentina, 2804" ;
@@ -1023,10 +1029,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:hasMemberNumber "95" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "Argentina" ;
-    a od:MATRIZMember ;
-    rdfs:label "UTN TRIZ Association" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "UTN TRIZ Association" ;
     foaf:mbox "Ing.jproma@gmail.com" ;
-    foaf:name "Juan Pablo Roma" ;
+    od:hasChair "Juan Pablo Roma" ;
     foaf:phone "+54 9 3489 15655385" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_096>
@@ -1034,10 +1040,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:hasMemberNumber "96" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "PR China" ;
-    a od:MATRIZMember ;
-    rdfs:label "Midea TRIZ Association" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Midea TRIZ Association" ;
     foaf:mbox "13653957@,qq.eom" ;
-    foaf:person "Fenglei Xing" .
+    od:hasChair "Fenglei Xing" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_097>
     od:address "150 Bogenbay Batyra str., Almaty Kazakhstan, Business Center “Kadam Invest”, ELITE GROUP" ;
@@ -1045,10 +1051,10 @@ Seocho-gu, Seoul, Korea""" ;
     od:hasMemberNumber "97" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "Kazakhstan" ;
-    a od:MATRIZMember ;
-    rdfs:label "Qazaqstan GEN TRIZ Association" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Qazaqstan GEN TRIZ Association" ;
     foaf:mbox "info@pmikz.org" ;
-    foaf:person "Niyetakuna Gaukhar" ;
+    od:hasChair "Niyetakuna Gaukhar" ;
     foaf:phone "+7 7761742167" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_098>
@@ -1056,165 +1062,165 @@ Seocho-gu, Seoul, Korea""" ;
     od:hasMemberNumber "98" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "PR China" ;
-    a od:MATRIZMember ;
-    rdfs:label "Chongqing TRIZ Institute" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Chongqing TRIZ Institute" ;
     foaf:mbox "zhangting.tim@gmail.com" ;
-    foaf:person "Yu Xiang" .
+    od:hasChair "Yu Xiang" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_099>
     od:createdAt "1.2020" ;
     od:hasMemberNumber "99" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "Russia" ;
-    a od:MATRIZMember ;
-    rdfs:label "Public organization «Creatime-TRIZ»" ;
-    foaf:person "Anatoly Guin" .
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Public organization «Creatime-TRIZ»" ;
+    od:hasChair "Anatoly Guin" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_100>
     od:createdAt "6.2020" ;
     od:hasMemberNumber "100" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "PR China" ;
-    a od:MATRIZMember ;
-    rdfs:label "TRIZ Practitioners Inno-Aliance" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "TRIZ Practitioners Inno-Aliance" ;
     foaf:mbox "claire_han2011@hotmail.com", "claire_han@matrizchina.cn" ;
-    foaf:person "Nan Han" .
+    od:hasChair "Nan Han" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_101>
     od:createdAt "6.2020" ;
     od:hasMemberNumber "101" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "PR China" ;
-    a od:MATRIZMember ;
-    rdfs:label "TJUT TRIZ Association" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "TJUT TRIZ Association" ;
     foaf:mbox "wenpengma@sina.com" ;
-    foaf:person "Wenpeng Ma" .
+    od:hasChair "Wenpeng Ma" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_102>
     od:createdAt "7.2020" ;
     od:hasMemberNumber "102" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "PR China" ;
-    a od:MATRIZMember ;
-    rdfs:label "TRIZ Workshop of DMU" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "TRIZ Workshop of DMU" ;
     foaf:mbox "Slh686996@126.com" ;
-    foaf:person "Lihong Shi" .
+    od:hasChair "Lihong Shi" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_103>
     od:createdAt "8.2020" ;
     od:hasMemberNumber "103" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "PR China" ;
-    a od:MATRIZMember ;
-    rdfs:label "Beijing Innovation Association" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Beijing Innovation Association" ;
     foaf:mbox "gltzhangfeng@buu.edu.cn" ;
-    foaf:person "Feng Zhang" .
+    od:hasChair "Feng Zhang" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_104>
     od:createdAt "8.2020" ;
     od:hasMemberNumber "104" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "PR China" ;
-    a od:MATRIZMember ;
-    rdfs:label "TRIZ Workshop of SDU" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "TRIZ Workshop of SDU" ;
     foaf:mbox "caolh89@sdu.edu.cn" ;
-    foaf:person "Lihia Cao" .
+    od:hasChair "Lihia Cao" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_105>
     od:createdAt "8.2020" ;
     od:hasMemberNumber "105" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "PR China" ;
-    a od:MATRIZMember ;
-    rdfs:label "MASTEEL TRIZ Association" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "MASTEEL TRIZ Association" ;
     foaf:mbox "430082877@qq.com" ;
-    foaf:person "YUAN Junfang" .
+    od:hasChair "YUAN Junfang" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_106>
     od:createdAt "8.2020" ;
     od:hasMemberNumber "106" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "PR China" ;
-    a od:MATRIZMember ;
-    rdfs:label "Innovation Method and Technology Transfer" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Innovation Method and Technology Transfer" ;
     foaf:mbox "zhxm1197@163.com" ;
-    foaf:person "Xiangmin Zhang" .
+    od:hasChair "Xiangmin Zhang" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_107>
     od:createdAt "8.2020" ;
     od:hasMemberNumber "107" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "PR China" ;
-    a od:MATRIZMember ;
-    rdfs:label "Meerkat TRIZ Association" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Meerkat TRIZ Association" ;
     foaf:mbox "Arthur.Lok@innoenterprise.com" ;
-    foaf:person "Jia Luo" .
+    od:hasChair "Jia Luo" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_108>
     od:createdAt "12.2020" ;
     od:hasMemberNumber "108" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "PR China" ;
-    a od:MATRIZMember ;
-    rdfs:label "Jinzhou Innovation Method Society" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Jinzhou Innovation Method Society" ;
     foaf:mbox "ylc94@163.com" ;
-    foaf:person "Liancheng Yang" .
+    od:hasChair "Liancheng Yang" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_109>
     od:createdAt "10.2021" ;
     od:hasMemberNumber "109" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "Belarus" ;
-    a od:MATRIZMember ;
-    rdfs:label "Target Innovation" .
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Target Innovation" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_110>
     od:createdAt "10.2021" ;
     od:hasMemberNumber "110" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "PR China" ;
-    a od:MATRIZMember ;
-    rdfs:label "QualiSys Consultancy" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "QualiSys Consultancy" ;
     foaf:mbox "servicesz@qualisysgroup.com" ;
-    foaf:person "Esrnie Lam" .
+    od:hasChair "Esrnie Lam" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_111>
     od:createdAt "10.2021" ;
     od:hasMemberNumber "111" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "PR China" ;
-    a od:MATRIZMember ;
-    rdfs:label "School of Innovation & Entrepreneurship, Lanzhou University of Technology" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "School of Innovation & Entrepreneurship, Lanzhou University of Technology" ;
     foaf:mbox "cxcyxylut@163.com" ;
-    foaf:person "Huixia Feng" .
+    od:hasChair "Huixia Feng" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_112>
     od:createdAt "10.2021" ;
     od:hasMemberNumber "112" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "PR China" ;
-    a od:MATRIZMember ;
-    rdfs:label "South China Agricultural University Institute of Innovation Methods" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "South China Agricultural University Institute of Innovation Methods" ;
     foaf:mbox "317854393@qq.com" ;
-    foaf:person "Jianqiu Lyu" .
+    od:hasChair "Jianqiu Lyu" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_113>
     od:createdAt "10.2021" ;
     od:hasMemberNumber "113" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "PR China" ;
-    a od:MATRIZMember ;
-    rdfs:label "Information and Communication Technology TRIZ innovation center" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Information and Communication Technology TRIZ innovation center" ;
     foaf:mbox "ChenJie@cqupt.edu.cn" ;
-    foaf:person "Hongbo Li" .
+    od:hasChair "Hongbo Li" .
 
 <http://opendiscovery.org/rdf/MATRIZMember_114>
     od:createdAt "11.2021" ;
     od:hasMemberNumber "114" ;
     od:hasStatus od:goodStanding2021 ;
     od:location "PR China" ;
-    a od:MATRIZMember ;
-    rdfs:label "Innovation Method and Technology Transfer" ;
+    a od:MATRIZMember, org:Organization ;
+    skos:prefLabel "Innovation Method and Technology Transfer" ;
     foaf:mbox "info@hb-pipeclean.com" ;
-    foaf:person "Shuguo Fei" .
+    od:hasChair "Shuguo Fei" .
 
