@@ -187,7 +187,7 @@ Circular Economy is increasingly seen as a promising approach to decouple resour
 
 :Talk_115
     swc:relatedToEvent track:IP ;
-    dcterms:creator odp:Sun_Y, odp:Cao_G, odp:Gao_C, odp:Yang_WD, odp:Han_WP, odp:Wang_K ;
+    dcterms:creator odp:Sun_Y, odp:Cao_GZ, odp:Gao_C, odp:Yang_WD, odp:Han_WP, odp:Wang_K ;
     od:presentedBy odp:Sun_Y ;
     dcterms:title "Extraction and Modeling of Chinese Patent Information for Technical Advancement Evaluation"@en ;
     od:urlPaper <https://doi.org/10.1007/978-3-030-86614-3_10> ; 

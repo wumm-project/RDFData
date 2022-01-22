@@ -17,8 +17,8 @@
     rdfs:comment
     "2021-03-20 graebe: MATRIZ certificates level 4..5",
     "2021-03-26 graebe: aligned with People.ttl",
-    "2021-09-23 graebe: update to 4_139 and 5_108",
     "2021-09-24 graebe: MATRIZ Champions added" ;
+    "2022-01-22 graebe: update to 4_143 and 5_108" ;
     rdfs:label "TRIZ Database - MATRIZ Certificates Level 4 and 5 and MATRIZ Awards" ;
     owl:imports <http://opendiscovery.org/rdf/People/> .
 
@@ -102,6 +102,10 @@ odp:Burov_LG
 
 odp:Bystritsky_A
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_101> ;
+    od:theLevel tc:CertificateLevel4 .
+
+odp:Cao_GZ
+    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_140> ;
     od:theLevel tc:CertificateLevel4 .
 
 odp:Cascini_G
@@ -372,6 +376,10 @@ odp:Khomenko_NN
 
 odp:Khorenyan_RG
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_94> ;
+    od:theLevel tc:CertificateLevel4 .
+
+odp:Kiesel_M
+    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_142> ;
     od:theLevel tc:CertificateLevel4 .
 
 odp:Kim_JH
@@ -698,6 +706,10 @@ odp:Samochvalov_JV
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_10> ;
     od:theLevel tc:CertificateLevel4 .
 
+odp:Savelli_S
+    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_143> ;
+    od:theLevel tc:CertificateLevel4 .
+
 odp:Schaper_S
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_132> ;
     od:theLevel tc:CertificateLevel4 .
@@ -816,6 +828,10 @@ odp:Surkov_PP
 odp:Timochov_VI
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_54> ;
     od:theLevel tc:CertificateLevel5 .
+
+odp:Tony_TW
+    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_141> ;
+    od:theLevel tc:CertificateLevel4 .
 
 odp:Torgashev_AS
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_55> ;

@@ -494,8 +494,14 @@ odp:Campagiorni_V
     a foaf:Person ;
     foaf:name "Valentina Campagiorni" .
 
-odp:Cao_G
+odp:Cao_GX
     a foaf:Person ;
+    foaf:affil "PR China" ;
+    foaf:name "Guoxin Cao" .
+
+odp:Cao_GZ
+    a foaf:Person ;
+    foaf:affil "PR China" ;
     foaf:name "Guo-zhong Cao" .
 
 odp:Carmosino_G
@@ -4202,6 +4208,11 @@ odp:Tomashevskaya_N
     a foaf:Person ;
     foaf:name "Natalia Tomashevskaya" .
 
+odp:Tony_TW
+    a foaf:Person ;
+    foaf:affil "PR China" ;
+    foaf:name "Tony Tong Wei" .
+
 odp:Torgashev_AS
     a foaf:Person ;
     foaf:affil "Russia" ;
@@ -4509,6 +4520,7 @@ odp:Xiaoyan_Z
 
 odp:Xing_FL
     a foaf:Person ;
+    foaf:affil "PR China" ;
     foaf:name "Xing Fenglei" .
 
 odp:Xu_DS
