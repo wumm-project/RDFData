@@ -157,7 +157,7 @@
 
 :Talk_119
     swc:relatedToEvent track:Main ;
-    dcterms:creator odp:Kozhemyako_A ;
+    dcterms:creator odp:Kozhemyako_AP ;
     dcterms:title "How To Hold Strategic Sessions Via TRIZ Tools"@en ;
     od:urlVideo <https://www.youtube.com/watch?v=qQBH2SBCqtI>;
     a od:Talk .

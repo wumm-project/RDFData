@@ -74,7 +74,7 @@
     a od:Talk .
 
 :Talk_110
-    dcterms:creator odp:Kozhemyako_A ;
+    dcterms:creator odp:Kozhemyako_AP ;
     od:urlVideo <https://www.youtube.com/watch?v=2UdgZTf9Keg> ;
     dcterms:title "Цели и способы формулирования противоречий в организационно-управленческих задачах"@ru, "Objectives and ways to formulate contradictions in organizational and management tasks"@en ;
     a od:Talk .

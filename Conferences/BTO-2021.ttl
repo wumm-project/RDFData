@@ -36,7 +36,7 @@ BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to lea
     a od:Talk .
 
 :Talk_101
-    dcterms:creator odp:Kozhemyako_A ;
+    dcterms:creator odp:Kozhemyako_AP ;
     dcterms:title "Conducting strategic sessions using TRIZ tools"@en, "Проведение стратегических сессий с применением инструментов ТРИЗ"@ru ;
     od:urlVideo <https://www.youtube.com/watch?v=YjNE_83DErY> ;
     a od:Talk .

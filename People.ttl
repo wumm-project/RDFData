@@ -2069,10 +2069,10 @@ odp:Kostin_A
     foaf:affil "Central Economics and Mathematics Institute RAS, Russia" ;
     foaf:name "Alexander Kostin" .
 
-odp:Kozhemyako_A
+odp:Kozhemyako_AP
     a foaf:Person ;
     foaf:affil "Business Association TRIZ, Russia" ;
-    foaf:fullname "Кожемяко Антон"@ru ;
+    foaf:fullname "Кожемяко Антон Петрович"@ru ;
     foaf:homepage <http://batriz.ru/>, <http://bmtriz.ru/> ;
     foaf:name "Anton Kozhemyako" .
 

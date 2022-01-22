@@ -418,7 +418,7 @@ odp:Kolchev_NP
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_26> ;
     od:theLevel tc:CertificateLevel5 .
 
-odp:Kozhemyako_A
+odp:Kozhemyako_AP
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_120> ;
     od:theLevel tc:CertificateLevel4 .
 

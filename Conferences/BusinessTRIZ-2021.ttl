@@ -39,7 +39,7 @@ The "BUSINESS TRIZ ONLINE WINTER 2021" conference invites anyone interested in l
     a od:Talk .
 
 :Talk_103
-    dcterms:creator odp:Kozhemyako_A ;
+    dcterms:creator odp:Kozhemyako_AP ;
     dcterms:title "Getting started on a business problem"@en ;
     od:urlSlides <hhttp://www.xtriz.com/presentations/IBTA2021W/IBTA%20Winter%202021%20Day%201%20-%203%20-%20Kozhemyako.pdf> ;
     od:urlVideo <https://youtu.be/AKvjFMz4bEs> ;
