@@ -1317,7 +1317,7 @@ odp:Guin_AA
     a foaf:Person ;
     foaf:affil "Association «Education for a New Era», Russia" ;
     foaf:fullname "Гин Анатолий Александрович"@ru ;
-    foaf:name "Anatoli Guin" .
+    foaf:name "Anatoly Guin" .
 
 odp:Guin_Elena
     a foaf:Person ;
@@ -1378,10 +1378,6 @@ odp:Han_N
 odp:Han_WP
     a foaf:Person ;
     foaf:name "Wie-pei Han" .
-
-odp:Han_Y
-    a foaf:Person ;
-    foaf:name "Yusin Han" .
 
 odp:Han_YS
     a foaf:Person ;
@@ -1681,7 +1677,7 @@ odp:June_KH
 odp:Jung_KJ
     a foaf:Person ;
     foaf:affil "South Korea" ;
-    foaf:name "Kyujin Jung" .
+    foaf:name "Kyu Jin Jung" .
 
 odp:Junjg_YL
     a foaf:Person ;
@@ -1766,7 +1762,7 @@ odp:Kang_SW
 odp:Kang_TW
     a foaf:Person ;
     foaf:affil "South Korea" ;
-    foaf:name "TaeWook Kang" .
+    foaf:name "Tae Wook Kang" .
 
 odp:Kang_YJ
     a foaf:Person ;
@@ -4430,7 +4426,7 @@ odp:Wang_Y
     a foaf:Person ;
     rdfs:seeAlso <http://orcid.org/0000-0003-0452-1359> ;
     foaf:affil "Tianjin, PR China" ;
-    foaf:name "Ye Wang", "Yu Wang" .
+    foaf:name "Ye Wang" .
 
 odp:Wang_YW
     a foaf:Person ;
@@ -4502,10 +4498,6 @@ odp:Xi_DZ
     a foaf:Person ;
     foaf:name "Dao-zheng Xi" .
 
-odp:Xiangmin_Z
-    a foaf:Person ;
-    foaf:name "Zhang Xiangmin" .
-
 odp:Xiaofeng_S
     a foaf:Person ;
     foaf:name "Sun Xiaofeng" .
@@ -4515,7 +4507,7 @@ odp:Xiaoyan_Z
     foaf:affil "China Railway Engineering Group, China" ;
     foaf:name "Zheng Xiaoyan" .
 
-odp:Xing_F
+odp:Xing_FL
     a foaf:Person ;
     foaf:name "Xing Fenglei" .
 
@@ -4726,6 +4718,10 @@ odp:Zhang_WX
     a foaf:Person ;
     foaf:affil "Tianjin, China" ;
     foaf:name "Wenxu Zhang" .
+
+odp:Zhang_XM
+    a foaf:Person ;
+    foaf:name "Zhang Xiangmin" .
 
 odp:Zhang_XY
     a foaf:Person ;

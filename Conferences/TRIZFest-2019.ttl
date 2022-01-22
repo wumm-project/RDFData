@@ -105,14 +105,14 @@
 
 :Talk_112
     swc:relatedToEvent track:Main ;
-    dcterms:creator odp:Kim_J, odp:Han_Y, odp:Lee_A, odp:Cho_G, odp:Jeong_W ;
+    dcterms:creator odp:Kim_J, odp:Han_YS, odp:Lee_A, odp:Cho_G, odp:Jeong_W ;
     dcterms:title "FOS with operating time"@en ;
     od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
     a od:Talk .
 
 :Talk_112a
     swc:relatedToEvent track:Main ;
-    dcterms:creator odp:Kim_J, odp:Han_Y, odp:Lee_A, odp:Cho_G, odp:Jeong_W ;
+    dcterms:creator odp:Kim_J, odp:Han_YS, odp:Lee_A, odp:Cho_G, odp:Jeong_W ;
     od:presentedBy odp:Lee_A; 
     dcterms:title "The method of step back from ideal system"@en ;
     od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
@@ -120,7 +120,7 @@
 
 :Talk_113
     swc:relatedToEvent track:Main ;
-    dcterms:creator odp:Jing_Z, odp:Xiangmin_Z, odp:Kai_G ;
+    dcterms:creator odp:Jing_Z, odp:Zhang_XM, odp:Kai_G ;
     dcterms:title "Study on the TESE application roadmap under the strategic development of S-curve"@en ;
     a od:Talk .
 
