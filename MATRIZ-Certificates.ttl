@@ -17,7 +17,7 @@
     rdfs:comment
     "2021-03-20 graebe: MATRIZ certificates level 4..5",
     "2021-03-26 graebe: aligned with People.ttl",
-    "2021-09-24 graebe: MATRIZ Champions added" ;
+    "2021-09-24 graebe: MATRIZ Champions added" ,
     "2022-01-22 graebe: update to 4_143 and 5_108" ;
     rdfs:label "TRIZ Database - MATRIZ Certificates Level 4 and 5 and MATRIZ Awards" ;
     owl:imports <http://opendiscovery.org/rdf/People/> .

@@ -92,7 +92,7 @@ od:Presentation a owl:Class ;
 <http://opendiscovery.org/rdf/Presentation/Kuryan-20200422>
   a od:Presentation ;
   dcterms:creator odp:Kuryan_A ;
-  dcterms:title  "О развитии систем, работе с требованиями и применении ТРИЗ в бизнесе с Андреем Курьяном"@ru ;
+  dcterms:title  "О развитии систем, работе с требованиями и применении ТРИЗ в бизнесе с Андреем Курьяном"@ru, "On systems development, working with requirements and applying TRIZ to business with Andrei Kuryan"@en ;
   dcterms:abstract "MakeSense Podcast"@en ; 
   od:urlVideo <https://www.youtube.com/watch?v=lZGlOoahpvc> ;
   dcterms:rights "Youtube Standard License" ;
@@ -104,7 +104,7 @@ od:Presentation a owl:Class ;
 <http://opendiscovery.org/rdf/Presentation/Lebedyev-20180128>
   a od:Presentation ;
   dcterms:creator odp:Lebedev_YV ;
-  dcterms:title  "Закон оптимизации потоков и потоковый анализ. Юрий Лебедев."@ru ;
+  dcterms:title  "Закон оптимизации потоков и потоковый анализ"@ru, "Flow optimisation law and flow analysis"@en ;
   dcterms:abstract "Выступление Мастера ТРИЗ Юрия Лебедева на конференции «ТРИЗ. Практика применения и развитие методических инструментов» в Москве 10-11 ноября 2017г."@ru ; 
   od:urlVideo <https://www.youtube.com/watch?v=UX3uEUZUn_k> ;
   dcterms:rights "Youtube Standard License" ;
@@ -112,6 +112,18 @@ od:Presentation a owl:Class ;
   dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
   dcterms:language  "ru"^^dcterms:RFC4646 ;
   dcterms:issued "2018-01-28"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Lebedyev-20220125>
+  a od:Presentation ;
+  dcterms:creator odp:Lebedev_YV ;
+  dcterms:title  "«Испытывать восторг от задач». ТРИЗ в проектах от техноконсалтинга до сельского хозяйства."@ru, "\"Experiencing the excitement of problems\". TRIZ in projects from techno-consulting to agriculture."@en ;
+  dcterms:abstract "Интервью с мастером ТРИЗ Юрием Лебедевым про некоторые из реализованных  проектов от технологического консалтинга до сельского хозяйства."@ru ; 
+  od:urlVideo <https://www.youtube.com/watch?v=pluVgvODb7A> ;
+  dcterms:rights "Youtube Standard License" ;
+  dcterms:extent "01:28:00 h" ;
+  dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  dcterms:issued "2022-01-25"^^dcterms:W3CDTF .
 
 <http://opendiscovery.org/rdf/Presentation/Litvin-20171101>
   a od:Presentation ;
@@ -298,3 +310,27 @@ od:Presentation a owl:Class ;
   dcterms:language  "ru"^^dcterms:RFC4646 ;
   rdfs:comment "Published via Souchkov's facebook channel"@en ; 
   dcterms:issued "2020-06-30"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Souchkov-20200707>
+  a od:Presentation ;
+  dcterms:creator odp:Souchkov_VV ;
+  dcterms:title  "Почему ТРИЗ-команды не запускают свои продукты?"@ru, "Why don't TRIZ teams launch their products??"@en ;
+  od:urlVideo <https://www.youtube.com/watch?v=KBS7SJ7Ht_I> ;
+  dcterms:rights "Youtube Standard License" ;
+  dcterms:extent "00:55:53 h" ;
+  dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  rdfs:comment "Published via Trizovication channel"@en ; 
+  dcterms:issued "2020-07-07"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Kudryavtsev-20210824>
+  a od:Presentation ;
+  dcterms:creator odp:Kudryavtsev_AV ;
+  dcterms:title  "«Секта, шарлатанство и 40 приёмов». Разоблачаем ТРИЗ"@ru, "\"Cult, charlatanism and 40 techniques\". Unmasking TRIZ"@en ;
+  od:urlVideo <https://www.youtube.com/watch?v=fFyc6JEtPqI> ;
+  dcterms:rights "Youtube Standard License" ;
+  dcterms:extent "01:23:35 h" ;
+  dcterms:format <https://www.iana.org/assignments/media-types/video/vnd.youtube.yt> ; 
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  rdfs:comment "Published via Trizovication channel"@en ; 
+  dcterms:issued "2021-08-24"^^dcterms:W3CDTF .

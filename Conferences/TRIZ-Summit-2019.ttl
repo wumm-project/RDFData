@@ -619,7 +619,7 @@ track:PT
     a od:Talk .
 
 :Talk_E111
-    dcterms:creator odp:Faber_B ;
+    dcterms:creator odp:Farber_BS ;
     dcterms:title "TRIZ Training System"@en, "Система обучения ТРИЗ"@ru ;
     a od:Talk .
 

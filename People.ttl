@@ -212,7 +212,7 @@ odp:Bauch_M
 
 odp:Bayer_T
     a foaf:Person ;
-    foaf:name "Thomas Bayer", "Tobias Bayer" .
+    foaf:name "Thomas Bayer" .
 
 odp:Bdulenko_MK
     a foaf:Person ;
@@ -699,7 +699,8 @@ odp:Cruise_DL
 
 odp:Czinki_A
     a foaf:Person ;
-    foaf:name "A. Czinki" .
+    foaf:affil "FH Aschaffenburg, Germany" ;
+    foaf:name "Alexander Czinki" .
 
 odp:Dammak_H
     a foaf:Person ;
@@ -927,10 +928,11 @@ odp:Etcu_M
     a foaf:Person ;
     foaf:name "Mihaela Ețcu" .
 
-odp:Faber_B
+odp:Farber_BS
     a foaf:Person ;
     foaf:affil "TRIZ Biopharma International Corp" ;
-    foaf:name "Boris Faber" .
+    foaf:fullname "Фарбер Борис Славинович "@ru ;
+    foaf:name "Boris Farber" .
 
 odp:Faer_SA
     a foaf:Person ;
@@ -1082,7 +1084,7 @@ odp:Fu_C
 
 odp:Fuhrmann_T
     a foaf:Person ;
-    foaf:affil "Schaeffler AG, Germany" ;
+    foaf:affil "Schaeffler AG, Herzogenaurach, Germany" ;
     foaf:name "Thomas Fuhrmann" .
 
 odp:Fulbright_R
@@ -2766,10 +2768,10 @@ odp:Mishra_U
     a foaf:Person ;
     foaf:name "U. Mishra" .
 
-odp:Misyuchenko_I
+odp:Misyuchenko_IL
     a foaf:Person ;
-    foaf:affil "Lithuania" ;
-    foaf:fullname "Мисюченко Игорь"@ru ;
+    foaf:affil "St. Petersburg, Russia" ;
+    foaf:fullname "Мисюченко Игорь Леонидович"@ru ;
     foaf:name "Igor Misyuchenko" .
 
 odp:Mitrofanov_VV
@@ -3461,11 +3463,6 @@ odp:Rubina_NV
     foaf:fullname "Рубина Наталия Викторовна"@ru ;
     foaf:name "Natalja Rubina" .
 
-odp:Ruck_J
-    a foaf:Person ;
-    foaf:affil "Linz, Austria" ;
-    foaf:name "Joachim Ruck" .
-
 odp:Rui_Z
     a foaf:Person ;
     foaf:name "Zhang Rui" .
@@ -3474,6 +3471,11 @@ odp:Ruin_A
     a foaf:Person ;
     foaf:affil "Russia" ;
     foaf:name "Aleksei Ruin" .
+
+odp:Runck_J
+    a foaf:Person ;
+    foaf:affil "Linz, Austria" ;
+    foaf:name "Joachim Runck" .
 
 odp:Russo_D
     a foaf:Person ;
@@ -3767,6 +3769,7 @@ odp:Shokin_A
     foaf:name "Anton Shokin" .
 
 odp:Shpakovsky_NA
+    dbo:deathDate "2021-11-08" ;
     a foaf:Person ;
     foaf:affil "Belarus" ;
     foaf:fullname "Шпаковский Николай Андреевич"@ru ;
@@ -4171,6 +4174,8 @@ odp:Tharmann_R
 
 odp:Thiel_R
     a foaf:Person ;
+    dbo:birthDate "1930-09-25" ;
+    dbo:deathDate "2021-12-19" ;    
     foaf:affil "LIFIS, Bugk bei Storkow, Germany" ;
     foaf:name "Rainer Thiel" .
 

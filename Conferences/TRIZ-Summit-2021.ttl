@@ -102,7 +102,7 @@
     dcterms:abstract """Medicine is an important field related to human and animal health, but TRIZ is rarely used there. We have extensive experience (45+) in various fields of medicine and related areas, which I have conventionally grouped into 5 groups.
 The implementation of TRIZ in medicine, including drug development, requires extensive knowledge in several areas based on the Silico modeling-molecular method. This method involves knowledge of the behaviour of molecules in different situations and their interactions with each other at different temperatures and in the presence of salts and other compounds. """@en, """Медицина - важная область, связанная со здоровьем человека и животных, но ТРИЗ редко используется в такой важной сфере. У нас накоплен большой опыт (45+) в различных областях медицины и смежных областях, которые я условно объединил в 5 групп.
 Для внедрения ТРИЗ в медицину, включая разработку лекарств, необходимы обширные знания в нескольких областях, основанных на методе Silico modeling- молекулярного моделирования. Этот метод включает в себя знания поведения молекул в различных ситуациях и их взаимодействия друг с другом при разных температурах, а также в присутствии солей и других соединений. """@ru ;
-    dcterms:creator odp:Faber_B ;
+    dcterms:creator odp:Farber_BS ;
     dcterms:title "TRIZ in medicine"@en, "ТРИЗ в медицине"@ru ;
     od:urlVideo <https://www.youtube.com/watch?v=czV-cplo4dE>; 
     a od:Talk .
@@ -299,7 +299,7 @@ The results of the study showed that the inclusion of art technologies in the ed
 
 :EduTalk_111
     dcterms:abstract "In this article, we have described our 46 years of experience in applying TRIZ in education. We have analysed hundreds of thousands of problems in mathematics, physics, chemistry, developed a system of operations and algorithms, set standards for solving them, and included aspects of the latest achievements of didactics, psychology, psychophysiology, and object-oriented programming. When teaching generalized actions and operations, we teach visual and figurative use of graphic material, reference signals, diagrams, schemes, and develop screen and figurative thinking. Key words: TRIZ, Education, Image Method, History of Image Method, Categories of Image Method. "@en, "В статье мы описали наш 46 летний опыт применения ТРИЗ в образовании. С позиции ТРИЗ были проанализированы сотни тысяч задач по математике, физике, химии, разработал систему операций и алгоритмов, установлены стандарты по их решению, включены аспекты новейших достижений дидактики, психологии, психофизиологии, объектно-ориентированного программирования. При обучении обобщенным действиям и операциям, мы обучаем наглядно-образному использованию графического материала, опорных сигналов, диаграмм, схем и развиваем экранное и образное мышление. Ключевые слова: ТРИЗ, Образование, Метод Образов, История Метода Образов, категории Метода Образов. "@ru ;
-    dcterms:creator odp:Faber_B ;
+    dcterms:creator odp:Farber_BS ;
     dcterms:title "TRIZ in Education, History of the Development of Image-based Teaching, Business Experience"@en, "ТРИЗ в Образовании, История развития преподавания на основе Метода Образов, бизнес-опыт"@ru ;
     od:urlVideo <https://www.youtube.com/watch?v=CVsAF6SfLfM>;
     a od:Talk .
