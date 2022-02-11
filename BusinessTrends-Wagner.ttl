@@ -2,7 +2,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix cc: <http://creativecommons.org/ns#> .
-@prefix skos: <http://www.w3.org/ns/skos#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
 @prefix tc: <http://opendiscovery.org/rdf/Concept/> .
 @prefix : <http://opendiscovery.org/rdf/BusinessTrend/> .
@@ -55,7 +55,7 @@ with another Business model?"""@en,
 
 :Trend_01_1
     od:isSubtrendOf :Trend_01 ;
-    a tc:Trend ;
+    a tc:SubTrend ;
     skos:example
 
 """Häufig vervollständigen Steuerkanzleien ihr Geschäftsmodell mit
@@ -94,7 +94,7 @@ their own."""@en,
 
 :Trend_01_2
     od:isSubtrendOf :Trend_01 ;
-    a tc:Trend ;
+    a tc:SubTrend ;
     skos:example
 
 """Häufig finden sich innerhalb eines Unternehmens unterschiedliche
@@ -136,7 +136,7 @@ business model."""@en,
 
 :Trend_01_3
     od:isSubtrendOf :Trend_01 ;
-    a tc:Trend ;
+    a tc:SubTrend ;
     skos:example
 
 """Ryanair schafft es mithilfe des Geschäftsmodells Add-on durch viele
@@ -239,7 +239,7 @@ were deleted?"""@en,
 
 :Trend_02_1
     od:isSubtrendOf :Trend_02 ;
-    a tc:Trend ;
+    a tc:SubTrend ;
     skos:example
 
 """Unternehmen wie YouTube ermöglichen es den Kunden, selbst zu Produzenten zu
@@ -278,7 +278,7 @@ the business model (e.g. customers, competitors, stakeholders)."""@en,
 
 :Trend_02_2
     od:isSubtrendOf :Trend_02 ;
-    a tc:Trend ;
+    a tc:SubTrend ;
     skos:example
 
 """Amazon hat früh erkannt, dass zu viele Klicks beim Kauf dazu führen, dass
@@ -313,7 +313,7 @@ with as few components or elements as possible."""@en,
 
 :Trend_02_3
     od:isSubtrendOf :Trend_02 ;
-    a tc:Trend ;
+    a tc:SubTrend ;
     skos:example
 
 """Durch das Geschäftsmodell Hidden Revenue verlangt Twitter keine Gebühren
@@ -407,7 +407,7 @@ be adopted by the environment?"""@en,
 
 :Trend_03_1
     od:isSubtrendOf :Trend_03 ;
-    a tc:Trend ;
+    a tc:SubTrend ;
     skos:example
 
 """Bis 2014 hat Spotify ein Partnerprogramm angeboten. Es ermöglichte
@@ -445,7 +445,7 @@ people (customers, competitors, Stakeholders, ...)."""@en,
 
 :Trend_03_2
     od:isSubtrendOf :Trend_03 ;
-    a tc:Trend ;
+    a tc:SubTrend ;
     skos:example
 
 """Durch die Nutzung des Internets konnte LinkedIn die Möglichkeit, sich zu
@@ -475,7 +475,7 @@ e.g. the Internet."""@en,
 
 :Trend_03_3
     od:isSubtrendOf :Trend_03 ;
-    a tc:Trend ;
+    a tc:SubTrend ;
     skos:example
 
 """Airbnb und Uber verfügen selbst über keine Hotelzimmer, Betten oder
@@ -574,7 +574,7 @@ much?"""@en,
 
 :Trend_04_1
     od:isSubtrendOf :Trend_04 ;
-    a tc:Trend ;
+    a tc:SubTrend ;
     skos:example
 
 """Dell nutzt das Geschäftsmodell Cash Machine, mit welchem in den
@@ -623,7 +623,7 @@ Also sales and revenue streams should be coordinated with each other."""@en,
 
 :Trend_04_2
     od:isSubtrendOf :Trend_04 ;
-    a tc:Trend ;
+    a tc:SubTrend ;
     skos:example
 
 """Ein Beispiel hierfür ist das Geschäftsmodell des Schweizer Unternehmens
@@ -691,7 +691,7 @@ this can be used to generate (additional) sales?"""@en,
 
 :Trend_05_1
     od:isSubtrendOf :Trend_05 ;
-    a tc:Trend ;
+    a tc:SubTrend ;
     skos:example
 
 """Starbucks konnte durch die Nutzung eben dieses Geschäftsmodells die Kunden
@@ -799,7 +799,7 @@ functions and thus move to multifunctionality?"""@en,
 
 :Trend_06_1
     od:isSubtrendOf :Trend_06 ;
-    a tc:Trend ;
+    a tc:SubTrend ;
     skos:example
 
 """Durch ein Franchise-Geschäftsmodell konnte McDonald‘s starre und
@@ -842,7 +842,7 @@ model gains in flexibility."""@en,
 
 :Trend_06_2
     od:isSubtrendOf :Trend_06 ;
-    a tc:Trend ;
+    a tc:SubTrend ;
     skos:example
 
 """Die Mode-Marke Zara beschäftigt weltweit Hunderte von Designern und
@@ -949,7 +949,7 @@ interaction?"""@en,
 
 :Trend_07_1
     od:isSubtrendOf :Trend_07 ;
-    a tc:Trend ;
+    a tc:SubTrend ;
     skos:example
 
 """PayPal konnte durch eine abnehmende menschliche Interaktion bei
@@ -977,7 +977,7 @@ processes are digitized and run increasingly without human interaction."""@en,
 
 :Trend_07_2
     od:isSubtrendOf :Trend_07 ;
-    a tc:Trend ;
+    a tc:SubTrend ;
     skos:example
 
 """Die Bäckereikette BackWerk hat in ihrem Geschäftsmodell auf Mitarbeiter
@@ -1010,7 +1010,7 @@ the company, customers, stakeholders, etc."""@en,
 
 :Trend_07_3
     od:isSubtrendOf :Trend_07 ;
-    a tc:Trend ;
+    a tc:SubTrend ;
     skos:example
 
 """Der Einsatz von Sensoren ermöglicht zusätzliche Dienstleistungen für
@@ -1109,7 +1109,7 @@ slowly? How does this change the business model?"""@en,
 
 :Trend_08_1
     od:isSubtrendOf :Trend_08 ;
-    a tc:Trend ;
+    a tc:SubTrend ;
     skos:example
 
 """Mymuesli schafft es durch das Geschäftsmodell Mass Customization (dt.
@@ -1153,7 +1153,7 @@ elements."""@en,
 
 :Trend_08_2
     od:isSubtrendOf :Trend_08 ;
-    a tc:Trend ;
+    a tc:SubTrend ;
     skos:example
 
 """Bei Mercedes-Benz oder BMW sind AddOn-Muster in vielen Fällen ein
@@ -1246,7 +1246,7 @@ smoothly? What problems arise?"""@en,
 
 :Trend_09_1
     od:isSubtrendOf :Trend_09 ;
-    a tc:Trend ;
+    a tc:SubTrend ;
     skos:example
 
 """In diesem Zusammenhang erscheint kaum ein anderes Unternehmen so relevant
@@ -1287,7 +1287,7 @@ to be used in turn for tailored offers for customers."""@en,
 
 :Trend_09_2
     od:isSubtrendOf :Trend_09 ;
-    a tc:Trend ;
+    a tc:SubTrend ;
     skos:example
 
 """Indem Kunden getreu dem Self-Service-Geschäftsmodell ihre Möbel selbst aus
@@ -1387,7 +1387,7 @@ feeling is addressed particularly strong or weak?"""@en,
 
 :Trend_10_1
     od:isSubtrendOf :Trend_10 ;
-    a tc:Trend ;
+    a tc:SubTrend ;
     skos:example
 
 """Tchibo konnte so z.B. durch Cross Selling das eigene Angebot sukzessive um
@@ -1426,7 +1426,7 @@ business model."""@en,
 
 :Trend_10_2
     od:isSubtrendOf :Trend_10 ;
-    a tc:Trend ;
+    a tc:SubTrend ;
     skos:example
 
 """So sorgt z.B. Hilti durch das sog. Hilti Fleet Management mithilfe des
