@@ -1,0 +1,1454 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix skos: <http://www.w3.org/ns/skos#> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix tc: <http://opendiscovery.org/rdf/Concept/> .
+@prefix : <http://opendiscovery.org/rdf/BusinessTrend/> .
+
+<http://opendiscovery.org/rdf/BusinessTrends-Wagner/>
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    a owl:Ontology ;
+    rdfs:comment "Business trends proposed by Luisa Wagner in her master's thesis https://wumm-project.github.io/Texts/WagnerLuisa-2021.pdf.", "Extracted and transformed by HGG, 2022-02-10" ;
+    rdfs:label "TRIZ Database - Business Trends" .
+
+:Trend_01
+    od:Provocation
+
+"""Wie kann das bestehende Angebot durch ein neues Geschäftsmodell erweitert
+bzw. mit einem weiteren Geschäftsmodell kombiniert werden?"""@de,
+
+"""Wie kann das bestehende Angebot durch weitere Angebote ergänzt
+werden?"""@de,
+
+"""Wie kann das bestehende Geschäftsmodell mit weiteren Ideen, Produkten,
+Prozessen, Dienstleistungen, Geschäftsmodellen, etc. ergänzt bzw. erweitert
+werden?"""@de,
+
+"""How can the existing business model be supplemented or extended with
+further ideas, products, processes, services, business models?"""@en,
+
+"""How can the existing offer be supplemented by further offers?"""@en,
+
+"""How to extend the existing offer with a new Business model or combine it
+with another Business model?"""@en,
+
+"""Как расширить существующее предложение новым бизнес-модельем или объедить с
+другой бизнес-моделью?"""@ru,
+
+"""Как можно дополнить или расширить существующую бизнес-модель новыми идеями,
+продуктами, процессами, услугами, бизнес-модельями и т.д.?"""@ru,
+
+"""Как дополнить существующее предложение другими предложениями?"""@ru ;
+
+    a tc:Trend ;
+    rdfs:label "Trend der zunehmenden Systemvollständigkeit"@de,
+    "Trend of Increasing System Completeness"@en,
+    "Тенденция к увеличению полноты системы"@ru ;
+    skos:definition
+    "Business models complement each other"@en,
+    "Geschäftsmodelle ergänzen sich gegenseitig"@de,
+    "Бизнес-модели дополняют друг друга"@ru .
+
+:Trend_01_1
+    od:isSubtrendOf :Trend_01 ;
+    a tc:Trend ;
+    skos:example
+
+"""Häufig vervollständigen Steuerkanzleien ihr Geschäftsmodell mit
+Rechtsanwaltskanzleien.  Dabei basieren beide Geschäftsmodelle auf einem
+identischen Kundenstamm (Zielgruppe).  Wenn eines der Geschäftsmodelle allein
+nicht profitabel genug wäre, so kann die Kombination aus Steuer- und
+Rechtsanwaltskanzlei dazu führen, dass das kombinierte Geschäftsmodell
+profitabel wird."""@de,
+
+"""Tax firms often complete their business model with law firms. Both business
+models are based on an identical customer base (target group). If one of the
+business models alone would not be profitable enough, in the combination of
+tax and law firm the combined business model becomes profitable."""@en,
+
+"""Налоговые фирмы часто расширяют свою бизнес-модель с юридическими фирмами.
+Обе бизнес-модели основаны на идентичной базе клиентов (целевая группа). Если
+одна из бизнес-моделей недостаточно прибыльна, сочетание налоговой и
+юридической фирмы в комбинированную бизнес-модель становится
+прибыльным."""@ru;
+
+    skos:note
+
+"""Bei der Weiterentwicklung von Geschäftsmodellen werden diese häufig
+vervollständigt. Zur Vervollständigung können dabei andere Geschäftsmodelle
+(Kombination) dienen. Die anderen Geschäftsmodelle basieren häufig auf
+„kleineren“ Ideen, die eigenständig nicht überlebensfähig wären."""@de,
+
+"""As business models evolve, they become frequently completed. For
+completion, others business models can be used (combination). The other
+business models are often based on "smaller" ideas that cannot survive on
+their own."""@en,
+
+"""По мере развития бизнес-моделей они часто уполняются. Для этого могут
+служить другие бизнес-модели (комбинация). Эти дригие бизнес-модели часто
+основаны на "меньших" идеях, которые не могут выжить сами по себе."""@ru .
+
+:Trend_01_2
+    od:isSubtrendOf :Trend_01 ;
+    a tc:Trend ;
+    skos:example
+
+"""Häufig finden sich innerhalb eines Unternehmens unterschiedliche
+Geschäftsmodelle. So hat z.B. Spotify mind. 3 Geschäftsmodelle (Freemium,
+Hidden Revenue, Subscription), PayPal mind. 2 Geschäftsmodelle (Cash Machine
+und Layer Player) und Netflix auch mind. 2 Geschäftsmodelle (Digitalisation,
+Flatrate) vereint. Am Beispiel von Netflix dient das Geschäftsmodell Flatrate
+dem Element Erlösmechanik und das Geschäftsmodell Digitalisation könnte sowohl
+den Kundenkanälen (per Internet) oder der Value Proposition zugeschrieben
+werden."""@de,
+
+"""Commonly within a company coexist different business models. For example,
+Spotify combines at least 3 business models (freemium, hidden revenue,
+subscription), PayPal at least 2 business models (Cash Machine and Layer
+Player) and Netflix also at least 2 business models (digitization, flat rate).
+For example, for Netflix the flat rate business model serves the element
+revenue mechanics and the digitalization business model could be used both in
+the customer channels (via the Internet) or attributed to the value
+proposition."""@en,
+
+"""Обычно в компании сосуществуют разные бизнес-модели. Например, Spotify
+имеет как минимум 3 бизнес-модели (фримиум, скрытый доход, подписка), PayPal
+не менее 2 бизнес-модели (Cash Machine и Layer Player) и Netflix также как
+минимум 2 бизнес-модели (оцифровка, фиксированная ставка).  Например для
+Netflix бизнес-модель с фиксированной ставкой обслуживает элемент механики
+доходов, и бизнес-модель цифровизации используется как в клиентских каналах
+(через Интернет), так и связана с ценностным предложением."""@ru ;
+
+    skos:note
+
+"""Die neuen Geschäftsmodelle bedienen in den meisten Fällen unterschiedliche
+Elemente des Kern-Geschäftsmodells."""@de,
+
+"""The new business models serve in most cases different elements of the core
+business model."""@en,
+
+"""Новые бизнес-модели обслуживают в большинстве случаев различные элементы
+корневой бизнес-модели."""@ru .
+
+:Trend_01_3
+    od:isSubtrendOf :Trend_01 ;
+    a tc:Trend ;
+    skos:example
+
+"""Ryanair schafft es mithilfe des Geschäftsmodells Add-on durch viele
+komplementäre Extras zusätzliche Gebühren beim Kunden zu verlangen. Payback
+vervollständigt das Angebot durch das Geschäftsmodell Customer Loyality und
+bietet über das bestehende Angebot zusätzliche Programme an, welche
+letztendlich den Kunden an das Unternehmen binden."""@de,
+
+"""Ryanair is offers through the add-on business model many complementary
+extras and demands additional charges from the customer. Payback completes the
+offer with the business model Customer Loyalty and offers additional programs
+to the existing offer which ultimately bind the customer to the
+company."""@en,
+
+"""Ryanair, используя бизнес-модель дополнения предлагает клиенту многие
+дополнительные услуги за дополнительную плату. Payback дополняет предложение
+бизнес-моделью лояльность клиентов и предлагает дополнительные программы сверх
+существующего предложения, которые в конечном итоге связывают клиента с
+компанией."""@ru ;
+
+    skos:note
+
+"""In vielen Fällen führen neue Geschäftsmodelle auch dazu, dass das
+bestehende Angebot erweitert und vervollständigt wird."""@de,
+
+"""In many cases, new business models also mean that existing offers are
+extended and completed."""@en,
+
+"""Во многих случаях новые бизнес-модели также ведут к тому, что существующее
+предложение расширяется и дополняется."""@ru .
+
+:Trend_02
+    od:Provocation
+
+"""Welche Elemente des bisherigen Geschäftsmodells könnten herausgetrimmt
+werden?  Welche anderen Elemente könnten die Funktion des getrimmten Elements
+übernehmen?"""@de,
+
+"""Welche Schritte im bisherigen Kaufprozess könnte der Kunde als lästig
+empfinden?  Welche Schritte sind kritisch?  Was würde passieren, wenn genau
+diese Schritte herausgelöscht würden?"""@de,
+
+"""Wie könnte das Geschäftsmodell weiter entwickelt werden, wenn wichtige
+Elemente wie Kunden, Stakeholder, etc. herausgetrimmt werden?"""@de,
+
+"""Wie würde das Geschäftsmodell aussehen, wenn wichtige Akteure,
+z.B. Stakeholder, etc. herausgetrimmt werden?  Welche Akteure könnten die
+Funktion der fehlenden Akteure übernehmen?"""@de,
+
+"""Wie würde das Geschäftsmodell aussehen, wenn wichtige Prozessschritte wie
+z.B. Finanzierung, Direktverkauf, etc.  herausgetrimmt werden?  Wie könnte der
+entsprechende Prozessschritt von einer anderen Stelle übernommen
+werden?"""@de,
+
+"""How could the business model be further developed, when important elements
+like customers, stakeholders, etc. are trimmed out?"""@en,
+
+"""What elements of the previous business model could get trimmed? Which other
+elements could take over the function of the trimmed elements?"""@en,
+
+"""What would the business model look like if important actors,
+e.g. stakeholders, etc. are trimmed? Which actors could take over the function
+of the missing actors?"""@en,
+
+"""What would the business model look like if important process steps such as
+financing, direct sales, etc. are trimmed? How could the corresponding process
+step be taken over by another place?"""@en,
+
+"""Which steps in the existing purchase process the customer could find
+annoying? Which steps are critical? What would happen, if exactly these steps
+were deleted?"""@en,
+
+"""Как бы выглядела бизнес-модель, если бы важные актеры, например
+заинтересованные стороны и т.д., свертывались? Какие актеры могли взять на
+себя функции свернутых элементов?"""@ru,
+
+"""Как бы выглядела бизнес-модель, если бы важные шаги процесса, как
+финансирование, прямые продажи и т.д. свертывались? Как можно было выполнить
+соответствующий шаг процесса в другом месте?"""@ru,
+
+"""Как можно дальше развивать бизнес-модель, когда важные элементы, такие как
+клиенты, заинтересованные стороны и т.д., свертывались?"""@ru,
+
+"""Какие шаги в существующем процессе покупки клиент мог принимать
+раздражающим?  Какие шаги являются критическими? Что случилось бы, если бы
+были удалены именно эти шаги?"""@ru,
+
+"""Какие элементы существующей бизнес-модели можно свертывать? Какие другие
+элементы могут выполнять функцию свернутые элементы?"""@ru ;
+
+    a tc:Trend ;
+    rdfs:label
+    "Trend des zunehmenden Trimmgrades"@de,
+    "Trend of Increasing Degee of Trimming"@en,
+    "Тенденция повышения уровня свертывания"@ru ;
+    skos:definition
+    "Less is more"@en,
+    "Weniger ist mehr"@de,
+    "Меньше значит больше"@en .
+
+:Trend_02_1
+    od:isSubtrendOf :Trend_02 ;
+    a tc:Trend ;
+    skos:example
+
+"""Unternehmen wie YouTube ermöglichen es den Kunden, selbst zu Produzenten zu
+werden und trimmen damit eigene Produzenten heraus.  (Geschäftsmodell
+Prosumer)"""@de,
+
+"""Companies like YouTube enable customers to become producers and thus trim
+out their own producers. (Prosumer business model)"""@en,
+
+"""Компании, как YouTube, позволяют клиентам стать производителями и таким
+образом свернуть своих собственных производителей (бизнес-модель
+Prosumer)."""@ru ;
+
+    skos:note
+
+"""Viele bestehende Geschäftsmodelle sind durch eine starke Komplexität
+gekennzeichnet. Doch in vielen Fällen ist weniger mehr. Um die Komplexität
+reduzieren zu können, ist es in vielen Fällen hilfreich, Elemente
+herauszutrimmen (löschen). Die Funktion, die das herausgelöschte Element
+übernommen hat, wird dann an ein anderes Element innerhalb (oder außerhalb)
+des Geschäftsmodells (z.B. Kunden, Wettbewerber, Stakeholder)
+übergeben."""@de,
+
+"""Many existing business models are characterized by a strong marked
+complexity. But in many cases, less is more. In order to reduce complexity, in
+many cases it is helpful to trim (delete) elements. The function of the
+deleted element has to be transferred to another element within (or outside)
+the business model (e.g. customers, competitors, stakeholders)."""@en,
+
+"""Многие существующие бизнес-модели характеризуются большой сложностью. Но во
+многих случаях меньше значит больше. Чтобы уменьшить сложность, во многих
+случаях полезно свернуть элементы (стереть их).  Функция, которую выполнял
+свернутый элемент, при этом переносится на другой элемент внутри (или вне)
+бизнес-модели (например, на клиенты, конкуренты, заинтересованные
+стороны)."""@ru .
+
+:Trend_02_2
+    od:isSubtrendOf :Trend_02 ;
+    a tc:Trend ;
+    skos:example
+
+"""Amazon hat früh erkannt, dass zu viele Klicks beim Kauf dazu führen, dass
+Kunden bei jedem weiteren Klick den Kauf erneut überdenken und ggf. den
+Kaufvorgang frühzeitig beenden. Diese Komplexität konnte Amazon umgehen, indem
+„1-Click“-Bestellungen ermöglicht werden. Dadurch können Kunden mit nur einem
+Klick das Produkt erwerben. Amazon konnte damit „unnötige“ Klicks
+herauslöschen."""@de,
+
+"""Amazon recognized early on that too many clicks result in customers
+reconsidering the purchase order with each additional click and in the bad end
+cancel the purchase process early. Amazon was able to bypass this complexity
+by enabling "1-Click" orders. This allows customers to purchase the product
+with just one click. Amazon was able to delete "unnecessary" clicks."""@en,
+
+"""Amazon рано понял, что слишком много кликов приводит к тому, что клиенты
+пересматривают покупку с каждым дополнительным кликом и часто отменяют процесс
+покупки досрочно. Amazon смогла справиться с этой сложностью, введя ордера с
+одним кликом. Это позволяет клиентам приобрести товар в один клик. Amazon
+удалось удалить "лишние" клики."""@ru ;
+
+    skos:note
+
+"""Andere Unternehmen profitieren davon, das Angebot durch ihr Geschäftsmodell
+mit so wenigen Komponenten bzw. Elementen wie möglich auszuführen."""@de,
+
+"""Other companies benefit if the offer is executed within a business model
+with as few components or elements as possible."""@en,
+
+"""Другие компании получат выгоду от бизнес-модели которая выполняет процесс с
+минимальным количеством компонентов или элементов."""@ru .
+
+:Trend_02_3
+    od:isSubtrendOf :Trend_02 ;
+    a tc:Trend ;
+    skos:example
+
+"""Durch das Geschäftsmodell Hidden Revenue verlangt Twitter keine Gebühren
+von den Nutzern für den Zugriff auf die Plattform oder die Nutzung der App.
+Aber es werden Werbeanzeigen eingeblendet, wodurch Marken an Twitter eine
+Gebühr zahlen, um die Werbung zu schalten und die Nutzer der Plattform zu
+erreichen. Somit werden die fehlenden Nutzungsgebühren der Kunden über die
+Werbeanzeigen finanziert."""@de,
+
+"""Due to the Hidden Revenue business model, Twitter demands no fees from
+users for accessing the platform or use the app. But advertisements are
+displayed, causing brands to pay to Twitter a fee to place the ads and thus to
+reach the users of the platform. Thus, the missing user fees are replaced by
+fundings from the ads."""@en,
+
+"""Используя бизнес-модели скрытого дохода Twitter требует никаких сборов с
+пользователей за доступ к платформе или использование приложения. Но
+показывается реклама, заставляя бренды Twitter платит за размещение рекламы и
+дойти до пользователей платформы. Таким образом, отсутствие платежа клиентов
+комспенсируется финансированием рекламы."""@ru ;
+
+    skos:note
+
+"""Einige Unternehmen überdenken auch ihr Einnahmesystem und trimmen in diesem
+Fall z.B. die Logik, dass Kunden für die Einnahmen des Unternehmens
+verantwortlich sind, heraus."""@de,
+
+"""Some companies are also rethinking their revenue systems in this case and
+trim e.g. the logic that the customers are responsible for the revenue of the
+company."""@en,
+
+"""Некоторые компании также передумают свою систему доходов и свертывают,
+например, логику, что для дохода компании клиенты несут ответственность."""@ru
+.
+
+:Trend_03
+    od:Provocation
+
+"""Welche Aufgaben, Leistungen bzw. Elemente des bestehenden Geschäftsmodells
+könnten von Elementen des Umfelds übernommen werden?"""@de,
+
+"""Welche Elemente des Umfelds wie z.B. Wettbewerb, Internet, etc. sind für
+das Geschäftsmodell noch relevant und wie könnten diese Elemente des Umfelds
+zur Generierung von Mehrwert genutzt werden?"""@de,
+
+"""Wie könnten Elemente des Umfelda des bestehenden Geschäftsmodells genutzt
+werden, um Aufgaben zu erfüllen bzw. oder Prozesse übernehmen?"""@de,
+
+"""Wie könnte das bisherige Geschäftsmodell weiterentwickelt werden, wenn das
+Umfeld wie z.B. Gesellschaft, Kunden, Unternehmen, Internet, Wettbewerb,
+etc. genutzt wird?  Welche Aufgaben könnten vom Umfeld übernommen
+werden?"""@de,
+
+"""How could elements of the environment be used to fulfill or take over tasks
+or processes of the existing business model?"""@en,
+
+"""How could the existing business model be further developed if the
+Environment such as society, customers, companies, the Internet, competition,
+etc. is used? Which tasks could be taken over by the environment?"""@en,
+
+"""What elements of the environment such as competition, internet, etc. is
+still relevant for the business model and how could this environment be used
+to generate added value?"""@en,
+
+"""What tasks, deliverables or elements of the existing Business model could
+be adopted by the environment?"""@en,
+
+"""Как можно дальше развивать существующую бизнес-модель если использовть
+элементы окружающей среды, как общество, клиенты, компании, интернет,
+конкуренция и т.д.? Какие задачи может взять на себя окружающая среда?"""@ru,
+
+"""Какие элементы окружающей среды существующей бизнес-модели можно
+использовать для выполнения задач или процессов?"""@ru,
+
+"""Какие элементы окружающей среды, как конкуренция, интернет и т.д., всё ещё
+существены для бизнес-модели и как эта среда может быть использована для
+создания добавочной стоимости?"""@ru,
+
+"""Какие задачи, результаты или элементы существующей бизнес-модели могут быть
+выполнены окружающей средой?"""@ru ;
+
+    a tc:Trend ;
+    rdfs:label
+    "Trend des Übergangs zum Supersystem"@de,
+    "Trend of Transition to the Supersystem"@en,
+    "Тенденция перехода к надсистеме"@ru ;
+    skos:definition
+    "Nutzung des Umfeldes"@de,
+    "Use of the environment"@en,
+    "Использование окружающей среды"@ru .
+
+:Trend_03_1
+    od:isSubtrendOf :Trend_03 ;
+    a tc:Trend ;
+    skos:example
+
+"""Bis 2014 hat Spotify ein Partnerprogramm angeboten. Es ermöglichte
+Benutzern, ihre Freunde für den Dienst zu werben. Nachdem sich fünf ihrer
+Freunde bei Spotify angemeldet hatten, erhielt der werbende Benutzer einen
+kostenlosen Monat Spotify. Spotify hat die Nutzer/Kunden dafür genutzt,
+weitere Kunden zu bekommen (Geschäftsmodell Affiliation)."""@de,
+
+"""Until 2014, Spotify offered an affiliate program. It allowed users to win
+their friends for the service. If five of their friends had signed up for
+Spotify the advertiser recieved a free month of Spotify. Spotify has used the
+customers to get more customers (affiliation business model)."""@en,
+
+"""До 2014 года Spotify предлагал партнерскую программу.  Разрешили
+пользователям привлекать своих друзей к сервису. После того как пятеро их
+друзей подписались на Spotify, пользователь получил бесплатный месяц. Spotify
+использовал пользователи/клиенты для привлечения большего количества клиентов
+(бизнес-модель аффилиации)."""@ru ;
+
+    skos:note
+
+"""Viele Geschäftsmodelle basieren darauf, dass die Umgebung des Unternehmens
+für das Werteversprechen und das Angebot genutzt werden. Die Umgebung kann
+hierbei physische Gegenstände, Personen (Kunden, Wettbewerber, Stakeholder, …)
+umfassen."""@de,
+
+"""Many business models rely on the environment of the company for the value
+proposition and the offer. The environment may include physical objects,
+people (customers, competitors, Stakeholders, ...)."""@en,
+
+"""Многие бизнес-модели основаны на том, что окружающая среда компании
+используется для ценностного предложения. Окружающей средой могут быть
+физические объекты, люди (клиенты, конкуренты, заинтересованные стороны,
+...)."""@ru .
+
+:Trend_03_2
+    od:isSubtrendOf :Trend_03 ;
+    a tc:Trend ;
+    skos:example
+
+"""Durch die Nutzung des Internets konnte LinkedIn die Möglichkeit, sich zu
+vernetzen und nach relevanten Branchenkontakten zu suchen, online verfügbar
+machen. Dies ermöglicht es, mithilfe des Digitalisation Geschäftsmodells über
+die unmittelbare physische Reichweite hinauszugehen."""@de,
+
+"""Using the Internet, LinkedIn made available online the opportunity to
+network and seek relevant industry contacts. This allows using the
+Digitization business model to go beyond the immediate physical reach."""@en,
+
+"""Используя интернет, LinkedIn сделал доступным возможность налаживания
+связей и поиска соответствующих отраслевых контактов через Интернет.
+Бизнес-модели оцифровки позволяет выйти за пределы непосредственной физической
+досягаемости."""@ru ;
+
+    skos:note
+
+"""Die Umgebung umfasst auch digitale bzw. nicht direkt greifbare Dinge wie
+z.B. das Internet."""@de,
+
+"""The environment includes also digital and other intangible things such as
+e.g. the Internet."""@en,
+
+"""Окружающая среда включает цифровые или другие нематериальные вещи как
+Интернет."""@ru .
+
+:Trend_03_3
+    od:isSubtrendOf :Trend_03 ;
+    a tc:Trend ;
+    skos:example
+
+"""Airbnb und Uber verfügen selbst über keine Hotelzimmer, Betten oder
+Fahrzeuge.  Beide Unternehmen bedienen sich der Produkte aus ihrer Umgebung
+und nutzen so z.B. frei stehende Wohnungen oder Fahrzeuge von Menschen aus dem
+Umfeld.  Beide Unternehmen übernehmen in diesem Fall mehr die Rolle eines
+Plattform-Betreibers."""@de,
+
+"""Airbnb and Uber do not have hotel rooms or beds themselves or vehicles.
+Both companies use the products from their environment and thus use, for
+example, free apartments or vehicles from people in the environment. Both
+companies take over in this case more the role of a platform operator. """@en,
+
+"""У Airbnb и Uber нет гостиничных номеров, кроватей или транспортных средств.
+Обе компании используют продукты своей окружающей среды и, таким образом,
+используют, например, свободные квартиры или транспортные средства людей из
+окружающей среды. В этом случае обе компании берут больше на себя роль
+оператора платформы. """@ru ;
+
+    skos:note
+
+"""Viele der erfolgreichen Geschäftsmodelle basieren heute darauf, dass
+Produkte nicht mehr innerhalb des eigenen Unternehmens vorhanden sind, sondern
+aus der Umgebung genutzt bzw. bezogen werden."""@de,
+
+"""Today many of the successful business models are based on products which
+are no longer available within the own company, but are used or obtained from
+the environment."""@en,
+
+"""Многие современные успешные бизнес-модели основаны на том, что продукты
+больше не производятся в собственной компании, но используются или получаются
+из окружающей среды."""@ru .
+
+:Trend_04
+    od:Provocation
+
+"""Welche Auswirkung hat eine Änderung eines Elements des bestehenden
+Geschäftsmodells auf die Koordinierung mit anderen Elementen?"""@de,
+
+"""Welche Elemente des Geschäftsmodells könnten verändert bzw.
+weiterentwickelt werden, ohne dass sich die interne Koordinierung des
+Geschäftsmodells allzu stark ändert?"""@de,
+
+"""Wie können einzelne Elemente des bestehenden Geschäftsmodells verändert
+werden, aber dennoch weiterhin koordinierbar bleiben?"""@de,
+
+"""Wie verändert sich die interne Koordinierung des Geschäftsmodells, wenn
+bestimmte Elemente geändert werden?"""@de,
+
+"""Wie ändert sich das bestehende Geschäftsmodell, wenn bestimmte Elemente wie
+z.B. Kunden und Partner, Einnahmen und Umsatz, etc.  stärker oder schwächer
+aufeinander abgestimmt und koordiniert werden?"""@de,
+
+"""How single elements of the existing business model can be changed, but
+still remain coordinable?"""@en,
+
+"""How does the existing business model change when specific elements such as
+customers and partners, revenue and sales, etc. are more or less aligned and
+coordinated with each other?"""@en,
+
+"""How changes the internal coordination of the business model when certain
+elements are changed?"""@en,
+
+"""What is the effect of changing an element of the existing business model to
+the coordination of others elements?"""@en,
+
+"""Which elements of the business model could be changed or be further
+developed without changing the internal coordination of the business model too
+much?"""@en,
+
+"""Как меняется существующая бизнес-модель при изменении конкретные элементы,
+как клиенты и партнеры, доходы и денежный оборот и т.д. согласованы друг с
+другом в большей или меньшей степени?"""@ru,
+
+"""Как отдельные элементы существующей бизнес-модели можно изменить, сохранив
+согласованность?"""@ru,
+
+"""Как меняется внутренняя координация бизнес-модели при изменении
+определенных элементов?"""@ru,
+
+"""Какие элементы бизнес-модели можно изменить или развить дальнше не слишком
+меняв внутренную координацию бизнес-модели?"""@ru,
+
+"""Как влияет изменение элемента существующей бизнес-модели на координацию
+остальных элементов?"""@ru ;
+
+    a tc:Trend ;
+    rdfs:label
+    "Trend der zunehmenden Koordinierung"@de,
+    "Trend of Increasing Coordination"@en,
+    "Тенденция усиления координации"@ru ;
+    skos:definition
+    "Stronger coordination"@en,
+    "Stärkere Koordinierung"@de,
+    "Более тесная координация"@ru .
+
+:Trend_04_1
+    od:isSubtrendOf :Trend_04 ;
+    a tc:Trend ;
+    skos:example
+
+"""Dell nutzt das Geschäftsmodell Cash Machine, mit welchem in den
+1980er-Jahren die erste Built-to-Order-Strategie eingeführt wird, welche zu
+einem stark negativen Geldumschlag für das Unternehmen führte.  Durch
+Fertigung nach Auftragseingang konnte Dell zusätzliche Liquidität
+freisetzen."""@de,
+
+"""Dell uses the Cash Machine business model, with which the first
+built-to-order strategy was introduced in the 1980s, which led to a strongly
+negative cash turnover for the company. Manufacturing after order allowed Dell
+to release additional liquidity."""@en,
+
+"""Dell использует бизнес-модель Cash Machine, с которой в 1980-х годах была
+введена первая стратегия "построения по заказу".  Это привело к резко
+отрицательному денежному обороту компании. Производство после заказов
+позволило Dell получить дополнительную ликвидность."""@ru ;
+
+    skos:note
+
+"""Ein erfolgreiches Geschäftsmodell interagiert mit dem Umfeld (Kunden,
+Gesellschaft, Wirtschaft, etc.) immer reibungsloser und erreicht dadurch einen
+höheren Wert (Idealität). Die einzelnen Elemente, welche miteinander
+interagieren, können dabei sehr divers sein. So interagieren bspw. viele
+Service-Anbieter in sehr koordinierter Art und Weise mit ihren Kunden und
+warten entsprechend Computer oder Anlagen, wenn die Kunden diese nicht nutzen
+(z.B. in Ferienzeiten oder nach Feierabend).  Auch Umsätze und Erlösströme
+sollten miteinander koordiniert werden."""@de,
+
+"""A successful business model interacts with its environment (customers,
+society, economy, etc.) more and more smoothly and achieves thus a higher
+value (ideality). The individual elements which interact with each other can
+be very diverse. For example, many service providers interact in a very
+coordinated manner with their customers and maintain computers or equipment if
+the customers do not use them (e.g. during holiday periods or after work).
+Also sales and revenue streams should be coordinated with each other."""@en,
+
+"""Успешная бизнес-модель взаимодействует с окружающей средой (клиенты,
+общество, экономика и т.д.) все более и более плавно и достигает таким
+образом, более высокую ценность (идеальность). Отдельные элементы, которые
+взаимодействуют друг с другом могут быть самыми разнообразными. Например,
+взаимодействуют многие поставщики услуг очень скоординированы со своими
+клиентами и соответствующим образом обслуживают компьютеры или оборудование,
+если клиенты их не используют (например, во время отпуска или после работы).
+Также продажи и потоки доходов должны быть согласованы друг с другом."""@ru .
+
+:Trend_04_2
+    od:isSubtrendOf :Trend_04 ;
+    a tc:Trend ;
+    skos:example
+
+"""Ein Beispiel hierfür ist das Geschäftsmodell des Schweizer Unternehmens
+Hapimag, bei welchem Kunden im Sinne des Fractionalized
+Ownership Geschäftsmodells Aktien erwerben und somit Recht zur Nutzung von
+knapp 60 Hapimag-Ferienressorts erhalten.  Durch die Verteilung des Eigentums
+erhöht sich für den Anbieter Hapimag jedoch die Koordinierung der
+Verfügbarkeit."""@de,
+
+"""An example of this is the business model of the Swiss company Hapimag.  In
+the sense of the Fractionalized Ownership business model its customers acquire
+shares and thus the right to use almost 60 Hapimag holiday resorts. For
+Hapimag as provider this distribution of property increases the demand on
+coordination of availability."""@en,
+
+"""Примером этого является бизнес-модель швейцарской компания Hapimag, с
+которой клиенты в смысле бизнес-модели дробной собственности приобретает акции
+и, следовательно, право на использование почти 60 туристических центров
+Hapimag.  Через раздел имущества тем не менее, нужда координации увеличивается
+для Hapimag как поставщика."""@ru ;
+
+    skos:note
+
+"""In anderen Fällen können Kunden nur bestimmte Teile des Angebots erwerben,
+was auf der Seite des Geschäftsmodells eine entsprechende Koordinierung
+erfordert."""@de,
+
+"""In other cases, customers can only acquire certain parts of the offer thus
+requiring appropriate coordination on the side of the business model."""@en,
+
+"""В других случаях клиенты могут выбирать только определенные части
+предложения, что требует на стороне бизнес-модели дополнительного
+согласования."""@ru .
+
+:Trend_05
+    od:Provocation
+
+"""Was ist der tatsächliche Mehrwert des Geschäftsmodells beim Kunden und wie
+kann dieser genutzt werden, um (zusätzliche) Umsätze zu generieren?"""@de,
+
+"""Wie kann das bestehende Geschäftsmodell weiterentwickelt werden, indem der
+Fokus auf die Schaffung von Wert bei Kunden gelegt wird?"""@de,
+
+"""How can the existing business model be further developed by placing the
+focus on creating value for customers?"""@en,
+
+"""What is the real value of the business model for the customers and how
+this can be used to generate (additional) sales?"""@en,
+
+"""Как можно дальше развивать существующую бизнес-модель сосредоточив внимание
+на создании ценности у клиента?"""@ru,
+
+"""Какова фактическая ценность бизнес-модели у клиента и как это можно
+использовать для создания (дополнительных) продаж?"""@ru ;
+
+    a tc:Trend ;
+    rdfs:label
+    "Trend der zunehmenden Kontrollierbarkeit"@de,
+    "Trend towards increasing controllability"@en,
+    "Тенденция к повышению управляемости"@ru ;
+    skos:definition
+    "Focus on adding value to customers"@en,
+    "Fokus auf Mehrwert bei Kunden"@de,
+    "Сосредоточьтесь на повышении ценности для клиентов"@ru .
+
+:Trend_05_1
+    od:isSubtrendOf :Trend_05 ;
+    a tc:Trend ;
+    skos:example
+
+"""Starbucks konnte durch die Nutzung eben dieses Geschäftsmodells die Kunden
+einladen, Kaffee in einer gemütlichen Umgebung zu genießen und verkauft diesen
+damit ein Erlebnis. Damit konnte es das Unternehmen schaffen, sowohl
+Popularität als auch Umsätze zu steigern (Geschäftsmodell Experience
+Selling)."""@de,
+
+"""Starbucks used this business model inviting customers to enjoy coffee in a
+cozy environment and thus sells them an experience. With that it managed to
+increase both popularity and sales (Business model Experience Selling)."""@en,
+
+"""Starbucks смогла использовать эту бизнес-модель, приглашающая клиентов
+выпить кофе в уютной обстановке и, таким образом, продает им переживание. Так
+компании удалось увеличить как популярность, так и продажи (Бизнес-модель
+продажа переживания)."""@ru ;
+
+    skos:note
+
+"""Viele der traditionellen Unternehmen vernachlässigen die Relevanz der
+Schaffung von Mehrwert bei den Kunden und konzentrieren sich primär darauf,
+Umsatz zu generieren. Dabei ist es zunehmend von Bedeutung, Kunden durch einen
+gestifteten Mehrwert abzuholen und somit indirekt Umsatz zu generieren.  So
+kann z.B. durch das Geschäftsmodell Experience Selling vor allem die
+wahrnehmbare Umwelt der Kunden aktiv beeinflusst werden, womit darauf
+aufbauend eine höhere Differenzierung zu Wettbewerbern und vor allem eine
+höhere Kundenbindung und höhere Umsätze aufgrund einer höheren
+Zahlungsbereitschaft verbunden sind."""@de,
+
+"""Many of the traditional companies neglect the relevance of added value
+creation for customers and focus primarily on generating sales. It is
+increasingly important to pick up customers through a generated added value
+and thus indirectly generate sales. For example, through the business model
+Experience Selling above all, the perceptible environment of the customers is
+actively influenced. Based on this, a higher differentiation to competitors
+and above all a higher customer retention and higher sales due to a higher
+willingness to pay are reached."""@en,
+
+"""Многие традиционные компании пренебрегают актуальностью создания добавочной
+стоимости для клиентов и ориентируются в первую очередь на генерацию продаж.
+Все важнее станет создать добавочную стоимость, которую видит клиент и, таким
+образом, косвенно генерировать продажи. Например, через бизнес-модель
+Experience Selling прежде всего, активно воздействуют на воспринимаемую
+клиентом среду. На основе этого достигаются более высокое различение от
+конкурентов и прежде всего более высокое удержание клиентов и более высокие
+продажи за счет более высокой готовности платить."""@ru .
+
+:Trend_06
+    od:Provocation
+
+"""Welche Elemente des bestehenden Geschäftsmodells können mehrere Funktionen
+übernehmen, um dadurch von nur einer Funktion zu Multifunktionalität zu
+gelangen?"""@de,
+
+"""Wie könnte das Geschäftsmodell in unterschiedliche Elemente aufgeteilt
+werden?  Wie könnten diese Elemente (neu) zusammengesetzt werden, um das
+Geschäftsmodell flexibler zu gestalten?"""@de,
+
+"""Wie verändert sich das Geschäftsmodell, wenn einzelne Segmente bzw.
+Elemente *räumlich* voneinander getrennt sind, z.B. an unterschiedlichen Orten
+ablaufen?"""@de,
+
+"""Wie verändert sich das Geschäftsmodell, wenn einzelne Segmente bzw.
+Elemente *zeitlich* voneinander getrennt sind, z.B. zu unterschiedlichen
+Zeiten ablaufen?"""@de,
+
+"""How could the business model be divided into different elements?  How could
+these elements be (re)assembled, to make the business model more
+flexible?"""@en,
+
+"""How does the business model change if individual segments or elements are
+*spatially* separated from each other, e.g. are processed at different
+locations?"""@en,
+
+"""How does the business model change if individual segments or elements are
+separated *in time* from each other, e.g are processed at different
+times?"""@en,
+
+"""What elements of the existing business model can take over *several*
+functions and thus move to multifunctionality?"""@en,
+
+"""Как меняется бизнес-модель, если сегменты или элементы *пространственно*
+отделяются друг от друга, например проводятся в разных местах?"""@ru,
+
+"""Как меняется бизнес-модель, если отдельные сегменты или элементы отделяются
+*по времени* друг от друга, например проводятся в разное время?"""@ru,
+
+"""Как можно разделить бизнес-модель на разные элементы? Как эти элементы
+могут быть (по другому) собраны, чтобы сделать бизнес-модель более
+гибкой?"""@ru,
+
+"""Какие элементы существующей бизнес-модели могут взять на себя несколько
+функций и тем самым переходить от одной функции к
+многофункциональности?"""@ru;
+
+    a tc:Trend ;
+    rdfs:label
+    "Trend der zunehmenden Dynamisierung"@de,
+    "Trend of Increasing Dynamization"@en,
+    "Тенденция увеличения динамизации"@ru ;
+    skos:definition
+    "Mehr Flexibilität"@de,
+    "More flexibility"@en,
+    "Больше гибкости"@ru .
+
+:Trend_06_1
+    od:isSubtrendOf :Trend_06 ;
+    a tc:Trend ;
+    skos:example
+
+"""Durch ein Franchise-Geschäftsmodell konnte McDonald‘s starre und
+standardisierte Prozesse mit flexiblen Einzelunternehmern verbinden.  Die
+Einzelunternehmer können ihr eigenes McDonald-Restaurant eröffnen. Sie sind
+für den Betrieb ihres eigenen (oder mehrerer) Restaurants verantwortlich,
+müssen sich aber an alle vom Unternehmen festgelegten Standards halten,
+z.B. Einkauf, Produktangebot und Corporate Identity."""@de,
+
+"""A franchise business model has allowed McDonald's to combine rigid and
+standardized processes with flexible individual entrepreneurs. The individual
+entrepreneurs can open their own McDonald's restaurant. They are responsible
+for running their own (or several) restaurants, but must adhere to all
+standards set by the company, e.g. purchasing, product range and corporate
+identity."""@en,
+
+"""Бизнес-модель франчайзинга позволила McDonald's объединить жесткие и
+стандартизированные процессы с гибкими индивидуальными предпринимателями.
+Индивидуальные предприниматели могут открыть собственный ресторан McDonald's.
+Они отвечает за управление собственными (или несколькими) ресторанами, но
+должны соблюдать все стандарты, установленные компанией, например, покупка,
+ассортимент продукции и фирменный стиль."""@ru ;
+
+    skos:note
+
+"""Traditionelle Geschäftsmodelle sind oftmals sehr starr und unflexibel. Um
+mehr Flexibilität und Agilität zu erlangen, kann es lohnenswert sein, das
+Geschäftsmodell in kleinere Einheiten bzw. Elemente zu teilen.  Dadurch
+gewinnt das eigentlich starre und unflexible Modell an Flexibilität."""@de,
+
+"""Traditional business models are often very rigid and inflexible. To gain
+more flexibility and agility, it can be worth to divide the business model
+into smaller units or elements. As a result, the actually rigid and inflexible
+model gains in flexibility."""@en,
+
+"""Традиционные бизнес-модели часто очень жесткие и негибкие. Чтобы получить
+больше гибкости и маневренности, может быть полезным разделить бизнес-модель
+на более мелкие единицы или элементы.  В результате жесткая и негибкая модель
+приобретает все большее гибкости."""@ru .
+
+:Trend_06_2
+    od:isSubtrendOf :Trend_06 ;
+    a tc:Trend ;
+    skos:example
+
+"""Die Mode-Marke Zara beschäftigt weltweit Hunderte von Designern und
+Modebeobachtern, um das frühzeitige Erkennen von Modetrends und Entwicklungen
+zu gewährleisten. Neue Entwürfe, die von diesen Scouts stammen, können von
+Zaras integrierter Wertschöpfungskette in nur wenigen Wochen produziert werden
+(From-Push-to-Pull-Geschäftsmodell)"""@de,
+
+"""Fashion brand Zara employs worldwide hundreds of designers and fashion
+watchers to ensure early recognition of fashion trends and developments. New
+designs coming from these scouts, can be produced by Zara's integrated value
+chain in just a few weeks (from push to pull business model)"""@en,
+
+"""В модном бренде Zara работают сотни дизайнеры и наблюдатели за модой по
+всему миру, чтобы рано распознавать модные тенденции и развития.  Новые
+наброски, исходящие от этих разведчиков, Zara может производиться из-за
+интегрированной цепочки создания стоимости всего за несколько недель
+(бизнес-модели push-to-pull)"""@ru ;
+
+    skos:note
+
+"""In vielen Fällen führt auch eine Dezentralisierung von Prozessen zu mehr
+Flexibilität und dadurch zu stärkerer Kundenorientierung. Um schnell und
+flexibel auf neue Kundenbedürfnisse zu reagieren, kann jeder Teil der
+Wertschöpfungskette einschließlich der Produktion oder sogar der Forschung und
+Entwicklung betroffen sein."""@de,
+
+"""In many cases also a decentralization of processes leads to more
+flexibility and thus to a stronger customer orientation. To react quickly and
+flexibly to new customer needs, each part of the value chain including
+production or even research and development may be concerned."""@en,
+
+"""Во многих случаях также децентрализация процессов приводит к большей
+гибкости и, таким образом, к более сильной ориентации на клиента. Чтобы быстро
+и гибко реагировать на новые потребности клиентов, каждая часть цепочки
+создания стоимости может быть затронутой, включая производство или даже
+исследования и разработка."""@ru .
+
+:Trend_07
+    od:Provocation
+
+"""Welche Elemente eines Geschäftsmodells könnten ohne menschliche Interaktion
+funktionieren?  Welche Prozessschritte könnten ohne menschliche Interaktion
+funktionieren?"""@de,
+
+"""Wie könnte das bestehende Angebot bzw. die bestehende Dienstleistung
+vollkommen automatisiert werden?  Wie verändert sich dadurch das
+Geschäftsmodell?"""@de,
+
+"""Wie könnte das bestehende Geschäftsmodell funktionieren, wenn keine
+menschliche Interaktion stattfindet?  Wie müsste das neue Geschäftsmodell
+gestaltet sein?"""@de,
+
+"""Wie könnte das bestehende Geschäftsmodell weiterentwickelt werden, wenn
+menschliche Aufgaben digitalisiert werden?"""@de,
+
+"""Wie würde sich das Geschäftsmodell ändern, wenn unterschiedliche Elemente
+bzw.  Prozessschritte wie z.B. Kundenkanäle, Zahlung, etc. ohne menschliche
+Interaktion ausgestaltet sind?"""@de,
+
+"""How could the existing business model be further developed when human tasks
+are digitized?"""@en,
+
+"""How could the existing business model work, when there is no human
+interaction? How the new business model has to be designed?"""@en,
+
+"""How could the existing offer or the existing service be fully automated?
+How does that change the business model?"""@en,
+
+"""How would the business model change if different elements or process steps
+such as customer channels, payment, etc. are designed without human
+interaction?"""@en,
+
+"""What elements of a business model could be operated without human
+interaction?  Which process steps could be executed without human
+interaction?"""@en,
+
+"""Какие элементы бизнес-модели могут работать без человеческого
+взаимодействия?  Какие этапы процесса можно выполнить без человеческого
+вмешения?"""@ru,
+
+"""Как изменится бизнес-модель, если различные элементы или этапы процесса,
+такие как каналы к клиентам, платежи и т.д. разработаны без участия
+человека?"""@ru,
+
+"""Как может работать существующая бизнес-модель, когда нет человеческого
+взаимодействия? Как должен работать такая бизнес-модель?"""@ru,
+
+"""Как можно существующее предложение или существующий сервис полностью
+автоматизировать? Как это меняет бизнес-модель?"""@ru,
+
+"""Как можно улучшить существующую бизнес-модель, когда человеческие задачи
+будут оцифрованы?"""@ru ;
+
+    a tc:Trend ;
+    rdfs:label
+    "Trend der abnehmenden Einbeziehung von Menschen"@de,
+    "Trend of Decreasing Human Involvement"@en,
+    "Тенденция сокращения человеческого взаимодействия"@ru ;
+    skos:definition
+    "Abnehmende menschliche Interaktion"@de,
+    "Declining Human Interaction"@en,
+    "Снижение человеческого взаимодействия"@en .
+
+:Trend_07_1
+    od:isSubtrendOf :Trend_07 ;
+    a tc:Trend ;
+    skos:example
+
+"""PayPal konnte durch eine abnehmende menschliche Interaktion bei
+Transaktionen zu einer radikalen Innovation im Finanzbereich sorgen. Die
+Transaktionen laufen bei PayPal vollautomatisiert ab."""@de,
+
+"""PayPal could due to decreasing human interaction radically innovate
+transactions in the financial world. With PayPal transactions are fully
+automated."""@en,
+
+"""Из-за уменьшения взаимодействия с человеком PayPal радикально мог обновить
+финансовый мир транзакций. PayPal полностью автоматизировал транзакции."""@ru;
+
+    skos:note
+
+"""Die immer stärkere Digitalisierung macht auch vor Geschäftsmodellen keinen
+Halt. Viele Prozesse werden digitalisiert und laufen zunehmend ohne
+menschliche Interaktion."""@de,
+
+"""Increasing digitization also influences the design of business models. Many
+processes are digitized and run increasingly without human interaction."""@en,
+
+"""Все более полная цифровизация также меняет бизнес-модели. Многие процессы
+оцифрованы и все чаще работают без участия человека."""@ru .
+
+:Trend_07_2
+    od:isSubtrendOf :Trend_07 ;
+    a tc:Trend ;
+    skos:example
+
+"""Die Bäckereikette BackWerk hat in ihrem Geschäftsmodell auf Mitarbeiter
+verzichtet, welche die Kunden bedienen. Kunden bedienen sich durch das
+Self-Service-Geschäftsmodell selbst."""@de,
+
+"""The bakery chain BackWerk dispensed in its business model employees who
+serve the customers. Within the self-service business model customers serve
+themselves."""@en,
+
+"""Сеть пекарен BackWerk не использует в своей бизнес-модели сотрудников,
+обслуживающих клиентов. Клиенты обслуживают сами себе, применяется
+бизнес-модель самообслуживания."""@ru ;
+
+    skos:note
+
+"""Je geringer die menschliche Interaktion, desto vollautomatisierter wird das
+Geschäftsmodell.  Menschliche Interaktion kann hierbei von unterschiedlichen
+Personengruppen ausgehen: von den Mitarbeitern des Unternehmens, von Kunden,
+Stakeholdern, etc."""@de,
+
+"""The less human interaction, the more the business model becomes automated.
+Human interaction can emanate from different groups of people: employees of
+the company, customers, stakeholders, etc."""@en,
+
+"""Чем меньше человеческого взаимодействия, тем бизнес-модель станет более
+полностью автоматизированной. Взаимодействие человека может изходить от разных
+групп людей: сотрудники компании, клиенты, заинтересованные стороны и
+т.д."""@ru .
+
+:Trend_07_3
+    od:isSubtrendOf :Trend_07 ;
+    a tc:Trend ;
+    skos:example
+
+"""Der Einsatz von Sensoren ermöglicht zusätzliche Dienstleistungen für
+physische Angebote oder ganz neue eigenständige Services. So hat Procter &
+Gamble seine Lieferkette flächendeckend mit RFID-Sensoren ausgestattet. Die
+Sensoren bieten Datenzugriff und Verfolgungsmöglichkeiten in Echtzeit und
+optimieren so die eigene Lieferkette von P&G (Geschäftsmodell Sensor As A
+Service)."""@de,
+
+"""The use of sensors enables additional services for physical offerings or
+very new standalone services. In this way, Procter & Gamble equipped its
+entire supply chain with RFID sensors. The sensors provide data access and
+tracking options in real time and thus optimize the supply chain of P&G
+(business model Sensor As A Service)."""@en,
+
+"""Использование датчиков позволяет дополнительные услуги для физических
+предложений или совсем новые самостоятельные сервисы. Например, Procter &
+Gamble оборудовал всю цепочку поставок датчиками RFID. Датчики обеспечивают
+доступ к данным и отслеживание вариантов в режиме реального времени и, таким
+образом, оптимизацию собственной цепочки поставок P&G (бизнес-модель сенсор
+как сервис)."""@ru ;
+
+    skos:note
+
+"""Durch die abnehmende menschliche Interaktion kommt es zu einem zunehmenden
+Einsatz von digitalen Ersatzprodukten, welche die Aufgaben des Menschen
+übernehmen."""@de,
+
+"""With decreasing human interaction, there is a increasing use of digital
+replacement products that take over the tasks of the people."""@en,
+
+"""Уменьшение человеческого взаимодействия сопровождается все более широким
+использованием цифровых продуктов, которые берут задачи людей на себя."""@ru .
+
+:Trend_08
+    od:Provocation
+
+"""Welche Elemente des Geschäftsmodells lassen sich schneller oder langsamer
+entwickeln?  Wie verändert sich dadurch das Geschäftsmodell?"""@de,
+
+"""Welche Widersprüche entstehen durch ungleiche Entwicklung?  Wie können
+diese Widersprüche durch TRIZ-Werkzeuge gelöst werden?"""@de,
+
+"""Wie können unterschiedlich entwickelte Elemente bzw. Produkte zusätzliche
+Einnahmen generieren?  Wie verändern diese die Ertragsmechanik?"""@de,
+
+"""Wie würde sich das Geschäftsmodell ändern, wenn ein Element unter
+Extrembedingungen wie z.B. extrem viel/wenig verfügbare Geldmittel, extrem
+viel/wenig verfügbare Zeit etc. betrachtet wird?"""@de,
+
+"""Wie würde sich das Geschäftsmodell ändern, wenn einzelne Elemente
+unterschiedlich entwickelt werden, z.B. Kundenkanäle digitalisiert werden,
+etc.?"""@de,
+
+"""How can differently developed elements or products generate additional
+sales? How does this change the earnings mechanics?"""@en,
+
+"""How does the business model change if an element is considered under
+extreme conditions such as extremely much/little available funds, extremely
+much/little available time etc.?"""@en,
+
+"""How would the business model change if individual elements are developed
+differently, e.g. customer channels are digitized, etc.?"""@en,
+
+"""What contradictions arise from unequal development?  How can these
+contradictions be solved by TRIZ tools?"""@en,
+
+"""What elements of the business model could be developed faster or more
+slowly? How does this change the business model?"""@en,
+
+"""Как изменится бизнес-модель, если отдельные элементы разрабатываются
+по-разному, например, каналы клиентов оцифровываются и т.д."""@ru,
+
+"""Как изменится бизнес-модель, если элемент действует в экстремальных
+условиях, как очень много/мало доступных средств, чрезвычайно много/мало
+доступного времени и т.д.?"""@ru,
+
+"""Как могут по-разному развитые элементы или продукты приносить
+дополнительный доход? Как они изменяют механику доходов?"""@ru,
+
+"""Какие противоречия возникают из-за неравномерного развития?  Как эти
+противоречия могут быть разрешены средствами ТРИЗ?"""@ru,
+
+"""Какие элементы бизнес-модели могут развиваться быстрее или медленнее?  Как
+это меняет бизнес-модель?"""@ru ;
+
+    a tc:Trend ;
+    rdfs:label
+    "Trend der ungleichen Entwicklung von Systemkomponenten"@de,
+    "Trend of Uneven Development of System Components"@en,
+    "Тенденция неравномерного развития компонентов системы"@ru ;
+    skos:definition
+    "Ungleiche Entwicklung"@de,
+    "unequal development"@en,
+    "неравное развитие"@ru .
+
+:Trend_08_1
+    od:isSubtrendOf :Trend_08 ;
+    a tc:Trend ;
+    skos:example
+
+"""Mymuesli schafft es durch das Geschäftsmodell Mass Customization (dt.
+Individualisierung von Massenprodukten), dass aus Basis-Zutaten individuelle
+Müslivarianten entwickelt werden können.  Der Kunde erhält somit jederzeit
+sein individuelles Müsliangebot. Im Fall von Mymuesli werden die Basis-Zutaten
+selbst nicht weiter entwickelt, durch die individuelle Zusammenstellung der
+Kunden können diese jedoch unterschiedlich weiterentwickelt werden."""@de,
+
+"""Through the Mass Customization business model Mymuesli does it manage to
+develop individual muesli variants from basic ingredients. The customer thus
+receives an individual muesli offer at any time. In the case of Mymuesli the
+basic ingredients themselves are not further developed.  By the individual
+compilation of customers, however, they can further develop the
+variations."""@en,
+
+"""Mymuesli преуспевает через бизнес-модель Mass Customization, что из
+основных ингредиентов можно разработать индивидуальные варианты мюслей. Клиент
+таким образом получает индивидуальное предложение мюсли в любое время. В
+случае с Mymuesli сами основные ингредиенты далее не разрабатываются. Через
+ндивидуальную подборку клиентов, однако варияции дальше развивются."""@ru ;
+
+    skos:note
+
+"""Ein Geschäftsmodell besteht aus unterschiedlichen Elementen. Die Elemente
+selbst sind dabei jedoch nicht immer gleich weit bzw. stark entwickelt und
+bedürfen daher teilweise einer unterschiedlichen Behandlung bzw.
+Weiterentwicklung.  Einige Geschäftsmodelle basieren genau auf dieser
+unterschiedlichen Entwicklung ihrer einzelnen Elemente."""@de,
+
+"""A business model consists of different elements. However, the elements
+themselves are not always equally far or strong developed and therefore
+sometimes require different treatment or further development. Some business
+models are based just on this different development of their individual
+elements."""@en,
+
+"""Бизнес-модель состоит из различных элементов.  Однако сами элементы не
+всегда одинаково далеко и прочно развиты и поэтому иногда требуют
+дифференцированного подхода и дальнейшего развития. Некоторые бизнес-модели
+основаны именно на таком различном развитии их отдельных элементов."""@ru .
+
+:Trend_08_2
+    od:isSubtrendOf :Trend_08 ;
+    a tc:Trend ;
+    skos:example
+
+"""Bei Mercedes-Benz oder BMW sind AddOn-Muster in vielen Fällen ein
+profitabler Weg, um den Kunden individuell zugeschnittene Produkte, teilweise
+auch weiter oder weniger weit entwickelte Produkte (z.B. zusätzliche digitale
+Angebote oder im Gegenzug einen Rückgang zu analogen Angeboten) anbieten zu
+können und darüber hohe Margen zu erzielen.  Ebenso nutzt Bosch das
+Add-On-Muster, um als Zusatzservice zu standardisierten Hardwareprodukten auch
+maßgeschneiderte Softwarelösungen anzubieten."""@de,
+
+"""With Mercedes-Benz or BMW add-on patterns are in many cases a profitable
+way to offer customers individually tailored products, partly also more or
+less developed products (e.g. additional digital offers or, on the opposite, a
+decline compared to analogue offers) thereby to achieve high margins.
+Likewise, Bosch uses the add-on pattern, to offer to standardized hardware
+products additionally tailored software solutions."""@en,
+
+"""Шаблоны надстройки для Mercedes-Benz или BMW во многих случаях являются
+выгодным способом предложить клиентам индивидуально подобранные продукты,
+частично также более или менее развитые продукты (например, дополнительные
+цифровые предложения или, взамен, отказ от аналоговых предложений) и тем самым
+добиться высокой маржи. Аналогичным образом Bosch использует шаблон
+надстройки, чтобы предлагать к стандартизированным аппаратным продуктам
+дополнительные услуги как индивидуальные программные решения."""@ru ;
+
+    skos:note
+
+"""Produkte und Angebote, die schneller oder weiter entwickelt sind, können
+mithilfe eines neuen Geschäftsmodells zusätzlich zu neuen Einnahmen
+führen."""@de,
+
+"""Products and offerings that are faster or more advanced can lead within a
+new business model to additional new revenue."""@en,
+
+"""Продукты и предложения, которые работают быстрее или более развиты, могут
+быть использованы в новой бизнес-модели для дополнительных доходов."""@ru .
+
+:Trend_09
+    od:Provocation
+
+"""Welche Schritte in der Interaktion zwischen Kunden und Unternehmen
+funktionieren nicht problemlos?  Welche Probleme treten auf?"""@de,
+
+"""Wie kann der Informationsfluss zwischen Kunden und Unternehmen erhöht
+werden wie z.B. durch Erhöhung die Zahl der Kanäle zum Kunden, durch
+Kombination von Prozessschritten, etc.?"""@de,
+
+"""Wie können Probleme bzw. schädliche Schritte im Prozess *eliminiert*
+werden, um den Prozess fließender und effizienter zu gestalten?"""@de,
+
+"""Wie können Probleme bzw. schädliche Schritte im Prozess *umgangen* werden
+wie z.B. durch Verlagern des schädlichen Schrittes, um den Prozess fließender
+zu gestalten?"""@de,
+
+"""How can problems or harmful steps in the process be *circumvented* such as by
+relocating the harmful step to make the process more fluid?"""@en,
+
+"""How can problems or harmful steps in the process be *eliminated* to make the
+process more fluent and design it more efficiently?"""@en,
+
+"""How can the flow of information between customers and the company be
+increased such as by increasing the number of channels to customers, through
+combination of process steps, etc.?"""@en,
+
+"""Which steps in the interaction between customers and company do not work
+smoothly? What problems arise?"""@en,
+
+"""Как можно *исключить* проблемы или вредные шаги в процессе, чтобы сделать
+процесс более плавным и эффективным?"""@ru,
+
+"""Как можно *обойти* проблемы или вредные шаги в процессе, например,
+переместить вредный шаг, чтобы сделать процесс более плавным?"""@ru,
+
+"""Как увеличивать поток информации между клиентами и компании, например, за
+счет расширения число каналов к клиенту, через комбинацию шагов процесса и
+т.д.?"""@ru,
+
+"""Какие этапы взаимодействия между клиентами и Бизнес не работает гладко?
+Какие проблемы возникают?"""@ru ;
+
+    a tc:Trend ;
+    rdfs:label
+    "Trend of Flow Enhancement"@en,
+    "Trend der Flussverstärkung"@de,
+    "Тенденция улучшения потока"@ru ;
+    skos:definition
+    "Bessere Zusammenarbeit"@de,
+    "Better collaboration"@en,
+    "Лучшее сотрудничество"@ru .
+
+:Trend_09_1
+    od:isSubtrendOf :Trend_09 ;
+    a tc:Trend ;
+    skos:example
+
+"""In diesem Zusammenhang erscheint kaum ein anderes Unternehmen so relevant
+wie Google. Durch die Analyse von Kundendaten kann Google an personalisierter
+Werbung verdienen und konnte durch Google Analytics dieses Analysewerkzeug
+auch für Werbetreibende zur Verfügung stellen (Geschäftsmodell Leverage
+Customer Data)."""@de,
+
+"""Hardly any other company appears in this context as relevant as Google. By
+analyzing customer data, Google earns revenues through personalized
+advertising.  Through Google Analytics ist was also able to provide analysis
+tools for other advertisers (business model Leverage Customer Data)."""@en,
+
+"""В таком контексте вряд ли какая-либо другая компания выглядит столь же
+уместной как Google. Анализируя данные клиентов, Google зарабатывает на
+персонализированной рекламе.  Google и смог заработать на этом с помощью
+Google Analytics предоставив инструменты анализа для рекламодателей
+(бизнес-модель Использовать данные клиентов)."""@ru ;
+
+    skos:note
+
+"""Auf den Business-Kontext abstrahiert kann dieser Trend im Sinne einer
+besseren Nutzung des Flusses an Informationen, Daten, etc. von Kundenseite zu
+Unternehmensseite und vice versa verstanden werden.  So erheben viele
+Unternehmen mithilfe ihres Geschäftsmodells Kundendaten, die wiederum für
+maßgeschneiderte Angebote für die Kunden genutzt werden."""@de,
+
+"""Abstracted to the business context, this trend can be understood as better
+use of the flow of information, data, etc. from the customer to the company
+and vice versa. Many companies use customer data within their business model,
+to be used in turn for tailored offers for customers."""@en,
+
+"""Если абстрагироваться на деловый контекст, эту тенденцию можно понимать как
+более эффективное использование потока информации, данных и т.д. от клиента к
+компании и наоборот. Так многие компании собирают и используют данные о
+клиентах в своих бизнес-моделях, что, в свою очередь, используется для
+индивидуальных предложений клиентам."""@ru .
+
+:Trend_09_2
+    od:isSubtrendOf :Trend_09 ;
+    a tc:Trend ;
+    skos:example
+
+"""Indem Kunden getreu dem Self-Service-Geschäftsmodell ihre Möbel selbst aus
+dem Lager holen, zur Kasse bringen und darüber hinaus selbst zusammenbauen,
+kann IKEA damit nicht nur Probleme in der Lieferkette oder Lagerhaltung
+umgehen, sondern darüber hinaus auch signifikante Kosteneinsparungen in
+Vertrieb und Produktion realisieren."""@de,
+
+"""Pinterest nutzt das Geschäftsmodell Affiliation, wodurch es zusätzliche
+Flüsse zu neuen Nutzern durch Empfehlungen durch das eigene soziale Netzwerk
+generiert.  Verstärkt wird dieser Effekt durch Vermittlungsprovisionen."""@de,
+
+"""Based on the Self-Service business model, IKEA customers take out their
+furniture from the warehouse, carry it to the checkout and also assemble it
+themselves assemble. Thus IKEA can not only avoid problems in the supply chain
+or warehousing, but also significantly save cost in sales and
+production."""@en,
+
+"""Pinterest uses the Affiliation business model, which means to generate
+additional flows to new users through recommendations within their own social
+network. This effect is reinforced by brokerage commissions."""@en,
+
+"""Pinterest использует бизнес-модель аффилиации, что означает создать
+дополнительные потоки к новым пользователям через рекомендации в социальных
+сетьях.  Этот эффект усиливают комиссионные сборы."""@ru,
+
+"""На базе бизнес-модели самообслуживания, клиенты IKEA самостоятельно
+забирают свою мебель со склада, отнесут на кассу и тоже сделают ссборку воими
+руками. Так IKEA не только обоидет проблемы в цепочке поставок или избегает
+складирования, но также значительно экономит на продажах и
+производстве."""@ru;
+
+    skos:note
+
+"""Eine weitere Möglichkeit, den Fluss z.B. an Informationen oder Daten, zu
+verbessern ist die Reduzierung von negativen Auswirkungen schädlicher Flüsse,
+z.B. indem Engpässe im Prozess eliminiert werden. So werden in vielen Fällen
+Schwachstellen im Prozess, z.B. beim Direktverkauf umgangen, indem eben diese
+Engpässe oder Schwachstellen analysiert und entsprechend gelöst werden."""@de,
+
+"""Another way to improve the flow of e.g. information or data is to reduce
+the negative impact of harmful flows, e.g. by eliminating bottlenecks in the
+process. In many cases, weak points in the process, e.g. in direct sales, are
+circumvented by precisely analyzing these bottlenecks or weak points and
+resolve them accordingly."""@en,
+
+"""Другой способ улучить поток, например, информации или данных, состоит в
+снижении негативного воздействия вредных потоков, например, путем устранения
+узких мест в процессе. Так во многих случаях можно обойти слабые места в
+процессе, например, в прямых продажах, путем точного анализа этих узких или
+слабых мест и устранения соответствующим образом."""@ru .
+
+:Trend_10
+    od:Provocation
+
+"""Wie können die menschlichen Sinne (hören, schmecken, riechen, fühlen,
+sehen) in das Geschäftsmodell integriert werden?  Inwiefern ändert sich das
+bestehende Geschäftsmodell dadurch?"""@de,
+
+"""Wie könnte das bestehende Geschäftsmodell mit Blick auf AR/VR erweitert
+oder neu entwickelt werden?"""@de,
+
+"""Wie verändert sich das Geschäftsmodell, wenn bestimmte menschliche
+Bedürfnisse wie z.B. Sicherheitsbedürfnisse besonders stark oder schwach
+adressiert werden?"""@de,
+
+"""How can the human senses (hearing, tasting, smelling, feeling, seeing) be
+integrated into the business model? In what way does this change the existing
+business model?"""@en,
+
+"""How could the existing business model be expanded or newly developed
+concerning the use of AR/VR?"""@en,
+
+"""How will the business model change if certain human needs such as security
+feeling is addressed particularly strong or weak?"""@en,
+
+"""Как изменится бизнес-модель, если определенная человеческие потребности,
+такие как потребность в безопасности, рассматриваются особенно сильно или
+наоборот, особеннно слабо?"""@ru,
+
+"""Как могут органы чувств человека (слух, вкус, обоняние, осязание, зрение)
+быть интегрированы в бизнес-модель? В каком смысле изменяет это существующую
+бизнес-модель?"""@ru,
+
+"""Как будет расширяться или разрабатываться заново существующая
+бизнес-модель, если использовать AR/VR ?"""@ru ;
+
+    a tc:Trend ;
+    rdfs:label
+    "Trend der zunehmenden Integration menschlicher Sinne"@de,
+    "Trend of Increasing Integration of Human Senses"@en,
+    "Тенденция к увеличению интеграции человеческих чувств"@ru ;
+    skos:definition
+    "Focus on people"@en,
+    "Fokus auf den Menschen"@de,
+    "Сосредоточьтесь на людях"@en .
+
+:Trend_10_1
+    od:isSubtrendOf :Trend_10 ;
+    a tc:Trend ;
+    skos:example
+
+"""Tchibo konnte so z.B. durch Cross Selling das eigene Angebot sukzessive um
+NichtKaffee-Produkte erweitern und dadurch weitere Bedürfnisse bzw.
+Kundenwünsche ansprechen."""@de,
+
+"""Tchibo was able to gradually expand its own offers, e.g. through
+cross-selling, to include non-coffee products and thus to address further
+needs or customer requests."""@en,
+
+"""Tchibo смог расширять свой собственный сортимент через перекрестные
+продажи, например за счет продуктов, не содержащих кофе, и, таким образом,
+реагировать на запросы клиентов."""@ru ;
+
+    skos:note
+
+"""Mit zunehmender Entwicklung von Systemen werden zunehmend mehr menschliche
+Sinne, wie u.a. das Sehen oder Hören, in das technische System integriert
+werden. Es wird empfohlen, den Begriff menschliche Sinne auf menschliche
+Bedürfnisse zu erweitern.  Auf Ebene der Geschäftsmodelle kann dies
+z.B. ausgestaltet sein, indem unterschiedliche Bedürfnisse durch ein
+Geschäftsmodell befriedigt werden."""@de,
+
+"""As systems evolve, more and more of them human senses, such as sight or
+hearing, will be integrated into the technical system. It is recommended to
+expand the term human senses to human needs. At the level of business models
+this can be designed, e.g. if different needs are satisfied through the same
+business model."""@en,
+
+"""По мере развития систем интегрируются все больше и больше человеческие
+чувства, такие как зрение или слух, в техническую систему. Рекомендуется
+использовать термин "человеческие чувства" в расширенном понимании как
+потребности человека. На уровне бизнес-модели это может быть разработано,
+например, если учитывать различные потребности посредством одной
+бизнес-модели."""@ru .
+
+:Trend_10_2
+    od:isSubtrendOf :Trend_10 ;
+    a tc:Trend ;
+    skos:example
+
+"""So sorgt z.B. Hilti durch das sog. Hilti Fleet Management mithilfe des
+Geschäftsmodells Guaranteed Availability für Sicherheit bei den Kunden, indem
+diese jederzeit auf funktionsfähige Geräte zurückgreifen können."""@de ,
+
+"""Hilti, for example, takes care of this with the so-called Hilti Fleet
+Management using the Guaranteed Availability business model for customer's to
+secure access to functional devices at any time can."""@en,
+
+"""Hilti, например, заботится о безопасности клиентов с помощью так
+называемого Hilti Fleet Management, который гарантирует доступ к
+функциональным устройствам в любое время можно."""@ru ;
+
+    skos:note
+
+"""Andere Geschäftsmodelle adressieren darüber hinaus ganz speziell bestimmte
+Bedürfnisse, häufig Sicherheitsbedürfnisse."""@de,
+
+"""Other business models also address very specific issues specific needs,
+often security needs."""@en,
+
+"""Другие бизнес-модели также решают специфические потребности, часто
+потребности в безопасности."""@ru .
+
