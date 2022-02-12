@@ -96,7 +96,7 @@ odp:Aminov_RB
 odp:Amnuel_PR
     a foaf:Person ;
     foaf:affil "Beit She'an, Israel" ;
-    foaf:fullname "Амнуэль Павел Рафаэлович"@ru ;
+    foaf:fullname "Амнуэль Песах Рафаэлович"@ru ;
     foaf:name "Pesakh R. Amnuel" .
 
 odp:Andersen_B
@@ -927,12 +927,6 @@ odp:Essaid_A
 odp:Etcu_M
     a foaf:Person ;
     foaf:name "Mihaela Ețcu" .
-
-odp:Farber_BS
-    a foaf:Person ;
-    foaf:affil "TRIZ Biopharma International Corp" ;
-    foaf:fullname "Фарбер Борис Славинович "@ru ;
-    foaf:name "Boris Farber" .
 
 odp:Faer_SA
     a foaf:Person ;
@@ -1780,7 +1774,7 @@ odp:Kang_YJ
 odp:Kaplan_LA
     a foaf:Person ;
     foaf:affil "OutCompete LLC, USA" ;
-    foaf:fullname "Каплан Леонид"@ru ;
+    foaf:fullname "Каплан Леонид Абрамович"@ru ;
     foaf:name "Leonid A. Kaplan" .
 
 odp:Kaplan_S
@@ -2770,7 +2764,7 @@ odp:Mishra_U
 
 odp:Misyuchenko_IL
     a foaf:Person ;
-    foaf:affil "St. Petersburg, Russia" ;
+    foaf:affil "Lituania" ;
     foaf:fullname "Мисюченко Игорь Леонидович"@ru ;
     foaf:name "Igor Misyuchenko" .
 
@@ -3672,9 +3666,9 @@ odp:Seredinski_AV
 
 odp:Severinets_GA
     a foaf:Person ;
-    foaf:affil "Moscow, Russia" ;
+    foaf:affil "Minsk, Belarus" ;
     foaf:fullname "Северинец Георгий Анатольевич"@ru ;
-    foaf:name "Georgi Severinets" .
+    foaf:name "Georgi A. Severinets" .
 
 odp:Seydlitz_T
     a foaf:Person ;
@@ -3809,6 +3803,7 @@ odp:Shusterman_MN
 
 odp:Sibiryakov_VG
     a foaf:Person ;
+    foaf:affil "Russia" ;
     foaf:fullname "Сибиряков Виссарион Григорьевич"@ru ;
     foaf:name "Vissarion Sibiryakov" .
 
@@ -4059,9 +4054,9 @@ odp:Stryken_E
 
 odp:Stupniker_YI
     a foaf:Person ;
-    foaf:affil "Ukraina" ;
+    foaf:affil "Israel" ;
     foaf:fullname "Ступникер Юрий Иосифович"@ru ;
-    foaf:name "Yuri Stupniker" .
+    foaf:name "Yuri I. Stupniker" .
 
 odp:Su_XF
     a foaf:Person ;

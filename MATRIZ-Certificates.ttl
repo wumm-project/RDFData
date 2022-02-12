@@ -34,7 +34,7 @@ odp:Ahn_HS
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_123> ;
     od:theLevel tc:CertificateLevel4 .
 
-odp:Amnuel_PR
+odp:Amnuel_PR 
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_1> ;
     od:theLevel tc:CertificateLevel5 ;
     org:memberOf od:TRIZMasterCouncil .
@@ -91,7 +91,7 @@ odp:Bubenzov_VY
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_55> ;
     od:theLevel tc:CertificateLevel4 .
 
-odp:Bukhman_IB
+odp:Bukhman_IB 
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_4> ;
     od:theLevel tc:CertificateLevel5 ;
     org:memberOf od:TRIZMasterCouncil .
@@ -172,7 +172,7 @@ odp:Faer_SA
     od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 .
 
 odp:Farber_BS
-    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_001-2019> ;
+    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/I&D-V-5_001-2019-P> ;
     od:theLevel tc:CertificateLevel5 ;
     org:memberOf od:TRIZMasterCouncil .
 
@@ -204,7 +204,7 @@ odp:Fomenko_A
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_127> ;
     od:theLevel tc:CertificateLevel4 .
 
-odp:Gafitulin_MS
+odp:Gafitulin_MS 
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_14> ;
     od:theLevel tc:CertificateLevel5 ;
     org:memberOf od:TRIZMasterCouncil .
@@ -221,7 +221,7 @@ odp:Gasanov_AI
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_7> ;
     od:theLevel tc:CertificateLevel5 .
 
-odp:Gerasimov_OM
+odp:Gerasimov_OM 
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_13>, <http://opendiscovery.org/rdf/Certificate/5_76> ;
     od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 ;
     org:memberOf od:TRIZMasterCouncil .
@@ -238,7 +238,7 @@ odp:Gladkov_AK
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_7> ;
     od:theLevel tc:CertificateLevel4 .
 
-odp:Goldovsky_BI
+odp:Goldovsky_BI 
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_82> ;
     od:theLevel tc:CertificateLevel5 ;
     org:memberOf od:TRIZMasterCouncil .
@@ -358,9 +358,10 @@ odp:Kang_YJ
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_82>, <http://opendiscovery.org/rdf/Certificate/5_77> ;
     od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 .
 
-odp:Kaplan_LA
+odp:Kaplan_LA 
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_19>, <http://opendiscovery.org/rdf/Certificate/5_80> ;
-    od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 .
+    od:theLevel tc:CertificateLevel4, tc:CertificateLevel5;
+    org:memberOf od:TRIZMasterCouncil .
 
 odp:Kashkarov_AG
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_37>, <http://opendiscovery.org/rdf/Certificate/5_74> ;
@@ -443,7 +444,7 @@ odp:Kravzov_SP
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_25> ;
     od:theLevel tc:CertificateLevel5 .
 
-odp:Kryachko_VB
+odp:Kryachko_VB 
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_22> ;
     od:theLevel tc:CertificateLevel5 ;
     org:memberOf od:TRIZMasterCouncil .
@@ -515,7 +516,7 @@ odp:Liu_MY
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_133> ;
     od:theLevel tc:CertificateLevel4 .
 
-odp:Logvinov_SA
+odp:Logvinov_SA 
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_39>, <http://opendiscovery.org/rdf/Certificate/5_79> ;
     od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 ;
     org:memberOf od:TRIZMasterCouncil .
@@ -572,9 +573,14 @@ odp:MinSoo_K
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_96> ;
     od:theLevel tc:CertificateLevel4 .
 
-odp:Minaker_VE
+odp:Minaker_VE 
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_102>, <http://opendiscovery.org/rdf/Certificate/5_91> ;
     od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 ;
+    org:memberOf od:TRIZMasterCouncil .
+
+odp:Misyuchenko_IL
+    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/I&D-V-5_002-2020-P> ;
+    od:theLevel tc:CertificateLevel5 ;
     org:memberOf od:TRIZMasterCouncil .
 
 odp:Mitrofanov_VV
@@ -631,7 +637,7 @@ odp:Petiy_II
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_58>, <http://opendiscovery.org/rdf/Certificate/5_100> ;
     od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 .
 
-odp:Petrov_VM
+odp:Petrov_VM 
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_43> ;
     od:theLevel tc:CertificateLevel5 ;
     org:memberOf od:TRIZMasterCouncil .
@@ -679,12 +685,12 @@ odp:Royzen_ZY
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_45> ;
     od:theLevel tc:CertificateLevel5 .
 
-odp:Rubin_MS
+odp:Rubin_MS 
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_44> ;
     od:theLevel tc:CertificateLevel5 ;
     org:memberOf od:TRIZMasterCouncil .
 
-odp:Rubina_NV
+odp:Rubina_NV 
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_4>, <http://opendiscovery.org/rdf/Certificate/5_94> ;
     od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 ;
     org:memberOf od:TRIZMasterCouncil .
@@ -693,7 +699,7 @@ odp:Ruin_A
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_104> ;
     od:theLevel tc:CertificateLevel4 .
 
-odp:Salamatov_YP
+odp:Salamatov_YP 
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_46> ;
     od:theLevel tc:CertificateLevel5 ;
     org:memberOf od:TRIZMasterCouncil .
@@ -718,7 +724,7 @@ odp:Scharipov_RH
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_86> ;
     od:theLevel tc:CertificateLevel4 .
 
-odp:Selyutsky_AB
+odp:Selyutsky_AB 
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_48> ;
     od:theLevel tc:CertificateLevel5 ;
     org:memberOf od:TRIZMasterCouncil .
@@ -732,7 +738,7 @@ odp:Seredinski_AV
     od:hasMATRIZAward "TRIZ Champion 2016" ;
     od:theLevel tc:CertificateLevel4 .
 
-odp:Severinets_GA
+odp:Severinets_GA 
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_51>, <http://opendiscovery.org/rdf/Certificate/5_98> ;
     od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 ;
     org:memberOf od:TRIZMasterCouncil .
@@ -753,7 +759,7 @@ odp:Shmigelsky_OC
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_49> ;
     od:theLevel tc:CertificateLevel4 .
 
-odp:Shpakovsky_NA
+odp:Shpakovsky_NA 
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_47>, <http://opendiscovery.org/rdf/Certificate/5_69> ;
     od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 ;
     org:memberOf od:TRIZMasterCouncil .
@@ -766,12 +772,12 @@ odp:Shulyak_LA
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_63> ;
     od:theLevel tc:CertificateLevel5 .
 
-odp:Shusterman_MN
+odp:Shusterman_MN 
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_62> ;
     od:theLevel tc:CertificateLevel5 ;
     org:memberOf od:TRIZMasterCouncil .
 
-odp:Sibiryakov_VG
+odp:Sibiryakov_VG 
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_47> ;
     od:theLevel tc:CertificateLevel5 ;
     org:memberOf od:TRIZMasterCouncil .
@@ -812,7 +818,7 @@ odp:Souchkov_VV
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_93> ;
     od:theLevel tc:CertificateLevel5 .
 
-odp:Stupniker_YI
+odp:Stupniker_YI 
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_52> ;
     od:theLevel tc:CertificateLevel5 ;
     org:memberOf od:TRIZMasterCouncil .
