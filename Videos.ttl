@@ -21,7 +21,7 @@ od:Youtube-Video a owl:Class ;
 
 :Fey-20190529
   a od:Youtube-Video ;
-  dcterms:creator odp:Fey_V ;
+  dcterms:creator odp:Fey_VR ;
   dcterms:abstract "Interview with Victor Fey taken by Robert Adunka on Sept 11, 2019"@en ; 
   od:urlVideo <https://www.youtube.com/watch?v=MLhZ-swewGg> ;
   dcterms:extent "00:10:09 h" ;
@@ -40,7 +40,7 @@ od:Youtube-Video a owl:Class ;
 
 :Kuryan-20200422
   a od:Youtube-Video ;
-  dcterms:creator odp:Kuryan_A ;
+  dcterms:creator odp:Kuryan_AG ;
   dcterms:abstract "On systems development, working with requirements and applying TRIZ to business with Andrei Kuryan. A MakeSense Podcast"@en ; 
   od:urlVideo <https://www.youtube.com/watch?v=lZGlOoahpvc> ;
   dcterms:extent "00:55:43 h" ;
@@ -50,7 +50,7 @@ od:Youtube-Video a owl:Class ;
 :Lebedyev-20180128
   a od:Youtube-Video ;
   dcterms:creator odp:Lebedev_YV ;
-  dcterms:abstract"Flow optimisation law and flow analysis. Presentation at TRIZ Conference Moscow 10-11 November 2017"@en ;
+  dcterms:abstract "Flow optimisation law and flow analysis. Presentation at TRIZ Conference Moscow 10-11 November 2017"@en ;
   od:urlVideo <https://www.youtube.com/watch?v=UX3uEUZUn_k> ;
   dcterms:extent "01:12:42 h" ;
   dcterms:language  "ru"^^dcterms:RFC4646 ;
@@ -67,7 +67,7 @@ od:Youtube-Video a owl:Class ;
 
 :Litvin-20171101
   a od:Youtube-Video ;
-  dcterms:creator odp:Litvin_S ;
+  dcterms:creator odp:Litvin_SS ;
   dcterms:abstract "Summary of the work on the theme how a computer can invent (i.e., about methods of invention, that allow three programmers easily to create programs by which a computer can create many inventions)."@en ;
   od:urlVideo <https://www.youtube.com/watch?v=BPpTNC2QOh0> ;
   dcterms:extent "02:40:12 h" ;
@@ -115,7 +115,7 @@ od:Youtube-Video a owl:Class ;
 :Souchkov-20190725
   a od:Youtube-Video ;
   dcterms:creator odp:Souchkov_VV ;
-  dcterms:abstract"Thinking skills in small and medium business. Systemic thinking. Interview given to Alexei Shchinnikov from the Saratov TRIZ Club on July 25, 2019"@en ; 
+  dcterms:abstract "Thinking skills in small and medium business. Systemic thinking. Interview given to Alexei Shchinnikov from the Saratov TRIZ Club on July 25, 2019"@en ; 
   od:urlVideo <https://www.youtube.com/watch?v=ubgvcjzhs3g> ;
   dcterms:extent "01:27:10 h" ;
   dcterms:language  "ru"^^dcterms:RFC4646 ;
@@ -125,7 +125,7 @@ od:Youtube-Video a owl:Class ;
 :Souchkov-20190722
   a od:Youtube-Video ;
   dcterms:creator odp:Souchkov_VV ;
-  dcterms:absgtract "TRIZ for the development of small and medium-sized businesses. Interview given to Alexei Shchinnikov from the Saratov TRIZ Club on July 22, 2019"@en ; 
+  dcterms:abstract "TRIZ for the development of small and medium-sized businesses. Interview given to Alexei Shchinnikov from the Saratov TRIZ Club on July 22, 2019"@en ; 
   od:urlVideo <https://www.youtube.com/watch?v=2cfx3qJZJJ4> ;
   dcterms:extent "01:27:00 h" ;
   dcterms:language  "ru"^^dcterms:RFC4646 ;
