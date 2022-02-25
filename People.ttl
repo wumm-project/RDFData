@@ -274,7 +274,7 @@ odp:Bersano_G
 
 odp:Bertoncelli_T
     a foaf:Person ;
-    foaf:affil "ANSYS, Germany" ;
+    foaf:affil "ANSYS, Ismaning, Germany" ;
     foaf:name "Tiziana Bertoncelli" .
 
 odp:Bezdel_ZV
@@ -489,6 +489,11 @@ odp:Bystritsky_AA
     foaf:affil "Irkutsk, Russia" ;
     foaf:fullname "Быстрицкий Александр Анатольевич"@ru ;
     foaf:name "Alexander A. Bystritsky" .
+
+odp:Cali_R
+    a foaf:Person ;
+    foaf:affil "EVOip, Mannheim, Germany" ;
+    foaf:name "Ricardo Cali" .
 
 odp:Campagiorni_V
     a foaf:Person ;
@@ -1250,6 +1255,8 @@ odp:Gorchakov_IP
     foaf:name "Igor Gorchakov" .
 
 odp:Gorin_YV
+    dbo:birthDate "1938-07-18" ;
+    dbo:deathDate "2015-03-09" ;
     a foaf:Person ;
     foaf:affil "Pensa, Russia" ;
     foaf:fullname "Горин Юрий Васильевич"@ru ;
@@ -1817,6 +1824,11 @@ odp:Katzwinkel_T
     foaf:affil "Solingen, Germany" ;
     foaf:name "Tim Katzwinkel" .
 
+odp:Kauffmann_H
+    a foaf:Person ;
+    foaf:affil "Motion Advantage, Balingen, Germany" ;
+    foaf:name "Harald Kauffmann" .
+
 odp:Kayser_L
     a foaf:Person ;
     foaf:name "Lin Kayser" .
@@ -2091,6 +2103,11 @@ odp:Kozyreva_NA
     foaf:homepage <https://kozyreva.ucoz.ru/> ;
     foaf:fullname "Козырева Нелли Арнольдовна"@ru ;
     foaf:name "Nelli A. Kozyreva" .
+
+odp:Kraemer_W
+    a foaf:Person ;
+    foaf:affil "Haereus, Hanau, Germany" ;
+    foaf:name "Winfried Krämer" .
 
 odp:Krasnoslobodtsev_VJ
     a foaf:Person ;
