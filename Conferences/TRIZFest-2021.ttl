@@ -1,4 +1,5 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix odp: <http://opendiscovery.org/rdf/Person/> .
@@ -17,8 +18,11 @@
     ical:summary "TRIZ Fest 2021 Online, Odessa, Ukraine" ;
     ical:dtend "2021-09-18"^^xsd:date ;
     ical:dtstart "2021-09-15"^^xsd:date ;
-    od:urlVideo <https://www.youtube.com/playlist?list=PLhYQKCyM7_WwhRp4v--4yz1hO8B6XH4kt> ;
-    ical:location "Online" .
+    ical:location "Online" ;
+    bibo:issn "2374-2275" ;
+    bibo:isbn "978-0-578-34278-8" ; 
+    od:theProceedings <https://matriz.org/wp-content/uploads/2021/12/TRIZfest-2021-Proceedings.pdf> ;
+    od:urlVideo <https://www.youtube.com/playlist?list=PLhYQKCyM7_WwhRp4v--4yz1hO8B6XH4kt> .
 
 :Talk_100
     swc:relatedToEvent track:Tutorial ;

@@ -43,6 +43,7 @@
     ical:dtend "2021-09-18"^^xsd:date ;
     ical:dtstart "2021-09-15"^^xsd:date ;
     ical:location "Online" ;
+    od:theProceedings <https://matriz.org/wp-content/uploads/2021/12/TRIZfest-2021-Proceedings.pdf> ;
     od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZFest-2021.rdf> ; 
     ical:url <https://matriz.org> .
 
