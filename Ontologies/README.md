@@ -45,13 +45,6 @@ This was moved to ../Matrix (graebe: 2021-07-18)
 
 ## Partial Projects
 
-### Business TRIZ 
-
-* Business-TRIZ/BusinessStandards.ttl - V. Souchkovs Business Standard
-  Solutions
-* Business-TRIZ/SouchkovBusinessPrinciples.ttl - Business examples for
-  tc:Separation principle in Souchkov's papers
-
 ### Evolution Tree
 
 A conceptualisation of the TRIZ Evolution Trees as developed in (Shpakovsky
@@ -64,9 +57,4 @@ A conceptualisation of the TRIZ Evolution Trees as developed in (Shpakovsky
 * EvolutionTrees/EvolutionTrees.ttl  - The Evolution Tree Ontology (ETO)
 * EvolutionTrees/DisplayExample.ttl - Application to the Display Evolution in
   (Shpakovsky 2016)
-
-### Flow Analysis
-
-* FlowAnalysis/FlowDevelopmentPattern.ttl - Patterns and Examples proposed by
-  A. Lyubomirsky (2006)
 

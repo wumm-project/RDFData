@@ -94,7 +94,6 @@ of the WUMM project and the
   of Toru Nakagawa
   * This is a first attempt to join forces with the WUMM project. 
 
-
 ### Ontology Project
 
 This has to be moved and incorporated into the Ontology Project in the
@@ -113,3 +112,17 @@ by N. Shpakovsky.
 
 Main work on this part was done by Tom Strempel in the context of the Leipzig
 Seminar in the winter semester 2020/21.
+
+### Flow Analysis
+
+* FlowAnalysis/FlowDevelopmentPattern.ttl - Patterns and Examples proposed by
+  A. Lyubomirsky (2006)
+
+### Business TRIZ 
+
+* Business-TRIZ/BusinessStandards.ttl - V. Souchkovs Business Standard
+  Solutions
+* Business-TRIZ/SouchkovBusinessPrinciples.ttl - Business examples for
+  tc:Separation principle in Souchkov's papers
+* Business-TRIZ/BusinessTrends-Wagner.ttl - Business trends from the master
+  thesis of Luisa Wagner
