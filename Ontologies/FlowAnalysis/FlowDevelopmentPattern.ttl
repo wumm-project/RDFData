@@ -1,0 +1,938 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix fdp: <http://opendiscovery.org/rdf/FDP/> .
+@prefix tc: <http://opendiscovery.org/rdf/Concept/> .
+
+
+<http://opendiscovery.org/rdf/Ontologies/FlowDevelopmentPattern/>
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    a owl:Ontology ;
+    dcterms:source <https://triz-summit.ru/confer/tds-2006/203452/203525/> ;
+    rdfs:comment "2022-03-12 graebe: Extracted from the LaTeX source of the paper 'Alex Lubomirsky: The Law of Improving the Efficiency of Matter, Energy and Information Flows' presented at the TRIZ Developer Summit 2006";
+    rdfs:label "Lyubomirsky's Flow Development Pattern" .
+    
+fdp:P_Core a tc:FlowDevelopmentPattern ;
+  skos:preflabel "The core or the pattern tree"@en .
+
+fdp:P_1 a tc:FlowDevelopmentPattern ;
+  skos:preflabel "Increase the positive effect of useful flows"@en ;
+  skos:broader fdp:P_Core; 
+
+  skos:definition """Increase in the process of development the positive
+  effect of useful flows."""@en . 
+
+fdp:P_1_1 a tc:FlowDevelopmentPattern ;
+  skos:preflabel "Increase the conductivity of useful flows"@en ;
+  skos:broader fdp:P_1; 
+
+  skos:definition """Increase in the process of development the the
+  conductivity of useful flows."""@en .
+
+fdp:P_1_1_01 a tc:FlowDevelopmentPattern ;
+  skos:preflabel "Reduction in the number of flow transformations"@en ;
+  skos:broader fdp:P_1_1; 
+
+  skos:definition """Transition from a flow with many transformations to a
+  homogeneous flow."""@en ;
+
+  skos:note """Usually, every transformation of a flo (transfer of substances
+  from one state to another, the change of types of energy, the change in the
+  way information is represented) is accompanied by losses and inhibition.
+  Consequently, reducing the number of such transformations leads to an
+  increase in conductivity. Ideally, there should be no transformations at
+  all, and all components of flows should immediately have the form necessary
+  for their final use."""@en ;
+
+  skos:example """An example is a diesel generator and a fuel cell: In a
+  diesel generator, the energy flow has the following form:<br/>
+  Chemical energy of the fuel -> thermal energy -> mechanical energy -> 
+  electrical energy.<br/>
+  In a fuel cell, the transformation is only one:<br/>
+  Chemical energy of the fuel -> electrical energy.<br/>
+  Consequently, the efficiency of a fuel cell is twice as high."""@en .
+
+fdp:P_1_1_02 a tc:FlowDevelopmentPattern ;
+  skos:preflabel "Flow conversion"@en ;
+  skos:broader fdp:P_1_1; 
+
+  skos:definition """Transition from a poorly transmitable flow to a well
+  transmitable flow."""@en ;
+
+  skos:note """If there is considerable resistance to the flow, and the losses
+  involved in its conversion are relatively small, the flow is converted to
+  the most easily transferable form."""@en ;
+
+  skos:example """An example is the communication tube on a ship.<br/>
+  As the size of ships increased, it became increasingly difficult to use such
+  tubes. Eventually, there was a natural transition to the interphone - the
+  sound flow was converted into an easy-to-transmit electrical signal."""@en .
+
+
+fdp:P_1_1_03 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Reducing the length of the flow"@en ;
+  skos:broader fdp:P_1_1; 
+
+  skos:definition """Transition from a long flow to a short one."""@en ;
+
+  skos:note """Usually, many types of losses and resistances to a flow are
+  proportional to its length. Consequently, flow length must be reduced in
+  order to increase conductivity. Ideally, the flow should be zero-length,
+  i.e. its components should appear immediately where they are used."""@en ;
+
+  skos:example """An example is the drill. In the past, the drill was driven
+  by a stationary motor through a flexible gear, or even a system of
+  gears.<br/> The long mechanical energy flow imposed limits on the speed of
+  rotation of the drill, which reduced productivity and increased suffering of
+  the patient. In today's systems, the source of rotation is located in the
+  housing of the drill, i.e. the flow length is reduced to almost zero."""@en
+  ;
+
+  skos:example """As an example from another field, it is a well-known fact to
+  all militaries that highly stretched communications have an extremely
+  detrimental effect on troop supply, so reduced communications (i.e. shorter
+  equipment flow lengths) is a constant headache for strategists."""@en .
+
+fdp:P_1_1_04 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Elimination of 'grey zones'"@en ;
+  skos:broader fdp:P_1_1; 
+
+  skos:definition """Transition from a flow that contains areas in which its
+  behaviour cannot be predicted with sufficient accuracy to a flow that is
+  free of such areas."""@en ;
+
+  skos:note """Since flow behaviour in the grey zone cannot be predicted, the
+  parameters of these areas are usually chosen empirically. It is not always
+  possible to carry out a sufficient number of experiments and therefore these
+  areas are usually not sufficiently optimised, resulting in increased losses
+  and resistance.  Consequently, the elimination of grey areas indirectly
+  leads to an increase in conductivity through better optimisation."""@en ;
+
+  skos:example """Fishing. A school of fish cannot be seen underwater and its
+  behaviour cannot be accurately predicted, so ensuring a steady flow of fish
+  from the sea to the fishing vessel is difficult -- causing many unnecessary
+  costs in unsuccessful net casts and idle crossings.<br/> Sonar has been used
+  to eliminate the grey zone - it is now possible to see whether fish are
+  present and to target the trawl."""@en ;
+
+  skos:example """A grey area is also the area where the flow of advertising
+  information interacts with potential consumers, causing advertising costs to
+  be overspent and ineffective. This area can be eliminated by various means,
+  such as targeting ads to supposedly homogenous groups, for example, Barbie
+  dolls are advertised in cartoons targeted at girls, or the charms of
+  military service in the commercial breaks of martial arts movies."""@en .
+
+fdp:P_1_1_05 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Eliminating of 'bottle necks'"@en ;
+  skos:broader fdp:P_1_1; 
+
+  skos:definition """Transition from a flow containing areas of resistance
+  much greater than the path resistance, to a flow free of such areas."""@en ;
+
+  skos:note """A 'bottle neck' is an area of the flow with sharply increased
+  resistance.  Obviously, eliminating such areas greatly increases
+  conductivity."""@en ;
+
+  skos:example """filters that prevent allergy-causing particles from reaching
+  the nasal mucosa. <br/> While good at trapping allergens, they have proven
+  to be a serious obstacle to air (a typical 'bottle neck') - it is so
+  difficult to breathe through them that such filters have not been widely
+  used.<br/> Therefore, in line with the trend, the company GEN3 has developed
+  anti-allergen nasal inserts working on the cyclone principle.<br/> In these
+  inserts, the swirling air flow causes the particles suspended in the air to
+  be ejected by centrifugal force to the walls and adhere to the non-drying
+  glue-coated surface; the air itself flows freely, experiencing almost no
+  additional resistance. This eliminates the bottle neck."""@en .
+
+fdp:P_1_1_06 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Increasing the conductivity of individual flow paths"@en ;
+  skos:broader fdp:P_1_1; 
+
+  skos:definition """Increase the conductivity of individual flow links up to
+  a physical limit for a given type of conductor."""@en ;
+
+  skos:note """Since the flow resistance is strongly dependent on the
+  characteristics of the conductors, improving them leads to an increase in
+  conductivity. Ideally, the characteristics should correspond to the physical
+  limit for a given conductor type."""@en ;
+
+  skos:example """Roads - the conductors of wheeled traffic flow - have
+  evolved from unpaved country lanes to high-speed multi-lane highways."""@en
+  ;
+
+  skos:example """Windings of electrical machinery. Copper is the best
+  conductor (apart from superconductors), so electrical conductivity cannot be
+  improved.  On the other hand, insulating materials and coating technologies
+  have been developed that can increase the voltage."""@en .
+
+fdp:P_1_1_07 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Increasing the characteristics of a specific flow"@en ;
+  skos:broader fdp:P_1_1; 
+
+  skos:definition """Transition from large, low density flows to small, high
+  density flows."""@en ;
+
+  skos:note """Often the resistance to a flow is independent of the specific
+  characteristics of the flow. Therefore, it is advantageous to reduce the
+  volume of the flow while increasing its density in order to increase
+  conductivity. As a result, more flow can be carried through the same
+  conductor, or the cost of the conductor can be reduced for the same
+  flow."""@en ;
+
+  skos:example """Transport of gas from the production site to the
+  consumers. To increase the capacity, gas is compressed at the input of a
+  trunk pipeline by a compressor, so that significantly more gas flows through
+  a given pipe cross-section."""@en .
+
+fdp:P_1_1_08 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Give additional functions to the flow"@en ;
+  skos:broader fdp:P_1_1; 
+
+  skos:definition """Transfer of all or part of the function of one flow to
+  another."""@en ;
+
+  skos:note """If a flow additionally takes over the function of another flow,
+  the second flow becomes unnecessary. Therefore, the total power of the flows
+  in the system is reduced without affecting performance, and therefore,
+  efficiency increases."""@en ;
+
+  skos:example """A carbureted internal combustion engine. It has a flow of
+  electricity which causes a spark which ignites the fuel-air mixture.<br/> In
+  the transition to the diesel engine, the 'ignite the mixture' function has
+  been taken over by a flow of mechanical energy that is converted into heat
+  when the mixture is compressed."""@en .
+
+fdp:P_1_1_09 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Useful influence of flows on each other"@en ;
+  skos:broader fdp:P_1_1; 
+
+  skos:definition """Flows of different nature can affect each other in such a
+  way that the conductivity of the system in relation to them increases."""@en
+  ;
+
+  skos:example """An example is thermal extrusion. A heat flow acts
+  beneficially on the flow of the extruded material, increasing the plasticity
+  of the material."""@en .
+
+fdp:P_1_1_10 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Beneficial effect of the flow on the conductive path of another flow"@en ;
+  skos:broader fdp:P_1_1; 
+
+  skos:definition """The flow can improve the conductive characteristics of
+  another flow, resulting in an integral increase in the conductivity of the
+  system."""@en ;
+
+  skos:example """A well-known physical effect - cooling of a conductor leads
+  to lower electrical resistance. Therefore, in developing the concept of
+  hydrogen economy, it is proposed to combine power lines with pipelines for
+  liquid hydrogen.  In this case the flow of negative heat from the hydrogen
+  will at the same time reduce the resistance of the electric cable."""@en .
+
+fdp:P_1_1_11 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Using one flow as a carrier of the other"@en ;
+  skos:broader fdp:P_1_1; 
+
+  skos:definition """Transition from independent transmission of heterogeneous
+  flows to the carriage of one flow by another."""@en ;
+
+  skos:note """Flows of different nature can be used to carry each other: a
+  flow of matter can carry different kinds of energy, a flow of energy can
+  carry information, etc."""@en ;
+
+  skos:example """A two-stroke engine. In it, unlike a conventional engine,
+  where the flows of fuel and lubricating oil are separated, oil is injected
+  directly into petrol, i.e. there is a transfer of one flow by the
+  other."""@en ;
+
+  skos:example """In the days when computer technology used punched tape, the
+  problem arose, how to warn the user that the tape reel was about to run out?
+  The solution was simple: the last few meters of tape were dyed pink. The
+  rest is easy. Since the tape is pink, a new reel should be installed. From
+  our point of view, there is a situation, when the stream of substance (the
+  tape), which carries the stream of information for the machine, became the
+  carrier of one more stream of information for the user."""@en ;
+
+  skos:example """A strong smelling substance (mercaptan) was added to
+  household gas. The gas stream now carries with it a signal stream informing
+  people about a leakage."""@en .
+
+fdp:P_1_1_12 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Transmission of several homogeneous flows in one channel"@en ;
+  skos:broader fdp:P_1_1;
+  
+  skos:definition """Transition from the transmission of several homogeneous
+  flows in independent channels to their transmission in a single
+  channel."""@en ;
+
+  skos:note """Combining several homogeneous flows in a single channel
+  increases the integral conductivity of the system and reduces the cost of
+  each stream."""@en ;
+
+  skos:example """A multi-channel transmission, where multiple independent
+  streams of information, separated by carrier frequency, are transmitted
+  simultaneously over the same telephone wire or optical fibre."""@en ;
+
+  skos:example """Transmission of information signals over a lighting
+  network."""@en .
+
+fdp:P_1_1_13 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Flow modification to increase conductivity"@en ;
+  skos:broader fdp:P_1_1; 
+
+  skos:definition """Imparting to a flow a set of properties which improve its
+  transmission along a given type of path."""@en ;
+
+  skos:note """Sometimes it is possible to modify the flow in such a way that
+  the resistance to it is reduced. Such modifications include various ways of
+  reducing the viscosity of fluids, laminarisation/turbulisation of flows, use
+  of 'transparency windows', etc."""@en ;
+
+  skos:example """Transition from visual inspection (using a stream of visible
+  light) to X-rays, for which the human body is much more transparent (the
+  same stream of electromagnetic radiation, but shifted in frequency), allowed
+  doctors to look inside the living body without the help of a scalpel and
+  probe."""@en .
+
+fdp:P_1_1_14 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Total or partial flow out of the system"@en ;
+  skos:broader fdp:P_1_1; 
+
+  skos:definition """Transition from a flow entirely within the system to a
+  flow entirely or partially through a path external to the system."""@en ;
+
+  skos:note """In some cases it is possible to pass the flow through a
+  supersystem or environment. This allows the use of external paths with high
+  conductivity, and also reduces the system requirements and costs of the
+  intra-system path."""@en ;
+
+  skos:example """The use of a cable TV channel instead of a leased line for a
+  fast connection between a home computer and an Internet service
+  provider."""@en ;
+
+  skos:example """The switch from wired telephone and telegraph to radio.
+  Transmission of the signal through the environment has reduced the cost of
+  laying and maintaining communication channels (cables, wires)."""@en .
+
+fdp:P_1_2 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Increasing the efficiency of useful flows"@en ;
+  skos:broader fdp:P_1; 
+
+  skos:definition """In the process of development, there is an increase in the
+  efficiency of useful flows."""@en .
+
+fdp:P_1_2_01 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Elimination of 'stagnation zones'"@en ;
+  skos:broader fdp:P_1_2; 
+
+  skos:definition """Transition from a flow that contains areas where some
+  part of the flow is for a long time or permanently stagnant to a flow that
+  is free of such areas."""@en ;
+
+  skos:note """A 'stagnation zone' is an area of a flow where some part of it
+  is for a long time or permanently stagnant. As a result, the effective flow
+  capacity is reduced, as if there were leaks, although technically all of it
+  remains in the system. Consequently, the elimination of 'stagnant zones'
+  leads to an increase in the efficiency of useful flow by increasing the
+  completeness of its utilisation without increasing the overall
+  capacity."""@en ;
+
+  skos:example """The problem of cold-starting a car engine.<br/> It is known
+  that up to 70-80% of engine wear occurs during the so-called 'cold start'.
+  The thing is that during engine start in cold weather when lubricating oil
+  thickens, the oil pump does not have time to deliver it to the cylinders,
+  and at first the friction in the cylinder-piston pair occurs without any
+  lubrication, which naturally leads to increased wear. As you can see, there
+  is a typical 'stagnation zone' in the oil flow, which temporarily occurs
+  during a cold start. Indeed, there is technically enough oil in the system
+  but it is not being used for its intended purpose because it is stuck
+  somewhere on the way.<br/> It's clear that one struggles with this
+  phenomenon - e.g. with special additives in oil, or just by warming up the
+  engine at idling speed. It looks like there is no universal solution, but
+  surely sooner or later the trend will triumph, and it will be possible to
+  start right from the spot without fear for the engine."""@en ;
+
+  skos:example """Road junction. In order to pass one traffic stream, you have
+  to stop the other. Formally, there is enough space on the road, but in fact
+  - behind the junction there is nothing, and in front of it there is a
+  congestion zone, i.e. a familiar traffic jam. In accordance with the trend,
+  such zones are eliminated, for example, by multi-level interchanges."""@en .
+
+fdp:P_1_2_02 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Transition to impulse actions"@en ;
+  skos:broader fdp:P_1_2; 
+
+  skos:definition """Transition from constant flow to pulsed flow (including
+  sign-variable flow)."""@en ;
+
+  skos:note """Often the efficiency of a flow depends mainly on its amplitude
+  value.  Therefore, it is advantageous to switch to a pulsed flow in order to
+  increase efficiency. The total power of such a flow can be small, because
+  its effective value is small, but the efficiency is significant, because the
+  pulse amplitude can be very high. However, larger amplitudes can be achieved
+  more easily in pulsed mode by storing energy at pauses."""@en ;
+
+  skos:example """Concrete demolition using a pulsed water jet."""@en .
+
+fdp:P_1_2_03 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Use of resonance"@en ;
+  skos:broader fdp:P_1_2; 
+
+  skos:definition """Transition from a pulsed (variable) flow with an
+  arbitrary frequency to a flow whose frequency is equal to the frequency of
+  natural vibrations of the flow source, elements of its path or the object to
+  which the flow is directed."""@en ;
+
+  skos:note """In particular, the use of resonance allows selective
+  high-intensity effects at low total power of the flow.<br/> In contrast to a
+  conventional vibratory conveyor, it provides a significantly higher output
+  for the same amount of energy and dimensions. This is because its moving
+  part vibrates at its own vibration frequency, making maximum use of the
+  drive energy."""@en .
+
+fdp:P_1_2_04 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Flow modulation"@en ;
+  skos:broader fdp:P_1_2; 
+
+  skos:definition """Transition to a flow whose characteristics change over
+  time in response to changes in the characteristics of the object to which
+  the flow is directed."""@en ;
+
+  skos:note """The flow is modulated so that it acts on the object only at
+  those moments in time when the object is most sensitive to this effect. In
+  doing so, the efficiency of the flow increases."""@en ;
+
+  skos:example """A commonly used thing as an atomic bomb.<br/> It turns out
+  that in order to detonate it, you need to create a certain level of neutrons
+  in the fissile material. A neutron gun is provided for that purpose. But it
+  is useless to irradiate uranium - it is still impossible to create a neutron
+  flux of the density needed to initiate a reaction. Therefore, the neutron
+  beam is switched on precisely at the moment when all the pre-critical parts
+  of the charge are joined together - precisely when they are most sensitive
+  to it. This is where it all happens."""@en .
+
+fdp:P_1_2_05 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "The use of gradients"@en ;
+  skos:broader fdp:P_1_2; 
+
+  skos:definition """Transition from a flow that is uniformly or randomly
+  distributed in space to a flow whose characteristics are distributed in
+  space according to the location of the object (parts of the object, several
+  objects) to which the flow is directed."""@en ;
+
+  skos:note """Often, a high flow intensity is needed only in a certain area
+  (operational zone), while costs are determined by the overall intensity.
+  Therefore, it is advantageous to apply a flow with a gradient - high
+  intensity in the operational zone and low intensity throughout the rest of
+  the path to increase efficiency."""@en ;
+
+  skos:example """Actually, all cutting and stabbing tools are based on the
+  concentration of force in a selected area of the workpiece - with a
+  relatively small overall force, the stress at the point of contact, which
+  has a very small area, increases so much that it exceeds the resistance
+  limits of the material."""@en ;
+
+  skos:example """Glass cutting.<br/> A worker scratches the glass in the
+  right place and then lightly loads it.  This creates such a concentration of
+  stress that the glass fails and breaks off evenly along the notch."""@en ;
+
+  skos:example """Shaped charge.<br/> The shaped charge concentrates most of
+  the blast energy into a very small area, resulting in extremely high armour
+  piercing efficiency within a very low overall charge."""@en .
+
+fdp:P_1_2_06 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Mixing of several homogeneous flows"@en ;
+  skos:broader fdp:P_1_2; 
+
+  skos:definition """Transition from a single strong flow to several weak
+  flows that add up at the right place."""@en ;
+
+  skos:note """Several weak homogeneous flows can also be used to achieve a
+  local concentration of flow, which are stacked in the operational zone. For
+  flows having a wave nature, the phenomenon of interference can be used.
+  Since the gain in total power is not achieved in this way, it is usually
+  done in cases where several weak flows are easier to provide than one strong
+  flow."""@en ;
+
+  skos:example """The multi-oar boat. Each rower individually cannot create a
+  large force over a long period of time, but all together can, simply by
+  folding."""@en ;
+
+  skos:example """Drying paper. Wet paper is rewound from reel to reel and the
+  free water is squeezed out with a special roller.<br/> In order to reduce
+  the viscosity of the water and therefore increase the squeezing efficiency,
+  the paper is heated. To do this, the support drum is heated from the inside
+  by steam. However, it was found that the contact time between the paper and
+  the hot drum surface was so short that the water did not have time to heat
+  up due to the high winding speed. If you increase the temperature of the
+  drum, the surface layers adjacent to the drum will start to burn due to the
+  limited thermal conductivity of the paper. In other words, there is a
+  situation where a strong heat flow cannot be used and a weak heat flow is
+  not enough. Therefore, in line with the trend, a second heat flow was
+  introduced -- blowing hot air onto the paper from outside."""@en .
+
+fdp:P_1_2_07 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Multiple use of flow (adding a flow to itself)"@en ;
+  skos:broader fdp:P_1_2; 
+
+  skos:definition """Transition from a strong flow to a weak flow passing
+  repeatedly through an operational zone."""@en ;
+
+  skos:note """The total power of the flow can be reduced by allowing a
+  relatively weak flow to pass repeatedly through the operational zone. This
+  is usually the case when the strong flow is difficult to create or cannot be
+  fully used in one pass and the effect may be cumulative."""@en ;
+
+  skos:example """Coil of an electromagnet.<br/> The required magnetic field
+  strength can, in principle, be obtained with just a single coil. However, in
+  order to do this, an enormous current would have to be passed through the
+  coil. Instead, a relatively weak current is used which is passed through the
+  coil many times, combining the magnetic fields of each coil to make a single
+  strong field."""@en .
+
+fdp:P_1_2_08 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Using two heterogeneous flows to achieve a synergetic effect"@en ;
+  skos:broader fdp:P_1_2; 
+
+  skos:definition """Transition from a single strong flow to two weak
+  heterogeneous flows, the joint use of which leads to a synergetic
+  effect."""@en ;
+
+  skos:note """Sometimes, instead of one strong flow, two weak heterogeneous
+  flows can be used, which have a synergetic effect. This effect consists in
+  the fact that the result of simultaneous impact of both flows is much
+  greater than the sum of the results of their separate use. Due to this, weak
+  flows provide high efficiency of the system at low losses."""@en ;
+
+  skos:example """The problem of anthrax spore elimination. These spores are
+  extremely resistant to heat and chemical attack. However, the simultaneous
+  action of some chemical agents and relatively low heat reliably kills them.
+  This means that the synergetic effect of two simultaneous currents (heat and
+  chemicals) is being exploited."""@en .
+
+fdp:P_1_2_09 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Pre-saturation of the operative zone with substance, energy and information"@en ;
+  skos:broader fdp:P_1_2; 
+
+  skos:definition """Transition from a strong flow to a weak one, acting on an
+  object pre-saturated with the components of this flow."""@en ;
+
+  skos:note """Ideally, there should be no flows in the system at all, because
+  any flow leads to losses and additional load on the system. Complete
+  coagulation of flows can be achieved by pre-saturating the operational zone
+  with substance, energy, and information of the required type and quantity.
+  In doing so, a weak initiating signal is often sufficient to carry out the
+  entire process. If it is not possible to fully saturate an operational area
+  with everything it needs, partial saturation may be limited. In this case,
+  it will be possible to switch to the use of weak streams."""@en ;
+
+  skos:example """Pre-injection of a substance is sleeping pills.<br/> If they
+  are overdosed, poisoning is possible up to and including death. In this
+  case, inducing vomiting is often sufficient to save the person.  Therefore,
+  in line with the trend, the following solution has been found - a small dose
+  of a vomiting agent has been injected into the pills in advance.  In a
+  normal situation, this has no effect on well-being, but in a significant
+  overdose, it is triggered before irreparable harm is done to the
+  person."""@en ;
+
+  skos:example """Land mines. Instead of shelling the enemy (shelling is the
+  organisation of the flow of certain substances through the environment), the
+  charges are placed in advance in places where they are likely to
+  appear."""@en ;
+
+  skos:example """An example of pre-saturation of an operational area with
+  energy is self-heating canned food. Now, you don't need a fire or any other
+  external heat source - just press the bottom and you get a can of hot
+  coffee."""@en ;
+
+  skos:example """An example of pre-saturation of an operational zone with
+  information is the use of code signals. If it is agreed in advance which
+  signal means what (i.e., pre-introduce in the OZ the vast majority of
+  information), then any signal (and, in principle, even absence of a signal!)
+  can carry an almost unlimited amount of information. For example, submarine
+  commanders have detailed instructions about how to proceed if, after
+  surfacing, they don't get a certain signal from the base (absence of signal
+  means base destruction - here, the submarine will show itself in such a way
+  that the submarine will not only win!)."""@en .
+
+fdp:P_1_2_10 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Reducing the intensity of information flows by switching to self-regulating processes"@en ;
+  skos:broader fdp:P_1_2; 
+
+  skos:definition """Transition from an externally regulated system - with a
+  high flow of information between the control system and the working body -
+  to a self-regulating system."""@en ;
+
+  skos:note """Often the flow of information in the system is necessary to
+  control the processes occurring in it. These flows can be reduced or
+  eliminated altogether by using self-regulating processes."""@en ;
+
+  skos:example """A kettle with a whistle.<br/> A whistle is an information
+  signal for a person to drop everything and go to perform certain actions -
+  take the kettle off the fire or turn it off. Then they made a self-switching
+  kettle, in which sits an almost completely coiled nifty system - a
+  bimetallic plate. It is a sensor and actuator in one person, using the
+  energy of its supersystem to work. As a result, the person can go about
+  their business instead of running around on a whistle like a dog."""@en .
+
+fdp:P_2 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Reducing the Negative Effect of Harmful Flows"@en ;
+  skos:broader fdp:P_Core; 
+
+  skos:definition """Reduce in the process of development the negative effect
+  of harmful flows."""@en .
+
+fdp:P_2_1 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Reduction of harmful flow conductivity"@en ;
+  skos:broader fdp:P_2; 
+
+  skos:definition """Decrease in the process of development the conductivity
+  of harmful flows."""@en .
+
+fdp:P_2_1_01 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Prevention of harmful flows"@en ;
+  skos:broader fdp:P_2_1; 
+
+  skos:note """Harmful flow prevention is practically reduced to the
+  prevention or significant reduction of losses in useful flows. See the
+  methods which are used for this purpose."""@en .
+
+fdp:P_2_1_02 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Absorption of harmful flows"@en ;
+  skos:broader fdp:P_2_1; 
+
+  skos:definition """Change from a strong undesirable flow to a weak (absent)
+  one through its partial or complete absorption in a path."""@en ;
+
+  skos:note """In order to absorb the flow, the system resistance must be
+  increased. To do this, methods inverse to those used for useful flows are
+  usually applied."""@en .
+
+fdp:P_2_1_03 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Flow conversion"@en ;
+  skos:broader fdp:P_2_1; 
+
+  skos:definition """Transition from a harmful flow that is well transmitted
+  to a flow that is not well transmitted."""@en ;
+
+  skos:example """One of the components of stealth technology is that a
+  cloaked object is coated with a substance that converts radio waves into
+  heat.<br/> From the pilot's point of view, the radio waves are a harmful
+  flow. Clearly, heat travels much less well in the atmosphere than radio
+  waves, so this conversion has a positive effect."""@en .
+
+fdp:P_2_1_04 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Increase in flow length"@en ;
+  skos:broader fdp:P_2_1; 
+
+  skos:definition """Transition from a short flow to a long flow."""@en ;
+
+  skos:note """Usually, many types of losses and resistance to a flow are
+  proportional to its length. Consequently, to increase the resistance to a
+  harmful flow, its length must be increased. <br/> Indeed, in full agreement
+  with this trend, sources of unpleasant noise and smells, as well as harmful
+  emissions, are, in the simplest case, simply kept away from areas where
+  people are constantly present."""@en ;
+
+  skos:example """Labyrinth sealing.<br/> A labyrinth increases the path
+  length many times and therefore the resistance to the harmful flow of
+  contaminants from the outside as well as the flow of oil (parasitic flow)
+  from the inside."""@en .
+
+fdp:P_2_1_05 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Introduction of bottle necks"@en ;
+  skos:broader fdp:P_2_1; 
+
+  skos:definition """Transition from a harmful flow, free from areas where the
+  resistance is significantly greater than the flow resistance of the pathway,
+  to a flow containing such areas."""@en ;
+
+  skos:note """A 'bottle neck' is an area of a flow with sharply increased
+  resistance.  Obviously, introducing such areas greatly reduces the
+  conductivity with respect to unwanted flow."""@en ;
+
+  skos:example """Sunglasses."""@en .
+
+fdp:P_2_1_06 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Introduction of 'stagnation zones' in the flow path"@en ;
+  skos:broader fdp:P_2_1; 
+
+  skos:definition """Transition from a harmful flow, free from areas where
+  some part of it is for a long time or permanently stagnant, to a flow
+  containing such areas."""@en ;
+
+  skos:note """A 'stagnation zone' is an area of a flow where some part of it
+  is for a long time or permanently retained. As a result, the effective
+  capacity of the flow is reduced, although formally all of it remains in the
+  system.  Consequently, the introduction of dead spots results in the actual
+  absorption of harmful flow into the pathway."""@en ;
+
+  skos:example """A respirator.<br/> Harmful dust is trapped in the filter (a
+  typical dead zone), technically staying in the system but causing no
+  harm."""@en .
+
+fdp:P_2_1_07 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Reducing the conductivity of individual flow paths"@en ;
+  skos:broader fdp:P_2_1; 
+
+  skos:dfinition """Reduction of the conductivity of individual links of the
+  harmful flow down to zero."""@en ;
+
+  skos:note """As the resistance to a flow is strongly dependent on the
+  characteristics of the conductors, their reduction leads to a reduction in
+  conductivity. Ideally, the conductivity should be zero. A typical example
+  are all kinds of insulators."""@en ;
+
+  skos:example """A kitchen potholder.<br/> Why do we use a potholder or
+  simply use a cloth to grab a hot pan? By doing so, we introduce a link with
+  a rather low thermal conductivity into the harmful heat flow from the pan to
+  our hand, and the pan is now perfectly safe to hold."""@en .
+
+fdp:P_2_1_08 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Weakening the harmful flow by adding it to itself"@en ;
+  skos:broader fdp:P_2_1; 
+
+  skos:definition """Transition to a harmful flow, which is weakened by adding
+  it to itself."""@en ;
+
+  skos:example """An automobile damper design in which the sound vibrations
+  dampen themselves."""@en .
+  
+fdp:P_2_2 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Reducing the damaging power of the harmful flow"@en ;
+  skos:broader fdp:P_2; 
+
+  skos:definition """Prevent undesirable effects of flows on an object by
+  changing characteristics of the harmful flow (without changing its power) or
+  object to be damaged."""@en .
+
+fdp:P_2_2_01 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Introduction of grey zones"@en ;
+  skos:broader fdp:P_2_2; 
+
+  skos:definition """Transition from a harmful flow, free from areas in which
+  its behaviour cannot be predicted with sufficient accuracy, to a flow
+  containing such areas."""@en ;
+
+  skos:example """All military cloaking is based on this principle.<br/> The
+  interaction of a stream of bullets/munitions/bombs/rockets with an invisible
+  enemy cannot be accurately predicted (maybe it is not there at all), so it
+  is notoriously ineffective, which is what the cloaking experts are trying to
+  achieve."""@en .
+
+fdp:P_2_2_02 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Reducing specific flow characteristics"@en ;
+  skos:broader fdp:P_2_2; 
+
+  skos:definition """Transition from a small high-density flow to a large
+  low-density flow."""@en ;
+
+  skos:example """Electrical equipment intended to be used in environments
+  where there is a high risk of electric shock (damp, metallic constructions)
+  is designed for very low voltages of up to 12 volts. The currents are very
+  high and the cross-section of the cables must be increased, but if a person
+  is exposed to voltage, he or she will not suffer any damage."""@en .
+
+fdp:P_2_2_03 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Avoidance of resonance"@en ;
+  skos:broader fdp:P_2_2; 
+
+  skos:definition """Transition from an impulsive (variable) harmful flow with
+  an arbitrary frequency to a flow the frequency which is far from the
+  eigenfrequency of vibration of the source of the flow, of elements of its
+  path or the object to which the flow is directed."""@en ;
+
+  skos:example """The suspension of a car. A car is an oscillating system
+  which is forced to vibrate at a frequency depending on its speed and the
+  nature of the roughness of the road. The frequency of this damaging
+  vibration flow is high and the vehicle's eigenfrequency should therefore be
+  kept as low as possible by using the softest possible leaf springs."""@en .
+
+fdp:P_2_2_04 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Use of gradients"@en ;
+  skos:broader fdp:P_2_2; 
+
+  skos:definition """Transition from a flow which is uniformly or randomly
+  distributed in space to a flow whose characteristics are distributed in
+  space according to the location of the object (parts of the object, several
+  objects) to which the flow is to be directed."""@en ;
+
+  skos:note """Harmful flow shall be redistributed in such a way that in the
+  most vulnerable places it has a minimum intensity. The total power of the
+  flow is not reduced, and its harmful effect is reduced."""@en ;
+
+  skos:example """The positioning of smokestacks in relation to residential
+  areas, taking into account the wind pattern so that the harmful smoke flow
+  mainly goes to the sparsely populated area."""@en ;
+
+  skos:example """high beam headlights in cars are adjusted so that the head
+  of the driver of an oncoming car is in the least illuminated zone."""@en .
+
+fdp:P_2_2_05 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Adding up the flow with an anti-flow"@en ;
+  skos:broader fdp:P_2_2; 
+
+  skos:definition """Reduce the harmful flow by adding an anti-flow."""@en ;
+
+  skos:note """Sometimes it is possible to neutralise the harmful effect of a
+  flow by combining it with another flow having the opposite set of
+  characteristics."""@en ;
+
+  skos:example """Active armour. A cumulative jet (harmful flow) is
+  neutralised or dispersed by a counter explosion (anti-flow)."""@en .
+
+fdp:P_2_2_06 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Modification of a flow in order to reduce its harmful effect"@en ;
+  skos:broader fdp:P_2_2; 
+
+  skos:definition """Give the flow a set of properties which reduce its
+  harmful effect."""@en ;
+
+  skos:note """It is sometimes possible to neutralise the harmful effect of a
+  flow by modifying it in such a way that it makes the potentially damaged
+  object insensitive to the flow. The flow remains, but is no longer
+  harmful."""@en ;
+
+  skos:example """Developing a photographic film.<br/> To prevent the film
+  from being exposed, the darkroom is illuminated with red light (after
+  modification, the flow of light remains, but it is no longer harmful to the
+  film)."""@en .
+
+fdp:P_2_2_07 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Modification of a potentially damaged object in order to reduce the harmful effect of a flow on it"@en ;
+  skos:broader fdp:P_2_2; 
+
+  skos:definition """Impart a set of properties to the object that is
+  potentially damaged by the harmful flow in order to reduce the harmful
+  effect."""@en ;
+
+  skos:note """Sometimes it is possible to neutralise the harmful effect of a
+  flow by modifying the potentially damaged object to make it insensitive to
+  the flow.  In doing so, the flow remains, but ceases to be harmful."""@en ;
+
+  skos:example """The use of stainless steel in various products operating in
+  corrosive environments and all kinds of protective coatings rendering them
+  insensitive to the damaging effects of that environment."""@en .
+
+fdp:P_2_2_08 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Introduction of a second flow correcting the damage from the first flow"@en ;
+  skos:broader fdp:P_2_2; 
+
+  skos:definition """ransition of the harmful flow whose harmful effect is
+  corrected by another flow."""@en ;
+
+  skos:note """If the harmful flow and the potentially damaged object cannot
+  be modified, a second damage-correcting flow is introduced. The harmful
+  effect remains, but does not produce visible results."""@en ;
+
+  skos:example """Welding with a non-consumable electrode in an inert
+  gas.<br/> The heat flow from the arc destroys the electrode even when
+  refractory alloys and various cooling methods are used. One possible
+  solution to this problem is to introduce small amounts of methane into the
+  inert gas stream. Pyrolysis of methane causes the formation of a thin film
+  of electrically conductive soot on the cathode. This film is constantly
+  being destroyed by the heat of the arc, but is just as constantly being
+  regenerated. As a result, the lifetime of the electrode is considerably
+  increased."""@en ;
+
+  skos:example """Freezing of a film of ice on the leading edge of an
+  cavitation-damaged hydrofoil, and the setting of a layer of sugar sand on
+  the walls of the hopper, which is abraded by the same sand."""@en .
+
+fdp:P_2_2_09 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Pre-saturation of the potentially damaged object with substance, energy and information to neutralise the harmful flow"@en ;
+  skos:broader fdp:P_2_2; 
+
+  skos:definition """Transition to a harmful flow acting on an object that is
+  pre-saturated with the constituents of a neutralising flow."""@en ;
+
+  skos:note """If it is not possible to supply the neutralising flow, the
+  potentially damaged object shall be pre-saturated with the neutralising
+  components of the harmful flow."""@en ;
+
+  skos:example """An example is the wide use of buffer solutions in chemistry:
+  when an excess of H<sup>+</sup> or OH<sup-</sup> ions (harmful flow) occurs,
+  the equilibrium of reactions in the solution is shifted in such a way as to
+  neutralise this excess and restore the pH value to the same level. As you
+  can see, the neutralising flow is not supplied from the outside, but is
+  introduced into the system in advance."""@en ;
+
+  skos:example """Antiseptics already introduced into the material of surgical
+  gowns during the manufacturing process."""@en .
+
+fdp:P_2_2_10 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Lead the flow out of the system"@en ;
+  skos:broader fdp:P_2_2; 
+
+  skos:definition """Change from a harmful flow occurring wholly within the
+  system to a flow occurring wholly or partly through a pathway external to
+  the system."""@en ;
+
+  skos:note """In order to eliminate the harmful effect or simply to reduce
+  the load on the system, the harmful flow is led outside the system. To do
+  this, the conductivity is increased by all the methods used for useful
+  flows."""@en ;
+
+  skos:example """Cool anything that overheats with heat dissipation to the
+  environment by means of various radiators, disposal of waste water, smoke
+  and waste, removal of swarf during machining, earthing of electrical
+  equipment, ensuring that the flow of electricity that has become harmful in
+  an emergency is discharged into the ground, etc."""@en .
+
+fdp:P_3 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Reducing the negative effects of parasitic flows"@en ;
+  skos:broader fdp:P_Core; 
+
+  skos:definition """Reduce the process of development of the negative effect
+  of parasitic flows."""@en .
+
+fdp:P_3_1 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Reduction of conductivity of parasitic flows"@en ;
+  skos:broader fdp:P_3; 
+
+  skos:definition """Decrease in the process of development the conductivity
+  of parasitic flows."""@en .
+
+fdp:P_3_1_01 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Prevention of parasitic flows"@en ;
+  skos:broader fdp:P_3_1; 
+
+  skos:definition """Reduce the prevention of a parasitic flow to the
+  prevention or significant reduction of useful flow losses."""@en ;
+
+  skos:note """To do this, the previously mentioned methods are used."""@en .
+
+fdp:P_3_1_02 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Absorption parasitic flows"@en ;
+  skos:broader fdp:P_3_1; 
+
+  skos:definition """Transition from a strong parasitic flow to a weak
+  (absent) parasitic flow by partially or completely absorbing it in the
+  path."""@en ;
+
+  skos:note """The same methods are used for this as for harmful flows."""@en
+  .
+
+fdp:P_3_2 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Reducing the cost of parasitic flows"@en ;
+  skos:broader fdp:P_3; 
+
+  skos:definition """Decrease in the process of development the cost of
+  parasitic flows."""@en .
+
+fdp:P_3_2_01 a tc:FlowDevelopmentPattern ;
+  skos:prefLabel "Reuse parasitic flows"@en ;
+  skos:broader fdp:P_3_2; 
+
+  skos:definition """The process of development leads to closed parasitic
+  flows returning to the operational zone for reuse."""@en ;
+
+  skos:example """Reuse of scrap metal, plastic and paper waste, various
+  closed-loop technologies, energy recovery, etc.  """@en .
+  
