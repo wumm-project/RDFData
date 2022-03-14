@@ -32,6 +32,7 @@ directory.
 * TOP-Glossary.ttl - The 100 terms glossary of the TRIZ Ontology Project
   <https://triz-summit.ru/onto_triz/100/> 
 * VDI-Glossary.ttl - The glossary in the German VDI norm
+  - Changes from the version of Sept. 2021 added
 
 ## Parts of the TRIZ Theory Corpus
 

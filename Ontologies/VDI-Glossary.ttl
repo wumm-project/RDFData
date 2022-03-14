@@ -16,7 +16,8 @@
     rdfs:comment "2019-07-08 graebe: Extracted and transformed from the VDI standard",
     "2019-10-28 graebe: Adjusted to the new general standard",
     "2020-12-26 graebe: skos:definition, skos:note and skos:example changed to narrower predicates",
-    "2021-01-25 graebe: tc:VDIGlossaryEntry changed to od:VDIGlossaryEntry";
+    "2021-01-25 graebe: tc:VDIGlossaryEntry changed to od:VDIGlossaryEntry",
+    "2022-03-14 graebe: Aligned with the version Blatt 1 of Sept. 2021";
     rdfs:label "TRIZ VDI-Glossary" .
 
 tc:TheInventivePrinciples
@@ -43,7 +44,7 @@ tc:AltshullerMatrix
 tc:AnticipatoryFailureDetermination
     a od:VDIGlossaryEntry, skos:Concept ;
     od:VDIGlossaryDefinition "TRIZ method for identifying possible system failures, their causes and ways for failure elimination, which also includes failures unobserved so far, future failures, and failures with unknown causes."@en, "TRIZ-Methode zur Identifikation möglicher Systemfehler, ihrer Ursachen und Beseitigungsmöglichkeiten, die auch bisher nicht beobachtete, zukünftige und schwer erklärbare Fehler einschließt."@de, "Метод ТРИЗ для определения возможных сбоев системы, их причин и способов устранения, включая ненаблюдаемые до настоящего времени сбои, будущие сбои и сбои с неизвестными причинами."@ru ;
-    skos:prefLabel "Antizipierende Fehlererkennung (AFE)"@de, "anticipatory failure determination (AFD)"@en, "Определение ожидаемого сбоя (AFD)"@ru .
+    skos:prefLabel "Antizipierende Fehlererkennung (AFE)"@de, "anticipatory failure determination (AFD)"@en, "Определение ожидаемого сбоя"@ru .
 
 tc:ARIZ-85c
     a od:VDIGlossaryEntry, skos:Concept ;
@@ -63,7 +64,8 @@ tc:CauseEffectChainsAnalysis
 tc:CauseEffectDiagram
     a od:VDIGlossaryEntry, skos:Concept ;
     od:VDIGlossaryDefinition "Modell eines Systems, das Ursache-Wirkungs-Beziehungen zwischen Funktionen, Komponenten, Ereignissen und Parametern des Systems oder seiner Komponenten und seiner Umgebung grafisch darstellt."@de, "System model which graphically represents cause-effect relations between functions, components, events, and parameters of the system and its environment"@en, "Системная модель, которая графически представляет причинно-следственные связи между функциями, компонентами, событиями и параметрами системы и ее среды"@ru ;
-    skos:prefLabel "Ursache-Wirkungs-Ketten-Modell"@de, "cause-effect diagram (cause-effect-chain diagram)"@en, "причинно-следственная схема"@ru .
+    skos:altLabel "cause-effect diagram"@en;
+    skos:prefLabel "Ursache-Wirkungs-Ketten-Modell"@de, "cause-effect-chain diagram"@en, "причинно-следственная схема"@ru .
 
 tc:ClassicalTRIZ
     a od:VDIGlossaryEntry, skos:Concept ;
@@ -99,7 +101,7 @@ tc:TechnicalSystem
 tc:FeatureTransfer
     a od:VDIGlossaryEntry, skos:Concept ;
     od:VDIGlossaryDefinition "TRIZ method for improving a technical system which uses transferring properties, characteristics, or features from an alternative technical system to the one examined."@en, "TRIZ-Methode zur Verbesserung eines technischen Systems, bei der Eigenschaften, Charakteristika oder Merkmale von einem alternativen technischen System auf das betrachtete übertragen werden."@de, "Метод ТРИЗ для улучшения технической системы, которая использует передачу свойств, характеристик или особенности альтернативной технической системы в исследуемую."@ru ;
-    skos:prefLabel "Feature Transfer"@de, "feature transfer"@en, "передача функций"@ru .
+    skos:prefLabel "Feature-Transfer"@de, "feature transfer"@en, "передача функций"@ru .
 
 tc:Field
     a od:VDIGlossaryEntry, skos:Concept ;
@@ -137,7 +139,7 @@ tc:IdealTechnicalSystem
 tc:Ideality
     a od:VDIGlossaryEntry, skos:Concept ;
     od:VDIGlossaryDefinition "dimensionless ratio of benefit and expenses"@en, "dimensionsloser Quotient aus Nutzen und Aufwand"@de, "безразмерное соотношение выгод и расходов"@ru ;
-    od:VDIGlossaryNote "Der Aufwand ist bestimmt aus unerwünschten Effekte, Kosten, Problemen oder anderen Faktoren."@de, "The expenses comprise undesired effects, costs, problems or other factors."@en, "Расходы включают нежелательные эффекты, затраты, проблемы или другие факторы."@ru ;
+    od:VDIGlossaryNote "Der Aufwand ist bestimmt aus unerwünschten Effekten sowie anderen Faktoren wie Kosten, Problemen oder Umwelschäden."@de, "The expenses comprise undesired effects as well as other factors such as costs, problems or environmental damage."@en, "Расходы определяются нежелательными последствиями, а также другими факторами, такими как затраты, проблемы или ущерб окружающей среде."@ru ;
     skos:prefLabel "Idealität"@de, "ideality"@en, "идеальность"@ru .
 
 tc:InnovationChecklist
@@ -150,6 +152,7 @@ tc:InventivePrinciples
     a od:VDIGlossaryEntry, skos:Concept ;
     od:VDIGlossaryDefinition "Basic solutions for technical problems."@en, "Prinzipien zur Lösungen technischer Probleme."@de, "Основы решения технических проблем."@ru ;
     od:VDIGlossaryNote "Die Prinzipien sind aus der Analyse von Patenten entstanden."@de, "The principles were derived from the analysis of existing patents."@en, "Принципы были получены на основе анализа существующих патентов."@ru ;
+    od:VDIGlossaryNote "Güte oder Marktwert im Sinne einer Innovation erweist sich erst später. In dieser Richtlinie wird trotzdem der Begriff „Innovationsprinzip“ statt „erfinderisches Prinzip“ verwendet."@de, "Quality or market value in the sense of an innovation, only proves itself later. Nevertheless, this standard uses the German term “Innovationsprinzip” instead of “erfinderisches Prinzip”."@en, "Качество или рыночная ценность в смысле инновации проявляется только позже. Тем не менее, в настоящем стандарте используется немецкий термин \"Innovationsprinzip\" вместо \"erfinderisches Prinzip\"."@ru ;
     skos:prefLabel "erfinderische Prinzipien"@de, "inventive principles"@en, "изобретательские принципы"@ru .
 
 tc:InventiveProblem
@@ -161,6 +164,7 @@ tc:InventiveProblem
 tc:InventiveProblemSolving
     a od:VDIGlossaryEntry, skos:Concept ;
     od:VDIGlossaryDefinition "Process of problem solving which produces novel solutions not apparent to the expert by the state of the art and which are considered as novelty."@en, "Vorgehen zum Lösen eines Problems unter Entwicklung von Lösungen, die sich für den Fachmann nicht in naheliegender Weise aus dem Stand der Technik ergeben und damit als neuartig gelten."@de, "Процесс решения проблем, который приводит к новым решениям, не очевидным для специалиста в данной области техники и которые рассматриваются как новизна."@ru ;
+    skos:altLabel "erfinderisches Problem"@de;
     skos:prefLabel "erfinderische Problemlösung"@de, "inventive problem solving"@en, "решение изобретательских задач"@ru .
 
 tc:InventiveStandard
@@ -272,7 +276,7 @@ tc:SystemInventiveStandards
     od:VDIGlossaryDefinition "Classification of 76 standard solutions, grouped into five classes of typical problems."@en, "Systematik von 76 Standardlösungen, die in fünf problembezogene Klassen eingeteilt sind."@de, "Классификация 76 стандартных приёмов, сгруппированных в пять классов типичных проблем."@ru ;
     skos:prefLabel "System der Standardlösungen"@de, "system of inventive standards"@en, "система изобретательских стандартов"@ru .
 
-tc:SystemicOperator
+tc:SystemOperator
     a od:VDIGlossaryEntry, skos:Concept ;
     od:VDIGlossaryDefinition "Schema zur Analyse eines Systems, zur Problemlösung und zur Abschätzung seiner zukünftigen Weiterentwicklung."@de, "Scheme for system analysis or for problem solution and for estimation of the future system evolution."@en, "Схема для анализа системы или для решения проблемы и для оценки будущего развития системы."@ru ;
     od:VDIGlossaryNote "Das Schema beinhaltet eine Tabelle, deren Spalten unterschiedlichen Zeitpunkten und deren Zeilen verschiedenen Systemebenen entsprechen (z.B. drei Spalten und drei Zeilen beim Neun-Felder-Denken)."@de, "The scheme consists of a table the columns of which represent different points in time and the rows different system levels (e.g. three columns and three rows in multi-screen analysis with nine screens)."@en, "Схема состоит из таблицы, столбцы которой представляют разные моменты времени и строки разные системные уровни (например, три столбца и три строки в многоэкранном анализе с девятью экранами). "@ru ;
@@ -287,7 +291,7 @@ tc:Trimming
 tc:TRIZ
     a od:VDIGlossaryEntry, skos:Concept ;
     od:VDIGlossaryDefinition "Scientific and application-oriented discipline which comprises studying directions of engineering systems evolution and the process of inventive problem solving in order to develop methods and tools to support innovative improvement of engineering systems based on a systematic and knowledge-based approach."@en, "Wissenschaftliche und anwendungsorientierte Disziplin, welche die Entwicklung technischer Systeme sowie den Prozess erfinderischer Problemlösung untersucht, um systematische und wissensbasierte Methoden und Werkzeuge zur Unterstützung der innovativen Verbesserung technischer Systeme zu entwickeln."@de, "Научная и прикладная дисциплина, которая включает в себя изучение направлений эволюции инженерных систем и процесса решения изобретательских задач с целью разработки методов и инструментов поддерживать которые поддерживают инновационное совершенствование инженерных систем на основе системного подхода, основанного на научных методах."@ru ;
-    od:VDIGlossaryNote "In den ersten Übersetzungen vom Russischen ins Englische wurde TRIZ mit TIPS übersetzt. \"TIPS\" ist das Akronym der englischen Bezeichnung \"Theory of Inventive Problem Solving\"."@de, "In the first translations from Russian to English, TRIZ was translated as TIPS. The abbreviation \"TIPS\" is the acronym for \"theory of inventive problem solving\"."@en, "Lately, TRIZ has been extended to non-technology areas, e.g. economical, organisational or information-technical systems."@en, "Mittlerweile wird TRIZ auch auf nicht technische Bereiche angewendet, z.B. ökonomische, organisatorische oder informationstechnische Systeme."@de, "В первых переводах с русского на английский ТРИЗ была переведена как TIPS. Аббревиатура \"TIPS\" является аббревиатурой английского названия \"theory of inventive problem solving\"."@ru, "В последнее время ТРИЗ была распространена на нетехнологические области, например, на экономические, организационные или информационно-технические системы."@ru ;
+    od:VDIGlossaryNote "In den ersten Übersetzungen vom Russischen ins Englische wurde TRIZ mit TIPS übersetzt. \"TIPS\" ist das Akronym der englischen Bezeichnung \"Theory of Inventive Problem Solving\"."@de, "In the first translations from Russian to English, TRIZ was translated as TIPS. The abbreviation \"TIPS\" is the acronym for \"theory of inventive problem solving\"."@en, "Lately, TRIZ has been extended to non-technology tasks, e.g. economical, socio-ecological, organisational or information-technical problems."@en, "Mittlerweile wird TRIZ auch bei nicht technische Aufgaben angewendet, z.B. für ökonomische, sozio-ökologische, organisatorische oder informationstechnische Probleme."@de, "В первых переводах с русского на английский ТРИЗ была переведена как TIPS. Аббревиатура \"TIPS\" является аббревиатурой английского названия \"theory of inventive problem solving\"."@ru, "В последнее время ТРИЗ была распространена на нетехнологические задачи, например, на экономические, социо-экогологические, организационные или информационно-технические проблемы."@ru ;
     skos:prefLabel "TRIZ (Theorie des erfinderischen Problemlösens)"@de, "TRIZ (theory of inventive problem solving, TIPS)"@en, "ТРИЗ (Теория Решения Изобретательских Задач)"@ru .
 
 tc:Forecasting
@@ -304,4 +308,9 @@ tc:Tool
     a od:VDIGlossaryEntry, skos:Concept ;
     od:VDIGlossaryDefinition "Element of TRIZ for processing inventory problems."@en, "Element von TRIZ zur Bearbeitung erfinderischer Aufgaben."@de, "Элемент ТРИЗ для обработки изобретательских задач."@ru ;
     skos:prefLabel "TRIZ tool"@en, "TRIZ-Werkzeug"@de, "инструмент ТРИЗ"@ru .
+
+tc:CompleteSystem
+    a od:VDIGlossaryEntry, skos:Concept ;
+    od:VDIGlossaryDefinition "System bestehend aus den Elementen Energiequelle, Antrieb, Übertragung, Arbeitsmittel, Steuerung, Objekt und gegebenenfalls weiteren Schnittstellen zum Obersystem."@de, "System consisting of the elements energy source, drive, transmission, working means, control, object and, if applicable, further interfaces to the supersystem."@en, "Система, состоящая из элементов источник энергии, двигатель, трансмиссия, рабочий орган, управление, объект и, если применимо, дальнейшие интерфейсы к надсистеме."@ru ;
+    skos:prefLabel "Vollständiges System nach TRIZ"@de, "complete system according to TRIZ"@en, "полная система в смысле ТРИЗ"@ru .
 
