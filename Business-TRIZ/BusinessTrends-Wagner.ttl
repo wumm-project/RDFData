@@ -5,6 +5,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
 @prefix tc: <http://opendiscovery.org/rdf/Concept/> .
+@prefix bmp: <http://opendiscovery.org/rdf/BusinessModelPattern/> .
 @prefix : <http://opendiscovery.org/rdf/BusinessTrend/> .
 
 <http://opendiscovery.org/rdf/BusinessTrends-Wagner/>
@@ -12,7 +13,7 @@
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     a owl:Ontology ;
-    rdfs:comment "Business trends proposed by Luisa Wagner in her master's thesis https://wumm-project.github.io/Texts/WagnerLuisa-2021.pdf.", "Extracted and transformed by HGG, 2022-02-10" ;
+    rdfs:comment "Business trends proposed by Luisa Wagner in her master's thesis https://wumm-project.github.io/Texts/WagnerLuisa-2021.pdf.", "2022-02-01 graebe: Extracted and transformed", "2022-04-05 graebe: Business Model Patterns added" ;
     rdfs:label "TRIZ Database - Business Trends" .
 
 :Trend_01
@@ -51,7 +52,15 @@ with another Business model?"""@en,
     skos:definition
     "Business models complement each other"@en,
     "Geschäftsmodelle ergänzen sich gegenseitig"@de,
-    "Бизнес-модели дополняют друг друга"@ru .
+    "Бизнес-модели дополняют друг друга"@ru ;
+    
+    od:toBusinessModelPattern bmp:AddOn, bmp:CrossSelling,
+    bmp:CustomerLoyalty, bmp:Digitisation, bmp:FlatRat, bmp:Integrator,
+    bmp:LockIn, bmp:OpenBusinessModel, bmp:OpenSource, bmp:RazorBlade,
+    bmp:ReverseEngineering, bmp:ReverseInnovation, bmp:SelfService,
+    bmp:ShopInShop, bmp:SolutionProvider, bmp:Subscription, bmp:Supermarket,
+    bmp:TargetThePoor, bmp:UltimateLuxury, bmp:SensorAsService,
+    bmp:ObjectSelfService .
 
 :Trend_01_1
     od:isSubtrendOf :Trend_01 ;
@@ -235,7 +244,12 @@ were deleted?"""@en,
     skos:definition
     "Less is more"@en,
     "Weniger ist mehr"@de,
-    "Меньше значит больше"@en .
+    "Меньше значит больше"@en ;
+    
+    od:toBusinessModelPattern bmp:Barter, bmp:DirectSelling, bmp:Franchising,
+    bmp:HiddenRevenue, bmp:License, bmp:NoFrills, bmp:PayWhatYouWant,
+    bmp:PeerToPeer, bmp:RobinHood, bmp:SelfService, bmp:Subscription,
+    bmp:UserDesigned, bmp:Prosumer .
 
 :Trend_02_1
     od:isSubtrendOf :Trend_02 ;
@@ -403,7 +417,14 @@ be adopted by the environment?"""@en,
     skos:definition
     "Nutzung des Umfeldes"@de,
     "Use of the environment"@en,
-    "Использование окружающей среды"@ru .
+    "Использование окружающей среды"@ru ;
+    
+    od:toBusinessModelPattern bmp:Affiliaton, bmp:Auction, bmp:Barter,
+    bmp:CrowdFunding, bmp:CrowdSourcing, bmp:Digitisation, bmp:DirectSelling,
+    bmp:ECommerce, bmp:Franchising, bmp:MakeMoreOfIt, bmp:NoFrills,
+    bmp:OpenBusinessModel, bmp:OpenSource, bmp:Orchestrator, bmp:PeerToPeer,
+    bmp:RevenueSharing, bmp:SelfService, bmp:ShopInShop, bmp:TrashToCash,
+    bmp:TwoSidedMarket, bmp:WhiteLabel, bmp:Virtualisation, bmp:Prosumer .
 
 :Trend_03_1
     od:isSubtrendOf :Trend_03 ;
@@ -570,7 +591,13 @@ much?"""@en,
     skos:definition
     "Stronger coordination"@en,
     "Stärkere Koordinierung"@de,
-    "Более тесная координация"@ru .
+    "Более тесная координация"@ru ;
+    
+    od:toBusinessModelPattern bmp:CashMachine, bmp:Digitisation,
+    bmp:ExperienceSelling, bmp:FractionalisedOwnership,
+    bmp:GuaranteedAvailability, bmp:LeverageCustomerData, bmp:Orchestrator,
+    bmp:PayWhatYouWant, bmp:PerformanceBasedControl, bmp:Supermarket,
+    bmp:TwoSidedMarket .
 
 :Trend_04_1
     od:isSubtrendOf :Trend_04 ;
@@ -687,7 +714,12 @@ this can be used to generate (additional) sales?"""@en,
     skos:definition
     "Focus on adding value to customers"@en,
     "Fokus auf Mehrwert bei Kunden"@de,
-    "Сосредоточьтесь на повышении ценности для клиентов"@ru .
+    "Сосредоточьтесь на повышении ценности для клиентов"@ru ;
+    
+    od:toBusinessModelPattern bmp:Digitisation, bmp:ExperienceSelling,
+    bmp:FractionalisedOwnership, bmp:GuaranteedAvailability,
+    bmp:LeveageCustomerData, bmp:Orchestrator, bmp:PayWhatYouWant,
+    bmp:PerformanceBasedControl, bmp:Supermarket, bmp:TwoSidedMarket .
 
 :Trend_05_1
     od:isSubtrendOf :Trend_05 ;
@@ -795,7 +827,11 @@ functions and thus move to multifunctionality?"""@en,
     skos:definition
     "Mehr Flexibilität"@de,
     "More flexibility"@en,
-    "Больше гибкости"@ru .
+    "Больше гибкости"@ru ;
+    
+    od:toBusinessModelPattern bmp:Digitisation, bmp:FractionalisedOwnership,
+    bmp:Franchising, bmp:FromPullToPush, bmp:Orchestrator, bmp:Supermarket,
+    bmp:TwoSidedMarket .
 
 :Trend_06_1
     od:isSubtrendOf :Trend_06 ;
@@ -939,13 +975,16 @@ interaction?"""@en,
 
     a tc:Trend ;
     rdfs:label
-    "Trend der abnehmenden Einbeziehung von Menschen"@de,
+    "Trend der abnehmenden menschlichen Interaktion"@de,
     "Trend of Decreasing Human Involvement"@en,
     "Тенденция сокращения человеческого взаимодействия"@ru ;
     skos:definition
     "Abnehmende menschliche Interaktion"@de,
     "Declining Human Interaction"@en,
-    "Снижение человеческого взаимодействия"@en .
+    "Снижение человеческого взаимодействия"@en  ;
+    
+    od:toBusinessModelPattern bmp:Digitisation, bmp:FlatRate, bmp:SelfService,
+    bmp:Subscription, bmp:SemsorAsService, bmp:ObjectSelfService .
 
 :Trend_07_1
     od:isSubtrendOf :Trend_07 ;
@@ -1105,7 +1144,13 @@ slowly? How does this change the business model?"""@en,
     skos:definition
     "Ungleiche Entwicklung"@de,
     "unequal development"@en,
-    "неравное развитие"@ru .
+    "неравное развитие"@ru ;
+    
+    od:toBusinessModelPattern bmp:AddOn, bmp:Aikido, bmp:Digitisation,
+    bmp:FractionalisedOwnership, bmp:Franchising, bmp:IngredientBranding,
+    bmp:LayerPlayer, bmp:LongTail, bmp:MassCustomisation, bmp:Orchestrator,
+    bmp:TargetThePoor, bmp:UserDesigned, bmp:WhiteLabel, bmp:ObjectSelfService
+    .
 
 :Trend_08_1
     od:isSubtrendOf :Trend_08 ;
@@ -1242,7 +1287,12 @@ smoothly? What problems arise?"""@en,
     skos:definition
     "Bessere Zusammenarbeit"@de,
     "Better collaboration"@en,
-    "Лучшее сотрудничество"@ru .
+    "Лучшее сотрудничество"@ru;
+    
+    od:toBusinessModelPattern bmp:AddOn, bmp:Affiliation, bmp:Aikido,
+    bmp:Barter, bmp:CashMachine, bmp:Digitisation, bmp:FlatRate,
+    bmp:FractionalisedOwnership, bmp:GuaranteedAvailability,
+    bmp:LeverageCustomerData .
 
 :Trend_09_1
     od:isSubtrendOf :Trend_09 ;
@@ -1383,7 +1433,13 @@ feeling is addressed particularly strong or weak?"""@en,
     skos:definition
     "Focus on people"@en,
     "Fokus auf den Menschen"@de,
-    "Сосредоточьтесь на людях"@en .
+    "Сосредоточьтесь на людях"@en;
+    
+    od:toBusinessModelPattern bmp:CrossSelling, bmp:CustomerLoyalty,
+    bmp:Digitisation, bmp:ExperienceSelling, bmp:FractionalisedOwnership,
+    bmp:GuaranteedAvailability, bmp:LeverageCustomerData, bmp:Orchestrator,
+    bmp:PayWhatYouWant, bmp:PerformanceBasedControl, bmp:TwoSidedMarket,
+    bmp:UserDesigned .
 
 :Trend_10_1
     od:isSubtrendOf :Trend_10 ;
