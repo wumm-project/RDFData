@@ -21,8 +21,8 @@ Technology and tools of systematic innovative thinking based on TRIZ - Theory of
 The "BUSINESS TRIZ ONLINE - SPRING 2022" conference invites anyone interested in learning and what current state of the art of Business TRIZ is, how to apply it, and to discuss challenges and prospects for both business and management TRIZ and the Business TRIZ community.
 
 The conference "BUSINESS TRIZ ONLINE SPRING 2022" will be held in English."""@en ;
-    ical:dtend "2022-05-20"^^xsd:date ;
-    ical:dtstart "2022-05-21"^^xsd:date ;
+    ical:dtend "2022-05-21"^^xsd:date ;
+    ical:dtstart "2022-05-20"^^xsd:date ;
     ical:location "Online" ;
     ical:url <http://www.biztriz.net/2-uncategorised/41-conference-business-triz-online-spring-2022.html> .
 
