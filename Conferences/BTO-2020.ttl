@@ -6,7 +6,7 @@
 @prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
-@prefix : <http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020/> .
+@prefix : <http://opendiscovery.org/rdf/Conferences/BTO-2020/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 :General

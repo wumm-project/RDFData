@@ -12,6 +12,12 @@
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://www.apache.org/licenses/LICENSE-2.0> .
 
+<http://opendiscovery.org/rdf/ConferenceSeries/BTO>
+    a od:ConferenceSeries ;
+    rdfs:label "Business TRIZ Online" ;
+    rdfs:seeAlso <http://www.biztriz.net> ;
+    od:description "This series of conferences is organized by IBTA - the International Business TRIZ Association." .
+
 <http://opendiscovery.org/rdf/ConferenceSeries/MTC>
     a od:ConferenceSeries ;
     rdfs:label "Moscow TRIZ Conferences" ;

@@ -21,7 +21,9 @@
     ical:url  <https://www.bayern-innovativ.de/events-und-messen/veranstaltungen/veranstaltung/triz-konferenz-online-2020> ;
     ical:description """Coronabedingt gehen wir neue Wege und haben die 1. Deutsche TRIZ Konferenz online entwickeln. Wir wollen bei dieser Veranstaltung TRIZ relevanten Beiträgen aus dem akademischen Bereich und auch aus der industriellen Branche eine Plattform bieten, die auch veröffentlicht werden (Springer Verlag).
 Der Fokus liegt auf neuen Anwendungen, Forschungen und Erweiterungen der Methodik zu TRIZ. Dieser wird vor allem von Forschungseinrichtungen, Hochschulen, Universitäten sowie von Aspiranten für TRIZ L4 und L5 bestritten. Hier werden neue Möglichkeiten der TRIZ-Anwendung in Vorträgen vorgestellt und diskutiert.
-Die Beiträge der TRIZ Konferenz werden dieses Jahr im Springer Vieweg veröffentlicht. Zur Gewährleistung einer hohen Qualität erfolgte ein Call for Papers, bei dem die eingereichten Beiträge im Double-Blind-Verfahren evaluiert und freigegeben wurden."""@de .
+Die Beiträge der TRIZ Konferenz werden dieses Jahr im Springer Vieweg veröffentlicht. Zur Gewährleistung einer hohen Qualität erfolgte ein Call for Papers, bei dem die eingereichten Beiträge im Double-Blind-Verfahren evaluiert und freigegeben wurden."""@de;
+    od:theProceedings <https://doi.org/10.1007/978-3-662-63073-0> ; 
+ .
 
 :Talk_100
     dcterms:creator odp:Graebe_HG ;

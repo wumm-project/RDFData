@@ -1,0 +1,100 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix odp: <http://opendiscovery.org/rdf/Person/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix : <http://opendiscovery.org/rdf/Conferences/BTO-2022-S/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:General
+    a swc:ConferenceEvent ;
+    rdfs:comment "Presentations of the Business TRIZ Online Spring 2022" ;
+    rdfs:label "Business TRIZ Online Spring 2022" ;
+    ical:summary "The BUSINESS TRIZ ONLINE - SPRING 2022 conference invites anyone interested in learning and what current state of the art of Business TRIZ is, how to apply it, and to discuss challenges and prospects for both business and management TRIZ and the Business TRIZ community."@en;
+    ical:description """One of the key skills of management professions in today's world is the ability to solve difficult, non-standard problems. The competitive environment and demands of the 21st century society require acting quickly. The need to effectively find new non-standard solutions, as well as to create new successful innovative business systems and business products are becoming the highest priority requirements. Most of such tasks require extraordinary, creative thinking.
+
+Technology and tools of systematic innovative thinking based on TRIZ - Theory of Inventive Problem Solving - are now actively implemented in various organizations all over the world. Originally developed to support technical innovation and used by many global companies, TRIZ is used in other areas as well. The term "Business TRIZ" is now used for TRIZ methods and tools created and adapted to support the search for innovative business and management solutions.
+
+The "BUSINESS TRIZ ONLINE - SPRING 2022" conference invites anyone interested in learning and what current state of the art of Business TRIZ is, how to apply it, and to discuss challenges and prospects for both business and management TRIZ and the Business TRIZ community.
+
+The conference "BUSINESS TRIZ ONLINE SPRING 2022" will be held in English."""@en ;
+    ical:dtend "2022-05-20"^^xsd:date ;
+    ical:dtstart "2022-05-21"^^xsd:date ;
+    ical:location "Online" ;
+    ical:url <http://www.biztriz.net/2-uncategorised/41-conference-business-triz-online-spring-2022.html> .
+
+
+:Talk_100
+    dcterms:creator odp:Souchkov_VV ;
+    dcterms:title "Progress with Business TRIZ"@en ;
+    a od:Talk .
+
+:Talk_101
+    dcterms:creator odp:Han_B ;
+    dcterms:title "Preliminary Conception of Fusion with Business TRIZ and Multi-methods"@en ;
+    a od:Talk .
+
+:Talk_102
+    dcterms:creator odp:Schaper_S ;
+    dcterms:title "Process optimization using TRIZ"@en ;
+    a od:Talk .
+
+:Talk_103
+    dcterms:creator odp:Lin_YJ, odp:Lin_SJ ;
+    dcterms:title "To Improve the Service Quality of Convenience Stores by TRIZ for Business and Management"@en ;
+    a od:Talk .
+
+:Talk_104
+    dcterms:creator odp:Amatulli_N ;
+    dcterms:title "Actual Case Study with Value Conflict Mapping (VCM)"@en ;
+    a od:Talk .
+
+:Talk_105
+    dcterms:creator odp:Kozhemyako_AP ;
+    dcterms:title "Factors approach to the technical contradiction elimination in the Business TRIZ"@en ;
+    a od:Talk .
+
+:Talk_106
+    dcterms:creator odp:Gafitulin_TM ;
+    dcterms:title "The Law of Completeness for social-techno systems. On the example of the commercial company organizational structure."@en ;
+    a od:Talk .
+
+:Talk_107
+    dcterms:creator odp:Zhang_T ;
+    dcterms:title "Use TRIZ to support the \"Virtual ecological niche\" for investments"@en ;
+    a od:Talk .
+
+:Talk_108
+    dcterms:creator odp:Halas_M ;
+    dcterms:title "Jumping to the next S-curve"@en ;
+    a od:Talk .
+
+:Talk_109
+    dcterms:creator odp:Hongbo_Y ;
+    dcterms:title "Repositioning and promotion of products (services) based on separation principle - taking Melatonon as an example"@en ;
+    a od:Talk .
+
+:Talk_110
+    dcterms:creator odp:Graebe_HG ;
+    dcterms:title "On the Interconnection of Project- and Product-Centered Systemic Modelling"@en ;
+    a od:Talk .
+
+:Talk_111
+    dcterms:creator odp:Borovikov_A ;
+    dcterms:title "Matrix \"Problem - Solution\" for target audiences of products."@en ;
+    a od:Talk .
+
+:Talk_112
+    dcterms:creator odp:Polonsky_LM, odp:Tokarev_AS ;
+    dcterms:title "Functional Approach to Representing Systems (Businesses and Processes)."@en ;
+    a od:Talk .
+
+:Talk_113
+    dcterms:creator odp:Souchkov_VV ;
+    dcterms:title "Further development of Business TRIZ & IBTA: Discussions "@en ;
+    a od:Talk .
+
+ 

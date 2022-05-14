@@ -34,6 +34,7 @@ od:ParameterClass
     rdfs:label "A TRIZ Parameter Class first introduced with Matrix2003" .
 
 tc:Adaptability
+    od:hasAltshuller71Id "35" ;
     od:hasAltshuller84Id "35" ;
     od:hasMatrix2003Id "32" ;
     a od:Parameter, skos:Concept ;
@@ -46,6 +47,7 @@ tc:AestheticsOrAppearance
     skos:prefLabel "Aesthetics or Appearance"@en .
 
 tc:AmountOfSubstance
+    od:hasAltshuller71Id "26" ;
     od:hasAltshuller84Id "26" ;
     od:hasMatrix2003Id "10" ;
     a od:Parameter, skos:Concept ;
@@ -53,6 +55,7 @@ tc:AmountOfSubstance
     skos:prefLabel "Amount of substance"@en, "Materialmenge"@de, "Количество вещества"@ru .
 
 tc:AreaOfTheMovingObject
+    od:hasAltshuller71Id "05" ;
     od:hasAltshuller84Id "05" ;
     od:hasMatrix2003Id "05" ;
     a od:Parameter, skos:Concept ;
@@ -60,6 +63,7 @@ tc:AreaOfTheMovingObject
     skos:prefLabel "Area of the moving object"@en, "Fläche des bewegten Objekts"@de, "Площадь подвижного объекта"@ru .
 
 tc:AreaOfTheStationaryObject
+    od:hasAltshuller71Id "06" ;
     od:hasAltshuller84Id "06" ;
     od:hasMatrix2003Id "06" ;
     a od:Parameter, skos:Concept ;
@@ -82,6 +86,7 @@ tc:ComplexityOfControl
     skos:prefLabel "Complexity Of Control"@en .
 
 tc:DeviceComplexity
+    od:hasAltshuller71Id "36" ;
     od:hasAltshuller84Id "36" ;
     od:hasMatrix2003Id "45" ;
     a od:Parameter, skos:Concept ;
@@ -90,6 +95,7 @@ tc:DeviceComplexity
     skos:prefLabel "Device complexity"@en, "Kompliziertheit des Geräts"@de, "Сложность устройства"@ru .
 
 tc:DifficultyOfDetecting
+    od:hasAltshuller71Id "37" ;
     od:hasAltshuller84Id "37" ;
     od:hasMatrix2003Id "47" ;
     a od:Parameter, skos:Concept ;
@@ -98,6 +104,7 @@ tc:DifficultyOfDetecting
     skos:prefLabel "Difficulty of detecting"@en, "Kompliziertheit der Kontrolle und Messbarkeit"@de, "Сложность контроля и измерения"@ru .
 
 tc:DurabilityOfTheMovingObject
+    od:hasAltshuller71Id "15" ;
     od:hasAltshuller84Id "15" ;
     od:hasMatrix2003Id "12" ;
     a od:Parameter, skos:Concept ;
@@ -105,6 +112,7 @@ tc:DurabilityOfTheMovingObject
     skos:prefLabel "Durability of the moving object"@en, "Haltbarkeit des bewegten Objekts"@de, "Время действия подвижного объекта"@ru .
 
 tc:DurabilityOfTheStationaryObject
+    od:hasAltshuller71Id "16" ;
     od:hasAltshuller84Id "16" ;
     od:hasMatrix2003Id "13" ;
     a od:Parameter, skos:Concept ;
@@ -112,6 +120,7 @@ tc:DurabilityOfTheStationaryObject
     skos:prefLabel "Durability of the stationary object"@en, "Haltbarkeit des unbewegten Objekts"@de, "Время действия неподвижного объекта"@ru .
 
 tc:EaseOfManufacturing
+    od:hasAltshuller71Id "32" ;
     od:hasAltshuller84Id "32" ;
     od:hasMatrix2003Id "41" ;
     a od:Parameter, skos:Concept ;
@@ -120,6 +129,7 @@ tc:EaseOfManufacturing
     skos:prefLabel "Ease of manufacturing"@en, "Fertigungsfreundlichkeit"@de, "Удобство изготовления"@ru .
 
 tc:EaseOfOperation
+    od:hasAltshuller71Id "33" ;
     od:hasAltshuller84Id "33" ;
     od:hasMatrix2003Id "34" ;
     a od:Parameter, skos:Concept ;
@@ -128,6 +138,7 @@ tc:EaseOfOperation
     skos:prefLabel "Benutzerfreundlichkeit"@de, "Ease of operation"@en, "Удобство эксплуатации"@ru .
 
 tc:EaseOfRepair
+    od:hasAltshuller71Id "34" ;
     od:hasAltshuller84Id "34" ;
     od:hasMatrix2003Id "36" ;
     a od:Parameter, skos:Concept ;
@@ -141,6 +152,7 @@ tc:Efficiency
     skos:prefLabel "Efficiency"@en, "Effizienz"@de .
 
 tc:EnergyUseOfTheMovingObject
+    od:hasAltshuller71Id "19" ;
     od:hasAltshuller84Id "19" ;
     od:hasMatrix2003Id "16" ;
     a od:Parameter, skos:Concept ;
@@ -148,6 +160,7 @@ tc:EnergyUseOfTheMovingObject
     skos:prefLabel "Energieverbrauch des bewegten Objekts"@de, "Energy consumption of the moving object"@en, "Затрата энергии подвижного объекта"@ru .
 
 tc:EnergyUseOfTheStationaryObject
+    od:hasAltshuller71Id "20" ;
     od:hasAltshuller84Id "20" ;
     od:hasMatrix2003Id "17" ;
     a od:Parameter, skos:Concept ;
@@ -155,6 +168,7 @@ tc:EnergyUseOfTheStationaryObject
     skos:prefLabel "Energieverbrauch des unbewegten Objekts"@de, "Energy consumption of the stationary object"@en, "Затрата энергии неподвижного объекта"@ru .
 
 tc:ExternalHarmfulFactors
+    od:hasAltshuller71Id "30" ;
     od:hasAltshuller84Id "30" ;
     od:hasMatrix2003Id "40" ;
     a od:Parameter, skos:Concept ;
@@ -162,6 +176,7 @@ tc:ExternalHarmfulFactors
     skos:prefLabel "External harmful factors"@en, "Externe schädliche Faktoren"@de, "Вредные факторы, действующие на объект извне"@ru .
 
 tc:Force
+    od:hasAltshuller71Id "10" ;
     od:hasAltshuller84Id "10" ;
     od:hasMatrix2003Id "15" ;
     a od:Parameter, skos:Concept ;
@@ -179,6 +194,7 @@ tc:HarmfulEmissions
     skos:prefLabel "Harmful Emissions"@en .
 
 tc:IlluminationIntensity
+    od:hasAltshuller71Id "18" ;
     od:hasAltshuller84Id "18" ;
     od:hasMatrix2003Id "23" ;
     a od:Parameter, skos:Concept ;
@@ -186,6 +202,7 @@ tc:IlluminationIntensity
     skos:prefLabel "Beleuchtungsintensität"@de, "Illumination intensity"@en, "Освещённость"@ru .
 
 tc:InternalHarmfulFactors
+    od:hasAltshuller71Id "31" ;
     od:hasAltshuller84Id "31" ;
     od:hasMatrix2003Id "31" ;
     a od:Parameter, skos:Concept ;
@@ -193,6 +210,7 @@ tc:InternalHarmfulFactors
     skos:prefLabel "Internal harmful factors"@en, "Interne schädliche Faktoren"@de, "Вредные факторы самого объекта"@ru .
 
 tc:LengthOfTheMovingObject
+    od:hasAltshuller71Id "03" ;
     od:hasAltshuller84Id "03" ;
     od:hasMatrix2003Id "03" ;
     a od:Parameter, skos:Concept ;
@@ -200,6 +218,7 @@ tc:LengthOfTheMovingObject
     skos:prefLabel "Length of the moving object"@en, "Länge des bewegten Objekts"@de, "Длина подвижного объекта"@ru .
 
 tc:LengthOfTheStationaryObject
+    od:hasAltshuller71Id "04" ;
     od:hasAltshuller84Id "04" ;
     od:hasMatrix2003Id "04" ;
     a od:Parameter, skos:Concept ;
@@ -207,6 +226,7 @@ tc:LengthOfTheStationaryObject
     skos:prefLabel "Length of the stationary object"@en, "Länge des unbewegten Objekts"@de, "Длина неподвижного объекта"@ru .
 
 tc:LevelOfAutomation
+    od:hasAltshuller71Id "38" ;
     od:hasAltshuller84Id "38" ;
     od:hasMatrix2003Id "43" ;
     a od:Parameter, skos:Concept ;
@@ -214,6 +234,7 @@ tc:LevelOfAutomation
     skos:prefLabel "Automatisierungsgrad"@de, "Level of automation"@en, "Степень автоматизации"@ru .
 
 tc:LossOfEnergy
+    od:hasAltshuller71Id "22" ;
     od:hasAltshuller84Id "22" ;
     od:hasMatrix2003Id "27" ;
     a od:Parameter, skos:Concept ;
@@ -221,6 +242,7 @@ tc:LossOfEnergy
     skos:prefLabel "Energieverluste"@de, "Loss of Energy"@en, "Потери энергии"@ru .
 
 tc:LossOfInformation
+    od:hasAltshuller71Id "24" ;
     od:hasAltshuller84Id "24" ;
     od:hasMatrix2003Id "28" ;
     a od:Parameter, skos:Concept ;
@@ -228,6 +250,7 @@ tc:LossOfInformation
     skos:prefLabel "Informationsverluste"@de, "Loss of information"@en, "Потери информации"@ru .
 
 tc:LossOfSubstance
+    od:hasAltshuller71Id "23" ;
     od:hasAltshuller84Id "23" ;
     od:hasMatrix2003Id "25" ;
     a od:Parameter, skos:Concept ;
@@ -235,6 +258,7 @@ tc:LossOfSubstance
     skos:prefLabel "Loss of substance"@en, "Materialverluste"@de, "Потери вещества"@ru .
 
 tc:LossOfTime
+    od:hasAltshuller71Id "25" ;
     od:hasAltshuller84Id "25" ;
     od:hasMatrix2003Id "26" ;
     a od:Parameter, skos:Concept ;
@@ -242,6 +266,7 @@ tc:LossOfTime
     skos:prefLabel "Loss of time"@en, "Zeitverlust"@de, "Потери времени"@ru .
 
 tc:ManufacturingPrecision
+    od:hasAltshuller71Id "29" ;
     od:hasAltshuller84Id "29" ;
     od:hasMatrix2003Id "42" ;
     a od:Parameter, skos:Concept ;
@@ -254,6 +279,7 @@ tc:Measurement
     skos:prefLabel "Measurement"@en, "Messung"@de .
 
 tc:MeasurementAccuracy
+    od:hasAltshuller71Id "28" ;
     od:hasAltshuller84Id "28" ;
     od:hasMatrix2003Id "48" ;
     a od:Parameter, skos:Concept ;
@@ -281,6 +307,7 @@ tc:PhysicalParameters
     skos:prefLabel "Physical Parameters"@en, "Physikalische Parameter"@de .
 
 tc:Power
+    od:hasAltshuller71Id "21" ;
     od:hasAltshuller84Id "21" ;
     od:hasMatrix2003Id "18" ;
     a od:Parameter, skos:Concept ;
@@ -288,6 +315,7 @@ tc:Power
     skos:prefLabel "Leistung, Kapazität"@de, "Power"@en, "Мощность"@ru .
 
 tc:Productivity
+    od:hasAltshuller71Id "39" ;
     od:hasAltshuller84Id "39" ;
     od:hasMatrix2003Id "44" ;
     a od:Parameter, skos:Concept ;
@@ -300,6 +328,7 @@ tc:QuantityofInformation
     skos:prefLabel "Quantity Of Information"@en .
 
 tc:Reliability
+    od:hasAltshuller71Id "27" ;
     od:hasAltshuller84Id "27" ;
     od:hasMatrix2003Id "35" ;
     a od:Parameter, skos:Concept ;
@@ -312,6 +341,7 @@ tc:Security
     skos:prefLabel "Security"@en .
 
 tc:Shape
+    od:hasAltshuller71Id "12" ;
     od:hasAltshuller84Id "12" ;
     od:hasMatrix2003Id "09" ;
     a od:Parameter, skos:Concept ;
@@ -319,6 +349,7 @@ tc:Shape
     skos:prefLabel "Form"@de, "Shape"@en, "Форма"@ru .
 
 tc:Speed
+    od:hasAltshuller71Id "09" ;
     od:hasAltshuller84Id "09" ;
     od:hasMatrix2003Id "14" ;
     a od:Parameter, skos:Concept ;
@@ -326,6 +357,7 @@ tc:Speed
     skos:prefLabel "Geschwindigkeit"@de, "Speed"@en, "Скорость"@ru .
 
 tc:StabilityOfTheObjectsStructure
+    od:hasAltshuller71Id "13" ;
     od:hasAltshuller84Id "13" ;
     od:hasMatrix2003Id "21" ;
     a od:Parameter, skos:Concept ;
@@ -333,6 +365,7 @@ tc:StabilityOfTheObjectsStructure
     skos:prefLabel "Stability of the object’s structure"@en, "Stabilität der Struktur des Objekts"@de, "Устойчивость состава объекта"@ru .
 
 tc:Strength
+    od:hasAltshuller71Id "14" ;
     od:hasAltshuller84Id "14" ;
     od:hasMatrix2003Id "20" ;
     a od:Parameter, skos:Concept ;
@@ -340,6 +373,7 @@ tc:Strength
     skos:prefLabel "Festigkeit"@de, "Strength"@en, "Прочность"@ru .
 
 tc:StressOrPressure
+    od:hasAltshuller71Id "11" ;
     od:hasAltshuller84Id "11" ;
     od:hasMatrix2003Id "19" ;
     a od:Parameter, skos:Concept ;
@@ -347,6 +381,7 @@ tc:StressOrPressure
     skos:prefLabel "Spannung, Druck"@de, "Stress, Pressure"@en, "Напряжение, давление"@ru .
 
 tc:Temperature
+    od:hasAltshuller71Id "17" ;
     od:hasAltshuller84Id "17" ;
     od:hasMatrix2003Id "22" ;
     a od:Parameter, skos:Concept ;
@@ -354,6 +389,7 @@ tc:Temperature
     skos:prefLabel "Temperatur"@de, "Temperature"@en, "Температура"@ru .
 
 tc:VolumeOfTheMovingObject
+    od:hasAltshuller71Id "07" ;
     od:hasAltshuller84Id "07" ;
     od:hasMatrix2003Id "07" ;
     a od:Parameter, skos:Concept ;
@@ -361,6 +397,7 @@ tc:VolumeOfTheMovingObject
     skos:prefLabel "Volume of the moving object"@en, "Volumen des bewegten Objekts"@de, "Объем подвижного объекта"@ru .
 
 tc:VolumeOfTheStationaryObject
+    od:hasAltshuller71Id "08" ;
     od:hasAltshuller84Id "08" ;
     od:hasMatrix2003Id "08" ;
     a od:Parameter, skos:Concept ;
@@ -373,6 +410,7 @@ tc:Vulnerability
     skos:prefLabel "Vulnerability"@en .
 
 tc:WeightOfTheMovingObject
+    od:hasAltshuller71Id "01" ;
     od:hasAltshuller84Id "01" ;
     od:hasMatrix2003Id "01" ;
     a od:Parameter, skos:Concept ;
@@ -380,6 +418,7 @@ tc:WeightOfTheMovingObject
     skos:prefLabel "Gewicht des bewegten Objekts"@de, "Weight of the moving object"@en, "Вес подвижного объекта"@ru .
 
 tc:WeightOfTheStationaryObject
+    od:hasAltshuller71Id "02" ;
     od:hasAltshuller84Id "02" ;
     od:hasMatrix2003Id "02" ;
     a od:Parameter, skos:Concept ;

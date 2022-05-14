@@ -88,6 +88,9 @@ odp:Altshuller_GS
     foaf:fullname "Альтшуллер Генрих Саулович"@ru ;
     foaf:name "Genrich Saulowich Altshuller" .
 
+odp:Amatulli_N a foaf:Person ;
+  foaf:name "Natalia Amatulli".
+
 odp:Aminov_RB
     a foaf:Person ;
     foaf:fullname "Аминов Рустем Булатович"@ru ;
@@ -385,6 +388,9 @@ odp:Borisova_J
 odp:Borodastov_GV
     a foaf:Person ;
     foaf:name "G.V. Borodastov" .
+
+odp:Borovikov_A a foaf:Person ;
+  foaf:name "Artem Borovikov".
 
 odp:Botashev_A
     a foaf:Person ;
@@ -1108,7 +1114,7 @@ odp:Gafitulin_TM
     a foaf:Person ;
     foaf:affil "Russia" ;
     foaf:fullname "Т.М. Гафитулин"@ru ;
-    foaf:name "T.M. Gafitulin" .
+    foaf:name "Timur M. Gafitulin" .
 
 odp:Galmadi_G
     a foaf:Person ;
@@ -1360,7 +1366,7 @@ odp:Hafer_L
 odp:Halas_M
     a foaf:Person ;
     foaf:affil "GRUPA ODITK, Poland" ;
-    foaf:name "Michal Halas" .
+    foaf:name "Michał Hałas" .
 
 odp:Halchuk_I
     a foaf:Person ;
@@ -1498,6 +1504,9 @@ odp:Hong_KS
 odp:Hong_Z
     a foaf:Person ;
     foaf:name "Zhang Hong" .
+
+odp:Hongbo_Y a foaf:Person ;
+  foaf:name "Yan Hongbo".
 
 odp:Hongyul_Y
     a foaf:Person ;
@@ -3267,7 +3276,7 @@ odp:Polonsky_LM
     a foaf:Person ;
     foaf:affil "Russia" ;
     foaf:fullname "Полонский Леонид Моисеевич"@ru ;
-    foaf:name "L.M. Polonsky" .
+    foaf:name "Leonid M. Polonsky" .
 
 odp:Pomeranets_MS
     a foaf:Person ;
@@ -4219,7 +4228,7 @@ odp:Tokarev_AS
     a foaf:Person ;
     foaf:affil "Russia" ;
     foaf:fullname "Токарев Александр Сергеевич"@ru ;
-    foaf:name "A.S. Tokarev" .
+    foaf:name "Alexander S. Tokarev" .
 
 odp:Tomashevskaya_N
     a foaf:Person ;
@@ -4783,7 +4792,7 @@ odp:Zhao_XJ
 
 odp:Zhao_Y
     a foaf:Person ;
-    foaf:name "Yan Zhao" .
+    foaf:name "Zhao Yan" .
 
 odp:Zhao_Z
     a foaf:Person ;
