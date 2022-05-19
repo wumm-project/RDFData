@@ -16,6 +16,11 @@
     rdfs:comment "2021-02-15 graebe: foaf:fullname changed to name surname fathername according to the convention in the MATRIZ certificate list" ;
     rdfs:label "People in the TRIZ Community" .
 
+odp:Abdulaev_H
+    a foaf:Person ;
+    foaf:affil "Azerbaijan National Aviation Academy, Baku, Azerbaijan" ;
+    foaf:name "Hagani Abdulaev" .
+
 odp:Abramov_OY
     a foaf:Person ;
     foaf:affil "Algorithm Ltd., St. Petersburg, Russia" ;
@@ -2216,6 +2221,12 @@ odp:Kustova_E
     foaf:affil "Moscow, Russia" ;
     foaf:fullname "Кустова Эльвира"@ru ;
     foaf:name "Elvira Kustova" .
+
+odp:Kutvan_AB
+    a foaf:Person ;
+    foaf:affil "Ankara, Turkey" ;
+    foaf:homepage <https://www.kutvan.com/our-founders>;
+    foaf:name "Ali B. Kutvan" .
 
 odp:Kuzmin_AM
     a foaf:Person ;
