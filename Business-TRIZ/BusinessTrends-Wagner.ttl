@@ -55,7 +55,7 @@ with another Business model?"""@en,
     "Бизнес-модели дополняют друг друга"@ru ;
     
     od:toBusinessModelPattern bmp:AddOn, bmp:CrossSelling,
-    bmp:CustomerLoyalty, bmp:Digitisation, bmp:FlatRat, bmp:Integrator,
+    bmp:CustomerLoyalty, bmp:Digitisation, bmp:FlatRate, bmp:Integrator,
     bmp:LockIn, bmp:OpenBusinessModel, bmp:OpenSource, bmp:RazorBlade,
     bmp:ReverseEngineering, bmp:ReverseInnovation, bmp:SelfService,
     bmp:ShopInShop, bmp:SolutionProvider, bmp:Subscription, bmp:Supermarket,
@@ -594,9 +594,9 @@ much?"""@en,
     "Более тесная координация"@ru ;
     
     od:toBusinessModelPattern bmp:CashMachine, bmp:Digitisation,
-    bmp:ExperienceSelling, bmp:FractionalisedOwnership,
+    bmp:ExperienceSelling, bmp:FractionalOwnership,
     bmp:GuaranteedAvailability, bmp:LeverageCustomerData, bmp:Orchestrator,
-    bmp:PayWhatYouWant, bmp:PerformanceBasedControl, bmp:Supermarket,
+    bmp:PayWhatYouWant, bmp:PerformanceBasedContracting, bmp:Supermarket,
     bmp:TwoSidedMarket .
 
 :Trend_04_1
@@ -717,9 +717,9 @@ this can be used to generate (additional) sales?"""@en,
     "Сосредоточьтесь на повышении ценности для клиентов"@ru ;
     
     od:toBusinessModelPattern bmp:Digitisation, bmp:ExperienceSelling,
-    bmp:FractionalisedOwnership, bmp:GuaranteedAvailability,
+    bmp:FractionalOwnership, bmp:GuaranteedAvailability,
     bmp:LeveageCustomerData, bmp:Orchestrator, bmp:PayWhatYouWant,
-    bmp:PerformanceBasedControl, bmp:Supermarket, bmp:TwoSidedMarket .
+    bmp:PerformanceBasedContracting, bmp:Supermarket, bmp:TwoSidedMarket .
 
 :Trend_05_1
     od:isSubtrendOf :Trend_05 ;
@@ -829,8 +829,8 @@ functions and thus move to multifunctionality?"""@en,
     "More flexibility"@en,
     "Больше гибкости"@ru ;
     
-    od:toBusinessModelPattern bmp:Digitisation, bmp:FractionalisedOwnership,
-    bmp:Franchising, bmp:FromPullToPush, bmp:Orchestrator, bmp:Supermarket,
+    od:toBusinessModelPattern bmp:Digitisation, bmp:FractionalOwnership,
+    bmp:Franchising, bmp:FromPushToPull, bmp:Orchestrator, bmp:Supermarket,
     bmp:TwoSidedMarket .
 
 :Trend_06_1
@@ -1147,7 +1147,7 @@ slowly? How does this change the business model?"""@en,
     "неравное развитие"@ru ;
     
     od:toBusinessModelPattern bmp:AddOn, bmp:Aikido, bmp:Digitisation,
-    bmp:FractionalisedOwnership, bmp:Franchising, bmp:IngredientBranding,
+    bmp:FractionalOwnership, bmp:Franchising, bmp:IngredientBranding,
     bmp:LayerPlayer, bmp:LongTail, bmp:MassCustomisation, bmp:Orchestrator,
     bmp:TargetThePoor, bmp:UserDesigned, bmp:WhiteLabel, bmp:ObjectSelfService
     .
@@ -1291,7 +1291,7 @@ smoothly? What problems arise?"""@en,
     
     od:toBusinessModelPattern bmp:AddOn, bmp:Affiliation, bmp:Aikido,
     bmp:Barter, bmp:CashMachine, bmp:Digitisation, bmp:FlatRate,
-    bmp:FractionalisedOwnership, bmp:GuaranteedAvailability,
+    bmp:FractionalOwnership, bmp:GuaranteedAvailability,
     bmp:LeverageCustomerData .
 
 :Trend_09_1
@@ -1436,9 +1436,9 @@ feeling is addressed particularly strong or weak?"""@en,
     "Сосредоточьтесь на людях"@en;
     
     od:toBusinessModelPattern bmp:CrossSelling, bmp:CustomerLoyalty,
-    bmp:Digitisation, bmp:ExperienceSelling, bmp:FractionalisedOwnership,
+    bmp:Digitisation, bmp:ExperienceSelling, bmp:FractionalOwnership,
     bmp:GuaranteedAvailability, bmp:LeverageCustomerData, bmp:Orchestrator,
-    bmp:PayWhatYouWant, bmp:PerformanceBasedControl, bmp:TwoSidedMarket,
+    bmp:PayWhatYouWant, bmp:PerformanceBasedContracting, bmp:TwoSidedMarket,
     bmp:UserDesigned .
 
 :Trend_10_1
