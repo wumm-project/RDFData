@@ -94,7 +94,8 @@ odp:Altshuller_GS
     foaf:name "Genrich Saulowich Altshuller" .
 
 odp:Amatulli_N a foaf:Person ;
-  foaf:name "Natalia Amatulli".
+    foaf:affil "Lugano, Switzerland" ;    
+    foaf:name "Natalia Amatulli".
 
 odp:Aminov_RB
     a foaf:Person ;
@@ -1589,6 +1590,11 @@ odp:Ilyin_IY
     foaf:affil "Russia" ;
     foaf:fullname "Ильин Илья Юрьевич"@ru ;
     foaf:name "Ilya Y. Ilyin" .
+
+odp:Issak_DP
+    a foaf:Person ;
+    foaf:affil "India" ;
+    foaf:name "David Peris Isaak" .
 
 odp:Ishak_AA
     a foaf:Person ;

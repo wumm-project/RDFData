@@ -145,7 +145,7 @@ tc:Countermass
     od:hasAltshuller84Id "08" ;
     od:hasRecommendation tc:Countermass_1, tc:Countermass_2 ;
     a od:Principle, skos:Concept ;
-    skos:altLabel "Counterbalance (Counter-Weight)"@en ;
+    skos:altLabel "Counterbalance (Counter-Weight)"@en, "Anti-Weight"@en ;
     skos:prefLabel "Principle of the countermass"@en, "Prinzip des Gegengewichts"@de, "Приём противовеса"@ru .
 
 tc:Countermass_1
@@ -153,19 +153,23 @@ tc:Countermass_1
     a od:Recommendation .
 
 tc:Countermass_2
-    od:description "Compensate the weight of the object by interaction with a medium."@en, "Kompensiere das Gewicht des Objektes durch Wechselwirkung mit einem Medium."@de, "Вес объекта должен быть компенсирован взаимодействием со средой."@ru ;
+    od:description "To compensate for the weight (downward tendency) of an object, make it interact with the environment (e.g. use global lift forces)."@en, "Compensate the weight of the object by interaction with a medium."@en, "Kompensiere das Gewicht des Objektes durch Wechselwirkung mit einem Medium."@de, "Вес объекта должен быть компенсирован взаимодействием со средой."@ru ;
     a od:Recommendation .
 
 tc:Coupling
     od:Matrix2003Id "05" ;
     od:hasAltshuller73Id "05" ;
     od:hasAltshuller84Id "05" ;
-    od:hasRecommendation tc:Coupling_1 ;
+    od:hasRecommendation tc:Coupling_1, tc:Coupling_2 ;
     a od:Principle, skos:Concept ;
     skos:prefLabel "Kombination"@de, "Principle of coupling"@en, "Prinzip der Kopplung"@de, "Приём объединения"@ru .
 
 tc:Coupling_1
-    od:description "Couple similar or coordinating systems or operations."@en, "Kopple gleichartige oder zu koordinierende Systeme oder Operationen."@de, "Подобные или координирующие системы или операции должны быть объединены."@ru ;
+    od:description "Bring closer together (or merge) identical or similar objects, assemble identical or similar parts to perform parallel operations."@en, "Couple similar or coordinating systems or operations."@en, "Kopple gleichartige oder zu koordinierende Systeme oder Operationen."@de, "Подобные или координирующие системы или операции должны быть объединены."@ru ;
+    a od:Recommendation .
+
+tc:Coupling_2
+    od:description "Make operations contiguous or parallel; bring them together in time."@en, "Vorgänge zusammenhängend oder parallel machen; sie zeitlich zusammenführen."@de, "Сделать операции смежными или параллельными; свести их во времени."@ru ;
     a od:Recommendation .
 
 tc:Dynamization
@@ -175,6 +179,7 @@ tc:Dynamization
     od:hasAltshuller84Id "15" ;
     od:hasRecommendation tc:Dynamization_1, tc:Dynamization_2, tc:Dynamization_3 ;
     a od:Principle, skos:Concept ;
+    skos:altLabel "Dynamics"@en;
     skos:prefLabel "Principle of dynamization"@en, "Prinzip der Dynamisierung"@de, "Prinzip der ständigen Anpassung"@de, "Приём динамичности"@ru .
 
 tc:Dynamization_1
@@ -194,17 +199,17 @@ tc:EarlyCounteraction
     od:Matrix2003Id "09" ;
     od:hasAltshuller73Id "09" ;
     od:hasAltshuller84Id "09" ;
-    od:hasRecommendation tc:EarlyCounteraction_1 ;
+    od:hasRecommendation tc:EarlyCounteraction_1, tc:EarlyCounteraction_2 ;
     a od:Principle, skos:Concept ;
-    skos:altLabel "Cushion in Advance"@en, "Preliminary Counteraction"@en, "Prinzip der Vorspannung"@de ;
+    skos:altLabel "Preliminary Anti-Action"@en, "Cushion in Advance"@en, "Preliminary Counteraction"@en, "Prinzip der Vorspannung"@de ;
     skos:prefLabel "Principle of early counteraction"@en, "Prinzip der vorherigen Gegenwirkung"@de, "Приём предварительного противодействия"@ru .
 
 tc:EarlyCounteraction_1
-    od:description "If a certain effect is to be achieved according to the conditions of the task, first generate the counteraction."@en, "Wenn gemäß den Bedingungen der Aufgabe eine bestimmte Wirkung erzielt werden soll, erzeuge vorher die Gegenwirkung."@de, "Чтобы в соответствии с условиями задачи достигать определенный эффект, сначала должно быть создано противодействие."@ru ;
+    od:description "If it will be necessary to do an action with both harmful and useful effects, this action should be replaced with anti-actions to control harmful effects."@en, "If a certain effect is to be achieved according to the conditions of the task, first generate the counteraction."@en, "Wenn gemäß den Bedingungen der Aufgabe eine bestimmte Wirkung erzielt werden soll, erzeuge vorher die Gegenwirkung."@de, "Чтобы в соответствии с условиями задачи достигать определенный эффект, сначала должно быть создано противодействие."@ru ;
     a od:Recommendation .
 
 tc:EarlyCounteraction_2
-    od:description "Erzeuge im Objekt vorab eine Gegenwirkung, die der unzulässigen oder unerwünschten Wirkung entgegengesetzt ist (Prinzip der Vorspannung)."@de, "Заранее придать объекту напряжения, противоположные недопустимым или нежелательным рабочим напряжениям."@ru ;
+    od:description "Create beforehand stresses in an object that will oppose known undesirable working stresses later on"@en, "Vorab Spannungen in einem Objekt erzeugen, die bekannten späteren unerwünschten Arbeitsbelastungen entgegenwirken."@de, "Заранее создать в объекте напряжения, которые в дальнейшем будут противостоять известным нежелательным рабочим напряжениям."@ru ;
     a od:Recommendation .
 
 tc:EliminationAndRegenerationOfParts
@@ -324,7 +329,7 @@ tc:InverseAction
     od:hasAltshuller84Id "13" ;
     od:hasRecommendation tc:InverseAction_1, tc:InverseAction_2, tc:InverseAction_3 ;
     a od:Principle, skos:Concept ;
-    skos:altLabel "Inversion"@de ;
+    skos:altLabel "Inversion"@de, "The Other Way Round"@en ;
     skos:prefLabel "Principle of inverse action"@en, "Prinzip der Funktionsumkehr (Inversion)"@de, "Приём Наоборот"@ru .
 
 tc:InverseAction_1
@@ -344,7 +349,7 @@ tc:LocalQuality
     od:Matrix2003Id "03" ;
     od:hasAltshuller73Id "03" ;
     od:hasAltshuller84Id "03" ;
-    od:hasRecommendation tc:LocalQuality_1, tc:LocalQuality_2 ;
+    od:hasRecommendation tc:LocalQuality_1, tc:LocalQuality_2, tc:LocalQuality_3 ;
     a od:Principle, skos:Concept ;
     skos:prefLabel "Principle of Local Quality"@en, "Prinzip der örtlichen Qualität"@de, "Schaffen optimaler Bedingungen"@de, "Приём местного качества"@ru .
 
@@ -354,6 +359,10 @@ tc:LocalQuality_1
 
 tc:LocalQuality_2
     od:description "Gehe von der homogenen Struktur des Objektes oder des umgebenden Mediums zu einer inhomogenen Struktur über."@de, "Transform the homogeneous structure of the object or the surrounding medium into an inhomogeneous structure."@en, "Однородная структура объекта или окружающей среды должна быть преобразована в неоднородную."@ru ;
+    a od:Recommendation .
+
+tc:LocalQuality_3
+    od:description "Lasse jedes Teil eines Objekts eine andere und nützliche Funktion erfüllen."@de, "Make each part of an object fulfill a different and useful function."@en, "Сделай так, чтобы каждая часть предмета выполняла свою полезную функцию."@ru ;
     a od:Recommendation .
 
 tc:MechanicalVibrations
@@ -408,7 +417,7 @@ tc:Nesting
     od:hasAltshuller84Id "07" ;
     od:hasRecommendation tc:Nesting_1, tc:Nesting_2 ;
     a od:Principle, skos:Concept ;
-    skos:altLabel "Nested dolls"@en ;
+    skos:altLabel "Nested doll"@en ;
     skos:prefLabel "Principle of nesting (matryoshka)"@en, "Prinzip der Integration (Matrjoschka-Prinzip)"@de, "Приём вложенности («матрёшки»)"@ru .
 
 tc:Nesting_1
@@ -526,11 +535,11 @@ tc:PreliminaryAction
     od:hasAltshuller84Id "11" ;
     od:hasRecommendation tc:PreliminaryAction_1, tc:PreliminaryAction_2 ;
     a od:Principle, skos:Concept ;
-    skos:altLabel "Vorbeugen"@de, "prevention"@en ;
-    skos:prefLabel "Preliminary Action"@en, "Principle of preliminary action"@en, "Prinzip der Prävention"@de, "Приём заранее подложенной подушки"@ru .
+    skos:altLabel "Vorbeugen"@de, "Prevention"@en, "Beforehand Cushioning"@en ;
+    skos:prefLabel "Preliminary Action"@en, "Prinzip der Prävention"@de, "Приём заранее подложенной подушки"@ru .
 
 tc:PreliminaryAction_1
-    od:description "Compensate the relatively low reliability of the object by means previously provided."@en, "Kompensiere die relativ geringe Zuverlässigkeit des Objektes durch vorher bereitgestellte Hilfsmittel."@de, "Относительно низкая надежность объекта компенсируется ранее предоставленными средствами."@ru ;
+    od:description "Prepare emergency means beforehand to compensate for the relatively low reliability of an object."@en, "Compensate the relatively low reliability of the object by means previously provided."@en, "Kompensiere die relativ geringe Zuverlässigkeit des Objektes durch vorher bereitgestellte Hilfsmittel."@de, "Относительно низкая надежность объекта компенсируется ранее предоставленными средствами."@ru ;
     a od:Recommendation .
 
 tc:PreliminaryAction_2
@@ -584,11 +593,11 @@ tc:Segmentation_1
     a od:Recommendation .
 
 tc:Segmentation_2
-    od:description "Führe das Objekt zerlegbar aus."@de, "Make the object to be dismantled."@en, "Объект должен быть разложен."@ru ;
+    od:description "Führe das Objekt zerlegbar aus."@de, "Make the object easy to disassemble."@en, "Объект должен быть разложен."@ru ;
     a od:Recommendation .
 
 tc:Segmentation_3
-    od:description "Erhöhe den Grad der Zerlegung des Objektes."@de, "Increase the degree of decomposition of the object."@en, "Степень разложения объекта должна быть увеличена."@ru ;
+    od:description "Erhöhe den Grad der Zerlegung des Objektes."@de, "Increase the degree of fragmentation or segmentation."@en, "Степень разложения объекта должна быть увеличена."@ru ;
     a od:Recommendation .
 
 tc:SelfService
@@ -619,7 +628,7 @@ tc:Separation
     skos:prefLabel "Gesonderte Behandlung"@de, "Taking away"@en, "Principle of separation"@en, "Prinzip der Abtrennung"@de, "Приём вынесения"@ru .
 
 tc:Separation_1
-    od:description "Remove the disturbing part or property from the object."@en, "Trenne vom Objekt das störende Teil, die störende Eigenschaft, ab."@de, "Из объекта отделить мешающую часть с вредным свойством."@ru ;
+    od:description "Separate an interfering part or property from an object, or single out the only necessary part (or property) of an object"@en, "Remove the disturbing part or property from the object."@en, "Trenne vom Objekt das störende Teil, die störende Eigenschaft, ab."@de, "Из объекта отделить мешающую часть с вредным свойством."@ru ;
     a od:Recommendation .
 
 tc:Separation_2
@@ -633,6 +642,7 @@ tc:SphericalShape
     od:hasAltshuller84Id "14" ;
     od:hasRecommendation tc:SphericalShape_1, tc:SphericalShape_2, tc:SphericalShape_3 ;
     a od:Principle, skos:Concept ;
+    skos:altLabel "Spheroidality - Curvature"@en ;
     skos:prefLabel "Principle of the ball similarity"@en, "Prinzip der sphärischen Form"@de, "Приём сфероидальности"@ru .
 
 tc:SphericalShape_1
@@ -728,7 +738,7 @@ tc:TransitionToAnotherDimension
     skos:prefLabel "Principle of transition to another dimension"@en, "Prinzip des Übergangs in eine andere Dimension"@de, "Приём перехода в другое измерение"@ru .
 
 tc:TransitionToAnotherDimension_1
-    od:description "Instead of arrangement in only a layer arrange objects in multiple layers. "@en, "Ordne die Objekte statt in nur einer Ebene in mehreren Ebenen angeordnet."@de, "Вместо размещения только в один слой размещать объекты в нескольких слоях."@ru ;
+    od:description "Use a multi-story arrangement of objects instead of a single-story arrangement."@en, "Instead of arrangement in only a layer arrange objects in multiple layers. "@en, "Ordne die Objekte statt in nur einer Ebene in mehreren Ebenen angeordnet."@de, "Вместо размещения только в один слой размещать объекты в нескольких слоях."@ru ;
     a od:Recommendation .
 
 tc:TransitionToAnotherDimension_2
@@ -736,11 +746,11 @@ tc:TransitionToAnotherDimension_2
     a od:Recommendation .
 
 tc:TransitionToAnotherDimension_3
-    od:description "Exploit the back of the given object."@en, "Nutze die Rückseite des gegebenen Objektes aus."@de, "Использовать обратную сторону данного объекта."@ru ;
+    od:description "Use 'another side' of a given area"@en, "Exploit the back of the given object."@en, "Nutze die Rückseite des gegebenen Objektes aus."@de, "Использовать обратную сторону данного объекта."@ru ;
     a od:Recommendation .
 
 tc:TransitionToAnotherDimension_4
-    od:description "Bei Schwierigkeiten der Bewegung eines Objektes längs einer Linie gehe zu zwei Dimensionen über, d.h. bewege es in einer Ebene. Analog werden Schwierigkeiten einer zweidimensionalen Bewegung von Objekten durch Übergang zum dreidimensionalen Raum beseitigt."@de, "Difficulties from object's motion on a line are eliminated when the object moves in two dimensions. Difficulties associated with the movement of objects on a plane are eliminated by the transition to three-dimensional space."@en, "Трудности, возникающие в результате привязки движения объекта к линии, устраняются, когда объект перемещается в двух измерениях, то есть в плоскости. Трудности, связанные с перемещением объектов на плоскости устраняются при переходе в трехмерное пространство."@ru ;
+    od:description "Move an object in two- or three-dimensional space"@en, "Bei Schwierigkeiten der Bewegung eines Objektes längs einer Linie gehe zu zwei Dimensionen über, d.h. bewege es in einer Ebene. Analog werden Schwierigkeiten einer zweidimensionalen Bewegung von Objekten durch Übergang zum dreidimensionalen Raum beseitigt."@de, "Difficulties from object's motion on a line are eliminated when the object moves in two dimensions. Difficulties associated with the movement of objects on a plane are eliminated by the transition to three-dimensional space."@en, "Трудности, возникающие в результате привязки движения объекта к линии, устраняются, когда объект перемещается в двух измерениях, то есть в плоскости. Трудности, связанные с перемещением объектов на плоскости устраняются при переходе в трехмерное пространство."@ru ;
     a od:Recommendation .
 
 tc:Universality

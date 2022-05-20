@@ -42,11 +42,6 @@ The conference "BUSINESS TRIZ ONLINE SPRING 2022" will be held in English."""@en
     dcterms:title "Process optimization using TRIZ"@en ;
     a od:Talk .
 
-:Talk_103
-    dcterms:creator odp:Lin_YJ, odp:Lin_SJ ;
-    dcterms:title "To Improve the Service Quality of Convenience Stores by TRIZ for Business and Management"@en ;
-    a od:Talk .
-
 :Talk_104
     dcterms:creator odp:Amatulli_N ;
     dcterms:title "Actual Case Study with Value Conflict Mapping (VCM)"@en ;
@@ -83,8 +78,8 @@ The conference "BUSINESS TRIZ ONLINE SPRING 2022" will be held in English."""@en
     a od:Talk .
 
 :Talk_111
-    dcterms:creator odp:Borovikov_A ;
-    dcterms:title "Matrix \"Problem - Solution\" for target audiences of products."@en ;
+    dcterms:creator odp:Isaac_DP ;
+    dcterms:title "Actual case with application of Business TRIZ"@en ;
     a od:Talk .
 
 :Talk_112

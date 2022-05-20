@@ -8,7 +8,7 @@
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
 @prefix bmp: <http://opendiscovery.org/rdf/BusinessModelPattern/> .
 
-<http://opendiscovery.org/rdf/Ontologies/BusinessModelPatterns/>
+<http://opendiscovery.org/rdf/BusinessModelPatterns/>
     cc:attributionName "The Open Discovery Project" ;
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
@@ -423,10 +423,34 @@ bmp:WhiteLabel
     skos:note "A white label producer allows other companies to distribute its goods under their brands, so that it appears as if they are made by them. The same product or service is often sold by multiple marketers and under different brands. This way, various customer segments can be satisfied with the same product. "@en ;
     skos:prefLabel "Produkt ohne Marke"@de, "White Label"@en .
 
-bmp:How a od:BMP-Dimension ; skos:prefLabel "How"@en.
+bmp:How a od:BMP-Dimension ; skos:prefLabel "How"@en;
+
+skos:definition """To build and distribute the value proposition, a firm has
+to master several processes and activities. These processes and activities,
+along with the involved resources and capabilities, plus their orchestration
+in the focal firm's internal value chain form this dimension within the design
+of a new business model. """@en .
     
-bmp:Value a od:BMP-Dimension ; skos:prefLabel "Value"@en.
+bmp:Value a od:BMP-Dimension ; skos:prefLabel "Value"@en;
 
-bmp:What a od:BMP-Dimension ; skos:prefLabel "What"@en.
+skos:definition """This dimension explains why the business model is
+financially viable, thus it relates to the revenue model. In essence, it
+unifies aspects such as, for example, the cost structure and the applied
+revenue mechanisms, and points to the elementary question of any firm, namely
+how to make money in the business. """@en.
 
-bmp:Who a od:BMP-Dimension ; skos:prefLabel "Who"@en.
+bmp:What a od:BMP-Dimension ; skos:prefLabel "What"@en;
+
+skos:definition """This dimension describes what is offered to the target
+customer, or, put differently, what the customer values. This notion is
+commonly referred to as the customer value proposition or, more simply, the
+value proposition. It can be defined as a holistic view of a company's bundle
+of products and services that are of value to the customer."""@en.
+
+bmp:Who a od:BMP-Dimension ; skos:prefLabel "Who"@en;
+
+skos:definition """Every business model serves a certain customer group. Thus,
+it should answer the question 'Who is the customer?'.  The failure to
+adequately define the market is a key factor associated with venture failure.
+Hence the definition of the target customer is a central dimension in
+designing a new business model. """@en.
