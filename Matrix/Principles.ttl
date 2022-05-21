@@ -74,16 +74,30 @@ tc:ChangePhysicalOrChemicalParameters
     od:Matrix2003Id "35" ;
     od:hasAltshuller73Id "35" ;
     od:hasAltshuller84Id "35" ;
-    od:hasRecommendation tc:ChangePhysicalOrChemicalParameters_1, tc:ChangePhysicalOrChemicalParameters_2 ;
+    od:hasRecommendation tc:ChangePhysicalOrChemicalParameters_1, tc:ChangePhysicalOrChemicalParameters_2, tc:ChangePhysicalOrChemicalParameters_3, tc:ChangePhysicalOrChemicalParameters_4, tc:ChangePhysicalOrChemicalParameters_5 ;
     a od:Principle, skos:Concept ;
-    skos:prefLabel "Aggregatzustände und deren Übergänge beherrschen"@de, "Principle of changing the physical or chemical parameters of an object"@en, "Prinzip der Veränderung der physikalischen oder chemischen Parameter eines Objekts"@de, "Приём изменения физико-химических параметров объекта"@ru .
+    skos:altLabel "Aggregatzustände und deren Übergänge beherrschen"@de;
+    skos:prefLabel "Principle of changing the physical or chemical parameters of an object"@en, "Prinzip der Veränderung der physikalischen oder chemischen Parameter eines Objekts"@de, "Приём изменения физико-химических параметров объекта"@ru .
 
 tc:ChangePhysicalOrChemicalParameters_1
-    od:description "Hierzu gehören nicht nur einfache Übergänge, z.B. vom festen in den flüssigen Zustand, sondern auch die Übergänge in „Pseudo- oder Quasizustände“, z.B. Quasiflüssigkeiten, und Zwischenzustände, z.B. die Verwendung elastischer Festkörper."@de, "This includes not only simple transitions, e.g. from the solid to the liquid state, but also transitions into pseudo or quasi states, e.g. the quasi-liquid, and intermediate states, e.g. the use of elastic solid body."@en, "К ним относятся не только простые переходы, например, из твердого состояния в жидкое, но также переходы в псевдо или квазизначные состояния, например, квазижидкость, и в промежуточные состояния, например, использование упругого твердого тела."@ru ;
+    od:description "Change an object's physical state (e.g. to a gas, liquid, or solid)"@en, "Veränderung des physikalischen Zustands eines Objekts (z. B. in ein Gas, eine Flüssigkeit oder einen Feststoff)"@de, "Изменение физического состояния объекта (например, превращение в газ, жидкость или твердое тело)"@ru ;
+    skos:note "Hierzu gehören nicht nur einfache Übergänge, z.B. vom festen in den flüssigen Zustand, sondern auch die Übergänge in „Pseudo- oder Quasizustände“, z.B. Quasiflüssigkeiten, und Zwischenzustände, z.B. die Verwendung elastischer Festkörper."@de, "This includes not only simple transitions, e.g. from the solid to the liquid state, but also transitions into pseudo or quasi states, e.g. the quasi-liquid, and intermediate states, e.g. the use of elastic solid body."@en, "К ним относятся не только простые переходы, например, из твердого состояния в жидкое, но также переходы в псевдо или квазизначные состояния, например, квазижидкость, и в промежуточные состояния, например, использование упругого твердого тела."@ru ;
     a od:Recommendation .
 
 tc:ChangePhysicalOrChemicalParameters_2
     od:description "Changing the parameters of an object concerns not only substances, but also fields"@en, "Das Ändern der Parameter eines Objekts betrifft nicht nur Substanzen, sondern auch Felder"@de, "Изменение параметров объекта касается не только вещест, но и полей"@ru ;
+    a od:Recommendation .
+
+tc:ChangePhysicalOrChemicalParameters_3
+    od:description "Change the concentration or consistency"@en, "Änderung der Konzentration oder der Konsistenz"@de, "Изменить концентрацию или консистенцию"@ru ;
+    a od:Recommendation .
+
+tc:ChangePhysicalOrChemicalParameters_4
+    od:description "Change the degree of flexibility"@en, "Ändern des Flexibilitätsgrads"@de, "Изменить степень гибкости"@ru ;
+    a od:Recommendation .
+
+tc:ChangePhysicalOrChemicalParameters_5
+    od:description "Change the temperature"@en, "Ändern der Temperatur"@de, "Изменить температуру"@ru ;
     a od:Recommendation .
 
 tc:CompositeMaterials
@@ -273,14 +287,14 @@ tc:FlexibleCoversOrThinFilms
     od:hasAltshuller84Id "30" ;
     od:hasRecommendation tc:FlexibleCoversOrThinFilms_1, tc:FlexibleCoversOrThinFilms_2 ;
     a od:Principle, skos:Concept ;
-    skos:prefLabel "Principle of using flexible covers or thin films"@en, "Prinzip der Anwendung biegsamer Hüllen oder dünner Folien"@de, "Приём использования гибких оболочек или тонких плёнок"@ru .
+    skos:prefLabel "Principle of using flexible shells or thin films"@en, "Prinzip der Anwendung biegsamer Hüllen oder dünner Folien"@de, "Приём использования гибких оболочек или тонких плёнок"@ru .
 
 tc:FlexibleCoversOrThinFilms_1
-    od:description "Use flexible cover or thin films instead of the usual constructions."@en, "Verwende biegsame Hüllen und dünne Folien statt der üblichen Konstruktionen."@de, "Вместо обычных конструкций должны использоваться гибкие оболочки и тонкие плёнки."@ru ;
+    od:description "Use flexible shells or thin films instead of the usual constructions."@en, "Verwende biegsame Hüllen und dünne Folien statt der üblichen Konstruktionen."@de, "Вместо обычных конструкций должны использоваться гибкие оболочки и тонкие плёнки."@ru ;
     a od:Recommendation .
 
 tc:FlexibleCoversOrThinFilms_2
-    od:description "Isolate the object from the surrounding medium by means of flexible envelopes and thin foil."@en, "Isoliere das Objekt mit Hilfe biegsamer Hüllen und dünner Folie vom umgebenden Medium."@de, "Объект должен быть изолирован от окружающей среды с помощью гибких оболочек и тонкой плёнки."@ru ;
+    od:description "Isolate the object from the surrounding medium by means of flexible shells and thin foil."@en, "Isoliere das Objekt mit Hilfe biegsamer Hüllen und dünner Folie vom umgebenden Medium."@de, "Объект должен быть изолирован от окружающей среды с помощью гибких оболочек и тонкой плёнки."@ru ;
     a od:Recommendation .
 
 tc:Homogeneity
@@ -300,7 +314,7 @@ tc:InertMedium
     od:LippertGlossaryNote "A clean room is a good example of an inert environment."@en, "A test environment (harness) for system testing and a virtual sandbox are both examples of inert environments."@en, "An inert environment is a neutral atmosphere or environment that supports a desired function."@en, "Implementation of this principle requires first the determination of what it is which is preventing the desired function and then requires the creation of the inert environment to protect or enable that function."@en, "In operational environments, this would be the removal of extraneous electromagnetic emissions from the environment of the system."@en, "This is often achieved through shielding."@en ;
     od:Matrix2003Id "39" ;
     od:hasAltshuller84Id "39" ;
-    od:hasRecommendation tc:InertMedium_1, tc:InertMedium_2 ;
+    od:hasRecommendation tc:InertMedium_1, tc:InertMedium_2, tc:InertMedium_3 ;
     a od:Principle, skos:Concept ;
     skos:prefLabel "Principle of using an inert medium"@en, "Prinzip der Verwendung eines inerten Mediums"@de, "Приём применения инертной среды"@ru .
 
@@ -310,6 +324,10 @@ tc:InertMedium_1
 
 tc:InertMedium_2
     od:description "Carry out the process in a vacuum."@en, "Führe den Prozess im Vakuum durch."@de, "Процесс должен проводиться в вакууме."@ru ;
+    a od:Recommendation .
+
+tc:InertMedium_3
+    od:description "Hinzufügen neutraler Teile oder inerter Zusatzstoffe zu einem Objekt."@de, "Add neutral parts, or inert additives to an object."@en, "Добавлять нейтральные части или инертные добавки к объекту."@ru ;
     a od:Recommendation .
 
 tc:InexpensiveShortLifeObject
@@ -497,7 +515,7 @@ tc:PneumaticOrHydraulicConstructions
     skos:prefLabel "Principle of the application of pneumatic or hydraulic constructions"@en, "Prinzip der Anwendung pneumatischer oder hydraulischer Konstruktionen"@de, "Приём применения пневмо- и гидросооружений"@ru .
 
 tc:PneumaticOrHydraulicConstructions_1
-    od:description "Ersetze schwere Teile des Objektes durch gasförmige oder flüssige, wie aufgeblasene oder mit Flüssigkeit gefüllte Teile, Luftkissen, hydrostatische oder hydroreaktive Teile."@de, "Replace heavy parts of the object by gaseous or liquid parts, such as inflated or liquid-filled parts, air cushions, hydrostatic or hydroreactive parts."@en, "Вместо тяжелых частей объекта введите газообразные или жидкие части, такие как надутые или заполненные жидкостью части, воздушные подушки, гидростатические или гидрореактивные части."@ru ;
+    od:description "Ersetze Feststoffteile des Objektes durch gasförmige oder flüssige, wie aufgeblasene oder mit Flüssigkeit gefüllte Teile, Luftkissen, hydrostatische oder hydroreaktive Teile."@de, "Replace heavy parts of the object by gaseous or liquid parts, such as inflated or liquid-filled parts, air cushions, hydrostatic or hydroreactive parts."@en, "Вместо тяжелых частей объекта введите газообразные или жидкие части, такие как надутые или заполненные жидкостью части, воздушные подушки, гидростатические или гидрореактивные части."@ru ;
     a od:Recommendation .
 
 tc:PorousMaterials
@@ -559,7 +577,7 @@ tc:ReplacementOfMechanicalSchemes
     skos:prefLabel "Principle of the replacement of mechanical schemes"@en, "Prinzip des Austauschs mechanischer Wirkschemata"@de, "Приём замены механической схемы"@ru .
 
 tc:ReplacementOfMechanicalSchemes_1
-    od:description "Nutze die Felder in Kombination mit Ferromagnetteilchen."@de, "Use the fields in combination with ferromagnetic particles."@en, "Использовать поля в сочетании с ферромагнитными частицами."@ru ;
+    od:description "Use fields in conjunction with field-activated (e.g. ferromagnetic) particles"@en, "Nutze die Felder in Kombination mit Ferromagnetteilchen."@de, "Использовать поля в сочетании с ферромагнитными частицами."@ru ;
     a od:Recommendation .
 
 tc:ReplacementOfMechanicalSchemes_2

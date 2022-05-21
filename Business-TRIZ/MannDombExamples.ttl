@@ -1,0 +1,273 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix tc: <http://opendiscovery.org/rdf/Concept/> .
+
+<http://opendiscovery.org/rdf/MannDombExamples/>
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
+    a owl:Ontology ;
+    rdfs:comment "2022-05-21 graebe: Examples from Business Area for the 40 Principles given in (Mann, Domb 1999)" ;
+    rdfs:label "Examples from Business Area for the 40 Principles" .
+
+tc:Asymmetry_1
+    od:MannDombExample "(Proportionately) more ‘P’ or more ‘S’ in the Deming PDSA cycle"@en, "Budget for different departments individually rather than using a constant percentage increase or reduction for all departments"@en, "Skewed normal distributions."@en, "Use a different marketing approach for each class of clients. (Combine with Segmentation and Local Quality--make each class smaller to be sure the approach is exactly tailored to it.)"@en .
+
+tc:Asymmetry_2
+    od:MannDombExample "360° appraisals"@en, "Honda’s 4M - ‘man maximum, machine minimum’ product design philosophy."@en, "More equitable 2-way dialogue between management and workers"@en, "Shift away from calendar-influenced sales bias (e.g. shift from annual to bi-annual car registration dates (to reduce August sales peak), greetings card companies, etc.)"@en, "‘The Peter Pyramid’ (9)"@en .
+
+tc:ChangeColorAndTransparency_2
+    od:MannDombExample "Importance of creating clear, concise mission statement (34)"@en, "Smoke-screen/mis-information to disguise confidential R&D etc activities"@en, "Transparent communications"@en, "‘Transparent’ organisations"@en .
+
+tc:ChangeColorAndTransparency_3
+    od:MannDombExample "Creation of ‘corporate colours’ - creating a strong brand image through use of bespoke colours - ‘BP green’, ‘British Telecom red’ phone boxes, ‘Ford blue’, etc"@en, "Highlighter pens"@en, "Red/Blue proposal preparation teams"@en, "Six Thinking Hats (33)"@en, "Use colours to communicate state of alert (green, black, amber, red, etc)"@en, "Use of lighting effects to change mood in a room or office"@en .
+
+tc:ChangePhysicalOrChemicalParameters_1
+    od:MannDombExample "Electronic voting in elections"@en, "Numerical simulation"@en, "Telephone banking"@en, "Virtual prototyping"@en, "Virtual shopping - e.g. Amazon.com"@en .
+
+tc:ChangePhysicalOrChemicalParameters_3
+    od:MannDombExample "Change the team structure (e.g. football teams use substitutes)"@en, "Stores introduce ‘special offers’ and other promotions"@en, "‘Six Action Shoes’ (35)"@en, "‘Six Thinking Hats’ (33)"@en .
+
+tc:ChangePhysicalOrChemicalParameters_4
+    od:MannDombExample "Introduce intelligence into on-line catalogues (e.g. first generation catalogues were replicas of previous paper versions, latest generation incorporate search engines, expert systems, etc)"@en, "Moves away from fixed clothing size partitions - e.g. ‘Personal Pairs’ - a customer at a participating store chooses which fabric he/she wants, then is measured. Those measurements are transmitted instantly to a Levi's plant in Tennessee where the data controls a laser cutter. The bar-coded pieces are stitched on the regular assembly line, and mailed directly to the customer. (The custom Levi’s, which customers love, run about  more than off-the-rack ones) (22)"@en, "Software with options for ‘beginner’ through to ‘expert’ usage"@en .
+
+tc:ChangePhysicalOrChemicalParameters_5
+    od:MannDombExample "Get customers excited (‘hot’) about the product by giving them ownership of the change"@en, "Get employees excited about the future of the company by using full involvement strategic planning, or stock options, or… etc."@en, "‘A fired-up team wins games even if it’s not the best team. A fired-up company can achieve the same result’ (34)"@en .
+
+tc:CompositeMaterials_1
+    od:MannDombExample "A Final Thought"@en, "Although not claiming the search of management texts for this article was in any way comprehensive, it was, nevertheless, very broad-ranging. It is worth noting that in all the texts we examined, we did not discover any ideas or innovations which caused us to believe there might st Inventive (Business) Principle."@en, "Combined high risk/low risk investment strategy"@en, "Do training with a combination of lecture, simulations, on-line learning, video, etc."@en, "Employ different personality types (e.g. Myers-Briggs) on a team"@en, "Hard person/soft person negotiating team."@en, "Mix of thinking skills in a project team (e.g. Basadur (4), De Bono’s ‘Six Thinking Hats‘ (33) and ‘Six Action Shoes’ (35))"@en, "Multi-disciplinary project teams."@en, "Positional players in a football team"@en, "‘Post-capitalist Society’ (40)"@en, "‘Small is beautiful’ - appreciation for diverse, interconnected systems (41)"@en .
+
+tc:ContinuityOfUsefulAction_1
+    od:MannDombExample "24 hour car service operation - evening pick-up, return of serviced car by breakfast the following morning (garage perspective)"@en, "Continuous on-line monitoring of elevators by Otis - total maintenance responsibility (3, pp. 54-5)"@en, "Institute Constant Improvement (Point No.5 of Deming’s Fourteen Points (5))"@en, "Run the bottleneck operations in a factory continuously, to reach the optimum pace.  (From theory of constraints)"@en, "‘The power of a waterfall is nothing but a lot of drips working together’ (12)"@en .
+
+tc:ContinuityOfUsefulAction_2
+    od:MannDombExample "Conduct training during pauses in work"@en, "Multi-skilling to enable working in bottleneck functions to improve workflow"@en, "‘Hot-till’ing in supermarkets - staff do other tasks during quiet periods; move to tills when they see queues developing"@en, "‘Life-long learning’"@en, "‘The more I practice, the luckier I get’ Gary Player"@en .
+
+tc:Copying_1
+    od:MannDombExample "Lascaux II - reproduction of Lascaux cave paintings which is open to visitors"@en, "Listen to an audiotape instead of attending a seminar."@en, "Rapid prototyping (e.g. stereo-lithography)"@en, "Scan rare, historic books, documents, etc so they are accessible to all and the original remains protected"@en, "Virtual reality via computer instead of an expensive vacation"@en .
+
+tc:Copying_2
+    od:MannDombExample "Keep your personal calendar on a web-site so you (and others?) can access it from any computer, and it can’t get lost"@en, "Use a central electronic database instead of paper records in cases where multiple users would benefit from simultaneous access to data - e.g. medical records, customer data, engineering drawings, etc"@en, "Video-conferencing instead of physical travel"@en, "Virtual product service manuals."@en .
+
+tc:Copying_3
+    od:MannDombExample "Evaluate customer satisfaction using multiple techniques"@en, "Evaluate employee morale using multiple methods such as interviews and questionnaires (2 different ‘wavelengths’)"@en, "Have your customers benchmark you/have your suppliers benchmark you"@en .
+
+tc:Countermass_1
+    od:MannDombExample "'Whenever I feel afraid, I hold my head erect, and whistle a happy tune, and no one will suspect I'm afraid.'--Anna in 'The King and I' by Rogers and Hammerstein"@en, "Companies increase flagging sales by making connections with other rising products (e.g. movie tie-ins)"@en, "In a merger of two companies, one ‘lifts’ the other with whatever its stronger features are (distribution system, marketing, methods, capital, etc)"@en, "‘This is my depressed stance. When you're depressed, it makes a lot of difference how you stand. The worst thing you can do is straighten up and hold your head high because then you'll start to feel better. If you're going to get any joy out of being depressed, you've got to stand like this.’ Charlie Brown"@en .
+
+tc:Countermass_2
+    od:MannDombExample "A small company is ‘lifted’ by a resource - use of a transportation network, etc - to the level of the larger companies"@en, "Attach product/service marketing to customer and business driving forces (Megatrends aging population, desire for flexibility, simplicity, etc)"@en, "Political parties boost poll ratings by attaching themselves to popular causes"@en .
+
+tc:Coupling_1
+    od:MannDombExample "Cell-based Manufacture"@en, "Internet Cafe"@en, "Merge companies with related products"@en, "Personal computers in a network"@en, "The ‘Joiner Triangle’ - Quality/Scientific Approach/All-One-Team (10)"@en, "Toyota JIT"@en, "‘Young engineers have ideas, old engineers have bad experiences’ Japanese saying"@en .
+
+tc:Coupling_2
+    od:MannDombExample "Enlisting customer help in designing the product (Boeing 777 ‘Working Together Teams)"@en, "Multi-media presentations"@en, "Theory of Constraints (11)"@en, "‘Aligned, Creative and Exploring’ Teams (12)"@en .
+
+tc:Dynamization_1
+    od:MannDombExample "Changing the supervisor’s role; avoid ‘whack-a-mole’ firefighting (10, p. 20)"@en, "Flexible organisation structure (chaocracy)"@en, "Gallery Furniture on-line shopping - customer is able to control and move cameras to point to different products in different parts of the store from his/her home computer (http://www.galleryfurniture.com)"@en .
+
+tc:Dynamization_2
+    od:MannDombExample "Conglomerate structures"@en, "Geographically or functionally independent business units"@en, "Work teams oriented to achieve same goal, but work at different rates on different objectives"@en .
+
+tc:Dynamization_3
+    od:MannDombExample "Continuous Process Improvement"@en, "Empowerment"@en, "Rapid Reaction Force"@en, "Swatch design proliferation - design for specific market niches"@en, "‘Cafeteria’ benefits - where employees pick which types of insurance, health system, etc.  they want"@en, "‘Customer Response Teams’"@en, "‘In today’s turbulent business environment, there are no hard fast conclusions - only transitions’ (14)"@en .
+
+tc:EarlyCounteraction_1
+    od:MannDombExample "Customer trials/segmented launch of (high risk) new products (e.g. film companies film several endings to a movie and trial with different audiences before finalising selection)"@en, "Use formal risk assessment methods to quantify risk and identify mitigation actions before (and during) a project"@en, "Use of voluntary redundancy/pay-cuts/short-time working/job-sharing as alternatives to down-sizing"@en, "When making a public announcement, include all the information, not just the harmful parts (e.g. Johnson & Johnson’s handling of the Tylenol tampering case)"@en .
+
+tc:EarlyCounteraction_2
+    od:MannDombExample "Epson product development engineers spend time as sales and then service staff before they are allowed to work on product development activities (Reference 3, p101)"@en, "Prior to a lay-off, prepare compensation, outplacement, and communication packages for all affected employees"@en, "‘In me the tiger sniffs the rose.’ Siegfried Sassoon"@en .
+
+tc:EliminationAndRegenerationOfParts_1
+    od:MannDombExample "Consultants"@en, "Contract hire of specialised equipment/facilities, etc"@en, "Flexible, variable-sized project teams"@en, "Load/capacity balance using contract labour"@en .
+
+tc:EliminationAndRegenerationOfParts_2
+    od:MannDombExample "Life-long learning (where individuals are given responsibility for managing their own personal continuing education, ensuring skills remain up to date)"@en, "Need to periodically re-energise continuous improvement initiatives (‘enthusiasm injections’)"@en, "‘In a start-up company, you basically throw out all assumptions every three weeks.’ Scott McNealy"@en .
+
+tc:Equipotentiality_1
+    od:MannDombExample "Beware of the Peter Principle - ‘Every employee tends to rise to his/her level of incompetence (15)"@en, "Force-Field Analysis - group discussion of the phrase ‘forces push in various directions’ teambuilding/problem-solving technique discussed in (3)."@en, "Make ‘horizontal’ career changes to broaden skills"@en, "Team members distribute their own merit award money (rather than often divisive management dictate)"@en .
+
+tc:Feedback_1
+    od:MannDombExample "(Supermarket) loyalty cards - provide customer shopping profile information"@en, "Budgets - Measurements are used to decide when to modify a process."@en, "Customer surveys/customer seminars, etc"@en, "Electronic bulletin boards"@en, "Enlist customers in the design process."@en, "Statistical Process Control (SPC) - Measurements are used to decide when to modify a process."@en, "‘Active Transition Management’ as a way of controlling product development process between research, development and production phases."@en, "‘Extranets’ (22)"@en, "‘What you measure is what you get’ Joe Juran"@en .
+
+tc:Feedback_2
+    od:MannDombExample "As a product is being developed, key personnel and leadership physically move from one sector to another to actively manage transitions between product development stages."@en, "Change a management measure from budget variance to customer satisfaction."@en, "Expose designers as well as marketers to customers"@en, "Motorola ‘open dissent’ policy - employees fill in a minority report to senior management when ideas they consider valuable are unsupported by colleagues and immediate superiors (27, pp. 164-6)"@en, "Multi-Criteria Decision Analysis (valid ‘apples and oranges’ comparisons)."@en, "Toshiba medical systems division split into R&D, Engineering and Manufacture sectors."@en, "Use of ‘half-life’ as a measure of improvement (e.g. time taken to half product development time) to encourage large-scale thinking"@en, "‘Co-evolutionary marketing’ - e.g. Amazon.com invites readers to write on-line book reviews; other readers often prefer these views to professional reviewer evaluations, therefore people visit the site more often (26)"@en, "‘Open the kimono’ - everything out in the open communication (14, Chapter 9)"@en, "‘Supravision’ rather than ‘supervision’"@en .
+
+tc:FlexibleCoversOrThinFilms_1
+    od:MannDombExample "Card transactions instead of money - e.g. vending machines in companies use employee ID card and charges are debited direct from salary"@en, "Inflatable ‘passenger’ for lone drivers out late at night"@en, "The thinnest film is a single molecule thick. Likewise, the thinnest organisation structure is one employee thick. Get faster customer service by having the single employee customer service agent have all the necessary data easily available, so the customer only deals with the single, flexible ‘shell’ of the organisation not the whole bulky volume."@en, "‘Cardboard police’ - 2D policemen or police cars over freeway bridges used as a means of slowing down traffic"@en .
+
+tc:FlexibleCoversOrThinFilms_2
+    od:MannDombExample "Office workers in open areas can use flexible curtains to shut themselves off from the visual chaos of the open area when they need to concentrate rather than communicate"@en, "Use ‘trade secret’ methods to separate company proprietary knowledge from general knowledge"@en, "‘Umbrella’ organisations"@en, "‘We like to delegate and leave people as free as possible, so we try to push management decisions down the line. We run Rolls-Royce with a very thin corporate structure’, Lord Tombs of Brailes, ex-Chairman of Rolls-Royce (32)"@en .
+
+tc:Homogeneity_1
+    od:MannDombExample "Boeing ‘Working Together Teams’ - bring customers and suppliers into design loop."@en, "Co-located project teams"@en, "Common data transfer protocols between different organisations"@en, "Internal customers"@en, "Product branding/product families"@en, "‘Constancy of Purpose’ (Point No. 1 of Deming’s Fourteen Points (5))"@en, "‘Singing from the same hymn sheet’"@en, "‘The best way to make a silk purse from a sow’s ear is to begin with a silk sow. The same is true of money’ (Augustine’s Law #1 (Reference 8))"@en .
+
+tc:InertMedium_1
+    od:MannDombExample "Corporate Retreats"@en, "Hare Brain, Tortoise Mind (39)"@en, "Moves away from the (normal) disruptive performance appraisal, merit award, and reward environment to an (emotionally neutral) more fair system of working practice (36, 37)."@en, "Operations Room - e.g. for planning organisational change, proposal submissions, contract tendering, etc."@en, "Time-out during negotiation"@en, "‘Away-day’s/ team-building days"@en, "‘TRIZ and People’ (38)"@en .
+
+tc:InertMedium_3
+    od:MannDombExample "Introduction of ‘quiet areas’ into the workplace."@en, "Rest breaks/’pause for reflection’ breaks in meetings."@en, "Use of neutral third parties during difficult negotiations (e.g. Senator George Mitchell in Northern Ireland, ACAS, etc.)"@en .
+
+tc:InexpensiveShortLifeObject_1
+    od:MannDombExample "Flight simulator reduces pilot training costs."@en, "Numerical simulation - operational analysis (virtual war-gaming, virtual business development, strategic planning modeling)."@en, "Plastic cups in motels, disposable diapers, many kinds of medical supplies."@en, "Swatch ‘renewed impulse’ buying ‘ - ‘Change clothes? Change Swatch’."@en, "Use disposable paper objects to avoid the cost of cleaning and storing durable objects."@en .
+
+tc:InverseAction_1
+    od:MannDombExample "Benchmark against the worst instead of the best (16)."@en, "Blame the process not the person"@en, "Bring the mountain to Mohammed, instead of bringing Mohammed to the mountain."@en, "Expansion instead of contraction during recession."@en, "‘I used to think that anyone doing anything weird was weird. I suddenly realised that anyone doing anything weird wasn’t weird at all, and it was the people saying they were weird that were weird’ Paul McCartney."@en .
+
+tc:InverseAction_2
+    od:MannDombExample "Cash-till assistant is the most important part of a retail organisation"@en, "Chairman of company spends time in the complaints department answering customer complaints"@en, "Computer help lines were often originally set up with relatively no-technical staff at the front-end, directing calls to progressively more technically able staff the more complicated the problem is. Latest logic suggests reversing this trend - i.e. place the most qualified staff as first point of contact (e.g. IBM)"@en, "Corporate ‘unlearning’ - acquiring the ability to forget about the past where appropriate"@en, "Mercedes Benz vision changed from ‘the best or nothing’ to ‘the best for our customers’ i.e. shift from internal to externally focused vision statement."@en, "Product- rather than function-based organisation structure"@en, "Russian government pays inventors for patent applications/West makes the inventor pay to apply."@en, "The Peter Pyramid (9)"@en, "‘Nothing fails like success’ (19)"@en, "‘Ours is the age that is proud of machines that think and suspicious of men who try to’ H Mumford-Jones (16)"@en, "‘Ready, Fire, Aim’ - Tom Peters (18)"@en, "‘We don’t stop playing because we grow old, we grow old because we stop playing’ (12)"@en, "‘When you reach the top, that’s when the climb begins’ Michael Caine"@en .
+
+tc:InverseAction_3
+    od:MannDombExample "Don’t make changes just because they are fashionable management fads"@en, "Home banking"@en, "Home-shopping"@en, "Park-and-ride schemes in busy cities"@en, "‘If you obey all the rules, you miss all the fun’ Katherine Hepburn (17)"@en .
+
+tc:LocalQuality_1
+    od:MannDombExample "Customisable software"@en, "Have each employee's workplace customized to his/her ergonomic and psychological needs."@en, "Working hours phased to accommodate people working on international, shifted timezone projects"@en, "‘Empowerment’ of individuals"@en .
+
+tc:LocalQuality_2
+    od:MannDombExample "Casual (‘dress-down’) days."@en, "Flexible working hours."@en, "Franchise fast food outlets have local dishes in addition to normal product range."@en, "Introduce ‘Corporate Jester’ (e.g. British Airways) as a method of encouraging ‘out of the box’ thinking."@en, "Moves away from rigid salary structures/job grading."@en, "Red team/Blue team proposal preparation structures"@en, "‘Quiet’ work areas."@en .
+
+tc:LocalQuality_3
+    od:MannDombExample "Hire local people to acquire cultural knowledge of local customers"@en, "Organisational division by function rather than product."@en, "Position factory or distribution centre near to customers"@en, "Staff specialists in centres of excellence"@en, "‘Kids areas’ in restaurants, etc."@en .
+
+tc:MechanicalVibrations_2
+    od:MannDombExample "Bring new blood into team"@en, "Hire consultant"@en .
+
+tc:MechanicalVibrations_3
+    od:MannDombExample "Use the catchball process of hoshin planning to get the whole organisation ‘vibrating’"@en, "‘A good manager doesn't try to eliminate conflict; he tries to keep it from wasting the energies of his people. If you're the boss and your people fight you openly when they think that you are wrong -- that's healthy’ Robert Townsend"@en, "‘The things we fear most in organizations -- fluctuations, disturbances, imbalances -- are the primary sources of creativity’ Margaret J Wheatley."@en .
+
+tc:MechanicalVibrations_4
+    od:MannDombExample "Creating extra-ordinary unity of purpose in a work-team (e.g. Don Petersen’s story of the Ford versus Mazda competition to win the transmission job for the FWD Taurus (23))"@en, "Use strategic planning (policy deployment, hoshin Kanri) to select the right frequency and get the organisation resonating at that frequency to accomplish a breakthrough strategy"@en, "‘Kansei’ - Japanese term for resonance/one-ness between product and user (23, pp 139-45)"@en .
+
+tc:MechanicalVibrations_5
+    od:MannDombExample "Communicate frequently, in multiple modes (newsletter, Intranet, staff meetings, etc)."@en, "‘He inspired in us the belief that we were working in a medium that was powerful enough to influence the world’ Lillian Gish on D.W.Griffiths (12)"@en, "‘I don’t think that you should ever manage anything that you don’t care passionately about’ D Coleman, VP & CFO Apple (12)"@en .
+
+tc:Mediator_1
+    od:MannDombExample "Hire consultant."@en, "Introduction of specialist trouble-shooting or fire-fighting teams"@en, "Subcontract occasional services - accounts, cleaning, transport, etc."@en, "Use bridging loan arrangements to help cashflow"@en .
+
+tc:Mediator_2
+    od:MannDombExample "Franchisee acts as intermediary between corporate vision and customer"@en, "KLM ‘feeder’ airline concept - short flights from Germany, England pull passengers away from national airlines in order that they fly long distances using Holland as a hub"@en, "Sub-contract non-core business (e.g. cleaning services, transport)"@en, "Travel agent (NB can also mean removal of intermediary - e.g. direct selling)."@en, "UPS distribution system using core sorting centre."@en, "Use of impartial body during difficult negotiation (e.g. ACAS)"@en, "‘Cuckoo Investments’ (24)"@en, "‘Po’ (provocative operator) - a place between ‘yes’ and ‘no’, construct devised by Edward DeBono to help avoid premature discarding of ideas (28)"@en, "‘Video Plus’ - programme video using simple codes to represent channels, dates and times"@en .
+
+tc:Nesting_1
+    od:MannDombExample "Four levels of knowledge - 1) Basic Skills, 2) Know How, 3) Process Management, 4) Strategic Vision - contained in effective company (e.g. Sony) training schemes (3, pp. 292-4)"@en, "Hierarchy of employee needs - Basic, Environment, Simple Individual, Complex Individual, Transcendent (14, Chapter 3)"@en, "Mapping priority innovation areas (3, pp. 136-7)"@en, "Store-in-store"@en .
+
+tc:Nesting_2
+    od:MannDombExample "Casino hotel architecture (Las Vegas style): The guest must pass through the gaming area to get to the restaurant, the hotel registration, even the lavatories!"@en, "Door sensors count customers into and out of a store/office, etc (use data for market profiling, etc)"@en, "Expose traditionally inward facing job-holders to external events/customers (e.g. engineers shadow marketing people during customer visits)"@en, "Plug holes in organisation structure"@en, "Use ‘Why, What’s Stopping?’ question sequence to break through layers of problems to get to root cause (4)"@en .
+
+tc:PartialOrExcessiveEffect_1
+    od:MannDombExample "Communicate more often and with more information than you think necessary"@en, "Going into a new market, do 'saturation' advertising by all media--mail, newspapers, local magazines, local radio, local TV, billboards, etc."@en, "‘Communication is and should be hellfire and sparks, as well as sweetness and light’ Aman Vivian Rakoff"@en, "‘If it ain’t broke, improve it anyway’ - Japanese process management philosophy."@en, "‘The most important numbers are the ones you’ll never know’ - W.E. Deming (i.e. is it possible to ever know what ‘100%’ means)"@en .
+
+tc:PeriodicAction_1
+    od:MannDombExample "24-hour car service operation - evening pick-up, return of serviced car by breakfast the following morning (customer perspective)."@en, "Get work done between meetings"@en, "Perform maintenance work during vacations"@en .
+
+tc:PeriodicAction_2
+    od:MannDombExample "Batch manufacture."@en, "Change team leadership periodically (e.g. countries take it in turns to ‘lead’ the EU)"@en, "Introduce sabbaticals to refresh people’s points of view"@en, "Tidal traffic flow schemes ease transport into and out of busy areas"@en .
+
+tc:PeriodicAction_3
+    od:MannDombExample "Audit at irregular intervals"@en, "Flexible savings schemes which pay higher interest rates the fewer the number of withdrawals made"@en, "Use monthly or weekly feedback instead of annual reviews"@en .
+
+tc:PhaseTransition_1
+    od:MannDombExample "Awareness of the requirements of different stages - conception, birth, development, maturity, retirement - of a project (e.g. shifting manpower requirements, shifting budget requirements)."@en, "Forming/storming/norming/performing phases of team development - e.g. take advantage of enthusiasm dip during storming-norming (3)"@en, "Tendency to relax after receiving a Quality Award, Innovation Award, etc."@en, "Transition from a ‘bull’ to a ‘bear’ market."@en .
+
+tc:PneumaticOrHydraulicConstructions_1
+    od:MannDombExample "Flexible (fluid) organisation structure versus old fixed hierarchical structures"@en, "Introduction of ‘breathing spaces’ into contracts"@en, "Liquidation of assets"@en, "‘Water logic’ versus ‘rock logic’ - fluid, flowing, gradually building up logic versus permanent, hard-edged, rock-like alternatives (31)"@en .
+
+tc:PorousMaterials_1
+    od:MannDombExample "Government ‘leaks’ - used as a way of gauging public reaction to (usually) controversial issues"@en, "Improve internal communications by creating Intranet accessible by all hierarchical layers; giving workers access to CEO and vice-versa."@en, "Think of the customer-facing layers of a company as a porous membrane which filters information flow both into and out of the organisation"@en, "‘Trickle-down’ economics"@en .
+
+tc:PorousMaterials_2
+    od:MannDombExample "Empower the customer facing layer (information is the thing that fills the pores - see 30A)."@en, "Media relations department turns spin-doctor and/or marketing feedback gatherer"@en, "Use mind-maps (30), self-patterning capabilities (21), etc to improve the information/knowledge intake and filtering abilities of the brain"@en .
+
+tc:PreferredAction_1
+    od:MannDombExample "Benetton ‘retarded differentiation’ - clothing is knitted before it is dyed; colour only applied when the season’s popular colours emerge."@en, "Cell-based manufacture"@en, "Dealer-fit car accessories - CD player, alloy wheels, air-con, etc."@en, "Kanban arrangements in a Just-In-Time factory"@en, "Publish an agenda before meetings"@en, "‘If I had 8 hours to chop down a tree, I’d spend 6 hours sharpening my axe’ Abraham Lincoln."@en .
+
+tc:PreferredAction_2
+    od:MannDombExample "Dialogue with employees before embarking on BPR/change management activities."@en, "Perform non-critical path tasks early (where circumstances permit)"@en, "Project pre-planning"@en, "Use of ‘story-boarding’ to facilitate creative problem solving (i.e. gathering the data before the 'creativity' session)"@en .
+
+tc:PreliminaryAction_1
+    od:MannDombExample "Back up computer data"@en, "Begin with ‘S’ in the PDSA cycle (10)"@en, "Contingency planning"@en, "Encourage short, effective meetings by removing the chairs"@en, "Establish a worst-case, fall-back position prior to negotiation - ‘Best Alternative to a Negotiated Agreement’ (6)"@en, "Put clauses in contracts requiring arbitration/mediation to avoid litigation"@en, "Run anti-virus software frequently (and update it frequently)"@en, "‘80% of a successful production is in the casting’ Lindsay Anderson"@en .
+
+tc:ReplacementOfMechanicalSchemes_1
+    od:MannDombExample "Intelligent tidal traffic flow control (e.g. using roadside sensors)"@en, "Mind-mapping software tools"@en, "The fee ranges from $0.50 to $3.50 depending on how heavy the traffic is on the free part of the highway. Radio signals deduct the payment from the users' account when the car enters the special traffic lane."@en, "Use a radio transponder payment system for traffic control (Highway 91 in California)."@en .
+
+tc:ReplacementOfMechanicalSchemes_2
+    od:MannDombExample "Automatic GPS sensors inform central control point where (e.g. delivery trucks or taxis) are"@en, "Electronic tagging"@en, "Mrs Fields Cookies has a morning video/internet conference with all franchisees electronic communication replaces memos, etc."@en, "Pagers"@en .
+
+tc:ReplacementOfMechanicalSchemes_3
+    od:MannDombExample "MBWA - Management By Walking Around"@en, "Mind-maps (30)"@en, "Tidal traffic flow schemes /HOV lanes"@en, "‘Hot-desking’"@en .
+
+tc:ReplacementOfMechanicalSchemes_4
+    od:MannDombExample "CEO of budget motel chain; ‘our goal is that when you turn out the lights and climb into bed, you think you are at the Hilton’ (16)"@en, "Electronic voting"@en, "Have retail customers enter data by means of a touch screen, instead of filling out a form that must be keyed in by employees. (Wedding registries, etc. use this)"@en, "Supermarkets pump bakery odours around the store to help advertise bread products"@en .
+
+tc:RushingThrough_1
+    od:MannDombExample "Get through painful processes quickly (e.g. firing someone)"@en, "Rapid prototyping"@en, "‘Don’t be afraid to take a big step if one is indicated. You can’t cross a chasm in two small jumps’ David Lloyd George"@en, "‘Fail Fast; Learn Fast’"@en, "‘Fast Cycle - Full Participation’ - method of involving the whole organisation simultaneously and rapidly in a major change, such as a re-organisation"@en, "‘If you want to succeed, double your failure rate’ JR Watson, IBM founder"@en, "‘Incrementalism is innovation’s worst enemy’ Nicholas Negreponte, MIT Media Lab (18)"@en .
+
+tc:Segmentation_1
+    od:MannDombExample "Autonomous profit centres."@en, "Divide an organisation into different product centres."@en, "Franchise outlets"@en, "Image/Value/Satisfaction segmentation of customer purchase related preferences (Reference 3, pp86-8)"@en, "Kano Diagram - Excitement, Performance, and Threshold product attribute parameters."@en, "Marketing segmentation by demographics, sociographics, psychographics, lifestyles, etc (creation of ‘micro-niches’ - Reference 3, p85)"@en, "Min Basadur 8 step ‘Simplex’ innovation process (4)"@en, "Segmentation of ‘idea management’ process into Fertilization, Seeding, and Incubation phases (Reference 3, p128)"@en, "Strength/Weakness/Opportunity/Threat (SWOT) analysis"@en, "Use a work breakdown structure for a large project."@en .
+
+tc:Segmentation_2
+    od:MannDombExample "Container shipment"@en, "Flexible Manufacturing Systems"@en, "Flexible pensions"@en, "Modular furniture/offices"@en, "Use of temporary workers on short-term projects"@en .
+
+tc:Segmentation_3
+    od:MannDombExample "Distance learning (also ‘Taking Out’)"@en, "Quality Circles."@en, "Virtual office/remote working (also ‘Taking Out’)"@en, "‘Creative Segmentation’ - ‘high performance small car’, ‘easy to use SLR’, ‘cordless power tool’ (Reference 3)"@en, "‘Empowerment’ - segmentation of decision making."@en .
+
+tc:SelfService_1
+    od:MannDombExample "Body Shop re-cycles used containers brought back by customers - helps promote corporate green image"@en, "Loan out temporarily under-utilised workers to other organisations (load-capacity balancing across companies - e.g. footballers - win-win situation; the player stays match fit, the loaner saves wages, the loanee fills skill shortage)"@en, "Re-cycle all packaging material"@en, "Re-hire retired workers for jobs where their experience is needed"@en, "Scan mail into data systems and recycle the paper"@en, "‘Brown-field’ developments"@en, "‘Industrial eco-systems’ (22, 29) - e.g. plan factories so that waste heat from one operation provides power for another operation, install co-generation equipment so that waste heat can generate electricity - use it for your own operations or sell it to the electric power utility."@en .
+
+tc:SelfService_2
+    od:MannDombExample "Bar-codes in supermarkets provide instant pricing information, but the system also gathers information to assist future marketing decisions"@en, "Brand image circularity - Harvard Business School produces bright people; these people enhance the School’s reputation; hence lots of people apply; hence they only take on very bright people; bright people in equals bright people out; and so the circle re-enforces itself."@en, "Edward DeBono’s suggestion to Ford UK that they buy National Car Parks and then only let Ford cars into the parking lots - i.e. motorists buying a Ford are also buying a parking place in every city (24)"@en, "Quality Circles"@en, "Self-help groups"@en, "‘Cookies’ on the Internet gather data useful for future marketing activities, while performing a useful service for the ‘surfer’"@en .
+
+tc:Separation_1
+    od:MannDombExample "Activity-Based Costing instead of allocation cost accounting."@en, "Breakdown barriers between departments (Point No.9 of Deming’s Fourteen Points (5))."@en, "Drive Out Fear (Point No.8 of Deming’s Fourteen Points (5))"@en, "Eliminate exhortations (Point No.10 of Deming’s Fourteen Points (5))"@en, "Eliminate targets (Point No.11 of Deming’s Fourteen Points (5))."@en, "Just-In-Time inventory management"@en, "Separate development and production activities - skunkworks, tiger-teams, etc."@en, "USP advertising"@en, "‘Lean Manufacture’ (7)"@en, "‘Separate the PEOPLE from the PROBLEM’ (‘Getting To Yes’ (6))."@en, "‘The optimum committee has no members’ (Augustine’s Law #31 (Reference 8))"@en .
+
+tc:SphericalShape_1
+    od:MannDombExample "Ergonomic desk/work-station designs."@en, "Take the shortest path to the customer - around the organisation rather than point-topoint through the bureaucracy"@en, "‘Form the wagons into a circle’ John Wayne"@en .
+
+tc:SphericalShape_2
+    od:MannDombExample "Circular work cells"@en, "Establish a sphere of influence, then market to that sphere"@en, "Levi Strauss' IS Department's organizational chart resembles a solar system, with the names of 20 managers appearing once on a large circle-and in many cases, also on one of four smaller circles intersecting the large one. The small circles represent action groups focusing on specific tasks, including customer service and business systems (20)."@en, "Quality Circles"@en, "Rotate leadership of a team"@en .
+
+tc:SphericalShape_3
+    od:MannDombExample "Mobile car service - mechanic comes to you rather than you going to garage"@en, "Mobile factory"@en, "Mobile library"@en, "‘Meals on wheels’/home-delivery pizza"@en .
+
+tc:StrongOxidants_1
+    od:MannDombExample "Guest speakers at a seminar"@en, "Injection of new-blood/new challenge into a team"@en, "Risk and Revenue Sharing Partnerships"@en, "Use case-studies in training"@en, "Use internal subject matter experts"@en, "Use simulations/games instead of lecture-style training"@en .
+
+tc:StrongOxidants_2
+    od:MannDombExample "Consider personal chemistry issues when assembling a project team - find people who will spark-off interesting reactions with each other."@en, "Corporate Jester"@en, "Deming’s 4 stages of learning - unconscious incompetence, conscious incompetence, conscious competence, unconscious competence"@en, "Expose air or oxygen to ionizing radiation, D. Use ionized oxygen, E. Replace ozonized (or ionized) oxygen with ozone (atmosphere enriched by ‘unstable’ elements) ."@en, "Focus teams on a single project only (give them an enriched environment full of success factors"@en, "harmony within discord or you will drift away from the forces that keep a company alive’ Takeo Fujisawa, Honda co-founder."@en, "‘Devil’s Advocate’"@en, "‘I like Bartok and Stravinsky. It’s a discordant sound and there are discordant sounds inside a company. As president you must orchestrate the discordant sounds into a kind of harmony. But you never want too much harmony. One must cultivate a taste for finding"@en, "‘Leadership is a potent combination of strategy and character. But if you must be without one, be without strategy.’ General H. Norman, Schwartzkopff (17)"@en .
+
+tc:ThermalExpansion_1
+    od:MannDombExample "If employees are excited (‘hot’) each can do more in the space that expands to exist between them."@en, "‘A fired-up, empowered, appreciated individual will do the work of three who aren’t’ Anon."@en, "‘It seems safe to say that significant discovery, really creative thinking, does not occur with regard to problems about which the thinker is lukewarm’. Mary Henle"@en .
+
+tc:ThermalExpansion_2
+    od:MannDombExample "Expand or contract marketing efforts depending on the product’s ‘hotness’ - rate of sales and profitability"@en, "Personality matching on work-teams"@en .
+
+tc:TransformationOfHarmfulIntoUseful_1
+    od:MannDombExample "Benevolent dictatorship (25)"@en, "Reduce resourcing levels to such an extent that new ways of doing the job have to be discovered"@en, "Restrict supply of goods to create scarcity value (e.g. some sports car manufacturers seek to maintain a multiple year waiting list on vehicles)"@en, "The famous software solution ‘that’s not a bug, it’s a feature’"@en .
+
+tc:TransformationOfHarmfulIntoUseful_2
+    od:MannDombExample "Eliminate fear of change by introducing fear of competition"@en, "Keep traffic out of cities by introducing cheap ‘park and ride’ and expensive downtown parking charges."@en, "Loss-leader strategy for increasing sales"@en, "Make potentially polluting industries place flow intakes downstream of flow outlets on a river"@en, "Put a ‘problem’ person on an assignment in another area where he/she can do well and not be a problem to the original group"@en .
+
+tc:TransformationOfHarmfulIntoUseful_3
+    od:MannDombExample "Collect information to understand the harm, then formulate a positive action to remove it"@en, "Making a fuss over customers who have experienced a problem with your goods/services/etc, tends to re-enforce their overall positive feel about you - to a level greater than that where no problem had occurred"@en, "Recast an attack on you as an attack on the problem (6)."@en, "‘Provocations’ method of encouraging new ideas (24)"@en, "‘The Extra Mile will have no traffic jams.’ Unknown."@en .
+
+tc:TransitionToAnotherDimension_1
+    od:MannDombExample "Employees 'disappear' from the customers in a theme park, descend into a tunnel, and walk to their next assignment, where they return to the surface and magically reappear."@en, "Multi-stack storage systems use the height of a building, and save floorspace"@en, "Organisational hierarchy"@en, "‘Pile ‘em high, sell ‘em cheap’"@en, "‘Standing on the shoulders of giants…’"@en, "‘When two people meet, there are really six people present. There is each man as he sees himself, each man as he wants to be seen, and each man as he really is.’ Michael De Saintamo"@en .
+
+tc:TransitionToAnotherDimension_2
+    od:MannDombExample "Horizontal (peer) communication"@en, "Horizontally integrated manufacture"@en, "Shift from portrait to landscape report format"@en, "Shift from ‘line’ to ‘project’ management dominance in matrix organisation (and vice-versa - depending on prevailing market conditions)"@en, "Switch from vertical to horizontal (lateral) thinking - and vice-versa (21)"@en .
+
+tc:TransitionToAnotherDimension_3
+    od:MannDombExample "New ways of looking at the selling process - instead of selling carpets to its commercial and industrial customers, Interface now offers what it calls the 'Evergreen Lease.' Its customers no longer buy carpets or pay an installation fee - they just pay a monthly service fee that guarantees they will always have clean, attractive carpets (22)"@en, "View your organisation from the outside - either directly or using consultants, ‘mystery shoppers’, etc."@en, "‘The seeing of objects involves many sources of information beyond those meeting the eye when we look at an object. It generally involves knowledge of the object derived from previous experience, and this experience is not limited to vision but may include the other senses: touch, taste, smell, hearing, and perhaps also temperature or pain.’ R.L.Gregory"@en, "‘You can’t teach an old dogma new tricks’ Dorothy Parker"@en .
+
+tc:TransitionToAnotherDimension_4
+    od:MannDombExample "360º appraisals."@en, "Distributed responsibility and authority - e.g. Quality department advises on technical details and conducts audits, but everyone is responsible for quality. Ditto Safety Office."@en, "Multi-dimensional organisation hierarchy charts - 3D (e.g. to show ‘hard’ and ‘soft’ relationships), or 4D - to include an element of time or movement (‘Buckyball Management’ - Reference 20)"@en .
+
+tc:Universality_1
+    od:MannDombExample "Multi-skilling of work-force"@en, "Rapid Reaction Forces in the military - cross-trained, equipment versatility, etc)"@en, "Semco - managerial staff set their own salaries, shopfloor workers set their own productivity targets, part of change agent’s job is to eliminate need for his/her job (13)"@en, "Team leader acts as recorder and timekeeper."@en, "‘One-stop shopping’ - supermarkets sell insurance, banking services, fuel, newspapers, etc."@en .
+
