@@ -26,7 +26,7 @@ BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to lea
     ical:dtstart "2021-10-29"^^xsd:date ;
     ical:location "Online" ;
     ical:summary "BUSINESS TRIZ ONLINE 2020 online forum invites everyone who is interested to learn what Business TRIZ is, how to apply it, and to discuss current challenges and perspectives for both Business and Management TRIZ and the Business TRIZ community."@en ;
-    od:theVideos <https://youtube.com/playlist?list=PLFgocOPCN0yeQRXSl3E4jSYwMBBnM87g> ; 
+    od:theVideos <https://youtube.com/playlist?list=PLFgocOPCN0yeQRXSl3E4jSYwMBBnM87gC> ; 
     ical:url <http://www.biztriz.net/2-uncategorised/39-business-triz-online-fall-2021.html> .
 
 :Talk_100

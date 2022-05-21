@@ -22,6 +22,7 @@ The "BUSINESS TRIZ ONLINE WINTER 2021" conference invites anyone interested in l
     ical:dtend "2021-02-27"^^xsd:date ;
     ical:dtstart "2021-02-26"^^xsd:date ;
     ical:location "Online" ;
+    od:theVideos <https://www.youtube.com/playlist?list=PLFgocOPCN0ydiPZdpYh8Nu02Grn7bRp69> ; 
     ical:url <http://www.biztriz.net/36-conference-business-triz-online-winter-2021.html> .
 
 :Talk_101
