@@ -69,27 +69,29 @@ The conference "BUSINESS TRIZ ONLINE SPRING 2022" will be held in English."""@en
 
 :Talk_109
     dcterms:creator odp:Hongbo_Y ;
+    od:presentedBy odp:Han_B ;
     dcterms:title "Repositioning and promotion of products (services) based on separation principle - taking Melatonon as an example"@en ;
     a od:Talk .
 
 :Talk_110
     dcterms:creator odp:Graebe_HG ;
-    dcterms:title "On the Interconnection of Project- and Product-Centered Systemic Modelling"@en ;
+    dcterms:title "On the interconnection of project- and product-centered systemic modelling"@en ;
     a od:Talk .
 
 :Talk_111
     dcterms:creator odp:Isaac_DP ;
-    dcterms:title "Actual case with application of Business TRIZ"@en ;
+    dcterms:title "Anticipatory Failure Analysis to identify hidden risks to business continuity"@en ;
     a od:Talk .
 
 :Talk_112
-    dcterms:creator odp:Polonsky_LM, odp:Tokarev_AS ;
-    dcterms:title "Functional Approach to Representing Systems (Businesses and Processes)."@en ;
+    dcterms:creator odp:Khristenko_AV ;
+    dcterms:title "Adaptation of the Conflict Matrix for the scope of services"@en ;
     a od:Talk .
 
 :Talk_113
-    dcterms:creator odp:Souchkov_VV ;
-    dcterms:title "Further development of Business TRIZ & IBTA: Discussions "@en ;
+    dcterms:creator odp:Polonsky_LM, odp:Tokarev_AS ;
+    od:presentedBy odp:Polonsky_LM ;
+    dcterms:title "Extended description of systems."@en ;
     a od:Talk .
 
  

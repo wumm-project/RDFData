@@ -1500,7 +1500,7 @@ odp:Hoch_N
 
 odp:Holtz_V
     a foaf:Person ;
-    foaf:affil "Intel Corporate TRIZ Chapter, USA"@en ;
+    foaf:affil "Intel Corporate TRIZ Chapter, USA" ;
     foaf:name "Vendetta Holtz" .
 
 odp:Hong_KS
@@ -1512,7 +1512,8 @@ odp:Hong_Z
     foaf:name "Zhang Hong" .
 
 odp:Hongbo_Y a foaf:Person ;
-  foaf:name "Yan Hongbo".
+    foaf:affil "Baotou University, China" ;
+    foaf:name "Yan Hongbo".
 
 odp:Hongyul_Y
     a foaf:Person ;
@@ -1903,6 +1904,11 @@ odp:Khrebtov_A
     a foaf:Person ;
     foaf:fullname "Хребтов Александр"@ru ;
     foaf:name "Alexander Khrebtov" .
+
+odp:Khristenko_AV
+    a foaf:Person ;
+    foaf:fullname " Христенко Алеся Владимировна"@ru ;
+    foaf:name "Alesya V. Khristenko" .
 
 odp:Khronik_A
     a foaf:Person ;

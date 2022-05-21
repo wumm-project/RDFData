@@ -126,7 +126,7 @@ tc:Copying
     od:Matrix2003Id "26" ;
     od:hasAltshuller73Id "26" ;
     od:hasAltshuller84Id "26" ;
-    od:hasRecommendation tc:Copying_1, tc:Copying_2 ;
+    od:hasRecommendation tc:Copying_1, tc:Copying_2, tc:Copying_3 ;
     a od:Principle, skos:Concept ;
     skos:prefLabel "Arbeit mit Modellen"@de, "Prinzip des Kopierens"@de, "principle of copying"@en, "принцип копирования"@ru .
 
@@ -136,6 +136,10 @@ tc:Copying_1
 
 tc:Copying_2
     od:description "Ersetze das Objekt oder das System von Objekten durch optische Kopien (Abbildungen)."@de, "Replace the object or system of objects by optical copies (illustrations)."@en, "Объект или система объектов должны быть заменены оптическими копиями (иллюстрациями)."@ru ;
+    a od:Recommendation .
+
+tc:Copying_3
+    od:description "Wenn optische Kopien verwendet werden, wechseln Sie zu Infrarot oder Ultraviolett (verwenden Sie eine geeignete, ungewöhnliche Beleuchtungs- und Betrachtungssituation)."@de, "If optical copies are used, move to infrared or ultraviolet (Use an appropriate out of the ordinary illumination and viewing situation)."@en, "Если используются оптические копии, перейдите к инфракрасным или ультрафиолетовым (Используйте соответствующее нестандартное освещение и ситуацию просмотра)."@ru ;
     a od:Recommendation .
 
 tc:Countermass
@@ -315,11 +319,11 @@ tc:InexpensiveShortLifeObject
     od:hasAltshuller84Id "27" ;
     od:hasRecommendation tc:InexpensiveShortLifeObject_1 ;
     a od:Principle, skos:Concept ;
-    skos:altLabel "Inexpensive Short-Life Object (Disposable)"@en ;
-    skos:prefLabel "Principle of inexpensive short-life object instead of expensive longevity"@en, "Prinzip der billigen Kurzlebigkeit anstelle teurer Langlebigkeit"@de, "Приём дешёвой недолговечности вместо дорогой долговечности"@ru .
+    skos:altLabel "Cheap Short-Living Objects (Disposable)"@en ;
+    skos:prefLabel "Principle of inexpensive short-living object instead of expensive longevity"@en, "Prinzip der billigen Kurzlebigkeit anstelle teurer Langlebigkeit"@de, "Приём дешёвой недолговечности вместо дорогой долговечности"@ru .
 
 tc:InexpensiveShortLifeObject_1
-    od:description "Ersetze ein teures Objekt durch ein Sortiment billiger Objekte, wobei auf einige Qualitätseigenschaften, z. B. Langlebigkeit, verzichtet wird."@de, "Replace the expensive object by a range of cheap objects, with some quality features, such as longevity, being dispensed."@en, "Дорогой объект должен быть заменен рядом дешевых объектов, с некоторыми уступками к качественным характеристикам, таким как долговечность."@ru ;
+    od:description "Ersetze ein teures Objekt durch ein Sortiment billiger Objekte, wobei auf einige Qualitätseigenschaften, z. B. Langlebigkeit, verzichtet wird."@de, "Replace the expensive object by a range of cheap objects, with some quality features, such as longevity or service quality, being dispensed."@en, "Дорогой объект должен быть заменен рядом дешевых объектов, с некоторыми уступками к качественным характеристикам, таким как долговечность."@ru ;
     a od:Recommendation .
 
 tc:InverseAction
@@ -387,7 +391,7 @@ tc:MechanicalVibrations_3
     a od:Recommendation .
 
 tc:MechanicalVibrations_4
-    od:description "Exploit the eigen frequency."@en, "Nutze die Eigenfrequenz aus."@de, "Собственная частота должна эксплуатироваться."@ru ;
+    od:description "Exploit the resonant frequency."@en, "Nutze Resonanzfrequenzen aus."@de, "Собственная частота должна эксплуатироваться."@ru ;
     a od:Recommendation .
 
 tc:MechanicalVibrations_5
@@ -403,7 +407,7 @@ tc:Mediator
     skos:prefLabel "Prinzip des Vermittlers"@de, "principle of the mediator"@en, "принцип посредника"@ru .
 
 tc:Mediator_1
-    od:description "Binde das Objekt an ein anderes leicht zu entfernendes Objekt."@de, "Connect the object to another easily removable object."@en, "Объект должен быть связан с другим легко удаляемым объектом."@ru ;
+    od:description "Binde das Objekt zeitweise an ein anderes leicht zu entfernendes Objekt."@de, "Connect the object temporarily to another easily removable object."@en, "Объект должен быть связан с другим легко удаляемым объектом."@ru ;
     a od:Recommendation .
 
 tc:Mediator_2
@@ -550,7 +554,7 @@ tc:ReplacementOfMechanicalSchemes
     od:LippertGlossaryNote "A good example of an implementation of this principle is the development of voice recognition capabilities that are replacing the keyboard as an interface to a computer."@en, "In systems where there is a human in the loop, the mechanical system can be replaced with a sensory system."@en, "The replacement of mechanical systems with digital systems, such as the replacement of the punched paper tape reader with a computer file system, has been taking place for many years."@en, "These substitutions change or replace the principle of operation."@en, "This principle deals with the substitution of interactions, devices, mechanisms, and systems with physical fields or other forms, actions, and states."@en ;
     od:Matrix2003Id "28" ;
     od:hasAltshuller84Id "28" ;
-    od:hasRecommendation tc:ReplacementOfMechanicalSchemes_1, tc:ReplacementOfMechanicalSchemes_2, tc:ReplacementOfMechanicalSchemes_3 ;
+    od:hasRecommendation tc:ReplacementOfMechanicalSchemes_1, tc:ReplacementOfMechanicalSchemes_2, tc:ReplacementOfMechanicalSchemes_3, tc:ReplacementOfMechanicalSchemes_4 ;
     a od:Principle, skos:Concept ;
     skos:prefLabel "Principle of the replacement of mechanical schemes"@en, "Prinzip des Austauschs mechanischer Wirkschemata"@de, "Приём замены механической схемы"@ru .
 
@@ -564,6 +568,10 @@ tc:ReplacementOfMechanicalSchemes_2
 
 tc:ReplacementOfMechanicalSchemes_3
     od:description "Change from immovable fields to moving ones, from constant fields to changing ones, from structureless to structured fields."@en, "Gehe von unbeweglichen Feldern zu bewegten über, von konstanten zu veränderlichen, von strukturlosen zu strukturierten Feldern."@de, "Переходить от неподвижных полей к движущимся, от постоянных к меняющимся, от бесструктурных к структурированным полям."@ru ;
+    a od:Recommendation .
+
+tc:ReplacementOfMechanicalSchemes_4
+    od:description "Replace a mechanical means with a sensory (optical, acoustic, taste or smell) means."@en, "Ersetze ein mechanisches Mittel durch ein sensorisches (optisches, akustisches, geschmackliches oder geruchliches) Mittel."@de, "Заменить механическое средство сенсорным (оптическим, акустическим, вкусовым или обонятельным) средством."@ru ;
     a od:Recommendation .
 
 tc:RushingThrough
@@ -709,7 +717,7 @@ tc:TransformationOfHarmfulIntoUseful
     od:hasAltshuller84Id "22" ;
     od:hasRecommendation tc:TransformationOfHarmfulIntoUseful_1, tc:TransformationOfHarmfulIntoUseful_2, tc:TransformationOfHarmfulIntoUseful_3 ;
     a od:Principle, skos:Concept ;
-    skos:altLabel "Transform Damage into Use"@en ;
+    skos:altLabel "Transform Damage into Use"@en, "Blessing in Disguise"@en, "Turn Lemons into Lemonade"@en ;
     skos:prefLabel "Principle of Transformation of Harmful into Useful"@en, "Prinzip der Umwandlung von Schädlichem in Nützliches"@de, "Приём превращения вредного в полезное"@ru .
 
 tc:TransformationOfHarmfulIntoUseful_1
