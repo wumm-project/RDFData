@@ -22,7 +22,7 @@
     bibo:issn "2374-2275" ;
     bibo:isbn "978-0-578-34278-8" ; 
     od:theProceedings <https://matriz.org/wp-content/uploads/2021/12/TRIZfest-2021-Proceedings.pdf> ;
-    od:urlVideo <https://www.youtube.com/playlist?list=PLhYQKCyM7_WwhRp4v--4yz1hO8B6XH4kt> .
+    od:theVideos <https://www.youtube.com/playlist?list=PLhYQKCyM7_WwhRp4v--4yz1hO8B6XH4kt> .
 
 :Talk_100
     swc:relatedToEvent track:Tutorial ;

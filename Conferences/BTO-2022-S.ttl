@@ -24,74 +24,88 @@ The conference "BUSINESS TRIZ ONLINE SPRING 2022" will be held in English."""@en
     ical:dtend "2022-05-21"^^xsd:date ;
     ical:dtstart "2022-05-20"^^xsd:date ;
     ical:location "Online" ;
+    od:theVideosHidden <https://youtube.com/playlist?list=PLFgocOPCN0ydsl4GiUU4gJbgu3p296lpo> ; 
     ical:url <http://www.biztriz.net/2-uncategorised/41-conference-business-triz-online-spring-2022.html> .
 
 
 :Talk_100
     dcterms:creator odp:Souchkov_VV ;
     dcterms:title "Progress with Business TRIZ"@en ;
+    od:urlVideoHidden <https://www.youtube.com/watch?v=DKq3_TfBf9Y>;
     a od:Talk .
 
 :Talk_101
     dcterms:creator odp:Han_B ;
     dcterms:title "Preliminary Conception of Fusion with Business TRIZ and Multi-methods"@en ;
+    od:urlVideoHidden <https://www.youtube.com/watch?v=b4cKjtvQd4I>;
     a od:Talk .
 
 :Talk_102
     dcterms:creator odp:Schaper_S ;
     dcterms:title "Process optimization using TRIZ"@en ;
+    od:urlVideoHidden <https://www.youtube.com/watch?v=od0FijwqZHw>;
     a od:Talk .
 
 :Talk_104
     dcterms:creator odp:Amatulli_N ;
     dcterms:title "Actual Case Study with Value Conflict Mapping (VCM)"@en ;
+    od:urlVideoHidden <https://www.youtube.com/watch?v=GiIC1R7C0rc>;
     a od:Talk .
 
 :Talk_105
     dcterms:creator odp:Kozhemyako_AP ;
     dcterms:title "Factors approach to the technical contradiction elimination in the Business TRIZ"@en ;
+    od:urlVideoHidden <https://www.youtube.com/watch?v=lzex5g-BItE>;
     a od:Talk .
 
 :Talk_106
     dcterms:creator odp:Gafitulin_TM ;
     dcterms:title "The Law of Completeness for social-techno systems. On the example of the commercial company organizational structure."@en ;
+    od:urlVideoHidden <https://www.youtube.com/watch?v=Z42QIoP4akk>;
     a od:Talk .
 
 :Talk_107
     dcterms:creator odp:Zhang_T ;
     dcterms:title "Use TRIZ to support the \"Virtual ecological niche\" for investments"@en ;
+    od:urlVideoHidden <https://www.youtube.com/watch?v=mRkJEyZPBGo>;
     a od:Talk .
 
 :Talk_108
     dcterms:creator odp:Halas_M ;
     dcterms:title "Jumping to the next S-curve"@en ;
+    od:urlVideoHidden <https://www.youtube.com/watch?v=JEol0Zi08vA>;
     a od:Talk .
 
 :Talk_109
     dcterms:creator odp:Hongbo_Y ;
     od:presentedBy odp:Han_B ;
     dcterms:title "Repositioning and promotion of products (services) based on separation principle - taking Melatonon as an example"@en ;
+    od:urlVideoHidden <https://www.youtube.com/watch?v=xWIWxvirXRA>;
     a od:Talk .
 
 :Talk_110
-    dcterms:creator odp:Graebe_HG ;
-    dcterms:title "On the interconnection of project- and product-centered systemic modelling"@en ;
+    dcterms:creator odp:Isaac_DP ;
+    dcterms:title "Anticipatory Failure Analysis to identify hidden risks to business continuity"@en ;
+    od:urlVideoHidden <https://www.youtube.com/watch?v=MXycTwHUywc>;
     a od:Talk .
 
 :Talk_111
-    dcterms:creator odp:Isaac_DP ;
-    dcterms:title "Anticipatory Failure Analysis to identify hidden risks to business continuity"@en ;
+    dcterms:creator odp:Graebe_HG ;
+    dcterms:title "On the interconnection of project- and product-centered systemic modelling"@en ;
+    od:urlVideoHidden <https://www.youtube.com/watch?v=tGyyXu4KUgE>;
     a od:Talk .
 
 :Talk_112
     dcterms:creator odp:Khristenko_AV ;
     dcterms:title "Adaptation of the Conflict Matrix for the scope of services"@en ;
+    od:urlVideoHidden <https://www.youtube.com/watch?v=4YPpPuDS4Us>;
     a od:Talk .
 
 :Talk_113
     dcterms:creator odp:Polonsky_LM, odp:Tokarev_AS ;
     od:presentedBy odp:Polonsky_LM ;
     dcterms:title "Extended description of systems."@en ;
+    od:urlVideoHidden <https://www.youtube.com/watch?v=VFRDx8ghis0>;
     a od:Talk .
 
  
