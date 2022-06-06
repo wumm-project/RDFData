@@ -1,0 +1,579 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix bmp: <http://opendiscovery.org/rdf/BusinessModelPattern/> .
+@prefix bmg: <http://opendiscovery.org/rdf/BusinessModelGroup/> .
+
+<http://opendiscovery.org/rdf/Ontologies/SustainableBusinessModelPatterns/>
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    a owl:Ontology ;
+    rdfs:comment "2022-05-19 graebe: Extracted and transformed from (Luedeke-Freund et al. 2018)", "graebe: The numeration by P$nr of the patterns has yet to be completed".  ;
+    rdfs:label "The Sustainable Business Model Patterns identified in (Luedeke-Freund et al. 2018)" .
+
+bmg:G01
+    od:hasLFId "G01" ;
+    a od:Block ;
+    skos:description "Patterns that primarily address the revenue model of a business model, i.e. how offerings are priced and revenues generated."@en ;
+    skos:prefLabel "Pricing & Revenue Patterns"@en .
+
+bmg:G02
+    od:hasLFId "G02" ;
+    a od:Block ;
+    skos:description "Patterns that address the financing model within a business model, i.e. how equity, debt and operating capital are acquired."@en ;
+    skos:prefLabel "Financing Patterns"@en .
+
+bmg:G03
+    od:hasLFId "G03" ;
+    a od:Block ;
+    skos:description "Patterns that integrate ecological aspects into key activities and value propositions, i.e. how processes and offerings are designed to improve their ecological performance over their entire life cycle."@en ;
+    skos:prefLabel "Ecodesign Patterns"@en .
+
+bmg:G04
+    od:hasLFId "G04" ;
+    a od:Block ;
+    skos:description "Patterns that help integrate the idea of circular material and energy flows into partnerships, key activities, and customer channels, i.e. how materials and energy flow into, out of, and return to a company."@en ;
+    skos:prefLabel "Closing-the-Loop Patterns"@en .
+
+bmg:G05
+    od:hasLFId "G05" ;
+    a od:Block ;
+    skos:description "Patterns that modify the upstream (partners, resources, capabilities) and/or downstream (customers, relationships, channels) components of a business model, i.e. how inputs are sourced and target groups are reached."@en ;
+    skos:prefLabel "Supply Chain Patterns"@en .
+
+bmg:G06
+    od:hasLFId "G06" ;
+    a od:Block ;
+    skos:description "Patterns that help donate products or services to target groups in need, i.e. how costs are covered and social target groups are reached."@en ;
+    skos:prefLabel "Giving Patterns"@en .
+
+bmg:G07
+    od:hasLFId "G07" ;
+    a od:Block ;
+    skos:description "Patterns that create markets for otherwise neglected target groups, involving modified value propositions, channels, revenue, pricing and cost models, i.e."@en ;
+    skos:prefLabel "Access Provision Patterns"@en .
+
+bmg:G08
+    od:hasLFId "G08" ;
+    a od:Block ;
+    skos:description "Patterns that integrate social target groups in need, including otherwise neglected groups, either as customers or productive partners, i.e. how customers, partners, and employees are defined and integrated."@en ;
+    skos:prefLabel "Social Mission Patterns"@en .
+
+bmg:G09
+    od:hasLFId "G09" ;
+    a od:Block ;
+    skos:description "Patterns that emphasize the functional and service value of products and that offer performance management, i.e. how value propositions are defined and delivered."@en ;
+    skos:prefLabel "Service & Performance Patterns"@en .
+
+bmg:G10
+    od:hasLFId "G10" ;
+    a od:Block ;
+    skos:description "Patterns that integrate a broad range of stakeholders as co-owners and co-managers, how partners are defined and how the organization is governed."@en ;
+    skos:prefLabel "Cooperative Patterns"@en .
+
+bmg:G11
+    od:hasLFId "G11" ;
+    a od:Block ;
+    skos:description "Patterns that substitute resource or product ownership with community-based access to resources and products, how value propositions are defined and delivered."@en ;
+    skos:prefLabel "Community Platform Patterns"@en .
+
+bmp:P10_1
+    od:hasContext "In today’s business world, the shareholder model is still the norm and managers’ main responsibility is to meet the expectations of shareholders without giving equal weight to other stakeholders’ interests."@en ;
+    od:hasExample "[Ocean Spray] is an American agricultural cooperative that is owned and operated by 750 cranberry and grapefruit growers. Ocean has annual revenues of $2 billion; the cooperative’s members are the only shareholders. "@en ;
+    od:hasLFId "P10_1" ;
+    od:hasProblem "As most businesses focus on meeting shareholder expectations, they do not feel accountable for the effects of their activities on other stakeholders. Stakeholders other than shareholders do not benefit equally from businesses’ value creation."@en ;
+    od:hasReference "(Clinton & Whisnant, 2014)" ;
+    od:hasSolution "The cooperative model follows a multi-stakeholder approach and is therefore owned and managed by cooperative members.  Members can be retail consumers, users of services, employees, suppliers, or the local community, for example."@en ;
+    od:toPatternGroup bmg:G10 ;
+    a od:Pattern ;
+    skos:prefLabel "Cooperative Ownership"@en .
+
+bmp:P11_1
+    od:hasContext "When a product or other asset is not used very often, when it is expensive or not fully proven (e.g., emobiles), many consumers are not willing to purchase it. Individual and exclusive ownership also means that more resources must be used to satisfy consumers’ needs."@en ;
+    od:hasExample "[Turo (formerly RelayRides)] operates a peer-to peer car sharing marketplace. Private car owners can rent out their vehicles via Turo’s online platform and thus increase the usage of their vehicles while earning money. "@en ;
+    od:hasLFId "P11_1" ;
+    od:hasProblem "Private ownership of products results in direct risks, liabilities, and high costs for product users, as well as high levels of resource consumption. Private ownership can also inhibit efficient use of products and other assets."@en ;
+    od:hasReference "(FORA, 2010)" ;
+    od:hasSolution "Sharing, or collaborative consumption, is about matching the supplier side of a platform with the demand side of that platform.  The product is shared among a number of users, whenever the individual user needs access to the product. Sharing models have in common that the consumer does not pay for buying a product but only for using it."@en ;
+    od:toPatternGroup bmg:G11 ;
+    a od:Pattern ;
+    skos:prefLabel "Sharing Business"@en .
+
+bmp:P1_1
+    od:hasContext "Base of the Pyramid (BoP) and low-income groups in both developed and developing countries are often excluded from consumption due to price barriers."@en ;
+    od:hasExample "[Novo Nordisk] sells insulin in developing countries at prices that are up to 20% below the mean prices charged in developed countries. "@en ;
+    od:hasLFId "P1_1", "P7" ;
+    od:hasProblem "Customers might need the same product but have different payment thresholds. Hence, some customers are either unwilling or unable to pay as much as others for the same product."@en ;
+    od:hasReference "(Clinton & Whisnant, 2014)" ;
+    od:hasSolution "Charging groups with higher payment thresholds higher prices to subsidize those groups who cannot afford to pay as much."@en ;
+    od:toPatternGroup bmg:G01 ;
+    a od:Pattern ;
+    skos:prefLabel "Differential Pricing"@en .
+
+bmp:P1_2
+    od:hasContext "Pertains mostly to software or web-based services such as social networks, but also to traditional products and services such as healthcare."@en ;
+    od:hasExample "[Aravind Eye Care System] offers free eye care to more than half of their patients in India. Those who can afford to pay for it receive extra services like air-conditioned waiting rooms. "@en ;
+    od:hasLFId "P1_2", "P11" ;
+    od:hasProblem "Lacking the critical mass required to achieve economies of scale and to make products and services attractive to a broad range of customers."@en ;
+    od:hasReference "(Clinton & Whisnant, 2014)" ;
+    od:hasSolution "Provide a basic service or product free of charge to lower entry barriers for customers, while a fee is charged for additional features and functionality. This allows gaining traction through partly free offerings."@en ;
+    od:toPatternGroup bmg:G01 ;
+    a od:Pattern ;
+    skos:prefLabel "Freemium"@en .
+
+bmp:P1_3
+    od:hasContext "Forms of leasing and renting are becoming increasingly popular in the renewable energy industry. Also, lowincome groups are able to purchase goods they otherwise could not afford."@en ;
+    od:hasExample "[Simpa Networks] provides distributed energy solutions to underserved consumers in emerging markets on a progressive purchase basis.  Customers first make a small down payment for a solar system and then pre-pay for the energy service they need. "@en ;
+    od:hasLFId "P1_3", "P16" ;
+    od:hasProblem "Customers either cannot afford or do not want to buy the product outright. Reasons might be that the product is very new and uncommon, more expensive than traditional products. This can inhibit the diffusion of radical eco- and socioinnovations."@en ;
+    od:hasReference "(Clinton & Whisnant, 2014)" ;
+    od:hasSolution "Offering product leasing or renting for a certain period of time instead of selling it outright. As an option, this can lead to ownership (progressive purchase).  This allows extending breadth and depth of customer groups for new products."@en ;
+    od:toPatternGroup bmg:G01 ;
+    a od:Pattern ;
+    skos:prefLabel "Innovative Product Financing"@en .
+
+bmp:P1_4
+    od:hasContext "Green- or social start-ups that enter new markets are often in need of reliable revenue streams and customer relationships."@en ;
+    od:hasExample "[Blissmobox] is a membership club that offers monthly subscription boxes filled with a selection of organic, non-toxic and eco products. "@en ;
+    od:hasLFId "P1_4", "P38" ;
+    od:hasProblem "A lack of recurring and predictable revenues and customer relationships threatens a company’s financial stability."@en ;
+    od:hasReference "(Clinton & Whisnant, 2014)" ;
+    od:hasSolution "Charging a customer a rolling fee, typically on a monthly or annual basis for access to a product or service. The customer pays a fee, irrespective of product or service use. This allows creating consistent income streams."@en ;
+    od:toPatternGroup bmg:G01 ;
+    a od:Pattern ;
+    skos:prefLabel "Subscription Model"@en .
+
+bmp:P2_1
+    od:hasContext "Typically, traditional financing requires convincing investors and banks based on expected cash flows. This is often impossible when it comes to sustainability innovations."@en ;
+    od:hasExample "[Community Sourced Capital] is an online marketplace that provides a platform for small businesses to source capital from members of their communities. Members finance part of a loan by buying a $50 unit of the loan issued to the business. "@en ;
+    od:hasLFId "P2_1", "P6" ;
+    od:hasProblem "Solutions to ecological and social problems often require third-party funding, but do not sufficiently attract mainstream investors or banks."@en ;
+    od:hasReference "(Clinton & Whisnant, 2014)" ;
+    od:hasSolution "Mobilizing a network, usually online, to tap the financial resources of a mixed group of people and to circumvent traditional financiers such as banks. Forms of crowdfunding are e.g. donationbased, loan-based and equity-based."@en ;
+    od:toPatternGroup bmg:G02 ;
+    a od:Pattern ;
+    skos:prefLabel "Crowdfunding"@en .
+
+bmp:P2_2
+    od:hasContext "Traditional banks tend to decline loans to base of the pyramid and low-income groups because of high transaction costs and a lack of collateral and credit history."@en ;
+    od:hasExample "[WaterCredit], an initiative launched by the nonprofit Water.org, provides access to safe water and sanitation in developing countries by issuing microfinance loans for clean water and toilets for individual- and communal use. "@en ;
+    od:hasLFId "P2_2", "P21" ;
+    od:hasProblem "Base of the pyramid and low-income groups lack access to financial services and thus financial literacy. They often just need small amounts of money to buy muchneeded things or engage in local business."@en ;
+    od:hasReference "(Clinton & Whisnant, 2014)" ;
+    od:hasSolution "Providing small loans and financial services to people without access to conventional banks. Microfinance is often provided through group-lending systems where group members act as guarantors for each other."@en ;
+    od:toPatternGroup bmg:G02 ;
+    a od:Pattern ;
+    skos:prefLabel "Microfinance"@en .
+
+bmp:P2_3
+    od:hasContext "Base of the pyramid and low-income groups, both in developed and developing countries, are often excluded from consumption possibilities due to price barriers or because offerings for these groups do not exist."@en ;
+    od:hasExample "[Grameen-Veolia] is a social joint venture with the purpose of bringing safe and affordable drinking water to Bangladesh’s rural population. The water supplier is set up as a selfsustaining, no-loss and no-dividends business. "@en ;
+    od:hasLFId "P2_3", "P37" ;
+    od:hasProblem "Financially selfsustaining businesses are needed to offer products and services to base of the pyramid and low-income groups.  These businesses should not be geared towards the interests of investors as this can lead to mission drift."@en ;
+    od:hasReference "(Michelini & Fiorentino, 2012)" ;
+    od:hasSolution "Investors are entitled to get their money back. But profits are not distributed to them as these are reinvested to improve the product or service quality or to fund new social businesses. Social target groups benefit from improved product and service quality and/or lower prices."@en ;
+    od:toPatternGroup bmg:G02 ;
+    a od:Pattern ;
+    skos:prefLabel "Social Business Model: No dividends"@en .
+
+bmp:P3_1
+    od:hasContext "There is a growing need of reducing the use of virgin, finite resources and diminishing waste and pollution, in particular when it comes to complex products that use critical resources such as rare earths."@en ;
+    od:hasExample "[Epson’s] EcoTank printer range is comprised of printers that are equipped with refillable ink tanks with a printing capacity of up to 50 ink cartridge sets, depending on the model. While these printers come with a hefty price tag, their ink tanks are not only more convenient and durable than regular ink cartridges, but also provide higher cost savings in terms of page yield. "@en ;
+    od:hasLFId "P3_1", "P13" ;
+    od:hasProblem "To avoid early obsolescence and related resource wastage products must be built to last. But companies need an incentive to offer products that are sold less frequently."@en ;
+    od:hasReference "(Planing, 2015)" ;
+    od:hasSolution "Employing a hybrid model that combines a durable product and short-lived consumables. That is, selling a long-lasting device, such as a copier, and remanufacturing its short-lived parts, such as toner cartridges, where the company obtains revenues mainly from the consumables."@en ;
+    od:toPatternGroup bmg:G03 ;
+    a od:Pattern ;
+    skos:prefLabel "Hybrid model/Gap-exploiter model"@en .
+
+bmp:P3_2
+    od:hasContext "Because of increasing threats to human health and natural ecosystems there is a growing need of reducing the use of finite resources and diminishing waste and pollution."@en ;
+    od:hasExample "To help achieve their Mission Zero, [Interface] developed Microtuft, a new carpet tile that uses 50% less yarn than conventional tiles. The company purchases raw materials that are recycled or bio-based and uses ultrasonic cutting equipment, which reduces excess trimmings and improves resource efficiency. "@en ;
+    od:hasLFId "P3_2", "P19" ;
+    od:hasProblem "Resource efficiency, including physical materials and energy, must be increased to save resources and reduce waste."@en ;
+    od:hasReference "(Bocken et al., 2014)" ;
+    od:hasSolution "Seeking to improve resource efficiency, reduce waste and emissions through product and process redesign, such as lean manufacturing, ecoefficiency (Factor 4 and Natural Capitalism), and cleaner production."@en ;
+    od:toPatternGroup bmg:G03 ;
+    a od:Pattern ;
+    skos:prefLabel "Maximise material productivity and energy efficiency"@en .
+
+bmp:P3_3
+    od:hasContext "There is growing pressure on most industries to improve eco-efficiency and effectiveness in products; e.g. due to societal and political expectations for products that support a circular economy."@en ;
+    od:hasExample "[Xella Denmark] produces innovative Autoclaved Aerated Concrete blocks that are Cradle-to-Cradle certified. Throughout the entire life cycle of Xella’s products sustainability is a guiding principle, i.e. from raw material extraction to waste. "@en ;
+    od:hasLFId "P3_3", "P27" ;
+    od:hasProblem "Product design based on a traditional, linear economy model does often not consider the whole product life cycle and can be ecologically harmful and inefficient."@en ;
+    od:hasReference "(Kiørboe et al., 2015)" ;
+    od:hasSolution "Offering responsible and sustainable products that last, increase users' ecoefficiency, and are reusable, repairable, and/or recyclable. Risks in production and use are reduced, e.g. toxicity. This allows replacing inefficient and harmful product designs."@en ;
+    od:toPatternGroup bmg:G03 ;
+    a od:Pattern ;
+    skos:prefLabel "Product Design"@en .
+
+bmp:P3_4
+    od:hasContext "Because of increasing threats to human health and natural ecosystems there is a growing need of reducing the use of finite resources and diminishing waste and pollution."@en ;
+    od:hasExample "[Adnams], a British brewery, built a new distribution center using primarily low carbon materials with excellent insulating properties (e.g. lime and hemp) and also installed solar heating and rainwater recovery systems. The new production equipment is of high quality and efficiency – e.g. 90% of the heat produced in one brew is used to in the next brew. "@en ;
+    od:hasLFId "P3_4", "P39" ;
+    od:hasProblem "Industrial production inputs and processes often depend on finite resources, cause environmental harm, and are thus not resilient in the long-term."@en ;
+    od:hasReference "(Bocken et al., 2014)" ;
+    od:hasSolution "Substituting finite and non-recyclable production inputs with renewable resources and designing processes based on nature-inspired principles, e.g. closing material and energy cycles."@en ;
+    od:toPatternGroup bmg:G03 ;
+    a od:Pattern ;
+    skos:prefLabel "Substitute with renewables and natural processes"@en .
+
+bmp:P4_1
+    od:hasContext "In the current industrial economy, opportunities to leverage wasted and underutilized resources (e.g.  materials, energy, capacities, assets) are overlooked as companies tend to focus on their main products only."@en ;
+    od:hasExample "[British Sugar], the largest sugar producer in the UK, uses wastes from sugar production, such as residual resin and pulp, for the production of chemical products and animal feed, which are later sold on the market. "@en ;
+    od:hasLFId "P4_1", "P5" ;
+    od:hasProblem "Unused surplus material, waste and production costs must be reduced, while new revenue sources are needed, e.g. to support the economics of a new kind of product."@en ;
+    od:hasReference "(Albino & Fraccascia, 2015)" ;
+    od:hasSolution "Using the by-products from product generation as input for additional products that can be used by the company itself or sold on the market.  This allows reducing waste, optimizing material flows, and increasing revenues."@en ;
+    od:toPatternGroup bmg:G04 ;
+    a od:Pattern ;
+    skos:prefLabel "Co-Product Generation"@en .
+
+bmp:P4_2
+    od:hasContext "In the current industrial economy, opportunities to leverage wasted and underutilized resources (e.g.  materials, energy, capacities, assets) are often overlooked, partly because their potential cannot be exploited by single organizations."@en ;
+    od:hasExample "[Industrial symbiosis of Kalundborg in Denmark], where several industrial actors exploit each other’s by-products, surplus and waste materials on a commercial basis, including energy and water exchanges. "@en ;
+    od:hasLFId "P4_2", "P15" ;
+    od:hasProblem "Companies, industrial clusters and municipalities need to optimize and reduce their material and energy streams and associated costs."@en ;
+    od:hasReference "(Beltramello et al., 2013)" ;
+    od:hasSolution "Employing a shared or cascaded use of resources, byproducts, and waste materials among different actors on a commercial basis. Establishing inter-firm exchanges and linkages driven by the need to reduce virgin inputs, waste, and costs.  This allows reducing waste and optimizing material flows among multiple organizations."@en ;
+    od:toPatternGroup bmg:G04 ;
+    a od:Pattern ;
+    skos:prefLabel "Industrial Symbiosis"@en .
+
+bmp:P4_3
+    od:hasContext "In the current industrial economy, opportunities to leverage wasted and underutilized resources (e.g.  materials, energy) are often overlooked, partly because their potential cannot be exploited by single organizations. Connecting waste producers and users becomes crucial."@en ;
+    od:hasExample "[smileexchange.ie] is a free online platform where resource exchanges between members are facilitated through technical assistance, in order to increase cost savings, reduce waste going to landfill and to create new business opportunities. "@en ;
+    od:hasLFId "P4_3", "P23" ;
+    od:hasProblem "A lot of what is labeled waste can still be useful for some producers.  But useful waste has to be offered by one partner while it has to be identified by another."@en ;
+    od:hasReference "(Albino & Fraccascia, 2015)" ;
+    od:hasSolution "Creating an electronic marketplace for waste that matches supply and demand, enabling the exchange of waste between actors and retaining the value contained in materials. Companies providing such services gain earnings from commissions on transactions."@en ;
+    od:toPatternGroup bmg:G04 ;
+    a od:Pattern ;
+    skos:prefLabel "Online Waste Exchange Platform"@en .
+
+bmp:P4_4
+    od:hasContext "There is a growing need of reducing the use of virgin, finite resources and diminishing waste and pollution.  There is also a need to look for new input sources due to increasing resource scarcities."@en ;
+    od:hasExample "[Bionic Yarn], a New York-based company that makes fibers out of materials such as plastic bottles and recovered ocean plastic that can be used to make clothing, e.g. G-STAR RAW’s Raw for the Oceans Fall/Winter 2015 collection. "@en ;
+    od:hasLFId "P4_4" ;
+    od:hasProblem "Much of the value that is still contained in product materials is lost after the use phase."@en ;
+    od:hasReference "(Planing, 2015)" ;
+    od:hasSolution "Recycling used products in such a way that their base materials are recovered and most of their embodied value (energy, labor, financial capital) is retained. This allows gaining access to resources and retaining the value contained in materials."@en ;
+    od:toPatternGroup bmg:G04 ;
+    a od:Pattern ;
+    skos:prefLabel "Product Recycling"@en .
+
+bmp:P4_5
+    od:hasContext "There is a growing need of reducing the use of virgin, finite resources and diminishing waste and pollution.  Products that have been used often still have use value for others, but in some cases they need to be completely overhauled or even decomposed and remanufactured."@en ;
+    od:hasExample "[Apple Certified Refurbished] Macs are likely to be returned or reconditioned models. The returned unit may have been faulty (and fixed) or may have been returned under the standard sale-and-returns procedure. All refurbished Macs are cleaned, checked, tested and visually indistinguishable from brand new models and come with a one-year warranty. "@en ;
+    od:hasLFId "P4_5" ;
+    od:hasProblem "Much of the value that is still contained in products after their first life is often lost after they have been used."@en ;
+    od:hasReference "(Planing, 2015)" ;
+    od:hasSolution "Used products flow (back) to a manufacturer who repairs or replaces product components, incl. cosmetic updates (refurbishment), or disassembles products to reuse their components in as new products (remanufacturing). This allows retaining the value contained in products and creating new revenue sources."@en ;
+    od:toPatternGroup bmg:G04 ;
+    a od:Pattern ;
+    skos:prefLabel "Remanufacturing / Next Life Sales"@en .
+
+bmp:P4_6
+    od:hasContext "There is a growing need of reducing the use of virgin, finite resources and diminishing waste and pollution, in particular when products have the potential to be repaired or maintained."@en ;
+    od:hasExample "[Agito Medical] offers service contracts on CT and MRI equipment, such as delivering spare parts, engineering and maintenance services.  Thereby equipment may be repaired and upgraded, rather than replaced. The flexibility of these services secures a maximum possible uptime of the equipment, and prolongs the lifespan of the entire system. "@en ;
+    od:hasLFId "P4_6" ;
+    od:hasProblem "Much of the value that is still contained in products is lost after they have been used when they cannot be repaired or maintained."@en ;
+    od:hasReference "(Kiørboe et al., 2015)" ;
+    od:hasSolution "Products remain the customer’s property, but broken or used products are repaired and/or maintained by a service provider. The same products are used again and longer, and the value they contain is retained."@en ;
+    od:toPatternGroup bmg:G04 ;
+    a od:Pattern ;
+    skos:prefLabel "Repair"@en .
+
+bmp:P4_7
+    od:hasContext "There is a growing need of reducing the use of virgin, finite resources and diminishing waste and pollution.  Products that have been used often still have use value for others, in particular when they are still working."@en ;
+    od:hasExample "[Godsinlösen] redistributes damaged, insured goods. Godsinlösen retrieves damaged goods from policyholders and ensures that they are handled, by being reused or recycled, as effective and transparent as possible in line with environmental standards. "@en ;
+    od:hasLFId "P4_7" ;
+    od:hasProblem "Much of the value that is still contained in products after their first life is lost after they have been used."@en ;
+    od:hasReference "(Kiørboe et al., 2015)" ;
+    od:hasSolution "Used products flow (back) to a service provider and/or distributor, either directly or via an intermediary, and are then resold, maybe in slightly enhanced form. This allows retaining the value contained in products and creating new revenue sources."@en ;
+    od:toPatternGroup bmg:G04 ;
+    a od:Pattern ;
+    skos:prefLabel "Reuse"@en .
+
+bmp:P4_8
+    od:hasContext "Because of increasing threats to human health and natural ecosystems there is a growing need of reducing the use of virgin, finite resources and diminishing waste and pollution. Managing take back systems for products, parts or base materials can support circular economy models."@en ;
+    od:hasExample "[Desso], a Dutch manufacturer of carpets, carpet tiles and artificial grass, developed its own Take Back Programme to take back and recycle old carpets from customers and noncustomers to make new carpets. "@en ;
+    od:hasLFId "P4_8" ;
+    od:hasProblem "Waste management and waste handling costs need to be optimized to create ecological and economic benefits."@en ;
+    od:hasReference "(Bisgaard et al., 2012)" ;
+    od:hasSolution "Implementing channels and management systems to recover products or parts from customers and distributors. This allows bringing back products or parts to manufacturers."@en ;
+    od:toPatternGroup bmg:G04 ;
+    a od:Pattern ;
+    skos:prefLabel "Take Back Management"@en .
+
+bmp:P4_9
+    od:hasContext "Fast-moving markets and technological developments lead to shorter product life with regard to actuality of version, aesthetics etc."@en ;
+    od:hasExample "The [Fairphone] is built to last by combining a modular architecture with the possibility of repair. Affordable spare parts and free tutorials are offered to facilitate phone repair. Plus, its source code is provided to extend the lifetime of the software. "@en ;
+    od:hasLFId "P4_9" ;
+    od:hasProblem "Despite having past their first life, outdated or obsolete products often function properly and contain valuable elements that should not be wasted."@en ;
+    od:hasReference "(Planing, 2015)" ;
+    od:hasSolution "Replacing outdated components that are part of products in use with technologically superior or updated components. This allows using working products as long as possible."@en ;
+    od:toPatternGroup bmg:G04 ;
+    a od:Pattern ;
+    skos:prefLabel "Upgrading"@en .
+
+bmp:P5_1
+    od:hasContext "There is growing pressure on companies to be more transparent and efficient, e.g. in terms of using natural resources and avoiding risks and harms to their supply chain partners and customers."@en ;
+    od:hasExample "[IKEA] has developed the IKEA Way on Purchasing Products, Materials and Services (IWAY) as Management a supplier code of conduct. IKEA has systemized and formalized social and environmental standards, which are to be met in the sourcing of raw materials and core services throughout the entire company. This has resulted e.g. in reduced use of toxic chemicals. "@en ;
+    od:hasLFId "P5_1" ;
+    od:hasProblem "The efficiency and transparency of supply chains needs to be improved, inter alia to mitigate ecological and social risks. Companies must reduce the use of non-sustainable materials and find ways to substitute risky inputs, source and reuse waste and surplus materials."@en ;
+    od:hasReference "(Bisgaard et al., 2012)" ;
+    od:hasSolution "Sourcing raw inputs and components in the most eco-friendly way possible and reducing or even eliminating toxic inputs. Suppliers are urged to commit to green supply chain management. Partners and networks are crucial for green supply chains."@en ;
+    od:toPatternGroup bmg:G05 ;
+    a od:Pattern ;
+    skos:prefLabel "Green Supply Chain Management"@en .
+
+bmp:P5_2
+    od:hasContext "A lack of attention to the livelihood of local suppliers by large corporations can often result in a decline in both economic and social value."@en ;
+    od:hasExample "[Woolworths South Africa] sources directly from local farmers, as well as provides credit and training in crop selection and sustainable farming, driven by the goal to be more independent from global supply chains, strengthen local farming and improve local economies. "@en ;
+    od:hasLFId "P5_2" ;
+    od:hasProblem "Disruptions in the supply chain and reputational damage can occur when companies ignore the welfare of local suppliers affected by their business operations."@en ;
+    od:hasReference "(Clinton & Whisnant, 2014)" ;
+    od:hasSolution "Integrating local, lowincome or less skilled suppliers into the supply chains of existing for-profit companies. This can require providing financial support and training opportunities to develop local suppliers’ capabilities."@en ;
+    od:toPatternGroup bmg:G05 ;
+    a od:Pattern ;
+    skos:prefLabel "Inclusive Sourcing"@en .
+
+bmp:P5_3
+    od:hasContext "Base of the pyramid and low-income consumers tend to make small, but frequent purchases. These customers are often not reached by major suppliers, both in terms of outlets and product or service formats."@en ;
+    od:hasExample "[Zain] in Madagascar offers shared phone services to those unable to afford their own handsets, through existing retail outlets that are part of the Village Phone Program. "@en ;
+    od:hasLFId "P5_3" ;
+    od:hasProblem "Local retail outlets in base of the pyramid and low-income areas often underperform because they lack the capacities to accommodate the purchasing habits of their customer base."@en ;
+    od:hasReference "(Jenkins et al., 2011)" ;
+    od:hasSolution "Offering products and services that match customers’ cash-flows (e.g., small-sized product units) and employing specialized, independent distributors. This can require strengthening existing retail outlets and delivery channels through training and financing partners as local vendors."@en ;
+    od:toPatternGroup bmg:G05 ;
+    a od:Pattern ;
+    skos:prefLabel "Micro Distribution and Retail"@en .
+
+bmp:P5_4
+    od:hasContext "Green and social start-ups need less costly and scalable distribution systems. As customers become comfortable with online shopping, switching from brick and mortar to virtual channels becomes an option."@en ;
+    od:hasExample "[Sungevity], a residential solar installation and financing company, developed a scalable online sales model where customers get a price quote within 24 hours. Remote engineers design the solar systems using satellite imagery. "@en ;
+    od:hasLFId "P5_4" ;
+    od:hasProblem "The physical systems needed to distribute products, such as classic shops, are often expensive, resource-intensive, and hardly scalable."@en ;
+    od:hasReference "(Clinton & Whisnant, 2014)" ;
+    od:hasSolution "Introducing virtual customer relationships and channels, and only a few or no retail outposts. Making use of third-party platforms, e.g.  shop-in-shop models. This allows increasing resource efficiency and scalability of product distribution."@en ;
+    od:toPatternGroup bmg:G05 ;
+    a od:Pattern ;
+    skos:prefLabel "Physical to Virtual"@en .
+
+bmp:P5_5
+    od:hasContext "Aligning supply and demand is particularly challenging for new types of offerings, which can result in excess material in the production cycle and inefficient use of scarce financial resources."@en ;
+    od:hasExample "To determine whether there is sufficient customer demand for the [Tesla] Model 3 to begin production, future Model 3 owners were asked to reserve a vehicle by making a deposit of $1,000. "@en ;
+    od:hasLFId "P5_5" ;
+    od:hasProblem "Overproduction that results in inefficient resource use and/or a lack of financial resources to produce stocks of products."@en ;
+    od:hasReference "(Clinton & Whisnant, 2014)" ;
+    od:hasSolution "Producing a product only when consumer demand is verified, e.g. via online platforms that allow customers to place pre-orders, to vote on preferred products or even to design their own products. This allows reducing overproduction and inefficient use of resources."@en ;
+    od:toPatternGroup bmg:G05 ;
+    a od:Pattern ;
+    skos:prefLabel "Produce on Demand"@en .
+
+bmp:P5_6
+    od:hasContext "There is growing pressure on companies to be more transparent and efficient, e.g. in terms of using natural resources and avoiding risks and harms to their supply chain partners and customers."@en ;
+    od:hasExample "[McDonalds] is committed to Good Sourcing, meaning that the company works directly with its suppliers who, in their words, are committed to sustainable supply chain management and compliance, i.e. requirements for ethics, environmental responsibility and economic viability. "@en ;
+    od:hasLFId "P5_6" ;
+    od:hasProblem "The efficiency and transparency of supply chains needs to be improved, inter alia to mitigate ecological and social risks. For greater transparency, the traceability of resources and products must be improved."@en ;
+    od:hasReference "(The Crowd & Fishburn, 2014)" ;
+    od:hasSolution "Reducing the length and complexity of supply chains, e.g. spatially, through less and closer partner and customer relationships. Improving transparency, e.g.  by reducing the number of connections or knowledge sharing with suppliers."@en ;
+    od:toPatternGroup bmg:G05 ;
+    a od:Pattern ;
+    skos:prefLabel "Shorter Supply Chains"@en .
+
+bmp:P6_1
+    od:hasContext "Base of the pyramid and low-income groups, in both developed and developing countries, are often excluded from particular forms of consumption due to price barriers or because markets for these groups do often not exist."@en ;
+    od:hasExample "[2 Degrees] sells nutrition bars directly to consumers and through retail outlets. For every 2 Degrees bar purchased, the company provides a meal to a hungry child. The company does this by forming partnerships with nonprofit organizations that provide food assistance e.g. through health clinics, schools, and community groups."@en ;
+    od:hasLFId "P6_1" ;
+    od:hasProblem "Some social target groups need a product or service but lack access to it or cannot afford to buy it."@en ;
+    od:hasReference "(Clinton & Whisnant, 2014)" ;
+    od:hasSolution "Donating goods or services in a fixed ratio to regular sales. Costs can be covered by regular sales revenues, third-party donations or social investors."@en ;
+    od:toPatternGroup bmg:G06 ;
+    a od:Pattern ;
+    skos:prefLabel "Buy One, Give One"@en .
+
+bmp:P6_2
+    od:hasContext "Some social groups are excluded from consumption possibilities due to price barriers or because offerings for these groups do not exist."@en ;
+    od:hasExample "[co2online] offers free online tools to help users track and reduce their energy consumption, costs, and CO_2 emissions. Based on the generated information about users’ energy consumption, co2online offers commercial services such as customized market studies. "@en ;
+    od:hasLFId "P6_2" ;
+    od:hasProblem "A social target group may wish to use a product or service, but is not willing or able to pay for it."@en ;
+    od:hasReference "(Dohrmann et al., 2015)" ;
+    od:hasSolution "Offering a product or service for free to a social target group while earning revenues from commercial customers, e.g. based on the information generated by the social target group."@en ;
+    od:toPatternGroup bmg:G06 ;
+    a od:Pattern ;
+    skos:prefLabel "Commercially Utilized Social Mission"@en .
+
+bmp:P7_1
+    od:hasContext "Base of the pyramid and low-income groups, in both developed and developing countries, are often excluded from particular forms of consumption due to price barriers or because markets for these groups do often not exist."@en ;
+    od:hasExample "[Novartis’ Arogya Parivar], a multi-national pharma company, combined education and sales efforts to create a for-profit initiative to improve health outcomes for poor, rural communities in India. Arogya Parivar employs health educators to create faith in medicine.  Accompanying supervisors educate doctors and pharmacies and assess local needs. Where necessary, Novartis seeks local partners to build up capacity. "@en ;
+    od:hasLFId "P7_1" ;
+    od:hasProblem "Customers need a product or service, but lack access, or cannot afford it. Markets are only insufficiently developed."@en ;
+    od:hasReference "(Clinton & Whisnant, 2014)" ;
+    od:hasSolution "Creating a new marketing system for otherwise neglected customer segments, by building new customer relationships, distribution channels, and revenue models. This allows offering products and services that take into account the needs of social target groups and their varying education and income levels."@en ;
+    od:toPatternGroup bmg:G07 ;
+    a od:Pattern ;
+    skos:prefLabel "Building a Marketplace"@en .
+
+bmp:P7_2
+    od:hasContext "Approximately 3.5 billion people worldwide lack access to financial services because institutions face high transaction costs and complex logistics to reach the poor, especially in remote areas, due to the cumbersome nature of securely transporting and distributing cash. Providers of other goods and services that require distribution infrastructure and payment mechanisms share this challenge."@en ;
+    od:hasExample "[FINO] offers, among other services, biometric smart card-based electronic wallets for 23 million customers to receive and spend social benefits distributed by the government of India. "@en ;
+    od:hasLFId "P7_2" ;
+    od:hasProblem "High transaction costs and complex logistics hinder safe payment and distribution of products and services to base of the pyramid and lowincome groups, especially in developing countries and remote areas.  Often, these groups lack access to basic financial services."@en ;
+    od:hasReference "(Jenkins et al., 2011)" ;
+    od:hasSolution "Offering cashless accounts and payment systems to social target groups without bank access. These accounts are used in combination with e-transaction platforms that enable transactions between product and service providers and customers."@en ;
+    od:toPatternGroup bmg:G07 ;
+    a od:Pattern ;
+    skos:prefLabel "e-Transaction Platforms"@en .
+
+bmp:P7_3
+    od:hasContext "Traditional banks tend to decline loans to base of the pyramid and low-income groups because of high transaction costs and a lack of collateral and credit history."@en ;
+    od:hasExample "[Promigas], a natural gas utility in Colombia, issues credit for renovations and housing appliances to homeowners, only if those homeowners have paid off their connection fees. "@en ;
+    od:hasLFId "P7_3" ;
+    od:hasProblem "Base of the pyramid and low-income groups lack access to financial services and thus financial literacy. They often just need small amounts of money to buy muchneeded things or engage in local business."@en ;
+    od:hasReference "(Jenkins et al., 2011)" ;
+    od:hasSolution "Providing access to credit (as a non-bank) based on former experience with the customer, instead of formal bank applications. Lending is not based on a customer’s credit history, but on other transactions in the past."@en ;
+    od:toPatternGroup bmg:G07 ;
+    a od:Pattern ;
+    skos:prefLabel "Experience-Based Customer Credit"@en .
+
+bmp:P7_4
+    od:hasContext "Some people are not connected to basic supplies because they live in remote areas with a lack of infrastructures, or belong to the base of the pyramid and low-income groups."@en ;
+    od:hasExample "[Manila Water] in the Philippines is experimenting with stand-alone water systems that provide communities outside its network area with clean, affordable water. Partners, usually local governments, operate these systems and customers pay their bills at local shops—with the balances transferred to the company via mobile banking. "@en ;
+    od:hasLFId "P7_4" ;
+    od:hasProblem "Base of the pyramid and low-income groups often lack access to basic supplies because they live in remote areas, cannot afford the services, and because of high default risks and transaction costs."@en ;
+    od:hasReference "(Jenkins et al., 2011)" ;
+    od:hasSolution "Providing basic supplies through extended grid coverage and bundling financing (e.g., tiered pricing), technology (e.g., smart metering), and customer service (e.g., maintenance) to minimize technical and commercial losses and ensure that customers are paying."@en ;
+    od:toPatternGroup bmg:G07 ;
+    a od:Pattern ;
+    skos:prefLabel "Last-Mile Grid Utilities"@en .
+
+bmp:P7_5
+    od:hasContext "The costs for higher education, e.g. university degrees, can consume a considerable share of a families’ income.  Higher education is essential for professional careers, but base of the pyramid and low-income groups often do not have access to higher education."@en ;
+    od:hasExample ""@en ;
+    od:hasLFId "P7_5" ;
+    od:hasProblem "Providing access to higher education to everyone, including those with low income, by making higher education affordable. E.g.  through standardized and modular curricula, hiring part-time instructors, onsite and distance learning, offering flexible financing options."@en ;
+    od:hasReference "(Jenkins et al., 2011)" ;
+    od:hasSolution "[Uniminuto], an educational institution in Colombia, offers professional and technical training to low- and middle income students both on-site and online at affordable rates. Uniminuto, for instance, rents or shares buildings with other educational institutions to keep its tuition prices low. "@en ;
+    od:toPatternGroup bmg:G07 ;
+    a od:Pattern ;
+    skos:prefLabel "Value-for-Money Degrees"@en .
+
+bmp:P7_6
+    od:hasContext "A home is the biggest investment most people ever make and they have to be convinced it is worth the commitment, which can feel risky. Lower-income groups are often not able to invest in own homes and build up capital and financial security."@en ;
+    od:hasExample "[VINTE], a Mexican developer, sells homes in multi-unit buildings starting at $23,000 for 42 square meters, including a kitchen, joint livingdining space, two bedrooms and one bathroom. The homes are designed to reduce gas bills by 75%. Some buildings have rooftop solar cells to lower electricity costs. "@en ;
+    od:hasLFId "P7_6" ;
+    od:hasProblem "Base of the pyramid and low-income groups often do not have access to higher education, because they are not able to pay for it, have to work full-time, do not believe in the added value of studies, or because universities are far away.  Lower-income earners face both financial and educational barriers to buying a flat or house.  They often do not have the financial means and they often lack the capabilities to navigate the financing process."@en ;
+    od:hasReference "(Jenkins et al., 2011)" ;
+    od:hasSolution "Offering affordable home ownership by bundling high value for money homes (e.g., efficient design), facilitating access to financing (e.g., third-party financing), and customer support (e.g., customer training)."@en ;
+    od:toPatternGroup bmg:G07 ;
+    a od:Pattern ;
+    skos:prefLabel "Value-for-Money Housing"@en .
+
+bmp:P8_1
+    od:hasContext "Some social groups are denied help or sidelined because of a lack of understanding for their particular situation."@en ;
+    od:hasExample "[Väter] (German for fathers) aims at improving the acceptance of fathers staying at home to care for their children. Väter provides services based on knowledge acquired by collaborating with fathers. Services include corporate training courses on work-life balance and online networking for fathers. "@en ;
+    od:hasLFId "P8_1" ;
+    od:hasProblem "Some social target groups lack information that is needed to improve their situation, e.g. in terms of self-help or acceptance."@en ;
+    od:hasReference "(Zeyen et al., 2014)" ;
+    od:hasSolution "Accumulating problem specific know-how as a resource. This know-how is derived from affected persons’ experiences and is used to educate, train, and help social target groups."@en ;
+    od:toPatternGroup bmg:G08 ;
+    a od:Pattern ;
+    skos:prefLabel "Expertise Broker"@en .
+
+bmp:P8_2
+    od:hasContext "Some social groups are not able to engage as productive workforce, although they wish to, e.g. because of a lack of skills or labor markets for these groups do not exist."@en ;
+    od:hasExample "[Fifteen], a social enterprise started by British celebrity chef Jamie Oliver, involves several top class restaurants that provide training and fulltime positions (upon completion) to disadvantaged young people. Part of the restaurants’ profits is used to fund the training. "@en ;
+    od:hasLFId "P8_2" ;
+    od:hasProblem "A social target group may wish to engage in production processes, i.e., engage in a productive way, but does not have access to suitable jobs."@en ;
+    od:hasReference "(Dohrmann et al., 2015)" ;
+    od:hasSolution "Offering opportunities to excluded social target groups to engage as productive and paid workforce.  They can help in generating market revenues. Training and capability development might be required."@en ;
+    od:toPatternGroup bmg:G08 ;
+    a od:Pattern ;
+    skos:prefLabel "Market-Oriented Social Mission"@en .
+
+bmp:P8_3
+    od:hasContext "Base of the pyramid and low-income groups are often excluded from particular forms of consumption due to price barriers or because markets for these groups do not exist."@en ;
+    od:hasExample "[Arbeiterkind] (‘Working-class Child’) is a mentoring network and information platform that helps young adults with working class background to overcome barriers such as financial concerns to pursue a university degree. This venture to fight social segregation in the German academic system is supported by volunteers, donations and governmental funds. "@en ;
+    od:hasLFId "P8_3" ;
+    od:hasProblem "A social target group is interested in a product or service, but is not able to pay for it. (The problem can also be found on the production side. In this case, this pattern would be about a social target group on the production side)."@en ;
+    od:hasReference "(Dohrmann et al., 2015)" ;
+    od:hasSolution "Launching a dedicated project/organization aimed at satisfying the consumption need of a target group that does not have sufficient funds to pay for a product or service. The social mission is largely funded by social investors and supported by volunteers."@en ;
+    od:toPatternGroup bmg:G08 ;
+    a od:Pattern ;
+    skos:prefLabel "One-Sided Social Mission"@en .
+
+bmp:P8_4
+    od:hasContext "Base of the pyramid and low-income groups, both in developed and developing countries, are often excluded from business and income opportunities due to a lack of skills and business organizations dedicated to these groups."@en ;
+    od:hasExample "[Grameen Bank] is a formal bank that is owned to 94 percent by the poor, mostly female borrowers of the bank, and it serves them exclusively. The remaining six percent is owned by the government. "@en ;
+    od:hasLFId "P8_4" ;
+    od:hasProblem "Income opportunities and business skills must be improved among base of the pyramid and low-income groups to alleviate poverty and improve their socioeconomic situation."@en ;
+    od:hasReference "(Michelini & Fiorentino, 2012)" ;
+    od:hasSolution "Launching an enterprise owned and run by the social target group to generate market-based revenues and even make profits. The social target group benefits from income and business opportunities."@en ;
+    od:toPatternGroup bmg:G08 ;
+    a od:Pattern ;
+    skos:prefLabel "Social Business Model: Empowerment"@en .
+
+bmp:P8_5
+    od:hasContext "Two-sided platforms are an effective means to match suppliers and users of products and services. This approach is not only applicable to traditional online platforms such as search engines, but also to social businesses."@en ;
+    od:hasExample "[Was hab’ ich?] (‘What do I have?’) is an online interactive platform, where medical students translate diagnostic findings for patients in laymen’s terms and exchange knowledge and learning opportunities with fellow medical students and doctors. "@en ;
+    od:hasLFId "P8_5" ;
+    od:hasProblem "A social target group is interested in a product or service, but is not able to pay for it, while a second group is looking for possibilities to engage in a productive and meaningful way."@en ;
+    od:hasReference "(Dohrmann et al., 2015)" ;
+    od:hasSolution "Offering a platform, maybe third party-funded, to match two social target groups, one on the production and one on the consumption side. The group on the production side offers free production support for the consuming social target group."@en ;
+    od:toPatternGroup bmg:G08 ;
+    a od:Pattern ;
+    skos:prefLabel "Two-Sided Social Mission"@en .
+
+bmp:P9_1
+    od:hasContext "The development of new products or services to solve fundamental ecological or social problems, such as investing in a new drug, can be too risky for clients to do it based on their own resources."@en ;
+    od:hasExample "The [NYC ABLE] Project for Incarcerated Youth: Adolescent Behavioral Learning Experience (ABLE) Program launched by the New York City Department of Correction aims to reduce the re-incarceration rate by at least 10 percent among youths at Rikers Island through an evidence-based intervention program targeted at improving personal responsibility and decisionmaking. If the program fails to meet its goal, New York City government is not required to provide funding to MDRC, the non-profit overseeing the project. "@en ;
+    od:hasLFId "P9_1" ;
+    od:hasProblem "Clients face the risk of insufficient or adverse outcomes of a product, service or process, which could lead to an inefficient use of their own limited resources."@en ;
+    od:hasReference "(Clinton & Whisnant, 2014)" ;
+    od:hasSolution "Employing success-based contracting, usually between providers of a new product or service and the client, in which payments depend on meeting a predefined success level."@en ;
+    od:toPatternGroup bmg:G09 ;
+    a od:Pattern ;
+    skos:prefLabel "Pay for Success"@en .
+
+bmp:P9_2
+    od:hasContext "Replacing established and/or complex products, or technologies in a broader sense, is challenging due to several barriers to their diffusion. In particular providers of eco-friendly technologies have to find ways to make their offerings attractive."@en ;
+    od:hasExample "[Tesla] sells e-mobiles as products owned by individual customers. The company also offers the charging infrastructure, where the revenue model is currently changing from free to paid charging. Further services include over-the-air software updates that add new features and functionality to the cars. "@en ;
+    od:hasLFId "P9_2" ;
+    od:hasProblem "New or complex products often come with additional services, such as maintenance or updates. In some cases, these additional services can be crucial to convince users to switch from old and inefficient products to new, more eco-friendly versions."@en ;
+    od:hasReference "(Planing, 2015)" ;
+    od:hasSolution "The business model is still mainly geared towards sales of products, but some extra services are added. The product is usually owned by the customer. Customers pay for the product and product-related services offered by the provider."@en ;
+    od:toPatternGroup bmg:G09 ;
+    a od:Pattern ;
+    skos:prefLabel "Product-oriented Services"@en .
+
+bmp:P9_3
+    od:hasContext "Replacing established and/or complex products, or technologies in a broader sense, is challenging due to several barriers to their diffusion. In particular providers of eco-friendly technologies have to find ways to make their offerings attractive."@en ;
+    od:hasExample "[Xerox] introduced pay per print solutions that have been followed by most copier producers.  Pay per print means that the customer pays per print, while the copier producer takes over all activities needed to perform the copying or printing functions, including paper, toner, maintenance, repair and replacement of parts or whole copiers if necessary. "@en ;
+    od:hasLFId "P9_3" ;
+    od:hasProblem "Switching from old, often inefficient products can be complicated and expensive for users.  They are thus not willing or able to invest in new, more efficient products, or technologies in a broader sense. In some cases, this can inhibit switching from old and inefficient products to new, more eco-friendly versions."@en ;
+    od:hasReference "(Planing, 2015)" ;
+    od:hasSolution "The client and provider in principle agree on a result, and there is no predetermined product involved. The service provider owns the product and is responsible for its use. This creates more accountability within the broader system for product disposal, and higher likelihood of product repair, reuse and recycling.  The customer pays for an outcome and not for buying or using a particular product."@en ;
+    od:toPatternGroup bmg:G09 ;
+    a od:Pattern ;
+    skos:prefLabel "Result-oriented Services"@en .
+
+bmp:P9_4
+    od:hasContext "Replacing established and/or complex products, or technologies in a broader sense, is challenging due to several barriers to their diffusion. In particular providers of eco-friendly technologies have to find ways to make their offerings attractive."@en ;
+    od:hasExample "[Rolls Royce plc] offers maintenance and other services around the aircraft turbines they provide to airlines (Power by the hour). Instead of charging per turbine sold, Rolls Royce uses a total care model focused on achieving outcomes for customers. Customers pay a service fee that includes the turbines, maintenance, and further services. "@en ;
+    od:hasLFId "P9_4" ;
+    od:hasProblem "Using a new or complex product, or technology in a broader sense, can be challenging for users and they might need support to use and maintain it properly. In some cases, this can inhibit switching from old and inefficient products to new, more ecofriendly versions."@en ;
+    od:hasReference "(Tukker, 2004)" ;
+    od:hasSolution "The traditional product still plays a central role, but the business model is not geared towards selling products. The product usually stays in ownership with the provider and can be shared by a number of users. Customers pay e.g. a leasing, renting or service fee for the use and performance of a particular product."@en ;
+    od:toPatternGroup bmg:G09 ;
+    a od:Pattern ;
+    skos:prefLabel "Use-oriented Services"@en .

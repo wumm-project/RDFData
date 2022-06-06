@@ -9,6 +9,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix ed: <http://opendiscovery.org/rdf/EcoDesignPrinciple/> .
 @prefix edc: <http://opendiscovery.org/rdf/EcoDesignConcept/> .
+@prefix edg: <http://opendiscovery.org/rdf/EcoDesignGenericStrategy/> .
 
 <http://opendiscovery.org/rdf/EcoDesignPrinciples/>
     cc:attributionName "The Open Discovery Project" ;
@@ -129,6 +130,195 @@ edc:ReduceVolume
 edc:TransportationMeanSubstitution
     a od:EDPTool ;
     skos:prefLabel "Substitution of Transport Means"@en .
+
+edg:GS01
+    a od:EDPGenericStrategy ;
+    skos:note """According to TRIZ Law #6, during its evolution, when a technical system
+exhausts the possibilities of further significant improvement, it is included
+in a super-system as one of its parts. As a result, a new development of the
+system becomes possible. From an environmental point of view, the product
+reaches the minimum consumption of its energy resources, drastically reducing
+its environmental impact. The use of external resources usually does not
+contribute to increasing the impact as it concerns resources already present
+in the environment, and not yet exploited."""@en ;
+    skos:prefLabel "Switch to Super System"@en .
+
+edg:GS02
+    a od:EDPGenericStrategy ;
+    skos:note """Trimming is a good technique for making greener products. It consists of
+making a product constituted by fewer parts, with positive consequences on
+many aspects of the product life cycle, from the management of warehouse
+orders, storage, transport, as well as on reducing the mass. In order to
+achieve the maximum environmental benefits, it is preferable to start by
+eliminating those pieces having the highest impact on the environment. When a
+component is deleted from the system, it is better to try to exploit the
+resources already available in the super-system to replace its useful
+function."""@en ;
+    skos:prefLabel "Trimming"@en .
+
+edg:GS03
+    a od:EDPGenericStrategy ;
+    skos:note """According to TRIZ, the dematerialization of a product coincides with its
+Ideality. The TRIZ Ideal Product is that which does not exist while continuing
+to perform the function for which it was conceived.  In this way, the product
+is not associated with any energy flow, material, packaging, etc., and cannot
+produce environmental impacts. It consists in eliminating all useless product
+components, reducing toward zero auxiliary materials, consumables, or
+eliminating the distance. The ideal lawnmower coincides, for example, with a
+lawn made of dwarf grass or grass inhibited in its growth so that it no longer
+needs to be cut."""@en ;
+    skos:prefLabel "Dematerialization/Ideality"@en .
+
+edg:GS04
+    a od:EDPGenericStrategy ;
+    skos:note """In the case of manufacturing processes, Merging suggests making operations
+contiguous or parallel, bringing them together in time. The combination of the
+processes brings benefits by eliminating the impacts associated with the
+internal transport and/or packaging of the material, eliminating the problems
+of repositioning the piece, as well as offering the synergies of several
+machines that share the same energy and control sources."""@en ;
+    skos:prefLabel "Merging"@en .
+
+edg:GS05
+    a od:EDPGenericStrategy ;
+    skos:note """Generally, in order to increase the mechanical strength of an object, the
+thicknesses are increased, or the materials are substituted with greater
+density, which irredeemably contribute to an increased object mass. In this
+case, instead to increase the performances by reducing the mass, the goal is
+acting on the topology or on the distribution of the masses within the volume
+of the object, arranging the mass only where it is needed and eliminating the
+portions which have no functional characteristics.  A good trigger to help the
+designer in this task is to introduce TRIZ Principle #31 “Porous materials”,
+which involves making an object porous or adding porous elements. If already
+porous, you use the pores to introduce a useful substance or function into the
+object. Structural optimizer tools can be used to improve mass reduction, too."""@en ;
+    skos:prefLabel "Redesign the Internal Structure by Porosity"@en .
+
+edg:GS06
+    a od:EDPGenericStrategy ;
+    skos:note """TRIZ Principle #35 “Parameter change” entails changing an object’s physical
+state to a gas, liquid, or solid; changing pressure or other physical
+parameters; changing the concentration or consistency; changing the degree of
+flexibility; or changing the temperature. TRIZ Principle #36 “Phase
+transition” is the use of volume or other physical properties. The solutions
+working on the change in the physical state of the aggregation of a product
+provide results that are very appealing but not necessarily greener, e.g., a
+solid fuel is less explosive, but it is not more sustainable than other
+fuels. In order to achieve environmental benefits, it is advised to try its
+application on products where the transportation has a great incidence, e.g.,
+the gases that, in liquid state, occupy less volume and all types of liquids
+in a freeze-dried form. The benefits of the change of state can be amplified
+by taking advantage of the temporary properties emerging during the phase
+transition. For instance, water expansion during freezing is a property known
+from thousands of years in mines, where large stones are placed within water
+cavities and are broken by ice expansion."""@en ;
+    skos:prefLabel "Change the State of Aggregation"@en .
+
+edg:GS07
+    a od:EDPGenericStrategy ;
+    skos:note """TRIZ Principle #3 “Local quality” is used for reducing mental inertia when
+considering space and materials too homogeneous and continuous. It suggests to
+“Change an object’s structure from uniform to non-uniform, make each part of
+an object function in conditions most suitable for its operation, and make
+each part of an object fulfill a different and useful function”. We can say
+that, from the Ecodesign point of view, this principle tends to optimize the
+processes and, therefore, to reduce the energy and mass impacts. With the same
+principle we tend to conceive multi-function objects for exploiting synergies
+among functions."""@en ;
+    skos:prefLabel "Local Quality"@en .
+
+edg:GS08
+    a od:EDPGenericStrategy ;
+    skos:note """Substitute a material or an energy flow or changing a transport mean with a
+lower environmental impact. The application of this strategy has its maximum
+effectiveness if integrated with a library of materials and related
+environmental impacts."""@en ;
+    skos:prefLabel "Substitute"@en .
+
+edg:GS09
+    a od:EDPGenericStrategy ;
+    skos:note """TRIZ Principle #1 “Segmentation” is the key principle to make the system work
+only where needed (only in the Operative Zone). Segmentation entails dividing
+a system or object into independent parts or components (disassembly) and
+recombine them in a more suitable way for the purposes to achieve (e.g.,
+transport separately single parts). For example, use two small motors instead
+a big one to better optimize performance and exhaust gases. This principle
+does not guarantee greener results and must always be verified from an LCA
+(Life Cycle Assessment) point of view."""@en ;
+    skos:prefLabel "Segmentation of the Parts/Components"@en .
+
+edg:GS10
+    a od:EDPGenericStrategy ;
+    skos:note """Design for assembly (DFA) is a process whereby products are designed with ease
+of assembly in mind. If a product contains fewer parts it will take less time
+and energy to assemble, thereby reducing assembly impacts. In addition, if the
+parts are provided with features which make it easier to grasp, move, orient
+and insert, this will also reduce assembly time, energy and costs."""@en ;
+    skos:prefLabel "Design for Assembly"@en .
+
+edg:GS11
+    a od:EDPGenericStrategy ;
+    skos:note """TRIZ Principle #15 “Dynamics” is the key principle to make the system work
+only when needed (Operative Time) and always in an optimal way. Dynamics
+allows (or design) the characteristics of an object, external environment, or
+process to change to be optimal or to find an optimal operating condition. If
+an object (or process) is rigid or inflexible, make it movable or adaptive.
+Any increase in efficiency has a positive effect on energy savings by the
+machine or the manufacturing process."""@en ;
+    skos:prefLabel "Dynamics"@en .
+
+edg:GS12
+    a od:EDPGenericStrategy ;
+    skos:note """TRIZ Principle #13 “The Other Way Around” is simply reversing the normal
+procedure or process.  According to it, invert the action(s) used to solve the
+problem (e.g., instead of cooling an object, heat it); make the movable parts
+of the entity fixed, and the fixed parts movable; turn the entity ‘upside
+down’; nest objects inside others; and exploit other dimensions. This
+principle can be a very useful for finding better solutions, but it does not
+guarantee greener results that must be always verified from an LCA point of
+view."""@en ;
+    skos:prefLabel "The Other Way Around"@en .
+
+edg:GS13
+    a od:EDPGenericStrategy ;
+    skos:note """TRIZ Principle #2 “Taking out” means to separate an interfering part or
+property from an object, or single out the only necessary part (or property)
+of an object. It forces users to use only what is needed, thus reducing the
+environmental impacts."""@en ;
+    skos:prefLabel "Taking out"@en .
+
+edg:GS14
+    a od:EDPGenericStrategy ;
+    skos:note """According with the third law of system evolution, all technical systems can be
+represented at least by the engine, the transmission, the working unit and the
+control elements for each of them. If one of these control elements is
+lacking, try to introduce it, while if it is insufficient try to improve
+it. More control means bigger efficiency and energy reduction."""@en ;
+    skos:prefLabel "Increase Control"@en .
+
+edg:GS15
+    a od:EDPGenericStrategy ;
+    skos:note """Recycle/Reuse is part of the “Switch to super system” TRIZ
+suggestion. However, it appears in this form in the end of use phase
+guidelines. Recycling allows the elimination of disposal impact, while reusing
+helps to reduce impacts produced by the disassembly and the recycle operation,
+in addition to those deriving from the production of new products."""@en ;
+    skos:prefLabel "Recycle/Reuse"@en .
+
+edg:GS16
+    a od:EDPGenericStrategy ;
+    skos:note """Optimization is present in many inventive principles even if, alone, is not a
+classical TRIZ approach; it can be useful for reducing impacts every time
+helps user to increase efficiency, reduce mass and eliminate unnecessary
+parts. It is introduced into guidelines by adapting technical suggestions to
+the specific context; i.e., during manufacturing processes, reduce the casting
+channels during the melting, and eliminate additive manufacturing supports for
+reducing wastes. Furthermore, reduce machining operations for cutting
+shavings, limit the surface finishing treatment areas for saving energy, and
+improve die-castings to reduce defects, conceive the piece so that it is more
+resistant for the subsequent assembly phases, etc.
+"""@en ;
+    skos:prefLabel "Optimize"@en .
 
 ed:EliminateComponentsByIdeality
     od:action edc:Eliminate ;
@@ -686,4 +876,3 @@ ed:SelectOtherRawMaterials
     a od:EDP ;
     rdfs:label "Select Other Raw Materials (Substitute)"@en ;
     skos:example "A well-known footwear brand replaced the synthetic plastic of the soles of its running shoes with natural rubber, without modifying the design and the production technologies and preserving the strength and durability of the product."@en, "Selecting unconventional sustainable building insulation materials by exploiting local materials and industrial byproducts in order to limit the impacts from transportation and disposal (Asdrubali et al., 2015)."@en .
-
