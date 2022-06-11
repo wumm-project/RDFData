@@ -1,0 +1,2050 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://opendiscovery.org/rdf/BPM-Patterns/>
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    a owl:Ontology ;
+    rdfs:comment "Business Process Management Patterns from bpmpatterns.org.", "Extracted and transformed by HGG, 2022-06-11" ;
+    rdfs:label "Business Process Management Patterns" .
+
+<http://opendiscovery.org/rdf/BPMPaper_101>
+    od:extendOfDocumentation "Extent of Documentation" ;
+    od:hasArticleType "Type of Article" ;
+    od:hasCitationCount "Citation Count" ;
+    od:hasGuidelines "Instructions, Guidelines" ;
+    od:hasKeyword "Keywords" ;
+    od:hasLanguageDependency "Language Dependency" ;
+    od:hasMethodOfCreation "Method of Creation" ;
+    od:hasNotation "Notation" ;
+    od:hasOrigin "Origin" ;
+    od:hasPresentation "Presentation" ;
+    od:hasScope "Scope" ;
+    od:hasTemplate "Template" ;
+    od:hasToolSupport "Tool Support" ;
+    od:hasView "View" ;
+    od:intendedUser "Intended User" ;
+    od:toCategory "Category" ;
+    od:toPattern "Patterns" ;
+    dcterms:issued "Year" ;
+    dcterms:title "Title"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_102>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "21" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "BPMN-Q", "compliance analysis", "compliance auditing", "compliance checking", "compliance management", "compliance monitoring", "compliance rule", "query language", "violation" ;
+    od:hasLanguageDependency "Yes" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Extension, BPMN-Q" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Formal", "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "Yes" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "6.1" ;
+    dcterms:issued "2010" ;
+    dcterms:title "A compliance management framework for business process models"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_103>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "9" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "BPEL", "formal semantic", "transformation" ;
+    od:hasLanguageDependency "yes" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, UML AD, BPEL" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "8.3" ;
+    od:toPattern "Flow", "If", "Repeat Until", "RepeatUntil", "Sequence", "While" ;
+    dcterms:issued "2009" ;
+    dcterms:title "A Model-Driven Approach for Generating Business Processes and Process Interaction Semantics"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_104>
+    od:extendOfDocumentation "Partial" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "20" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "DMSL", "SOA", "UML profile", "WSDL", "domain-specific modeling language", "loop", "model transformation", "service", "service-oriented architecture", "web service" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "Yes" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst & IT Specialist" ;
+    od:toCategory "8.3" ;
+    od:toPattern "assign", "bundle", "invoke", "loop", "service" ;
+    dcterms:issued "2006" ;
+    dcterms:title "A Pattern-based Approach to Business Process Modeling and Implementation in Web Services"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_105>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "19" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "TQM", "design review", "determination of product requirements", "order acceptance", "quality constraint", "quality control", "quality management", "query language", "requirements", "review. VPSL" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Survey" ;
+    od:hasNotation "Extension, UML 2.0 Ads" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "5.2" ;
+    dcterms:issued "2006" ;
+    dcterms:title "A Pattern-driven Development Process for Quality Standard-conforming Business Process Models"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_106>
+    od:extendOfDocumentation "Partial" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "13" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "SPEM", "software process" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, UML" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Domain-Specific" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function & Information" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "5.1" ;
+    od:toPattern "Fagan Inspection" ;
+    dcterms:issued "2006" ;
+    dcterms:title "A UML-Based Process Meta-model Integrating a Rigorous Process Patterns Definition"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_107>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "4" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "UML", "UML activity diagram", "activity diagram", "formal semantic", "model checking", "semantic", "transformation", "verification" ;
+    od:hasLanguageDependency "Yes" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, UML" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "IT Specialist" ;
+    od:toCategory "1.1" ;
+    od:toPattern "action", "activity final", "decision", "flow final", "fork", "initial", "join", "loop", "merge", "sequence" ;
+    dcterms:issued "2014" ;
+    dcterms:title "Activity Diagrams Patterns for Modeling Business Processes"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_108>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "63" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "business function", "content", "semantics" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Manual Mining" ;
+    od:hasNotation "Existing, UML AD" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "Yes" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "5.2" ;
+    od:toPattern "Approval", "Decision", "Information Request", "Iterative Approval", "Multi-Decision", "Multi-Information Request", "Multi-Notification", "Multi-Request-Response", "Multi-question-answer", "Multiple Approval", "Notification", "Question-Answer", "Single Approval", "Single-Decision", "Single-Information Request", "Single-Notification", "Single-Question-answer", "Single-Request-Response", "bi-directional performative", "multi-request", "single-reuest", "unidirectional performative" ;
+    dcterms:issued "2009" ;
+    dcterms:title "Activity patterns in process-aware information systems: basic concepts and empirical evidence"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_109>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "49" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "commenting", "feedback", "knowledge sharing", "participation", "ranking", "skill", "socialization", "transpareny", "voting" ;
+    od:hasLanguageDependency "Yes" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Extension, BPMN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "Yes" ;
+    od:hasView "Organization" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "4.3" ;
+    od:toPattern "advancement notification", "dynamic enrollment", "feedback", "invitation", "people search", "poll", "skills search", "social publication", "social sourcing" ;
+    dcterms:issued "2011" ;
+    dcterms:title "BPMN and Design Patterns for Engineering Social BPM Solutions"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_110>
+    od:extendOfDocumentation "Partial" ;
+    od:hasArticleType "Evaluation Research", "Proposal of Solution" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "IT architecture", "change element", "change option", "information system", "organization architecture" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "Yes" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "7.1" ;
+    od:toPattern "cheaper", "extended", "handed over", "improved", "more expensive", "moved", "new", "received", "suspended" ;
+    dcterms:issued "2009" ;
+    dcterms:title "Business Process Aware IS Change Management in SMEs"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_111>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "50" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "B2B", "choreography", "collaboration", "contract", "cooperation", "interoperability", "synchronisation", "synchronization" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "Yes" ;
+    od:hasView "Function & Organization" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "4.3" ;
+    od:toPattern "Chained Additive", "Chained Substitutive", "Nested Deferred", "Nested Parallel", "Nested Synchronous", "Parallel Synchronized" ;
+    dcterms:issued "2004" ;
+    dcterms:title "Business Process Choreography for B2B Collaboration"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_112>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "2" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "collaboration", "coordinate contribution", "coordingation", "deciding", "decision making", "human resources", "knowledge workers", "retrieve contribution" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Case Study" ;
+    od:hasNotation "Existing, BPMN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "Yes" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "4.1, 4.3" ;
+    od:toPattern "deadline agreement", "escalation" ;
+    dcterms:issued "2014" ;
+    dcterms:title "Business Process Design Meets Business Practices Through Enterprise Patterns: A Case Study"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_113>
+    od:extendOfDocumentation "Partial" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "17" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "BPR", "assignment", "automation", "business process reenigineering", "change", "control", "dBOP", "deep Business Optimization Platform", "improvement", "organisational structure", "organizational structure", "process improvement", "process performance", "sequencing", "variance", "variant" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "7.2" ;
+    od:toPattern "activity elimination", "automated approval", "automated decision", "case manager", "composition", "decomposition", "early knockout", "exception standardization", "flexible assignment", "generalization", "knockout elimination", "parallelization", "rework elimination", "serialization", "specialization", "split workload", "task automation", "triage", "variant elimination" ;
+    dcterms:issued "2011" ;
+    dcterms:title "Business Process Optimization Using Formalized Optimization Patterns"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_114>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "6" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "BPT Wizard", "Business Process Transformation Wizard", "change", "improvement", "optimization", "parallelization" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Industry" ;
+    od:hasPresentation "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "Yes" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "8.3" ;
+    od:toPattern "Change branching probability", "Combine roles", "IT (Information Technology) systems", "Introduce business integration solutions", "Optimize resource capacities", "Optimize resource scheduling policies", "Parallelize activities", "Permute the order of tasks", "Remote activities" ;
+    dcterms:issued "2006" ;
+    dcterms:title "Business process transformation patterns & the business process transformation wizard"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_115>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "814" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "RAD", "role activity diagram", "role-activity diagram" ;
+    od:hasLanguageDependency "Yes" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, Role-Activity Diagrams" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function & Information" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "1.2" ;
+    dcterms:issued "1995" ;
+    dcterms:title "Business processes: modelling and analysis for re-engineering and improvement"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_116>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Evaluation Research", "Proposal of Solution" ;
+    od:hasCitationCount "30" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "SoO", "auditing", "bounded existence", "chain response", "compliance auditing", "compliance checking", "compliance management", "compliance monitoring", "compliance rule", "control", "control rule", "model checking", "occurrence", "order", "property specification", "resource", "response", "segretation of duties", "specification", "temporal", "temporal logic", "time", "timing", "universality" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Manual Mining" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "6.1" ;
+    od:toPattern "absence", "absent", "after", "bondedwith", "chain precedence", "chainleadsto", "chainprecedence", "coabsent", "coexists", "corequisite", "exactlyat", "exclusive", "existence", "exists", "exists every", "exists max", "exists min", "leadsto", "multi-bonded", "multi-segregated", "mutexchoice", "performedby", "pleadsto", "precedence", "precedes", "rbondedwith", "segragated from", "segregation", "universal", "universality", "usegregatedfrom", "within", "xleadsto" ;
+    dcterms:issued "2012" ;
+    dcterms:title "Capturing Compliance Requirements: A Pattern-Based Approach"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_117>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Evaluation Research", "Proposal of Solution" ;
+    od:hasCitationCount "454" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "adaptation", "adapting", "adding fragment", "change", "changing", "control dependency", "copy", "copying", "delete", "deleting fragment", "deletion move", "embed", "embedding", "extract", "extracting", "flexibility", "inline", "insert", "insertion", "parallelization", "parallelize", "process fragment", "replace", "replacing", "swap", "update condition", "variability", "variants" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Manual Mining" ;
+    od:hasNotation "Existing, BPMN" ;
+    od:hasOrigin "Industry" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "7.1" ;
+    od:toPattern "add control dependency", "copy process fragment", "delete process fragment", "embed process fragment in conditional branch", "embed process fragment into loop", "extract sub process", "inline sub process", "insert process fragment", "late composition of process fragments", "late modeling of process fragments", "late modelling of process fragments", "late selection of process fragments", "move process fragment", "multi-instance activity", "parallelize activities", "remove control dependency", "replace process fragment", "swap process fragment", "update condition" ;
+    dcterms:issued "2008" ;
+    dcterms:title "Change patterns and change support features - Enhancing flexibility in process-aware information systems"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_118>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "authorisation", "authorization", "change detection", "change impact analysis", "control flow", "difference", "effort estimation", "impact analysis", "order", "refinement", "role", "traceability" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "7.1" ;
+    od:toPattern "Activities Occur at Different Moments in Processes", "Additional Dependencies", "Corresponding Collections of Activities", "Different Collections of Roles", "Different Dependencies", "Different Roles", "Interchanged Activities", "Iterative Versus Once-Off Occurrence", "Partly Corresponding Activities", "Partly Corresponding Collections of Activities", "Refined Activity", "Single Role Versus Collection of Roles", "Skipped Activity" ;
+    dcterms:issued "2015" ;
+    dcterms:title "Change Patterns Detection and Traceability Impact Analysis of Business Process Models"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_119>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "4" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "HIM", "KIBS", "business rule", "condition model", "control pattern", "human interaction management", "knowledge worker", "knowledge-intensive business service", "post-condition", "postcondition", "pre-condition", "precondition" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, condition modeling language" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Formal", "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function & Organization" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "2.1" ;
+    od:toPattern "AND join", "AND split", "AND-join", "AND-split", "IOR split", "OR split IOR-split", "OR-split", "XOR join", "XOR-join", "XOR-split XOR split", "arbitrary cycle", "asynchrous join", "atomic multicast notification", "case statement", "collaboration", "conditional routing", "contingent requests", "cycle", "deadline", "decision", "deferred XOR split", "deferred XOR-split", "deferred choice", "dynamic routing", "event aggregation", "exclusive OR split", "exclusive OR-join exclusive OR join", "exclusive OR-split", "exclusive choice", "external choice", "fork", "gather", "implicit choice", "implicit termination", "iteration", "merge", "message stream", "milestone", "multi threading without synchronization", "multi-choice", "multi-responses", "multicast", "multiple choice and synchronizing merge", "multiple discriminator", "multiple instances with design-time knowledge", "multiple instances with run-time knowledge", "multiple instances without synchronization", "multiple merge", "n-out-of-m join", "one-from-many receive", "one-to-many send", "one-to-many send and receive", "parallel routing", "parallel split", "point-to-point send", "racing incoming messages", "racing messages", "relayed request", "rendezvous", "request and response", "request with referral", "scatter", "scatter-gather", "selection", "send and receive", "send with failovers", "send/receive", "sequence", "sequential routing", "serial routing", "simple merge", "spawn off facility", "state condition", "streamed responses", "switch", "synchronization", "synchronizer", "test arc", "transactional notification", "unicast", "unstructured loop", "withdraw message" ;
+    dcterms:issued "2010" ;
+    dcterms:title "Condition-based process patterns for modeling of human processes in Knowledge-intensive Business Services"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_120>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "17" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "CWM", "CWM-BPMN", "MTCO", "contract workflow model", "multi-tier contract ontology", "non-performance", "obligation", "performance" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, BPMN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "4.2" ;
+    od:toPattern "Communication between the Parties", "Contract -Business Process", "Exclusive Processing", "Obligation State Changes", "Performance Events", "Performance Events Sequences", "Remedial Options Choice", "Simultaneous Processing" ;
+    dcterms:issued "2005" ;
+    dcterms:title "Contract Workflow Model Patterns Using BPMN"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_121>
+    od:extendOfDocumentation "Partial" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "1" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "Exception Handling Process Ontology", "contracting", "domain ontology", "obligation", "ontology", "right" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, BPMN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "6.1" ;
+    od:toPattern "Cancel Order", "Penalty" ;
+    dcterms:issued "2008" ;
+    dcterms:title "Contract-Based Exception Handling Process Patterns"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_122>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "30" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "contracting", "electronic contracting", "negotiating", "negotiation", "obligation", "service contracting", "service dependency", "transaction protocol" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, Petri Net" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Domain-Specific" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "4.2" ;
+    od:toPattern "alternating binding counter offers", "binding request", "implicit accept", "multiple binding offers", "multiple non-binding offers", "single binding counter offer", "single binding offer", "single non-binding offer" ;
+    dcterms:issued "2003" ;
+    dcterms:title "Contracting Workflows and Protocol Patterns"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_123>
+    od:extendOfDocumentation "Partial" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "4" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "compliance analysis", "compliance auditing", "compliance checking", "compliance management", "compliance monitoring", "control system", "controlling", "internal control system" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Manual Mining" ;
+    od:hasNotation "Existing, EPK" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "6.1" ;
+    od:toPattern "Production Deployment" ;
+    dcterms:issued "2013" ;
+    dcterms:title "Control Patterns - Bridging The Gap Between Is Controls And BPM"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_124>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "19" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "REST", "SOAP", "service composition", "web service" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, BPMN, UML Sequence Diagrams" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function & Information" ;
+    od:intendedUser "IT Specialist" ;
+    od:toCategory "4.1" ;
+    od:toPattern "Alternative", "Exclusive Choice", "Iteration", "Local Synchronization Merge", "Parallel Split", "Selection", "Sequence", "Structured Discriminator", "Structured Loop", "Structured Partial Join", "Synchronization", "Unordered Sequence", "While" ;
+    dcterms:issued "2013" ;
+    dcterms:title "Control-Flow Patterns for Decentralized RESTful Service Composition"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_125>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "1" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "control flow" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "New" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "1.2" ;
+    od:toPattern "By-pass", "Bypass", "Deactivate" ;
+    dcterms:issued "2011" ;
+    dcterms:title "D&B: Two Additional Workflow Patterns"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_126>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "28" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "deadlock", "reachability", "soundness", "transferability" ;
+    od:hasLanguageDependency "Yes" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "New" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Formal", "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "IT Specialist" ;
+    od:toCategory "1.2" ;
+    od:toPattern "loop deadlock", "multiple source deadlock", "work item outflow" ;
+    dcterms:issued "1999" ;
+    dcterms:title "Definition of Deadlock Patterns for Business Processes Workflow Models"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_127>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Survey" ;
+    od:hasCitationCount "1" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "RBAC", "access control", "delegation of permissions between users", "delegation of roles between users", "delegation of task instances", "resource", "role", "role hierarchy", "role-to-role delegation", "temporary role", "user-to-user delegation" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Manual Mining" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Organization" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "2.2" ;
+    od:toPattern "Cascading Revocation", "Delegation of individual permissions from user to role", "Delegation of tasks from user to role", "Multi-level delegation", "Multiple-delegation", "Revocation", "Time-Constrained delegation", "Time-out Revocation", "Upward-Delegation", "delegation of individual permissions between roles", "delegation of roles between roles", "delegation of roles from user to role", "delegation of task-instances from user to role", "delegation of tasks between roles", "delegation of tasks between users", "role-to-role", "user-to-user" ;
+    dcterms:issued "2010" ;
+    dcterms:title "Delegation Pattern in Workflow System"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_128>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "22" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "B2B", "CrossFlow", "business-to-business", "electronic sourcing", "esourcing", "service provision", "supply chain", "virtual business process" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, Petri Net" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "4.3" ;
+    od:toPattern "gray box", "grey box", "provider-initiated bi-directional", "token propagation" ;
+    dcterms:issued "2007" ;
+    dcterms:title "Discovering Patterns for Inter-Organizational Business Process Collaboration"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_129>
+    od:extendOfDocumentation "Partial" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "32" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "e-sourcing", "electronic sourcing", "esourcing", "sourcing", "supply chain" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, Petri-nets" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "5.1" ;
+    od:toPattern "black box", "black-box", "grey box", "grey-box", "white box", "white-box" ;
+    dcterms:issued "2011" ;
+    dcterms:title "Discovering Patterns for Inter-Organizational Business Process Collaboration"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_130>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "29" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "adaptation", "adapting", "change", "changing", "dynamic process change", "flexibility", "improvement", "process family", "variability", "variants", "version management" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "Yes" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "7.1" ;
+    od:toPattern "AND Merge", "AND split", "Activity Change", "Activity Content Change", "Activity De-Parallelization", "Activity Delete/Detour", "Activity Parallel Insert", "Activity Parallelization", "Activity Position Adjustment", "Activity Replace/Detour", "Activity Sequential Insert/Propagation", "N out of M OR Split", "N-out-of-M OR Split", "OR split", "Sequential Merge", "XOR split", "sequential split" ;
+    dcterms:issued "2007" ;
+    dcterms:title "Dynamic Business Process Management based on Process Change Patterns"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_131>
+    od:extendOfDocumentation "Partial" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "19" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "C-EPC", "Provop", "adaption", "configurable process model", "configurable region", "configuration alternatives", "configuration constraint", "context condition", "delete", "flexibility", "insert", "model configuration", "modify", "process family", "variability", "variant" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Survey" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "7.1" ;
+    od:toPattern "Delete Configurable Region", "Delete Configuration Alternative in a Configurable Region", "Delete Configuration Constraint Between Configuration Alternatives", "Delete Context Condition of a Configuration Alternative", "Insert Configurable Region", "Insert Configuration Alternative in a Configurable Region", "Insert Configuration Constraint Between Configuration Alternatives", "Insert Context Condition of a Configuration Alternative", "Modify Context Condition of a Configuration Alternative" ;
+    dcterms:issued "2013" ;
+    dcterms:title "Enhancing Modeling and Change Support for Process Families through Change Patterns"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_132>
+    od:extendOfDocumentation "Partial" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "25" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "ambulatory service", "capacity analysis", "demand foecast", "diagnose", "healthcare", "hospital", "medical appointment", "medical service", "medical supplies" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research & Industry" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "9" ;
+    od:toPattern "OR service", "demand analysis and management", "internal shared services", "operating room service", "service line for patients", "shared services" ;
+    dcterms:issued "2011" ;
+    dcterms:title "Enterprise and process architecture patterns"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_133>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "22" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "ArchiMate", "EA", "architectural description", "automation", "business process execution support", "business process support", "role assignment" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Manual Mining" ;
+    od:hasNotation "Existing, ArchiMate" ;
+    od:hasOrigin "Industry" ;
+    od:hasPresentation "Formal", "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Resource" ;
+    od:intendedUser "IT Specialist" ;
+    od:toCategory "5.1" ;
+    od:toPattern "Business object fully realized by application layer", "Business object partially realized by application layer", "Business object without application layer realization", "Business object without concrete realization", "Full concrete business object realization", "Full non-redundant business process automation", "Full redundant business process automation", "Fully automated business process", "Fully manually supported business process", "Fully manually supported business process with single role-assignment", "Fully non-redundantly supported business process", "Fully realized business object", "Fully redundantly supported business process", "Fully supported business process", "Heterogeneous application support of a business process", "Homogenous application support of a business process", "Manually unsupported business process", "Multiple application layer business object realization", "Multiple business object realization", "Multiple concrete business object realization", "Partial concrete business object realization", "Partially automated business process", "Partially manually supported business process", "Partially realized business object", "Partially supported business process", "Single application layer business object realization", "Single business object realization", "Single concrete business object realization", "Strictly unsupported business process", "Unautomated business process", "strictly unrealized business object", "unrealized business object" ;
+    dcterms:issued "2011" ;
+    dcterms:title "Enterprise architecture patterns for business process support analysis"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_134>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "471" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "communication", "competitive task", "human workflow" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function & Information" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "4.1, 2.1" ;
+    od:toPattern "call partner service", "correlate request and response", "dynamic partner", "escalation", "prioritization", "pub/sub", "publish to multiple subscribers", "publish/subscribe", "receive request", "roles compete for task", "unsolicited event", "wait for response" ;
+    dcterms:issued "2005" ;
+    dcterms:title "Essential Business Process Modeling"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_135>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Personal Experience" ;
+    od:hasCitationCount "85" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "Little-JIL", "compensation", "exception flow", "restart" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Manual Mining" ;
+    od:hasNotation "Existing, BPMN, Little-JIL, UML" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "IT Specialist" ;
+    od:toCategory "1.1" ;
+    od:toPattern "compensate", "deferred fixing", "exception-driven rework", "immediate fixing", "ordered alternatives", "reject", "retry", "trying other alternatives", "unordered alternatives" ;
+    dcterms:issued "2010" ;
+    dcterms:title "Exception Handling Patterns for Process Modeling"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_136>
+    od:extendOfDocumentation "Complete (entsprechendes Paper wird referenziert)" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "3" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "EIP", "enterprise integration", "message exchange", "message flow", "message-based integration", "middleware" ;
+    od:hasLanguageDependency "Yes" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, BPMN" ;
+    od:hasOrigin "Industry" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "Yes" ;
+    od:hasView "Function" ;
+    od:intendedUser "IT Specialist" ;
+    od:toCategory "4.1" ;
+    od:toPattern "Aggregator", "Content Enricher", "Message Translator", "Request-Reply", "Splitter", "message splitter" ;
+    dcterms:issued "2014" ;
+    dcterms:title "Experiences with Business Process Model and Notation for Modeling Integration Patterns"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_137>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Evaluation Research", "Proposal of Solution" ;
+    od:hasCitationCount "10" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "location awareness", "location dependency", "location-aware", "location-awareness" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Extension, BPMN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "1.2" ;
+    od:toPattern "Location-dependent exclusive split", "Location-dependent parallel split", "Location-dependent sequence", "Location-dependent simple merge", "Location-dependent synchronization" ;
+    dcterms:issued "2014" ;
+    dcterms:title "Exploring location-dependency in process modeling"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_138>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "19" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "CEP", "adaption", "complex event processing", "configurable process model", "event-driven", "flexibility", "model configuration", "process family", "variability", "variant" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, BPMN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "Yes" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "7.1" ;
+    od:toPattern "Compensation with Escalation", "Restart Event", "Unfailable Timed Handler", "Wait for Event" ;
+    dcterms:issued "2010" ;
+    dcterms:title "Extended Workflow Flexibility using Rule-Based Adaptation Patterns with Eventing Semantics"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_139>
+    od:extendOfDocumentation "Partial" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "47" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "SOA", "cancellation", "compensation", "composite web service", "composition", "coordination", "service-oriented architecture", "transactional flow", "transactional model", "transactional web service", "web service", "workflow flexibility" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Formal", "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "IT Specialist" ;
+    od:toCategory "1.2" ;
+    dcterms:issued "2006" ;
+    dcterms:title "Extending workflow patterns with transactional dependencies to define reliable composite Web services"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_140>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "1" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "cloud", "resource", "virtual resource" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Manual Mining" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Resource" ;
+    od:intendedUser "IT Specialist" ;
+    od:toCategory "2.1" ;
+    od:toPattern "Definition and Implementation of an Abstract Set of Elementary Operations Provided by the Virtual Resources Itself", "Definition of an Abstract Virtual Resource Lifecycle and Implementation of the Relevant Abstract Operations Provided by the Cloud-Environment", "Virtual Resource Specification and Classification" ;
+    dcterms:issued "2014" ;
+    dcterms:title "Fabric-Process Patterns - Towards a Methodology for Fabric-Process Design"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_141>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Evaluation Research", "Proposal of Solution" ;
+    od:hasCitationCount "23" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "Bounded-Exists", "Chain-LeadsTo", "CoAbsent", "DirectlyFollowedBy", "Exists", "Exists-Often", "Frees", "PerformedBy", "Performer", "absence", "boundedwith", "chain precedence", "chain-precedes", "coExists", "compliance auditing", "compliance checking", "compliance management", "compliance monitoring", "compliance request language", "compliance rule", "corequisite", "exclusive", "exclusivity", "existence", "isAbsent", "isUniversal", "leads-to", "leadsTo", "mutexchoice", "precedence", "precedes", "query language", "regulatory compliance", "resource", "response", "segregatedfrom", "segregation", "substitute", "temporal", "timed", "timed pattern", "universality" ;
+    od:hasLanguageDependency "Yes" ;
+    od:hasMethodOfCreation "Manual Mining" ;
+    od:hasNotation "Existing, LTL" ;
+    od:hasOrigin "Research & Industry" ;
+    od:hasPresentation "Formal", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "Yes" ;
+    od:hasView "Function & Resource" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "6.1" ;
+    dcterms:issued "2014" ;
+    dcterms:title "Formalizing and applying compliance patterns for business process compliance"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_142>
+    od:extendOfDocumentation "Partial" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "32" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "content", "guidance", "process modeling support", "process modelling support", "reuse" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Extension, BPMN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "Yes" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "5.2" ;
+    od:toPattern "4 eyes principle", "4-eyes principle", "Avoidance of Infinite Waits", "approval", "four eyes principle", "secured interaction", "trusted timestamp" ;
+    dcterms:issued "2011" ;
+    dcterms:title "Fragmento: Advanced Process Fragment Library"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_143>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "33" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "CAP", "DEMO", "accept", "acceptance", "allow", "cancel", "coordination", "decline", "intention", "promise", "quit", "refuse", "reject", "request", "social system", "state", "statement", "transaction" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, CPN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "1.2" ;
+    od:toPattern "cancellation", "cancellation of a request", "cancellation of a statement", "cancellation of an acceptance", "standard", "success", "transaction" ;
+    dcterms:issued "2003" ;
+    dcterms:title "Generic Recurrent Patterns in Business Processes"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_144>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "21" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "deadlock", "livelock", "multiple termination", "soundness" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, EPC" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "1.2" ;
+    od:toPattern "All Or Nothing", "Partial Redo", "Straight Road with Exits" ;
+    dcterms:issued "2007" ;
+    dcterms:title "Good and Bad Excuses for Unstructured Business Process Models"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_145>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "7" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "ecofriendly", "ecological", "environment", "environmental perspective", "green", "green BPM", "green activity", "green resource", "greening" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "New" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function & Resource" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "6.3" ;
+    od:toPattern "Common Process Improvement for Environmental Aspects", "Green Compensation", "Green Feature", "Green Variant", "Human Process Performance", "Resource Change", "insourcing", "outsourcing", "process automation" ;
+    dcterms:issued "2013" ;
+    dcterms:title "Green Business Process Patterns"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_146>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "2" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "collaboration", "collaborative", "concurrent changes", "consistency", "editing" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Manual Mining" ;
+    od:hasNotation "Existing, BPMN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "Yes" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "7.1" ;
+    od:toPattern "parallel extension", "parallel insert", "serial extension", "serial insert" ;
+    dcterms:issued "2013" ;
+    dcterms:title "Handling Concurrent Changes in Collaborative Process Model Development: A Change-Pattern Based Approach"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_147>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Evaluation Research", "Proposal of Solution" ;
+    od:hasCitationCount "1" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "CEP", "business pattern", "complex event processing", "review" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Formal", "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "8.2" ;
+    od:toPattern "Carry Out", "Competing", "Countersign Document", "Delegating", "Preparation" ;
+    dcterms:issued "2014" ;
+    dcterms:title "Heterogeneous Business Process Consolidation: A Pattern-Driven Approach"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_148>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "18" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "ADM", "KDM", "architecture-driven modernization", "knowledge discovery metamodel", "legacy system", "loosely coupling", "modernization" ;
+    od:hasLanguageDependency "Yes" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, BPMN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "Yes" ;
+    od:hasView "Function" ;
+    od:intendedUser "IT Specialist" ;
+    od:toCategory "8.2" ;
+    od:toPattern "BPD Skepeton", "branching", "collaboration", "conditional sequence", "data input", "data output", "exception", "implicit termination", "sequence", "start" ;
+    dcterms:issued "2010" ;
+    dcterms:title "Implementing Business Process Recovery Patterns through QVT Transformations"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_149>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Evaluation Research", "Proposal of Solution" ;
+    od:hasCitationCount "17" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "DPP", "content", "guidance", "process modeling support", "process modelling support", "reuse", "semantics-based analysis" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Manual Mining" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Domain-Specific" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "Yes" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "5.1" ;
+    od:toPattern "accounting", "checking", "contact", "inventory", "invoicing", "notification", "offer", "order", "payment", "planning", "production", "shipment" ;
+    dcterms:issued "2013" ;
+    dcterms:title "Improving the process of process modelling by the use of domain process patterns"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_150>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "35" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "SPLE", "adaption", "configurable process model", "feature", "feature diagram", "feature model", "model configuration", "process family", "product line", "software product line engineering", "variability", "variant" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, BPMN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Formal", "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "7.1" ;
+    od:toPattern "Arbitrary cycles", "Cancel Activity", "Cancel Case", "Deferred choice", "Discriminator", "Discriminator and n out of m Join", "Discriminator and n-out-of-m Join", "Implicit termination", "Inclusive branching", "Interleaved parallel routing", "Milestone", "Multiple Instances  with a priory design time knowledge", "Multiple Instances  with a priory runtime knowledge", "Multiple Instances  without synchronization", "Parallel branching", "Sequence", "Sub-Process", "Subprocess" ;
+    dcterms:issued "2012" ;
+    dcterms:title "Modeling and validation of business process families"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_151>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "5" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "catch up", "catching up", "deviation", "error", "exception", "execution priority", "failure", "flexibility" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Extension, ADEPT" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "Yes" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "7.1" ;
+    od:toPattern "backwards jump", "forward jump", "skipping" ;
+    dcterms:issued "2002" ;
+    dcterms:title "Modellierung planbarer Abweichungen in Workflow-Management-Systemen"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_152>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "4 eyes principle", "4-eyes principle", "BPR", "SOA", "Tomasulo", "business process reenigineering", "case management", "case manager", "chain of execution", "control flow analysis", "data flow analysis", "delegation", "dependability", "design diversity", "escalation", "exception", "fault tolerance", "filter ordering", "flexible assignment", "flow variable speculation", "four eyes principle", "knock-out", "nomination", "order assignment", "order distribution", "parallelization", "process administration role", "redoing", "reliability", "resequencing", "scoreboarding", "service", "service-oriented architecture", "specialist-generalist", "transaction", "transactional support", "web service" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, BPMN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "7.2" ;
+    od:toPattern "case manager", "exception", "flexible assignment", "knock-out", "knockout", "order assignment", "specialist-generalist", "specialist/generalist", "split responsibilities" ;
+    dcterms:issued "2012" ;
+    dcterms:title "Optimization of WS-BPEL Workflows through Business Process Re-Engineering Patterns"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_153>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "106" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "grid workflow", "parallelism", "scientific workflow" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, Informal" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function & Information" ;
+    od:intendedUser "Researcher, IT Specialist" ;
+    od:toCategory "3" ;
+    od:toPattern "Adaptive Data Parallelism", "Best Effort Pipelines", "Blocking Pipelines", "Buffered Pipelines", "Dynamic Data Parallelism", "Parallel Execution", "Piplined Execution", "Simple Parallelism", "Static Data Parallelism", "Streaming Pipelines", "SuperScalar Pipelines" ;
+    dcterms:issued "2016" ;
+    dcterms:title "Parallel Computing Patterns for Grid Workflows"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_154>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "SLA", "monitoring", "service level" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, CPN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "Yes" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst & IT Specialist" ;
+    od:toCategory "6.1" ;
+    dcterms:issued "2015" ;
+    dcterms:title "Patterns and tools for business process monitoring customization"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_155>
+    od:extendOfDocumentation "Partial" ;
+    od:hasArticleType "Evaluation Research", "Proposal of Solution" ;
+    od:hasCitationCount "2" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "conceptual model", "logical model", "transformation" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Survey" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "7.2" ;
+    od:toPattern "Divide Complex Process Into Smaller Sub-Processes" ;
+    dcterms:issued "2013" ;
+    dcterms:title "Patterns as an Artifact for Business Process Improvement - Insights from a Case Study"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_156>
+    od:extendOfDocumentation "Partial" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "8" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "adaption", "adaption pattern", "adaptive workflow segment", "domain engineering", "flexibility", "process family", "variability", "variant" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, BPMN" ;
+    od:hasOrigin "Industry" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "7.1" ;
+    od:toPattern "Abort Compensate and Escalate", "Abort Compensate and Restart", "Abort Compensate and Resume", "Abort Try Resolve Restart or Escalate", "Abort and Continue Flow", "Copy Segment", "Insert Segment", "Insert Segment After", "Insert Segment Before", "Insert Segment Parallel", "Loop Segment", "Move Segment", "Optional Spawn Synched Task", "Optional Spawn Synchronised Task", "Optional Spawn Synchronized Task", "Parallelise Activities", "Parallelize Activities", "Periodic Segment", "Replace Segment", "Schedule Independent Segment", "Schedule Parallel Segment", "Schedule-Restricted Segment", "Segment Delayed Execution", "Segment Externally Completed", "Segment Externally Triggered", "Segment Minimum Duration Time", "Segment Time Lag", "Segment Wait For After", "Segment Wait For Before", "Segment Wait For Parallel", "Segment WaitFor After", "Segment WaitFor Before", "Segment WaitFor Parallel", "Signal Segment Completion", "Skip segment", "Spawn Segment", "Subsequent Execution Delay", "Subsequent Execution Restriction", "Swap Segment", "Validity Period", "Wrap Segment", "Wrap Segment in Event Handler" ;
+    dcterms:issued "2011" ;
+    dcterms:title "Patterns for Flexible BPMN Workflows"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_157>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "5" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "AND-branches", "MDA", "PIM", "grid resource", "grid service", "model-driven architecture", "platform independent model", "semantic composition", "service composition", "workflow composition" ;
+    od:hasLanguageDependency "Yes" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Extension, UML" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Domain-Specific" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "Yes" ;
+    od:hasView "Resource" ;
+    od:intendedUser "IT Specialist" ;
+    od:toCategory "2.1" ;
+    od:toPattern "Alternative Branches", "Alternative Services", "Loop", "Sequence" ;
+    dcterms:issued "2009" ;
+    dcterms:title "Patterns for Modeling and Composing Workflows from Grid Services"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_158>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "57" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "access", "aggregating", "aggregation", "assemble", "assembling", "availability", "capacity", "choose", "collection", "coloured Petri net", "concurrency", "concurrent access", "consistency", "control", "create", "creation", "decomposing", "decomposition", "discern", "exclusive lock", "generation", "inspect", "inspection", "merge", "monitor", "monitoring", "shared lock", "synchronizing", "throughput", "transfer", "transferring", "transform", "transformation" ;
+    od:hasLanguageDependency "Yes" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, CPN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "1.2, 3" ;
+    od:toPattern "aggregate objects", "asynchronous aggregator", "asynchronous router", "asynchronous transfer", "bi-lock manager", "blocking state-dependent filter", "blocking state-independent filter", "broadcasting", "capacity-bounding", "colored inhibitor arc", "coloured inhibitor arc", "copy manager", "data distributor", "data merger", "database management", "deterministic xor-split", "fifo queue", "id manager", "id matching", "inclusive or", "inhibitor arc", "ior", "lifo queue", "lock manager", "log manager", "non-deterministic xor-split", "or", "priority queue", "queue", "random queue", "redundancy manager", "rendez-vous", "rendezvous", "shared database", "synchronous transfer", "translator" ;
+    dcterms:issued "2005" ;
+    dcterms:title "Patterns in Colored Petri Nets"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_159>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "56" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "SBVR", "SOA", "adaptability", "business rule", "process composition", "service composition", "service-oriented architecture", "web services" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, BPMN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst & IT Specialist" ;
+    od:toCategory "3" ;
+    dcterms:issued "2008" ;
+    dcterms:title "Patterns of Business Rules to Enable Agile Business Processes"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_160>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "32" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "co-work", "collaboration", "collective", "repository" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "New" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function & Information" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "4.3" ;
+    od:toPattern "check in and merge", "co-work", "collective merge", "collective synchronization", "delegated work", "distributed merge", "distributed synchronization", "division of labor", "division of labour", "individual synchronization", "master/slave", "multiprocessing", "mutual exclusion", "procucer/reviewer" ;
+    dcterms:issued "1998" ;
+    dcterms:title "Process model patterns for collaborative work"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_161>
+    od:extendOfDocumentation "Partial" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "25" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "CADS", "PROPEL", "software process" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Manual Mining" ;
+    od:hasNotation "New" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "5.1" ;
+    od:toPattern "Capture Vocabulary centrally", "Capture Vocabulary participatorily", "Capture a Common Vocabulary", "Develop requirements management plan", "Develop vision", "Inspect Requirements", "Introductional Session", "Release", "Review", "Review Session", "Review requirements", "Walkthrough Requirements" ;
+    dcterms:issued "2004" ;
+    dcterms:title "Process Patterns - a Means to Describe Processes in a Flexible Way"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_162>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "42" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "augmentation", "business perspective", "complexity", "customization", "inter-view", "model transformation", "presentation", "transformation", "view" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Formal", "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "8.1" ;
+    od:toPattern "Appearance", "Calculated information", "Choreography inter-view", "Consistency preservation", "Construct preservation", "Executability preservation", "Human-assisted augmentation", "Orchestration inter-view", "Runtime information", "Scheme", "abstraction", "aggregation", "alteration", "custom categories", "custom category", "insertion", "layout", "logical information", "omission", "organizational information", "preservation" ;
+    dcterms:issued "2010" ;
+    dcterms:title "Process Viewing Patterns"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_163>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Evaluation Research" ;
+    od:hasCitationCount "5" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "PDDQM", "collapse", "compacting", "complexity", "complexity reduction", "composition", "comprehensibility", "data quality", "duplication", "merging", "metric", "modularization", "omission", "quality check", "review", "understandability" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Survey" ;
+    od:hasNotation "Existing, BPMN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function & Information" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "7.2" ;
+    dcterms:issued "2013" ;
+    dcterms:title "Process-Driven Data Quality Management Through Integration of Data Quality into Existing Process Models"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_164>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "7" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "agent-based", "interaction" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "8.1" ;
+    od:toPattern "MVC", "agent-based model", "court case", "diffusor", "learning", "logo world", "model-view-controller", "scheduler", "scheduler scramble", "step by step", "step-by-step", "story time" ;
+    dcterms:issued "2013" ;
+    dcterms:title "Product and process patterns for agent-based modelling and simulation"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_165>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "20" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "asset", "attack", "availability", "checksum", "confidentiality", "countermeasure", "cryptography", "data protection", "denial of service", "dos", "encryption", "flooding", "input canonicalisation", "input canonicalization", "input filtration", "input sanitisation", "input validation", "integrity", "migitation", "risk avoidance", "risk reduction", "risk treatment", "security", "security objective", "threat", "vulnerability" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Extension, BPMN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "6.2" ;
+    od:toPattern "Securing business activity after data is submitted", "Securing business services against DoS attacks", "Securing data from unauthorised access", "Securing data stored in/retrieved from the data store", "Securing data that flow between the business entities" ;
+    dcterms:issued "2014" ;
+    dcterms:title "Securing business processes using security risk-oriented patterns"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_166>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "21" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "Generic Process Model", "control flow", "ontology", "workflow pattern" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "1.2" ;
+    od:toPattern "Concurrency with FIFO merge", "Concurrency with First-in-first-out merge", "Concurrency with asymmetric synchronization/competition", "Concurrency with competition", "Concurrency with synchronization", "Multi-choice with FIFO merge", "Multi-choice with First- in-first-out merge", "Multi-choice with asymmetric synchronization/FIFO", "Multi-choice with asymmetric synchronization/competition", "Multi-choice with competition", "Multi-choice with synchronization", "Two domain exclusive choice", "concurrency with asymmetric synchronization/FIFO", "single domain exclusive choice" ;
+    dcterms:issued "2007" ;
+    dcterms:title "Semantic Analysis of Flow Patterns in Business Process Modeling"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_167>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "415" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "SOA", "receive", "send", "service-oriented architecture", "web service" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "IT Specialist" ;
+    od:toCategory "4.1" ;
+    od:toPattern "atomic multicast notification", "contingent requests", "dynamic routing", "multi-responses", "one-from-many receive", "one-to-many send", "racing incoming messages", "relayed request", "request with referral" ;
+    dcterms:issued "2005" ;
+    dcterms:title "Service Interaction Patterns"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_168>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "99" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "SOA", "choreography", "integration", "interaction", "message", "receive", "refinement", "send", "service adapter", "service composition", "service replacement" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Extension, Petri Net" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "IT Specialist" ;
+    od:toCategory "4.1" ;
+    od:toPattern "concurrent receive", "concurrent send", "correlation broker", "correlation swap", "following correlated receive", "following correlated send", "internal choice", "internal choice receiving follow-up", "leading correlated receive", "leading correlated send", "lossy receive", "post-blocking send", "pre-blocking send", "receive", "receiving choice", "receiving choice sending follow-up", "send", "sending choice", "sending choice receiving follow-up", "uncorrelated send" ;
+    dcterms:issued "2009" ;
+    dcterms:title "Service Interaction: Patterns, Formalization, and Analysis"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_169>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "acceptance", "administrative decision", "approval", "authentication", "authorisation", "authorization", "document", "permission", "review", "reviewing", "signature workflow", "signing" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, BPMN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function & Organization" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "5.2" ;
+    od:toPattern "additional countersignature", "dynamic countersignature", "jump signature", "sequential signature", "static countersignature" ;
+    dcterms:issued "2012" ;
+    dcterms:title "Simplifying the Design of Signature Workflow with Patterns"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_170>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "24" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "SPEM", "role blueprint", "role definition", "software process", "task blueprint", "task definition", "work product blueprint", "work product definition" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, polymetric views" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No (mentioned, but without link)" ;
+    od:hasView "Function & Resource" ;
+    od:intendedUser "IT Specialist" ;
+    od:toCategory "8.1" ;
+    dcterms:issued "2010" ;
+    dcterms:title "Software Process Model Blueprints"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_171>
+    od:extendOfDocumentation "Partial" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "34" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "EAM" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, BPMN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function & Resource" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "1.2, 2.1" ;
+    od:toPattern "Architecture Control by Applying a Release Workflow", "Automatic Data Acquisition/Maintenance", "Centralised Manual Data Acquisition/Maintenance", "Decentralised Manual Data Acquisition/Maintenance", "Lifecycle Management", "Verification and Audit" ;
+    dcterms:issued "2009" ;
+    dcterms:title "Some Process Patterns for Enterprise Architecture Management"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_172>
+    od:extendOfDocumentation "Partial" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "9" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "administration", "administrative workflow" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, UML AD" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function & Information" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "4.3" ;
+    od:toPattern "register", "validate" ;
+    dcterms:issued "2002" ;
+    dcterms:title "Specifying And Analysing Static And Dynamic Patterns Of Administrative Processes"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_173>
+    od:extendOfDocumentation "Complete (werden in der Dissertation von Kühn beschrieben)" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "8" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "EAI", "EMI", "enterprise application integration", "enterprise model integration", "strategy", "strategy management" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, UML" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst & IT Specialist" ;
+    od:toCategory "8.2" ;
+    od:toPattern "concept mapping", "concept-mapping", "fragment", "merge" ;
+    dcterms:issued "2005" ;
+    dcterms:title "Strategie-, Prozess- und IT-Management: Ein Pattern-orientierter Integrationsansatz"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_174>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "76" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "causal footprint", "causality graph", "soundness" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, Petri Net, EPC" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Formal", "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "Yes" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "1.2" ;
+    od:toPattern "Deadlock", "Generalised Trap", "Generalized Trap", "Multiple Termination", "Trap" ;
+    dcterms:issued "2006" ;
+    dcterms:title "Structural Patterns for Soundness of Business Process Models"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_175>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "17" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "MDA", "model driven architecture", "model transformation", "nested branching", "transformation" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "8.3" ;
+    od:toPattern "alternative", "branching", "end", "loop", "multiple alternative", "parallel", "sequential-path", "start" ;
+    dcterms:issued "2006" ;
+    dcterms:title "Structural Patterns for the Transformation of Business Process Models"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_176>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "4" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "activity-control diagram", "causal ordering", "causal relationship", "failure diagnosis", "failure reasoning" ;
+    od:hasLanguageDependency "Yes" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "New" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "Yes" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "1.2" ;
+    od:toPattern "AND split AND join", "AND-OR", "All-Out-Priority-Join", "COUNT split OR join", "Custom", "Decision", "Display", "Exchange", "Information", "Integration", "Invoke", "Module", "Priority split OR join", "Retrieval", "Transformation", "split-join" ;
+    dcterms:issued "2010" ;
+    dcterms:title "Structured design, consistency analysis and failure reasoning of business workflows with activity-control templates and causal ordering"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_177>
+    od:extendOfDocumentation "Partial" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "29" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "BPR", "business process reenigineering", "change", "improvement", "process improvement", "process performance" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Manual Mining" ;
+    od:hasNotation "Existing, ARIS Toolset" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "7.2" ;
+    od:toPattern "Addition", "Elimination" ;
+    dcterms:issued "2006" ;
+    dcterms:title "The Idea behind Business Process Improvement: Toward a Business Process Improvement Pattern Framework"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_178>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Evaluation Research", "Proposal of Solution" ;
+    od:hasCitationCount "58" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "constraint", "duration", "temporal", "time lag", "timing", "variability" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Case Study & Survey" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "6.1" ;
+    od:toPattern "Appointment Series", "Cyclic Elements", "Deadline", "Durations", "Fixed Date Elements", "Inter-Task Constraints", "Mutual Exclusion", "Periodicity", "Recurrence", "Schedule Restricted Elements", "Temporal Relations", "Time Lags between Arbitrary Events", "Time Lags between two Activities", "Time-based Restrictions", "Time-dependent Variability", "Upper and Lower Bound Constraints", "Validity Period" ;
+    dcterms:issued "2012" ;
+    dcterms:title "Time patterns for process-aware information systems"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_179>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Evaluation Research", "Survey" ;
+    od:hasCitationCount "11" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "BPR", "change", "improvement", "process improvement", "process performance" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "7.2" ;
+    od:toPattern "Adapt", "Combine", "Create", "Decide", "Eliminate", "Magnify", "Manage", "Minimize", "Move", "Preserve", "Put to other uses", "Rearrange", "Separate", "Substitute", "Use" ;
+    dcterms:issued "2013" ;
+    dcterms:title "Towards a framework for identifying business process redesign patterns"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_180>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "29" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "e-science", "scientific workflow management system", "scientific workflow system" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, BPMN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Domain-Specific" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function & Information" ;
+    od:intendedUser "Researcher" ;
+    od:toCategory "1.2, 3" ;
+    od:toPattern "Data token duplication", "Sequential Control and Concurrent Data", "Sequential Control and Sequential Data", "Single activity with multiple input and/or mul- tiple output dependencies", "Single activity with one input and one output dependency", "Synchronization of sequential data tokens" ;
+    dcterms:issued "2009" ;
+    dcterms:title "Towards scientific workflow patterns"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_181>
+    od:extendOfDocumentation "Partial" ;
+    od:hasArticleType "Evaluation Research", "Proposal of Solution" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "4 eyes principle", "4-eyes principle", "GMQL", "MaRisk", "agreement", "compliance auditing", "compliance checking", "compliance management", "compliance monitoring", "compliance rule", "confirmation", "credit decision", "dunning", "four eyes principle", "identification", "legal text", "money laundering", "query language", "recurring check", "regulatory compliance", "settlement", "split responsibilities" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Manual Mining" ;
+    od:hasNotation "New" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "6.1" ;
+    od:toPattern "4 eyes principle", "4-eyes principle", "agreement", "confirmation", "credit decision", "dunning", "four eyes principle", "identification", "identification-transaction", "recurring check", "settlement" ;
+    dcterms:issued "2015" ;
+    dcterms:title "Towards Supporting Business Process Compliance Checking with Compliance Pattern Catalogues - A Financial Industry Case Study"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_182>
+    od:extendOfDocumentation "Partial" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "11" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "business model", "business rationale", "e3value", "economic conversion", "economic exchange", "economic resource", "trust", "value conversion", "value engineering", "value exchange", "value model", "value objec" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, e3-value" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "6.1" ;
+    od:toPattern "commitment authorisation", "commitment confirmation", "compensation", "post verification", "pre-execution", "receipt", "verification" ;
+    dcterms:issued "2010" ;
+    dcterms:title "Towards Value-based Design Patterns for Inter-Organizational Control"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_183>
+    od:extendOfDocumentation "Partial" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "1" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "goal modeling", "goal modelling", "transformation" ;
+    od:hasLanguageDependency "Yes" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, BPMN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "8.2" ;
+    od:toPattern "decomposition-by-cases", "divide-and-conquer", "guard-introduction", "milestone-driven", "uncontrability-driven", "unmonitorability-driven" ;
+    dcterms:issued "2014" ;
+    dcterms:title "Transformation Approach from KAOS Goal Models to BPMN Models Using Refinement Patterns"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_184>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "4" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "UML", "UML activity diagram", "activity diagram", "stepwise refinement" ;
+    od:hasLanguageDependency "Yes" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, UML AD" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "8.1" ;
+    od:toPattern "alternative", "sequence" ;
+    dcterms:issued "2012" ;
+    dcterms:title "UML AD Refinement Patterns for Modeling Workflow Applications"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_185>
+    od:extendOfDocumentation "Partial" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "1" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "UML activity diagrams", "transformation" ;
+    od:hasLanguageDependency "Yes" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, EPC, UML AD" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "1.2" ;
+    od:toPattern "dissection of events", "sequential events" ;
+    dcterms:issued "2002" ;
+    dcterms:title "UML design patterns for business processes"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_186>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "3" ;
+    od:hasGuidelines "Yes" ;
+    od:hasKeyword "REA", "business model", "business rationale", "economic agent", "economic conversion", "economic exchange", "economic resource", "resource-event-agent", "value conversion", "value exchange", "value model", "value object" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, REA, BPMN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function & Information" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "8.3" ;
+    od:toPattern "conversion", "exchange", "insourcing", "outsourcing", "renting" ;
+    dcterms:issued "2014" ;
+    dcterms:title "Value-chain discovery from business process models"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_187>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "1" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "adaption", "configurable process model", "flexibility", "model configuration", "process family", "variability", "variability modeling", "variability modelling", "variant" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, BPMN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function & Organization & Information" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "7.1" ;
+    od:toPattern "Variability Configuration", "Variability Derivation" ;
+    dcterms:issued "2015" ;
+    dcterms:title "Variability patterns for business processes in BPMN"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_188>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "7" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "adaption", "compare", "comparing", "comparison", "difference", "flexibility", "process family", "variability", "variant" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function & Information" ;
+    od:intendedUser "Business Analyst & IT Specialist" ;
+    od:toCategory "7.1" ;
+    od:toPattern "de-parallelization", "delete", "insert", "merge", "move", "parallelization", "replace", "skip", "split", "swap" ;
+    dcterms:issued "2009" ;
+    dcterms:title "Workflow Change Patterns: Opportunities for Extension and Reuse"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_189>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Survey" ;
+    od:hasCitationCount "5" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "soundness", "terminating", "termination", "weak soundness" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, Petri Net" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Formal" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Light" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function & Information" ;
+    od:intendedUser "Researcher" ;
+    od:toCategory "1.1" ;
+    od:toPattern "mandatory completion", "optional completion", "possible completion" ;
+    dcterms:issued "2009" ;
+    dcterms:title "Workflow Completion Patterns"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_190>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "629" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "N-out-of-M", "PAIS", "Process-Aware Information System", "WCP", "flow of control", "workflow engine", "workflow pattern" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "Existing, CPN" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "1.2" ;
+    od:toPattern "1-out-of-M join", "AND join", "AND split", "AND-join", "AND-split", "Acyclic Synchronizing Merge", "Arbitrary Cycles", "Blocking Discriminator", "Blocking Partial Join", "Cancel Activity", "Cancel Multiple Instance Activity", "Cancel Region", "Cancelling Discriminator", "Cancelling Partial Join", "Cancelling Partial Join for Multiple Instances", "Complete Multiple Instance Activity", "Critical Section", "Deferred Choice", "Dynamic Partial Join for Multiple Instances", "Explicit Termination", "External choice", "General Synchronizing Merge", "Generalized AND-Join", "IOR split", "IOr-split", "Implicit Termination", "Interleaved Parallel Routing", "Interleaved Routing", "Multi threading without synchronization", "Multiple Instances with a priori Design-Time Knowledge", "Multiple Instances with a priori Run-Time Knowledge", "Multiple Instances without Synchronization", "Multiple instances without a priori run-time knowledge", "OR split", "OR-split", "Persistent Trigger", "Recursion", "Static Partial Join for Multiple Instances", "Structured Discriminator", "Structured Loop", "Structured Partial Join", "Structured Synchronizing Merge", "Synchronizing join", "Test arc", "Thread Merge", "Thread Split", "Transient Trigger", "Unstructured loop", "XOR join", "XOR-join", "XOR-split XOR split", "asynchronous join", "cancel Case", "case statement", "conditional routing", "cycle", "deadline", "decision", "deferred XOR-split", "exclusive OR join", "exclusive OR split", "exclusive OR-join", "exclusive OR-split", "exclusive choice", "fork", "implicit choice", "inclusive OR split", "inclusive OR-split", "iteration", "merge", "milestone", "multi-choice", "multi-merge", "multiple choice", "parallel routing", "parallel split", "rendez-vous", "rendezvous", "selection", "sequence", "sequential routing", "serial routing", "simple merge", "spawn off facility", "state condition", "switch", "synchronization", "synchronizer", "withdraw activity", "withdraw case", "withdraw message" ;
+    dcterms:issued "2006" ;
+    dcterms:title "Workflow Control-Flow Patterns: A Revised View"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_191>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "269" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "PAIS", "Process-Aware Information System", "communication", "data flow", "data interaction", "data passing", "data transfer", "data visibility", "data-based routing", "information exchange", "information resource", "workflow engine" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Information" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "3" ;
+    od:toPattern "Data Interaction - Case to Environment - Pull-Oriented", "Data Interaction - Case to Environment - Push-Oriented", "Data Interaction - Environment to Case - Pull-Oriented", "Data Interaction - Environment to Case - Push-Oriented", "Data Interaction - Environment to Task - Push-Oriented", "Data Interaction - Environment to Workflow - Push-Oriented", "Data Interaction - Task to Environment - Pull-Oriented", "Data Interaction - Workflow to Environment - Pull-Oriented", "Data Interaction - Workflow to Environment - Push-Oriented", "Data Interaction- Environment to Workflow - Pull-Oriented", "Data Transfer - Copy In/Copy Out", "Data Transfer by Reference - Unlocked", "Data Transfer by Reference - With Lock", "Data Transfer by Value - Incoming", "Data Transfer by Value - Outgoing", "Data Transformation - Input", "Data Transformation - Output", "Data-based Routing", "Data-based Task Trigger", "Event-based Task Trigger", "Task Postcondition - Data Existence", "Task Postcondition - Data Value", "Task Precondition - Data Existence", "Task Precondition - Data Value", "block data", "case data", "data interaction  Sub-Workflow Decomposition to Block Task", "data interaction - Task to Environment pull-oriented", "data interaction - Task to Environment push-oriented", "data interaction - case to case", "data interaction - from Multiple Instance Task", "data interaction - to Multiple Instance Task", "data interaction Block Task to Sub-Workflow Decomposition", "data interaction task to task", "environment data", "multiple instance data", "scope data", "task data", "workflow data" ;
+    dcterms:issued "2005" ;
+    dcterms:title "Workflow Data Patterns: Identification, Representation and Tool Support"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_192>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "207" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "constraint violation", "deadline expiry", "exception handling", "external trigger", "failure", "invariant", "precondition", "resource unavailability", "unexpected behavior", "unexpected behaviour", "work item failure" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "New" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "None" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Function" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "1.2" ;
+    od:toPattern "compensate", "continue workflow case", "continue-allocation", "continue-execution", "continue-offer", "force-complete", "force-complete-a", "force-complete-o", "force-fail", "force-fail-o", "no action", "orce-fail-a", "reallocate", "reallocate-s", "remove all cases", "remove current case", "reoffer", "reoffer-a", "reoffer-s", "restart", "rollback" ;
+    dcterms:issued "2006" ;
+    dcterms:title "Workflow Exception Patterns"@en ;
+    a od:BPMPaper .
+
+<http://opendiscovery.org/rdf/BPMPaper_193>
+    od:extendOfDocumentation "Complete" ;
+    od:hasArticleType "Proposal of Solution" ;
+    od:hasCitationCount "422" ;
+    od:hasGuidelines "No" ;
+    od:hasKeyword "PAIS", "Process-Aware Information System", "auto-start", "collaboration", "cooperation", "creation", "detour", "multiple resources", "pull", "push", "resource allocation", "resource distribution", "resource modeling", "resource modelling", "resource perspective", "scheduling", "visibility", "work distribution", "workflow engine" ;
+    od:hasLanguageDependency "No" ;
+    od:hasMethodOfCreation "Informed Argument" ;
+    od:hasNotation "None" ;
+    od:hasOrigin "Research" ;
+    od:hasPresentation "Graphical", "Textual" ;
+    od:hasScope "Generic" ;
+    od:hasTemplate "Full" ;
+    od:hasToolSupport "No" ;
+    od:hasView "Resource" ;
+    od:intendedUser "Business Analyst" ;
+    od:toCategory "2.1" ;
+    od:toPattern "Additional Resources", "Authorisation", "Automatic Execution", "Capability-based Allocation", "Case Handling", "Chained Execution", "Commencement on Allocation", "Commencement on Creation", "Configurable Allocated Work Item Visibility", "Configurable Unallocated Work Item Visibility", "Deallocation", "Deferred Allocation", "Delegation", "Direct Allocation", "Distribution by Allocation - Single Resource", "Distribution by Offer - Multiple Resources", "Distribution by Offer - Single Resource", "Distribution on Enablement", "Early Distribution", "Escalation", "History-based Allocation", "Late Distribution", "Organisational Allocation", "Piled Execution", "Pre-Do", "Random Allocation", "Redo", "Resource-Determined Work Queue Content", "Resource-Initiated Allocation", "Resource-Initiated Execution - Allocated Work Item", "Resource-Initiated Execution - Offered Work Item", "Retain Familiar", "Role-Based Allocation", "Round Robin Allocation", "Selection Autonomy", "Separation of Duties", "Shortest Queue", "Simultaneous Execution", "Skip", "SoD", "Stateful Reallocation", "Stateless Reallocation", "Suspension/Resumption", "System-Determined Work Queue Content" ;
+    dcterms:issued "2005" ;
+    dcterms:title "Workflow Resource Patterns: Identification, Representation and Tool Support"@en ;
+    a od:BPMPaper .
+
