@@ -1,0 +1,581 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix bmp: <http://opendiscovery.org/rdf/BusinessModelPattern/> .
+
+<http://opendiscovery.org/rdf/Ontologies/CEBMPatterns/>
+    a owl:Ontology ;
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    rdfs:comment "2022-06-16: Extracted and transformed from (Luedeke-Freund et al. 2018)" ;
+    rdfs:label "The Circular Economy Business Model Patterns identified in (Luedeke-Freund et al. 2018)" .
+
+bmp:P1 a od:CEBM ; 
+  od:hasLFId "P1" ; 
+  skos:prefLabel "Circular supplies";
+  od:hasProductVP "recycled inputs";
+  od:hasProductVP "fully renewable, recyclable, or biodegradable inputs";
+  od:hasCustomerVD "manufacturers";
+  od:hasProcessVD "replacing virgin materials and \"linear\" inputs";
+  od:hasCostsVC "reduction of waste disposal costs";
+  od:hasCostsVC "reduction of inefficiencies";
+  od:hasProcessVC "using waste of third parties as inputs";
+  od:hasProcessVC "using own waste as input";
+  od:hasProcessVC "recapturing of waste";
+  od:hasProcessVC "reusing of waste";
+  od:hasExample "Royal DSM" .  
+
+bmp:P2 a od:CEBM ; 
+  od:hasLFId "P2" ; 
+  skos:prefLabel "Classic long life model";
+  od:hasProductVP "long-lasting products";
+  od:hasServiceVP "repair";
+  od:hasServiceVP "maintenance";
+  od:hasProcessVD "offering long-lasting products and corresponding repair and maintenance services";
+  od:hasRevenueVC "price premium for longevity and high quality of products";
+  od:hasCostsVC "long-term service and product warrantee cost";
+  od:hasProcessVC "designing long-lasting products";
+  od:hasExample "Miele’s 20-year life span of appliances";
+  od:hasExample "Luxury products with a long lifetime(e.g. luxury watches)" .  
+
+bmp:P3 a od:CEBM ; 
+  od:hasLFId "P3" ; 
+  skos:prefLabel "Closed-loop production";
+  od:hasServiceVP "product take back";
+  od:hasRevenueVC "re-engagement of customers to facilitate product take-back";
+  od:hasCostsVC "reduction of energy and material costs";
+  od:hasProcessVC "continuous cycling of material";
+  od:hasProcessVC "reduction of waste";
+  od:hasProcessVC "recapturing of waste";
+  od:hasProcessVC "reusing of waste";
+  od:hasProcessVC "biodegradation of waste";
+  od:hasProcessVC "composting of waste";
+  od:hasExample "Novelis (sources 43% of its aluminum from recycled materials)";
+  od:hasExample "Interface" .  
+
+bmp:P4 a od:CEBM ; 
+  od:hasLFId "P4" ; 
+  skos:prefLabel "Co-product generation, Multiple cash flows, multiple revenues";
+  od:hasProductVP "co-products based on recycled waste, process residues or by-products";
+  od:hasRevenueVC "additional revenues from co-products";
+  od:hasCostsVC "reduction of energy and material costs";
+  od:hasCostsVC "reduction of waste disposal costs";
+  od:hasCostsVC "reduced supply risks";
+  od:hasProcessVC "using waste of third parties for new products";
+  od:hasProcessVC "using own waste for new products";
+  od:hasProcessVC "using process residues and by-products as inputs for co-products";
+  od:hasExample "British Sugar";
+  od:hasExample "McDonalds's “fried for fuel” project";
+  od:hasExample "CSC s.r.l. (Italian firmproducing concrete)" .  
+
+bmp:P5 a od:CEBM ; 
+  od:hasLFId "P5" ; 
+  skos:prefLabel "Cradle-to-cradle";
+  od:hasProductVP "cradle-to-cradle certified products";
+  od:hasProductVP "waste-less products";
+  od:hasRevenueVC "cradle-to-cradle products as flagships to open new revenue streams";
+  od:hasProcessVC "separating, reusing and cycling technical and biological materials";
+  od:hasExample "Gabriel (furniture textiles and fabrics manufacturer)" .  
+
+bmp:P6 a od:CEBM ; 
+  od:hasLFId "P6" ; 
+  skos:prefLabel "Create value from waste";
+  od:hasProductVP "waste as production input";
+  od:hasProcessVD "identify and transfer waste streams";
+  od:hasCostsVC "reduction of energy and material costs";
+  od:hasPartnersVC "set up new partnerships (e.g.  recycling networks)";
+  od:hasProcessVC "using waste of third parties for new products";
+  od:hasProcessVC "using own waste for new products";
+  od:hasProcessVC "making use of underutilised capacities and resources";
+  od:hasExample "Industrial park Kalundborg" .  
+
+bmp:P7 a od:CEBM ; 
+  od:hasLFId "P7" ; 
+  skos:prefLabel "Extending product value taking back used products";
+  od:hasProductVP "used products or components in as-new quality";
+  od:hasProductVP "repaired products";
+  od:hasProductVP "remanufactured products";
+  od:hasServiceVP "take back of used products";
+  od:hasServiceVP "deposit systems";
+  od:hasProcessVD "taking back used products from distributors and end users";
+  od:hasProcessVD "offering platforms to sell used products";
+  od:hasCostsVC "reduction of material costs";
+  od:hasCostsVC "increase of labor and logistics costs";
+  od:hasPartnersVC "collaborations e.g. with retailers, logistics companies, and collection points";
+  od:hasProcessVC "recovering products at the end of one product lifecycle";
+  od:hasProcessVC "repairing or remanufacturing own products";
+  od:hasProcessVC "repairing or remanufacturing products of third parties";
+  od:hasExample "Remanufacturing parts in the automotive industry";
+  od:hasExample "Gazelle";
+  od:hasExample "clothing return at H&M";
+  od:hasExample "M&S “Shwopping”" .  
+
+bmp:P8 a od:CEBM ; 
+  od:hasLFId "P8" ; 
+  skos:prefLabel "Extending resource value using recycled waste";
+  od:hasProductVP "products based on recycled waste";
+  od:hasServiceVP "taking back of waste materials";
+  od:hasCustomerVD "green consumers";
+  od:hasProcessVD "taking back waste materials";
+  od:hasPartnersVC "collaborations e.g. with retailers, logistics companies, and collection points";
+  od:hasProcessVC "winning back base materials from waste for new products";
+  od:hasProcessVC "using waste of third parties for new products";
+  od:hasProcessVC "using own waste for new products";
+  od:hasExample "Interface using fishing nets as a raw material for carpets";
+  od:hasExample "RecycleBank issuing reward points for recycling" .  
+
+bmp:P9 a od:CEBM ; 
+  od:hasLFId "P9" ; 
+  skos:prefLabel "Industrial symbiosis, use waste produced by others";
+  od:hasProductVP "waste as production input";
+  od:hasServiceVP "cost reductions";
+  od:hasServiceVP "supply risk reduction";
+  od:hasServiceVP "elimination of third party waste";
+  od:hasServiceVP "synergistic partnerships";
+  od:hasProcessVD "set up geographically proximate collaborations (e.g. eco-industrial parks)";
+  od:hasProcessVD "matching between waste suppliers and users";
+  od:hasProcessVD "sharing of local services (e.g. cleaning, maintenance)";
+  od:hasRevenueVC "new revenue potential through green image";
+  od:hasRevenueVC "additional revenues through new IS products";
+  od:hasCostsVC "reduction of energy and material costs";
+  od:hasCostsVC "reduction of waste disposal costs";
+  od:hasCostsVC "reduction of transportation costs";
+  od:hasPartnersVC "manufacturers";
+  od:hasProcessVC "physical exchange of materials, energy, water, and byproducts";
+  od:hasProcessVC "using waste of third parties for new products";
+  od:hasProcessVC "using own waste for new products";
+  od:hasProcessVC "making use of underutilised capacities and resources";
+  od:hasExample "Barton";
+  od:hasExample "BB Architects";
+  od:hasExample "Kalundborg EcoIndustrial Park";
+  od:hasExample "AB sugar and other sugarrefiners" .  
+
+bmp:P10 a od:CEBM ; 
+  od:hasLFId "P10" ; 
+  skos:prefLabel "Online waste exchange platform";
+  od:hasServiceVP "bringing together producers and users of waste";
+  od:hasCustomerVD "waste suppliers";
+  od:hasCustomerVD "waste users";
+  od:hasProcessVD "online-based matching between waste suppliers and users";
+  od:hasRevenueVC "transaction fees";
+  od:hasProcessVC "identification of gaps between demand and supply of waste";
+  od:hasExample "wastetrade.it (Italy)";
+  od:hasExample "thewastetradecompan y.co.za. (South Africa)";
+  od:hasExample "smileexchange.ie (Ireland)" .  
+
+bmp:P11 a od:CEBM ; 
+  od:hasLFId "P11" ; 
+  skos:prefLabel "Product life extension by long-lasting products";
+  od:hasProductVP "long-lasting products";
+  od:hasServiceVP "upgrading";
+  od:hasCustomerVD "users of industrial equipment";
+  od:hasCustomerVD "end users buying remarketed products";
+  od:hasRevenueVC "additional revenue through extended usage";  
+  od:hasProcessVC "designing long-lasting products";
+  od:hasProcessVC "repairing, upgrading, remanufacturing or remarketing of products";
+  od:hasExample "Appropriate for most capital-intensive B2B segments";
+  od:hasExample "B2C companies serving markets where “reproducts commerce” is common";
+  od:hasExample "Google’s project \"Ara\"" .
+
+bmp:P12 a od:CEBM ; 
+  od:hasLFId "P12" ; 
+  skos:prefLabel "Product recycling, Recycling 2.0 by waste management";
+  od:hasProductVP "packaging that can be completely emptied";
+  od:hasServiceVP "education of consumers to reduce product waste";
+  od:hasServiceVP "waste collection";
+  od:hasServiceVP "waste sorting";
+  od:hasServiceVP "waste recycling";
+  od:hasCostsVC "reduction of energy and material costs";
+  od:hasCostsVC "reduction of waste disposal costs";
+  od:hasPartnersVC "suppliers";
+  od:hasPartnersVC "researchers";
+  od:hasPartnersVC "key customers";
+  od:hasPartnersVC "municipality";
+  od:hasProcessVC "winning back base materials from used products";
+  od:hasProcessVC "winning back base materials from used packaging";
+  od:hasExample "Zen Robotics";
+  od:hasExample "Norsk Gjenvinning";
+  od:hasExample "Icelandic recycling fund";
+  od:hasExample "Arla" .  
+
+bmp:P13 a od:CEBM ; 
+  od:hasLFId "P13" ; 
+  skos:prefLabel "Product transformation";
+  od:hasProcessVC "winning back components from used products";
+  od:hasExample "Agito Medical" .  
+
+bmp:P14 a od:CEBM ; 
+  od:hasLFId "P14" ; 
+  skos:prefLabel "Remanufacturing, next-life sales";  
+  od:hasProductVP "used products or components in as-new quality";
+  od:hasProcessVC "restoring the functionality of products or components";
+  od:hasExample "Bosch (remanufactured car parts)" .
+
+bmp:P15 a od:CEBM ; 
+  od:hasLFId "P15" ; 
+  skos:prefLabel "Rematerialisation";
+  od:hasServiceVP "elimination of third party waste";
+  od:hasCustomerVD "firms wanting to eliminate their waste to landfill";
+  od:hasRevenueVC "payments from other firms for taking their waste";
+  od:hasProcessVC "winning back base materials from waste for new products";
+  od:hasExample "Rubies in the Rubble";
+  od:hasExample "Knowaste" .  
+
+bmp:P16 a od:CEBM ; 
+  od:hasLFId "P16" ; 
+  skos:prefLabel "Repair, Reuse, nextlife sales";
+  od:hasProductVP "cheaper products";
+  od:hasProductVP "repaired equipment";
+  od:hasProductVP "spare parts";
+  od:hasServiceVP "securing uptime and lifespan of products";
+  od:hasServiceVP "securing uptime and lifespan of equipment";
+  od:hasServiceVP "equipment database";
+  od:hasServiceVP "shipping and installation";
+  od:hasServiceVP "maintenance";
+  od:hasServiceVP "upgrading";
+  od:hasServiceVP "renting out equipment";
+  od:hasCustomerVD "users with constrained budgets";
+  od:hasProcessVD "making repaired equipment accessible and affordable";
+  od:hasPartnersVC "equipment manufacturers";
+  od:hasPartnersVC "equipment users";
+  od:hasProcessVC "purchasing, refurbishing, remarketing and reselling used equipment";
+  od:hasProcessVC "refurbishing and reselling used products";
+  od:hasExample "Godsinlösen";
+  od:hasExample "Apple Certified Refurbished";
+  od:hasExample "Off2Off";
+  od:hasExample "Repack" .  
+
+bmp:P17 a od:CEBM ; 
+  od:hasLFId "P17" ; 
+  skos:prefLabel "Resource recovery";
+  od:hasProcessVD "providing waste as input to third parties";
+  od:hasProcessVD "providing waste as input to internal processes";
+  od:hasCostsVC "elimination of material leakage and corresponding material costs";
+  od:hasPartnersVC "companies producing large volumes of byproduct";
+  od:hasProcessVC "recovering products and materials at the end of one product lifecycle";
+  od:hasProcessVC "reprocessing of materials";
+  od:hasProcessVC "recycling";
+  od:hasProcessVC "upcycling";
+  od:hasExample "US grocery chain Kroger" .  
+
+bmp:P18 a od:CEBM ; 
+  od:hasLFId "P18" ; 
+  skos:prefLabel "Deliver functionality, rather than ownership";
+  od:hasServiceVP "functionality";
+  od:hasServiceVP "result";
+  od:hasServiceVP "switching from product to service";
+  od:hasServiceVP "user education to shift from owning to using";
+  od:hasServiceVP "product maintenance, repair and control";
+  od:hasProcessVD "providing products to be used";
+  od:hasProcessVD "retaining product ownership";
+  od:hasProcessVD "taking back used products";
+  od:hasProcessVD "specifying functionality or result, but not applied technology";
+  od:hasRevenueVC "payments per use";
+  od:hasRevenueVC "payments for functionality";
+  od:hasRevenueVC "payments for results payments per unit of service (e.g. time, number of uses)";
+  od:hasCostsVC "product maintenance costs";
+  od:hasCostsVC "product longevity, reusability and sharing reduces costs";
+  od:hasCostsVC "reduction of material costs";
+  od:hasPartnersVC "manufacturers";
+  od:hasProcessVC "providing a product";
+  od:hasProcessVC "maintaining, repairing and controlling the product";
+  od:hasProcessVC "reusing products";
+  od:hasProcessVC "using products longer";
+  od:hasExample "GH Form";
+  od:hasExample "Xerox document management system";
+  od:hasExample "Cowell";
+  od:hasExample "Scanenergi";
+  od:hasExample "launderette" .  
+
+bmp:P19 a od:CEBM ; 
+  od:hasLFId "P19" ; 
+  skos:prefLabel "Product renting, leasing or sharing";
+  od:hasServiceVP "unlimited and individual access to a product (lease)";
+  od:hasServiceVP "limited and shared access to a product (renting)";
+  od:hasServiceVP "product maintenance, repair and control";
+  od:hasProcessVD "providing products to be used";
+  od:hasProcessVD "retaining product ownership";
+  od:hasProcessVD "taking back used products";
+  od:hasProcessVD "specifying functionality or result, but not applied technology";
+  od:hasRevenueVC "leasing fee";
+  od:hasRevenueVC "rental fee";
+  od:hasCostsVC "product maintenance costs";
+  od:hasCostsVC "product longevity, reusability and sharing reduces costs";
+  od:hasCostsVC "reduction of material costs";
+  od:hasPartnersVC "manufacturers";
+  od:hasProcessVC "providing a product";
+  od:hasProcessVC "maintaining, repairing and controlling the product";
+  od:hasProcessVC "reusing products";
+  od:hasProcessVC "using products longer";
+  od:hasExample "Michelin's “tires as a servce”";
+  od:hasExample "clothing hire models";
+  od:hasExample "car sharing";
+  od:hasExample "Volvo Aero" .  
+
+bmp:P20 a od:CEBM ; 
+  od:hasLFId "P20" ; 
+  skos:prefLabel "Sharing platforms";
+  od:hasServiceVP "collaboration among product users";
+  od:hasCustomerVD "private persons or organizations with asset overcapacities";
+  od:hasProcessVD "users share their overcapacities";
+  od:hasRevenueVC "transaction fees";
+  od:hasProcessVC "matching owners and users of overcapacities";
+  od:hasExample "Lyft" .  
+
+bmp:P21 a od:CEBM ; 
+  od:hasLFId "P21" ; 
+  skos:prefLabel "Take back management";
+  od:hasProductVP "recyclable and decomposable products (and/or packaging)";
+  od:hasServiceVP "product take back";
+  od:hasCustomerVD "distributors and endusers";
+  od:hasProcessVD "taking back used products (and/or packaging) from distributors and endusers";
+  od:hasProcessVD "retaining product (and/or packaging) ownership";
+  od:hasCostsVC "reduction of material costs";
+  od:hasCostsVC "reduction of manufacturing costs";
+  od:hasProcessVC "designing recyclable and decomposable products (and/or packaging)";
+  od:hasProcessVC "taking back used products (and/or packaging)";
+  od:hasExample "Desso" .  
+
+bmp:P22 a od:CEBM ; 
+  od:hasLFId "P22" ; 
+  skos:prefLabel "Upgrading";
+  od:hasProcessVC "replacing outdated modules or components with superior ones";
+  od:hasExample "Modular phone (e.g.  Google’s “Ara” project)" .  
+
+bmp:P23 a od:CEBM ; 
+  od:hasLFId "P23" ; 
+  skos:prefLabel "Waste exchange (external)";
+  od:hasProductVP "waste as production input";
+  od:hasProcessVD "providing waste as input to third parties";
+  od:hasRevenueVC "additional revenues from selling waste";
+  od:hasCostsVC "reduction of energy and material costs";
+  od:hasCostsVC "payments to firms taking the waste";
+  od:hasProcessVC "using waste as an input between different firms";
+  od:hasExample "Eco-industrial parks" .  
+
+bmp:P24 a od:CEBM ; 
+  od:hasLFId "P24" ; 
+  skos:prefLabel "Waste exchange (internal)";
+  od:hasProductVP "waste as production input";
+  od:hasProcessVD "providing waste as input to internal processes";
+  od:hasCostsVC "reduced waste disposal costs";
+  od:hasCostsVC "reduction of energy and material costs";
+  od:hasProcessVC "using waste internally as an input";
+  od:hasExample "AB sugar and other sugar refiners" .  
+
+bmp:P25 a od:CEBM ; 
+  od:hasLFId "P25" ; 
+  skos:prefLabel "Waste regeneration systems";
+  od:hasProductVP "products based on recycled waste";
+  od:hasRevenueVC "new revenue potential through green image";
+  od:hasCostsVC "reduction of material costs";
+  od:hasExample "Brisa";
+  od:hasExample "Grundfos" .  
+
+bmp:P26 a od:CEBM ; 
+  od:hasLFId "P26" ; 
+  skos:prefLabel "Encourage sufficiency";
+  od:hasProductVP "long-lasting products";
+  od:hasServiceVP "education of consumers to reduce consumption";
+  od:hasServiceVP "warranties";
+  od:hasServiceVP "upgrading";
+  od:hasCustomerVD "customers with high willingness to pay";
+  od:hasRevenueVC "reduction of revenues from product sales";
+  od:hasRevenueVC "additional revenues from services";
+  od:hasRevenueVC "price premium for longevity";
+  od:hasProcessVC "designing long-lasting products";
+  od:hasProcessVC "repairing, upgrading, remanufacturing or remarketing of products";
+  od:hasExample "Vitsoe";
+  od:hasExample "Patagonia";
+  od:hasExample "Energy Service Companies (ESCOs)" .  
+
+bmp:E1 a od:CEBM ;
+   skos:prefLabel "Co-product generation"@en ;
+   od:toMorphoPattern bmp:P4 ;
+   od:inPrimarySource "(Albino and Fraccascia, 2015)" .
+
+bmp:E2 a od:CEBM ;
+   skos:prefLabel "Online waste exchange platform"@en ;
+   od:toMorphoPattern bmp:P10 ;
+   od:inPrimarySource "(Albino and Fraccascia, 2015)" .
+
+bmp:E3 a od:CEBM ;
+   skos:prefLabel "Waste exchange (external)"@en ;
+   od:toMorphoPattern bmp:P23 ;
+   od:inPrimarySource "(Albino and Fraccascia, 2015)" .
+
+bmp:E4 a od:CEBM ;
+   skos:prefLabel "Waste exchange (internal)"@en ;
+   od:toMorphoPattern bmp:P24 ;
+   od:inPrimarySource "(Albino and Fraccascia, 2015)" .
+
+bmp:E5 a od:CEBM ;
+   skos:prefLabel "Circular supplies"@en ;
+   od:toMorphoPattern bmp:P1 ;
+   od:inPrimarySource "(Albino and Fraccascia, 2015)" .
+
+bmp:E6 a od:CEBM ;
+   skos:prefLabel "Product as a service"@en ;
+   od:toMorphoPattern bmp:P19 ;
+   od:inPrimarySource "(Albino and Fraccascia, 2015)" .
+
+bmp:E7 a od:CEBM ;
+   skos:prefLabel "Product life extension"@en ;
+   od:toMorphoPattern bmp:P11 ;
+   od:inPrimarySource "(Albino and Fraccascia, 2015)" .
+
+bmp:E8 a od:CEBM ;
+   skos:prefLabel "Resource recovery"@en ;
+   od:toMorphoPattern bmp:P17 ;
+   od:inPrimarySource "(Albino and Fraccascia, 2015)" .
+
+bmp:E9 a od:CEBM ;
+   skos:prefLabel "Sharing platforms"@en ;
+   od:toMorphoPattern bmp:P20 ;
+   od:inPrimarySource "(Albino and Fraccascia, 2015)" .
+
+bmp:E10 a od:CEBM ;
+   skos:prefLabel "Functional sales and management services models"@en ;
+   od:toMorphoPattern bmp:P18 ;
+   od:inPrimarySource "(Beltramello et al., 2013)" .
+
+bmp:E11 a od:CEBM ;
+   skos:prefLabel "Industrial symbiosis"@en ;
+   od:toMorphoPattern bmp:P9 ;
+   od:inPrimarySource "(Beltramello et al., 2013)" .
+
+bmp:E12 a od:CEBM ;
+   skos:prefLabel "Waste regeneration systems"@en ;
+   od:toMorphoPattern bmp:P25 ;
+   od:inPrimarySource "(Beltramello et al., 2013)" .
+
+bmp:E13 a od:CEBM ;
+   skos:prefLabel "Take back management"@en ;
+   od:toMorphoPattern bmp:P21 ;
+   od:inPrimarySource "(Bisgaard et al., 2012)" .
+
+bmp:E14 a od:CEBM ;
+   skos:prefLabel "Create value from waste"@en ;
+   od:toMorphoPattern bmp:P6 ;
+   od:inPrimarySource "(Bocken et al., 2014)" .
+
+bmp:E15 a od:CEBM ;
+   skos:prefLabel "Deliver functionality, rather than ownership"@en ;
+   od:toMorphoPattern bmp:P18 ;
+   od:inPrimarySource "(Bocken et al., 2014)" .
+
+bmp:E16 a od:CEBM ;
+   skos:prefLabel "Access and performance model"@en ;
+   od:toMorphoPattern bmp:P18 ;
+   od:inPrimarySource "(Bocken et al., 2016)" .
+
+bmp:E17 a od:CEBM ;
+   skos:prefLabel "Classic long life model"@en ;
+   od:toMorphoPattern bmp:P2 ;
+   od:inPrimarySource "(Bocken et al., 2016)" .
+
+bmp:E18 a od:CEBM ;
+   skos:prefLabel "Encourage sufficiency"@en ;
+   od:toMorphoPattern bmp:P26 ;
+   od:inPrimarySource "(Bocken et al., 2016)" .
+
+bmp:E19 a od:CEBM ;
+   skos:prefLabel "Extending product value"@en ;
+   od:toMorphoPattern bmp:P7 ;
+   od:inPrimarySource "(Bocken et al., 2016)" .
+
+bmp:E20 a od:CEBM ;
+   skos:prefLabel "Extending resource value"@en ;
+   od:toMorphoPattern bmp:P8 ;
+   od:inPrimarySource "(Bocken et al., 2016)" .
+
+bmp:E21 a od:CEBM ;
+   skos:prefLabel "Cradle-to-cradle"@en ;
+   od:toMorphoPattern bmp:P5 ;
+   od:inPrimarySource "(Braungart et al., 2007)" .
+
+bmp:E22 a od:CEBM ;
+   skos:prefLabel "Closed-loop production"@en ;
+   od:toMorphoPattern bmp:P3 ;
+   od:inPrimarySource "(Clinton and Whisnant, 2014)" .
+
+bmp:E23 a od:CEBM ;
+   skos:prefLabel "Remanufacturing, next-life sales"@en ;
+   od:toMorphoPattern bmp:P14 ;
+   od:inPrimarySource "(Clinton and Whisnant, 2014)" .
+
+bmp:E24 a od:CEBM ;
+   skos:prefLabel "Rematerialization"@en ;
+   od:toMorphoPattern bmp:P15 ;
+   od:inPrimarySource "(Clinton and Whisnant, 2014)" .
+
+bmp:E25 a od:CEBM ;
+   skos:prefLabel "Recycling and waste management"@en ;
+   od:toMorphoPattern bmp:P12 ;
+   od:inPrimarySource "(Kiørboe et al., 2015)" .
+
+bmp:E26 a od:CEBM ;
+   skos:prefLabel "Repair"@en ;
+   od:toMorphoPattern bmp:P16 ;
+   od:inPrimarySource "(Kiørboe et al., 2015)" .
+
+bmp:E27 a od:CEBM ;
+   skos:prefLabel "Reuse"@en ;
+   od:toMorphoPattern bmp:P16 ;
+   od:inPrimarySource "(Kiørboe et al., 2015)" .
+
+bmp:E28 a od:CEBM ;
+   skos:prefLabel "Service and function-based models"@en ;
+   od:toMorphoPattern bmp:P18 ;
+   od:inPrimarySource "(Kiørboe et al., 2015)" .
+
+bmp:E29 a od:CEBM ;
+   skos:prefLabel "Multiple cash flows, multiple revenues"@en ;
+   od:toMorphoPattern bmp:P4 ;
+   od:inPrimarySource "(Pauli, 2010)" .
+
+bmp:E30 a od:CEBM ;
+   skos:prefLabel "Product recycling, Recycling 2.0"@en ;
+   od:toMorphoPattern bmp:P12 ;
+   od:inPrimarySource "(Planing, 2015)" .
+
+bmp:E31 a od:CEBM ;
+   skos:prefLabel "Product transformation"@en ;
+   od:toMorphoPattern bmp:P13 ;
+   od:inPrimarySource "(Planing, 2015)" .
+
+bmp:E32 a od:CEBM ;
+   skos:prefLabel "Reuse, refurbish, maintain, redistribute, next-life sales"@en ;
+   od:toMorphoPattern bmp:P16 ;
+   od:inPrimarySource "(Planing, 2015)" .
+
+bmp:E33 a od:CEBM ;
+   skos:prefLabel "Upgrading"@en ;
+   od:toMorphoPattern bmp:P22 ;
+   od:inPrimarySource "(Planing, 2015)" .
+
+bmp:E34 a od:CEBM ;
+   skos:prefLabel "Functional result"@en ;
+   od:toMorphoPattern bmp:P18 ;
+   od:inPrimarySource "(Tukker, 2004)" .
+
+bmp:E35 a od:CEBM ;
+   skos:prefLabel "Pay per service unit"@en ;
+   od:toMorphoPattern bmp:P18 ;
+   od:inPrimarySource "(Tukker, 2004)" .
+
+bmp:E36 a od:CEBM ;
+   skos:prefLabel "Product lease"@en ;
+   od:toMorphoPattern bmp:P19;
+   od:inPrimarySource "(Tukker, 2004)" .
+
+bmp:E37 a od:CEBM ;
+   skos:prefLabel "Product renting or sharing"@en ;
+   od:toMorphoPattern bmp:P19 ;
+   od:inPrimarySource "(Tukker, 2004)" .
+

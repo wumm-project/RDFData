@@ -205,7 +205,7 @@ tc:Dynamization_1
     a od:Recommendation .
 
 tc:Dynamization_2
-    od:description "Brake down the object into parts that can be displaced or shifted."@en, "Zerlege das Objekt in Teile, die sich zueinander verstellen oder verschieben lassen."@de, "Объект разбить на части, которые могут быть смещены или сдвинуты."@ru ;
+    od:description "Break down the object into parts that can be displaced or shifted."@en, "Zerlege das Objekt in Teile, die sich zueinander verstellen oder verschieben lassen."@de, "Объект разбить на части, которые могут быть смещены или сдвинуты."@ru ;
     a od:Recommendation .
 
 tc:Dynamization_3

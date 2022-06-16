@@ -3812,6 +3812,7 @@ odp:Shokin_A
     foaf:name "Anton Shokin" .
 
 odp:Shpakovsky_NA
+    dbo:birthDate "1954-06-12" ;
     dbo:deathDate "2021-11-08" ;
     a foaf:Person ;
     foaf:affil "Belarus" ;
@@ -4220,7 +4221,6 @@ odp:Thiel_R
     a foaf:Person ;
     dbo:birthDate "1930-09-25" ;
     dbo:deathDate "2021-12-19" ;    
-    foaf:affil "LIFIS, Bugk bei Storkow, Germany" ;
     foaf:name "Rainer Thiel" .
 
 odp:Thurnes_C

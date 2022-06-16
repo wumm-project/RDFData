@@ -27,6 +27,10 @@ edc:Components
     a od:EDPTarget ;
     skos:prefLabel "Components"@en .
 
+edc:Design
+    a od:EDPPhase ;
+    skos:prefLabel "Design"@en .
+
 edc:DistanceReduction
     a od:EDPTool ;
     skos:prefLabel "Distance Reduction"@en .
@@ -465,7 +469,7 @@ ed:ImproveDurabilityAuxiliaryMaterials
     od:action edc:ImproveDurability ;
     od:genericSuggestion "During manufacturing, improve the durability of the auxiliary materials by increasing their exploitation (physical and structural) and by improving or their ways of functioning and reducing their use through the reduction of contact forces, frictions, vibrations and overheating."@en ;
     od:interactiveModule edc:EnergyReduction ;
-    od:specificSuggestion ";<brBetter exploit the available spatial resources, i.e. their operative surface (e.g. Möbius strip, sharp with multiple sides) and volume (e.g. porosity)."@en, "Better exploit their physical properties (e.g. conductivity, magnetism, boiling point, change of state)."@en, "Improve the environmental conditions where the auxiliary materials work: temperature, humidity, pressure."@en, "Monitor the performances of the machineries or the condition of the worked pieces involving the auxiliary materials."@en, "Reduce the differences between the tangential velocities, the temperatures of the auxiliary materials (i.e. tools, molds) and the semi-finished to be worked."@en, "Use self-lubricating materials."@en ;
+    od:specificSuggestion "Better exploit the available spatial resources, i.e. their operative surface (e.g. Möbius strip, sharp with multiple sides) and volume (e.g. porosity)."@en, "Better exploit their physical properties (e.g. conductivity, magnetism, boiling point, change of state)."@en, "Improve the environmental conditions where the auxiliary materials work: temperature, humidity, pressure."@en, "Monitor the performances of the machineries or the condition of the worked pieces involving the auxiliary materials."@en, "Reduce the differences between the tangential velocities, the temperatures of the auxiliary materials (i.e. tools, molds) and the semi-finished to be worked."@en, "Use self-lubricating materials."@en ;
     od:what edc:AuxiliaryMaterials ;
     od:when edc:Manufacturing ;
     a od:EDP ;
@@ -506,7 +510,7 @@ ed:ReduceDistanceInternalLogistic
 
 ed:ReduceMassAuxiliaryMaterialsByControl
     od:action edc:ReduceMass ;
-    od:genericSuggestion "During product use, reduce the mass of auxiliary materials, by introducing a field acting as a control for monitoring the environmental conditions (e.g. weather conditions, air humidity), the product (e.g. wear status) and the conditions of the same<br/>auxiliary materials."@en ;
+    od:genericSuggestion "During product use, reduce the mass of auxiliary materials, by introducing a field acting as a control for monitoring the environmental conditions (e.g. weather conditions, air humidity), the product (e.g. wear status) and the conditions of the same auxiliary materials."@en ;
     od:interactiveModule edc:ListOfFieldsAndForces, edc:MassReduction ;
     od:what edc:AuxiliaryMaterials ;
     od:when edc:ProductUse ;
@@ -709,7 +713,7 @@ ed:ReduceQuantityofEnergyManufacturing
 
 ed:ReduceVolumeExternalLogisticByAggregation
     od:action edc:ReduceVolume ;
-    od:genericSuggestion "During supply phase, reduce the volume of the external logistic, by changing the state of aggregation of the raw material during the transportation and if is not necessary do not bring it back to the original state after, so saving the energy required for the second<br/>transformation."@en ;
+    od:genericSuggestion "During supply phase, reduce the volume of the external logistic, by changing the state of aggregation of the raw material during the transportation and if is not necessary do not bring it back to the original state after, so saving the energy required for the second transformation."@en ;
     od:interactiveModule edc:DistanceReduction ;
     od:specificSuggestion "Reduce the size of the transportation mean (e.g. eliminating the trailer, reduction of the front section) by saving consumption."@en, "Take advantage of the saved space for transferring additional load during travels, by reducing their overall number."@en ;
     od:what edc:ExternalLogistic ;
@@ -726,7 +730,7 @@ ed:ReduceVolumeExternalLogisticByOptimization
     od:when edc:PreManufacturing, edc:ProductUse ;
     a od:EDP ;
     rdfs:label "Reduce Volume External Logistic (The other way around)"@en ;
-    skos:example "Disposing the cars according to different inclinations within car carrier trucks."@en, "Low-diameter sheet coils be placed inside large diameter coils during transport."@en, "Self-folding chairs made by ridged rotable parts for saving space during<br/>transport."@en, "Truck loading optimization for paper rolls, pallets, skids and boxes via trailers, containers and railcars, made by commercial software."@en .
+    skos:example "Disposing the cars according to different inclinations within car carrier trucks."@en, "Low-diameter sheet coils be placed inside large diameter coils during transport."@en, "Self-folding chairs made by ridged rotable parts for saving space during transport."@en, "Truck loading optimization for paper rolls, pallets, skids and boxes via trailers, containers and railcars, made by commercial software."@en .
 
 ed:ReduceVolumeExternalLogisticBySegmentation
     od:action edc:ReduceVolume ;
@@ -757,7 +761,7 @@ ed:ReduceVolumeExternalLogisticSupplyPhase
     od:when edc:PreManufacturing, edc:ProductUse ;
     a od:EDP ;
     rdfs:label "Reduce Volume External Logistic (Dynamics)"@en ;
-    skos:example "<brIndustrial cellulose fibers are compacted in bobbins, for reducing the volume during transport. After that, the cellulose will be ground in fibers."@en, "Foldable parking tents and removable caravans."@en, "Nested container realized with conical or flared shapes."@en, "Suppliers for plastic for fusion have instead modified the shape of the plastic itself, by adopting granules instead of reels."@en, "Using rectangular cans instead of cylindrical ones."@en .
+    skos:example "Industrial cellulose fibers are compacted in bobbins, for reducing the volume during transport. After that, the cellulose will be ground in fibers."@en, "Foldable parking tents and removable caravans."@en, "Nested container realized with conical or flared shapes."@en, "Suppliers for plastic for fusion have instead modified the shape of the plastic itself, by adopting granules instead of reels."@en, "Using rectangular cans instead of cylindrical ones."@en .
 
 ed:ReduceVolumePackagingByDynamics
     od:action edc:ReduceVolume ;
