@@ -1,0 +1,466 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix edp: <http://opendiscovery.org/rdf/EcoDesignPrinciple/> .
+@prefix : <http://opendiscovery.org/rdf/EcoDesignExample/> .
+@prefix edc: <http://opendiscovery.org/rdf/EcoDesignConcept/> .
+
+<http://opendiscovery.org/rdf/MBP-EcoDesignPrinciples/>
+    cc:attributionName "The Open Discovery Project" ;
+    cc:attributionURL <http://opendiscovery.org> ;
+    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    a owl:Ontology ;
+    rdfs:comment "2022-06-14: Extracted and transformed from (Maccioni et al. 2019)" ;
+    rdfs:label "The Eco Design principles in (Maccioni et al. 2019)" .
+
+:Example_1
+    od:toMBP_EDP edp:P16, edp:P18, edp:P46, edp:P48, edp:P52 ;
+    a od:ED_Example ;
+    skos:description "FRIA refrigerator, Ursula Tischner: fridge built into the external wall to use the winter cold"@en ;
+    od:hasSuccessLevel "1"; 
+    skos:note """All in all the energy payoff is potentially remarkable: the
+FRIA uses at most half the energy of a modern fridge; there is no CFC usage;
+and energy waste, up to 80% in a normal fridge, is removed through FRIAs
+integration into the buildings fabric (P16, P18 and P48).  """@en, """It was calculated that in typical German house it could work
+for about 3–5 months a year without consuming any energy (P16, P46 and
+P52)."""@en .
+
+:Example_2
+    od:toMBP_EDP edp:P08, edp:P29, edp:P31 ;
+    a od:ED_Example ;
+    skos:description "Zipcar: car sharing"@en ;
+    od:hasSuccessLevel "3"; 
+    skos:note """This service (P29) offers a convenient alternative to car
+ownership and enables people to use the most effective combination of motor
+vehicles, walking, biking, or public transportation (P08, P31). The largest
+provider in the United States, Zipcar, claims that each of its cars replaces
+over 15 privately owned vehicles, thus relieving congestion and changing the
+urban landscape (P08, P31).  """@en .
+
+:Example_3
+    od:toMBP_EDP edp:P09, edp:P11, edp:P36, edp:P37, edp:P45, edp:P50, edp:P57, edp:P63 ;
+    a od:ED_Example ;
+    skos:description "Solid inks Xerox: the ink has been made solid in order to avoid the cartridge"@en ;
+    od:hasSuccessLevel "4"; 
+    skos:note """Because solid blocks of ink are used, there is less waste
+generated than is with laser printers or inkjet printers (P57), which produce
+empty ink or toner cartridges (P63), in addition to packaging and packing
+materials (P50). A loose ink block does not leave any residual cartridge after
+it is consumed only a crushable, thin, plastic packing tray and a recyclable
+cardboard packaging box (P37).  """@en,
+"""Think about products that dont need packaging, the packaging is
+already included in the product (P09, P11, P36 and P45). """@en .
+
+:Example_4
+    od:toMBP_EDP edp:P03, edp:P17, edp:P24, edp:P26, edp:P47, edp:P60 ;
+    a od:ED_Example ;
+    od:hasSuccessLevel "5"; 
+    skos:description "The Leo bed, designed by Irene Puorto: the bed was created with a dynamic architecture to adapt to the childs growth, avoiding the need to buy a new bed."@en ;
+    skos:note """Ecological cot-bed made in wood without the use of glues (P17,
+P24, P26, P47).  """@en, """Leo is a cot-bed, designed by Irene Puorto, that can be spread
+out by lowering the elevated sides when no longer needed because of the child
+growing (P03, P60). """@en .
+
+:Example_5
+    od:toMBP_EDP edp:P06, edp:P09, edp:P17, edp:P19, edp:P29, edp:P30, edp:P32, edp:P45, edp:P47, edp:P48, edp:P5, edp:P58 ;
+    a od:ED_Example ;
+    od:hasSuccessLevel "6"; 
+    skos:description "Koppert: it offers customers a crop protection service invoiced by hectare, where the farmer pays a fixed amount per hectare of crops to be protected"@en ;
+    skos:note """The company provides a distinctive benefit: it offers customers
+a crop protection service invoiced by hectare, where, the farmer pays a fixed
+amount per hectare of crops to be protected (P06, P29, P30). And rather than
+using expensive chemical solutions that are potentially harmful for the
+environment, the health of the farmer and the consumers, the company decided
+to build its offer based on nature intelligence and the free ecological
+services that it renders us (P09, P17, P19, P32, P45, P47, P48, P58). [...]
+Advantages for Koppert customers are numerous: implementation of a natural
+system of disease prevention, enabling to stop or to reduce use of pesticides
+that cost time, money and demand handling hazardous substances; improvement of
+biological quality of the grounds, positive impact on the outputs,
+possibilities of qualifying for organic farming certification and so on (P58).
+"""@en .
+
+:Example_6
+    od:toMBP_EDP edp:P06, edp:P08, edp:P29, edp:P38, edp:P45, edp:P49 ;
+    a od:ED_Example ;
+    od:hasSuccessLevel "7"; 
+    skos:description "Detergent Allegrini: detergent home delivery with reusable containers"@en ;
+    skos:note """Allegrini has provided a Casa Quick service of detergent home
+delivery (P29). Casa Quick products are distributed from vans that drive from
+house to house according to their delivery route. According to their needs,
+every family can refill (P06, P38, P49) their reusable plastic containers
+(provided by Allegrini) and pay for the just right quantity of detergent (P08,
+P45). At the same time the clients can acquire information about optimizing
+detergent consumption (P29).  """@en .
+
+edp:P01
+    od:hasMBPID "P01" ;
+    a od:EDP ;
+    skos:definition "Design for appropriate lifespan"@en .
+
+edp:P02
+    od:hasMBPID "P02" ;
+    od:when edc:PreManufacturing ;
+    od:when edc:ProductUse ;
+    a od:EDP ;
+    skos:definition "Design for reliability (simplify, reduce number of component)"@en .
+
+edp:P03
+    od:hasMBPID "P03" ;
+    od:when edc:PreManufacturing ;
+    a od:EDP ;
+    skos:definition "Facilitate upgrading and adaptability"@en .
+
+edp:P04
+    od:hasMBPID "P04" ;
+    od:when edc:PreManufacturing ;
+    a od:EDP ;
+    skos:definition "Facilitate maintenance"@en .
+
+edp:P05
+    od:hasMBPID "P05" ;
+    od:when edc:PreManufacturing ;
+    a od:EDP ;
+    skos:definition "Facilitate repair"@en .
+
+edp:P06
+    od:hasMBPID "P06" ;
+    od:when edc:PreManufacturing ;
+    a od:EDP ;
+    skos:definition "Facilitate reuse"@en .
+
+edp:P07
+    od:hasMBPID "P07" ;
+    od:when edc:PreManufacturing ;
+    a od:EDP ;
+    skos:definition "Facilitate remanufacturing"@en .
+
+edp:P08
+    od:hasMBPID "P08" ;
+    od:when edc:ProductUse ;
+    a od:EDP ;
+    skos:definition "Intensify use (share, multifunction, integrated, on demand)"@en .
+
+edp:P09
+    od:hasMBPID "P09" ;
+    od:when edc:Manufacturing ;
+    a od:EDP ;
+    skos:definition "Minimize material content or dematerialize, digitalize, miniaturize"@en .
+
+edp:P10
+    od:hasMBPID "P10" ;
+    od:when edc:Manufacturing ;
+    a od:EDP ;
+    skos:definition "Minimize scraps and discards"@en .
+
+edp:P11
+    od:hasMBPID "P11" ;
+    od:what edc:Packaging ;
+    od:when edc:Distribution ;
+    a od:EDP ;
+    skos:definition "Minimize packaging (avoid, integrate, drastically reduce)"@en .
+
+edp:P12
+    od:hasMBPID "P12" ;
+    od:when edc:ProductUse ;
+    a od:EDP ;
+    skos:definition "Minimize material consumption during usage (select more consumption-efficient systems)"@en .
+
+edp:P13
+    od:hasMBPID "P13" ;
+    od:when edc:ProductUse ;
+    a od:EDP ;
+    skos:definition "Minimize materials consumption during usage (engage systems with dynamic material consumption)"@en .
+
+edp:P14
+    od:hasMBPID "P14" ;
+    od:when edc:Manufacturing ;
+    a od:EDP ;
+    skos:definition "Minimize energy consumption (during pre-production and production)"@en .
+
+edp:P15
+    od:hasMBPID "P15" ;
+    a od:EDP ;
+    skos:definition "Minimize energy consumption (during transportation and storage)"@en .
+
+edp:P16
+    od:hasMBPID "P16" ;
+    od:when edc:ProductUse ;
+    a od:EDP ;
+    skos:definition "Minimize energy consumption (select systems with energy-efficient operation stage)"@en .
+
+edp:P17
+    od:hasMBPID "P17" ;
+    a od:EDP ;
+    skos:definition "Select non-toxic and harmless materials"@en .
+
+edp:P18
+    od:hasMBPID "P18" ;
+    a od:EDP ;
+    skos:definition "Select non-toxic and harmless energy resources"@en .
+
+edp:P19
+    od:hasMBPID "P19" ;
+    a od:EDP ;
+    skos:definition "Select renewable and bio-compatible materials"@en .
+
+edp:P20
+    od:hasMBPID "P20" ;
+    a od:EDP ;
+    skos:definition "Select renewable and bio-compatible energy resources"@en .
+
+edp:P21
+    od:hasMBPID "P21" ;
+    a od:EDP ;
+    skos:definition "Adopt the cascade approach"@en .
+
+edp:P22
+    od:hasMBPID "P22" ;
+    a od:EDP ;
+    od:when edc:EndOfLife ;
+    skos:definition "Facilitate end-of-life collection and transportation"@en .
+
+edp:P23
+    od:hasMBPID "P23" ;
+    a od:EDP ;
+    skos:definition "Identify materials"@en .
+
+edp:P24
+    od:hasMBPID "P24" ;
+    a od:EDP ;
+    od:when edc:ProductUse ;
+    od:when edc:EndOfLife ;
+    skos:definition "Minimize the overall number of different incompatible materials"@en .
+
+edp:P25
+    od:hasMBPID "P25" ;
+    a od:EDP ;
+    skos:definition "Facilitate cleaning"@en .
+
+edp:P26
+    od:hasMBPID "P26" ;
+    a od:EDP ;
+    skos:definition "Facilitate composting"@en .
+
+edp:P27
+    od:hasMBPID "P27" ;
+    a od:EDP ;
+    skos:definition "Reduce and facilitate operations of disassembly and separation"@en .
+
+edp:P28
+    od:hasMBPID "P28" ;
+    a od:EDP ;
+    skos:definition "Engage reversible joining systems"@en .
+
+edp:P29
+    od:hasMBPID "P29" ;
+    a od:EDP ;
+    skos:definition "Develop services providing added value to the product’s life cycle"@en .
+
+edp:P30
+    od:hasMBPID "P30" ;
+    a od:EDP ;
+    od:when edc:ProductUse ;
+    skos:definition "Develop services providing ‘final results’"@en .
+
+edp:P31
+    od:hasMBPID "P31" ;
+    a od:EDP ;
+    skos:definition "Develop services providing ‘enabling platforms for customers’"@en .
+
+edp:P32
+    od:hasMBPID "P32" ;
+    a od:EDP ;
+    skos:definition "Change raw material (low impact or recyclable/recycled)"@en .
+
+edp:P33
+    od:hasMBPID "P33" ;
+    a od:EDP ;
+    skos:definition "Modify raw material (reduce mass and volume)"@en .
+
+edp:P34
+    od:hasMBPID "P34" ;
+    a od:EDP ;
+    skos:definition "Use pre-manufactured material"@en .
+
+edp:P35
+    od:hasMBPID "P35" ;
+    a od:EDP ;
+    od:what edc:Packaging ;
+    skos:definition "Change material (low impact) for the packaging"@en .
+
+edp:P36
+    od:hasMBPID "P36" ;
+    a od:EDP ;
+    od:what edc:Packaging ;
+    skos:definition "Reduce the mass of the packaging (eliminate, reduce, integrate, modify raw material to be protected)"@en .
+
+edp:P37
+    od:hasMBPID "P37" ;
+    a od:EDP ;
+    od:what edc:Packaging ;
+    od:when edc:Distribution ;
+    skos:definition "Reduce the volume of the packaging (reduce the volume, dynamize)"@en .
+
+edp:P38
+    od:hasMBPID "P38" ;
+    a od:EDP ;
+    skos:definition "Improve packaging durability (reuse in the same or different way, recycle)"@en .
+
+edp:P39
+    od:hasMBPID "P39" ;
+    a od:EDP ;
+    od:what edc:Packaging ;
+    od:when edc:Distribution ;
+    skos:definition "Modify packaging to increase raw material durability (controlled atmosphere, vacuum, deep freeze, sterilization)"@en .
+
+edp:P40
+    od:hasMBPID "P40" ;
+    a od:EDP ;
+    skos:definition "Use efficient transports"@en .
+
+edp:P41
+    od:hasMBPID "P41" ;
+    a od:EDP ;
+    od:when edc:Distribution ;
+    skos:definition "Optimize logistic (choose the shortest route in time or in space)"@en .
+
+edp:P42
+    od:hasMBPID "P42" ;
+    a od:EDP ;
+    skos:definition "Reduce the volume of the load (reduce the volume or the free space)"@en .
+
+edp:P43
+    od:hasMBPID "P43" ;
+    a od:EDP ;
+    od:when edc:Distribution ;
+    skos:definition "Reduce the transportation risk"@en .
+
+edp:P44
+    od:hasMBPID "P44" ;
+    a od:EDP ;
+    od:when edc:ProductUse ;
+    skos:definition "Modify the products for maintenance"@en .
+
+edp:P45
+    od:hasMBPID "P45" ;
+    a od:EDP ;
+    skos:definition "Avoid auxiliary components (independent, eliminate components, dematerializing)"@en .
+
+edp:P46
+    od:hasMBPID "P46" ;
+    a od:EDP ;
+    od:when edc:ProductUse ;
+    skos:definition "Reduce auxiliary components (rationalize, improve energy performances, discretize use)"@en .
+
+edp:P47
+    od:hasMBPID "P47" ;
+    a od:EDP ;
+    skos:definition "Remove dangerous materials during the product use"@en .
+
+edp:P48
+    od:hasMBPID "P48" ;
+    a od:EDP ;
+    skos:definition "Reduce environmental problems during the product use"@en .
+
+edp:P49
+    od:hasMBPID "P49" ;
+    a od:EDP ;
+    skos:definition "Act on durability (more operation, different way) of the packaging during the product use"@en .
+
+edp:P50
+    od:hasMBPID "P50" ;
+    a od:EDP ;
+    od:what edc:Packaging ;
+    od:when edc:Distribution ;
+    skos:definition "Reduce the mass of the packaging during the product use (light material, multifunctional product)"@en .
+
+edp:P51
+    od:hasMBPID "P51" ;
+    a od:EDP ;
+    skos:definition "Act on shape and volume"@en .
+
+edp:P52
+    od:hasMBPID "P52" ;
+    a od:EDP ;
+    skos:definition "Reduce the consumption of energy required (efficient or alternative)"@en .
+
+edp:P53
+    od:hasMBPID "P53" ;
+    a od:EDP ;
+    skos:definition "Recover dissipated energy during the product use"@en .
+
+edp:P54
+    od:hasMBPID "P54" ;
+    a od:EDP ;
+    skos:definition "Reduce the need of maintenance during the product use"@en .
+
+edp:P55
+    od:hasMBPID "P55" ;
+    a od:EDP ;
+    skos:definition "Make the maintenance proactive during the product use"@en .
+
+edp:P56
+    od:hasMBPID "P56" ;
+    a od:EDP ;
+    od:when edc:ProductUse ;
+    skos:definition "Design repairable product"@en .
+
+edp:P57
+    od:hasMBPID "P57" ;
+    a od:EDP ;
+    skos:definition "Realize modular product"@en .
+
+edp:P58
+    od:hasMBPID "P58" ;
+    a od:EDP ;
+    skos:definition "Design product with low emission of pollution substances during the product use"@en .
+
+edp:P59
+    od:hasMBPID "P59" ;
+    a od:EDP ;
+    od:when edc:ProductUse ;
+    skos:definition "Reduce the product mass during the product use"@en .
+
+edp:P60
+    od:hasMBPID "P60" ;
+    a od:EDP ;
+    od:when edc:ProductUse ;
+    skos:definition "Reduce the product volume during the product use"@en .
+
+edp:P61
+    od:hasMBPID "P61" ;
+    a od:EDP ;
+    skos:definition "Recovery of material (reuse, remanufacture, recycle) at the end of the product’s life"@en .
+
+edp:P62
+    od:hasMBPID "P62" ;
+    a od:EDP ;
+    skos:definition "Use biodegradable packaging for the end of the product’s life"@en .
+
+edp:P63
+    od:hasMBPID "P63" ;
+    a od:EDP ;
+    skos:definition "Reduce the mass for the end of the product’s life"@en .
+
+edp:P64
+    od:hasMBPID "P64" ;
+    a od:EDP ;
+    skos:definition "Allow the separability of materials at the end of the product’s life"@en .
+
+edp:P65
+    od:hasMBPID "P65" ;
+    a od:EDP ;
+    od:when edc:EndOfLife ;
+    skos:definition "Use connections between parts for the end of the product’s life"@en .
+
+edp:P66
+    od:hasMBPID "P66" ;
+    a od:EDP ;
+    skos:definition "Reduce the weight and the volume of the transport at the end of the product’s life"@en .
+

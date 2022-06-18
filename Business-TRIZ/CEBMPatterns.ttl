@@ -6,7 +6,8 @@
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
-@prefix bm: <http://opendiscovery.org/rdf/BusinessModelPattern/> .
+@prefix bm: <http://opendiscovery.org/rdf/BusinessModel/> .
+@prefix bmp: <http://opendiscovery.org/rdf/BusinessModelPattern/> .
 @prefix cebm: <http://opendiscovery.org/rdf/CEBM/> .
 
 <http://opendiscovery.org/rdf/Ontologies/CEBMPatterns/>
@@ -546,7 +547,7 @@ cebm:BMD_108
     a od:CEBMDimension ;
     skos:prefLabel "Value capture by costs"@en .
 
-cebm:CEBMPattern_101
+bmp:CEBM_101
     a od:CEBMPattern ;
     skos:description """The main value proposed to customers is the prolonged
 usability and functionality of products through maintenance, repair, and/or
@@ -559,7 +560,7 @@ repaired or maintained. """@en ;
     skos:example bm:LFG_E17, bm:LFG_E26, bm:LFG_E7, bm:LFG_P11, bm:LFG_P16, bm:LFG_P7 ;
     skos:prefLabel "Repair & maintenance"@en .
 
-cebm:CEBMPattern_102
+bmp:CEBM_102
     a od:CEBMPattern ;
     skos:description """The main value propositions for customers are lower
 product prices and prolonged access to familiar products. This model requires
@@ -573,7 +574,7 @@ reuse models. """@en ;
     skos:example bm:LFG_E27, bm:LFG_E32, bm:LFG_E7, bm:LFG_P11, bm:LFG_P16 ;
     skos:prefLabel "Reuse & redistribution"@en .
 
-cebm:CEBMPattern_103
+bmp:CEBM_103
     a od:CEBMPattern ;
     skos:description """Customers can use familiar products with as-new quality,
 which offers value for both end users and B2B customers. As part of the value
@@ -590,7 +591,7 @@ products, possibly even at lower prices.  """@en ;
     skos:example bm:LFG_E19, bm:LFG_E23, bm:LFG_E33, bm:LFG_E7, bm:LFG_P11, bm:LFG_P14, bm:LFG_P22, bm:LFG_P7 ;
     skos:prefLabel "Refurbishment & remanufacturing"@en .
 
-cebm:CEBMPattern_104
+bmp:CEBM_104
     a od:CEBMPattern ;
     skos:description """The typical value propositions of recycling business
 models are either green inputs (offered by waste collectors/processors) or
@@ -605,7 +606,7 @@ waste to become part of new products.  """@en ;
     skos:example bm:LFG_E22, bm:LFG_E24, bm:LFG_E25, bm:LFG_P12, bm:LFG_P15, bm:LFG_P3 ;
     skos:prefLabel "Recycling"@en .
 
-cebm:CEBMPattern_105
+bmp:CEBM_105
     a od:CEBMPattern ;
     skos:description """Value creation processes based on cascading rely on
 taking and winning back the biological nutrients contained in product
@@ -622,7 +623,7 @@ activities as part of the value creation processes. """@en ;
     skos:example bm:LFG_E1, bm:LFG_E29, bm:LFG_P4 ;
     skos:prefLabel "Cascading and repurposing"@en .
 
-cebm:CEBMPattern_106
+bmp:CEBM_106
     a od:CEBMPattern ;
     skos:description """The value creation potential of biochemical feedstock
 business models results from their ability to support the processing of
@@ -636,319 +637,385 @@ competition from incumbent energy providers. """@en ;
     skos:example bm:LFG_E1, bm:LFG_E11, bm:LFG_E5, bm:LFG_E8, bm:LFG_P1, bm:LFG_P17, bm:LFG_P4, bm:LFG_P9 ;
     skos:prefLabel "Organic feedstock"@en .
 
-cebm:CEBMPattern_xx
+bmp:CEBM_xx
     a od:CEBMPattern ;
     skos:prefLabel "Not assigned to a CEBM Pattern"@en .
 
 cebm:DO_101
     od:toBMDimension cebm:BMD_101 ;
-    od:toCEBMPattern cebm:CEBMPattern_103 ;
+    od:toCEBMPattern bmp:CEBM_103 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Repaired, refurbished, remanufactured, or recycled products"@en .
 
 cebm:DO_102
     od:toBMDimension cebm:BMD_102 ;
-    od:toCEBMPattern cebm:CEBMPattern_xx ;
+    od:toCEBMPattern bmp:CEBM_xx ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Facilitating collaboration"@en .
 
 cebm:DO_103
     od:toBMDimension cebm:BMD_102 ;
-    od:toCEBMPattern cebm:CEBMPattern_102, cebm:CEBMPattern_104, cebm:CEBMPattern_105, cebm:CEBMPattern_106 ;
+    od:toCEBMPattern bmp:CEBM_102, bmp:CEBM_104, bmp:CEBM_105, bmp:CEBM_106 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Take-back management"@en .
 
 cebm:DO_104
     od:toBMDimension cebm:BMD_103 ;
-    od:toCEBMPattern cebm:CEBMPattern_xx ;
+    od:toCEBMPattern bmp:CEBM_xx ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Quality-conscious customers"@en .
 
 cebm:DO_105
     od:toBMDimension cebm:BMD_104 ;
-    od:toCEBMPattern cebm:CEBMPattern_102, cebm:CEBMPattern_104 ;
+    od:toCEBMPattern bmp:CEBM_102, bmp:CEBM_104 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Connecting suppliers and customers"@en .
 
 cebm:DO_106
     od:toBMDimension cebm:BMD_105 ;
-    od:toCEBMPattern cebm:CEBMPattern_xx ;
+    od:toCEBMPattern bmp:CEBM_xx ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Suppliers"@en .
 
 cebm:DO_107
     od:toBMDimension cebm:BMD_106 ;
-    od:toCEBMPattern cebm:CEBMPattern_101, cebm:CEBMPattern_102 ;
+    od:toCEBMPattern bmp:CEBM_101, bmp:CEBM_102 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Maintaining or repairing products, components"@en .
 
 cebm:DO_108
     od:toBMDimension cebm:BMD_101 ;
-    od:toCEBMPattern cebm:CEBMPattern_xx ;
+    od:toCEBMPattern bmp:CEBM_xx ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Reusable or recyclable products"@en .
 
 cebm:DO_109
     od:toBMDimension cebm:BMD_102 ;
-    od:toCEBMPattern cebm:CEBMPattern_xx ;
+    od:toCEBMPattern bmp:CEBM_xx ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Customer education"@en .
 
 cebm:DO_110
     od:toBMDimension cebm:BMD_106 ;
-    od:toCEBMPattern cebm:CEBMPattern_104 ;
+    od:toCEBMPattern bmp:CEBM_104 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Recycling of products, components, materials, waste"@en .
 
 cebm:DO_111
     od:toBMDimension cebm:BMD_107 ;
-    od:toCEBMPattern cebm:CEBMPattern_102, cebm:CEBMPattern_103, cebm:CEBMPattern_104, cebm:CEBMPattern_105, cebm:CEBMPattern_106 ;
+    od:toCEBMPattern bmp:CEBM_102, bmp:CEBM_103, bmp:CEBM_104, bmp:CEBM_105, bmp:CEBM_106 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Additional product revenues"@en .
 
 cebm:DO_112
     od:toBMDimension cebm:BMD_108 ;
-    od:toCEBMPattern cebm:CEBMPattern_101, cebm:CEBMPattern_103 ;
+    od:toCEBMPattern bmp:CEBM_101, bmp:CEBM_103 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Repair, maintenance, control"@en .
 
 cebm:DO_113
     od:toBMDimension cebm:BMD_105 ;
-    od:toCEBMPattern cebm:CEBMPattern_102, cebm:CEBMPattern_105 ;
+    od:toCEBMPattern bmp:CEBM_102, bmp:CEBM_105 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Retailers"@en .
 
 cebm:DO_114
     od:toBMDimension cebm:BMD_106 ;
-    od:toCEBMPattern cebm:CEBMPattern_102, cebm:CEBMPattern_105 ;
+    od:toCEBMPattern bmp:CEBM_102, bmp:CEBM_105 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Reselling products, components, materials, waste"@en .
 
 cebm:DO_116
     od:toBMDimension cebm:BMD_101, cebm:BMD_106 ;
-    od:toCEBMPattern cebm:CEBMPattern_102, cebm:CEBMPattern_103, cebm:CEBMPattern_105, cebm:CEBMPattern_106 ;
+    od:toCEBMPattern bmp:CEBM_102, bmp:CEBM_103, bmp:CEBM_105, bmp:CEBM_106 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Using used products, components, materials, waste as input"@en .
 
 cebm:DO_118
     od:toBMDimension cebm:BMD_103 ;
-    od:toCEBMPattern cebm:CEBMPattern_xx ;
+    od:toCEBMPattern bmp:CEBM_xx ;
     a od:CEBMDesignOption ;
     skos:prefLabel "B2C suppliers"@en .
 
 cebm:DO_119
     od:toBMDimension cebm:BMD_104 ;
-    od:toCEBMPattern cebm:CEBMPattern_102, cebm:CEBMPattern_103, cebm:CEBMPattern_104, cebm:CEBMPattern_105 ;
+    od:toCEBMPattern bmp:CEBM_102, bmp:CEBM_103, bmp:CEBM_104, bmp:CEBM_105 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Providing used products, components, materials, or waste"@en .
 
 cebm:DO_120
     od:toBMDimension cebm:BMD_105 ;
-    od:toCEBMPattern cebm:CEBMPattern_101, cebm:CEBMPattern_102 ;
+    od:toCEBMPattern bmp:CEBM_101, bmp:CEBM_102 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Service providers"@en .
 
 cebm:DO_121
     od:toBMDimension cebm:BMD_107 ;
-    od:toCEBMPattern cebm:CEBMPattern_xx ;
+    od:toCEBMPattern bmp:CEBM_xx ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Payments per unit of service"@en .
 
 cebm:DO_122
     od:toBMDimension cebm:BMD_102, cebm:BMD_108 ;
-    od:toCEBMPattern cebm:CEBMPattern_104, cebm:CEBMPattern_105, cebm:CEBMPattern_106 ;
+    od:toCEBMPattern bmp:CEBM_104, bmp:CEBM_105, bmp:CEBM_106 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Waste handling, processing"@en .
 
 cebm:DO_123
     od:toBMDimension cebm:BMD_102 ;
-    od:toCEBMPattern cebm:CEBMPattern_101 ;
+    od:toCEBMPattern bmp:CEBM_101 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Maintenance, repair, control"@en .
 
 cebm:DO_124
     od:toBMDimension cebm:BMD_103 ;
-    od:toCEBMPattern cebm:CEBMPattern_101, cebm:CEBMPattern_103, cebm:CEBMPattern_104, cebm:CEBMPattern_105, cebm:CEBMPattern_106 ;
+    od:toCEBMPattern bmp:CEBM_101, bmp:CEBM_103, bmp:CEBM_104, bmp:CEBM_105, bmp:CEBM_106 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "B2B customers"@en .
 
 cebm:DO_125
     od:toBMDimension cebm:BMD_104 ;
-    od:toCEBMPattern cebm:CEBMPattern_101 ;
+    od:toCEBMPattern bmp:CEBM_101 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Providing (product-based) services and results"@en .
 
 cebm:DO_126
     od:toBMDimension cebm:BMD_106 ;
-    od:toCEBMPattern cebm:CEBMPattern_103, cebm:CEBMPattern_104 ;
+    od:toCEBMPattern bmp:CEBM_103, bmp:CEBM_104 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Upgrading or upcycling of products, components, materials, waste"@en .
 
 cebm:DO_127
     od:toBMDimension cebm:BMD_101 ;
-    od:toCEBMPattern cebm:CEBMPattern_xx ;
+    od:toCEBMPattern bmp:CEBM_xx ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Long-lasting products"@en .
 
 cebm:DO_128
     od:toBMDimension cebm:BMD_102 ;
-    od:toCEBMPattern cebm:CEBMPattern_xx ;
+    od:toCEBMPattern bmp:CEBM_xx ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Product- or service-based functions or results"@en .
 
 cebm:DO_129
     od:toBMDimension cebm:BMD_103 ;
-    od:toCEBMPattern cebm:CEBMPattern_104, cebm:CEBMPattern_105, cebm:CEBMPattern_106 ;
+    od:toCEBMPattern bmp:CEBM_104, bmp:CEBM_105, bmp:CEBM_106 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Green customers"@en .
 
 cebm:DO_130
     od:toBMDimension cebm:BMD_104 ;
-    od:toCEBMPattern cebm:CEBMPattern_xx ;
+    od:toCEBMPattern bmp:CEBM_xx ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Providing access to a product’s functionality"@en .
 
 cebm:DO_131
     od:toBMDimension cebm:BMD_106 ;
-    od:toCEBMPattern cebm:CEBMPattern_103 ;
+    od:toCEBMPattern bmp:CEBM_103 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Refurbishing or remanufacturing products, components"@en .
 
 cebm:DO_132
     od:toBMDimension cebm:BMD_108 ;
-    od:toCEBMPattern cebm:CEBMPattern_101, cebm:CEBMPattern_102, cebm:CEBMPattern_103 ;
+    od:toCEBMPattern bmp:CEBM_101, bmp:CEBM_102, bmp:CEBM_103 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Labor"@en .
 
 cebm:DO_134
     od:toBMDimension cebm:BMD_103 ;
-    od:toCEBMPattern cebm:CEBMPattern_101, cebm:CEBMPattern_102, cebm:CEBMPattern_103 ;
+    od:toCEBMPattern bmp:CEBM_101, bmp:CEBM_102, bmp:CEBM_103 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Cost-conscious customers"@en .
 
 cebm:DO_135
     od:toBMDimension cebm:BMD_105 ;
-    od:toCEBMPattern cebm:CEBMPattern_101, cebm:CEBMPattern_102, cebm:CEBMPattern_103 ;
+    od:toCEBMPattern bmp:CEBM_101, bmp:CEBM_102, bmp:CEBM_103 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Manufacturers"@en .
 
 cebm:DO_136
     od:toBMDimension cebm:BMD_101 ;
-    od:toCEBMPattern cebm:CEBMPattern_104, cebm:CEBMPattern_106 ;
+    od:toCEBMPattern bmp:CEBM_104, bmp:CEBM_106 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Products based on recycled waste"@en .
 
 cebm:DO_137
     od:toBMDimension cebm:BMD_102 ;
-    od:toCEBMPattern cebm:CEBMPattern_103 ;
+    od:toCEBMPattern bmp:CEBM_103 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Upgrading"@en .
 
 cebm:DO_138
     od:toBMDimension cebm:BMD_103 ;
-    od:toCEBMPattern cebm:CEBMPattern_xx ;
+    od:toCEBMPattern bmp:CEBM_xx ;
     a od:CEBMDesignOption ;
     skos:prefLabel "B2B suppliers"@en .
 
 cebm:DO_139
     od:toBMDimension cebm:BMD_106 ;
-    od:toCEBMPattern cebm:CEBMPattern_104, cebm:CEBMPattern_105, cebm:CEBMPattern_106 ;
+    od:toCEBMPattern bmp:CEBM_104, bmp:CEBM_105, bmp:CEBM_106 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Winning back base materials"@en .
 
 cebm:DO_140
     od:toBMDimension cebm:BMD_108 ;
-    od:toCEBMPattern cebm:CEBMPattern_103, cebm:CEBMPattern_104 ;
+    od:toCEBMPattern bmp:CEBM_103, bmp:CEBM_104 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Resource inputs"@en .
 
 cebm:DO_141
     od:toBMDimension cebm:BMD_104 ;
-    od:toCEBMPattern cebm:CEBMPattern_xx ;
+    od:toCEBMPattern bmp:CEBM_xx ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Sharing products, components, materials, or waste"@en .
 
 cebm:DO_142
     od:toBMDimension cebm:BMD_105 ;
-    od:toCEBMPattern cebm:CEBMPattern_102, cebm:CEBMPattern_103, cebm:CEBMPattern_104, cebm:CEBMPattern_105 ;
+    od:toCEBMPattern bmp:CEBM_102, bmp:CEBM_103, bmp:CEBM_104, bmp:CEBM_105 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Collectors of products, components, materials, waste"@en .
 
 cebm:DO_143
     od:toBMDimension cebm:BMD_105 ;
-    od:toCEBMPattern cebm:CEBMPattern_xx ;
+    od:toCEBMPattern bmp:CEBM_xx ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Public institutions"@en .
 
 cebm:DO_145
     od:toBMDimension cebm:BMD_102 ;
-    od:toCEBMPattern cebm:CEBMPattern_103 ;
+    od:toCEBMPattern bmp:CEBM_103 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Auxiliary services"@en .
 
 cebm:DO_146
     od:toBMDimension cebm:BMD_103 ;
-    od:toCEBMPattern cebm:CEBMPattern_102 ;
+    od:toCEBMPattern bmp:CEBM_102 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "C2C suppliers"@en .
 
 cebm:DO_147
     od:toBMDimension cebm:BMD_104, cebm:BMD_106 ;
-    od:toCEBMPattern cebm:CEBMPattern_102, cebm:CEBMPattern_103, cebm:CEBMPattern_104, cebm:CEBMPattern_105, cebm:CEBMPattern_106 ;
+    od:toCEBMPattern bmp:CEBM_102, bmp:CEBM_103, bmp:CEBM_104, bmp:CEBM_105, bmp:CEBM_106 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Taking back or recapturing products, components, materials, waste"@en .
 
 cebm:DO_148
     od:toBMDimension cebm:BMD_107 ;
-    od:toCEBMPattern cebm:CEBMPattern_101 ;
+    od:toCEBMPattern bmp:CEBM_101 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Payments for functions or results"@en .
 
 cebm:DO_149
     od:toBMDimension cebm:BMD_108 ;
-    od:toCEBMPattern cebm:CEBMPattern_xx ;
+    od:toCEBMPattern bmp:CEBM_xx ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Manufacturing"@en .
 
 cebm:DO_150
     od:toBMDimension cebm:BMD_101 ;
-    od:toCEBMPattern cebm:CEBMPattern_104, cebm:CEBMPattern_105, cebm:CEBMPattern_106 ;
+    od:toCEBMPattern bmp:CEBM_104, bmp:CEBM_105, bmp:CEBM_106 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Reusable or recyclable production inputs"@en .
 
 cebm:DO_151
     od:toBMDimension cebm:BMD_106 ;
-    od:toCEBMPattern cebm:CEBMPattern_102 ;
+    od:toCEBMPattern bmp:CEBM_102 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Matching over- and undercapacities"@en .
 
 cebm:DO_152
     od:toBMDimension cebm:BMD_105 ;
-    od:toCEBMPattern cebm:CEBMPattern_xx ;
+    od:toCEBMPattern bmp:CEBM_xx ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Others (e.g., researchers)"@en .
 
 cebm:DO_153
     od:toBMDimension cebm:BMD_106 ;
-    od:toCEBMPattern cebm:CEBMPattern_xx ;
+    od:toCEBMPattern bmp:CEBM_xx ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Designing products, components, materials"@en .
 
 cebm:DO_154
     od:toBMDimension cebm:BMD_107 ;
-    od:toCEBMPattern cebm:CEBMPattern_xx ;
+    od:toCEBMPattern bmp:CEBM_xx ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Price premiums"@en .
 
 cebm:DO_155
     od:toBMDimension cebm:BMD_108 ;
-    od:toCEBMPattern cebm:CEBMPattern_102, cebm:CEBMPattern_103, cebm:CEBMPattern_104, cebm:CEBMPattern_105, cebm:CEBMPattern_106 ;
+    od:toCEBMPattern bmp:CEBM_102, bmp:CEBM_103, bmp:CEBM_104, bmp:CEBM_105, bmp:CEBM_106 ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Transportation, logistics"@en .
 
 cebm:DO_156
     od:toBMDimension cebm:BMD_108 ;
-    od:toCEBMPattern cebm:CEBMPattern_xx ;
+    od:toCEBMPattern bmp:CEBM_xx ;
     a od:CEBMDesignOption ;
     skos:prefLabel "Supply risks"@en .
 
+cebm:Strategy_101 a od:CEBMStrategy; 
+  od:toCEBMPattern bmp:CEBM_101, bmp:CEBM_102, bmp:CEBM_103 ;
+
+  skos:note """This strategy can be subdivided into the themes of “attachment
+and trust” and “reliability and durability”. The former is focused on
+emotional aspects, and the latter is more focused on physical
+durability. """@en;
+
+  skos:prefLabel "Design for long-life products"@en .
+
+cebm:Strategy_102 a od:CEBMStrategy; 
+  od:toCEBMPattern bmp:CEBM_101, bmp:CEBM_102, bmp:CEBM_103, bmp:CEBM_104 ;
+
+  skos:note """This strategy is concerned with ease of maintenance and repair,
+upgradability and adaptability, standardization and compatibility, and dis-
+and reassembly. These aspects all contribute to strategies that facilitate
+retention of product value. Standardization, compatibility, and provision of
+spare parts allow for continuous reuse of products over time. Moreover, a
+product should be easy to maintain, repair, and adapt to retain its
+value. """@en;
+
+  skos:prefLabel "Design for product life extension"@en .
+
+cebm:Strategy_103 a od:CEBMStrategy; 
+  od:toCEBMPattern bmp:CEBM_104 ;
+
+  skos:note """This strategy is necessary to increase the effectiveness of
+recycling, cascading, and organic feedstock models by avoiding mixing and
+contaminating technical and biological materials.  The strategy aims at
+retaining the value that is inherent in materials using technical nutrients
+(e.g., synthetic, mineral materials)"""@en ;
+
+  skos:prefLabel "Design for technical cycles"@en .
+
+cebm:Strategy_104 a od:CEBMStrategy; 
+  od:toCEBMPattern bmp:CEBM_104, bmp:CEBM_105, bmp:CEBM_106 ;
+
+  skos:note """This strategy is necessary to increase the effectiveness of
+recycling, cascading, and organic feedstock models by avoiding mixing and
+contaminating technical and biological materials.  The strategy aims at
+retaining the value that is inherent in materials using biological nutrients
+(e.g., organic, plant-based materials)"""@en ;
+
+  skos:prefLabel "Design for biological cycles"@en .
+
+cebm:Strategy_105 a od:CEBMStrategy; 
+
+  skos:note """<em>Slowing loops</em> is about extending the life of products
+to slow down resource usage; <em>closing loops</em> is about recycling to
+close the loop between postuse and production; and <em>narrowing loops</em> is
+about using fewer resources per product, such as through lightweight product
+design and efficient manufacturing processes. """@en;
+
+  skos:description "Potential effect on resource use"@en ;
+  skos:prefLabel "Resource oriented strategy"@en .
+
+cebm:Strategy_106 a od:CEBMStrategy; 
+
+  skos:note """The repair and maintenance, reuse and redistribution, and
+refurbishment and remanufacturing CEBM patterns contribute to slowing resource
+loops by retaining the product value. Recycling, cascading, and organic
+feedstock CEBM patterns seek to retain the material value by closing resource
+loops. """@en;
+
+  skos:description "Potential value-retaining effect"@en ;
+  skos:prefLabel "Value oriented strategy"@en .

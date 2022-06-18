@@ -7,7 +7,7 @@
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix ed: <http://opendiscovery.org/rdf/EcoDesignPrinciple/> .
+@prefix edp: <http://opendiscovery.org/rdf/EcoDesignPrinciple/> .
 @prefix edc: <http://opendiscovery.org/rdf/EcoDesignConcept/> .
 @prefix edg: <http://opendiscovery.org/rdf/EcoDesignGenericStrategy/> .
 
@@ -27,13 +27,14 @@ edc:Components
     a od:EDPTarget ;
     skos:prefLabel "Components"@en .
 
-edc:Design
-    a od:EDPPhase ;
-    skos:prefLabel "Design"@en .
-
 edc:DistanceReduction
     a od:EDPTool ;
     skos:prefLabel "Distance Reduction"@en .
+
+edc:Distribution
+    a od:EDPPhase ;
+    rdfs:comment "Considered separately in (Maccioni et al. 2019)"; 
+    skos:prefLabel "Distribution and Packaging"@en .
 
 edc:Eliminate
     a od:EDPAction ;
@@ -105,6 +106,7 @@ edc:Packaging
 
 edc:PreManufacturing
     a od:EDPPhase ;
+    rdfs:comment "Including Design, which is considered separately in several papers"; 
     skos:prefLabel "Pre-Manufacturing"@en .
 
 edc:ProductUse
@@ -324,7 +326,7 @@ resistant for the subsequent assembly phases, etc.
 """@en ;
     skos:prefLabel "Optimize"@en .
 
-ed:EliminateComponentsByIdeality
+edp:EliminateComponentsByIdeality
     od:action edc:Eliminate ;
     od:genericSuggestion "During the end of life, eliminate the components by exploiting their natural biodegradability or by improving this property."@en ;
     od:interactiveModule edc:ListOfFieldsAndForces, edc:ListOfPhysicalEffects, edc:MassReduction ;
@@ -335,7 +337,7 @@ ed:EliminateComponentsByIdeality
     rdfs:label "Eliminate Components (Ideality, Switch to Supersystem)"@en ;
     skos:example "Improving the biodegradability of landfill leachates through electrochemical oxidation processes (El Kateb et al., 2019) and that of PLA through thermal degradation (Mofokeng and Luyt, 2015)."@en, "Making plastic comestible for insects and other living species (Weiss et al., 2017)."@en .
 
-ed:EliminateComponentsByRecycling
+edp:EliminateComponentsByRecycling
     od:action edc:Eliminate ;
     od:genericSuggestion "For improving the end of life, eliminate the components to be disposed, by recycling as much as possible of the constituent parts and materials (see circular economy)."@en ;
     od:interactiveModule edc:MassReduction ;
@@ -346,7 +348,7 @@ ed:EliminateComponentsByRecycling
     rdfs:label "Eliminate Components (Recycle, Optimize)"@en ;
     skos:example "A Danish company developed a technology for recycling the 99% of worn out artificial turf from soccer pitches, transforming it into rubber granules, sand and plastic fibers. (Patent number: EP3138677A1)"@en, "A Finnish engine company developed a supercharging large diesel engine for reprocessing exhaust gases in marine applications, with a reduction of eq. CO2 up to 76%."@en, "Recovering cobalt and lithium from spent lithium-ion battery (Zeng et al., 2015)."@en .
 
-ed:EliminateComponentsByReuse
+edp:EliminateComponentsByReuse
     od:action edc:Eliminate ;
     od:genericSuggestion "For improving the end of life, eliminate the product to be disposed, by reusing it or its components as they are or after reparation for performing the same function or for other uses inside or outside the operating context, or by maintaining them as spare parts for other systems (see circular economy)."@en ;
     od:interactiveModule edc:MassReduction ;
@@ -357,7 +359,7 @@ ed:EliminateComponentsByReuse
     rdfs:label "Eliminate Components (Reuse)"@en ;
     skos:example "Containers, newsstands, pallets and bins used in architectural buildings and furnishing."@en, "Former Italian high-speed trains used in regional lines."@en, "Savannah College of Art and Design designed an easily repairable and upgradable microwave containing slots for updates, easily replaceable parts, also not original or from other models."@en, "Ship restaurant moored at the port."@en .
 
-ed:EliminateComponentsByTakingOut
+edp:EliminateComponentsByTakingOut
     od:action edc:Eliminate ;
     od:genericSuggestion "For improving the end of life, eliminate the components (i.e. hazardous materials) that reduce the reuse, the recyclability or the disposal of the product by removing them from the product with the less amount of energy."@en ;
     od:interactiveModule edc:ListOfFieldsAndForces, edc:ListOfPhysicalEffects, edc:MassReduction ;
@@ -368,7 +370,7 @@ ed:EliminateComponentsByTakingOut
     rdfs:label "Eliminate Components (Ideality, Taking out)"@en ;
     skos:example "Biodrying, biostabilization, thermal drying and solar drying for dehumidifying urban wastes before incinerators (Tun and Juchelkova, 2018)."@en, "Eliminating low-content impurities from Aluminum solidification by exploiting centrifugal force in rotative furnaces (Zhao et al., 2010)."@en .
 
-ed:EliminateComponentsByTrimming
+edp:EliminateComponentsByTrimming
     od:action edc:ReduceQuantity ;
     od:genericSuggestion "During the end of life, eliminate the disassembly of the product before its disposal (dissolution by incineration) by finding technologies able to entirely or largely dispose it, so that the required energy and related environmental impacts can be avoided"@en ;
     od:interactiveModule edc:EnergyReduction ;
@@ -379,7 +381,7 @@ ed:EliminateComponentsByTrimming
     rdfs:label "Eliminate Components (Trimming)"@en ;
     skos:example "Dismantling multi-parts components, without disassembly them, within pyrolysis reactor by properly setting the operative parameters (Tian and Chen, 2014)."@en, "Milk bricks made by two easily detachable components: plastic lid and cardboard body with tinplate."@en .
 
-ed:EliminateMachineriesByMerging
+edp:EliminateMachineriesByMerging
     od:action edc:Eliminate ;
     od:genericSuggestion "During manufacturing, eliminate one or more machineries/manufacturing processes by merging them with others in order to perform multiple operations on the resulting work center, saving the overall energy."@en ;
     od:interactiveModule edc:EnergyConsumptionReduction ;
@@ -390,7 +392,7 @@ ed:EliminateMachineriesByMerging
     rdfs:label "Eliminate Machineries (Merging)"@en ;
     skos:example "In order to save oil and energy during frying, an American potato chips producer, instead of using the pressing machine and frying machine, eliminated the second one by adding the vegetal oil within the pressing machine for directly frying the potatoes during the pressing."@en, "The introduction of hybrid manufacturing allowed both chip removal and additive manufacturing within the same machine, through a more efficient use of the resources available, machines and materials (Cortina et al., 2018)."@en .
 
-ed:EliminateMachineriesByOptimization
+edp:EliminateMachineriesByOptimization
     od:action edc:Eliminate ;
     od:genericSuggestion "During manufacturing, eliminate one or more machineries/manufacturing processes by optimizing the shape of the semi-finished, thinking not only about how it should be at the end of the process but also in relation to the sequence of all its processing phases (construction of the piece, finishing and assembly)."@en ;
     od:interactiveModule edc:EnergyConsumptionReduction, edc:MassReduction ;
@@ -400,7 +402,7 @@ ed:EliminateMachineriesByOptimization
     rdfs:label "Eliminate Machineries (Optimize)"@en ;
     skos:example "Density-based topology (i.e. Bridging topology) optimization for eliminating the supports in additive manufacturing (Zegard and Paulino, 2016)."@en, "Optimizing the speed of injection of the liquid material inside the molds for reducing the connection radii and the voids and the volumes of the sprues (Wang et al., 2017)."@en, "Optimizing the topology design of the components realized through additive manufacturing allowed a remarkable reduction of the impacts compared to CNC milling (Tang et al., 2016)."@en .
 
-ed:EliminatePackagingByMerging
+edp:EliminatePackagingByMerging
     od:action edc:Eliminate ;
     od:genericSuggestion "During delivery phase, eliminate the packaging, by merging or combining two or more products inside, and maintain them as such or split after delivery."@en ;
     od:interactiveModule edc:MassReduction ;
@@ -411,7 +413,7 @@ ed:EliminatePackagingByMerging
     rdfs:label "Eliminate Packaging (Merging, The other way around)"@en ;
     skos:example "In order to eliminate the bottle, gel douche uses a single bottle to contain two products i.e. the soap and the shampoo."@en, "Normally, six water bottles or rolls of toilet paper are contained within the same packaging."@en, "The smallest components (e.g. screws, squares) of furniture units at home are generally positioned inside the cavities and empty spaces."@en .
 
-ed:EliminatePackagingByTrimming
+edp:EliminatePackagingByTrimming
     od:action edc:Eliminate ;
     od:genericSuggestion "During delivery phase, eliminate the (primary packaging) packaging, by demanding its role of protection and/or advertising (e.g. energy or nutrition labeling), directly to the product itself or to the secondary packaging that contains the primary packaging."@en ;
     od:interactiveModule edc:MassReduction ;
@@ -422,7 +424,7 @@ ed:EliminatePackagingByTrimming
     rdfs:label "Eliminate Packaging (Trimming, Switch to supersystem)"@en ;
     skos:example "Directly filling the tanks of the printers instead of using cartridges."@en, "Reproducing the bio-label on the fruit peel trough laser marking."@en, "Showing the contained product as advertising for reducing the packaging mass."@en .
 
-ed:EliminateRawMaterialsByDematerialization
+edp:EliminateRawMaterialsByDematerialization
     od:action edc:Eliminate ;
     od:genericSuggestion "During design phase, eliminate components with highest environmental impact, compensating their functions with a field (e.g. electromagnetic, light, laser) achieving the same goal."@en ;
     od:interactiveModule edc:MassReduction ;
@@ -433,7 +435,7 @@ ed:EliminateRawMaterialsByDematerialization
     rdfs:label "Eliminate Raw Materials (Dematerialization)"@en ;
     skos:example "Malmodin and Lunden (2018) compared the environmental impacts of a single smartphone and 18 different devices potentially embedded within it (e.g. photo camera, radio, traditional phone) by finding a reduction in power consumption (449 vs 5 Watts), embodied energy (1706 kWh vs 75 kWh), stand-by energy use (72 vs 2,5 Watts) and weight (26 vs 0,1 kg)."@en .
 
-ed:EliminateRawMaterialsByTrimming
+edp:EliminateRawMaterialsByTrimming
     od:action edc:Eliminate ;
     od:genericSuggestion "During design phase, eliminate components with highest environmental impact, transferring their functions to an already existent component (multi-functional design) in order simplify the system and reduce the mass."@en ;
     od:interactiveModule edc:MassReduction ;
@@ -443,7 +445,7 @@ ed:EliminateRawMaterialsByTrimming
     rdfs:label "Eliminate Raw Materials by Trimming"@en ;
     skos:example "Transforming MTB traditional tires into tubeless tires with a commercial kit allows to eliminate the air chamber by making the tire impermeable with liquid latex and acrylic adhesive tape in order to be directly filled with air. This solution reduces the equivalent CO2 from 0,22 kg CO2 to 0,06 kg CO2 (94%) for each tire."@en .
 
-ed:ImproveComponentsDurabilityByIdeality
+edp:ImproveComponentsDurabilityByIdeality
     od:action edc:ImproveDurability ;
     od:genericSuggestion "During product use, improve the durability of the product components, by making them self-reparable in case of damages or deteriorations, by independently re-arranging or by introducing additional substances able to automatically intervene when necessary. In order to repair the product"@en ;
     od:interactiveModule edc:ListOfFieldsAndForces, edc:MassReduction ;
@@ -454,7 +456,7 @@ ed:ImproveComponentsDurabilityByIdeality
     rdfs:label "Improve Durability of the Product Components (Ideality, Switch to supersystem)"@en ;
     skos:example "A semi-liquid compound can polymerize with UV rays by forming a solid cohesive structure for filling cracks in wing profiles and shoe soils (Chen et al., 2015)."@en, "Introducing mastic inside air chambers for keeping them intact after small punctures by filling the puncture holes through expansion and solidification on contact with air."@en .
 
-ed:ImproveComponentsDurabilityByOptimization
+edp:ImproveComponentsDurabilityByOptimization
     od:action edc:ImproveDurability ;
     od:genericSuggestion "During product use, improve the durability of the product components, by improving their working conditions in order to avoid deterioration phenomena and damages."@en ;
     od:interactiveModule edc:MassReduction ;
@@ -465,7 +467,7 @@ ed:ImproveComponentsDurabilityByOptimization
     rdfs:label "Improve Durability of the Product Components (Dynamic, Optimize)"@en ;
     skos:example "Developing algorithms for enlarging operational life of water pumping systems by considering cavitation, variability of water inflow and activation frequency (Torregrossa and Capitanescu, 2019)."@en, "Optimizing the car traction control systems in order to avoid breaking blocking and the overheating of the brakes pads."@en .
 
-ed:ImproveDurabilityAuxiliaryMaterials
+edp:ImproveDurabilityAuxiliaryMaterials
     od:action edc:ImproveDurability ;
     od:genericSuggestion "During manufacturing, improve the durability of the auxiliary materials by increasing their exploitation (physical and structural) and by improving or their ways of functioning and reducing their use through the reduction of contact forces, frictions, vibrations and overheating."@en ;
     od:interactiveModule edc:EnergyReduction ;
@@ -477,7 +479,7 @@ ed:ImproveDurabilityAuxiliaryMaterials
     rdfs:label "Improve Durability Auxiliary Materials (Other dimensions, Dynamics)"@en ;
     skos:example "Increase the durability of adhesive tapes, by making the distribution of the contact surface more homogeneous like the adhesion systems of lizards and arthropods (Puthoff, 2019)."@en, "Increase the durability of bearings, by realizing a partial micro-textured internal surface for reducing the friction (green tribology) (Matele and Pandey, 2018)."@en, "Increase the durability of forging tools in hot die forging processes, by monitoring the wear conditions through acoustic and resetting their dynamics of functioning (Hawryluk, 2016). The same is done for drilling tools, by monitoring the quality of the surface roughness within the holes (Ullah et al., 2019)."@en .
 
-ed:ReduceDistanceExternalLogisticEndOfLife
+edp:ReduceDistanceExternalLogisticEndOfLife
     od:action edc:ReduceDistance ;
     od:genericSuggestion "For improving the end of life, reduce the distance of external logistic, by approaching the disassemble system or the disposal plant and the wastes by temporarily or definitely transferring the disposal plant near the wastes to be processed in order to eliminate or reduce the impacts deriving from rubbish collection."@en ;
     od:interactiveModule edc:DistanceReduction ;
@@ -487,7 +489,7 @@ ed:ReduceDistanceExternalLogisticEndOfLife
     rdfs:label "Reduce Distance External Logistic (Ideality)"@en ;
     skos:example "Medium-size pyrolysis reactor (up to 4 MW) installed within stand-alone containers in former industrial sites where the wastes are placed."@en, "The French Plastic Odyssey project consists of using a boat dismantling floating plastic waste with an onboard pyrolysis reactor."@en .
 
-ed:ReduceDistanceExternalLogisticSupplyPhase
+edp:ReduceDistanceExternalLogisticSupplyPhase
     od:action edc:ReduceDistance ;
     od:genericSuggestion "During supply phase, reduce the distance of external logistic, favoring zero-mile alternatives, both for raw materials and energy sources (e.g. geothermal energy), and approaching the supply sources and the production plant: build the plant near the sources or transfer the sources near the plant."@en ;
     od:interactiveModule edc:DistanceReduction ;
@@ -497,7 +499,7 @@ ed:ReduceDistanceExternalLogisticSupplyPhase
     rdfs:label "Reduce Distance External Logistic (Ideality)"@en ;
     skos:example "Almost all the solar farms in former global project Desertec were planned to be realized near the coasts for minimizing the transport of cooling water."@en .
 
-ed:ReduceDistanceInternalLogistic
+edp:ReduceDistanceInternalLogistic
     od:action edc:ReduceDistance ;
     od:genericSuggestion "During manufacturing, reduce distance of the internal logistic, by improving the physical disposition of the machineries and the layout inside the productive plant."@en ;
     od:interactiveModule edc:DistanceReduction, edc:ListOfFieldsAndForces ;
@@ -508,7 +510,7 @@ ed:ReduceDistanceInternalLogistic
     rdfs:label "Reduce Distance Internal Logistic (Other dimensions, Segmentation, Dynamics)"@en ;
     skos:example "A proper adaptation of the layout of Rotterdam Shortsea Terminal, obtained through a smart disposition of the containers and the spaces for their movements, has been estimated to be the most effective measure to reduce CO2 emissions in the terminal by nearly 70 per cent, in a study proposed by Geerlings and van Duin (2011)."@en .
 
-ed:ReduceMassAuxiliaryMaterialsByControl
+edp:ReduceMassAuxiliaryMaterialsByControl
     od:action edc:ReduceMass ;
     od:genericSuggestion "During product use, reduce the mass of auxiliary materials, by introducing a field acting as a control for monitoring the environmental conditions (e.g. weather conditions, air humidity), the product (e.g. wear status) and the conditions of the same auxiliary materials."@en ;
     od:interactiveModule edc:ListOfFieldsAndForces, edc:MassReduction ;
@@ -518,7 +520,7 @@ ed:ReduceMassAuxiliaryMaterialsByControl
     rdfs:label "Reduce Mass Auxiliary Materials (Increase control)"@en ;
     skos:example "Irrigation systems connected to the web (Internet of Things) for saving waters according to weather forecasting."@en, "Photocells on the taps in public toilets to detect the user presence."@en .
 
-ed:ReduceMassAuxiliaryMaterialsByLocalQuality
+edp:ReduceMassAuxiliaryMaterialsByLocalQuality
     od:action edc:ReduceMass ;
     od:genericSuggestion "During product use, reduce the mass of auxiliary materials by rationalizing and controlling their use only where and when are specifically required."@en ;
     od:interactiveModule edc:MassReduction ;
@@ -529,7 +531,7 @@ ed:ReduceMassAuxiliaryMaterialsByLocalQuality
     rdfs:label "Reduce Mass Auxiliary Materials (Local Quality & Separation in space/time)"@en ;
     skos:example "Optimizing the shape of the creeping gaskets for confining a small quantity of lubricant (up to 25% less according to a North European company) only where friction is greater."@en, "Redesigning the surface roughness for optimizing the adherence of the film lubricant and reducing its thickness (Hassanpour et al., 2016)."@en .
 
-ed:ReduceMassAuxiliaryMaterialsByRecycling
+edp:ReduceMassAuxiliaryMaterialsByRecycling
     od:action edc:ReduceMass ;
     od:genericSuggestion "During manufacturing, reduce the mass of auxiliary materials (i.e. consumables) by recycling them from inside or outside the productive plant, or by extend their operative life, with or without making changes to them."@en ;
     od:interactiveModule edc:MassReduction ;
@@ -540,7 +542,7 @@ ed:ReduceMassAuxiliaryMaterialsByRecycling
     rdfs:label "Reduce Mass Auxiliary Materials (Recycle, Switch to Supersystem)"@en ;
     skos:example "An innovative printer deletes the ink on used papers and re-prints on them."@en, "Condensing water humidity for irrigating (Alnaser and Barakat, 2000)."@en, "Producing biodiesel from cooking oil is more sustainable then diesel (Yaakob et al., 2013)."@en, "Recycling exhaust lubricating oil is more sustainable than conventional refinery process (Botas et al., 2017)."@en, "Recycling lubricating oil for reducing the global warming potential, cumulative energy demand, acidification and toxicity (Botas et al., 2017)."@en, "Regenerating tools in CNC stations and foundry molds for plastic or integrating inserts of new material in limited parts."@en .
 
-ed:ReduceMassAuxiliaryMaterialsByRedesign
+edp:ReduceMassAuxiliaryMaterialsByRedesign
     od:action edc:ReduceMass ;
     od:genericSuggestion "During product use, reduce the mass of auxiliary materials, by rationalizing their use at microlevel of detail (i.e. topology redesign) without compromising the functionality at the macrolevel (e.g. a full volume becomes a foam, a solid line becomes a dashed line)."@en ;
     od:interactiveModule edc:ListOfStructuralResources, edc:MassReduction ;
@@ -550,7 +552,7 @@ ed:ReduceMassAuxiliaryMaterialsByRedesign
     rdfs:label "Reduce Mass Auxiliary Materials (Redesign internal structure)"@en ;
     skos:example "Optimizing spatial distribution (for minimizing it) of the lubricant through spray (Zhang et al., 2019)."@en, "Saving ink during printing, by optimizing the deposition: microscopically dotted and macroscopically perceived as solid."@en .
 
-ed:ReduceMassAuxiliaryMaterialsBySupersystem
+edp:ReduceMassAuxiliaryMaterialsBySupersystem
     od:action edc:ReduceMass ;
     od:genericSuggestion "During manufacturing, reduce the mass of auxiliary materials by exploiting resources from inside or outside the productive plant, or waste (see circular economy) and renewable natural resources from the working environment (e.g. rain water)."@en ;
     od:interactiveModule edc:MassReduction ;
@@ -561,7 +563,7 @@ ed:ReduceMassAuxiliaryMaterialsBySupersystem
     rdfs:label "Reduce Mass Auxiliary Materials (Switch to Supersystem)"@en ;
     skos:example "Biodiesel realized from waste oil by Italian consortium Canoe."@en, "Irrigating Israeli’s drylands with using waste and salt waters for vegetable and fruit production guaranteed advantages on sustainability (Tal, 2016)."@en, "Mushrooms made with waste beer and rice and mycelia grown with plastic waste are exploited by some experimental crops."@en, "The RadChemLab of the University of Pavia exploited exhaust oils for realizing resin for the fusion wire in additive manufacturing processes."@en .
 
-ed:ReduceMassEmissions
+edp:ReduceMassEmissions
     od:action edc:ReduceMass ;
     od:genericSuggestion "During manufacturing, reduce the mass of the process emissions by avoiding/reducing their production or by intercepting and storing them once generated, avoiding dispersion in the environment."@en ;
     od:interactiveModule edc:MassReduction ;
@@ -572,7 +574,7 @@ ed:ReduceMassEmissions
     rdfs:label "Reduce Mass Emissions (Local Quality & Separation in space)"@en ;
     skos:example "Breaking down the production of NOx in gas turbine through a controlled injection of small quantities of water steam within the combustion chamber for locally decreasing the temperature that is responsible for their chemical aggregation."@en, "Fernando and Hor (2017) reported some techniques for reducing pollutants production in Malaysia working on energy management practices."@en, "Nawi et al. (2016) introduced a systematic technique for selecting systems for CO2  capture, by considering sustainability and costs."@en, "Russo et al. (2019) proposed an improvement for pyrolysis reactors aimed at minimizing the production of ashes, through a redesigned internal layout."@en .
 
-ed:ReduceMassPackagingByAggregation
+edp:ReduceMassPackagingByAggregation
     od:action edc:ReduceMass ;
     od:genericSuggestion "During supply phase, reduce the mass of the packaging of the raw material, by changing its state of aggregation of the raw material in order to make it more resistant to be carried with a lighter packaging."@en ;
     od:interactiveModule edc:MassReduction ;
@@ -582,7 +584,7 @@ ed:ReduceMassPackagingByAggregation
     rdfs:label "Reduce Mass Packaging (Change the state of Aggregation)"@en ;
     skos:example "The introduction of solid ink cartridges for printers allowed the complete elimination of their packaging."@en, "Transporting milk in form of powder from farm to factory by using simple plastic sachets, instead of the conventional metallic bins. Also, producer of other foodstuffs, e.g. dehydrated fruit, fish, egg, exploit the same strategy."@en .
 
-ed:ReduceMassPackagingByOptimization
+edp:ReduceMassPackagingByOptimization
     od:action edc:ReduceMass ;
     od:genericSuggestion "During delivery phase, reduce the mass of the packaging, optimizing the spatial mass distribution around the product by paying attention to the most delicate points to protect."@en ;
     od:interactiveModule edc:ListOfFieldsAndForces, edc:MassReduction ;
@@ -593,7 +595,7 @@ ed:ReduceMassPackagingByOptimization
     rdfs:label "Reduce Mass Packaging (Optimize, Local quality & Separation in space)"@en ;
     skos:example "An Irish company active in ultralightweight paper packaging, made by honeycomb structure, for containing glass bottles."@en, "An international big firm of food and beverages optimized the shape of its plastic water bottles in order to increase the strength by reducing the mass of 15% (2.1 grams) for each bottle."@en, "Packaging for eggs made by semi-open forms."@en .
 
-ed:ReduceMassRawMaterialsByRecycling
+edp:ReduceMassRawMaterialsByRecycling
     od:action edc:ReduceMass ;
     od:genericSuggestion "During supply phase, reduce the amount of the raw material, using recycled waste materials as input of your process. Wastes can come from your process or from other plants (circular economy)."@en ;
     od:interactiveModule edc:MassReduction ;
@@ -604,7 +606,7 @@ ed:ReduceMassRawMaterialsByRecycling
     rdfs:label "Reduce Mass Raw Materials (Recycle)"@en ;
     skos:example "Recycling concrete aggregates in new buildings and for paving roads for reduce the impacts up to 50% (McGinnis et al., 2017; Ossa et al., 2016)."@en, "Recycling fibers in fashion industry (Leonas, 2017)."@en, "Recycling the casting channels for successive melting in the foundries."@en .
 
-ed:ReduceMassRawMaterialsByRedesign
+edp:ReduceMassRawMaterialsByRedesign
     od:action edc:ReduceMass ;
     od:genericSuggestion "During design phase, reduce the mass of the raw material, increasing its internal porosity. In order to modify the system without compromising the performance (stiffness, thermal or electrical conductivity), check the list of resources from the “Resources List” module."@en ;
     od:interactiveModule edc:MassReduction ;
@@ -615,7 +617,7 @@ ed:ReduceMassRawMaterialsByRedesign
     rdfs:label "Reduce Mass Raw Materials (Redesign internal structure)"@en ;
     skos:example "A multi-national packaging reduced the weight of their packaging up to 70%, by realizing an internal honeycomb structure."@en, "Twede et al. (2014) collected and compared a multitude of paper packaging made by different lightweight structures (e.g. wavy, porous, corrugated, expanded, perforated) in terms of sustainability."@en .
 
-ed:ReduceQuantityEnergyByOptimization
+edp:ReduceQuantityEnergyByOptimization
     od:action edc:ReduceQuantity ;
     od:genericSuggestion "During product use, reduce the quantity of energy required during the product maintenance, by optimizing the design for maintenance."@en ;
     od:interactiveModule edc:EnergyConsumptionReduction ;
@@ -626,7 +628,7 @@ ed:ReduceQuantityEnergyByOptimization
     rdfs:label "Reduce Quantity Energy (Optimize, The other way around, Other dimensions)"@en ;
     skos:example "Easily removable cover for replacing the battery, placed inside the larger one in some Swiss watches."@en, "Facilitating the substitution of the bulb lamp in modern projects trough front accessing by the lens."@en, "Making manufacturing greener by introducing tools for training practitioners (Ajukumar and Gandhi, 2013)."@en, "Standardizing all the screws within engines for the U.S. Army military vehicles, in order to allow maintenance with a unique special wrench."@en .
 
-ed:ReduceQuantityOfEnergyByIdeality
+edp:ReduceQuantityOfEnergyByIdeality
     od:action edc:ReduceQuantity ;
     od:genericSuggestion "During the end of life, reduce the energy required for disassembling the product, by making its components more easily separable or self-separable (i.e. active disassembly) when subjected to the action of fields, physical effects or substances, in order to reduce or eliminate the need of dedicated operations and machineries and their energy consumption. This is possible thanks to the behavior of the internal structure, materials and shape of these components to external stimuli."@en ;
     od:interactiveModule edc:EnergyReduction, edc:ListOfFieldsAndForces, edc:ListOfPhysicalEffects ;
@@ -637,7 +639,7 @@ ed:ReduceQuantityOfEnergyByIdeality
     rdfs:label "Reduce Quantity of Energy (Ideality, Switch to Supersystem)"@en ;
     skos:example "A Japanese tech manufacturer developed a set of junctures for mobile phones, which able to self-separate under the effect of a controlled resonance frequency."@en, "Introducing electromagnetic separation for those components made by different materials."@en, "Introducing snap-fits, made by shape memory polymers releasing through a thermal trigger, for active disassembly of assembled parts (Carrell et al., 2011)."@en .
 
-ed:ReduceQuantityOfEnergyByLocalQuality
+edp:ReduceQuantityOfEnergyByLocalQuality
     od:action edc:ReduceQuantity ;
     od:genericSuggestion "During product use, reduce the quantity of the product energy consumption by optimizing its performances during time in relation to the working conditions, i.e. user demand and environmental situations (e.g. climatic and morphological)."@en ;
     od:interactiveModule edc:EnergyConsumptionReduction ;
@@ -648,7 +650,7 @@ ed:ReduceQuantityOfEnergyByLocalQuality
     rdfs:label "Reduce Quantity of Energy (Local quality, Dynamics)"@en ;
     skos:example "Disconnecting and reconnecting some cylinders in automotive engines or elaborating variable parts of the inlet mass flow with by pass-valve and the working conditions, i.e. user demand and environmental situations (e.g. climatic and morphological) afterburners in turbofans for limiting the fuel consumption."@en, "Improving traction control with torque sensor in automotive for reducing fuel consumption."@en, "Monitoring humidity, tension and moisture within air, soil and leaves for saving water in modern irrigation systems."@en, "The introduction of intelligent systems for traction control resulted proved to be the best strategy for reducing fuel consumption of Chinese high-speed rails (Tan et al. 2016)."@en .
 
-ed:ReduceQuantityOfEnergyByTakingout
+edp:ReduceQuantityOfEnergyByTakingout
     od:action edc:ReduceQuantity ;
     od:genericSuggestion "During product use, reduce the quantity of the energy required for moving the product, by reducing the mass of the product by temporarily or definitively eliminating those components that have already carried out their functions and recover them later."@en ;
     od:interactiveModule edc:EnergyConsumptionReduction ;
@@ -658,7 +660,7 @@ ed:ReduceQuantityOfEnergyByTakingout
     rdfs:label "Reduce Quantity of Energy (Taking out)"@en ;
     skos:example "In space rockets and military aircrafts, the heavy empty fuel tanks are jettisoned after the use and then recovered."@en, "Railway trains with the number of variable carriages or urban autobus with magnetically connected micromodules a well-known Italian design agency."@en .
 
-ed:ReduceQuantityOfEnergyProductUse
+edp:ReduceQuantityOfEnergyProductUse
     od:action edc:ReduceQuantity ;
     od:genericSuggestion "During product use, reduce the quantity of required (non-renewable) energy, by exploiting sources of natural or discarded energy from inside the product (e.g. steam, hot water, kinetic energy during breaking, vibrations) or the external environment (e.g. solar power, gravity) through the introduction of recovery and conversion systems (e.g. KERS, dynamo, heat condensers)."@en ;
     od:interactiveModule edc:EnergyConsumptionReduction ;
@@ -668,7 +670,7 @@ ed:ReduceQuantityOfEnergyProductUse
     rdfs:label "Reduce Quantity of Energy (Recycle, Switch to supersystem)"@en ;
     skos:example "An American producer of Electric Mountain Bikes developed a simple and lightweight dynamo, embedded within the central movement, which allows to recharge the batteries when pedaling downhill."@en, "Buenaventura and Azzopardi (2015) analyzed several techniques of energy recovery systems for retrofitting internal combustion engine in order to improve sustainability."@en .
 
-ed:ReduceQuantityofEnergyByDesign
+edp:ReduceQuantityofEnergyByDesign
     od:action edc:ReduceQuantity ;
     od:genericSuggestion "During manufacturing, reduce the required energy, by optimizing the design for assembly of the product (i.e. kind of involved parts and shapes)."@en ;
     od:interactiveModule edc:EnergyReduction ;
@@ -679,7 +681,7 @@ ed:ReduceQuantityofEnergyByDesign
     rdfs:label "Reduce Quantity of Energy (Design for assembly, Asymmetry)"@en ;
     skos:example "A Chinese manufacturer introduced a standard architecture for electronic products by reducing the number of components and designing the part orientation."@en, "Go et al. (2015) presented a novel methodology for supporting product re-design through the reduction of the number of its parts and evaluating the environmental impact."@en .
 
-ed:ReduceQuantityofEnergyByDynamics
+edp:ReduceQuantityofEnergyByDynamics
     od:action edc:ReduceQuantity ;
     od:genericSuggestion "During manufacturing, reduce the required energy, by optimizing the temporal dynamic of the manufacturing process (machineries and internal logistic) in relation to the production rate."@en ;
     od:interactiveModule edc:EnergyReduction ;
@@ -690,7 +692,7 @@ ed:ReduceQuantityofEnergyByDynamics
     rdfs:label "Reduce Quantity of Energy (Dynamics)"@en ;
     skos:example "Developing algorithms for investigating the optimal cutting conditions in relation to energy consumption and waste management (Hegab et al., 2018), or the lubricant consumption (e.g. Brinksmeier et al., 1999)."@en, "Investigating the most suitable production route in additive manufacturing for minimizing energy consumption (Priarone et al., 2018)."@en .
 
-ed:ReduceQuantityofEnergyByRecycling
+edp:ReduceQuantityofEnergyByRecycling
     od:action edc:ReduceQuantity ;
     od:genericSuggestion "During the end of life, reduce the energy required for disassembling the product, by optimizing its design in order to improve the manual and automatic operations and to reduce the required time and energy."@en ;
     od:interactiveModule edc:EnergyReduction ;
@@ -701,7 +703,7 @@ ed:ReduceQuantityofEnergyByRecycling
     rdfs:label "Reduce Quantity of Energy (Recycle)"@en ;
     skos:example "A digital cameras producer introduced a model where the external case can be easily and automatically disassembled through a dedicated machine acting on some access points."@en, "Alshibli et al. (2016) improved the disassembly sequencing by introducing a modified Genetic Algorithm for searching the more sustainable combination."@en, "Wang (2017) introduced industrial robots in automatic disassembly line of waste LCD for reducing the environmental impact of the phase."@en .
 
-ed:ReduceQuantityofEnergyManufacturing
+edp:ReduceQuantityofEnergyManufacturing
     od:action edc:ReduceQuantity ;
     od:genericSuggestion "During manufacturing, reduce the required energy, by exploiting the resources from outside or inside the productive plant. Install plants for producing heat or electricity from natural sources (e.g. solar panels, river mill/turbine) or discarded hot water, steam or smokes (e.g. tube bundle exchangers, ranking cycles)."@en ;
     od:interactiveModule edc:EnergyReduction ;
@@ -711,7 +713,7 @@ ed:ReduceQuantityofEnergyManufacturing
     rdfs:label "Reduce Quantity of Energy (Recycle, Switch to supersystem)"@en ;
     skos:example "Excavators including hydraulic accumulators for energy regenerators can reduce the total consumption up to 45% (Lin et al., 2010)."@en, "Organic Rankine Cycles recover heat from low temperature sources for producing electricity."@en, "Trigeneration systems combining cogeneration plants with absorption refrigeration for the production of cooling."@en .
 
-ed:ReduceVolumeExternalLogisticByAggregation
+edp:ReduceVolumeExternalLogisticByAggregation
     od:action edc:ReduceVolume ;
     od:genericSuggestion "During supply phase, reduce the volume of the external logistic, by changing the state of aggregation of the raw material during the transportation and if is not necessary do not bring it back to the original state after, so saving the energy required for the second transformation."@en ;
     od:interactiveModule edc:DistanceReduction ;
@@ -722,7 +724,7 @@ ed:ReduceVolumeExternalLogisticByAggregation
     rdfs:label "Reduce Volume External Logistic (Change the state of aggregation)"@en ;
     skos:example "Liquefying LNG (Liquefied Natural Gas) and maintaining it as is, as cryogenic fuel (Kumar et al., 2011)."@en, "Storing liquid oxygen in pressurized cylinders during transport and regasifying it in a second time."@en .
 
-ed:ReduceVolumeExternalLogisticByOptimization
+edp:ReduceVolumeExternalLogisticByOptimization
     od:action edc:ReduceVolume ;
     od:genericSuggestion "During supply phase, reduce the volume of the external logistic, optimizing their physical disposition inside the transportation mean using all dimensions and empty spaces."@en ;
     od:specificSuggestion "Exploit all empty spaces (i.e. Matryoshka) or less conventional directions (moving out from horizontal/vertical plane towards diagonal directions) or using 3D placement."@en, "Move in two or three-dimensional space (e.g. Tetris game)."@en, "Tilt or re-orient the object, lay it on its side (upside down)."@en, "Use a multi-story arrangement of objects instead of a single-story arrangement."@en, "Use “another side” of a given area."@en ;
@@ -732,7 +734,7 @@ ed:ReduceVolumeExternalLogisticByOptimization
     rdfs:label "Reduce Volume External Logistic (The other way around)"@en ;
     skos:example "Disposing the cars according to different inclinations within car carrier trucks."@en, "Low-diameter sheet coils be placed inside large diameter coils during transport."@en, "Self-folding chairs made by ridged rotable parts for saving space during transport."@en, "Truck loading optimization for paper rolls, pallets, skids and boxes via trailers, containers and railcars, made by commercial software."@en .
 
-ed:ReduceVolumeExternalLogisticBySegmentation
+edp:ReduceVolumeExternalLogisticBySegmentation
     od:action edc:ReduceVolume ;
     od:genericSuggestion "During supply phase, reduce the volume of the external logistic, optimizing the disposition inside the transportation mean, by physically dividing the raw materials in pieces and then recombining them in a more suitable way during the transportation."@en ;
     od:interactiveModule edc:DistanceReduction ;
@@ -742,7 +744,7 @@ ed:ReduceVolumeExternalLogisticBySegmentation
     rdfs:label "Reduce Volume External Logistic (Segmentation)"@en ;
     skos:example "Compressing data by packing them during transmission and unpacking them after the reception for saving the total amount of shared data and so the mass of the transmission cables."@en, "Removing tree trunks from the branches and cut them into various pieces during transport."@en .
 
-ed:ReduceVolumeExternalLogisticEndOfLife
+edp:ReduceVolumeExternalLogisticEndOfLife
     od:action edc:ReduceVolume ;
     od:genericSuggestion "For improving the end of life, reduce the volume of the external logistic by reducing the volume of the wastes before the transportation phase to the disposal or collection site."@en ;
     od:interactiveModule edc:MassReduction ;
@@ -753,7 +755,7 @@ ed:ReduceVolumeExternalLogisticEndOfLife
     rdfs:label "Reduce Volume External Logistic (Dynamics)"@en ;
     skos:example "A patented vacuum-cleaner (ITMI20131928) contains a dustcompactor inside that can be manually actuated."@en, "Commercial garbage bins including waste compactors."@en, "Plastic bottles including flexible ribs for optimizing the deformation."@en .
 
-ed:ReduceVolumeExternalLogisticSupplyPhase
+edp:ReduceVolumeExternalLogisticSupplyPhase
     od:action edc:ReduceVolume ;
     od:genericSuggestion "During supply phase, reduce the volume of the external logistic, by modifying the shape of the raw material or its packaging, also by deforming them through flexion or torsion, so that it can reduce its volume and/or better adapt to the available volume inside the transportation mean in order to save space."@en ;
     od:interactiveModule edc:DistanceReduction ;
@@ -763,7 +765,7 @@ ed:ReduceVolumeExternalLogisticSupplyPhase
     rdfs:label "Reduce Volume External Logistic (Dynamics)"@en ;
     skos:example "Industrial cellulose fibers are compacted in bobbins, for reducing the volume during transport. After that, the cellulose will be ground in fibers."@en, "Foldable parking tents and removable caravans."@en, "Nested container realized with conical or flared shapes."@en, "Suppliers for plastic for fusion have instead modified the shape of the plastic itself, by adopting granules instead of reels."@en, "Using rectangular cans instead of cylindrical ones."@en .
 
-ed:ReduceVolumePackagingByDynamics
+edp:ReduceVolumePackagingByDynamics
     od:action edc:ReduceVolume ;
     od:genericSuggestion "During supply phase, reduce the volume of the packaging, by adapting its shape according to the contained product, i.e. by changing its physical properties from hard to soft, from rigid to elastic, from fixed to flexible, from slow to rapidly changing, from single element to multiparts."@en ;
     od:interactiveModule edc:ListOfStructuralResources, edc:MassReduction ;
@@ -773,7 +775,7 @@ ed:ReduceVolumePackagingByDynamics
     rdfs:label "Reduce Volume Packaging (Dynamics)"@en ;
     skos:example "A commercial firm active in packaging developed flexible tube of paper, which can be rolled up on itself by flattening and melted by increasing its contained volume up to become of square section."@en .
 
-ed:ReduceVolumePackagingByIdeality
+edp:ReduceVolumePackagingByIdeality
     od:action edc:ReduceVolume ;
     od:genericSuggestion "During delivery phase, reduce the volume of the primary packaging by taking out un-useful substances from the product (e.g. humidity) of from the empty spaces within the same packaging (e.g. air) in a reversible or irreversible manner. Limit the operations to be carried out before (e.g. suction) and after as much as possible in order to not compromise the environmental advantages:"@en ;
     od:interactiveModule edc:MassReduction ;
@@ -784,7 +786,7 @@ ed:ReduceVolumePackagingByIdeality
     rdfs:label "Reduce Volume Packaging (Taking out, Ideality, Switch to supersystem)"@en ;
     skos:example "A German company produces compressed pop-up sponges which are transported in small sachets occupying less than 20% times the standard volume, which is immediately recovered once in contact with air. The same is done for mattresses and pillows."@en, "Grated cheese occupies a smaller volume than a slice also thanks to the elimination of the crust."@en, "Rice vacuum eliminates the volume that is normally occupied by the air within the rice bag."@en .
 
-ed:SelectOtherAuxiliaryMaterials
+edp:SelectOtherAuxiliaryMaterials
     od:action edc:SelectOther ;
     od:genericSuggestion "During manufacturing phase, select other auxiliary materials, by selecting those requiring more eco-sustainable during their entire lifecycle."@en ;
     od:interactiveModule edc:MaterialSubstitution ;
@@ -795,7 +797,7 @@ ed:SelectOtherAuxiliaryMaterials
     rdfs:label "Select Other Auxiliary Materials (Substitute)"@en ;
     skos:example "Biofuel-powered vehicles are more sustainable than diesel ones in terms of vehicular efficiency (+82%) and reduction of emission (-21.5%) (Korres et al., 2010)."@en, "In order to eliminate the support of 3D printed objects through milling, some 3D printers can integrate hydro soluble materials for the supports between the final piece and the supporting plate, which can be removed through a water jet."@en, "Reducing the impact deriving from the disposal of lubricants, by substituting the synthetic-based ones with those water-based."@en .
 
-ed:SelectOtherExternalLogisticEndOfLife
+edp:SelectOtherExternalLogisticEndOfLife
     od:action edc:SelectOther ;
     od:genericSuggestion "During end of life, select other transportation means for the waste, favoring those that require less energy consumption and producing less pollution for each kilometer covered with the same load carried."@en ;
     od:interactiveModule edc:TransportationMeanSubstitution ;
@@ -806,7 +808,7 @@ ed:SelectOtherExternalLogisticEndOfLife
     rdfs:label "Select Other External Logistic (Substitute)"@en ;
     skos:example "Buchal et al. (2019) identified methane-powered vehicles as the most promising alternative for reducing CO2 emissions in Germany within the next years."@en, "City of Goteborg gradually substituted all the public vehicles, i.e. buses, vans for waste collection and taxi, with vehicles powered by ethanol, hybrid and full- electric and more efficient traditional engines."@en, "Italian producer of mineral water substituted its trucks for deliveries with models powered by LPG, which have a greater autonomy and an environmental impact reduced more than 30%."@en .
 
-ed:SelectOtherExternalLogisticSupplyPhase
+edp:SelectOtherExternalLogisticSupplyPhase
     od:action edc:SelectOther ;
     od:genericSuggestion "During supply phase, select other transport means, favoring those requiring a lower energy consumption and producing less pollution for each kilometer covered with the same carried load."@en ;
     od:interactiveModule edc:TransportationMeanSubstitution ;
@@ -817,7 +819,7 @@ ed:SelectOtherExternalLogisticSupplyPhase
     rdfs:label "Select Other External Logistic (Substitute)"@en ;
     skos:example "A Chinese company active in agrobusiness moves a consistent part of its raw materials from the suppliers by exploiting a river, and its current, and a series of artificial channels, which are also used for irrigating the fields nearby."@en .
 
-ed:SelectOtherInternalLogistic
+edp:SelectOtherInternalLogistic
     od:action edc:SelectOther ;
     od:genericSuggestion "During manufacturing, select other transportation means for internal logistic, by privileging those more sustainable during the lifecycle and, in particular, those requiring less energy consumption and better energy sources to move the given load across a certain distance."@en ;
     od:interactiveModule edc:TransportationMeanSubstitution ;
@@ -827,7 +829,7 @@ ed:SelectOtherInternalLogistic
     rdfs:label "Select Other Internal Logistic (Substitute)"@en ;
     skos:example "In order to increase the efficiency of internal logistic and reducing the impacts, in 2016, a swiss brewery substituted all its 217 Diesel forklifts with electric models which are 30 percent more efficiency and they allowed to save a total amount of 100000 liters of fuel, or about 260 tons of saved emission of CO2."@en .
 
-ed:SelectOtherMachineriesSubstitute
+edp:SelectOtherMachineriesSubstitute
     od:action edc:SelectOther ;
     od:genericSuggestion "During manufacturing, select other machineries, by selecting those requiring more eco-sustainable during their entire lifecycle."@en ;
     od:interactiveModule edc:EnergyReduction ;
@@ -838,7 +840,7 @@ ed:SelectOtherMachineriesSubstitute
     rdfs:label "Select Other Machineries (Substitute)"@en ;
     skos:example "In order to avoid the production of the molds, some manufacturers introduced 3D printers in their facilities in substitution of the traditional molding machineries."@en, "Lin et al. (2010) compared traditional construction machinery such as the excavator and wheel loader, powered by gasoline, and hybrid models, including regeneration systems, by considering consumptions, pollutants and the challenging deriving from their production, finding considerable environmental advantages."@en .
 
-ed:SelectOtherPackagingEndOfLife
+edp:SelectOtherPackagingEndOfLife
     od:action edc:SelectOther ;
     od:genericSuggestion "For improving the end of life, select other packaging, in order to make it more easily disposed as such by the environment (e.g. by favoring combinations of those biodegradable) or by the same consumer, i.e. by making the packaging edible."@en ;
     od:interactiveModule edc:EnergyConsumptionReduction ;
@@ -848,7 +850,7 @@ ed:SelectOtherPackagingEndOfLife
     rdfs:label "Select Other Packaging (Substitute)"@en ;
     skos:example "Eco-bags in European supermarket."@en, "Edible water bottle made membrane of edible algae, developed by a London-based startup in 2014."@en, "Food packaging made by with banana leaves and flexible pieces of bamboo in Thai supermarkets."@en, "Recyclable PLA water bottles and food packaging (Muller et al. 2017)."@en .
 
-ed:SelectOtherPackagingForDelivery
+edp:SelectOtherPackagingForDelivery
     od:action edc:SelectOther ;
     od:genericSuggestion "During delivery phase, select alternative primary packaging, favoring those that have similar physical characteristics but a lower environmental impact to be produced."@en ;
     od:interactiveModule edc:MaterialSubstitution ;
@@ -859,7 +861,7 @@ ed:SelectOtherPackagingForDelivery
     rdfs:label "Select Other Packaging (Substitute)"@en ;
     skos:example "A German shoes manufacturing developed a new packaging made by fabric, which involve fewer raw materials and saves more than 60% of water and energy."@en .
 
-ed:SelectOtherPackagingSupplyPhase
+edp:SelectOtherPackagingSupplyPhase
     od:action edc:SelectOther ;
     od:genericSuggestion "During supply phase, select alternative primary packaging, favoring those that have similar physical characteristics but a lower environmental impact to be produced and dismantled."@en ;
     od:interactiveModule edc:MaterialSubstitution ;
@@ -870,7 +872,7 @@ ed:SelectOtherPackagingSupplyPhase
     rdfs:label "Select Other Packaging (Substitute)"@en ;
     skos:example "An Italian packaging firm produces an ecologic bubble wrap, entirely made with recycled paper."@en .
 
-ed:SelectOtherRawMaterials
+edp:SelectOtherRawMaterials
     od:action edc:SelectOther ;
     od:genericSuggestion "During design phase in premanufacturing, select other raw materials, favoring those having a lower environmental impact during the entire lifecycle: production (extraction/recycling and transformation), manufacturing (workability with available technologies, absence of hazardous materials), use (non-toxicity, integrity, durability in relation to the working conditions and environment) and disposed (biocompatibility)"@en ;
     od:interactiveModule edc:MaterialSubstitution ;
