@@ -7,13 +7,14 @@
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
 @prefix bpm: <http://bpmpatterns.org/rdf/Model#> .
 @prefix bpmp: <http://bpmpatterns.org/rdf/Pattern/> .
+@prefix : <http://bpmpatterns.org/rdf/Paper/> .
 
 <http://opendiscovery.org/rdf/BPM-Patterns/>
     cc:attributionName "The Open Discovery Project" ;
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     a owl:Ontology ;
-    rdfs:comment "Business Process Management Patterns from bpmpatterns.org.", "Extracted and transformed by HGG, 2022-06-16" ;
+    rdfs:comment "Business Process Management Patterns from bpmpatterns.org.", "graebe 2022-06-16: Extracted and transformed from the CSV", "graebe 2022-07-08: Links to the papers added from the website" ;
     rdfs:label "Business Process Management Patterns" .
 
 <http://bpmpatterns.org/rdf/BPMPaper/P102>
@@ -23,6 +24,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "BPMN-Q", "compliance analysis", "compliance auditing", "compliance checking", "compliance management", "compliance monitoring", "compliance rule", "query language", "violation" ;
     od:hasLD bpm:LanguageDependency_Yes ;
+    od:hasLink <http://opus.kobv.de/ubp/volltexte/2010/4922/> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_BPMNQ, bpm:Notation_Extension ;
     od:hasOrigin bpm:Research ;
@@ -44,6 +46,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "BPEL", "formal semantic", "transformation" ;
     od:hasLD bpm:LanguageDependency_yes ;
+    od:hasLink <http://dx.doi.org/10.1109/ICIS.2009.135> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_BPEL, bpm:Notation_Existing, bpm:Notation_UMLAD ;
     od:hasOrigin bpm:Research ;
@@ -67,6 +70,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "DMSL", "SOA", "UML profile", "WSDL", "domain-specific modeling language", "loop", "model transformation", "service", "service-oriented architecture", "web service" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/978-3-540-75492-3_15> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -90,6 +94,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "TQM", "design review", "determination of product requirements", "order acceptance", "quality constraint", "quality control", "quality management", "query language", "requirements", "review. VPSL" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1109/VLHCC.2006.5> ;
     od:hasMethodOfCreation bpm:Survey ;
     od:hasNotation bpm:Notation_Extension, bpm:Notation_UML2_0Ads ;
     od:hasOrigin bpm:Research ;
@@ -111,6 +116,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "SPEM", "software process" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/11767718_39> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_Existing, bpm:Notation_UML ;
     od:hasOrigin bpm:Research ;
@@ -134,6 +140,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "UML", "UML activity diagram", "activity diagram", "formal semantic", "model checking", "semantic", "transformation", "verification" ;
     od:hasLD bpm:LanguageDependency_Yes ;
+    od:hasLink <http://dx.doi.org/10.1007/978-3-319-00948-3_13> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_Existing, bpm:Notation_UML ;
     od:hasOrigin bpm:Research ;
@@ -157,6 +164,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "business function", "content", "semantics" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1504/IJBPIM.2009.027778> ;
     od:hasMethodOfCreation bpm:ManualMining ;
     od:hasNotation bpm:Notation_Existing, bpm:Notation_UMLAD ;
     od:hasOrigin bpm:Research ;
@@ -180,6 +188,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "commenting", "feedback", "knowledge sharing", "participation", "ranking", "skill", "socialization", "transpareny", "voting" ;
     od:hasLD bpm:LanguageDependency_Yes ;
+    od:hasLink <http://dx.doi.org/10.1007/978-3-642-28108-2_22> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Extension ;
     od:hasOrigin bpm:Research ;
@@ -202,6 +211,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "IT architecture", "change element", "change option", "information system", "organization architecture" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/978-3-642-03973-7_4> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -225,6 +235,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "B2B", "choreography", "collaboration", "contract", "cooperation", "interoperability", "synchronisation", "synchronization" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1109/MIC.2004.1260702> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -248,6 +259,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "collaboration", "coordinate contribution", "coordingation", "deciding", "decision making", "human resources", "knowledge workers", "retrieve contribution" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.4018/ijec.2014010104> ;
     od:hasMethodOfCreation bpm:CaseStudy ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Existing ;
     od:hasOrigin bpm:Research ;
@@ -271,6 +283,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "BPR", "assignment", "automation", "business process reenigineering", "change", "control", "dBOP", "deep Business Optimization Platform", "improvement", "organisational structure", "organizational structure", "process improvement", "process performance", "sequencing", "variance", "variant" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/978-3-642-21863-7_11> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -294,6 +307,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "BPT Wizard", "Business Process Transformation Wizard", "change", "improvement", "optimization", "parallelization" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1109/WSC.2006.323140> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Industry ;
@@ -317,6 +331,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "RAD", "role activity diagram", "role-activity diagram" ;
     od:hasLD bpm:LanguageDependency_Yes ;
+    od:hasLink <http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0471953520.html> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_Existing, bpm:Notation_RoleActivityDiagrams ;
     od:hasOrigin bpm:Research ;
@@ -338,6 +353,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "SoO", "auditing", "bounded existence", "chain response", "compliance auditing", "compliance checking", "compliance management", "compliance monitoring", "compliance rule", "control", "control rule", "model checking", "occurrence", "order", "property specification", "resource", "response", "segretation of duties", "specification", "temporal", "temporal logic", "time", "timing", "universality" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1109/MS.2012.45> ;
     od:hasMethodOfCreation bpm:ManualMining ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -361,6 +377,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "adaptation", "adapting", "adding fragment", "change", "changing", "control dependency", "copy", "copying", "delete", "deleting fragment", "deletion move", "embed", "embedding", "extract", "extracting", "flexibility", "inline", "insert", "insertion", "parallelization", "parallelize", "process fragment", "replace", "replacing", "swap", "update condition", "variability", "variants" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1016/j.datak.2008.05.001> ;
     od:hasMethodOfCreation bpm:ManualMining ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Existing ;
     od:hasOrigin bpm:Industry ;
@@ -383,6 +400,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "authorisation", "authorization", "change detection", "change impact analysis", "control flow", "difference", "effort estimation", "impact analysis", "order", "refinement", "role", "traceability" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/978-94-017-9588-3_33> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -406,6 +424,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "HIM", "KIBS", "business rule", "condition model", "control pattern", "human interaction management", "knowledge worker", "knowledge-intensive business service", "post-condition", "postcondition", "pre-condition", "precondition" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1016/j.eswa.2010.09.065> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_Existing, bpm:Notation_conditionmodelinglanguage ;
     od:hasOrigin bpm:Research ;
@@ -429,6 +448,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "CWM", "CWM-BPMN", "MTCO", "contract workflow model", "multi-tier contract ontology", "non-performance", "obligation", "performance" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://ceur-ws.org/Vol-363/paper16.pdf> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Existing ;
     od:hasOrigin bpm:Research ;
@@ -452,6 +472,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "Exception Handling Process Ontology", "contracting", "domain ontology", "obligation", "ontology", "right" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/978-3-540-78942-0_51> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Existing ;
     od:hasOrigin bpm:Research ;
@@ -475,6 +496,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "contracting", "electronic contracting", "negotiating", "negotiation", "obligation", "service contracting", "service dependency", "transaction protocol" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/3-540-44895-0_11> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_Existing, bpm:Notation_PetriNet ;
     od:hasOrigin bpm:Research ;
@@ -521,6 +543,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "REST", "SOAP", "service composition", "web service" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://design.inf.unisi.ch/sites/default/files/biblio/rest-tweb-dcfw.pdf> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Existing, bpm:Notation_UMLSequenceDiagrams ;
     od:hasOrigin bpm:Research ;
@@ -544,6 +567,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "control flow" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/978-3-642-22418-8_62> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_New ;
     od:hasOrigin bpm:Research ;
@@ -567,6 +591,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "deadlock", "reachability", "soundness", "transferability" ;
     od:hasLD bpm:LanguageDependency_Yes ;
+    od:hasLink <http://dx.doi.org/10.1109/HICSS.1999.772966> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_New ;
     od:hasOrigin bpm:Research ;
@@ -590,6 +615,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "RBAC", "access control", "delegation of permissions between users", "delegation of roles between users", "delegation of task instances", "resource", "role", "role hierarchy", "role-to-role delegation", "temporary role", "user-to-user delegation" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1109/COMPSACW.2010.75> ;
     od:hasMethodOfCreation bpm:ManualMining ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -613,6 +639,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "B2B", "CrossFlow", "business-to-business", "electronic sourcing", "esourcing", "service provision", "supply chain", "virtual business process" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1142/S0218843007001664>, <https://www.etis.ee/Portal/Publications/Display/7819f2e2-c35a-4ced-81cb-d9fb8dfbdd68?lang=ENG> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_Existing, bpm:Notation_PetriNet ;
     od:hasOrigin bpm:Research ;
@@ -636,6 +663,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "e-sourcing", "electronic sourcing", "esourcing", "sourcing", "supply chain" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1142/S0218843007001664>, <https://www.etis.ee/Portal/Publications/Display/7819f2e2-c35a-4ced-81cb-d9fb8dfbdd68?lang=ENG> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_Existing, bpm:Notation_Petrinets ;
     od:hasOrigin bpm:Research ;
@@ -659,6 +687,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "adaptation", "adapting", "change", "changing", "dynamic process change", "flexibility", "improvement", "process family", "variability", "variants", "version management" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1109/ICCIT.2007.190> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -682,6 +711,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "C-EPC", "Provop", "adaption", "configurable process model", "configurable region", "configuration alternatives", "configuration constraint", "context condition", "delete", "flexibility", "insert", "model configuration", "modify", "process family", "variability", "variant" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/978-3-642-38484-4_18> ;
     od:hasMethodOfCreation bpm:Survey ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -705,6 +735,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "ambulatory service", "capacity analysis", "demand foecast", "diagnose", "healthcare", "hospital", "medical appointment", "medical service", "medical supplies" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1108/14637151111149447> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Industry, bpm:Research ;
@@ -728,6 +759,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "ArchiMate", "EA", "architectural description", "automation", "business process execution support", "business process support", "role assignment" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1016/j.jss.2011.02.043> ;
     od:hasMethodOfCreation bpm:ManualMining ;
     od:hasNotation bpm:Notation_ArchiMate, bpm:Notation_Existing ;
     od:hasOrigin bpm:Industry ;
@@ -751,6 +783,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "communication", "competitive task", "human workflow" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://shop.oreilly.com/product/9780596008437.do> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -774,6 +807,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "Little-JIL", "compensation", "exception flow", "restart" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1109/TSE.2010.1> ;
     od:hasMethodOfCreation bpm:ManualMining ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Existing, bpm:Notation_LittleJIL, bpm:Notation_UML ;
     od:hasOrigin bpm:Research ;
@@ -797,6 +831,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "EIP", "enterprise integration", "message exchange", "message flow", "message-based integration", "middleware" ;
     od:hasLD bpm:LanguageDependency_Yes ;
+    od:hasLink <http://dx.doi.org/10.1007/978-3-319-09195-2_17> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Existing ;
     od:hasOrigin bpm:Industry ;
@@ -820,6 +855,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "location awareness", "location dependency", "location-aware", "location-awareness" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1108/BPMJ-06-2013-0066> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Extension ;
     od:hasOrigin bpm:Research ;
@@ -843,6 +879,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "CEP", "adaption", "complex event processing", "configurable process model", "event-driven", "flexibility", "model configuration", "process family", "variability", "variant" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://subs.emis.de/LNI/Proceedings/Proceedings175/article5865.html> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Existing ;
     od:hasOrigin bpm:Research ;
@@ -866,6 +903,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "SOA", "cancellation", "compensation", "composite web service", "composition", "coordination", "service-oriented architecture", "transactional flow", "transactional model", "transactional web service", "web service", "workflow flexibility" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1109/AICT-ICIW.2006.97> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -887,6 +925,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "cloud", "resource", "virtual resource" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/97-3-662-43745-2_10> ;
     od:hasMethodOfCreation bpm:ManualMining ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -910,6 +949,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "Bounded-Exists", "Chain-LeadsTo", "CoAbsent", "DirectlyFollowedBy", "Exists", "Exists-Often", "Frees", "PerformedBy", "Performer", "absence", "boundedwith", "chain precedence", "chain-precedes", "coExists", "compliance auditing", "compliance checking", "compliance management", "compliance monitoring", "compliance request language", "compliance rule", "corequisite", "exclusive", "exclusivity", "existence", "isAbsent", "isUniversal", "leads-to", "leadsTo", "mutexchoice", "precedence", "precedes", "query language", "regulatory compliance", "resource", "response", "segregatedfrom", "segregation", "substitute", "temporal", "timed", "timed pattern", "universality" ;
     od:hasLD bpm:LanguageDependency_Yes ;
+    od:hasLink <http://dx.doi.org/10.1007/s10270-014-0395-3> ;
     od:hasMethodOfCreation bpm:ManualMining ;
     od:hasNotation bpm:Notation_Existing, bpm:Notation_LTL ;
     od:hasOrigin bpm:Industry, bpm:Research ;
@@ -931,6 +971,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "content", "guidance", "process modeling support", "process modelling support", "reuse" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/978-1-4419-9790-6_53> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Extension ;
     od:hasOrigin bpm:Research ;
@@ -942,7 +983,7 @@
     od:intendedUser bpm:BusinessAnalyst ;
     od:toCategory bpm:Cat_5_2 ;
     od:toPattern "4 eyes principle", "4-eyes principle", "Avoidance of Infinite Waits", "approval", "four eyes principle", "secured interaction", "trusted timestamp" ;
-    od:toPatternURI bpmp:4eyesprinciple, bpmp:AvoidanceofInfiniteWaits, bpmp:approval, bpmp:foureyesprinciple, bpmp:securedinteraction, bpmp:trustedtimestamp ;
+    od:toPatternURI bpmp:AvoidanceofInfiniteWaits, bpmp:approval, bpmp:foureyesprinciple, bpmp:securedinteraction, bpmp:trustedtimestamp ;
     dcterms:issued "2011" ;
     dcterms:title "Fragmento: Advanced Process Fragment Library"@en ;
     a od:BPMPaper .
@@ -954,6 +995,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "CAP", "DEMO", "accept", "acceptance", "allow", "cancel", "coordination", "decline", "intention", "promise", "quit", "refuse", "reject", "request", "social system", "state", "statement", "transaction" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/3-540-44895-0_14> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_CPN, bpm:Notation_Existing ;
     od:hasOrigin bpm:Research ;
@@ -977,6 +1019,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "deadlock", "livelock", "multiple termination", "soundness" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <https://www.researchgate.net/profile/Volker_Gruhn2/publication/221034631_Good_and_Bad_Excuses_for_Unstructured_Business_Process_Models/links/0912f50d32378b3e4c000000.pdf> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_EPC, bpm:Notation_Existing ;
     od:hasOrigin bpm:Research ;
@@ -1000,6 +1043,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "ecofriendly", "ecological", "environment", "environmental perspective", "green", "green BPM", "green activity", "green resource", "greening" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1109/SOCA.2013.11> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_New ;
     od:hasOrigin bpm:Research ;
@@ -1023,6 +1067,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "collaboration", "collaborative", "concurrent changes", "consistency", "editing" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1109/EDOCW.2013.34> ;
     od:hasMethodOfCreation bpm:ManualMining ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Existing ;
     od:hasOrigin bpm:Research ;
@@ -1046,6 +1091,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "CEP", "business pattern", "complex event processing", "review" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://ieeexplore.ieee.org/document/7312304/> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -1069,6 +1115,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "ADM", "KDM", "architecture-driven modernization", "knowledge discovery metamodel", "legacy system", "loosely coupling", "modernization" ;
     od:hasLD bpm:LanguageDependency_Yes ;
+    od:hasLink <http://dx.doi.org/10.1007/978-3-642-13688-7_12> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Existing ;
     od:hasOrigin bpm:Research ;
@@ -1092,6 +1139,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "DPP", "content", "guidance", "process modeling support", "process modelling support", "reuse", "semantics-based analysis" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1080/17517575.2013.857792> ;
     od:hasMethodOfCreation bpm:ManualMining ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -1115,6 +1163,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "SPLE", "adaption", "configurable process model", "feature", "feature diagram", "feature model", "model configuration", "process family", "product line", "software product line engineering", "variability", "variant" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1016/j.is.2012.11.010> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Existing ;
     od:hasOrigin bpm:Research ;
@@ -1138,6 +1187,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "catch up", "catching up", "deviation", "error", "exception", "execution priority", "failure", "flexibility" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://subs.emis.de/LNI/Proceedings/Proceedings12/article238.html> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_ADEPT, bpm:Notation_Extension ;
     od:hasOrigin bpm:Research ;
@@ -1160,6 +1210,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "4 eyes principle", "4-eyes principle", "BPR", "SOA", "Tomasulo", "business process reenigineering", "case management", "case manager", "chain of execution", "control flow analysis", "data flow analysis", "delegation", "dependability", "design diversity", "escalation", "exception", "fault tolerance", "filter ordering", "flexible assignment", "flow variable speculation", "four eyes principle", "knock-out", "nomination", "order assignment", "order distribution", "parallelization", "process administration role", "redoing", "reliability", "resequencing", "scoreboarding", "service", "service-oriented architecture", "specialist-generalist", "transaction", "transactional support", "web service" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.4018/978-1-4666-0255-7.ch020> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Existing ;
     od:hasOrigin bpm:Research ;
@@ -1183,6 +1234,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "grid workflow", "parallelism", "scientific workflow" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <https://doi.org/10.1109/WORKS.2006.5282349> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_Existing, bpm:Notation_Informal ;
     od:hasOrigin bpm:Research ;
@@ -1205,6 +1257,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "SLA", "monitoring", "service level" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/s11761-015-0185-y> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_CPN, bpm:Notation_Existing ;
     od:hasOrigin bpm:Research ;
@@ -1226,6 +1279,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "conceptual model", "logical model", "transformation" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/978-3-642-38827-9_7> ;
     od:hasMethodOfCreation bpm:Survey ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -1249,6 +1303,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "adaption", "adaption pattern", "adaptive workflow segment", "domain engineering", "flexibility", "process family", "variability", "variant" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1145/2396716.2396723> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Existing ;
     od:hasOrigin bpm:Industry ;
@@ -1272,6 +1327,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "AND-branches", "MDA", "PIM", "grid resource", "grid service", "model-driven architecture", "platform independent model", "semantic composition", "service composition", "workflow composition" ;
     od:hasLD bpm:LanguageDependency_Yes ;
+    od:hasLink <http://dx.doi.org/10.1007/978-3-642-01347-8_51> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_Extension, bpm:Notation_UML ;
     od:hasOrigin bpm:Research ;
@@ -1295,6 +1351,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "access", "aggregating", "aggregation", "assemble", "assembling", "availability", "capacity", "choose", "collection", "coloured Petri net", "concurrency", "concurrent access", "consistency", "control", "create", "creation", "decomposing", "decomposition", "discern", "exclusive lock", "generation", "inspect", "inspection", "merge", "monitor", "monitoring", "shared lock", "synchronizing", "throughput", "transfer", "transferring", "transform", "transformation" ;
     od:hasLD bpm:LanguageDependency_Yes ;
+    od:hasLink <http://ww.workflowpatterns.com/documentation/documents/CPN_PATTERNS.pdf> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_CPN, bpm:Notation_Existing ;
     od:hasOrigin bpm:Research ;
@@ -1318,6 +1375,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "SBVR", "SOA", "adaptability", "business rule", "process composition", "service composition", "service-oriented architecture", "web services" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1080/17517570802245441> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Existing ;
     od:hasOrigin bpm:Research ;
@@ -1339,6 +1397,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "co-work", "collaboration", "collective", "repository" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <https://hal.inria.fr/inria-00107838/> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_New ;
     od:hasOrigin bpm:Research ;
@@ -1362,6 +1421,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "CADS", "PROPEL", "software process" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.177.7108> ;
     od:hasMethodOfCreation bpm:ManualMining ;
     od:hasNotation bpm:Notation_New ;
     od:hasOrigin bpm:Research ;
@@ -1385,6 +1445,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "augmentation", "business perspective", "complexity", "customization", "inter-view", "model transformation", "presentation", "transformation", "view" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1109/EDOC.2010.16> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -1408,6 +1469,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "PDDQM", "collapse", "compacting", "complexity", "complexity reduction", "composition", "comprehensibility", "data quality", "duplication", "merging", "metric", "modularization", "omission", "quality check", "review", "understandability" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/s12599-013-0297-x> ;
     od:hasMethodOfCreation bpm:Survey ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Existing ;
     od:hasOrigin bpm:Research ;
@@ -1429,6 +1491,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "agent-based", "interaction" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1057/jos.2013.4> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -1452,6 +1515,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "asset", "attack", "availability", "checksum", "confidentiality", "countermeasure", "cryptography", "data protection", "denial of service", "dos", "encryption", "flooding", "input canonicalisation", "input canonicalization", "input filtration", "input sanitisation", "input validation", "integrity", "migitation", "risk avoidance", "risk reduction", "risk treatment", "security", "security objective", "threat", "vulnerability" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1016/j.csi.2013.12.007> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Extension ;
     od:hasOrigin bpm:Research ;
@@ -1475,6 +1539,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "Generic Process Model", "control flow", "ontology", "workflow pattern" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/978-3-540-75183-0_29> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -1498,6 +1563,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "SOA", "receive", "send", "service-oriented architecture", "web service" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/11538394_20> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -1521,6 +1587,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "SOA", "choreography", "integration", "interaction", "message", "receive", "refinement", "send", "service adapter", "service composition", "service replacement" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/978-3-642-01918-0_2> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_Extension, bpm:Notation_PetriNet ;
     od:hasOrigin bpm:Research ;
@@ -1543,6 +1610,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "acceptance", "administrative decision", "approval", "authentication", "authorisation", "authorization", "document", "permission", "review", "reviewing", "signature workflow", "signing" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1109/COMPSACW.2012.60> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Existing ;
     od:hasOrigin bpm:Research ;
@@ -1566,6 +1634,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "SPEM", "role blueprint", "role definition", "software process", "task blueprint", "task definition", "work product blueprint", "work product definition" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/978-3-642-14347-2_24> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_Existing, bpm:Notation_polymetricviews ;
     od:hasOrigin bpm:Research ;
@@ -1587,6 +1656,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "EAM" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://subs.emis.de/LNI/Proceedings/Proceedings150/article4851.html> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Existing ;
     od:hasOrigin bpm:Research ;
@@ -1610,6 +1680,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "administration", "administrative workflow" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://aisel.aisnet.org/ecis2002/155/> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_Existing, bpm:Notation_UMLAD ;
     od:hasOrigin bpm:Research ;
@@ -1633,6 +1704,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "EAI", "EMI", "enterprise application integration", "enterprise model integration", "strategy", "strategy management" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/3-7908-1624-8_78> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_Existing, bpm:Notation_UML ;
     od:hasOrigin bpm:Research ;
@@ -1656,6 +1728,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "causal footprint", "causality graph", "soundness" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1109/EDOC.2006.56> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_EPC, bpm:Notation_Existing, bpm:Notation_PetriNet ;
     od:hasOrigin bpm:Research ;
@@ -1679,6 +1752,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "MDA", "model driven architecture", "model transformation", "nested branching", "transformation" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1109/EDOCW.2006.64> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -1702,6 +1776,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "activity-control diagram", "causal ordering", "causal relationship", "failure diagnosis", "failure reasoning" ;
     od:hasLD bpm:LanguageDependency_Yes ;
+    od:hasLink <http://dx.doi.org/10.1016/j.eswa.2010.12.121> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_New ;
     od:hasOrigin bpm:Research ;
@@ -1725,6 +1800,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "BPR", "business process reenigineering", "change", "improvement", "process improvement", "process performance" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://www.bptrends.com/bpt/wp-content/publicationfiles/04-06-ART-PatternFramework-Forster.pdf> ;
     od:hasMethodOfCreation bpm:ManualMining ;
     od:hasNotation bpm:Notation_ARISToolset, bpm:Notation_Existing ;
     od:hasOrigin bpm:Research ;
@@ -1748,6 +1824,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "constraint", "duration", "temporal", "time lag", "timing", "variability" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/s00766-012-0162-3> ;
     od:hasMethodOfCreation bpm:CaseStudy, bpm:Survey ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -1771,6 +1848,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "BPR", "change", "improvement", "process improvement", "process performance" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1108/BPMJ-Mar-2012-0020> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -1794,6 +1872,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "e-science", "scientific workflow management system", "scientific workflow system" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://doi.acm.org/10.1145/1645164.1645177> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Existing ;
     od:hasOrigin bpm:Research ;
@@ -1816,6 +1895,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "4 eyes principle", "4-eyes principle", "GMQL", "MaRisk", "agreement", "compliance auditing", "compliance checking", "compliance management", "compliance monitoring", "compliance rule", "confirmation", "credit decision", "dunning", "four eyes principle", "identification", "legal text", "money laundering", "query language", "recurring check", "regulatory compliance", "settlement", "split responsibilities" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.18417/emisa.10.1.4> ;
     od:hasMethodOfCreation bpm:ManualMining ;
     od:hasNotation bpm:Notation_New ;
     od:hasOrigin bpm:Research ;
@@ -1827,7 +1907,7 @@
     od:intendedUser bpm:BusinessAnalyst ;
     od:toCategory bpm:Cat_6_1 ;
     od:toPattern "4 eyes principle", "4-eyes principle", "agreement", "confirmation", "credit decision", "dunning", "four eyes principle", "identification", "identification-transaction", "recurring check", "settlement" ;
-    od:toPatternURI bpmp:4eyesprinciple, bpmp:agreement, bpmp:confirmation, bpmp:creditdecision, bpmp:dunning, bpmp:foureyesprinciple, bpmp:identification, bpmp:identificationtransaction, bpmp:recurringcheck, bpmp:settlement ;
+    od:toPatternURI bpmp:agreement, bpmp:confirmation, bpmp:creditdecision, bpmp:dunning, bpmp:foureyesprinciple, bpmp:identification, bpmp:identificationtransaction, bpmp:recurringcheck, bpmp:settlement ;
     dcterms:issued "2015" ;
     dcterms:title "Towards Supporting Business Process Compliance Checking with Compliance Pattern Catalogues - A Financial Industry Case Study"@en ;
     a od:BPMPaper .
@@ -1862,6 +1942,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "goal modeling", "goal modelling", "transformation" ;
     od:hasLD bpm:LanguageDependency_Yes ;
+    od:hasLink <http://dx.doi.org/10.1145/2554850.2555119> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Existing ;
     od:hasOrigin bpm:Research ;
@@ -1885,6 +1966,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "UML", "UML activity diagram", "activity diagram", "stepwise refinement" ;
     od:hasLD bpm:LanguageDependency_Yes ;
+    od:hasLink <http://dx.doi.org/10.1109/COMPSACW.2012.51> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_Existing, bpm:Notation_UMLAD ;
     od:hasOrigin bpm:Research ;
@@ -1908,6 +1990,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "UML activity diagrams", "transformation" ;
     od:hasLD bpm:LanguageDependency_Yes ;
+    od:hasLink <https://www.researchgate.net/profile/Peter_Rittgen/publication/228973491_UML_design_patterns_for_business_processes/links/5446d41f0cf22b3c14e0b5ff.pdf> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_EPC, bpm:Notation_Existing, bpm:Notation_UMLAD ;
     od:hasOrigin bpm:Research ;
@@ -1931,6 +2014,7 @@
     od:hasGuidelines bpm:Guidelines_Yes ;
     od:hasKeyword "REA", "business model", "business rationale", "economic agent", "economic conversion", "economic exchange", "economic resource", "resource-event-agent", "value conversion", "value exchange", "value model", "value object" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/978-3-662-45501-2_3> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Existing, bpm:Notation_REA ;
     od:hasOrigin bpm:Research ;
@@ -1954,6 +2038,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "adaption", "configurable process model", "flexibility", "model configuration", "process family", "variability", "variability modeling", "variability modelling", "variant" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/s10257-015-0290-7> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_BPMN, bpm:Notation_Existing ;
     od:hasOrigin bpm:Research ;
@@ -1977,6 +2062,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "adaption", "compare", "comparing", "comparison", "difference", "flexibility", "process family", "variability", "variant" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/978-3-642-05441-9_23> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -2000,6 +2086,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "soundness", "terminating", "termination", "weak soundness" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1109/COASE.2009.5234170> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_Existing, bpm:Notation_PetriNet ;
     od:hasOrigin bpm:Research ;
@@ -2023,6 +2110,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "N-out-of-M", "PAIS", "Process-Aware Information System", "WCP", "flow of control", "workflow engine", "workflow pattern" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://www.workflowpatterns.com/documentation/documents/BPM-06-22.pdf> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_CPN, bpm:Notation_Existing ;
     od:hasOrigin bpm:Research ;
@@ -2034,7 +2122,7 @@
     od:intendedUser bpm:BusinessAnalyst ;
     od:toCategory bpm:Cat_1_2 ;
     od:toPattern "1-out-of-M join", "AND join", "AND split", "AND-join", "AND-split", "Acyclic Synchronizing Merge", "Arbitrary Cycles", "Blocking Discriminator", "Blocking Partial Join", "Cancel Activity", "Cancel Multiple Instance Activity", "Cancel Region", "Cancelling Discriminator", "Cancelling Partial Join", "Cancelling Partial Join for Multiple Instances", "Complete Multiple Instance Activity", "Critical Section", "Deferred Choice", "Dynamic Partial Join for Multiple Instances", "Explicit Termination", "External choice", "General Synchronizing Merge", "Generalized AND-Join", "IOR split", "IOr-split", "Implicit Termination", "Interleaved Parallel Routing", "Interleaved Routing", "Multi threading without synchronization", "Multiple Instances with a priori Design-Time Knowledge", "Multiple Instances with a priori Run-Time Knowledge", "Multiple Instances without Synchronization", "Multiple instances without a priori run-time knowledge", "OR split", "OR-split", "Persistent Trigger", "Recursion", "Static Partial Join for Multiple Instances", "Structured Discriminator", "Structured Loop", "Structured Partial Join", "Structured Synchronizing Merge", "Synchronizing join", "Test arc", "Thread Merge", "Thread Split", "Transient Trigger", "Unstructured loop", "XOR join", "XOR-join", "XOR-split XOR split", "asynchronous join", "cancel Case", "case statement", "conditional routing", "cycle", "deadline", "decision", "deferred XOR-split", "exclusive OR join", "exclusive OR split", "exclusive OR-join", "exclusive OR-split", "exclusive choice", "fork", "implicit choice", "inclusive OR split", "inclusive OR-split", "iteration", "merge", "milestone", "multi-choice", "multi-merge", "multiple choice", "parallel routing", "parallel split", "rendez-vous", "rendezvous", "selection", "sequence", "sequential routing", "serial routing", "simple merge", "spawn off facility", "state condition", "switch", "synchronization", "synchronizer", "withdraw activity", "withdraw case", "withdraw message" ;
-    od:toPatternURI bpmp:1outofMjoin, bpmp:ANDjoin, bpmp:ANDsplit, bpmp:AcyclicSynchronizingMerge, bpmp:ArbitraryCycles, bpmp:BlockingDiscriminator, bpmp:BlockingPartialJoin, bpmp:CancelActivity, bpmp:CancelMultipleInstanceActivity, bpmp:CancelRegion, bpmp:CancellingDiscriminator, bpmp:CancellingPartialJoin, bpmp:CancellingPartialJoinforMultipleInstances, bpmp:CompleteMultipleInstanceActivity, bpmp:CriticalSection, bpmp:DeferredChoice, bpmp:DynamicPartialJoinforMultipleInstances, bpmp:ExplicitTermination, bpmp:Externalchoice, bpmp:GeneralSynchronizingMerge, bpmp:GeneralizedANDJoin, bpmp:IORsplit, bpmp:IOrsplit, bpmp:ImplicitTermination, bpmp:InterleavedParallelRouting, bpmp:InterleavedRouting, bpmp:MultipleInstanceswithaprioriDesignTimeKnowledge, bpmp:MultipleInstanceswithaprioriRunTimeKnowledge, bpmp:MultipleInstanceswithoutSynchronization, bpmp:Multipleinstanceswithoutaprioriruntimeknowledge, bpmp:Multithreadingwithoutsynchronization, bpmp:ORsplit, bpmp:PersistentTrigger, bpmp:Recursion, bpmp:StaticPartialJoinforMultipleInstances, bpmp:StructuredDiscriminator, bpmp:StructuredLoop, bpmp:StructuredPartialJoin, bpmp:StructuredSynchronizingMerge, bpmp:Synchronizingjoin, bpmp:Testarc, bpmp:ThreadMerge, bpmp:ThreadSplit, bpmp:TransientTrigger, bpmp:Unstructuredloop, bpmp:XORjoin, bpmp:XORsplitXORsplit, bpmp:asynchronousjoin, bpmp:cancelCase, bpmp:casestatement, bpmp:conditionalrouting, bpmp:cycle, bpmp:deadline, bpmp:decision, bpmp:deferredXORsplit, bpmp:exclusiveORjoin, bpmp:exclusiveORsplit, bpmp:exclusivechoice, bpmp:fork, bpmp:implicitchoice, bpmp:inclusiveORsplit, bpmp:iteration, bpmp:merge, bpmp:milestone, bpmp:multichoice, bpmp:multimerge, bpmp:multiplechoice, bpmp:parallelrouting, bpmp:parallelsplit, bpmp:rendezvous, bpmp:selection, bpmp:sequence, bpmp:sequentialrouting, bpmp:serialrouting, bpmp:simplemerge, bpmp:spawnofffacility, bpmp:statecondition, bpmp:switch, bpmp:synchronization, bpmp:synchronizer, bpmp:withdrawactivity, bpmp:withdrawcase, bpmp:withdrawmessage ;
+    od:toPatternURI bpmp:ANDjoin, bpmp:ANDsplit, bpmp:AcyclicSynchronizingMerge, bpmp:ArbitraryCycles, bpmp:BlockingDiscriminator, bpmp:BlockingPartialJoin, bpmp:CancelActivity, bpmp:CancelMultipleInstanceActivity, bpmp:CancelRegion, bpmp:CancellingDiscriminator, bpmp:CancellingPartialJoin, bpmp:CancellingPartialJoinforMultipleInstances, bpmp:CompleteMultipleInstanceActivity, bpmp:CriticalSection, bpmp:DeferredChoice, bpmp:DynamicPartialJoinforMultipleInstances, bpmp:ExplicitTermination, bpmp:Externalchoice, bpmp:GeneralSynchronizingMerge, bpmp:GeneralizedANDJoin, bpmp:IORsplit, bpmp:IOrsplit, bpmp:ImplicitTermination, bpmp:InterleavedParallelRouting, bpmp:InterleavedRouting, bpmp:MultipleInstanceswithaprioriDesignTimeKnowledge, bpmp:MultipleInstanceswithaprioriRunTimeKnowledge, bpmp:MultipleInstanceswithoutSynchronization, bpmp:Multipleinstanceswithoutaprioriruntimeknowledge, bpmp:Multithreadingwithoutsynchronization, bpmp:ORsplit, bpmp:OneOutofMjoin, bpmp:PersistentTrigger, bpmp:Recursion, bpmp:StaticPartialJoinforMultipleInstances, bpmp:StructuredDiscriminator, bpmp:StructuredLoop, bpmp:StructuredPartialJoin, bpmp:StructuredSynchronizingMerge, bpmp:Synchronizingjoin, bpmp:Testarc, bpmp:ThreadMerge, bpmp:ThreadSplit, bpmp:TransientTrigger, bpmp:Unstructuredloop, bpmp:XORjoin, bpmp:XORsplitXORsplit, bpmp:asynchronousjoin, bpmp:cancelCase, bpmp:casestatement, bpmp:conditionalrouting, bpmp:cycle, bpmp:deadline, bpmp:decision, bpmp:deferredXORsplit, bpmp:exclusiveORjoin, bpmp:exclusiveORsplit, bpmp:exclusivechoice, bpmp:fork, bpmp:implicitchoice, bpmp:inclusiveORsplit, bpmp:iteration, bpmp:merge, bpmp:milestone, bpmp:multichoice, bpmp:multimerge, bpmp:multiplechoice, bpmp:parallelrouting, bpmp:parallelsplit, bpmp:rendezvous, bpmp:selection, bpmp:sequence, bpmp:sequentialrouting, bpmp:serialrouting, bpmp:simplemerge, bpmp:spawnofffacility, bpmp:statecondition, bpmp:switch, bpmp:synchronization, bpmp:synchronizer, bpmp:withdrawactivity, bpmp:withdrawcase, bpmp:withdrawmessage ;
     dcterms:issued "2006" ;
     dcterms:title "Workflow Control-Flow Patterns: A Revised View"@en ;
     a od:BPMPaper .
@@ -2046,6 +2134,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "PAIS", "Process-Aware Information System", "communication", "data flow", "data interaction", "data passing", "data transfer", "data visibility", "data-based routing", "information exchange", "information resource", "workflow engine" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/11568322_23> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -2069,6 +2158,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "constraint violation", "deadline expiry", "exception handling", "external trigger", "failure", "invariant", "precondition", "resource unavailability", "unexpected behavior", "unexpected behaviour", "work item failure" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/11767138_20> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_New ;
     od:hasOrigin bpm:Research ;
@@ -2092,6 +2182,7 @@
     od:hasGuidelines bpm:Guidelines_No ;
     od:hasKeyword "PAIS", "Process-Aware Information System", "auto-start", "collaboration", "cooperation", "creation", "detour", "multiple resources", "pull", "push", "resource allocation", "resource distribution", "resource modeling", "resource modelling", "resource perspective", "scheduling", "visibility", "work distribution", "workflow engine" ;
     od:hasLD bpm:LanguageDependency_No ;
+    od:hasLink <http://dx.doi.org/10.1007/11431855_16> ;
     od:hasMethodOfCreation bpm:InformedArgument ;
     od:hasNotation bpm:Notation_None ;
     od:hasOrigin bpm:Research ;
@@ -2107,15 +2198,6 @@
     dcterms:issued "2005" ;
     dcterms:title "Workflow Resource Patterns: Identification, Representation and Tool Support"@en ;
     a od:BPMPaper .
-
-
-<http://bpmpatterns.org/rdf/Pattern/1outofMjoin>
-    a bpm:Pattern ;
-    skos:prefLabel "1-out-of-M join"@en .
-
-<http://bpmpatterns.org/rdf/Pattern/4eyesprinciple>
-    a bpm:Pattern ;
-    skos:prefLabel "4 eyes principle"@en, "4-eyes principle"@en .
 
 bpmp:ANDMerge
     a bpm:Pattern ;
@@ -3248,6 +3330,10 @@ bpmp:ORsplitIORsplit
 bpmp:ObligationStateChanges
     a bpm:Pattern ;
     skos:prefLabel "Obligation State Changes"@en .
+
+bpmp:OneOutofMjoin
+    a bpm:Pattern ;
+    skos:prefLabel "1-out-of-M join"@en .
 
 bpmp:Optimizeresourcecapacities
     a bpm:Pattern ;
@@ -4659,7 +4745,7 @@ bpmp:forwardjump
 
 bpmp:foureyesprinciple
     a bpm:Pattern ;
-    skos:prefLabel "four eyes principle"@en .
+    skos:prefLabel "4 eyes principle"@en, "4-eyes principle"@en, "four eyes principle"@en .
 
 bpmp:fragment
     a bpm:Pattern ;
