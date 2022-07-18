@@ -7,12 +7,12 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
 @prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
-@prefix : <http://opendiscovery.org/rdf/Conferences/GermanTRIZOnline-2020/> .
+@prefix : <http://opendiscovery.org/rdf/Conferences/DAT-2020/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 :General
     a swc:ConferenceEvent ;
-    rdfs:comment "Presentations of the Business Online Conference 2020" ;
+    rdfs:comment "Presentations of the German TRIZ Online Conference 2020" ;
     rdfs:label "1. German TRIZ Online Conference 2020"@en ;
     ical:summary "Coronabedingt gehen wir neue Wege und haben die 1. Deutsche TRIZ Konferenz online entwickeln. Wir wollen bei dieser Veranstaltung TRIZ relevanten Beiträgen aus dem akademischen Bereich und auch aus der industriellen Branche eine Plattform bieten, die auch veröffentlicht werden (Springer Verlag)."@de, "Caused by Corona we are breaking new ground and have developed the 1st German TRIZ Conference online. At this event we want to offer a platform for TRIZ relevant contributions from the academic field and also from the industrial sector that will also be published (Springer Verlag)."@en ; 
     ical:dtend "2020-10-02"^^xsd:date ;

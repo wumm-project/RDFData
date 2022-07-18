@@ -1474,6 +1474,11 @@ odp:Herrlich_M
     foaf:affil "Erfinder-Akademie, Leipzig, Germany" ;
     foaf:name "Michael Herrlich" .
 
+odp:Hess_J
+    a foaf:Person ;
+    foaf:affil "Evonik Operations GmbH, Hanau, Germany" ;
+    foaf:name "Jürgen Hess" .
+
 odp:Hiltmann_K
     a foaf:Person ;
     foaf:affil "Coburg University of Applied Sciences, Germany" ;
@@ -2854,6 +2859,11 @@ odp:Mokhova_KS
     foaf:affil "Russia" ;
     foaf:fullname "Мохова Ксения Сергеевна"@ru ;
     foaf:name "K. S. Mokhova" .
+
+odp:Moosburger_J
+    a foaf:Person ;
+    foaf:affil "ams-OSRAM International GmbH, Regensburg, Germany" ;
+    foaf:name "Jürgen Moosburger" .
 
 odp:Morandi_W
     a foaf:Person ;
@@ -4525,7 +4535,7 @@ odp:Werninghaus_E
 
 odp:Wessner_J
     a foaf:Person ;
-    foaf:affil "Bosch, Gerlingen, Germany" ;
+    foaf:affil "Bosch, Stuttgart, Germany" ;
     foaf:name "Jochen Wessner" .
 
 odp:WiecekJanka_E
