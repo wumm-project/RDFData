@@ -1066,6 +1066,11 @@ odp:Fomenko_AY
     foaf:fullname "Фоменко Алексей Юрьевич"@ru ;
     foaf:name "Alexey Y. Fomenko" .
 
+odp:Foris_O
+    a foaf:Person ;
+    foaf:affil "Moscow, Russia" ;
+    foaf:name "Olga Foris" .
+
 odp:Fowlkes_WY
     a foaf:Person ;
     foaf:name "William Y. Fowlkes" .
