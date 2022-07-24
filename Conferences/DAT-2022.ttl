@@ -1,0 +1,76 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix odp: <http://opendiscovery.org/rdf/Person/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix : <http://opendiscovery.org/rdf/Conferences/DAT-2022/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:General
+    a swc:ConferenceEvent ;
+    rdfs:comment "Presentations of the German TRIZ Online Conference 2022" ;
+    rdfs:label "2. German TRIZ Online Conference 2022"@en ;
+    ical:summary "Bei der TRIZ Konferenz online liegt der Fokus auf neuen Anwendungen, Forschungen und Erweiterungen der Methodik zu TRIZ. Dieser wird vor allem von Firmen, Forschungseinrichtungen, Hochschulen, Universitäten sowie von Aspiranten für TRIZ L4 und L5 bestritten, die TRIZ weiterentwickeln oder mit anderen Methoden kombinieren sowie in anderen Bereichen wie Qualitätssicherung, Geschäftsmodelle, Nachhaltigkeitsfragen, etc. kombinieren. Die Beiträge der TRIZ Konferenz werden dieses Jahr wieder im Springer Vieweg veröffentlicht. "@de, "At the TRIZ Conference online, the focus is on new applications, research and extensions of the TRIZ methodology. This is mainly presented by companies, research institutions, colleges, universities as well as aspirants for TRIZ L4 and L5, who further develop TRIZ or combine it with other methods as well as in other areas such as quality assurance, business models, sustainability issues, etc. The papers of the TRIZ Conference will be published again by Springer Vieweg."@en ; 
+    ical:dtend "2022-07-22"^^xsd:date ;
+    ical:dtstart "2022-07-22"^^xsd:date ;
+    ical:location "Online, supported by Bayern Innovativ, Nuremburg, Germany" ;
+    ical:url  <https://www.bayern-innovativ.de/de/veranstaltung/triz-online-konferenz> ;
+    ical:description """Aus der positiven Erfahrung von 2020 haben wir das Konzept erweitert. Wir wollen bei dieser Veranstaltung TRIZ relevanten Beiträgen aus dem akademischen Bereich und auch aus der industriellen Branche eine Plattform bieten, die auch veröffentlicht werden (Springer Verlag).
+Welchen neuen TRIZ Anwendungen gibt es?
+
+Bei der TRIZ Konferenz online liegt der Fokus auf neuen Anwendungen, Forschungen und Erweiterungen der Methodik zu TRIZ. Dieser wird vor allem von Firmen, Forschungseinrichtungen, Hochschulen, Universitäten sowie von Aspiranten für TRIZ L4 und L5 bestritten, die TRIZ weiterentwickeln oder mit anderen Methoden kombinieren sowie in anderen Bereichen wie Qualitätssicherung, Geschäftsmodelle, Nachhaltigkeitsfragen, etc. kombinieren.
+
+Hier werden neue Möglichkeiten der TRIZ-Anwendung in Vorträgen vorgestellt und diskutiert.
+
+Die Beiträge der TRIZ Konferenz werden dieses Jahr wieder im Springer Vieweg veröffentlicht. Zur Gewährleistung einer hohen Qualität erfolgte ein Call for Papers, bei dem die eingereichten Beiträge im Double-Blind-Verfahren evaluiert und freigegeben wurden. """@de  .
+
+:Talk_100
+    dcterms:creator odp:Wessner_J ;
+    dcterms:title "The Combined Use of Publicly Available Dictionaries and Search Engines to Find Solution Ideas"@en ; 
+    a od:Talk .
+
+:Talk_101
+    dcterms:creator odp:Schaumann_U ;
+    dcterms:title "The Application of TRIZ as a simplified approach to developing sustainable technical systems"@en ; 
+    a od:Talk .
+
+:Talk_102
+    dcterms:creator odp:Mayer_O ;
+    dcterms:title "TRIZ and Sustainability"@en ; 
+    a od:Talk .
+
+:Talk_103
+    dcterms:creator odp:Gerundt_O, odp:Wagner_L ;
+    dcterms:title "How to Revolutionize Business Model Innovation by Using Creative Thinking with TRIZ"@en ; 
+    a od:Talk .
+
+:Talk_104
+    dcterms:creator odp:Wessner_J ;
+    dcterms:title "TRIZ and City Traffic Planning"@en ; 
+    a od:Talk .
+
+:Talk_105
+    dcterms:creator odp:Graebe_HG ;
+    dcterms:title "Components as Resources and Cooperative Action"@en ;
+    od:urlSlides <https://hg-graebe.de/EigeneTexte/DAT-22-Slides.pdf> ;
+    od:urlPaper <https://hg-graebe.de/EigeneTexte/DAT-22-en.pdf> ;
+    a od:Talk .
+
+:Talk_106
+    dcterms:creator odp:Naehler_HT ;
+    dcterms:title "Modelling of Software and IT systems in TRIZ"@en ; 
+    a od:Talk .
+
+:Talk_107
+    dcterms:creator odp:Moosburger_J ;
+    dcterms:title "Application of TRIZ for Cost Down Approach"@en ; 
+    a od:Talk .
+
+:Talk_108
+    dcterms:creator odp:Hess_J ;
+    dcterms:title "Implementation Strategies for TRIZ in an Industrial Environment"@en ; 
+    a od:Talk .

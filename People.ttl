@@ -57,6 +57,7 @@ odp:AguayoTellez_H
 
 odp:Agulyansky_A
     a foaf:Person ;
+    foaf:affil "Intel, USA" ;
     foaf:name "Anatoly Agulyansky" .
 
 odp:Agulyansky_AA
@@ -969,7 +970,7 @@ odp:Fan_J
 
 odp:Farber_BS
     a foaf:Person ;
-    foaf:affil "TRIZBiopharma International, New York, USA" ;
+    foaf:affil "CEO of TRIZ Biopharma International, New York, USA" ;
     foaf:fullname "Фарбер Борис Славинович"@ru ;
     foaf:name "Boris S. Farber" .
 
@@ -3280,7 +3281,7 @@ odp:Platek_R
 
 odp:Platt_R
     a foaf:Person ;
-    foaf:affil "ABB, Poland" ;
+    foaf:affil "Strategy + Innovation Group, USA" ;
     foaf:name "Richard Platt" .
 
 odp:Pobol_A

@@ -1,0 +1,207 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix odp: <http://opendiscovery.org/rdf/Person/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix : <http://opendiscovery.org/rdf/Conferences/TRIZCon-2020/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:General 
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZCon> ;
+    rdfs:label "TRIZCon 2021" ;
+    ical:summary "TRIZCon 2021" ;
+    ical:dtend "2021-10-06"^^xsd:date ;
+    ical:dtstart "2021-10-05"^^xsd:date ;
+    ical:location "Online" ;
+    ical:url <https://www.aitriz.org/trizcon2021> .
+
+:Talk_101 a od:Talk;
+dcterms:title "Tutorial: Identifying the correct problem to solve"@en;
+dcterms:creator odp:Fey_VR ;
+dcterms:abstract """Any challenge that requires an innovative solution is usually associated with a cluster of entwined problems, some obvious and others hidden. Solving a wrong problem drains the company of time, money, saps people’s energy, and often results in missed market opportunities. This tutorial will acquaint you with major tools of modern TRIZ used for the thorough identification and formulation of the most promising problems worth solving. """@en .
+
+:Talk_102 a od:Talk;
+dcterms:title "Keynote: TRIZ in medicine"@en;
+dcterms:creator odp:Farber_BS ;
+dcterms:abstract """Medicine is the most important area related to human and animal health but TRIZ is rarely used in such an important area. We have accumulated extensive experience in various fields of medicine and related areas, which I combined in three groups:
+- Biomechanics, Prosthetics Orthotics, AI
+- Repurposing generic drugs and applying unique applications in medical field.
+- Novel generation of drugs and methods of therapy
+
+To implement TRIZ in medical field including drug development necessitates broad knowledge in several areas rooted in the molecular modeling method. This method includes the application of the laws of quantum physics and quantum chemistry. Additionally, it requires knowledge of the behavior of molecules in various situations and their interaction with each other at different temperatures, as well as in the presence of salts and other compounds.
+
+Truly effective drugs can be developed only on the basis of a systematic approach and in-depth knowledge of the fields of medicine; pharmaceutical chemistry, medical chemistry, physical chemistry, analytical chemistry, pharmacognosy, chemistry of natural compounds; plant medicine technology; biochemistry, molecular biology; pharmacology; and many other disciplines. Our experience applying TRIZ in Medicine, show it high efficacy.  """@en .
+
+:Talk_103 a od:Talk;
+dcterms:title "Polymyxin “last line” Therapeutic and Nephrotoxicity. TRIZ – Novel Polymyxin nephroprotection"@en;
+dcterms:creator odp:Farber_BS, odp:Kleyn_I, odp:Martynov_A ;
+dcterms:abstract """Polymyxin has long been known as an extremely effective antibiotic, it was discovered back in 1947. Early on, however, it was discovered that while highly effective it was extremely toxic to the kidneys. In recent years use of Polymyxin has shrunk significantly.
+
+The current crisis surrounding multi-drug resistance (MDR) bacteria has changed this situation. The CDC and WHO have sharp warnings of the risks of MDR as health pandemic. As such the CDC has recommended Polymyxin as a last resort therapy. Unfortunately, as noted Polymyxin while being effective still has extreme nephrotoxicity, severely limiting its use even as a last resort therapy. This creates a classic TRIZ contradiction: the need to utilize Polymyxin on the one hand, however, using it causes severe kidney damage and is ultimately life threatening.
+
+Using the TRIZ principles of “pay harm in favor”, imposition, and local quality, our scientists were able to solve this contradiction. We synthesized a new drug, that when added to Polymyxin, greatly reduces or eliminates nephrotoxicity. Our novel compound is a synergistic combination of FDA approved medications that are designed to bind to Megalin, thereby eliminating Polymyxin’s ability to do so.
+
+Our novel product, NGL022, was tested in vivo and shown to be highly effective. NGL022 can re-potentiate Polymyxin creating a top line treatment against MDR.  """@en .
+
+:Talk_104 a od:Talk;
+dcterms:title "TRIZ - life-saving hemostatic device"@en;
+dcterms:creator odp:Farber_BS, odp:Kleyn_I, odp:Martynov_A  ;
+dcterms:abstract """Active bleeding is the leading cause of death on the battlefield, surgical wards, and other severe trauma situations. Acute bleeding accounts for up to 60% of total deaths during combat. The complex wounds and injured body tissues make it difficult to remove all the fragments of the known approved hemostatic agents after their application.  Current hemostatic devices form a powdery substance of non-absorbable granules, which irritate and delay wound healing. Additionally, the exothermic effect of the granules can cause second-degree burns, and at times non-absorbable granules may lead to necrosis of the surrounding tissues.
+
+We were faced with two TRIZ contradictions.
+
+1) On one hand, a new substance must quickly stop the bleeding, and the tamponade must be tight and firm; on the other hand, the rapid and firm pressure on the bleeding site may cause ischemia and necrosis of compressed healthy tissues.
+
+2) On one hand, to stop severe bleeding from multiple injuries, a large amount of hemostatic substances would be required to equal the volume of the wound; on the other hand, it is difficult to carry a large amount of substance on the battlefield.
+
+Using our scientific knowledge and TRIZ principles, we posited that an effective hemostatic agent should possess the following principles:
+
+1. The new hemostatic substance should not be immunologically rejected by the body and can better resorption and metabolites safely eliminated from the human body.
+
+2. We need to look beyond Biopolymers as they will degrade
+
+3. We should utilize the following well-known mechanisms:
+
+a) Cleavage of crosslinks in water when using an insoluble form of biopolymers and transformation in water when using the soluble form without crosslinks;      
+
+b) Transformation of side chains (for example: by oxidation in the carboxylic group, they are more soluble in water than the initial group);
+
+c) Cleavage of the backbone between polymer repeat units (each unit is more soluble in water than polymer).       
+
+Using TRIZ principles, we created a new hemostatic agent called Gemma. Gemma has the following unique properties:
+
+    Biocompatibility with body tissues, thereby not causing necrosis and allergic reactions.
+    Not cause burns during crystallization in the wound.
+    Biodegradable in the body.
+    Absorbs 70 times the amount of blood compared to existing hemostatic products.
+
+We then set out to validate our new hemostatic Gemma. The most critical indicators of efficacy for hemostatic drugs are their biological inertness and complete control of biodegradation. Accordingly, as a result of in vitro studies, we established the resorption rate of two experimental products, "K1" and "K2," tested against Celox and Quickclot. The rats treated with K1 or K2 healed twice as fast as those that received Celox or Quickclot.
+
+Our new generation of hemostatic substances with a binary effect can be used on the battlefield, in hospitals, and by surgeons in life-threatening uncontrolled bleeding situations."""@en .
+
+:Talk_105 a od:Talk;
+dcterms:title "Augmented creativity: patterns, programs, patents"@en;
+dcterms:creator odp:Dewulf_S ;
+dcterms:abstract """In 2021, patent records have risen well over one hundred million entries. This massive database makes patent data one of the most extensive technical knowledge resources at hand, with over 80% of its content not present anywhere else. The difference with Big Data is that patent data is structured, with allocated spaces for problem description and proposed solution, a network of citations, and organized in a classification system. The data is free and easily accessible; however, only a few companies and researchers use this data for innovation purposes.
+
+Patent data contains creativity patterns, as shown within TRIZ and innovation research over the years. These patterns are a tremendous opportunity for application in search algorithms and analysis techniques in patent data. The data mining capabilities of today have become increasingly powerful.
+
+Augmented Creativity is applying these patterns through advanced text mining programs in the global patent data set. The approach brings us closer to questions like:
+
+- Can any technical problem be connected to new solutions across domains?
+- Can idea generation be largely automated into a type of artificial creativity?
+- Can product functions be connected to properties or attributes across different domains?
+- Can patent data automatically identify markets for products or technologies?
+
+The contemporary tools for patent analysis with the structured knowledge of creativity and innovation professionals bring the massive potential for boosting innovation research worldwide. """@en .
+
+:Talk_106 a od:Talk;
+dcterms:title "TRIZ and innovations"@en;
+dcterms:creator odp:Agulyansky_A, odp:Agulyansky_AA ;
+dcterms:abstract """The expenses on R&D is the most popular indicator of company innovation level. And many organizations are following that. They dump money on R&D with the hope of innovating more. But the question is, is there a correlation between innovation rank and R&D expenses? There is a lot of related information you can find on the internet. We, however, made our own analysis that confirmed that high R&D spending does not mean high innovation level of a company. In short, you can’t buy yourself an innovation. High innovation rank at low R&D cost should be the preferable target for a company. The application of creative thinking approaches and problem-solving tools are necessary to achieve this target. The improvement of innovation rank can be made by investment, but the investment must be in people. Invest money in engineers, spend money on education, make them professional problem solvers and innovators, provide them with problem-solving instruments and software. Just like we give excel, JMP, or similar, to excel the work on statistical analysis. Allow your engineers to use innovation platforms and tools that help them think, solve problems, and innovate.
+
+This presentation covers the correlation between spending and innovation level and the role of creative thinking tools in the innovation processes.  """@en .
+
+:Talk_107 a od:Talk;
+dcterms:title "Solving long-standing \"non-solvable\" problems using TOP-TRIZ"@en;
+dcterms:creator odp:Royzen_ZY ;
+dcterms:abstract """A number of challenging problems were not solved within a reasonable period.  Some of them dogged engineers for months, years, or even decades. 
+
+The article discusses the types of long-standing and “non-solvable” problems, typical reasons making them so challenging, and TOP-TRIZ approaches to solve them within a matter of hours or days. """@en .
+
+:Talk_108 a od:Talk;
+dcterms:title "Tutorial: The most critical directions of TRIZ technology application"@en;
+dcterms:creator odp:Bukhman_IB ;
+dcterms:abstract """TRIZ is a science and philosophy for new system creation and existing systems development and related problem-solving.
+
+Applied TRIZ => Technology for Innovation is the process of using all parts of TRIZ in combination with other proven design development methods and best practices of effective project teams for new system creation and existing systems development and related problem-solving.
+
+I will be more than happy to share some ideas and proposals about the most important directions of the TRIZ Technology application.
+
+We already have Applied TRIZ => Technology for Innovation, which is extremely useful for engineering-technical-technological-management system development and related problem-solving. Today, a good educated-experienced and equipped with proper software, TRIZ specialists can create the best available concepts-solutions for any most critical problem from any industry with a team of subject matter experts. We have everything to support this job (TRIZ specialists' education-preparation, projects facilitation, TRIZ instructors-teachers preparation, etc.).
+    
+<strong>Industry, business, and services</strong> - Industrial Manufacturing, Automotive, Oil & Chemicals, Consumer Goods, Aerospace, Military & Defense, Biotechnology, etc.
+
+<strong>School Education.</strong> We have technology and materials which could be adapted for any country and culture. More precisely, we have technology and materials for TRIZ (including creative-imagination-development-creative-person-development) education as a subject. But we only started to incorporate TRIZ elements into regular school subjects.
+
+<strong>Universities.</strong> A new Program (new specialty), "Technology for Innovation," and a new required course, "Technology for Innovation", for all master's degree programs with certification. We have all the necessary materials for the "Technology for Innovation" course and the creation of the program "Technology for Innovation."
+    
+<strong>Science</strong> – Scientific Research, Scientific Research Projects, Scientific-Engineering Projects. Technology for Innovation is adaptable for scientific research project development and related problem-solving. Scientific Research, Scientific Research Projects creates new knowledge, which is the main engine for our Technological Civilization development. This is a real "Klondike" for us.
+
+<strong>TRIZ and Religions</strong>. I want to highlight at least two areas of cooperation between TRIZ and religions:
+
+I started thinking about cooperation between TRIZ and religions about ten years ago. In 2016 I first time wrote about this in a TRIZ message to my partners in Poland. Poland is a Catholic country. This message can be adapted to any country and religion. "Our human world is still not a place where everyone can discover, develop, and realize their abilities and talents, given to them from birth. Few of us are fortunate enough to do this and live creative, successful, and happy lives. Everyone has this privilege, and we must learn to use this opportunity. It is inevitably the next stage in developing human potential, which continues human society's development." It can be a collaboration based on creative personal development and helping people live creative, rewarding, and happy lives.
+
+If we consider the creation of the Universe as a scientific-engineering project, then no one except the level of God could create such a super-complex project. For me, religion is about how to create, exist, and develop. TRIZ technology develops the intellectual level of the human personality and humanity in the direction of God's level. It is an eternal process that continues forever since it is impossible to reach God's level. But the vector is directed towards the level of God. It is the main thing.
+
+<strong>TRIZ and Philosophy</strong>. Today we use the following definition of TRIZ: TRIZ is a science and philosophy for new system creation and existing systems development and related problem-solving.
+
+I had an exceptional conversation with Justus (TRIZ specialist and professional philosopher from Berlin in 2020). It was like a highly creative online lecture for me, and now I understand that Philosophy is a technology for logical-creative thinking. Of course, it is not a complete definition of Philosophy but a significant part of Philosophy. TRIZ is already based on a logical-creative thinking style and has proper tools and rules. It makes sense to initiate unique research and decide the need for logic as a particular part of TRIZ. In the late 1940s, his early 1950s, logic was an official high school subject in the Soviet Union. """@en .
+
+:Talk_109 a od:Talk;
+dcterms:title "Keynote: TRIZ in education"@en;
+dcterms:creator odp:Farber_BS ;
+dcterms:abstract """From the perspective of TRIZ, hundreds of thousands of mathematics, physics, and chemistry problems were analyzed, developed a system of operations and algorithms, established standards for their solution, and included aspects of the latest achievements of didactics, psychology, and psychophysiology, object-oriented programming.
+
+When teaching generalized actions and operations, we teach visual-figurative graphic material, reference signals, diagrams and develop on-screen and imaginative thinking. In the Method of Images, we teach students about enlarged, generalized operations. Then the operations are combined into "methods," flowcharts, which are a union, a combination of several operations, and are designated by a figurative label. There are main 57 categories of the Method of Images. The development of the Image Method and its successful implementation for many years became the Winner of the International Competition for Projects in "Distance Education in Modern Situations." It is shown that the technology of distance learning, precisely based on the Method of Images, is much more effective than the correspondence form of education and is comparable and superior in quality parameters to offline classes. In this presentation, emphasis will be made on the history of the creation of the Image Method without disclosing Know-How, with a large number of examples. """@en .
+
+:Talk_110 a od:Talk;
+dcterms:title "\"Antibiotic Apocalypse\". TRIZ – \"Other way around\" to reverse bacterial resistance"@en;
+dcterms:creator odp:Farber_BS, odp:Kleyn_I, odp:Martynov_A  ;
+dcterms:abstract """The discovery of antibiotics was heralded as an unprecedented breakthrough in the fields of medicine and science. That excitement, however, was soon tempered as an unfortunate pattern became clear—namely, the phenomenon of antibiotic resistance. The general mechanism for the resistance became well understood and was quite similar for most bacteria, yet hard to overcome. Scientists found that while placing an antibiotic into a culture of microorganisms, most of the bacteria will die, smaller amounts will survive and multiply. Specifically, the bacteria began to synthesize proteins, such as beta-lactamase, which destroy antibiotics.
+
+This discovery led to a proliferation of new antibiotics being produced. The problem was that the bacteria became resistant as fast as researchers and pharmaceutical companies could produce them. TRIZ researchers started to examine this epidemic. The crux of the problem can be summed up as a classic TRIZ contradiction: On one hand, to stop the production of virulence factors, we should stop killing the microorganisms, however on the other hand, if they are not killed, then the bacteria will persist in harming the patients. This contradiction was resolved by us using the principles of TRIZ and studying bacterial growth.
+
+The primary TRIZ principle used in this case is called “inversion” and belongs to the group of methods for resolving contradictions due to structural changes within the system. The idea is to find a contrasting alternative. This TRIZ principle is based on “doing the opposite.” This allows for the resolution of contradictions related to the fact that a direct action dictated by the conditions of the problem is unacceptable, but the result is necessary to solve this problem.  TRIZ principle: instead of the action dictated by the conditions of the task, we should carry out the reverse action.
+
+Using TRIZ and mathematical modeling, 38,000 FDA generic drugs were analyzed, and 550 substances were selected for further testing. Of those 550 substances, three substances were selected from isoquinoline, imidazole, and pyrimidine derivatives classes in combination (synergy) to create our novel composition. We then set out to test our compound in the lab using in vitro experiments.
+
+ We successfully performed In vitro experiments on strains of P. aeruginosa, A. Baumannii, and K. Pneumonii. In each case, one petri dish was treated with an antibiotic alone (Polymyxin or Amicacin), while the other was treated with the antibiotic combined with our novel compound of bacterial growth activators. The results were astounding; by the third passage on nutrient media with bacterial growth activators, in contrary to the background of rapid growth, all bacteria lost their resistance to antibiotics and ceased releasing toxins into the nutrient medium.
+
+Our mechanism of action is one in which the bacterium synchronization would be altered, transferring them to the phase of rapid growth, which would cause the ceased release of virulence factors. Our project represents a step in a new direction in the fight against multidrug-resistant bacteria. """@en .
+
+:Talk_111 a od:Talk;
+dcterms:title "Too far ahead of a too slow parade: TRIZ contradiction"@en;
+dcterms:creator odp:Mann_D ;
+dcterms:abstract """The last fifty years have seen dizzying amounts of change. Paradoxically, the same period has also seen an enormous reduction in the amount and level of breakthrough innovation. Where are the jetpacks, the cure for cancer (or even the common cold)? Why, in most cities around the world, do urban journeys now take longer to complete than they did 200 years ago? Why has a virus been able to wreak havoc on global supply chains?
+
+The paper explores some of the main reasons underpinning the paradox and concludes that the root contradiction lies at the feet of the digital revolution. Rather than facilitating an innovation tsunami, our increasingly virtual world has instead served to exponentially increase bureaucracy, fear of failure, and lock-in of the status quo in almost every industry that has to innovate in the physical world.
+
+In terms of Innovation Capability, most of the world's enterprise are still struggling with their first baby steps. Their desire for 'continuous improvement' has increasingly made them incapable of making step-changes of any kind. This is a problem for the world of TRIZ. It is a problem because the over-arching philosophy of TRIZ demands a higher level of Innovation Capability than that which now exists in the vast majority of organizations. TRIZ, in other words, is so far ahead of the innovation parade that no one in the parade can see it anymore.
+
+Through a series of real client case studies, the paper explores how TRIZ needs to be re-positioned and deployed in order to, first, get back in the parade, and then second, help speed the parade sufficiently to allow society to solve the myriad problems that currently look as though they could easily overwhelm not just our institutions and quality of life, but our very survival as a species.  """@en .
+
+:Talk_112 a od:Talk;
+dcterms:title "Strategies for developing winning products"@en;
+dcterms:creator odp:Fey_VR ;
+dcterms:abstract """Businesses succeed if they deliver greater value to customers or offer comparable value at a lower cost, or both. Meeting these goals requires a two-pronged approach: 1) targeting most promising unmet customer needs, and 2) delivering cost-effective solutions to meet these needs.
+
+Businesses spend fortunes on market research, yet, according to numerous studies, most products launched every year fail. The failed products either miss or under-serve real customer needs. Companies use various Voice-of-the-Customer methods to reveal what matters most for their customers. This approach – asking customers what they want – doesn’t necessarily uncover latent (and most promising) needs that customers can’t really articulate. Once people realize their latent needs, they can’t live without fulfilling them. Innovations that meet latent needs are bound to win the market.
+
+Besides meeting a certain need, the innovation should be cost-effective. It’s widely accepted that increased benefits dictate increased cost. As a result, many products offer less than the best performance.
+
+This presentation discusses TRIZ-based strategies that businesses can use to identify innovation opportunities with high benefit-to-cost ratios. In other words, these strategies enable the introduction of products that both fulfil the unmet needs and deliver solutions that customers are willing to pay for. """@en .
+
+:Talk_113 a od:Talk;
+dcterms:title "A post-Covid world - a sea change strategic inflection point"@en;
+dcterms:creator odp:Platt_R ;
+dcterms:abstract """In the past 40 years, we’ve seen a logarithmic number of changes in our society. That amount of change has had profound effects upon us as individuals and companies alike, and those changes have not always been to our benefit.  The current pandemic is a black swan event, which has precipitated significant changes.
+
+Covid has forced a revisiting of “what,” “how,” and “where” we do our work. This event has modified our practices, including the protocols for companies that we work in or with. The most immediate and top-of-mind issue for many in industry, has been the significant weaknesses in our supply chain. This engineering system pushes or pulls goods across our planet in the pursuit of global trade and commerce.
+
+The weaknesses in the supply chain, such as shortages and bottlenecks, are examples of underlying changes that have been afoot for some time now. The old engineering system has proved that it cannot handle interference with its functioning (the flow of goods) and illustrates its lack of robustness and our vulnerability as a result. Moreover, we are moving through a significant Strategic Inflection Point that directly impacts the semiconductor, high-tech, and electronics industries. Meaning there’s a 10X change that has happened. The theory of business and technology that those industries have operated their businesses by has changed. Because those industries also provide fundamental components to the economic engines of at least 165 other industries, and when those industries catch a cold, everyone else gets pneumonia. So, as practitioners in the science of innovation (TRIZ and Systematic Innovation), we would be well advised to look at this new map and understand these changes strategically and tactically address these issues. To get ourselves and the companies we work for and back to profitability and competitive advantage eroded in the face of these changes.  """@en ;
+  od:urlSlides <https://www.slideshare.net/rplatt/responding-to-the-impact-of-covid19-pandemic-economic-crisis-and-beyond-the-innovation-pivot> . 
+
+:Talk_114 a od:Talk;
+dcterms:title "Generative startups"@en;
+dcterms:creator odp:Tsourikov_VM ;
+dcterms:abstract """Automatic synthesis of novel technical concepts may become a foundation for generative startups. The main idea is that many successful startups have one thing in common - novel technologies that open entirely new markets or determine revolutionary changes in existing markets.
+
+The AI engine of True Machina system can be modified to generate novel technical concepts specifically tuned for startups. Mega-trends analysis together with needs prediction forms a new knowledge base of the generative algorithm.
+
+Generative startups include three phases: synthesis of new technical concepts, analysis of whether the new concept fits mega-trends, coordination with predicted needs database. """@en .
