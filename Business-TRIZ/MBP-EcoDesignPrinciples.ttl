@@ -101,6 +101,7 @@ detergent consumption (P29).  """@en .
 edp:P01
     od:hasMBPID "P01" ;
     a od:EDP ;
+    od:when edc:PreManufacturing ;
     skos:definition "Design for appropriate lifespan"@en .
 
 edp:P02
@@ -186,6 +187,7 @@ edp:P14
 edp:P15
     od:hasMBPID "P15" ;
     a od:EDP ;
+    od:when edc:Distribution ;
     skos:definition "Minimize energy consumption (during transportation and storage)"@en .
 
 edp:P16
@@ -197,26 +199,31 @@ edp:P16
 edp:P17
     od:hasMBPID "P17" ;
     a od:EDP ;
+    od:when edc:ProductUse ;
     skos:definition "Select non-toxic and harmless materials"@en .
 
 edp:P18
     od:hasMBPID "P18" ;
     a od:EDP ;
+    od:when edc:ProductUse ;
     skos:definition "Select non-toxic and harmless energy resources"@en .
 
 edp:P19
     od:hasMBPID "P19" ;
     a od:EDP ;
+    od:when edc:ProductUse ;
     skos:definition "Select renewable and bio-compatible materials"@en .
 
 edp:P20
     od:hasMBPID "P20" ;
     a od:EDP ;
+    od:when edc:ProductUse ;
     skos:definition "Select renewable and bio-compatible energy resources"@en .
 
 edp:P21
     od:hasMBPID "P21" ;
     a od:EDP ;
+    od:when edc:EndOfLife ;
     skos:definition "Adopt the cascade approach"@en .
 
 edp:P22
@@ -228,6 +235,7 @@ edp:P22
 edp:P23
     od:hasMBPID "P23" ;
     a od:EDP ;
+    od:when edc:EndOfLife ;
     skos:definition "Identify materials"@en .
 
 edp:P24
@@ -240,26 +248,31 @@ edp:P24
 edp:P25
     od:hasMBPID "P25" ;
     a od:EDP ;
+    od:when edc:ProductUse ;
     skos:definition "Facilitate cleaning"@en .
 
 edp:P26
     od:hasMBPID "P26" ;
     a od:EDP ;
+    od:when edc:EndOfLife ;
     skos:definition "Facilitate composting"@en .
 
 edp:P27
     od:hasMBPID "P27" ;
     a od:EDP ;
+    od:when edc:EndOfLife ;
     skos:definition "Reduce and facilitate operations of disassembly and separation"@en .
 
 edp:P28
     od:hasMBPID "P28" ;
     a od:EDP ;
+    od:when edc:EndOfLife ;
     skos:definition "Engage reversible joining systems"@en .
 
 edp:P29
     od:hasMBPID "P29" ;
     a od:EDP ;
+    od:when edc:ProductUse ;
     skos:definition "Develop services providing added value to the product’s life cycle"@en .
 
 edp:P30
@@ -271,33 +284,39 @@ edp:P30
 edp:P31
     od:hasMBPID "P31" ;
     a od:EDP ;
+    od:when edc:ProductUse ;
     skos:definition "Develop services providing ‘enabling platforms for customers’"@en .
 
 edp:P32
     od:hasMBPID "P32" ;
     a od:EDP ;
+    od:when edc:Manufacturing ;
     skos:definition "Change raw material (low impact or recyclable/recycled)"@en .
 
 edp:P33
     od:hasMBPID "P33" ;
     a od:EDP ;
+    od:when edc:Manufacturing ;
     skos:definition "Modify raw material (reduce mass and volume)"@en .
 
 edp:P34
     od:hasMBPID "P34" ;
     a od:EDP ;
+    od:when edc:Manufacturing ;
     skos:definition "Use pre-manufactured material"@en .
 
 edp:P35
     od:hasMBPID "P35" ;
     a od:EDP ;
     od:what edc:Packaging ;
+    od:when edc:Distribution ;
     skos:definition "Change material (low impact) for the packaging"@en .
 
 edp:P36
     od:hasMBPID "P36" ;
     a od:EDP ;
     od:what edc:Packaging ;
+    od:when edc:Distribution ;
     skos:definition "Reduce the mass of the packaging (eliminate, reduce, integrate, modify raw material to be protected)"@en .
 
 edp:P37
@@ -310,6 +329,7 @@ edp:P37
 edp:P38
     od:hasMBPID "P38" ;
     a od:EDP ;
+    od:when edc:Distribution ;
     skos:definition "Improve packaging durability (reuse in the same or different way, recycle)"@en .
 
 edp:P39
@@ -322,6 +342,7 @@ edp:P39
 edp:P40
     od:hasMBPID "P40" ;
     a od:EDP ;
+    od:when edc:Distribution ;
     skos:definition "Use efficient transports"@en .
 
 edp:P41
@@ -333,6 +354,7 @@ edp:P41
 edp:P42
     od:hasMBPID "P42" ;
     a od:EDP ;
+    od:when edc:Distribution ;
     skos:definition "Reduce the volume of the load (reduce the volume or the free space)"@en .
 
 edp:P43
@@ -350,6 +372,7 @@ edp:P44
 edp:P45
     od:hasMBPID "P45" ;
     a od:EDP ;
+    od:when edc:ProductUse ;
     skos:definition "Avoid auxiliary components (independent, eliminate components, dematerializing)"@en .
 
 edp:P46
@@ -361,48 +384,57 @@ edp:P46
 edp:P47
     od:hasMBPID "P47" ;
     a od:EDP ;
+    od:when edc:ProductUse ;
     skos:definition "Remove dangerous materials during the product use"@en .
 
 edp:P48
     od:hasMBPID "P48" ;
     a od:EDP ;
+    od:when edc:ProductUse ;
     skos:definition "Reduce environmental problems during the product use"@en .
 
 edp:P49
     od:hasMBPID "P49" ;
     a od:EDP ;
-    skos:definition "Act on durability (more operation, different way) of the packaging during the product use"@en .
+    od:what edc:Packaging ;
+    od:when edc:Distribution ;
+    skos:definition "Act on durability (more operation, different way) of the packaging"@en .
 
 edp:P50
     od:hasMBPID "P50" ;
     a od:EDP ;
     od:what edc:Packaging ;
     od:when edc:Distribution ;
-    skos:definition "Reduce the mass of the packaging during the product use (light material, multifunctional product)"@en .
+    skos:definition "Reduce the mass of the packaging (light material, multifunctional product)"@en .
 
 edp:P51
     od:hasMBPID "P51" ;
     a od:EDP ;
+    od:when edc:ProductUse ;
     skos:definition "Act on shape and volume"@en .
 
 edp:P52
     od:hasMBPID "P52" ;
     a od:EDP ;
+    od:when edc:ProductUse ;
     skos:definition "Reduce the consumption of energy required (efficient or alternative)"@en .
 
 edp:P53
     od:hasMBPID "P53" ;
     a od:EDP ;
+    od:when edc:ProductUse ;
     skos:definition "Recover dissipated energy during the product use"@en .
 
 edp:P54
     od:hasMBPID "P54" ;
     a od:EDP ;
+    od:when edc:ProductUse ;
     skos:definition "Reduce the need of maintenance during the product use"@en .
 
 edp:P55
     od:hasMBPID "P55" ;
     a od:EDP ;
+    od:when edc:ProductUse ;
     skos:definition "Make the maintenance proactive during the product use"@en .
 
 edp:P56
@@ -419,6 +451,7 @@ edp:P57
 edp:P58
     od:hasMBPID "P58" ;
     a od:EDP ;
+    od:when edc:ProductUse ;
     skos:definition "Design product with low emission of pollution substances during the product use"@en .
 
 edp:P59
@@ -436,21 +469,25 @@ edp:P60
 edp:P61
     od:hasMBPID "P61" ;
     a od:EDP ;
+    od:when edc:EndOfLife ;
     skos:definition "Recovery of material (reuse, remanufacture, recycle) at the end of the product’s life"@en .
 
 edp:P62
     od:hasMBPID "P62" ;
     a od:EDP ;
+    od:when edc:EndOfLife ;
     skos:definition "Use biodegradable packaging for the end of the product’s life"@en .
 
 edp:P63
     od:hasMBPID "P63" ;
     a od:EDP ;
+    od:when edc:EndOfLife ;
     skos:definition "Reduce the mass for the end of the product’s life"@en .
 
 edp:P64
     od:hasMBPID "P64" ;
     a od:EDP ;
+    od:when edc:EndOfLife ;
     skos:definition "Allow the separability of materials at the end of the product’s life"@en .
 
 edp:P65
@@ -462,5 +499,6 @@ edp:P65
 edp:P66
     od:hasMBPID "P66" ;
     a od:EDP ;
+    od:when edc:EndOfLife ;
     skos:definition "Reduce the weight and the volume of the transport at the end of the product’s life"@en .
 

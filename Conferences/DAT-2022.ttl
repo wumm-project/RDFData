@@ -57,7 +57,7 @@ Die Beiträge der TRIZ Konferenz werden dieses Jahr wieder im Springer Vieweg ve
     dcterms:creator odp:Graebe_HG ;
     dcterms:title "Components as Resources and Cooperative Action"@en ;
     od:urlSlides <https://hg-graebe.de/EigeneTexte/DAT-22-Slides.pdf> ;
-    od:urlPaper <https://hg-graebe.de/EigeneTexte/DAT-22-en.pdf> ;
+    od:urlPreprint <https://hg-graebe.de/EigeneTexte/DAT-22-en.pdf> ;
     a od:Talk .
 
 :Talk_106

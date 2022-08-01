@@ -1,12 +1,9 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix org: <http://www.w3.org/ns/org#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix cc: <http://creativecommons.org/ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix od: <http://opendiscovery.org/rdf/Model#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix edp: <http://opendiscovery.org/rdf/EcoDesignPrinciple/> .
 @prefix edc: <http://opendiscovery.org/rdf/EcoDesignConcept/> .
 @prefix edg: <http://opendiscovery.org/rdf/EcoDesignGenericStrategy/> .
@@ -16,7 +13,7 @@
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     a owl:Ontology ;
-    rdfs:comment "2022-06-06: Extracted and transformed from (Russo, Spreafico 2020)" ;
+    rdfs:comment "2022-06-06 graebe: Extracted and transformed from (Russo, Spreafico 2020)" ;
     rdfs:label "The Eco Design principles in (Russo, Spreafico 2020)" .
 
 edc:AuxiliaryMaterials
