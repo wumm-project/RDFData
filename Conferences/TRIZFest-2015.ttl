@@ -91,7 +91,7 @@ dcterms:creator odp:Tadepalli_S, odp:Biswas_A, odp:Mewani_V .
 
 :Paper_117 a od:Paper;
  dcterms:title "One Day at the Museum – Using a Museum as Resource for Teaching and Learning TRIZ";
-dcterms:creator odp:Thurnes_C, odp:Ikovenko_SA, odp:Naehter_S, odp:Muenzberg_C, odp:Tharmann_R, odp:Faller_I, odp:Lovich_A, odp:Jantschgi_J, odp:Adunka_R, odp:Neumuth_T . 
+dcterms:creator odp:Thurnes_CM, odp:Ikovenko_SA, odp:Naehter_S, odp:Muenzberg_C, odp:Tharmann_R, odp:Faller_I, odp:Lovich_A, odp:Jantschgi_J, odp:Adunka_R, odp:Neumuth_T . 
 
 :Paper_118 a od:Paper;
  dcterms:title "Perspectives for Development of Automatized Enterprise Management Systems";

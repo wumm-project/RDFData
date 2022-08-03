@@ -192,7 +192,7 @@ dcterms:creator odp:Li_Hu .
 
 :Paper_142 a od:Paper;
  dcterms:title "TRIZ integration for project managers – discovering further TRIZ benefits";
-dcterms:creator odp:Naether_S, odp:Thurnes_C . 
+dcterms:creator odp:Naether_S, odp:Thurnes_CM . 
 
 :Paper_143 a od:Paper;
  dcterms:title "TRIZ maturity evaluation in organizations";

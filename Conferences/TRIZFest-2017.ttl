@@ -103,7 +103,7 @@ dcterms:creator odp:Sirdar_K .
 
 :Paper_120 a od:Paper;
  dcterms:title "Hybridization of DFSS- and TRIZ-modeling methods within an innovation oriented DFSS-framework";
-dcterms:creator odp:Schmidt_A, odp:Thurnes_C, odp:Naether_S . 
+dcterms:creator odp:Schmidt_A, odp:Thurnes_CM, odp:Naether_S . 
 
 :Paper_121 a od:Paper;
  dcterms:title "Increased addressing of human senses as a trend";
@@ -174,7 +174,7 @@ dcterms:creator odp:Ying_Z, odp:Dongyan_S, odp:Houcheng_T .
 
 :Paper_137 a od:Paper;
  dcterms:title "Standard VDI 4521 part 3: inventive problem solving with TRIZ: problem solution";
-dcterms:creator odp:Hiltmann_K, odp:Thurnes_C, odp:Adunka_R, odp:Huber_N . 
+dcterms:creator odp:Hiltmann_K, odp:Thurnes_CM, odp:Adunka_R, odp:Huber_N . 
 
 :Paper_138 a od:Paper;
  dcterms:title "Suggestion of method of discovering innovative ideas through convergence of TRIZ and big data solution";
