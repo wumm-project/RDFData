@@ -1,0 +1,341 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix odp: <http://opendiscovery.org/rdf/Person/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix : <http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/> .
+@prefix track: <http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/track/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:General
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
+    a swc:ConferenceEvent ;
+    rdfs:label "TRIZ Future 2022" ;
+    ical:dtend "2022-09-29"^^xsd:date ;
+    ical:dtstart "2022-09-27"^^xsd:date ;
+    ical:location "Warsaw University of Technology (Warsaw, Poland)" ;
+    od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZ-Future-2022.rdf> ;
+    ical:summary "The conference aims at linking organizations and individuals from the industry, research, and education worlds to share their experience on systematic innovation and promote TRIZ-based tools worldwide. It will provide an international forum to exchange new ideas on knowledge-based innovation, present recent achievements in this area, and strengthen collaboration between academic and industrial players."@en .
+
+:Talk_100
+    swc:relatedToEvent track:Tutorial ;
+    dcterms:creator odp:Przymusiala_M, odp:Obojski_J ;
+    dcterms:title "Everything You Always Wanted to Know About TRIZ But Had Nobody to Ask"@en ;
+    a od:Talk .
+
+:Talk_101
+    swc:relatedToEvent track:Tutorial ;
+    dcterms:creator odp:Prushinskiy_VO ;
+    dcterms:title "Introduction Into Patents, Intellectual Property (IP) Enhancement And Patent Deconstruction"@en ;
+    a od:Talk .
+
+:Talk_102
+    swc:relatedToEvent track:Tutorial ;
+    dcterms:creator odp:Rudzinski_M ;
+    dcterms:title "Cognitive Filters and Psychological Inertia"@en ;
+    a od:Talk .
+
+:Talk_103
+    swc:relatedToEvent track:Tutorial ;
+    dcterms:creator odp:Anhalt_K ;
+    dcterms:title "PACTT – The Polish Association of Centers for Technology Transfer"@en ;
+    a od:Talk .
+
+:Talk_104
+    swc:relatedToEvent track:Tutorial ;
+    dcterms:creator odp:Fey_VR ;
+    dcterms:title "How to Map Your Best Innovation Opportunities"@en ;
+    a od:Talk .
+
+:Talk_105
+    swc:relatedToEvent track:Tutorial ;
+    dcterms:creator odp:Nowak_R ;
+    dcterms:title "Introduction to Artificial Intelligence"@en ;
+    a od:Talk .
+
+:Talk_106
+    swc:relatedToEvent track:Keynote ;
+    dcterms:creator odp:Proseanic_V, odp:Zlotin_BL ;
+    dcterms:title "TRIZ and Progressive Artificial Neural Networks (PANN)"@en ;
+    a od:Talk .
+
+:Talk_107
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Mysior_M ;
+    dcterms:title "Modular ideality for systematic segmentation"@en ;
+    a od:Talk .
+
+:Talk_108
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Spreafico_C, odp:Russo_D, odp:Landi_D ;
+    dcterms:title "How to implement EU eco-design Directive through a TRIZ-based approach"@en ;
+    a od:Talk .
+
+:Talk_109
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Edward_C, odp:Ramaiyer_NK, odp:Labadin_J ;
+    dcterms:title "Mathematical Modelling and Formalization of TRIZ: Trimming for Product Design"@en ;
+    a od:Talk .
+
+:Talk_110
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Gardoni_M, odp:Tremblay_S ;
+    dcterms:title "Improving the TRIZ creative engineering methodology to take into account the notion of the value of the idea"@en ;
+    a od:Talk .
+
+:Talk_111
+    swc:relatedToEvent track:Keynote ;
+    dcterms:creator odp:Zusman_AV, odp:Zlotin_BL ;
+    dcterms:title "New developments in the application of TRIZ to solving problems in complex systems, including business and social ones"@en ;
+    a od:Talk .
+
+:Talk_112
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Soosay_AER, odp:Mahmood_MH, odp:Kulathuramaiyer_N, odp:Yusoff_SBM ;
+    dcterms:title "Triz-based Remodelling of Body Enclosure for Corpse"@en ;
+    a od:Talk .
+
+:Talk_113
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Benmoussa_R ;
+    dcterms:title "Eco-design Pilot Improvement Based on TRIZ and ASIT Tools"@en ;
+    a od:Talk .
+
+:Talk_114
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Schollmeyer_J ;
+    dcterms:title "Idenitifying organisational tradeoffs by analysing employee reviews with NLP"@en ;
+    a od:Talk .
+
+:Talk_115
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Mintu_TG, odp:Kulathuramaiyer_N, odp:George_F, odp:Leong_JPC ;
+    dcterms:title "TRIZ-based Approach in Capturing and Managing Indigenous Innovation and Knowledge"@en ;
+    a od:Talk .
+
+:Talk_116
+    swc:relatedToEvent track:Keynote ;
+    dcterms:creator odp:Wawrzynski_P ;
+    dcterms:title "Deep Learning and machine creativity"@en ;
+    a od:Talk .
+
+:Talk_117
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Wozniak_M, odp:BoratynskaSala_A ;
+    dcterms:title "The potential of creative methods for IT project management"@en ;
+    a od:Talk .
+
+:Talk_118
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Phadnis_N ;
+    dcterms:title "Innovation Portfolio Management: How TRIZ can help?"@en ;
+    a od:Talk .
+
+:Talk_119
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Chrzaszcz_J, odp:Gronauer_B, odp:Mayer_O, odp:Naehler_HT, odp:Bertoncelli_T ;
+    dcterms:title "Modeling IT systems in TRIZ"@en ;
+    a od:Talk .
+
+:Talk_120
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Naehler_HT, odp:Gronauer_B, odp:Bertoncelli_T, odp:Beckmann_H, odp:Chrzaszcz_J, odp:Mayer_O ;
+    dcterms:title "Modeling Software in TRIZ"@en ;
+    a od:Talk .
+
+:Talk_121
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Hanifi_M, odp:Chibane_H, odp:Houssin_R, odp:Cavallucci_D ;
+    dcterms:title "Inventive principles extraction in inventive design using Artificial Intelligence methods"@en ;
+    a od:Talk .
+
+:Talk_122
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Russo_D, odp:Gervasoni_D ;
+    dcterms:title "AI based Patent analyzer for suggesting Solutive actions and graphical triggers"@en ;
+    a od:Talk .
+
+:Talk_123
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Iniotakis_C ;
+    dcterms:title "VA++ - the Next Generation of Value Analysis in TRIZ"@en ;
+    a od:Talk .
+
+:Talk_124
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Hentschel_C, odp:Hiltmann_K, odp:Huber_N, odp:Livotov_P, odp:Naehler_HT, odp:Thurnes_CM, odp:Wichowska_AM ;
+    dcterms:title "Development of an Ontology of Sustainable Eco-friendly Technologies and Products based on the Inventive Principles of the TRIZ Theory (OntoSustIP)"@en ;
+    a od:Talk .
+
+:Talk_125
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Obojski_J ;
+    dcterms:title "Market Impact Chain Analysis - MICA, new TRIZ tool"@en ;
+    a od:Talk .
+
+:Talk_126
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Kulathuramaiyer_N, odp:Mintu_TG ;
+    dcterms:title "TRIZ-based Approach in Co-creating Virtual Storymaps"@en ;
+    a od:Talk .
+
+:Talk_127
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Douard_N, odp:Samet_A, odp:Giakos_G, odp:Cavallucci_D ;
+    dcterms:title "Bridging Two Different Domains so as To Potentially Pair Their Inherent Problem-Solution. Text Contents: Applications to Quantum Sensing and Biology"@en ;
+    a od:Talk .
+
+:Talk_128
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Goh_CH, odp:Kulathuramaiyer_N ;
+    dcterms:title "Inventive Design Solutions for the Complex Social-Technical Problems in Preserving Indigenous Symbolic Visual Communications"@en ;
+    a od:Talk .
+
+:Talk_129
+    swc:relatedToEvent track:Keynote ;
+    dcterms:creator odp:Prushinskiy_VO ;
+    dcterms:title "TRIZ, Big Data and improving of UI of electronic devices"@en ;
+    a od:Talk .
+
+:Talk_130
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Guarino_G, odp:Cavallucci_D ;
+    dcterms:title "Automatic TRIZ domain mapping"@en ;
+    a od:Talk .
+
+:Talk_131
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Iuga_M, odp:Brad_S ;
+    dcterms:title "Adoption of Artificial Intelligence in Romania: Innovative Policies to Overpass Vulnerabilities with TRIZ and Deep-Thinking Tools"@en ;
+    a od:Talk .
+
+:Talk_132
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Julitz_TM, odp:Katzwinkel_T, odp:Loewer_M ;
+    dcterms:title "Using MBSE for conflict managing TRIZ on a systems engineering level"@en ;
+    a od:Talk .
+
+:Talk_133
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Mysior_M, odp:Koziolek_S ;
+    dcterms:title "Hypotheses analysis as a development of the System Operator method used in TRIZ"@en ;
+    a od:Talk .
+
+:Talk_134
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Tanoyo_T, odp:Harlim_J ;
+    dcterms:title "TRIZ Training Within a Continuous Improvement (Kai-zen) Event – Exploration and Evaluation"@en ;
+    a od:Talk .
+
+:Talk_135
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Przymusiala_M ;
+    dcterms:title "TRIZ trainings in pandemic times – teaching TRIZ using TRIZ"@en ;
+    a od:Talk .
+
+:Talk_136
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Nakagawa_T, odp:Mann_D, odp:Orloff_MA, odp:Dewulf_S, odp:Litvin_SS, odp:Souchkov_VV ;
+    dcterms:title "WTSP Report (5) Catalogs of TRIZ and Around-TRIZ Sites in the World: We Can Learn Full Scope of TRIZ-related Works in the World"@en ;
+    a od:Talk .
+
+:Talk_137
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Iqbal_AM, odp:Kulathuramaiyer_N, odp:Khan_AS, odp:Abdullah_J ;
+    dcterms:title "Analysing Human Capital to Strengthen National Innovation System Through University-Industry Research Collaboration: A TRIZ-Based Approach"@en ;
+    a od:Talk .
+
+:Talk_138
+    swc:relatedToEvent track:Keynote ;
+    dcterms:creator odp:Fey_VR ;
+    dcterms:title "How to Advance TRIZ into an Exact Science"@en ;
+    a od:Talk .
+
+:Talk_139
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Berdyugina_D, odp:Cavallucci_D ;
+    dcterms:title "Exploitation of causal relation for automatic extraction of contradiction from a domain-restricted patent corpus"@en ;
+    a od:Talk .
+
+:Talk_140
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Graebe_HG ;
+    dcterms:title "Systems, Resources, and Systemic Development in TRIZ"@en ;
+    a od:Talk .
+
+:Talk_141
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Kaliteevski_V, odp:Bryksin_M, odp:Chechurin_L ;
+    dcterms:title "Integration of TRIZ methodologies into the digital product development process"@en ;
+    a od:Talk .
+
+:Talk_142
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:MasUdah, odp:Livotov_P, odp:Santosa_S, odp:Sekaran_APC, odp:Takwanto_A, odp:Pachulska_AM ;
+    dcterms:title "Eco-Feasibility Study and Application of Natural Inventive Principles in Chemical Engineering Design"@en ;
+    a od:Talk .
+
+:Talk_143
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Kuduk_G, odp:Palka_P, odp:Bekas_M, odp:Wasowska_B ;
+    dcterms:title "Analysis of Tools Used for Implementation of a Knowledge Base Based on an Ontology for a Service Robot in a Kitchen Environment"@en ;
+    a od:Talk .
+
+:Talk_144
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Kleemann_KP, odp:Schumann_N, odp:Heuten_V, odp:Graebe_HG ;
+    dcterms:title "Focusing the first phase – an interdisciplinary approach to modeling an interactive system on the use case Indoor-Blind-Navigation"@en ;
+    a od:Talk .
+
+:Talk_145
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Laaroussi_EG, odp:Hassan_IE, odp:Dakkak_B ;
+    dcterms:title "Lean and TRIZ for improving the maintenance process"@en ;
+    a od:Talk .
+
+:Talk_146
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Brad_S, odp:Stetco_E ;
+    dcterms:title "An Interactive Artificial Intelligence System for Inventive Problem-Solving"@en ;
+    a od:Talk .
+
+:Talk_147
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Coulibaly_A, odp:Rudolf_F, odp:Ory_M, odp:Cavallucci_D, odp:Bastian_L, odp:Gobert_J ;
+    dcterms:title "Open Inventive Design Method (OIDM-Triz) approach for the modeling of complex systems and the resolution of multidisciplinary contradictions. Application to the exploration of innovative solutions to deal with the climate change impacts"@en ;
+    a od:Talk .
+
+:Talk_148
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Korotchenya_V ;
+    dcterms:title "Ideal Final Result for Agriculture: Striving after Sustainability"@en ;
+    a od:Talk .
+
+:Talk_149
+    swc:relatedToEvent track:SD ;
+    dcterms:creator odp:Wessner_J ;
+    dcterms:title "The Use of Publicly Available Image Search Engines to Find Solution Ideas"@en ;
+    a od:Talk .
+
+:Talk_150
+    swc:relatedToEvent track:Keynote ;
+    dcterms:creator odp:Mei_CA ;
+    dcterms:title "Integrating TRIZ with AI in the era of the Fourth Industrial Revolution"@en ;
+    a od:Talk .
+
+track:SD
+    a swc:TrackEvent ;
+    rdfs:label "Session"@en .
+
+track:Tutorial
+    a swc:TrackEvent ;
+    rdfs:label "Tutorial"@en .
+
+track:Keynote
+    a swc:TrackEvent ;
+    rdfs:label "Keynote"@en .
+
