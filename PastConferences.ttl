@@ -15,6 +15,15 @@
     rdfs:label "TSN: Past TRIZ Conferences" ;
     owl:imports <http://opendiscovery.org/rdf/ConferenceSeries/>, <http://opendiscovery.org/rdf/People/> .
 
+<http://opendiscovery.org/rdf/Conferences/TRIZFest-Pedagogy-2022/>
+    a swc:ConferenceEvent ;
+    rdfs:label "TRIZFest Pedagogy 2022" ;
+    ical:summary "TRIZFest Pedagogy 2022 Online" ;
+    ical:dtend "2022-08-23"^^xsd:date ;
+    ical:dtstart "2021-08-23"^^xsd:date ;
+    ical:location "Online" ;
+    od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZFest-Pedagogy-2022.rdf> .
+
 <http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/>
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;

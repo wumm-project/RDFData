@@ -12,6 +12,7 @@
 @prefix odv2: <http://opendiscovery.org/rdf/TBK2/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix odbib: <http://opendiscovery.org/rdf/BIB/> .
 
 <http://opendiscovery.org/rdf/TBK-References/>
     cc:attributionName "The Open Discovery Project" ;
@@ -36,7 +37,7 @@
     dcterms:issued "1956" ;
     dcterms:title "On Psychology of Inventive Creativity"@en ;
     a od:Reference ;
-    rdfs:comment "English translation in TRIZ Review 1 (2019) ", "Problems of Psychology, Vol. 6., pp. 37-49, 1956. See also Izobretenia, The Altshuller Institute for TRIZ Studies, 2000." .
+    rdfs:comment "English translation in TRIZ Review 1 (2019)", "Problems of Psychology, Vol. 6., pp. 37-49, 1956. See also Izobretenia, The Altshuller Institute for TRIZ Studies, 2000." .
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_1960>
     od:hatVerweis odv2:F13 ;
@@ -981,10 +982,11 @@
     dcterms:title "Principles of Sufield Analysis" ;
     a od:Reference .
 
-<http://opendiscovery.org/rdf/BIB/Altshuller_XX_29b169>
+<http://opendiscovery.org/rdf/BIB/Altshuller_1975_29b169>
     od:hatVerweis odv1:V11 ;
     od:relatedLinks <http://www.altshuller.ru/triz1.asp> ;
     dcterms:creator odp:Altshuller_GS ;
+    dcterms:issued "1975" ;
     dcterms:title "The Process of Inventive Problem Solving: Main Stages and Mechanisms" ;
     a od:Reference ;
     rdfs:comment "Publishing date: 06.04.75" .
@@ -995,12 +997,13 @@
     dcterms:title "Laws of Systems Evolution" ;
     a od:Reference .
 
-<http://opendiscovery.org/rdf/BIB/Altshuller_XX_4c5f6a>
-    od:Quelle "Альтшуллер Г. С., Горин Ю. В. Отталкиваться — притягиваться, с. 133 — 140. " ;
+<http://opendiscovery.org/rdf/BIB/Altshuller_1981_4c5f6a>
+    od:Quelle "Альтшуллер Г. С., Горин Ю. В. Отталкиваться — притягиваться, \"Техника и наука\", 1981, №7. 17-18." ;
     od:hatVerweis odv2:D14 ;
     od:relatedLinks <http://www.altshuller.ru/triz/tin022.asp> ;
     dcterms:creator odp:Altshuller_GS, odp:Gorin_YV ;
     dcterms:title "«Отталкиваться — притягиваться"@ru ;
+    dcterms:issued "1981" ;
     a od:Reference .
 
 <http://opendiscovery.org/rdf/BIB/Altshuller_XX_57fb7a>
@@ -1009,10 +1012,11 @@
     dcterms:title "Administrative, Engineering, and Physical Contradictions" ;
     a od:Reference .
 
-<http://opendiscovery.org/rdf/BIB/Altshuller_XX_652d2d>
+<http://opendiscovery.org/rdf/BIB/Altshuller_1987_652d2d>
     od:hatVerweis <http://opendiscovery.org/rdf/Book/Verweis.6> ;
     dc:language "ru"^^dcterms:RFC4646 ;
     dcterms:creator odp:Altshuller_GS ;
+    dcterms:issued "1987" ;
     dcterms:title "Daring Formulae of Creativity"@en ;
     a od:TRIZ-Book ;
     rdfs:comment "Compiled by Selyutsky, A.B.. - Petrozavodsk: Karelia, 1987. - 269 p. - (Engineering - Young people - Creativity), p. 67-74." .

@@ -208,7 +208,7 @@
 
 :Talk_126
     swc:relatedToEvent track:Pedagogy ;
-    dcterms:creator odp:Gredynarova_O ;
+    dcterms:creator odp:Gredynarova_EM ;
     dcterms:title "Competency based approach in \"education without lesson\" at school using the system approach"@en ;
     od:urlPaper <https://matriz.org/wp-content/uploads/2019/12/TRIZfest-2019-Proceedings.pdf> ; 
     a od:Talk .

@@ -274,5 +274,5 @@ dcterms:creator odp:Song_MJ, odp:Kim_JH .
 
 :Paper_162 a od:Paper;
  dcterms:title "TRIZ pedagogy as the basis of the educational process";
-dcterms:creator odp:Gredynarova_O . 
+dcterms:creator odp:Gredynarova_EM . 
 

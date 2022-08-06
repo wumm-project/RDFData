@@ -263,7 +263,7 @@ odp:Graf_M
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_131> ;
     od:theLevel tc:CertificateLevel4 .
 
-odp:Gredynarova_O
+odp:Gredynarova_EM
     od:hasMATRIZAward "TRIZ Champion 2018" .
 
 odp:Gronauer_B

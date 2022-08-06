@@ -298,6 +298,12 @@ odp:Berdyugina_D
     foaf:affil "Strasbourg, France" ;
     foaf:name "Daria Berdyugina" .
 
+odp:Berkova_V
+    a foaf:Person ;
+    foaf:affil "Russia" ;
+    foaf:fullname "Беркова Виктория"@ru ;
+    foaf:name "Victoria Berkova" .
+
 odp:Bersano_G
     a foaf:Person ;
     foaf:affil "IKOS Consulting Group, France" ;
@@ -1305,6 +1311,12 @@ odp:Goldovsky_BI
     foaf:fullname "Голдовский Борис Израйлевич"@ru ;
     foaf:name "Boris I. Goldovsky" .
 
+odp:Golitsyna_NB
+    a foaf:Person ;
+    foaf:affil "Petrozavodsk, Russia" ;
+    foaf:fullname "Голицына Наталья Борисовна"@ru ;
+    foaf:name "Natalya B. Golitsyna" .
+
 odp:Golovchenko_GG
     a foaf:Person ;
     foaf:fullname "Головченко Георгий Григорьевич"@ru ;
@@ -1356,10 +1368,11 @@ odp:Gredynarov_I
     foaf:affil "Ukrainian TRIZ Association, Ukraina"@en ;
     foaf:name "Igor Gredynarov" .
 
-odp:Gredynarova_O
+odp:Gredynarova_EM
     a foaf:Person ;
     foaf:affil "Zaporozhye, Ukraine" ;
-    foaf:name "Olena Gredynarova" .
+    foaf:fullname "Грединарова Елена Михайловна"@ru ;
+    foaf:name "Elena M. Gredynarova" .
 
 odp:Griffay_G
     a foaf:Person ;
@@ -1399,6 +1412,12 @@ odp:Guin_AA
     foaf:fullname "Гин Анатолий Александрович"@ru ;
     foaf:name "Anatoly Guin" .
 
+odp:Guin_Anton
+    a foaf:Person ;
+    foaf:affil "Moscow, Russia" ;
+    foaf:fullname "Гин Антон"@ru ;
+    foaf:name "Anton Guin" .
+
 odp:Guin_Elena
     a foaf:Person ;
     foaf:affil "Association «Education for a New Era», Russia" ;
@@ -1407,6 +1426,7 @@ odp:Guin_Elena
 odp:Guin_Evgenia
     a foaf:Person ;
     foaf:affil "Association «Education for a New Era», Russia" ;
+    foaf:fullname "Гин Евгения"@ru ;
     foaf:name "Eugenia Guin" .
 
 odp:Guio_RD
@@ -1680,6 +1700,12 @@ odp:Ishak_AA
 odp:Ishrat_I
     a foaf:Person ;
     foaf:name "Irna Ishrat" .
+
+odp:Ismailova_OV
+    a foaf:Person ;
+    foaf:affil "Angarsk, Russia" ;
+    foaf:fullname "Измайлова Ольга Васильевна"@ru ;
+    foaf:name "Olga V. Ismailova" .
 
 odp:Issak_DP
     a foaf:Person ;
@@ -2109,6 +2135,12 @@ odp:Klys_P
     foaf:affil "ABB, Poland" ;
     foaf:name "Paweł Kłys" .
 
+odp:Klyuch_N
+    a foaf:Person ;
+    foaf:affil "Russia" ;
+    foaf:fullname "Ключ Наталья"@ru ;
+    foaf:name "Natalya Klyuch" .
+
 odp:Kneisel_BO
     a foaf:Person ;
     foaf:name "Boris Oliver Kneisel" .
@@ -2236,6 +2268,12 @@ odp:Kraemer_W
     foaf:affil "Haereus, Hanau, Germany" ;
     foaf:name "Winfried Krämer" .
 
+odp:Krashennikova_O
+    a foaf:Person ;
+    foaf:affil "Russia" ;
+    foaf:fullname "Крашенинникова Ольга"@ru ;
+    foaf:name "Olga Krashennikova" .
+
 odp:Krasnoslobodtsev_VJ
     a foaf:Person ;
     foaf:affil "Russia" ;
@@ -2338,6 +2376,12 @@ odp:Kustova_E
     foaf:affil "Moscow, Russia" ;
     foaf:fullname "Кустова Эльвира"@ru ;
     foaf:name "Elvira Kustova" .
+
+odp:Kutusova_A
+    a foaf:Person ;
+    foaf:affil "Tyumen, Russia" ;
+    foaf:fullname "Кутузова Анна"@ru ;
+    foaf:name "Anna Kutusova" .
 
 odp:Kutvan_AB
     a foaf:Person ;
@@ -3336,6 +3380,12 @@ odp:Petiy_II
     foaf:fullname "Петий Игорь Иванович"@ru ;
     foaf:name "Igor Petiy" .
 
+odp:Petrishcheva_AE
+    a foaf:Person ;
+    foaf:affil "Angarsk, Russia" ;
+    foaf:fullname "Петрищева Анна Егоровна"@ru ;
+    foaf:name "Anna E. Petrishcheva" .
+
 odp:Petrov_D
     a foaf:Person ;
     foaf:name "Dmitrij Petrov" .
@@ -3451,6 +3501,12 @@ odp:Polonsky_LM
     foaf:fullname "Полонский Леонид Моисеевич"@ru ;
     foaf:name "Leonid M. Polonsky" .
 
+odp:Polyakova_MV
+    a foaf:Person ;
+    foaf:affil "Angarsk, Russia" ;
+    foaf:fullname "Полякова Маргарита Владимировна"@ru ;
+    foaf:name "Margarita V. Polyakova" .
+
 odp:Pomeranets_MS
     a foaf:Person ;
     foaf:fullname "Померанец М.С."@ru ;
@@ -3465,6 +3521,12 @@ odp:Popova_SL
     a foaf:Person ;
     foaf:affil "HTW Dresden, Germany" ;
     foaf:name "Silvia Liubenova Popova" .
+
+odp:Potyomkina_E
+    a foaf:Person ;
+    foaf:affil "Russia" ;
+    foaf:fullname "Потёмкина Елена"@ru ;
+    foaf:name "Elena Potyomkina" .
 
 odp:Prada_A
     a foaf:Person ;
@@ -4410,6 +4472,12 @@ odp:Timochov_VI
     foaf:affil "Gomel, Belarus" ;
     foaf:fullname "Тимохов Виктор Иванович"@ru ;
     foaf:name "Viktor I. Timochov" .
+
+odp:Timofeeva_EV
+    a foaf:Person ;
+    foaf:affil "Vladivostok, Russia" ;
+    foaf:fullname "Тимофеева Елена Владимировна"@ru ;
+    foaf:name "Elena V. Timofeeva" .
 
 odp:Tkachev_BI
     a foaf:Person ;
