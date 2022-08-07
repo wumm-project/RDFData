@@ -5129,10 +5129,6 @@ odp:Zhou_ZL
     foaf:affil "Hubei, PR China"@en ;
     foaf:name "Zhou Zaolin" .
 
-odp:Zhuckov_RF
-    a foaf:Person ;
-    foaf:name "R.F. Zhuckov" .
-
 odp:Zinner_V
     a foaf:Person ;
     foaf:name "Viktoria Zinner" .

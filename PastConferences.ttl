@@ -20,7 +20,7 @@
     rdfs:label "TRIZFest Pedagogy 2022" ;
     ical:summary "TRIZFest Pedagogy 2022 Online" ;
     ical:dtend "2022-08-23"^^xsd:date ;
-    ical:dtstart "2021-08-23"^^xsd:date ;
+    ical:dtstart "2022-08-23"^^xsd:date ;
     ical:location "Online" ;
     od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZFest-Pedagogy-2022.rdf> .
 
