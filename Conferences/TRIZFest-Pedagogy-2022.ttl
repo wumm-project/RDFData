@@ -9,96 +9,96 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix : <http://opendiscovery.org/rdf/Conferences/TRIZFest-Pedagogy-2022/> .
 
-:General 
+:General
     a swc:ConferenceEvent ;
     rdfs:label "TRIZFest Pedagogy 2022" ;
-    ical:summary "TRIZFest Pedagogy 2022 Online" ;
     ical:dtend "2022-08-23"^^xsd:date ;
     ical:dtstart "2022-08-23"^^xsd:date ;
-    ical:location "Online" .
+    ical:location "Online" ;
+    ical:summary "TRIZFest Pedagogy 2022 Online" .
 
 :Talk_100
     dcterms:creator odp:Guin_Evgenia ;
-    dcterms:title "Реализация принципов ТРИЗ-педагогики в учебном процессе на примерах из разных предметов"@ru ;
+    dcterms:title "Implementation of TRIZ-pedagogy principles in the educational process with examples from different subjects"@en, "Реализация принципов ТРИЗ-педагогики в учебном процессе на примерах из разных предметов"@ru ;
     a od:Talk .
 
 :Talk_101
     dcterms:creator odp:Ismailova_OV ;
-    dcterms:title "Ресурсы ТРИЗ в достижении метапредметных результатов и формировании функциональной грамотности на примере уроков истории и обществознания"@ru ;
+    dcterms:title "Resources of TRIZ for achievement of meta-subject results and shaping of functional literacy in history and social science lessons"@en, "Ресурсы ТРИЗ в достижении метапредметных результатов и формировании функциональной грамотности на примере уроков истории и обществознания"@ru ;
     a od:Talk .
 
 :Talk_102
     dcterms:creator odp:Petrishcheva_AE ;
-    dcterms:title "Роль системы ТРИЗ в развитии естественнонаучной функциональной грамотности (на примере уроков химии)"@ru ;
+    dcterms:title "Role of TRIZ system in development of functional literacy of natural sciences (Chemistry lessons)"@en, "Роль системы ТРИЗ в развитии естественнонаучной функциональной грамотности (на примере уроков химии)"@ru ;
     a od:Talk .
 
 :Talk_103
     dcterms:creator odp:Polyakova_MV ;
-    dcterms:title "Урок физики с ТРИЗ"@ru ;
+    dcterms:title "Physics Lesson with TRIZ"@en, "Урок физики с ТРИЗ"@ru ;
     a od:Talk .
 
 :Talk_104
     dcterms:creator odp:Chizhevskaya_NE ;
-    dcterms:title "Использование технологии игры «Да-нет» в обучении детей школьного возраста способам анализа и решения проблем"@ru ;
+    dcterms:title "Use of the game technology \"Yes-no\" in teaching school-age children methods of analysis and problem solving"@en, "Использование технологии игры «Да-нет» в обучении детей школьного возраста способам анализа и решения проблем"@ru ;
     a od:Talk .
 
 :Talk_105
     dcterms:creator odp:Timofeeva_EV ;
-    dcterms:title "Обучение русскому языку и литературе на базе инструментов ОТСМ-ТРИЗ технологии: опыт частной школы «Дарина» "@ru ;
+    dcterms:title "Teaching Russian language and literature on the basis of OTSM-TRIZ tools: experience of the private school \"Darina\""@en, "Обучение русскому языку и литературе на базе инструментов ОТСМ-ТРИЗ технологии: опыт частной школы «Дарина» "@ru ;
     a od:Talk .
 
 :Talk_106
     dcterms:creator odp:Kutusova_A ;
-    dcterms:title "Преподавание школьных предметов на основе открытых задач"@ru ;
+    dcterms:title "Teaching school subjects based on open problems"@en, "Преподавание школьных предметов на основе открытых задач"@ru ;
     a od:Talk .
 
 :Talk_107
     dcterms:creator odp:Golitsyna_NB ;
-    dcterms:title "Инструменты ТРИЗ в преподавании биологии"@ru ;
+    dcterms:title "TRIZ tools in biology teaching"@en, "Инструменты ТРИЗ в преподавании биологии"@ru ;
     a od:Talk .
 
 :Talk_108
     dcterms:creator odp:Guin_Anton ;
-    dcterms:title "Литература и ТРИЗ – новые возможности развития мышления"@ru ;
+    dcterms:title "Literature and TRIZ - new opportunities for development of thinking"@en, "Литература и ТРИЗ – новые возможности развития мышления"@ru ;
     a od:Talk .
 
 :Talk_109
     dcterms:creator odp:Berkova_V ;
-    dcterms:title "Ограничения и полет фантазии в развитии математического мышления"@ru ;
+    dcterms:title "Limits and flight of fantasy in development of mathematical thinking"@en, "Ограничения и полет фантазии в развитии математического мышления"@ru ;
     a od:Talk .
 
 :Talk_110
     dcterms:creator odp:Murashkovska_IN ;
-    dcterms:title "Человек в неустойчивом мире: чему учить?"@ru ;
+    dcterms:title "Human in an unstable world: what to teach?"@en, "Человек в неустойчивом мире: чему учить?"@ru ;
     a od:Talk .
 
 :Talk_111
     dcterms:creator odp:Nesterenko_AA ;
-    dcterms:title "Инструменты ОТСМ-ТРИЗ технологии в детских сетевых проектах"@ru ;
+    dcterms:title "Instruments of OTSM-TRIZ technology in children's network projects"@en, "Инструменты ОТСМ-ТРИЗ технологии в детских сетевых проектах"@ru ;
     a od:Talk .
 
 :Talk_112
     dcterms:creator odp:Gredynarova_EM ;
-    dcterms:title "Последовательность (системность) внедрения ТРИЗ в образовательный процесс на примере Частного Комплекса непрерывного образования Школы ЭйдоС"@ru ;
+    dcterms:title "Steps (system) introducing TRIZ into educational process on the example of the private school complex EudoS of Continuous Education"@en, "Последовательность (системность) внедрения ТРИЗ в образовательный процесс на примере Частного Комплекса непрерывного образования Школы ЭйдоС"@ru ;
     a od:Talk .
 
 :Talk_113
     dcterms:creator odp:Krashennikova_O ;
-    dcterms:title "ТРИЗ и многоязычные дети: «когда не можно работать традиционально»"@ru ;
+    dcterms:title "TRIZ and multilingual children: \"when you cannot work in a traditional way\""@en, "ТРИЗ и многоязычные дети: «когда не можно работать традиционально»"@ru ;
     a od:Talk .
 
 :Talk_114
     dcterms:creator odp:Kozyreva_NA ;
-    dcterms:title "Проектирование игр и игрушек инструментами ТРИЗ"@ru ;
+    dcterms:title "Designing Toys and Games with TRIZ Tools"@en, "Проектирование игр и игрушек инструментами ТРИЗ"@ru ;
     a od:Talk .
 
 :Talk_115
     dcterms:creator odp:Klyuch_N ;
-    dcterms:title "Сюжетный курс как формат и ресурс для занятий по ТРИЗ в дополнительном образовании"@ru ;
+    dcterms:title "Plot course as a format and resource for TRIZ lessons in supplementary education"@en, "Сюжетный курс как формат и ресурс для занятий по ТРИЗ в дополнительном образовании"@ru ;
     a od:Talk .
 
 :Talk_116
     dcterms:creator odp:Potyomkina_E ;
-    dcterms:title "После 13 поздно? - Сложности и успехи в обучении ТРИЗ подростков"@ru ;
+    dcterms:title "Is it too late after 13? Challenges and successes in teaching TRIZ to teenagers"@en, "После 13 поздно? Сложности и успехи в обучении ТРИЗ подростков"@ru ;
     a od:Talk .
 
