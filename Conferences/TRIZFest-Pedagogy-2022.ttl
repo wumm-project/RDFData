@@ -15,7 +15,8 @@
     ical:dtend "2022-08-23"^^xsd:date ;
     ical:dtstart "2022-08-23"^^xsd:date ;
     ical:location "Online" ;
-    ical:summary "TRIZFest Pedagogy 2022 Online" .
+    ical:summary "TRIZFest Pedagogy 2022 Online";
+    ical:url <https://wumm-project.github.io/Conferences/TRIZFest-Pedagogy-2022.pdf> .
 
 :Talk_100
     dcterms:creator odp:Guin_Evgenia ;
