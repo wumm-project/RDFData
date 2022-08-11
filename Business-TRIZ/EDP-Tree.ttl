@@ -41,7 +41,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E1111, :E1112 ;
-    skos:narrower :E1100, :E1111, :E1112 ;
+    skos:narrower :E1100 ;
     skos:prefLabel "1.1. Change raw material" .
 
 :E1111
@@ -69,7 +69,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E1121 ;
-    skos:narrower :E1100, :E1121 ;
+    skos:narrower :E1100 ;
     skos:prefLabel "1.2. Modify raw material" .
 
 :E1121
@@ -88,7 +88,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E1131 ;
-    skos:narrower :E1100, :E1131 ;
+    skos:narrower :E1100 ;
     skos:prefLabel "1.3. Use pre-manufactured material" .
 
 :E1131
@@ -116,7 +116,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E1211 ;
-    skos:narrower :E1200, :E1211 ;
+    skos:narrower :E1200 ;
     skos:prefLabel "2.1. Change material" .
 
 :E1211
@@ -135,7 +135,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E1221, :E1222, :E1223 ;
-    skos:narrower :E1200, :E1221, :E1222, :E1223 ;
+    skos:narrower :E1200 ;
     skos:prefLabel "2.2. Reduce the mass" .
 
 :E1221
@@ -170,7 +170,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E1231 ;
-    skos:narrower :E1200, :E1231 ;
+    skos:narrower :E1200 ;
     skos:prefLabel "2.3. Reduce the volume" .
 
 :E1231
@@ -190,7 +190,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E1241, :E1242, :E1243 ;
-    skos:narrower :E1200, :E1241, :E1242, :E1243 ;
+    skos:narrower :E1200 ;
     skos:prefLabel "2.4. Improve packaging durability" .
 
 :E1241
@@ -225,7 +225,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E1251 ;
-    skos:narrower :E1200, :E1251 ;
+    skos:narrower :E1200 ;
     skos:prefLabel "2.5. Modify packaging to increase raw material durability" .
 
 :E1251
@@ -252,7 +252,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E1311 ;
-    skos:narrower :E1300, :E1311 ;
+    skos:narrower :E1300 ;
     skos:prefLabel "3.1. Use efficient transports" .
 
 :E1311
@@ -272,7 +272,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E1321, :E1322 ;
-    skos:narrower :E1300, :E1321, :E1322 ;
+    skos:narrower :E1300 ;
     skos:prefLabel "3.2. Optimize logistic" .
 
 :E1321
@@ -298,7 +298,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E1331, :E1332 ;
-    skos:narrower :E1300, :E1331, :E1332 ;
+    skos:narrower :E1300 ;
     skos:prefLabel "3.3. Reduce the volume of the load" .
 
 :E1331
@@ -326,7 +326,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E1341, :E1342, :E1343 ;
-    skos:narrower :E1300, :E1341, :E1342, :E1343 ;
+    skos:narrower :E1300 ;
     skos:prefLabel "3.4. Prevent raw material damages during transport" .
 
 :E1341
@@ -375,7 +375,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E2111, :E2112 ;
-    skos:narrower :E2100, :E2111, :E2112 ;
+    skos:narrower :E2100 ;
     skos:prefLabel "1.1. Change machinery" .
 
 :E2111
@@ -402,7 +402,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E2121, :E2122 ;
-    skos:narrower :E2100, :E2121, :E2122 ;
+    skos:narrower :E2100 ;
     skos:prefLabel "1.2. Modify machinery components" .
 
 :E2121
@@ -428,7 +428,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E2131, :E2132 ;
-    skos:narrower :E2100, :E2131, :E2132 ;
+    skos:narrower :E2100 ;
     skos:prefLabel "1.3. Substitute machine components" .
 
 :E2131
@@ -463,7 +463,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E2211, :E2212 ;
-    skos:narrower :E2200, :E2211 ;
+    skos:narrower :E2200 ;
     skos:prefLabel "2.1. Redesign the product in order to minimize environmental impact during manufacturing" .
 
 :E2211
@@ -489,7 +489,7 @@
     od:Id "RedesignProductForAssembly", "RedesignProductForRepairability" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:narrower :E2200, :E2212 ;
+    skos:narrower :E2200 ;
     skos:prefLabel "2.2.  Redesign the product in order to make it repairable", "2.2. Redesign the product in order to minimize environmental impact during assembly" .
 
 :E2300
@@ -507,7 +507,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E2311 ;
-    skos:narrower :E2300, :E2311 ;
+    skos:narrower :E2300 ;
     skos:prefLabel "3.1. Modify the single stages during manufacturing process" .
 
 :E2311
@@ -543,7 +543,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E2421 ;
-    skos:narrower :E2400, :E2421 ;
+    skos:narrower :E2400 ;
     skos:prefLabel "4.2. Reorganize the layout" .
 
 :E2421
@@ -596,7 +596,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E3111, :E3112, :E3113 ;
-    skos:narrower :E3100, :E3111, :E3112, :E3113 ;
+    skos:narrower :E3100 ;
     skos:prefLabel "1.1. Avoid auxiliary components" .
 
 :E3111
@@ -631,7 +631,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E3121, :E3122, :E3123 ;
-    skos:narrower :E3100, :E3121, :E3122, :E3123 ;
+    skos:narrower :E3100 ;
     skos:prefLabel "1.2. Reduce auxiliary components" .
 
 :E3121
@@ -674,7 +674,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E3211 ;
-    skos:narrower :E3200, :E3211 ;
+    skos:narrower :E3200 ;
     skos:prefLabel "2.1. Remove dangerous materials" .
 
 :E3211
@@ -693,7 +693,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E3221 ;
-    skos:narrower :E3200, :E3221 ;
+    skos:narrower :E3200 ;
     skos:prefLabel "2.2. Reduce environmental problems" .
 
 :E3221
@@ -721,7 +721,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E3311, :E3312 ;
-    skos:narrower :E3300, :E3311, :E3312 ;
+    skos:narrower :E3300 ;
     skos:prefLabel "3.1. Act on durability" .
 
 :E3311
@@ -748,7 +748,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E3321, :E3322 ;
-    skos:narrower :E3300, :E3321, :E3322 ;
+    skos:narrower :E3300 ;
     skos:prefLabel "3.2. Reduce the mass" .
 
 :E3321
@@ -773,7 +773,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E3331 ;
-    skos:narrower :E3300, :E3331 ;
+    skos:narrower :E3300 ;
     skos:prefLabel "3.3. Act on shape and volume" .
 
 :E3331
@@ -800,7 +800,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E3411, :E3412 ;
-    skos:narrower :E3400, :E3411, :E3412 ;
+    skos:narrower :E3400 ;
     skos:prefLabel "4.1. Reduce the consumption of energy required" .
 
 :E3411
@@ -827,7 +827,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E3421 ;
-    skos:narrower :E3400, :E3421 ;
+    skos:narrower :E3400 ;
     skos:prefLabel "4.2. Recover dissipated energy" .
 
 :E3421
@@ -853,7 +853,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E3511 ;
-    skos:narrower :E3500, :E3511 ;
+    skos:narrower :E3500 ;
     skos:prefLabel "5.1. Reduce the need of maintenance" .
 
 :E3511
@@ -870,7 +870,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E3521 ;
-    skos:narrower :E3500, :E3521 ;
+    skos:narrower :E3500 ;
     skos:prefLabel "5.2. Make the maintenance proactive" .
 
 :E3521
@@ -888,7 +888,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E3531 ;
-    skos:narrower :E3500, :E3531 ;
+    skos:narrower :E3500 ;
     skos:prefLabel "5.3. Design repairable product" .
 
 :E3531
@@ -905,7 +905,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E3541 ;
-    skos:narrower :E3500, :E3541 ;
+    skos:narrower :E3500 ;
     skos:prefLabel "5.4. Realize modular product" .
 
 :E3541
@@ -931,7 +931,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E3611, :E3612, :E3613 ;
-    skos:narrower :E3600, :E3611, :E3612, :E3613 ;
+    skos:narrower :E3600 ;
     skos:prefLabel "6.1. Optimize logistic" .
 
 :E3611
@@ -1004,7 +1004,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E3821, :E3822 ;
-    skos:narrower :E3800, :E3821, :E3822 ;
+    skos:narrower :E3800 ;
     skos:prefLabel "8.2. Reduce the product volume" .
 
 :E3821
@@ -1046,7 +1046,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E4111, :E4112 ;
-    skos:narrower :E4100, :E4111, :E4112 ;
+    skos:narrower :E4100 ;
     skos:prefLabel "1.1. Recovery of material" .
 
 :E4111
@@ -1073,7 +1073,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E4121 ;
-    skos:narrower :E4100, :E4121 ;
+    skos:narrower :E4100 ;
     skos:prefLabel "1.2. Recovery of energy" .
 
 :E4121
@@ -1092,7 +1092,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E4131, :E4132 ;
-    skos:narrower :E4100, :E4131, :E4132 ;
+    skos:narrower :E4100 ;
     skos:prefLabel "1.3. Disposal on landfill" .
 
 :E4131
@@ -1131,7 +1131,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E4221 ;
-    skos:narrower :E4200, :E4221 ;
+    skos:narrower :E4200 ;
     skos:prefLabel "2.2. Reduce CO2 emissions in the air during disposal" .
 
 :E4221
@@ -1149,7 +1149,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E4231 ;
-    skos:narrower :E4200, :E4231 ;
+    skos:narrower :E4200 ;
     skos:prefLabel "2.3. Reduce the mass" .
 
 :E4231
@@ -1176,7 +1176,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E4311 ;
-    skos:narrower :E4300, :E4311 ;
+    skos:narrower :E4300 ;
     skos:prefLabel "3.1. Allow the separability of materials" .
 
 :E4311
@@ -1195,7 +1195,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E4321 ;
-    skos:narrower :E4300, :E4321 ;
+    skos:narrower :E4300 ;
     skos:prefLabel "3.2. Use connections between parts" .
 
 :E4321
@@ -1222,7 +1222,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E4411 ;
-    skos:narrower :E4400, :E4411 ;
+    skos:narrower :E4400 ;
     skos:prefLabel "4.1. Use efficiently transports" .
 
 :E4411
@@ -1241,7 +1241,7 @@
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
     skos:broader :E4421 ;
-    skos:narrower :E4400, :E4421 ;
+    skos:narrower :E4400 ;
     skos:prefLabel "4.2. Reduce the weight and the volume of the transport" .
 
 :E4421
