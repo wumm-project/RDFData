@@ -525,6 +525,11 @@ odp:Bushuyev_AB
     foaf:fullname "Бушуев Александр Борисович"@ru ;
     foaf:name "Alexander B. Bushuyev" .
 
+odp:Bykhovskiy_M
+    a foaf:Person ;
+    foaf:affil "Russia" ;
+    foaf:name "Mikhail Bykhovskiy" .
+
 odp:Bystritsky_AA
     a foaf:Person ;
     foaf:affil "Irkutsk, Russia" ;
@@ -590,6 +595,11 @@ odp:Chen_SQ
 odp:Chen_Y
     a foaf:Person ;
     foaf:name "Yinuo Chen" .
+
+odp:Chen_Z
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Zhuo Chen" .
 
 odp:Cheng_M
     a foaf:Person ;
@@ -715,6 +725,11 @@ odp:Condrea_I
     a foaf:Person ;
     foaf:name "Ionut Condrea" .
 
+odp:Cong_L
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Liwei Cong" .
+
 odp:Conley_DW
     a foaf:Person ;
     foaf:affil "USA" ;
@@ -756,6 +771,11 @@ odp:Dammak_H
     a foaf:Person ;
     foaf:affil "Montréal, Canada" ;
     foaf:name "Houcine Dammak" .
+
+odp:Dang_N
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Ning Dang" .
 
 odp:Danilovsky_YE
     a foaf:Person ;
@@ -1448,6 +1468,11 @@ odp:Hafer_L
     a foaf:Person ;
     foaf:name "Lionel Hafer" .
 
+odp:Haijun_L
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Li Haijun" .
+
 odp:Halas_M
     a foaf:Person ;
     foaf:affil "GRUPA ODITK, Poland" ;
@@ -1649,6 +1674,11 @@ odp:Huang_HC
     a foaf:Person ;
     foaf:name "Huan-Chu Huang" .
 
+odp:Huang_J
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Jun Huang" .
+
 odp:Huang_Y
     a foaf:Person ;
     foaf:name "Huang Yan" .
@@ -1716,6 +1746,11 @@ odp:Iuga_M
     a foaf:Person ;
     foaf:name "Marin Iuga" .
 
+odp:Iv_Y
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Yang Iv" .
+
 odp:Ivanov_A
     a foaf:Person ;
     foaf:affil "Minsk, Belarus" ;
@@ -1777,6 +1812,11 @@ odp:Jeong_JH
 odp:Jeong_W
     a foaf:Person ;
     foaf:name "Wanseok Jeong" .
+
+odp:Jiang_L
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Lingli Jiang" .
 
 odp:Jiao_L
     a foaf:Person ;
@@ -2599,6 +2639,16 @@ odp:Li_P
     foaf:affil "Harbin Engieering University, China" ;
     foaf:name "Peng Li" .
 
+odp:Li_S
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Sheng Li" .
+
+odp:Li_W
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Wei Li" .
+
 odp:Li_Y
     a foaf:Person ;
     foaf:name "Yang Li" .
@@ -2611,6 +2661,11 @@ odp:Lianjun_H
     a foaf:Person ;
     foaf:affil "China Railway Engineering Group, China" ;
     foaf:name "Hu Lianjun" .
+
+odp:Liao_F
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Fei Liao" .
 
 odp:Lichachev_AY
     a foaf:Person ;
@@ -2666,6 +2721,11 @@ odp:Litvin_SS
 odp:Liu_BY
     a foaf:Person ;
     foaf:name "Bill Yuanbo Liu" .
+
+odp:Liu_C
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Claire Liu" .
 
 odp:Liu_MY
     a foaf:Person ;
@@ -2908,6 +2968,11 @@ odp:Meerovich_MI
 odp:Mei_CA
     a foaf:Person ;
     foaf:name "Mei Choo Ang" .
+
+odp:Mei_F
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Feixiang Mei" .
 
 odp:MejiaGutierrez_R
     a foaf:Person ;
@@ -3175,6 +3240,11 @@ odp:Ni_X
     a foaf:Person ;
     foaf:affil "Strasbourg, France" ;
     foaf:name "Xin Ni" .
+
+odp:Nie_J
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Jiapeng Nie" .
 
 odp:Nikashin_AI
     a foaf:Person ;
@@ -3648,6 +3718,11 @@ odp:Regen_W
     foaf:affil "LIFIS, Berlin, Germany" ;
     foaf:name "Werner Regen" .
 
+odp:Ren_J
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Junjie Ren" .
+
 odp:Renaud_J
     a foaf:Person ;
     foaf:affil "INSA Strasbourg, France" ;
@@ -3994,6 +4069,16 @@ odp:Shchinnikov_A
     foaf:homepage <https://www.facebook.com/ashinnikov> ;
     foaf:name "Alexey Shchinnikov" .
 
+odp:Shen_D
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Deliang Shen" .
+
+odp:Shen_W
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Wei Shen" .
+
 odp:Sheng_ILS
     a foaf:Person ;
     foaf:affil "Monash University Malaysia, Malaysia" ;
@@ -4230,6 +4315,11 @@ odp:Solodkina_E
 odp:Son_DI
     a foaf:Person ;
     foaf:name "Dong-Il Son" .
+
+odp:Song_J
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Jianyi Song" .
 
 odp:Song_MJ
     a foaf:Person ;
@@ -4498,10 +4588,10 @@ odp:Tomashevskaya_N
     a foaf:Person ;
     foaf:name "Natalia Tomashevskaya" .
 
-odp:Tony_TW
+odp:Tong_W
     a foaf:Person ;
-    foaf:affil "PR China" ;
-    foaf:name "Tony Tong Wei" .
+    foaf:affil "China", "PR China" ;
+    foaf:name "(Tony) Tong Wei", "Wei Tong" .
 
 odp:Torgashev_AS
     a foaf:Person ;
@@ -4673,6 +4763,11 @@ odp:Wan_Y
     a foaf:Person ;
     foaf:name "Yuhui Wan" .
 
+odp:Wang_C
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Chuanwen Wang" .
+
 odp:Wang_CY
     a foaf:Person ;
     foaf:affil "Tianjin, China" ;
@@ -4696,6 +4791,11 @@ odp:Wang_J
 odp:Wang_JF
     a foaf:Person ;
     foaf:name "Jinfeng Wang" .
+
+odp:Wang_Jing
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Jing Wang" .
 
 odp:Wang_K
     a foaf:Person ;
@@ -4767,6 +4867,11 @@ odp:Weigert_S
     foaf:affil "Oberhaching, Germany" ;
     foaf:name "Siegfried Weigert" .
 
+odp:Wen_M
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Min Wen" .
+
 odp:Wenxin_C
     a foaf:Person ;
     foaf:name "Chen Wenxin" .
@@ -4815,6 +4920,11 @@ odp:Xi_DZ
     a foaf:Person ;
     foaf:name "Dao-zheng Xi" .
 
+odp:Xi_Y
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Yufu Xi" .
+
 odp:Xiaofeng_S
     a foaf:Person ;
     foaf:name "Sun Xiaofeng" .
@@ -4828,6 +4938,21 @@ odp:Xing_FL
     a foaf:Person ;
     foaf:affil "PR China" ;
     foaf:name "Xing Fenglei" .
+
+odp:Xing_T
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Tian Xing" .
+
+odp:Xu_B
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Bing Xu" .
+
+odp:Xu_D
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Dongshuang Xu" .
 
 odp:Xu_DS
     a foaf:Person ;
@@ -4955,6 +5080,16 @@ odp:Yu_N
     a foaf:Person ;
     foaf:name "Na Yu" .
 
+odp:Yu_X
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Xionghou Yu" .
+
+odp:Yuan_H
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Heng Yuan" .
+
 odp:Yudin_YA
     a foaf:Person ;
     foaf:fullname "Юдин Ю.А."@ru ;
@@ -5003,6 +5138,11 @@ odp:Zasedenets_I
     foaf:affil "Tel Aviv, Israel" ;
     foaf:name "Igor Zasedenets" .
 
+odp:Zeng_W
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Wensheng Zeng" .
+
 odp:Zhang_E
     a foaf:Person ;
     foaf:name "Erjia Zhang" .
@@ -5019,8 +5159,8 @@ odp:Zhang_K
 odp:Zhang_L
     a foaf:Person ;
     rdfs:seeAlso <http://orcid.org/0000-0002-3271-461X> ;
-    foaf:affil "Tianjin, PR China" ;
-    foaf:name "Lulu Zhang" .
+    foaf:affil "China", "Tianjin, PR China" ;
+    foaf:name "Lan Zhang", "Lulu Zhang" .
 
 odp:Zhang_P
     a foaf:Person ;
@@ -5050,6 +5190,11 @@ odp:Zhang_XY
     foaf:affil "Tianjin, China" ;
     foaf:name "Xinyu Zhang" .
 
+odp:Zhang_Y
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Yaoyuan Zhang" .
+
 odp:Zhang_YH
     a foaf:Person ;
     foaf:name "Yonghui Zhang" .
@@ -5076,7 +5221,8 @@ odp:Zhao_XJ
 
 odp:Zhao_Y
     a foaf:Person ;
-    foaf:name "Zhao Yan" .
+    foaf:affil "China" ;
+    foaf:name "Yan Zhao", "Zhao Yan" .
 
 odp:Zhao_Z
     a foaf:Person ;
@@ -5118,6 +5264,11 @@ odp:Zhong_Y
     a foaf:Person ;
     foaf:affil "Northeastern University, Shenyang, PR China" ;
     foaf:name "Zhong Yingb" .
+
+odp:Zhou_J
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Junwu Zhou" .
 
 odp:Zhou_X
     a foaf:Person ;
@@ -5162,6 +5313,11 @@ odp:Zobel_D
 odp:Zong_B
     a foaf:Person ;
     foaf:name "Baochao Zong" .
+
+odp:Zong_J
+    a foaf:Person ;
+    foaf:affil "China" ;
+    foaf:name "Jiancheng Zong" .
 
 odp:Zubarev_VV
     a foaf:Person ;

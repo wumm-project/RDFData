@@ -15,16 +15,6 @@
     rdfs:label "TSN: Past TRIZ Conferences" ;
     owl:imports <http://opendiscovery.org/rdf/ConferenceSeries/>, <http://opendiscovery.org/rdf/People/> .
 
-<http://opendiscovery.org/rdf/Conferences/TRIZFest-Pedagogy-2022/>
-    a swc:ConferenceEvent ;
-    rdfs:label "TRIZFest Pedagogy 2022" ;
-    ical:summary "TRIZFest Pedagogy 2022 Online" ;
-    ical:dtend "2022-08-23"^^xsd:date ;
-    ical:dtstart "2022-08-23"^^xsd:date ;
-    ical:location "Online" ;
-    od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZFest-Pedagogy-2022.rdf> ;
-    ical:url <https://wumm-project.github.io/Conferences/TRIZFest-Pedagogy-2022.pdf> .
-
 <http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/>
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
@@ -35,6 +25,27 @@
     ical:location "Warsaw University of Technology (Warsaw, Poland)" ;
     od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZ-Future-2022.rdf> ;
     ical:url <https://tfc2022.elka.pw.edu.pl/> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest> ;
+    rdfs:label "TRIZFest 2022" ;
+    ical:summary "TRIZFest 2022 Online" ;
+    ical:dtend "2022-09-03"^^xsd:date ;
+    ical:dtstart "2022-08-31"^^xsd:date ;
+    ical:location "Online" ;
+    od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZFest-2022.rdf> ; 
+    ical:url <https://matriz.org/trizfest-2022/> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZFest-Pedagogy-2022/>
+    a swc:ConferenceEvent ;
+    rdfs:label "TRIZFest Pedagogy 2022" ;
+    ical:summary "TRIZFest Pedagogy 2022 Online" ;
+    ical:dtend "2022-08-23"^^xsd:date ;
+    ical:dtstart "2022-08-23"^^xsd:date ;
+    ical:location "Online" ;
+    od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZFest-Pedagogy-2022.rdf> ;
+    ical:url <https://wumm-project.github.io/Conferences/TRIZFest-Pedagogy-2022.pdf> .
 
 <http://opendiscovery.org/rdf/Conferences/DAT-2022>
     a swc:ConferenceEvent ;
@@ -88,7 +99,7 @@
     ical:location "Online" ;
     od:theProceedings <https://matriz.org/wp-content/uploads/2021/12/TRIZfest-2021-Proceedings.pdf> ;
     od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZFest-2021.rdf> ; 
-    ical:url <https://matriz.org> .
+    ical:url <https://matriz.org/trizfest-2021/> .
 
 <http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2021/>
     a swc:ConferenceEvent ;

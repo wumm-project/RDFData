@@ -1,0 +1,173 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix odp: <http://opendiscovery.org/rdf/Person/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/> .
+@prefix track: <http://opendiscovery.org/rdf/Conferences/TRIZFest-2022/Track/> .
+
+:General 
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest> ;
+    rdfs:label "TRIZFest 2022" ;
+    ical:summary "TRIZFest 2022 Online" ;
+    ical:dtend "2022-09-03"^^xsd:date ;
+    ical:dtstart "2022-08-31"^^xsd:date ;
+    ical:location "Online" ; 
+    ical:url <https://matriz.org/trizfest-2022/> .
+
+:Talk_100
+    dcterms:creator odp:Lyubomirsky_AL ;
+    dcterms:title "Pragmatic S-Curve Analysis"@en ;
+    swc:relatedToEvent track:Tutorial ;
+    a od:Talk .
+
+:Talk_101
+    dcterms:creator odp:Lyubomirsky_AL ;
+    dcterms:title "Flow-Analysis"@en ;
+    swc:relatedToEvent track:Tutorial ;
+    a od:Talk .
+
+:Talk_102
+    dcterms:creator odp:Wang_C, odp:Lin_A, odp:Xu_D, odp:Liu_C ;
+    dcterms:title "Cause-Effect Chain Analysis of Different Types of Engineering Problems"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+:Talk_103
+    dcterms:creator odp:Zhang_T ;
+    dcterms:title "Employing TRIZ Tools to Build “Virtual Ecological Niche” for Emerging Technology Industries"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+:Talk_104
+    dcterms:creator odp:Huang_J ;
+    dcterms:title "Application of TRIZ in IPD"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+:Talk_105
+    dcterms:creator odp:Tong_W, odp:Nie_J, odp:Ren_J, odp:Xing_T, odp:Song_J, odp:Ren_J, odp:Liao_F, odp:Chen_Z, odp:Li_S ;
+    dcterms:title "The Innovative Application of TRIZ Theory in the Automobile Industry"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+:Talk_106
+    dcterms:creator odp:Minaker_VE, odp:Bykhovskiy_M ;
+    dcterms:title "Decision-Making Method (DMM)"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+:Talk_107
+    dcterms:creator odp:Graebe_HG ;
+    dcterms:title "On Some Aspects of TRIZ Flow Analysis"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+:Talk_108
+    dcterms:creator odp:Popova_SL, odp:Guenther_S ;
+    dcterms:title "TRIZ Reverse – Case Study In The Field of Basic Research of Physics"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+:Talk_109
+    dcterms:creator odp:Chrzaszcz_J ;
+    dcterms:title "An Overview of Advanced CECA Method"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+:Talk_110
+    dcterms:creator odp:Abramov_OY, odp:Smirnova_E, odp:Fimin_P ;
+    dcterms:title "Identifying The Best Technology for Solid Waste Management Using TRIZ-Based Technology Scouting"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+:Talk_111
+    dcterms:creator odp:Schaper_S ;
+    dcterms:title "TRIZ inspired Creation of Digital Business Models"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+:Talk_112
+    dcterms:creator odp:Abramov_OY, odp:Chrzaszcz_J ;
+    dcterms:title "Applying TRIZ to Forecast The Development Of CECA"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+:Talk_113
+    dcterms:creator odp:Wang_Jing, odp:Shen_D, odp:Dang_N, odp:Cong_L ;
+    dcterms:title "Case Study: Fracture of Shaft Head of Centrifugal Pump"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+:Talk_114
+    dcterms:creator odp:Mei_F, odp:Cao_GX, odp:Iv_Y, odp:Zong_J ;
+    dcterms:title "Innovation Design of Range Hood Noise Reduction Based on TRIZ Theory"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+:Talk_115
+    dcterms:creator odp:Zhao_Y ;
+    dcterms:title "Innovative Design of Intelligent Welding System for Pressure Vessel Based on TRIZ"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+:Talk_116
+    dcterms:creator odp:Yu_X, odp:Yuan_H, odp:Zhou_J, odp:Zeng_W ;
+    dcterms:title "Scheme Design of Safety Assistance System for Mistakenly Stepping on Accelerator Based on TRIZ Method"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+:Talk_117
+    dcterms:creator odp:Tong_W, odp:Xi_Y, odp:Xu_B, odp:Shen_W, odp:Jiang_L, odp:Zhang_Y, odp:Li_W, odp:Wen_M, odp:Zhang_L, odp:Xu_B ;
+    dcterms:title "Research and Analysis on The Innovative Integration of TRIZ Theory And DFSS Method"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+:Talk_118
+    dcterms:creator odp:Haijun_L ;
+    dcterms:title "Information In TRIZ"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+:Talk_119
+    dcterms:creator odp:Mayer_O ;
+    dcterms:title "Sustainability Modelling with TRIZ"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+:Talk_120
+    dcterms:creator odp:Saunin_NY ;
+    dcterms:title "An Approach to Resource Analysis in Business Problem Solving"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+:Talk_121
+    dcterms:creator odp:Kozhemyako_AP ;
+    dcterms:title "Technical Contradiction Analysis as a Convenient Tool to Resolve Contradictions in Express Way"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+:Talk_122
+    dcterms:creator odp:Litvin_SS ;
+    dcterms:title "TBA"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+:Talk_123
+    dcterms:creator odp:Minaker_VE ;
+    dcterms:title "About the Need to Eliminate Errors in TRIZ"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+track:Paper
+    a swc:TrackEvent ;
+    rdfs:label "Paper Track"@en .
+
+track:Tutorial
+    a swc:TrackEvent ;
+    rdfs:label "Tutorial"@en .

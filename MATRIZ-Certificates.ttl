@@ -835,7 +835,7 @@ odp:Timochov_VI
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_54> ;
     od:theLevel tc:CertificateLevel5 .
 
-odp:Tony_TW
+odp:Tong_W
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_141> ;
     od:theLevel tc:CertificateLevel4 .
 
