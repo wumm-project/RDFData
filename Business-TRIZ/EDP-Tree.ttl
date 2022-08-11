@@ -13,1153 +13,1251 @@
     cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     a owl:Ontology ;
     rdfs:comment "2022-07-29 graebe: Extracted and transformed from the database." ;
+    rdfs:comment "2022-08-11 graebe: Tree structure with skos:broader modelled." ;
     rdfs:label "The Eco Design Tree from a database of (Russo, Spreafico 2020)" .
 
-:E1000 a od:EDPNode ;
-  od:Id "PreManufacturing";
-  owl:sameAs edc:PreManufacturing;
-  od:hasLevel "Level_0";
-  skos:prefLabel "PreManufacturing" .
-
-:E1100 a od:EDPNode ;
-od:Class "Material";
-  od:Father :E1000;
-  od:Id "ChoseMaterialPM";
-  od:hasLevel "Level_1";
-  skos:prefLabel "1. Raw material" .
-
-:E1110 a od:EDPNode ;
-  od:Advantages "Economical savings";
-  od:Disadvantages "The change of the material influences the production processes";
-  od:Father :E1100;
-  od:Goal "Chose the material with low environmental impact";
-  od:Id "RawMaterialPM";
-  od:hasLevel "Level_2";
-  skos:narrower :E1111;
-  skos:narrower :E1112;
-  skos:prefLabel "1.1. Change raw material" .
-
-:E1111 a od:EDPNode ;
-skos:example "Use eVerdee DB";
-  od:Father :E1110;
-  od:hasLevel "Level_3";
-  od:LinkModule "Calculate material score";
-  od:Suggestion "Substitute the current raw materials with others that have less environmental impact";
-  skos:prefLabel "1.1.1. Use material with low environmental impact" .
-
-:E1112 a od:EDPNode ;
-skos:example "Recycled paper";
-  skos:example "Secondary aluminum";
-  od:Father :E1110;
-  od:hasLevel "Level_3";
-  od:Suggestion "Try to use only recycled materials (see table). In case you change material, take into account changes in manufacturing process choosing from the table of recycled materials those with low manufacturing energy";
-  skos:prefLabel "1.1.2. Use recyclable material" .
-
-:E1120 a od:EDPNode ;
-od:Advantages "Economical savings";
-  od:Disadvantages "The change of the material influences the production processes";
-  od:Father :E1100;
-  od:Goal "Reduce mass and volume of raw material";
-  od:Id "RawMaterialPM";
-  od:hasLevel "Level_2";
-  skos:narrower :E1121;
-  skos:prefLabel "1.2. Modify raw material" .
-
-:E1121 a od:EDPNode ;
-skos:example "Use FEM optimisation software";
-  od:Father :E1120;
-  od:hasLevel "Level_3";
-  od:Suggestion "Redesign the geometry of the finshed component, lighter and the smaller volume. In case you can use standard supply use optimization tools in order to choose the smallest and lightest one.";
-  skos:prefLabel "1.2.1 Reduction of raw material mass and volume" .
-
-:E1130 a od:EDPNode ;
-od:Advantages "Economy of scale";
-  od:Disadvantages "Modularity";
-  od:Father :E1100;
-  od:Goal "Use pre-manufactured material in order to reduce your operation";
-  od:Id "PreManufacturedMaterialPM";
-  od:hasLevel "Level_2";
-  skos:narrower :E1131;
-  skos:prefLabel "1.3. Use pre-manufactured material" .
-
-:E1131 a od:EDPNode ;
-skos:example "Buy T-shape beam instead of welding two plates";
-  skos:example "Buy the material with the right over-Metal";
-  od:Father :E1130;
-  od:hasLevel "Level_3";
-  od:Suggestion "Purchase already  pre-manufactured material having most similar geometry to final product";
-  skos:prefLabel "1.3.1 Use pre-manufactured material" .
-
-:E1200 a od:EDPNode ;
-od:Class "Packaging";
-  od:Father :E1000;
-  od:Id "PackagingPM";
-  od:hasLevel "Level_1";
-  skos:prefLabel "2. Packaging" .
-
-:E1210 a od:EDPNode ;
-od:Advantages "Favors the end of life, safeguard resources";
-  od:Disadvantages "Performance of eco-friendly material might lower than others one";
-  od:Father :E1200;
-  od:Goal "Use a more eco-friendly material for the packaging";
-  od:Id "MaterialPM";
-  od:hasLevel "Level_2";
-  skos:narrower :E1211;
-  skos:prefLabel "2.1. Change material" .
-
-:E1211 a od:EDPNode ;
-skos:example "Tissued made with recycled paper";
-  od:Father :E1210;
-  od:hasLevel "Level_3";
-  od:LinkModule "Calculate material score";
-  od:Suggestion "Choose a low impact material: use biodegradable, low energy materials, recycled materials or lightweight materials";
-  skos:prefLabel "2.1.1. Use material with low environmental impact" .
-
-:E1220 a od:EDPNode ;
-od:Disadvantages "Packaging minimization can reduce its reliability";
-  od:Father :E1200;
-  od:Goal "Reduce the packaging of the raw material, use it only where/when is needed and only in exact quantity";
-  od:Id "ReduceTheMassPM";
-  od:hasLevel "Level_2";
-  skos:narrower :E1221;
-  skos:narrower :E1222;
-  skos:narrower :E1223;
-  skos:prefLabel "2.2. Reduce the mass" .
-
-:E1221 a od:EDPNode ;
-skos:example "Solid  inks: the cartridge has been  eliminated";
-  skos:example "The packaging is already included  in  the product: Scratch-proof glass";
-  od:Father :E1220;
-  od:hasLevel "Level_3";
-  od:Suggestion "Think about products that don't need packaging (the packaging is already included in the product)";
-  skos:prefLabel "2.2.1. Eliminate the entire packaging" .
-
-:E1222 a od:EDPNode ;
-skos:example "Nestlè redesign the bottle and cap to  make them lighter. Also narrowed the  label. ";
-  skos:example "Procter & Gamble introduced a stand-  alone rigid tube. So it was been  possible  eliminate the box";
-  od:Father :E1220;
-  od:hasLevel "Level_3";
-  od:Suggestion "Use raw material packaging only when/where is needed and in only exact quantity. To do this you can use optimization tool, trimming, TRIZ operative zone, explore other technologies.";
-  skos:prefLabel "2.2.2. Reduce raw material packaging" .
-
-:E1223 a od:EDPNode ;
-skos:example "Use plexiglass instead of glass";
-  od:Father :E1220;
-  od:hasLevel "Level_3";
-  od:Suggestion "Change raw material to be protected by packaging or modify its shape in order to increase its strength during transport and to eliminate or reduce the packaging of the raw material";
-  skos:prefLabel "2.2.3. Modify raw material to be protected" .
-
-:E1230 a od:EDPNode ;
-od:Advantages "Aving money, Conservation of resources";
-  od:Disadvantages "Packaging request redesign";
-  od:Father :E1200;
-  od:Goal "Reduce the volume of packaging, only where/when is needed and only in exact quantity";
-  od:Id "ActOnShapeAndVolumePM";
-  od:hasLevel "Level_2";
-  skos:narrower :E1231;
-  skos:prefLabel "2.3. Reduce the volume" .
-
-:E1231 a od:EDPNode ;
-skos:example "Flexible  tubes";
-  skos:example "Foldable box";
-  od:Father :E1230;
-  od:Img1 "FlexibleTubes";
-  od:hasLevel "Level_3";
-  od:Suggestion "Try to dynamize packaging (i.e. increase the degree of freedom). Allow a packaging or object to change the volume taken up as function of working conditions. Split the packaging into parts able to move independently. Improve the adaptability of the packaging: from hard to soft, from rigid to elastic, from fixed to flexible, from slow to rapidly changing, from single element to multiparts. Go from solid packaging to liquid, gas, up to field.";
-  skos:prefLabel "2.3.1. Dynamize the raw packaging" .
-
-:E1240 a od:EDPNode ;
-od:Advantages "Resource protection, reduction costs";
-  od:Disadvantages "Packaging reuse need its management during non-usage phases";
-  od:Father :E1200;
-  od:Goal "Allow the reuse of packaging raw material";
-  od:Id "ActOnDurabilityPM";
-  od:hasLevel "Level_2";
-  skos:narrower :E1241;
-  skos:narrower :E1242;
-  skos:narrower :E1243;
-  skos:prefLabel "2.4. Improve packaging durability" .
-
-:E1241 a od:EDPNode ;
-skos:example "Glass bottles and tanks for methane gas";
-  skos:example "Europallets";
-  od:Father :E1240;
-  od:hasLevel "Level_3";
-  od:Suggestion "Reuse the same packaging in the same way";
-  skos:prefLabel "2.4.1. Reuse the same packaging in the same way" .
-
-:E1242 a od:EDPNode ;
-skos:example "The use of pallet in architecture to make planters, tables and chairs";
-  od:Father :E1240;
-  od:hasLevel "Level_3";
-  od:Suggestion "Reuse the same packaging for other uses, in this product life cycle. Reuse the same packaging for other uses outside this product life cycle";
-  skos:prefLabel "2.4.2. Reuse the same packaging for other uses" .
-
-:E1243 a od:EDPNode ;
-skos:example "Plastic corks are used haw ram material for plastic  industry";
-  od:Father :E1240;
-  od:hasLevel "Level_3";
-  od:Suggestion "Restore the packaging material or its raw conditions";
-  skos:prefLabel "2.4.3. Recycle the packaging" .
-
-:E1250 a od:EDPNode ;
-od:Advantages "Favors the end of life, safeguards resources";
-  od:Disadvantages "Performance of eco-friendly material might lower than others one";
-  od:Father :E1200;
-  od:Goal "Redesign packaging in order to reduce raw material deterioration during stocking";
-  od:Id "MaterialDurabilityPM";
-  od:hasLevel "Level_2";
-  skos:narrower :E1251;
-  skos:prefLabel "2.5. Modify packaging to increase raw material durability" .
-
-:E1251 a od:EDPNode ;
-skos:example "Controlled atmosphere, vacuum, deep freeze, sterilization";
-  od:Father :E1250;
-  od:hasLevel "Level_3";
-  od:Suggestion "If the goods are perishable, use appropriate storage techniques in order to avoid erosion in metals, evaporation in liquids, change color of plastic, etc.";
-  skos:prefLabel "2.5.1. Redesign packaging" .
-
-:E1300 a od:EDPNode ;
-od:Class "Logistic";
-  od:Father :E1000;
-  od:Id "TransportPM";
-  od:hasLevel "Level_1";
-  skos:prefLabel "3. Transport" .
-
-:E1310 a od:EDPNode ;
-od:Disadvantages "Possible costs increasing";
-  od:Father :E1300;
-  od:Goal "Choose the supplier with the lowest pollution score.";
-  od:Id "UseEfficientlyTransportsPM";
-  od:hasLevel "Level_2";
-  skos:narrower :E1311;
-  skos:prefLabel "3.1. Use efficient transports" .
-
-:E1311 a od:EDPNode ;
-skos:example "Use train instead of trucks";
-  skos:example "Use hybrid trucks";
-  od:Father :E1310;
-  od:hasLevel "Level_3";
-  od:LinkModule "Calculate transport score";
-  od:Suggestion "The choice of suppliers when it is not obliged by reasons of monopoly and/or costs, must take into account the combination of the distance (Dist), the means of transport (Means) and the kind of transport and possible treatments on transported substances";
-  skos:prefLabel "3.1.1. Chose transport with low environmental impact" .
-
-:E1320 a od:EDPNode ;
-od:Advantages "Savings income, Avoiding usefull workings";
-  od:Disadvantages "Risk to limit excessively the number of choices";
-  od:Father :E1300;
-  od:Goal "Minimize the route of raw material";
-  od:Id "OptimizeLogisticPM";
-  od:hasLevel "Level_2";
-  skos:narrower :E1321;
-  skos:narrower :E1322;
-  skos:prefLabel "3.2. Optimize logistic" .
-
-:E1321 a od:EDPNode ;
-skos:example "Chose the shortest route for distance";
-  skos:example "Chose the shortest route in time";
-  od:Father :E1320;
-  od:hasLevel "Level_3";
-  od:Suggestion "Minimize the environmental impact of the transport by chosing the route with lowest environmental impact. Change the transportation mean if necessary";
-  skos:prefLabel "3.2.1. Chose better route for the transport" .
-
-:E1322 a od:EDPNode ;
-od:Father :E1320;
-  od:hasLevel "Level_3";
-  od:Suggestion "Redesign the supply chain in order to reduce the route of the raw material, by chosing closer supplier and customers and by positioning the warehouses in strategic positions";
-  skos:prefLabel "3.2.2. Redesign the supply chain" .
-
-:E1330 a od:EDPNode ;
-od:Advantages "Reducing transportation costs, less resources dedicated to transportation, emissions reduction";
-  od:Disadvantages "Optimization of the load causes less tolerance on the transportation volume.";
-  od:Father :E1300;
-  od:Goal "Reduction of the number of supply transportation of the raw material";
-  od:Id "OptimizeTheLoadPM";
-  od:hasLevel "Level_2";
-  skos:narrower :E1331;
-  skos:narrower :E1332;
-  skos:prefLabel "3.3. Reduce the volume of the load" .
-
-:E1331 a od:EDPNode ;
-skos:example "Changing shape: the use of rectangular cans allows a better use of the space";
-  skos:example "Nested container";
-  od:Father :E1330;
-  od:Img1 "VolumeLoad";
-  od:hasLevel "Level_3";
-  od:Suggestion "Divide the load into independent parts or make the object divisible in order to stack up than in a lightest/smallest transport mean. Reduce the free spaces between raw material objects. Nest little object into largest one";
-  skos:prefLabel "3.3.1. Reduce the free spaces of the load" .
-
-:E1332 a od:EDPNode ;
-skos:example "Liquid oxygen, transported into pressurized cylinders. It saves space and improves the security of transport than gaseous oxygen one";
-  skos:example "Rice vacuum: in addition to satisfy organoleptic requirements, eliminating the space normally occupied by the air.";
-  od:Father :E1330;
-  od:Img1 "LiquidOxygen";
-  od:Suggestion "Act on physical variable in order to change the load material physical state, concentration or density";
-  skos:prefLabel "3.3.2. Reduce the volume of the raw material" .
-
-:E1340 a od:EDPNode ;
-od:Advantages "Increased quality, no over-production, Customer Satisfaction";
-  od:Disadvantages "Safer transport system mights specific transport means so increased cost";
-  od:Father :E1300;
-  od:Goal "Prevent the raw material damages caused by the transportation events (e.g. Bumpy road) or accidents in order to not waste it";
-  od:Id "ReduceTheTransportationRiskPM";
-  od:hasLevel "Level_2";
-  skos:narrower :E1341;
-  skos:narrower :E1342;
-  skos:narrower :E1343;
-  skos:prefLabel "3.4. Prevent raw material damages during transport" .
-
-:E1341 a od:EDPNode ;
-skos:example "Use a list";
-  od:Father :E1340;
-  od:hasLevel "Level_3";
-  od:Suggestion "Select the proper transport mean (ship, train, camion). Select the proper kind of transport (e.g. Refrigerator truck)";
-  skos:prefLabel "3.4.1. Chose the right transport mean in relation to the carried raw material" .
-
-:E1342 a od:EDPNode ;
-skos:example "Petroleum ship with compartmentalized tankers";
-  skos:example "Twin tyres for trucks";
-  od:Father :E1340;
-  od:Suggestion "Modify the transport mean components that are in direct contact with the raw material or not";
-  skos:prefLabel "3.4.2. Modify the transport mean" .
-
-:E1343 a od:EDPNode ;
-skos:example "Active packaging: used in catering, to avoid the environmental conditions can spoil the food packaged.";
-  skos:example "Anti corrosion packaging.";
-  od:Father :E1340;
-  od:hasLevel "Level_3";
-  od:Suggestion "Transfer the preservation function done by transportation mean to the packaging";
-  skos:prefLabel "3.4.3. Assigns the protective function of the means of transport to other components" .
-
-:E2000 a od:EDPNode ;
-  od:Id "Manufacturing";
-  owl:SameAs edc:Manufacturing; 
-  od:hasLevel "Level_0";
-  skos:prefLabel "Manufacturing" .
-
-:E2100 a od:EDPNode ;
-od:Father :E2000;
-  od:Id "ReduceAuxiliaryMaterialsM";
-  od:hasLevel "Level_1";
-  skos:prefLabel "1. Machineries" .
-
-:E2110 a od:EDPNode ;
-od:Disadvantages "Investements are required. Current Service plant may be inadeguate.  ";
-  od:Father :E2100;
-  od:Goal "Choose most efficient machines";
-  od:Id "ChangeMachinesM";
-  od:hasLevel "Level_2";
-  skos:narrower :E2111;
-  skos:narrower :E2112;
-  skos:prefLabel "1.1. Change machinery" .
-
-:E2111 a od:EDPNode ;
-skos:example "See European Union energy label to find a machinery with less consumption";
-  od:Father :E2110;
-  od:hasLevel "Level_3";
-  od:Suggestion "Replace current machine with another one having less energy/material consumption or that exploits a lower impact energy/material.";
-  skos:prefLabel "1.1.1. Replace the machineries with a less impact one" .
-
-:E2112 a od:EDPNode ;
-skos:example "Substitute a milling machine and a lathe with a CNC station";
-  od:Father :E2110;
-  od:Img1 "CNC";
-  od:hasLevel "Level_3";
-  od:Suggestion "Combine two machineries in one in order to reduce the overall consumption through the use of common parts";
-  skos:prefLabel "1.1.2. Combine two machineries" .
-
-:E2120 a od:EDPNode ;
-od:Disadvantages "The others parts may request modifications";
-  od:Father :E2100;
-  od:Goal "Improve the performance through a single part modification. (consider as a part also the consumable materials)";
-  od:Id "ChangeComponentsM";
-  od:hasLevel "Level_2";
-  skos:narrower :E2121;
-  skos:narrower :E2122;
-  skos:prefLabel "1.2. Modify machinery components" .
-
-:E2121 a od:EDPNode ;
-skos:example "Grinding machine use a magnetic field to block the working pieces (no protection materials for pieces into the vise,..)";
-  skos:example "Use machines with systems of centralized lubricant";
-  od:Father :E2120;
-  od:hasLevel "Level_3";
-  od:Suggestion "Move the part function to other parts of the machine (supersystem). Make the function as the part useless";
-  skos:prefLabel "1.2.1. Eliminate the component" .
-
-:E2122 a od:EDPNode ;
-skos:example "See European Union energy label to find a component able to decrease the machinery consumption";
-  od:Father :E2120;
-  od:hasLevel "Level_3";
-  od:Suggestion "Make the part with eco-friendly materials. Improve the efficiency of an energy/material consuming part. Substitute regularly the components that uses consumable materials.";
-  skos:prefLabel "1.2.2. Replace the component with a less impact one" .
-
-:E2130 a od:EDPNode ;
-od:Disadvantages "Continuous maintenance required, possible generation of exhausted components to dispose";
-  od:Father :E2100;
-  od:Goal "Substitute components of the machine that affect the use of the auxiliary materials with others equal";
-  od:Id "ChooseLowPowerToolsM";
-  od:hasLevel "Level_2";
-  skos:narrower :E2131;
-  skos:narrower :E2132;
-  skos:prefLabel "1.3. Substitute machine components" .
-
-:E2131 a od:EDPNode ;
-skos:example "An oil separator with new filters extends the life of lubricating oil in a milling machine";
-  od:Father :E2130;
-  od:hasLevel "Level_3";
-  od:Suggestion "Upgrade regularly the machine by substituting old components with newst ones in order to reduce the consumption of the auxiliary components";
-  skos:prefLabel "1.3.1. Substitute regularly the components" .
-
-:E2132 a od:EDPNode ;
-skos:example "Regenerable insert tool";
-  od:Father :E2130;
-  od:Img1 "RegenerableTools";
-  od:hasLevel "Level_3";
-  od:Suggestion "Regenerate component after use. Choose machine tools or service plants using regenerable and renewable materials and components";
-  skos:prefLabel "1.3.2. Regenerate the components" .
-
-:E2200 a od:EDPNode ;
-od:Father :E2000;
-  od:Id "OptimizeProductDuringManufacturingM";
-  od:hasLevel "Level_1";
-  skos:prefLabel "2. Redesign the product" .
-
-:E2210 a od:EDPNode ;
-od:Disadvantages "Product modification could not be compatible with project specifications";
-  od:Father :E2200;
-  od:Goal "Change the shape of the product and its components in order to reduce environmental impact during manufacturing";
-  od:Id "RedesignProductForManufacturing";
-  od:hasLevel "Level_2";
-  skos:narrower :E2211;
-  skos:prefLabel "2.1. Redesign the product in order to minimize environmental impact during manufacturing" .
-
-:E2211 a od:EDPNode ;
-skos:example "Redesign product shape in order to reduce the volume of the sprous during the foundry";
-  od:Father :E2210;
-  od:hasLevel "Level_3";
-  od:Suggestion "Change the final shape of the product in order to facilitate production processes in order to make them less environmental impactful";
-  skos:prefLabel "2.1.1. Redesign the product in order to minimize environmental impact during manufacturing" .
-
-:E2220 a od:EDPNode ;
-od:Disadvantages "Product modification could not be compatible with project specifications";
-  od:Father :E2200;
-  od:Goal "Change the shape of the product and its components in order to reduce environmental impact during assembly";
-  od:Id "RedesignProductForAssembly";
-  od:hasLevel "Level_2";
-  skos:narrower :E2212;
-  skos:prefLabel "2.2. Redesign the product in order to minimize environmental impact during assembly" .
-
-:E2212 a od:EDPNode ;
-skos:example "Minimize the length of the flaps for welding condon in order to minimize the feed material";
-  od:Father :E2210;
-  od:Img1 "Welding";
-  od:hasLevel "Level_3";
-  od:Suggestion "Change the shape of the product's components in order to reduce the environmental impact during assembly, by paying particulaqr attenction to the component's common interfaces";
-  skos:prefLabel "2.1.2. Redesign the product in order to minimize environmental impact during assembly" .
-
-:E2220 a od:EDPNode ;
-od:Disadvantages "Product modification could not be compatible with project specifications";
-  od:Father :E2200;
-  od:Goal "Change the shape of the product and its components in order to reduce environmental impact by make it repairable";
-  od:Id "RedesignProductForRepairability";
-  od:hasLevel "Level_2";
-  skos:prefLabel "2.2.  Redesign the product in order to make it repairable" .
-
-:E2300 a od:EDPNode ;
-od:Father :E2000;
-  od:Id "OptimizeTheManufacturingProcessM";
-  od:hasLevel "Level_1";
-  skos:prefLabel "3. Redesign the process" .
-
-:E2310 a od:EDPNode ;
-od:Disadvantages "Possible purchase of new machinery";
-  od:Father :E2300;
-  od:Goal "Minimize the environmental impact by changing the manufacturing process";
-  od:Id "ModifyTheManufacturingProcessM";
-  od:hasLevel "Level_2";
-  skos:narrower :E2311;
-  skos:prefLabel "3.1. Modify the single stages during manufacturing process" .
-
-:E2311 a od:EDPNode ;
-skos:example "The Pringles Frying Furnace was eliminated. Oil-free raw chips go directly into the press where they fry due to the high temperatures reached during the compression";
-  od:Father :E2310;
-  od:Img1 "Pringles";
-  od:hasLevel "Level_3";
-  od:Suggestion "Eliminate most impactfull stages. Merge two stages into one less environmental impactfull. Substitute operations with others more eco-friendly";
-  skos:prefLabel "3.1.1. Modify the single stages during manufacturing process" .
-
-:E2400 a od:EDPNode ;
-od:Father :E2000;
-  od:Id "RedesignProductionProcessesM";
-  od:hasLevel "Level_1";
-  skos:prefLabel "4. Redesign production plant" .
-
-:E2410 a od:EDPNode ;
-od:Disadvantages "Replacement of the machinery, costs, possible modifications in the layout";
-  od:Father :E2400;
-  od:Goal "Increse production quality (reduce defective parts) in order to minimize the environemental impact connected to them";
-  od:Id "ReduceWastePiecesM";
-  od:hasLevel "Level_2";
-  skos:prefLabel "4.1. Reduce waste pieces" .
-
-:E2420 a od:EDPNode ;
-od:Disadvantages "Designing requires investment, structural constraints affecting the optimization";
-  od:Father :E2400;
-  od:Goal "Reorganize the layout in order to reduce the environmental impact caused by the movimentation of the material";
-  od:Id "ReorganizeTheLayoutM";
-  od:hasLevel "Level_2";
-  skos:narrower :E2421;
-  skos:prefLabel "4.2. Reorganize the layout" .
-
-:E2421 a od:EDPNode ;
-skos:example "Use spaghetti chart";
-  od:Father :E2420;
-  od:Img1 "SpaghettiPlot";
-  od:hasLevel "Level_3";
-  od:Suggestion "Optimize warehouse and Space Management. Optimize order sequences to reduce picking costs, to efficiently employ personnel and to quicken and balance process orders. Dynamic reorganization of articles depending on order frequency data, article properties like size or weight, campaign dependant demand fluctuation, recurring order patterns, standardized methods time measurement, consideration of expenses for storage and stock transfers. Minimize setup time, modify the product to better adapt to production processes, share more operations on the same machine, reduce the movements. Optimize matherial flows";
-  skos:prefLabel "4.2.1. Optimize internal lay out" .
-
-:E2500 a od:EDPNode ;
-od:Father :E2000;
-  od:Id "ReduceEmissionsM";
-  od:hasLevel "Level_1";
-  skos:prefLabel "5. Reduce pollutants" .
-
-:E2510 a od:EDPNode ;
-od:Disadvantages "Costs";
-  od:Father :E2500;
-  od:Goal "Recuce gaseous, liquid and solid pollutants out of the system";
-  od:Id "ReducePollutionM";
-  od:hasLevel "Level_2";
-  skos:prefLabel "5.1. Reduce pollutants" .
-
-:E3000 a od:EDPNode ;
-  od:Id "ProductUse";
-  owl:sameAs edc:ProductUse; 
-  od:hasLevel "Level_0";
-  skos:prefLabel "Product Use" .
-
-:E3100 a od:EDPNode ;
-od:Father :E3000;
-  od:Id "ReduceAuxiliaryComponentsAndMaterialsPU";
-  od:hasLevel "Level_1";
-  skos:prefLabel "1. Reduce auxiliary substances" .
-
-:E3110 a od:EDPNode ;
-od:Advantages "Easy use in different contest; make stand alone-product";
-  od:Disadvantages "Knowledge and applicability of new technologies";
-  od:Father :E3100;
-  od:Goal "Less use of helping components";
-  od:Id "AvoidAuxiliaryComponents";
-  od:hasLevel "Level_2";
-  skos:narrower :E3111;
-  skos:narrower :E3112;
-  skos:narrower :E3113;
-  skos:prefLabel "1.1. Avoid auxiliary components" .
-
-:E3111 a od:EDPNode ;
-skos:example "Solar car uses sun instead of fuel fo work";
-  od:Father :E3110;
-  od:hasLevel "Level_3";
-  od:Suggestion "Change technology the product work with to make it independent, maintaining the same function of the product. Take advantage of patents and bet practices";
-  skos:prefLabel "1.1.1. Make the product independent" .
-
-:E3112 a od:EDPNode ;
-skos:example "Epson printer ecotank inkject does not use ink cartridges. The inks are injected in internal tanks";
-  od:Father :E3110;
-  od:hasLevel "Level_3";
-  od:Suggestion "Attribute the functions of auxiliary materials to be eliminate to other auxiliary materials";
-  skos:prefLabel "1.1.2. Eliminate components" .
-
-:E3113 a od:EDPNode ;
-skos:example "Wi-Fi internet connection instead of LAN cables";
-  od:Father :E3110;
-  od:hasLevel "Level_3";
-  od:Suggestion "Replace auxiliary components with mechanical, thermodynamic, chemical, magnetic effects";
-  skos:prefLabel "1.1.3. Dematerializing the auxiliary components" .
-
-:E3120 a od:EDPNode ;
-od:Advantages "Best use of resources; reduce waste";
-  od:Disadvantages "Product suited to the context of use";
-  od:Father :E3100;
-  od:Goal "Efficient use of auxiliary materials";
-  od:Id "ReduceAuxiliaryComponentsAndMaterialsPU";
-  od:hasLevel "Level_2";
-  skos:narrower :E3121;
-  skos:narrower :E3122;
-  skos:narrower :E3123;
-  skos:prefLabel "1.2. Reduce auxiliary components" .
-
-:E3121 a od:EDPNode ;
-skos:example "Prepeat printer prints on sheet delating what it's been printed before on it. So as to reduce use of auxiliary materials (paper)";
-  skos:example "Recycling the cooling fluid through a recirculation pump";
-  od:Father :E3120;
-  od:hasLevel "Level_3";
-  od:Suggestion "Choose machine tools or service plants using regenerable and renewable materials and components";
-  skos:prefLabel "1.2.1. Rationalize the use" .
-
-:E3122 a od:EDPNode ;
-skos:example "LED bulb with high eneretic performance, high quality and long duration";
-  od:Father :E3120;
-  od:hasLevel "Level_3";
-  od:Suggestion "Improve energy performances to use them less time";
-  skos:prefLabel "1.2.2. Improve energy performances" .
-
-:E3123 a od:EDPNode ;
-skos:example "Hybrid system of washbasin or washing machine and toilet bowl: water used in the washbashin or washing machines is collected and later used to flush the toilet";
-  od:Father :E3120;
-  od:hasLevel "Level_3";
-  od:Suggestion "Integrate technologies to reduce waste of auxiliary materials";
-  skos:prefLabel "1.2.3. Discretize the use" .
-
-:E3200 a od:EDPNode ;
-od:Father :E3000;
-  od:Id "RemoveDangerousSubstancesPU";
-  od:hasLevel "Level_1";
-  skos:prefLabel "2. Remove dangerous substances" .
-
-:E3210 a od:EDPNode ;
-od:Advantages "Environmental protection";
-  od:Disadvantages "Require change in technology and search of new materials";
-  od:Father :E3200;
-  od:Goal "Remove inclusion of dangerous material in product";
-  od:Id "RemoveDangerousMaterialsPU";
-  od:hasLevel "Level_2";
-  skos:narrower :E3211;
-  skos:prefLabel "2.1. Remove dangerous materials" .
-
-:E3211 a od:EDPNode ;
-skos:example "Digital thermometer measures fever without using mercury that could be dangerous for humans. ";
-  skos:example "Biosolex toys for kids are made with bamboo or recycled paper and do not contain dangerous substances like phthalate";
-  od:Father :E3210;
-  od:hasLevel "Level_3";
-  od:Suggestion "Replace dangerous materials with other substances";
-  skos:prefLabel "2.1.1. Remove dangerous materials" .
-
-:E3220 a od:EDPNode ;
-od:Advantages "Protection of the global environment";
-  od:Disadvantages "Technological limitations do not eliminate problems arise, request maintenance";
-  od:Father :E3200;
-  od:Goal "Minimize the impact, avoid environmental dispersion";
-  od:Id "ReduceEnvironmentalProblemsPU";
-  od:hasLevel "Level_2";
-  skos:narrower :E3221;
-  skos:prefLabel "2.2. Reduce environmental problems" .
-
-:E3221 a od:EDPNode ;
-skos:example "Include security systems in work environment such as system safe tainer that delivers systems with closed loop to protect workers and location. It consistes of two steel tanks that allow to transfer existing solvent without pouring out dangerous emissions";
-  skos:example "Improve air in location like natural filter bel air that improves air quality and purifies because it absorbs toxic substances products like carpet or paint emanate";
-  od:Father :E3220;
-  od:hasLevel "Level_3";
-  od:Suggestion "Active product generates emissions during its use, expecially in domestic environment. Isolate the dangerous components (CuO, Al2O3, formaldehyde)";
-  skos:prefLabel "2.2.1. Reduce environmental problems" .
-
-:E3300 a od:EDPNode ;
-od:Class "Packaging";
-  od:Father :E3000;
-  od:Id "RethinkThePackagingPU";
-  od:hasLevel "Level_1";
-  skos:prefLabel "3. Rethink the packaging" .
-
-:E3310 a od:EDPNode ;
-od:Advantages "Protected resources, cost reduction";
-  od:Disadvantages "Reusable material, respect of teh standard";
-  od:Father :E3300;
-  od:Goal "Allow the packaging reuse";
-  od:Id "ActOnDurabilityPU";
-  od:hasLevel "Level_2";
-  skos:narrower :E3311;
-  skos:narrower :E3312;
-  skos:prefLabel "3.1. Act on durability" .
-
-:E3311 a od:EDPNode ;
-skos:example "Amazon box use the same packaging to give back the product";
-  skos:example "Packaging for glass bottle ";
-  od:Father :E3310;
-  od:hasLevel "Level_3";
-  od:Suggestion "Reuse the same packaging for more operations:";
-  skos:prefLabel "3.1.1. Reuse the same packaging for more operations" .
-
-:E3312 a od:EDPNode ;
-skos:example "Nutella glass";
-  od:Father :E3310;
-  od:hasLevel "Level_3";
-  od:Suggestion "Explore new functionalities or modularities of the packaging of the product";
-  skos:prefLabel "3.1.2. Reuse the same packaging in different ways" .
-
-:E3320 a od:EDPNode ;
-od:Advantages "Less cost of transport and less material costs";
-  od:Disadvantages "Possible decrease of robustness";
-  od:Father :E3300;
-  od:Goal "Make the packaging lighter";
-  od:Id "ReduceTheMassPU";
-  od:hasLevel "Level_2";
-  skos:narrower :E3321;
-  skos:narrower :E3322;
-  skos:prefLabel "3.2. Reduce the mass" .
-
-:E3321 a od:EDPNode ;
-skos:example "Body shower + shampoo: join more than one product in a unique one combining functions to reduce the mass of the packaging using a similar plastic packaging";
-  skos:example "Minimum packaging for bicycle shipment";
-  od:Father :E3320;
-  od:hasLevel "Level_3";
-  od:Suggestion "Minimize the mass of the packaging with an appropriate product project (a multifunctional product)";
-  skos:prefLabel "3.2.1. Use the same material" .
-
-:E3322 a od:EDPNode ;
-skos:example "Tetra Recart packaging: lightweight and required minimum amount of resources; it weights 64% less than a can. Economic, emissions of CO2 and transport saving. The packaging are made by a renewable material";
-  od:Father :E3320;
-  od:hasLevel "Level_3";
-  od:Suggestion "Use a material that reduces the mass of the packaging to minimize transport costs, and choose a sustainable material (recycling)";
-  skos:prefLabel "3.2.2. Change material" .
-
-:E3330 a od:EDPNode ;
-od:Advantages "Optimization of the space, reduction of the transport impact";
-  od:Father :E3300;
-  od:Goal "Restrict imact modifying shape and volume";
-  od:hasLevel "Level_2";
-  skos:narrower :E3331;
-  skos:prefLabel "3.3. Act on shape and volume" .
-
-:E3331 a od:EDPNode ;
-skos:example "Piled packaging reduces the volume of the load that needs to be transport and it minimizes the overall contribution for the transport and the storage of the product";
-  skos:example "Packaging of a gardening product: it substitutes the multiple packagin (primary with blister) with a packaging where a hole has been obtained for the blister";
-  od:Father :E3330;
-  od:hasLevel "Level_3";
-  od:Suggestion "Change the product shape, let and facilitate disposal and distribution";
-  skos:prefLabel "3.3.1 Act on shape and volume" .
-
-:E3400 a od:EDPNode ;
-od:Class "Energy MoveProduct";
-  od:Father :E3000;
-  od:Id "ReduceEnergyConsumptionProductPU";
-  od:hasLevel "Level_1";
-  skos:prefLabel "4. Reduce energy consumption" .
-
-:E3410 a od:EDPNode ;
-od:Advantages "Reduction of emissions, energy cost reduction";
-  od:Father :E3400;
-  od:Goal "Reduce electrical energy consumption";
-  od:Id "ReduceConsumptionOfEnergyPU";
-  od:hasLevel "Level_2";
-  skos:narrower :E3411;
-  skos:narrower :E3412;
-  skos:prefLabel "4.1. Reduce the consumption of energy required" .
-
-:E3411 a od:EDPNode ;
-skos:example "Energy class range: check the class of the household electrical appliances. A stands for the most efficient energy consumption";
-  skos:example "Daewoo Air Power Z washing machine: it has new washing technology based on cold water and air. In this way the laundry can be done without heating the water that normally uses most of the required energy";
-  od:Father :E3410;
-  od:hasLevel "Level_3";
-  od:Suggestion "Convert energy only when required or explore new technologies for a discretionary use of energy";
-  skos:prefLabel "4.1.1. Efficient use of energy" .
-
-:E3412 a od:EDPNode ;
-skos:example "Solar cookit is a parabolic system that uses sun to heat and cook. It is equipped with a pack covered by aluminium film";
-  od:Father :E3410;
-  od:hasLevel "Level_3";
-  od:Suggestion "Adopt alternative energies like solar energy or wind power to reduce the use of electical energy and the consequent air emission";
-  skos:prefLabel "4.1.2. Use alternative energy" .
-
-:E3420 a od:EDPNode ;
-od:Advantages "Reduction of emissions and energy-related costs";
-  od:Disadvantages "The tecnoloy can be too expensive";
-  od:Father :E3400;
-  od:Goal "Recover the energy in order to reduce the waste";
-  od:Id "RecoverTheEnergyDissipated";
-  od:hasLevel "Level_2";
-  skos:narrower :E3421;
-  skos:prefLabel "4.2. Recover dissipated energy" .
-
-:E3421 a od:EDPNode ;
-skos:example "KERS (Kinetic Energy Recovery System): it is a system to recover kinetic energy from the F1 car during braking in the form of heat. The recovered energy is stored and then it is used by the same car under acceleration. It minimizes the use of fuel translating into less atmospheric emission in the air";
-  od:Father :E3420;
-  od:hasLevel "Level_3";
-  od:Suggestion "Improve performance of energy by recovering energy dissipated for later use";
-  skos:prefLabel "4.2.1. Recover the energy dissipated" .
-
-:E3500 a od:EDPNode ;
-od:Class "MultiUse";
-  od:Father :E3000;
-  od:Id "MaintenancePU";
-  od:hasLevel "Level_1";
-  skos:prefLabel "5. Maintenance" .
-
-:E3510 a od:EDPNode ;
-od:Advantages "Minimum level of ordinary maintenance";
-  od:Father :E3500;
-  od:Goal "Realize a product that requires few maintenance";
-  od:hasLevel "Level_2";
-  skos:narrower :E3511;
-  skos:prefLabel "5.1. Reduce the need of maintenance" .
-
-:E3511 a od:EDPNode ;
-skos:example "Bestprato Festuca Arundinacea: it can withstand footsteps and it requires low maintenance; create a grassland that grows very little, can not fall ill and do not need intence irrigation";
-  skos:example "Laser printers Kyocera: they have drums as durable as the machine life. Consequent low maintenance and less replacement of these parts. Saving costs";
-  od:Father :E3510;
-  od:hasLevel "Level_3";
-  od:Suggestion "Make a product that maintains itself or harmonize component life";
-  skos:prefLabel "3.5.1 Reduce the need of maintenance" .
-
-:E3520 a od:EDPNode ;
-od:Advantages "Intervene before problems occur";
-  od:Father :E3500;
-  od:Goal "Know usury condition of the product";
-  od:hasLevel "Level_2";
-  skos:narrower :E3521;
-  skos:prefLabel "5.2. Make the maintenance proactive" .
-
-:E3521 a od:EDPNode ;
-skos:example "Rank Xerox machine: equipped with automatic systems to supervise the usury conditions of the parts that periodically needed to be substituted";
-  skos:example "Oil indicator";
-  od:Father :E3520;
-  od:hasLevel "Level_3";
-  od:Suggestion "Introduce indicators that allow to know product state, in order to plan the necessary actions on time";
-  skos:prefLabel "5.2.1. Make the maintenance proactive" .
-
-:E3530 a od:EDPNode ;
-od:Advantages "Extend life of product, repairable impact less than building new products";
-  od:Disadvantages "Redesign like modular product";
-  od:Father :E3500;
-  od:Goal "Give a chance to the product to be repaired";
-  od:hasLevel "Level_2";
-  skos:narrower :E3531;
-  skos:prefLabel "5.3. Design repairable product" .
-
-:E3531 a od:EDPNode ;
-skos:example "Workstation Apple PowerMac G5: it has easy reachable internal components. Designed to facilitate update and replacement of the components like RAM and video card";
-  skos:example "La Sportiva boot: the sole can be removed and repaired to extend boot life. Consequent reduction of consumption instead of realizing a new boot";
-  od:Father :E3530;
-  od:hasLevel "Level_3";
-  od:Suggestion "Design easy sustituible components";
-  skos:prefLabel "5.3.1. Design repairable product" .
-
-:E3540 a od:EDPNode ;
-od:Advantages "Extend product life";
-  od:Father :E3500;
-  od:Goal "Allow the product to be updated";
-  od:hasLevel "Level_2";
-  skos:narrower :E3541;
-  skos:prefLabel "5.4. Realize modular product" .
-
-:E3541 a od:EDPNode ;
-skos:example "Computer software or smartphone app: allow the product update and the bug correction also after having bought the product";
-  skos:example "Computer Mentis: it is composed by 3 parts, beyond screen. Each once can be replaced independently of others by following its technological development";
-  od:Father :E3540;
-  od:hasLevel "Level_3";
-  od:Suggestion "Use standardized connections and therefore make the product modular";
-  skos:prefLabel "5.4.1. Realize modular product" .
-
-:E3600 a od:EDPNode ;
-od:Class "Logistic";
-  od:Father :E3000;
-  od:Id "DistributionPU";
-  od:hasLevel "Level_1";
-  skos:prefLabel "6. Distribution" .
-
-:E3610 a od:EDPNode ;
-od:Advantages "Reduction of transport with economic benefits and reduction of CO2  emissions";
-  od:Father :E3600;
-  od:Goal "Fix the starting hubs (suppliers) and arrival hubs (customers), known the product features  and the demand time-space profile ";
-  od:hasLevel "Level_2";
-  skos:narrower :E3611;
-  skos:narrower :E3612;
-  skos:narrower :E3613;
-  skos:prefLabel "6.1. Optimize logistic" .
-
-:E3611 a od:EDPNode ;
-skos:example "Product value (euro/kg): if it is high, the effect of transport cost is low and it is better to have a unique warehouse to serve the entire country. If it is low, it is better to have more stock because of the presence of more warehouses that are served directly from plants or from harbour with full load";
-  od:Father :E3610;
-  od:hasLevel "Level_3";
-  od:Suggestion "Know density, value, status, packaging, dangerousness, product substitution";
-  skos:prefLabel "6.1.1. Features of goods" .
-
-:E3612 a od:EDPNode ;
-skos:example "Analyze the temporal profile of demand: evaluate the present of stagionarity and the consequent use of outsouring logistic";
-  skos:example "Analysys of the space profile of demand: decide a geographical distribution of demand in the delivery area.";
-  od:Father :E3610;
-  od:hasLevel "Level_3";
-  od:Suggestion "Production map: locationing of the initial hubs of shipping (production plant)";
-  od:Suggestion "Analyze the temporal and the space profile of demand and the production map";
-  skos:prefLabel "6.1.2. Features of space-time demand" .
-
-:E3613 a od:EDPNode ;
-skos:example "Order emission: if cycle supplier/customer is narrow, it is better to have warehouses near the market or faster transports. If times are larger and the delivery are ingent, they could be united in 2-5 delivery and send a complete piece that make more steps (multi-drop)";
-  skos:example "Frequence of delivery/lot: if it is big (low frequence)the delivery is made from the warehouse to the costumer in a full load. Otherwise a network of peripheral warehouses or transit points are needed to separate primary transport with long distance from the secondary distribution.";
-  od:Father :E3610;
-  od:hasLevel "Level_3";
-  od:Suggestion "Guarantee the temporary range in according with the costumers";
-  skos:prefLabel "6.1.3. Service level" .
-
-:E3620 a od:EDPNode ;
-od:Father :E3600;
-  od:Goal "Identification of the network that allows to reach the service objective, to minimize distance, transport, werehousing and stock costs";
-  od:hasLevel "Level_2";
-  skos:prefLabel "6.2. Chose logistic channel" .
-
-:E3700 a od:EDPNode ;
-od:Father :E3000;
-  od:Id "ReduceEmissionsPU";
-  od:hasLevel "Level_1";
-  skos:prefLabel "7. Reduce emissions" .
-
-:E3710 a od:EDPNode ;
-od:Advantages "Marketing impact, guaranteeing usability during restrictions";
-  od:Disadvantages "Request of expensive technologies";
-  od:Father :E3700;
-  od:Goal "Design the product with zero or low emission of pollution substances";
-  od:hasLevel "Level_2";
-  skos:prefLabel "7.1. Design product with low emission of pollution substances" .
-
-:E3800 a od:EDPNode ;
-od:Class "Logistic";
-  od:Father :E3000;
-  od:Id "ReduceMassVolumePU";
-  od:hasLevel "Level_1";
-  skos:prefLabel "8. Reduce mass and volume" .
-
-:E3810 a od:EDPNode ;
-od:Advantages "Reduction of consumption";
-  od:Father :E3800;
-  od:Goal "Reduce the mass of product during use or standby phase to reduce the consumption during movimentation";
-  od:hasLevel "Level_2";
-  skos:prefLabel "8.1. Reduce the product mass" .
-
-:E3820 a od:EDPNode ;
-od:Father :E3800;
-  od:Goal "Reduce the volume of product during use phase or standby";
-  od:hasLevel "Level_2";
-  skos:narrower :E3821;
-  skos:narrower :E3822;
-  skos:prefLabel "8.2. Reduce the product volume" .
-
-:E3821 a od:EDPNode ;
-skos:example "Touchscreen phone. The keypad was  trimmed";
-  od:Father :E3820;
-  od:hasLevel "Level_3";
-  od:Suggestion "Simplify the product trying to eliminate useless components. To do this perform a trimming activity associated with a traditional TRIZ functional analysis. To perform a functional analysis it is necessary to write the components of a system and show the functions with which they interact among them. Trimming activity consists to eliminate one or more elements and to assign their positive and essential functions to other components of the product.";
-  skos:prefLabel "8.2.1. Reduce the volume during product use phase" .
-
-:E3822 a od:EDPNode ;
-skos:example "Nested chairs";
-  skos:example "Shopping cart";
-  od:Father :E3820;
-  od:hasLevel "Level_3";
-  od:Suggestion "Design stakable and nestable systems";
-  skos:prefLabel "8.2.2. Reduce the volume during stand-by" .
-
-:E4000 a od:EDPNode ;
-  od:Id "EndOfLife";
-  owl:sameAs edc:EndOfLife; 
-  od:hasLevel "Level_0";
-  skos:prefLabel "End of Life" .
-
-:E4100 a od:EDPNode ;
-od:Father :E4000;
-  od:Id "WasteManagementEL";
-  od:hasLevel "Level_1";
-  skos:prefLabel "1. Waste management" .
-
-:E4110 a od:EDPNode ;
-od:Advantages "Reduction of raw materials, energy, air and water pollution";
-  od:Father :E4100;
-  od:Goal "Reduce waste, better sustainability of the production cycle";
-  od:Id "RecoveryOfMaterialEL";
-  od:hasLevel "Level_2";
-  skos:narrower :E4111;
-  skos:narrower :E4112;
-  skos:prefLabel "1.1. Recovery of material" .
-
-:E4111 a od:EDPNode ;
-skos:example "Esselunga uses reusable bowls for fruits and vegetables. If they are broken, their material is reused to create other bowls";
-  od:Father :E4110;
-  od:hasLevel "Level_3";
-  od:Suggestion "Reuse the same product, after a conditioning treatment, with the same functions that it carried out during its life, without adding sustantial changes";
-  skos:prefLabel "1.1.1. Reusable product" .
-
-:E4112 a od:EDPNode ;
-skos:example "Objects made by ricycled glass from different products";
-  od:Father :E4110;
-  od:hasLevel "Level_3";
-  od:Suggestion "Recover material contained in the product to make the same or others. (Closed loop/opened loop)";
-  skos:prefLabel "1.1.2. Recycle product" .
-
-:E4120 a od:EDPNode ;
-od:Advantages "Possibility of using waste as a renewable source for the production of energy";
-  od:Disadvantages "Chemical and physical knowledge";
-  od:Father :E4100;
-  od:Goal "Obtain energy from material after use";
-  od:Id "RecoveryOfEnergyEL";
-  od:hasLevel "Level_2";
-  skos:narrower :E4121;
-  skos:prefLabel "1.2. Recovery of energy" .
-
-:E4121 a od:EDPNode ;
-skos:example "Incinerator: it converts feedstock energy contained in wastes into electrical or heat energy";
-  skos:example "Gasify, pyrolisis: It obtains gaseous fuel that can be used for the production of energy";
-  od:Father :E4120;
-  od:hasLevel "Level_3";
-  od:Suggestion "Anaerobic digestion: degradation of organic substance through microorganisms. The biogas obtained in the process can be used to produce heat energy.";
-  skos:prefLabel "1.2.1 Recovery of energy" .
-
-:E4130 a od:EDPNode ;
-od:Advantages "Use of the feedstock energy in the disposed waste";
-  od:Disadvantages "Use of the space, morphological change of the territory and permanent leveling";
-  od:Father :E4100;
-  od:Goal "Recover energy through combustion of the biogas of the product";
-  od:Id "DisposalOnLandfillEL";
-  od:hasLevel "Level_2";
-  skos:narrower :E4131, :E4132;
-  skos:prefLabel "1.3. Disposal on landfill" .
-
-:E4131 a od:EDPNode ;
-skos:example "The wood used as raw material to produce paper in the paper factory ";
-  skos:example "The plastic bottle that maintaines part of the energy of the petroleum extracted from ground";
-  od:Father :E4130;
-  od:hasLevel "Level_3";
-  od:Suggestion "Enhancement of the feedstock energy: Energy contained in raw materials that during the production process is trasformed and not used as energetic source. It is knows as «calorific power».";
-  skos:prefLabel "1.3.1 Disposal on landfill" .
-
-:E4132 a od:EDPNode ;
-skos:example "Ecoplast bottle Naturalmente :  It uses a material completely  biodegradable and easily disposed in domestic wet waste";
-  od:Father :E4130;
-  od:hasLevel "Level_3";
-  od:Suggestion "Continue research of sustainable materials and ingredients that can be absorb by the ground";
-  skos:prefLabel "1.3.2 Disposal on landfill" .
-
-:E4200 a od:EDPNode ;
-od:Class "Packaging";
-  od:Father :E4000;
-  od:Id "PackagingEL";
-  od:hasLevel "Level_1";
-  skos:prefLabel "2. Packaging" .
-
-:E4210 a od:EDPNode ;
-od:Advantages "Improve sustainability, maintenance of ecological balance of the planet";
-  od:Father :E4200;
-  od:Goal "Reduce the environmental impacts";
-  od:Id "BiodegradablePackagingEL";
-  od:hasLevel "Level_2";
-  skos:prefLabel "2.1. Use a biogegradable packaging" .
-
-:E4220 a od:EDPNode ;
-od:Advantages "Sustainability";
-  od:Father :E4200;
-  od:Goal "Low environmental impact, reduce greenhouse effect";
-  od:Id "ReduceCO2EmissionsEL";
-  od:hasLevel "Level_2";
-  skos:narrower :E4221;
-  skos:prefLabel "2.2. Reduce CO2 emissions in the air during disposal" .
-
-:E4221 a od:EDPNode ;
-skos:example "PLA polylactic acid: PLA is a biodegradable plastic tipically used for packaging. It saves raw materials and it derives from the sugar of corn. It considerable reduces emission of Co2 in the air (principle cause of greenhouse effect)";
-  od:Father :E4220;
-  od:hasLevel "Level_3";
-  od:Suggestion "The emission of CO2 in the air, generated by waste combustion during the disposal, is one of the principle cause of greenhouse effect";
-  skos:prefLabel "2.2.1. Reduce CO2 emissions in the air during disposal" .
-
-:E4230 a od:EDPNode ;
-od:Advantages "Sustainability";
-  od:Father :E4200;
-  od:Goal "Reduce the mass for a minor environmental impact";
-  od:Id "ReduceTheMassEL";
-  od:hasLevel "Level_2";
-  skos:narrower :E4231;
-  skos:prefLabel "2.3. Reduce the mass" .
-
-:E4231 a od:EDPNode ;
-skos:example "Packaging Ecolean: it uses gypsum to realize packaging. It weighs 40/45% less than a paper box of the same dimensions and 55/60% less than a plastic bottle of the same size. After use the packaging can be recycled as a plastic material";
-  od:Father :E4230;
-  od:hasLevel "Level_3";
-  od:Suggestion "Adopt a material that reduces tha mass of the packaging to be disposed with the consequent less emissions of CO2 during disposal";
-  skos:prefLabel "2.3.1. Reduce the mass" .
-
-:E4300 a od:EDPNode ;
-od:Father :E4000;
-  od:Id "DisassemblyEL";
-  od:hasLevel "Level_1";
-  skos:prefLabel "3. Facilitate the disassembly" .
-
-:E4310 a od:EDPNode ;
-od:Advantages "Facilitate the maintenance  and the recovery of materials";
-  od:Disadvantages "The separation is not always advantageous because the product loses integrity";
-  od:Father :E4300;
-  od:Goal "Create modular architecture of the product";
-  od:Id "AllowSeparabilityOfMaterialsEL";
-  od:hasLevel "Level_2";
-  skos:narrower :E4311;
-  skos:prefLabel "3.1. Allow the separability of materials" .
-
-:E4311 a od:EDPNode ;
-skos:example "Tetra Top: the top can be removed and disposed in the plastic waste while the bottom in the paper waste";
-  od:Father :E4310;
-  od:hasLevel "Level_3";
-  od:Suggestion "Favor the disassembly procedures to simplify the disposal of the product";
-  skos:prefLabel "3.1.1 Allow the separability of materials" .
-
-:E4320 a od:EDPNode ;
-od:Advantages "Possibility to recover components from a product disused";
-  od:Disadvantages "Knowledge of design for disassembly required";
-  od:Father :E4300;
-  od:Goal "Create modular architecture of the product";
-  od:Id "UseConnectionsBetweenPartsEL";
-  od:hasLevel "Level_2";
-  skos:narrower :E4321;
-  skos:prefLabel "3.2. Use connections between parts" .
-
-:E4321 a od:EDPNode ;
-skos:example "Design for disassembly helps both the extension of the product life and that of the material life, by facilitating disassembly in order to reduce costs";
-  skos:example "Removable connection systems: snap-fit, screw and bolt, inserts (with rift zone)";
-  od:Father :E4320;
-  od:hasLevel "Level_3";
-  od:Suggestion "At the end of the product life, manage to separate its different materials to make them neat and resuable in other production phase (recycling, reuse)";
-  skos:prefLabel "3.2.1 Use connections between parts" .
-
-:E4400 a od:EDPNode ;
-od:Class "Logistic";
-  od:Father :E4000;
-  od:Id "DistributionEL";
-  od:hasLevel "Level_1";
-  skos:prefLabel "4. Distribution" .
-
-:E4410 a od:EDPNode ;
-od:Advantages "Facilitate the transportation, save the costs";
-  od:Father :E4400;
-  od:Goal "Reduction of the transport costs and problems";
-  od:Id "UseEfficientlyTransportsEL";
-  od:hasLevel "Level_2";
-  skos:narrower :E4411;
-  skos:prefLabel "4.1. Use efficiently transports" .
-
-:E4411 a od:EDPNode ;
-skos:example "Tetra recart: thanks to their neat rectangular shape and light weight, Tetra Recart packages are highly efficient to transport. You get 18% more filled packages on a pallet, compared to cans. And a single truck filled with empty Tetra Recart cartons corresponds to nine filled with cans. Easy use of its material for the recycling after use";
-  od:Father :E4410;
-  od:hasLevel "Level_3";
-  od:Suggestion "Choose the supplier with the lowest pollution score.The choice of suppliers when it is not obliged by reasons of monopoly and/or costs, must take into account the combination of the distance, the means of transport and the kind of transport.";
-  skos:prefLabel "4.1.1 Use efficiently transports" .
-
-:E4420 a od:EDPNode ;
-od:Advantages "Facilitate the transportation, save the costs";
-  od:Disadvantages "Costs increasing";
-  od:Father :E4400;
-  od:Goal "Reduce the weight and the volume of the material transported";
-  od:Id "ReduceTheWeightAndTheVolumeOfTheTransportEL";
-  od:hasLevel "Level_2";
-  skos:narrower :E4421;
-  skos:prefLabel "4.2. Reduce the weight and the volume of the transport" .
-
-:E4421 a od:EDPNode ;
-skos:example "Bottle Evian: plastic bottle for water with particular ribs that facilitate crushing and so the reduction space for the transport operations and collection after use";
-  od:Father :E4420;
-  od:hasLevel "Level_3";
-  od:Suggestion "Reduce the weight and the volume of the material transported";
-  skos:prefLabel "4.2.1 Reduce the weight and the volume" .
-
-:E4430 a od:EDPNode ;
-od:Advantages "The transporting phase won't be a critical process for the safety and the integrity of the materials.";
-  od:Father :E4400;
-  od:Goal "Reduce / eliminate the use of external resources to protect the material, without  reducing the safety  of transports integrity and reduce every risk during  transports";
-  od:Id "ReduceTheTransportationRiskEL";
-  od:hasLevel "Level_2";
-  skos:prefLabel "4.3. Reduce the transportation risks" .
+:E1000
+    od:Id "PreManufacturing" ;
+    od:hasLevel "Level_0" ;
+    a od:EDPNode ;
+    owl:sameAs edc:PreManufacturing ;
+    skos:broader :E1100, :E1200, :E1300 ;
+    skos:prefLabel "PreManufacturing" .
+
+:E1100
+    od:Class "Material" ;
+    od:Id "ChoseMaterialPM" ;
+    od:hasLevel "Level_1" ;
+    a od:EDPNode ;
+    skos:broader :E1110, :E1120, :E1130 ;
+    skos:narrower :E1000 ;
+    skos:prefLabel "1. Raw material" .
+
+:E1110
+    od:Advantages "Economical savings" ;
+    od:Disadvantages "The change of the material influences the production processes" ;
+    od:Goal "Chose the material with low environmental impact" ;
+    od:Id "RawMaterialPM" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E1111, :E1112 ;
+    skos:narrower :E1100, :E1111, :E1112 ;
+    skos:prefLabel "1.1. Change raw material" .
+
+:E1111
+    od:LinkModule "Calculate material score" ;
+    od:Suggestion "Substitute the current raw materials with others that have less environmental impact" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Use eVerdee DB" ;
+    skos:narrower :E1110 ;
+    skos:prefLabel "1.1.1. Use material with low environmental impact" .
+
+:E1112
+    od:Suggestion "Try to use only recycled materials (see table). In case you change material, take into account changes in manufacturing process choosing from the table of recycled materials those with low manufacturing energy" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Recycled paper", "Secondary aluminum" ;
+    skos:narrower :E1110 ;
+    skos:prefLabel "1.1.2. Use recyclable material" .
+
+:E1120
+    od:Advantages "Economical savings" ;
+    od:Disadvantages "The change of the material influences the production processes" ;
+    od:Goal "Reduce mass and volume of raw material" ;
+    od:Id "RawMaterialPM" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E1121 ;
+    skos:narrower :E1100, :E1121 ;
+    skos:prefLabel "1.2. Modify raw material" .
+
+:E1121
+    od:Suggestion "Redesign the geometry of the finshed component, lighter and the smaller volume. In case you can use standard supply use optimization tools in order to choose the smallest and lightest one." ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Use FEM optimisation software" ;
+    skos:narrower :E1120 ;
+    skos:prefLabel "1.2.1 Reduction of raw material mass and volume" .
+
+:E1130
+    od:Advantages "Economy of scale" ;
+    od:Disadvantages "Modularity" ;
+    od:Goal "Use pre-manufactured material in order to reduce your operation" ;
+    od:Id "PreManufacturedMaterialPM" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E1131 ;
+    skos:narrower :E1100, :E1131 ;
+    skos:prefLabel "1.3. Use pre-manufactured material" .
+
+:E1131
+    od:Suggestion "Purchase already  pre-manufactured material having most similar geometry to final product" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Buy T-shape beam instead of welding two plates", "Buy the material with the right over-Metal" ;
+    skos:narrower :E1130 ;
+    skos:prefLabel "1.3.1 Use pre-manufactured material" .
+
+:E1200
+    od:Class "Packaging" ;
+    od:Id "PackagingPM" ;
+    od:hasLevel "Level_1" ;
+    a od:EDPNode ;
+    skos:broader :E1210, :E1220, :E1230, :E1240, :E1250 ;
+    skos:narrower :E1000 ;
+    skos:prefLabel "2. Packaging" .
+
+:E1210
+    od:Advantages "Favors the end of life, safeguard resources" ;
+    od:Disadvantages "Performance of eco-friendly material might lower than others one" ;
+    od:Goal "Use a more eco-friendly material for the packaging" ;
+    od:Id "MaterialPM" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E1211 ;
+    skos:narrower :E1200, :E1211 ;
+    skos:prefLabel "2.1. Change material" .
+
+:E1211
+    od:LinkModule "Calculate material score" ;
+    od:Suggestion "Choose a low impact material: use biodegradable, low energy materials, recycled materials or lightweight materials" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Tissued made with recycled paper" ;
+    skos:narrower :E1210 ;
+    skos:prefLabel "2.1.1. Use material with low environmental impact" .
+
+:E1220
+    od:Disadvantages "Packaging minimization can reduce its reliability" ;
+    od:Goal "Reduce the packaging of the raw material, use it only where/when is needed and only in exact quantity" ;
+    od:Id "ReduceTheMassPM" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E1221, :E1222, :E1223 ;
+    skos:narrower :E1200, :E1221, :E1222, :E1223 ;
+    skos:prefLabel "2.2. Reduce the mass" .
+
+:E1221
+    od:Suggestion "Think about products that don't need packaging (the packaging is already included in the product)" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Solid  inks: the cartridge has been  eliminated", "The packaging is already included  in  the product: Scratch-proof glass" ;
+    skos:narrower :E1220 ;
+    skos:prefLabel "2.2.1. Eliminate the entire packaging" .
+
+:E1222
+    od:Suggestion "Use raw material packaging only when/where is needed and in only exact quantity. To do this you can use optimization tool, trimming, TRIZ operative zone, explore other technologies." ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Nestlè redesign the bottle and cap to  make them lighter. Also narrowed the  label. ", "Procter & Gamble introduced a stand-  alone rigid tube. So it was been  possible  eliminate the box" ;
+    skos:narrower :E1220 ;
+    skos:prefLabel "2.2.2. Reduce raw material packaging" .
+
+:E1223
+    od:Suggestion "Change raw material to be protected by packaging or modify its shape in order to increase its strength during transport and to eliminate or reduce the packaging of the raw material" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Use plexiglass instead of glass" ;
+    skos:narrower :E1220 ;
+    skos:prefLabel "2.2.3. Modify raw material to be protected" .
+
+:E1230
+    od:Advantages "Aving money, Conservation of resources" ;
+    od:Disadvantages "Packaging request redesign" ;
+    od:Goal "Reduce the volume of packaging, only where/when is needed and only in exact quantity" ;
+    od:Id "ActOnShapeAndVolumePM" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E1231 ;
+    skos:narrower :E1200, :E1231 ;
+    skos:prefLabel "2.3. Reduce the volume" .
+
+:E1231
+    od:Img1 "FlexibleTubes" ;
+    od:Suggestion "Try to dynamize packaging (i.e. increase the degree of freedom). Allow a packaging or object to change the volume taken up as function of working conditions. Split the packaging into parts able to move independently. Improve the adaptability of the packaging: from hard to soft, from rigid to elastic, from fixed to flexible, from slow to rapidly changing, from single element to multiparts. Go from solid packaging to liquid, gas, up to field." ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Flexible  tubes", "Foldable box" ;
+    skos:narrower :E1230 ;
+    skos:prefLabel "2.3.1. Dynamize the raw packaging" .
+
+:E1240
+    od:Advantages "Resource protection, reduction costs" ;
+    od:Disadvantages "Packaging reuse need its management during non-usage phases" ;
+    od:Goal "Allow the reuse of packaging raw material" ;
+    od:Id "ActOnDurabilityPM" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E1241, :E1242, :E1243 ;
+    skos:narrower :E1200, :E1241, :E1242, :E1243 ;
+    skos:prefLabel "2.4. Improve packaging durability" .
+
+:E1241
+    od:Suggestion "Reuse the same packaging in the same way" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Europallets", "Glass bottles and tanks for methane gas" ;
+    skos:narrower :E1240 ;
+    skos:prefLabel "2.4.1. Reuse the same packaging in the same way" .
+
+:E1242
+    od:Suggestion "Reuse the same packaging for other uses, in this product life cycle. Reuse the same packaging for other uses outside this product life cycle" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "The use of pallet in architecture to make planters, tables and chairs" ;
+    skos:narrower :E1240 ;
+    skos:prefLabel "2.4.2. Reuse the same packaging for other uses" .
+
+:E1243
+    od:Suggestion "Restore the packaging material or its raw conditions" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Plastic corks are used haw ram material for plastic  industry" ;
+    skos:narrower :E1240 ;
+    skos:prefLabel "2.4.3. Recycle the packaging" .
+
+:E1250
+    od:Advantages "Favors the end of life, safeguards resources" ;
+    od:Disadvantages "Performance of eco-friendly material might lower than others one" ;
+    od:Goal "Redesign packaging in order to reduce raw material deterioration during stocking" ;
+    od:Id "MaterialDurabilityPM" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E1251 ;
+    skos:narrower :E1200, :E1251 ;
+    skos:prefLabel "2.5. Modify packaging to increase raw material durability" .
+
+:E1251
+    od:Suggestion "If the goods are perishable, use appropriate storage techniques in order to avoid erosion in metals, evaporation in liquids, change color of plastic, etc." ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Controlled atmosphere, vacuum, deep freeze, sterilization" ;
+    skos:narrower :E1250 ;
+    skos:prefLabel "2.5.1. Redesign packaging" .
+
+:E1300
+    od:Class "Logistic" ;
+    od:Id "TransportPM" ;
+    od:hasLevel "Level_1" ;
+    a od:EDPNode ;
+    skos:broader :E1310, :E1320, :E1330, :E1340 ;
+    skos:narrower :E1000 ;
+    skos:prefLabel "3. Transport" .
+
+:E1310
+    od:Disadvantages "Possible costs increasing" ;
+    od:Goal "Choose the supplier with the lowest pollution score." ;
+    od:Id "UseEfficientlyTransportsPM" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E1311 ;
+    skos:narrower :E1300, :E1311 ;
+    skos:prefLabel "3.1. Use efficient transports" .
+
+:E1311
+    od:LinkModule "Calculate transport score" ;
+    od:Suggestion "The choice of suppliers when it is not obliged by reasons of monopoly and/or costs, must take into account the combination of the distance (Dist), the means of transport (Means) and the kind of transport and possible treatments on transported substances" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Use hybrid trucks", "Use train instead of trucks" ;
+    skos:narrower :E1310 ;
+    skos:prefLabel "3.1.1. Chose transport with low environmental impact" .
+
+:E1320
+    od:Advantages "Savings income, Avoiding usefull workings" ;
+    od:Disadvantages "Risk to limit excessively the number of choices" ;
+    od:Goal "Minimize the route of raw material" ;
+    od:Id "OptimizeLogisticPM" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E1321, :E1322 ;
+    skos:narrower :E1300, :E1321, :E1322 ;
+    skos:prefLabel "3.2. Optimize logistic" .
+
+:E1321
+    od:Suggestion "Minimize the environmental impact of the transport by chosing the route with lowest environmental impact. Change the transportation mean if necessary" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Chose the shortest route for distance", "Chose the shortest route in time" ;
+    skos:narrower :E1320 ;
+    skos:prefLabel "3.2.1. Chose better route for the transport" .
+
+:E1322
+    od:Suggestion "Redesign the supply chain in order to reduce the route of the raw material, by chosing closer supplier and customers and by positioning the warehouses in strategic positions" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:narrower :E1320 ;
+    skos:prefLabel "3.2.2. Redesign the supply chain" .
+
+:E1330
+    od:Advantages "Reducing transportation costs, less resources dedicated to transportation, emissions reduction" ;
+    od:Disadvantages "Optimization of the load causes less tolerance on the transportation volume." ;
+    od:Goal "Reduction of the number of supply transportation of the raw material" ;
+    od:Id "OptimizeTheLoadPM" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E1331, :E1332 ;
+    skos:narrower :E1300, :E1331, :E1332 ;
+    skos:prefLabel "3.3. Reduce the volume of the load" .
+
+:E1331
+    od:Img1 "VolumeLoad" ;
+    od:Suggestion "Divide the load into independent parts or make the object divisible in order to stack up than in a lightest/smallest transport mean. Reduce the free spaces between raw material objects. Nest little object into largest one" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Changing shape: the use of rectangular cans allows a better use of the space", "Nested container" ;
+    skos:narrower :E1330 ;
+    skos:prefLabel "3.3.1. Reduce the free spaces of the load" .
+
+:E1332
+    od:Img1 "LiquidOxygen" ;
+    od:Suggestion "Act on physical variable in order to change the load material physical state, concentration or density" ;
+    a od:EDPNode ;
+    skos:example "Liquid oxygen, transported into pressurized cylinders. It saves space and improves the security of transport than gaseous oxygen one", "Rice vacuum: in addition to satisfy organoleptic requirements, eliminating the space normally occupied by the air." ;
+    skos:narrower :E1330 ;
+    skos:prefLabel "3.3.2. Reduce the volume of the raw material" .
+
+:E1340
+    od:Advantages "Increased quality, no over-production, Customer Satisfaction" ;
+    od:Disadvantages "Safer transport system mights specific transport means so increased cost" ;
+    od:Goal "Prevent the raw material damages caused by the transportation events (e.g. Bumpy road) or accidents in order to not waste it" ;
+    od:Id "ReduceTheTransportationRiskPM" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E1341, :E1342, :E1343 ;
+    skos:narrower :E1300, :E1341, :E1342, :E1343 ;
+    skos:prefLabel "3.4. Prevent raw material damages during transport" .
+
+:E1341
+    od:Suggestion "Select the proper transport mean (ship, train, camion). Select the proper kind of transport (e.g. Refrigerator truck)" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Use a list" ;
+    skos:narrower :E1340 ;
+    skos:prefLabel "3.4.1. Chose the right transport mean in relation to the carried raw material" .
+
+:E1342
+    od:Suggestion "Modify the transport mean components that are in direct contact with the raw material or not" ;
+    a od:EDPNode ;
+    skos:example "Petroleum ship with compartmentalized tankers", "Twin tyres for trucks" ;
+    skos:narrower :E1340 ;
+    skos:prefLabel "3.4.2. Modify the transport mean" .
+
+:E1343
+    od:Suggestion "Transfer the preservation function done by transportation mean to the packaging" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Active packaging: used in catering, to avoid the environmental conditions can spoil the food packaged.", "Anti corrosion packaging." ;
+    skos:narrower :E1340 ;
+    skos:prefLabel "3.4.3. Assigns the protective function of the means of transport to other components" .
+
+:E2000
+    od:Id "Manufacturing" ;
+    od:hasLevel "Level_0" ;
+    a od:EDPNode ;
+    owl:SameAs edc:Manufacturing ;
+    skos:broader :E2100, :E2200, :E2300, :E2400, :E2500 ;
+    skos:prefLabel "Manufacturing" .
+
+:E2100
+    od:Id "ReduceAuxiliaryMaterialsM" ;
+    od:hasLevel "Level_1" ;
+    a od:EDPNode ;
+    skos:broader :E2110, :E2120, :E2130 ;
+    skos:narrower :E2000 ;
+    skos:prefLabel "1. Machineries" .
+
+:E2110
+    od:Disadvantages "Investements are required. Current Service plant may be inadeguate.  " ;
+    od:Goal "Choose most efficient machines" ;
+    od:Id "ChangeMachinesM" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E2111, :E2112 ;
+    skos:narrower :E2100, :E2111, :E2112 ;
+    skos:prefLabel "1.1. Change machinery" .
+
+:E2111
+    od:Suggestion "Replace current machine with another one having less energy/material consumption or that exploits a lower impact energy/material." ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "See European Union energy label to find a machinery with less consumption" ;
+    skos:narrower :E2110 ;
+    skos:prefLabel "1.1.1. Replace the machineries with a less impact one" .
+
+:E2112
+    od:Img1 "CNC" ;
+    od:Suggestion "Combine two machineries in one in order to reduce the overall consumption through the use of common parts" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Substitute a milling machine and a lathe with a CNC station" ;
+    skos:narrower :E2110 ;
+    skos:prefLabel "1.1.2. Combine two machineries" .
+
+:E2120
+    od:Disadvantages "The others parts may request modifications" ;
+    od:Goal "Improve the performance through a single part modification. (consider as a part also the consumable materials)" ;
+    od:Id "ChangeComponentsM" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E2121, :E2122 ;
+    skos:narrower :E2100, :E2121, :E2122 ;
+    skos:prefLabel "1.2. Modify machinery components" .
+
+:E2121
+    od:Suggestion "Move the part function to other parts of the machine (supersystem). Make the function as the part useless" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Grinding machine use a magnetic field to block the working pieces (no protection materials for pieces into the vise,..)", "Use machines with systems of centralized lubricant" ;
+    skos:narrower :E2120 ;
+    skos:prefLabel "1.2.1. Eliminate the component" .
+
+:E2122
+    od:Suggestion "Make the part with eco-friendly materials. Improve the efficiency of an energy/material consuming part. Substitute regularly the components that uses consumable materials." ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "See European Union energy label to find a component able to decrease the machinery consumption" ;
+    skos:narrower :E2120 ;
+    skos:prefLabel "1.2.2. Replace the component with a less impact one" .
+
+:E2130
+    od:Disadvantages "Continuous maintenance required, possible generation of exhausted components to dispose" ;
+    od:Goal "Substitute components of the machine that affect the use of the auxiliary materials with others equal" ;
+    od:Id "ChooseLowPowerToolsM" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E2131, :E2132 ;
+    skos:narrower :E2100, :E2131, :E2132 ;
+    skos:prefLabel "1.3. Substitute machine components" .
+
+:E2131
+    od:Suggestion "Upgrade regularly the machine by substituting old components with newst ones in order to reduce the consumption of the auxiliary components" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "An oil separator with new filters extends the life of lubricating oil in a milling machine" ;
+    skos:narrower :E2130 ;
+    skos:prefLabel "1.3.1. Substitute regularly the components" .
+
+:E2132
+    od:Img1 "RegenerableTools" ;
+    od:Suggestion "Regenerate component after use. Choose machine tools or service plants using regenerable and renewable materials and components" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Regenerable insert tool" ;
+    skos:narrower :E2130 ;
+    skos:prefLabel "1.3.2. Regenerate the components" .
+
+:E2200
+    od:Id "OptimizeProductDuringManufacturingM" ;
+    od:hasLevel "Level_1" ;
+    a od:EDPNode ;
+    skos:broader :E2210, :E2220 ;
+    skos:narrower :E2000 ;
+    skos:prefLabel "2. Redesign the product" .
+
+:E2210
+    od:Disadvantages "Product modification could not be compatible with project specifications" ;
+    od:Goal "Change the shape of the product and its components in order to reduce environmental impact during manufacturing" ;
+    od:Id "RedesignProductForManufacturing" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E2211, :E2212 ;
+    skos:narrower :E2200, :E2211 ;
+    skos:prefLabel "2.1. Redesign the product in order to minimize environmental impact during manufacturing" .
+
+:E2211
+    od:Suggestion "Change the final shape of the product in order to facilitate production processes in order to make them less environmental impactful" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Redesign product shape in order to reduce the volume of the sprous during the foundry" ;
+    skos:narrower :E2210 ;
+    skos:prefLabel "2.1.1. Redesign the product in order to minimize environmental impact during manufacturing" .
+
+:E2212
+    od:Img1 "Welding" ;
+    od:Suggestion "Change the shape of the product's components in order to reduce the environmental impact during assembly, by paying particulaqr attenction to the component's common interfaces" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Minimize the length of the flaps for welding condon in order to minimize the feed material" ;
+    skos:narrower :E2210 ;
+    skos:prefLabel "2.1.2. Redesign the product in order to minimize environmental impact during assembly" .
+
+:E2220
+    od:Disadvantages "Product modification could not be compatible with project specifications" ;
+    od:Goal "Change the shape of the product and its components in order to reduce environmental impact by make it repairable", "Change the shape of the product and its components in order to reduce environmental impact during assembly" ;
+    od:Id "RedesignProductForAssembly", "RedesignProductForRepairability" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:narrower :E2200, :E2212 ;
+    skos:prefLabel "2.2.  Redesign the product in order to make it repairable", "2.2. Redesign the product in order to minimize environmental impact during assembly" .
+
+:E2300
+    od:Id "OptimizeTheManufacturingProcessM" ;
+    od:hasLevel "Level_1" ;
+    a od:EDPNode ;
+    skos:broader :E2310 ;
+    skos:narrower :E2000 ;
+    skos:prefLabel "3. Redesign the process" .
+
+:E2310
+    od:Disadvantages "Possible purchase of new machinery" ;
+    od:Goal "Minimize the environmental impact by changing the manufacturing process" ;
+    od:Id "ModifyTheManufacturingProcessM" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E2311 ;
+    skos:narrower :E2300, :E2311 ;
+    skos:prefLabel "3.1. Modify the single stages during manufacturing process" .
+
+:E2311
+    od:Img1 "Pringles" ;
+    od:Suggestion "Eliminate most impactfull stages. Merge two stages into one less environmental impactfull. Substitute operations with others more eco-friendly" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "The Pringles Frying Furnace was eliminated. Oil-free raw chips go directly into the press where they fry due to the high temperatures reached during the compression" ;
+    skos:narrower :E2310 ;
+    skos:prefLabel "3.1.1. Modify the single stages during manufacturing process" .
+
+:E2400
+    od:Id "RedesignProductionProcessesM" ;
+    od:hasLevel "Level_1" ;
+    a od:EDPNode ;
+    skos:broader :E2410, :E2420 ;
+    skos:narrower :E2000 ;
+    skos:prefLabel "4. Redesign production plant" .
+
+:E2410
+    od:Disadvantages "Replacement of the machinery, costs, possible modifications in the layout" ;
+    od:Goal "Increse production quality (reduce defective parts) in order to minimize the environemental impact connected to them" ;
+    od:Id "ReduceWastePiecesM" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:narrower :E2400 ;
+    skos:prefLabel "4.1. Reduce waste pieces" .
+
+:E2420
+    od:Disadvantages "Designing requires investment, structural constraints affecting the optimization" ;
+    od:Goal "Reorganize the layout in order to reduce the environmental impact caused by the movimentation of the material" ;
+    od:Id "ReorganizeTheLayoutM" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E2421 ;
+    skos:narrower :E2400, :E2421 ;
+    skos:prefLabel "4.2. Reorganize the layout" .
+
+:E2421
+    od:Img1 "SpaghettiPlot" ;
+    od:Suggestion "Optimize warehouse and Space Management. Optimize order sequences to reduce picking costs, to efficiently employ personnel and to quicken and balance process orders. Dynamic reorganization of articles depending on order frequency data, article properties like size or weight, campaign dependant demand fluctuation, recurring order patterns, standardized methods time measurement, consideration of expenses for storage and stock transfers. Minimize setup time, modify the product to better adapt to production processes, share more operations on the same machine, reduce the movements. Optimize matherial flows" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Use spaghetti chart" ;
+    skos:narrower :E2420 ;
+    skos:prefLabel "4.2.1. Optimize internal lay out" .
+
+:E2500
+    od:Id "ReduceEmissionsM" ;
+    od:hasLevel "Level_1" ;
+    a od:EDPNode ;
+    skos:broader :E2510 ;
+    skos:narrower :E2000 ;
+    skos:prefLabel "5. Reduce pollutants" .
+
+:E2510
+    od:Disadvantages "Costs" ;
+    od:Goal "Recuce gaseous, liquid and solid pollutants out of the system" ;
+    od:Id "ReducePollutionM" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:narrower :E2500 ;
+    skos:prefLabel "5.1. Reduce pollutants" .
+
+:E3000
+    od:Id "ProductUse" ;
+    od:hasLevel "Level_0" ;
+    a od:EDPNode ;
+    owl:sameAs edc:ProductUse ;
+    skos:broader :E3100, :E3200, :E3300, :E3400, :E3500, :E3600, :E3700, :E3800 ;
+    skos:prefLabel "Product Use" .
+
+:E3100
+    od:Id "ReduceAuxiliaryComponentsAndMaterialsPU" ;
+    od:hasLevel "Level_1" ;
+    a od:EDPNode ;
+    skos:broader :E3110, :E3120 ;
+    skos:narrower :E3000 ;
+    skos:prefLabel "1. Reduce auxiliary substances" .
+
+:E3110
+    od:Advantages "Easy use in different contest; make stand alone-product" ;
+    od:Disadvantages "Knowledge and applicability of new technologies" ;
+    od:Goal "Less use of helping components" ;
+    od:Id "AvoidAuxiliaryComponents" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E3111, :E3112, :E3113 ;
+    skos:narrower :E3100, :E3111, :E3112, :E3113 ;
+    skos:prefLabel "1.1. Avoid auxiliary components" .
+
+:E3111
+    od:Suggestion "Change technology the product work with to make it independent, maintaining the same function of the product. Take advantage of patents and bet practices" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Solar car uses sun instead of fuel fo work" ;
+    skos:narrower :E3110 ;
+    skos:prefLabel "1.1.1. Make the product independent" .
+
+:E3112
+    od:Suggestion "Attribute the functions of auxiliary materials to be eliminate to other auxiliary materials" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Epson printer ecotank inkject does not use ink cartridges. The inks are injected in internal tanks" ;
+    skos:narrower :E3110 ;
+    skos:prefLabel "1.1.2. Eliminate components" .
+
+:E3113
+    od:Suggestion "Replace auxiliary components with mechanical, thermodynamic, chemical, magnetic effects" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Wi-Fi internet connection instead of LAN cables" ;
+    skos:narrower :E3110 ;
+    skos:prefLabel "1.1.3. Dematerializing the auxiliary components" .
+
+:E3120
+    od:Advantages "Best use of resources; reduce waste" ;
+    od:Disadvantages "Product suited to the context of use" ;
+    od:Goal "Efficient use of auxiliary materials" ;
+    od:Id "ReduceAuxiliaryComponentsAndMaterialsPU" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E3121, :E3122, :E3123 ;
+    skos:narrower :E3100, :E3121, :E3122, :E3123 ;
+    skos:prefLabel "1.2. Reduce auxiliary components" .
+
+:E3121
+    od:Suggestion "Choose machine tools or service plants using regenerable and renewable materials and components" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Prepeat printer prints on sheet delating what it's been printed before on it. So as to reduce use of auxiliary materials (paper)", "Recycling the cooling fluid through a recirculation pump" ;
+    skos:narrower :E3120 ;
+    skos:prefLabel "1.2.1. Rationalize the use" .
+
+:E3122
+    od:Suggestion "Improve energy performances to use them less time" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "LED bulb with high eneretic performance, high quality and long duration" ;
+    skos:narrower :E3120 ;
+    skos:prefLabel "1.2.2. Improve energy performances" .
+
+:E3123
+    od:Suggestion "Integrate technologies to reduce waste of auxiliary materials" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Hybrid system of washbasin or washing machine and toilet bowl: water used in the washbashin or washing machines is collected and later used to flush the toilet" ;
+    skos:narrower :E3120 ;
+    skos:prefLabel "1.2.3. Discretize the use" .
+
+:E3200
+    od:Id "RemoveDangerousSubstancesPU" ;
+    od:hasLevel "Level_1" ;
+    a od:EDPNode ;
+    skos:broader :E3210, :E3220 ;
+    skos:narrower :E3000 ;
+    skos:prefLabel "2. Remove dangerous substances" .
+
+:E3210
+    od:Advantages "Environmental protection" ;
+    od:Disadvantages "Require change in technology and search of new materials" ;
+    od:Goal "Remove inclusion of dangerous material in product" ;
+    od:Id "RemoveDangerousMaterialsPU" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E3211 ;
+    skos:narrower :E3200, :E3211 ;
+    skos:prefLabel "2.1. Remove dangerous materials" .
+
+:E3211
+    od:Suggestion "Replace dangerous materials with other substances" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Biosolex toys for kids are made with bamboo or recycled paper and do not contain dangerous substances like phthalate", "Digital thermometer measures fever without using mercury that could be dangerous for humans. " ;
+    skos:narrower :E3210 ;
+    skos:prefLabel "2.1.1. Remove dangerous materials" .
+
+:E3220
+    od:Advantages "Protection of the global environment" ;
+    od:Disadvantages "Technological limitations do not eliminate problems arise, request maintenance" ;
+    od:Goal "Minimize the impact, avoid environmental dispersion" ;
+    od:Id "ReduceEnvironmentalProblemsPU" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E3221 ;
+    skos:narrower :E3200, :E3221 ;
+    skos:prefLabel "2.2. Reduce environmental problems" .
+
+:E3221
+    od:Suggestion "Active product generates emissions during its use, expecially in domestic environment. Isolate the dangerous components (CuO, Al2O3, formaldehyde)" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Improve air in location like natural filter bel air that improves air quality and purifies because it absorbs toxic substances products like carpet or paint emanate", "Include security systems in work environment such as system safe tainer that delivers systems with closed loop to protect workers and location. It consistes of two steel tanks that allow to transfer existing solvent without pouring out dangerous emissions" ;
+    skos:narrower :E3220 ;
+    skos:prefLabel "2.2.1. Reduce environmental problems" .
+
+:E3300
+    od:Class "Packaging" ;
+    od:Id "RethinkThePackagingPU" ;
+    od:hasLevel "Level_1" ;
+    a od:EDPNode ;
+    skos:broader :E3310, :E3320, :E3330 ;
+    skos:narrower :E3000 ;
+    skos:prefLabel "3. Rethink the packaging" .
+
+:E3310
+    od:Advantages "Protected resources, cost reduction" ;
+    od:Disadvantages "Reusable material, respect of teh standard" ;
+    od:Goal "Allow the packaging reuse" ;
+    od:Id "ActOnDurabilityPU" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E3311, :E3312 ;
+    skos:narrower :E3300, :E3311, :E3312 ;
+    skos:prefLabel "3.1. Act on durability" .
+
+:E3311
+    od:Suggestion "Reuse the same packaging for more operations:" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Amazon box use the same packaging to give back the product", "Packaging for glass bottle " ;
+    skos:narrower :E3310 ;
+    skos:prefLabel "3.1.1. Reuse the same packaging for more operations" .
+
+:E3312
+    od:Suggestion "Explore new functionalities or modularities of the packaging of the product" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Nutella glass" ;
+    skos:narrower :E3310 ;
+    skos:prefLabel "3.1.2. Reuse the same packaging in different ways" .
+
+:E3320
+    od:Advantages "Less cost of transport and less material costs" ;
+    od:Disadvantages "Possible decrease of robustness" ;
+    od:Goal "Make the packaging lighter" ;
+    od:Id "ReduceTheMassPU" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E3321, :E3322 ;
+    skos:narrower :E3300, :E3321, :E3322 ;
+    skos:prefLabel "3.2. Reduce the mass" .
+
+:E3321
+    od:Suggestion "Minimize the mass of the packaging with an appropriate product project (a multifunctional product)" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Body shower + shampoo: join more than one product in a unique one combining functions to reduce the mass of the packaging using a similar plastic packaging", "Minimum packaging for bicycle shipment" ;
+    skos:narrower :E3320 ;
+    skos:prefLabel "3.2.1. Use the same material" .
+
+:E3322
+    od:Suggestion "Use a material that reduces the mass of the packaging to minimize transport costs, and choose a sustainable material (recycling)" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Tetra Recart packaging: lightweight and required minimum amount of resources; it weights 64% less than a can. Economic, emissions of CO2 and transport saving. The packaging are made by a renewable material" ;
+    skos:narrower :E3320 ;
+    skos:prefLabel "3.2.2. Change material" .
+
+:E3330
+    od:Advantages "Optimization of the space, reduction of the transport impact" ;
+    od:Goal "Restrict imact modifying shape and volume" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E3331 ;
+    skos:narrower :E3300, :E3331 ;
+    skos:prefLabel "3.3. Act on shape and volume" .
+
+:E3331
+    od:Suggestion "Change the product shape, let and facilitate disposal and distribution" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Packaging of a gardening product: it substitutes the multiple packagin (primary with blister) with a packaging where a hole has been obtained for the blister", "Piled packaging reduces the volume of the load that needs to be transport and it minimizes the overall contribution for the transport and the storage of the product" ;
+    skos:narrower :E3330 ;
+    skos:prefLabel "3.3.1 Act on shape and volume" .
+
+:E3400
+    od:Class "Energy MoveProduct" ;
+    od:Id "ReduceEnergyConsumptionProductPU" ;
+    od:hasLevel "Level_1" ;
+    a od:EDPNode ;
+    skos:broader :E3410, :E3420 ;
+    skos:narrower :E3000 ;
+    skos:prefLabel "4. Reduce energy consumption" .
+
+:E3410
+    od:Advantages "Reduction of emissions, energy cost reduction" ;
+    od:Goal "Reduce electrical energy consumption" ;
+    od:Id "ReduceConsumptionOfEnergyPU" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E3411, :E3412 ;
+    skos:narrower :E3400, :E3411, :E3412 ;
+    skos:prefLabel "4.1. Reduce the consumption of energy required" .
+
+:E3411
+    od:Suggestion "Convert energy only when required or explore new technologies for a discretionary use of energy" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Daewoo Air Power Z washing machine: it has new washing technology based on cold water and air. In this way the laundry can be done without heating the water that normally uses most of the required energy", "Energy class range: check the class of the household electrical appliances. A stands for the most efficient energy consumption" ;
+    skos:narrower :E3410 ;
+    skos:prefLabel "4.1.1. Efficient use of energy" .
+
+:E3412
+    od:Suggestion "Adopt alternative energies like solar energy or wind power to reduce the use of electical energy and the consequent air emission" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Solar cookit is a parabolic system that uses sun to heat and cook. It is equipped with a pack covered by aluminium film" ;
+    skos:narrower :E3410 ;
+    skos:prefLabel "4.1.2. Use alternative energy" .
+
+:E3420
+    od:Advantages "Reduction of emissions and energy-related costs" ;
+    od:Disadvantages "The tecnoloy can be too expensive" ;
+    od:Goal "Recover the energy in order to reduce the waste" ;
+    od:Id "RecoverTheEnergyDissipated" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E3421 ;
+    skos:narrower :E3400, :E3421 ;
+    skos:prefLabel "4.2. Recover dissipated energy" .
+
+:E3421
+    od:Suggestion "Improve performance of energy by recovering energy dissipated for later use" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "KERS (Kinetic Energy Recovery System): it is a system to recover kinetic energy from the F1 car during braking in the form of heat. The recovered energy is stored and then it is used by the same car under acceleration. It minimizes the use of fuel translating into less atmospheric emission in the air" ;
+    skos:narrower :E3420 ;
+    skos:prefLabel "4.2.1. Recover the energy dissipated" .
+
+:E3500
+    od:Class "MultiUse" ;
+    od:Id "MaintenancePU" ;
+    od:hasLevel "Level_1" ;
+    a od:EDPNode ;
+    skos:broader :E3510, :E3520, :E3530, :E3540 ;
+    skos:narrower :E3000 ;
+    skos:prefLabel "5. Maintenance" .
+
+:E3510
+    od:Advantages "Minimum level of ordinary maintenance" ;
+    od:Goal "Realize a product that requires few maintenance" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E3511 ;
+    skos:narrower :E3500, :E3511 ;
+    skos:prefLabel "5.1. Reduce the need of maintenance" .
+
+:E3511
+    od:Suggestion "Make a product that maintains itself or harmonize component life" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Bestprato Festuca Arundinacea: it can withstand footsteps and it requires low maintenance; create a grassland that grows very little, can not fall ill and do not need intence irrigation", "Laser printers Kyocera: they have drums as durable as the machine life. Consequent low maintenance and less replacement of these parts. Saving costs" ;
+    skos:narrower :E3510 ;
+    skos:prefLabel "3.5.1 Reduce the need of maintenance" .
+
+:E3520
+    od:Advantages "Intervene before problems occur" ;
+    od:Goal "Know usury condition of the product" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E3521 ;
+    skos:narrower :E3500, :E3521 ;
+    skos:prefLabel "5.2. Make the maintenance proactive" .
+
+:E3521
+    od:Suggestion "Introduce indicators that allow to know product state, in order to plan the necessary actions on time" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Oil indicator", "Rank Xerox machine: equipped with automatic systems to supervise the usury conditions of the parts that periodically needed to be substituted" ;
+    skos:narrower :E3520 ;
+    skos:prefLabel "5.2.1. Make the maintenance proactive" .
+
+:E3530
+    od:Advantages "Extend life of product, repairable impact less than building new products" ;
+    od:Disadvantages "Redesign like modular product" ;
+    od:Goal "Give a chance to the product to be repaired" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E3531 ;
+    skos:narrower :E3500, :E3531 ;
+    skos:prefLabel "5.3. Design repairable product" .
+
+:E3531
+    od:Suggestion "Design easy sustituible components" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "La Sportiva boot: the sole can be removed and repaired to extend boot life. Consequent reduction of consumption instead of realizing a new boot", "Workstation Apple PowerMac G5: it has easy reachable internal components. Designed to facilitate update and replacement of the components like RAM and video card" ;
+    skos:narrower :E3530 ;
+    skos:prefLabel "5.3.1. Design repairable product" .
+
+:E3540
+    od:Advantages "Extend product life" ;
+    od:Goal "Allow the product to be updated" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E3541 ;
+    skos:narrower :E3500, :E3541 ;
+    skos:prefLabel "5.4. Realize modular product" .
+
+:E3541
+    od:Suggestion "Use standardized connections and therefore make the product modular" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Computer Mentis: it is composed by 3 parts, beyond screen. Each once can be replaced independently of others by following its technological development", "Computer software or smartphone app: allow the product update and the bug correction also after having bought the product" ;
+    skos:narrower :E3540 ;
+    skos:prefLabel "5.4.1. Realize modular product" .
+
+:E3600
+    od:Class "Logistic" ;
+    od:Id "DistributionPU" ;
+    od:hasLevel "Level_1" ;
+    a od:EDPNode ;
+    skos:broader :E3610, :E3620 ;
+    skos:narrower :E3000 ;
+    skos:prefLabel "6. Distribution" .
+
+:E3610
+    od:Advantages "Reduction of transport with economic benefits and reduction of CO2  emissions" ;
+    od:Goal "Fix the starting hubs (suppliers) and arrival hubs (customers), known the product features  and the demand time-space profile " ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E3611, :E3612, :E3613 ;
+    skos:narrower :E3600, :E3611, :E3612, :E3613 ;
+    skos:prefLabel "6.1. Optimize logistic" .
+
+:E3611
+    od:Suggestion "Know density, value, status, packaging, dangerousness, product substitution" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Product value (euro/kg): if it is high, the effect of transport cost is low and it is better to have a unique warehouse to serve the entire country. If it is low, it is better to have more stock because of the presence of more warehouses that are served directly from plants or from harbour with full load" ;
+    skos:narrower :E3610 ;
+    skos:prefLabel "6.1.1. Features of goods" .
+
+:E3612
+    od:Suggestion "Analyze the temporal and the space profile of demand and the production map", "Production map: locationing of the initial hubs of shipping (production plant)" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Analysys of the space profile of demand: decide a geographical distribution of demand in the delivery area.", "Analyze the temporal profile of demand: evaluate the present of stagionarity and the consequent use of outsouring logistic" ;
+    skos:narrower :E3610 ;
+    skos:prefLabel "6.1.2. Features of space-time demand" .
+
+:E3613
+    od:Suggestion "Guarantee the temporary range in according with the costumers" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Frequence of delivery/lot: if it is big (low frequence)the delivery is made from the warehouse to the costumer in a full load. Otherwise a network of peripheral warehouses or transit points are needed to separate primary transport with long distance from the secondary distribution.", "Order emission: if cycle supplier/customer is narrow, it is better to have warehouses near the market or faster transports. If times are larger and the delivery are ingent, they could be united in 2-5 delivery and send a complete piece that make more steps (multi-drop)" ;
+    skos:narrower :E3610 ;
+    skos:prefLabel "6.1.3. Service level" .
+
+:E3620
+    od:Goal "Identification of the network that allows to reach the service objective, to minimize distance, transport, werehousing and stock costs" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:narrower :E3600 ;
+    skos:prefLabel "6.2. Chose logistic channel" .
+
+:E3700
+    od:Id "ReduceEmissionsPU" ;
+    od:hasLevel "Level_1" ;
+    a od:EDPNode ;
+    skos:broader :E3710 ;
+    skos:narrower :E3000 ;
+    skos:prefLabel "7. Reduce emissions" .
+
+:E3710
+    od:Advantages "Marketing impact, guaranteeing usability during restrictions" ;
+    od:Disadvantages "Request of expensive technologies" ;
+    od:Goal "Design the product with zero or low emission of pollution substances" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:narrower :E3700 ;
+    skos:prefLabel "7.1. Design product with low emission of pollution substances" .
+
+:E3800
+    od:Class "Logistic" ;
+    od:Id "ReduceMassVolumePU" ;
+    od:hasLevel "Level_1" ;
+    a od:EDPNode ;
+    skos:broader :E3810, :E3820 ;
+    skos:narrower :E3000 ;
+    skos:prefLabel "8. Reduce mass and volume" .
+
+:E3810
+    od:Advantages "Reduction of consumption" ;
+    od:Goal "Reduce the mass of product during use or standby phase to reduce the consumption during movimentation" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:narrower :E3800 ;
+    skos:prefLabel "8.1. Reduce the product mass" .
+
+:E3820
+    od:Goal "Reduce the volume of product during use phase or standby" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E3821, :E3822 ;
+    skos:narrower :E3800, :E3821, :E3822 ;
+    skos:prefLabel "8.2. Reduce the product volume" .
+
+:E3821
+    od:Suggestion "Simplify the product trying to eliminate useless components. To do this perform a trimming activity associated with a traditional TRIZ functional analysis. To perform a functional analysis it is necessary to write the components of a system and show the functions with which they interact among them. Trimming activity consists to eliminate one or more elements and to assign their positive and essential functions to other components of the product." ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Touchscreen phone. The keypad was  trimmed" ;
+    skos:narrower :E3820 ;
+    skos:prefLabel "8.2.1. Reduce the volume during product use phase" .
+
+:E3822
+    od:Suggestion "Design stakable and nestable systems" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Nested chairs", "Shopping cart" ;
+    skos:narrower :E3820 ;
+    skos:prefLabel "8.2.2. Reduce the volume during stand-by" .
+
+:E4000
+    od:Id "EndOfLife" ;
+    od:hasLevel "Level_0" ;
+    a od:EDPNode ;
+    owl:sameAs edc:EndOfLife ;
+    skos:broader :E4100, :E4200, :E4300, :E4400 ;
+    skos:prefLabel "End of Life" .
+
+:E4100
+    od:Id "WasteManagementEL" ;
+    od:hasLevel "Level_1" ;
+    a od:EDPNode ;
+    skos:broader :E4110, :E4120, :E4130 ;
+    skos:narrower :E4000 ;
+    skos:prefLabel "1. Waste management" .
+
+:E4110
+    od:Advantages "Reduction of raw materials, energy, air and water pollution" ;
+    od:Goal "Reduce waste, better sustainability of the production cycle" ;
+    od:Id "RecoveryOfMaterialEL" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E4111, :E4112 ;
+    skos:narrower :E4100, :E4111, :E4112 ;
+    skos:prefLabel "1.1. Recovery of material" .
+
+:E4111
+    od:Suggestion "Reuse the same product, after a conditioning treatment, with the same functions that it carried out during its life, without adding sustantial changes" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Esselunga uses reusable bowls for fruits and vegetables. If they are broken, their material is reused to create other bowls" ;
+    skos:narrower :E4110 ;
+    skos:prefLabel "1.1.1. Reusable product" .
+
+:E4112
+    od:Suggestion "Recover material contained in the product to make the same or others. (Closed loop/opened loop)" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Objects made by ricycled glass from different products" ;
+    skos:narrower :E4110 ;
+    skos:prefLabel "1.1.2. Recycle product" .
+
+:E4120
+    od:Advantages "Possibility of using waste as a renewable source for the production of energy" ;
+    od:Disadvantages "Chemical and physical knowledge" ;
+    od:Goal "Obtain energy from material after use" ;
+    od:Id "RecoveryOfEnergyEL" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E4121 ;
+    skos:narrower :E4100, :E4121 ;
+    skos:prefLabel "1.2. Recovery of energy" .
+
+:E4121
+    od:Suggestion "Anaerobic digestion: degradation of organic substance through microorganisms. The biogas obtained in the process can be used to produce heat energy." ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Gasify, pyrolisis: It obtains gaseous fuel that can be used for the production of energy", "Incinerator: it converts feedstock energy contained in wastes into electrical or heat energy" ;
+    skos:narrower :E4120 ;
+    skos:prefLabel "1.2.1 Recovery of energy" .
+
+:E4130
+    od:Advantages "Use of the feedstock energy in the disposed waste" ;
+    od:Disadvantages "Use of the space, morphological change of the territory and permanent leveling" ;
+    od:Goal "Recover energy through combustion of the biogas of the product" ;
+    od:Id "DisposalOnLandfillEL" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E4131, :E4132 ;
+    skos:narrower :E4100, :E4131, :E4132 ;
+    skos:prefLabel "1.3. Disposal on landfill" .
+
+:E4131
+    od:Suggestion "Enhancement of the feedstock energy: Energy contained in raw materials that during the production process is trasformed and not used as energetic source. It is knows as " .
+
+:E4132
+    od:Suggestion "Continue research of sustainable materials and ingredients that can be absorb by the ground" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Ecoplast bottle Naturalmente :  It uses a material completely  biodegradable and easily disposed in domestic wet waste" ;
+    skos:narrower :E4130 ;
+    skos:prefLabel "1.3.2 Disposal on landfill" .
+
+:E4200
+    od:Class "Packaging" ;
+    od:Id "PackagingEL" ;
+    od:hasLevel "Level_1" ;
+    a od:EDPNode ;
+    skos:broader :E4210, :E4220, :E4230 ;
+    skos:narrower :E4000 ;
+    skos:prefLabel "2. Packaging" .
+
+:E4210
+    od:Advantages "Improve sustainability, maintenance of ecological balance of the planet" ;
+    od:Goal "Reduce the environmental impacts" ;
+    od:Id "BiodegradablePackagingEL" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:narrower :E4200 ;
+    skos:prefLabel "2.1. Use a biogegradable packaging" .
+
+:E4220
+    od:Advantages "Sustainability" ;
+    od:Goal "Low environmental impact, reduce greenhouse effect" ;
+    od:Id "ReduceCO2EmissionsEL" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E4221 ;
+    skos:narrower :E4200, :E4221 ;
+    skos:prefLabel "2.2. Reduce CO2 emissions in the air during disposal" .
+
+:E4221
+    od:Suggestion "The emission of CO2 in the air, generated by waste combustion during the disposal, is one of the principle cause of greenhouse effect" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "PLA polylactic acid: PLA is a biodegradable plastic tipically used for packaging. It saves raw materials and it derives from the sugar of corn. It considerable reduces emission of Co2 in the air (principle cause of greenhouse effect)" ;
+    skos:narrower :E4220 ;
+    skos:prefLabel "2.2.1. Reduce CO2 emissions in the air during disposal" .
+
+:E4230
+    od:Advantages "Sustainability" ;
+    od:Goal "Reduce the mass for a minor environmental impact" ;
+    od:Id "ReduceTheMassEL" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E4231 ;
+    skos:narrower :E4200, :E4231 ;
+    skos:prefLabel "2.3. Reduce the mass" .
+
+:E4231
+    od:Suggestion "Adopt a material that reduces tha mass of the packaging to be disposed with the consequent less emissions of CO2 during disposal" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Packaging Ecolean: it uses gypsum to realize packaging. It weighs 40/45% less than a paper box of the same dimensions and 55/60% less than a plastic bottle of the same size. After use the packaging can be recycled as a plastic material" ;
+    skos:narrower :E4230 ;
+    skos:prefLabel "2.3.1. Reduce the mass" .
+
+:E4300
+    od:Id "DisassemblyEL" ;
+    od:hasLevel "Level_1" ;
+    a od:EDPNode ;
+    skos:broader :E4310, :E4320 ;
+    skos:narrower :E4000 ;
+    skos:prefLabel "3. Facilitate the disassembly" .
+
+:E4310
+    od:Advantages "Facilitate the maintenance  and the recovery of materials" ;
+    od:Disadvantages "The separation is not always advantageous because the product loses integrity" ;
+    od:Goal "Create modular architecture of the product" ;
+    od:Id "AllowSeparabilityOfMaterialsEL" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E4311 ;
+    skos:narrower :E4300, :E4311 ;
+    skos:prefLabel "3.1. Allow the separability of materials" .
+
+:E4311
+    od:Suggestion "Favor the disassembly procedures to simplify the disposal of the product" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Tetra Top: the top can be removed and disposed in the plastic waste while the bottom in the paper waste" ;
+    skos:narrower :E4310 ;
+    skos:prefLabel "3.1.1 Allow the separability of materials" .
+
+:E4320
+    od:Advantages "Possibility to recover components from a product disused" ;
+    od:Disadvantages "Knowledge of design for disassembly required" ;
+    od:Goal "Create modular architecture of the product" ;
+    od:Id "UseConnectionsBetweenPartsEL" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E4321 ;
+    skos:narrower :E4300, :E4321 ;
+    skos:prefLabel "3.2. Use connections between parts" .
+
+:E4321
+    od:Suggestion "At the end of the product life, manage to separate its different materials to make them neat and resuable in other production phase (recycling, reuse)" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Design for disassembly helps both the extension of the product life and that of the material life, by facilitating disassembly in order to reduce costs", "Removable connection systems: snap-fit, screw and bolt, inserts (with rift zone)" ;
+    skos:narrower :E4320 ;
+    skos:prefLabel "3.2.1 Use connections between parts" .
+
+:E4400
+    od:Class "Logistic" ;
+    od:Id "DistributionEL" ;
+    od:hasLevel "Level_1" ;
+    a od:EDPNode ;
+    skos:broader :E4410, :E4420, :E4430 ;
+    skos:narrower :E4000 ;
+    skos:prefLabel "4. Distribution" .
+
+:E4410
+    od:Advantages "Facilitate the transportation, save the costs" ;
+    od:Goal "Reduction of the transport costs and problems" ;
+    od:Id "UseEfficientlyTransportsEL" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E4411 ;
+    skos:narrower :E4400, :E4411 ;
+    skos:prefLabel "4.1. Use efficiently transports" .
+
+:E4411
+    od:Suggestion "Choose the supplier with the lowest pollution score.The choice of suppliers when it is not obliged by reasons of monopoly and/or costs, must take into account the combination of the distance, the means of transport and the kind of transport." ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Tetra recart: thanks to their neat rectangular shape and light weight, Tetra Recart packages are highly efficient to transport. You get 18% more filled packages on a pallet, compared to cans. And a single truck filled with empty Tetra Recart cartons corresponds to nine filled with cans. Easy use of its material for the recycling after use" ;
+    skos:narrower :E4410 ;
+    skos:prefLabel "4.1.1 Use efficiently transports" .
+
+:E4420
+    od:Advantages "Facilitate the transportation, save the costs" ;
+    od:Disadvantages "Costs increasing" ;
+    od:Goal "Reduce the weight and the volume of the material transported" ;
+    od:Id "ReduceTheWeightAndTheVolumeOfTheTransportEL" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:broader :E4421 ;
+    skos:narrower :E4400, :E4421 ;
+    skos:prefLabel "4.2. Reduce the weight and the volume of the transport" .
+
+:E4421
+    od:Suggestion "Reduce the weight and the volume of the material transported" ;
+    od:hasLevel "Level_3" ;
+    a od:EDPNode ;
+    skos:example "Bottle Evian: plastic bottle for water with particular ribs that facilitate crushing and so the reduction space for the transport operations and collection after use" ;
+    skos:narrower :E4420 ;
+    skos:prefLabel "4.2.1 Reduce the weight and the volume" .
+
+:E4430
+    od:Advantages "The transporting phase won't be a critical process for the safety and the integrity of the materials." ;
+    od:Goal "Reduce / eliminate the use of external resources to protect the material, without  reducing the safety  of transports integrity and reduce every risk during  transports" ;
+    od:Id "ReduceTheTransportationRiskEL" ;
+    od:hasLevel "Level_2" ;
+    a od:EDPNode ;
+    skos:narrower :E4400 ;
+    skos:prefLabel "4.3. Reduce the transportation risks" .
 
