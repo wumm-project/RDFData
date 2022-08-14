@@ -22,7 +22,7 @@
     "graebe 2021-08-01: Russian and German skos:prefLabels added" ,
     "graebe 2022-08-14: Semantics of skos:narrower and skos:broader fixed" ;
     rdfs:label "Open Discovery Database - The TRIZ Body of Knowledge. Concepts" ;
-    owl:imports <http://opendiscovery.org/rdf/TBK-References/> .
+    owl:imports <http://opendiscovery.org/rdf/TRIZ-References/> .
 
 <http://opendiscovery.org/rdf/TBK1/Concept.1>
     a od:TRIZ-Concept, skos:Concept ;

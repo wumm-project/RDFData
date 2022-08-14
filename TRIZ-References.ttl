@@ -21,13 +21,13 @@
     a owl:Ontology ;
     rdfs:comment "2020-10-19 graebe: URIs changed to prefix rdf/BIB/Book", "Uses the terminological conventions as explained in <http://eprints.rclis.org/22454/1/LODE-BD-2.pdf>" ;
     rdfs:label "Collection of TRIZ References" ;
-    rdfs:comment "graebe 2020-03-05: TRIZ Body of Knowledge (TBK) extracted and transformed from the English version", "graebe 2020-05-24: TBK divided into Concepts and Literature, compiled a common source of the references in the different TBKs", "graebe 2020-10-19: URI hash appendices shortened to 6 charachters, odv prefix changed" ;
+    rdfs:comment "graebe 2020-05-24: TBK divided into Concepts and Literature, compiled a common source of the references in the different TBKs", "graebe 2020-10-19: URI hash appendices shortened to 6 charachters, odv prefix changed" ;
     rdfs:comment "graebe 2022-08-07: Books and TBK-References merged, URIs unified, language added";
     owl:imports <http://opendiscovery.org/rdf/People/> .
 
 od:TRIZ-Book
     a owl:Class ;
-    rdfs:label "DCMI Metarecord of a TRIZ book" .
+    rdfs:label "DCMI Metarecord of TRIZ Books and Other References" .
 
 odbib:Altov_1982
     od:hatVerweis odv2:F33 ;
