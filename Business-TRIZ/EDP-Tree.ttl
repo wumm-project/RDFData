@@ -13,7 +13,7 @@
     cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     a owl:Ontology ;
     rdfs:comment "2022-07-29 graebe: Extracted and transformed from the database." ;
-    rdfs:comment "2022-08-11 graebe: Tree structure with skos:broader modelled." ;
+    rdfs:comment "2022-08-11 graebe: Tree structure with skos:narrower modelled." ;
     rdfs:label "The Eco Design Tree from a database of (Russo, Spreafico 2020)" .
 
 :E1000
@@ -21,7 +21,7 @@
     od:hasLevel "Level_0" ;
     a od:EDPNode ;
     owl:sameAs edc:PreManufacturing ;
-    skos:broader :E1100, :E1200, :E1300 ;
+    skos:narrower :E1100, :E1200, :E1300 ;
     skos:prefLabel "PreManufacturing" .
 
 :E1100
@@ -29,8 +29,8 @@
     od:Id "ChoseMaterialPM" ;
     od:hasLevel "Level_1" ;
     a od:EDPNode ;
-    skos:broader :E1110, :E1120, :E1130 ;
-    skos:narrower :E1000 ;
+    skos:narrower :E1110, :E1120, :E1130 ;
+    skos:broader :E1000 ;
     skos:prefLabel "1. Raw material" .
 
 :E1110
@@ -40,8 +40,8 @@
     od:Id "RawMaterialPM" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E1111, :E1112 ;
-    skos:narrower :E1100 ;
+    skos:narrower :E1111, :E1112 ;
+    skos:broader :E1100 ;
     skos:prefLabel "1.1. Change raw material" .
 
 :E1111
@@ -50,7 +50,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Use eVerdee DB" ;
-    skos:narrower :E1110 ;
+    skos:broader :E1110 ;
     skos:prefLabel "1.1.1. Use material with low environmental impact" .
 
 :E1112
@@ -58,7 +58,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Recycled paper", "Secondary aluminum" ;
-    skos:narrower :E1110 ;
+    skos:broader :E1110 ;
     skos:prefLabel "1.1.2. Use recyclable material" .
 
 :E1120
@@ -68,8 +68,8 @@
     od:Id "RawMaterialPM" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E1121 ;
-    skos:narrower :E1100 ;
+    skos:narrower :E1121 ;
+    skos:broader :E1100 ;
     skos:prefLabel "1.2. Modify raw material" .
 
 :E1121
@@ -77,7 +77,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Use FEM optimisation software" ;
-    skos:narrower :E1120 ;
+    skos:broader :E1120 ;
     skos:prefLabel "1.2.1 Reduction of raw material mass and volume" .
 
 :E1130
@@ -87,8 +87,8 @@
     od:Id "PreManufacturedMaterialPM" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E1131 ;
-    skos:narrower :E1100 ;
+    skos:narrower :E1131 ;
+    skos:broader :E1100 ;
     skos:prefLabel "1.3. Use pre-manufactured material" .
 
 :E1131
@@ -96,7 +96,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Buy T-shape beam instead of welding two plates", "Buy the material with the right over-Metal" ;
-    skos:narrower :E1130 ;
+    skos:broader :E1130 ;
     skos:prefLabel "1.3.1 Use pre-manufactured material" .
 
 :E1200
@@ -104,8 +104,8 @@
     od:Id "PackagingPM" ;
     od:hasLevel "Level_1" ;
     a od:EDPNode ;
-    skos:broader :E1210, :E1220, :E1230, :E1240, :E1250 ;
-    skos:narrower :E1000 ;
+    skos:narrower :E1210, :E1220, :E1230, :E1240, :E1250 ;
+    skos:broader :E1000 ;
     skos:prefLabel "2. Packaging" .
 
 :E1210
@@ -115,8 +115,8 @@
     od:Id "MaterialPM" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E1211 ;
-    skos:narrower :E1200 ;
+    skos:narrower :E1211 ;
+    skos:broader :E1200 ;
     skos:prefLabel "2.1. Change material" .
 
 :E1211
@@ -125,7 +125,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Tissued made with recycled paper" ;
-    skos:narrower :E1210 ;
+    skos:broader :E1210 ;
     skos:prefLabel "2.1.1. Use material with low environmental impact" .
 
 :E1220
@@ -134,8 +134,8 @@
     od:Id "ReduceTheMassPM" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E1221, :E1222, :E1223 ;
-    skos:narrower :E1200 ;
+    skos:narrower :E1221, :E1222, :E1223 ;
+    skos:broader :E1200 ;
     skos:prefLabel "2.2. Reduce the mass" .
 
 :E1221
@@ -143,7 +143,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Solid  inks: the cartridge has been  eliminated", "The packaging is already included  in  the product: Scratch-proof glass" ;
-    skos:narrower :E1220 ;
+    skos:broader :E1220 ;
     skos:prefLabel "2.2.1. Eliminate the entire packaging" .
 
 :E1222
@@ -151,7 +151,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Nestlè redesign the bottle and cap to  make them lighter. Also narrowed the  label. ", "Procter & Gamble introduced a stand-  alone rigid tube. So it was been  possible  eliminate the box" ;
-    skos:narrower :E1220 ;
+    skos:broader :E1220 ;
     skos:prefLabel "2.2.2. Reduce raw material packaging" .
 
 :E1223
@@ -159,7 +159,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Use plexiglass instead of glass" ;
-    skos:narrower :E1220 ;
+    skos:broader :E1220 ;
     skos:prefLabel "2.2.3. Modify raw material to be protected" .
 
 :E1230
@@ -169,8 +169,8 @@
     od:Id "ActOnShapeAndVolumePM" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E1231 ;
-    skos:narrower :E1200 ;
+    skos:narrower :E1231 ;
+    skos:broader :E1200 ;
     skos:prefLabel "2.3. Reduce the volume" .
 
 :E1231
@@ -179,7 +179,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Flexible  tubes", "Foldable box" ;
-    skos:narrower :E1230 ;
+    skos:broader :E1230 ;
     skos:prefLabel "2.3.1. Dynamize the raw packaging" .
 
 :E1240
@@ -189,8 +189,8 @@
     od:Id "ActOnDurabilityPM" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E1241, :E1242, :E1243 ;
-    skos:narrower :E1200 ;
+    skos:narrower :E1241, :E1242, :E1243 ;
+    skos:broader :E1200 ;
     skos:prefLabel "2.4. Improve packaging durability" .
 
 :E1241
@@ -198,7 +198,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Europallets", "Glass bottles and tanks for methane gas" ;
-    skos:narrower :E1240 ;
+    skos:broader :E1240 ;
     skos:prefLabel "2.4.1. Reuse the same packaging in the same way" .
 
 :E1242
@@ -206,7 +206,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "The use of pallet in architecture to make planters, tables and chairs" ;
-    skos:narrower :E1240 ;
+    skos:broader :E1240 ;
     skos:prefLabel "2.4.2. Reuse the same packaging for other uses" .
 
 :E1243
@@ -214,7 +214,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Plastic corks are used haw ram material for plastic  industry" ;
-    skos:narrower :E1240 ;
+    skos:broader :E1240 ;
     skos:prefLabel "2.4.3. Recycle the packaging" .
 
 :E1250
@@ -224,8 +224,8 @@
     od:Id "MaterialDurabilityPM" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E1251 ;
-    skos:narrower :E1200 ;
+    skos:narrower :E1251 ;
+    skos:broader :E1200 ;
     skos:prefLabel "2.5. Modify packaging to increase raw material durability" .
 
 :E1251
@@ -233,7 +233,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Controlled atmosphere, vacuum, deep freeze, sterilization" ;
-    skos:narrower :E1250 ;
+    skos:broader :E1250 ;
     skos:prefLabel "2.5.1. Redesign packaging" .
 
 :E1300
@@ -241,8 +241,8 @@
     od:Id "TransportPM" ;
     od:hasLevel "Level_1" ;
     a od:EDPNode ;
-    skos:broader :E1310, :E1320, :E1330, :E1340 ;
-    skos:narrower :E1000 ;
+    skos:narrower :E1310, :E1320, :E1330, :E1340 ;
+    skos:broader :E1000 ;
     skos:prefLabel "3. Transport" .
 
 :E1310
@@ -251,8 +251,8 @@
     od:Id "UseEfficientlyTransportsPM" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E1311 ;
-    skos:narrower :E1300 ;
+    skos:narrower :E1311 ;
+    skos:broader :E1300 ;
     skos:prefLabel "3.1. Use efficient transports" .
 
 :E1311
@@ -261,7 +261,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Use hybrid trucks", "Use train instead of trucks" ;
-    skos:narrower :E1310 ;
+    skos:broader :E1310 ;
     skos:prefLabel "3.1.1. Chose transport with low environmental impact" .
 
 :E1320
@@ -271,8 +271,8 @@
     od:Id "OptimizeLogisticPM" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E1321, :E1322 ;
-    skos:narrower :E1300 ;
+    skos:narrower :E1321, :E1322 ;
+    skos:broader :E1300 ;
     skos:prefLabel "3.2. Optimize logistic" .
 
 :E1321
@@ -280,14 +280,14 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Chose the shortest route for distance", "Chose the shortest route in time" ;
-    skos:narrower :E1320 ;
+    skos:broader :E1320 ;
     skos:prefLabel "3.2.1. Chose better route for the transport" .
 
 :E1322
     od:Suggestion "Redesign the supply chain in order to reduce the route of the raw material, by chosing closer supplier and customers and by positioning the warehouses in strategic positions" ;
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
-    skos:narrower :E1320 ;
+    skos:broader :E1320 ;
     skos:prefLabel "3.2.2. Redesign the supply chain" .
 
 :E1330
@@ -297,8 +297,8 @@
     od:Id "OptimizeTheLoadPM" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E1331, :E1332 ;
-    skos:narrower :E1300 ;
+    skos:narrower :E1331, :E1332 ;
+    skos:broader :E1300 ;
     skos:prefLabel "3.3. Reduce the volume of the load" .
 
 :E1331
@@ -307,7 +307,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Changing shape: the use of rectangular cans allows a better use of the space", "Nested container" ;
-    skos:narrower :E1330 ;
+    skos:broader :E1330 ;
     skos:prefLabel "3.3.1. Reduce the free spaces of the load" .
 
 :E1332
@@ -315,7 +315,7 @@
     od:Suggestion "Act on physical variable in order to change the load material physical state, concentration or density" ;
     a od:EDPNode ;
     skos:example "Liquid oxygen, transported into pressurized cylinders. It saves space and improves the security of transport than gaseous oxygen one", "Rice vacuum: in addition to satisfy organoleptic requirements, eliminating the space normally occupied by the air." ;
-    skos:narrower :E1330 ;
+    skos:broader :E1330 ;
     skos:prefLabel "3.3.2. Reduce the volume of the raw material" .
 
 :E1340
@@ -325,8 +325,8 @@
     od:Id "ReduceTheTransportationRiskPM" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E1341, :E1342, :E1343 ;
-    skos:narrower :E1300 ;
+    skos:narrower :E1341, :E1342, :E1343 ;
+    skos:broader :E1300 ;
     skos:prefLabel "3.4. Prevent raw material damages during transport" .
 
 :E1341
@@ -334,14 +334,14 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Use a list" ;
-    skos:narrower :E1340 ;
+    skos:broader :E1340 ;
     skos:prefLabel "3.4.1. Chose the right transport mean in relation to the carried raw material" .
 
 :E1342
     od:Suggestion "Modify the transport mean components that are in direct contact with the raw material or not" ;
     a od:EDPNode ;
     skos:example "Petroleum ship with compartmentalized tankers", "Twin tyres for trucks" ;
-    skos:narrower :E1340 ;
+    skos:broader :E1340 ;
     skos:prefLabel "3.4.2. Modify the transport mean" .
 
 :E1343
@@ -349,7 +349,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Active packaging: used in catering, to avoid the environmental conditions can spoil the food packaged.", "Anti corrosion packaging." ;
-    skos:narrower :E1340 ;
+    skos:broader :E1340 ;
     skos:prefLabel "3.4.3. Assigns the protective function of the means of transport to other components" .
 
 :E2000
@@ -357,15 +357,15 @@
     od:hasLevel "Level_0" ;
     a od:EDPNode ;
     owl:SameAs edc:Manufacturing ;
-    skos:broader :E2100, :E2200, :E2300, :E2400, :E2500 ;
+    skos:narrower :E2100, :E2200, :E2300, :E2400, :E2500 ;
     skos:prefLabel "Manufacturing" .
 
 :E2100
     od:Id "ReduceAuxiliaryMaterialsM" ;
     od:hasLevel "Level_1" ;
     a od:EDPNode ;
-    skos:broader :E2110, :E2120, :E2130 ;
-    skos:narrower :E2000 ;
+    skos:narrower :E2110, :E2120, :E2130 ;
+    skos:broader :E2000 ;
     skos:prefLabel "1. Machineries" .
 
 :E2110
@@ -374,8 +374,8 @@
     od:Id "ChangeMachinesM" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E2111, :E2112 ;
-    skos:narrower :E2100 ;
+    skos:narrower :E2111, :E2112 ;
+    skos:broader :E2100 ;
     skos:prefLabel "1.1. Change machinery" .
 
 :E2111
@@ -383,7 +383,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "See European Union energy label to find a machinery with less consumption" ;
-    skos:narrower :E2110 ;
+    skos:broader :E2110 ;
     skos:prefLabel "1.1.1. Replace the machineries with a less impact one" .
 
 :E2112
@@ -392,7 +392,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Substitute a milling machine and a lathe with a CNC station" ;
-    skos:narrower :E2110 ;
+    skos:broader :E2110 ;
     skos:prefLabel "1.1.2. Combine two machineries" .
 
 :E2120
@@ -401,8 +401,8 @@
     od:Id "ChangeComponentsM" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E2121, :E2122 ;
-    skos:narrower :E2100 ;
+    skos:narrower :E2121, :E2122 ;
+    skos:broader :E2100 ;
     skos:prefLabel "1.2. Modify machinery components" .
 
 :E2121
@@ -410,7 +410,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Grinding machine use a magnetic field to block the working pieces (no protection materials for pieces into the vise,..)", "Use machines with systems of centralized lubricant" ;
-    skos:narrower :E2120 ;
+    skos:broader :E2120 ;
     skos:prefLabel "1.2.1. Eliminate the component" .
 
 :E2122
@@ -418,7 +418,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "See European Union energy label to find a component able to decrease the machinery consumption" ;
-    skos:narrower :E2120 ;
+    skos:broader :E2120 ;
     skos:prefLabel "1.2.2. Replace the component with a less impact one" .
 
 :E2130
@@ -427,8 +427,8 @@
     od:Id "ChooseLowPowerToolsM" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E2131, :E2132 ;
-    skos:narrower :E2100 ;
+    skos:narrower :E2131, :E2132 ;
+    skos:broader :E2100 ;
     skos:prefLabel "1.3. Substitute machine components" .
 
 :E2131
@@ -436,7 +436,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "An oil separator with new filters extends the life of lubricating oil in a milling machine" ;
-    skos:narrower :E2130 ;
+    skos:broader :E2130 ;
     skos:prefLabel "1.3.1. Substitute regularly the components" .
 
 :E2132
@@ -445,15 +445,15 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Regenerable insert tool" ;
-    skos:narrower :E2130 ;
+    skos:broader :E2130 ;
     skos:prefLabel "1.3.2. Regenerate the components" .
 
 :E2200
     od:Id "OptimizeProductDuringManufacturingM" ;
     od:hasLevel "Level_1" ;
     a od:EDPNode ;
-    skos:broader :E2210, :E2220 ;
-    skos:narrower :E2000 ;
+    skos:narrower :E2210, :E2220 ;
+    skos:broader :E2000 ;
     skos:prefLabel "2. Redesign the product" .
 
 :E2210
@@ -462,8 +462,8 @@
     od:Id "RedesignProductForManufacturing" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E2211, :E2212 ;
-    skos:narrower :E2200 ;
+    skos:narrower :E2211, :E2212 ;
+    skos:broader :E2200 ;
     skos:prefLabel "2.1. Redesign the product in order to minimize environmental impact during manufacturing" .
 
 :E2211
@@ -471,7 +471,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Redesign product shape in order to reduce the volume of the sprous during the foundry" ;
-    skos:narrower :E2210 ;
+    skos:broader :E2210 ;
     skos:prefLabel "2.1.1. Redesign the product in order to minimize environmental impact during manufacturing" .
 
 :E2212
@@ -480,7 +480,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Minimize the length of the flaps for welding condon in order to minimize the feed material" ;
-    skos:narrower :E2210 ;
+    skos:broader :E2210 ;
     skos:prefLabel "2.1.2. Redesign the product in order to minimize environmental impact during assembly" .
 
 :E2220
@@ -489,15 +489,15 @@
     od:Id "RedesignProductForAssembly", "RedesignProductForRepairability" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:narrower :E2200 ;
+    skos:broader :E2200 ;
     skos:prefLabel "2.2.  Redesign the product in order to make it repairable", "2.2. Redesign the product in order to minimize environmental impact during assembly" .
 
 :E2300
     od:Id "OptimizeTheManufacturingProcessM" ;
     od:hasLevel "Level_1" ;
     a od:EDPNode ;
-    skos:broader :E2310 ;
-    skos:narrower :E2000 ;
+    skos:narrower :E2310 ;
+    skos:broader :E2000 ;
     skos:prefLabel "3. Redesign the process" .
 
 :E2310
@@ -506,8 +506,8 @@
     od:Id "ModifyTheManufacturingProcessM" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E2311 ;
-    skos:narrower :E2300 ;
+    skos:narrower :E2311 ;
+    skos:broader :E2300 ;
     skos:prefLabel "3.1. Modify the single stages during manufacturing process" .
 
 :E2311
@@ -516,15 +516,15 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "The Pringles Frying Furnace was eliminated. Oil-free raw chips go directly into the press where they fry due to the high temperatures reached during the compression" ;
-    skos:narrower :E2310 ;
+    skos:broader :E2310 ;
     skos:prefLabel "3.1.1. Modify the single stages during manufacturing process" .
 
 :E2400
     od:Id "RedesignProductionProcessesM" ;
     od:hasLevel "Level_1" ;
     a od:EDPNode ;
-    skos:broader :E2410, :E2420 ;
-    skos:narrower :E2000 ;
+    skos:narrower :E2410, :E2420 ;
+    skos:broader :E2000 ;
     skos:prefLabel "4. Redesign production plant" .
 
 :E2410
@@ -533,7 +533,7 @@
     od:Id "ReduceWastePiecesM" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:narrower :E2400 ;
+    skos:broader :E2400 ;
     skos:prefLabel "4.1. Reduce waste pieces" .
 
 :E2420
@@ -542,8 +542,8 @@
     od:Id "ReorganizeTheLayoutM" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E2421 ;
-    skos:narrower :E2400 ;
+    skos:narrower :E2421 ;
+    skos:broader :E2400 ;
     skos:prefLabel "4.2. Reorganize the layout" .
 
 :E2421
@@ -552,15 +552,15 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Use spaghetti chart" ;
-    skos:narrower :E2420 ;
+    skos:broader :E2420 ;
     skos:prefLabel "4.2.1. Optimize internal lay out" .
 
 :E2500
     od:Id "ReduceEmissionsM" ;
     od:hasLevel "Level_1" ;
     a od:EDPNode ;
-    skos:broader :E2510 ;
-    skos:narrower :E2000 ;
+    skos:narrower :E2510 ;
+    skos:broader :E2000 ;
     skos:prefLabel "5. Reduce pollutants" .
 
 :E2510
@@ -569,7 +569,7 @@
     od:Id "ReducePollutionM" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:narrower :E2500 ;
+    skos:broader :E2500 ;
     skos:prefLabel "5.1. Reduce pollutants" .
 
 :E3000
@@ -577,15 +577,15 @@
     od:hasLevel "Level_0" ;
     a od:EDPNode ;
     owl:sameAs edc:ProductUse ;
-    skos:broader :E3100, :E3200, :E3300, :E3400, :E3500, :E3600, :E3700, :E3800 ;
+    skos:narrower :E3100, :E3200, :E3300, :E3400, :E3500, :E3600, :E3700, :E3800 ;
     skos:prefLabel "Product Use" .
 
 :E3100
     od:Id "ReduceAuxiliaryComponentsAndMaterialsPU" ;
     od:hasLevel "Level_1" ;
     a od:EDPNode ;
-    skos:broader :E3110, :E3120 ;
-    skos:narrower :E3000 ;
+    skos:narrower :E3110, :E3120 ;
+    skos:broader :E3000 ;
     skos:prefLabel "1. Reduce auxiliary substances" .
 
 :E3110
@@ -595,8 +595,8 @@
     od:Id "AvoidAuxiliaryComponents" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E3111, :E3112, :E3113 ;
-    skos:narrower :E3100 ;
+    skos:narrower :E3111, :E3112, :E3113 ;
+    skos:broader :E3100 ;
     skos:prefLabel "1.1. Avoid auxiliary components" .
 
 :E3111
@@ -604,7 +604,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Solar car uses sun instead of fuel fo work" ;
-    skos:narrower :E3110 ;
+    skos:broader :E3110 ;
     skos:prefLabel "1.1.1. Make the product independent" .
 
 :E3112
@@ -612,7 +612,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Epson printer ecotank inkject does not use ink cartridges. The inks are injected in internal tanks" ;
-    skos:narrower :E3110 ;
+    skos:broader :E3110 ;
     skos:prefLabel "1.1.2. Eliminate components" .
 
 :E3113
@@ -620,7 +620,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Wi-Fi internet connection instead of LAN cables" ;
-    skos:narrower :E3110 ;
+    skos:broader :E3110 ;
     skos:prefLabel "1.1.3. Dematerializing the auxiliary components" .
 
 :E3120
@@ -630,8 +630,8 @@
     od:Id "ReduceAuxiliaryComponentsAndMaterialsPU" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E3121, :E3122, :E3123 ;
-    skos:narrower :E3100 ;
+    skos:narrower :E3121, :E3122, :E3123 ;
+    skos:broader :E3100 ;
     skos:prefLabel "1.2. Reduce auxiliary components" .
 
 :E3121
@@ -639,7 +639,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Prepeat printer prints on sheet delating what it's been printed before on it. So as to reduce use of auxiliary materials (paper)", "Recycling the cooling fluid through a recirculation pump" ;
-    skos:narrower :E3120 ;
+    skos:broader :E3120 ;
     skos:prefLabel "1.2.1. Rationalize the use" .
 
 :E3122
@@ -647,7 +647,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "LED bulb with high eneretic performance, high quality and long duration" ;
-    skos:narrower :E3120 ;
+    skos:broader :E3120 ;
     skos:prefLabel "1.2.2. Improve energy performances" .
 
 :E3123
@@ -655,15 +655,15 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Hybrid system of washbasin or washing machine and toilet bowl: water used in the washbashin or washing machines is collected and later used to flush the toilet" ;
-    skos:narrower :E3120 ;
+    skos:broader :E3120 ;
     skos:prefLabel "1.2.3. Discretize the use" .
 
 :E3200
     od:Id "RemoveDangerousSubstancesPU" ;
     od:hasLevel "Level_1" ;
     a od:EDPNode ;
-    skos:broader :E3210, :E3220 ;
-    skos:narrower :E3000 ;
+    skos:narrower :E3210, :E3220 ;
+    skos:broader :E3000 ;
     skos:prefLabel "2. Remove dangerous substances" .
 
 :E3210
@@ -673,8 +673,8 @@
     od:Id "RemoveDangerousMaterialsPU" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E3211 ;
-    skos:narrower :E3200 ;
+    skos:narrower :E3211 ;
+    skos:broader :E3200 ;
     skos:prefLabel "2.1. Remove dangerous materials" .
 
 :E3211
@@ -682,7 +682,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Biosolex toys for kids are made with bamboo or recycled paper and do not contain dangerous substances like phthalate", "Digital thermometer measures fever without using mercury that could be dangerous for humans. " ;
-    skos:narrower :E3210 ;
+    skos:broader :E3210 ;
     skos:prefLabel "2.1.1. Remove dangerous materials" .
 
 :E3220
@@ -692,8 +692,8 @@
     od:Id "ReduceEnvironmentalProblemsPU" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E3221 ;
-    skos:narrower :E3200 ;
+    skos:narrower :E3221 ;
+    skos:broader :E3200 ;
     skos:prefLabel "2.2. Reduce environmental problems" .
 
 :E3221
@@ -701,7 +701,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Improve air in location like natural filter bel air that improves air quality and purifies because it absorbs toxic substances products like carpet or paint emanate", "Include security systems in work environment such as system safe tainer that delivers systems with closed loop to protect workers and location. It consistes of two steel tanks that allow to transfer existing solvent without pouring out dangerous emissions" ;
-    skos:narrower :E3220 ;
+    skos:broader :E3220 ;
     skos:prefLabel "2.2.1. Reduce environmental problems" .
 
 :E3300
@@ -709,8 +709,8 @@
     od:Id "RethinkThePackagingPU" ;
     od:hasLevel "Level_1" ;
     a od:EDPNode ;
-    skos:broader :E3310, :E3320, :E3330 ;
-    skos:narrower :E3000 ;
+    skos:narrower :E3310, :E3320, :E3330 ;
+    skos:broader :E3000 ;
     skos:prefLabel "3. Rethink the packaging" .
 
 :E3310
@@ -720,8 +720,8 @@
     od:Id "ActOnDurabilityPU" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E3311, :E3312 ;
-    skos:narrower :E3300 ;
+    skos:narrower :E3311, :E3312 ;
+    skos:broader :E3300 ;
     skos:prefLabel "3.1. Act on durability" .
 
 :E3311
@@ -729,7 +729,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Amazon box use the same packaging to give back the product", "Packaging for glass bottle " ;
-    skos:narrower :E3310 ;
+    skos:broader :E3310 ;
     skos:prefLabel "3.1.1. Reuse the same packaging for more operations" .
 
 :E3312
@@ -737,7 +737,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Nutella glass" ;
-    skos:narrower :E3310 ;
+    skos:broader :E3310 ;
     skos:prefLabel "3.1.2. Reuse the same packaging in different ways" .
 
 :E3320
@@ -747,8 +747,8 @@
     od:Id "ReduceTheMassPU" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E3321, :E3322 ;
-    skos:narrower :E3300 ;
+    skos:narrower :E3321, :E3322 ;
+    skos:broader :E3300 ;
     skos:prefLabel "3.2. Reduce the mass" .
 
 :E3321
@@ -756,7 +756,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Body shower + shampoo: join more than one product in a unique one combining functions to reduce the mass of the packaging using a similar plastic packaging", "Minimum packaging for bicycle shipment" ;
-    skos:narrower :E3320 ;
+    skos:broader :E3320 ;
     skos:prefLabel "3.2.1. Use the same material" .
 
 :E3322
@@ -764,7 +764,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Tetra Recart packaging: lightweight and required minimum amount of resources; it weights 64% less than a can. Economic, emissions of CO2 and transport saving. The packaging are made by a renewable material" ;
-    skos:narrower :E3320 ;
+    skos:broader :E3320 ;
     skos:prefLabel "3.2.2. Change material" .
 
 :E3330
@@ -772,8 +772,8 @@
     od:Goal "Restrict imact modifying shape and volume" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E3331 ;
-    skos:narrower :E3300 ;
+    skos:narrower :E3331 ;
+    skos:broader :E3300 ;
     skos:prefLabel "3.3. Act on shape and volume" .
 
 :E3331
@@ -781,7 +781,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Packaging of a gardening product: it substitutes the multiple packagin (primary with blister) with a packaging where a hole has been obtained for the blister", "Piled packaging reduces the volume of the load that needs to be transport and it minimizes the overall contribution for the transport and the storage of the product" ;
-    skos:narrower :E3330 ;
+    skos:broader :E3330 ;
     skos:prefLabel "3.3.1 Act on shape and volume" .
 
 :E3400
@@ -789,8 +789,8 @@
     od:Id "ReduceEnergyConsumptionProductPU" ;
     od:hasLevel "Level_1" ;
     a od:EDPNode ;
-    skos:broader :E3410, :E3420 ;
-    skos:narrower :E3000 ;
+    skos:narrower :E3410, :E3420 ;
+    skos:broader :E3000 ;
     skos:prefLabel "4. Reduce energy consumption" .
 
 :E3410
@@ -799,8 +799,8 @@
     od:Id "ReduceConsumptionOfEnergyPU" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E3411, :E3412 ;
-    skos:narrower :E3400 ;
+    skos:narrower :E3411, :E3412 ;
+    skos:broader :E3400 ;
     skos:prefLabel "4.1. Reduce the consumption of energy required" .
 
 :E3411
@@ -808,7 +808,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Daewoo Air Power Z washing machine: it has new washing technology based on cold water and air. In this way the laundry can be done without heating the water that normally uses most of the required energy", "Energy class range: check the class of the household electrical appliances. A stands for the most efficient energy consumption" ;
-    skos:narrower :E3410 ;
+    skos:broader :E3410 ;
     skos:prefLabel "4.1.1. Efficient use of energy" .
 
 :E3412
@@ -816,7 +816,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Solar cookit is a parabolic system that uses sun to heat and cook. It is equipped with a pack covered by aluminium film" ;
-    skos:narrower :E3410 ;
+    skos:broader :E3410 ;
     skos:prefLabel "4.1.2. Use alternative energy" .
 
 :E3420
@@ -826,8 +826,8 @@
     od:Id "RecoverTheEnergyDissipated" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E3421 ;
-    skos:narrower :E3400 ;
+    skos:narrower :E3421 ;
+    skos:broader :E3400 ;
     skos:prefLabel "4.2. Recover dissipated energy" .
 
 :E3421
@@ -835,7 +835,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "KERS (Kinetic Energy Recovery System): it is a system to recover kinetic energy from the F1 car during braking in the form of heat. The recovered energy is stored and then it is used by the same car under acceleration. It minimizes the use of fuel translating into less atmospheric emission in the air" ;
-    skos:narrower :E3420 ;
+    skos:broader :E3420 ;
     skos:prefLabel "4.2.1. Recover the energy dissipated" .
 
 :E3500
@@ -843,8 +843,8 @@
     od:Id "MaintenancePU" ;
     od:hasLevel "Level_1" ;
     a od:EDPNode ;
-    skos:broader :E3510, :E3520, :E3530, :E3540 ;
-    skos:narrower :E3000 ;
+    skos:narrower :E3510, :E3520, :E3530, :E3540 ;
+    skos:broader :E3000 ;
     skos:prefLabel "5. Maintenance" .
 
 :E3510
@@ -852,8 +852,8 @@
     od:Goal "Realize a product that requires few maintenance" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E3511 ;
-    skos:narrower :E3500 ;
+    skos:narrower :E3511 ;
+    skos:broader :E3500 ;
     skos:prefLabel "5.1. Reduce the need of maintenance" .
 
 :E3511
@@ -861,7 +861,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Bestprato Festuca Arundinacea: it can withstand footsteps and it requires low maintenance; create a grassland that grows very little, can not fall ill and do not need intence irrigation", "Laser printers Kyocera: they have drums as durable as the machine life. Consequent low maintenance and less replacement of these parts. Saving costs" ;
-    skos:narrower :E3510 ;
+    skos:broader :E3510 ;
     skos:prefLabel "3.5.1 Reduce the need of maintenance" .
 
 :E3520
@@ -869,8 +869,8 @@
     od:Goal "Know usury condition of the product" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E3521 ;
-    skos:narrower :E3500 ;
+    skos:narrower :E3521 ;
+    skos:broader :E3500 ;
     skos:prefLabel "5.2. Make the maintenance proactive" .
 
 :E3521
@@ -878,7 +878,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Oil indicator", "Rank Xerox machine: equipped with automatic systems to supervise the usury conditions of the parts that periodically needed to be substituted" ;
-    skos:narrower :E3520 ;
+    skos:broader :E3520 ;
     skos:prefLabel "5.2.1. Make the maintenance proactive" .
 
 :E3530
@@ -887,8 +887,8 @@
     od:Goal "Give a chance to the product to be repaired" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E3531 ;
-    skos:narrower :E3500 ;
+    skos:narrower :E3531 ;
+    skos:broader :E3500 ;
     skos:prefLabel "5.3. Design repairable product" .
 
 :E3531
@@ -896,7 +896,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "La Sportiva boot: the sole can be removed and repaired to extend boot life. Consequent reduction of consumption instead of realizing a new boot", "Workstation Apple PowerMac G5: it has easy reachable internal components. Designed to facilitate update and replacement of the components like RAM and video card" ;
-    skos:narrower :E3530 ;
+    skos:broader :E3530 ;
     skos:prefLabel "5.3.1. Design repairable product" .
 
 :E3540
@@ -904,8 +904,8 @@
     od:Goal "Allow the product to be updated" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E3541 ;
-    skos:narrower :E3500 ;
+    skos:narrower :E3541 ;
+    skos:broader :E3500 ;
     skos:prefLabel "5.4. Realize modular product" .
 
 :E3541
@@ -913,7 +913,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Computer Mentis: it is composed by 3 parts, beyond screen. Each once can be replaced independently of others by following its technological development", "Computer software or smartphone app: allow the product update and the bug correction also after having bought the product" ;
-    skos:narrower :E3540 ;
+    skos:broader :E3540 ;
     skos:prefLabel "5.4.1. Realize modular product" .
 
 :E3600
@@ -921,8 +921,8 @@
     od:Id "DistributionPU" ;
     od:hasLevel "Level_1" ;
     a od:EDPNode ;
-    skos:broader :E3610, :E3620 ;
-    skos:narrower :E3000 ;
+    skos:narrower :E3610, :E3620 ;
+    skos:broader :E3000 ;
     skos:prefLabel "6. Distribution" .
 
 :E3610
@@ -930,8 +930,8 @@
     od:Goal "Fix the starting hubs (suppliers) and arrival hubs (customers), known the product features  and the demand time-space profile " ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E3611, :E3612, :E3613 ;
-    skos:narrower :E3600 ;
+    skos:narrower :E3611, :E3612, :E3613 ;
+    skos:broader :E3600 ;
     skos:prefLabel "6.1. Optimize logistic" .
 
 :E3611
@@ -939,7 +939,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Product value (euro/kg): if it is high, the effect of transport cost is low and it is better to have a unique warehouse to serve the entire country. If it is low, it is better to have more stock because of the presence of more warehouses that are served directly from plants or from harbour with full load" ;
-    skos:narrower :E3610 ;
+    skos:broader :E3610 ;
     skos:prefLabel "6.1.1. Features of goods" .
 
 :E3612
@@ -947,7 +947,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Analysys of the space profile of demand: decide a geographical distribution of demand in the delivery area.", "Analyze the temporal profile of demand: evaluate the present of stagionarity and the consequent use of outsouring logistic" ;
-    skos:narrower :E3610 ;
+    skos:broader :E3610 ;
     skos:prefLabel "6.1.2. Features of space-time demand" .
 
 :E3613
@@ -955,22 +955,22 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Frequence of delivery/lot: if it is big (low frequence)the delivery is made from the warehouse to the costumer in a full load. Otherwise a network of peripheral warehouses or transit points are needed to separate primary transport with long distance from the secondary distribution.", "Order emission: if cycle supplier/customer is narrow, it is better to have warehouses near the market or faster transports. If times are larger and the delivery are ingent, they could be united in 2-5 delivery and send a complete piece that make more steps (multi-drop)" ;
-    skos:narrower :E3610 ;
+    skos:broader :E3610 ;
     skos:prefLabel "6.1.3. Service level" .
 
 :E3620
     od:Goal "Identification of the network that allows to reach the service objective, to minimize distance, transport, werehousing and stock costs" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:narrower :E3600 ;
+    skos:broader :E3600 ;
     skos:prefLabel "6.2. Chose logistic channel" .
 
 :E3700
     od:Id "ReduceEmissionsPU" ;
     od:hasLevel "Level_1" ;
     a od:EDPNode ;
-    skos:broader :E3710 ;
-    skos:narrower :E3000 ;
+    skos:narrower :E3710 ;
+    skos:broader :E3000 ;
     skos:prefLabel "7. Reduce emissions" .
 
 :E3710
@@ -979,7 +979,7 @@
     od:Goal "Design the product with zero or low emission of pollution substances" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:narrower :E3700 ;
+    skos:broader :E3700 ;
     skos:prefLabel "7.1. Design product with low emission of pollution substances" .
 
 :E3800
@@ -987,8 +987,8 @@
     od:Id "ReduceMassVolumePU" ;
     od:hasLevel "Level_1" ;
     a od:EDPNode ;
-    skos:broader :E3810, :E3820 ;
-    skos:narrower :E3000 ;
+    skos:narrower :E3810, :E3820 ;
+    skos:broader :E3000 ;
     skos:prefLabel "8. Reduce mass and volume" .
 
 :E3810
@@ -996,15 +996,15 @@
     od:Goal "Reduce the mass of product during use or standby phase to reduce the consumption during movimentation" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:narrower :E3800 ;
+    skos:broader :E3800 ;
     skos:prefLabel "8.1. Reduce the product mass" .
 
 :E3820
     od:Goal "Reduce the volume of product during use phase or standby" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E3821, :E3822 ;
-    skos:narrower :E3800 ;
+    skos:narrower :E3821, :E3822 ;
+    skos:broader :E3800 ;
     skos:prefLabel "8.2. Reduce the product volume" .
 
 :E3821
@@ -1012,7 +1012,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Touchscreen phone. The keypad was  trimmed" ;
-    skos:narrower :E3820 ;
+    skos:broader :E3820 ;
     skos:prefLabel "8.2.1. Reduce the volume during product use phase" .
 
 :E3822
@@ -1020,7 +1020,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Nested chairs", "Shopping cart" ;
-    skos:narrower :E3820 ;
+    skos:broader :E3820 ;
     skos:prefLabel "8.2.2. Reduce the volume during stand-by" .
 
 :E4000
@@ -1028,15 +1028,15 @@
     od:hasLevel "Level_0" ;
     a od:EDPNode ;
     owl:sameAs edc:EndOfLife ;
-    skos:broader :E4100, :E4200, :E4300, :E4400 ;
+    skos:narrower :E4100, :E4200, :E4300, :E4400 ;
     skos:prefLabel "End of Life" .
 
 :E4100
     od:Id "WasteManagementEL" ;
     od:hasLevel "Level_1" ;
     a od:EDPNode ;
-    skos:broader :E4110, :E4120, :E4130 ;
-    skos:narrower :E4000 ;
+    skos:narrower :E4110, :E4120, :E4130 ;
+    skos:broader :E4000 ;
     skos:prefLabel "1. Waste management" .
 
 :E4110
@@ -1045,8 +1045,8 @@
     od:Id "RecoveryOfMaterialEL" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E4111, :E4112 ;
-    skos:narrower :E4100 ;
+    skos:narrower :E4111, :E4112 ;
+    skos:broader :E4100 ;
     skos:prefLabel "1.1. Recovery of material" .
 
 :E4111
@@ -1054,7 +1054,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Esselunga uses reusable bowls for fruits and vegetables. If they are broken, their material is reused to create other bowls" ;
-    skos:narrower :E4110 ;
+    skos:broader :E4110 ;
     skos:prefLabel "1.1.1. Reusable product" .
 
 :E4112
@@ -1062,7 +1062,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Objects made by ricycled glass from different products" ;
-    skos:narrower :E4110 ;
+    skos:broader :E4110 ;
     skos:prefLabel "1.1.2. Recycle product" .
 
 :E4120
@@ -1072,8 +1072,8 @@
     od:Id "RecoveryOfEnergyEL" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E4121 ;
-    skos:narrower :E4100 ;
+    skos:narrower :E4121 ;
+    skos:broader :E4100 ;
     skos:prefLabel "1.2. Recovery of energy" .
 
 :E4121
@@ -1081,7 +1081,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Gasify, pyrolisis: It obtains gaseous fuel that can be used for the production of energy", "Incinerator: it converts feedstock energy contained in wastes into electrical or heat energy" ;
-    skos:narrower :E4120 ;
+    skos:broader :E4120 ;
     skos:prefLabel "1.2.1 Recovery of energy" .
 
 :E4130
@@ -1091,8 +1091,8 @@
     od:Id "DisposalOnLandfillEL" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E4131, :E4132 ;
-    skos:narrower :E4100 ;
+    skos:narrower :E4131, :E4132 ;
+    skos:broader :E4100 ;
     skos:prefLabel "1.3. Disposal on landfill" .
 
 :E4131
@@ -1103,7 +1103,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Ecoplast bottle Naturalmente :  It uses a material completely  biodegradable and easily disposed in domestic wet waste" ;
-    skos:narrower :E4130 ;
+    skos:broader :E4130 ;
     skos:prefLabel "1.3.2 Disposal on landfill" .
 
 :E4200
@@ -1111,8 +1111,8 @@
     od:Id "PackagingEL" ;
     od:hasLevel "Level_1" ;
     a od:EDPNode ;
-    skos:broader :E4210, :E4220, :E4230 ;
-    skos:narrower :E4000 ;
+    skos:narrower :E4210, :E4220, :E4230 ;
+    skos:broader :E4000 ;
     skos:prefLabel "2. Packaging" .
 
 :E4210
@@ -1121,7 +1121,7 @@
     od:Id "BiodegradablePackagingEL" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:narrower :E4200 ;
+    skos:broader :E4200 ;
     skos:prefLabel "2.1. Use a biogegradable packaging" .
 
 :E4220
@@ -1130,8 +1130,8 @@
     od:Id "ReduceCO2EmissionsEL" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E4221 ;
-    skos:narrower :E4200 ;
+    skos:narrower :E4221 ;
+    skos:broader :E4200 ;
     skos:prefLabel "2.2. Reduce CO2 emissions in the air during disposal" .
 
 :E4221
@@ -1139,7 +1139,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "PLA polylactic acid: PLA is a biodegradable plastic tipically used for packaging. It saves raw materials and it derives from the sugar of corn. It considerable reduces emission of Co2 in the air (principle cause of greenhouse effect)" ;
-    skos:narrower :E4220 ;
+    skos:broader :E4220 ;
     skos:prefLabel "2.2.1. Reduce CO2 emissions in the air during disposal" .
 
 :E4230
@@ -1148,8 +1148,8 @@
     od:Id "ReduceTheMassEL" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E4231 ;
-    skos:narrower :E4200 ;
+    skos:narrower :E4231 ;
+    skos:broader :E4200 ;
     skos:prefLabel "2.3. Reduce the mass" .
 
 :E4231
@@ -1157,15 +1157,15 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Packaging Ecolean: it uses gypsum to realize packaging. It weighs 40/45% less than a paper box of the same dimensions and 55/60% less than a plastic bottle of the same size. After use the packaging can be recycled as a plastic material" ;
-    skos:narrower :E4230 ;
+    skos:broader :E4230 ;
     skos:prefLabel "2.3.1. Reduce the mass" .
 
 :E4300
     od:Id "DisassemblyEL" ;
     od:hasLevel "Level_1" ;
     a od:EDPNode ;
-    skos:broader :E4310, :E4320 ;
-    skos:narrower :E4000 ;
+    skos:narrower :E4310, :E4320 ;
+    skos:broader :E4000 ;
     skos:prefLabel "3. Facilitate the disassembly" .
 
 :E4310
@@ -1175,8 +1175,8 @@
     od:Id "AllowSeparabilityOfMaterialsEL" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E4311 ;
-    skos:narrower :E4300 ;
+    skos:narrower :E4311 ;
+    skos:broader :E4300 ;
     skos:prefLabel "3.1. Allow the separability of materials" .
 
 :E4311
@@ -1184,7 +1184,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Tetra Top: the top can be removed and disposed in the plastic waste while the bottom in the paper waste" ;
-    skos:narrower :E4310 ;
+    skos:broader :E4310 ;
     skos:prefLabel "3.1.1 Allow the separability of materials" .
 
 :E4320
@@ -1194,8 +1194,8 @@
     od:Id "UseConnectionsBetweenPartsEL" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E4321 ;
-    skos:narrower :E4300 ;
+    skos:narrower :E4321 ;
+    skos:broader :E4300 ;
     skos:prefLabel "3.2. Use connections between parts" .
 
 :E4321
@@ -1203,7 +1203,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Design for disassembly helps both the extension of the product life and that of the material life, by facilitating disassembly in order to reduce costs", "Removable connection systems: snap-fit, screw and bolt, inserts (with rift zone)" ;
-    skos:narrower :E4320 ;
+    skos:broader :E4320 ;
     skos:prefLabel "3.2.1 Use connections between parts" .
 
 :E4400
@@ -1211,8 +1211,8 @@
     od:Id "DistributionEL" ;
     od:hasLevel "Level_1" ;
     a od:EDPNode ;
-    skos:broader :E4410, :E4420, :E4430 ;
-    skos:narrower :E4000 ;
+    skos:narrower :E4410, :E4420, :E4430 ;
+    skos:broader :E4000 ;
     skos:prefLabel "4. Distribution" .
 
 :E4410
@@ -1221,8 +1221,8 @@
     od:Id "UseEfficientlyTransportsEL" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E4411 ;
-    skos:narrower :E4400 ;
+    skos:narrower :E4411 ;
+    skos:broader :E4400 ;
     skos:prefLabel "4.1. Use efficiently transports" .
 
 :E4411
@@ -1230,7 +1230,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Tetra recart: thanks to their neat rectangular shape and light weight, Tetra Recart packages are highly efficient to transport. You get 18% more filled packages on a pallet, compared to cans. And a single truck filled with empty Tetra Recart cartons corresponds to nine filled with cans. Easy use of its material for the recycling after use" ;
-    skos:narrower :E4410 ;
+    skos:broader :E4410 ;
     skos:prefLabel "4.1.1 Use efficiently transports" .
 
 :E4420
@@ -1240,8 +1240,8 @@
     od:Id "ReduceTheWeightAndTheVolumeOfTheTransportEL" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:broader :E4421 ;
-    skos:narrower :E4400 ;
+    skos:narrower :E4421 ;
+    skos:broader :E4400 ;
     skos:prefLabel "4.2. Reduce the weight and the volume of the transport" .
 
 :E4421
@@ -1249,7 +1249,7 @@
     od:hasLevel "Level_3" ;
     a od:EDPNode ;
     skos:example "Bottle Evian: plastic bottle for water with particular ribs that facilitate crushing and so the reduction space for the transport operations and collection after use" ;
-    skos:narrower :E4420 ;
+    skos:broader :E4420 ;
     skos:prefLabel "4.2.1 Reduce the weight and the volume" .
 
 :E4430
@@ -1258,6 +1258,6 @@
     od:Id "ReduceTheTransportationRiskEL" ;
     od:hasLevel "Level_2" ;
     a od:EDPNode ;
-    skos:narrower :E4400 ;
+    skos:broader :E4400 ;
     skos:prefLabel "4.3. Reduce the transportation risks" .
 
