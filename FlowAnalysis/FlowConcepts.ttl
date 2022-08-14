@@ -12,13 +12,14 @@
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     a owl:Ontology ;
-    rdfs:comment "2021-03-03 graebe: Reference to General Concepts added";
+    rdfs:comment "2021-03-03 graebe: Reference to General Concepts added",
+    rdfs:comment "2022-08-14 graebe: rdf:Property fixed, it is not in the rdfs: namespace";
     rdfs:label "WUMM TRIZ Ontology - Flow Concepts" ;
     owl:imports <http://opendiscovery.org/rdf/Ontologies/GeneralConcepts/> .
 
 # Flow 
 tc:Flow
-    a skos:Concept, od:SouchkovGlossaryEntry;
+    a skos:Concept, od:SouchkovGlossaryEntry ;
     od:WOPCategory od:Component;
     od:SouchkovCategory tc:FlowAnalysis ;
     od:SouchkovDefinition "A sequence of events that have the same common feature."@en ;
@@ -28,43 +29,95 @@ tc:Flow
 
 # Mode, a general concept
 od:hasMode
-    a rdfs:Property ;
+    a rdf:Property ;
     rdfs:domain tc:Flow ;
     rdfs:range tc:ModeValue .
 
+tc:ModeValue
+    a skos:Concept, od:AdditionalConcept ;
+    od:allowedValues od:FlowAsIs, od:FlowModelAsIs, od:FlowModelAsShouldBe, od:FlowAsShouldBe ;
+    od:WOPCategory od:PropertyDomain ; 
+    skos:prefLabel "Modelling mode"@en, "Modellierungsmodus"@de .
+
+tc:FlowAsIs
+    od:valueOf tc:ModeValue ;
+    skos:prefLabel "Flow, as it is"@en, "Fluss, wie er ist"@de ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:FlowModelAsIs
+    od:valueOf tc:ModeValue ;
+    skos:prefLabel "Flow model, as it is"@en, "Flussmodell, wie es ist"@de ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:FlowModelAsShouldBe
+    od:valueOf tc:ModeValue ;
+    skos:prefLabel "Flow model, as it should be"@en, "Flussmodell, wie es sein sollte"@de ;
+    skos:altLabel "Model of the ideal final result"@en, "Modell des idealen Endresultats"@de ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:FlowAsShouldBe
+    od:valueOf tc:ModeValue ;
+    skos:prefLabel "Flow, as it should be"@en, "Fluss, wie er sein sollte"@de ;
+    skos:altLabel "ideal final result"@en, "Ideales Endresultat"@de ;
+    a skos:Concept, od:AdditionalConcept .
+
+tc:DomainOntology 
+    a skos:Concept, od:AdditionalConcept ;
+    skos:related tc:ApplicationArea .
+
+od:hasDomain
+    a rdf:Property ;
+    rdfs:domain tc:FlowAsIs, tc:FlowAsShouldBe ;
+    rdfs:range tc:DomainOntology .
+
+od:isTranslatedInto
+    a rdf:Property ;
+    rdfs:domain tc:FlowAsIs ;
+    rdfs:range tc:FlowModelAsIs .
+
+od:isTransformedInto
+    a rdf:Property ;
+    rdfs:range tc:FlowModelAsIs ;
+    rdfs:domain tc:FlowModelAsShouldBe .
+
+od:isTemplatefor
+    a rdf:Property ;
+    rdfs:range tc:FlowModelAsShouldBe ;
+    rdfs:domain tc:FlowAsShouldBe .
+
 # Flow Properties
 od:hasFlowType
-    a rdfs:Property ;
+    a rdf:Property ;
     rdfs:domain tc:Flow ;
     rdfs:range tc:FlowType .
 
 od:hasFlowSubstance
-    a rdfs:Property ;
+    a rdf:Property ;
     rdfs:domain tc:Flow ;
     rdfs:range tc:FlowSubstance .
     
 od:hasFlowFunctionality
-    a rdfs:Property ;
+    a rdf:Property ;
     rdfs:domain tc:Flow ;
     rdfs:range tc:FlowFunctionality .
 
 od:hasFlowDefect
-    a rdfs:Property ;
+    a rdf:Property ;
     rdfs:domain tc:Flow ;
     rdfs:range tc:FlowDefect .
     
 od:hasFlowSource
-    a rdfs:Property ;
+    a rdf:Property ;
     rdfs:domain tc:Flow ;
     rdfs:range tc:FlowSource .
 
 od:hasStaticFlowComponent
-    a rdfs:Property ;
+    a rdf:Property ;
     rdfs:domain tc:Flow ;
     rdfs:range tc:StaticFlowComponent .
 
 od:hasMethodOfDescription
-    a rdfs:Property ;
+    a rdf:Property ;
     rdfs:domain tc:Flow ;
     rdfs:range tc:MethodOfDescription .
 
@@ -286,27 +339,27 @@ tc:FlowAnalysis
 
 ## modal description
 od:describesFlow
-    a rdfs:Property ;
+    a rdf:Property ;
     rdfs:domain tc:FlowAnalysis ;
     rdfs:range tc:Flow .
 
 od:analysesFlow
-    a rdfs:Property ;
+    a rdf:Property ;
     rdfs:domain tc:FlowAnalysis ;
     rdfs:range tc:Flow .
 
 od:inContext
-    a rdfs:Property ;
+    a rdf:Property ;
     rdfs:domain tc:FlowAnalysis ;
     rdfs:range tc:Context .
 
 od:appliesRule
-    a rdfs:Property ;
+    a rdf:Property ;
     rdfs:domain tc:FlowAnalysis ;
-    rdfs:range tc:FlowAnalysisRule .
+    rdfs:range tc:RulesOfFlowAnalysis .
 
 od:generatesFlowTransformation
-    a rdfs:Property ;
+    a rdf:Property ;
     rdfs:domain tc:FlowAnalysis ;
     rdfs:range tc:FlowTransformation .
 
@@ -317,32 +370,32 @@ tc:FlowTransformation
     skos:prefLabel "Flow Transformation"@en, "Fransformation eines Flusses"@de .
 
 od:usesDescriptionMethod
-    a rdfs:Property ;
+    a rdf:Property ;
     rdfs:domain tc:Context ;
     rdfs:range tc:MethodOfDescription .
 
 od:hasGoal
-    a rdfs:Property ;
+    a rdf:Property ;
     rdfs:domain tc:Context ;
     rdfs:range tc:Goal .
 
 od:hasRequirement
-    a rdfs:Property ;
+    a rdf:Property ;
     rdfs:domain tc:Context ;
     rdfs:range tc:Requirement .
 
-od:proofRequirements # unverständlich, range kann nur ja oder nein sein
-    a rdfs:Property ;
-    rdfs:domain tc:Goals ;
-    rdfs:range tc:Requirements .
+# od:proofRequirements # unverständlich, range kann nur ja oder nein sein --> used in the future for transformation processing
+#     a rdf:Property ;
+#     rdfs:domain tc:Goals ;
+#     rdfs:range tc:Requirements .
 
 od:usesTechniqueOfModification
-    a rdfs:Property ;
+    a rdf:Property ;
     rdfs:domain tc:FlowAnalysis ;
-    rdfs:range tc:FlowAnalysisRule .
+    rdfs:range tc:RulesOfFlowAnalysis .
 
 od:applyChanges 
-    a rdfs:Property ;
+    a rdf:Property ;
     rdfs:domain tc:FlowTransformation ;
     rdfs:range tc:Flow .
 
@@ -378,27 +431,27 @@ tc:ReduceParasiticFlow
 ##Rules of Flow Analysis
 
 od:applyRulesofConstruction
-    a rdfs:Property ;
+    a rdf:Property ;
     rdfs:domain tc:FlowAnalysis ;
     rdfs:range tc:FlowModelAsIs .
 
 od:applyRulesofEvaluation
-    a rdfs:Property ;
+    a rdf:Property ;
     rdfs:domain tc:FlowAnalysis ;
     rdfs:range tc:FlowModelAsIs .
 
 od:applyRulesofConstructionOfInconformRequirements
-    a rdfs:Property ;
+    a rdf:Property ;
     rdfs:domain tc:FlowAnalysis ;
     rdfs:range tc:FlowModelAsShouldBe .
 
 od:applyRulesofApplyingLawsOfDevelopmentOfTechnicalSystems
-    a rdfs:Property ;
+    a rdf:Property ;
     rdfs:domain tc:FlowAnalysis ;
     rdfs:range tc:FlowModelAsShouldBe .
 
 od:detects
-    a rdfs:Property ;
+    a rdf:Property ;
     rdfs:domain tc:RulesOfEvaluation ;
     rdfs:range tc:FlowDefect .
 
@@ -428,17 +481,17 @@ tc:RulesOfApplyingLawsOfDevelopmentOfTechnicalSystems
 ## Techniques of modification
 
 # od:improves
-#    a rdfs:Property ;
+#    a rdf:Property ;
 #    rdfs:domain tc:FlowModelAsShouldBe ;
 #    rdfs:range tc:StaticFlowComponent .
 #
 # od:setsup
-#    a rdfs:Property ;
+#    a rdf:Property ;
 #    rdfs:domain  ;
 #    rdfs:range  .
 #
 # od:removes
-#    a rdfs:Property ;
+#    a rdf:Property ;
 #    rdfs:domain tc:FlowModelAsShouldBe ;
 #    rdfs:range tc:FlowDisadvantage .
 
