@@ -24,7 +24,7 @@ fdp:P_1
     skos:definition """Increase in the process of development the positive
   effect of useful flows."""@en ;
     skos:narrower fdp:P_1_1, fdp:P_1_2 ;
-    skos:preflabel "Increase the positive effect of useful flows"@en .
+    skos:prefLabel "Increase the positive effect of useful flows"@en .
 
 fdp:P_1_1
     a tc:FlowDevelopmentPattern ;
@@ -32,7 +32,7 @@ fdp:P_1_1
     skos:definition """Increase in the process of development the the
   conductivity of useful flows."""@en ;
     skos:narrower fdp:P_1_1_01, fdp:P_1_1_02, fdp:P_1_1_03, fdp:P_1_1_04, fdp:P_1_1_05, fdp:P_1_1_06, fdp:P_1_1_07, fdp:P_1_1_08, fdp:P_1_1_09, fdp:P_1_1_10, fdp:P_1_1_11, fdp:P_1_1_12, fdp:P_1_1_13, fdp:P_1_1_14 ;
-    skos:preflabel "Increase the conductivity of useful flows"@en .
+    skos:prefLabel "Increase the conductivity of useful flows"@en .
 
 fdp:P_1_1_01
     a tc:FlowDevelopmentPattern ;
@@ -53,7 +53,7 @@ fdp:P_1_1_01
   increase in conductivity. Ideally, there should be no transformations at
   all, and all components of flows should immediately have the form necessary
   for their final use."""@en ;
-    skos:preflabel "Reduction in the number of flow transformations"@en .
+    skos:prefLabel "Reduction in the number of flow transformations"@en .
 
 fdp:P_1_1_02
     a tc:FlowDevelopmentPattern ;
@@ -67,7 +67,7 @@ fdp:P_1_1_02
     skos:note """If there is considerable resistance to the flow, and the losses
   involved in its conversion are relatively small, the flow is converted to
   the most easily transferable form."""@en ;
-    skos:preflabel "Flow conversion"@en .
+    skos:prefLabel "Flow conversion"@en .
 
 fdp:P_1_1_03
     a tc:FlowDevelopmentPattern ;
@@ -829,5 +829,5 @@ fdp:P_3_2_01
 fdp:P_Core
     a tc:FlowDevelopmentPattern ;
     skos:narrower fdp:P_1, fdp:P_2, fdp:P_3 ;
-    skos:preflabel "The core or the pattern tree"@en .
+    skos:prefLabel "The core or the pattern tree"@en .
 
