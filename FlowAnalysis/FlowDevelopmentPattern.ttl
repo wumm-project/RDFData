@@ -829,5 +829,5 @@ fdp:P_3_2_01
 fdp:P_Core
     a tc:FlowDevelopmentPattern ;
     skos:narrower fdp:P_1, fdp:P_2, fdp:P_3 ;
-    skos:prefLabel "The core or the pattern tree"@en .
+    skos:prefLabel "The core of the pattern tree"@en .
 

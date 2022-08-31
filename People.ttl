@@ -18,6 +18,7 @@
 
 odp:Abdulaev_H
     a foaf:Person ;
+    foaf:fullname "Абдуллаев Хагани Имран оглы"@ru;
     foaf:affil "Azerbaijan National Aviation Academy, Baku, Azerbaijan" ;
     foaf:name "Hagani Abdulaev" .
 
@@ -142,6 +143,11 @@ odp:Arutyunova_E
     a foaf:Person ;
     foaf:name "Ekaterina Arutyunova" .
 
+odp:Asatullina
+    a foaf:Person ;
+    foaf:fullname "Асатуллина"@ru ;
+    foaf:name "Asatullina" .
+
 odp:Atvars_A
     a foaf:Person ;
     foaf:affil "Riga, Latvia" ;
@@ -157,6 +163,10 @@ odp:Axelrod_BM
     foaf:affil "Russia" ;
     foaf:fullname "Аксельрод Борис Моисеевич"@ru ;
     foaf:name "Boris M. Axelrod" .
+
+odp:Azaletskiy_P  
+    a foaf:Person ;
+    foaf:name "Pavel Azaletskiy" .
 
 odp:Azgaldov_G
     a foaf:Person ;
@@ -259,6 +269,10 @@ odp:Belfiore_J
     a foaf:Person ;
     foaf:name "Jim Belfiore" .
 
+odp:Beliakou_A
+    a foaf:Person ;
+    foaf:name "Andrei Beliakou" .
+
 odp:Beliltsev_VK
     a foaf:Person ;
     foaf:affil "Voronesh, Russia" ;
@@ -292,6 +306,11 @@ odp:Berdonosov_VD
     foaf:affil "Russia" ;
     foaf:fullname "Бердоносов Виктор Дмитриевич"@ru ;
     foaf:name "Victor Berdonosov" .
+
+odp:Berdichevsky_Y
+    a foaf:Person ;
+    foaf:fullname "Бердичевский Евгений"@ru ;
+    foaf:name "Yevgeny Berdichevsky" .
 
 odp:Berdyugina_D
     a foaf:Person ;
@@ -1455,6 +1474,11 @@ odp:Guio_RD
     foaf:affil "INSA Strasbourg, France" ;
     foaf:name "Roland de Guio" .
 
+odp:Gurkov_D
+    a foaf:Person ;
+    foaf:fullname "Гурков Даниил"@ru ;
+    foaf:name "Daniil Gurkov" .
+
 odp:Guseva_TA
     a foaf:Person ;
     foaf:fullname "Гусева Т.А."@ru ;
@@ -1723,6 +1747,11 @@ odp:Iqbal_AM
     a foaf:Person ;
     foaf:name "Abeda Muhammad Iqbal" .
 
+odp:Isayeva_OP 
+    a foaf:Person ;
+    foaf:fullname "Исаева Оксана Петровна"@ru ;
+    foaf:name "Oxana P. Isayeva" .
+
 odp:Ishak_AA
     a foaf:Person ;
     foaf:name "A.A. Ishak" .
@@ -1919,6 +1948,11 @@ odp:Kamayev_VA
     foaf:fullname "Камаев Валерий Анатольевич"@ru ;
     foaf:name "Valeri A. Kamayev" .
 
+odp:Kamlenok_T
+    a foaf:Person ;
+    foaf:fullname "Камленок Тимофей"@ru ;
+    foaf:name "Timofey Kamlenok" .
+
 odp:Kanaan_H
     a foaf:Person ;
     foaf:affil "St. Josephs Univ., Lebanon" ;
@@ -2057,6 +2091,7 @@ odp:Khotimlyansky_Y
 
 odp:Khovanov_S
     a foaf:Person ;
+    foaf:fullname "Хованов Сергей"@ru ;
     foaf:name "Sergej Khovanov" .
 
 odp:Khrebtov_A
@@ -2180,6 +2215,11 @@ odp:Klyuch_N
     foaf:affil "Russia" ;
     foaf:fullname "Ключ Наталья"@ru ;
     foaf:name "Natalya Klyuch" .
+
+odp:Knyazeva
+    a foaf:Person ;
+    foaf:fullname "Князева"@ru ;
+    foaf:name "Knyazeva" .
 
 odp:Kneisel_BO
     a foaf:Person ;
@@ -2367,6 +2407,10 @@ odp:Kuduk_G
     a foaf:Person ;
     foaf:name "Grzegorz Kuduk" .
 
+odp:Kudzi_A
+    a foaf:Person ;
+    foaf:name "Andrei Kudzi" .
+
 odp:Kukalev_SV
     a foaf:Person ;
     foaf:affil "Russia" ;
@@ -2509,6 +2553,11 @@ odp:Lauth_N
     a foaf:Person ;
     foaf:affil "Strasbourg, France" ;
     foaf:name "Nathan Lauth" .
+
+odp:Lazarev_A
+    a foaf:Person ;
+    foaf:fullname "Лазарев Алексей"@ru ;
+    foaf:name "Alexey Lazarev" .
 
 odp:Lazarev_D
     a foaf:Person ;
@@ -3105,8 +3154,8 @@ odp:Morandi_W
 odp:Mosman_P
     a foaf:Person ;
     foaf:affil "Krasnoyarsk, Russia" ;
-    foaf:fullname "Мосман Петр"@ru ;
-    foaf:name "Piotr Mosman" .
+    foaf:fullname "Мосман Петр Г."@ru ;
+    foaf:name "Piotr G. Mosman" .
 
 odp:Motyl_B
     a foaf:Person ;
@@ -3212,6 +3261,11 @@ odp:Navas_H
     a foaf:Person ;
     foaf:affil "Lisboa, Portugal" ;
     foaf:name "Helena Navas" .
+
+odp:Natig_A
+    a foaf:Person ;
+    foaf:fullname "Натиг Алиев"@ru ;
+    foaf:name "Aliyev Natig" .
 
 odp:Negny_S
     a foaf:Person ;
@@ -4089,6 +4143,10 @@ odp:Shevelyeva_EV
     foaf:fullname "Шевелева Елена Владимировна"@ru ;
     foaf:name "E. V. Shevelyeva" .
 
+odp:Shi_X 
+    a foaf:Person ;
+    foaf:name "Shi Xiaohua" .
+
 odp:Shim_JM
     a foaf:Person ;
     foaf:name "Jaemin Shim" .
@@ -4384,6 +4442,11 @@ odp:Stanczak_I
     a foaf:Person ;
     foaf:affil "Old Polish University, Poland" ;
     foaf:name "Irena Stańczak" .
+
+odp:Starovoitov_VP
+    a foaf:Person ;
+    foaf:fullname "Старовойтов В.П."@ru ;
+    foaf:name "V.P. Starovoitov" .
 
 odp:Stasyuk_I
     a foaf:Person ;

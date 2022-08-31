@@ -6,7 +6,6 @@
 @prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
-@prefix track: <http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020/track/> .
 @prefix : <http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2020-Main/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -14,8 +13,8 @@
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit> ;
     a swc:ConferenceEvent ;
     rdfs:comment "Three sessions on 15, 16, 23 October 2021" ;
-    rdfs:label "TRIZ Summit 2021 Online" ;
-    ical:description "TRIZ Summit 2021 Online" ;
+    rdfs:label "TRIZ Developer Summit 2021 Online" ;
+    ical:description "TRIZ Developer Summit 2021 Online" ;
     ical:dtend "2021-10-23"^^xsd:date ;
     ical:dtstart "2021-10-15"^^xsd:date ;
     ical:location "Online, supported by EPAM, Minsk, Belarus" ;
