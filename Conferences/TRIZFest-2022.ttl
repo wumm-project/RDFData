@@ -66,6 +66,8 @@
     dcterms:creator odp:Graebe_HG ;
     dcterms:title "On Some Aspects of TRIZ Flow Analysis"@en ;
     swc:relatedToEvent track:Paper ;
+    od:urlPaper <https://hg-graebe.de/EigeneTexte/TRIZfest-2022.pdf> ;
+    od:urlSlides <https://hg-graebe.de/EigeneTexte/TRIZfest-2022-Slides.pdf> ;
     a od:Talk .
 
 :Talk_108

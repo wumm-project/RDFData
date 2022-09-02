@@ -15,6 +15,17 @@
     rdfs:label "TSN: Past TRIZ Conferences" ;
     owl:imports <http://opendiscovery.org/rdf/ConferenceSeries/>, <http://opendiscovery.org/rdf/People/> .
 
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2022/>
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit> ;
+    a swc:ConferenceEvent ;
+    rdfs:label "TRIZ Developer Summit 2022" ;
+    ical:dtend "2022-10-16"^^xsd:date ;
+    ical:dtstart "2022-10-14"^^xsd:date ;
+    ical:location "Online" ;
+    ical:summary "TRIZ Developer Summit 2022" ;
+    od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZ-Summit-2022.rdf> ;
+    ical:url <https://triz.team/con/2022/ca/> .
+
 <http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2022/>
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;

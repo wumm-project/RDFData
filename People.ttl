@@ -802,6 +802,11 @@ odp:Danilovsky_YE
     foaf:fullname "Даниловский Юрий Эдуардович"@ru ;
     foaf:name "Yuri Danilovsky" .
 
+odp:Darweesh_Z
+    a foaf:Person ;
+    foaf:affil "Syria" ;
+    foaf:name "Zena Darweesh" .
+
 odp:Daxenberger_J
     a foaf:Person ;
     foaf:name "Johannes Daxenberger" .
@@ -2023,11 +2028,16 @@ odp:Kasravi_K
     a foaf:Person ;
     foaf:name "K. Kasravi" .
 
+odp:Kassou_AR
+    a foaf:Person ;
+    foaf:affil "Syria" ;
+    foaf:name "Ahmad-Ramez Kassou" .
+
 odp:Kassou_R
     a foaf:Person ;
     foaf:affil "NPK Consult, Moscow, Russia" ;
     foaf:fullname "Кассу Рамез"@ru ;
-    foaf:name "Ahmad-Ramez Kassou" .
+    foaf:name "Ramez Kassou" .
 
 odp:Katzwinkel_T
     a foaf:Person ;
@@ -2405,10 +2415,12 @@ odp:Kudryavtsev_AV
 
 odp:Kuduk_G
     a foaf:Person ;
+    foaf:affil "Poland" ;
     foaf:name "Grzegorz Kuduk" .
 
 odp:Kudzi_A
     a foaf:Person ;
+    foaf:affil "Poland" ;
     foaf:name "Andrei Kudzi" .
 
 odp:Kukalev_SV
@@ -3115,6 +3127,11 @@ odp:Mlynarski_M
     foaf:affil "Poland" ;
     foaf:name "Maciej Młynarski" .
 
+odp:Moalla_Y
+    a foaf:Person ;
+    foaf:affil "Syria" ;
+    foaf:name "Yara Moalla" .
+
 odp:Mogilin_AA
     a foaf:Person ;
     foaf:affil "Russia" ;
@@ -3781,6 +3798,11 @@ odp:Renaud_J
     a foaf:Person ;
     foaf:affil "INSA Strasbourg, France" ;
     foaf:name "Jean Renaud" .
+
+odp:Restom_F
+    a foaf:Person ;
+    foaf:affil "Syria" ;
+    foaf:name "Fadia Restom" .
 
 odp:Rezzaghi_P
     a foaf:Person ;
