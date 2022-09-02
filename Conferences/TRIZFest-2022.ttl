@@ -54,6 +54,7 @@
 
 :Talk_106
     dcterms:creator odp:Minaker_VE, odp:Bykhovskiy_M ;
+    od:presentedBy odp:Minaker_VE ;
     dcterms:title "Decision-Making Method (DMM)"@en ;
     swc:relatedToEvent track:Paper ;
     a od:Talk .
@@ -93,32 +94,22 @@
     swc:relatedToEvent track:Paper ;
     a od:Talk .
 
-:Talk_113
-    dcterms:creator odp:Wang_Jing, odp:Shen_D, odp:Dang_N, odp:Cong_L ;
-    dcterms:title "Case Study: Fracture of Shaft Head of Centrifugal Pump"@en ;
-    swc:relatedToEvent track:Paper ;
-    a od:Talk .
-
 :Talk_114
     dcterms:creator odp:Mei_F, odp:Cao_GX, odp:Iv_Y, odp:Zong_J ;
+    od:presentedBy odp:Zong_J ;
     dcterms:title "Innovation Design of Range Hood Noise Reduction Based on TRIZ Theory"@en ;
     swc:relatedToEvent track:Paper ;
     a od:Talk .
 
 :Talk_115
-    dcterms:creator odp:Zhao_Y ;
+    dcterms:creator odp:Zhao_Y, odp:Lin_A ;
+    od:presentedBy odp:Liu_C ;
     dcterms:title "Innovative Design of Intelligent Welding System for Pressure Vessel Based on TRIZ"@en ;
     swc:relatedToEvent track:Paper ;
     a od:Talk .
 
-:Talk_116
-    dcterms:creator odp:Yu_X, odp:Yuan_H, odp:Zhou_J, odp:Zeng_W ;
-    dcterms:title "Scheme Design of Safety Assistance System for Mistakenly Stepping on Accelerator Based on TRIZ Method"@en ;
-    swc:relatedToEvent track:Paper ;
-    a od:Talk .
-
 :Talk_117
-    dcterms:creator odp:Tong_W, odp:Xi_Y, odp:Xu_B, odp:Shen_W, odp:Jiang_L, odp:Zhang_Y, odp:Li_W, odp:Wen_M, odp:Zhang_L, odp:Xu_B ;
+    dcterms:creator odp:Tong_W, odp:Xi_Y, odp:Xu_B, odp:Jiang_L, odp:Zhang_Y, odp:Li_W, odp:Wen_M, odp:Zhang_L, odp:Xu_B ;
     dcterms:title "Research and Analysis on The Innovative Integration of TRIZ Theory And DFSS Method"@en ;
     swc:relatedToEvent track:Paper ;
     a od:Talk .
@@ -144,12 +135,6 @@
 :Talk_121
     dcterms:creator odp:Kozhemyako_AP ;
     dcterms:title "Technical Contradiction Analysis as a Convenient Tool to Resolve Contradictions in Express Way"@en ;
-    swc:relatedToEvent track:Paper ;
-    a od:Talk .
-
-:Talk_122
-    dcterms:creator odp:Litvin_SS ;
-    dcterms:title "TBA"@en ;
     swc:relatedToEvent track:Paper ;
     a od:Talk .
 

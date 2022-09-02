@@ -744,11 +744,6 @@ odp:Condrea_I
     a foaf:Person ;
     foaf:name "Ionut Condrea" .
 
-odp:Cong_L
-    a foaf:Person ;
-    foaf:affil "China" ;
-    foaf:name "Liwei Cong" .
-
 odp:Conley_DW
     a foaf:Person ;
     foaf:affil "USA" ;
@@ -790,11 +785,6 @@ odp:Dammak_H
     a foaf:Person ;
     foaf:affil "Montréal, Canada" ;
     foaf:name "Houcine Dammak" .
-
-odp:Dang_N
-    a foaf:Person ;
-    foaf:affil "China" ;
-    foaf:name "Ning Dang" .
 
 odp:Danilovsky_YE
     a foaf:Person ;
@@ -1702,11 +1692,6 @@ odp:Hu_J
 odp:Huang_HC
     a foaf:Person ;
     foaf:name "Huan-Chu Huang" .
-
-odp:Huang_J
-    a foaf:Person ;
-    foaf:affil "China" ;
-    foaf:name "Jun Huang" .
 
 odp:Huang_Y
     a foaf:Person ;
@@ -4145,16 +4130,6 @@ odp:Shchinnikov_A
     foaf:homepage <https://www.facebook.com/ashinnikov> ;
     foaf:name "Alexey Shchinnikov" .
 
-odp:Shen_D
-    a foaf:Person ;
-    foaf:affil "China" ;
-    foaf:name "Deliang Shen" .
-
-odp:Shen_W
-    a foaf:Person ;
-    foaf:affil "China" ;
-    foaf:name "Wei Shen" .
-
 odp:Sheng_ILS
     a foaf:Person ;
     foaf:affil "Monash University Malaysia, Malaysia" ;
@@ -4877,11 +4852,6 @@ odp:Wang_JF
     a foaf:Person ;
     foaf:name "Jinfeng Wang" .
 
-odp:Wang_Jing
-    a foaf:Person ;
-    foaf:affil "China" ;
-    foaf:name "Jing Wang" .
-
 odp:Wang_K
     a foaf:Person ;
     rdfs:seeAlso <http://orcid.org/0000-0002-7881-1060> ;
@@ -5165,16 +5135,6 @@ odp:Yu_N
     a foaf:Person ;
     foaf:name "Na Yu" .
 
-odp:Yu_X
-    a foaf:Person ;
-    foaf:affil "China" ;
-    foaf:name "Xionghou Yu" .
-
-odp:Yuan_H
-    a foaf:Person ;
-    foaf:affil "China" ;
-    foaf:name "Heng Yuan" .
-
 odp:Yudin_YA
     a foaf:Person ;
     foaf:fullname "Юдин Ю.А."@ru ;
@@ -5222,11 +5182,6 @@ odp:Zasedenets_I
     a foaf:Person ;
     foaf:affil "Tel Aviv, Israel" ;
     foaf:name "Igor Zasedenets" .
-
-odp:Zeng_W
-    a foaf:Person ;
-    foaf:affil "China" ;
-    foaf:name "Wensheng Zeng" .
 
 odp:Zhang_E
     a foaf:Person ;
@@ -5349,11 +5304,6 @@ odp:Zhong_Y
     a foaf:Person ;
     foaf:affil "Northeastern University, Shenyang, PR China" ;
     foaf:name "Zhong Yingb" .
-
-odp:Zhou_J
-    a foaf:Person ;
-    foaf:affil "China" ;
-    foaf:name "Junwu Zhou" .
 
 odp:Zhou_X
     a foaf:Person ;
