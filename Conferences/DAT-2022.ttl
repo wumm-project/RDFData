@@ -41,6 +41,7 @@ Die Beiträge der TRIZ Konferenz werden dieses Jahr wieder im Springer Vieweg ve
 :Talk_102
     dcterms:creator odp:Mayer_O ;
     dcterms:title "TRIZ and Sustainability"@en ; 
+    od:urlSlides <http://wumm.uni-leipzig.de/Presentations/Mayer-20220902.pdf> ;
     a od:Talk .
 
 :Talk_103

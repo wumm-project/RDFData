@@ -123,6 +123,7 @@
 :Talk_119
     dcterms:creator odp:Mayer_O ;
     dcterms:title "Sustainability Modelling with TRIZ"@en ;
+    od:urlSlides <http://wumm.uni-leipzig.de/Presentations/Mayer-20220902.pdf> ;
     swc:relatedToEvent track:Paper ;
     a od:Talk .
 
