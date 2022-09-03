@@ -86,7 +86,7 @@ tc:MATRIZCertificate
     od:issuedAt "2012-07-01" ;
     od:theLevel tc:CertificateLevel4 ;
     a tc:MATRIZCertificate ;
-    foaf:name "Dr. Sung Cheol Kim" .
+    foaf:name "Sung Cheol Kim" .
 
 <http://opendiscovery.org/rdf/Certificate/4_104>
     od:fromCountry "Russia" ;
@@ -199,14 +199,6 @@ tc:MATRIZCertificate
     od:theLevel tc:CertificateLevel4 ;
     a tc:MATRIZCertificate ;
     foaf:name "Tanasak Pheunghua" .
-
-<http://opendiscovery.org/rdf/Certificate/4_118>
-    od:fromCountry "PR China" ;
-    od:hasCertificateId "118" ;
-    od:issuedAt "2015-04-20" ;
-    od:theLevel tc:CertificateLevel4 ;
-    a tc:MATRIZCertificate ;
-    foaf:name "Yongwei Sun" .
 
 <http://opendiscovery.org/rdf/Certificate/4_119>
     od:fromCountry "Germany" ;
@@ -399,6 +391,54 @@ tc:MATRIZCertificate
     od:theLevel tc:CertificateLevel4 ;
     a tc:MATRIZCertificate ;
     foaf:name "Сидорчук Татьяна Александровна"@ru .
+
+<http://opendiscovery.org/rdf/Certificate/4_140>
+    od:fromCountry "PR China" ;
+    od:hasCertificateId "140" ;
+    od:issuedAt "2021-10-22" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Guoxin Cao" .
+
+<http://opendiscovery.org/rdf/Certificate/4_141>
+    od:fromCountry "PR China" ;
+    od:hasCertificateId "141" ;
+    od:issuedAt "2021-10-24" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Tony Tong Wei" .
+
+<http://opendiscovery.org/rdf/Certificate/4_142>
+    od:fromCountry "Germany" ;
+    od:hasCertificateId "142" ;
+    od:issuedAt "2021-10-24" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Martin Kiesel" .
+
+<http://opendiscovery.org/rdf/Certificate/4_143>
+    od:fromCountry "Belgim" ;
+    od:hasCertificateId "143" ;
+    od:issuedAt "2021-12-20" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Stephane Savelli" .
+
+<http://opendiscovery.org/rdf/Certificate/4_144>
+    od:fromCountry "Colombia" ;
+    od:hasCertificateId "144" ;
+    od:issuedAt "2022-04-04" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Juan Gonzalo Mejia Duque" .
+
+<http://opendiscovery.org/rdf/Certificate/4_145>
+    od:fromCountry "Republic of Korea" ;
+    od:hasCertificateId "145" ;
+    od:issuedAt "2022-06-02" ;
+    od:theLevel tc:CertificateLevel4 ;
+    a tc:MATRIZCertificate ;
+    foaf:name "Jeon Yong Mun" .
 
 <http://opendiscovery.org/rdf/Certificate/4_15>
     od:fromCountry "Latvia" ;
@@ -1227,10 +1267,10 @@ tc:MATRIZCertificate
 <http://opendiscovery.org/rdf/Certificate/5_108>
     od:fromCountry "PR China" ;
     od:hasCertificateId "108" ;
-    od:issuedAt "2018-09-15" ;
+    od:issuedAt "2021-09-18" ;
     od:theLevel tc:CertificateLevel5 ;
     a tc:MATRIZCertificate ;
-    foaf:name "Yongwei Sun" .
+    foaf:name "Hyung-Seok Yeo" .
 
 <http://opendiscovery.org/rdf/Certificate/5_11>
     od:fromCountry "Russia" ;

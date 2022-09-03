@@ -167,6 +167,10 @@ odp:Dobrusskin_C
 odp:Domb_E
     od:hasMATRIZAward "TRIZ Champion 2016" .
 
+odp:Duque_JGM
+    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_144> ;
+    od:theLevel tc:CertificateLevel4 .
+
 odp:Faer_SA
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_100>, <http://opendiscovery.org/rdf/Certificate/5_90> ;
     od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 .
@@ -318,6 +322,10 @@ odp:Ivanov_GI
 
 odp:Jantschgi_J
     od:hasMATRIZAward "TRIZ Champion 2018" .
+
+odp:Jeon_YM
+    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_145> ;
+    od:theLevel tc:CertificateLevel4 .
 
 odp:Jeong_JH
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_65> ;
@@ -823,10 +831,6 @@ odp:Stupniker_YI
     od:theLevel tc:CertificateLevel5 ;
     org:memberOf od:TRIZMasterCouncil .
 
-odp:Sun_YW
-    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_118>, <http://opendiscovery.org/rdf/Certificate/5_108> ;
-    od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 .
-
 odp:Surkov_PP
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_50> ;
     od:theLevel tc:CertificateLevel4 .
@@ -906,8 +910,8 @@ odp:Yefimov_AV
     od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 .
 
 odp:Yeo_HS
-    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_136> ;
-    od:theLevel tc:CertificateLevel4 .
+    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_136>, <http://opendiscovery.org/rdf/Certificate/5_108> ;
+    od:theLevel tc:CertificateLevel4, tc:CertificateLevel5  .
 
 odp:Yoon_H
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_63>, <http://opendiscovery.org/rdf/Certificate/5_96> ;
