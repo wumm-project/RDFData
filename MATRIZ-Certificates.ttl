@@ -167,10 +167,6 @@ odp:Dobrusskin_C
 odp:Domb_E
     od:hasMATRIZAward "TRIZ Champion 2016" .
 
-odp:Duque_JGM
-    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_144> ;
-    od:theLevel tc:CertificateLevel4 .
-
 odp:Faer_SA
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_100>, <http://opendiscovery.org/rdf/Certificate/5_90> ;
     od:theLevel tc:CertificateLevel4, tc:CertificateLevel5 .
@@ -572,6 +568,10 @@ odp:Medvedyev_AV
 odp:Meerovich_MI
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_33> ;
     od:theLevel tc:CertificateLevel5 .
+
+odp:MejiaDuque_JG
+    od:hasCertificate <http://opendiscovery.org/rdf/Certificate/4_144> ;
+    od:theLevel tc:CertificateLevel4 .
 
 odp:Mikhailov_VA
     od:hasCertificate <http://opendiscovery.org/rdf/Certificate/5_34> ;

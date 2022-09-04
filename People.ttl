@@ -957,11 +957,6 @@ odp:Dumangin_P
     foaf:affil "Strasbourg, France" ;
     foaf:name "Pierre Dumangin" .
 
-odp:Duque_JGM
-    a foaf:Person ;
-    foaf:affil "Bogotá, Colombia" ;
-    foaf:name "Juan Gonzalo Mejia Duque" .
-
 odp:Dusmikeev_A
     a foaf:Person ;
     foaf:affil "Компания МедиуМ, бренд SolarEnrg, Директор"@ru ;
@@ -3024,6 +3019,11 @@ odp:Mei_F
     a foaf:Person ;
     foaf:affil "China" ;
     foaf:name "Feixiang Mei" .
+
+odp:MejiaDuque_JG
+    a foaf:Person ;
+    foaf:affil "Bogotá, Colombia" ;
+    foaf:name "Juan Gonzalo Mejía Duque" .
 
 odp:MejiaGutierrez_R
     a foaf:Person ;
