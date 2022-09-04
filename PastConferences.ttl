@@ -50,6 +50,7 @@
 
 <http://opendiscovery.org/rdf/Conferences/TRIZFest-Pedagogy-2022/>
     a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Fest> ;
     rdfs:label "TRIZFest Pedagogy 2022" ;
     ical:summary "TRIZFest Pedagogy 2022 Online" ;
     ical:dtend "2022-08-23"^^xsd:date ;
@@ -60,6 +61,7 @@
 
 <http://opendiscovery.org/rdf/Conferences/DAT-2022>
     a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/GTC> ;
     rdfs:label "2. Deutsche TRIZ-Konferenz Online 2022"@de, "2. German TRIZ Online Coference 2022"@en ;
     ical:summary "Bei der TRIZ Konferenz online liegt der Fokus auf neuen Anwendungen, Forschungen und Erweiterungen der Methodik zu TRIZ. Dieser wird vor allem von Firmen, Forschungseinrichtungen, Hochschulen, Universitäten sowie von Aspiranten für TRIZ L4 und L5 bestritten, die TRIZ weiterentwickeln oder mit anderen Methoden kombinieren sowie in anderen Bereichen wie Qualitätssicherung, Geschäftsmodelle, Nachhaltigkeitsfragen, etc. kombinieren. Die Beiträge der TRIZ Konferenz werden dieses Jahr wieder im Springer Vieweg veröffentlicht. "@de, "At the TRIZ Conference online, the focus is on new applications, research and extensions of the TRIZ methodology. This is mainly presented by companies, research institutions, colleges, universities as well as aspirants for TRIZ L4 and L5, who further develop TRIZ or combine it with other methods as well as in other areas such as quality assurance, business models, sustainability issues, etc. The papers of the TRIZ Conference will be published again by Springer Vieweg."@en ; 
     ical:dtend "2022-07-22"^^xsd:date ;
@@ -81,6 +83,7 @@
 
 <http://opendiscovery.org/rdf/Conferences/GermanTEX-2022/> 
     a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/GTC> ;
     rdfs:label "German TRIZ Experts Meeting 2022" ;
     ical:summary "The German TRIZ Expert Meeting was created exclusively for TRIZ-trained people. To participate in this meeting, you should have attended at least a basic training course or have already successfully applied the TRIZ methods to your own problems. ";
     ical:dtend "2022-01-14"^^xsd:date ;
@@ -173,6 +176,7 @@ The Conference aims at linking industrial companies, research centers, education
 
 <http://opendiscovery.org/rdf/Conferences/MOF-2020> 
     a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/MTC> ;
     rdfs:label "MOF 2020 - MATRIZ Online Forum 2020" ;
     ical:dtend "2020-09-27"^^xsd:date ;
     ical:dtstart "2020-09-24"^^xsd:date ;
@@ -181,18 +185,9 @@ The Conference aims at linking industrial companies, research centers, education
     od:detailedReport <http://wumm.uni-leipzig.de/rdf/MOF-2020.rdf> ;
     ical:url <https://mostrizclub.net/en/matriz-online-forum-24-27-september-2020/> .
 
-<http://opendiscovery.org/rdf/Conferences/BusinessOnline-2020>
-    a swc:ConferenceEvent ;
-    rdfs:comment "Presentations of the Business Online Conference 2020" ;
-    rdfs:label "Business TRIZ Online 2020" ;
-    ical:summary "The conference MOF - spelled as \"MATRIZ Online Forum 2020\" or \"Moscow Online Forum 2020\" is a online conference format newly created by the MATRIZ with simultaneous translation of the talks to English, Russian and Chinese. "@en;
-    ical:dtend "2020-09-27"^^xsd:date ;
-    ical:dtstart "2020-09-24"^^xsd:date ;
-    ical:location "Online" ;
-    ical:url <https://mostrizclub.net/en/matriz-online-forum-24-27-september-2020/> .
-
 <http://opendiscovery.org/rdf/Conferences/DAT-2020>
     a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/GTC> ;
     rdfs:label "1. Deutsche TRIZ-Konferenz Online 2020"@de, "1. German TRIZ Online Coference 2020"@en ;
     ical:summary "Coronabedingt gehen wir neue Wege und haben die 1. Deutsche TRIZ Konferenz online entwickeln. Wir wollen bei dieser Veranstaltung TRIZ relevanten Beiträgen aus dem akademischen Bereich und auch aus der industriellen Branche eine Plattform bieten, die auch veröffentlicht werden (Springer Verlag)."@de, "Caused by Corona we are breaking new ground and have developed the 1st German TRIZ Conference online. At this event we want to offer a platform for TRIZ relevant contributions from the academic field and also from the industrial sector that will also be published (Springer Verlag)."@en ; 
     ical:dtend "2020-10-02"^^xsd:date ;
@@ -352,6 +347,16 @@ including keynote talks and presentations at plenary sessions. """ ;
     ical:url <http://etria.eu/documents/TFC2011_Program.pdf>,
     	     <http://etria.eu/documents/TFC2011_Keynotes.pdf>,
 	     <http://etria.eu/portal/index.php/past-etria-conferences-mainmenu-67/109> .
+
+<http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2010/>
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future> ;
+    rdfs:label "TRIZ Future 2010" ;
+    ical:summary "World Conference TRIZ Future 2010" ;
+    ical:dtend "2010-11-05"^^xsd:date ;
+    ical:dtstart "2010-11-03"^^xsd:date ;
+    ical:location "University of Bergamo, Bergamo, Italy"  ;
+    ical:url <https://etria.eu/portal/index.php/past-etria-conferences-mainmenu-67/110> .
 
 <http://opendiscovery.org/rdf/Conferences/TRIZ-Future-2009/>
     a swc:ConferenceEvent ;

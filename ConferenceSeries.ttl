@@ -24,6 +24,11 @@
     rdfs:seeAlso <https://metodolog.ru/> ;
     od:description "This series of conferences is organized by the Moscow TRIZ Club." .
 
+<http://opendiscovery.org/rdf/ConferenceSeries/GTC>
+    a od:ConferenceSeries ;
+    rdfs:label "German TRIZ Conferences" ;
+    od:description "This series of German TRIZ conferences is organized mainly by Bayern innovativ." .
+
 <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit>
     a od:ConferenceSeries ;
     rdfs:label "TRIZ Developers Summit" ;
@@ -32,7 +37,7 @@
 
 <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Future>
     a od:ConferenceSeries ;
-    rdfs:label "TRIZ Developer Summit" ;
+    rdfs:label "TRIZ Future Conferences" ;
     rdfs:seeAlso <http://etria.eu/portal/index.php/past-etria-conferences-mainmenu-67> ;
     od:description "This series of conferences is organized by ETRIA." .
 
