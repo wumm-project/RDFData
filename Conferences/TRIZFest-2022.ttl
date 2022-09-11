@@ -1,4 +1,5 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix odp: <http://opendiscovery.org/rdf/Person/> .
@@ -17,7 +18,10 @@
     ical:summary "TRIZFest 2022 Online" ;
     ical:dtend "2022-09-03"^^xsd:date ;
     ical:dtstart "2022-08-31"^^xsd:date ;
-    ical:location "Online" ; 
+    ical:location "Online" ;
+    od:theProceedings <https://www.researchgate.net/publication/363266497_Proceedings_of_the_17th_International_Conference_TRIZfest_2022> ;
+    bibo:issn "2374-2275" ;
+    bibo:isbn "979-8-218-07055-7" ; 
     ical:url <https://matriz.org/trizfest-2022/> .
 
 :Talk_100
@@ -42,6 +46,13 @@
 :Talk_103
     dcterms:creator odp:Zhang_T ;
     dcterms:title "Employing TRIZ Tools to Build “Virtual Ecological Niche” for Emerging Technology Industries"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+:Talk_104
+    dcterms:creator odp:Huang_J ;
+    dcterms:title "Application of TRIZ in IPD"@en ;
+    rdfs:comment "Not presented at the conference"; 
     swc:relatedToEvent track:Paper ;
     a od:Talk .
 
@@ -84,6 +95,13 @@
     dcterms:creator odp:Abramov_OY, odp:Smirnova_E, odp:Fimin_P ;
     od:presentedBy odp:Abramov_OY ;
     dcterms:title "Identifying The Best Technology for Solid Waste Management Using TRIZ-Based Technology Scouting"@en ;
+    swc:relatedToEvent track:Paper ;
+    a od:Talk .
+
+:Talk_111
+    dcterms:creator odp:Schaper_S ;
+    dcterms:title "TRIZ Inspired Creation of Digital Business Models"@en ;
+    rdfs:comment "Not presented at the conference" ; 
     swc:relatedToEvent track:Paper ;
     a od:Talk .
 

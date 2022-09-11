@@ -100,7 +100,7 @@ detergent consumption (P29).  """@en .
 
 edp:P01
     od:hasMBPID "P01" ;
-    a od:EDP ;
+    a od:EDP_MBP ;
     od:when edc:PreManufacturing ;
     skos:definition "Design for appropriate lifespan"@en .
 
@@ -108,7 +108,7 @@ edp:P02
     od:hasMBPID "P02" ;
     od:when edc:PreManufacturing ;
     od:when edc:ProductUse ;
-    a od:EDP ;
+    a od:EDP_MBP ;
     skos:definition "Design for reliability (simplify, reduce number of component)"@en .
 
 edp:P03

@@ -1693,6 +1693,10 @@ odp:Huang_HC
     a foaf:Person ;
     foaf:name "Huan-Chu Huang" .
 
+odp:Huang_J
+    a foaf:Person ;
+    foaf:name "Huang Jun" .
+
 odp:Huang_Y
     a foaf:Person ;
     foaf:name "Huang Yan" .
