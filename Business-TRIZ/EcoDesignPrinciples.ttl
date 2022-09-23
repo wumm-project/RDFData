@@ -13,7 +13,7 @@
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     a owl:Ontology ;
-    rdfs:comment "2022-06-06 graebe: Extracted and transformed from (Russo, Spreafico 2020)" ;
+    rdfs:comment "2022-06-06 graebe: Extracted and transformed from (Russo, Spreafico 2020)", "2022-09-23 graebe: Links to GenericStrategies added" ;
     rdfs:label "The Eco Design principles in (Russo, Spreafico 2020)" .
 
 edc:AuxiliaryMaterials
@@ -134,7 +134,7 @@ edc:TransportationMeanSubstitution
     a od:EDPTool ;
     skos:prefLabel "Substitution of Transport Means"@en .
 
-edg:GS01
+edg:GS19
     a od:EDPGenericStrategy ;
     skos:note """According to TRIZ Law #6, during its evolution, when a technical system
 exhausts the possibilities of further significant improvement, it is included
@@ -170,7 +170,20 @@ components, reducing toward zero auxiliary materials, consumables, or
 eliminating the distance. The ideal lawnmower coincides, for example, with a
 lawn made of dwarf grass or grass inhibited in its growth so that it no longer
 needs to be cut."""@en ;
-    skos:prefLabel "Dematerialization/Ideality"@en .
+    skos:prefLabel "Dematerialization"@en .
+
+edg:GS15
+    a od:EDPGenericStrategy ;
+    skos:note """According to TRIZ, the dematerialization of a product coincides with its
+Ideality. The TRIZ Ideal Product is that which does not exist while continuing
+to perform the function for which it was conceived.  In this way, the product
+is not associated with any energy flow, material, packaging, etc., and cannot
+produce environmental impacts. It consists in eliminating all useless product
+components, reducing toward zero auxiliary materials, consumables, or
+eliminating the distance. The ideal lawnmower coincides, for example, with a
+lawn made of dwarf grass or grass inhibited in its growth so that it no longer
+needs to be cut."""@en ;
+    skos:prefLabel "Ideality"@en .
 
 edg:GS04
     a od:EDPGenericStrategy ;
@@ -228,9 +241,22 @@ that, from the Ecodesign point of view, this principle tends to optimize the
 processes and, therefore, to reduce the energy and mass impacts. With the same
 principle we tend to conceive multi-function objects for exploiting synergies
 among functions."""@en ;
-    skos:prefLabel "Local Quality"@en .
+    skos:prefLabel "Local Quality and Separation in Space"@en .
 
 edg:GS08
+    a od:EDPGenericStrategy ;
+    skos:note """TRIZ Principle #3 “Local quality” is used for reducing mental inertia when
+considering space and materials too homogeneous and continuous. It suggests to
+“Change an object’s structure from uniform to non-uniform, make each part of
+an object function in conditions most suitable for its operation, and make
+each part of an object fulfill a different and useful function”. We can say
+that, from the Ecodesign point of view, this principle tends to optimize the
+processes and, therefore, to reduce the energy and mass impacts. With the same
+principle we tend to conceive multi-function objects for exploiting synergies
+among functions."""@en ;
+    skos:prefLabel "Local Quality and Separation in Time"@en .
+
+edg:GS01
     a od:EDPGenericStrategy ;
     skos:note """Substitute a material or an energy flow or changing a transport mean with a
 lower environmental impact. The application of this strategy has its maximum
@@ -250,7 +276,7 @@ does not guarantee greener results and must always be verified from an LCA
 (Life Cycle Assessment) point of view."""@en ;
     skos:prefLabel "Segmentation of the Parts/Components"@en .
 
-edg:GS10
+edg:GS18
     a od:EDPGenericStrategy ;
     skos:note """Design for assembly (DFA) is a process whereby products are designed with ease
 of assembly in mind. If a product contains fewer parts it will take less time
@@ -268,7 +294,7 @@ process to change to be optimal or to find an optimal operating condition. If
 an object (or process) is rigid or inflexible, make it movable or adaptive.
 Any increase in efficiency has a positive effect on energy savings by the
 machine or the manufacturing process."""@en ;
-    skos:prefLabel "Dynamics"@en .
+    skos:prefLabel "Dynamics/Homogenize"@en .
 
 edg:GS12
     a od:EDPGenericStrategy ;
@@ -299,16 +325,25 @@ lacking, try to introduce it, while if it is insufficient try to improve
 it. More control means bigger efficiency and energy reduction."""@en ;
     skos:prefLabel "Increase Control"@en .
 
-edg:GS15
+edg:GS10
     a od:EDPGenericStrategy ;
     skos:note """Recycle/Reuse is part of the “Switch to super system” TRIZ
 suggestion. However, it appears in this form in the end of use phase
 guidelines. Recycling allows the elimination of disposal impact, while reusing
 helps to reduce impacts produced by the disassembly and the recycle operation,
 in addition to those deriving from the production of new products."""@en ;
-    skos:prefLabel "Recycle/Reuse"@en .
+    skos:prefLabel "Recycle"@en .
 
 edg:GS16
+    a od:EDPGenericStrategy ;
+    skos:note """Recycle/Reuse is part of the “Switch to super system” TRIZ
+suggestion. However, it appears in this form in the end of use phase
+guidelines. Recycling allows the elimination of disposal impact, while reusing
+helps to reduce impacts produced by the disassembly and the recycle operation,
+in addition to those deriving from the production of new products."""@en ;
+    skos:prefLabel "Reuse"@en .
+
+edg:GS17
     a od:EDPGenericStrategy ;
     skos:note """Optimization is present in many inventive principles even if, alone, is not a
 classical TRIZ approach; it can be useful for reducing impacts every time
@@ -331,6 +366,7 @@ edp:EliminateComponentsByIdeality
     od:what edc:Components ;
     od:when edc:EndOfLife ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS15 ;
     skos:definition "Eliminate Components (Ideality, Switch to Supersystem)"@en ;
     skos:example "Improving the biodegradability of landfill leachates through electrochemical oxidation processes (El Kateb et al., 2019) and that of PLA through thermal degradation (Mofokeng and Luyt, 2015)."@en, "Making plastic comestible for insects and other living species (Weiss et al., 2017)."@en .
 
@@ -342,6 +378,7 @@ edp:EliminateComponentsByRecycling
     od:what edc:Components ;
     od:when edc:EndOfLife ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS10 ;
     skos:definition "Eliminate Components (Recycle, Optimize)"@en ;
     skos:example "A Danish company developed a technology for recycling the 99% of worn out artificial turf from soccer pitches, transforming it into rubber granules, sand and plastic fibers. (Patent number: EP3138677A1)"@en, "A Finnish engine company developed a supercharging large diesel engine for reprocessing exhaust gases in marine applications, with a reduction of eq. CO2 up to 76%."@en, "Recovering cobalt and lithium from spent lithium-ion battery (Zeng et al., 2015)."@en .
 
@@ -353,6 +390,7 @@ edp:EliminateComponentsByReuse
     od:what edc:Components ;
     od:when edc:EndOfLife ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS16 ;
     skos:definition "Eliminate Components (Reuse)"@en ;
     skos:example "Containers, newsstands, pallets and bins used in architectural buildings and furnishing."@en, "Former Italian high-speed trains used in regional lines."@en, "Savannah College of Art and Design designed an easily repairable and upgradable microwave containing slots for updates, easily replaceable parts, also not original or from other models."@en, "Ship restaurant moored at the port."@en .
 
@@ -364,6 +402,7 @@ edp:EliminateComponentsByTakingOut
     od:what edc:Components ;
     od:when edc:EndOfLife ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS13, edg:GS15 ;
     skos:definition "Eliminate Components (Ideality, Taking out)"@en ;
     skos:example "Biodrying, biostabilization, thermal drying and solar drying for dehumidifying urban wastes before incinerators (Tun and Juchelkova, 2018)."@en, "Eliminating low-content impurities from Aluminum solidification by exploiting centrifugal force in rotative furnaces (Zhao et al., 2010)."@en .
 
@@ -375,6 +414,7 @@ edp:EliminateComponentsByTrimming
     od:what edc:Energy ;
     od:when edc:EndOfLife ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS02 ;
     skos:definition "Eliminate Components (Trimming)"@en ;
     skos:example "Dismantling multi-parts components, without disassembly them, within pyrolysis reactor by properly setting the operative parameters (Tian and Chen, 2014)."@en, "Milk bricks made by two easily detachable components: plastic lid and cardboard body with tinplate."@en .
 
@@ -386,6 +426,7 @@ edp:EliminateMachineriesByMerging
     od:what edc:Machineries ;
     od:when edc:Manufacturing ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS04 ;
     skos:definition "Eliminate Machineries (Merging)"@en ;
     skos:example "In order to save oil and energy during frying, an American potato chips producer, instead of using the pressing machine and frying machine, eliminated the second one by adding the vegetal oil within the pressing machine for directly frying the potatoes during the pressing."@en, "The introduction of hybrid manufacturing allowed both chip removal and additive manufacturing within the same machine, through a more efficient use of the resources available, machines and materials (Cortina et al., 2018)."@en .
 
@@ -396,6 +437,7 @@ edp:EliminateMachineriesByOptimization
     od:what edc:Machineries ;
     od:when edc:Manufacturing ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS17 ;
     skos:definition "Eliminate Machineries (Optimize)"@en ;
     skos:example "Density-based topology (i.e. Bridging topology) optimization for eliminating the supports in additive manufacturing (Zegard and Paulino, 2016)."@en, "Optimizing the speed of injection of the liquid material inside the molds for reducing the connection radii and the voids and the volumes of the sprues (Wang et al., 2017)."@en, "Optimizing the topology design of the components realized through additive manufacturing allowed a remarkable reduction of the impacts compared to CNC milling (Tang et al., 2016)."@en .
 
@@ -407,6 +449,7 @@ edp:EliminatePackagingByMerging
     od:what edc:Packaging ;
     od:when edc:ProductUse ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS04, edg:GS12 ;
     skos:definition "Eliminate Packaging (Merging, The other way around)"@en ;
     skos:example "In order to eliminate the bottle, gel douche uses a single bottle to contain two products i.e. the soap and the shampoo."@en, "Normally, six water bottles or rolls of toilet paper are contained within the same packaging."@en, "The smallest components (e.g. screws, squares) of furniture units at home are generally positioned inside the cavities and empty spaces."@en .
 
@@ -418,6 +461,7 @@ edp:EliminatePackagingByTrimming
     od:what edc:Packaging ;
     od:when edc:ProductUse ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS02, edg:GS19 ;
     skos:definition "Eliminate Packaging (Trimming, Switch to supersystem)"@en ;
     skos:example "Directly filling the tanks of the printers instead of using cartridges."@en, "Reproducing the bio-label on the fruit peel trough laser marking."@en, "Showing the contained product as advertising for reducing the packaging mass."@en .
 
@@ -429,6 +473,7 @@ edp:EliminateRawMaterialsByDematerialization
     od:what edc:RawMaterials ;
     od:when edc:PreManufacturing ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS03 ;
     skos:definition "Eliminate Raw Materials (Dematerialization)"@en ;
     skos:example "Malmodin and Lunden (2018) compared the environmental impacts of a single smartphone and 18 different devices potentially embedded within it (e.g. photo camera, radio, traditional phone) by finding a reduction in power consumption (449 vs 5 Watts), embodied energy (1706 kWh vs 75 kWh), stand-by energy use (72 vs 2,5 Watts) and weight (26 vs 0,1 kg)."@en .
 
@@ -439,6 +484,7 @@ edp:EliminateRawMaterialsByTrimming
     od:what edc:RawMaterials ;
     od:when edc:PreManufacturing ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS02 ;
     skos:definition "Eliminate Raw Materials by Trimming"@en ;
     skos:example "Transforming MTB traditional tires into tubeless tires with a commercial kit allows to eliminate the air chamber by making the tire impermeable with liquid latex and acrylic adhesive tape in order to be directly filled with air. This solution reduces the equivalent CO2 from 0,22 kg CO2 to 0,06 kg CO2 (94%) for each tire."@en .
 
@@ -450,6 +496,7 @@ edp:ImproveComponentsDurabilityByIdeality
     od:what edc:Components ;
     od:when edc:ProductUse ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS15 ;
     skos:definition "Improve Durability of the Product Components (Ideality, Switch to supersystem)"@en ;
     skos:example "A semi-liquid compound can polymerize with UV rays by forming a solid cohesive structure for filling cracks in wing profiles and shoe soils (Chen et al., 2015)."@en, "Introducing mastic inside air chambers for keeping them intact after small punctures by filling the puncture holes through expansion and solidification on contact with air."@en .
 
@@ -461,6 +508,7 @@ edp:ImproveComponentsDurabilityByOptimization
     od:what edc:Components ;
     od:when edc:ProductUse ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS17 ;
     skos:definition "Improve Durability of the Product Components (Dynamic, Optimize)"@en ;
     skos:example "Developing algorithms for enlarging operational life of water pumping systems by considering cavitation, variability of water inflow and activation frequency (Torregrossa and Capitanescu, 2019)."@en, "Optimizing the car traction control systems in order to avoid breaking blocking and the overheating of the brakes pads."@en .
 
@@ -472,6 +520,7 @@ edp:ImproveDurabilityAuxiliaryMaterials
     od:what edc:AuxiliaryMaterials ;
     od:when edc:Manufacturing ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS11 ;
     rdfs:comment "Example (1)" ;
     skos:definition "Improve Durability Auxiliary Materials (Other dimensions, Dynamics)"@en ;
     skos:example "Increase the durability of adhesive tapes, by making the distribution of the contact surface more homogeneous like the adhesion systems of lizards and arthropods (Puthoff, 2019)."@en, "Increase the durability of bearings, by realizing a partial micro-textured internal surface for reducing the friction (green tribology) (Matele and Pandey, 2018)."@en, "Increase the durability of forging tools in hot die forging processes, by monitoring the wear conditions through acoustic and resetting their dynamics of functioning (Hawryluk, 2016). The same is done for drilling tools, by monitoring the quality of the surface roughness within the holes (Ullah et al., 2019)."@en .
@@ -483,6 +532,7 @@ edp:ReduceDistanceExternalLogisticEndOfLife
     od:what edc:ExternalLogistic ;
     od:when edc:EndOfLife ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS15 ;
     skos:definition "Reduce Distance External Logistic (Ideality)"@en ;
     skos:example "Medium-size pyrolysis reactor (up to 4 MW) installed within stand-alone containers in former industrial sites where the wastes are placed."@en, "The French Plastic Odyssey project consists of using a boat dismantling floating plastic waste with an onboard pyrolysis reactor."@en .
 
@@ -493,6 +543,7 @@ edp:ReduceDistanceExternalLogisticSupplyPhase
     od:what edc:ExternalLogistic ;
     od:when edc:PreManufacturing ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS15 ;
     skos:definition "Reduce Distance External Logistic (Ideality)"@en ;
     skos:example "Almost all the solar farms in former global project Desertec were planned to be realized near the coasts for minimizing the transport of cooling water."@en .
 
@@ -504,6 +555,7 @@ edp:ReduceDistanceInternalLogistic
     od:what edc:InternalLogistic ;
     od:when edc:Manufacturing ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS09, edg:GS11 ;
     skos:definition "Reduce Distance Internal Logistic (Other dimensions, Segmentation, Dynamics)"@en ;
     skos:example "A proper adaptation of the layout of Rotterdam Shortsea Terminal, obtained through a smart disposition of the containers and the spaces for their movements, has been estimated to be the most effective measure to reduce CO2 emissions in the terminal by nearly 70 per cent, in a study proposed by Geerlings and van Duin (2011)."@en .
 
@@ -514,6 +566,7 @@ edp:ReduceMassAuxiliaryMaterialsByControl
     od:what edc:AuxiliaryMaterials ;
     od:when edc:ProductUse ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS14 ;
     skos:definition "Reduce Mass Auxiliary Materials (Increase control)"@en ;
     skos:example "Irrigation systems connected to the web (Internet of Things) for saving waters according to weather forecasting."@en, "Photocells on the taps in public toilets to detect the user presence."@en .
 
@@ -525,6 +578,7 @@ edp:ReduceMassAuxiliaryMaterialsByLocalQuality
     od:what edc:AuxiliaryMaterials ;
     od:when edc:ProductUse ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS07 ;
     skos:definition "Reduce Mass Auxiliary Materials (Local Quality & Separation in space/time)"@en ;
     skos:example "Optimizing the shape of the creeping gaskets for confining a small quantity of lubricant (up to 25% less according to a North European company) only where friction is greater."@en, "Redesigning the surface roughness for optimizing the adherence of the film lubricant and reducing its thickness (Hassanpour et al., 2016)."@en .
 
@@ -536,6 +590,7 @@ edp:ReduceMassAuxiliaryMaterialsByRecycling
     od:what edc:AuxiliaryMaterials ;
     od:when edc:Manufacturing, edc:ProductUse ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS10, edg:GS19 ;
     skos:definition "Reduce Mass Auxiliary Materials (Recycle, Switch to Supersystem)"@en ;
     skos:example "An innovative printer deletes the ink on used papers and re-prints on them."@en, "Condensing water humidity for irrigating (Alnaser and Barakat, 2000)."@en, "Producing biodiesel from cooking oil is more sustainable then diesel (Yaakob et al., 2013)."@en, "Recycling exhaust lubricating oil is more sustainable than conventional refinery process (Botas et al., 2017)."@en, "Recycling lubricating oil for reducing the global warming potential, cumulative energy demand, acidification and toxicity (Botas et al., 2017)."@en, "Regenerating tools in CNC stations and foundry molds for plastic or integrating inserts of new material in limited parts."@en .
 
@@ -546,6 +601,7 @@ edp:ReduceMassAuxiliaryMaterialsByRedesign
     od:what edc:AuxiliaryMaterials ;
     od:when edc:ProductUse ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS05 ;
     skos:definition "Reduce Mass Auxiliary Materials (Redesign internal structure)"@en ;
     skos:example "Optimizing spatial distribution (for minimizing it) of the lubricant through spray (Zhang et al., 2019)."@en, "Saving ink during printing, by optimizing the deposition: microscopically dotted and macroscopically perceived as solid."@en .
 
@@ -557,6 +613,7 @@ edp:ReduceMassAuxiliaryMaterialsBySupersystem
     od:what edc:AuxiliaryMaterials ;
     od:when edc:Manufacturing ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS19 ;
     skos:definition "Reduce Mass Auxiliary Materials (Switch to Supersystem)"@en ;
     skos:example "Biodiesel realized from waste oil by Italian consortium Canoe."@en, "Irrigating Israeli’s drylands with using waste and salt waters for vegetable and fruit production guaranteed advantages on sustainability (Tal, 2016)."@en, "Mushrooms made with waste beer and rice and mycelia grown with plastic waste are exploited by some experimental crops."@en, "The RadChemLab of the University of Pavia exploited exhaust oils for realizing resin for the fusion wire in additive manufacturing processes."@en .
 
@@ -578,6 +635,7 @@ edp:ReduceMassPackagingByAggregation
     od:what edc:Packaging ;
     od:when edc:PreManufacturing, edc:ProductUse ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS06 ;
     skos:definition "Reduce Mass Packaging (Change the state of Aggregation)"@en ;
     skos:example "The introduction of solid ink cartridges for printers allowed the complete elimination of their packaging."@en, "Transporting milk in form of powder from farm to factory by using simple plastic sachets, instead of the conventional metallic bins. Also, producer of other foodstuffs, e.g. dehydrated fruit, fish, egg, exploit the same strategy."@en .
 
@@ -589,6 +647,7 @@ edp:ReduceMassPackagingByOptimization
     od:what edc:Packaging ;
     od:when edc:ProductUse ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS17, edg:GS07 ;
     skos:definition "Reduce Mass Packaging (Optimize, Local quality & Separation in space)"@en ;
     skos:example "An Irish company active in ultralightweight paper packaging, made by honeycomb structure, for containing glass bottles."@en, "An international big firm of food and beverages optimized the shape of its plastic water bottles in order to increase the strength by reducing the mass of 15% (2.1 grams) for each bottle."@en, "Packaging for eggs made by semi-open forms."@en .
 
@@ -600,6 +659,7 @@ edp:ReduceMassRawMaterialsByRecycling
     od:what edc:RawMaterials ;
     od:when edc:PreManufacturing ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS10 ;
     skos:definition "Reduce Mass Raw Materials (Recycle)"@en ;
     skos:example "Recycling concrete aggregates in new buildings and for paving roads for reduce the impacts up to 50% (McGinnis et al., 2017; Ossa et al., 2016)."@en, "Recycling fibers in fashion industry (Leonas, 2017)."@en, "Recycling the casting channels for successive melting in the foundries."@en .
 
@@ -611,6 +671,7 @@ edp:ReduceMassRawMaterialsByRedesign
     od:what edc:RawMaterials ;
     od:when edc:PreManufacturing ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS05 ;
     skos:definition "Reduce Mass Raw Materials (Redesign internal structure)"@en ;
     skos:example "A multi-national packaging reduced the weight of their packaging up to 70%, by realizing an internal honeycomb structure."@en, "Twede et al. (2014) collected and compared a multitude of paper packaging made by different lightweight structures (e.g. wavy, porous, corrugated, expanded, perforated) in terms of sustainability."@en .
 
@@ -622,6 +683,7 @@ edp:ReduceQuantityEnergyByOptimization
     od:what edc:Energy ;
     od:when edc:ProductUse ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS17, edg:GS12  ;
     skos:definition "Reduce Quantity Energy (Optimize, The other way around, Other dimensions)"@en ;
     skos:example "Easily removable cover for replacing the battery, placed inside the larger one in some Swiss watches."@en, "Facilitating the substitution of the bulb lamp in modern projects trough front accessing by the lens."@en, "Making manufacturing greener by introducing tools for training practitioners (Ajukumar and Gandhi, 2013)."@en, "Standardizing all the screws within engines for the U.S. Army military vehicles, in order to allow maintenance with a unique special wrench."@en .
 
@@ -633,6 +695,7 @@ edp:ReduceQuantityOfEnergyByIdeality
     od:what edc:Energy ;
     od:when edc:EndOfLife ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS15, edg:GS19 ;
     skos:definition "Reduce Quantity of Energy (Ideality, Switch to Supersystem)"@en ;
     skos:example "A Japanese tech manufacturer developed a set of junctures for mobile phones, which able to self-separate under the effect of a controlled resonance frequency."@en, "Introducing electromagnetic separation for those components made by different materials."@en, "Introducing snap-fits, made by shape memory polymers releasing through a thermal trigger, for active disassembly of assembled parts (Carrell et al., 2011)."@en .
 
@@ -644,6 +707,7 @@ edp:ReduceQuantityOfEnergyByLocalQuality
     od:what edc:Energy ;
     od:when edc:ProductUse ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS08, edg:GS11  ;
     skos:definition "Reduce Quantity of Energy (Local quality, Dynamics)"@en ;
     skos:example "Disconnecting and reconnecting some cylinders in automotive engines or elaborating variable parts of the inlet mass flow with by pass-valve and the working conditions, i.e. user demand and environmental situations (e.g. climatic and morphological) afterburners in turbofans for limiting the fuel consumption."@en, "Improving traction control with torque sensor in automotive for reducing fuel consumption."@en, "Monitoring humidity, tension and moisture within air, soil and leaves for saving water in modern irrigation systems."@en, "The introduction of intelligent systems for traction control resulted proved to be the best strategy for reducing fuel consumption of Chinese high-speed rails (Tan et al. 2016)."@en .
 
@@ -654,6 +718,7 @@ edp:ReduceQuantityOfEnergyByTakingout
     od:what edc:Energy ;
     od:when edc:ProductUse ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS13 ;
     skos:definition "Reduce Quantity of Energy (Taking out)"@en ;
     skos:example "In space rockets and military aircrafts, the heavy empty fuel tanks are jettisoned after the use and then recovered."@en, "Railway trains with the number of variable carriages or urban autobus with magnetically connected micromodules a well-known Italian design agency."@en .
 
@@ -664,6 +729,7 @@ edp:ReduceQuantityOfEnergyProductUse
     od:what edc:Energy ;
     od:when edc:ProductUse ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS10, edg:GS19 ;
     skos:definition "Reduce Quantity of Energy (Recycle, Switch to supersystem)"@en ;
     skos:example "An American producer of Electric Mountain Bikes developed a simple and lightweight dynamo, embedded within the central movement, which allows to recharge the batteries when pedaling downhill."@en, "Buenaventura and Azzopardi (2015) analyzed several techniques of energy recovery systems for retrofitting internal combustion engine in order to improve sustainability."@en .
 
@@ -675,6 +741,7 @@ edp:ReduceQuantityofEnergyByDesign
     od:what edc:Energy ;
     od:when edc:Manufacturing ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS18 ;
     skos:definition "Reduce Quantity of Energy (Design for assembly, Asymmetry)"@en ;
     skos:example "A Chinese manufacturer introduced a standard architecture for electronic products by reducing the number of components and designing the part orientation."@en, "Go et al. (2015) presented a novel methodology for supporting product re-design through the reduction of the number of its parts and evaluating the environmental impact."@en .
 
@@ -685,6 +752,7 @@ edp:ReduceQuantityofEnergyByDynamics
     od:specificSuggestion "Move them from continuous to discontinuous operation (start and stop)."@en, "Optimize their processed and carried load."@en, "Optimize their speed rate (i.e. reduce when possible) by planning through a dedicated software."@en ;
     od:what edc:Energy ;
     od:when edc:Manufacturing ;
+    od:toGenericStrategy edg:GS11 ;
     a od:EDP ;
     skos:definition "Reduce Quantity of Energy (Dynamics)"@en ;
     skos:example "Developing algorithms for investigating the optimal cutting conditions in relation to energy consumption and waste management (Hegab et al., 2018), or the lubricant consumption (e.g. Brinksmeier et al., 1999)."@en, "Investigating the most suitable production route in additive manufacturing for minimizing energy consumption (Priarone et al., 2018)."@en .
@@ -697,6 +765,7 @@ edp:ReduceQuantityofEnergyByRecycling
     od:what edc:Energy ;
     od:when edc:EndOfLife ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS10 ;
     skos:definition "Reduce Quantity of Energy (Recycle)"@en ;
     skos:example "A digital cameras producer introduced a model where the external case can be easily and automatically disassembled through a dedicated machine acting on some access points."@en, "Alshibli et al. (2016) improved the disassembly sequencing by introducing a modified Genetic Algorithm for searching the more sustainable combination."@en, "Wang (2017) introduced industrial robots in automatic disassembly line of waste LCD for reducing the environmental impact of the phase."@en .
 
@@ -707,6 +776,7 @@ edp:ReduceQuantityofEnergyManufacturing
     od:what edc:Energy ;
     od:when edc:Manufacturing ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS10, edg:GS19 ;
     skos:definition "Reduce Quantity of Energy (Recycle, Switch to supersystem)"@en ;
     skos:example "Excavators including hydraulic accumulators for energy regenerators can reduce the total consumption up to 45% (Lin et al., 2010)."@en, "Organic Rankine Cycles recover heat from low temperature sources for producing electricity."@en, "Trigeneration systems combining cogeneration plants with absorption refrigeration for the production of cooling."@en .
 
@@ -718,6 +788,7 @@ edp:ReduceVolumeExternalLogisticByAggregation
     od:what edc:ExternalLogistic ;
     od:when edc:PreManufacturing ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS06 ;
     skos:definition "Reduce Volume External Logistic (Change the state of aggregation)"@en ;
     skos:example "Liquefying LNG (Liquefied Natural Gas) and maintaining it as is, as cryogenic fuel (Kumar et al., 2011)."@en, "Storing liquid oxygen in pressurized cylinders during transport and regasifying it in a second time."@en .
 
@@ -728,6 +799,7 @@ edp:ReduceVolumeExternalLogisticByOptimization
     od:what edc:ExternalLogistic ;
     od:when edc:PreManufacturing, edc:ProductUse ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS12 ;
     skos:definition "Reduce Volume External Logistic (The other way around)"@en ;
     skos:example "Disposing the cars according to different inclinations within car carrier trucks."@en, "Low-diameter sheet coils be placed inside large diameter coils during transport."@en, "Self-folding chairs made by ridged rotable parts for saving space during transport."@en, "Truck loading optimization for paper rolls, pallets, skids and boxes via trailers, containers and railcars, made by commercial software."@en .
 
@@ -738,6 +810,7 @@ edp:ReduceVolumeExternalLogisticBySegmentation
     od:what edc:ExternalLogistic ;
     od:when edc:PreManufacturing ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS09 ;
     skos:definition "Reduce Volume External Logistic (Segmentation)"@en ;
     skos:example "Compressing data by packing them during transmission and unpacking them after the reception for saving the total amount of shared data and so the mass of the transmission cables."@en, "Removing tree trunks from the branches and cut them into various pieces during transport."@en .
 
@@ -749,6 +822,7 @@ edp:ReduceVolumeExternalLogisticEndOfLife
     od:what edc:ExternalLogistic ;
     od:when edc:EndOfLife ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS11 ;
     skos:definition "Reduce Volume External Logistic (Dynamics)"@en ;
     skos:example "A patented vacuum-cleaner (ITMI20131928) contains a dustcompactor inside that can be manually actuated."@en, "Commercial garbage bins including waste compactors."@en, "Plastic bottles including flexible ribs for optimizing the deformation."@en .
 
@@ -759,6 +833,7 @@ edp:ReduceVolumeExternalLogisticSupplyPhase
     od:what edc:ExternalLogistic ;
     od:when edc:PreManufacturing, edc:ProductUse ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS11 ;
     skos:definition "Reduce Volume External Logistic (Dynamics)"@en ;
     skos:example "Industrial cellulose fibers are compacted in bobbins, for reducing the volume during transport. After that, the cellulose will be ground in fibers."@en, "Foldable parking tents and removable caravans."@en, "Nested container realized with conical or flared shapes."@en, "Suppliers for plastic for fusion have instead modified the shape of the plastic itself, by adopting granules instead of reels."@en, "Using rectangular cans instead of cylindrical ones."@en .
 
@@ -769,6 +844,7 @@ edp:ReduceVolumePackagingByDynamics
     od:what edc:Packaging ;
     od:when edc:PreManufacturing ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS11 ;
     skos:definition "Reduce Volume Packaging (Dynamics)"@en ;
     skos:example "A commercial firm active in packaging developed flexible tube of paper, which can be rolled up on itself by flattening and melted by increasing its contained volume up to become of square section."@en .
 
@@ -780,6 +856,7 @@ edp:ReduceVolumePackagingByIdeality
     od:what edc:Packaging ;
     od:when edc:ProductUse ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS13, edg:GS15, edg:GS19 ;
     skos:definition "Reduce Volume Packaging (Taking out, Ideality, Switch to supersystem)"@en ;
     skos:example "A German company produces compressed pop-up sponges which are transported in small sachets occupying less than 20% times the standard volume, which is immediately recovered once in contact with air. The same is done for mattresses and pillows."@en, "Grated cheese occupies a smaller volume than a slice also thanks to the elimination of the crust."@en, "Rice vacuum eliminates the volume that is normally occupied by the air within the rice bag."@en .
 
@@ -791,6 +868,7 @@ edp:SelectOtherAuxiliaryMaterials
     od:what edc:AuxiliaryMaterials ;
     od:when edc:Manufacturing, edc:ProductUse ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS01 ;
     skos:definition "Select Other Auxiliary Materials (Substitute)"@en ;
     skos:example "Biofuel-powered vehicles are more sustainable than diesel ones in terms of vehicular efficiency (+82%) and reduction of emission (-21.5%) (Korres et al., 2010)."@en, "In order to eliminate the support of 3D printed objects through milling, some 3D printers can integrate hydro soluble materials for the supports between the final piece and the supporting plate, which can be removed through a water jet."@en, "Reducing the impact deriving from the disposal of lubricants, by substituting the synthetic-based ones with those water-based."@en .
 
@@ -802,6 +880,7 @@ edp:SelectOtherExternalLogisticEndOfLife
     od:what edc:ExternalLogistic ;
     od:when edc:EndOfLife, edc:ProductUse ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS01 ;
     skos:definition "Select Other External Logistic (Substitute)"@en ;
     skos:example "Buchal et al. (2019) identified methane-powered vehicles as the most promising alternative for reducing CO2 emissions in Germany within the next years."@en, "City of Goteborg gradually substituted all the public vehicles, i.e. buses, vans for waste collection and taxi, with vehicles powered by ethanol, hybrid and full- electric and more efficient traditional engines."@en, "Italian producer of mineral water substituted its trucks for deliveries with models powered by LPG, which have a greater autonomy and an environmental impact reduced more than 30%."@en .
 
@@ -813,6 +892,7 @@ edp:SelectOtherExternalLogisticSupplyPhase
     od:what edc:ExternalLogistic ;
     od:when edc:PreManufacturing ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS01 ;
     skos:definition "Select Other External Logistic (Substitute)"@en ;
     skos:example "A Chinese company active in agrobusiness moves a consistent part of its raw materials from the suppliers by exploiting a river, and its current, and a series of artificial channels, which are also used for irrigating the fields nearby."@en .
 
@@ -823,6 +903,7 @@ edp:SelectOtherInternalLogistic
     od:what edc:InternalLogistic ;
     od:when edc:Manufacturing ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS01 ;
     skos:definition "Select Other Internal Logistic (Substitute)"@en ;
     skos:example "In order to increase the efficiency of internal logistic and reducing the impacts, in 2016, a swiss brewery substituted all its 217 Diesel forklifts with electric models which are 30 percent more efficiency and they allowed to save a total amount of 100000 liters of fuel, or about 260 tons of saved emission of CO2."@en .
 
@@ -834,6 +915,7 @@ edp:SelectOtherMachineriesSubstitute
     od:what edc:Machineries ;
     od:when edc:Manufacturing ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS01 ;
     skos:definition "Select Other Machineries (Substitute)"@en ;
     skos:example "In order to avoid the production of the molds, some manufacturers introduced 3D printers in their facilities in substitution of the traditional molding machineries."@en, "Lin et al. (2010) compared traditional construction machinery such as the excavator and wheel loader, powered by gasoline, and hybrid models, including regeneration systems, by considering consumptions, pollutants and the challenging deriving from their production, finding considerable environmental advantages."@en .
 
@@ -844,6 +926,7 @@ edp:SelectOtherPackagingEndOfLife
     od:what edc:Packaging ;
     od:when edc:EndOfLife ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS01 ;
     skos:definition "Select Other Packaging (Substitute)"@en ;
     skos:example "Eco-bags in European supermarket."@en, "Edible water bottle made membrane of edible algae, developed by a London-based startup in 2014."@en, "Food packaging made by with banana leaves and flexible pieces of bamboo in Thai supermarkets."@en, "Recyclable PLA water bottles and food packaging (Muller et al. 2017)."@en .
 
@@ -855,6 +938,7 @@ edp:SelectOtherPackagingForDelivery
     od:what edc:Packaging ;
     od:when edc:ProductUse ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS01 ;
     skos:definition "Select Other Packaging (Substitute)"@en ;
     skos:example "A German shoes manufacturing developed a new packaging made by fabric, which involve fewer raw materials and saves more than 60% of water and energy."@en .
 
@@ -866,6 +950,7 @@ edp:SelectOtherPackagingSupplyPhase
     od:what edc:Packaging ;
     od:when edc:PreManufacturing ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS01 ;
     skos:definition "Select Other Packaging (Substitute)"@en ;
     skos:example "An Italian packaging firm produces an ecologic bubble wrap, entirely made with recycled paper."@en .
 
@@ -877,5 +962,6 @@ edp:SelectOtherRawMaterials
     od:what edc:RawMaterials ;
     od:when edc:PreManufacturing ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS01 ;
     skos:definition "Select Other Raw Materials (Substitute)"@en ;
     skos:example "A well-known footwear brand replaced the synthetic plastic of the soles of its running shoes with natural rubber, without modifying the design and the production technologies and preserving the strength and durability of the product."@en, "Selecting unconventional sustainable building insulation materials by exploiting local materials and industrial byproducts in order to limit the impacts from transportation and disposal (Asdrubali et al., 2015)."@en .

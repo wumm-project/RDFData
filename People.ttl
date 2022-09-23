@@ -5054,6 +5054,12 @@ odp:Yang_WD
     a foaf:Person ;
     foaf:name "Wen-dan Yang" .
 
+odp:Yarygin_A
+    a foaf:Person ;
+    foaf:affil "Petrazovodsk, Russia" ;
+    foaf:fullname "Ярыгин Андрей"@ru ;
+    foaf:name "Andrey Yarygin" .
+
 odp:Yatsunenko_S
     a foaf:Person ;
     foaf:affil "Novismo, Warsaw, Poland" ;
