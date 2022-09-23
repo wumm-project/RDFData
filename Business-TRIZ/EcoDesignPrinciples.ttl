@@ -130,6 +130,10 @@ edc:ReduceVolume
     a od:EDPAction ;
     skos:prefLabel "Reduce Volume"@en .
 
+edc:SelectOther
+    a od:EDPAction ;
+    skos:prefLabel "Select Other"@en .
+
 edc:TransportationMeanSubstitution
     a od:EDPTool ;
     skos:prefLabel "Substitution of Transport Means"@en .
@@ -625,6 +629,7 @@ edp:ReduceMassEmissions
     od:what edc:Emissions ;
     od:when edc:Manufacturing, edc:ProductUse ;
     a od:EDP ;
+    od:toGenericStrategy edg:GS07 ;
     skos:definition "Reduce Mass Emissions (Local Quality & Separation in space)"@en ;
     skos:example "Breaking down the production of NOx in gas turbine through a controlled injection of small quantities of water steam within the combustion chamber for locally decreasing the temperature that is responsible for their chemical aggregation."@en, "Fernando and Hor (2017) reported some techniques for reducing pollutants production in Malaysia working on energy management practices."@en, "Nawi et al. (2016) introduced a systematic technique for selecting systems for CO2  capture, by considering sustainability and costs."@en, "Russo et al. (2019) proposed an improvement for pyrolysis reactors aimed at minimizing the production of ashes, through a redesigned internal layout."@en .
 
