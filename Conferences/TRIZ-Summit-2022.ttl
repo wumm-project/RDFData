@@ -233,21 +233,6 @@ In this article, the authors propose to expand the set of tools and apply the pa
     dcterms:title "Application of TRIZ tools in Campino-TRIZ for problem definition and solution in government systems"@en, "Применение инструментов ТРИЗ и использование программного комплекса Compinno-TRIZ для постановки и решения организационных задач и задач государственного управления"@ru ;
     a od:Talk .
 
-:talk_131
-    swc:relatedToEvent track:Business ;
-    dcterms:abstract """Russell L. Ackoff introduced Interactive Planning (IP) as an ideal-oriented organisational development methodology since the 1970s. IP has the orientation towards systemic structuring in common with TRIZ, although the idea of systemic development was more consistently unfolded in Interactive Planning from the very beginning, e.g. in Ackoff's paper \"Towards a System of Systems Concept\" (1971) and his monograph \"Creating the corporate future\" (1981).
-
-Another common feature is the orientation towards ideality. In TRIZ as planning instrument, the concept of ideality is used as orientation during systemic modelling. Similarly in IP, which breaks down into the two parts \"idealisation and realisation\" (Ackoff 2001). Idealisation with the two parts \"situational analysis\" and \"ends planning\" is more structured in IP than in TRIZ.
-
-The TRIZ idea of an \"Ideal Machine\" is taken up in \"Idealised Design\" and applied to the organisation itself: \"assume that the organisation planned for was completely destroyed last night, but its environment remains exactly as it was\". In addition to \"technological feasibility\" and \"operational viability\", \"learning and adaptation\" plays an important role as a third pillar in this idealised design. Such approaches are less developed in Business TRIZ.
-
-Another difference between Business TRIZ and IP results from the way in which the development of the system under investigation is conceptualised. Both approaches distinguish between a current state of the \"system as is\" and an ideal-oriented state of the \"system as required\". IP focuses more on practically achieving the rough consensus on that target state within a process of an iterative, continuous improvement, thereby linking the long-term objective with the implementation of short-term improvements \"by continuously closing the gap between its current state and its desirable current state\" and thus transforming \"collaborative planning\" itself into a continuous process.
-
-In the presentation these similarities and differences are analysed in more detail."""@en ;
-    dcterms:creator odp:Graebe_HG ;
-    dcterms:title "Business TRIZ and Interactive Planning: A Comparison"@en ;
-    a od:Talk .
-
 :talk_132
     swc:relatedToEvent track:Business ;
     dcterms:abstract "Об опыте организации предпроектной работы. От анализа проблематики до бизнес-гипотез."@ru ;

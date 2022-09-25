@@ -34,6 +34,7 @@
     ical:dtend "2022-09-29"^^xsd:date ;
     ical:dtstart "2022-09-27"^^xsd:date ;
     ical:location "Warsaw University of Technology (Warsaw, Poland)" ;
+    od:theProceedings <https://doi.org/10.1007/978-3-031-17288-5> ; 
     od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZ-Future-2022.rdf> ;
     ical:url <https://tfc2022.elka.pw.edu.pl/> .
 

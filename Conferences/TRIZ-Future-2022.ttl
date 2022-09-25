@@ -19,6 +19,7 @@
     ical:dtstart "2022-09-27"^^xsd:date ;
     ical:location "Warsaw University of Technology (Warsaw, Poland)" ;
     ical:summary "The conference aims at linking organizations and individuals from the industry, research, and education worlds to share their experience on systematic innovation and promote TRIZ-based tools worldwide. It will provide an international forum to exchange new ideas on knowledge-based innovation, present recent achievements in this area, and strengthen collaboration between academic and industrial players."@en;
+    od:theProceedings <https://doi.org/10.1007/978-3-031-17288-5> ; 
     ical:url <https://tfc2022.elka.pw.edu.pl/>  .
 
 :Talk_100
