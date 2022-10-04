@@ -2290,8 +2290,10 @@ odp:Korneev_SG
 
 odp:Korolev_VA
     a foaf:Person ;
-    foaf:fullname "Королёв В. А."@ru ;
-    foaf:name "V. A. Korolev" .
+    foaf:homepage <http://www.triz.org.ua> ; 
+    foaf:affil "Kiev, Ukraine" ;
+    foaf:fullname "Королёв Владимир Александрович"@ru ;
+    foaf:name "Vladimir A. Korolev" .
 
 odp:Korotchenya_V
     a foaf:Person ;
@@ -4789,7 +4791,7 @@ odp:Vikentiev_IL
     a foaf:Person ;
     foaf:affil "Russia" ;
     foaf:fullname "Викентьев Игорь Леонардович"@ru ;
-    foaf:homepage <https://vikent.ru> ;
+    foaf:homepage <https://vikent.ru>, <http://triz-chance.ru>, <https://www.triz-ri.ru> ;
     foaf:name "Igor L. Vikentiev" .
 
 odp:Villarroel_JRE
