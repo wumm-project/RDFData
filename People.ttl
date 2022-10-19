@@ -143,11 +143,6 @@ odp:Arutyunova_E
     a foaf:Person ;
     foaf:name "Ekaterina Arutyunova" .
 
-odp:Asatullina
-    a foaf:Person ;
-    foaf:fullname "Асатуллина"@ru ;
-    foaf:name "Asatullina" .
-
 odp:Atvars_A
     a foaf:Person ;
     foaf:affil "Riga, Latvia" ;
@@ -2214,11 +2209,6 @@ odp:Klyuch_N
     foaf:affil "Russia" ;
     foaf:fullname "Ключ Наталья"@ru ;
     foaf:name "Natalya Klyuch" .
-
-odp:Knyazeva
-    a foaf:Person ;
-    foaf:fullname "Князева"@ru ;
-    foaf:name "Knyazeva" .
 
 odp:Kneisel_BO
     a foaf:Person ;

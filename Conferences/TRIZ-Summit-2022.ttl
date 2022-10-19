@@ -38,6 +38,7 @@ track:IT
 
 Особе внимание в докладе уделено главному труду в жизни Николая Шпаковского -  программному продукту »Solving Mill«"""@ru ;
     dcterms:creator odp:Domkin_KI, odp:Severinets_GA ;
+    od:presentedBy odp:Domkin_KI;
     dcterms:title "TRIZ in life and creativity of Nikolai Shpakovsky"@en, "ТРИЗ в жизни и творчестве Николая Шпаковского"@ru ;
     a od:Talk .
 
@@ -47,6 +48,7 @@ track:IT
 
 This report describes the differentiated educational needs of individual faculties and the system of innovation education courses we have developed, including the Innovation Technology course and the Innovation Psychology course; it describes the basic framework and content of the courses and the modular combinations adapted to different teaching purposes. The report concludes by showing examples of students' innovation training and looking at the way forward for innovation education in China."""@en ;
     dcterms:creator odp:Li_Hu, odp:Wang_J ;
+    od:presentedBy odp:Wang_J;
     dcterms:title "Innovation Education in Practice at Tsinghua University"@en ;
     a od:Talk .
 
@@ -54,6 +56,7 @@ This report describes the differentiated educational needs of individual faculti
     swc:relatedToEvent track:IT ;
     dcterms:abstract "Цифровая трансформация с хайпом вокруг Интернета вещей (IoT) в последние годы немного снизила свой темп. С учётом новых волн неопределенности: изменение цепочек поставок, сжатие рынка электронных компонентов, пересмотр политики государства в части безопасности данных и так далее, нужны подходы для осознания происходящего и выработки концепций, стратегий развития данного направления. Как не тормозить развитие всех проектов со словом »smart«, а развивать их, соблюдая безопасность перемещаемых данных - это серьезный вызов для всех участников рынка (производителей оборудования, интеграторов, бизнеса и конечных пользователей). В докладе уделю внимание развитию концепции »Умный город«, как глобальной рукотворной системе, состоящей из массы подсистем с многоуровневой иерархией, и через ТРИЗ покажу, что системы обеспечения безопасности, как и другие технические системы, подчиняются тем же законам развития. В докладе затрону тему конфликтов требований: от пользовательских до законодательных, и постараюсь оценить инструментами ТРИЗ траектории развития отрасли. "@ru ;
     dcterms:creator odp:Khovanov_S, odp:Lazarev_A ;
+    od:presentedBy odp:Lazarev_A ;
     dcterms:title "The development of cryptographic information security systems in IoT through the prism of TRIZ tools"@en, "Развитие систем криптографической защиты информации в IoT через призму инструментов ТРИЗ"@ru ;
     a od:Talk .
 
@@ -63,6 +66,7 @@ This report describes the differentiated educational needs of individual faculti
 
 Ключевые слова: ТРИЗ, разрешение противоречий, бенчмаркинг, вторичные задачи, инновация, проект, этап, стадия, вехи, экономическая эффективность, проект, портфель проектов"""@ru ;
     dcterms:creator odp:Gurkov_D, odp:Kamlenok_T, odp:Misyuchenko_IL ;
+    od:presentedBy odp:Misyuchenko_IL ;
     dcterms:title "Innovation TRIZ project lifecycle"@en, "Жизненный цикл инновационного ТРИЗ-проекта"@ru ;
     a od:Talk .
 
@@ -82,7 +86,8 @@ This report describes the differentiated educational needs of individual faculti
     dcterms:abstract """TRIZ tools for definition and analysis of inventive situation is not synchronized with similar tools from different engineering domains including system engineering. This un-synchronization creates barriers in information and data transfer between different tools applied in the processes of product development and inventive problem solving.
 
 In presentation authors demonstrate the results of comparison analysis of TRIZ tools for definition and analysis of inventive situation with tools from another engineering domains. Authors propose 1) a set of interrelated terms, definitions and models synchronized with different engineering domains; 2) indicators for evaluation of the inventive situation definition."""@en ;
-    dcterms:creator odp:Kuryan_AG, odp:Rubin_MS ;
+    dcterms:creator odp:Kuryan_AG, odp:Rubin_MS ; 
+    od:presentedBy odp:Kuryan_AG ;
     dcterms:title "Definition and analysis of inventive situation in TRIZ"@en ;
     a od:Talk .
 
@@ -90,6 +95,7 @@ In presentation authors demonstrate the results of comparison analysis of TRIZ t
     swc:relatedToEvent track:IT ;
     dcterms:abstract "Более двух десятилетий специалисты ищут действенное применение методики ТРИЗ в области разработки программного и аппаратного обеспечения. На сегодняшний день имеется квалифицированное представление о том, когда и каким образом применение инструментов ТРИЗ может быть результативным и принципиально новым. Часто бывает, что такое применение очень зависит от постановки задач на бизнес уровне в ИТ-проектах. В данной работе будет освящен как раз вопрос о том, в каких задачах бизнеса, в каких условиях могут те или иные инструменты быть максимально востребованы сообщество разработчиков в ИТ сфере, а также исследование зон, в которых требуется освежить методический взгляд на применение некоторые инструментов ТРИЗ, чтобы их применение развивал и упорядочил творческий потенциал команд, разрабатывающих программно-аппаратные решения и системы искусственного интеллекта."@ru ;
     dcterms:creator odp:Kassou_R, odp:Rubin_MS ;
+    od:presentedBy odp:Kassou_R ;
     dcterms:title "Developing TRIZ approaches and methods in information technologies"@en, "Развитие подходов и методов ТРИЗ в информационных технологиях"@ru ;
     a od:Talk .
 
@@ -105,6 +111,7 @@ In presentation authors demonstrate the results of comparison analysis of TRIZ t
 
 В докладе будут приведены аналитический обзор по данной теме, исследования путем сравнения инструментов, методов и закономерностей развития биологии и медицины с инструментами ТРИЗ.  Адаптация инструментов ТРИЗ для биомедицинских исследований. Будут приведены примеры использования различных инструментов ТРИЗ в биомедицинских исследованиях, в том числе и примеры из личного опыта авторов. """@ru ;
     dcterms:creator odp:Berdichevsky_Y, odp:Petrov_VM ;
+    od:presentedBy odp:Berdichevsky_Y ;
     dcterms:title "Applying TRIZ tools in biomedical research"@en, "Использование инструментов ТРИЗ в биомедицинских исследованиях"@ru ;
     a od:Talk .
 
@@ -143,6 +150,7 @@ With the development of such sciences as philosophy, logic and the study of teac
     swc:relatedToEvent track:IT ;
     dcterms:abstract "Построение функционально-параметрических моделей исследуемых объектов вызывает определенные трудности. И, если выбор носителей и объектов функций в схеме »НОСИТЕЛЬ« - »ДЕЙСТВИЕ« - »ОБЪЕКТ« осуществляется сравнительно просто, то подбор глагола, выражающего ДЕЙСТВИЕ, требует от исследователя глубокого анализа взаимодействия. Собственно говоря, именно в подборе глагола и выражено требование ФСА к качеству исследования функций (полнота, абстрактность, лаконизм, точность, измеримость). Сложность работы исследователя ФСА заключается в том, что в документации (конструкторской, технологической, экономической, нормативной и т.д.) нет готовых формулировок функций, либо нет корректных формулировок функций. Зачастую специалисты предприятия не могут однозначно ответить на вопрос: »Какая главная полезная функция (ГПФ) объекта?«."@ru ;
     dcterms:creator odp:Dmitriev_SA, odp:Krayev_OA, odp:Mosman_P, odp:Starovoitov_VP ;
+    od:presentedBy odp:Dmitriev_SA, odp:Krayev_OA, odp:Mosman_P ;
     dcterms:title "A glossary of actions of functions for performing function analysis"@en, "Глоссарий действий функций для проведения функционального анализа"@ru ;
     a od:Talk .
 
@@ -154,6 +162,7 @@ With the development of such sciences as philosophy, logic and the study of teac
 
 Мощный и проверенный временем инструментарий ТРИЗ - та самая помощь, которая должна оказаться уже завтра в вашем арсенале навыков для решения самых амбициозных задач на проектах, делая невозможное возможным!"""@ru ;
     dcterms:creator odp:Khovanov_S, odp:Pravkin_D ;
+    od:presentedBy odp:Khovanov_S ;
     dcterms:title "TRIZ as \"help on the way\" during information systems' projects"@en, "ТРИЗ как »помощь на дороге« при проектировании информационных систем"@ru ;
     a od:Talk .
 
@@ -191,7 +200,8 @@ In this article, the authors propose to expand the set of tools and apply the pa
 :talk_124
     swc:relatedToEvent track:Business ;
     dcterms:abstract "В статье раскрывается структура и особенности функционально-целевых систем. Описаны общие законы и линии развития функционально-целевых систем. На примерах показано, что бизнес-системы являются частным случаем функционально-целевых систем и подчиняются законам их развития. Показаны особенности законов и линий развития функционально-целевых систем для бизнеса. Описаны линии развития бизнес-систем."@ru ;
-    dcterms:creator odp:Rubin_MS ;
+    dcterms:creator odp:Rubin_MS, odp:Trantin_AV, odp:Shchedrin_NA ;
+    od:presentedBy odp:Trantin_AV ;
     dcterms:title "Evolution laws for functional-goal systems in business"@en, "Законы развития функционально-целевых систем в бизнесе"@ru ;
     a od:Talk .
 
@@ -221,6 +231,7 @@ In this article, the authors propose to expand the set of tools and apply the pa
     swc:relatedToEvent track:Business ;
     dcterms:abstract "Известны методы стратегического планирования, основанные на системном анализе и моделирования взаимодействия рассматриваемого объекта с внешней средой во времени. Основной недостаток этих методов состоит в том, что они не приспособлены к учету качественных изменений в рассматриваемой системе. Для учета принципиальных изменения системы при стратегическом планировании предлагается использовать инструменты ТРИЗ, в частности, прямое и обратное применение Модели ТРИЗ. Разработанный авторами метод стратегического планирования предусматривает двойственный подход: один путь планирования от решения существующих в системе проблем и противоречий, а второй - обратный от путей реализации сформированного будущего образа рассматриваемой системы. Оба подхода взаимно дополняют друг друга в итерационном процессе стратегического планирования. В работе приведены практические примеры реализации разработанного авторами метода и алгоритм его применения."@ru ;
     dcterms:creator odp:Kulakov_AV, odp:Rubin_MS, odp:Trantin_AV ;
+    od:presentedBy odp:Kulakov_AV ;
     dcterms:title "Strategic planning method based on TRIZ model"@en, "Метод стратегического планирования на основе Модели ТРИЗ"@ru ;
     a od:Talk .
 
@@ -237,6 +248,7 @@ In this article, the authors propose to expand the set of tools and apply the pa
     swc:relatedToEvent track:Business ;
     dcterms:abstract "Об опыте организации предпроектной работы. От анализа проблематики до бизнес-гипотез."@ru ;
     dcterms:creator odp:Khovanov_S, odp:Pravkin_D ;
+    od:presentedBy odp:Khovanov_S ;
     dcterms:title "Case studies of applications of TRIZ tools in Ingosstrach"@en, "Практика применения ТРИЗ на проектах в Ингосстрах"@ru ;
     a od:Talk .
 
@@ -250,6 +262,15 @@ This paper will explore socio-informational systems through the Theory of Innova
 * The change in the information system architecture changes the people's communication patterns and requires modifications in team social structure."""@en ;
     dcterms:creator odp:Azaletskiy_P ;
     dcterms:title "Socio-Informational System: contradictions and evolution laws"@en ;
+    a od:Talk .
+
+:talk_134
+    swc:relatedToEvent track:Business ;
+    dcterms:abstract """Очень часто после большой работы по устранению какой-либо проблемы выясняется, что задачи решались не те, усилия, ресурсы, время потрачены впустую и надо начинать всё с начала или отказаться от попыток что-либо исправить. В такие моменты становится очевидным, что одним из главных навыков решателя является умение определить правильную задачу.
+Помочь в этой работе призвано понятие «успешность», сформулированное авторами доклада в 2019 году и с тех пор опробованное в десятках кейсах.
+Использование данного понятия позволило дополнить инструмент MPV-анализ, в переводе названный авторами «Анализ ключевых параметров успешности (КПУ)»."""@ru ;
+    dcterms:creator odp:Saunin_NY ;
+    dcterms:title "The concept of 'Success' and an analysis of the key dimensions of success, with practical examples"@en, "Понятие «Успешность» и анализ ключевых параметров успешности, на практических примерах"@ru ;
     a od:Talk .
 
 :talk_137
@@ -268,13 +289,6 @@ This paper will explore socio-informational systems through the Theory of Innova
 В работе автор рассматривает различные аспекты формирования концепции ТРИЗ-цивилизации: технические, социальные, этические, исторические, культурные и другие. Разработка теории формирования и развития ТРИЗ-цивилизации позволит сделать дальние прогнозы в различных сферах деятельности, сформулировать ключевые задачи и противоречия развития цивилизации, сформулировать ключевые задачи развития теории и практики ТРИЗ. Концепция ТРИЗ-цивилизации позволяет определить цели и направления развития ТРИЗ-образования."""@ru ;
     dcterms:creator odp:Rubin_MS ;
     dcterms:title "On the concept of TRIZ civilisation"@en, "О концепции ТРИЗ-цивилизации"@ru ;
-    a od:Talk .
-
-:talk_139
-    swc:relatedToEvent track:Education ;
-    dcterms:abstract "На личном восьмилетнем опыте преподавания ТРИЗ в школе для учеников с 1 по 11 класс мы сделали определенные выводы о том, при каких условиях происходит наиболее успешное освоение инструментов ТРИЗ, можно ли обучить ТРИЗ всех и как мотивировать детей."@ru ;
-    dcterms:creator odp:Asatullina, odp:Knyaseva ;
-    dcterms:title "Necessary and sufficient conditions for successful learning of TRIZ in school"@en, "Необходимые и достаточные условия для успешного освоения ТРИЗ в школе"@ru ;
     a od:Talk .
 
 :talk_140
