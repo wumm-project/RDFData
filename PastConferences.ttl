@@ -15,6 +15,16 @@
     rdfs:label "TSN: Past TRIZ Conferences" ;
     owl:imports <http://opendiscovery.org/rdf/ConferenceSeries/>, <http://opendiscovery.org/rdf/People/> .
 
+<http://opendiscovery.org/rdf/Conferences/BTO-2022-F/> 
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/BTO> ;
+    rdfs:label "Business TRIZ Online Fall 2022 (in Russian)"@en, "Бизнес ТРИЗ Онлайн - Осень 2022"@ru ;
+    ical:summary "Онлайн конференция «БИЗНЕС ТРИЗ ОНЛАЙН 2022» приглашает всех, кто заинтересован узнать, что такое Бизнес ТРИЗ, как его применять, а также обсудить текущие проблемы и перспективы развития как ТРИЗ для бизнеса и управления, так и сообщества Бизнес ТРИЗ. Конференция «БИЗНЕС ТРИЗ ОНЛАЙН - ОСЕНЬ 2022» проводится на русском языке"@ru, "The BUSINESS TRIZ ONLINE conference invites anyone interested in learning and what current state of the art of Business TRIZ is, how to apply it, and to discuss challenges and prospects for both business and management TRIZ and the Business TRIZ community. The conference is held in Russian"@en;
+    ical:dtend "2022-11-19"^^xsd:date ;
+    ical:dtstart "2022-11-18"^^xsd:date ;
+    ical:location "Online" ;
+    ical:url <http://www.biztriz.net/2-uncategorised/47-business-triz-online-fall-2022.html> .
+
 <http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2022/>
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/TRIZ-Summit> ;
     a swc:ConferenceEvent ;
