@@ -23,6 +23,7 @@
     ical:dtend "2022-11-19"^^xsd:date ;
     ical:dtstart "2022-11-18"^^xsd:date ;
     ical:location "Online" ;
+    od:detailedReport <http://wumm.uni-leipzig.de/rdf/BTO-2022-F.rdf> ;
     ical:url <http://www.biztriz.net/2-uncategorised/47-business-triz-online-fall-2022.html> .
 
 <http://opendiscovery.org/rdf/Conferences/TRIZ-Summit-2022/>

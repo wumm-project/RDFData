@@ -127,6 +127,11 @@ odp:Anhalt_K
     a foaf:Person ;
     foaf:name "Kazik Anhalt" .
 
+odp:Arakelyan_S
+    a foaf:Person ;
+    foaf:fullname "Аракелян Светлана"@ru ;
+    foaf:name "Svetlana Arakelyan" .
+
 odp:Arel_AT
     a foaf:Person ;
     foaf:name "A.T. Arel" .
@@ -1005,6 +1010,11 @@ odp:Engelhard_S
 odp:Ermolai_V
     a foaf:Person ;
     foaf:name "Vasile Ermolai" .
+
+odp:Esmontova_M
+    a foaf:Person ;
+    foaf:fullname "Эсмонтова Мария"@ru ;
+    foaf:name "Maria Esmontova" .
 
 odp:Essaid_A
     a foaf:Person ;
@@ -2045,6 +2055,11 @@ odp:Kengerli_TA
     a foaf:Person ;
     foaf:fullname "Кенгерли Т.А."@ru ;
     foaf:name "T.A. Kengerli" .
+
+odp:Khalvitskaya_O
+    a foaf:Person ;
+    foaf:fullname "Халвицкая Ольга"@ru ;
+    foaf:name "Olga Khalvitskaya" .
 
 odp:Khan_AS
     a foaf:Person ;
@@ -4141,6 +4156,11 @@ odp:Shevelyeva_EV
     foaf:fullname "Шевелева Елена Владимировна"@ru ;
     foaf:name "E. V. Shevelyeva" .
 
+odp:Shevkoplyas_A
+    a foaf:Person ;
+    foaf:fullname "Шевкопляс Александр"@ru ;
+    foaf:name "Alexander Shevkoplyas" .
+
 odp:Shi_X 
     a foaf:Person ;
     foaf:name "Shi Xiaohua" .
@@ -4213,6 +4233,11 @@ odp:Shulyak_LA
     a foaf:Person ;
     foaf:fullname "Шуляк Лев Абрамович"@ru ;
     foaf:name "Lev Shulyak" .
+
+odp:Shumovsky_I
+    a foaf:Person ;
+    foaf:fullname "Шумовский Иван"@ru ;
+    foaf:name "Ivan Shumovsky" .
 
 odp:Shuqin_W
     a foaf:Person ;
@@ -5275,6 +5300,11 @@ odp:Zhao_Z
     a foaf:Person ;
     foaf:affil "Harbin Engieering University, China" ;
     foaf:name "Zitong Zhao" .
+
+odp:Zheltov_A
+    a foaf:Person ;
+    foaf:fullname "Желтов Анатолий"@ru ;
+    foaf:name "Anatoliy Zheltov" .
 
 odp:Zhen_L
     a foaf:Person ;

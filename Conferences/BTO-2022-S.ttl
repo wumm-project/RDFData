@@ -24,88 +24,86 @@ The conference "BUSINESS TRIZ ONLINE SPRING 2022" will be held in English."""@en
     ical:dtend "2022-05-21"^^xsd:date ;
     ical:dtstart "2022-05-20"^^xsd:date ;
     ical:location "Online" ;
-    od:theVideosHidden <https://youtube.com/playlist?list=PLFgocOPCN0ydsl4GiUU4gJbgu3p296lpo> ; 
+    od:theVideos <https://youtube.com/playlist?list=PLFgocOPCN0ydsl4GiUU4gJbgu3p296lpo> ; 
     ical:url <http://www.biztriz.net/2-uncategorised/41-conference-business-triz-online-spring-2022.html> .
 
 
 :Talk_100
     dcterms:creator odp:Souchkov_VV ;
-    dcterms:title "Progress with Business TRIZ"@en ;
-    od:urlVideoHidden <https://www.youtube.com/watch?v=DKq3_TfBf9Y>;
+    dcterms:title "Opening. Business TRIZ: current state and development prospects."@en, "Открытие. Бизнес-ТРИЗ: современное состояние и перспективы развития."@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=6r9ecJtHHfk> ;
     a od:Talk .
 
 :Talk_101
-    dcterms:creator odp:Han_B ;
-    dcterms:title "Preliminary Conception of Fusion with Business TRIZ and Multi-methods"@en ;
-    od:urlVideoHidden <https://www.youtube.com/watch?v=b4cKjtvQd4I>;
+    dcterms:creator odp:Kozhemyako_AP ;
+    dcterms:title "Conducting strategic sessions using TRIZ tools"@en, "Проведение стратегических сессий с применением инструментов ТРИЗ"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=YjNE_83DErY> ;
     a od:Talk .
 
 :Talk_102
-    dcterms:creator odp:Schaper_S ;
-    dcterms:title "Process optimization using TRIZ"@en ;
-    od:urlVideoHidden <https://www.youtube.com/watch?v=od0FijwqZHw>;
+    dcterms:creator odp:Kustov_Y ;
+    dcterms:title "Sociocracy and TRIZ"@en, "Социократия и ТРИЗ"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=QaF3Py58W6E> ;
+    a od:Talk .
+
+:Talk_103
+    dcterms:creator odp:Blagich_A ;
+    dcterms:title "How to increase your podcast audience by a million people in just one month and no cost"@en, "Как увеличить аудиторию подкаста на миллион человек всего за один месяц и без затрат"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=fwhfSNzmgk8> ;
     a od:Talk .
 
 :Talk_104
-    dcterms:creator odp:Amatulli_N ;
-    dcterms:title "Actual Case Study with Value Conflict Mapping (VCM)"@en ;
-    od:urlVideoHidden <https://www.youtube.com/watch?v=GiIC1R7C0rc>;
+    dcterms:creator odp:Svobodov_V ;
+    dcterms:title "Money as a source of contradictions"@en, "Деньги как источник противоречий"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=NL_hLsd4NBQ> ;
     a od:Talk .
 
 :Talk_105
-    dcterms:creator odp:Kozhemyako_AP ;
-    dcterms:title "Factors approach to the technical contradiction elimination in the Business TRIZ"@en ;
-    od:urlVideoHidden <https://www.youtube.com/watch?v=lzex5g-BItE>;
+    dcterms:creator odp:Shapiro_A ;
+    dcterms:title "Product/Service growth tree as a strategic tool"@en, "Дерево роста продукта/услуги как стратегический инструмент"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=IKRSE0MhspE> ;
     a od:Talk .
 
 :Talk_106
-    dcterms:creator odp:Gafitulin_TM ;
-    dcterms:title "The Law of Completeness for social-techno systems. On the example of the commercial company organizational structure."@en ;
-    od:urlVideoHidden <https://www.youtube.com/watch?v=Z42QIoP4akk>;
+    dcterms:creator odp:Pravkin_D ;
+    dcterms:title "Application of IFR and resource approach to the task of finding and retaining specialists in a federal company."@en, "Применение ИКР и ресурсного подхода к задаче по поиску и удержанию специалистов в федеральной компании."@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=IICMVX-Hm5M> ;
     a od:Talk .
 
 :Talk_107
-    dcterms:creator odp:Zhang_T ;
-    dcterms:title "Use TRIZ to support the \"Virtual ecological niche\" for investments"@en ;
-    od:urlVideoHidden <https://www.youtube.com/watch?v=mRkJEyZPBGo>;
+    dcterms:creator odp:Domkin_KI, odp:Gerasimov_OM, odp:Severinets_GA ;
+    od:presentedBy odp:Domkin_KI; 
+    dcterms:title "Peculiarities of the application of the method of trimming to improve business processes in production"@en, "Особенности применения методики свертывания при совершенствовании бизнес процессов на производстве"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=1Vy-ICuBuhs> ;
     a od:Talk .
 
 :Talk_108
-    dcterms:creator odp:Halas_M ;
-    dcterms:title "Jumping to the next S-curve"@en ;
-    od:urlVideoHidden <https://www.youtube.com/watch?v=JEol0Zi08vA>;
+    dcterms:creator odp:Kuryan_AG ;
+    dcterms:title "Business Model Navigator: How contradictions in products and business models arise and are eliminated"@en, "Навигатор бизнес моделей: как возникают и устраняются противоречия в продуктах и бизнес моделях"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=1RLxF1HOebs> ;
     a od:Talk .
 
 :Talk_109
-    dcterms:creator odp:Hongbo_Y ;
-    od:presentedBy odp:Han_B ;
-    dcterms:title "Repositioning and promotion of products (services) based on separation principle - taking Melatonon as an example"@en ;
-    od:urlVideoHidden <https://www.youtube.com/watch?v=xWIWxvirXRA>;
+    dcterms:creator odp:Sidorec_A ;
+    dcterms:title "TRIZ in Supply Chain Management. Basics"@en, "ТРИЗ в Управлении Цепями Поставок. Основы"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=r3IXRZbjw-U> ;
     a od:Talk .
 
 :Talk_110
-    dcterms:creator odp:Isaac_DP ;
-    dcterms:title "Anticipatory Failure Analysis to identify hidden risks to business continuity"@en ;
-    od:urlVideoHidden <https://www.youtube.com/watch?v=MXycTwHUywc>;
+    dcterms:creator odp:Saunin_NY ;
+    dcterms:title "TRIZ for managers: a methodology for making effective decisions. Implementation of TRIZ in the GAZ Group through training of leaders on use cases."@en, "ТРИЗ для руководителей: методика принятия эффективных решений (МПЭР). Внедрение ТРИЗ в Группе ГАЗ через обучение руководителей на примере кейсов."@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=USZLGN1vhuo> ;
     a od:Talk .
 
 :Talk_111
-    dcterms:creator odp:Graebe_HG ;
-    dcterms:title "On the interconnection of project- and product-centered systemic modelling"@en ;
-    od:urlVideoHidden <https://www.youtube.com/watch?v=tGyyXu4KUgE>;
-    a od:Talk .
-
-:Talk_112
-    dcterms:creator odp:Khristenko_AV ;
-    dcterms:title "Adaptation of the Conflict Matrix for the scope of services"@en ;
-    od:urlVideoHidden <https://www.youtube.com/watch?v=4YPpPuDS4Us>;
+    dcterms:creator odp:Redkolis_EV ;
+    dcterms:title "Practice of TRIZ application in non-industrial businesses"@en, "Практика применения ТРИЗ в непромышленных бизнесах"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=m8e2PVSfltI> ;
     a od:Talk .
 
 :Talk_113
-    dcterms:creator odp:Polonsky_LM, odp:Tokarev_AS ;
-    od:presentedBy odp:Polonsky_LM ;
-    dcterms:title "Extended description of systems."@en ;
-    od:urlVideoHidden <https://www.youtube.com/watch?v=VFRDx8ghis0>;
+    dcterms:creator odp:Souchkov_VV ;
+    dcterms:title "Results of Business TRIZ application in real projects"@en, "Результаты применения Бизнес-ТРИЗ в реальных проектах"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=eKoc5_Zcj_o> ;
     a od:Talk .
 
- 
