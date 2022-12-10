@@ -42,6 +42,7 @@ BUSINESS TRIZ ONLINE 2022 online forum invites everyone who is interested to lea
 :Talk_102
     dcterms:creator odp:Blagich_A; 
     dcterms:title "Business-TRIZ case: 12-fold reduction in delivery time"@en, "Кейс Бизнес-ТРИЗ: Сокращение сроков поставки в 12 раз"@ru ;
+    od:urlVideo <https://www.youtube.com/watch?v=XY_BfVjeBQA> ;
     a od:Talk .
 
 :Talk_103
