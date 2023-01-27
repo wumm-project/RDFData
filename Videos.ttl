@@ -28,16 +28,6 @@ od:Youtube-Video a owl:Class ;
   dcterms:language  "en"^^dcterms:RFC4646 ;
   dcterms:issued "2019-09-11"^^dcterms:W3CDTF .
 
-:Kudryavtsev-20210824
-  a od:Youtube-Video ;
-  dcterms:creator odp:Kudryavtsev_AV ;
-  dcterms:abstract "Cult, charlatanism and 40 techniques. Unmasking TRIZ"@en ;
-  od:urlVideo <https://www.youtube.com/watch?v=fFyc6JEtPqI> ;
-  dcterms:extent "01:23:35 h" ;
-  dcterms:language  "ru"^^dcterms:RFC4646 ;
-  rdfs:comment "Published via Trizovication channel"@en ; 
-  dcterms:issued "2021-08-24"^^dcterms:W3CDTF .
-
 :Kuryan-20200422
   a od:Youtube-Video ;
   dcterms:creator odp:Kuryan_AG ;
@@ -192,15 +182,36 @@ od:Youtube-Video a owl:Class ;
   rdfs:comment "Published via Souchkov's facebook channel"@en ; 
   dcterms:issued "2020-06-30"^^dcterms:W3CDTF .
 
-:Souchkov-20200707
+:Trizofication-20200707
   a od:Youtube-Video ;
   dcterms:creator odp:Souchkov_VV ;
   dcterms:abstract "Why don't TRIZ teams launch their products?"@en ;
   od:urlVideo <https://www.youtube.com/watch?v=KBS7SJ7Ht_I> ;
   dcterms:extent "00:55:53 h" ;
   dcterms:language  "ru"^^dcterms:RFC4646 ;
-  rdfs:comment "Published via Trizovication channel"@en ; 
+  rdfs:comment "Published via Trizofication channel"@en ; 
   dcterms:issued "2020-07-07"^^dcterms:W3CDTF .
+
+:Trizofication-20210824
+  a od:Youtube-Video ;
+  dcterms:creator odp:Kudryavtsev_AV ;
+  dcterms:abstract "Cult, charlatanism and 40 techniques. Unmasking TRIZ"@en ;
+  od:urlVideo <https://www.youtube.com/watch?v=fFyc6JEtPqI> ;
+  dcterms:extent "01:23:35 h" ;
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  rdfs:comment "Published via Trizofication channel"@en ; 
+  dcterms:issued "2021-08-24"^^dcterms:W3CDTF .
+
+:Trizofication-20230123
+  a od:Youtube-Video ;
+  dcterms:creator odp:Gerasimov_OM ;
+  dcterms:title "«Не бояться сложных задач». Мастер ТРИЗ Олег Герасимов @Trizofication"@ru,  "\"Don't be afraid of challenging tasks\". TRIZ Master Oleg Gerasimov @Trizofication"@en ;   
+  dcterms:abstract ""@en ;
+  od:urlVideo <https://www.youtube.com/watch?v=bbsfVq6IaPg> ;
+  dcterms:extent "01:35:41 h" ;
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  rdfs:comment "Published via Trizofication channel"@en ; 
+  dcterms:issued "2023-01-23"^^dcterms:W3CDTF .
 
 :Zlotin-2018006
   a od:Youtube-Video ;

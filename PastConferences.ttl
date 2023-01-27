@@ -71,6 +71,17 @@
     od:detailedReport <http://wumm.uni-leipzig.de/rdf/TRIZFest-Pedagogy-2022.rdf> ;
     ical:url <https://wumm-project.github.io/Conferences/TRIZFest-Pedagogy-2022.pdf> .
 
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/> 
+    a swc:ConferenceEvent ;
+    od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/GTC> ;
+    rdfs:label "German TRIZ Experts Meeting 2023 - Beyond MATRIZ-TRIZ" ;
+    ical:summary "The German TRIZ Expert Meeting was created exclusively for TRIZ-trained people. To participate in this meeting, you should have attended at least a basic training course or have already successfully applied the TRIZ methods to your own problems. ";
+    ical:dtend "2023-02-10"^^xsd:date ;
+    ical:dtstart "2023-02-09"^^xsd:date ;
+    ical:location "Sulzbach-Rosenberg, Germany" ;
+    od:detailedReport <http://wumm.uni-leipzig.de/rdf/GermanTEX-2023.rdf> ;
+    ical:url <https://www.triz-consulting.de/angebote/triz-schulungen-kurse/triz-expertentreffen-2023/> .
+
 <http://opendiscovery.org/rdf/Conferences/DAT-2022>
     a swc:ConferenceEvent ;
     od:toConferenceSeries <http://opendiscovery.org/rdf/ConferenceSeries/GTC> ;

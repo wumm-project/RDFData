@@ -1601,6 +1601,11 @@ odp:Heo_CR
     foaf:affil "Samsung, South Korea" ;
     foaf:name "Chang-Ryong Heo" .
 
+odp:Herr_G
+    a foaf:Person ;
+    foaf:affil "WOIS Institute, Coburg, Germany" ;
+    foaf:name "Gunther Herr" .
+
 odp:Herrlich_M
     a foaf:Person ;
     foaf:affil "Erfinder-Akademie, Leipzig, Germany" ;
@@ -3451,6 +3456,11 @@ odp:Pande_I
     foaf:affil "GE Global Operations, India" ;
     foaf:name "Indrajit Pande" .
 
+odp:Panitz_G
+    a foaf:Person ;
+    foaf:affil "Germany" ;
+    foaf:name "Gregor Panitz" .
+
 odp:Papini_F
     a foaf:Person ;
     foaf:affil "GE Global Research, Germany" ;
@@ -5215,6 +5225,11 @@ odp:Zasedenets_I
     foaf:affil "Tel Aviv, Israel" ;
     foaf:name "Igor Zasedenets" .
 
+odp:Zeihsel_F
+    a foaf:Person ;
+    foaf:affil "Germany" ;
+    foaf:name "Frank Zeihsel" .
+
 odp:Zhang_E
     a foaf:Person ;
     foaf:name "Erjia Zhang" .
@@ -5351,6 +5366,11 @@ odp:Zhou_ZL
     a foaf:Person ;
     foaf:affil "Hubei, PR China"@en ;
     foaf:name "Zhou Zaolin" .
+
+odp:Ziegltrum_D
+    a foaf:Person ;
+    foaf:affil "Germany" ;
+    foaf:name "Dieter Ziegltrum" .
 
 odp:Zinner_V
     a foaf:Person ;

@@ -444,7 +444,7 @@ odbib:Altshuller_1979_f1b8dc
     dcterms:creator odp:Altshuller_GS ;
     dcterms:issued "1979" ;
     dcterms:title "Creativity as an Exact Science. Theory of Inventive Problem Solving"@en, "Творчество как точная наука. Теория решения изобретательских задач"@ru ;
-    a od:Reference, od:Reference, od:TRIZ-Book .
+    a od:Reference, od:TRIZ-Book .
 
 odbib:Altshuller_1980_2cfbe4
     od:hatVerweis odv1:V11, odv1:V6 ;
@@ -453,7 +453,7 @@ odbib:Altshuller_1980_2cfbe4
     dcterms:creator odp:Altshuller_GS, odp:Selyutsky_AB ;
     dcterms:issued "1980" ;
     dcterms:title "Wings for Icarus: How to solve inventive problems"@en, "Крылья для Икара: как решить изобретательские проблемы"@ru ;
-    a od:Reference, od:Reference, od:TRIZ-Book ;
+    a od:Reference, od:TRIZ-Book ;
     dc:publisher "Petrozavodsk: Karelia, 1980." .
 
 odbib:Altshuller_1980_2e8110

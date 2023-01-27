@@ -1,0 +1,141 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix odp: <http://opendiscovery.org/rdf/Person/> .
+@prefix od: <http://opendiscovery.org/rdf/Model#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/> .
+
+:General
+    a swc:ConferenceEvent ;
+    rdfs:label "German TRIZ Experts Meeting 2023 - Beyond MATRIZ-TRIZ" ;
+    ical:dtend "2023-02-10"^^xsd:date ;
+    ical:dtstart "2023-02-09"^^xsd:date ;
+    ical:location "Sulzbach-Rosenberg, Germany" ;
+    ical:summary "Das TRIZ-Expertentreffen wurde exklusiv für TRIZ-Ausgebildete geschaffen. Um an diesem Treffen teilnehmen zu können, sollten Sie zumindest eine Basisschulung besucht haben oder die TRIZ-Methoden schon erfolgreich auf eigene Problemstellungen angewendet haben. Am besten beides."@de, "The TRIZ Expert Meeting was created exclusively for TRIZ-trained people. To participate in this meeting, you should have attended at least a basic training course or have already successfully applied the TRIZ methods to your own problems. Preferably both."@en, "Встреча экспертов ТРИЗ специально обращается к ТРИЗ-стажерам. Чтобы принять участие в этой встрече, вы, по крайней мере, прош9ли базовый курс обучения или уже успешно применяли методы ТРИЗ к собственным проблемам. "@ru ;
+    ical:url <https://www.triz-consulting.de/angebote/triz-schulungen-kurse/triz-expertentreffen-2023/> .
+
+:Talk_100
+    dcterms:creator odp:Herr_G ;
+    dcterms:title "WOIS – Widerspruchsorientierte Innovationsstrategie"@de ;
+    dcterms:abstract "Prof. Dr. Gunther Herr ist der führende Spezialist der Widerspruchsorientierten Innovationsstrategie (WOIS). Die Grundelemente der Strategie bauen unter anderem auf TRIZ auf. Seit Mitte der 70er Jahre hat sich daraus eine Geisteshaltung mit strategischen Orientierungsmitteln und methodischen Analysetools weiterentwickelt. Prof. Herr wird in seinem Vortrag die generelle Herangehensweise von WOIS erläutern und herausarbeiten, an welchen Stellen sich WOIS von der TRIZ unterscheidet. Unter anderem stellt er die Erarbeitung einer paradoxen Entwicklungsforderung vor, die auf einer Entwicklung des Widerspruchsmodells beruhen. In einer Übungseinheit haben die Teilnehmer des Expertentages die Möglichkeit, das gehörte zu übertragen und zu hinterfragen."@de ;
+    a od:Talk .
+
+:Talk_101
+    dcterms:creator odp:Panitz_G ;
+    dcterms:title "Einfache aber große Tools aus dem Bereich des OTSM-TRIZWiderspruchsorientierte Innovationsstrategie"@de;
+    dcterms:abstract "Gregor Panitz ist sein über 23 Jahren in der Entwicklung elektrischer Kontakt- und Stecksysteme bei TE Connectivity beschäftigt. Mit TRIZ kam er doch recht spät seiner Entwicklerlaufbahn in Berührung. Umso stärker ist nun seine Begeisterung für die Methode aber auch der Drang einfache, praktische und „begleitende“ Ansätze für die tägliche Entwicklerarbeit zu finden. Nicht immer muss ein „TRIZ Workshop“ mit 10 Leuten im Kalender stehen oder eine tiefe Methodenausbildung notwendig sein. Nicht die Methode schafft die Lösung, sondern der Mensch. Seine Kreativität muss nur von der Leine gelassen werden. Manchmal mit einem Schubser. Als sehr hilfreich haben sich hier vor allem die etwas vergessenen Ansätze von Nikolai Khomenko aus dem OTSM-TRIZ erwiesen. Mit den wirklich simplen Ideen aus Most Desirable Result und TONGs Model, kombiniert mit der Gold-Fish-Methode als Sezierwerkzeug und den bekannten Ansätzen des klassischen TRIZ konnten bereits einige unmögliche Aufgabenstellungen innerhalb von Stunden gelöst werden. Das Tool Network-of-Problems verhilft morphologisch vorzugehen und unterwegs permanent Widersprüche aufzudecken. Gregor wird in seinem Vortrag die Methoden erläutern und einige Beispiele aus dem Alltag der Anwendung zeigen."@de ;
+    a od:Talk .
+
+:Talk_102
+    dcterms:creator odp:Thurnes_CM, odp:Zeihsel_F ;
+    dcterms:title "IDEATION-TRIZ – Innovationscheckliste, Problemformulierung, AFE und Directed Evolution®"@de;
+    dcterms:abstract """Prof. Dr.-Ing. Christian M. Thurnes beschäftigt sich seit 25 Jahren als Trainer und Coach in der industriellen Praxis und auch als Professor in Lehre und Weiterbildung mit TRIZ. Er nutzt TRIZ-Tools verschiedener Schulen, sei es MATRIZ, OTSM oder z.B. die TRIZ-Ansätze des IDEATION-TRIZ, um die es in diesem Vortrag geht. Prof. Thurnes ist Vorsitzender des VDI-GPP Fachausschusses „Innovationsmethodiken“, der die TRIZ VDI-Richtlinie 4521 erarbeitet hat und Übersetzer und Autor von TRIZ-Praxisbüchern.
+Dr. Frank Zeihsel hat ebenfalls 25 Jahre TRIZ-Praxis als Trainer und Berater bei international tätigen Industrieunternehmen – von der Produktentwicklung über die erfinderische Lösung von Fertigungsproblemen bis hin zur AFE oder Evolution technischer Systeme. Darüber hinaus vertreibt sein Unternehmen Synnovating TRIZ-Software der Firma Ideation International Inc..
+Die IDEATION-TRIZ-Ansätze sind untrennbar mit den TRIZ-Meistern Boris Zlotin, Alla Zusmann und anderen verbunden.
+In dem Vortrag stellt Prof. Thurnes die praktischen Grundlagen der IDEATION-TRIZ-Methoden vor – von Innovationscheckliste über Problemformulierung, Antizipierende Fehlererkennung AFE bis Directed Evolution® und demonstriert deren Nutzung ohne Spezialsoftware. Dr. Zeihsel wird darüber hinaus auf den Nutzen von Softwaretools und deren Anwendungsspektrum eingehen sowie an einem Praxisbeispiel erläutern."""@de ;
+    a od:Talk .
+
+:Talk_103
+    dcterms:creator odp:Haussmann_B ;
+    dcterms:title "VAVE / DFMA / Wertanalyse / TRIZ"@de;
+    dcterms:abstract """Bernd Haussmann ist seit 2011 selbstständiger Moderator und Trainer im Bereich der Produkt- und Kostenoptimierung mit DFMA und TRIZ und VDI zertifizierter Wertanalyse-Professional (PVM).
+Er möchte in diesem Vortrag sowohl die Parallelen aber auch die Unterschiede zwischen methodischen Ansätzen z.B. der Wertanalyse, DFMA und der TRIZ Methoden insbesondere auch in der Ausbildung der „Spezialisten“ analysieren, als auch die Planung und Durchführung von Optimierungsmaßnahmen innerhalb der Unternehmen betrachten und mit der einen oder anderen Idee der Teilnehmer den Bereich „Beyond TRIZ“ bereichern."""@de ;
+    a od:Talk .
+
+:Talk_104
+    dcterms:creator odp:Spaeth_A ;
+    dcterms:title "Altshullers Innovationsprinzipien 41-50 für Nanotechnologie"@de;
+    dcterms:abstract "Dr. Andreas Späth ist seit 2008 Wissenschaftler mit Schwerpunkt im Bereich Materialcharakterisierung mittels Röntgen- und Elektronenmikroskopie. Seit einigen Jahren gibt er an der Friedrich-Alexander-Universität Erlangen Seminare zu „Strategische Analyse und Projektmanagement“. Durch einen Kollegen stieß er 2019 auf TRIZ. Aus seiner beruflichen Tätigkeit in der Grundlagenforschung und der Nanotechnologie ist ihm aufgefallen, dass es in diesen Bereichen einige Beispiele für die Anwendungen eines Teils der „verschollenen Innovationsprinzipien“ 41-50 gibt. Diese IPs waren von Altshuller zwar formuliert, aber als nicht ausreichend praktisch belegt eingestuft worden. Insbesondere die Selbstassemblierung spielt in der modernen Nanotechnologie eine große Rolle. Eine Ableitung der zugrundeliegenden Widersprüche könnte die Position der zusätzlichen IPs in der Matrix identifizieren und so neue innovative Lösungen in anderen Bereichen ermöglichen."@de ;
+    a od:Talk .
+
+:Talk_105
+    dcterms:creator odp:Ziegltrum_D ;
+    dcterms:title "Erweiterung der Funktionsanalyse"@de;
+    dcterms:abstract """Dieter Ziegltrum beschäftigt sich seit über 25 Jahren mit Cost und Value Engineering von Elektrik/Elektronik. Auf der Suche nach strukturierten Methoden für die Entwicklung von E/E im Rahmen des Value Engineerings entdeckte er die Methodik TRIZ. Die Übertragung und Nutzbarmachung der Methoden aus der Mechanik auf die E/E ist eines seiner zentralen Anliegen.
+Erweiterung der Methodik Objektmodellierung bzw. des TRIZ Funktionsanalyse zur Steigerung des Funktionsverständnis eines Systems, sowie Ableitung von Ansatzpunkten zur Verbesserung. Unterscheidung der nützlichen Funktionen nach stoffliche, energetische und informative Funktionen. Darstellung des zeitlichen Ablaufs bzw. Eintretens von Zuständen und Zuordnung von Kosten zu den Funktionen, was eine Funktionenkostenanalyse zulässt. Dargestellt wird das am Beispiel eines Wasserkochers."""@de ;
+    a od:Talk .
+
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_100>
+     <http://purl.org/dc/terms/title> "WOIS – Contradiction-Oriented Innovation Strategy"@en .
+
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_101>
+     <http://purl.org/dc/terms/title> "Simple but great tools from the field of OTSM-TRIZContradiction-oriented innovation strategy"@en .
+
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_102>
+     <http://purl.org/dc/terms/title> "IDEATION-TRIZ – Innovation Checklist, Problem Formulation, AFE and Directed Evolution®"@en .
+
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_103>
+     <http://purl.org/dc/terms/title> "VAVE / DFMA / Value Analysis / TRIZ"@en .
+
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_104>
+     <http://purl.org/dc/terms/title> "Altshuller's Innovation Principles 41-50 for Nanotechnology"@en .
+
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_105>
+     <http://purl.org/dc/terms/title> "Function Analysis Extension"@en .
+
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_100>
+     <http://purl.org/dc/terms/title> "WOIS – Инновационная стратегия, ориентированная на противоречия"@ru .
+
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_101>
+     <http://purl.org/dc/terms/title> "Простые, но замечательные инструменты из области ОТСМ-ТРИЗ, ориентированной на противоречия инновационной стратегии"@ru .
+
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_102>
+     <http://purl.org/dc/terms/title> "IDEATION-TRIZ – контрольный список инноваций, формулирование проблем, AFE и Directed Evolution®"@ru .
+
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_103>
+     <http://purl.org/dc/terms/title> "VAVE/DFMA/анализ стоимости/TRIZ"@ru.
+
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_104>
+     <http://purl.org/dc/terms/title> "Инновационные принципы Альтшуллера 41-50 для нанотехнологий"@ru .
+
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_105>
+     <http://purl.org/dc/terms/title> "Расширение функционального анализа"@ru .
+
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_100>
+     <http://purl.org/dc/terms/abstract> "Профессор доктор Гюнтер Херр является ведущим специалистом в области инновационной стратегии, ориентированной на противоречия (WOIS). Основные элементы стратегии основаны, среди прочего, на ТРИЗ. С середины 1970-х годов из этого развивается мышление со средствами стратегической ориентации и инструментами методического анализа. В своей лекции профессор Герр объяснит общий подход WOIS и выяснит, чем WOIS отличается от ТРИЗ. Среди прочего, он представить разработку парадоксального требования развития, основанного на развитии модели противоречия. В практическом блоке участники экспертного дня имеют возможность передать и подвергнуть сомнению то, что они услышали."@ru .
+
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_101>
+     <http://purl.org/dc/terms/abstract> "Грегор Панитц работает над разработкой систем электрических контактов и разъемов в TE Connectivity более 23 лет. Он пришел в контакт с ТРИЗ довольно поздно в своем развитии. карьере. Тем более сейчас его энтузиазм по поводу метода, но также и стремление найти простые, практичные и «сопутствующие» подходы для ежедневной работы разработчика. необходимо углубленное методическое обучение.Не метод создает решение, а человек.Творчество его нужно просто спускать с поводка.Иногда с подталкиванием.Оправдали себя несколько подзабытые подходы Николая Хоменко из ОТСМ-ТРИЗ быть очень полезным здесь.С действительно простыми идеями из Наиболее желаемого результата и модели Тонга, в сочетании с методом золотых рыбок в качестве инструмента вскрытия и хорошо известными подходами классической ТРИЗ, несколько unm возможные задачи могут быть решены в течение нескольких часов. Инструмент Network-of-Problems помогает двигаться морфологически и выявлять постоянные противоречия на этом пути. Грегор объяснит методы в своей лекции и покажет несколько примеров из повседневного использования."@ru .
+
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_102>
+     <http://purl.org/dc/terms/abstract> """Профессор Кристиан М. Тернс работает инструктором и коучем в производственной практике в течение 25 лет, а также профессором в области преподавания и повышения квалификации с ТРИЗ. Он использует инструменты ТРИЗ различных школ, будь то МАТРИЗ, ОТСМ или, например, подходы ТРИЗ IDEATION-TRIZ, о которых эта лекция.Проф. разработал Руководство по ТРИЗ VDI 4521, а также является переводчиком и автором учебников по ТРИЗ.
+доктор Франк Цейзель также имеет 25-летний опыт работы в ТРИЗ в качестве тренера и консультанта для международных промышленных компаний - от разработки продукта до изобретательского решения производственных задач до AFE или эволюции технических систем. Кроме того, его компания продает программное обеспечение Synnovating TRIZ от Ideation International Inc..
+Подходы ТРИЗ ИДЕЯ неотделимы от мастеров ТРИЗ Бориса Злотина, Аллы Зусманн и других.
+В лекции проф. Тернес представляет практические основы методов ТРИЗ-ИДЕЙЦИЯ - от контрольных списков инноваций до формулировки проблем, упреждающего обнаружения ошибок AFE до Directed Evolution® и демонстрирует их использование без специального программного обеспечения. доктор Zeihsel также расскажет о преимуществах программных инструментов и области их применения и объяснит их на практическом примере."""@ru .
+
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_103>
+     <http://purl.org/dc/terms/abstract> """Бернд Хауссманн является независимым модератором и тренером в области оптимизации продукции и затрат с сертифицированным специалистом по анализу стоимости (PVM) DFMA и TRIZ и VDI с 2011 года. .
+В этой лекции он хотел бы проанализировать как параллели, так и различия между методологическими подходами, например, стоимостной анализ, методы DFMA и ТРИЗ, особенно в подготовке «специалистов», а также рассмотреть планирование и реализацию мер по оптимизации внутри компании. и с обогащением той или иной идеи участников направления «Вне ТРИЗ»."""@ru .
+
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_104>
+     <http://purl.org/dc/terms/abstract> "Доктор Андреас Шпет с 2008 года специализируется в области характеристики материалов с помощью рентгеновской и электронной микроскопии. В течение нескольких лет он проводит семинары в Университет Фридриха-Александра в Эрлангене «Стратегический анализ и управление проектами». Через коллегу он познакомился с ТРИЗ в 2019 году. Из своей профессиональной работы в области фундаментальных исследований и нанотехнологий он заметил, что в этих областях есть несколько примеров применения некоторых из \"принципы утерянных инноваций\" 41-50. Хотя эти ИП были сформулированы Альтшуллером, они были классифицированы как недостаточно проверенные на практике. В частности, самосборка играет важную роль в современных нанотехнологиях. положение дополнительных IP-адресов в матрице и, следовательно, новые инновационные решения Enable в других областях."@ru .
+
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_105>
+     <http://purl.org/dc/terms/abstract> """Дитер Зиглтрум более 25 лет занимается расчетом стоимости и эффективности электротехники/электроники. открыл для себя методологию ТРИЗ в контексте стоимостной инженерии. Перенос и использование методов из механики в Э/Э является одной из его главных забот.
+Расширение методологии объектного моделирования или функционального анализа ТРИЗ для улучшения функционального понимания системы, а также определения отправных точек для улучшения. Дифференциация полезных функций на материальные, энергетические и информативные. Представление хронологической последовательности или появления состояний и назначение затрат функциям, что позволяет проводить анализ стоимости функции. Это показано на примере чайника."""@ru .
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_100>
+     <http://purl.org/dc/terms/abstract> "Prof. Dr. Gunther Herr is the leading specialist in contradiction-oriented innovation strategy (WOIS). The basic elements of the strategy are based on TRIZ, among other things. Since the mid-1970s, a mindset with strategic orientation aids and methodical analysis tools develops from this. In his lecture, Prof. Herr will explain the general approach of WOIS and work out where WOIS differs from TRIZ. Among other things, he will present the development of a paradoxical development requirement that are based on a development of the contradiction model. In a practice unit, the participants of the expert day have the opportunity to transfer and question what they have heard."@en .
+
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_101>
+     <http://purl.org/dc/terms/abstract> "Gregor Panitz has been working in the development of electrical contact and connector systems at TE Connectivity for more than 23 years. He came into contact with TRIZ quite late in his development career. All the more so is now his enthusiasm for the method but also the urge to find simple, practical and \"accompanying\" approaches for daily developer work. A TRIZ workshop with 10 people does not always have to be on the calendar or in-depth method training is necessary. Not the method creates the solution, but the human being. His creativity just has to be let off the leash. Sometimes with a nudge. The somewhat forgotten approaches of Nikolai Khomenko from the OTSM-TRIZ have proven to be very helpful here. With the really simple ideas from Most Desirable Result and TONG's model, combined with the gold-fish method as a dissection tool and the well-known approaches of the classic TRIZ, a few unm possible tasks can be solved within hours. The Network-of-Problems tool helps to proceed morphologically and uncover permanent contradictions along the way. Gregor will explain the methods in his lecture and show some examples from everyday use."@en .
+
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_102>
+     <http://purl.org/dc/terms/abstract> """Professor Christian M. Thurnes has been working as a trainer and coach in industrial practice for 25 years and also as a professor in teaching and further education with TRIZ. He uses TRIZ tools from various schools, be it MATRIZ, OTSM or, for example, the TRIZ approaches of IDEATION-TRIZ, which this lecture is about. Prof. Thurnes is chairman of the VDI-GPP expert committee "Innovation Methods", the has developed the TRIZ VDI Guideline 4521 and is a translator and author of TRIZ practice books.
+dr Frank Zeihsel also has 25 years of TRIZ practice as a trainer and consultant for internationally active industrial companies - from product development to the inventive solution of manufacturing problems to AFE or evolution of technical systems. In addition, his company sells Synnovating TRIZ software from Ideation International Inc..
+The IDEATION TRIZ approaches are inseparable from the TRIZ masters Boris Zlotin, Alla Zusmann and others.
+In the lecture, Prof. Thurnes presents the practical basics of the IDEATION-TRIZ methods - from innovation checklists to problem formulation, anticipatory error detection AFE to Directed Evolution® and demonstrates their use without special software. dr Zeihsel will also go into the benefits of software tools and their range of applications and explain them using a practical example."""@en .
+
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_103>
+     <http://purl.org/dc/terms/abstract> """Bernd Haussmann has been an independent moderator and trainer in the field of product and cost optimization with DFMA and TRIZ and VDI certified value analysis professional (PVM) since 2011.
+In this lecture he would like to analyze both the parallels and the differences between methodological approaches, e.g. value analysis, DFMA and TRIZ methods, especially in the training of "specialists", as well as consider the planning and implementation of optimization measures within the company and with enrich one or the other idea of the participants in the "Beyond TRIZ" area."""@en .
+
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_104>
+     <http://purl.org/dc/terms/abstract> "Dr. Andreas Späth has been a scientist specializing in the field of material characterization using X-ray and electron microscopy since 2008. For several years he has been giving seminars at the Friedrich-Alexander University in Erlangen \"Strategic analysis and project management\". Through a colleague he came across TRIZ in 2019. From his professional work in basic research and nanotechnology he noticed that in these areas there are some examples of the application of some of the \"lost innovation principles\" 41-50 Although these IPs were formulated by Altshuller, they were classified as not sufficiently proven in practice. In particular, self-assembly plays a major role in modern nanotechnology. A derivation of the underlying contradictions could identify the position of the additional IPs in the matrix and thus new innovative Enable solutions in other areas."@en .
+
+<http://opendiscovery.org/rdf/Conferences/GermanTEX-2023/Talk_105>
+     <http://purl.org/dc/terms/abstract> """Dieter Ziegltrum has been dealing with cost and value engineering of electrics/electronics for over 25 years. Searching for structured methods for the development of E/E im He discovered the TRIZ methodology in the context of value engineering.The transfer and utilization of the methods from mechanics to E/E is one of his central concerns.
+Extension of the object modeling methodology or the TRIZ functional analysis to increase the functional understanding of a system, as well as deriving starting points for improvement. Differentiation of useful functions into material, energetic and informative functions. Representation of the chronological sequence or occurrence of states and assignment of costs to the functions, which allows a function cost analysis. This is shown using the example of a kettle."""@en .
