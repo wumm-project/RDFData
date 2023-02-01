@@ -206,7 +206,7 @@ od:Youtube-Video a owl:Class ;
   a od:Youtube-Video ;
   dcterms:creator odp:Gerasimov_OM ;
   dcterms:title "«Не бояться сложных задач». Мастер ТРИЗ Олег Герасимов @Trizofication"@ru,  "\"Don't be afraid of challenging tasks\". TRIZ Master Oleg Gerasimov @Trizofication"@en ;   
-  dcterms:abstract ""@en ;
+  dcterms:abstract "TRIZ Master Oleg Gerasimov on why to study TRIZ through examples of completed projects."@en ;
   od:urlVideo <https://www.youtube.com/watch?v=bbsfVq6IaPg> ;
   dcterms:extent "01:35:41 h" ;
   dcterms:language  "ru"^^dcterms:RFC4646 ;
