@@ -28,6 +28,15 @@ od:Youtube-Video a owl:Class ;
   dcterms:language  "en"^^dcterms:RFC4646 ;
   dcterms:issued "2019-09-11"^^dcterms:W3CDTF .
 
+:Feygenson-20230202
+  a od:Youtube-Video ;
+  dcterms:creator odp:Feygenson_ON ;
+  dcterms:abstract "Webinar \"Systematic Innovation Using TRIZ\" by Dr. Oleg Feygenson, organised by Matriz-Official"@en ; 
+  od:urlVideo <https://www.youtube.com/watch?v=kVqZucWJGHg> ;
+  dcterms:extent "00:58:02 h" ;
+  dcterms:language  "en"^^dcterms:RFC4646 ;
+  dcterms:issued "2023-02-02"^^dcterms:W3CDTF .
+
 :Kuryan-20200422
   a od:Youtube-Video ;
   dcterms:creator odp:Kuryan_AG ;

@@ -30,6 +30,18 @@ od:Presentation a owl:Class ;
   dcterms:format <http://www.iana.org/assignments/media-types/application/pdf> ;
   dcterms:language "en"^^dcterms:RFC4646 ;
   dcterms:issued "2020-01-03"^^dcterms:W3CDTF .
+
+<http://opendiscovery.org/rdf/Presentation/Feygenson-20230202>
+  a od:Presentation ;
+  dcterms:creator odp:Feygenson_ON ;
+  dcterms:title "Systematic Innovation Using TRIZ"@en ;
+  dcterms:abstract "Webinar for Matriz-Official on Febr 02, 2023"@en ; 
+  od:urlSlides <http://www.triz-event.com/Systematic%20Innovation%20Using%20TRIZ%2020230202.pdf> ;
+  dcterms:rights "Public domain" ;
+  dcterms:extent "38 slides" ;
+  dcterms:format <http://www.iana.org/assignments/media-types/application/pdf> ;
+  dcterms:language "en"^^dcterms:RFC4646 ;
+  dcterms:issued "2023-02-02"^^dcterms:W3CDTF .
   
 <http://opendiscovery.org/rdf/Presentation/Graebe-20190529>
   a od:Presentation ;
