@@ -43,7 +43,7 @@ odp:Adima_S
 
 odp:Adunka_R
     a foaf:Person ;
-    foaf:affil "TRIZ Consulting Group, Sulzbach-Rosenberg, Germany" ;
+    foaf:affil "TRIZ Consulting, Sulzbach-Rosenberg, Germany" ;
     foaf:homepage <http://www.adunka.de/> ;
     foaf:name "Robert Adunka" .
 
@@ -749,6 +749,11 @@ odp:Conley_DW
     foaf:affil "USA" ;
     foaf:name "David Worrell Conley" .
 
+odp:Conzelmann_R
+    a foaf:Person ;
+    foaf:affil "Germany" ;
+    foaf:name "Rene Conzelmann" .
+
 odp:Cooke_J
     a foaf:Person ;
     foaf:name "John Cooke" .
@@ -1162,7 +1167,7 @@ odp:Fradkova_L
 odp:Fresner_J
     a foaf:Person ;
     foaf:affil "TRIZ Campus Vienna, Vienna, Austria"@en ;
-    foaf:name "J. Fresner" .
+    foaf:name "Johannes Fresner" .
 
 odp:Frigo_N
     a foaf:Person ;
@@ -1420,6 +1425,7 @@ odp:Griffay_G
 
 odp:Gronauer_B
     a foaf:Person ;
+    foaf:homepage <https://www.barbara-gronauer.de> ;
     foaf:affil "StrategieInnovation, Hünfeld, Germany" ;
     foaf:name "Barbara Gronauer" .
 
@@ -1478,6 +1484,11 @@ odp:Gurkov_D
     a foaf:Person ;
     foaf:fullname "Гурков Даниил"@ru ;
     foaf:name "Daniil Gurkov" .
+
+odp:Gundlach_C
+    a foaf:Person ;
+    foaf:affil "Germany" ;
+    foaf:name "Carsten Gundlach" .
 
 odp:Guseva_TA
     a foaf:Person ;
@@ -1745,6 +1756,7 @@ odp:Ilyin_IY
 
 odp:Iniotakis_C
     a foaf:Person ;
+    foaf:affil "Germany" ;
     foaf:name "Christian Iniotakis" .
 
 odp:Iqbal_AM
@@ -2553,7 +2565,7 @@ odp:Lau_A
 
 odp:Laue_R
     a foaf:Person ;
-    foaf:affil "Zwickau, Germany" ;
+    foaf:affil "WTH, Zwickau, Germany" ;
     foaf:name "Ralf Laue" .
 
 odp:Lautenschlaeger_S
@@ -2835,7 +2847,7 @@ odp:Lopatin_S
 odp:Lovich_A
     a foaf:Person ;
     foaf:affil "Germany" ;
-    foaf:name "A. Lovich" .
+    foaf:name "Andreas Lovich" .
 
 odp:Lui_K
     a foaf:Person ;
@@ -3015,6 +3027,11 @@ odp:Mazzuchi_TA
     a foaf:Person ;
     foaf:name "T.A. Mazzuchi" .
 
+odp:Meckler_P
+    a foaf:Person ;
+    foaf:affil "PM inno, Germany" ;
+    foaf:name "Peter Meckler" .
+  
 odp:Medvedyev_AV
     a foaf:Person ;
     foaf:affil "Algorithm Ltd., Russia" ;
@@ -3404,6 +3421,11 @@ odp:Orlyanskaya_A
 odp:Oroian_B
     a foaf:Person ;
     foaf:name "Bogdan Oroian" .
+
+odp:Orso_j
+    a foaf:Person ;
+    foaf:affil "Univ. Reutlingen, Germany" ;
+    foaf:name "Jochen Orso" .
 
 odp:Ory_M
     a foaf:Person ;
@@ -3907,7 +3929,7 @@ odp:Ruin_A
 
 odp:Runck_J
     a foaf:Person ;
-    foaf:affil "Linz, Austria" ;
+    foaf:affil "e-pulse, Linz, Austria" ;
     foaf:name "Joachim Runck" .
 
 odp:Russo_D
@@ -4446,7 +4468,7 @@ odp:Souchkov_VV
 
 odp:Spaeth_A
     a foaf:Person ;
-    foaf:affil "FAU Erlangen, Germany" ;
+    foaf:affil "INAM Forchheim, Germany" ;
     foaf:name "Andreas Späth" .
 
 odp:Spasic_I
@@ -4484,6 +4506,11 @@ odp:Starovoitov_VP
 odp:Stasyuk_I
     a foaf:Person ;
     foaf:name "Inna Stasyuk" .
+
+odp:Steinbiss_K
+    a foaf:Person ;
+    foaf:affil "Germany" ;
+    foaf:name "Kristina Steinbiß" .
 
 odp:Stepanchikova_M
     a foaf:Person ;
@@ -4955,7 +4982,7 @@ odp:Weigang_S
 
 odp:Weigert_S
     a foaf:Person ;
-    foaf:affil "Oberhaching, Germany" ;
+    foaf:affil "IBW, Oberhaching, Germany" ;
     foaf:name "Siegfried Weigert" .
 
 odp:Wen_M
@@ -5366,6 +5393,11 @@ odp:Zhou_ZL
     a foaf:Person ;
     foaf:affil "Hubei, PR China"@en ;
     foaf:name "Zhou Zaolin" .
+
+odp:Ziegler_M
+    a foaf:Person ;
+    foaf:affil "Germany" ;
+    foaf:name "Marco Ziegler" .
 
 odp:Ziegltrum_D
     a foaf:Person ;
