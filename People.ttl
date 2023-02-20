@@ -3340,6 +3340,11 @@ odp:Nie_J
     foaf:affil "China" ;
     foaf:name "Jiapeng Nie" .
 
+odp:Nik_ME
+    a foaf:Person ;
+    foaf:affil "Germany" ;
+    foaf:name "Mohammad Ebrahimi Nik" .
+
 odp:Nikashin_AI
     a foaf:Person ;
     foaf:affil "Russia" ;
