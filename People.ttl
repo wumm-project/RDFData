@@ -245,6 +245,7 @@ odp:Bauch_M
 
 odp:Bayer_T
     a foaf:Person ;
+    foaf:affil "Wittenstein SE, Igersheim, Germany" ;
     foaf:name "Thomas Bayer" .
 
 odp:Bdulenko_MK
@@ -412,6 +413,11 @@ odp:Bolotovsky_VN
     a foaf:Person ;
     foaf:fullname "Болотовский В.Н."@ru ;
     foaf:name "V.N. Bolotovsky" .
+
+odp:Bond_o
+    a foaf:Person ;
+    foaf:affil "Fresenius Medical Care, Schweinfurt, Germany" ;
+    foaf:name "Oliver Bond" .
 
 odp:BoratynskaSala_A
     a foaf:Person ;
@@ -1426,6 +1432,8 @@ odp:Griffay_G
 odp:Gronauer_B
     a foaf:Person ;
     foaf:homepage <https://www.barbara-gronauer.de> ;
+    foaf:homepage <https://mindful-innovation.de> ;
+    foaf:homepage <https://triz-akademie.de/> ; 
     foaf:affil "StrategieInnovation, Hünfeld, Germany" ;
     foaf:name "Barbara Gronauer" .
 
@@ -2553,6 +2561,11 @@ odp:Laoh_S
     a foaf:Person ;
     foaf:name "Sascha Láoh" .
 
+odp:Laqua_M
+    a foaf:Person ;
+    foaf:affil "Neckarsulm, Germany" ;
+    foaf:name "Matthias Laqua" .
+
 odp:Lasota_M
     a foaf:Person ;
     foaf:affil "Novismo, Poland" ;
@@ -3247,6 +3260,7 @@ odp:Na_H
 odp:Naehler_HT
     a foaf:Person ;
     foaf:affil "c4pi – Center for Product-Innovation, Hünfeld, Germany" ;
+    foaf:homepage <https://triz-akademie.de/> ; 
     foaf:name "Horst Thomas Nähler" .
 
 odp:Naehter_S
@@ -3427,9 +3441,9 @@ odp:Oroian_B
     a foaf:Person ;
     foaf:name "Bogdan Oroian" .
 
-odp:Orso_j
+odp:Orso_J
     a foaf:Person ;
-    foaf:affil "Univ. Reutlingen, Germany" ;
+    foaf:affil "HS Reutlingen, Germany" ;
     foaf:name "Jochen Orso" .
 
 odp:Ory_M
@@ -3846,6 +3860,11 @@ odp:Rezzaghi_P
     a foaf:Person ;
     foaf:name "Paolo Rezzaghi" .
 
+odp:Rindelhardt_K
+    a foaf:Person ;
+    foaf:affil "Siemns Healthcare, Rudolstadt, Germany" ;
+    foaf:name "Kai Rindelhardt" .
+
 odp:Rivin_E
     a foaf:Person ;
     foaf:name "E. Rivin" .
@@ -3934,7 +3953,7 @@ odp:Ruin_A
 
 odp:Runck_J
     a foaf:Person ;
-    foaf:affil "e-pulse, Linz, Austria" ;
+    foaf:affil "E+E Elektronik, Engerwitzdorf, Austria" ;
     foaf:name "Joachim Runck" .
 
 odp:Russo_D
@@ -4047,7 +4066,7 @@ odp:Scharipov_RH
 
 odp:Schaumann_U
     a foaf:Person ;
-    foaf:affil "Oberderdingen, Germany" ;
+    foaf:affil "EGO Gerätebau, Oberderdingen, Germany" ;
     foaf:name "Uwe Schaumann" .
 
 odp:Scheers_J
@@ -4473,7 +4492,7 @@ odp:Souchkov_VV
 
 odp:Spaeth_A
     a foaf:Person ;
-    foaf:affil "INAM Forchheim, Germany" ;
+    foaf:affil "FAU Erlangen, Germany" ;
     foaf:name "Andreas Späth" .
 
 odp:Spasic_I
@@ -4514,7 +4533,7 @@ odp:Stasyuk_I
 
 odp:Steinbiss_K
     a foaf:Person ;
-    foaf:affil "Germany" ;
+    foaf:affil "HS Reutlingen, Germany" ;
     foaf:name "Kristina Steinbiß" .
 
 odp:Stepanchikova_M
@@ -5259,7 +5278,7 @@ odp:Zasedenets_I
 
 odp:Zeihsel_F
     a foaf:Person ;
-    foaf:affil "Germany" ;
+    foaf:affil "Synnovating GmbH, Kaiserslautern, Germany" ;
     foaf:name "Frank Zeihsel" .
 
 odp:Zhang_E
