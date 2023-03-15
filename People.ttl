@@ -5141,6 +5141,7 @@ odp:Yarygin_A
 odp:Yatsunenko_S
     a foaf:Person ;
     foaf:affil "Novismo, Warsaw, Poland" ;
+    foaf:fullname "Яцуненко Сергей Анатольевич"@ru ;
     foaf:name "Sergey Yatsunenko" .
 
 odp:Yefimov_AV

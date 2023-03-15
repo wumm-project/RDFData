@@ -19,6 +19,16 @@
 od:Youtube-Video a owl:Class ;
    rdfs:label "DCMI Video Metarecord" .
 
+:Danilovsky-20230222
+  a od:Youtube-Video ;
+  dcterms:creator odp:Danilovsky_YE ;
+  dcterms:title "феномен гиганты и карлики раскачивание для генерации энергии"@ru, "the phenomenon of giants and dwarfs rocking to generate energy"@en ;  
+  dcterms:abstract "Tour de force on main topics of a level 1 TRIZ course"@en ; 
+  od:urlVideo <https://www.youtube.com/watch?v=RlxWK8EOF1U> ;
+  dcterms:extent "01:24:33 h" ;
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  dcterms:issued "2023-02-22"^^dcterms:W3CDTF .
+
 :Fey-20190529
   a od:Youtube-Video ;
   dcterms:creator odp:Fey_VR ;
@@ -72,6 +82,15 @@ od:Youtube-Video a owl:Class ;
   dcterms:extent "02:40:12 h" ;
   dcterms:language  "ru"^^dcterms:RFC4646 ;
   dcterms:issued "2017-11-01"^^dcterms:W3CDTF .
+
+:Litvin-20230204
+  a od:Youtube-Video ;
+  dcterms:creator odp:Litvin_SS ;
+  dcterms:title "Практическое применение ТРИЗ на примере проектов компании GEN TRIZ"@ru, "Practical application of TRIZ in GEN TRIZ projects"@en ; 
+  od:urlVideo <https://www.youtube.com/watch?v=wWhUG2KfjE4> ;
+  dcterms:extent "00:54:38 h" ;
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  dcterms:issued "2023-02-04"^^dcterms:W3CDTF .
 
 :Nesterenko-20190619
   a od:Youtube-Video ;
@@ -191,6 +210,17 @@ od:Youtube-Video a owl:Class ;
   rdfs:comment "Published via Souchkov's facebook channel"@en ; 
   dcterms:issued "2020-06-30"^^dcterms:W3CDTF .
 
+:Souchkov-20230301
+  a od:Youtube-Video ;
+  dcterms:creator odp:Souchkov_VV ;
+  dcterms:title "Webinar \"Business TRIZ: Accelerating Business Innovation\""@en ;
+  dcterms:abstract "Monthly Webinar of MATRIZ-Official"@en ;
+  od:urlVideo <https://www.youtube.com/watch?v=3Efd0meMwDk> ;
+  dcterms:extent "00:59:45 h" ;
+  dcterms:language  "en"^^dcterms:RFC4646 ;
+  rdfs:comment "Published via MATRIZ-Official facebook channel"@en ; 
+  dcterms:issued "2023-03-01"^^dcterms:W3CDTF .
+
 :Trizofication-20200707
   a od:Youtube-Video ;
   dcterms:creator odp:Souchkov_VV ;
@@ -225,9 +255,35 @@ od:Youtube-Video a owl:Class ;
 :Zlotin-2018006
   a od:Youtube-Video ;
   dcterms:creator odp:Zlotin_BL ;
-  dcterms:abstract "The emergence of diversion analysis"@en ;
+  dcterms:title "Talk of Boris Zlotin"@en ;   
+  dcterms:abstract """From Youtube abstract (translated to English):
+
+I always listen with interest to an amazing TRIZ Master Boris Zlotin, and
+once, 16 years ago, in 2007, Boris Lvovitch told in great detail how he came
+to TRIZ, how this process developed from the first "TRIZ + FVA department" at
+Electrosila to his move to Chisinau, and then to Detroit of the whole TRIZ
+school.
+
+8 hours of Boris Zlotin's stories about TRIZ formation in 2007. Download from
+<https://disk.yandex.ru/d/JjEG1onOiENOGA> and all transcripts of the talks
+from <http://triz-solver.com/index.php/lyubopytno/182-triz-history>
+
+A special story is about software IWB to support the invention process
+training of a group of Russian and Korean TRIZ experts in Seoul in 2012
+<http://triz-solver.com/index.php/soft>. No one has created anything similar
+to the analytical block "Problem Formulator" so far, which works equally well
+in technical, social or managerial fields. """@en ;
   od:urlVideo <https://www.youtube.com/watch?v=gvIbzSkjhgg> ;
   dcterms:extent "02:27:42 h" ;
   dcterms:language  "ru"^^dcterms:RFC4646 ;
-  rdfs:comment "Published via  MATRIZ Russia channel"@en ; 
   dcterms:issued "2018-04-06"^^dcterms:W3CDTF .
+
+:Zlotin-20221212
+  a od:Youtube-Video ;
+  dcterms:creator odp:Zlotin_BL ;
+  dcterms:abstract "The emergence of diversion analysis"@en ;
+  od:urlVideo <https://www.youtube.com/watch?v=xMg06W3TMWA> ;
+  dcterms:extent "02:18:43 h" ;
+  dcterms:language  "ru"^^dcterms:RFC4646 ;
+  rdfs:comment "Published via  MATRIZ Russia channel"@en ; 
+  dcterms:issued "2022-12-12"^^dcterms:W3CDTF .
