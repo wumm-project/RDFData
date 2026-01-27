@@ -10,7 +10,7 @@
 #################################################################
 
 conf:TFC_2023 a schema:Event ;
-    schema:name "23rd International TRIZ Future Conference (TFC‑2023)" ;
+    schema:name "23rd International TRIZ Future Conference (TFC-2023)" ;
     schema:startDate "2023-09-12"^^xsd:date ;
     schema:endDate "2023-09-14"^^xsd:date ;
     schema:url <https://tfc2023.etria.eu/> ;
@@ -38,7 +38,7 @@ conf:TFC_2023 a schema:Event ;
 #################################################################
 
 conf:TFC_2024 a schema:Event ;
-    schema:name "24th International TRIZ Future Conference (TFC‑2024)" ;
+    schema:name "24th International TRIZ Future Conference (TFC-2024)" ;
     schema:startDate "2024-11-06"^^xsd:date ;
     schema:endDate "2024-11-08"^^xsd:date ;
     schema:url <https://tfc2024.eu/> ;
@@ -75,7 +75,7 @@ conf:TFC_2024 a schema:Event ;
 #################################################################
 
 conf:ITC_2023 a schema:Event ;
-    schema:name "International TRIZ Conference 2023 (ITC‑2023)" ;
+    schema:name "International TRIZ Conference 2023 (ITC-2023)" ;
     schema:startDate "2023-08-30"^^xsd:date ;
     schema:endDate "2023-09-02"^^xsd:date ;
     schema:url <https://www.matriz-official.net/index.php/events/2-uncategorised/31-itc-2023-page> ;
@@ -135,11 +135,11 @@ conf:TRIZfest_2024 a schema:Event ;
     ] .
 
 #################################################################
-# International TRIZ Conference ITC‑2025 (Jeju Island, South Korea)
+# International TRIZ Conference ITC-2025 (Jeju Island, South Korea)
 #################################################################
 
 conf:ITC_2025 a schema:Event ;
-    schema:name "International TRIZ Conference 2025 (ITC‑2025)" ;
+    schema:name "International TRIZ Conference 2025 (ITC-2025)" ;
     schema:startDate "2025-09-25"^^xsd:date ;
     schema:endDate "2025-09-27"^^xsd:date ;
     schema:url <https://www.matriz-official.net/> ;
@@ -151,7 +151,7 @@ conf:ITC_2025 a schema:Event ;
             schema:addressCountry "KR"
         ]
     ] ;
-    schema:description "ITC‑2025, hosted on Jeju Island, South Korea, is an international TRIZ conference organized by MATRIZ Official in collaboration with Korean TRIZ Association and partners, focusing on the integration of TRIZ with AI, intellectual property strategies, technology forecasting, and industry applications." ;
+    schema:description "ITC-2025, hosted on Jeju Island, South Korea, is an international TRIZ conference organized by MATRIZ Official in collaboration with Korean TRIZ Association and partners, focusing on the integration of TRIZ with AI, intellectual property strategies, technology forecasting, and industry applications." ;
     schema:about "TRIZ & AI integration, innovation strategy, global collaboration" ;
     schema:keywords "TRIZ, AI, innovation, problem solving, structured innovation" .
 
@@ -172,16 +172,16 @@ conf:TRIZCON2025 a schema:Event ;
             schema:addressCountry "LV"
         ]
     ] ;
-    schema:description "TRIZCON2025, hosted by the Altshuller Institute for TRIZ Studies and the University of Latvia, is a premier global TRIZ conference covering TRIZ applications across education, manufacturing, science, and AI‑enhanced innovation." ;
+    schema:description "TRIZCON2025, hosted by the Altshuller Institute for TRIZ Studies and the University of Latvia, is a premier global TRIZ conference covering TRIZ applications across education, manufacturing, science, and AI-enhanced innovation." ;
     schema:about "TRIZ development, innovation practice, education, manufacturing" ;
     schema:keywords "TRIZ, inventive problem solving, AI, education, industry" .
 
 #################################################################
-# TRIZfest‑2025 (Yogyakarta, Indonesia)
+# TRIZfest-2025 (Yogyakarta, Indonesia)
 #################################################################
 
 conf:TRIZfest_2025 a schema:Event ;
-    schema:name "TRIZfest‑2025" ;
+    schema:name "TRIZfest-2025" ;
     schema:startDate "2025-11-11"^^xsd:date ;
     schema:endDate "2025-11-14"^^xsd:date ;
     schema:url <https://trizfest.org/> ;
@@ -193,34 +193,34 @@ conf:TRIZfest_2025 a schema:Event ;
             schema:addressCountry "ID"
         ]
     ] ;
-    schema:description "TRIZfest‑2025, the 20th International TRIZ Conference organized by MATRIZ with local partners in Indonesia, brings together TRIZ practitioners and researchers to explore global challenges through systematic innovation, under the theme ‘Connecting Minds, Methods, and Machines’." ;
+    schema:description "TRIZfest-2025, the 20th International TRIZ Conference organized by MATRIZ with local partners in Indonesia, brings together TRIZ practitioners and researchers to explore global challenges through systematic innovation, under the theme ‘Connecting Minds, Methods, and Machines’." ;
     schema:about "systematic innovation, global challenges, multidisciplinary applications" ;
     schema:keywords "TRIZ, community, education, applied innovation" .
 
 #################################################################
-# TRAI 2025 — World Conference of AI‑Powered Innovation and TRIZ Methodology (Paris‑Saclay, France)
+# TRAI 2025 — World Conference of AI-Powered Innovation and TRIZ Methodology (Paris-Saclay, France)
 #################################################################
 
 conf:TRAI_2025 a schema:Event ;
-    schema:name "World Conference of AI‑Powered Innovation and TRIZ Methodology 2025 (TRAI2025)" ;
+    schema:name "World Conference of AI-Powered Innovation and TRIZ Methodology 2025 (TRAI2025)" ;
     schema:startDate "2025-11-05"^^xsd:date ;
     schema:endDate "2025-11-07"^^xsd:date ;
     schema:url <https://trai2025.org/> ;
     schema:location [
         a schema:Place ;
-        schema:name "EDF Innovation Hub, Paris‑Saclay" ;
+        schema:name "EDF Innovation Hub, Paris-Saclay" ;
         schema:address [
             schema:addressLocality "Saclay" ;
-            schema:addressRegion "Île‑de‑France" ;
+            schema:addressRegion "Île-de-France" ;
             schema:addressCountry "FR"
         ]
     ] ;
-    schema:description "TRAI2025 explores synergies between artificial intelligence and TRIZ methodology as a global platform, bringing together researchers and practitioners to discuss hybrid AI‑TRIZ approaches, ethical considerations, and interdisciplinary innovation. The proceedings will be published in the IFIP Advances in Information and Communication Technology series." ;
+    schema:description "TRAI2025 explores synergies between artificial intelligence and TRIZ methodology as a global platform, bringing together researchers and practitioners to discuss hybrid AI-TRIZ approaches, ethical considerations, and interdisciplinary innovation. The proceedings will be published in the IFIP Advances in Information and Communication Technology series." ;
     schema:about "AI and TRIZ hybrid methodologies, interdisciplinary innovation" ;
     schema:keywords "AI, TRIZ, innovation, interdisciplinary research" ;
     schema:workPresented [
         a schema:CreativeWork ;
-        schema:name "World Conference of AI‑Powered Innovation and TRIZ Methodology 2025, Proceedings Part I" ;
+        schema:name "World Conference of AI-Powered Innovation and TRIZ Methodology 2025, Proceedings Part I" ;
         schema:isbn "978-3-032-08847-5" ;
         schema:doi "https://doi.org/10.1007/978-3-032-08847-5" ;
         schema:publisher "Springer Cham" ;
@@ -228,7 +228,7 @@ conf:TRAI_2025 a schema:Event ;
     ] ;
     schema:workPresented [
         a schema:CreativeWork ;
-        schema:name "World Conference of AI‑Powered Innovation and TRIZ Methodology 2025, Proceedings Part II" ;
+        schema:name "World Conference of AI-Powered Innovation and TRIZ Methodology 2025, Proceedings Part II" ;
         schema:isbn "978-3-032-08851-2" ;
         schema:publisher "Springer Cham" ;
         schema:url <https://link.springer.com/book/10.1007/978-3-032-08851-2>
@@ -282,9 +282,9 @@ conf:TDS_2025 a schema:Event ;
 
 ### TRIZfest-2009 (St. Petersburg, Russia)
 conf:TRIZfest_2009 a schema:Event ;
-    schema:name "TRIZfest‑2009" ;
+    schema:name "TRIZfest-2009" ;
     schema:startDate "2009-07-25"^^xsd:date ;
-    schema:endDate "2009-07‑29"^^xsd:date ;
+    schema:endDate "2009-07-29"^^xsd:date ;
     schema:location [
         a schema:Place ;
         schema:name "St. Petersburg" ;
@@ -293,221 +293,221 @@ conf:TRIZfest_2009 a schema:Event ;
     schema:description "The inaugural TRIZfest conference brought together TRIZ practitioners and researchers to share early experiences and methodological advances." ;
     schema:url <https://trizfest.org/> ;
     schema:workPresented [
-        a schema:CreativeWork ; schema:name "TRIZfest‑2009 Proceedings" ;
+        a schema:CreativeWork ; schema:name "TRIZfest-2009 Proceedings" ;
         schema:url <https://matriz.org/wp-content/uploads/2009/TRIZfest-2009-Proceedings.pdf>
     ] .
 
 ### TRIZfest-2011 (St. Petersburg, Russia)
 conf:TRIZfest_2011 a schema:Event ;
-    schema:name "TRIZfest‑2011" ;
-    schema:startDate "2011-07‑24"^^xsd:date ;
-    schema:endDate "2011‑07‑26"^^xsd:date ;
+    schema:name "TRIZfest-2011" ;
+    schema:startDate "2011-07-24"^^xsd:date ;
+    schema:endDate "2011-07-26"^^xsd:date ;
     schema:location [
         a schema:Place ; schema:name "St. Petersburg" ;
         schema:address [ schema:addressCountry "RU" ]
     ] ;
-    schema:description "TRIZfest‑2011 continued the tradition of international exchange on TRIZ theory and practice in Russia." ;
+    schema:description "TRIZfest-2011 continued the tradition of international exchange on TRIZ theory and practice in Russia." ;
     schema:url <https://trizfest.org/> .
 
 ### TRIZfest-2012 (Lappeenranta, Finland)
 conf:TRIZfest_2012 a schema:Event ;
-    schema:name "TRIZfest‑2012" ;
-    schema:startDate "2012-08‑02"^^xsd:date ;
-    schema:endDate "2012‑08‑04"^^xsd:date ;
+    schema:name "TRIZfest-2012" ;
+    schema:startDate "2012-08-02"^^xsd:date ;
+    schema:endDate "2012-08-04"^^xsd:date ;
     schema:location [
         a schema:Place ; schema:name "Lappeenranta" ;
         schema:address [ schema:addressCountry "FI" ]
     ] ;
-    schema:description "TRIZfest‑2012 expanded TRIZfest into Northern Europe with sessions on applied innovation." ;
+    schema:description "TRIZfest-2012 expanded TRIZfest into Northern Europe with sessions on applied innovation." ;
     schema:url <https://trizfest.org/> .
 
 ### TRIZfest-2013 (Kiev, Ukraine)
 conf:TRIZfest_2013 a schema:Event ;
-    schema:name "TRIZfest‑2013" ;
-    schema:startDate "2013‑08‑01"^^xsd:date ;
-    schema:endDate "2013‑08‑03"^^xsd:date ;
+    schema:name "TRIZfest-2013" ;
+    schema:startDate "2013-08-01"^^xsd:date ;
+    schema:endDate "2013-08-03"^^xsd:date ;
     schema:location [
         a schema:Place ; schema:name "Kiev" ;
         schema:address [ schema:addressCountry "UA" ]
     ] ;
-    schema:description "TRIZfest‑2013 featured international speakers and reports on TRIZ methodology adaptation and applications in Eastern Europe." ;
+    schema:description "TRIZfest-2013 featured international speakers and reports on TRIZ methodology adaptation and applications in Eastern Europe." ;
     schema:url <https://trizfest.org/> ;
     schema:workPresented [
-        a schema:CreativeWork ; schema:name "TRIZfest‑2013 Report" ;
+        a schema:CreativeWork ; schema:name "TRIZfest-2013 Report" ;
         schema:url <https://matriz.org/wp-content/uploads/2013/TRIZfest-2013-Report.pdf>
     ] .
 
 ### TRIZfest-2014 (Prague, Czech Republic)
 conf:TRIZfest_2014 a schema:Event ;
-    schema:name "TRIZfest‑2014" ;
-    schema:startDate "2014‑09‑04"^^xsd:date ;
-    schema:endDate "2014‑09‑06"^^xsd:date ;
+    schema:name "TRIZfest-2014" ;
+    schema:startDate "2014-09-04"^^xsd:date ;
+    schema:endDate "2014-09-06"^^xsd:date ;
     schema:location [
         a schema:Place ; schema:name "Prague" ;
         schema:address [ schema:addressCountry "CZ" ]
     ] ;
-    schema:description "TRIZfest‑2014 brought TRIZ expertise to Central Europe with diverse presentations and discussions." ;
+    schema:description "TRIZfest-2014 brought TRIZ expertise to Central Europe with diverse presentations and discussions." ;
     schema:url <https://trizfest.org/> ;
     schema:workPresented [
-        a schema:CreativeWork ; schema:name "TRIZfest‑2014 Proceedings" ;
+        a schema:CreativeWork ; schema:name "TRIZfest-2014 Proceedings" ;
         schema:url <https://matriz.org/wp-content/uploads/2014/TRIZfest-2014-Proceedings.pdf>
     ] .
 
 ### TRIZfest-2015 (Seoul, South Korea)
 conf:TRIZfest_2015 a schema:Event ;
-    schema:name "TRIZfest‑2015" ;
-    schema:startDate "2015‑09‑10"^^xsd:date ;
-    schema:endDate "2015‑09‑12"^^xsd:date ;
+    schema:name "TRIZfest-2015" ;
+    schema:startDate "2015-09-10"^^xsd:date ;
+    schema:endDate "2015-09-12"^^xsd:date ;
     schema:location [
         a schema:Place ; schema:name "Seoul" ;
         schema:address [ schema:addressCountry "KR" ]
     ] ;
-    schema:description "TRIZfest‑2015 included reports on TRIZ application in Asia and fostered regional collaboration." ;
+    schema:description "TRIZfest-2015 included reports on TRIZ application in Asia and fostered regional collaboration." ;
     schema:url <https://trizfest.org/> ;
     schema:workPresented [
-        a schema:CreativeWork ; schema:name "TRIZfest‑2015 Proceedings" ;
+        a schema:CreativeWork ; schema:name "TRIZfest-2015 Proceedings" ;
         schema:url <https://matriz.org/wp-content/uploads/2015/TRIZfest-2015-Proceedings.pdf>
     ] .
 
 ### TRIZfest-2016 (Beijing, China)
 conf:TRIZfest_2016 a schema:Event ;
-    schema:name "TRIZfest‑2016" ;
-    schema:startDate "2016‑07‑28"^^xsd:date ;
-    schema:endDate "2016‑07‑30"^^xsd:date ;
+    schema:name "TRIZfest-2016" ;
+    schema:startDate "2016-07-28"^^xsd:date ;
+    schema:endDate "2016-07-30"^^xsd:date ;
     schema:location [
         a schema:Place ; schema:name "Beijing" ;
         schema:address [ schema:addressCountry "CN" ]
     ] ;
-    schema:description "TRIZfest‑2016 gathered TRIZ professionals in China to discuss frontier developments and applications." ;
+    schema:description "TRIZfest-2016 gathered TRIZ professionals in China to discuss frontier developments and applications." ;
     schema:url <https://trizfest.org/> ;
     schema:workPresented [
-        a schema:CreativeWork ; schema:name "TRIZfest‑2016 Proceedings" ;
+        a schema:CreativeWork ; schema:name "TRIZfest-2016 Proceedings" ;
         schema:url <https://matriz.org/wp-content/uploads/2016/TRIZfest-2016-Proceedings.pdf>
     ] .
 
 ### TRIZfest-2017 (Kraków, Poland)
 conf:TRIZfest_2017 a schema:Event ;
-    schema:name "TRIZfest‑2017" ;
-    schema:startDate "2017‑09‑14"^^xsd:date ;
-    schema:endDate "2017‑09‑16"^^xsd:date ;
+    schema:name "TRIZfest-2017" ;
+    schema:startDate "2017-09-14"^^xsd:date ;
+    schema:endDate "2017-09-16"^^xsd:date ;
     schema:location [
         a schema:Place ; schema:name "Kraków" ;
         schema:address [ schema:addressCountry "PL" ]
     ] ;
-    schema:description "TRIZfest‑2017 featured sessions on TRIZ research, case studies, and practical implementation in industry." ;
+    schema:description "TRIZfest-2017 featured sessions on TRIZ research, case studies, and practical implementation in industry." ;
     schema:url <https://trizfest.org/> ;
     schema:workPresented [
-        a schema:CreativeWork ; schema:name "TRIZfest‑2017 Proceedings" ;
+        a schema:CreativeWork ; schema:name "TRIZfest-2017 Proceedings" ;
         schema:url <https://matriz.org/wp-content/uploads/2017/TRIZfest-2017-Proceedings.pdf>
     ] .
 
 ### TRIZfest-2018 (Lisbon, Portugal)
 conf:TRIZfest_2018 a schema:Event ;
-    schema:name "TRIZfest‑2018" ;
-    schema:startDate "2018‑09‑13"^^xsd:date ;
-    schema:endDate "2018‑09‑15"^^xsd:date ;
+    schema:name "TRIZfest-2018" ;
+    schema:startDate "2018-09-13"^^xsd:date ;
+    schema:endDate "2018-09-15"^^xsd:date ;
     schema:location [
         a schema:Place ; schema:name "Lisbon" ;
         schema:address [ schema:addressCountry "PT" ]
     ] ;
-    schema:description "TRIZfest‑2018 brought together European and global TRIZ stakeholders for knowledge sharing and collaboration." ;
+    schema:description "TRIZfest-2018 brought together European and global TRIZ stakeholders for knowledge sharing and collaboration." ;
     schema:url <https://trizfest.org/> ;
     schema:workPresented [
-        a schema:CreativeWork ; schema:name "TRIZfest‑2018 Proceedings" ;
+        a schema:CreativeWork ; schema:name "TRIZfest-2018 Proceedings" ;
         schema:url <https://matriz.org/wp-content/uploads/2018/TRIZfest-2018-Proceedings.pdf>
     ] .
 
 ### TRIZfest-2019 (Heilbronn, Germany)
 conf:TRIZfest_2019 a schema:Event ;
-    schema:name "TRIZfest‑2019" ;
-    schema:startDate "2019‑09‑11"^^xsd:date ;
-    schema:endDate "2019‑09‑14"^^xsd:date ;
+    schema:name "TRIZfest-2019" ;
+    schema:startDate "2019-09-11"^^xsd:date ;
+    schema:endDate "2019-09-14"^^xsd:date ;
     schema:location [
         a schema:Place ; schema:name "Heilbronn" ;
         schema:address [ schema:addressCountry "DE" ]
     ] ;
-    schema:description "TRIZfest‑2019 continued the annual tradition of international exchange on TRIZ methods and innovations." ;
+    schema:description "TRIZfest-2019 continued the annual tradition of international exchange on TRIZ methods and innovations." ;
     schema:url <https://trizfest.org/> ;
     schema:workPresented [
-        a schema:CreativeWork ; schema:name "TRIZfest‑2019 Proceedings" ;
+        a schema:CreativeWork ; schema:name "TRIZfest-2019 Proceedings" ;
         schema:url <https://matriz.org/wp-content/uploads/2019/TRIZfest-2019-Proceedings.pdf>
     ] .
 
 ### TRIZfest-2021 (Online)
 conf:TRIZfest_2021 a schema:Event ;
-    schema:name "TRIZfest‑2021" ;
-    schema:startDate "2021‑09‑15"^^xsd:date ;
-    schema:endDate "2021‑09‑18"^^xsd:date ;
+    schema:name "TRIZfest-2021" ;
+    schema:startDate "2021-09-15"^^xsd:date ;
+    schema:endDate "2021-09-18"^^xsd:date ;
     schema:location [
         a schema:Place ; schema:name "Online"
     ] ;
-    schema:description "TRIZfest‑2021 adapted to an online format and featured global TRIZ case studies, tools, and pedagogical sessions." ;
+    schema:description "TRIZfest-2021 adapted to an online format and featured global TRIZ case studies, tools, and pedagogical sessions." ;
     schema:url <https://trizfest.org/> ;
     schema:workPresented [
-        a schema:CreativeWork ; schema:name "TRIZfest‑2021 Proceedings" ;
+        a schema:CreativeWork ; schema:name "TRIZfest-2021 Proceedings" ;
         schema:url <https://matriz.org/wp-content/uploads/2021/TRIZfest-2021-Proceedings.pdf>
     ] .
 
 ### TRIZfest-2022 (Graz, Austria)
 conf:TRIZfest_2022 a schema:Event ;
-    schema:name "TRIZfest‑2022" ;
-    schema:startDate "2022‑08‑31"^^xsd:date ;
-    schema:endDate "2022‑09‑03"^^xsd:date ;
+    schema:name "TRIZfest-2022" ;
+    schema:startDate "2022-08-31"^^xsd:date ;
+    schema:endDate "2022-09-03"^^xsd:date ;
     schema:location [
         a schema:Place ; schema:name "Graz" ;
         schema:address [ schema:addressCountry "AT" ]
     ] ;
-    schema:description "TRIZfest‑2022 featured sessions on TRIZ in education and professional deployment in Europe." ;
+    schema:description "TRIZfest-2022 featured sessions on TRIZ in education and professional deployment in Europe." ;
     schema:url <https://trizfest.org/> ;
     schema:workPresented [
-        a schema:CreativeWork ; schema:name "TRIZfest‑2022 Proceedings" ;
+        a schema:CreativeWork ; schema:name "TRIZfest-2022 Proceedings" ;
         schema:url <https://matriz.org/wp-content/uploads/2022/TRIZfest-2022-Proceedings.pdf>
     ] .
 
 ### TRIZfest-2023 (Bengaluru, India)
 conf:TRIZfest_2023 a schema:Event ;
-    schema:name "TRIZfest‑2023" ;
-    schema:startDate "2023‑09‑14"^^xsd:date ;
-    schema:endDate "2023‑09‑17"^^xsd:date ;
+    schema:name "TRIZfest-2023" ;
+    schema:startDate "2023-09-14"^^xsd:date ;
+    schema:endDate "2023-09-17"^^xsd:date ;
     schema:location [
         a schema:Place ; schema:name "Bengaluru" ;
         schema:address [ schema:addressCountry "IN" ]
     ] ;
-    schema:description "TRIZfest‑2023 was held in Bengaluru, featuring a robust program of TRIZ case studies, industry engagement, and global networking opportunities." ; 
+    schema:description "TRIZfest-2023 was held in Bengaluru, featuring a robust program of TRIZ case studies, industry engagement, and global networking opportunities." ; 
     schema:url <https://trizfest.org/> ;
     schema:workPresented [
-        a schema:CreativeWork ; schema:name "TRIZfest‑2023 Report" ;
+        a schema:CreativeWork ; schema:name "TRIZfest-2023 Report" ;
         schema:url <https://matriz.org/wp-content/uploads/2023/TRIZfest-2023-Report.pdf>
     ] .
 
 ### TRIZfest-2024 (Kuching, Malaysia)
 conf:TRIZfest_2024 a schema:Event ;
-    schema:name "TRIZfest‑2024" ;
-    schema:startDate "2024‑09‑04"^^xsd:date ;
-    schema:endDate "2024‑09‑06"^^xsd:date ;
+    schema:name "TRIZfest-2024" ;
+    schema:startDate "2024-09-04"^^xsd:date ;
+    schema:endDate "2024-09-06"^^xsd:date ;
     schema:location [
         a schema:Place ; schema:name "Kuching" ;
         schema:address [ schema:addressCountry "MY" ]
     ] ;
-    schema:description "TRIZfest‑2024 featured global participation, tutorials, and practical innovation sessions, fostering knowledge exchange across industries and academia." ; 
+    schema:description "TRIZfest-2024 featured global participation, tutorials, and practical innovation sessions, fostering knowledge exchange across industries and academia." ; 
     schema:url <https://trizfest.org/> ;
     schema:workPresented [
-        a schema:CreativeWork ; schema:name "TRIZfest‑2024 Report" ;
+        a schema:CreativeWork ; schema:name "TRIZfest-2024 Report" ;
         schema:url <https://matriz.org/wp-content/uploads/2024/TRIZfest-2024-Report.pdf>
     ] .
 
 ### TRIZfest-2025 (Yogyakarta, Indonesia)
 conf:TRIZfest_2025 a schema:Event ;
-    schema:name "TRIZfest‑2025" ;
-    schema:startDate "2025‑11‑11"^^xsd:date ;
-    schema:endDate "2025‑11‑14"^^xsd:date ;
+    schema:name "TRIZfest-2025" ;
+    schema:startDate "2025-11-11"^^xsd:date ;
+    schema:endDate "2025-11-14"^^xsd:date ;
     schema:location [
         a schema:Place ; schema:name "Yogyakarta" ;
         schema:address [ schema:addressCountry "ID" ]
     ] ;
-    schema:description "TRIZfest‑2025 convened in Yogyakarta under the theme “Connecting Minds, Methods, and Machines to Co‑Create Innovations for Global Challenges,” bringing together TRIZ professionals and enthusiasts." ; 
+    schema:description "TRIZfest-2025 convened in Yogyakarta under the theme “Connecting Minds, Methods, and Machines to Co-Create Innovations for Global Challenges,” bringing together TRIZ professionals and enthusiasts." ; 
     schema:url <https://trizfest.org/> ;
     schema:workPresented [
-        a schema:CreativeWork ; schema:name "TRIZfest‑2025 Report" ;
+        a schema:CreativeWork ; schema:name "TRIZfest-2025 Report" ;
         schema:url <https://matriz.org/wp-content/uploads/2025/TRIZfest-2025-Report.pdf>
     ] .
