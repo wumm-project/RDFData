@@ -12,6 +12,12 @@
     cc:attributionURL <http://opendiscovery.org> ;
     cc:license <http://www.apache.org/licenses/LICENSE-2.0> .
 
+<http://opendiscovery.org/rdf/ConferenceSeries/ITC>
+    a od:ConferenceSeries ;
+    rdfs:label "International TRIZ Conference" ;
+    rdfs:seeAlso <https://www.matriz-official.net> ;
+    od:description "This series of conferences is organized by MATRIZ-Official." .
+
 <http://opendiscovery.org/rdf/ConferenceSeries/BTO>
     a od:ConferenceSeries ;
     rdfs:label "Business TRIZ Online" ;

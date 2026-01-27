@@ -6,6 +6,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix conf: <http://opendiscovery.org/rdf/Conferences/> .
 
 <http://opendiscovery.org/rdf/PastConferences/>
     cc:attributionName "The Open Discovery Project" ;
